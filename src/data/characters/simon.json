@@ -1,0 +1,1328 @@
+{
+  "name": "Simon",
+  "slug": "simon",
+  "epithet": "Thrill-seeking mercenary",
+  "faction": "Tale of the Moon",
+  "homeRoute": "Dietrich",
+  "weapons": [
+    "Axe",
+    "Sword"
+  ],
+  "preferred": [
+    "Axe",
+    "Infantry",
+    "Sword"
+  ],
+  "personality": "A womanizing mercenary who lives for the thrill of battle and his hometown's food.",
+  "story": "A 31-year-old mercenary from Lavernaa hired by Talimun of Vandahl Trading in 1449. Recruiting him involves a coin flip; pick Tails.",
+  "personalSkill": {
+    "name": "Close Call",
+    "effect": "If unit's HP >= 2 and damage would reduce it to 0, leaves unit with 1 HP. Trigger % = Lck. Lv 20: Devil's Luck (Lck+1 per defeated foe, max +10); Lv 35: Devil's Luck+ (Lck+2 per foe, max +10)."
+  },
+  "growths": {
+    "HP": 50,
+    "Str": 50,
+    "Mag": 20,
+    "Spd": 35,
+    "Dex": 40,
+    "Def": 40,
+    "Res": 25,
+    "Lck": 50,
+    "Cha": 35
+  },
+  "supports": [
+    "Fianna",
+    "Lilian",
+    "Ludia",
+    "Mikaela",
+    "Ninae",
+    "Talimun",
+    "Theodora",
+    "Ursula",
+    "Zarcone"
+  ],
+  "tiers": [
+    {
+      "source": "KeenGamer",
+      "tier": "A"
+    },
+    {
+      "source": "Pocket Tactics",
+      "tier": "B"
+    }
+  ],
+  "tierNotes": "KeenGamer: A tier (survivor; Close Call triggers on Lck). Pocket Tactics: B tier. Reddit: solid; Shido lacks Part III Spd, Warrior recommended (single report).",
+  "recruit": {
+    "how": "recruit",
+    "support": 3,
+    "renown": 7,
+    "extra": "Coin flip: pick Tails",
+    "why": [
+      "Support 3 is as low as it gets for Simon. Leda (Renown 6) would be a little earlier, but that roster was already full, so Dietrich keeps the four armies level."
+    ],
+    "tip": "Call Tails on the coin flip."
+  },
+  "requirements": {
+    "Cai": "3S 8R",
+    "Dietrich": "3S 7R",
+    "Theodora": "3S 7R",
+    "Leda": "3S 6R"
+  },
+  "build": {
+    "role": "Lucky axe and sword bruiser",
+    "path": [
+      "Gladiator",
+      "Brigand",
+      "Warrior"
+    ],
+    "part1Target": "Brigand (Warrior in Part II Ch 1 to 2)",
+    "part3Target": "Battlemaster (The Eternal if the Divine slot is free)",
+    "notes": "Joins at about Lv 15 in a Beginner class (Gladiator; Ch 8), Brigand at Lv 20 (Axe C, Sword C), Warrior in Part II Ch 1 to 2 (Lv 35; Gauntlet B, Axe B, Sword B). Arena-train Gauntlet from recruit. Master Regroup, then Practiced Art (Hit +10 on Combat Arts). HP, Str and Lck feed Close Call.",
+    "confidence": "high"
+  },
+  "guide": {
+    "summary": "Lucky axe and sword bruiser whose Close Call keeps him alive at 1 HP. Brigand in Part I, Warrior in Part II Ch 1 to 2 once Gauntlet reaches B.",
+    "stages": [
+      {
+        "when": "Join (late Ch 8, Lv 15) to Lv 20",
+        "from": {
+          "part": 1,
+          "ch": 8,
+          "at": "late"
+        },
+        "to": {
+          "lv": 20
+        },
+        "class": "Gladiator",
+        "training": [
+          {
+            "rank": "Axe C, Sword C",
+            "for": "Brigand exam",
+            "how": "Arena Warrior Training (Sword, Axe, Gauntlet)"
+          }
+        ],
+        "tips": [
+          "Call Tails on the recruit coin flip",
+          "Start Gauntlet now: Arena Warrior Training and gauntlets in battle"
+        ],
+        "weapons": [
+          {
+            "item": "Iron Axe"
+          },
+          {
+            "item": "Iron Sword"
+          },
+          {
+            "item": "Iron Gauntlets",
+            "plan": "Use in battle for Gauntlet EXP"
+          }
+        ],
+        "items": [
+          {
+            "item": "Concoction",
+            "why": "40 HP x2",
+            "alts": [
+              "Vulnerary"
+            ]
+          }
+        ],
+        "arts": [
+          {
+            "name": "Spike",
+            "why": "Hit +10; Axe D per community sheet"
+          },
+          {
+            "name": "Mighty Fist",
+            "why": "Hit +10; Gauntlet D per community sheet"
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Attack Basics",
+            "why": "Gladiator mastery, Str +1, once mastered"
+          },
+          {
+            "name": "Axes Lv. 1",
+            "why": "Hit +3 with axes, once the Axe rank unlocks it"
+          },
+          {
+            "name": "Fists Lv. 1",
+            "why": "Hit +3 with gauntlets (Gauntlet D+)"
+          }
+        ],
+        "goal": "Close Call (survive at 1 HP, trigger = Lck) is always on: pull him back the turn it fires.",
+        "level": "About Lv 15 on join",
+        "why": [
+          "Take the Gladiator exam only if he joins in another class"
+        ],
+        "exit": "Lv 20, Axe C, Sword C (Ch 9): Brigand exam"
+      },
+      {
+        "when": "Lv 20 (Ch 9) to Ch 12",
+        "from": {
+          "part": 1,
+          "ch": 9
+        },
+        "to": {
+          "part": 1,
+          "ch": 12
+        },
+        "class": "Brigand",
+        "training": [
+          {
+            "rank": "Gauntlet B, Axe B, Sword B",
+            "for": "Warrior: Part II exam (Ch 1, or Ch 2 if he's under Lv 35)",
+            "how": "Arena Warrior Training (Sword, Axe, Gauntlet); gauntlets in battle"
+          }
+        ],
+        "weapons": [
+          {
+            "item": "Da Mina Axe"
+          },
+          {
+            "item": "Short Axe"
+          },
+          {
+            "item": "Jamadhars"
+          },
+          {
+            "item": "Iron Sword",
+            "why": "Sword EXP toward Warrior's Sword B"
+          }
+        ],
+        "arts": [
+          {
+            "name": "Enrage",
+            "why": "Str stacking; Axe C per community sheet"
+          },
+          {
+            "name": "Battle Blow",
+            "why": "Atk +3 at full HP; Gauntlet C per community sheet"
+          },
+          {
+            "name": "Hidden Soulrend",
+            "why": "Teach Secrets; heals half the damage dealt"
+          },
+          {
+            "name": "Spike",
+            "why": "Hit +10; Axe D per community sheet"
+          },
+          {
+            "name": "Mighty Fist",
+            "why": "Hit +10; Gauntlet D per community sheet"
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Regroup",
+            "why": "Brigand mastery; Avo +20 after a miss, once mastered"
+          },
+          {
+            "name": "Devil's Luck",
+            "why": "Personal Lv 20 ability: After defeating a foe, grants Lck+1 until the end of the map. (Max..."
+          },
+          {
+            "name": "Attack Basics",
+            "why": "Gladiator mastery, Str +1"
+          },
+          {
+            "name": "Axes Lv. 1",
+            "why": "Hit +3 with axes"
+          },
+          {
+            "name": "Fists Lv. 1",
+            "why": "Hit +3 with gauntlets"
+          }
+        ],
+        "drop": [
+          {
+            "item": "Iron Axe",
+            "why": "Replaced by the Da Mina Axe"
+          },
+          {
+            "item": "Iron Gauntlets",
+            "why": "Replaced by the Jamadhars, which also train Gauntlet"
+          }
+        ],
+        "goal": "Devil's Luck (Lv 20): Lck +1 per kill (max +10) raises Close Call's trigger: give him early kills, and the Victory Gem heals after each one.",
+        "equipment": [
+          {
+            "item": "Victory Gem",
+            "why": "Heals a little after each kill; light (Wt 3)",
+            "slot": "Accessory"
+          }
+        ],
+        "items": [
+          {
+            "item": "Concoction",
+            "why": "40 HP x2; Part II stock",
+            "alts": [
+              "Vulnerary"
+            ]
+          }
+        ],
+        "tips": [
+          "Not on Dietrich's 8-unit Part I Advanced list: he joins at about Lv 15 in late Ch 8 and ends Part I around Lv 30, so Warrior waits for Part II"
+        ],
+        "exit": "Lv 35 and Gauntlet B: Warrior exam in Part II Ch 1 to 2"
+      },
+      {
+        "when": "Part II Ch 1 to 2 (Advanced)",
+        "from": {
+          "part": 2,
+          "ch": 1
+        },
+        "to": {
+          "part": 2,
+          "ch": 2
+        },
+        "class": "Warrior",
+        "tips": [
+          "Hold Brigand for the Ch 1 Army Training (Str), then take Warrior at Lv 35 (Ch 1, or Ch 2 after the next training)",
+          "Training Drills push levels to about 37 to 42 and each chapter gives 5 Advanced Licenses",
+          "Equip the Da Mina Axe before leaving Part I"
+        ],
+        "weapons": [
+          {
+            "item": "Silver Axe",
+            "why": "Mt 23, Wt 9 once Axe B",
+            "alts": [
+              "Da Mina Axe"
+            ],
+            "plan": "Equip before Part I ends"
+          },
+          {
+            "item": "Short Axe"
+          },
+          {
+            "item": "Jamadhars"
+          },
+          {
+            "item": "Iron Sword",
+            "why": "Backup sword"
+          }
+        ],
+        "arts": [
+          {
+            "name": "Enrage",
+            "why": "Str stacking; Axe C per community sheet"
+          },
+          {
+            "name": "Battle Blow",
+            "why": "Atk +3 at full HP; Gauntlet C per community sheet"
+          },
+          {
+            "name": "Hidden Soulrend",
+            "why": "Teach Secrets; heals half the damage dealt"
+          },
+          {
+            "name": "Spike",
+            "why": "Hit +10; Axe D per community sheet"
+          },
+          {
+            "name": "Mighty Fist",
+            "why": "Hit +10; Gauntlet D per community sheet"
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Practiced Art",
+            "why": "Warrior mastery, Hit +10 on arts, once mastered"
+          },
+          {
+            "name": "Devil's Luck+",
+            "why": "Personal Lv 35 ability: After defeating a foe, grants Lck+2 until the end of the map. (Max..."
+          },
+          {
+            "name": "Regroup",
+            "why": "Brigand mastery; Avo +20 after a miss"
+          },
+          {
+            "name": "Attack Basics",
+            "why": "Gladiator mastery, Str +1"
+          },
+          {
+            "name": "Axes Lv. 1",
+            "why": "Hit +3 with axes"
+          }
+        ],
+        "goal": "Devil's Luck+ (Lv 35): Lck +2 per kill (max +10): open each map with kills so Close Call fires more, with the Victory Gem healing between them.",
+        "equipment": [
+          {
+            "item": "Victory Gem",
+            "why": "Heals a little after each kill; light (Wt 3)",
+            "slot": "Accessory"
+          }
+        ],
+        "items": [
+          {
+            "item": "Concoction",
+            "why": "40 HP x2",
+            "plan": "Carried from Ch 12 (no shops in Part II)"
+          }
+        ],
+        "drop": [
+          {
+            "item": "Da Mina Axe",
+            "why": "Silver Axe's fallback (in its alts)"
+          }
+        ],
+        "exit": "Part III: Battlemaster (The Eternal if the Divine slot is free)"
+      },
+      {
+        "when": "Part III goal",
+        "from": {
+          "part": 3
+        },
+        "class": "Battlemaster",
+        "training": [
+          {
+            "rank": "Gauntlet A, Axe A, Sword A",
+            "for": "Battlemaster (Lv 45)",
+            "how": "Arena and battle"
+          },
+          {
+            "rank": "Gauntlet S, Axe S, Sword S",
+            "for": "The Eternal (Scales of Judgement, Prophet's Chamber)",
+            "how": "Arena and battle; all 5 Keys of the Diadem"
+          }
+        ],
+        "weapons": [
+          {
+            "item": "Silver Axe",
+            "why": "Mt 23, Wt 9",
+            "alts": [
+              "Da Mina Axe"
+            ]
+          },
+          {
+            "item": "Short Axe"
+          }
+        ],
+        "arts": [
+          {
+            "name": "Enrage",
+            "why": "Str stacking; Axe C per community sheet"
+          },
+          {
+            "name": "Battle Blow",
+            "why": "Atk +3 at full HP; Gauntlet C per community sheet"
+          },
+          {
+            "name": "Hidden Soulrend",
+            "why": "Teach Secrets; heals half the damage dealt"
+          },
+          {
+            "name": "Spike",
+            "why": "Hit +10; Axe D per community sheet"
+          },
+          {
+            "name": "Mighty Fist",
+            "why": "Hit +10; Gauntlet D per community sheet"
+          }
+        ],
+        "abilities": [
+          {
+            "name": "War Master's Strike",
+            "why": "Battlemaster mastery, damage x1.5, once mastered"
+          },
+          {
+            "name": "Devil's Luck+",
+            "why": "Personal Lv 35 ability: After defeating a foe, grants Lck+2 until the end of the map. (Max..."
+          },
+          {
+            "name": "Divine Might",
+            "why": "The Eternal mastery, Str +10, once The Eternal is mastered"
+          },
+          {
+            "name": "Practiced Art",
+            "why": "Warrior mastery, Hit +10 on arts"
+          },
+          {
+            "name": "Regroup",
+            "why": "Brigand mastery; Avo +20 after a miss"
+          }
+        ],
+        "drop": [
+          {
+            "item": "Attack Basics",
+            "why": "Slot goes to War Master's Strike"
+          },
+          {
+            "item": "Da Mina Axe",
+            "why": "Silver Axe's fallback (in its alts)"
+          },
+          {
+            "item": "Jamadhars",
+            "why": "Smyrnos's Channels takes the gauntlet arts at Wt 1"
+          },
+          {
+            "item": "Iron Sword",
+            "why": "Warrior ranks are done; the Channels are his light weapon"
+          }
+        ],
+        "goal": "Devil's Luck+ (Lck +2 per kill) plus the Goddess Ring's Lck +5 push Close Call toward its cap; War Master's Strike turns the kills into x1.5 damage.",
+        "equipment": [
+          {
+            "item": "Goddess Ring",
+            "why": "Lck +5 raises Close Call's trigger; gets the one chest copy",
+            "alts": [
+              "Victory Gem"
+            ],
+            "slot": "Accessory"
+          }
+        ],
+        "items": [
+          {
+            "item": "Elixir",
+            "why": "100 HP for a front-line bruiser",
+            "alts": [
+              "Concoction"
+            ]
+          }
+        ],
+        "exit": "Final class."
+      }
+    ],
+    "arts": [
+      {
+        "name": "Power Spike",
+        "why": "Mt +12, Hit +10; Axe A per community sheet"
+      },
+      {
+        "name": "Destreza",
+        "why": "Sword C per community sheet"
+      },
+      {
+        "name": "Hidden Soulrend",
+        "why": "Sustain"
+      }
+    ],
+    "abilities": [
+      {
+        "name": "Practiced Art",
+        "why": "Arts accuracy"
+      },
+      {
+        "name": "Regroup",
+        "why": "Avo after misses"
+      },
+      {
+        "name": "Attack Basics",
+        "why": "Str +1"
+      }
+    ],
+    "specials": [
+      "HP, Str and Lck growths (50 each) all feed Close Call",
+      "Warrior waits for Part II Ch 1 to 2; Gauntlet B is the slow rank"
+    ],
+    "sources": [
+      "class plan v3",
+      "weapons-and-items",
+      "combat-arts-and-abilities",
+      "character-learnsets",
+      "class-data",
+      "Dietrich Ch 4 to 9 walkthrough",
+      "Part II and III walkthroughs"
+    ],
+    "watch": [
+      "Axes cost AS: Silver Axe 9, Da Mina Axe 10, Short Axe 12, plus Victory Gem 3 (12 to 15 total). Smyrnos's Channels 1 + Goddess Ring 3 = 4 in Part III and Iron Sword 4 are the doubling options.",
+      "6/6 from Ch 9: no room for swaps; the Iron Sword is the first cut once Sword B is done."
+    ],
+    "decisions": [
+      {
+        "topic": "Hold Brigand into Part II",
+        "pick": "Brigand in Part I, Warrior in Part II Ch 1 to 2",
+        "why": "He joins late Ch 8 at about Lv 15 into the Warrior role Mikaela holds. Brigand grows Str through Army Training; Gauntlet B comes from the Arena Warrior course plus gauntlet fights.",
+        "else": "Warrior in Ch 2 if the Lv 34 floor leaves him short; The Eternal in Part III if the Divine slot is free"
+      }
+    ],
+    "gates": [
+      {
+        "route": "Dietrich",
+        "from": {
+          "part": 1,
+          "ch": 6
+        },
+        "by": {
+          "part": 1,
+          "ch": 9
+        },
+        "kind": "recruit",
+        "text": "Support 3 and Renown 7, then call Tails on the coin flip"
+      },
+      {
+        "route": "Dietrich",
+        "from": {
+          "part": 1,
+          "ch": 9
+        },
+        "kind": "rank",
+        "text": "Gauntlet B for Warrior: Arena Warrior course plus gauntlet fights"
+      }
+    ]
+  },
+  "sources": [
+    "https://fortunesweave.co.uk/characters/simon",
+    "https://www.keengamer.com/articles/guides/fire-emblem-fortunes-weave-tier-list-best-characters-ranked-for-every-route/",
+    "https://www.pockettactics.com/fire-emblem-fortunes-weave/tier-list"
+  ],
+  "recruitOn": {
+    "Cai": {
+      "how": "recruit",
+      "support": 3,
+      "renown": 8
+    },
+    "Dietrich": {
+      "how": "recruit",
+      "support": 3,
+      "renown": 7,
+      "task": "Coin flip: pick Tails"
+    },
+    "Theodora": {
+      "how": "recruit",
+      "support": 3,
+      "renown": 7,
+      "task": "Coin flip: pick Tails",
+      "window": "Ch 9 week 1 (7/1)"
+    },
+    "Leda": {
+      "how": "recruit",
+      "support": 3,
+      "renown": 6
+    }
+  },
+  "copies": [
+    {
+      "route": "Theodora",
+      "support": 3,
+      "renown": 7,
+      "cost": "Coin flip: pick Tails",
+      "chapter": 9,
+      "path": [
+        "Gladiator (Ch 9 join, Lv 15)",
+        "Brigand (Lv 20, bench Ch 10 to 12)",
+        "Warrior (Part II Ch 1)",
+        "Battlemaster (Part III S2, endpoint)"
+      ],
+      "role": "Second axe user (Part II bench)",
+      "part1": "Joins Ch 9 week 1 at about Lv 15 (Gladiator); Brigand at Lv 20; benches Part I in dungeon parties and the Arena",
+      "why": "Part II bench: the second axe user after Tobias. Str 50 and HP 50 growths, Close Call (1 HP at Lck %), Power Spike at Axe A. Joins Ch 9 week 1 so dungeons and the Arena bank his ranks; deploys from Part II.",
+      "guide": {
+        "role": "Second axe user (Part II bench)",
+        "summary": "The Flex group's second axe: Part I bench, Part II deploy. Close Call (survive at 1 HP, Lck %) plus Devil's Luck make him a safe front body once he has a kill. Open with Battleblade Strike, finish wounded foes with Destreza or Power Spike.",
+        "playstyle": "Part II player phase: take a kill first (Devil's Luck), Battleblade Strike for Dex, the second Hammer on armor. Enemy phase: hold a flank of the Fortress; swap to the Iron Sword +2 (Wt 4) when fast foes would double him.",
+        "focus": [
+          "Str",
+          "Dex",
+          "HP"
+        ],
+        "keys": [
+          "Recruit him Ch 9 week 1 (7/1): Support 3, Renown 7, call Tails on the coin flip",
+          "Seat him in every Ch 9 to 12 dungeon party: Lv 20 and Brigand by Ch 10",
+          "Book Arena Warrior every week with Tobias: Gauntlet, Axe and Sword B by Ch 12",
+          "Take the Nemea Cavern [[item:Hammer]] (Ch 10): the second Hammer for Part II",
+          "Pack his Part II kit before the Ch 12 battle: only his 6 items go in",
+          "Take [[class:Warrior]] on a Part II Ch 1 License; Ch 12 only if he reaches Lv 35"
+        ],
+        "watch": [
+          "Weight (Part III): Da Mina Axe 10 vs Giant's Ring Bld +4 (Wt 0); Bronze Axe +4 is 9. At Mahadu the Spearbreak Amulet adds 4 with no Bld item: 14. Hammer (20) comes off first.",
+          "Weight: Da Mina Axe 10 vs Bld + 4 (Giant's Ring). Hammer 20: no double; armor only. Iron Sword 4 on enemy phase.",
+          "Hit: Da Mina Axe 65, arts +10; Hammer 60. Battleblade Strike first: Dex +2 a fight (max +10).",
+          "Close Call: triggers at Lck %; Devil's Luck adds Lck +1 a kill (+2 from Lv 35), max +10.",
+          "Res: 25 growth (20 as Warrior). Keep him off mage lanes.",
+          "Inventory: 6/6 from Ch 10 (Da Mina Axe, Hammer, Iron Sword, Short Axe, Giant's Ring, Concoction).",
+          "Levels: Lv 15 on 7/1; about Lv 30? by Ch 12 from dungeons. Warrior needs Lv 35: Part II drills."
+        ],
+        "stages": [
+          {
+            "when": "Ch 9: Gladiator, Lv 15 to 20",
+            "from": {
+              "part": 1,
+              "ch": 9
+            },
+            "to": {
+              "lv": 20
+            },
+            "why": [
+              "Recruit Ch 9 week 1 (7/1): Support 3, Renown 7; call Tails on the coin flip",
+              "Joins about Lv 15 in a Beginner class: Gladiator's HP/Str +10 row leads into Brigand"
+            ],
+            "level": "About Lv 15 on join (7/1) to 20",
+            "class": "Gladiator",
+            "kind": "bench",
+            "goal": "Lv 20 off the map: every Ch 9 dungeon party, link kills. Axe C and Sword C for Brigand; no Ch 9 deploy.",
+            "exit": "Lv 20 with Axe C and Sword C: Brigand exam before the Ch 10 map.",
+            "masteries": [
+              "Attack Basics"
+            ],
+            "weapons": [
+              {
+                "item": "Iron Axe +1",
+                "why": "Axe D: Mt ?, Hit 65, Wt 10; trains Axe C",
+                "plan": "+1 at Renown 7 (open on join); Da Mina Axe at Axe C (Ch 10)",
+                "alts": [
+                  "Iron Axe"
+                ]
+              },
+              {
+                "item": "Iron Sword +1",
+                "why": "Mt 11, Wt 4: trains Sword C; his doubling weapon",
+                "plan": "+1 at Renown 7; +2 at Renown 10 (Ch 12)",
+                "alts": [
+                  "Iron Sword"
+                ]
+              },
+              {
+                "item": "Wooden Gauntlets",
+                "why": "Rank trainer only (Mt 2, Wt 1): starts Gauntlet for Warrior"
+              }
+            ],
+            "equipment": [],
+            "items": [
+              {
+                "item": "Concoction",
+                "why": "40 HP x2: he joins about 10 levels under the dungeon",
+                "alts": [
+                  "Vulnerary"
+                ]
+              }
+            ],
+            "arts": [
+              {
+                "name": "Spike",
+                "why": "Axe D: Mt +4, Hit +10"
+              },
+              {
+                "name": "Wrath Strike",
+                "why": "Sword D: Mt +4, Hit +10"
+              },
+              {
+                "name": "Mighty Fist",
+                "why": "Gauntlet D: Mt +4, Hit +10"
+              }
+            ],
+            "abilities": [
+              {
+                "name": "Attack Basics",
+                "why": "Gladiator mastery, once mastered: Str +1"
+              },
+              {
+                "name": "Axes Lv. 1",
+                "why": "Axe D+: Hit +3 with axes"
+              },
+              {
+                "name": "Swords Lv. 1",
+                "why": "Sword D+: Hit +3 with swords"
+              },
+              {
+                "name": "Fists Lv. 1",
+                "why": "Gauntlet D+: Hit +3 with gauntlets"
+              },
+              {
+                "name": "Close Quarters",
+                "why": "Infantry D ?: Mov −1 on adjacent foes"
+              }
+            ],
+            "battalion": {
+              "name": "Regia Breeze Co.",
+              "why": "Str +1, Dex +1, Cha +3: Hit on the axe; Authority E?",
+              "where": "[[place:Regia]] roll, Ch 6–9 (Regia only)",
+              "alts": [
+                "Rookie Soldiers"
+              ],
+              "situational": "Bench in Part I; fielded in Part II if 7 battalions deploy (count ?)"
+            },
+            "training": [
+              {
+                "rank": "Axe C, Sword C, Gauntlet D+",
+                "for": "Brigand exam (Lv 20); Fists Lv. 1",
+                "how": "Arena Warrior (Sword, Axe, Gauntlet) with Tobias; battle: Gladiator trains all three +1"
+              },
+              {
+                "rank": "Infantry D",
+                "for": "Close Quarters",
+                "how": "Start rank ?; one Arena Infantry week if short"
+              },
+              {
+                "rank": "Gauntlet D+",
+                "for": "Fists Lv. 1",
+                "how": "Arena Warrior; battles with it count too"
+              }
+            ],
+            "tips": [
+              "If he joins at Lv 25 in a Specialty class, skip to the next stage",
+              "Ch 9 dungeons: Sand-Shadow Fort (Lv 23) first, then Southern Passage and Stoppered Shrine (Lv 25)",
+              "Flower Painting (Stoppered Shrine) is a loved gift for him",
+              "Meal seat: Theodora + Lilian + Simon"
+            ]
+          },
+          {
+            "when": "Ch 10 to 12: Brigand (bench)",
+            "from": {
+              "part": 1,
+              "ch": 10
+            },
+            "to": {
+              "part": 1,
+              "ch": 12
+            },
+            "level": "Lv 20 (Ch 10) to about 30? by Ch 12",
+            "class": "Brigand",
+            "kind": "bench",
+            "goal": "Bench: dungeon parties and Arena Warrior. Battleblade Strike at Axe B, Destreza at Sword C; Regroup.",
+            "exit": "Lv 30? with Gauntlet, Axe and Sword B: Warrior on a Part II Ch 1 License.",
+            "masteries": [
+              "Regroup"
+            ],
+            "weapons": [
+              {
+                "item": "Da Mina Axe +1",
+                "why": "Main axe: Mt ?, Hit 65, Wt 10; arts Hit +10",
+                "plan": "+2 at Renown 10, Ch 12; Iron Axe to storage",
+                "alts": [
+                  "Iron Axe +1"
+                ]
+              },
+              {
+                "item": "Hammer",
+                "why": "Second Hammer: Effective+ (3x Mt) vs armor in Part II",
+                "plan": "Nemea Cavern copy (Ch 10 dungeon party)"
+              },
+              {
+                "item": "Iron Sword +1",
+                "why": "Mt 11, Wt 4: Destreza finisher; trains Sword B",
+                "plan": "+2 at Renown 10, Ch 12",
+                "alts": [
+                  "Da Mina Sword +1"
+                ]
+              },
+              {
+                "item": "Short Axe",
+                "why": "Range 1-2 vs archers and fliers",
+                "alts": [
+                  "Hand Axe"
+                ]
+              }
+            ],
+            "equipment": [
+              {
+                "item": "Giant's Ring",
+                "why": "Bld +4, Wt 0: shrinks the axe penalty; Avo −20",
+                "slot": "Accessory",
+                "plan": "Zarcone's copy: he stores it after Ch 7",
+                "alts": [
+                  "Archer's Ring",
+                  "Axebreak Amulet"
+                ]
+              }
+            ],
+            "items": [
+              {
+                "item": "Concoction",
+                "why": "40 HP x2",
+                "alts": [
+                  "Vulnerary"
+                ]
+              }
+            ],
+            "arts": [
+              {
+                "name": "Battleblade Strike",
+                "why": "Axe B?: Mt +7, Dex +2 per combat (max +10)"
+              },
+              {
+                "name": "Spike",
+                "why": "Axe D: Mt +4, Hit +10"
+              },
+              {
+                "name": "Enrage",
+                "why": "Axe C: Str +1 after each combat, max +5"
+              },
+              {
+                "name": "Destreza",
+                "why": "Sword C: Mt +3; Atk +5, Crit +10 vs foes at half HP"
+              }
+            ],
+            "abilities": [
+              {
+                "name": "Devil's Luck",
+                "why": "Lv 20: Lck +1 per kill (max +10): more Close Call"
+              },
+              {
+                "name": "Regroup",
+                "why": "Brigand mastery: Avo +20 after he misses, once mastered"
+              },
+              {
+                "name": "Axes Lv. 2",
+                "why": "Axe C+: Hit +5 with axes"
+              },
+              {
+                "name": "Axes Lv. 1",
+                "why": "Axe D+: Hit +3 more with axes"
+              },
+              {
+                "name": "Attack Basics",
+                "why": "Gladiator mastery: Str +1"
+              }
+            ],
+            "battalion": {
+              "name": "Regia Breeze Co.",
+              "why": "Str +1, Dex +1, Cha +3 on the armor breaker",
+              "where": "Held from Ch 9",
+              "alts": [
+                "Rookie Soldiers"
+              ],
+              "situational": "Fielded once 7 battalions deploy (count ?)"
+            },
+            "training": [
+              {
+                "rank": "Gauntlet B, Axe B, Sword B",
+                "for": "Warrior exam (Lv 35)",
+                "how": "Arena Warrior every week (Sword, Axe, Gauntlet), paired with Tobias"
+              }
+            ],
+            "tips": [
+              "Meal seat: Theodora + Lilian + Simon",
+              "Nemea Cavern (Lv 30): take him along for the Hammer chest",
+              "Ch 12 end: his 6 items are his Part II kit; Elixir in the Concoction's slot"
+            ],
+            "why": [
+              "Brigand exam at Lv 20: Axe C, Sword C, one Specialty License",
+              "Bench: no story map in Part I; Tobias holds the refined Hammer from Ch 10",
+              "EXP: Ch 10 to 12 dungeon parties and Arena weeks"
+            ],
+            "drop": [
+              {
+                "item": "Wooden Gauntlets",
+                "why": "Storage; Arena trains Gauntlet B"
+              },
+              {
+                "item": "Wrath Strike",
+                "why": "Destreza is the sword art from Sword C"
+              },
+              {
+                "item": "Mighty Fist",
+                "why": "No gauntlets in hand"
+              },
+              {
+                "item": "Swords Lv. 1",
+                "why": "Axes Lv. 2 from Axe C+"
+              },
+              {
+                "item": "Fists Lv. 1",
+                "why": "Devil's Luck takes the slot"
+              },
+              {
+                "item": "Close Quarters",
+                "why": "Regroup takes the slot"
+              }
+            ]
+          },
+          {
+            "when": "Part II to Part III S1: Warrior",
+            "from": {
+              "part": 2,
+              "ch": 1
+            },
+            "to": {
+              "part": 3,
+              "ch": 4
+            },
+            "level": "Lv 33 floor, about 37 after Ch 1 drills, to 42",
+            "class": "Warrior",
+            "kind": "core",
+            "goal": "Flex second axe: Str 70 and HP 70 rows; Axe Hit +5 and Practiced Art land the Hammer.",
+            "exit": "Section 2 at Lv 45 with Gauntlet, Axe and Sword A: Battlemaster.",
+            "masteries": [
+              "Practiced Art"
+            ],
+            "weapons": [
+              {
+                "item": "Da Mina Axe +2",
+                "why": "Main axe: arts Hit +10 feeds the Hit stack; Wt 10",
+                "plan": "Ch 12 kit",
+                "alts": [
+                  "Iron Axe +2"
+                ]
+              },
+              {
+                "item": "Hammer",
+                "why": "Effective+ (3x Mt) vs armor and Golems",
+                "plan": "Ch 12 kit (Nemea Cavern copy)"
+              },
+              {
+                "item": "Iron Sword +2",
+                "why": "Mt 13, Wt 4: enemy-phase swap vs fast foes; Destreza finisher",
+                "plan": "Ch 12 kit",
+                "alts": [
+                  "Da Mina Sword +2"
+                ]
+              },
+              {
+                "item": "Short Axe",
+                "why": "Range 1-2: fliers and bows without closing in",
+                "plan": "Ch 12 kit"
+              }
+            ],
+            "equipment": [
+              {
+                "item": "Giant's Ring",
+                "why": "Bld +4, Wt 0; Avo −20",
+                "slot": "Accessory",
+                "plan": "Ch 12 kit",
+                "alts": [
+                  "Archer's Ring",
+                  "Axebreak Amulet"
+                ]
+              }
+            ],
+            "items": [
+              {
+                "item": "Elixir",
+                "why": "100 HP: Part II has no shops",
+                "alts": [
+                  "Concoction"
+                ],
+                "plan": "Ch 12 kit"
+              }
+            ],
+            "arts": [
+              {
+                "name": "Battleblade Strike",
+                "why": "Axe B?: Mt +7, Dex +2 per combat (max +10)"
+              },
+              {
+                "name": "Spike",
+                "why": "Axe D: Mt +4, Hit +10"
+              },
+              {
+                "name": "Enrage",
+                "why": "Axe C: Str +1 after each combat, max +5"
+              },
+              {
+                "name": "Destreza",
+                "why": "Sword C: Mt +3; Atk +5, Crit +10 vs foes at half HP"
+              }
+            ],
+            "abilities": [
+              {
+                "name": "Devil's Luck+",
+                "why": "Lv 35: Lck +2 per kill (max +10)"
+              },
+              {
+                "name": "Practiced Art",
+                "why": "Warrior mastery: Hit +10 on arts, once mastered"
+              },
+              {
+                "name": "Regroup",
+                "why": "Brigand mastery: Avo +20 after he misses"
+              },
+              {
+                "name": "Axes Lv. 3",
+                "why": "Axe rank ?: Hit/Avo +5 with axes"
+              },
+              {
+                "name": "Swords Lv. 3",
+                "why": "Sword B+: Hit/Avo +5 with the Iron Sword +2"
+              }
+            ],
+            "battalion": {
+              "name": "Regia Breeze Co.",
+              "why": "Str +1, Dex +1, Cha +3 on the Warrior",
+              "where": "Held from Ch 9",
+              "situational": "Part II carryover ?"
+            },
+            "drop": [
+              {
+                "item": "Devil's Luck",
+                "why": "Devil's Luck+ replaces it at Lv 35"
+              },
+              {
+                "item": "Axes Lv. 1",
+                "why": "Slot goes to Practiced Art"
+              },
+              {
+                "item": "Axes Lv. 2",
+                "why": "Axes Lv. 3 takes the slot"
+              },
+              {
+                "item": "Attack Basics",
+                "why": "Swords Lv. 3 takes the slot for sword phases"
+              },
+              {
+                "item": "Concoction",
+                "why": "Elixir takes the slot for Part II"
+              }
+            ],
+            "training": [
+              {
+                "rank": "Gauntlet A, Axe A, Sword A",
+                "for": "Battlemaster exam (Lv 45)",
+                "how": "Battle only past B: Warrior trains Axe +3, Sword +2, Gauntlet +2"
+              }
+            ],
+            "checks": [
+              {
+                "stat": "Spd",
+                "at": "Part II Ch 3",
+                "need": "Enemy forecast: Ch 3 infantry don't double him with the Da Mina Axe +2",
+                "why": "A doubled axe user dies; Close Call is a %, not a plan",
+                "fix": [
+                  "Hold the [[item:Iron Sword]] +2 (Wt 4) on enemy phase",
+                  "Keep the [[item:Giant's Ring]] on: Bld +4",
+                  "[[item:Ginji Juice]]: Bld +4 for the map (source ?)"
+                ]
+              }
+            ],
+            "tips": [
+              "Part II maps: Ch 3, 5 and 6 (Ch 1, 2 and 4 he sits; Training Drills level him)",
+              "Ch 3: Fortress flank beside the chokes; Iron Sword +2 on enemy phase",
+              "Ch 5: pull the Golems off their tiles, then Hammer arts with Bonaventure beside him",
+              "Ch 6 Lyrah: Tobias and Simon finish the cocoon after the bows chip it",
+              "Part III S1 undead: Cleansing Blade + Destreza from storage, in the Iron Sword's slot"
+            ],
+            "why": [
+              "Hit stack: Warrior Axe Hit +5, Practiced Art +10, Battleblade Strike Dex +2 a fight, Da Mina arts +10, Spike +10, Bonaventure Hit +20 (30%)"
+            ]
+          },
+          {
+            "when": "Part III Section 5+ (Battlemaster)",
+            "from": {
+              "part": 3,
+              "ch": 5
+            },
+            "level": "Lv 45+ (Master License)",
+            "class": "Battlemaster",
+            "kind": "core",
+            "goal": "War Master's Strike x1.5 on every hit; Practiced Art and Da Mina put Hit +20 on his arts.",
+            "exit": "Endpoint: master War Master's Strike. Tobias holds The Eternal.",
+            "masteries": [
+              "War Master's Strike"
+            ],
+            "weapons": [
+              {
+                "item": "Da Mina Axe +2",
+                "why": "Mt 22?, Wt 10, Hit +10 on arts: axes need Hit more than 2 Mt",
+                "plan": "His Part I Da Mina Axe +2",
+                "alts": [
+                  "Bronze Axe +4",
+                  "Iron Axe +4"
+                ]
+              },
+              {
+                "item": "Short Axe +2",
+                "why": "Range 1-2 for fliers and bows",
+                "plan": "Refine to +2"
+              },
+              {
+                "item": "Cleansing Blade +2",
+                "why": "Mt 16?, Wt 3: Underworld Boon answer; Destreza",
+                "plan": "Refine to +2"
+              },
+              {
+                "item": "Hammer +2",
+                "why": "Effective+ vs armor and Golems; Wt 20",
+                "situational": "Armor or Golem maps: swap for the Short Axe",
+                "plan": "His Nemea Cavern Hammer, refined to +2"
+              }
+            ],
+            "equipment": [
+              {
+                "item": "Giant's Ring",
+                "why": "Bld +4 for Wt 0: offsets the 10-weight axe; Avo −20",
+                "slot": "Accessory",
+                "alts": [
+                  "Gale Ring"
+                ]
+              },
+              {
+                "item": "Spearbreak Amulet",
+                "why": "Hit/Avo +15 vs spears: his axe needs the Hit",
+                "slot": "Accessory",
+                "situational": "Mahadu (spear foes): replaces the Giant's Ring",
+                "alts": [
+                  "Archer's Ring"
+                ]
+              }
+            ],
+            "items": [
+              {
+                "item": "Elixir",
+                "why": "100 HP",
+                "alts": [
+                  "Concoction"
+                ]
+              }
+            ],
+            "arts": [
+              {
+                "name": "Power Spike",
+                "why": "Axe A: Mt +12, Hit +10; Da Mina adds Hit +10"
+              },
+              {
+                "name": "Battleblade Strike",
+                "why": "Axe B?: Mt +7, Dex +2 per combat (max +10)"
+              },
+              {
+                "name": "Enrage",
+                "why": "Axe C: Str +1 after each combat, max +5"
+              },
+              {
+                "name": "Destreza",
+                "why": "Sword C: Atk +5, Crit +10 at half HP; Cleansing Blade"
+              }
+            ],
+            "abilities": [
+              {
+                "name": "War Master's Strike",
+                "why": "Battlemaster mastery: damage x1.5, once mastered (Regroup until then)"
+              },
+              {
+                "name": "Practiced Art",
+                "why": "Warrior mastery: Hit +10 on arts"
+              },
+              {
+                "name": "Devil's Luck+",
+                "why": "Lv 35: Lck +2 per kill (max +10): Close Call fires more"
+              },
+              {
+                "name": "Axes Lv. 4",
+                "why": "Axe A+: Hit/Avo +7 with axes"
+              },
+              {
+                "name": "Knightly Senses",
+                "why": "Riding D: Avo +10 vs spears (Mahadu)"
+              }
+            ],
+            "battalion": {
+              "name": "Regia Breeze Co.",
+              "why": "Str +1, Dex +1, Cha +3; Authority E?",
+              "where": "Held since Part I",
+              "situational": "Part III: from storage (medium confidence)"
+            },
+            "drop": [
+              {
+                "item": "Iron Sword +2",
+                "why": "The Cleansing Blade takes the sword slot"
+              },
+              {
+                "item": "Swords Lv. 3",
+                "why": "Slot goes to War Master's Strike"
+              },
+              {
+                "item": "Spike",
+                "why": "Power Spike covers Hit +10 with Mt +12"
+              },
+              {
+                "item": "Regroup",
+                "why": "Knightly Senses at Mahadu; Regroup returns on other maps"
+              },
+              {
+                "item": "Iron Axe +5",
+                "why": "Needs Soulstone; Da Mina Axe +2 keeps Hit +10 on arts"
+              },
+              {
+                "item": "Da Mina Axe +3",
+                "why": "Needs Soulstone: Crit +10 on arts waits for spare stones"
+              }
+            ],
+            "tips": [
+              "Mahadu: Spearbreak Amulet and Knightly Senses: Hit +15, Avo +25 vs spears",
+              "Dante within 2: Hit/Crit +10 when Stage Directions fires; Fabio's Dark Calling cuts Ddg 5",
+              "End beside Gaitz: Brave Assist Def +3 counts double while Wrath halves Def",
+              "Undead with the Boon: Cleansing Blade +3 and Destreza; Credna's Mallet stays Tobias's"
+            ],
+            "why": [
+              "Exam: Gauntlet A, Axe A, Sword A, Lv 45, Master License",
+              "Merge (S2, 300 Karma Shards): this copy is the base; his Dietrich copy (Warrior line) adds higher stats, ranks, masteries"
+            ],
+            "training": [
+              {
+                "rank": "Axe A+",
+                "for": "Axes Lv. 4 (Hit/Avo +7 with axes)",
+                "how": "Battlemaster Axe +4 a fight; the Dietrich merge adds its ranks"
+              },
+              {
+                "rank": "Axe S",
+                "for": "Axes Lv. 5 (Hit/Avo +10 with axes)",
+                "how": "Battle"
+              }
+            ]
+          }
+        ],
+        "alt": "Joins at Lv 25 in a Specialty class? Skip the Gladiator stage and take the Brigand exam on join if he isn't one.",
+        "routeNotes": [
+          {
+            "system": "Supports",
+            "note": "Partners here: Theodora and Lilian. Meal seat: Theodora + Lilian + Simon; Arena Warrior with Tobias (B+ mentor) builds his ranks."
+          }
+        ],
+        "sources": [
+          "class-data",
+          "character-learnsets",
+          "equippable-abilities",
+          "weapons-and-items",
+          "combat-arts-and-abilities",
+          "player-pacing-and-recruit-items",
+          "walkthrough-part1-theodora",
+          "part2-war",
+          "part3-salvation"
+        ],
+        "decisions": [
+          {
+            "topic": "Recruit him Ch 9 week 1",
+            "pick": "7/1 once Renown 7 lands; bench through Part I",
+            "why": "Ch 9 to 12 dungeons and the Arena take him from Lv 15 to about 30 on Gladiator and Brigand rows and bank three B ranks. A Ch 10 join auto-levels him on personal growths and leaves his ranks near where they were.",
+            "else": "Renown 7 late: recruit the week it lands"
+          },
+          {
+            "topic": "Leave the Hammer to Tobias",
+            "pick": "Tobias holds the refined Hammer from Ch 10; Simon carries the second copy into Part II",
+            "why": "Tobias deploys Ch 10 to 12 and Simon benches, so the refined copy goes where the fights are. Simon's Nemea Cavern Hammer covers Part II armor and is refined in Part III; Tobias keeps his."
+          },
+          {
+            "topic": "Take Warrior in Part II Ch 1",
+            "pick": "Part II Ch 1 License; Ch 12 only at Lv 35 with B ranks",
+            "why": "Str +20 and Practiced Art (Hit +10 on arts) fix both his damage and his Hit. A Lv 15 join reaches about Lv 30 by Ch 12, short of the Lv 35 exam; Arena Warrior covers Gauntlet B, so no Pugilist detour."
+          },
+          {
+            "topic": "End in Battlemaster",
+            "pick": "Battlemaster from Section 2 to the end; Tobias holds The Eternal",
+            "why": "War Master's Strike (damage x1.5) and Axe Hit +7 on Str 75 and HP 75 rows. The Eternal goes to Tobias: his Warrior ranks reach S first, and Simon joins Ch 9 without a Gauntlet boon.",
+            "else": "A ranks short at Lv 45: stay Warrior"
+          }
+        ],
+        "finalists": {
+          "stats": [
+            "HP",
+            "Str",
+            "Spd",
+            "Def"
+          ],
+          "options": [
+            {
+              "class": "Brigand",
+              "use": "Ch 10 to 12 (bench)",
+              "note": "Str +15 on the bench; Regroup"
+            },
+            {
+              "class": "Warrior",
+              "use": "Part II to Part III S1",
+              "note": "Str +20, Axe Hit +5, Practiced Art"
+            },
+            {
+              "class": "Battlemaster",
+              "use": "Part III S2+",
+              "note": "War Master's Strike 1.5x, Axe Hit +7: his endpoint"
+            },
+            {
+              "class": "The Eternal",
+              "note": "Tobias holds it: his Warrior ranks reach the three S first"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,372 @@
+{
+  "route": "Theodora",
+  "n": 4,
+  "decisions": [
+    {
+      "topic": "Divine claims",
+      "pick": "Trident Theodora · Eternal Tobias · Avatar Sirocco · Godhand Troy · Calamity Nuzzuo · Blade Dietrich · Cavalier Cai · Apsara Leda",
+      "why": "One item each. Dietrich takes The Blade over Loretta: Murderous Intent and Bestial Impulse feed Sword Crit +10, and he has a fixed Balor center seat. Cai stays Orichaldia until The Cavalier's triple S lands.",
+      "alt": "Blade on Loretta (D-130); she ends Sword Master"
+    },
+    {
+      "topic": "Rank shortfall",
+      "pick": "No 100% pass by Mission Time: Blade → Loretta, Eternal → Simon, Godhand → Mu, Calamity → Diego",
+      "why": "The exam needs a 100% pass. Each fallback already trains the same weapons (Diego: Shadow Seeker, Bow A and Sword A), so the item never sits unused through Hanno and Baozi.",
+      "alt": "Holding an item until the first pick is ready"
+    },
+    {
+      "topic": "Hanno",
+      "pick": "A and B deploy all 16; C launches from the next tile",
+      "why": "Fog and forests: B's four fliers scout, A walls each half. The launching squad spends its turn, so C launches and A and B leave for Baozi at once.",
+      "alt": "Launching with A (loses a turn of the strongest squad)"
+    },
+    {
+      "topic": "Baozi",
+      "pick": "After Hanno, Kalla's Temple → Mars's Temple; 8 from A and B, B launches",
+      "why": "Heavy armor (mages), fliers (bows) and golems (Tobias's arts): the Avatar, two Druid shots and two bows. D guards Dagsion the whole time.",
+      "alt": "D alone on Baozi"
+    },
+    {
+      "topic": "Quests",
+      "pick": "Finish every repair and request this Section",
+      "why": "Section 5's Free Time then goes to Trials, dungeons and refines (Game8).",
+      "alt": "Spreading them to 6/6"
+    },
+    {
+      "topic": "Elephants",
+      "pick": "Gaitz → Elephant Rider on a Saramis War Elephant at Lv 35 and Riding C; his first fight tests whether auras reach all 8 tiles",
+      "why": "Elephant Rider's Path, HP/Spd +20% and Def +15% growth and half damage fix his low stats; Brave Assist (Def +3) covers up to 8 allies. No Master License spent.",
+      "alt": "Great Knight on a Section 5 Master License"
+    }
+  ],
+  "plan": [
+    {
+      "group": "Turn 1 · Dagsion and the Temple",
+      "rows": [
+        {
+          "text": "Build squad D from Dietrich's army; Bertrand takes his seat in A, Lilian and Ultand swap back",
+          "squad": "D"
+        },
+        {
+          "text": "B carries the 5 keys to the Temple of the Diadem (Idyia) and opens all 5 chambers",
+          "squad": "B",
+          "task": true,
+          "id": "theodora-sal-s4-diadem-items"
+        },
+        {
+          "text": "B back in Dagsion: Divine exams in the order of the decision above (100% pass)",
+          "squad": "B"
+        },
+        {
+          "text": "A and C wait in Dagsion for B's return, take their Divine exams, then head out",
+          "squad": "A"
+        },
+        {
+          "text": "Refine first: Cai Star Spear +2, Lysander and Alexandra Iron +4, Seteth Silver Spear +2",
+          "detail": [
+            "Hanno and Baozi; then Nuzzuo Da Mina Sword +2, Troy Iron Gauntlets +4, Lilian's bow +2, Theodora Ji +2",
+            "Squad D: Dietrich Da Mina Sword, Simon Da Mina Axe +2, Kiroc Iron Bow +4. Soulstones: queue 4 and 5"
+          ]
+        }
+      ]
+    },
+    {
+      "group": "Free Time",
+      "rows": [
+        {
+          "text": "B: Cartodo Posthouse to Yashiro Fort, Cai lures a Red Bau for Lysander (meat; rare)",
+          "squad": "B",
+          "detail": [
+            "Hard save on the tile before; wrong breed or roll: reload and lure again"
+          ]
+        },
+        {
+          "text": "Leda performs in Mahon Castle Town, Grand Aragon, Breston and Mons (Dance for Rebuilt Cities)",
+          "squad": "C",
+          "detail": [
+            "Each city must be repaired first; Song of Passion++ at the end"
+          ]
+        },
+        {
+          "text": "Dietrich's Answerer's Cry on every map turn; Teach Secrets Evilbreak to Mu, then Boost Combat Arts durability",
+          "squad": "D"
+        },
+        {
+          "text": "Gaitz: Elephant License and Elephant Rider exam (Lv 35, Riding C); Assign a Saramis War Elephant",
+          "squad": "D",
+          "task": true,
+          "id": "theodora-sal-s4-gaitz-elephant",
+          "detail": [
+            "Short of Lv 35 or Riding C: D's dungeons and Arena Mounted Training first; exam by Section 5 Turn 1 at the latest",
+            "No elephants yet: The Elephant Rider's Bond, 2 Hakuren (RPG Site: open to 6/6; Game8: Section 2 only)"
+          ]
+        },
+        {
+          "text": "Elephant test, Gaitz's first fight: do 6+ allies around him all show Brave Assist's Def +3?",
+          "squad": "D",
+          "task": true,
+          "id": "theodora-sal-s4-elephant-test",
+          "detail": [
+            "Also check whether Dismount ends his turn",
+            "All 6 show it: Ultand takes the second elephant in Section 5",
+            "Only the tile beside one corner counts: Ultand stays Sentinel"
+          ]
+        },
+        {
+          "text": "D clears dungeons near Dagsion for EXP: its imports are the lowest levels",
+          "squad": "D"
+        },
+        {
+          "text": "A finishes any temple left, then Credna's Lv 60 Trial (the easiest) for Credna's Mallet",
+          "squad": "A"
+        },
+        {
+          "text": "Deliver the Arena II's 20 Building Materials once bought"
+        },
+        {
+          "text": "Anna's Shop: Spirit Dust to Sirocco (14,000G) once the Section's Licenses are bought"
+        },
+        {
+          "text": "Fortuna's Section 4 scene near the Thermae (needs Section 3's)"
+        }
+      ]
+    },
+    {
+      "group": "Mission Time 3/22–4/5",
+      "rows": [
+        {
+          "text": "D stays by Dagsion and clears the south and west nodes",
+          "squad": "D"
+        },
+        {
+          "text": "A west, B east, C via Aragona Posthouse to the far northern nodes",
+          "squad": "C"
+        },
+        {
+          "text": "Hanno: A and B deploy, C launches. Equip Credna's Blessing first",
+          "squad": "C"
+        },
+        {
+          "text": "A and B: Kalla's Temple → Mars's Temple, then Baozi at Daimos Plateau",
+          "squad": "B"
+        },
+        {
+          "text": "After Baozi, B lures at Daimos Plateau (Black Horse, Cai) and Warrior's Road (Black Bau, Seteth)",
+          "squad": "B",
+          "detail": [
+            "Black Horse: vegetables, reroll for Canto. Black Bau: meat, reroll for Paired Resilience",
+            "Swap each in once its bond passes the mount it replaces"
+          ]
+        }
+      ]
+    }
+  ],
+  "missables": [
+    {
+      "id": "theodora-sal-s4-scene-fortuna",
+      "kind": "scene",
+      "text": "Fortuna's Section 4 scene near the Thermae (needs the Section 3 scene).",
+      "lose": "Fortuna's Sections 4 and 5 scenes",
+      "recover": "Replay the Section from the Obelisk Chamber ?",
+      "where": "Thermae"
+    }
+  ],
+  "quests": [
+    {
+      "id": "dance-for-rebuilt-cities",
+      "squad": "C",
+      "note": "Five stops with Port of Pandora from the Villages quest"
+    },
+    {
+      "id": "arena-reconstruction-effort-part-ii",
+      "note": "Last 20 Building Materials"
+    }
+  ],
+  "gear": {
+    "assign": [
+      {
+        "item": "Credna's Mallet",
+        "to": "Tobias",
+        "why": "Flame Ring: a magic axe hit; the Hammer +3 stays as the Baozi swap"
+      },
+      {
+        "item": "Spirit Dust",
+        "to": "Sirocco",
+        "why": "Mag +2 on every Avatar cast from Hanno on"
+      }
+    ]
+  },
+  "gates": [
+    {
+      "battle": "Battle vs. Hanno",
+      "order": 1,
+      "launch": "C",
+      "deploy": [
+        "Theodora",
+        "Ninae",
+        "Ultand",
+        "Tobias",
+        "Bonaventure",
+        "Sofia",
+        "Sirocco",
+        "Bertrand",
+        "Cai",
+        "Seteth",
+        "Alexandra",
+        "Lysander",
+        "Lilian",
+        "Nuzzuo",
+        "Troy",
+        "Tialla"
+      ],
+      "tips": [
+        {
+          "text": "Credna's Blessing before the battle: vision is the whole fight"
+        },
+        {
+          "text": "Swap Spaces at the start: each half gets a wall, a healer and a flier"
+        },
+        {
+          "text": "Turtle, then merge the halves and push to the SE corner; keep Hanno off forest tiles"
+        },
+        {
+          "text": "Cai stays with the main body: forests eat his Mov"
+        }
+      ],
+      "blessings": [
+        {
+          "god": "Credna",
+          "lv": 1,
+          "why": "Fire it while the army is split"
+        }
+      ]
+    },
+    {
+      "battle": "Battle vs. Baozi",
+      "order": 2,
+      "launch": "B",
+      "deploy": [
+        "Theodora",
+        "Tobias",
+        "Sirocco",
+        "Bonaventure",
+        "Sofia",
+        "Lilian",
+        "Nuzzuo",
+        "Troy"
+      ],
+      "tips": [
+        {
+          "text": "Kill every golem before you aggro Baozi: his first move buffs them all"
+        },
+        {
+          "text": "Check levels: Pride cuts the higher-level side's Hit; above Lv 58 stay out of it"
+        },
+        {
+          "text": "Sirocco and Bonaventure on the armor, Lilian and Nuzzuo on the fliers"
+        },
+        {
+          "text": "Baozi dodges: Tobias's arts (Brawl Hit +10) and his gauntlets; Mars Lv 1 for Hit"
+        }
+      ],
+      "blessings": [
+        {
+          "god": "Mars",
+          "lv": 1,
+          "why": "Offsets Pride's Hit loss on higher-level units"
+        },
+        {
+          "god": "Smyrnos",
+          "lv": 1,
+          "why": "For Sirocco and Bonaventure on the armor"
+        }
+      ]
+    }
+  ],
+  "exitExtra": [
+    {
+      "text": "Eight Divine classes held (Diadem tab)"
+    },
+    {
+      "text": "Every repair and request done; Arena II and Inn II built"
+    }
+  ],
+  "licenses": [
+    {
+      "unit": "Lysander",
+      "to": "Bau Lord",
+      "why": "Hanno flier striker, Balor east"
+    },
+    {
+      "unit": "Seteth",
+      "to": "Bau Lord",
+      "why": "Flier wall for Hanno and Balor east"
+    },
+    {
+      "unit": "Bertrand",
+      "to": "Swordmaster",
+      "why": "Squad A from this Section: Hanno, Baozi, Cohen's Lust duels (Cha 50)"
+    },
+    {
+      "unit": "Mu",
+      "to": "War Monk",
+      "why": "Balor west runner: Spd 65, doubled White; Aurora opened it"
+    },
+    {
+      "unit": "Fabio",
+      "to": "Druid",
+      "why": "Mahadu crit squad and Balor west gate breaker"
+    },
+    {
+      "unit": "Dante",
+      "to": "Wiseman",
+      "why": "Balor center buffer and healer"
+    },
+    {
+      "unit": "Hong Hua",
+      "to": "Valkyrium",
+      "why": "Mov 7 Warp for Balor east; Jurah opened it"
+    },
+    {
+      "unit": "Talimun",
+      "to": "Druid",
+      "why": "Balor center curses with Thoron at 1-3"
+    },
+    {
+      "unit": "Loretta",
+      "to": "Swordmaster",
+      "why": "Squad E sword in Section 5; fallback holder of The Blade"
+    },
+    {
+      "unit": "Tialla",
+      "to": "Wiseman",
+      "why": "Squad B healer through Section 5"
+    },
+    {
+      "unit": "Orchel",
+      "to": "Wiseman",
+      "why": "Squad E healer"
+    },
+    {
+      "unit": "Anatolia",
+      "to": "Druid",
+      "why": "Squad E caster: Glass Wheel vs fliers"
+    },
+    {
+      "unit": "Centurio",
+      "to": "Castle Knight",
+      "why": "Squad E wall"
+    },
+    {
+      "unit": "Noctula",
+      "to": "War Monk",
+      "why": "Squad E dodge tank"
+    },
+    {
+      "unit": "Gaitz",
+      "to": "Elephant Rider",
+      "license": "Elephant",
+      "why": "Squad D wall and charger; Brave Assist on 8 tiles. Not a Master License"
+    }
+  ]
+}

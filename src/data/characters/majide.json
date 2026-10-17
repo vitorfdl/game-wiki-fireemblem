@@ -1,0 +1,816 @@
+{
+  "name": "Majide",
+  "slug": "majide",
+  "epithet": "Street thug",
+  "faction": "Neutral",
+  "homeRoute": "Cai",
+  "weapons": [
+    "Axe",
+    "Gauntlet"
+  ],
+  "preferred": [
+    "Axe",
+    "Brawling"
+  ],
+  "avoid": [
+    "Black Magic"
+  ],
+  "personality": "Violent, jail-hardened troublemaker who loves booze, women, fighting and being strong.",
+  "story": "Majide has been a notorious thug since his youth and has spent many days in jail for violent incidents. He enters the Heroic Games hoping to win and become ruler of the streets. On Cai's route he joins at Renown 5 and Support 2 if you answer his recruitment question correctly.",
+  "personalSkill": {
+    "name": "Hellbent Axe",
+    "effect": "Str+3 when equipped with an axe."
+  },
+  "growths": {
+    "HP": 65,
+    "Str": 50,
+    "Mag": 15,
+    "Spd": 20,
+    "Dex": 30,
+    "Def": 40,
+    "Res": 10,
+    "Lck": 25,
+    "Cha": 5
+  },
+  "tiers": [
+    {
+      "source": "KeenGamer",
+      "tier": "C"
+    },
+    {
+      "source": "Pocket Tactics",
+      "tier": "C"
+    }
+  ],
+  "tierNotes": "KeenGamer: C tier (early axe unit on Cai's route, but 20% Spd and 10% Res). Pocket Tactics: C tier.",
+  "recruit": {
+    "how": "recruit",
+    "support": 2,
+    "renown": 5,
+    "extra": "Answer his question 3 times",
+    "why": [
+      "Lowest Support requirement of any route: 2 here vs Dietrich 3, Theodora 3, Leda 3."
+    ],
+    "tip": "Answer his question three times before he accepts."
+  },
+  "requirements": {
+    "Cai": "2S 5R",
+    "Dietrich": "3S 8R",
+    "Theodora": "3S 8R",
+    "Leda": "3S 9R"
+  },
+  "build": {
+    "role": "Axe bruiser and Hammer carrier",
+    "path": [
+      "Gladiator (bench in Part I)",
+      "Brigand (Part II)",
+      "Pugilist (Part II detour: Gauntlet B, Attack, Get Back)",
+      "Warrior (once Gauntlet is B)",
+      "Battlemaster"
+    ],
+    "part1Target": "Bench (Gladiator): recruit for Part II",
+    "part3Target": "Battlemaster",
+    "notes": "Joins at about Lv 15 in a Beginner class; benched in Part I. Arena Axe B, Sword B and Gauntlet (Warrior Training covers all three). Part II: Army Training to Lv 34 in Gladiator, Brigand in Ch 2 (Regroup), Pugilist once Gauntlet is C to train Gauntlet B, then Warrior for Practiced Art (late Part II or Part III). Battlemaster in Part III.",
+    "confidence": "medium"
+  },
+  "guide": {
+    "role": "Axe bruiser and Hammer carrier",
+    "summary": "Benched in Part I. Warrior grows HP 85 and Str 70 on him, and Hellbent Axe adds Str +3 with axes, but his slow Warrior rank (Gauntlet B) only rises by fighting, so in Part II he climbs Brigand and Pugilist first. Spd 20: he trades in single big hits.",
+    "playstyle": "Break armor on player phase with the Hammer; take enemy phase only against physical foes. Res grows 5 to 10%: keep him away from mages.",
+    "focus": [
+      "Str",
+      "HP",
+      "Def"
+    ],
+    "keys": [
+      "Bench in Part I: Arena Heavy and Infantry Training for Axe B and Sword B.",
+      "End of Ch 12: equip the Hammer and the Bolt Gem. Only the equipped weapon carries into Part II; Part II's Iron +3 weapons cover his everyday axe.",
+      "Part II Ch 1: Army Training in Gladiator, fight with gauntlets; Brigand in Ch 2.",
+      "Pugilist once Gauntlet is C (Gauntlet +2 per fight, Attack, Get Back), Warrior once Gauntlet is B.",
+      "Master Practiced Art in Warrior: Hit +10 on arts."
+    ],
+    "watch": [
+      "Gauntlet is his bottleneck: train it at Arena Warrior Training (Sword, Axe, Gauntlet).",
+      "Res growth 5% in Warrior.",
+      "Dex 30: check Hit before every axe swing.",
+      "Weight: Hammer 20 + Bolt Gem 5 = 25, player phase only: he gets doubled holding it, so end turns with a lighter axe (Iron Axe +3 10 + gem = 15; Silver Axe 9 + gem = 14). Extra weight is the gem's 5, inside the 6 cap. Credna's Mallet 14 + gem = 19 in Part III. Charm growth 5: no Charm Mask.",
+      "Inventory: Part II is 6/6 (issued Iron Axe +3, Hammer, Hand Axe, Iron Gauntlets, Bolt Gem, Concoction). The Ch 1 Hammer +1 replaces the Hammer; if Part II also issues gauntlets, drop the carried pair."
+    ],
+    "stages": [
+      {
+        "when": "Join (late Ch 6 or Ch 7) to Ch 12",
+        "from": {
+          "part": 1,
+          "ch": 6,
+          "at": "late",
+          "approx": true
+        },
+        "to": {
+          "part": 1,
+          "ch": 12
+        },
+        "level": "About Lv 15 (join)",
+        "class": "Gladiator",
+        "kind": "bench",
+        "goal": "Bench: recruit for Part II, train ranks in the Arena. Hellbent Axe (innate): Str +3 with an axe.",
+        "exit": "Bench through Part I: keep Gladiator for Part II Ch 1 Army Training (about 19 levels)",
+        "masteries": [],
+        "training": [
+          {
+            "rank": "Axe B, Sword B",
+            "for": "Brigand exam (C) in Part II Ch 2, Warrior (B) later",
+            "how": "Arena Warrior Training (Sword, Axe, Gauntlet) covers both; or Arena Heavy Training (Axe) and Arena Infantry Training (Sword)"
+          },
+          {
+            "rank": "Gauntlet (C for Pugilist, B for Warrior)",
+            "for": "Pugilist and Warrior exams",
+            "how": "Arena Warrior Training (Sword, Axe, Gauntlet), the same course as his Axe and Sword"
+          }
+        ],
+        "tips": [
+          "Joins at about Lv 15 already in a Beginner class. If it isn't Gladiator, take the Gladiator exam (Gauntlet D, Axe D, Sword D) on a Beginner License before Part II Ch 1 Army Training.",
+          "Army Training in Gladiator: HP 75, Str 60 on Majide (Hunter would give Spd 30, Dex 40 but needs Bow D).",
+          "Recruit cost: Support 2, Renown 5, answer his question three times. Recruit him anyway: Part II needs the numbers.",
+          "Barter the Hammer (Roca x2 + Zamir x1) and buy the Da Mina Axe anyway; lend the Bolt Gem to a deployed unit and put it back on him at the end of Ch 12.",
+          "Part II has no free time, so these ranks must be done in Part I: they are the exams this unit takes in Part II Ch 1 and Ch 2"
+        ],
+        "weapons": [
+          {
+            "item": "Hammer",
+            "why": "Carry into Part II: Effective+ vs armor (the Ch 10 map copy)"
+          },
+          {
+            "item": "Hand Axe",
+            "why": "Carry into Part II: 1 to 2 range"
+          },
+          {
+            "item": "Iron Gauntlets",
+            "why": "Carry into Part II for the Pugilist stint (Gauntlet is his slow rank)"
+          }
+        ],
+        "equipment": [
+          {
+            "item": "Bolt Gem",
+            "why": "Carry into Part II: arts x1.5 damage at 10%",
+            "slot": "Accessory"
+          }
+        ],
+        "arts": [
+          {
+            "name": "Spike",
+            "why": "Axe D: +4 Mt, +10 Hit"
+          },
+          {
+            "name": "Mighty Fist",
+            "why": "Gauntlet D: +4 Mt, +10 Hit"
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Fists Lv. 1",
+            "why": "Gauntlet D+ rank ability: gauntlet Hit +3 (once Gauntlet D+)"
+          }
+        ],
+        "drop": [
+          {
+            "item": "Da Mina Axe",
+            "why": "Storage until Part III: Part II issues an Iron Axe +3"
+          },
+          {
+            "item": "Wooden Gauntlets",
+            "why": "Storage until Part III: the Iron pair comes instead"
+          }
+        ],
+        "items": [
+          {
+            "item": "Concoction",
+            "why": "40 HP x2: his Part II stock (Ch 3 asks for concoctions)",
+            "alts": [
+              "Vulnerary"
+            ]
+          }
+        ],
+        "why": [
+          "His damage comes from axes; gauntlets only train rank"
+        ]
+      },
+      {
+        "when": "Part II Ch 1",
+        "from": {
+          "part": 2,
+          "ch": 1
+        },
+        "level": "Lv 34 (Army Training)",
+        "class": "Gladiator",
+        "kind": "core",
+        "goal": "Army Training lifts him to Lv 34 in Gladiator. He waits a chapter for his Specialty License (Ch 1 has five Specialty Licenses and five bench units ahead of him). Fear Nothing (Lv 20): Atk +3 when he attacks first, at Avo -30: swing the axe on player phase (Hellbent Axe adds Str +3), then end the turn behind the line. Gauntlets on safe kills for Gauntlet rank.",
+        "exit": "Leave in Ch 2 for Brigand (Axe C, Sword C at 75%). Attack Basics only if it fills in this one map.",
+        "masteries": [
+          "Attack Basics"
+        ],
+        "training": [
+          {
+            "rank": "Gauntlet C",
+            "for": "Pugilist exam",
+            "how": "Fight with gauntlets; Gladiator trains Gauntlet +1"
+          }
+        ],
+        "tips": [
+          "Army Training stats come from the class he is in when you pick it.",
+          "No free time in Part II: only equipped items come in, so equip them at the end of Ch 12"
+        ],
+        "weapons": [
+          {
+            "item": "Iron Axe +3",
+            "why": "Part II issue weapon: his everyday axe (Hellbent Axe Str +3); Wt 10",
+            "plan": "Part II hands out Iron +3 weapons"
+          },
+          {
+            "item": "Hammer",
+            "why": "His one carried Part II weapon: Effective+ vs armor. Player phase only: Wt 20 gets him doubled, so end turns holding a Part II Iron +3 weapon",
+            "plan": "Vandahl barter or the Ch 10 map; equip it at the end of Ch 12"
+          },
+          {
+            "item": "Hand Axe",
+            "why": "1 to 2 range; carried in from Ch 12"
+          },
+          {
+            "item": "Iron Gauntlets",
+            "why": "Carried in from Ch 12: gauntlet fights for Gauntlet rank",
+            "alts": [
+              "Iron Gauntlets +3?"
+            ]
+          }
+        ],
+        "equipment": [
+          {
+            "item": "Bolt Gem",
+            "why": "Arts x1.5 damage at 10%",
+            "slot": "Accessory"
+          }
+        ],
+        "arts": [
+          {
+            "name": "Spike",
+            "why": "Axe D: +4 Mt, +10 Hit"
+          },
+          {
+            "name": "Mighty Fist",
+            "why": "Gauntlet D: +4 Mt, +10 Hit"
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Attack Basics",
+            "why": "Gladiator mastery: Str +1, only if it fills this map (once mastered)"
+          },
+          {
+            "name": "Fear Nothing",
+            "why": "Personal Lv 20 ability: If unit attacks first, grants Atk+3 at cost of Avo-30 to unit..."
+          },
+          {
+            "name": "Fists Lv. 1",
+            "why": "Gauntlet D+ rank ability: gauntlet Hit +3"
+          }
+        ],
+        "items": [
+          {
+            "item": "Concoction",
+            "why": "40 HP x2: carried in from Ch 12",
+            "alts": [
+              "Vulnerary"
+            ]
+          }
+        ]
+      },
+      {
+        "when": "Part II Ch 2 to 3",
+        "from": {
+          "part": 2,
+          "ch": 2
+        },
+        "to": {
+          "part": 2,
+          "ch": 3
+        },
+        "level": "Lv 35 to 37",
+        "class": "Brigand",
+        "kind": "core",
+        "goal": "Regroup mastery and Str 65 growth on a free Specialty License. Fear Nothing+ (Lv 35): Atk +6 when he attacks first, so axe player phases get +3 Str and +6 Atk; Regroup's Avo +20 offsets part of the Avo -30. Keep some gauntlet fights toward Gauntlet C.",
+        "exit": "Leave once Regroup is mastered and Gauntlet is C (Pugilist exam at 75%). If Gauntlet stalls, stay Brigand: it is a fine Part II class for him.",
+        "masteries": [
+          "Regroup"
+        ],
+        "training": [
+          {
+            "rank": "Gauntlet C",
+            "for": "Pugilist exam",
+            "how": "Fight with gauntlets; Brigand keeps them"
+          }
+        ],
+        "tips": [
+          "No free time in Part II: only equipped items come in, so equip them at the end of Ch 12"
+        ],
+        "weapons": [
+          {
+            "item": "Iron Axe +3",
+            "why": "Part II issue weapon: his everyday axe (Hellbent Axe Str +3); Wt 10",
+            "plan": "Part II hands out Iron +3 weapons"
+          },
+          {
+            "item": "Hammer",
+            "why": "His one carried Part II weapon: Effective+ vs armor. Player phase only: Wt 20 gets him doubled, so end turns holding a Part II Iron +3 weapon",
+            "plan": "Vandahl barter or the Ch 10 map; equip it at the end of Ch 12"
+          },
+          {
+            "item": "Hand Axe",
+            "why": "1 to 2 range; carried in from Ch 12"
+          },
+          {
+            "item": "Iron Gauntlets",
+            "why": "Carried in from Ch 12: gauntlet fights for Gauntlet rank",
+            "alts": [
+              "Iron Gauntlets +3?"
+            ]
+          }
+        ],
+        "equipment": [
+          {
+            "item": "Bolt Gem",
+            "why": "Arts x1.5 damage at 10%",
+            "slot": "Accessory"
+          }
+        ],
+        "arts": [
+          {
+            "name": "Crash",
+            "why": "Axe B (trained on the bench): +9 Mt"
+          },
+          {
+            "name": "Spike",
+            "why": "Axe D: +4 Mt, +10 Hit"
+          },
+          {
+            "name": "Mighty Fist",
+            "why": "Gauntlet D: +4 Mt, +10 Hit"
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Regroup",
+            "why": "Brigand mastery goal: Avo +20 after a foe misses (once mastered)"
+          },
+          {
+            "name": "Fear Nothing+",
+            "why": "Personal Lv 35 ability: If unit attacks first, grants Atk+6 at cost of Avo-30 to unit..."
+          },
+          {
+            "name": "Attack Basics",
+            "why": "Gladiator mastery: Str +1"
+          },
+          {
+            "name": "Fists Lv. 1",
+            "why": "Gauntlet D+ rank ability: gauntlet Hit +3"
+          }
+        ],
+        "items": [
+          {
+            "item": "Concoction",
+            "why": "40 HP x2: carried in from Ch 12",
+            "alts": [
+              "Vulnerary"
+            ]
+          }
+        ]
+      },
+      {
+        "when": "Part II Ch 4 to 6",
+        "from": {
+          "part": 2,
+          "ch": 4
+        },
+        "to": {
+          "part": 2,
+          "ch": 6
+        },
+        "level": "Lv 39 to 42",
+        "class": "Pugilist",
+        "kind": "detour",
+        "goal": "Rank and mastery: Pugilist trains Gauntlet +2, his slow Warrior rank, and grows Spd 30 and Def 50 (Warrior 20). No axes here, so Hellbent Axe is off; Fear Nothing+ still adds Atk +6 on player phase, and Attack, Get Back (Avo +10 on arts) softens its Avo -30.",
+        "exit": "Leave once Gauntlet is B (Warrior exam at 75%) and Attack, Get Back is mastered. Warrior may wait for Part III.",
+        "masteries": [
+          "Attack, Get Back"
+        ],
+        "training": [
+          {
+            "rank": "Gauntlet B",
+            "for": "Warrior exam",
+            "how": "Pugilist trains Gauntlet +2 in every fight"
+          }
+        ],
+        "tips": [
+          "Pugilist on Majide: HP 80, Str 60, Spd 30, Def 50",
+          "Hellbent Axe idles without an axe; Crush Armor does the Hammer's job here",
+          "Uses a free Part II Specialty License"
+        ],
+        "weapons": [
+          {
+            "item": "Iron Gauntlets",
+            "why": "Carried in from Ch 12: main weapon here, Gauntlet +2 per fight",
+            "alts": [
+              "Iron Gauntlets +3?"
+            ]
+          }
+        ],
+        "equipment": [
+          {
+            "item": "Bolt Gem",
+            "why": "Arts damage",
+            "slot": "Accessory"
+          }
+        ],
+        "arts": [
+          {
+            "name": "Crush Armor",
+            "why": "Gauntlet C: effective vs armor"
+          },
+          {
+            "name": "Mighty Fist",
+            "why": "Gauntlet D: +4 Mt, +10 Hit"
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Attack, Get Back",
+            "why": "Pugilist mastery goal: Avo +10 when using an art (once mastered)"
+          },
+          {
+            "name": "Fear Nothing+",
+            "why": "Personal Lv 35 ability: If unit attacks first, grants Atk+6 at cost of Avo-30 to unit..."
+          },
+          {
+            "name": "Regroup",
+            "why": "Brigand mastery: Avo +20 after a foe misses"
+          },
+          {
+            "name": "Attack Basics",
+            "why": "Gladiator mastery: Str +1"
+          },
+          {
+            "name": "Fists Lv. 1",
+            "why": "Gauntlet D+ rank ability: gauntlet Hit +3"
+          }
+        ],
+        "drop": [
+          {
+            "item": "Da Mina Axe",
+            "why": "Pugilist is gauntlet-only; back in Warrior"
+          },
+          {
+            "item": "Hand Axe",
+            "why": "Pugilist is gauntlet-only; back in Warrior"
+          },
+          {
+            "item": "Crash",
+            "why": "Axe art; Pugilist is gauntlet-only"
+          },
+          {
+            "item": "Spike",
+            "why": "Axe art; Pugilist is gauntlet-only"
+          },
+          {
+            "item": "Hammer",
+            "why": "Pugilist is gauntlet-only; still carried, back in Warrior"
+          }
+        ],
+        "items": [
+          {
+            "item": "Concoction",
+            "why": "40 HP x2: carried in from Ch 12",
+            "alts": [
+              "Vulnerary"
+            ]
+          }
+        ]
+      },
+      {
+        "when": "Part II Ch 6 or Part III (once Gauntlet is B)",
+        "from": {
+          "part": 2,
+          "ch": 6,
+          "approx": true
+        },
+        "level": "Lv 42 to 45",
+        "class": "Warrior",
+        "kind": "core",
+        "goal": "Practiced Art (Hit +10 on arts); armor and Golem breaker. Axe in hand again: Hellbent Axe Str +3 and Fear Nothing+ Atk +6 on every player-phase swing.",
+        "exit": "Leave at Lv 45 once Practiced Art is mastered and Gauntlet, Axe and Sword are A (Battlemaster exam at 75%).",
+        "tips": [
+          "Hammer +1 drops from the west-side Warrior in Part II Ch 1",
+          "Shielding Axe comes back from storage in Part III"
+        ],
+        "weapons": [
+          {
+            "item": "Silver Axe",
+            "why": "Mt 23, Wt 9 at Axe B; no known source, so in Part II Ch 6 it's the issued Iron Axe +3",
+            "alts": [
+              "Iron Axe +3",
+              "Da Mina Axe"
+            ]
+          },
+          {
+            "item": "Hammer +1",
+            "why": "Part II Ch 1 drop (west Warrior): replaces the Hammer",
+            "alts": [
+              "Hammer"
+            ]
+          },
+          {
+            "item": "Hand Axe",
+            "why": "1 to 2 range"
+          },
+          {
+            "item": "Iron Gauntlets",
+            "why": "Gauntlet practice toward Battlemaster's Gauntlet A; Crush Armor",
+            "alts": [
+              "Wooden Gauntlets"
+            ]
+          }
+        ],
+        "equipment": [
+          {
+            "item": "Bolt Gem",
+            "why": "Arts damage",
+            "slot": "Accessory",
+            "plan": "Keep equipped"
+          }
+        ],
+        "arts": [
+          {
+            "name": "Crash",
+            "why": "Axe B: +9 Mt"
+          },
+          {
+            "name": "Crush Armor",
+            "why": "Anti-armor with gauntlets"
+          },
+          {
+            "name": "Spike",
+            "why": "Hit fix"
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Practiced Art",
+            "why": "Warrior mastery goal: Hit +10 on arts (once mastered)"
+          },
+          {
+            "name": "Fear Nothing+",
+            "why": "Personal Lv 35 ability: If unit attacks first, grants Atk+6 at cost of Avo-30 to unit..."
+          },
+          {
+            "name": "Attack, Get Back",
+            "why": "Pugilist mastery: Avo +10 when using an art"
+          },
+          {
+            "name": "Regroup",
+            "why": "Brigand mastery: Avo +20 after a foe misses"
+          },
+          {
+            "name": "Attack Basics",
+            "why": "Gladiator mastery: Str +1"
+          }
+        ],
+        "drop": [
+          {
+            "item": "Mighty Fist",
+            "why": "Slot goes to Crash"
+          },
+          {
+            "item": "Hammer",
+            "why": "Replaced by the Hammer +1"
+          },
+          {
+            "item": "Da Mina Axe",
+            "why": "Fallback for the Silver Axe only"
+          },
+          {
+            "item": "Wooden Gauntlets",
+            "why": "The Iron pair is already carried"
+          }
+        ],
+        "masteries": [
+          "Practiced Art"
+        ],
+        "training": [
+          {
+            "rank": "Axe A, Gauntlet A, Sword A",
+            "for": "Battlemaster (Part III)",
+            "how": "Fight in Warrior (Axe +3, Gauntlet +2, Sword +2)"
+          }
+        ],
+        "items": [
+          {
+            "item": "Concoction",
+            "why": "40 HP x2",
+            "alts": [
+              "Vulnerary"
+            ]
+          }
+        ]
+      },
+      {
+        "when": "Part III goal",
+        "from": {
+          "part": 3
+        },
+        "level": "Lv 45+",
+        "class": "Battlemaster",
+        "kind": "core",
+        "goal": "HP 90, Str 75, War Master's Strike (x1.5 damage) on top of Hellbent Axe and Fear Nothing+: a player-phase axe finisher.",
+        "exit": "Final class.",
+        "masteries": [
+          "War Master's Strike"
+        ],
+        "weapons": [
+          {
+            "item": "Silver Axe",
+            "why": "Silver Axe: Tobias holds the Credna's Mallet",
+            "alts": [
+              "Hammer +1"
+            ]
+          },
+          {
+            "item": "Hammer +1",
+            "why": "Armor and Golems"
+          },
+          {
+            "item": "Hand Axe",
+            "why": "1 to 2 range"
+          },
+          {
+            "item": "Shielding Axe",
+            "why": "Enemy phase",
+            "situational": "Chokepoint maps where he must take hits: open slot",
+            "plan": "Keep"
+          }
+        ],
+        "equipment": [
+          {
+            "item": "Bolt Gem",
+            "why": "Arts damage",
+            "slot": "Accessory",
+            "plan": "Keep equipped"
+          }
+        ],
+        "arts": [
+          {
+            "name": "Power Spike",
+            "why": "Axe A: +12 Mt, +10 Hit"
+          },
+          {
+            "name": "Crash",
+            "why": "Axe B: +9 Mt"
+          },
+          {
+            "name": "Spike",
+            "why": "Hit fix"
+          }
+        ],
+        "abilities": [
+          {
+            "name": "War Master's Strike",
+            "why": "Battlemaster mastery: damage x1.5 (once mastered)"
+          },
+          {
+            "name": "Fear Nothing+",
+            "why": "Personal Lv 35 ability: If unit attacks first, grants Atk+6 at cost of Avo-30 to unit..."
+          },
+          {
+            "name": "Practiced Art",
+            "why": "Warrior mastery: Hit +10 on arts"
+          },
+          {
+            "name": "Regroup",
+            "why": "Brigand mastery: Avo +20 after a foe misses"
+          },
+          {
+            "name": "Attack, Get Back",
+            "why": "Pugilist mastery: Avo +10 when using an art"
+          }
+        ],
+        "drop": [
+          {
+            "item": "Hammer",
+            "why": "Replaced by Hammer +1"
+          },
+          {
+            "item": "Wooden Gauntlets",
+            "why": "Slot goes to Credna's Mallet"
+          },
+          {
+            "item": "Da Mina Axe",
+            "why": "No slot"
+          },
+          {
+            "item": "Crush Armor",
+            "why": "Gauntlet art: no gauntlet in the 6; the Hammer +1 covers armor"
+          }
+        ],
+        "items": [
+          {
+            "item": "Elixir",
+            "why": "100 HP: front-line finisher",
+            "alts": [
+              "Concoction"
+            ],
+            "plan": "After Ch 6"
+          }
+        ]
+      }
+    ],
+    "alt": "Dreadnought instead of Warrior in Part II: Arena Heavy Training covers Axe B, Spear B and Heavy D in one course, so he could take it in Ch 2, but he loses gauntlets and Battlemaster still needs Gauntlet A. If inn auto-training does raise Gauntlet on the bench, skip ahead: Pugilist in Ch 2, Warrior as soon as Gauntlet is B.",
+    "sources": [
+      "class-and-weapon-guide",
+      "growth.py",
+      "class-data",
+      "character-learnsets",
+      "combat-arts-and-abilities",
+      "weapons-and-items",
+      "hard-mode-video-notes",
+      "part2-war",
+      "PATHS-BRIEF",
+      "walkthrough-part1-cai",
+      "part3-salvation"
+    ],
+    "decisions": [
+      {
+        "topic": "Bench him for Part I",
+        "pick": "Gladiator on recruit, no Part I exam",
+        "why": "C and D on every tier list, and his Warrior rank (Gauntlet) can't be trained in the Arena. Magic, Ji and the Hammer already cover armor."
+      },
+      {
+        "topic": "Climb Brigand, Pugilist, Warrior in Part II",
+        "pick": "Brigand (Ch 2), Pugilist once Gauntlet is C, Warrior once Gauntlet is B",
+        "why": "Free Licenses: each class trains the next one's rank while Army Training sets his level."
+      }
+    ],
+    "gates": [
+      {
+        "route": "Cai",
+        "from": {
+          "part": 1,
+          "ch": 4
+        },
+        "kind": "recruit",
+        "text": "Support 2 and Renown 5: answer his question 3 times (he accepts on the third)",
+        "by": {
+          "part": 1,
+          "ch": 7
+        }
+      },
+      {
+        "route": "Cai",
+        "from": {
+          "part": 1,
+          "ch": 7
+        },
+        "kind": "rank",
+        "text": "Axe B and Sword B by 11/27 for his Part II exams; equip the Bolt Gem at the end of Ch 12",
+        "by": {
+          "part": 1,
+          "ch": 12
+        }
+      }
+    ]
+  },
+  "sources": [
+    "https://fortunesweave.co.uk/characters/majide",
+    "https://www.keengamer.com/articles/guides/fire-emblem-fortunes-weave-tier-list-best-characters-ranked-for-every-route/",
+    "https://www.keengamer.com/articles/guides/fire-emblem-fortunes-weave-best-class-for-every-character/",
+    "https://www.pockettactics.com/fire-emblem-fortunes-weave/tier-list"
+  ],
+  "recruitOn": {
+    "Cai": {
+      "how": "recruit",
+      "support": 2,
+      "renown": 5,
+      "task": "Answer his question 3 times"
+    },
+    "Dietrich": {
+      "how": "recruit",
+      "support": 3,
+      "renown": 8
+    },
+    "Theodora": {
+      "how": "recruit",
+      "support": 3,
+      "renown": 8
+    },
+    "Leda": {
+      "how": "recruit",
+      "support": 3,
+      "renown": 9
+    }
+  }
+}

@@ -1,0 +1,4 @@
+{ "name": "fw-cloud", "private": true, "type": "module",
+  "devDependencies": { "@tailwindcss/vite": "^4.1.14", "@types/react": "^19.1.13", "@types/react-dom": "^19.1.9",
+  "@vitejs/plugin-react": "^5.0.4", "lucide-react": "^1.50.0", "marked": "^18.0.14", "react": "^19.1.1",
+  "react-dom": "^19.1.1", "tailwindcss": "^4.1.14", "vite": "^7.1.9", "typescript": "^5.9.2", "@types/node": "^22" } }

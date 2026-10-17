@@ -1,0 +1,287 @@
+{
+  "route": "Dietrich",
+  "ch": 5,
+  "name": "The Essence of a Warrior",
+  "free": {
+    "from": "4/11",
+    "to": "4/30"
+  },
+  "unlocks": [
+    "Beginner exams (class tutorial, Temple Row)",
+    "Port and Lowtown",
+    "Gate of the Gods (Mars Temple to Pasithea)",
+    "Arena"
+  ],
+  "routine": {
+    "meals": [
+      {
+        "week": "Until you meet Jester, Olympia, Goliath",
+        "tables": [
+          [
+            "Dietrich",
+            "Io",
+            "Catania"
+          ],
+          [
+            "Dietrich",
+            "Esmeralda",
+            "Mikaela"
+          ],
+          [
+            "Dietrich",
+            "Fabio",
+            "Yang Jie"
+          ]
+        ],
+        "note": "Ch 4 week 2 tables: army bonds while you look for the three"
+      },
+      {
+        "week": "From the week you gift them",
+        "tables": [
+          [
+            "Dietrich",
+            "Jester",
+            "Olympia"
+          ],
+          [
+            "Dietrich",
+            "Jester",
+            "Esmeralda"
+          ],
+          [
+            "Dietrich",
+            "Olympia",
+            "Goliath"
+          ]
+        ],
+        "note": "All three need Support 3. First dishes: Madazins, Coffee-Berry Paste, Goat Roast"
+      }
+    ],
+    "gifts": [
+      {
+        "unit": "Jester",
+        "gift": "Any pastry (first gift), then Strong Seasonings or Garum",
+        "where": "Lowtown Tavern, then Midtown Arcade",
+        "cost": "27G, then 180G (Garum 45G)"
+      },
+      {
+        "unit": "Olympia",
+        "gift": "Any pastry (first gift), then Orgus Coffee (loved)",
+        "where": "Lowtown Tavern",
+        "cost": "27G, then 135G"
+      },
+      {
+        "unit": "Goliath",
+        "gift": "Any pastry (first gift), then Volcano Ghosh (loved)",
+        "where": "Lowtown Tavern, then Barsk Post Town (Thaleia)",
+        "cost": "27G, then 135G"
+      },
+      {
+        "unit": "Fabio",
+        "gift": "Volcano Ghosh (loved); Mature or Young Ghosh in Dagsion",
+        "where": "Barsk Post Town (Thaleia); ghosh at Lowtown Tavern",
+        "cost": "135G (90G, 45G)"
+      },
+      {
+        "unit": "Mikaela",
+        "gift": "Volcano Ghosh; Mature or Young Ghosh in Dagsion",
+        "where": "Barsk Post Town (Thaleia); ghosh at Lowtown Tavern",
+        "cost": "135G (90G, 45G)"
+      },
+      {
+        "unit": "Yang Jie",
+        "gift": "Volcano Ghosh (loved); Mature or Young Ghosh in Dagsion",
+        "where": "Barsk Post Town (Thaleia); ghosh at Lowtown Tavern",
+        "cost": "135G (90G, 45G)"
+      },
+      {
+        "unit": "Io",
+        "gift": "Kitten Figurine or Protection Figurine",
+        "where": "Market Vendor, Midtown Arcade",
+        "cost": "100G or 200G",
+        "until": "Support 2"
+      },
+      {
+        "unit": "Catania",
+        "gift": "Select Coffee",
+        "where": "Lowtown Tavern",
+        "cost": "90G"
+      },
+      {
+        "unit": "Esmeralda",
+        "gift": "Kitten Figurine, or Garum",
+        "where": "Midtown Arcade, or Lowtown Tavern",
+        "cost": "100G (Garum 45G)"
+      }
+    ],
+    "weekly": [
+      {
+        "text": "Stock up at the Lowtown Tavern's Gift Vendor: 27G pastries for first gifts, ghosh for weekly ones",
+        "detail": [
+          "Stock is limited per restock: buy several copies.",
+          "Coffee or Simple Pastries for anyone you haven't gifted yet; Mature Ghosh 90G or Young Ghosh 45G.",
+          "Volcano Ghosh isn't sold here: Barsk Post Town in Thaleia."
+        ]
+      }
+    ]
+  },
+  "missables": [
+    {
+      "id": "dietrich-ch05-missables-fabio-alleys",
+      "kind": "scene",
+      "text": "Talk to Fabio, then find his scene in the eastern alleys east of City Streets",
+      "where": "Eastern alleys, east of City Streets",
+      "lose": "His Ch 10 scene, and the chain that follows it",
+      "recover": "None",
+      "task": true
+    },
+    {
+      "id": "dietrich-ch05-missables-fate-of-the-expedition",
+      "kind": "timing",
+      "quest": "fate-of-the-expedition",
+      "text": "Do Fate of the Expedition in the first week: Merchant, Arena Plaza",
+      "when": "4/20",
+      "lose": "Lucky Coin and 30 Renown",
+      "recover": "None",
+      "task": true
+    },
+    {
+      "id": "dietrich-ch05-missables-stolen-knowledge",
+      "kind": "timing",
+      "quest": "stolen-knowledge",
+      "text": "Finish Stolen Knowledge (Ancient Tablet, Wodan Pass) if Kinkara offered it in Ch 4",
+      "when": "4/30",
+      "lose": "500G and 30 Renown",
+      "recover": "None",
+      "task": true
+    }
+  ],
+  "classes": {
+    "note": {
+      "text": "Take the class tutorial at Temple Row: it hands out the Beginner Licenses",
+      "detail": [
+        "Renown is 2 to 3: Specialty (Renown 4) isn't open, so everyone fights Ch 5 in a Beginner class."
+      ]
+    }
+  },
+  "gear": {
+    "buy": [
+      {
+        "text": "Buy a [[item:Javelin]] and a [[item:Hand Axe]] so you can counter at range"
+      }
+    ]
+  },
+  "recruits": [
+    {
+      "unit": "Io",
+      "action": "Pay 800G the day Renown 3 lands: cheap, early and mounted, which this army lacks",
+      "when": "Late Ch 5 (Renown 3)",
+      "detail": [
+        "Not Renown 3 by 4/30: recruit him in the first days of Ch 6. No deadline is known."
+      ]
+    }
+  ],
+  "quests": {
+    "route": [
+      {
+        "quest": "dread-warrior-borges",
+        "note": "Take the 150 Renown now: it gets Io's Renown 3 in time"
+      },
+      {
+        "quest": "dread-warrior-aguirre",
+        "note": "Opens at Renown 3: late Ch 5 or Ch 6"
+      }
+    ],
+    "sub": [
+      {
+        "quest": "fate-of-the-expedition",
+        "note": "First week"
+      },
+      {
+        "quest": "behelda-axes"
+      },
+      {
+        "quest": "primal-crystal"
+      },
+      {
+        "quest": "sinister-sacrifices",
+        "note": "Ch 5 or 6: its Black-Magic Manual goes to Fabio"
+      },
+      {
+        "quest": "petals-of-encouragement",
+        "note": "Buy the Yaamanthemum whenever you pass Yaaman"
+      },
+      {
+        "quest": "ever-employed-a-blacksmith",
+        "note": "Ch 5 or 6. Only on your first path, which this is"
+      },
+      {
+        "quest": "more-fabled-insect-pearls",
+        "offered": "if-offered",
+        "note": "Only appears if you did the first pearl quest (due 3/7, before Ch 4)",
+        "skip": true
+      }
+    ],
+    "paralogue": []
+  },
+  "explore": [
+    {
+      "group": "Dungeons",
+      "id": "dietrich-ch05-explore-rubess-forest",
+      "loot": true,
+      "text": "[[place:Rubess Forest]] (Lv 9): Healing Staff for Yang Jie, Riding Manual, Lucky Coin"
+    },
+    {
+      "group": "Dungeons",
+      "id": "dietrich-ch05-explore-nowahs-cave",
+      "loot": true,
+      "text": "[[place:Nowah's Cave]] (Lv 10): Pure Water (one for Kiroc), Tactics Manual, Luxury Vegetable Crate",
+      "detail": [
+        "Also a Turmoil Mask with no user: Fabio keeps his head slot empty.",
+        "Elektra, south-southeast of Dagsion: Amalthea, East Amalthea Posthouse, then Feronia Posthouse. Optional.",
+        "The Killing Edge +3 some lists put here is a Part III chest."
+      ]
+    },
+    {
+      "group": "Dungeons",
+      "id": "dietrich-ch05-explore-corroios-fort-ruins",
+      "loot": true,
+      "text": "[[place:Corroios Fort Ruins]] (Lv 13): Magic Staff for Fabio, Tactics Manual, Poisonbane Chain",
+      "detail": [
+        "You come back here for Sepente in Ch 6."
+      ]
+    }
+  ],
+  "battle": {
+    "title": "Shadowy Cave: Hannibal's Trial",
+    "objective": "Pull every lever, then defeat Hannibal",
+    "lose": "Dietrich falls, or 10 turns pass before the levers are done",
+    "tips": [
+      {
+        "text": "The Myrmidons can't be hurt until every lever is pulled"
+      },
+      {
+        "text": "Send Io and Yang Jie left to the far switch, Dietrich and Fabio right; Mikaela and Esmeralda bait",
+        "detail": [
+          "No Io yet (Renown 3 not reached): Mikaela goes left with Yang Jie, and Esmeralda baits alone."
+        ]
+      },
+      {
+        "text": "Ignore the Elephant Riders until the switches are done; killing them afterwards weakens Hannibal"
+      }
+    ],
+    "loot": [
+      {
+        "text": "Chests: 2 Coins, [[item:Killing Edge]], White-Magic Manual (Yang Jie), Black-Magic Manual (Fabio)",
+        "detail": [
+          "The only Part I Killing Edge chest: keep it for Dietrich, or hand it to A Sword of Deadly Renown (Ch 7)."
+        ]
+      }
+    ]
+  },
+  "exitExtra": [
+    {
+      "text": "Beat Borges and recruit Io, or keep 800G ready for the day Renown 3 lands"
+    }
+  ]
+}

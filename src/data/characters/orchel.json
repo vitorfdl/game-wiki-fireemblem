@@ -1,0 +1,496 @@
+{
+  "name": "Orchel",
+  "slug": "orchel",
+  "faction": "Credna's Temple (Linaria Dewdrops clan)",
+  "weapons": [
+    "Reason magic (Fire)",
+    "Faith magic (Heal, Recover, Physic, Seraphim)"
+  ],
+  "avoid": [
+    "Cavalry classes (locked)",
+    "Flying classes (locked)"
+  ],
+  "personality": "Pure and compassionate to the point of airheadedness, she cannot ignore anyone in distress and never removes her gold cat-faced mask in public.",
+  "story": "A priest of Credna Temple in Dagsion who hides her face behind a gold cat mask. She joins the army in Part III on every route.",
+  "personalSkill": {
+    "name": "Solid and Sturdy",
+    "effect": "Def+5; unit is armored and cannot change to cavalry or flying classes."
+  },
+  "growths": {
+    "HP": 30,
+    "Str": 60,
+    "Mag": 45,
+    "Spd": 10,
+    "Dex": 20,
+    "Def": 60,
+    "Res": 60,
+    "Lck": 20,
+    "Cha": 60
+  },
+  "supports": [
+    "Fianna",
+    "Leda (B)",
+    "Majide",
+    "Ninae",
+    "Ultand"
+  ],
+  "joins": "Automatically in Part III: Salvation, First Section, on all routes. Guides advise completing her Part I paralogue to be safe.",
+  "build": {
+    "role": "Armored battle healer and cursed-gear sink (Automaton)",
+    "path": [
+      "Bishop",
+      "Wiseman"
+    ],
+    "part3Target": "Wiseman",
+    "notes": "Curse never moves her gauge: Velheit, Gundogya, Anguishing Shield, Aaron's Rod and Poisonbone Chain are hers. Join class ?."
+  },
+  "sources": [
+    "https://fortunesweave.co.uk/characters/orchel",
+    "https://www.rpgsite.net/guide/21391-fire-emblem-fortunes-weave-recruitment-guide-all-characters-in-game-how-to-recruit-them"
+  ],
+  "guide": {
+    "role": "Armored battle healer and the cursed-gear sink (Automaton)",
+    "summary": "Curse never moves her gauge, so she wears the cursed pieces the army collected with no Burst risk. Stand her on the front line beside Eshmel: doubled White Magic heals on player phase, Velheit counters on enemy phase, and Strahl and Lanze answer shields and undead.",
+    "playstyle": "Player phase: heal first (Harmonic Soul heals her too), then Seraphim or an axe hit. Enemy phase: Def and Res growth 60 each and the Anguishing Shield take the hits. Elizabeth once per map puts her in Overblaze for the boss turn.",
+    "focus": [
+      "Def",
+      "Res",
+      "Mag"
+    ],
+    "keys": [
+      "Fire Strahl on Dagda's shield in Sec 1, with Cai's Blackfire.",
+      "Take Aaron's Rod from Talimun in Sec 2 Free Time: Mag/Dex +4 at no gauge cost.",
+      "Arena Heavy weeks from Sec 2: Axe B and Heavy C (Armored Combat, Dex +5).",
+      "Push Axe A by Sec 4 for Velheit (Hit 95, Wt 5); Gundogya on mage maps.",
+      "Undead maps: every cursed piece off (Offset Curse); Iron Axe +4, Hexlock, Healing Staff."
+    ],
+    "watch": [
+      "Undead: any cursed piece, shield and Rod included, can zero her hit (Offset Curse). The forecast won't show it.",
+      "Weight: Velheit 5 + Anguishing Shield 8 + Aaron's Rod 8 = 21 (Gundogya 12 on mage maps: 28). Spd 10 growth: doubled anyway; Def/Res carry her. The Rod comes off first.",
+      "Axe A: join rank ?; Arena seats bench first. Without A she keeps the Hammer and magic.",
+      "Armored: Solid and Sturdy makes her armored in every class (?): (Infantry) abilities do nothing.",
+      "Self-Repair: level ?. Equip it the day it shows: Elizabeth's Overblaze then heals her every phase."
+    ],
+    "decisions": [
+      {
+        "topic": "Go Bishop, then Wiseman",
+        "pick": "Bishop on join, Wiseman at Lv 45 (White A)",
+        "why": "Both classes carry Axe and White Magic, so Velheit and the heals sit on one unit. Castle Knight (Axe A, Spear A) is the armored axe line, but it drops her magic, Predictive Sense and Harmonic Soul.",
+        "else": "Castle Knight if Axe A lands and White A stalls"
+      },
+      {
+        "topic": "Hold the cursed gear on her",
+        "pick": "Velheit, Gundogya, Anguishing Shield, Aaron's Rod, Poisonbone Chain",
+        "why": "Automaton: Curse never moves her gauge, so she keeps the stats and her Diadem of Duality procs (Atk +3, 25%) with no Burst. On an Underworld unit the same kit adds 3 per combat."
+      },
+      {
+        "topic": "No Divine class",
+        "pick": "Wiseman is the endpoint",
+        "why": "The Avatar (White S, Black S) fits her spell lists, but Sirocco holds it and each Divine class has one holder."
+      }
+    ],
+    "stages": [
+      {
+        "when": "Part III Sec 1 to 3 (Bishop)",
+        "from": {
+          "part": 3,
+          "ch": 1
+        },
+        "to": {
+          "part": 3,
+          "ch": 3
+        },
+        "level": "Join Lv ? to 45",
+        "class": "Bishop",
+        "kind": "core",
+        "goal": "Front healer: doubled White Magic, Harmonic Soul heals her too. Strahl breaks Dagda's shield (Sec 1).",
+        "why": [
+          "Join class ?: take Bishop in Sec 2 Free Time if she isn't one (joins with White B+)",
+          "Underworld Boon: no answer of her own; she heals inside Eshmel's 2-tile ring",
+          "Breza (Sec 2): fliers; she heals the turtle while bows shoot"
+        ],
+        "exit": "Lv 45, White A and Axe A?: Wiseman exam (Master License)",
+        "masteries": [
+          "Barrier"
+        ],
+        "weapons": [
+          {
+            "item": "Iron Axe +4",
+            "why": "Main: Mt 23?, Hit 65, Dex +? (starts at +3), Wt 10; no Curse",
+            "plan": "Refine to +4 (no Soulstone); Soulstone for +3 and +4; Da Mina +2 until then",
+            "alts": [
+              "Da Mina Axe +2"
+            ]
+          },
+          {
+            "item": "Hammer",
+            "why": "Mt 14, Effective+ vs armor: armored undead"
+          }
+        ],
+        "equipment": [
+          {
+            "item": "Anguishing Shield",
+            "why": "Magic hits: 50% to halve; Curse 1, free for her (Wt 8)",
+            "slot": "Defense",
+            "alts": [
+              "Hexlock Shield"
+            ]
+          },
+          {
+            "item": "Aaron's Rod",
+            "why": "Mag/Dex +4; Curse 1, free for her (Wt 8)",
+            "slot": "Accessory",
+            "alts": [
+              "Healing Staff"
+            ],
+            "plan": "Talimun's; hand it over in Sec 2"
+          },
+          {
+            "item": "Poisonbone Chain",
+            "why": "Magic hits poison 50%; Curse 1",
+            "slot": "Accessory",
+            "situational": "Long boss fights (Cohen & Maria, Drake): replaces Aaron's Rod",
+            "alts": [
+              "Electron Agitator"
+            ]
+          },
+          {
+            "item": "Hexlock Shield",
+            "why": "Def +1, Res +5, no Curse",
+            "slot": "Defense",
+            "situational": "Undead maps: replaces the Anguishing Shield (Offset Curse)",
+            "alts": [
+              "Talisman Shield"
+            ]
+          },
+          {
+            "item": "Healing Staff",
+            "why": "+10 HP per heal, no Curse",
+            "slot": "Accessory",
+            "situational": "Undead maps: replaces Aaron's Rod (Offset Curse)",
+            "alts": [
+              "Magic Staff"
+            ]
+          }
+        ],
+        "items": [
+          {
+            "item": "Elixir",
+            "why": "100 HP: she stands where the hits land",
+            "alts": [
+              "Concoction"
+            ]
+          }
+        ],
+        "arts": [
+          {
+            "name": "Spike",
+            "why": "Axe D: Mt +4, Hit +10 on the Hammer"
+          },
+          {
+            "name": "Lend Magic",
+            "why": "Authority C: lends her Mag to an ally"
+          }
+        ],
+        "spells": [
+          {
+            "name": "Seraphim",
+            "why": "White B: effective vs undead"
+          },
+          {
+            "name": "Recover",
+            "why": "White C: 30 HP"
+          },
+          {
+            "name": "Physic",
+            "why": "Rank ?: 8 HP at range"
+          },
+          {
+            "name": "Heal",
+            "why": "White D: 10 HP (+10 Magic Heal)"
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Predictive Sense",
+            "why": "Lv 20: Hit +20 to magic when she attacks first"
+          },
+          {
+            "name": "Harmonic Soul",
+            "why": "Lv 35 (join Lv ?): heals her when she heals"
+          },
+          {
+            "name": "White Magic Lv. 3",
+            "why": "Joins White B+: Hit/Avo +5 with magic"
+          },
+          {
+            "name": "Armored Combat",
+            "why": "Heavy C? (her row): Dex +5 for the Hammer"
+          },
+          {
+            "name": "Crit Defense",
+            "why": "Heavy D?: 30% to halve crit damage"
+          }
+        ],
+        "training": [
+          {
+            "rank": "Heavy Armor C, Axe B",
+            "for": "Armored Combat; Axe toward Velheit",
+            "how": "Arena Heavy from Sec 2 (Spear, Axe, Heavy, Authority)"
+          },
+          {
+            "rank": "Axe A",
+            "for": "Velheit and Gundogya (Sec 4)",
+            "how": "Hammer and Spike in fights after B; Arena seats bench first"
+          }
+        ],
+        "tips": [
+          "Hit stack: Iron Axe +4 Dex +?, Armored Combat Dex +5, Aaron's Rod Dex +4, Spike +10",
+          "Sec 1: she arrives on Turn 7; Strahl on Dagda's shield first",
+          "Elizabeth (once per map): Overblaze for the boss turn; Strahl and Lanze need gauge 1",
+          "Undead maps: Hexlock Shield and Healing Staff in, Rod and Anguishing Shield out",
+          "Theodora's Part I Hammer +2 may sit in storage (?): take it over a fresh Hammer"
+        ],
+        "checks": [
+          {
+            "stat": "Dex",
+            "at": "Sec 3",
+            "need": "Hammer forecast Hit 70+ vs Shenlo's armored foes",
+            "why": "Hammer Hit 60; Iron Axe +4 adds Dex +? on non-armor foes",
+            "fix": [
+              "Armored Combat (Dex +5)",
+              "Aaron's Rod (Dex +4)",
+              "Spike (Hit +10)"
+            ]
+          }
+        ]
+      },
+      {
+        "when": "Part III Section 4+ (Wiseman)",
+        "from": {
+          "part": 3,
+          "ch": 4
+        },
+        "level": "Lv 45+",
+        "class": "Wiseman",
+        "kind": "core",
+        "goal": "Wiseman: Magic Heal +15, Res +25. Velheit +2 counters on enemy phase; her cursed kit costs 0 gauge.",
+        "why": [
+          "Drake (S5): E's Physic and front healer; Gundogya (Atk +15 vs magic) for the mages",
+          "Hit stack: Velheit 95, Armored Combat Dex +5, Rod Dex +4, Axes Lv. 3 +5, Spike +10",
+          "S6: E sweeps the map; no Balor seat"
+        ],
+        "exit": "Endpoint. The Avatar fits but Sirocco holds it.",
+        "masteries": [
+          "Dominate Magic"
+        ],
+        "weapons": [
+          {
+            "item": "Velheit +2",
+            "why": "Axe A, Mt 16?, Hit 95, Wt 5; Curse 1, free for her",
+            "plan": "Special refine to +2; held since Part I",
+            "alts": [
+              "Iron Axe +4"
+            ]
+          },
+          {
+            "item": "Hammer",
+            "why": "Mt 14, Effective+ vs armor; no Curse",
+            "plan": "Carry-over",
+            "situational": "Armor maps: uses the open slot"
+          },
+          {
+            "item": "Iron Axe +4",
+            "why": "Undead-map axe: Mt 23?, Dex +?, no Curse",
+            "situational": "Undead maps: replaces Velheit (Offset Curse)",
+            "plan": "Carry-over; Soulstone for +3 and +4; Da Mina +2 until then",
+            "alts": [
+              "Da Mina Axe +2"
+            ]
+          },
+          {
+            "item": "Gundogya",
+            "why": "Axe A, Atk +15 vs magic users; Curse 1",
+            "situational": "Mage maps (Drake): uses the open slot; off vs undead"
+          }
+        ],
+        "equipment": [
+          {
+            "item": "Anguishing Shield",
+            "why": "Magic hits: 50% to halve; Curse 1, free for her",
+            "slot": "Defense",
+            "alts": [
+              "Hexlock Shield"
+            ]
+          },
+          {
+            "item": "Aaron's Rod",
+            "why": "Mag/Dex +4; Curse 1, free for her",
+            "slot": "Accessory",
+            "alts": [
+              "Healing Staff"
+            ],
+            "plan": "From Talimun (Sec 2)"
+          },
+          {
+            "item": "Poisonbone Chain",
+            "why": "Magic hits poison 50%; Curse 1",
+            "slot": "Accessory",
+            "situational": "Long boss fights (Cohen & Maria, Drake): replaces Aaron's Rod",
+            "alts": [
+              "Electron Agitator"
+            ]
+          },
+          {
+            "item": "Hexlock Shield",
+            "why": "Def +1, Res +5, no Curse",
+            "slot": "Defense",
+            "situational": "Undead maps: replaces the Anguishing Shield (Offset Curse)",
+            "alts": [
+              "Talisman Shield"
+            ]
+          },
+          {
+            "item": "Healing Staff",
+            "why": "+10 HP per heal, no Curse",
+            "slot": "Accessory",
+            "situational": "Undead maps: replaces Aaron's Rod (Offset Curse)",
+            "alts": [
+              "Magic Staff"
+            ]
+          }
+        ],
+        "items": [
+          {
+            "item": "Elixir",
+            "why": "100 HP",
+            "alts": [
+              "Concoction"
+            ]
+          }
+        ],
+        "arts": [
+          {
+            "name": "Stormstep",
+            "why": "Velheit: Mt +5, Hit +20; AS +10 after a kill"
+          },
+          {
+            "name": "Power Spike",
+            "why": "Axe A: Mt +12, Hit +10"
+          },
+          {
+            "name": "Spike",
+            "why": "Axe D: Mt +4, Hit +10"
+          },
+          {
+            "name": "Lend Magic",
+            "why": "Authority C: lends her Mag to an ally"
+          }
+        ],
+        "spells": [
+          {
+            "name": "Aura",
+            "why": "White A: Mt 22 at 1-2"
+          },
+          {
+            "name": "Seraphim",
+            "why": "Effective vs undead"
+          },
+          {
+            "name": "Recover",
+            "why": "30 HP (+15 Magic Heal)"
+          },
+          {
+            "name": "Physic",
+            "why": "8 HP at range (+15)"
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Harmonic Soul",
+            "why": "Heals her when she heals"
+          },
+          {
+            "name": "Resistant Armor",
+            "why": "Heavy B (her row): Res +5 vs Drake's mages"
+          },
+          {
+            "name": "Armored Combat",
+            "why": "Dex +5: Velheit and Aura Hit"
+          },
+          {
+            "name": "Axes Lv. 3",
+            "why": "Axe B+: Hit/Avo +5 with Velheit"
+          },
+          {
+            "name": "Barrier",
+            "why": "Bishop mastery: Res +3 to adjacent allies"
+          }
+        ],
+        "tips": [
+          "Drake: end beside Centurio and Noctula: Barrier gives both Res +3 vs the mages",
+          "Physic: she is E's only one; Fianna takes the adjacent heals",
+          "Undead maps: Iron Axe +4, Hammer, Hexlock Shield, Healing Staff; cursed pieces off",
+          "Self-Repair (Lv ?) over Resistant Armor once learned: Elizabeth's Overblaze heals every phase"
+        ],
+        "checks": [
+          {
+            "stat": "Res",
+            "at": "Sec 5",
+            "need": "Drake's mages leave her above half HP in the forecast",
+            "fix": [
+              "Hexlock Shield (Res +5) for the Anguishing Shield",
+              "Cloth of Aurora on Eshmel beside her (Res +3)"
+            ]
+          }
+        ],
+        "drop": [
+          {
+            "item": "White Magic Lv. 3",
+            "why": "Axes Lv. 3: Velheit carries her enemy phase"
+          },
+          {
+            "item": "Crit Defense",
+            "why": "Barrier for the front pocket"
+          },
+          {
+            "item": "Predictive Sense",
+            "why": "Resistant Armor: she heals on player phase, mages hit her on theirs"
+          },
+          {
+            "item": "Iron Axe +4",
+            "why": "Velheit +2 is the main (Hit 95 vs 65); the Iron Axe stays for undead maps"
+          }
+        ],
+        "training": [
+          {
+            "rank": "Heavy Armor B",
+            "for": "Resistant Armor (Res +5)",
+            "how": "Arena Heavy weeks in S2 to S4 while she has no squad"
+          }
+        ]
+      }
+    ],
+    "sources": [
+      "part3-salvation",
+      "part2-war",
+      "weapons-and-items",
+      "combat-arts-and-abilities",
+      "character-learnsets",
+      "equippable-abilities",
+      "class-data",
+      "class-and-weapon-guide",
+      "redesign/12-late-game-pass"
+    ]
+  },
+  "recruitOn": {
+    "Leda": {
+      "how": "story",
+      "window": "Part III Sec 1"
+    },
+    "Theodora": {
+      "how": "story",
+      "window": "Part III Sec 1"
+    }
+  }
+}

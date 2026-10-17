@@ -1,0 +1,222 @@
+{
+  "route": "Theodora",
+  "n": 6,
+  "decisions": [
+    {
+      "topic": "Balor teams",
+      "pick": "Keep Section 5's squads through Free Time, then rebuild: C center, A west gates, B east gates",
+      "why": "Balor takes 3 squads + Eshmel. The center drops a whole HP bar the turn his barrier falls; the sides need Mov, range and Physic to break 2 gates a bar. Holding the squads to the end keeps Answerer's Cry on the map.",
+      "alt": "Keeping Section 5's squads (damage spread over all five)"
+    },
+    {
+      "topic": "Center 8",
+      "pick": "Leda, Sirocco, Dietrich, Tobias, Guzran, Olympia, Talimun, Dante",
+      "why": "Avatar, Blade, Eternal and Guzran are the four biggest hits; Leda dances the best of them again, Talimun curses Balor from 10 tiles, Dante's triggers add Hit/Crit +10, Olympia heals.",
+      "alt": "Theodora in the center (tanks, but adds no burst)"
+    },
+    {
+      "topic": "Lyrah",
+      "pick": "B and C deploy (16 + Eshmel)",
+      "why": "C holds one area and kills the summons; B's fliers skip the Fear miasma and chase her teleports to her last corner.",
+      "alt": "A and C (no fliers to chase)"
+    },
+    {
+      "topic": "Last buys",
+      "pick": "Seraph Robe Leda; Secret Book Dietrich if gold is left. Balor chests: Speedwing Dietrich, Seraph Robe Olympia, Energy Drop Tobias",
+      "why": "14,000G each and permanent; the center takes Balor's plus-shaped counter, so Leda's HP comes first. The Temple of Balor chests add three free boosters for the center between Lyrah and Balor.",
+      "alt": "Spreading boosters over all 24"
+    }
+  ],
+  "plan": [
+    {
+      "group": "Free Time 5/16–6/6",
+      "rows": [
+        {
+          "text": "Klapka joins; he waits on the bench (Def 50, F-tier skill)"
+        },
+        {
+          "text": "Kalla's Lv 60 Trial (the hardest) with the center team: Kalla's Needle to Lysander",
+          "squad": "C"
+        },
+        {
+          "text": "D and E finish anything open by 6/6: requests, Trials, last repairs",
+          "squad": "D"
+        },
+        {
+          "text": "E sweeps unexplored map spots: Notable Deeds pay Karma Shards",
+          "squad": "E"
+        },
+        {
+          "text": "Every Balor weapon at its no-Soulstone max (+4 or +2); restock Elixirs and Concoctions"
+        },
+        {
+          "text": "Refine last: Cleansing Blade +2 on every Balor sword user, Answerer +2, Vendetta +2",
+          "detail": [
+            "Spare Soulstones: Ninae and Seteth Javelin +3, Troy Zerberus +3, Inyoni Da Mina Bow +3"
+          ]
+        }
+      ]
+    },
+    {
+      "group": "Before the Temple of Balor",
+      "rows": [
+        {
+          "text": "In Dagsion, disband and rebuild A, B and C as the Balor teams (free)",
+          "task": true,
+          "id": "theodora-sal-s6-balor-teams"
+        },
+        {
+          "text": "Lyrah, the 3-area dungeon (chests, Rest Spots), then Balor: no Free Time in between"
+        }
+      ]
+    }
+  ],
+  "missables": [
+    {
+      "id": "theodora-sal-s6-missables-deadline",
+      "kind": "timing",
+      "text": "Every quest and god request ends 6/6.",
+      "lose": "Unfinished rewards and Trials",
+      "recover": "None"
+    }
+  ],
+  "quests": [],
+  "gear": {
+    "assign": [
+      {
+        "item": "Kalla's Needle",
+        "to": "Lysander",
+        "why": "Atk +5 on follow-ups for the doubling flier"
+      },
+      {
+        "item": "Seraph Robe",
+        "to": "Leda",
+        "why": "HP +4 on the Dancer in Balor's counter range"
+      },
+      {
+        "item": "Secret Book",
+        "to": "Dietrich",
+        "why": "Dex +2; only with gold to spare"
+      },
+      {
+        "item": "Speedwing",
+        "to": "Dietrich",
+        "why": "Temple of Balor chest: Spd +2 on The Blade"
+      },
+      {
+        "item": "Energy Drop",
+        "to": "Tobias",
+        "why": "Temple of Balor chest: Str +2 on the center finisher"
+      }
+    ]
+  },
+  "gates": [
+    {
+      "battle": "Showdown vs. Lyrah",
+      "order": 1,
+      "deploy": [
+        "Leda",
+        "Sirocco",
+        "Dietrich",
+        "Tobias",
+        "Guzran",
+        "Olympia",
+        "Talimun",
+        "Dante",
+        "Cai",
+        "Alexandra",
+        "Seteth",
+        "Lilian",
+        "Nuzzuo",
+        "Troy",
+        "Hong Hua",
+        "Tialla"
+      ],
+      "tips": [
+        {
+          "text": "Hold one area: Fear miasma spawns where enemies move and fades after a few turns"
+        },
+        {
+          "text": "After her first bar she turns human and your units get rearranged: regroup first"
+        },
+        {
+          "text": "Clear the summons, then send fliers until her teleports stop at the map edge"
+        },
+        {
+          "text": "Save Elixirs and Divine Sand: Balor follows without Free Time"
+        }
+      ],
+      "blessings": [
+        {
+          "god": "Kalla",
+          "lv": 3,
+          "why": "For the fliers chasing her teleports"
+        }
+      ]
+    },
+    {
+      "battle": "Balor's Last Stand",
+      "order": 2,
+      "deploy": [
+        "Leda",
+        "Sirocco",
+        "Dietrich",
+        "Tobias",
+        "Guzran",
+        "Olympia",
+        "Talimun",
+        "Dante",
+        "Theodora",
+        "Ninae",
+        "Sofia",
+        "Bonaventure",
+        "Fabio",
+        "Mu",
+        "Catania",
+        "Lysander",
+        "Cai",
+        "Alexandra",
+        "Seteth",
+        "Lilian",
+        "Nuzzuo",
+        "Troy",
+        "Hong Hua",
+        "Tialla"
+      ],
+      "tips": [
+        {
+          "text": "A breaks the west gates, B the east: 2 gates drop the barrier for one turn"
+        },
+        {
+          "text": "Center waits ready: Talimun's Slowing Curse, Leda dances, then all four strikers hit"
+        },
+        {
+          "text": "Not ready? Leave the second gate standing until the center can drop a whole bar"
+        },
+        {
+          "text": "Never hit him while the barrier is up; spread out against the plus-shaped counter"
+        },
+        {
+          "text": "The last bar is larger: Hong Hua warps a side striker in, Lysander flies one in from the west"
+        }
+      ],
+      "blessings": [
+        {
+          "god": "Mars",
+          "lv": 3,
+          "why": "On each barrier-down turn"
+        },
+        {
+          "god": "Aurora",
+          "lv": 3,
+          "why": "If his summons carry the Boon"
+        }
+      ]
+    }
+  ],
+  "exitExtra": [
+    {
+      "text": "After Balor: a short dungeon and one easy battle; pick the Lv 5 A support that becomes S"
+    }
+  ]
+}

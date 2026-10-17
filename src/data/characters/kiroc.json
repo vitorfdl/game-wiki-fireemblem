@@ -1,0 +1,689 @@
+{
+  "name": "Kiroc",
+  "slug": "kiroc",
+  "epithet": "Monster Bird, ex-captain of the Black Swan Pirates",
+  "faction": "Bandits",
+  "homeRoute": "Dietrich",
+  "weapons": [
+    "Bow"
+  ],
+  "preferred": [
+    "Bow"
+  ],
+  "personality": "Bitter former pirate captain nursing a grudge.",
+  "story": "Once leader of the Black Swan Pirates, by 1449 he has lost his ship and crew and resents Talimun, head of the Vandal Company, over a past conflict. Recruitment costs Pure Water (3 on Dietrich/Leda routes, 8 on Cai/Theodora).",
+  "personalSkill": {
+    "name": "Tyranny",
+    "effect": "If foe has a status effect, Atk+3 and Crit+10 during combat. Lv20/35: Menace/Menace+ halve enemy dodge chance."
+  },
+  "growths": {
+    "HP": 55,
+    "Str": 40,
+    "Mag": 15,
+    "Spd": 55,
+    "Dex": 50,
+    "Def": 30,
+    "Res": 15,
+    "Lck": 30,
+    "Cha": 25
+  },
+  "supports": [
+    "Esmeralda"
+  ],
+  "tiers": [
+    {
+      "source": "Pocket Tactics",
+      "tier": "B"
+    },
+    {
+      "source": "KeenGamer",
+      "tier": "B"
+    }
+  ],
+  "tierNotes": "Pocket Tactics B; KeenGamer B. Not missable in Part I: he starts appearing in Dagsion around 5/4 (Dietrich Ch 6) with no known deadline. Pure Water is sold at the Dagsion Item Shop for 500G (Game8).",
+  "recruit": {
+    "how": "recruit",
+    "renown": 4,
+    "extra": "Appears in Dagsion ~5/4",
+    "why": [
+      "Renown 4 ties with Leda. Neither lord has a support with Kiroc, so roster balance decided it."
+    ],
+    "tip": "Only 3 Pure Water here, versus 8 on Cai's and Theodora's routes."
+  },
+  "requirements": {
+    "Cai": "3S 8R (8× Pure Water)",
+    "Dietrich": "1S 4R (3× Pure Water)",
+    "Theodora": "3S 10R (8× Pure Water)",
+    "Leda": "1S 4R (3× Pure Water)"
+  },
+  "build": {
+    "role": "Accurate bow sniper",
+    "path": [
+      "Hunter",
+      "Archer",
+      "Sniper"
+    ],
+    "part1Target": "Sniper (Ch 11 to 12, at Lv 35)",
+    "part3Target": "Bow Adept",
+    "notes": "Joins at about Lv 15 in a Beginner class (Hunter; Ch 6), Archer at Lv 20 (Bow C), Sniper at Lv 35 in Ch 11 to 12 (Bow B): 6th on Dietrich's Part I Advanced list. Carry a Mini Bow so he can counter at range 1 (video: one lies south of Dagsion). Master Crescendo, then Marksmanship. Menace halves enemy Ddg (crit avoid). Tempest Bow and Azaga's Bow are his. Keep him behind the armor line.",
+    "confidence": "high"
+  },
+  "guide": {
+    "summary": "Accurate bow sniper. Bow is his only weapon, so stack Hit (Crescendo, Marksmanship) and carry a Mini Bow so he can counter at range 1.",
+    "stages": [
+      {
+        "when": "Join (Ch 6, Lv 15) to Lv 20",
+        "from": {
+          "part": 1,
+          "ch": 6
+        },
+        "to": {
+          "lv": 20
+        },
+        "class": "Hunter",
+        "training": [
+          {
+            "rank": "Bow D, Sword D",
+            "for": "Hunter exam, only if he joins in another Beginner class",
+            "how": "Arena Infantry Training (covers Sword and Bow)"
+          },
+          {
+            "rank": "Bow C",
+            "for": "Archer exam",
+            "how": "Arena Infantry Training"
+          }
+        ],
+        "tips": [
+          "Recruit cost: 3 Pure Water (Dagsion Item Shop, 500G each)",
+          "Stay behind the armor line",
+          "6th on the Part I Advanced list: Sniper at Lv 35 (usually Ch 11 to 12); give him kills from Ch 9",
+          "Orchel's Paralogue (Ch 11) has pegasus reinforcements from the east: bring him"
+        ],
+        "weapons": [
+          {
+            "item": "Iron Bow",
+            "why": "Hits fliers 3x until the Tempest Bow (Ch 7)"
+          },
+          {
+            "item": "Mini Bow",
+            "why": "Counters at range 1",
+            "plan": "Keep it equipped on enemy phase"
+          }
+        ],
+        "equipment": [
+          {
+            "item": "Archer's Ring",
+            "slot": "Accessory",
+            "plan": "Defeat Aguino's Thieves (Ch 6) pays Jyoppa x5"
+          }
+        ],
+        "items": [
+          {
+            "item": "Concoction",
+            "why": "40 HP x2; Part II stock",
+            "alts": [
+              "Vulnerary"
+            ]
+          }
+        ],
+        "arts": [
+          {
+            "name": "Vital Shot",
+            "why": "Crit +5; Bow D per community sheet"
+          },
+          {
+            "name": "Breakaway Shot",
+            "why": "Move 1 after combat; Bow C per community sheet"
+          },
+          {
+            "name": "Deadeye",
+            "why": "Longbow at Bow C, range 3 to 5, Hit -30: fire it after Crescendo stacks (Marksmanship waits for Sniper)"
+          },
+          {
+            "name": "Hidden Truesnipe",
+            "why": "Damien (Aditi's Cave, Renown 8, Ch 9), then Teach Secrets; range 3 to 5, 30 durability"
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Hunting Basics",
+            "why": "Hunter mastery, Dex/Spd +1, once mastered"
+          },
+          {
+            "name": "Bows Lv. 2",
+            "why": "Hit +5 with bows (Bow C+), replaces Bows Lv. 1"
+          }
+        ],
+        "goal": "Joins at about Lv 15 as a Beginner: shoot from behind the armor line until Lv 20.",
+        "drop": [
+          {
+            "item": "Tempest Bow (refined)",
+            "why": "The same bow after the Blacksmith: refine the one you carry"
+          },
+          {
+            "item": "Da Mina Bow",
+            "why": "Tempest Bow's fallback (in its alts)"
+          },
+          {
+            "item": "Hunter's Bow",
+            "why": "Mt 6; every bow already hits fliers 3x"
+          },
+          {
+            "item": "Iron Bow",
+            "why": "Replaced by the Tempest Bow"
+          }
+        ],
+        "level": "About Lv 15 on join",
+        "exit": "Lv 20 and Bow C: take the Archer exam (75% or better)"
+      },
+      {
+        "when": "Lv 20 (Ch 7) to Lv 35",
+        "from": {
+          "part": 1,
+          "ch": 7,
+          "approx": true
+        },
+        "to": {
+          "lv": 35
+        },
+        "class": "Archer",
+        "training": [
+          {
+            "rank": "Bow B",
+            "for": "Sniper exam (Renown 8, Lv 35; usually Ch 11 to 12)",
+            "how": "Arena Infantry Training"
+          }
+        ],
+        "tips": [
+          "Recruit cost: 3 Pure Water (Dagsion Item Shop, 500G each)",
+          "Stay behind the armor line",
+          "6th on the Part I Advanced list: Sniper at Lv 35 (usually Ch 11 to 12); give him kills from Ch 9",
+          "Orchel's Paralogue (Ch 11) has pegasus reinforcements from the east: bring him"
+        ],
+        "weapons": [
+          {
+            "item": "Tempest Bow",
+            "why": "Hit 80, Wt 5, Avo +3 when attacking first",
+            "alts": [
+              "Tempest Bow (refined)",
+              "Da Mina Bow"
+            ]
+          },
+          {
+            "item": "Longbow",
+            "why": "Range 3 and Deadeye"
+          },
+          {
+            "item": "Mini Bow",
+            "why": "Counters at range 1",
+            "plan": "Keep it equipped on enemy phase"
+          }
+        ],
+        "equipment": [
+          {
+            "item": "Archer's Ring",
+            "slot": "Accessory",
+            "plan": "Defeat Aguino's Thieves (Ch 6) pays Jyoppa x5"
+          }
+        ],
+        "items": [
+          {
+            "item": "Concoction",
+            "why": "40 HP x2; Part II stock",
+            "alts": [
+              "Vulnerary"
+            ]
+          }
+        ],
+        "arts": [
+          {
+            "name": "Vital Shot",
+            "why": "Crit +5; Bow D per community sheet"
+          },
+          {
+            "name": "Breakaway Shot",
+            "why": "Move 1 after combat; Bow C per community sheet"
+          },
+          {
+            "name": "Deadeye",
+            "why": "Longbow at Bow C, range 3 to 5, Hit -30: fire it after Crescendo stacks (Marksmanship waits for Sniper)"
+          },
+          {
+            "name": "Hidden Truesnipe",
+            "why": "Damien (Aditi's Cave, Renown 8, Ch 9), then Teach Secrets; range 3 to 5, 30 durability"
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Hunting Basics",
+            "why": "Hunter mastery, Dex/Spd +1, once mastered"
+          },
+          {
+            "name": "Crescendo",
+            "why": "Archer mastery, Hit +3 per kill (max +30), once mastered"
+          },
+          {
+            "name": "Bows Lv. 2",
+            "why": "Hit +5 with bows (Bow C+), replaces Bows Lv. 1"
+          }
+        ],
+        "goal": "Tyranny (Atk +3, Crit +10 vs foes with a status) is always on: shoot foes Fabio has confused; Menace (Lv 20) halves foe Ddg 10% of the time.",
+        "drop": [
+          {
+            "item": "Tempest Bow (refined)",
+            "why": "The same bow after the Blacksmith: refine the one you carry"
+          },
+          {
+            "item": "Da Mina Bow",
+            "why": "Tempest Bow's fallback (in its alts)"
+          },
+          {
+            "item": "Hunter's Bow",
+            "why": "Mt 6; every bow already hits fliers 3x"
+          },
+          {
+            "item": "Iron Bow",
+            "why": "Replaced by the Tempest Bow"
+          }
+        ],
+        "level": "About Lv 20 at the exam",
+        "exit": "Renown 8, Lv 35, Bow B (Ch 11): Sniper exam"
+      },
+      {
+        "when": "Ch 11 to 12 (Advanced, at Lv 35)",
+        "from": {
+          "part": 1,
+          "ch": 11
+        },
+        "to": {
+          "part": 3,
+          "ch": 4
+        },
+        "class": "Sniper",
+        "tips": [
+          "Sniper exam at Lv 35 and Bow B (usually Ch 11 to 12); if he misses it, Part II Ch 1's free Licenses",
+          "Ch 5: Deadeye from a Longbow on Dagda makes Eshmel disable his shield next turn",
+          "Ch 4 wants 3 to 4 bows for reinforcements"
+        ],
+        "weapons": [
+          {
+            "item": "Silver Bow",
+            "why": "Mt 18, Wt 5",
+            "alts": [
+              "Longbow",
+              "Tempest Bow (refined)"
+            ],
+            "plan": "Equip before Part I ends so it carries"
+          },
+          {
+            "item": "Longbow",
+            "why": "Range 3 and Deadeye",
+            "plan": "Equip before leaving Part I"
+          },
+          {
+            "item": "Horsekiller Bow +1",
+            "why": "Effective vs cavalry and fliers",
+            "situational": "Part II Ch 2 drop (west Ranger) on: open slot"
+          },
+          {
+            "item": "Mini Bow",
+            "why": "Counters at range 1",
+            "plan": "Carried from Ch 12; keep it equipped on enemy phase"
+          }
+        ],
+        "equipment": [
+          {
+            "item": "Archer's Ring",
+            "slot": "Accessory",
+            "plan": "Defeat Aguino's Thieves (Ch 6) pays Jyoppa x5"
+          }
+        ],
+        "items": [
+          {
+            "item": "Concoction",
+            "why": "40 HP x2",
+            "plan": "Carried from Ch 12 (no shops in Part II)"
+          }
+        ],
+        "arts": [
+          {
+            "name": "Deadeye",
+            "why": "Longbow, range 3 to 5, Hit -30; Marksmanship covers the penalty"
+          },
+          {
+            "name": "Hidden Truesnipe",
+            "why": "Damien (Aditi's Cave, Renown 8, Ch 9), then Teach Secrets; range 3 to 5, 30 durability"
+          },
+          {
+            "name": "Sneaky Shot",
+            "why": "Atk +5, Hit/Crit +10 on favorable terrain; Bow B per community sheet"
+          },
+          {
+            "name": "Vital Shot",
+            "why": "Crit +5; Bow D per community sheet"
+          },
+          {
+            "name": "Breakaway Shot",
+            "why": "Move 1 after combat; Bow C per community sheet"
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Menace+",
+            "why": "Personal Lv 35 ability: Halves foes' Ddg during combat. Trigger % = 20"
+          },
+          {
+            "name": "Marksmanship",
+            "why": "Sniper mastery, Hit +15 with bows"
+          },
+          {
+            "name": "Crescendo",
+            "why": "Hit +3 per kill"
+          },
+          {
+            "name": "Hunting Basics",
+            "why": "Hunter mastery, Dex/Spd +1"
+          },
+          {
+            "name": "Bows Lv. 2",
+            "why": "Hit +5 with bows"
+          }
+        ],
+        "drop": [
+          {
+            "item": "Hunter's Bow",
+            "why": "Weakest bow; slot goes to the Horsekiller Bow +1"
+          },
+          {
+            "item": "Tempest Bow (refined)",
+            "why": "Silver Bow's fallback (in its alts)"
+          },
+          {
+            "item": "Da Mina Bow",
+            "why": "Not in his Ch 12 kit"
+          }
+        ],
+        "goal": "Menace+ (Lv 35): halves foe Ddg 20% of the time; with Tyranny's Crit +10 on foes Fabio's Electron Agitator confused, he is the second crit threat after Dietrich.",
+        "exit": "Stay Sniper into Part II"
+      },
+      {
+        "when": "Part III Section 5+ (Bow Adept)",
+        "from": {
+          "part": 3,
+          "ch": 5
+        },
+        "class": "Bow Adept",
+        "training": [
+          {
+            "rank": "Bow A",
+            "for": "Bow Adept (Lv 45, Master License)",
+            "how": "Arena Infantry Training"
+          },
+          {
+            "rank": "Bow A+",
+            "for": "Bows Lv. 4",
+            "how": "Battle: Bow Adept trains Bow +4"
+          },
+          {
+            "rank": "Infantry C",
+            "for": "Positioning",
+            "how": "Arena Infantry Training (same course)"
+          }
+        ],
+        "weapons": [
+          {
+            "item": "Iron Bow +4",
+            "why": "Mt 21?, Dex from +3: Hit is capped, so Dex buys Crit",
+            "plan": "Refine to +4; Soulstone for +3 and +4; Da Mina +2 until then",
+            "alts": [
+              "Da Mina Bow +2"
+            ]
+          },
+          {
+            "item": "Longbow +2",
+            "why": "Deadeye at 3-5 (Hit -30); Wt 13",
+            "plan": "Refine to +2"
+          },
+          {
+            "item": "Mini Bow +2",
+            "why": "Counters at range 1; Mt 15, AS +3 vs adjacent foes",
+            "plan": "Hold it on enemy phase"
+          },
+          {
+            "item": "Horsekiller Bow +2",
+            "why": "Effective vs cavalry",
+            "situational": "Cavalry maps: open slot"
+          }
+        ],
+        "equipment": [
+          {
+            "item": "Gale Ring",
+            "why": "Spd +3, Wt 2: Bow Hit +15 and Marksmanship already cover Hit",
+            "slot": "Accessory",
+            "alts": [
+              "Archer's Ring",
+              "Phantom Ring"
+            ]
+          }
+        ],
+        "items": [
+          {
+            "item": "Concoction",
+            "why": "40 HP x2",
+            "alts": [
+              "Vulnerary"
+            ]
+          }
+        ],
+        "arts": [
+          {
+            "name": "Sneaky Shot",
+            "why": "From forest or brush: Atk +5, Hit/Crit +10"
+          },
+          {
+            "name": "Vital Shot",
+            "why": "Crit +5"
+          },
+          {
+            "name": "Deadeye",
+            "why": "Longbow: range 3 to 5, Hit -30"
+          },
+          {
+            "name": "Hidden Truesnipe",
+            "why": "Range 3 to 5, 30 durability: bosses only"
+          },
+          {
+            "name": "Breakaway Shot",
+            "why": "Move 1 after combat: back into the brush"
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Menace+",
+            "why": "Personal Lv 35: halves the foe's Ddg, 20%"
+          },
+          {
+            "name": "Marksmanship",
+            "why": "Sniper mastery: Hit +15 with bows"
+          },
+          {
+            "name": "Bows Lv. 4",
+            "why": "Bow A+: Hit/Avo +7 with bows (Lv. 3 until then)"
+          },
+          {
+            "name": "Positioning",
+            "why": "Infantry C: Avo +10 on forest and brush"
+          },
+          {
+            "name": "Knightly Senses",
+            "why": "Riding D: Avo +10 vs spears (Mahadu)"
+          }
+        ],
+        "drop": [
+          {
+            "item": "Azaga's Bow",
+            "why": "Cursed: never core (build standard §15)"
+          },
+          {
+            "item": "Archer's Ring",
+            "why": "Gale Ring: Hit is covered, Spd isn't"
+          },
+          {
+            "item": "Crescendo",
+            "why": "Hit is capped; Positioning adds Avo"
+          },
+          {
+            "item": "Hunting Basics",
+            "why": "Knightly Senses: Avo +10 vs Mahadu's spears"
+          },
+          {
+            "item": "Sky Hunter",
+            "why": "Flier maps only: swap it in for Knightly Senses"
+          },
+          {
+            "item": "Kalla's Needle",
+            "why": "Lysander holds it"
+          },
+          {
+            "item": "Tempest Bow (refined)",
+            "why": "Da Mina Bow +3 replaces it"
+          },
+          {
+            "item": "Silver Bow",
+            "why": "Boon buy; Iron Bow +4 is gold and adds Dex"
+          },
+          {
+            "item": "Da Mina Bow +3",
+            "why": "Needs Soulstone; at +2 it has no art Crit, only Hit +10 he doesn't need"
+          }
+        ],
+        "goal": "Tyranny's Crit +10 on Fabio's confused foes, Menace+ halves Ddg; Sneaky Shot from brush adds Crit +10.",
+        "exit": "Final class.",
+        "tips": [
+          "Mahadu: shoot from forest or brush: Sneaky Shot Atk +5, Hit/Crit +10, Positioning Avo +10",
+          "Fabio near his target: Dark Calling Ddg -5; Agitator confusion turns on Tyranny",
+          "Flier maps: Sky Hunter (Hit +50, once mastered) for Knightly Senses",
+          "Boon: bows can't strip it; Dietrich's or Simon's Cleansing Blade +3 opens the foe"
+        ]
+      }
+    ],
+    "arts": [
+      {
+        "name": "Deadeye",
+        "why": "Range 3 to 5"
+      },
+      {
+        "name": "Hidden Truesnipe",
+        "why": "Range 3 to 5"
+      },
+      {
+        "name": "Vital Shot",
+        "why": "Cheap crit art"
+      }
+    ],
+    "abilities": [
+      {
+        "name": "Marksmanship",
+        "why": "Hit +15"
+      },
+      {
+        "name": "Crescendo",
+        "why": "Hit ramp"
+      },
+      {
+        "name": "Hunting Basics",
+        "why": "Dex/Spd +1"
+      }
+    ],
+    "specials": [
+      "Loot Azaga's Bow in Part I: it is a Part I-only chest",
+      "Tyranny: Atk +3, Crit +10 vs foes with a status effect",
+      "Only one Mini Bow is located on this route; weapon crates may give more"
+    ],
+    "sources": [
+      "class plan v3",
+      "weapons-and-items",
+      "combat-arts-and-abilities",
+      "character-learnsets",
+      "class-data",
+      "hard-mode video notes",
+      "Dietrich Ch 4 to 9 walkthrough",
+      "Part I Dietrich walkthrough",
+      "Part II walkthrough"
+    ],
+    "watch": [
+      "Archer that doubles: extra ≤ 3. Silver Bow 5 + Archer's Ring 3 = 8 (Tempest Bow the same). Longbow (Wt 13) + ring = 16: use it for range 3 and Deadeye, not for doubling.",
+      "Part III: Iron Bow ? (6?) + Gale Ring 2 = 8?, extra 2 of 3. Longbow 13 + 2 = 15 is the Deadeye swap and comes off first; the ring's Spd +3 pays for its Wt."
+    ],
+    "decisions": [
+      {
+        "topic": "Carry a Mini Bow",
+        "pick": "Mini Bow equipped on enemy phase",
+        "why": "A Sniper can't counter at range 1. One lies in a chest south of Dagsion; pick it up as soon as he joins."
+      },
+      {
+        "topic": "Pick the bow by range",
+        "pick": "Tempest Bow to double; Longbow for range 3 and Deadeye",
+        "why": "Longbow (Wt 13) + Archer's Ring (3) = 16, so he won't double with it. The Tempest Bow (Wt 5, Rare Stone Hunting) is his doubling bow."
+      }
+    ],
+    "gates": [
+      {
+        "route": "Dietrich",
+        "from": {
+          "part": 1,
+          "ch": 5
+        },
+        "by": {
+          "part": 1,
+          "ch": 6
+        },
+        "kind": "recruit",
+        "text": "3 Pure Water (500G each, Item Shop) for the day Renown 4 lands"
+      },
+      {
+        "route": "Dietrich",
+        "from": {
+          "part": 1,
+          "ch": 7
+        },
+        "by": {
+          "part": 1,
+          "ch": 11
+        },
+        "kind": "rank",
+        "text": "Bow B by Lv 35 for Sniper: Arena Infantry Training"
+      }
+    ]
+  },
+  "sources": [
+    "https://fortunesweave.co.uk/characters/kiroc",
+    "https://www.pockettactics.com/fire-emblem-fortunes-weave/tier-list",
+    "https://www.keengamer.com/articles/guides/fire-emblem-fortunes-weave-tier-list-best-characters-ranked-for-every-route/"
+  ],
+  "recruitOn": {
+    "Cai": {
+      "how": "recruit",
+      "support": 3,
+      "renown": 8,
+      "item": "8× Pure Water"
+    },
+    "Dietrich": {
+      "how": "recruit",
+      "renown": 4,
+      "item": "3× Pure Water",
+      "task": "Appears in Dagsion ~5/4"
+    },
+    "Theodora": {
+      "how": "recruit",
+      "support": 3,
+      "renown": 10,
+      "item": "8× Pure Water"
+    },
+    "Leda": {
+      "how": "recruit",
+      "renown": 4,
+      "item": "3× Pure Water"
+    }
+  }
+}

@@ -1,0 +1,881 @@
+{
+  "name": "Tialla",
+  "slug": "tialla",
+  "epithet": "Ribeira's young tactician",
+  "faction": "Ribeira Winds",
+  "homeRoute": "Cai",
+  "weapons": [
+    "Reason",
+    "Faith"
+  ],
+  "preferred": [
+    "Authority",
+    "White Magic",
+    "Black Magic"
+  ],
+  "avoid": [
+    "Sword"
+  ],
+  "personality": "Bookish, strategic childhood friend of Cai.",
+  "story": "Granddaughter of a former military strategist from Ribeira village and Cai's childhood companion, she joins him automatically on his route. On other routes she is recruitable after Cai's paralogue 'Great Escape'. Further story role not documented.",
+  "personalSkill": {
+    "name": "Tactician's Wit",
+    "effect": "Rng+1 to combat arts usable on allies. Lv 20: Avo-5 on foe after unit attacks first. Lv 35: Avo-10 on foe through their next combat."
+  },
+  "growths": {
+    "HP": 30,
+    "Str": 25,
+    "Mag": 45,
+    "Spd": 35,
+    "Dex": 40,
+    "Def": 20,
+    "Res": 40,
+    "Lck": 50,
+    "Cha": 45
+  },
+  "supports": [
+    "Cai",
+    "Peter",
+    "Seteth",
+    "Ludia",
+    "Bonaventure",
+    "Io",
+    "Noctula",
+    "Talimun",
+    "Ultand",
+    "Theodora"
+  ],
+  "tiers": [
+    {
+      "source": "KeenGamer",
+      "tier": "B"
+    },
+    {
+      "source": "Pocket Tactics",
+      "tier": "S"
+    }
+  ],
+  "tierNotes": "KeenGamer: B tier. Pocket Tactics: S tier.",
+  "recruit": {
+    "how": "auto",
+    "why": [
+      "Joins Cai's army automatically, so there's no Support or Renown to chase."
+    ]
+  },
+  "requirements": {
+    "Cai": "Auto",
+    "Dietrich": "3S 9R",
+    "Theodora": "3S 10R",
+    "Leda": "3S 8R"
+  },
+  "build": {
+    "role": "Main healer and Physic carrier",
+    "path": [
+      "Diviner",
+      "Priest",
+      "Bishop",
+      "Troubadour (Part II detour: Song of Courage)",
+      "Bishop",
+      "Wiseman"
+    ],
+    "part1Target": "Bishop",
+    "part3Target": "Wiseman",
+    "notes": "Diviner in Ch 5, Priest at Lv 20 (White Magic C) for Physic, Bishop at Lv 35 (White Magic B) for doubled casts. She stays linear in Part I because Priest is what trains White Magic B. Part II Ch 1 to 2: Troubadour on a horse for Song of Courage and Def 25 growth, back to Bishop for the Ch 3 Physic map.",
+    "confidence": "medium"
+  },
+  "guide": {
+    "role": "Main healer and Physic carrier",
+    "summary": "Your doubled-cast healer. Physic at White Magic C is the earliest in the game, and Bishop doubles it and adds Magic Heal +10 on Mag 60, Res 60, Lck 70 growths.",
+    "playstyle": "Heal and Physic from the back row; Tactician's Wit puts her Lend arts at range 2. Def grows 10% in Priest and Bishop, so never end a turn in melee reach.",
+    "focus": [
+      "Mag",
+      "Res",
+      "Lck"
+    ],
+    "keys": [
+      "Rush White Magic C for Physic: Arena Mage Training weekly plus the Niraga Mine White-Magic Manual (Ch 3).",
+      "Take Aurora's Staying Healthy at Renown 4 (Ch 6) for the Healing Staff and keep it equipped.",
+      "Go Bishop at Lv 35 for doubled casts and Magic Heal +10; master Barrier.",
+      "Lend Magic (Authority C) Cai, Ultand or Sirocco from 2 tiles before they nuke: Tactician's Wit adds range to Lend arts.",
+      "Part II Ch 1 to 2: a Troubadour stint for Song of Courage; back to Bishop for Ch 3."
+    ],
+    "watch": [
+      "Def growth 10% in Priest and Bishop: one archer can kill her.",
+      "Avoids Sword: ignore Diviner's swords.",
+      "Weight: Wooden Gauntlets +4 1 + Healing Staff 3 = 4. Keep it there: Def 10 growth means a double kills her.",
+      "Mire Β (Wt 15) as the spell in hand: 15 + Healing Staff 3 = 18, so a counter doubles her. Cast it only at range 3, where melee and most bows can't answer; Fire (5) for range 1-2.",
+      "Inventory: 3 core (Wooden Gauntlets, Healing Staff, Concoction), so 3 open slots; Resistant Gauntlets ride along on mage maps."
+    ],
+    "stages": [
+      {
+        "when": "Ch 1 to 4 · no class until Ch 5",
+        "from": {
+          "part": 1,
+          "ch": 1
+        },
+        "to": {
+          "part": 1,
+          "ch": 4
+        },
+        "level": "Lv 1 to 15",
+        "kind": "core",
+        "goal": "White Magic C for Priest and Physic. Tactician's Wit (innate): once Authority D, Lend Defense reaches range 2.",
+        "exit": "Ch 5: take the Diviner exam at the Temple Row License tutorial",
+        "training": [
+          {
+            "rank": "White Magic C",
+            "for": "Priest exam and Physic",
+            "how": "Arena Mage Training (White Magic, Black Magic, Authority); White-Magic Manual (Niraga Mine chest, Ch 3)"
+          }
+        ],
+        "tips": [
+          "Keep her behind Cai and Guzran in Ch 3 and 4"
+        ],
+        "weapons": [
+          {
+            "item": "Wooden Gauntlets",
+            "why": "A tier: Wt 1 counter weapon, cheap refines"
+          }
+        ],
+        "spells": [
+          {
+            "name": "Heal",
+            "why": "White D"
+          },
+          {
+            "name": "Fire",
+            "why": "Black D chip in Diviner"
+          }
+        ],
+        "items": [
+          {
+            "item": "Vulnerary",
+            "why": "20 HP x3: she heals alone, so heal herself if hit"
+          }
+        ],
+        "class": ""
+      },
+      {
+        "when": "Ch 5 (Beginner)",
+        "from": {
+          "part": 1,
+          "ch": 5
+        },
+        "to": {
+          "part": 1,
+          "ch": 5
+        },
+        "level": "Lv 1 to 15",
+        "class": "Diviner",
+        "kind": "core",
+        "goal": "White Magic C for Priest and Physic. Tactician's Wit (innate): once Authority D, Lend Defense reaches range 2.",
+        "exit": "Leave at Lv 20 with White Magic C (Priest exam at 75%).",
+        "masteries": [
+          "Magic Basics"
+        ],
+        "training": [
+          {
+            "rank": "White Magic C",
+            "for": "Priest exam and Physic",
+            "how": "Arena Mage Training (White Magic, Black Magic, Authority); White-Magic Manual (Niraga Mine chest, Ch 3)"
+          }
+        ],
+        "tips": [
+          "Keep her behind Cai and Guzran in Ch 3 and 4"
+        ],
+        "weapons": [
+          {
+            "item": "Wooden Gauntlets",
+            "why": "A tier: Wt 1 counter weapon, cheap refines"
+          }
+        ],
+        "spells": [
+          {
+            "name": "Heal",
+            "why": "White D"
+          },
+          {
+            "name": "Fire",
+            "why": "Black D chip in Diviner"
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Magic Basics",
+            "why": "Diviner mastery: Mag/Res +1 (once mastered)"
+          }
+        ],
+        "items": [
+          {
+            "item": "Vulnerary",
+            "why": "20 HP x3: she heals alone, so heal herself if hit"
+          }
+        ]
+      },
+      {
+        "when": "Ch 6 to 9 (Specialty)",
+        "from": {
+          "part": 1,
+          "ch": 6
+        },
+        "to": {
+          "part": 1,
+          "ch": 9
+        },
+        "level": "Lv 20 to 35",
+        "class": "Priest",
+        "kind": "core",
+        "goal": "Physic online; doubled White casts as a Priest push White Magic to B for Bishop. No side trip.",
+        "exit": "Leave at Lv 35 and Renown 8 (usually Ch 10) with White Magic B (Bishop exam at 75%).",
+        "masteries": [
+          "Piety"
+        ],
+        "training": [
+          {
+            "rank": "White Magic B",
+            "for": "Bishop exam (Ch 8)",
+            "how": "Arena Mage Training (White Magic, Black Magic, Authority) every week"
+          },
+          {
+            "rank": "Authority C",
+            "for": "Lend Magic",
+            "how": "Arena Mage Training (White Magic, Black Magic, Authority), alongside White Magic"
+          }
+        ],
+        "weapons": [
+          {
+            "item": "Wooden Gauntlets",
+            "why": "Refined light counter",
+            "plan": "Keep from Ch 5; refine at the Blacksmith"
+          },
+          {
+            "item": "Resistant Gauntlets",
+            "why": "A tier: Res +3",
+            "situational": "Mage-heavy maps: open slot; equip it only if she still isn't doubled (Wt 5)"
+          }
+        ],
+        "equipment": [
+          {
+            "item": "Healing Staff",
+            "why": "Heals +10; one Accessory slot, so the Miracle Gem stays off",
+            "slot": "Accessory",
+            "plan": "Keep equipped"
+          }
+        ],
+        "arts": [
+          {
+            "name": "Lend Defense",
+            "why": "Authority D: Def +2 to an ally at range 2"
+          },
+          {
+            "name": "Lend Magic",
+            "why": "Authority C: Mag/Res +2 for a caster"
+          }
+        ],
+        "spells": [
+          {
+            "name": "Physic",
+            "why": "White C: ranged heal, doubled uses in Priest"
+          },
+          {
+            "name": "Heal",
+            "why": "Cheap top-up"
+          },
+          {
+            "name": "Mire Β",
+            "why": "Archive B (Cave Behind the Falls, Lv 22, Ch 8): range-3 chip that sets Insight out of most counters"
+          },
+          {
+            "name": "Fire",
+            "why": "Black D chip in Diviner"
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Piety",
+            "why": "Priest mastery goal: Lck +3 (once mastered)"
+          },
+          {
+            "name": "Tactician's Insight+",
+            "why": "Personal Lv 35 ability: After combat, if unit attacked first, inflicts Avo-10 on foe... (from Lv 35)"
+          },
+          {
+            "name": "Magic Basics",
+            "why": "Diviner mastery: Mag/Res +1"
+          }
+        ],
+        "items": [
+          {
+            "item": "Concoction",
+            "why": "40 HP x2: Def 10 growth, archers find her",
+            "alts": [
+              "Vulnerary"
+            ]
+          }
+        ],
+        "why": [
+          "Tactician's Insight (Lv 20): a foe she attacks first gets Avo -5",
+          "On a spare turn, chip it before Guzran or Peter swing: Mire Β at range 3 (from Ch 8) or Fire at 1-2"
+        ]
+      },
+      {
+        "when": "Ch 10 to 12 (Advanced)",
+        "from": {
+          "part": 1,
+          "ch": 10
+        },
+        "to": {
+          "part": 1,
+          "ch": 12
+        },
+        "level": "Lv 35 to 38",
+        "class": "Bishop",
+        "kind": "core",
+        "goal": "Doubled Physic and Barrier: your Ch 10 to 12 healer. Lend arts still reach range 2.",
+        "exit": "Stays through Part I. Barrier should be mastered before Part II.",
+        "masteries": [
+          "Barrier"
+        ],
+        "training": [
+          {
+            "rank": "White Magic A",
+            "for": "Seraphim and Wiseman",
+            "how": "Arena Mage Training (White Magic, Black Magic, Authority)"
+          },
+          {
+            "rank": "Rider D, Black Magic B",
+            "for": "Troubadour stint in Part II",
+            "how": "Arena Mounted Training (Spear, Authority, Rider, Flying) and Arena Mage Training from Ch 10"
+          }
+        ],
+        "tips": [
+          "Ch 9: she and Ninae carry healing while Ultand is out",
+          "Ch 12 finals: the path guide names a Physic user, and that is her"
+        ],
+        "weapons": [
+          {
+            "item": "Wooden Gauntlets",
+            "why": "Refined light counter",
+            "plan": "Keep from Ch 5; refine at the Blacksmith"
+          },
+          {
+            "item": "Resistant Gauntlets",
+            "why": "A tier: Res +3",
+            "situational": "Mage-heavy maps: open slot; equip it only if she still isn't doubled (Wt 5)"
+          }
+        ],
+        "equipment": [
+          {
+            "item": "Healing Staff",
+            "why": "+10 HP on every heal, Wt 3: the light staff keeps her from being doubled",
+            "slot": "Accessory",
+            "plan": "Keep equipped"
+          }
+        ],
+        "arts": [
+          {
+            "name": "Lend Strength+",
+            "why": "Authority B: Str +3 for Majide or Guzran"
+          },
+          {
+            "name": "Lend Defense",
+            "why": "Authority D: Def +2 to an ally at range 2"
+          },
+          {
+            "name": "Lend Magic",
+            "why": "Authority C: Mag/Res +2 for a caster"
+          }
+        ],
+        "spells": [
+          {
+            "name": "Physic",
+            "why": "Doubled uses in Bishop"
+          },
+          {
+            "name": "Recover",
+            "why": "White B: big single heal"
+          },
+          {
+            "name": "Mire Β",
+            "why": "Archive B: range-3 tag for Insight+ (Avo -10)"
+          },
+          {
+            "name": "Bolganone",
+            "why": "Black B at normal uses"
+          },
+          {
+            "name": "Heal",
+            "why": "Cheap top-up"
+          },
+          {
+            "name": "Fire",
+            "why": "Black D chip in Diviner"
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Barrier",
+            "why": "Bishop mastery goal: Res +3 to adjacent allies (once mastered)"
+          },
+          {
+            "name": "Tactician's Insight+",
+            "why": "Personal Lv 35 ability: After combat, if unit attacked first, inflicts Avo-10 on foe..."
+          },
+          {
+            "name": "Piety",
+            "why": "Priest mastery: Lck +3"
+          },
+          {
+            "name": "Magic Basics",
+            "why": "Diviner mastery: Mag/Res +1"
+          }
+        ],
+        "drop": [
+          {
+            "item": "Photona's Holy Staff",
+            "why": "Range +1 adds nothing to Physic (range 10 already), and Wt 5 on a Def 10 healer invites doubles"
+          }
+        ],
+        "items": [
+          {
+            "item": "Concoction",
+            "why": "40 HP x2: Def 10 growth, archers find her",
+            "alts": [
+              "Vulnerary"
+            ]
+          }
+        ],
+        "why": [
+          "Tactician's Insight+ (Lv 35): a foe she attacks first has Avo -10 through its next combat",
+          "Tag it with Mire Β from range 3, then send the striker"
+        ]
+      },
+      {
+        "when": "Part II Ch 1 to 2",
+        "from": {
+          "part": 2,
+          "ch": 1
+        },
+        "to": {
+          "part": 2,
+          "ch": 2
+        },
+        "level": "Lv 37 to 40",
+        "class": "Troubadour",
+        "kind": "detour",
+        "mount": "Monoceros if you caught a second one, otherwise a Wild Horse",
+        "goal": "Mastery and fix: Song of Courage (Dex/Spd +2 to allies in range) for the rest of the game, and Def grows 25 here against 10 in Bishop (HP 45 vs 40). Song of Courage plus range-2 Lend arts buff the strike team before it moves.",
+        "exit": "Leave once Song of Courage is mastered. Be back in Bishop for Ch 3 either way: it asks for several Physic users and Bishop doubles her casts.",
+        "masteries": [
+          "Song of Courage"
+        ],
+        "tips": [
+          "Troubadour on Tialla: Monoceros HP 45, Mag 60, Def 25, Res 65; Wild Horse Def 30, Res 60",
+          "Physic has normal uses here: ration it on Ch 1 and 2",
+          "The exam needs Rider D, White Magic B and Black Magic B",
+          "No free time in Part II: only equipped items come in, so equip them at the end of Ch 12"
+        ],
+        "equipment": [
+          {
+            "item": "Healing Staff",
+            "why": "+10 HP on every heal, Wt 3: the light staff keeps her from being doubled",
+            "slot": "Accessory",
+            "plan": "Keep equipped"
+          }
+        ],
+        "arts": [
+          {
+            "name": "Lend Strength+",
+            "why": "Authority B: Str +3 for Majide or Guzran"
+          },
+          {
+            "name": "Lend Defense",
+            "why": "Authority D: Def +2 to an ally at range 2"
+          },
+          {
+            "name": "Lend Magic",
+            "why": "Authority C: Mag/Res +2 for a caster"
+          }
+        ],
+        "spells": [
+          {
+            "name": "Physic",
+            "why": "Normal uses in Troubadour"
+          },
+          {
+            "name": "Recover",
+            "why": "White B: big single heal"
+          },
+          {
+            "name": "Bolganone",
+            "why": "Black B at normal uses"
+          },
+          {
+            "name": "Mire Β",
+            "why": "Archive B: range-3 Insight+ tag"
+          },
+          {
+            "name": "Heal",
+            "why": "White D"
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Song of Courage",
+            "why": "Troubadour mastery goal: Dex/Spd +2 to allies in range (once mastered)"
+          },
+          {
+            "name": "Tactician's Insight+",
+            "why": "Personal Lv 35 ability: After combat, if unit attacked first, inflicts Avo-10 on foe..."
+          },
+          {
+            "name": "Barrier",
+            "why": "Bishop mastery: Res +3 to adjacent allies"
+          },
+          {
+            "name": "Piety",
+            "why": "Priest mastery: Lck +3"
+          },
+          {
+            "name": "Magic Basics",
+            "why": "Diviner mastery: Mag/Res +1"
+          }
+        ],
+        "drop": [
+          {
+            "item": "Wooden Gauntlets",
+            "why": "Troubadour has no weapons; back in Bishop"
+          },
+          {
+            "item": "Resistant Gauntlets",
+            "why": "Troubadour has no weapons; back in Bishop"
+          }
+        ],
+        "items": [
+          {
+            "item": "Concoction",
+            "why": "40 HP x2: carried in from Ch 12",
+            "alts": [
+              "Vulnerary"
+            ]
+          }
+        ]
+      },
+      {
+        "when": "Part II Ch 3 to 6",
+        "from": {
+          "part": 2,
+          "ch": 3
+        },
+        "to": {
+          "part": 3,
+          "ch": 3
+        },
+        "level": "Lv 40 to 42",
+        "class": "Bishop",
+        "kind": "core",
+        "goal": "Physic volume for marathon maps; Insight+ tag (Avo -10) with Mire Β from range 3 on spare turns.",
+        "exit": "Stays to the end of Part II.",
+        "tips": [
+          "Stock Concoctions before Ch 12 ends for Ch 3",
+          "No free time in Part II: only equipped items come in, so equip them at the end of Ch 12"
+        ],
+        "weapons": [
+          {
+            "item": "Wooden Gauntlets",
+            "why": "Refined light counter",
+            "plan": "Keep from Ch 5; refine at the Blacksmith"
+          },
+          {
+            "item": "Resistant Gauntlets",
+            "why": "A tier: Res +3",
+            "situational": "Mage-heavy maps: open slot; equip it only if she still isn't doubled (Wt 5)"
+          }
+        ],
+        "equipment": [
+          {
+            "item": "Healing Staff",
+            "why": "+10 HP on every heal, Wt 3: the light staff keeps her from being doubled",
+            "slot": "Accessory",
+            "plan": "Keep equipped"
+          }
+        ],
+        "arts": [
+          {
+            "name": "Lend Strength+",
+            "why": "Authority B: Str +3 for Majide or Guzran"
+          },
+          {
+            "name": "Lend Defense",
+            "why": "Authority D: Def +2 to an ally at range 2"
+          },
+          {
+            "name": "Lend Magic",
+            "why": "Authority C: Mag/Res +2 for a caster"
+          }
+        ],
+        "spells": [
+          {
+            "name": "Physic",
+            "why": "Ch 3 asks for several Physic users"
+          },
+          {
+            "name": "Seraphim",
+            "why": "White A if reached"
+          },
+          {
+            "name": "Recover",
+            "why": "White B: big single heal"
+          },
+          {
+            "name": "Mire Β",
+            "why": "Archive B: range-3 Insight+ tag"
+          },
+          {
+            "name": "Bolganone",
+            "why": "Black B at normal uses"
+          },
+          {
+            "name": "Heal",
+            "why": "Cheap top-up"
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Tactician's Insight+",
+            "why": "Personal Lv 35 ability: After combat, if unit attacked first, inflicts Avo-10 on foe..."
+          },
+          {
+            "name": "Barrier",
+            "why": "Bishop mastery: Res +3 to adjacent allies"
+          },
+          {
+            "name": "Song of Courage",
+            "why": "Troubadour mastery: Dex/Spd +2 to allies in range"
+          },
+          {
+            "name": "Piety",
+            "why": "Priest mastery: Lck +3"
+          },
+          {
+            "name": "Magic Basics",
+            "why": "Diviner mastery: Mag/Res +1"
+          }
+        ],
+        "items": [
+          {
+            "item": "Concoction",
+            "why": "40 HP x2: Def 10 growth, archers find her",
+            "alts": [
+              "Vulnerary"
+            ]
+          }
+        ]
+      },
+      {
+        "when": "Part III Section 4+ (Wiseman)",
+        "from": {
+          "part": 3,
+          "ch": 4
+        },
+        "level": "Lv 45+",
+        "class": "Wiseman",
+        "kind": "core",
+        "goal": "Physic from 10 tiles, Magic Heal +15; Seraphim (White A) hits undead. Range-2 Lend arts buff strikers.",
+        "exit": "Final class.",
+        "masteries": [
+          "Dominate Magic"
+        ],
+        "tips": [
+          "Physic from the back row; Troy's Strike and Heal adds a second Physic a turn",
+          "Lend Strength+ at range 2 (Tactician's Wit) on Cai or Lysander before they attack",
+          "Song of Courage (Spd +2) widens Alexandra's AS +10 margin",
+          "Wiseman casts no Black Magic: Mire Β stays unused (?)"
+        ],
+        "weapons": [
+          {
+            "item": "Wooden Gauntlets +4",
+            "why": "Light counter at range 1, Wt 1; Seraphim does her damage",
+            "alts": [
+              "Iron Gauntlets +4"
+            ]
+          },
+          {
+            "item": "Resistant Gauntlets +2",
+            "why": "Res +3 or more (Res +8 at +3), Wt 5",
+            "situational": "Mage-heavy gates: slot 4; only if she still isn't doubled"
+          }
+        ],
+        "equipment": [
+          {
+            "item": "Healing Staff",
+            "why": "+10 HP on every heal, Wt 3: light enough to avoid doubles",
+            "slot": "Accessory",
+            "plan": "Keep equipped",
+            "alts": [
+              "Photona's Holy Staff",
+              "Monastery Staff"
+            ]
+          }
+        ],
+        "arts": [
+          {
+            "name": "Lend Strength+",
+            "why": "Authority B: Str +3 for Majide or Guzran"
+          },
+          {
+            "name": "Lend Defense",
+            "why": "Authority D: Def +2 to an ally at range 2"
+          },
+          {
+            "name": "Lend Magic",
+            "why": "Authority C: Mag/Res +2 for a caster"
+          }
+        ],
+        "spells": [
+          {
+            "name": "Physic",
+            "why": "8 HP at 1-10 (+15 Magic Heal, +10 staff); Seeker doubles uses"
+          },
+          {
+            "name": "Seraphim",
+            "why": "White A: Mt 10, Hit 75, 1-2, effective vs undead"
+          },
+          {
+            "name": "Recover",
+            "why": "White B: 30 HP"
+          },
+          {
+            "name": "Aura",
+            "why": "White S (single source): Mt 22, Hit 70"
+          },
+          {
+            "name": "Heal",
+            "why": "Cheap top-up"
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Dominate Magic",
+            "why": "Wiseman mastery: 10% no counter from mages (once mastered)"
+          },
+          {
+            "name": "Tactician's Insight+",
+            "why": "Lv 35: Avo −10 on a foe she attacked first"
+          },
+          {
+            "name": "Barrier",
+            "why": "Bishop mastery: Res +3 to adjacent allies"
+          },
+          {
+            "name": "Song of Courage",
+            "why": "Troubadour mastery: Dex/Spd +2 to allies in range"
+          },
+          {
+            "name": "White Magic Lv. 4",
+            "why": "White A+: Hit/Avo +7 with white magic (Seraphim); Lv. 3 until then"
+          }
+        ],
+        "items": [
+          {
+            "item": "Concoction",
+            "why": "40 HP x2: Def 10 growth, archers find her",
+            "alts": [
+              "Vulnerary"
+            ]
+          }
+        ],
+        "drop": [
+          {
+            "item": "Piety",
+            "why": "White Magic Lv. 4: Seraphim Hit +7"
+          },
+          {
+            "item": "Wooden Gauntlets",
+            "why": "Refined to +4 (no Soulstone)"
+          }
+        ]
+      }
+    ],
+    "alt": "Stay Bishop in Part III to keep Excalibur (Black S); Wiseman drops Black Magic. No Part I side trip: Pugilist would fix her HP and Def but needs Gauntlet C, and Priest's doubled casts are what train White Magic B. If Rider D or Black Magic B isn't there by Part II, skip the Troubadour stint.",
+    "sources": [
+      "class-and-weapon-guide",
+      "growth.py",
+      "class-data",
+      "character-learnsets",
+      "combat-arts-and-abilities",
+      "weapons-and-items",
+      "walkthrough-part1-cai",
+      "part2-war",
+      "PATHS-BRIEF",
+      "part3-salvation"
+    ],
+    "routeNotes": [
+      {
+        "system": "Mentoring",
+        "note": "Aurora's Staying Healthy (Renown 4, usually Ch 6) gives the Healing Staff: it goes on her first. Her Part II Troubadour stint needs Bertrand's Ch 9 mentorship to unlock Troubadour (RPG Site lists only an Advanced License; if it doesn't unlock, she stays Bishop)."
+      },
+      {
+        "system": "Stable & Luring",
+        "note": "Catch a second Monoceros or a Wild Horse before the end of Ch 12 and feed it weekly from Ch 10: Part II has no free time and Troubadour needs a mount."
+      }
+    ],
+    "decisions": [
+      {
+        "topic": "Go Bishop in Ch 10",
+        "pick": "Diviner, Priest (Ch 6), Bishop: priority 1 of the 8 Advanced exams",
+        "why": "S tier, the only healer with doubled Physic, and deployed since Ch 1, so she reaches Lv 35 first."
+      },
+      {
+        "topic": "Read Archive B in Ch 8",
+        "pick": "Mire Β from Cave Behind the Falls (or Vandahl: Torment Grass x3)",
+        "why": "Range-3 chip sets Tactician's Insight (Avo -5, then -10) from where most foes can't counter. Archives take no slot."
+      },
+      {
+        "topic": "Take the Troubadour stint in Part II Ch 1 to 2",
+        "pick": "Troubadour on a spare horse, back to Bishop for Ch 3",
+        "why": "Song of Courage on a free Advanced License; Ch 3 is a Physic map that wants her doubled Bishop casts."
+      }
+    ],
+    "gates": [
+      {
+        "route": "Cai",
+        "from": {
+          "part": 1,
+          "ch": 6
+        },
+        "kind": "rank",
+        "text": "White Magic B by Lv 35 for Bishop",
+        "by": {
+          "part": 1,
+          "ch": 10
+        }
+      }
+    ]
+  },
+  "sources": [
+    "https://fortunesweave.co.uk/characters/tialla",
+    "https://www.keengamer.com/articles/guides/fire-emblem-fortunes-weave-tier-list-best-characters-ranked-for-every-route/",
+    "https://www.pockettactics.com/fire-emblem-fortunes-weave/tier-list"
+  ],
+  "recruitOn": {
+    "Cai": {
+      "how": "auto"
+    },
+    "Dietrich": {
+      "how": "recruit",
+      "support": 3,
+      "renown": 9
+    },
+    "Theodora": {
+      "how": "recruit",
+      "support": 3,
+      "renown": 10
+    },
+    "Leda": {
+      "how": "recruit",
+      "support": 3,
+      "renown": 8
+    }
+  }
+}

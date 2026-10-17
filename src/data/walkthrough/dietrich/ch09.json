@@ -1,0 +1,288 @@
+{
+  "route": "Dietrich",
+  "ch": 9,
+  "name": "The Legend of the White Egg",
+  "free": {
+    "from": "8/10",
+    "to": "9/19"
+  },
+  "unlocks": [
+    "Paralogues (the first four)"
+  ],
+  "routine": {
+    "meals": [
+      {
+        "week": "Until Ursula reaches Support 3 (by 9/18)",
+        "tables": [
+          [
+            "Dietrich",
+            "Ursula",
+            "Gaitz"
+          ],
+          [
+            "Dietrich",
+            "Ursula",
+            "Dante"
+          ],
+          [
+            "Dietrich",
+            "Gaitz",
+            "Goliath"
+          ]
+        ],
+        "note": "Ursula sits twice. Order Coffee-Berry Paste, Pumpkin Soup, then Sand Boar and Beans (no Perfect dish for the third)."
+      },
+      {
+        "week": "Then",
+        "tables": [
+          [
+            "Dietrich",
+            "Gaitz",
+            "Goliath"
+          ]
+        ],
+        "note": "Gaitz with Goliath or other army members: he needs Support 3 by Ch 12."
+      }
+    ]
+  },
+  "missables": [
+    {
+      "id": "dietrich-ch09-missables-bertrand-paralogue",
+      "quest": "friendly-match-with-brigids-king",
+      "kind": "recruit-window",
+      "text": "Save on 9/16, then clear Bertrand's Paralogue on 9/17, its only day: Gaitz needs it",
+      "when": "9/17 only",
+      "where": "Arena Square (Gabriel)",
+      "lose": "Gaitz on this path, plus the Extra Large Bullion, 20,000G and 150 Renown",
+      "recover": "Reload the 9/16 save",
+      "task": true
+    },
+    {
+      "id": "dietrich-ch09-missables-talimun-paralogue",
+      "quest": "secret-of-the-vanished-carriage",
+      "kind": "recruit-window",
+      "text": "Clear Talimun's Paralogue on 9/18 or 9/19 (backup window 10/1 to 10/10)",
+      "when": "9/18 to 9/19",
+      "where": "Near the Port (Talimun)",
+      "lose": "Ursula, if the 10/1 to 10/10 backup window also passes",
+      "recover": "Backup window 10/1 to 10/10 in Ch 10",
+      "task": true
+    },
+    {
+      "id": "dietrich-ch09-missables-theodora-paralogue",
+      "quest": "missing-brave-warrior-statue",
+      "kind": "item",
+      "text": "Clear Theodora's Paralogue by 9/15: its [[item:Pilum]] is Esmeralda's",
+      "when": "9/3 to 9/12, hard deadline 9/15",
+      "where": "Temple Row (Bonaventure)",
+      "lose": "the Pilum, 20,000G and 150 Renown",
+      "recover": "None",
+      "task": true
+    },
+    {
+      "id": "dietrich-ch09-missables-leda-paralogue",
+      "quest": "diversionary-tactics",
+      "kind": "timing",
+      "text": "Starting Leda's Paralogue skips the calendar to 9/8: finish other plans for 9/2 to 9/8 first",
+      "when": "9/2 to 9/8 (battle 9/8)",
+      "lose": "the days between the start and 9/8",
+      "recover": "None",
+      "task": true
+    },
+    {
+      "id": "dietrich-ch09-missables-sisters-accessory",
+      "quest": "my-late-sisters-accessory",
+      "kind": "item",
+      "text": "Take My Late Sister's Accessory if it shows up: Creek and Nathan join in Part II only with it",
+      "when": "by 10/15",
+      "where": "[[place:Axion Gorge]] (Saveilon, south of Dagsion)",
+      "lose": "Creek in Part II Ch 2 and Nathan in Ch 3",
+      "recover": "None",
+      "detail": [
+        "It appears at random, but it's reported on Dietrich's Ch 9."
+      ],
+      "task": true
+    }
+  ],
+  "classes": {
+    "note": {
+      "text": "No Advanced exams until Renown 8 (end of Ch 9 at best): push the first four to Lv 35 now",
+      "detail": [
+        "Lv 35: Yang Jie, Fabio, Dietrich, Esmeralda. Ranks: Mikaela Gauntlet B, Axe B, Sword B; Kiroc Bow B.",
+        "Renown 8 before 9/19? Exam whoever is ready, in the Ledger's Advanced order.",
+        "Finishing blows to Yang Jie, Fabio, Esmeralda, then Mikaela, Kiroc, Olympia. Dietrich ends Part I near Lv 38."
+      ]
+    }
+  },
+  "gear": {
+    "buy": [
+      {
+        "text": "Pick up Da Mina weapons, and keep 2 spare for Its Name Is Da Mina (Ch 10)"
+      },
+      {
+        "text": "Replace Javelins and Hand Axes with [[item:Short Spear]]s and [[item:Short Axe]]s"
+      }
+    ],
+    "assign": [
+      {
+        "item": "Salamander",
+        "to": "Yang Jie",
+        "why": "Southern Passage chest"
+      }
+    ],
+    "note": [
+      {
+        "text": "Farm Magic Echo Shards: finish the 10 Combat Art upgrades by Ch 11",
+        "detail": [
+          "Spend every shard before Part II: each Part II chapter sets them to 100 instead of adding."
+        ]
+      }
+    ]
+  },
+  "recruits": [
+    {
+      "unit": "Ursula",
+      "action": "Answer Yes three times right after Talimun's Paralogue, at Support 3 and Renown 7",
+      "when": "9/18 or 9/19, else 10/1 to 10/10 (Ch 10)",
+      "detail": [
+        "Still short of Renown 7 on 9/19? Recruit her in Ch 10, in Talimun's backup window."
+      ]
+    },
+    {
+      "unit": "Buccar",
+      "action": "Recruit after Leda's Paralogue (9/8) at Support 3 and Renown 8: supports Dietrich, Jester, Olympia",
+      "when": "End of Ch 9 at best, else Ch 10",
+      "detail": [
+        "Filler, bench only."
+      ]
+    }
+  ],
+  "prep": [
+    {
+      "text": "Fianna: recruit her now if Renown 7 came after Ch 8 (her row is in Ch 8)"
+    }
+  ],
+  "quests": {
+    "route": [
+      {
+        "quest": "dread-warrior-cabaye",
+        "note": "If Renown 7 came too late in Ch 8: [[place:Stoppered Shrine]]"
+      },
+      {
+        "quest": "dread-warrior-damien",
+        "note": "Only if Renown 8 lands before 9/19: [[place:Aditi's Cave]]"
+      }
+    ],
+    "sub": [
+      {
+        "quest": "my-late-sisters-accessory",
+        "offered": "if-offered",
+        "note": "Violet Brooch from the bandits at [[place:Axion Gorge]] (Saveilon)"
+      },
+      {
+        "quest": "another-challenge",
+        "note": "Needs A Challenge (Ch 7)"
+      },
+      {
+        "quest": "spellcasters-in-the-forest",
+        "note": "[[place:Faun's Forest]], for the Hunter in Lowtown"
+      },
+      {
+        "quest": "something-a-god-eats",
+        "offered": "if-offered",
+        "note": "Rahlan from Port of Pandora, for the Worshipper at Jurah's Temple"
+      },
+      {
+        "quest": "missing-customer",
+        "offered": "if-offered",
+        "note": "Two conversations: Gaston and Fina"
+      },
+      {
+        "quest": "even-more-fabled-insect-pearls",
+        "offered": "if-offered",
+        "note": "Only if the pearl chain started"
+      }
+    ],
+    "paralogue": [
+      {
+        "quest": "diversionary-tactics",
+        "group": "1 · 9/2 to 9/8",
+        "note": "Leda's, the easiest: its [[item:Silver Shield]] is Goliath's shield",
+        "detail": [
+          "Break obstacles, kill everything, watch for poison.",
+          "Pack Esmeralda an [[item:Antitoxin]] (Valhalla Mine chest)."
+        ]
+      },
+      {
+        "quest": "missing-brave-warrior-statue",
+        "group": "2 · 9/3 to 9/15",
+        "note": "Theodora's, from Bonaventure at Temple Row: fogged, so equip Credna's Lv 1 Blessing (+5 vision)",
+        "detail": [
+          "Stand on the three mechanisms (southeast, southwest, northwest); keep fragile units back.",
+          "Swap Kiroc and Fabio for Io and Jester to reach the switches; keep Yang Jie behind Esmeralda."
+        ]
+      },
+      {
+        "quest": "friendly-match-with-brigids-king",
+        "group": "3 · 9/17 only (save on 9/16)",
+        "note": "Bertrand's, from Gabriel at Arena Square: required for Gaitz",
+        "detail": [
+          "The shortest Paralogue window in the game.",
+          "Kill 4 Giants before the rival group does.",
+          "Bait your target Giant and ignore the yellow units around it."
+        ]
+      },
+      {
+        "quest": "secret-of-the-vanished-carriage",
+        "group": "4 · 9/18 or 9/19",
+        "note": "Talimun's, from Talimun near the Port: its [[item:Cleansing Blade]] is Jester's",
+        "detail": [
+          "Keep one unit back to catch the thief running for the top exit: Io or Jester in the flex slot."
+        ]
+      }
+    ]
+  },
+  "explore": [
+    {
+      "group": "8/10 to 9/1",
+      "text": "Clear the eight quests due 9/1 first, then level up: the Paralogues start 9/2"
+    },
+    {
+      "group": "Dungeons",
+      "id": "dietrich-ch09-explore-southern-passage",
+      "loot": true,
+      "text": "[[place:Southern Passage]] (story dungeon): Salamander for Yang Jie, [[item:Archive Z]] for Dante",
+      "detail": [
+        "An Event Clash waits at the end.",
+        "Hold Archive Z until Dante joins in Ch 10, then read it at once."
+      ]
+    },
+    {
+      "group": "Skirmishes",
+      "text": "Take 2 or 3 core units plus the late joiners who need weapon ranks",
+      "detail": [
+        "Simon fights with gauntlets (Warrior), Olympia with Black Magic (Ovate).",
+        "Jester uses his bow (Rogue, Ranger), Goliath his axes (Dreadnought).",
+        "Levels don't matter much: Part II Army Training lifts everyone to Lv 34+. Ranks don't come with it."
+      ]
+    }
+  ],
+  "battle": {
+    "title": "Battle at Kunlun",
+    "objective": "Defeat Zenon",
+    "lose": "Dietrich falls",
+    "tips": [
+      {
+        "text": "Move north as a group; spend an action to partly clear the sandstorm"
+      }
+    ]
+  },
+  "exitExtra": [
+    {
+      "text": "Have Yang Jie, Fabio, Dietrich and Esmeralda near Lv 35 and their Advanced ranks for Ch 10",
+      "detail": [
+        "Mikaela and Kiroc around Lv 30; Olympia and Goliath past Lv 20."
+      ]
+    }
+  ]
+}

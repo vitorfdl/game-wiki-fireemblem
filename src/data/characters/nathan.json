@@ -1,0 +1,37 @@
+{
+  "name": "Nathan",
+  "slug": "nathan",
+  "epithet": "Twin Pillar of Arago",
+  "faction": "Arago's Elite Squad",
+  "personality": "Loyal, straightforward and devoted to battle training.",
+  "story": "A brave general of Arago and Creek's partner among the Twin Pillars, wearing red armor gifted by Arago's king. He only joins if Creek, already recruited, personally defeats him.",
+  "personalSkill": {
+    "name": "Headlong Rush",
+    "effect": "If unit attacks first, AS+3 and Hit+10 during combat."
+  },
+  "growths": {
+    "HP": 55,
+    "Str": 60,
+    "Mag": 15,
+    "Spd": 25,
+    "Dex": 60,
+    "Def": 45,
+    "Res": 15,
+    "Lck": 25,
+    "Cha": 30
+  },
+  "joins": "Part II: War Chapter 3. MISSABLE: Creek must land the killing blow on Nathan, which requires recruiting Creek in Ch2 first.",
+  "build": {
+    "role": "Player-phase bruiser (suggested from growths)",
+    "path": [
+      "Soldier",
+      "Armored Knight or Brigand",
+      "Dreadnought or Warrior, then Castle Knight or Battlemaster"
+    ],
+    "notes": "Str and Dex 60 with Headlong Rush make him a hard-hitting attacker; Res 15 means mages are his biggest threat. Class path is undocumented."
+  },
+  "sources": [
+    "https://fortunesweave.co.uk/characters/nathan",
+    "https://www.rpgsite.net/guide/21391-fire-emblem-fortunes-weave-recruitment-guide-all-characters-in-game-how-to-recruit-them"
+  ]
+}

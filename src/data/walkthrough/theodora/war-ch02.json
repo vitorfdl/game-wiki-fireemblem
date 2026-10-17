@@ -1,0 +1,97 @@
+{
+  "route": "Theodora",
+  "ch": 2,
+  "action": {
+    "pick": "Training Drills",
+    "why": "Ch 2 floor about Lv 40: Nydine (Cataphract) and Nuzzuo (Ranger) take Advanced exams at the floor."
+  },
+  "blessings": [
+    {
+      "god": "Kalla",
+      "lv": 3,
+      "why": "Mov +2 on Turn 3 sends Lysander to the southeast Ranger before he runs on Turn 4."
+    },
+    {
+      "god": "Credna",
+      "why": "No durability cost on the Onager push turn."
+    }
+  ],
+  "deploy": {
+    "units": [
+      "Theodora",
+      "Ninae",
+      "Ultand",
+      "Tobias",
+      "Bonaventure",
+      "Sofia",
+      "Sirocco",
+      "Alexandra",
+      "Lysander",
+      "Loretta",
+      "Nydine",
+      "Noctula",
+      "Nuzzuo"
+    ],
+    "bench": [
+      "Lilian",
+      "Simon"
+    ],
+    "note": "13 slots: Nuzzuo bows in Lilian's seat and kills the west Ranger; Nydine rides at the cavalry; Noctula baits it from the forests. Lilian and Simon sit."
+  },
+  "missables": [
+    {
+      "id": "theodora-war-ch02-missables-se-ranger",
+      "kind": "item",
+      "text": "Kill the southeast Ranger before he flees (moves Turn 4, exits east).",
+      "lose": "His drop",
+      "recover": "None: a Part II drop doesn't return",
+      "when": "Turn 4"
+    },
+    {
+      "id": "theodora-war-ch02-missables-w-ranger",
+      "kind": "item",
+      "text": "Kill the west Ranger before he flees (moves Turn 8).",
+      "lose": "His drop",
+      "recover": "None",
+      "when": "Turn 8"
+    }
+  ],
+  "gear": {
+    "assign": [
+      {
+        "item": "Cleansing Blade",
+        "to": "Lysander",
+        "why": "From the southeast Ranger: his Underworld Boon answer in Part III"
+      },
+      {
+        "item": "Horsekiller Bow",
+        "to": "Nuzzuo",
+        "why": "From the west Ranger (moves Turn 8): his effective bow vs cavalry"
+      }
+    ]
+  },
+  "people": [
+    {
+      "unit": "Creek",
+      "kind": "skip",
+      "text": "Not recruitable on this route: \"My Late Sister's Accessory\" exists only on Leda's and Dietrich's."
+    }
+  ],
+  "tips": [
+    {
+      "text": "Turn 1: Lysander and Alexandra fly southeast; Kalla's Blessing on Turn 3 closes the gap"
+    },
+    {
+      "text": "Kill the Onager archers first; then the center cliff is safe for fliers"
+    },
+    {
+      "text": "The Fortress (Theodora, Ultand, Ninae, Tobias) pushes the gate; Sirocco and a healer hold back for side reinforcements"
+    },
+    {
+      "text": "Pincer Lind and Ianuarius in their corner from two sides"
+    },
+    {
+      "text": "Nuzzuo and Nydine work the west side: kill the west Ranger before he runs on Turn 8"
+    }
+  ]
+}

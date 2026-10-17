@@ -1,0 +1,32 @@
+{
+  "route": "Cai",
+  "ch": 1,
+  "name": "Uproar in Ribeira",
+  "free": null,
+  "routine": null,
+  "missables": [],
+  "classes": {},
+  "gear": {},
+  "recruits": [],
+  "quests": {
+    "route": [],
+    "sub": [],
+    "paralogue": []
+  },
+  "explore": [],
+  "battle": {
+    "title": "vs. Bandits (tutorial)",
+    "objective": "Seize the red jewel, then defeat Nero when the objective changes",
+    "tips": [
+      {
+        "text": "Cai learns Underworld Burst; Fortuna's Blessing unlocks on Turn 2"
+      },
+      {
+        "text": "Have Tialla and Peter talk to Cai for Support"
+      },
+      {
+        "text": "Grab the yellow orbs on the map: free common items"
+      }
+    ]
+  }
+}

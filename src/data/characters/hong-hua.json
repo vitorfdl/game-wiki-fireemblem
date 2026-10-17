@@ -1,0 +1,385 @@
+{
+  "name": "Hong Hua",
+  "slug": "hong-hua",
+  "faction": "The Savior's Army",
+  "weapons": [
+    "Black Magic (Bolganone, Wandering Wall, Glass Wheel, Thoron, Bolting)",
+    "White Magic (Rescue, Warp)"
+  ],
+  "preferred": [
+    "White Magic",
+    "Black Magic"
+  ],
+  "avoid": [
+    "Axe",
+    "Heavy"
+  ],
+  "personality": "Weighed down by guilt over a past transgression, she fights for atonement and treasures memories of happier times.",
+  "story": "A Mediator from Kunlun (around 925 years old) who once guided someone to Fortuna in the forbidden lands, an act tied to Eshmel's creation. She is a widow with a son.",
+  "personalSkill": {
+    "name": "Zhu Ming",
+    "effect": "Hit+10 when equipped with magic."
+  },
+  "growths": {
+    "HP": 40,
+    "Str": 30,
+    "Mag": 45,
+    "Spd": 45,
+    "Dex": 45,
+    "Def": 30,
+    "Res": 45,
+    "Lck": 30,
+    "Cha": 40
+  },
+  "joins": "Automatically in the Prologue and again in Part III: Salvation. Joins at Lv40 as Ovate with Vulnerary and Bolganone. Base stats: HP 45, Str 15, Mag 34, Dex 30, Spd 26, Lck 18, Def 21, Res 30, Cha 23.",
+  "build": {
+    "role": "Utility mage: Rescue and Warp, Glass Wheel vs fliers",
+    "path": [
+      "Ovate (join, Lv 40)",
+      "Valkyrium (Sec 3, Jurah's request)"
+    ],
+    "part3Target": "Valkyrium",
+    "notes": "Druid drops White Magic (Rescue, Warp). Valkyrium keeps both schools and adds Mov 7."
+  },
+  "sources": [
+    "https://fortunesweave.co.uk/characters/hong-hua",
+    "https://www.rpgsite.net/guide/21391-fire-emblem-fortunes-weave-recruitment-guide-all-characters-in-game-how-to-recruit-them"
+  ],
+  "guide": {
+    "role": "Utility mage: Rescue and Warp move the strikers; Glass Wheel and Thoron from range",
+    "summary": "She moves the army: Rescue pulls a striker out after the kill, Warp (White S) drops Alexandra or Tobias onto the boss. Between moves she casts Glass Wheel on fliers or Thoron from 3 tiles; Zhu Ming adds Hit +10 to every spell.",
+    "playstyle": "Player phase: move last. Rescue whoever is exposed, or Warp a striker in, then cast if a target is left. Enemy phase: end out of bow and flier reach (Def 30 growth). Dismount on no-cavalry maps.",
+    "focus": [
+      "Mag",
+      "Spd",
+      "Res"
+    ],
+    "keys": [
+      "Do Jurah's request (Dagda's Godshield) in Sec 2-3: it opens [[class:Valkyrium]].",
+      "Hit White A, Black A and Riding D by Lv 45: Arena Mage and Mounted weeks.",
+      "Push White S after the exam: Warp is her endgame job.",
+      "Rescue the striker who killed the boss's guard; never leave them in reach.",
+      "Glass Wheel on fliers: it targets Def and is effective vs fliers."
+    ],
+    "watch": [
+      "Def: 30 growth, Ovate Def -10. Fliers and archers two-shot her: end behind the Fortress.",
+      "Mounted: spears are effective vs cavalry; dismount on spear-heavy maps.",
+      "Warp: White S. Rank at join ?; Rescue at B comes first.",
+      "Weight: Glass Wheel 7 or Bolganone 8 + Magic Staff 3 = 10 to 11. Thoron Wt ?. Doubled? Staff off first.",
+      "Amplify Magic: Lv 50 and 60 per Serenes Forest only (?)."
+    ],
+    "decisions": [
+      {
+        "topic": "Take Valkyrium, not Druid",
+        "pick": "Ovate on join, Valkyrium from Sec 3 (Jurah's request)",
+        "why": "Druid has no White Magic: Rescue and Warp, her job, would go. Valkyrium is the only Master class with both schools, adds Mov 7, Magic Heal +10 and Mount/Dismount. Ovate has bigger flats (Mag +4 vs +2) but Mov 5.",
+        "else": "Stay Ovate if White A or Riding D stalls"
+      },
+      {
+        "topic": "Skip Wiseman",
+        "pick": "Valkyrium keeps Black Magic",
+        "why": "Wiseman (White A) drops Black Magic: no Glass Wheel vs fliers, no Thoron, no Bolting. Orchel and Sofia already heal."
+      }
+    ],
+    "finalists": {
+      "stats": [
+        "Mag",
+        "Spd",
+        "Res",
+        "Def"
+      ],
+      "options": [
+        {
+          "class": "Valkyrium",
+          "use": "Sec 3+",
+          "note": "Both schools, Mov 7, Magic Heal +10; Jurah's request"
+        },
+        {
+          "class": "Ovate",
+          "use": "Sec 1-2 (join)",
+          "note": "Join class: Mag +4, Dex +4 flat; Mov 5; fallback endpoint"
+        },
+        {
+          "class": "Druid",
+          "note": "Mag +30 growth, but no White Magic: loses Rescue and Warp"
+        },
+        {
+          "class": "Wiseman",
+          "note": "White only: loses Glass Wheel, Thoron, Bolting"
+        }
+      ]
+    },
+    "stages": [
+      {
+        "when": "Part III Sec 1 to 2 (Ovate)",
+        "from": {
+          "part": 3,
+          "ch": 1
+        },
+        "to": {
+          "part": 3,
+          "ch": 3
+        },
+        "level": "Lv 40 (join) to 45",
+        "class": "Ovate",
+        "kind": "core",
+        "goal": "Utility caster: Rescue pulls a striker out; Glass Wheel hits fliers. Zhu Ming: Hit +10 on spells.",
+        "why": [
+          "Join Section ? (RPG Site: Prologue and Part III): plan from Sec 1",
+          "Bench in Sections 2 to 5 (squads.json): bench EXP and the Arena carry her to Lv 45",
+          "Underworld Boon: magic can't strip it; cast inside Eshmel's 2 tiles"
+        ],
+        "exit": "Lv 45, White A, Black A, Riding D, Jurah's request: Valkyrium exam (Sec 3).",
+        "masteries": [
+          "Bind Speed"
+        ],
+        "equipment": [
+          {
+            "item": "Magic Staff",
+            "why": "Mag +3, Wt 3",
+            "slot": "Accessory",
+            "alts": [
+              "Monastery Staff",
+              "Healing Staff"
+            ]
+          }
+        ],
+        "items": [
+          {
+            "item": "Concoction",
+            "why": "40 HP",
+            "alts": [
+              "Elixir"
+            ]
+          }
+        ],
+        "spells": [
+          {
+            "name": "Rescue",
+            "why": "White B: pulls an ally to her (range ?)"
+          },
+          {
+            "name": "Glass Wheel",
+            "why": "Black B: Mt 12, Hit 90, vs Def, effective vs fliers"
+          },
+          {
+            "name": "Thoron",
+            "why": "Black A?: Mt 20, Hit 55, range 1-3"
+          },
+          {
+            "name": "Bolganone",
+            "why": "Black D: Mt 10, Hit 85; she joins with it"
+          },
+          {
+            "name": "Wandering Wall",
+            "why": "Black C: builds a wall tile (range 1) to block a lane"
+          },
+          {
+            "name": "Heal",
+            "why": "White C: 10 HP"
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Steady Shot",
+            "why": "Infantry C?: Hit +5 with magic"
+          },
+          {
+            "name": "Black Magic Lv. 3",
+            "why": "Black B+: Hit/Avo +5 with magic"
+          },
+          {
+            "name": "Knightly Senses",
+            "why": "Riding D (the exam rank): Avo +10 vs spears"
+          },
+          {
+            "name": "Read the Winds",
+            "why": "Flying D?: Avo +10 vs bows"
+          },
+          {
+            "name": "Bind Speed",
+            "why": "Ovate mastery ?: Spd -3 on adjacent foes"
+          }
+        ],
+        "training": [
+          {
+            "rank": "White Magic A, Black Magic A",
+            "for": "Valkyrium (Lv 45)",
+            "how": "Casts in battle; Arena Mage (Black, White, Authority) after Arena Construction"
+          },
+          {
+            "rank": "Riding D",
+            "for": "Valkyrium; Knightly Senses",
+            "how": "Arena Mounted (Spear, Riding, Flying, Authority), one week ?"
+          }
+        ],
+        "tips": [
+          "Hit stack: Zhu Ming +10, Ovate Magic Hit +5, Steady Shot +5, Black Magic Lv. 3 +5",
+          "Book Arena Mage and Mounted seats: White A, Black A, Riding D for Valkyrium"
+        ],
+        "checks": [
+          {
+            "stat": "Def",
+            "at": "Sec 3",
+            "need": "No Section 3 flier or archer can two-shot her in the enemy forecast",
+            "why": "Def 30 growth, Ovate Def -10",
+            "fix": [
+              "End turns behind the Fortress line",
+              "Wandering Wall to block the flier lane",
+              "Read the Winds (Avo +10 vs bows)"
+            ]
+          }
+        ]
+      },
+      {
+        "when": "Part III Section 4+ (Valkyrium)",
+        "from": {
+          "part": 3,
+          "ch": 4
+        },
+        "level": "Lv 45+",
+        "class": "Valkyrium",
+        "kind": "core",
+        "goal": "Mov 7 utility: Rescue or Warp a striker, Magic Heal +10. Amplify Magic (Lv 50): Atk +4.",
+        "why": [
+          "Exam: Lv 45, White A, Black A, Riding D; Jurah's request (Dagda's Godshield) opens it",
+          "Mounted: spears are effective vs cavalry; Knightly Senses Avo +10 vs spears",
+          "Underworld Boon: none of her own; cast within 2 of Eshmel"
+        ],
+        "exit": "Endpoint. Warp at White S: Valkyrium trains White +2 a fight.",
+        "masteries": [
+          "Song of Calm"
+        ],
+        "equipment": [
+          {
+            "item": "Magic Staff",
+            "why": "Mag +3, Wt 3: Glass Wheel and Thoron hit harder",
+            "slot": "Accessory",
+            "alts": [
+              "Monastery Staff",
+              "Healing Staff"
+            ]
+          }
+        ],
+        "items": [
+          {
+            "item": "Concoction",
+            "why": "40 HP",
+            "alts": [
+              "Elixir"
+            ]
+          }
+        ],
+        "spells": [
+          {
+            "name": "Warp",
+            "why": "White S: sends an ally across the map (effect ?); her endgame job"
+          },
+          {
+            "name": "Rescue",
+            "why": "White B: pulls a striker out after the kill"
+          },
+          {
+            "name": "Glass Wheel",
+            "why": "Mt 12, vs Def, effective vs fliers"
+          },
+          {
+            "name": "Thoron",
+            "why": "Mt 20, Hit 55, range 1-3"
+          },
+          {
+            "name": "Bolting",
+            "why": "Black S: stats ?"
+          },
+          {
+            "name": "Heal",
+            "why": "10 HP (+10 Magic Heal)"
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Amplify Magic",
+            "why": "Lv 50: Atk +4 next combat (Mag/2 %); + at Lv 60"
+          },
+          {
+            "name": "Black Magic Lv. 4",
+            "why": "Black A+: Hit/Avo +7 with magic"
+          },
+          {
+            "name": "Song of Calm",
+            "why": "Valkyrium mastery: Res +2 to allies in range, once mastered"
+          },
+          {
+            "name": "Knightly Senses",
+            "why": "Avo +10 vs spears (mounted, spears hit her hard)"
+          },
+          {
+            "name": "Read the Winds",
+            "why": "Avo +10 vs bows"
+          }
+        ],
+        "training": [
+          {
+            "rank": "White Magic S",
+            "for": "Warp",
+            "how": "Valkyrium White +2 a fight; Arena Mage weeks after the bench seats"
+          },
+          {
+            "rank": "Black Magic S",
+            "for": "Bolting (optional)",
+            "how": "Casts in battle"
+          }
+        ],
+        "tips": [
+          "Bench in Sections 4 and 5 (Drake bans mounts); joins B for Lyrah and Balor",
+          "Lyrah: Rescue a striker back after the kill; Glass Wheel on the summoned fliers",
+          "Balor east: Warp Troy or Cai to a gate the turn the barrier drops",
+          "Squad: Tialla heals so her turns go to Rescue and Warp"
+        ],
+        "drop": [
+          {
+            "item": "Steady Shot",
+            "why": "(Infantry): off while mounted; Amplify Magic takes the slot"
+          },
+          {
+            "item": "Bind Speed",
+            "why": "Song of Calm takes the slot"
+          },
+          {
+            "item": "Black Magic Lv. 3",
+            "why": "Black Magic Lv. 4 at A+"
+          },
+          {
+            "item": "Bolganone",
+            "why": "Thoron and Glass Wheel cover it"
+          },
+          {
+            "item": "Wandering Wall",
+            "why": "Warp takes the utility slot; back in if a lane needs a wall"
+          }
+        ],
+        "mount": "Monoceros (Fianna's from Cai's route; Paired Miracle)"
+      }
+    ],
+    "sources": [
+      "part3-salvation",
+      "weapons-and-items",
+      "combat-arts-and-abilities",
+      "character-learnsets",
+      "equippable-abilities",
+      "class-data",
+      "redesign/17-part2-part3-plan"
+    ]
+  },
+  "recruitOn": {
+    "Leda": {
+      "how": "story",
+      "window": "Part III (Section ?), Ovate Lv 40"
+    },
+    "Theodora": {
+      "how": "story",
+      "window": "Part III (Section ?), Ovate Lv 40"
+    }
+  },
+  "tierNotes": "Reddit: Salamander +5 builds reach very high Mag/Spd; Wandering Wall is valuable on the final map (confirmed)."
+}

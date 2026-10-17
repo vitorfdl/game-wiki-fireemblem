@@ -1,0 +1,53 @@
+{
+  "route": "Leda",
+  "ch": 2,
+  "name": "Battle at Coris Mine",
+  "free": null,
+  "routine": null,
+  "missables": [],
+  "classes": {},
+  "gear": {
+    "assign": [
+      {
+        "item": "Lakshashi's Iron Fan",
+        "to": "Leda",
+        "why": "Battle reward: equip it on her"
+      },
+      {
+        "item": "Archer's Ring",
+        "to": "Leda",
+        "why": "Obsidian swap on maps with no enemy mages; Inyoni's from Ch 10"
+      }
+    ]
+  },
+  "recruits": [],
+  "quests": {
+    "route": [],
+    "sub": [],
+    "paralogue": []
+  },
+  "explore": [
+    {
+      "id": "leda-ch02-explore-coris-mine",
+      "loot": true,
+      "text": "[[place:Coris Mine]]: open all three chests, then use the Rest Spot before the end",
+      "detail": [
+        "Vulnerary, [[item:Archer's Ring]], Large Coin."
+      ]
+    },
+    {
+      "text": "Check the yellow orbs in [[place:Kassite]] for common items"
+    }
+  ],
+  "battle": {
+    "title": "vs. Balboa",
+    "objective": "Defeat Balboa",
+    "lose": "Leda falls",
+    "tips": [],
+    "loot": [
+      {
+        "text": "[[item:Lakshashi's Iron Fan]]: battle reward"
+      }
+    ]
+  }
+}

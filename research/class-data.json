@@ -1,0 +1,3842 @@
+{
+  "meta": {
+    "game": "Fire Emblem: Fortune's Weave (Nintendo Switch 2, released 2026-09-17)",
+    "compiled": "2026-09-30",
+    "field_notes": {
+      "requirements.level": "Game8 'Ideal Lv.' (recommended level). Renown is a hard gate for Beginner/Specialty/Advanced; Master and Elephant have no Renown gate (Part III only; Renown does not carry over).",
+      "requirements.ranks": "Exam skill ranks from Game8 (primary + secondary). Skill names follow Game8: Riding = Rider, Flying = Flier, Heavy Armor = Heavy, Gauntlet = Brawling. Per TheGamer, ranks drive the pass chance (0 to 100%); a unit can attempt a normal exam without meeting every rank, but Divine exams need 100%. A failed exam still consumes the License. There is no prior-class prerequisite.",
+      "stats": "Flat stat bonus applied on changing into the class (Game8 'Bonus' column). Mov is in the separate mov field.",
+      "growth_mods": "Class growth-rate modifier in percent, added to the character's personal growth (Game8; matches fortunesweave.co.uk and Fextralife where checked).",
+      "trains": "Game8 'Skill EXP Bonus': extra skill EXP earned per battle in that class.",
+      "mastery.requires": "No source gives a numeric Class EXP threshold.",
+      "unlock_carryover": "Game8, GameRant and TheGamer: once a route-locked class is unlocked on one path, it is available on other paths for units who can use it. Timing (mid-path vs after finishing the path) is not documented.",
+      "route_exclusive": "Game8: Caladrius (Cai), Blacksmith (Dietrich), Cataphract (Theodora) and Dancer (Leda) can only be unlocked on one path."
+    },
+    "source_rule": "When sources conflict with no tiebreaker, RPG Site is preferred over Game8. Conflicts are flagged in each class's notes."
+  },
+  "sources": [
+    {
+      "name": "fortunesweave.co.uk classes index and per-class pages",
+      "url": "https://fortunesweave.co.uk/classes"
+    },
+    {
+      "name": "Game8 List of All Classes and per-class pages",
+      "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/620256"
+    },
+    {
+      "name": "Game8 How to Change Classes",
+      "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/618925"
+    },
+    {
+      "name": "Game8 Mentoring Guide",
+      "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/624691"
+    },
+    {
+      "name": "GameRant: All Classes and How to Unlock Them",
+      "url": "https://gamerant.com/fire-emblem-fortunes-weave-how-to-unlock-all-classes/"
+    },
+    {
+      "name": "AllThings.How class guide",
+      "url": "https://allthings.how/fire-emblem-fortune-s-weave-class-guide-all-tiers-and-masteries/"
+    },
+    {
+      "name": "Fextralife Fortune's Weave wiki (Cataphract, Wing Soldier, Caladrius, Armored Ornius Rider, Shaman, Dragoon checked)",
+      "url": "https://fortunesweave.wiki.fextralife.com/Classes"
+    },
+    {
+      "name": "RPG Site Part I path walkthroughs (Cai, Dietrich, Theodora, Leda)",
+      "url": "https://www.rpgsite.net/games/2549-fire-emblem-fortunes-weave/guides"
+    },
+    {
+      "name": "TheGamer: How to Change Classes",
+      "url": "https://www.thegamer.com/fire-emblem-fortunes-weave-how-to-change-class/"
+    },
+    {
+      "name": "Pocket Tactics classes",
+      "url": "https://www.pockettactics.com/fire-emblem-fortunes-weave/classes"
+    },
+    {
+      "name": "Readdork class unlocks",
+      "url": "https://readdork.com/gaming/fire-emblem-fortunes-weave-classes-unlock-mastery-skills-6dc0eb592a"
+    },
+    {
+      "name": "fireemblemfortunesweave.wiki classes hub (pre-release, no usable data)",
+      "url": "https://fireemblemfortunesweave.wiki/classes/"
+    },
+    {
+      "name": "Local: 01-getting-started-and-core-mechanics.md and review-{Cai,Dietrich,Theodora,Leda}.json class_facts",
+      "url": null
+    },
+    {
+      "name": "Community class-path video transcript (user-supplied, Oct 13; no URL)",
+      "url": null
+    }
+  ],
+  "classes": [
+    {
+      "name": "Gladiator",
+      "tier": "Beginner",
+      "part": "I",
+      "requirements": {
+        "renown": 1,
+        "level": 5,
+        "ranks": [
+          "Gauntlet D",
+          "Axe D",
+          "Sword D"
+        ],
+        "license": "Beginner License",
+        "restrictions": null
+      },
+      "unlock": null,
+      "movement": "infantry",
+      "mov": 4,
+      "stats": {
+        "HP": 1,
+        "Str": 1,
+        "Mag": 0,
+        "Spd": 0,
+        "Dex": 0,
+        "Def": 0,
+        "Res": 0,
+        "Lck": 0,
+        "Cha": 0
+      },
+      "growth_mods": {
+        "HP": 10,
+        "Str": 10,
+        "Mag": 0,
+        "Spd": 0,
+        "Dex": 0,
+        "Def": 0,
+        "Res": 0,
+        "Lck": 0,
+        "Cha": 0
+      },
+      "weapons": [
+        "Sword",
+        "Gauntlet",
+        "Axe"
+      ],
+      "trains": [
+        "Sword +1",
+        "Axe +1",
+        "Gauntlet +1"
+      ],
+      "skills": [],
+      "mastery": {
+        "ability": "Attack Basics",
+        "description": "Grants Str +1.",
+        "requires": "Fill the Class EXP gauge by fighting in this class; exact threshold not documented. Once mastered, the ability is a permanent equippable passive in any class (Abilities tab); infantry-only or mounted-only abilities switch off in the wrong movement type."
+      },
+      "notes": "Dietrich gets it via story in Ch 5 (local research).",
+      "sources": [
+        "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/624054",
+        "https://fortunesweave.co.uk/classes/gladiator"
+      ]
+    },
+    {
+      "name": "Hunter",
+      "tier": "Beginner",
+      "part": "I",
+      "requirements": {
+        "renown": 1,
+        "level": 5,
+        "ranks": [
+          "Bow D",
+          "Sword D"
+        ],
+        "license": "Beginner License",
+        "restrictions": null
+      },
+      "unlock": null,
+      "movement": "infantry",
+      "mov": 4,
+      "stats": {
+        "HP": 0,
+        "Str": 0,
+        "Mag": 0,
+        "Spd": 1,
+        "Dex": 1,
+        "Def": 0,
+        "Res": 0,
+        "Lck": 0,
+        "Cha": 0
+      },
+      "growth_mods": {
+        "HP": 10,
+        "Str": 0,
+        "Mag": 0,
+        "Spd": 10,
+        "Dex": 10,
+        "Def": 0,
+        "Res": 0,
+        "Lck": 0,
+        "Cha": 0
+      },
+      "weapons": [
+        "Bow",
+        "Sword"
+      ],
+      "trains": [
+        "Sword +1",
+        "Bow +1",
+        "Infantry +1"
+      ],
+      "skills": [],
+      "mastery": {
+        "ability": "Hunting Basics",
+        "description": "Grants Dex/Spd +1",
+        "requires": "Fill the Class EXP gauge by fighting in this class; exact threshold not documented. Once mastered, the ability is a permanent equippable passive in any class (Abilities tab); infantry-only or mounted-only abilities switch off in the wrong movement type."
+      },
+      "notes": "Leda gets it automatically in Ch 5 (local research).",
+      "sources": [
+        "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/624053",
+        "https://fortunesweave.co.uk/classes/hunter"
+      ]
+    },
+    {
+      "name": "Soldier",
+      "tier": "Beginner",
+      "part": "I",
+      "requirements": {
+        "renown": 1,
+        "level": 5,
+        "ranks": [
+          "Axe D",
+          "Spear D"
+        ],
+        "license": "Beginner License",
+        "restrictions": null
+      },
+      "unlock": null,
+      "movement": "armored",
+      "mov": 4,
+      "stats": {
+        "HP": 0,
+        "Str": 1,
+        "Mag": 0,
+        "Spd": 0,
+        "Dex": 0,
+        "Def": 1,
+        "Res": 0,
+        "Lck": 0,
+        "Cha": 0
+      },
+      "growth_mods": {
+        "HP": 10,
+        "Str": 5,
+        "Mag": 0,
+        "Spd": -5,
+        "Dex": 5,
+        "Def": 10,
+        "Res": 0,
+        "Lck": 0,
+        "Cha": 0
+      },
+      "weapons": [
+        "Spear",
+        "Sword",
+        "Axe"
+      ],
+      "trains": [
+        "Spear +1",
+        "Axe +1",
+        "Armor +1"
+      ],
+      "skills": [],
+      "mastery": {
+        "ability": "Defense Basics",
+        "description": "Grants Def +1.",
+        "requires": "Fill the Class EXP gauge by fighting in this class; exact threshold not documented. Once mastered, the ability is a permanent equippable passive in any class (Abilities tab); infantry-only or mounted-only abilities switch off in the wrong movement type."
+      },
+      "notes": "Theodora gets it at the Ch 4 license tutorial (local research). Game8 type: Heavy Armor Infantry, and its Skill EXP bonus says 'Armor +1'. Pocket Tactics: Heavy Infantry. Requirement ranks list only Axe D, Spear D; Game8's weapon list also shows Sword.",
+      "sources": [
+        "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/624052",
+        "https://fortunesweave.co.uk/classes/soldier"
+      ]
+    },
+    {
+      "name": "Ornius Rider",
+      "tier": "Beginner",
+      "part": "I",
+      "requirements": {
+        "renown": 1,
+        "level": 5,
+        "ranks": [
+          "Riding E+",
+          "Axe D",
+          "Spear D"
+        ],
+        "license": "Beginner License",
+        "restrictions": "Heavyweight units (Goliath's Heavyweight Class ability) can't take cavalry or flying classes"
+      },
+      "unlock": null,
+      "movement": "mounted",
+      "mov": 5,
+      "stats": {
+        "HP": 0,
+        "Str": 0,
+        "Mag": 0,
+        "Spd": 3,
+        "Dex": 2,
+        "Def": 0,
+        "Res": 0,
+        "Lck": 1,
+        "Cha": 0
+      },
+      "growth_mods": {
+        "HP": 10,
+        "Str": 0,
+        "Mag": 0,
+        "Spd": 10,
+        "Dex": 5,
+        "Def": 0,
+        "Res": 5,
+        "Lck": 5,
+        "Cha": 0
+      },
+      "weapons": [
+        "Spear",
+        "Sword",
+        "Axe"
+      ],
+      "trains": [
+        "Spear +1",
+        "Riding +1",
+        "Flying +1"
+      ],
+      "skills": [
+        "Mount/Dismount: Allows use of Mount and Dismount commands."
+      ],
+      "mastery": {
+        "ability": "Offense Basics",
+        "description": "Grants Str/Mag +1.",
+        "requires": "Fill the Class EXP gauge by fighting in this class; exact threshold not documented. Once mastered, the ability is a permanent equippable passive in any class (Abilities tab); infantry-only or mounted-only abilities switch off in the wrong movement type."
+      },
+      "notes": "Cai auto-classes into it in Ch 5 (local research). Rides an ornius; Fandom says it can hop some obstacles. A pre-release tier list called it a flier; every mechanical source treats it as cavalry. fortunesweave.co.uk marks this page unverified.",
+      "sources": [
+        "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/624051",
+        "https://fortunesweave.co.uk/classes/ornius-rider"
+      ]
+    },
+    {
+      "name": "Diviner",
+      "tier": "Beginner",
+      "part": "I",
+      "requirements": {
+        "renown": 1,
+        "level": 5,
+        "ranks": [
+          "White Magic D",
+          "Black Magic D"
+        ],
+        "license": "Beginner License",
+        "restrictions": null
+      },
+      "unlock": null,
+      "movement": "infantry",
+      "mov": 4,
+      "stats": {
+        "HP": 0,
+        "Str": 0,
+        "Mag": 1,
+        "Spd": 0,
+        "Dex": 0,
+        "Def": 0,
+        "Res": 1,
+        "Lck": 0,
+        "Cha": 0
+      },
+      "growth_mods": {
+        "HP": 5,
+        "Str": -5,
+        "Mag": 15,
+        "Spd": 0,
+        "Dex": 5,
+        "Def": -5,
+        "Res": 10,
+        "Lck": 0,
+        "Cha": 0
+      },
+      "weapons": [
+        "Sword",
+        "Gauntlet",
+        "Axe",
+        "White Magic",
+        "Black Magic"
+      ],
+      "trains": [
+        "Black Magic +1",
+        "White Magic +1"
+      ],
+      "skills": [],
+      "mastery": {
+        "ability": "Magic Basics",
+        "description": "Grants Mag/Res+1",
+        "requires": "Fill the Class EXP gauge by fighting in this class; exact threshold not documented. Once mastered, the ability is a permanent equippable passive in any class (Abilities tab); infantry-only or mounted-only abilities switch off in the wrong movement type."
+      },
+      "notes": null,
+      "sources": [
+        "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/624050",
+        "https://fortunesweave.co.uk/classes/diviner"
+      ]
+    },
+    {
+      "name": "Myrmidon",
+      "tier": "Specialty",
+      "part": "I",
+      "requirements": {
+        "renown": 4,
+        "level": 20,
+        "ranks": [
+          "Sword C"
+        ],
+        "license": "Specialty License",
+        "restrictions": null
+      },
+      "unlock": null,
+      "movement": "infantry",
+      "mov": 5,
+      "stats": {
+        "HP": 1,
+        "Str": 0,
+        "Mag": 0,
+        "Spd": 2,
+        "Dex": 0,
+        "Def": 0,
+        "Res": -1,
+        "Lck": 0,
+        "Cha": 0
+      },
+      "growth_mods": {
+        "HP": 10,
+        "Str": 0,
+        "Mag": 0,
+        "Spd": 15,
+        "Dex": 10,
+        "Def": 0,
+        "Res": 0,
+        "Lck": 5,
+        "Cha": 5
+      },
+      "weapons": [
+        "Spear",
+        "Sword"
+      ],
+      "trains": [
+        "Sword +2",
+        "Infantry +1"
+      ],
+      "skills": [
+        "Combat Arts +1: Unit can equip +1 combat arts.",
+        "Sword Crit +3: When equipped with a sword, grants Crit +3."
+      ],
+      "mastery": {
+        "ability": "Ravaging Arts",
+        "description": "If unit makes a critical, deal +6 damage.",
+        "requires": "Fill the Class EXP gauge by fighting in this class; exact threshold not documented. Once mastered, the ability is a permanent equippable passive in any class (Abilities tab); infantry-only or mounted-only abilities switch off in the wrong movement type."
+      },
+      "notes": null,
+      "sources": [
+        "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/624044",
+        "https://fortunesweave.co.uk/classes/myrmidon"
+      ]
+    },
+    {
+      "name": "Brigand",
+      "tier": "Specialty",
+      "part": "I",
+      "requirements": {
+        "renown": 4,
+        "level": 20,
+        "ranks": [
+          "Axe C",
+          "Sword C"
+        ],
+        "license": "Specialty License",
+        "restrictions": null
+      },
+      "unlock": null,
+      "movement": "infantry",
+      "mov": 5,
+      "stats": {
+        "HP": 3,
+        "Str": 2,
+        "Mag": 0,
+        "Spd": 0,
+        "Dex": 0,
+        "Def": 1,
+        "Res": -1,
+        "Lck": 0,
+        "Cha": 0
+      },
+      "growth_mods": {
+        "HP": 15,
+        "Str": 15,
+        "Mag": -5,
+        "Spd": 5,
+        "Dex": 0,
+        "Def": 5,
+        "Res": 0,
+        "Lck": 0,
+        "Cha": 5
+      },
+      "weapons": [
+        "Sword",
+        "Gauntlet",
+        "Axe"
+      ],
+      "trains": [
+        "Axe +2"
+      ],
+      "skills": [
+        "Combat Arts +1: Unit can equip +1 combat arts.",
+        "Axe Hit +3: When equipped with an axe, grants Hit +3."
+      ],
+      "mastery": {
+        "ability": "Regroup",
+        "description": "When foe avoids an attack, grants Avo +20 to unit during combat.",
+        "requires": "Fill the Class EXP gauge by fighting in this class; exact threshold not documented. Once mastered, the ability is a permanent equippable passive in any class (Abilities tab); infantry-only or mounted-only abilities switch off in the wrong movement type."
+      },
+      "notes": "Game8 Skill EXP lists only Axe +2.",
+      "sources": [
+        "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/624048",
+        "https://fortunesweave.co.uk/classes/brigand"
+      ]
+    },
+    {
+      "name": "Pugilist",
+      "tier": "Specialty",
+      "part": "I",
+      "requirements": {
+        "renown": 4,
+        "level": 20,
+        "ranks": [
+          "Gauntlet C"
+        ],
+        "license": "Specialty License",
+        "restrictions": null
+      },
+      "unlock": null,
+      "movement": "infantry",
+      "mov": 5,
+      "stats": {
+        "HP": 2,
+        "Str": 1,
+        "Mag": 0,
+        "Spd": 1,
+        "Dex": 0,
+        "Def": 2,
+        "Res": -1,
+        "Lck": 0,
+        "Cha": 0
+      },
+      "growth_mods": {
+        "HP": 15,
+        "Str": 10,
+        "Mag": -5,
+        "Spd": 10,
+        "Dex": 5,
+        "Def": 10,
+        "Res": 0,
+        "Lck": 0,
+        "Cha": 5
+      },
+      "weapons": [
+        "Gauntlet"
+      ],
+      "trains": [
+        "Gauntlet +2",
+        "Infantry +2"
+      ],
+      "skills": [
+        "Combat Arts +1: Unit can equip +1 combat arts.",
+        "Brawl Avo +3: When equipped with gauntlets, grants Avo +3."
+      ],
+      "mastery": {
+        "ability": "Attack, Get Back",
+        "description": "When using a combat art, grants Avo +10 during combat.",
+        "requires": "Fill the Class EXP gauge by fighting in this class; exact threshold not documented. Once mastered, the ability is a permanent equippable passive in any class (Abilities tab); infantry-only or mounted-only abilities switch off in the wrong movement type."
+      },
+      "notes": null,
+      "sources": [
+        "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/624029",
+        "https://fortunesweave.co.uk/classes/pugilist"
+      ]
+    },
+    {
+      "name": "Archer",
+      "tier": "Specialty",
+      "part": "I",
+      "requirements": {
+        "renown": 4,
+        "level": 20,
+        "ranks": [
+          "Bow C"
+        ],
+        "license": "Specialty License",
+        "restrictions": null
+      },
+      "unlock": null,
+      "movement": "infantry",
+      "mov": 5,
+      "stats": {
+        "HP": 0,
+        "Str": 0,
+        "Mag": 0,
+        "Spd": 2,
+        "Dex": 2,
+        "Def": 1,
+        "Res": 0,
+        "Lck": 0,
+        "Cha": 0
+      },
+      "growth_mods": {
+        "HP": 10,
+        "Str": 5,
+        "Mag": 0,
+        "Spd": 10,
+        "Dex": 10,
+        "Def": 5,
+        "Res": 0,
+        "Lck": 5,
+        "Cha": 5
+      },
+      "weapons": [
+        "Bow"
+      ],
+      "trains": [
+        "Bow +2",
+        "Infantry +1"
+      ],
+      "skills": [
+        "Combat Arts +1: Unit can equip +1 combat arts.",
+        "Bow Hit +5: When equipped with a bow, grants Hit +5."
+      ],
+      "mastery": {
+        "ability": "Crescendo",
+        "description": "After defeating a foe, grants Hit +3 until the end of the map. (Max +30)",
+        "requires": "Fill the Class EXP gauge by fighting in this class; exact threshold not documented. Once mastered, the ability is a permanent equippable passive in any class (Abilities tab); infantry-only or mounted-only abilities switch off in the wrong movement type."
+      },
+      "notes": null,
+      "sources": [
+        "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/624046",
+        "https://fortunesweave.co.uk/classes/archer"
+      ]
+    },
+    {
+      "name": "Rogue",
+      "tier": "Specialty",
+      "part": "I",
+      "requirements": {
+        "renown": 4,
+        "level": 20,
+        "ranks": [
+          "Bow C",
+          "Sword C"
+        ],
+        "license": "Specialty License",
+        "restrictions": null
+      },
+      "unlock": null,
+      "movement": "infantry",
+      "mov": 6,
+      "stats": {
+        "HP": 0,
+        "Str": 0,
+        "Mag": 0,
+        "Spd": 3,
+        "Dex": 1,
+        "Def": 0,
+        "Res": 1,
+        "Lck": 1,
+        "Cha": -1
+      },
+      "growth_mods": {
+        "HP": 10,
+        "Str": 0,
+        "Mag": 0,
+        "Spd": 15,
+        "Dex": 10,
+        "Def": 0,
+        "Res": 5,
+        "Lck": 5,
+        "Cha": 0
+      },
+      "weapons": [
+        "Bow",
+        "Sword"
+      ],
+      "trains": [
+        "Sword +1",
+        "Bow +1",
+        "Infantry +2"
+      ],
+      "skills": [
+        "Combat Arts +1: Unit can equip +1 combat arts.",
+        "Locktouch: Allows the opening of chests even without keys.",
+        "Search: Search results are more likely to be perfect."
+      ],
+      "mastery": {
+        "ability": "In Shadow",
+        "description": "After defeating a foe, grants Avo +10 through unit's next combat.",
+        "requires": "Fill the Class EXP gauge by fighting in this class; exact threshold not documented. Once mastered, the ability is a permanent equippable passive in any class (Abilities tab); infantry-only or mounted-only abilities switch off in the wrong movement type."
+      },
+      "notes": null,
+      "sources": [
+        "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/624043",
+        "https://fortunesweave.co.uk/classes/rogue"
+      ]
+    },
+    {
+      "name": "Armored Knight",
+      "tier": "Specialty",
+      "part": "I",
+      "requirements": {
+        "renown": 4,
+        "level": 20,
+        "ranks": [
+          "Heavy Armor E+",
+          "Axe C",
+          "Spear C"
+        ],
+        "license": "Specialty License",
+        "restrictions": null
+      },
+      "unlock": null,
+      "movement": "armored",
+      "mov": 4,
+      "stats": {
+        "HP": 2,
+        "Str": 1,
+        "Mag": 0,
+        "Spd": -2,
+        "Dex": 0,
+        "Def": 4,
+        "Res": 0,
+        "Lck": 0,
+        "Cha": 0
+      },
+      "growth_mods": {
+        "HP": 10,
+        "Str": 10,
+        "Mag": -5,
+        "Spd": -5,
+        "Dex": 5,
+        "Def": 25,
+        "Res": -5,
+        "Lck": 0,
+        "Cha": 5
+      },
+      "weapons": [
+        "Spear",
+        "Sword",
+        "Axe"
+      ],
+      "trains": [
+        "Spear +1",
+        "Axe +1",
+        "Armor +2"
+      ],
+      "skills": [
+        "Strike-Last Def +3: If foe attacks first, grants Prt +3 to unit during combat.",
+        "Combat Arts +1: Unit can equip +1 combat arts."
+      ],
+      "mastery": {
+        "ability": "Great Counter",
+        "description": "If foe attacks first, grants Atk +3 to unit during combat.",
+        "requires": "Fill the Class EXP gauge by fighting in this class; exact threshold not documented. Once mastered, the ability is a permanent equippable passive in any class (Abilities tab); infantry-only or mounted-only abilities switch off in the wrong movement type."
+      },
+      "notes": "Skill EXP 'Armor +2' as printed by Game8 (read as Heavy Armor).",
+      "sources": [
+        "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/624049",
+        "https://fortunesweave.co.uk/classes/armored-knight"
+      ]
+    },
+    {
+      "name": "Light Cavalry",
+      "tier": "Specialty",
+      "part": "I",
+      "requirements": {
+        "renown": 4,
+        "level": 20,
+        "ranks": [
+          "Riding D",
+          "Spear C",
+          "Sword C"
+        ],
+        "license": "Specialty License",
+        "restrictions": "Heavyweight units (Goliath's Heavyweight Class ability) can't take cavalry or flying classes"
+      },
+      "unlock": null,
+      "movement": "mounted",
+      "mov": 6,
+      "stats": {
+        "HP": 1,
+        "Str": 1,
+        "Mag": 0,
+        "Spd": 1,
+        "Dex": 0,
+        "Def": 2,
+        "Res": 0,
+        "Lck": 0,
+        "Cha": 1
+      },
+      "growth_mods": {
+        "HP": 10,
+        "Str": 5,
+        "Mag": -5,
+        "Spd": 5,
+        "Dex": 0,
+        "Def": 5,
+        "Res": 0,
+        "Lck": 5,
+        "Cha": 10
+      },
+      "weapons": [
+        "Spear",
+        "Sword",
+        "Axe"
+      ],
+      "trains": [
+        "Spear +1",
+        "Riding +2"
+      ],
+      "skills": [
+        "Mount/Dismount: Allows use of Mount and Dismount commands."
+      ],
+      "mastery": {
+        "ability": "Bolster Health",
+        "description": "Grants max HP +3.",
+        "requires": "Fill the Class EXP gauge by fighting in this class; exact threshold not documented. Once mastered, the ability is a permanent equippable passive in any class (Abilities tab); infantry-only or mounted-only abilities switch off in the wrong movement type."
+      },
+      "notes": null,
+      "sources": [
+        "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/624045",
+        "https://fortunesweave.co.uk/classes/light-cavalry"
+      ]
+    },
+    {
+      "name": "Charioteer",
+      "tier": "Specialty",
+      "part": "I",
+      "requirements": {
+        "renown": 4,
+        "level": 20,
+        "ranks": [
+          "Riding D",
+          "Bow C"
+        ],
+        "license": "Specialty License",
+        "restrictions": "Heavyweight units (Goliath's Heavyweight Class ability) can't take cavalry or flying classes"
+      },
+      "unlock": null,
+      "movement": "mounted",
+      "mov": 6,
+      "stats": {
+        "HP": 3,
+        "Str": 1,
+        "Mag": 0,
+        "Spd": -2,
+        "Dex": 3,
+        "Def": 3,
+        "Res": 0,
+        "Lck": 0,
+        "Cha": 1
+      },
+      "growth_mods": {
+        "HP": 10,
+        "Str": 5,
+        "Mag": -5,
+        "Spd": -5,
+        "Dex": 15,
+        "Def": 10,
+        "Res": 0,
+        "Lck": 5,
+        "Cha": 10
+      },
+      "weapons": [
+        "Bow"
+      ],
+      "trains": [
+        "Bow +2",
+        "Riding +1"
+      ],
+      "skills": [
+        "Chariot Armor: Grants Shield +5. Unit cannot avoid attacks.",
+        "Charioteer Tactics: Allows use of the Mount and Dismount commands. (Cavalry) Allows use of the Charge command.",
+        "Charioteer's Path: Unit's growth rate increases with level."
+      ],
+      "mastery": {
+        "ability": "Charger",
+        "description": "When using Charge, grants Prt +10 until unit's next phase.",
+        "requires": "Fill the Class EXP gauge by fighting in this class; exact threshold not documented. Once mastered, the ability is a permanent equippable passive in any class (Abilities tab); infantry-only or mounted-only abilities switch off in the wrong movement type."
+      },
+      "notes": "Rides a two-horse chariot. Chariot Armor: Shield +5 but can't avoid attacks. Charge command; Fandom says 5 Charge uses per map. Charioteer's Path: growth rate increases with level. AllThings.How lists it as infantry; Game8 says Cavalry.",
+      "sources": [
+        "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/624047",
+        "https://fortunesweave.co.uk/classes/charioteer"
+      ]
+    },
+    {
+      "name": "Armored Ornius Rider",
+      "tier": "Specialty",
+      "part": "I",
+      "requirements": {
+        "renown": 4,
+        "level": 20,
+        "ranks": [
+          "Riding D",
+          "Axe C",
+          "Spear C"
+        ],
+        "license": "Specialty License",
+        "restrictions": "Heavyweight units (Goliath's Heavyweight Class ability) can't take cavalry or flying classes"
+      },
+      "unlock": null,
+      "movement": "mounted",
+      "mov": 7,
+      "stats": {
+        "HP": 1,
+        "Str": 0,
+        "Mag": 0,
+        "Spd": 2,
+        "Dex": 0,
+        "Def": 2,
+        "Res": 0,
+        "Lck": 0,
+        "Cha": 0
+      },
+      "growth_mods": {
+        "HP": 10,
+        "Str": 0,
+        "Mag": -5,
+        "Spd": 10,
+        "Dex": 5,
+        "Def": 10,
+        "Res": 0,
+        "Lck": 5,
+        "Cha": 5
+      },
+      "weapons": [
+        "Spear",
+        "Sword",
+        "Axe"
+      ],
+      "trains": [
+        "Gauntlet +1",
+        "Black Magic +1",
+        "White Magic +2"
+      ],
+      "skills": [
+        "Mount/Dismount: Allows use of Mount and Dismount commands."
+      ],
+      "mastery": {
+        "ability": "Sense Threat",
+        "description": "If foe is effective against unit, grants Avo +20 to unit during combat.",
+        "requires": "Fill the Class EXP gauge by fighting in this class; exact threshold not documented. Once mastered, the ability is a permanent equippable passive in any class (Abilities tab); infantry-only or mounted-only abilities switch off in the wrong movement type."
+      },
+      "notes": "CONFLICT/SUSPECT: Game8 and Fextralife both print Skill EXP 'Gauntlet +1, Black Magic +1, White Magic +2', which matches Priest and looks swapped with Shaman's entry. Fextralife lists compatible skills Axe, Flying, Riding, Spear, Sword. Treat trains as unreliable.",
+      "sources": [
+        "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/624041",
+        "https://fortunesweave.co.uk/classes/armored-ornius-rider",
+        "https://fortunesweave.wiki.fextralife.com/Armored_Ornius_Rider"
+      ]
+    },
+    {
+      "name": "Wing Soldier",
+      "tier": "Specialty",
+      "part": "I",
+      "requirements": {
+        "renown": 4,
+        "level": 20,
+        "ranks": [
+          "Flying D",
+          "Spear C",
+          "Sword C"
+        ],
+        "license": "Specialty License",
+        "restrictions": "Female only. Heavyweight units (Goliath's Heavyweight Class ability) can't take cavalry or flying classes"
+      },
+      "unlock": null,
+      "movement": "flier",
+      "mov": 6,
+      "stats": {
+        "HP": 0,
+        "Str": 0,
+        "Mag": 0,
+        "Spd": 4,
+        "Dex": 1,
+        "Def": 1,
+        "Res": 2,
+        "Lck": 0,
+        "Cha": 1
+      },
+      "growth_mods": {
+        "HP": 10,
+        "Str": 0,
+        "Mag": 5,
+        "Spd": 0,
+        "Dex": 5,
+        "Def": 5,
+        "Res": 5,
+        "Lck": 5,
+        "Cha": 10
+      },
+      "weapons": [
+        "Spear",
+        "Sword"
+      ],
+      "trains": [
+        "Sword +1",
+        "Spear +1",
+        "Flying +2"
+      ],
+      "skills": [
+        "Mount/Dismount: Allows use of Mount and Dismount commands."
+      ],
+      "mastery": {
+        "ability": "Protecting Wings",
+        "description": "Grants Res +3.",
+        "requires": "Fill the Class EXP gauge by fighting in this class; exact threshold not documented. Once mastered, the ability is a permanent equippable passive in any class (Abilities tab); infantry-only or mounted-only abilities switch off in the wrong movement type."
+      },
+      "notes": "Female-only per TheGamer, Pocket Tactics, Readdork and fortunesweave.co.uk; Fextralife notes no restriction. An older fortunesweave.co.uk data file mislabelled movement as mounted; Game8 and Fextralife say Flier, Mov 6.",
+      "sources": [
+        "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/624038",
+        "https://fortunesweave.co.uk/classes/wing-soldier",
+        "https://www.thegamer.com/fire-emblem-fortunes-weave-how-to-change-class/",
+        "https://www.pockettactics.com/fire-emblem-fortunes-weave/classes",
+        "https://readdork.com/gaming/fire-emblem-fortunes-weave-classes-unlock-mastery-skills-6dc0eb592a",
+        "https://fortunesweave.wiki.fextralife.com/Wing_Soldier"
+      ]
+    },
+    {
+      "name": "Priest",
+      "tier": "Specialty",
+      "part": "I",
+      "requirements": {
+        "renown": 4,
+        "level": 20,
+        "ranks": [
+          "White Magic C"
+        ],
+        "license": "Specialty License",
+        "restrictions": null
+      },
+      "unlock": null,
+      "movement": "infantry",
+      "mov": 6,
+      "stats": {
+        "HP": 0,
+        "Str": 0,
+        "Mag": 1,
+        "Spd": 0,
+        "Dex": 0,
+        "Def": 0,
+        "Res": 3,
+        "Lck": 2,
+        "Cha": 1
+      },
+      "growth_mods": {
+        "HP": 5,
+        "Str": -5,
+        "Mag": 10,
+        "Spd": 5,
+        "Dex": 5,
+        "Def": -10,
+        "Res": 15,
+        "Lck": 15,
+        "Cha": 10
+      },
+      "weapons": [
+        "Gauntlet",
+        "Axe",
+        "White Magic",
+        "Black Magic"
+      ],
+      "trains": [
+        "Gauntlet +1",
+        "Black Magic +1",
+        "White Magic +2"
+      ],
+      "skills": [
+        "White-Magic Seeker: Multiplies white magic uses by 2.",
+        "Magic Heal +5: When healing an ally with magic, restores +5 HP."
+      ],
+      "mastery": {
+        "ability": "Piety",
+        "description": "Grants Lck +3.",
+        "requires": "Fill the Class EXP gauge by fighting in this class; exact threshold not documented. Once mastered, the ability is a permanent equippable passive in any class (Abilities tab); infantry-only or mounted-only abilities switch off in the wrong movement type."
+      },
+      "notes": null,
+      "sources": [
+        "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/624039",
+        "https://fortunesweave.co.uk/classes/priest"
+      ]
+    },
+    {
+      "name": "Shaman",
+      "tier": "Specialty",
+      "part": "I",
+      "requirements": {
+        "renown": 4,
+        "level": 20,
+        "ranks": [
+          "Black Magic C"
+        ],
+        "license": "Specialty License",
+        "restrictions": null
+      },
+      "unlock": null,
+      "movement": "infantry",
+      "mov": 6,
+      "stats": {
+        "HP": 0,
+        "Str": 0,
+        "Mag": 2,
+        "Spd": 1,
+        "Dex": 1,
+        "Def": 0,
+        "Res": 2,
+        "Lck": 0,
+        "Cha": -1
+      },
+      "growth_mods": {
+        "HP": 5,
+        "Str": -5,
+        "Mag": 15,
+        "Spd": 10,
+        "Dex": 10,
+        "Def": -10,
+        "Res": 10,
+        "Lck": 10,
+        "Cha": 0
+      },
+      "weapons": [
+        "Sword",
+        "Gauntlet",
+        "White Magic",
+        "Black Magic"
+      ],
+      "trains": [
+        "Spear +1",
+        "Axe +1",
+        "Riding +1",
+        "Flying +1"
+      ],
+      "skills": [
+        "Black-Magic Seeker: Multiplies black magic uses by 2.",
+        "Magic Hit +3: When equipped with magic, grants Hit +3."
+      ],
+      "mastery": {
+        "ability": "Bind Dexterity",
+        "description": "Inflicts Dex-3 on adjacent foes.",
+        "requires": "Fill the Class EXP gauge by fighting in this class; exact threshold not documented. Once mastered, the ability is a permanent equippable passive in any class (Abilities tab); infantry-only or mounted-only abilities switch off in the wrong movement type."
+      },
+      "notes": "CONFLICT/SUSPECT: Game8 and Fextralife both print Skill EXP 'Spear +1, Axe +1, Riding +1, Flying +1', which does not fit a Black Magic class and looks swapped with Armored Ornius Rider. Treat trains as unreliable.",
+      "sources": [
+        "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/624042",
+        "https://fortunesweave.co.uk/classes/shaman",
+        "https://fortunesweave.wiki.fextralife.com/Shaman"
+      ]
+    },
+    {
+      "name": "Shido",
+      "tier": "Advanced",
+      "part": "I",
+      "requirements": {
+        "renown": 8,
+        "level": 35,
+        "ranks": [
+          "Sword B"
+        ],
+        "license": "Advanced License",
+        "restrictions": null
+      },
+      "unlock": null,
+      "movement": "infantry",
+      "mov": 6,
+      "stats": {
+        "HP": 3,
+        "Str": 0,
+        "Mag": 0,
+        "Spd": 7,
+        "Dex": 3,
+        "Def": 0,
+        "Res": 0,
+        "Lck": 0,
+        "Cha": 0
+      },
+      "growth_mods": {
+        "HP": 10,
+        "Str": 5,
+        "Mag": 0,
+        "Spd": 15,
+        "Dex": 10,
+        "Def": 0,
+        "Res": -5,
+        "Lck": 5,
+        "Cha": 5
+      },
+      "weapons": [
+        "Spear",
+        "Sword"
+      ],
+      "trains": [
+        "Sword +3",
+        "Spear +1",
+        "Infantry +2"
+      ],
+      "skills": [
+        "Combat Arts +2: Unit can equip +2 combat arts.",
+        "Sword Crit +5: When equipped with a sword, grants Crit +5."
+      ],
+      "mastery": {
+        "ability": "Ever Vigilant",
+        "description": "After defeating a foe with a critical attack, restores a little HP to unit.",
+        "requires": "Fill the Class EXP gauge by fighting in this class; exact threshold not documented. Once mastered, the ability is a permanent equippable passive in any class (Abilities tab); infantry-only or mounted-only abilities switch off in the wrong movement type."
+      },
+      "notes": null,
+      "sources": [
+        "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/624030",
+        "https://fortunesweave.co.uk/classes/shido"
+      ]
+    },
+    {
+      "name": "Warrior",
+      "tier": "Advanced",
+      "part": "I",
+      "requirements": {
+        "renown": 8,
+        "level": 35,
+        "ranks": [
+          "Gauntlet B",
+          "Axe B",
+          "Sword B"
+        ],
+        "license": "Advanced License",
+        "restrictions": null
+      },
+      "unlock": null,
+      "movement": "infantry",
+      "mov": 6,
+      "stats": {
+        "HP": 4,
+        "Str": 4,
+        "Mag": 0,
+        "Spd": 1,
+        "Dex": 0,
+        "Def": 0,
+        "Res": 0,
+        "Lck": 0,
+        "Cha": 0
+      },
+      "growth_mods": {
+        "HP": 20,
+        "Str": 20,
+        "Mag": -5,
+        "Spd": 0,
+        "Dex": 0,
+        "Def": 5,
+        "Res": -5,
+        "Lck": 0,
+        "Cha": 5
+      },
+      "weapons": [
+        "Sword",
+        "Gauntlet",
+        "Axe"
+      ],
+      "trains": [
+        "Sword +2",
+        "Axe +3",
+        "Gauntlet +2",
+        "Infantry +1"
+      ],
+      "skills": [
+        "Combat Arts +2: Unit can equip +2 combat arts.",
+        "Axe Hit +5: When equipped with an axe, grants Hit +5.",
+        "Brawl Hit +5: When equipped with gauntlets, grants Hit +5."
+      ],
+      "mastery": {
+        "ability": "Practiced Art",
+        "description": "Hit +10 when attacking with a combat art (AllThings.How and a community video agree; Game8 still TBD).",
+        "requires": "Fill the Class EXP gauge by fighting in this class; exact threshold not documented. Once mastered, the ability is a permanent equippable passive in any class (Abilities tab); infantry-only or mounted-only abilities switch off in the wrong movement type."
+      },
+      "notes": "Practiced Art: two sources (AllThings.How, community video, Oct 13); Game8 and fortunesweave.co.uk list it as TBD.",
+      "sources": [
+        "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/624037",
+        "https://fortunesweave.co.uk/classes/warrior",
+        "https://allthings.how/fire-emblem-fortune-s-weave-class-guide-all-tiers-and-masteries/"
+      ]
+    },
+    {
+      "name": "Sniper",
+      "tier": "Advanced",
+      "part": "I",
+      "requirements": {
+        "renown": 8,
+        "level": 35,
+        "ranks": [
+          "Bow B"
+        ],
+        "license": "Advanced License",
+        "restrictions": null
+      },
+      "unlock": null,
+      "movement": "infantry",
+      "mov": 6,
+      "stats": {
+        "HP": 1,
+        "Str": 0,
+        "Mag": 0,
+        "Spd": 5,
+        "Dex": 5,
+        "Def": 0,
+        "Res": 0,
+        "Lck": 0,
+        "Cha": 0
+      },
+      "growth_mods": {
+        "HP": 10,
+        "Str": 5,
+        "Mag": 0,
+        "Spd": 10,
+        "Dex": 20,
+        "Def": 5,
+        "Res": 5,
+        "Lck": 5,
+        "Cha": 5
+      },
+      "weapons": [
+        "Bow"
+      ],
+      "trains": [
+        "Bow +3",
+        "Infantry +1"
+      ],
+      "skills": [
+        "Combat Arts +2: Unit can equip +2 combat arts.",
+        "Bow Hit +10: When equipped with a bow, grants Hit +10."
+      ],
+      "mastery": {
+        "ability": "Marksmanship",
+        "description": "When equipped with a bow, grants Hit +15.",
+        "requires": "Fill the Class EXP gauge by fighting in this class; exact threshold not documented. Once mastered, the ability is a permanent equippable passive in any class (Abilities tab); infantry-only or mounted-only abilities switch off in the wrong movement type."
+      },
+      "notes": null,
+      "sources": [
+        "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/624036",
+        "https://fortunesweave.co.uk/classes/sniper"
+      ]
+    },
+    {
+      "name": "Forest Knight",
+      "tier": "Advanced",
+      "part": "I",
+      "requirements": {
+        "renown": 8,
+        "level": 35,
+        "ranks": [
+          "Riding D",
+          "Bow B"
+        ],
+        "license": "Advanced License",
+        "restrictions": "Heavyweight units (Goliath's Heavyweight Class ability) can't take cavalry or flying classes"
+      },
+      "unlock": null,
+      "movement": "mounted",
+      "mov": 7,
+      "stats": {
+        "HP": 1,
+        "Str": 0,
+        "Mag": 0,
+        "Spd": 5,
+        "Dex": 2,
+        "Def": 1,
+        "Res": 0,
+        "Lck": 0,
+        "Cha": 0
+      },
+      "growth_mods": {
+        "HP": 10,
+        "Str": 5,
+        "Mag": 0,
+        "Spd": 10,
+        "Dex": 10,
+        "Def": 5,
+        "Res": 5,
+        "Lck": 5,
+        "Cha": 5
+      },
+      "weapons": [
+        "Bow",
+        "Sword"
+      ],
+      "trains": [
+        "Sword +1",
+        "Bow +2",
+        "Riding +2"
+      ],
+      "skills": [
+        "Mount/Dismount: Allows use of Mount and Dismount commands.",
+        "Combat Arts +1: Unit can equip +1 combat arts.",
+        "Bow Hit +5: When equipped with a bow, grants Hit +5."
+      ],
+      "mastery": {
+        "ability": "Hunter's Eye",
+        "description": "When equipped with a bow, grants Atk +3 when making a follow-up.",
+        "requires": "Fill the Class EXP gauge by fighting in this class; exact threshold not documented. Once mastered, the ability is a permanent equippable passive in any class (Abilities tab); infantry-only or mounted-only abilities switch off in the wrong movement type."
+      },
+      "notes": null,
+      "sources": [
+        "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/624035",
+        "https://fortunesweave.co.uk/classes/forest-knight"
+      ]
+    },
+    {
+      "name": "Dreadnought",
+      "tier": "Advanced",
+      "part": "I",
+      "requirements": {
+        "renown": 8,
+        "level": 35,
+        "ranks": [
+          "Heavy Armor D",
+          "Axe B",
+          "Spear B"
+        ],
+        "license": "Advanced License",
+        "restrictions": null
+      },
+      "unlock": null,
+      "movement": "armored",
+      "mov": 4,
+      "stats": {
+        "HP": 5,
+        "Str": 3,
+        "Mag": 0,
+        "Spd": -5,
+        "Dex": 0,
+        "Def": 9,
+        "Res": -1,
+        "Lck": 0,
+        "Cha": 0
+      },
+      "growth_mods": {
+        "HP": 15,
+        "Str": 15,
+        "Mag": -5,
+        "Spd": -10,
+        "Dex": 5,
+        "Def": 30,
+        "Res": -10,
+        "Lck": 0,
+        "Cha": 5
+      },
+      "weapons": [
+        "Spear",
+        "Axe"
+      ],
+      "trains": [
+        "Spear +2",
+        "Axe +2",
+        "Infantry +1",
+        "Heavy Armor +3"
+      ],
+      "skills": [
+        "Strike-Last Def +5: If foe attacks first, grants Prt +5 to unit during combat.",
+        "Combat Arts +2: Unit can equip +2 combat arts."
+      ],
+      "mastery": {
+        "ability": "Focused Counter",
+        "description": "If foe attacks first, grants Hit +10 to unit during combat.",
+        "requires": "Fill the Class EXP gauge by fighting in this class; exact threshold not documented. Once mastered, the ability is a permanent equippable passive in any class (Abilities tab); infantry-only or mounted-only abilities switch off in the wrong movement type."
+      },
+      "notes": null,
+      "sources": [
+        "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/624034",
+        "https://fortunesweave.co.uk/classes/dreadnought"
+      ]
+    },
+    {
+      "name": "Bardinger",
+      "tier": "Advanced",
+      "part": "I",
+      "requirements": {
+        "renown": 8,
+        "level": 35,
+        "ranks": [
+          "Riding C",
+          "Spear C",
+          "Sword B"
+        ],
+        "license": "Advanced License",
+        "restrictions": "Heavyweight units (Goliath's Heavyweight Class ability) can't take cavalry or flying classes"
+      },
+      "unlock": null,
+      "movement": "mounted",
+      "mov": 6,
+      "stats": {
+        "HP": 3,
+        "Str": 0,
+        "Mag": 0,
+        "Spd": 1,
+        "Dex": 0,
+        "Def": 1,
+        "Res": 0,
+        "Lck": 0,
+        "Cha": 3
+      },
+      "growth_mods": {
+        "HP": 10,
+        "Str": 10,
+        "Mag": -5,
+        "Spd": 0,
+        "Dex": 0,
+        "Def": 5,
+        "Res": 10,
+        "Lck": 5,
+        "Cha": 10
+      },
+      "weapons": [
+        "Spear",
+        "Sword",
+        "Axe"
+      ],
+      "trains": [
+        "Sword +2",
+        "Spear +2",
+        "Axe +1",
+        "Riding +3"
+      ],
+      "skills": [
+        "Combat Arts +2: Unit can equip +2 combat arts.",
+        "Mount/Dismount: Allows use of Mount and Dismount commands."
+      ],
+      "mastery": {
+        "ability": "Aegis",
+        "description": "Unit takes half damage when attacked with a magical attack. Trigger % = 20.",
+        "requires": "Fill the Class EXP gauge by fighting in this class; exact threshold not documented. Once mastered, the ability is a permanent equippable passive in any class (Abilities tab); infantry-only or mounted-only abilities switch off in the wrong movement type."
+      },
+      "notes": "AllThings.How lists it as infantry; Game8 and fortunesweave.co.uk say mounted (Mov 6).",
+      "sources": [
+        "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/624033",
+        "https://fortunesweave.co.uk/classes/bardinger"
+      ]
+    },
+    {
+      "name": "Ovate",
+      "tier": "Advanced",
+      "part": "I",
+      "requirements": {
+        "renown": 8,
+        "level": 35,
+        "ranks": [
+          "Black Magic B"
+        ],
+        "license": "Advanced License",
+        "restrictions": null
+      },
+      "unlock": null,
+      "movement": "infantry",
+      "mov": 5,
+      "stats": {
+        "HP": 1,
+        "Str": 0,
+        "Mag": 4,
+        "Spd": 3,
+        "Dex": 4,
+        "Def": 0,
+        "Res": 4,
+        "Lck": 0,
+        "Cha": -1
+      },
+      "growth_mods": {
+        "HP": 10,
+        "Str": -5,
+        "Mag": 20,
+        "Spd": 5,
+        "Dex": 15,
+        "Def": -10,
+        "Res": 15,
+        "Lck": 10,
+        "Cha": 0
+      },
+      "weapons": [
+        "Sword",
+        "Gauntlet",
+        "White Magic",
+        "Black Magic"
+      ],
+      "trains": [
+        "Sword +2",
+        "Gauntlet +1",
+        "Black Magic +3",
+        "White Magic +1",
+        "Infantry +1"
+      ],
+      "skills": [
+        "Black-Magic Seeker: Multiplies black magic uses by 2.",
+        "Magic Hit +5: When equipped with magic, grants Hit +5."
+      ],
+      "mastery": {
+        "ability": "Bind Speed",
+        "description": "Inflict Spd -3 on adjacent foes.",
+        "requires": "Fill the Class EXP gauge by fighting in this class; exact threshold not documented. Once mastered, the ability is a permanent equippable passive in any class (Abilities tab); infantry-only or mounted-only abilities switch off in the wrong movement type."
+      },
+      "notes": null,
+      "sources": [
+        "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/624032",
+        "https://fortunesweave.co.uk/classes/ovate"
+      ]
+    },
+    {
+      "name": "Bishop",
+      "tier": "Advanced",
+      "part": "I",
+      "requirements": {
+        "renown": 8,
+        "level": 35,
+        "ranks": [
+          "White Magic B"
+        ],
+        "license": "Advanced License",
+        "restrictions": null
+      },
+      "unlock": null,
+      "movement": "infantry",
+      "mov": 5,
+      "stats": {
+        "HP": 1,
+        "Str": 0,
+        "Mag": 3,
+        "Spd": 1,
+        "Dex": 0,
+        "Def": 0,
+        "Res": 5,
+        "Lck": 3,
+        "Cha": 3
+      },
+      "growth_mods": {
+        "HP": 10,
+        "Str": -5,
+        "Mag": 15,
+        "Spd": 0,
+        "Dex": 0,
+        "Def": -10,
+        "Res": 20,
+        "Lck": 20,
+        "Cha": 10
+      },
+      "weapons": [
+        "Gauntlet",
+        "Axe",
+        "White Magic",
+        "Black Magic"
+      ],
+      "trains": [
+        "Axe +1",
+        "Gauntlet +2",
+        "Black Magic +1",
+        "White Magic +3",
+        "Infantry +1"
+      ],
+      "skills": [
+        "White-Magic Seeker: Multiplies white magic uses by 2.",
+        "Magic Heal +10: When healing an ally with magic, restores +10 HP."
+      ],
+      "mastery": {
+        "ability": "Barrier",
+        "description": "Grants Res +3 to adjacent allies.",
+        "requires": "Fill the Class EXP gauge by fighting in this class; exact threshold not documented. Once mastered, the ability is a permanent equippable passive in any class (Abilities tab); infantry-only or mounted-only abilities switch off in the wrong movement type."
+      },
+      "notes": null,
+      "sources": [
+        "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/624031",
+        "https://fortunesweave.co.uk/classes/bishop"
+      ]
+    },
+    {
+      "name": "Guardian",
+      "tier": "Advanced",
+      "part": "I",
+      "requirements": {
+        "renown": 8,
+        "level": 35,
+        "ranks": [
+          "Spear B"
+        ],
+        "license": "Advanced License",
+        "restrictions": null
+      },
+      "unlock": "Dietrich: Ch 8 'Dread Warrior Challenge: Il-Lara' (Headhunter in Dagsion Midtown; Il-Lara, the Piercer at Dione Fort; Renown 6 per Game8; reward 10000G, 150 Renown, Hidden Windpierce; ends 11/27). OR Theodora: Ch 9 Send Supplies. RPG Site: 'Send Supplies: Kothar Gar' (deliver 10 Kothar Gar; 5500G, 325 Renown, unlocks Guardian). GameRant/Readdork: needs both 'Send Supplies: Roca' and 'Send Supplies: Kothar Gar'.",
+      "movement": "infantry",
+      "mov": 5,
+      "stats": {
+        "HP": 3,
+        "Str": 1,
+        "Mag": 0,
+        "Spd": 1,
+        "Dex": 0,
+        "Def": 3,
+        "Res": 4,
+        "Lck": 0,
+        "Cha": 0
+      },
+      "growth_mods": {
+        "HP": 10,
+        "Str": 10,
+        "Mag": 0,
+        "Spd": 0,
+        "Dex": 5,
+        "Def": 10,
+        "Res": 15,
+        "Lck": 5,
+        "Cha": 5
+      },
+      "weapons": [
+        "Spear",
+        "White Magic"
+      ],
+      "trains": [
+        "Spear +3",
+        "White Magic +1",
+        "Infantry +1"
+      ],
+      "skills": [
+        "Combat Arts +2: Unit can equip +2 combat arts.",
+        "Magic Heal +10: When healing an ally with magic, restores +10 HP."
+      ],
+      "mastery": {
+        "ability": "Brace",
+        "description": "After defeating a foe, grants Prt +3 until unit's next phase.",
+        "requires": "Fill the Class EXP gauge by fighting in this class; exact threshold not documented. Once mastered, the ability is a permanent equippable passive in any class (Abilities tab); infantry-only or mounted-only abilities switch off in the wrong movement type."
+      },
+      "notes": "Not obtainable on Cai's or Leda's route unless carried over from an earlier path. CONFLICT: RPG Site ties Theodora's unlock to Kothar Gar alone; GameRant says Roca and Kothar Gar. RPG Site's Roca item list looks like a copy error.",
+      "sources": [
+        "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/624254",
+        "https://fortunesweave.co.uk/classes/guardian",
+        "https://www.rpgsite.net/guide/21212-fire-emblem-fortunes-weave-part-i-dietrichs-path-walkthrough",
+        "https://www.rpgsite.net/guide/21211-fire-emblem-fortunes-weave-part-i-theodoras-path-walkthrough",
+        "https://gamerant.com/fire-emblem-fortunes-weave-how-to-unlock-all-classes/",
+        "https://readdork.com/gaming/fire-emblem-fortunes-weave-classes-unlock-mastery-skills-6dc0eb592a"
+      ]
+    },
+    {
+      "name": "Ranger",
+      "tier": "Advanced",
+      "part": "I",
+      "requirements": {
+        "renown": 8,
+        "level": 35,
+        "ranks": [
+          "Bow B",
+          "Sword B"
+        ],
+        "license": "Advanced License",
+        "restrictions": null
+      },
+      "unlock": "Dietrich: Ch 10 'Dread Warrior Challenge: Oko' (Iapetus Cavern; Renown 10 per Game8; reward 12000G, 150 Renown, Hidden Bladerule; ends 11/27). OR Leda: Ch 10 'Elegant Drink Recipes' (Tavern Owner, Dagsion; Renown 10; needs Wonder Leaves, which arrive in Ch 11; reward Song of Angels, 200 Renown, new drinks, unlocks Ranger and Troubadour; expires 11/17).",
+      "movement": "infantry",
+      "mov": 5,
+      "stats": {
+        "HP": 1,
+        "Str": 0,
+        "Mag": 0,
+        "Spd": 7,
+        "Dex": 4,
+        "Def": 0,
+        "Res": 1,
+        "Lck": 1,
+        "Cha": 1
+      },
+      "growth_mods": {
+        "HP": 10,
+        "Str": 5,
+        "Mag": 0,
+        "Spd": 15,
+        "Dex": 15,
+        "Def": 0,
+        "Res": 10,
+        "Lck": 15,
+        "Cha": 0
+      },
+      "weapons": [
+        "Bow",
+        "Sword"
+      ],
+      "trains": [
+        "Bow +2",
+        "Sword +2",
+        "Infantry +3"
+      ],
+      "skills": [
+        "Combat Arts +2: Unit can equip +2 combat arts.",
+        "Locktouch: Allows the opening of chests even without keys.",
+        "Advanced Search: Search results are more likely to be perfect."
+      ],
+      "mastery": {
+        "ability": "Countershot",
+        "description": "When equipped with a bow, unit can counter adjacent foes during combat. Trigger % = 50.",
+        "requires": "Fill the Class EXP gauge by fighting in this class; exact threshold not documented. Once mastered, the ability is a permanent equippable passive in any class (Abilities tab); infantry-only or mounted-only abilities switch off in the wrong movement type."
+      },
+      "notes": "Not obtainable on Cai's or Theodora's route unless carried over. Movement: Game8 Infantry Mov 5 (fortunesweave.co.uk has no movement).",
+      "sources": [
+        "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/624384",
+        "https://fortunesweave.co.uk/classes/ranger",
+        "https://www.rpgsite.net/guide/21212-fire-emblem-fortunes-weave-part-i-dietrichs-path-walkthrough",
+        "https://www.rpgsite.net/guide/21210-fire-emblem-fortunes-weave-part-i-ledas-path-walkthrough",
+        "https://gamerant.com/fire-emblem-fortunes-weave-how-to-unlock-all-classes/"
+      ]
+    },
+    {
+      "name": "Cataphract",
+      "tier": "Advanced",
+      "part": "I",
+      "requirements": {
+        "renown": 8,
+        "level": 35,
+        "ranks": [
+          "Heavy Armor E+",
+          "Riding D",
+          "Axe B",
+          "Spear B"
+        ],
+        "license": "Advanced License",
+        "restrictions": "Heavyweight units (Goliath's Heavyweight Class ability) can't take cavalry or flying classes (Cataphract is cavalry, so it is likely blocked for Heavyweight units even though it is armored; not confirmed)."
+      },
+      "unlock": "Theodora route only in Part I. Send Supplies requests from Bonaventure during Free Time. RPG Site: Ch 8 'Send Supplies: Ladon Loach' (deliver 35 Ladon Loach; reward 5500G, 320 Renown, unlocks Cataphract). GameRant and AllThings.How: needs both Ch 8 'Send Supplies: Steelfish' (10 Steelfish) and 'Send Supplies: Ladon Loach'. Requests expire 10/24.",
+      "movement": "mounted (armored)",
+      "mov": 6,
+      "stats": {
+        "HP": 5,
+        "Str": 2,
+        "Mag": 0,
+        "Spd": -1,
+        "Dex": 0,
+        "Def": 5,
+        "Res": 0,
+        "Lck": 0,
+        "Cha": 0
+      },
+      "growth_mods": {
+        "HP": 15,
+        "Str": 15,
+        "Mag": -5,
+        "Spd": -10,
+        "Dex": 0,
+        "Def": 10,
+        "Res": -5,
+        "Lck": 0,
+        "Cha": 5
+      },
+      "weapons": [
+        "Spear",
+        "Sword",
+        "Axe"
+      ],
+      "trains": [
+        "Sword +1",
+        "Spear +2",
+        "Axe +2",
+        "Riding +1",
+        "Heavy Armor +1"
+      ],
+      "skills": [
+        "Mount/Dismount: Allows use of Mount and Dismount commands.",
+        "Strike-Last Def +3: If foe attacks first, grants Prt +3 to unit during combat.",
+        "Combat Arts +1: Unit can equip +1 combat arts."
+      ],
+      "mastery": {
+        "ability": "Pavise",
+        "description": "Unit takes half damage when attacked with a physical attack. Trigger % = 20.",
+        "requires": "Fill the Class EXP gauge by fighting in this class; exact threshold not documented. Once mastered, the ability is a permanent equippable passive in any class (Abilities tab); infantry-only or mounted-only abilities switch off in the wrong movement type."
+      },
+      "notes": "Route-locked: Theodora only (Game8 lists it as one of four single-path classes). CONFLICT: RPG Site ties the unlock to the Ladon Loach request alone; GameRant says both Steelfish and Ladon Loach. Readdork says Ch 9; RPG Site and local research say Ch 8. Fextralife confirms Mov 6 and all stats (a search snippet claiming Mov 5 did not match the page). Counts as both a Riding (cavalry) and a Heavy Armor class, so cavalry and armor abilities both apply (single Reddit report: https://www.reddit.com/r/FE_Fortunes_Weave/comments/1wszlep/fortunes_weave_did_the_impossible_made_armored/).",
+      "sources": [
+        "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/624275",
+        "https://fortunesweave.co.uk/classes/cataphract",
+        "https://www.rpgsite.net/guide/21211-fire-emblem-fortunes-weave-part-i-theodoras-path-walkthrough",
+        "https://gamerant.com/fire-emblem-fortunes-weave-how-to-unlock-all-classes/",
+        "https://allthings.how/fire-emblem-fortune-s-weave-class-guide-all-tiers-and-masteries/",
+        "https://readdork.com/gaming/fire-emblem-fortunes-weave-classes-unlock-mastery-skills-6dc0eb592a",
+        "https://fortunesweave.wiki.fextralife.com/Cataphract"
+      ]
+    },
+    {
+      "name": "Dragoon",
+      "tier": "Advanced",
+      "part": "I",
+      "requirements": {
+        "renown": 8,
+        "level": 35,
+        "ranks": [
+          "Flying C",
+          "Axe B",
+          "Spear B"
+        ],
+        "license": "Advanced License",
+        "restrictions": "Heavyweight units (Goliath's Heavyweight Class ability) can't take cavalry or flying classes"
+      },
+      "unlock": "Cai: Ch 8 Aurora mentoring 'Special Request from Mom' (Renown 8; reward Dragoon class + 8000G; deadline 11/27). OR Theodora: Ch 11 Send Supplies. RPG Site: 'Send Supplies: Sea-Star Stone' (deliver 35 Sea-Star Stone; 5500G, 350 Renown, Dragoon unlocked). GameRant/Readdork: needs both 'Send Supplies: Lir Fish' (35 Lir Fish) and 'Send Supplies: Sea-Star Stone'.",
+      "movement": "flier",
+      "mov": 7,
+      "stats": {
+        "HP": 2,
+        "Str": 1,
+        "Mag": 0,
+        "Spd": 3,
+        "Dex": 1,
+        "Def": 1,
+        "Res": 0,
+        "Lck": 0,
+        "Cha": 0
+      },
+      "growth_mods": {
+        "HP": 15,
+        "Str": 5,
+        "Mag": 0,
+        "Spd": 0,
+        "Dex": 5,
+        "Def": 10,
+        "Res": 10,
+        "Lck": 10,
+        "Cha": 5
+      },
+      "weapons": [
+        "Spear",
+        "Sword",
+        "Axe"
+      ],
+      "trains": [
+        "Sword +1",
+        "Spear +1",
+        "Axe +3",
+        "Flying +3"
+      ],
+      "skills": [
+        "Mount/Dismount: Allows use of Mount and Dismount commands.",
+        "Combat Arts +1: Unit can equip +1 combat arts."
+      ],
+      "mastery": {
+        "ability": "Besieger",
+        "description": "If foe is on favorable terrain, grants Hit +20 to unit during combat.",
+        "requires": "Fill the Class EXP gauge by fighting in this class; exact threshold not documented. Once mastered, the ability is a permanent equippable passive in any class (Abilities tab); infantry-only or mounted-only abilities switch off in the wrong movement type."
+      },
+      "notes": "CONFLICT (movement): fortunesweave.co.uk says mounted; Game8 and Fextralife say Flier, Mov 7 (requires Flying C). Used Flier. CONFLICT (Skill EXP): Game8 'Sword +1, Spear +1, Axe +3, Flying +3'; Fextralife 'Sword +1, Spear +3, Axe +1, Flying +3'. No third source. CONFLICT (stat bonus): Game8 gives Spd +3; Fextralife lists no Spd bonus. BUG REPORT (unverified): a GameFAQs thread 'I think my game is bugged (Dragoon Unlock)' and earlier community reports say Dragoon can stay greyed out on Theodora's route. Thread content not readable (403).",
+      "sources": [
+        "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/624233",
+        "https://fortunesweave.co.uk/classes/dragoon",
+        "https://www.rpgsite.net/guide/21213-fire-emblem-fortunes-weave-part-i-cais-path-walkthrough",
+        "https://www.rpgsite.net/guide/21211-fire-emblem-fortunes-weave-part-i-theodoras-path-walkthrough",
+        "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/624691",
+        "https://gamerant.com/fire-emblem-fortunes-weave-how-to-unlock-all-classes/",
+        "https://fortunesweave.wiki.fextralife.com/Dragoon",
+        "https://gamefaqs.gamespot.com/boards/559193-fire-emblem-fortunes-weave/81193727"
+      ]
+    },
+    {
+      "name": "Caladrius",
+      "tier": "Advanced",
+      "part": "I",
+      "requirements": {
+        "renown": 8,
+        "level": 35,
+        "ranks": [
+          "Riding D",
+          "Black Magic B"
+        ],
+        "license": "Advanced License",
+        "restrictions": "Heavyweight units (Goliath's Heavyweight Class ability) can't take cavalry or flying classes"
+      },
+      "unlock": "Cai only: Ch 7 Castor mentoring 'Special Request from Pop' (Renown 7; Game8 lists location Starbirth Garden, Castor mentors from the Arena Underground; reward Caladrius class + 8000G; deadline 11/27). Mentoring is exclusive to Cai's Path and opens in Ch 4.",
+      "movement": "mounted",
+      "mov": 6,
+      "stats": {
+        "HP": 2,
+        "Str": 0,
+        "Mag": 1,
+        "Spd": 3,
+        "Dex": 0,
+        "Def": 1,
+        "Res": 2,
+        "Lck": 0,
+        "Cha": 0
+      },
+      "growth_mods": {
+        "HP": 15,
+        "Str": 0,
+        "Mag": 10,
+        "Spd": 5,
+        "Dex": 10,
+        "Def": 10,
+        "Res": 10,
+        "Lck": 5,
+        "Cha": 5
+      },
+      "weapons": [
+        "Spear",
+        "Sword",
+        "Axe",
+        "Black Magic"
+      ],
+      "trains": [
+        "Sword +1",
+        "Spear +2",
+        "Axe +2",
+        "Black Magic +2",
+        "Riding +1",
+        "Flying +1"
+      ],
+      "skills": [
+        "Mount/Dismount: Allows use of Mount and Dismount commands.",
+        "Black-Magic Seeker: Multiplies black magic uses by 2.",
+        "Combat Arts +1: Unit can equip +1 combat arts."
+      ],
+      "mastery": {
+        "ability": "Overtake",
+        "description": "After defeating a foe, grant Mov +1 through the end of the next turn. (Max +3)",
+        "requires": "Fill the Class EXP gauge by fighting in this class; exact threshold not documented. Once mastered, the ability is a permanent equippable passive in any class (Abilities tab); infantry-only or mounted-only abilities switch off in the wrong movement type."
+      },
+      "notes": "Route-locked: Cai only (single-path class per Game8). AllThings.How calls it a flier; Game8 and Fextralife say Cavalry, Mov 6 (it gets Flying +1 Skill EXP). Used mounted.",
+      "sources": [
+        "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/624235",
+        "https://fortunesweave.co.uk/classes/caladrius",
+        "https://www.rpgsite.net/guide/21213-fire-emblem-fortunes-weave-part-i-cais-path-walkthrough",
+        "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/624691",
+        "https://fortunesweave.wiki.fextralife.com/Caladrius",
+        "https://allthings.how/fire-emblem-fortune-s-weave-class-guide-all-tiers-and-masteries/"
+      ]
+    },
+    {
+      "name": "Troubadour",
+      "tier": "Advanced",
+      "part": "I",
+      "requirements": {
+        "renown": 8,
+        "level": 35,
+        "ranks": [
+          "Riding D",
+          "White Magic B",
+          "Black Magic B"
+        ],
+        "license": "Advanced License",
+        "restrictions": "Heavyweight units (Goliath's Heavyweight Class ability) can't take cavalry or flying classes"
+      },
+      "unlock": "Cai: Ch 9 Bertrand mentoring 'The White-Maned Demon's Request' (Renown 10; Game8 location Galen Fort Ruins; reward Troubadour class + Advanced License per Game8; deadline 11/27). OR Leda: Ch 10 'Elegant Drink Recipes' (Renown 10; needs Wonder Leaves from Ch 11; expires 11/17).",
+      "movement": "mounted",
+      "mov": 6,
+      "stats": {
+        "HP": 0,
+        "Str": 0,
+        "Mag": 1,
+        "Spd": 1,
+        "Dex": 1,
+        "Def": 1,
+        "Res": 2,
+        "Lck": 0,
+        "Cha": 3
+      },
+      "growth_mods": {
+        "HP": 10,
+        "Str": 0,
+        "Mag": 15,
+        "Spd": 5,
+        "Dex": 0,
+        "Def": 5,
+        "Res": 15,
+        "Lck": 15,
+        "Cha": 10
+      },
+      "weapons": [
+        "White Magic",
+        "Black Magic"
+      ],
+      "trains": [
+        "Black Magic +2",
+        "White Magic +2",
+        "Riding +2"
+      ],
+      "skills": [
+        "Mount/Dismount: Allows use of Mount and Dismount commands.",
+        "Magic Hit +3: When equipped with magic, grants Hit +3.",
+        "Magic Heal +5: When healing an ally with magic, restores +5 HP."
+      ],
+      "mastery": {
+        "ability": "Song of Courage",
+        "description": "Grants Dex/Spd +2 to allies in range until unit's next phase.",
+        "requires": "Fill the Class EXP gauge by fighting in this class; exact threshold not documented. Once mastered, the ability is a permanent equippable passive in any class (Abilities tab); infantry-only or mounted-only abilities switch off in the wrong movement type."
+      },
+      "notes": "CONFLICT: RPG Site lists the Bertrand reward as only an Advanced License; Game8's Mentoring Guide and GameRant both say it unlocks Troubadour, so the unlock is kept. Not obtainable on Theodora's or Dietrich's route unless carried over.",
+      "sources": [
+        "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/624234",
+        "https://fortunesweave.co.uk/classes/troubadour",
+        "https://www.rpgsite.net/guide/21213-fire-emblem-fortunes-weave-part-i-cais-path-walkthrough",
+        "https://www.rpgsite.net/guide/21210-fire-emblem-fortunes-weave-part-i-ledas-path-walkthrough",
+        "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/624691",
+        "https://gamerant.com/fire-emblem-fortunes-weave-how-to-unlock-all-classes/"
+      ]
+    },
+    {
+      "name": "Dancer",
+      "tier": "Advanced",
+      "part": "I",
+      "requirements": {
+        "renown": null,
+        "level": null,
+        "ranks": [
+          "Bow B",
+          "Sword B"
+        ],
+        "license": "None (Dancer's Necklace; no exam)",
+        "restrictions": "One holder at a time. Only Leda can hold it in Part I. In Part III, Return Certification can move it to another unit that meets the ranks. Not gender-locked (Game8)."
+      },
+      "unlock": "Leda only in Part I: Ch 9 subquest 'The Great Dancer's Successor' (deliver Hingosh; earlier research: Hingosh costs 1,500G at Baina Oasis; reward Dancer's Necklace; expires 10/15). No exam: show the Dancer's Necklace to the Exam Proctor and Leda passes automatically.",
+      "movement": "infantry",
+      "mov": 5,
+      "stats": {
+        "HP": 4,
+        "Str": 0,
+        "Mag": 0,
+        "Spd": 9,
+        "Dex": 5,
+        "Def": 0,
+        "Res": 0,
+        "Lck": 0,
+        "Cha": 5
+      },
+      "growth_mods": {
+        "HP": 15,
+        "Str": 5,
+        "Mag": 0,
+        "Spd": 25,
+        "Dex": 10,
+        "Def": 0,
+        "Res": 5,
+        "Lck": 10,
+        "Cha": 20
+      },
+      "weapons": [
+        "Bow",
+        "Sword"
+      ],
+      "trains": [
+        "Sword +3",
+        "Bow +2",
+        "Infantry +4"
+      ],
+      "skills": [
+        "Combat Arts +2: Unit can equip +2 combat arts.",
+        "Dance: Allows the use of the Dance combat art."
+      ],
+      "mastery": {
+        "ability": "Special Dance",
+        "description": "When using Dance, grants Dex/Spd +3 to target ally for the current phase.",
+        "requires": "Fill the Class EXP gauge by fighting in this class; exact threshold not documented. Once mastered, the ability is a permanent equippable passive in any class (Abilities tab); infantry-only or mounted-only abilities switch off in the wrong movement type."
+      },
+      "notes": "Game8's class list shows Advanced License, Lv 35, Renown 8, Bow B, Sword B, but its class page says there is no exam and Leda auto-passes with the necklace. Earlier research: it skips the Lv 35 / Renown 8 gate. Growth rates from Game8 only (fortunesweave.co.uk has none).",
+      "sources": [
+        "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/624375",
+        "https://fortunesweave.co.uk/classes/dancer",
+        "https://www.rpgsite.net/guide/21210-fire-emblem-fortunes-weave-part-i-ledas-path-walkthrough",
+        "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/625697",
+        "https://allthings.how/fire-emblem-fortune-s-weave-class-guide-all-tiers-and-masteries/"
+      ]
+    },
+    {
+      "name": "Blacksmith",
+      "tier": "Advanced",
+      "part": "I",
+      "requirements": {
+        "renown": 8,
+        "level": 35,
+        "ranks": [
+          "Black Magic D",
+          "Axe C"
+        ],
+        "license": "Advanced License",
+        "restrictions": null
+      },
+      "unlock": "Dietrich only: upgrade (enhance) Combat Arts 10 times at Smyrnos's Temple, then speak to the caretaker at the Smyrnos temple (Game8). RPG Site places it in Ch 10 and estimates about 400 Magic Echo Shards. GameRant and Readdork add Renown 8 and Smyrnos Bless Level 1.",
+      "movement": "infantry",
+      "mov": 5,
+      "stats": {
+        "HP": 5,
+        "Str": 1,
+        "Mag": 1,
+        "Spd": 1,
+        "Dex": 0,
+        "Def": 3,
+        "Res": 1,
+        "Lck": 0,
+        "Cha": 0
+      },
+      "growth_mods": {
+        "HP": 15,
+        "Str": 10,
+        "Mag": 10,
+        "Spd": 0,
+        "Dex": 5,
+        "Def": 10,
+        "Res": 10,
+        "Lck": 0,
+        "Cha": 5
+      },
+      "weapons": [
+        "Axe",
+        "Black Magic"
+      ],
+      "trains": [
+        "Axe +3",
+        "Black Magic +1",
+        "Infantry +1"
+      ],
+      "skills": [
+        "Black-Magic Seeker: Multiplies black magic uses by 2.",
+        "Axe Hit +5: When equipped with an axe, grants Hit +5."
+      ],
+      "mastery": {
+        "ability": "Makeshift",
+        "description": "When using a combat art, reduces weapon durability cost to 0 during combat. Trigger % = 10.",
+        "requires": "Fill the Class EXP gauge by fighting in this class; exact threshold not documented. Once mastered, the ability is a permanent equippable passive in any class (Abilities tab); infantry-only or mounted-only abilities switch off in the wrong movement type."
+      },
+      "notes": "Route-locked: Dietrich only (single-path class per Game8). Game8 rates it low tier. Requirement ranks from Game8 class page: Black Magic D, Axe C. fortunesweave.co.uk marks this page unverified.",
+      "sources": [
+        "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/624388",
+        "https://fortunesweave.co.uk/classes/blacksmith",
+        "https://www.rpgsite.net/guide/21212-fire-emblem-fortunes-weave-part-i-dietrichs-path-walkthrough",
+        "https://gamerant.com/fire-emblem-fortunes-weave-how-to-unlock-all-classes/",
+        "https://readdork.com/gaming/fire-emblem-fortunes-weave-classes-unlock-mastery-skills-6dc0eb592a",
+        "https://www.pockettactics.com/fire-emblem-fortunes-weave/classes"
+      ]
+    },
+    {
+      "name": "Elephant Rider",
+      "tier": "Elephant",
+      "part": "III",
+      "requirements": {
+        "renown": null,
+        "level": 35,
+        "ranks": [
+          "Riding C"
+        ],
+        "license": "Elephant License",
+        "restrictions": "Heavyweight units (Goliath's Heavyweight Class ability) can't take cavalry or flying classes (cavalry; not confirmed for elephants)."
+      },
+      "unlock": "Part III: unlocks automatically once Part III starts; uses an Elephant License.",
+      "movement": "mounted",
+      "mov": 5,
+      "stats": {
+        "HP": 10,
+        "Str": 2,
+        "Mag": 0,
+        "Spd": -5,
+        "Dex": 3,
+        "Def": 7,
+        "Res": 0,
+        "Lck": 0,
+        "Cha": 3
+      },
+      "growth_mods": {
+        "HP": 20,
+        "Str": 10,
+        "Mag": -5,
+        "Spd": 20,
+        "Dex": -10,
+        "Def": 15,
+        "Res": -5,
+        "Lck": 5,
+        "Cha": 10
+      },
+      "weapons": [
+        "Trample (range 1)?",
+        "Trunk Attack (ranged)?"
+      ],
+      "trains": [
+        "Riding +2"
+      ],
+      "skills": [
+        "War-Elephant Boots: Unit takes half damage when attacked. Unit cannot avoid attacks.",
+        "Elephant Tactics: Allows use of the Mount and Dismount commands. Allows use of the Heavy Charge Commands.",
+        "Elephant Rider's Path: Unit's growth rate increases with level."
+      ],
+      "mastery": {
+        "ability": "Elephant Vanguard",
+        "description": "If unit is an elephant rider, grants Hit +10.",
+        "requires": "Fill the Class EXP gauge by fighting in this class; exact threshold not documented. Once mastered, the ability is a permanent equippable passive in any class (Abilities tab); infantry-only or mounted-only abilities switch off in the wrong movement type."
+      },
+      "notes": "fortunesweave.co.uk lists it as Advanced with Advanced License / Renown 8; Game8, GameRant and Game8's class-change table put it in Part III with its own Elephant License and no Renown gate. Used Game8. No weapons documented. Fandom: occupies a 4-tile footprint. War-Elephant Boots: half damage taken but can't avoid. Elephant Tactics: Mount/Dismount and Heavy Charge. Elephant Rider's Path: growth rate increases with level. Fandom: no standard weapons; fights with Trample at close range and Trunk Attack at long range (stats not published). Heavy Charge runs forward a long way, damages every foe in its path and grants a Def bonus at the end; lane width, length, damage and uses not published (Part II enemy elephants charged 2-wide lanes, matching the 2x2 body). Charge uses are 'staggering blows'; Anna's Elephant Rush adds +1. Serenes Forest: 2x2 footprint, Other weapons. Community (Reddit, unverified): adjacent-ally abilities reach every tile around the 2x2 body (8 adjacent tiles vs 4).",
+      "sources": [
+        "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/621166",
+        "https://fortunesweave.co.uk/classes/elephant-rider",
+        "https://gamerant.com/fire-emblem-fortunes-weave-how-to-unlock-all-classes/",
+        "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/618925",
+        "https://fireemblem.fandom.com/wiki/Elephant_Rider",
+        "https://serenesforest.net/2026/08/11/fortunes-weave-august-direct-analysis-classes",
+        "https://www.reddit.com/r/FE_Fortunes_Weave/comments/1wtjmny/elephant_rider_characters"
+      ]
+    },
+    {
+      "name": "Sword Master",
+      "tier": "Master",
+      "part": "III",
+      "requirements": {
+        "renown": null,
+        "level": 45,
+        "ranks": [
+          "Sword A"
+        ],
+        "license": "Master License",
+        "restrictions": null
+      },
+      "unlock": "Part III: restore Mars's Temple, talk to Mars for a special request, and complete it (Game8, GameRant).",
+      "movement": "infantry",
+      "mov": 5,
+      "stats": {
+        "HP": 5,
+        "Str": 2,
+        "Mag": 0,
+        "Spd": 7,
+        "Dex": 7,
+        "Def": 0,
+        "Res": 0,
+        "Lck": 0,
+        "Cha": 0
+      },
+      "growth_mods": {
+        "HP": 15,
+        "Str": 10,
+        "Mag": 0,
+        "Spd": 20,
+        "Dex": 15,
+        "Def": 0,
+        "Res": 0,
+        "Lck": 5,
+        "Cha": 5
+      },
+      "weapons": [
+        "Spear",
+        "Sword"
+      ],
+      "trains": [
+        "Sword +4",
+        "Spear +1",
+        "Infantry +2"
+      ],
+      "skills": [
+        "Combat Arts +3: Unit can equip +3 combat arts.",
+        "Sword Crit +7: When equipped with a sword, grants Crit +7."
+      ],
+      "mastery": {
+        "ability": "Astra",
+        "description": "Strikes 5 times at 50% damage.",
+        "requires": "Fill the Class EXP gauge by fighting in this class; exact threshold not documented. Once mastered, the ability is a permanent equippable passive in any class (Abilities tab); infantry-only or mounted-only abilities switch off in the wrong movement type."
+      },
+      "notes": "Game8's class page spells it Swordmaster; fortunesweave.co.uk and Game8's list use Sword Master.",
+      "sources": [
+        "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/624426",
+        "https://fortunesweave.co.uk/classes/sword-master",
+        "https://gamerant.com/fire-emblem-fortunes-weave-how-to-unlock-all-classes/"
+      ]
+    },
+    {
+      "name": "High Savant",
+      "tier": "Master",
+      "part": "III",
+      "requirements": {
+        "renown": null,
+        "level": 45,
+        "ranks": [
+          "Riding D",
+          "Black Magic D",
+          "Sword B"
+        ],
+        "license": "Master License",
+        "restrictions": "Heavyweight units (Goliath's Heavyweight Class ability) can't take cavalry or flying classes"
+      },
+      "unlock": "Part III: restore Smyrnos's Temple, talk to Smyrnos for a special request, and complete it (Game8, GameRant).",
+      "movement": "mounted",
+      "mov": 7,
+      "stats": {
+        "HP": 5,
+        "Str": 2,
+        "Mag": 2,
+        "Spd": 3,
+        "Dex": 3,
+        "Def": 2,
+        "Res": 0,
+        "Lck": 0,
+        "Cha": 0
+      },
+      "growth_mods": {
+        "HP": 10,
+        "Str": 15,
+        "Mag": 15,
+        "Spd": 10,
+        "Dex": 5,
+        "Def": 5,
+        "Res": 5,
+        "Lck": 5,
+        "Cha": 5
+      },
+      "weapons": [
+        "Sword",
+        "Black Magic"
+      ],
+      "trains": [
+        "Sword +3",
+        "Black Magic +2",
+        "Riding +2"
+      ],
+      "skills": [
+        "Combat Arts +2: Unit can equip +2 combat arts.",
+        "Mount/Dismount: Allows use of Mount and Dismount commands.",
+        "Black-Magic Seeker: Multiplies black magic uses by 2."
+      ],
+      "mastery": {
+        "ability": "Dark Moon",
+        "description": "Halves foe's Shld when attacking. Trigger % = 10.",
+        "requires": "Fill the Class EXP gauge by fighting in this class; exact threshold not documented. Once mastered, the ability is a permanent equippable passive in any class (Abilities tab); infantry-only or mounted-only abilities switch off in the wrong movement type."
+      },
+      "notes": null,
+      "sources": [
+        "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/624445",
+        "https://fortunesweave.co.uk/classes/high-savant",
+        "https://gamerant.com/fire-emblem-fortunes-weave-how-to-unlock-all-classes/"
+      ]
+    },
+    {
+      "name": "Battlemaster",
+      "tier": "Master",
+      "part": "III",
+      "requirements": {
+        "renown": null,
+        "level": 45,
+        "ranks": [
+          "Gauntlet A",
+          "Axe A",
+          "Sword A"
+        ],
+        "license": "Master License",
+        "restrictions": null
+      },
+      "unlock": null,
+      "movement": "infantry",
+      "mov": 5,
+      "stats": {
+        "HP": 13,
+        "Str": 6,
+        "Mag": 0,
+        "Spd": 2,
+        "Dex": 0,
+        "Def": 4,
+        "Res": 0,
+        "Lck": 0,
+        "Cha": 0
+      },
+      "growth_mods": {
+        "HP": 25,
+        "Str": 25,
+        "Mag": -5,
+        "Spd": -5,
+        "Dex": 5,
+        "Def": 10,
+        "Res": -5,
+        "Lck": -5,
+        "Cha": 5
+      },
+      "weapons": [
+        "Sword",
+        "Gauntlet",
+        "Axe"
+      ],
+      "trains": [
+        "Sword +2",
+        "Axe +4",
+        "Gauntlet +2",
+        "Infantry +1"
+      ],
+      "skills": [
+        "Combat Arts +3: Unit can equip +3 combat arts.",
+        "Axe Hit +7: When equipped with an axe, grants Hit +7.",
+        "Brawl Hit +7: When equipped with gauntlets, grants Hit+7."
+      ],
+      "mastery": {
+        "ability": "War Master's Strike",
+        "description": "Multiplies damage dealt by 1.5.",
+        "requires": "Fill the Class EXP gauge by fighting in this class; exact threshold not documented. Once mastered, the ability is a permanent equippable passive in any class (Abilities tab); infantry-only or mounted-only abilities switch off in the wrong movement type."
+      },
+      "notes": null,
+      "sources": [
+        "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/624357",
+        "https://fortunesweave.co.uk/classes/battlemaster"
+      ]
+    },
+    {
+      "name": "War Monk",
+      "tier": "Master",
+      "part": "III",
+      "requirements": {
+        "renown": null,
+        "level": 45,
+        "ranks": [
+          "White Magic D",
+          "Gauntlet B"
+        ],
+        "license": "Master License",
+        "restrictions": null
+      },
+      "unlock": "Part III: restore Aurora's Temple, talk to Aurora for a special request, and complete it (Game8, GameRant).",
+      "movement": "infantry",
+      "mov": 5,
+      "stats": {
+        "HP": 5,
+        "Str": 2,
+        "Mag": 0,
+        "Spd": 5,
+        "Dex": 2,
+        "Def": 2,
+        "Res": 4,
+        "Lck": 0,
+        "Cha": 0
+      },
+      "growth_mods": {
+        "HP": 15,
+        "Str": 10,
+        "Mag": 0,
+        "Spd": 15,
+        "Dex": 0,
+        "Def": 5,
+        "Res": 15,
+        "Lck": 5,
+        "Cha": 5
+      },
+      "weapons": [
+        "Gauntlet",
+        "White Magic"
+      ],
+      "trains": [
+        "Gauntlet +4",
+        "White Magic +2",
+        "Infantry +2"
+      ],
+      "skills": [
+        "White-Magic Seeker: Multiplies white magic uses by 2.",
+        "Combat Arts +3: Unit can equip +3 combat arts.",
+        "Brawl Avo +7: When equipped with gauntlets, grants Avo +7."
+      ],
+      "mastery": {
+        "ability": "Strike and Heal",
+        "description": "After combat, unit can use assist magic.",
+        "requires": "Fill the Class EXP gauge by fighting in this class; exact threshold not documented. Once mastered, the ability is a permanent equippable passive in any class (Abilities tab); infantry-only or mounted-only abilities switch off in the wrong movement type."
+      },
+      "notes": "Pocket Tactics also lists a cavalry 'War Monk' in its Advanced table; that conflicts with Game8 (Master, Infantry) and looks like a pre-release error. Pocket Tactics agrees on the Aurora's Temple unlock. fortunesweave.co.uk misses the Brawl Avo +7 class skill.",
+      "sources": [
+        "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/624444",
+        "https://fortunesweave.co.uk/classes/war-monk",
+        "https://gamerant.com/fire-emblem-fortunes-weave-how-to-unlock-all-classes/",
+        "https://www.pockettactics.com/fire-emblem-fortunes-weave/classes"
+      ]
+    },
+    {
+      "name": "Bow Adept",
+      "tier": "Master",
+      "part": "III",
+      "requirements": {
+        "renown": null,
+        "level": 45,
+        "ranks": [
+          "Bow A"
+        ],
+        "license": "Master License",
+        "restrictions": null
+      },
+      "unlock": null,
+      "movement": "infantry",
+      "mov": 5,
+      "stats": {
+        "HP": 4,
+        "Str": 2,
+        "Mag": 0,
+        "Spd": 5,
+        "Dex": 9,
+        "Def": 0,
+        "Res": 0,
+        "Lck": 0,
+        "Cha": 0
+      },
+      "growth_mods": {
+        "HP": 15,
+        "Str": 5,
+        "Mag": 0,
+        "Spd": 15,
+        "Dex": 20,
+        "Def": 5,
+        "Res": 5,
+        "Lck": 5,
+        "Cha": 5
+      },
+      "weapons": [
+        "Bow"
+      ],
+      "trains": [
+        "Bow +4",
+        "Infantry +2"
+      ],
+      "skills": [
+        "Combat Arts +3: Unit can equip +3 combat arts.",
+        "Bow Hit +15: When equipped with a bow, grants Hit +15."
+      ],
+      "mastery": {
+        "ability": "Sky Hunter",
+        "description": "If foe is flying, grants Hit +50.",
+        "requires": "Fill the Class EXP gauge by fighting in this class; exact threshold not documented. Once mastered, the ability is a permanent equippable passive in any class (Abilities tab); infantry-only or mounted-only abilities switch off in the wrong movement type."
+      },
+      "notes": "Sky Hunter: a community video adds Mt +7 vs fliers on top of Hit +50 (single source, ?).",
+      "sources": [
+        "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/624362",
+        "https://fortunesweave.co.uk/classes/bow-adept"
+      ]
+    },
+    {
+      "name": "Bow Knight",
+      "tier": "Master",
+      "part": "III",
+      "requirements": {
+        "renown": null,
+        "level": 45,
+        "ranks": [
+          "Riding D",
+          "Bow A"
+        ],
+        "license": "Master License",
+        "restrictions": "Heavyweight units (Goliath's Heavyweight Class ability) can't take cavalry or flying classes"
+      },
+      "unlock": "Part III: restore Kalla's Temple, talk to Kalla for a special request, and complete it (Game8, GameRant).",
+      "movement": "mounted",
+      "mov": 7,
+      "stats": {
+        "HP": 3,
+        "Str": 2,
+        "Mag": 0,
+        "Spd": 7,
+        "Dex": 5,
+        "Def": 2,
+        "Res": 0,
+        "Lck": 0,
+        "Cha": 0
+      },
+      "growth_mods": {
+        "HP": 10,
+        "Str": 10,
+        "Mag": 0,
+        "Spd": 15,
+        "Dex": 10,
+        "Def": 5,
+        "Res": 0,
+        "Lck": 5,
+        "Cha": 5
+      },
+      "weapons": [
+        "Bow",
+        "Sword"
+      ],
+      "trains": [
+        "Sword +1",
+        "Bow +3",
+        "Riding +2"
+      ],
+      "skills": [
+        "Combat Arts +2: Unit can equip +2 combat arts.",
+        "Mount/Dismount: Allows use of Mount and Dismount commands.",
+        "Bow Hit +10: When equipped with a bow, grants Hit +10."
+      ],
+      "mastery": {
+        "ability": "Hunter's Cross",
+        "description": "High Hit/Crit",
+        "requires": "Fill the Class EXP gauge by fighting in this class; exact threshold not documented. Once mastered, the ability is a permanent equippable passive in any class (Abilities tab); infantry-only or mounted-only abilities switch off in the wrong movement type."
+      },
+      "notes": "Hunter's Cross: a community video gives Hit +20, Crit +10, Mt +8 (single source, ?).",
+      "sources": [
+        "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/624449",
+        "https://fortunesweave.co.uk/classes/bow-knight",
+        "https://gamerant.com/fire-emblem-fortunes-weave-how-to-unlock-all-classes/"
+      ]
+    },
+    {
+      "name": "Shadow Seeker",
+      "tier": "Master",
+      "part": "III",
+      "requirements": {
+        "renown": null,
+        "level": 45,
+        "ranks": [
+          "Bow A",
+          "Sword A"
+        ],
+        "license": "Master License",
+        "restrictions": null
+      },
+      "unlock": null,
+      "movement": "infantry",
+      "mov": 5,
+      "stats": {
+        "HP": 4,
+        "Str": 0,
+        "Mag": 0,
+        "Spd": 9,
+        "Dex": 7,
+        "Def": 0,
+        "Res": 0,
+        "Lck": 2,
+        "Cha": -2
+      },
+      "growth_mods": {
+        "HP": 15,
+        "Str": 5,
+        "Mag": 0,
+        "Spd": 15,
+        "Dex": 25,
+        "Def": 0,
+        "Res": 10,
+        "Lck": 15,
+        "Cha": 0
+      },
+      "weapons": [
+        "Bow",
+        "Sword"
+      ],
+      "trains": [
+        "Sword +2",
+        "Bow +3",
+        "Infantry +4"
+      ],
+      "skills": [
+        "Locktouch: Allows the opening of chests even without keys.",
+        "Combat Arts +3: Unit can equip +3 combat arts.",
+        "Master Search: Search results are considerably more likely to be perfect."
+      ],
+      "mastery": {
+        "ability": "Dropshadow Blade",
+        "description": "If foe is on favorable terrain, ignores those terrain effects.",
+        "requires": "Fill the Class EXP gauge by fighting in this class; exact threshold not documented. Once mastered, the ability is a permanent equippable passive in any class (Abilities tab); infantry-only or mounted-only abilities switch off in the wrong movement type."
+      },
+      "notes": null,
+      "sources": [
+        "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/624358",
+        "https://fortunesweave.co.uk/classes/shadow-seeker"
+      ]
+    },
+    {
+      "name": "Sentinel",
+      "tier": "Master",
+      "part": "III",
+      "requirements": {
+        "renown": null,
+        "level": 45,
+        "ranks": [
+          "Spear A"
+        ],
+        "license": "Master License",
+        "restrictions": null
+      },
+      "unlock": null,
+      "movement": "infantry",
+      "mov": 5,
+      "stats": {
+        "HP": 5,
+        "Str": 4,
+        "Mag": 0,
+        "Spd": 2,
+        "Dex": 4,
+        "Def": 4,
+        "Res": 5,
+        "Lck": 0,
+        "Cha": 0
+      },
+      "growth_mods": {
+        "HP": 15,
+        "Str": 15,
+        "Mag": 0,
+        "Spd": 5,
+        "Dex": 5,
+        "Def": 10,
+        "Res": 15,
+        "Lck": 5,
+        "Cha": 5
+      },
+      "weapons": [
+        "Spear",
+        "White Magic"
+      ],
+      "trains": [
+        "Spear +4",
+        "White Magic +2",
+        "Infantry +1"
+      ],
+      "skills": [
+        "White-Magic Seeker: Multiplies white magic uses by 2.",
+        "Magic Heal +10: When healing an ally with magic, restores +10 HP.",
+        "Combat Arts +3: Unit can equip +3 combat arts."
+      ],
+      "mastery": {
+        "ability": "Resolute Stance",
+        "description": "If unit's HP = 100%, grants Shld +5 during combat.",
+        "requires": "Fill the Class EXP gauge by fighting in this class; exact threshold not documented. Once mastered, the ability is a permanent equippable passive in any class (Abilities tab); infantry-only or mounted-only abilities switch off in the wrong movement type."
+      },
+      "notes": "Earlier local research said Game8 ties Sentinel to Aurora's Temple; Game8's current list ties War Monk to Aurora and gives Sentinel no temple quest.",
+      "sources": [
+        "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/624356",
+        "https://fortunesweave.co.uk/classes/sentinel"
+      ]
+    },
+    {
+      "name": "Castle Knight",
+      "tier": "Master",
+      "part": "III",
+      "requirements": {
+        "renown": null,
+        "level": 45,
+        "ranks": [
+          "Heavy Armor C",
+          "Axe A",
+          "Spear A"
+        ],
+        "license": "Master License",
+        "restrictions": null
+      },
+      "unlock": null,
+      "movement": "armored",
+      "mov": 4,
+      "stats": {
+        "HP": 9,
+        "Str": 6,
+        "Mag": 0,
+        "Spd": -6,
+        "Dex": 4,
+        "Def": 13,
+        "Res": -2,
+        "Lck": 0,
+        "Cha": 0
+      },
+      "growth_mods": {
+        "HP": 25,
+        "Str": 20,
+        "Mag": -5,
+        "Spd": -15,
+        "Dex": 5,
+        "Def": 30,
+        "Res": -10,
+        "Lck": 0,
+        "Cha": 5
+      },
+      "weapons": [
+        "Spear",
+        "Axe"
+      ],
+      "trains": [
+        "Spear +2",
+        "Axe +2",
+        "Infantry +1",
+        "Heavy Armor +4"
+      ],
+      "skills": [
+        "Combat Arts +3: Unit can equip +3 combat arts.",
+        "Strike-Last Def +7: If foe attacks first, grants Prt +7 to unit during combat."
+      ],
+      "mastery": {
+        "ability": "Intercept",
+        "description": "Reduces damage taken by 5 when attacked.",
+        "requires": "Fill the Class EXP gauge by fighting in this class; exact threshold not documented. Once mastered, the ability is a permanent equippable passive in any class (Abilities tab); infantry-only or mounted-only abilities switch off in the wrong movement type."
+      },
+      "notes": null,
+      "sources": [
+        "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/624363",
+        "https://fortunesweave.co.uk/classes/castle-knight"
+      ]
+    },
+    {
+      "name": "Orichaldia",
+      "tier": "Master",
+      "part": "III",
+      "requirements": {
+        "renown": null,
+        "level": 45,
+        "ranks": [
+          "Riding B",
+          "Spear A",
+          "Sword A"
+        ],
+        "license": "Master License",
+        "restrictions": "Heavyweight units (Goliath's Heavyweight Class ability) can't take cavalry or flying classes"
+      },
+      "unlock": null,
+      "movement": "mounted",
+      "mov": 7,
+      "stats": {
+        "HP": 7,
+        "Str": 3,
+        "Mag": 0,
+        "Spd": 2,
+        "Dex": 3,
+        "Def": 2,
+        "Res": 0,
+        "Lck": 0,
+        "Cha": 2
+      },
+      "growth_mods": {
+        "HP": 15,
+        "Str": 15,
+        "Mag": -5,
+        "Spd": 0,
+        "Dex": 5,
+        "Def": 5,
+        "Res": 5,
+        "Lck": 5,
+        "Cha": 10
+      },
+      "weapons": [
+        "Spear",
+        "Sword",
+        "Axe"
+      ],
+      "trains": [
+        "Sword +2",
+        "Spear +3",
+        "Axe +1",
+        "Riding +4"
+      ],
+      "skills": [
+        "Mount/Dismount: Allows use of Mount and Dismount commands.",
+        "Combat Arts +3: Unit can equip +3 combat arts."
+      ],
+      "mastery": {
+        "ability": "Fierce Spear",
+        "description": "Unit cannot suffer a follow-up during combat.",
+        "requires": "Fill the Class EXP gauge by fighting in this class; exact threshold not documented. Once mastered, the ability is a permanent equippable passive in any class (Abilities tab); infantry-only or mounted-only abilities switch off in the wrong movement type."
+      },
+      "notes": "Earlier local research said it needs a Part III quest; Game8 and GameRant list no quest.",
+      "sources": [
+        "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/624359",
+        "https://fortunesweave.co.uk/classes/orichaldia"
+      ]
+    },
+    {
+      "name": "Great Knight",
+      "tier": "Master",
+      "part": "III",
+      "requirements": {
+        "renown": null,
+        "level": 45,
+        "ranks": [
+          "Heavy Armor D",
+          "Riding D",
+          "Axe A",
+          "Spear A"
+        ],
+        "license": "Master License",
+        "restrictions": "Heavyweight units (Goliath's Heavyweight Class ability) can't take cavalry or flying classes"
+      },
+      "unlock": "Part III: restore Credna's Temple, talk to Credna for a special request, and complete it (Game8, GameRant).",
+      "movement": "mounted (armored)",
+      "mov": 6,
+      "stats": {
+        "HP": 12,
+        "Str": 5,
+        "Mag": 0,
+        "Spd": -4,
+        "Dex": 2,
+        "Def": 5,
+        "Res": 0,
+        "Lck": 0,
+        "Cha": 0
+      },
+      "growth_mods": {
+        "HP": 20,
+        "Str": 20,
+        "Mag": -5,
+        "Spd": -10,
+        "Dex": 0,
+        "Def": 15,
+        "Res": -10,
+        "Lck": 0,
+        "Cha": 5
+      },
+      "weapons": [
+        "Spear",
+        "Sword",
+        "Axe"
+      ],
+      "trains": [
+        "Sword +1",
+        "Spear +2",
+        "Axe +3",
+        "Riding +2",
+        "Heavy Armor +2"
+      ],
+      "skills": [
+        "Combat Arts +2: Unit can equip +2 combat arts.",
+        "Mount/Dismount: Allows use of Mount and Dismount commands."
+      ],
+      "mastery": {
+        "ability": "Fierce Shield",
+        "description": "If unit attacks first, unit takes half damage during combat. Trigger % = 50.",
+        "requires": "Fill the Class EXP gauge by fighting in this class; exact threshold not documented. Once mastered, the ability is a permanent equippable passive in any class (Abilities tab); infantry-only or mounted-only abilities switch off in the wrong movement type."
+      },
+      "notes": "Counts as both a Riding (cavalry) and a Heavy Armor class, so cavalry and armor abilities both apply (single Reddit report: https://www.reddit.com/r/FE_Fortunes_Weave/comments/1wszlep/fortunes_weave_did_the_impossible_made_armored/).",
+      "sources": [
+        "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/624451",
+        "https://fortunesweave.co.uk/classes/great-knight",
+        "https://gamerant.com/fire-emblem-fortunes-weave-how-to-unlock-all-classes/"
+      ]
+    },
+    {
+      "name": "Celestial Trooper",
+      "tier": "Master",
+      "part": "III",
+      "requirements": {
+        "renown": null,
+        "level": 45,
+        "ranks": [
+          "Flying C",
+          "Spear A",
+          "Sword A"
+        ],
+        "license": "Master License",
+        "restrictions": "Female only per TheGamer (single source, unverified). Heavyweight units (Goliath's Heavyweight Class ability) can't take cavalry or flying classes"
+      },
+      "unlock": null,
+      "movement": "flier",
+      "mov": 7,
+      "stats": {
+        "HP": 3,
+        "Str": 0,
+        "Mag": 0,
+        "Spd": 5,
+        "Dex": 3,
+        "Def": 0,
+        "Res": 5,
+        "Lck": 0,
+        "Cha": 2
+      },
+      "growth_mods": {
+        "HP": 15,
+        "Str": 5,
+        "Mag": -5,
+        "Spd": 10,
+        "Dex": 5,
+        "Def": 5,
+        "Res": 15,
+        "Lck": 15,
+        "Cha": 10
+      },
+      "weapons": [
+        "Spear",
+        "Sword"
+      ],
+      "trains": [
+        "Sword +2",
+        "Spear +3",
+        "Flying +4"
+      ],
+      "skills": [
+        "Mount/Dismount: Allows use of Mount and Dismount commands.",
+        "Combat Arts +1: Unit can equip +1 combat arts.",
+        "Flying Avo +7: Grants Avo +7."
+      ],
+      "mastery": {
+        "ability": "Lightning Reflexes",
+        "description": "If unit attacks first, and AS >= foe's AS +10, unit's follow-up occurs before foe's counter during combat.",
+        "requires": "Fill the Class EXP gauge by fighting in this class; exact threshold not documented. Once mastered, the ability is a permanent equippable passive in any class (Abilities tab); infantry-only or mounted-only abilities switch off in the wrong movement type."
+      },
+      "notes": "Female-only restriction comes only from TheGamer.",
+      "sources": [
+        "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/624361",
+        "https://fortunesweave.co.uk/classes/celestial-trooper",
+        "https://www.thegamer.com/fire-emblem-fortunes-weave-how-to-change-class/"
+      ]
+    },
+    {
+      "name": "Bau Lord",
+      "tier": "Master",
+      "part": "III",
+      "requirements": {
+        "renown": null,
+        "level": 45,
+        "ranks": [
+          "Flying C",
+          "Axe A",
+          "Spear A"
+        ],
+        "license": "Master License",
+        "restrictions": "Heavyweight units (Goliath's Heavyweight Class ability) can't take cavalry or flying classes"
+      },
+      "unlock": null,
+      "movement": "flier",
+      "mov": 7,
+      "stats": {
+        "HP": 5,
+        "Str": 2,
+        "Mag": 0,
+        "Spd": 3,
+        "Dex": 3,
+        "Def": 3,
+        "Res": 0,
+        "Lck": 0,
+        "Cha": 0
+      },
+      "growth_mods": {
+        "HP": 15,
+        "Str": 5,
+        "Mag": 0,
+        "Spd": 5,
+        "Dex": 0,
+        "Def": 10,
+        "Res": 10,
+        "Lck": 10,
+        "Cha": 5
+      },
+      "weapons": [
+        "Spear",
+        "Sword",
+        "Axe"
+      ],
+      "trains": [
+        "Sword +1",
+        "Spear +2",
+        "Axe +3",
+        "Flying +4"
+      ],
+      "skills": [
+        "Combat Arts +2: Unit can equip +2 combat arts.",
+        "Mount/Dismount: Allows use of Mount and Dismount commands."
+      ],
+      "mastery": {
+        "ability": "Ambush",
+        "description": "If unit is on inaccessible terrain, grants Atk +4.",
+        "requires": "Fill the Class EXP gauge by fighting in this class; exact threshold not documented. Once mastered, the ability is a permanent equippable passive in any class (Abilities tab); infantry-only or mounted-only abilities switch off in the wrong movement type."
+      },
+      "notes": "fortunesweave.co.uk marks this page unverified.",
+      "sources": [
+        "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/624364",
+        "https://fortunesweave.co.uk/classes/bau-lord"
+      ]
+    },
+    {
+      "name": "Druid",
+      "tier": "Master",
+      "part": "III",
+      "requirements": {
+        "renown": null,
+        "level": 45,
+        "ranks": [
+          "Black Magic A"
+        ],
+        "license": "Master License",
+        "restrictions": null
+      },
+      "unlock": null,
+      "movement": "infantry",
+      "mov": 5,
+      "stats": {
+        "HP": 4,
+        "Str": 0,
+        "Mag": 7,
+        "Spd": 4,
+        "Dex": 7,
+        "Def": 0,
+        "Res": 5,
+        "Lck": 0,
+        "Cha": -2
+      },
+      "growth_mods": {
+        "HP": 10,
+        "Str": -5,
+        "Mag": 30,
+        "Spd": 15,
+        "Dex": 10,
+        "Def": -10,
+        "Res": 20,
+        "Lck": 10,
+        "Cha": 0
+      },
+      "weapons": [
+        "Sword",
+        "Gauntlet",
+        "Black Magic"
+      ],
+      "trains": [
+        "Sword +2",
+        "Gauntlet +1",
+        "Black Magic +4",
+        "Infantry +1"
+      ],
+      "skills": [
+        "Black-Magic Seeker: Multiplies black magic uses by 2.",
+        "Magic Hit +7: When equipped with magic, grants Hit +7."
+      ],
+      "mastery": {
+        "ability": "Bind Resistance",
+        "description": "Inflict Res -3 on adjacent foes.",
+        "requires": "Fill the Class EXP gauge by fighting in this class; exact threshold not documented. Once mastered, the ability is a permanent equippable passive in any class (Abilities tab); infantry-only or mounted-only abilities switch off in the wrong movement type."
+      },
+      "notes": null,
+      "sources": [
+        "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/624360",
+        "https://fortunesweave.co.uk/classes/druid"
+      ]
+    },
+    {
+      "name": "Wiseman",
+      "tier": "Master",
+      "part": "III",
+      "requirements": {
+        "renown": null,
+        "level": 45,
+        "ranks": [
+          "White Magic A"
+        ],
+        "license": "Master License",
+        "restrictions": null
+      },
+      "unlock": null,
+      "movement": "infantry",
+      "mov": 5,
+      "stats": {
+        "HP": 4,
+        "Str": 0,
+        "Mag": 5,
+        "Spd": 2,
+        "Dex": 2,
+        "Def": 0,
+        "Res": 9,
+        "Lck": 4,
+        "Cha": 2
+      },
+      "growth_mods": {
+        "HP": 10,
+        "Str": -5,
+        "Mag": 20,
+        "Spd": 0,
+        "Dex": 5,
+        "Def": -10,
+        "Res": 25,
+        "Lck": 20,
+        "Cha": 10
+      },
+      "weapons": [
+        "Gauntlet",
+        "Axe",
+        "White Magic"
+      ],
+      "trains": [
+        "Axe +1",
+        "Gauntlet +2",
+        "White Magic +4",
+        "Infantry +1"
+      ],
+      "skills": [
+        "White-Magic Seeker: Multiplies white magic uses by 2.",
+        "Magic Heal +15: When healing an ally with magic, restores +15 HP."
+      ],
+      "mastery": {
+        "ability": "Dominate Magic",
+        "description": "If foe uses magic, unit cannot be countered during combat. Trigger % = 10.",
+        "requires": "Fill the Class EXP gauge by fighting in this class; exact threshold not documented. Once mastered, the ability is a permanent equippable passive in any class (Abilities tab); infantry-only or mounted-only abilities switch off in the wrong movement type."
+      },
+      "notes": null,
+      "sources": [
+        "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/624355",
+        "https://fortunesweave.co.uk/classes/wiseman"
+      ]
+    },
+    {
+      "name": "Valkyrium",
+      "tier": "Master",
+      "part": "III",
+      "requirements": {
+        "renown": null,
+        "level": 45,
+        "ranks": [
+          "Riding D",
+          "White Magic A",
+          "Black Magic A"
+        ],
+        "license": "Master License",
+        "restrictions": "Heavyweight units (Goliath's Heavyweight Class ability) can't take cavalry or flying classes"
+      },
+      "unlock": "Part III: restore Jura (Jurah)'s Temple, talk to Jura (Jurah) for a special request, and complete it (Game8, GameRant).",
+      "movement": "mounted",
+      "mov": 7,
+      "stats": {
+        "HP": 2,
+        "Str": 0,
+        "Mag": 2,
+        "Spd": 2,
+        "Dex": 3,
+        "Def": 2,
+        "Res": 3,
+        "Lck": 0,
+        "Cha": 2
+      },
+      "growth_mods": {
+        "HP": 10,
+        "Str": 0,
+        "Mag": 15,
+        "Spd": 5,
+        "Dex": 5,
+        "Def": 5,
+        "Res": 10,
+        "Lck": 15,
+        "Cha": 10
+      },
+      "weapons": [
+        "White Magic",
+        "Black Magic"
+      ],
+      "trains": [
+        "Black Magic +3",
+        "White Magic +2",
+        "Riding +2"
+      ],
+      "skills": [
+        "Mount/Dismount: Allows use of Mount and Dismount commands.",
+        "Magic Heal +10: When healing an ally with magic, restores +10 HP."
+      ],
+      "mastery": {
+        "ability": "Song of Calm",
+        "description": "Grants Res +2 to allies in range until unit's next phase.",
+        "requires": "Fill the Class EXP gauge by fighting in this class; exact threshold not documented. Once mastered, the ability is a permanent equippable passive in any class (Abilities tab); infantry-only or mounted-only abilities switch off in the wrong movement type."
+      },
+      "notes": "A community video lists Magic Hit +5 among its skills (not on Game8; ?).",
+      "sources": [
+        "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/624450",
+        "https://fortunesweave.co.uk/classes/valkyrium",
+        "https://gamerant.com/fire-emblem-fortunes-weave-how-to-unlock-all-classes/"
+      ]
+    },
+    {
+      "name": "The Blade",
+      "tier": "Divine",
+      "part": "III",
+      "requirements": {
+        "renown": null,
+        "level": null,
+        "ranks": [
+          "Sword S"
+        ],
+        "license": "Demonic Swordguard (Divine License item)",
+        "restrictions": "One holder at a time (single item). Exam only when pass chance is 100%. Return Certification frees it for another unit."
+      },
+      "unlock": "Part III Section 4+: get the Demonic Swordguard from the Temple of the Diadem (Chamber of Distortion, opened with a Key of the Diadem).",
+      "movement": "infantry",
+      "mov": 6,
+      "stats": {
+        "HP": 7,
+        "Str": 4,
+        "Mag": 4,
+        "Spd": 7,
+        "Dex": 7,
+        "Def": 0,
+        "Res": 0,
+        "Lck": 0,
+        "Cha": 2
+      },
+      "growth_mods": {
+        "HP": 15,
+        "Str": 10,
+        "Mag": 10,
+        "Spd": 20,
+        "Dex": 20,
+        "Def": 5,
+        "Res": 5,
+        "Lck": 5,
+        "Cha": 10
+      },
+      "weapons": [
+        "Spear",
+        "Sword"
+      ],
+      "trains": [
+        "Sword +5",
+        "Spear +1",
+        "Infantry +2"
+      ],
+      "skills": [
+        "Combat Arts +3: Unit can equip +3 combat arts.",
+        "Sword Crit +10: When equipped with a sword, grants Crit +10."
+      ],
+      "mastery": {
+        "ability": "Divine Insight",
+        "description": "Grants Spd +10.",
+        "requires": "Fill the Class EXP gauge by fighting in this class; exact threshold not documented. Once mastered, the ability is a permanent equippable passive in any class (Abilities tab); infantry-only or mounted-only abilities switch off in the wrong movement type."
+      },
+      "notes": "fortunesweave.co.uk marks this page unverified.",
+      "sources": [
+        "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/625255",
+        "https://fortunesweave.co.uk/classes/the-blade"
+      ]
+    },
+    {
+      "name": "The Apsara",
+      "tier": "Divine",
+      "part": "III",
+      "requirements": {
+        "renown": null,
+        "level": null,
+        "ranks": [
+          "Bow C",
+          "Sword A"
+        ],
+        "license": "Muses' Necklace (Divine License item)",
+        "restrictions": "One holder at a time (single item). Exam only when pass chance is 100%. Return Certification frees it for another unit."
+      },
+      "unlock": "Part III Section 4+: get the Muses' Necklace from the Temple of the Diadem (Maiden's Chambers, opened with a Key of the Diadem).",
+      "movement": "infantry",
+      "mov": 6,
+      "stats": {
+        "HP": 5,
+        "Str": 2,
+        "Mag": 4,
+        "Spd": 7,
+        "Dex": 5,
+        "Def": 0,
+        "Res": 0,
+        "Lck": 0,
+        "Cha": 9
+      },
+      "growth_mods": {
+        "HP": 15,
+        "Str": 5,
+        "Mag": 10,
+        "Spd": 25,
+        "Dex": 15,
+        "Def": 5,
+        "Res": 5,
+        "Lck": 10,
+        "Cha": 30
+      },
+      "weapons": [
+        "Bow",
+        "Sword"
+      ],
+      "trains": [
+        "Sword +4",
+        "Bow +2",
+        "Infantry +5"
+      ],
+      "skills": [
+        "Combat Arts +3: Unit can equip +3 combat arts.",
+        "Dance: Allows the use of the Dance combat art."
+      ],
+      "mastery": {
+        "ability": "Divine Dance",
+        "description": "Grants Cha +10.",
+        "requires": "Fill the Class EXP gauge by fighting in this class; exact threshold not documented. Once mastered, the ability is a permanent equippable passive in any class (Abilities tab); infantry-only or mounted-only abilities switch off in the wrong movement type."
+      },
+      "notes": "fortunesweave.co.uk marks this page unverified.",
+      "sources": [
+        "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/625301",
+        "https://fortunesweave.co.uk/classes/the-apsara"
+      ]
+    },
+    {
+      "name": "The Eternal",
+      "tier": "Divine",
+      "part": "III",
+      "requirements": {
+        "renown": null,
+        "level": null,
+        "ranks": [
+          "Gauntlet S",
+          "Axe S",
+          "Sword S"
+        ],
+        "license": "Scales of Judgement (Divine License item)",
+        "restrictions": "One holder at a time (single item). Exam only when pass chance is 100%. Return Certification frees it for another unit."
+      },
+      "unlock": "Part III Section 4+: get the Scales of Judgement from the Temple of the Diadem (Prophet's Chambers, opened with a Key of the Diadem).",
+      "movement": "infantry",
+      "mov": 6,
+      "stats": {
+        "HP": 12,
+        "Str": 6,
+        "Mag": 0,
+        "Spd": 2,
+        "Dex": 1,
+        "Def": 5,
+        "Res": 0,
+        "Lck": 0,
+        "Cha": 2
+      },
+      "growth_mods": {
+        "HP": 30,
+        "Str": 30,
+        "Mag": 0,
+        "Spd": 10,
+        "Dex": 0,
+        "Def": 15,
+        "Res": 0,
+        "Lck": 0,
+        "Cha": 0
+      },
+      "weapons": [
+        "Sword",
+        "Gauntlet",
+        "Axe"
+      ],
+      "trains": [
+        "Sword +3",
+        "Axe +5",
+        "Gauntlet +3",
+        "Infantry +1"
+      ],
+      "skills": [
+        "Combat Arts +3: Unit can equip +3 combat arts.",
+        "Axe Hit +10: When equipped with an axe, grants Hit+10.",
+        "Brawl Hit +10: When equipped with gauntlets, grants Hit+10."
+      ],
+      "mastery": {
+        "ability": "Divine Might",
+        "description": "Grants Str +10.",
+        "requires": "Fill the Class EXP gauge by fighting in this class; exact threshold not documented. Once mastered, the ability is a permanent equippable passive in any class (Abilities tab); infantry-only or mounted-only abilities switch off in the wrong movement type."
+      },
+      "notes": "fortunesweave.co.uk marks this page unverified.",
+      "sources": [
+        "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/625305",
+        "https://fortunesweave.co.uk/classes/the-eternal"
+      ]
+    },
+    {
+      "name": "The Godhand",
+      "tier": "Divine",
+      "part": "III",
+      "requirements": {
+        "renown": null,
+        "level": null,
+        "ranks": [
+          "White Magic C",
+          "Gauntlet S"
+        ],
+        "license": "Emperor's Sash (Divine License item)",
+        "restrictions": "One holder at a time (single item). Exam only when pass chance is 100%. Return Certification frees it for another unit."
+      },
+      "unlock": "Part III Section 4+: get the Emperor's Sash from the Temple of the Diadem (Disciple's Chambers, opened with a Key of the Diadem).",
+      "movement": "infantry",
+      "mov": 6,
+      "stats": {
+        "HP": 7,
+        "Str": 4,
+        "Mag": 4,
+        "Spd": 5,
+        "Dex": 2,
+        "Def": 4,
+        "Res": 5,
+        "Lck": 0,
+        "Cha": 2
+      },
+      "growth_mods": {
+        "HP": 15,
+        "Str": 10,
+        "Mag": 10,
+        "Spd": 15,
+        "Dex": 5,
+        "Def": 10,
+        "Res": 15,
+        "Lck": 5,
+        "Cha": 10
+      },
+      "weapons": [
+        "Gauntlet",
+        "White Magic"
+      ],
+      "trains": [
+        "Gauntlet +5",
+        "White Magic +3",
+        "Infantry +3"
+      ],
+      "skills": [
+        "Combat Arts +3: Unit can equip +3 combat arts.",
+        "Brawl Avo +10: When equipped with gauntlets, grants Avo +10.",
+        "White-Magic Zenith: Multiplies white magic uses by 3."
+      ],
+      "mastery": {
+        "ability": "Divine Adornment",
+        "description": "Grants Res +10.",
+        "requires": "Fill the Class EXP gauge by fighting in this class; exact threshold not documented. Once mastered, the ability is a permanent equippable passive in any class (Abilities tab); infantry-only or mounted-only abilities switch off in the wrong movement type."
+      },
+      "notes": "fortunesweave.co.uk marks this page unverified.",
+      "sources": [
+        "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/625306",
+        "https://fortunesweave.co.uk/classes/the-godhand"
+      ]
+    },
+    {
+      "name": "The Calamity",
+      "tier": "Divine",
+      "part": "III",
+      "requirements": {
+        "renown": null,
+        "level": null,
+        "ranks": [
+          "Bow S",
+          "Sword S"
+        ],
+        "license": "Crystal of Darkness (Divine License item)",
+        "restrictions": "One holder at a time (single item). Exam only when pass chance is 100%. Return Certification frees it for another unit."
+      },
+      "unlock": "Part III Section 4+: get the Crystal of Darkness from the Temple of the Diadem (Chamber of Distortion, opened with a Key of the Diadem).",
+      "movement": "infantry",
+      "mov": 6,
+      "stats": {
+        "HP": 5,
+        "Str": 2,
+        "Mag": 4,
+        "Spd": 7,
+        "Dex": 5,
+        "Def": 0,
+        "Res": 4,
+        "Lck": 4,
+        "Cha": 0
+      },
+      "growth_mods": {
+        "HP": 15,
+        "Str": 5,
+        "Mag": 15,
+        "Spd": 25,
+        "Dex": 20,
+        "Def": 5,
+        "Res": 15,
+        "Lck": 15,
+        "Cha": 5
+      },
+      "weapons": [
+        "Bow",
+        "Sword"
+      ],
+      "trains": [
+        "Sword +2",
+        "Bow +4",
+        "Infantry +5"
+      ],
+      "skills": [
+        "Locktouch: Allows the opening of chests even without keys.",
+        "Combat Arts +3: Unit can equip +3 combat arts.",
+        "Ultimate Search: Search results are exceedingly more likely to be perfect."
+      ],
+      "mastery": {
+        "ability": "Divine Will",
+        "description": "Grants Lck +10.",
+        "requires": "Fill the Class EXP gauge by fighting in this class; exact threshold not documented. Once mastered, the ability is a permanent equippable passive in any class (Abilities tab); infantry-only or mounted-only abilities switch off in the wrong movement type."
+      },
+      "notes": "fortunesweave.co.uk marks this page unverified.",
+      "sources": [
+        "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/625308",
+        "https://fortunesweave.co.uk/classes/the-calamity"
+      ]
+    },
+    {
+      "name": "The Trident",
+      "tier": "Divine",
+      "part": "III",
+      "requirements": {
+        "renown": null,
+        "level": null,
+        "ranks": [
+          "Spear S"
+        ],
+        "license": "Trident (Divine License item)",
+        "restrictions": "One holder at a time (single item). Exam only when pass chance is 100%. Return Certification frees it for another unit."
+      },
+      "unlock": "Part III Section 4+: get the Trident from the Temple of the Diadem (Disciple's Chambers, opened with a Key of the Diadem).",
+      "movement": "infantry",
+      "mov": 6,
+      "stats": {
+        "HP": 7,
+        "Str": 4,
+        "Mag": 4,
+        "Spd": 2,
+        "Dex": 4,
+        "Def": 5,
+        "Res": 5,
+        "Lck": 0,
+        "Cha": 2
+      },
+      "growth_mods": {
+        "HP": 15,
+        "Str": 15,
+        "Mag": 5,
+        "Spd": 10,
+        "Dex": 10,
+        "Def": 15,
+        "Res": 15,
+        "Lck": 5,
+        "Cha": 10
+      },
+      "weapons": [
+        "Spear",
+        "White Magic"
+      ],
+      "trains": [
+        "Spear +5",
+        "White Magic +3",
+        "Infantry +1"
+      ],
+      "skills": [
+        "Magic Heal +10: When healing an ally with magic, restores +10 HP.",
+        "Combat Arts +3: Unit can equip +3 combat arts.",
+        "White-Magic Zenith: Multiplies white magic uses by 3."
+      ],
+      "mastery": {
+        "ability": "Divine Wall",
+        "description": "Grants Def +10.",
+        "requires": "Fill the Class EXP gauge by fighting in this class; exact threshold not documented. Once mastered, the ability is a permanent equippable passive in any class (Abilities tab); infantry-only or mounted-only abilities switch off in the wrong movement type."
+      },
+      "notes": "fortunesweave.co.uk marks this page unverified.",
+      "sources": [
+        "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/625309",
+        "https://fortunesweave.co.uk/classes/the-trident"
+      ]
+    },
+    {
+      "name": "The Cavalier",
+      "tier": "Divine",
+      "part": "III",
+      "requirements": {
+        "renown": null,
+        "level": null,
+        "ranks": [
+          "Riding A",
+          "Axe S",
+          "Spear S",
+          "Sword S"
+        ],
+        "license": "Divinium Saddle (Divine License item)",
+        "restrictions": "One holder at a time (single item). Exam only when pass chance is 100%. Return Certification frees it for another unit. Heavyweight units (Goliath's Heavyweight Class ability) can't take cavalry or flying classes"
+      },
+      "unlock": "Part III Section 4+: get the Divinium Saddle from the Temple of the Diadem (Chamber of Sirius, opened with a Key of the Diadem).",
+      "movement": "mounted",
+      "mov": 8,
+      "stats": {
+        "HP": 11,
+        "Str": 3,
+        "Mag": 0,
+        "Spd": 4,
+        "Dex": 5,
+        "Def": 5,
+        "Res": 1,
+        "Lck": 0,
+        "Cha": 2
+      },
+      "growth_mods": {
+        "HP": 20,
+        "Str": 15,
+        "Mag": 5,
+        "Spd": 10,
+        "Dex": 10,
+        "Def": 15,
+        "Res": 10,
+        "Lck": 5,
+        "Cha": 15
+      },
+      "weapons": [
+        "Spear",
+        "Sword",
+        "Axe"
+      ],
+      "trains": [
+        "Sword +3",
+        "Spear +3",
+        "Axe +3",
+        "Riding +5"
+      ],
+      "skills": [
+        "Mount/Dismount: Allows use of Mount and Dismount commands.",
+        "Combat Arts +3: Unit can equip +3 combat arts.",
+        "Golden Ride: Neutralizes effective vs. cavalry."
+      ],
+      "mastery": {
+        "ability": "Divine Dexterity",
+        "description": "Grants Dex +10.",
+        "requires": "Fill the Class EXP gauge by fighting in this class; exact threshold not documented. Once mastered, the ability is a permanent equippable passive in any class (Abilities tab); infantry-only or mounted-only abilities switch off in the wrong movement type."
+      },
+      "notes": "fortunesweave.co.uk marks this page unverified.",
+      "sources": [
+        "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/625310",
+        "https://fortunesweave.co.uk/classes/the-cavalier"
+      ]
+    },
+    {
+      "name": "The Avatar",
+      "tier": "Divine",
+      "part": "III",
+      "requirements": {
+        "renown": null,
+        "level": null,
+        "ranks": [
+          "White Magic S",
+          "Black Magic S"
+        ],
+        "license": "Lotus of Reincarnation (Divine License item)",
+        "restrictions": "One holder at a time (single item). Exam only when pass chance is 100%. Return Certification frees it for another unit."
+      },
+      "unlock": "Part III Section 4+: get the Lotus of Reincarnation from the Temple of the Diadem (Prophet's Chambers, opened with a Key of the Diadem).",
+      "movement": "infantry",
+      "mov": 6,
+      "stats": {
+        "HP": 5,
+        "Str": 0,
+        "Mag": 9,
+        "Spd": 2,
+        "Dex": 2,
+        "Def": 0,
+        "Res": 9,
+        "Lck": 5,
+        "Cha": 2
+      },
+      "growth_mods": {
+        "HP": 10,
+        "Str": -5,
+        "Mag": 30,
+        "Spd": 10,
+        "Dex": 5,
+        "Def": -5,
+        "Res": 30,
+        "Lck": 20,
+        "Cha": 10
+      },
+      "weapons": [
+        "Sword",
+        "Gauntlet",
+        "Axe",
+        "White Magic",
+        "Black Magic"
+      ],
+      "trains": [
+        "Sword +2",
+        "Axe +1",
+        "Gauntlet +2",
+        "Black Magic +5",
+        "White Magic +5",
+        "Infantry +1"
+      ],
+      "skills": [
+        "Magic Hit +10: When equipped with magic, grants Hit +10.",
+        "Magic Heal +20: When healing an ally with magic, restores +20 HP.",
+        "All-Magic Zenith: Multiplies black magic and white magic uses by 3."
+      ],
+      "mastery": {
+        "ability": "Divine Law",
+        "description": "Grants Mag +10.",
+        "requires": "Fill the Class EXP gauge by fighting in this class; exact threshold not documented. Once mastered, the ability is a permanent equippable passive in any class (Abilities tab); infantry-only or mounted-only abilities switch off in the wrong movement type."
+      },
+      "notes": "fortunesweave.co.uk marks this page unverified.",
+      "sources": [
+        "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/625311",
+        "https://fortunesweave.co.uk/classes/the-avatar"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "route": "Leda",
+  "ch": 1,
+  "name": "The Vengeful Dancer",
+  "free": null,
+  "unlocks": [
+    "Song of Passion (Str and Mag up)",
+    "Fortuna's Blessing (rewind) after Turn 1"
+  ],
+  "routine": null,
+  "missables": [],
+  "classes": {},
+  "gear": {
+    "assign": [
+      {
+        "item": "Obsidian",
+        "to": "Leda",
+        "why": "Res +5 key item, always on: explore Kassite before the fight"
+      }
+    ]
+  },
+  "recruits": [],
+  "quests": {
+    "route": [],
+    "sub": [],
+    "paralogue": []
+  },
+  "explore": [
+    {
+      "text": "Explore [[place:Kassite]] before the fight and pick up the [[item:Obsidian]] key item"
+    }
+  ],
+  "battle": {
+    "title": "vs. Bjor",
+    "objective": "Defeat all enemies",
+    "lose": "Leda falls",
+    "tips": []
+  }
+}

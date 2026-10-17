@@ -1,0 +1,418 @@
+{
+  "name": "Eshmel",
+  "slug": "eshmel",
+  "epithet": "The Promised One / Herald of the Pale Raven",
+  "faction": "The Savior's Army",
+  "weapons": [
+    "Spear (The Nameless)",
+    "Reason magic (Fire, Thunder, Bolganone)",
+    "Faith magic (Heal, Seraphim, Recover)"
+  ],
+  "preferred": [
+    "Authority",
+    "Spear"
+  ],
+  "personality": "Admires ambitious and highly talented people, and enjoys board games and small unnamed flowers.",
+  "story": "The avatar: a soul placed in a Mediator body after the original was destroyed, awakened by the goddess Sothis and sent back in time to stop the demon god Balor from destroying the world by changing the fates of four heroes (Cai, Dietrich, Theodora, Leda).",
+  "personalSkill": {
+    "name": "Light of Salvation",
+    "effect": "Neutralizes Underworld Boon on foes within 2 spaces. Lv20 adds Scorching Sun: 5% chance to reduce undead foe damage to 0."
+  },
+  "growths": {
+    "HP": 50,
+    "Str": 45,
+    "Mag": 45,
+    "Spd": 45,
+    "Dex": 45,
+    "Def": 35,
+    "Res": 35,
+    "Lck": 40,
+    "Cha": 50
+  },
+  "supports": [
+    "Cai (A)",
+    "Dietrich (A)",
+    "Esmeralda (A)",
+    "Leda (A)",
+    "Theodora (A)"
+  ],
+  "joins": "Automatically from the Prologue (Descent) and Chapter 1 (The White Bird). Base stats at Lv40 (Guardian): HP 50, Str 33, Mag 24, Dex 28, Spd 26, Lck 25, Def 23, Res 19, Cha 29.",
+  "build": {
+    "role": "Game-over anchor: spear hybrid and Underworld Boon breaker",
+    "path": [
+      "Guardian",
+      "Sentinel"
+    ],
+    "part3Target": "Sentinel",
+    "notes": "Light of Salvation strips Boon within 2; Vendetta (Leda's Part II copy) brakes his Celestial Wells gauge. The Trident is Theodora's."
+  },
+  "sources": [
+    "https://fortunesweave.co.uk/characters/eshmel"
+  ],
+  "guide": {
+    "role": "Game-over anchor: spear hybrid and the army's Underworld Boon breaker",
+    "summary": "Every Part III battle is lost if he falls, and every Boon foe within 2 of him loses its Boon. Walk him in the middle of the spear and axe users, fill his Celestial Wells gauge with the spear, and brake it with [[item:Vendetta]] at 10 to 11.",
+    "playstyle": "Player phase: one spear hit or a Blaze Art from Overblaze, ending within 2 of the units fighting Boon foes. Enemy phase: shield on, out of reach of anything that can two-shot him. Mission Time: station him in Dagsion so he can join any battle.",
+    "focus": [
+      "HP",
+      "Def",
+      "Spd"
+    ],
+    "keys": [
+      "Keep every spear and axe user within 2 of him: Light of Salvation strips their foes' Boon.",
+      "Finish Credna's request in Sec 3: The Nameless becomes the Shining Spear (Mt 18, Sol).",
+      "Gauge at 10-11: one combat with Vendetta (Curse 2) to drain it below Burst.",
+      "Arena Heavy weeks from Sec 2: Heavy C gives Armored Move+ (Mov +2).",
+      "Spear A by Lv 45 for Sentinel: Mounted Training to B, then fights."
+    ],
+    "watch": [
+      "Game over: every Part III battle ends if he falls. Check bow and tome ranges every turn.",
+      "Weight: Bronze Spear +5 (Shining Spear from Sec 4) 7 + Silver Shield 4 = 11 over Bld ?. Vendetta (Wt 20) gets him doubled: poke at 3-5 only.",
+      "Gauge: Celestial Wells fills on his attacks; Burst at full (12?) drops Overblaze and halves max HP.",
+      "Undead: Vendetta can zero a hit (Offset Curse, not in the forecast). Never swing it at undead.",
+      "Ranks: join ranks ?. Sentinel needs Spear A at Lv 45; Arena seats bench first."
+    ],
+    "decisions": [
+      {
+        "topic": "Take Leda's Vendetta as the brake",
+        "pick": "Vendetta from Leda's Part II clear; Leda's Muen stays stored",
+        "why": "Vendetta hits at 1-2 and Supreme Serpent at 2-5 with no follow-up, so the brake combat is a safe poke. Muen is Hit 45 at range 1. Theodora keeps her own route's Muen and Vendetta.",
+        "else": "Leda's Muen if that clear's Vendetta isn't in storage"
+      },
+      {
+        "topic": "Stop at Sentinel",
+        "pick": "Sentinel from Sec 4; no Divine class",
+        "why": "His only Divine fit is The Trident (Spear S), and Theodora holds it (one holder). Sentinel keeps doubled White Magic, Magic Heal +10 and the spear."
+      }
+    ],
+    "callouts": [
+      {
+        "type": "special-map",
+        "text": "Part II Ch 5: hit Dagda with a Longbow Deadeye; next turn Eshmel appears and disables his Shield."
+      }
+    ],
+    "stages": [
+      {
+        "when": "Part III Sec 1 to 3 (Guardian)",
+        "from": {
+          "part": 3,
+          "ch": 1
+        },
+        "to": {
+          "part": 3,
+          "ch": 3
+        },
+        "level": "Lv 40+ (Prologue Lv 40; Part III level ?)",
+        "class": "Guardian",
+        "kind": "core",
+        "goal": "Boon breaker: Light of Salvation strips Boon within 2. Fill the gauge with The Nameless, brake with Vendetta.",
+        "why": [
+          "Sec 1 Dagda: Orchel's Strahl and Cai's Blackfire break the shield; he only has to live",
+          "Underworld Boon: his own answer; spear and axe users fight within 2 of him",
+          "Breza (Sec 2): fliers; he anchors the turtle while bows shoot"
+        ],
+        "exit": "Lv 45 and Spear A: Sentinel exam (Master License)",
+        "masteries": [
+          "Brace"
+        ],
+        "weapons": [
+          {
+            "item": "Bronze Spear +5",
+            "why": "Main: Mt ?, Hit 90, Def +3, Wt 7; tank tier, no Curse",
+            "plan": "Refine to +5 with Warrior's Soulstone"
+          },
+          {
+            "item": "The Nameless",
+            "why": "Hold for Credna's request: becomes the Shining Spear (Sec 3)",
+            "plan": "Eshmel's own"
+          },
+          {
+            "item": "Vendetta",
+            "why": "Curse 2 brake at gauge 10-11; Supreme Serpent 2-5, no follow-up",
+            "alts": [
+              "Muen"
+            ]
+          }
+        ],
+        "equipment": [
+          {
+            "item": "Silver Shield",
+            "why": "Def +5, Wt 4: the game-over unit's wall",
+            "slot": "Defense",
+            "alts": [
+              "Hexlock Shield",
+              "Da Mina Shield"
+            ]
+          }
+        ],
+        "items": [
+          {
+            "item": "Elixir",
+            "why": "100 HP on the boss turn",
+            "alts": [
+              "Concoction"
+            ]
+          },
+          {
+            "item": "Concoction",
+            "why": "40 HP, 2 uses"
+          }
+        ],
+        "arts": [
+          {
+            "name": "Tempest Spear",
+            "why": "Spear D: Mt +4, Hit +10"
+          },
+          {
+            "name": "Supreme Serpent",
+            "why": "Vendetta: Mt +7, range 2-5, no follow-up; the brake poke"
+          }
+        ],
+        "spells": [
+          {
+            "name": "Seraphim",
+            "why": "White C: effective vs undead"
+          },
+          {
+            "name": "Recover",
+            "why": "White B: 30 HP"
+          },
+          {
+            "name": "Heal",
+            "why": "White D: 10 HP (+10 Magic Heal)"
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Armored Move",
+            "why": "Heavy D? (his row): Mov +1, untagged"
+          },
+          {
+            "name": "Avoid Fatality",
+            "why": "Infantry D: Ddg +10 on the game-over unit"
+          },
+          {
+            "name": "Spears Lv. 2",
+            "why": "Spear C+: Hit +5"
+          },
+          {
+            "name": "Knightly Senses",
+            "why": "Riding D?: Avo +10 vs spears"
+          },
+          {
+            "name": "Scorching Sun",
+            "why": "Lv 20 or 45?: 5% to take 0 from undead"
+          }
+        ],
+        "training": [
+          {
+            "rank": "Heavy Armor C",
+            "for": "Armored Move+ (Mov +2)",
+            "how": "Arena Heavy from Sec 2 (Arena Construction Effort first)"
+          },
+          {
+            "rank": "Spear A",
+            "for": "Sentinel exam at Lv 45",
+            "how": "Arena Mounted to B (also Riding D, Authority), then Guardian fights"
+          }
+        ],
+        "tips": [
+          "Bronze Spear +5 in hand: Def +3 on the game-over unit; The Nameless rides for Credna",
+          "Mission Time: station him in Dagsion; he can join any battle from there",
+          "Undead: spear and Seraphim only; Vendetta can blank the hit (Offset Curse)",
+          "Blaze Arts: Nine-Sky Strike at gauge 6, Cleave Heaven at 11 (Effective+ vs undead)"
+        ],
+        "checks": [
+          {
+            "stat": "Spd",
+            "at": "Sec 2",
+            "need": "Breza's fliers don't double him in the forecast (spear + shield)",
+            "why": "Doubled hits on the game-over unit",
+            "fix": [
+              "Drop the Silver Shield (Wt 4)",
+              "Speedwing (Spd +2), Part III chests"
+            ]
+          }
+        ]
+      },
+      {
+        "when": "Part III Sec 4+ (Sentinel)",
+        "from": {
+          "part": 3,
+          "ch": 4
+        },
+        "level": "Lv 45+",
+        "class": "Sentinel",
+        "kind": "core",
+        "goal": "Sentinel: doubled White Magic, Magic Heal +10. Shining Spear's Sol heals all damage dealt.",
+        "why": [
+          "Mahadu (Sec 5): spears and forests; keep Klapka within 2 of him",
+          "Cohen & Maria: Lust compares Cha; his 50 Cha growth holds Hit/Avo",
+          "Balor: stands at the core with the striker, a healer and the Dancer"
+        ],
+        "exit": "Endpoint. The Trident (Spear S) is Theodora's.",
+        "masteries": [
+          "Resolute Stance"
+        ],
+        "weapons": [
+          {
+            "item": "Shining Spear",
+            "why": "Mt 18, Hit 90, Wt 7: Sol heals HP equal to all damage",
+            "alts": [
+              "The Nameless"
+            ],
+            "plan": "Credna's request, then talk to Credna (Sec 3)"
+          },
+          {
+            "item": "Vendetta",
+            "why": "Curse 2 brake at gauge 10-11; Supreme Serpent 2-5",
+            "alts": [
+              "Muen"
+            ]
+          }
+        ],
+        "equipment": [
+          {
+            "item": "Silver Shield",
+            "why": "Def +5, Wt 4",
+            "slot": "Defense",
+            "alts": [
+              "Hexlock Shield",
+              "Da Mina Shield"
+            ]
+          },
+          {
+            "item": "Hexlock Shield",
+            "why": "Hexlock Shield: Theodora holds the Cloth of Aurora",
+            "slot": "Accessory",
+            "situational": "Mage maps (Drake, Cohen & Maria): replaces the Silver Shield",
+            "alts": [
+              "Talisman Shield"
+            ]
+          }
+        ],
+        "items": [
+          {
+            "item": "Elixir",
+            "why": "100 HP on the boss turn",
+            "alts": [
+              "Concoction"
+            ]
+          },
+          {
+            "item": "Concoction",
+            "why": "40 HP, 2 uses"
+          }
+        ],
+        "arts": [
+          {
+            "name": "Frozen Spear",
+            "why": "Spear A: Mt +7, magic damage vs armored undead"
+          },
+          {
+            "name": "Graceful Blow",
+            "why": "Spear A: Mt +7; Dex/2 % to cost no durability"
+          },
+          {
+            "name": "Tempest Spear",
+            "why": "Spear D: Mt +4, Hit +10"
+          },
+          {
+            "name": "Supreme Serpent",
+            "why": "Vendetta: range 2-5, no follow-up"
+          }
+        ],
+        "spells": [
+          {
+            "name": "Seraphim",
+            "why": "Effective vs undead; doubled uses in Sentinel"
+          },
+          {
+            "name": "Recover",
+            "why": "30 HP (+10 Magic Heal)"
+          },
+          {
+            "name": "Fortify",
+            "why": "White A?: 20 HP to allies within 1-5"
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Armored Move+",
+            "why": "Heavy C (his row): Mov +2, untagged"
+          },
+          {
+            "name": "Avoid Fatality",
+            "why": "Infantry D: Ddg +10"
+          },
+          {
+            "name": "Spears Lv. 3",
+            "why": "Spear B+: Hit/Avo +5"
+          },
+          {
+            "name": "Attack Formation+",
+            "why": "Authority B (his row): Atk +2 to adjacent allies"
+          },
+          {
+            "name": "Scorching Sun",
+            "why": "5% to take 0 from undead"
+          }
+        ],
+        "training": [
+          {
+            "rank": "Authority B",
+            "for": "Attack Formation+",
+            "how": "Arena Mounted or Mage"
+          }
+        ],
+        "tips": [
+          "Resolute Stance, once mastered: swap in for Scorching Sun on maps with no undead",
+          "Undead: Shining Spear, Frozen Spear and Seraphim; Vendetta stays in the bag"
+        ],
+        "drop": [
+          {
+            "item": "Armored Move",
+            "why": "Armored Move+ (Mov +2) replaces it"
+          },
+          {
+            "item": "Spears Lv. 2",
+            "why": "Spears Lv. 3 replaces it"
+          },
+          {
+            "item": "Knightly Senses",
+            "why": "Slot goes to Attack Formation+ for the ring of allies"
+          },
+          {
+            "item": "The Nameless",
+            "why": "Upgraded to the Shining Spear"
+          },
+          {
+            "item": "Bronze Spear +5",
+            "why": "Shining Spear (Sol heals all damage) takes the hits; slot opens"
+          }
+        ]
+      }
+    ],
+    "sources": [
+      "part3-salvation",
+      "part2-war",
+      "weapons-and-items",
+      "combat-arts-and-abilities",
+      "character-learnsets",
+      "equippable-abilities",
+      "class-data",
+      "class-and-weapon-guide",
+      "redesign/12-late-game-pass"
+    ]
+  },
+  "recruitOn": {
+    "Leda": {
+      "how": "story",
+      "window": "Plays every Part III map (Prologue Lv 40 Guardian)"
+    },
+    "Theodora": {
+      "how": "story",
+      "window": "Plays every Part III map (Prologue Lv 40 Guardian)"
+    }
+  }
+}

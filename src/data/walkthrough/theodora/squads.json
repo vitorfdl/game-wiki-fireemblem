@@ -1,0 +1,518 @@
+{
+  "route": "Theodora",
+  "draft": false,
+  "note": "Lord squads (D-143): each letter follows a Flame Lord, so every map ability stays on the map. A Theodora, B Cai, C Leda (Section 3), D Dietrich (Section 4), E Talimun (Section 5). Theodora's War army carries the first gates; the imports catch up on the bench and in dungeons. Section 6 rebuilds A, B and C into the 24 for Balor (disbanding is free). Eshmel never rides: he joins any gate from Dagsion.",
+  "sections": [
+    {
+      "n": 2,
+      "squads": [
+        {
+          "id": "A",
+          "role": "Bastion · Theodora",
+          "job": "West: posthouses, Jurah, Mars, materials",
+          "units": [
+            "Theodora",
+            "Ninae",
+            "Ultand",
+            "Tobias",
+            "Bonaventure",
+            "Sofia",
+            "Sirocco",
+            "Dietrich"
+          ],
+          "gates": [
+            "Battle vs. Breza"
+          ],
+          "note": "Theodora's Part II wall core plus Dietrich for Answerer's Cry shards until his squad opens in Section 4. Battalions farm the dungeon nodes it passes."
+        },
+        {
+          "id": "B",
+          "role": "Vanguard · Cai",
+          "job": "East: Centurio, Hakuren, Regia, Kalla",
+          "units": [
+            "Cai",
+            "Leda",
+            "Alexandra",
+            "Lysander",
+            "Lilian",
+            "Nuzzuo",
+            "Troy",
+            "Tialla"
+          ],
+          "gates": [
+            "Rescue Centurio",
+            "Battle vs. Breza"
+          ],
+          "note": "Cai's Farming grows the Hakuren; Leda rides here to perform in Regia until her squad opens. Troy not in yet: Seteth takes his seat."
+        }
+      ],
+      "bench": [
+        "Seteth",
+        "Olympia",
+        "Catania",
+        "Mu",
+        "Guzran",
+        "Esmeralda",
+        "Inyoni",
+        "Buccar",
+        "Loretta",
+        "Fabio",
+        "Dante",
+        "Kiroc",
+        "Simon",
+        "Goliath",
+        "Gaitz",
+        "Yang Jie",
+        "Talimun",
+        "Orchel",
+        "Anatolia",
+        "Hong Hua",
+        "Bertrand",
+        "Centurio",
+        "Noctula",
+        "Nydine",
+        "Fianna",
+        "Mikaela",
+        "Ludia",
+        "Diego",
+        "Jasmine",
+        "Dadao",
+        "Jester",
+        "Peppe",
+        "Ursula",
+        "Peter",
+        "Halvin",
+        "Sha Lan"
+      ],
+      "note": "Bench units gain EXP and class EXP every map turn: the imports level here. Everyone not listed waits on the bench too."
+    },
+    {
+      "n": 3,
+      "squads": [
+        {
+          "id": "A",
+          "role": "Bastion · Theodora",
+          "job": "Northwest: Smyrnos, Iapetus Cavern · Shenlo",
+          "units": [
+            "Theodora",
+            "Ninae",
+            "Lilian",
+            "Tobias",
+            "Bonaventure",
+            "Sofia",
+            "Sirocco",
+            "Dietrich"
+          ],
+          "gates": [
+            "Battle vs. Shenlo"
+          ],
+          "note": "Lilian (Bow Adept since Section 2) rides here for Shenlo's Pegasi; Ultand waits in B. Bonaventure carries Fimbulvetr Night into Iapetus Cavern; a battalion stays on Iapetus for Cullet and Blue Snoll."
+        },
+        {
+          "id": "B",
+          "role": "Vanguard · Cai",
+          "job": "South: Aurora, Angelica, 2 keys · home guard",
+          "units": [
+            "Cai",
+            "Seteth",
+            "Alexandra",
+            "Lysander",
+            "Ultand",
+            "Nuzzuo",
+            "Troy",
+            "Tialla"
+          ],
+          "gates": [],
+          "note": "Aurora's Temple, 5 Angelica at Starbirth Garden, Heretics' Cave key if still missing, then Giant's-Print Fort and Enno Isle keys. Guards Dagsion in Mission Time."
+        },
+        {
+          "id": "C",
+          "role": "Chorus · Leda",
+          "job": "Desert and southwest: Credna, 2 keys, dances",
+          "units": [
+            "Leda",
+            "Olympia",
+            "Catania",
+            "Mu",
+            "Guzran",
+            "Esmeralda",
+            "Inyoni",
+            "Buccar"
+          ],
+          "gates": [
+            "Battle vs. Shenlo"
+          ],
+          "note": "Leda's own army around the Dancer. Launches Shenlo so A keeps its turn; Catania swaps into the deploy."
+        }
+      ],
+      "bench": [
+        "Loretta",
+        "Fabio",
+        "Dante",
+        "Kiroc",
+        "Simon",
+        "Goliath",
+        "Gaitz",
+        "Yang Jie",
+        "Talimun",
+        "Orchel",
+        "Anatolia",
+        "Hong Hua",
+        "Bertrand",
+        "Centurio",
+        "Noctula",
+        "Nydine",
+        "Fianna",
+        "Mikaela",
+        "Ludia",
+        "Diego",
+        "Jasmine",
+        "Dadao",
+        "Jester",
+        "Peppe",
+        "Ursula",
+        "Peter",
+        "Halvin",
+        "Sha Lan"
+      ],
+      "note": "Leda leaves B for her own squad; Seteth takes her seat in B."
+    },
+    {
+      "n": 4,
+      "squads": [
+        {
+          "id": "A",
+          "role": "Bastion · Theodora",
+          "job": "North: last temples · Hanno, then Baozi",
+          "units": [
+            "Theodora",
+            "Ninae",
+            "Ultand",
+            "Tobias",
+            "Bonaventure",
+            "Sofia",
+            "Sirocco",
+            "Bertrand"
+          ],
+          "gates": [
+            "Battle vs. Hanno",
+            "Battle vs. Baozi"
+          ],
+          "note": "Divine exams first: The Trident (Theodora), The Eternal (Tobias), The Avatar (Sirocco). Bertrand takes Dietrich's seat: Cha 50 and an A support with Theodora."
+        },
+        {
+          "id": "B",
+          "role": "Vanguard · Cai",
+          "job": "East: Temple of the Diadem · Hanno, Baozi",
+          "units": [
+            "Cai",
+            "Seteth",
+            "Alexandra",
+            "Lysander",
+            "Lilian",
+            "Nuzzuo",
+            "Troy",
+            "Tialla"
+          ],
+          "gates": [
+            "Battle vs. Hanno",
+            "Battle vs. Baozi"
+          ],
+          "note": "Carries the 5 keys to the Temple of the Diadem on turn 1, brings the 8 items back to Dagsion. Launches Baozi."
+        },
+        {
+          "id": "C",
+          "role": "Chorus · Leda",
+          "job": "Dance for Rebuilt Cities · launches Hanno",
+          "units": [
+            "Leda",
+            "Olympia",
+            "Catania",
+            "Mu",
+            "Guzran",
+            "Esmeralda",
+            "Inyoni",
+            "Buccar"
+          ],
+          "gates": [
+            "Battle vs. Hanno"
+          ],
+          "note": "Mahon, Grand Aragon, Breston, Mons. In Mission Time it launches Hanno from a tile next to the gate, so A and B move on at once."
+        },
+        {
+          "id": "D",
+          "role": "Edge · Dietrich",
+          "job": "Shards, dungeons · home guard, west nodes",
+          "units": [
+            "Dietrich",
+            "Fabio",
+            "Dante",
+            "Kiroc",
+            "Simon",
+            "Goliath",
+            "Gaitz",
+            "Yang Jie"
+          ],
+          "gates": [],
+          "note": "Dietrich's army: crits, Fabio's Ddg -5 aura and Dante's Hit/Crit triggers. Guards Dagsion while A and B fight Hanno."
+        }
+      ],
+      "bench": [
+        "Talimun",
+        "Orchel",
+        "Anatolia",
+        "Hong Hua",
+        "Centurio",
+        "Noctula",
+        "Nydine",
+        "Loretta",
+        "Fianna",
+        "Mikaela",
+        "Ludia",
+        "Diego",
+        "Jasmine",
+        "Dadao",
+        "Jester",
+        "Peppe",
+        "Ursula",
+        "Peter",
+        "Halvin",
+        "Sha Lan"
+      ],
+      "note": "Divine claims: the Diadem tab. Squad E opens in Section 5."
+    },
+    {
+      "n": 5,
+      "squads": [
+        {
+          "id": "A",
+          "role": "Bastion · Theodora",
+          "job": "Cohen & Maria · then home guard",
+          "units": [
+            "Theodora",
+            "Ninae",
+            "Ultand",
+            "Tobias",
+            "Bonaventure",
+            "Sofia",
+            "Sirocco",
+            "Bertrand"
+          ],
+          "gates": [
+            "Battle vs. Cohen and Maria"
+          ],
+          "note": "Launches Cohen and Maria, then guards Dagsion. Bertrand's Cha 50 holds Lust duels with Theodora."
+        },
+        {
+          "id": "B",
+          "role": "Vanguard · Cai",
+          "job": "Cohen & Maria",
+          "units": [
+            "Cai",
+            "Seteth",
+            "Alexandra",
+            "Lysander",
+            "Lilian",
+            "Nuzzuo",
+            "Troy",
+            "Tialla"
+          ],
+          "gates": [
+            "Battle vs. Cohen and Maria"
+          ],
+          "note": "Bows for the birds, fliers for the treatise carriers."
+        },
+        {
+          "id": "C",
+          "role": "Chorus · Leda",
+          "job": "Drake · Valley of Death",
+          "units": [
+            "Leda",
+            "Olympia",
+            "Catania",
+            "Mu",
+            "Guzran",
+            "Ludia",
+            "Inyoni",
+            "Buccar"
+          ],
+          "gates": [
+            "Battle vs. Drake"
+          ],
+          "note": "Aragona and Cartodo Posthouses to the northwest gate; Leda dances Guzran into Drake. Ludia (Mov 5 Swordmaster) replaces Esmeralda for the rush."
+        },
+        {
+          "id": "D",
+          "role": "Edge · Dietrich",
+          "job": "Mahadu · Kurdelind Ruins",
+          "units": [
+            "Dietrich",
+            "Fabio",
+            "Dante",
+            "Kiroc",
+            "Simon",
+            "Esmeralda",
+            "Gaitz",
+            "Yang Jie"
+          ],
+          "gates": [
+            "Battle vs. Mahadu"
+          ],
+          "note": "Crit squad for Wrath miasma; Esmeralda's thrown spears (Hit +20, Atk +4); Gaitz's elephant takes half damage beside Klapka. Leaves on turn 1 via Salacia Posthouse; after the battle, straight into Dagsion for Klapka."
+        },
+        {
+          "id": "E",
+          "role": "Wardens · Talimun",
+          "job": "Drake · second squad",
+          "units": [
+            "Talimun",
+            "Orchel",
+            "Anatolia",
+            "Mikaela",
+            "Loretta",
+            "Centurio",
+            "Noctula",
+            "Fianna"
+          ],
+          "gates": [
+            "Battle vs. Drake"
+          ],
+          "note": "Part III joiners plus infantry for the desert: Fianna is the second healer, Mikaela a Battlemaster. Launches Drake; all 8 deploy (no mounts)."
+        }
+      ],
+      "bench": [
+        "Hong Hua",
+        "Nydine",
+        "Goliath",
+        "Aswan",
+        "Tahonia",
+        "Jasmine",
+        "Dadao",
+        "Jester",
+        "Peppe",
+        "Diego",
+        "Ursula",
+        "Peter",
+        "Halvin",
+        "Sha Lan"
+      ],
+      "note": "40 seats. Hong Hua and Nydine sit out Section 5 (Drake bans mounts) and keep levelling on the bench; Hong Hua returns for Balor."
+    },
+    {
+      "n": 6,
+      "squads": [
+        {
+          "id": "A",
+          "role": "Balor west · Theodora",
+          "job": "Balor: west gates and reinforcements",
+          "units": [
+            "Theodora",
+            "Ninae",
+            "Sofia",
+            "Bonaventure",
+            "Fabio",
+            "Mu",
+            "Catania",
+            "Lysander"
+          ],
+          "gates": [
+            "Balor's Last Stand"
+          ],
+          "note": "Two Druids break gates from range; Lysander (Mov 7 flier), Mu and Catania run; Theodora and Ninae hold the line with Physic."
+        },
+        {
+          "id": "B",
+          "role": "Balor east · Cai",
+          "job": "Lyrah chase · Balor east gates",
+          "units": [
+            "Cai",
+            "Alexandra",
+            "Seteth",
+            "Lilian",
+            "Nuzzuo",
+            "Troy",
+            "Hong Hua",
+            "Tialla"
+          ],
+          "gates": [
+            "Showdown vs. Lyrah",
+            "Balor's Last Stand"
+          ],
+          "note": "Highest Mov in the army: Cai Mov 9, two fliers. Hong Hua warps a striker to a gate; Tialla adds Physic so Troy can run gates."
+        },
+        {
+          "id": "C",
+          "role": "Balor center · Leda",
+          "job": "Lyrah hold · Balor's HP bars",
+          "units": [
+            "Leda",
+            "Sirocco",
+            "Dietrich",
+            "Tobias",
+            "Guzran",
+            "Olympia",
+            "Talimun",
+            "Dante"
+          ],
+          "gates": [
+            "Showdown vs. Lyrah",
+            "Balor's Last Stand"
+          ],
+          "note": "The damage team: Avatar, Blade, Eternal, Guzran, danced by Leda. Talimun curses from 10 tiles; Olympia and Dante heal."
+        },
+        {
+          "id": "D",
+          "role": "Trials · Dietrich's army",
+          "job": "Last Trials and quests by 6/6",
+          "units": [
+            "Kiroc",
+            "Simon",
+            "Esmeralda",
+            "Gaitz",
+            "Yang Jie",
+            "Inyoni",
+            "Buccar",
+            "Ludia"
+          ],
+          "gates": [],
+          "note": "Off the Balor 24. Keep the Section 5 squads through Free Time (Dietrich's Answerer's Cry); rebuild into these only before the Temple."
+        },
+        {
+          "id": "E",
+          "role": "Reserve · map sweep",
+          "job": "Spare clash team, map exploration",
+          "units": [
+            "Ultand",
+            "Orchel",
+            "Anatolia",
+            "Bertrand",
+            "Centurio",
+            "Noctula",
+            "Loretta",
+            "Mikaela"
+          ],
+          "gates": [],
+          "note": "Spare clash team; fills a Balor seat if anyone in A to C falls behind."
+        }
+      ],
+      "bench": [
+        "Klapka",
+        "Fianna",
+        "Nydine",
+        "Goliath",
+        "Aswan",
+        "Tahonia",
+        "Jasmine",
+        "Dadao",
+        "Jester",
+        "Peppe",
+        "Diego",
+        "Ursula",
+        "Peter",
+        "Halvin",
+        "Sha Lan"
+      ],
+      "note": "Keep Section 5's squads through Free Time; in Dagsion before the Temple of Balor, rebuild A, B and C into these Balor teams (free). Lyrah: B and C deploy. Balor: A, B and C, 24 + Eshmel."
+    }
+  ]
+}

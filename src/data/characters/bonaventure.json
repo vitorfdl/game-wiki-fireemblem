@@ -1,0 +1,1058 @@
+{
+  "name": "Bonaventure",
+  "slug": "bonaventure",
+  "epithet": "General and right hand to Queen Theodora",
+  "faction": "Megaira's Beacon",
+  "homeRoute": "Theodora",
+  "weapons": [
+    "White Magic",
+    "Black Magic"
+  ],
+  "personality": "Wise royal counsellor who loves philosophy, poetry and cooking.",
+  "story": "He has advised the Saraminian crown since King Sergio's reign and serves as the kingdom's living memory of history, since Saramis forbids written language. He joins automatically on Theodora's route and cannot be recruited on Cai, Dietrich or Leda routes.",
+  "personalSkill": {
+    "name": "Sage Advice",
+    "effect": "Def+3 to adjacent allies. Lv20: Additional Intel (30% chance of Hit+10 to adjacent allies in combat); Lv35: Hit+20."
+  },
+  "growths": {
+    "HP": 35,
+    "Str": 35,
+    "Mag": 45,
+    "Spd": 40,
+    "Dex": 50,
+    "Def": 30,
+    "Res": 40,
+    "Lck": 35,
+    "Cha": 40
+  },
+  "supports": [
+    "Halvin",
+    "Lilian",
+    "Lysander",
+    "Nydine",
+    "Theodora",
+    "Tialla",
+    "Tobias",
+    "Ursula"
+  ],
+  "tiers": [
+    {
+      "source": "Pocket Tactics",
+      "tier": "A"
+    },
+    {
+      "source": "KeenGamer",
+      "tier": "B"
+    }
+  ],
+  "tierNotes": "Pocket Tactics A; KeenGamer B (support unit). Reddit: Ovate with a Levin Sword hits very hard but is fragile; Spd falls off in Part III for some (disputed).",
+  "recruit": {
+    "how": "auto",
+    "why": [
+      "Joins Theodora's army automatically, so there's no Support or Renown to chase."
+    ]
+  },
+  "requirements": {
+    "Cai": "—",
+    "Dietrich": "—",
+    "Theodora": "Auto",
+    "Leda": "—"
+  },
+  "build": {
+    "role": "Support caster: Hit aura for the axe users, second healer, battalion carrier #3",
+    "path": [
+      "Diviner",
+      "Shaman",
+      "Ovate",
+      "Bishop (Part II detour: Barrier)",
+      "Ovate",
+      "Druid"
+    ],
+    "part1Target": "Ovate (Bind Dexterity mastered, Black Magic B)",
+    "part3Target": "Druid",
+    "notes": "Shaman from Ch 6 to Lv 35 keeps doubled Black Magic and Mag 60 growth while he escorts the axe users; Arena Mage covers Black and White Magic B. Part II Bishop banks Barrier, which stacks with Sage Advice on the unit beside him. Sirocco is the main nuke from Ch 7.",
+    "confidence": "medium"
+  },
+  "guide": {
+    "role": "Support caster: Hit aura for the axe users, second healer, third battalion carrier",
+    "summary": "The Fortress's support caster and backup healer. End him beside Theodora, Ninae or Tobias: Def +3 always (Sage Advice) and [[ability:Additional Intel]] Hit +10 to +20 (30%). Then cast at range 1-2 or heal.",
+    "playstyle": "Support first, damage second. He stands at the front for the aura, so keep a Concoction and an escape tile. From Ch 9 Swarm Z slows the target so Tobias doubles it or isn't doubled; from Ch 11 Banshee pins a boss at range 3.",
+    "focus": [
+      "Mag",
+      "Spd",
+      "HP"
+    ],
+    "keys": [
+      "Move him first: end beside Theodora, Ninae or Tobias. Def +3, Hit +10 (30%), +20 at Lv 35.",
+      "Train in Arena Mage most weeks: Black Magic B by Lv 35, White Magic B for Part II.",
+      "Stay [[class:Shaman]] from Ch 6 to Lv 35: doubled Black Magic, Mag 60 growth.",
+      "Read Archives Z (Ch 9), T (Vandahl) and θ (Ch 11) on him: no slot used.",
+      "Take [[class:Bishop]] in Part II Ch 1 for Barrier, then Ovate again by Ch 3.",
+      "Keep the [[item:Magic Staff]] on; off only when it costs a follow-up."
+    ],
+    "watch": [
+      "HP: 35 growth, Def 20 in Shaman. He stands next to the front: carry a Concoction.",
+      "Weight: Blizzard 6 + Magic Staff 3 = 9; Cutting Gale 8 + 3 = 11. Staff off when it costs a follow-up.",
+      "Part III weight: Salamander +3 3 + Magic Staff 3 = 6 (Levin Sword +2: 11); Fimbulvetr 28 + 3 = 31: one cast, no double.",
+      "Dark spells: Swarm 21, Banshee 23, Dark Spikes 20 Wt. He never doubles with them.",
+      "Inventory: 3/6 (Salamander, Magic Staff, Concoction). Open slots hold Antitoxin or Pure Water."
+    ],
+    "stages": [
+      {
+        "when": "Ch 1 to 3 (no class yet)",
+        "from": {
+          "part": 1,
+          "ch": 1
+        },
+        "to": {
+          "part": 1,
+          "ch": 3
+        },
+        "level": "Start (Lv ?) to Ch 3",
+        "class": "",
+        "kind": "core",
+        "goal": "Joins Ch 1 Turn 2 as your only healer. Sage Advice (Def +3 to adjacent allies) is always on.",
+        "exit": "Ch 4: take the Class License tutorial (Diviner).",
+        "masteries": [],
+        "items": [
+          {
+            "item": "Vulnerary",
+            "why": "20 HP x3: he stands beside the front"
+          }
+        ],
+        "spells": [
+          {
+            "name": "Heal",
+            "why": "White Magic D: your only heal until Ch 5"
+          },
+          {
+            "name": "Wind",
+            "why": "Black Magic D: Mt 3, Wt 3, effective vs fliers"
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Black Magic Lv. 1",
+            "why": "Black Magic D+: Hit +3 for Wind"
+          },
+          {
+            "name": "Steady Shot",
+            "why": "Infantry D?: Hit +5 with magic"
+          },
+          {
+            "name": "Knightly Senses",
+            "why": "Riding D?: Avo +10 vs spears"
+          },
+          {
+            "name": "Read the Winds",
+            "why": "Flying D?: Avo +10 vs bows; swap in whatever D shows"
+          },
+          {
+            "name": "White Magic Lv. 1",
+            "why": "White Magic D+?: Hit +3 with white magic; Heal never misses anyway, so first to swap"
+          }
+        ],
+        "tips": [
+          "Ch 3: answer him after the training-dummy scene for a support bonus",
+          "End his turn next to Tobias on the front line: Def +3"
+        ],
+        "training": [
+          {
+            "rank": "Black Magic D+",
+            "for": "Black Magic Lv. 1",
+            "how": "Starting rank ?; Arena Mage in week 1 if short"
+          },
+          {
+            "rank": "Riding D",
+            "for": "Knightly Senses",
+            "how": "Starting rank ?; Arena Mounted in week 1 if short"
+          },
+          {
+            "rank": "Flying D",
+            "for": "Read the Winds",
+            "how": "Starting rank ?; Arena Mounted in week 1 if short"
+          },
+          {
+            "rank": "White Magic D+",
+            "for": "White Magic Lv. 1",
+            "how": "Starting rank ?; Arena Mage in week 1 if short"
+          }
+        ]
+      },
+      {
+        "when": "Ch 4 to 5 (Diviner)",
+        "from": {
+          "part": 1,
+          "ch": 4
+        },
+        "to": {
+          "part": 1,
+          "ch": 5
+        },
+        "level": "Up to Lv 20",
+        "class": "Diviner",
+        "kind": "core",
+        "goal": "Trains both magics and heals until Sofia joins (Ch 5). Sage Advice (Def +3): end next to Tobias.",
+        "exit": "Lv 20 with Black Magic C: Shaman exam (Ch 6).",
+        "masteries": [
+          "Magic Basics"
+        ],
+        "items": [
+          {
+            "item": "Vulnerary",
+            "why": "20 HP x3: he stands beside the front"
+          }
+        ],
+        "spells": [
+          {
+            "name": "Heal",
+            "why": "Backup heals"
+          },
+          {
+            "name": "Wind",
+            "why": "Black Magic D chip"
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Magic Basics",
+            "why": "Diviner mastery: Mag/Res +1, once mastered"
+          },
+          {
+            "name": "Black Magic Lv. 1",
+            "why": "Hit +3 for Wind"
+          },
+          {
+            "name": "Steady Shot",
+            "why": "Infantry D: Hit +5 with magic, on foot"
+          },
+          {
+            "name": "Knightly Senses",
+            "why": "Riding D: Avo +10 vs spears"
+          },
+          {
+            "name": "Read the Winds",
+            "why": "Flying D: Avo +10 vs bows"
+          }
+        ],
+        "battalion": {
+          "name": "Priest Trainees",
+          "why": "Res +1, Lck +1, Cha +3 on the second healer, from Ch 5",
+          "where": "Ch 5 Search tutorial (auto)",
+          "situational": "Authority E? (start rank unknown)"
+        },
+        "training": [
+          {
+            "rank": "Black Magic C",
+            "for": "Shaman exam (Ch 6)",
+            "how": "Diviner Black +1 a fight; Black-Magic Manual (Collapsed Fort, Ch 4); Arena Mage"
+          },
+          {
+            "rank": "White Magic C",
+            "for": "Torch; Part II Bishop later",
+            "how": "Diviner White +1 a fight"
+          },
+          {
+            "rank": "Infantry D",
+            "for": "Steady Shot (magic Hit +5)",
+            "how": "Arena Infantry 1-2 weeks? (start rank ?), the seat beside Lilian"
+          },
+          {
+            "rank": "Riding D, Flying D",
+            "for": "Knightly Senses, Read the Winds",
+            "how": "Arena Mounted 1-2 weeks? (start ranks ?), also trains Authority"
+          }
+        ]
+      },
+      {
+        "when": "Ch 6 to 9 (Shaman)",
+        "from": {
+          "part": 1,
+          "ch": 6
+        },
+        "to": {
+          "part": 1,
+          "ch": 9
+        },
+        "level": "Lv 20 to about 34",
+        "class": "Shaman",
+        "kind": "core",
+        "goal": "Doubled Black Magic, Mag 60 growth. Additional Intel (Lv 20): the ally beside him gets Hit +10 (30%).",
+        "why": [
+          "Stays Shaman Ch 8 to 9: a Priest trip would only chase White Magic B, which Arena Mage reaches",
+          "Ch 6 to 7 beside Zarcone (Hammer, Hit +10 at Lv 20); Ch 8 to 9 beside Theodora or Ninae (Def +3)"
+        ],
+        "exit": "Lv 35 with Black Magic B: Ovate exam in Ch 10 or 11.",
+        "masteries": [
+          "Bind Dexterity"
+        ],
+        "weapons": [
+          {
+            "item": "Salamander",
+            "why": "Magic gauntlet, range 1-2, Wt 3: Compressed Laser on bosses"
+          }
+        ],
+        "equipment": [
+          {
+            "item": "Magic Staff",
+            "why": "Mag +3, Wt 3",
+            "slot": "Accessory",
+            "alts": [
+              "Archer's Ring",
+              "Spirit Gem"
+            ]
+          }
+        ],
+        "items": [
+          {
+            "item": "Concoction",
+            "why": "40 HP x2: HP 35 growth, he stands at the front",
+            "alts": [
+              "Vulnerary"
+            ]
+          },
+          {
+            "item": "Antitoxin",
+            "why": "Cures Poison, immune 3 turns",
+            "situational": "Ch 9 Digammas (poison): open slot"
+          }
+        ],
+        "arts": [
+          {
+            "name": "Compressed Laser",
+            "why": "Salamander art: Mt +10, Hit +20, magic; 2 of its 3 uses"
+          }
+        ],
+        "spells": [
+          {
+            "name": "Blizzard",
+            "why": "Black Magic C: Mt 4, Wt 6; doubled casts"
+          },
+          {
+            "name": "Wind",
+            "why": "Mt 3, Wt 3: doubles easily, effective vs fliers"
+          },
+          {
+            "name": "Swarm Z",
+            "why": "Archive Z (Southern Passage, Ch 9): Spd -3 at range 2, Wt 21"
+          },
+          {
+            "name": "Torch",
+            "why": "White Magic C: Vis +3 on fog maps"
+          },
+          {
+            "name": "Heal",
+            "why": "Backup"
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Additional Intel",
+            "why": "Lv 20: Hit +10 (30%) to adjacent allies"
+          },
+          {
+            "name": "Steady Shot",
+            "why": "Hit +5 with magic: Swarm Z and Blizzard land"
+          },
+          {
+            "name": "Black Magic Lv. 2",
+            "why": "Black Magic C+: Hit +5 (Shaman casts every turn); Lv. 1 until then"
+          },
+          {
+            "name": "Magic Basics",
+            "why": "Mag/Res +1"
+          },
+          {
+            "name": "Bind Dexterity",
+            "why": "Shaman mastery: Dex -3 on adjacent foes, once mastered"
+          }
+        ],
+        "battalion": {
+          "name": "Pure Priests",
+          "why": "Mag +1, Res +1, Lck +1, Cha +4 at Authority D?",
+          "where": "[[place:Regia]], Ch 6 Recruit Soldiers",
+          "alts": [
+            "Elevated Priests once Authority C"
+          ]
+        },
+        "training": [
+          {
+            "rank": "Black Magic B",
+            "for": "Ovate exam (Lv 35)",
+            "how": "Shaman casts every turn; Arena Mage most weeks"
+          },
+          {
+            "rank": "White Magic B",
+            "for": "Recover; Part II Bishop",
+            "how": "Arena Mage (same seat)"
+          },
+          {
+            "rank": "Authority C",
+            "for": "Lend Dexterity; Elevated Priests",
+            "how": "Arena Mage trains it too"
+          }
+        ],
+        "checks": [
+          {
+            "stat": "Spd",
+            "at": "Lv 25",
+            "need": "Doubles Ch 7 Fighters and Soldiers with Blizzard in the forecast",
+            "why": "Doubled Black Magic is Shaman's payoff",
+            "fix": [
+              "Take off the Magic Staff (Wt 3) on that map",
+              "Cast Wind (Wt 3) instead of Blizzard",
+              "Ovate (Spd 45 growth) at Lv 35"
+            ]
+          }
+        ],
+        "tips": [
+          "Swarm Z (Wt 21) never doubles: cast it at range 2 on foes with no ranged counter",
+          "Fog maps: Torch before the army moves"
+        ],
+        "drop": [
+          {
+            "item": "Knightly Senses",
+            "why": "Additional Intel takes the slot"
+          },
+          {
+            "item": "Read the Winds",
+            "why": "Bind Dexterity takes the slot: he casts from range 2"
+          },
+          {
+            "item": "Black Magic Lv. 1",
+            "why": "Black Magic Lv. 2 replaces it at C+"
+          }
+        ]
+      },
+      {
+        "when": "Ch 10 to 12 (Ovate)",
+        "from": {
+          "part": 1,
+          "ch": 10,
+          "approx": true
+        },
+        "to": {
+          "part": 1,
+          "ch": 12
+        },
+        "level": "Lv 35 to about 37",
+        "class": "Ovate",
+        "kind": "core",
+        "goal": "Mag 65, doubled Black Magic. Beside Tobias (Hammer) or Theodora: Def +3, Additional Intel+ Hit +20 (30%).",
+        "exit": "Stay Ovate into Part II; Bind Speed comes on the way.",
+        "masteries": [
+          "Bind Speed"
+        ],
+        "weapons": [
+          {
+            "item": "Salamander",
+            "why": "Magic gauntlet, range 1-2, Wt 3: Compressed Laser on bosses"
+          }
+        ],
+        "equipment": [
+          {
+            "item": "Magic Staff",
+            "why": "Mag +3, Wt 3: off when it costs a follow-up",
+            "slot": "Accessory",
+            "plan": "Keep it on",
+            "alts": [
+              "Archer's Ring",
+              "Spirit Gem"
+            ]
+          }
+        ],
+        "items": [
+          {
+            "item": "Concoction",
+            "why": "40 HP x2; also his Part II stock",
+            "alts": [
+              "Vulnerary"
+            ]
+          }
+        ],
+        "arts": [
+          {
+            "name": "Compressed Laser",
+            "why": "Salamander art: Mt +10, Hit +20, magic; 2 of its 3 uses"
+          },
+          {
+            "name": "Lend Dexterity",
+            "why": "Authority C: Dex +2 on the axe user before he swings"
+          }
+        ],
+        "spells": [
+          {
+            "name": "Cutting Gale",
+            "why": "Black Magic B: Mt 7, Hit 95, Wt 8"
+          },
+          {
+            "name": "Blizzard",
+            "why": "Mt 4, Wt 6: the doubling spell"
+          },
+          {
+            "name": "Swarm Z",
+            "why": "Archive Z (Southern Passage, Ch 9): Spd -3 at range 2, Wt 21"
+          },
+          {
+            "name": "Banshee Θ",
+            "why": "Archive θ (Iapetus Cavern, Ch 11): Immobilize at range 3, Wt 23"
+          },
+          {
+            "name": "Dark Spikes Τ",
+            "why": "Archive T (Vandahl: Pongo x10 + Glirmosa x4): Effective+ vs cavalry, 2 uses"
+          },
+          {
+            "name": "Heal",
+            "why": "Backup"
+          },
+          {
+            "name": "Torch",
+            "why": "Fog maps"
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Additional Intel+",
+            "why": "Lv 35: Hit +20 (30%) to adjacent allies"
+          },
+          {
+            "name": "Bind Speed",
+            "why": "Ovate mastery: Spd -3 on adjacent foes, once mastered"
+          },
+          {
+            "name": "Magic Basics",
+            "why": "Mag/Res +1"
+          },
+          {
+            "name": "Black Magic Lv. 2",
+            "why": "Hit +5 with black magic (rank ?)"
+          },
+          {
+            "name": "Bind Dexterity",
+            "why": "Dex -3 on adjacent foes"
+          }
+        ],
+        "battalion": {
+          "name": "Elevated Priests",
+          "why": "Mag +2, Res +2, Cha +5 at Authority C: casts and heals",
+          "where": "[[place:Raivo Port]], Ch 7 (Renown 5)"
+        },
+        "training": [
+          {
+            "rank": "Black Magic A",
+            "for": "Ice Blade; Druid in Part III",
+            "how": "Ovate Black +3 a fight; Arena seats bench first"
+          },
+          {
+            "rank": "White Magic B",
+            "for": "Part II Bishop exam",
+            "how": "Arena Mage; Ovate White +1"
+          }
+        ],
+        "checks": [
+          {
+            "stat": "Mag",
+            "at": "Lv 35",
+            "need": "Two Cutting Gale hits take a Ch 10 Soldier past half HP in the forecast",
+            "why": "Below that his turns only buff; Sirocco carries the damage alone",
+            "fix": [
+              "Keep the Magic Staff (Mag +3) on",
+              "Sofia's Lend Magic (Mag/Res +2) before he casts?",
+              "Salamander's Compressed Laser (Mt +10) on the key target"
+            ]
+          }
+        ],
+        "tips": [
+          "Ch 11 vs Cai: high-Res units go left (Fire Orb); he fits there",
+          "Ch 12: his 6 items are his Part II kit"
+        ],
+        "drop": [
+          {
+            "item": "Wind",
+            "why": "Cutting Gale also hits fliers"
+          },
+          {
+            "item": "Steady Shot",
+            "why": "Bind Speed takes the slot; Black Magic Lv. 2 keeps Hit +5"
+          }
+        ]
+      },
+      {
+        "when": "Part II Ch 1 to 2 (Bishop)",
+        "from": {
+          "part": 2,
+          "ch": 1
+        },
+        "to": {
+          "part": 2,
+          "ch": 2
+        },
+        "level": "Lv 37 to 40 (Training Drills)",
+        "class": "Bishop",
+        "kind": "detour",
+        "goal": "Bank Barrier (Res +3 to adjacent allies) for the axe user he already escorts. Doubled Recover meanwhile.",
+        "exit": "Barrier mastered: back to Ovate for Ch 3. No White Magic B? Skip it.",
+        "masteries": [
+          "Barrier"
+        ],
+        "weapons": [
+          {
+            "item": "Salamander",
+            "why": "Magic gauntlet, range 1-2, Wt 3: Compressed Laser on bosses",
+            "plan": "Ch 12 kit"
+          }
+        ],
+        "equipment": [
+          {
+            "item": "Magic Staff",
+            "why": "Mag +3",
+            "slot": "Accessory",
+            "plan": "Ch 12 kit",
+            "alts": [
+              "Archer's Ring",
+              "Spirit Gem"
+            ]
+          }
+        ],
+        "items": [
+          {
+            "item": "Concoction",
+            "why": "Ch 12 stock",
+            "alts": [
+              "Vulnerary"
+            ]
+          }
+        ],
+        "arts": [
+          {
+            "name": "Compressed Laser",
+            "why": "Salamander art: Mt +10, Hit +20, magic; 2 of its 3 uses"
+          },
+          {
+            "name": "Lend Dexterity",
+            "why": "Authority C: Dex +2 on the axe user before he swings"
+          }
+        ],
+        "spells": [
+          {
+            "name": "Recover",
+            "why": "White Magic B: 30 HP +10 Magic Heal, doubled"
+          },
+          {
+            "name": "Heal",
+            "why": "Doubled top-ups"
+          },
+          {
+            "name": "Cutting Gale",
+            "why": "Still casts, single uses"
+          },
+          {
+            "name": "Swarm Z",
+            "why": "Archive Z (Southern Passage, Ch 9): Spd -3 at range 2, Wt 21"
+          },
+          {
+            "name": "Banshee Θ",
+            "why": "Archive θ (Iapetus Cavern, Ch 11): Immobilize at range 3, Wt 23"
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Barrier",
+            "why": "Bishop mastery: Res +3 to adjacent allies, once mastered"
+          },
+          {
+            "name": "Additional Intel+",
+            "why": "Hit +20 (30%) to adjacent allies"
+          },
+          {
+            "name": "Bind Speed",
+            "why": "Spd -3 on adjacent foes"
+          },
+          {
+            "name": "Magic Basics",
+            "why": "Mag/Res +1"
+          },
+          {
+            "name": "Black Magic Lv. 2",
+            "why": "Hit +5 with black magic"
+          }
+        ],
+        "battalion": {
+          "name": "Elevated Priests",
+          "why": "Mag +2, Res +2, Lck +1 on the Bishop detour",
+          "where": "Held from Ch 10",
+          "situational": "Part II carryover ?"
+        },
+        "tips": [
+          "Uses one of Part II's 5 Advanced Licenses a chapter",
+          "Ch 1 to 2 are slow physical maps: doubled Recover keeps the front up"
+        ],
+        "training": []
+      },
+      {
+        "when": "Part II Ch 3 to Part III S1 (Ovate)",
+        "from": {
+          "part": 2,
+          "ch": 3
+        },
+        "to": {
+          "part": 3,
+          "ch": 1
+        },
+        "level": "Lv 40 to 42 (Training Drills)",
+        "class": "Ovate",
+        "kind": "core",
+        "goal": "Fortress caster at range 1-2; the ally beside him gets Def +3, Res +3 (Barrier) and Hit +20 (30%).",
+        "exit": "Black Magic A by Part III opens Druid.",
+        "masteries": [],
+        "weapons": [
+          {
+            "item": "Salamander",
+            "why": "Magic gauntlet, range 1-2, Wt 3: Compressed Laser on bosses",
+            "plan": "Ch 12 kit"
+          }
+        ],
+        "equipment": [
+          {
+            "item": "Magic Staff",
+            "why": "Mag +3",
+            "slot": "Accessory",
+            "plan": "Ch 12 kit",
+            "alts": [
+              "Archer's Ring",
+              "Spirit Gem"
+            ]
+          }
+        ],
+        "items": [
+          {
+            "item": "Concoction",
+            "why": "Ch 12 stock",
+            "alts": [
+              "Vulnerary"
+            ]
+          }
+        ],
+        "arts": [
+          {
+            "name": "Compressed Laser",
+            "why": "Salamander art: Mt +10, Hit +20, magic; 2 of its 3 uses"
+          },
+          {
+            "name": "Lend Dexterity",
+            "why": "Authority C: Dex +2 on the axe user before he swings"
+          }
+        ],
+        "spells": [
+          {
+            "name": "Cutting Gale",
+            "why": "Black Magic B: main attack"
+          },
+          {
+            "name": "Blizzard",
+            "why": "The doubling spell"
+          },
+          {
+            "name": "Swarm Z",
+            "why": "Archive Z (Southern Passage, Ch 9): Spd -3 at range 2, Wt 21"
+          },
+          {
+            "name": "Banshee Θ",
+            "why": "Archive θ (Iapetus Cavern, Ch 11): Immobilize at range 3, Wt 23"
+          },
+          {
+            "name": "Dark Spikes Τ",
+            "why": "Archive T (Vandahl: Pongo x10 + Glirmosa x4): Effective+ vs cavalry, 2 uses"
+          },
+          {
+            "name": "Recover",
+            "why": "Backup heal, single uses"
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Additional Intel+",
+            "why": "Hit +20 (30%) to adjacent allies"
+          },
+          {
+            "name": "Barrier",
+            "why": "Res +3 to adjacent allies"
+          },
+          {
+            "name": "Bind Speed",
+            "why": "Spd -3 on adjacent foes"
+          },
+          {
+            "name": "Magic Basics",
+            "why": "Mag/Res +1"
+          },
+          {
+            "name": "Black Magic Lv. 2",
+            "why": "Hit +5 with black magic"
+          }
+        ],
+        "battalion": {
+          "name": "Elevated Priests",
+          "why": "Mag +2, Res +2, Cha +5 on the support caster",
+          "where": "Held from Ch 10",
+          "situational": "Part II carryover ?"
+        },
+        "tips": [
+          "Only his Ch 12 items come in: no shops in Part II",
+          "Ch 5: Dagda's Res is far lower than his Def; magic and Salamanders do the work",
+          "Ch 6 Lyrah: chip her shields from range with Cutting Gale; Tobias hits the cocoon"
+        ],
+        "training": []
+      },
+      {
+        "when": "Part III Section 2+ (Druid)",
+        "from": {
+          "part": 3,
+          "ch": 2
+        },
+        "level": "Lv 45+",
+        "class": "Druid",
+        "kind": "core",
+        "goal": "Mag 75 growth, doubled Black Magic, Magic Hit +7. Undead: cast inside Eshmel's Light of Salvation.",
+        "why": [
+          "Underworld Boon: magic doesn't strip it; Tobias's Evilbreak first, or within 2 of Eshmel"
+        ],
+        "exit": "Endpoint. Black Magic S adds Sagittae (Mt 13, Hit 100).",
+        "masteries": [
+          "Bind Resistance"
+        ],
+        "weapons": [
+          {
+            "item": "Salamander +3",
+            "why": "Mt 15 at +3 (3 at +2), range 1-2, Wt 3, magic: counters and Laser",
+            "plan": "Soulstone queue",
+            "alts": [
+              "Salamander +2",
+              "Levin Sword +2"
+            ]
+          }
+        ],
+        "equipment": [
+          {
+            "item": "Magic Staff",
+            "why": "Mag +3",
+            "slot": "Accessory",
+            "plan": "Carry-over",
+            "alts": [
+              "Archer's Ring",
+              "Spirit Gem"
+            ]
+          }
+        ],
+        "items": [
+          {
+            "item": "Concoction",
+            "why": "40 HP x2",
+            "alts": [
+              "Vulnerary"
+            ]
+          }
+        ],
+        "arts": [
+          {
+            "name": "Compressed Laser",
+            "why": "Salamander art: Mt +10, Hit +20, magic; 2 of its 3 uses"
+          },
+          {
+            "name": "Lend Dexterity",
+            "why": "Authority C: Dex +2 on the axe user before he swings"
+          }
+        ],
+        "spells": [
+          {
+            "name": "Fimbulvetr Night",
+            "why": "Mt 30, Hit 80, Crit 10, Wt 28: 2 casts (Druid doubles); armor and bosses"
+          },
+          {
+            "name": "Ice Blade",
+            "why": "Black Magic A: Mt 12"
+          },
+          {
+            "name": "Cutting Gale",
+            "why": "Mt 7, Hit 95, effective vs fliers: Breza's Rukhs"
+          },
+          {
+            "name": "Swarm Z",
+            "why": "Archive Z (Southern Passage, Ch 9): Spd -3 at range 2, Wt 21"
+          },
+          {
+            "name": "Banshee Θ",
+            "why": "Archive θ (Iapetus Cavern, Ch 11): Immobilize at range 3, Wt 23"
+          },
+          {
+            "name": "Dark Spikes Τ",
+            "why": "Cavalry bosses, if Druid casts dark magic?"
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Additional Intel+",
+            "why": "Hit +20 (30%) to adjacent allies"
+          },
+          {
+            "name": "Barrier",
+            "why": "Res +3 to adjacent allies"
+          },
+          {
+            "name": "Bind Resistance",
+            "why": "Druid mastery: Res -3 on adjacent foes, once mastered"
+          },
+          {
+            "name": "Bind Speed",
+            "why": "Spd -3 on adjacent foes"
+          },
+          {
+            "name": "Black Magic Lv. 4",
+            "why": "Black A+ (Druid Black +4 a fight): Hit/Avo +7"
+          }
+        ],
+        "battalion": {
+          "name": "Elevated Priests",
+          "why": "Mag +2, Res +2, Cha +5; Authority stays C",
+          "where": "Held since Part I",
+          "situational": "Part III: from storage (medium confidence)"
+        },
+        "training": [
+          {
+            "rank": "Black Magic S",
+            "for": "Sagittae",
+            "how": "Druid Black +4 a fight"
+          }
+        ],
+        "tips": [
+          "End beside Tobias or Theodora: Def +3, Hit +20 (30%); Bind Res/Spd hit their foe",
+          "Breza (S2): Cutting Gale on the Rukhs; Iapetus (S3): Fimbulvetr puts out the flames",
+          "Baozi (S4): Fimbulvetr Night and Ice Blade on the armor; Smyrnos Lv 1 for the casters",
+          "Balor west: Fimbulvetr on a gate-break turn; Sofia heals, Theodora and Ninae screen him"
+        ],
+        "drop": [
+          {
+            "item": "Recover",
+            "why": "Druid has no White Magic"
+          },
+          {
+            "item": "Magic Basics",
+            "why": "Slot goes to Bind Resistance"
+          },
+          {
+            "item": "Black Magic Lv. 2",
+            "why": "Black Magic Lv. 4 replaces it at Black A+"
+          }
+        ]
+      }
+    ],
+    "alt": "Bishop as his main class from Lv 35 if Sofia goes down: doubled Recover, but his White list has no Physic.",
+    "sources": [
+      "class-and-weapon-guide",
+      "class-data",
+      "character-learnsets",
+      "equippable-abilities",
+      "weapons-and-items",
+      "combat-arts-and-abilities",
+      "hard-mode-video-notes",
+      "walkthrough-part1-theodora",
+      "part2-war",
+      "part3-salvation",
+      "redesign/11-roster-pass"
+    ],
+    "routeNotes": [
+      {
+        "system": "Supports",
+        "note": "Theodora, Tobias, Lilian and Lysander in this army (Nydine on the bench). Meal seat: Theodora + Tobias + Bonaventure, where all three pairs gain. Mage Training beside Theodora adds Support too."
+      },
+      {
+        "system": "Battalions & Gambits",
+        "note": "Third carrier: [[battalion:Priest Trainees]] (Ch 5), [[battalion:Pure Priests]] (Ch 6, D?), [[battalion:Elevated Priests]] at Authority C (Ch 10). Arena Mage raises Authority with no extra seat; Tactics Manuals go to Theodora."
+      },
+      {
+        "system": "Authority",
+        "note": "Lend Strength (D), Lend Dexterity (C), Lend Strength+ (B), Lend Dexterity+ (A): one more Hit tool for the axe user he escorts. How Authority arts fire in battle is not documented."
+      }
+    ],
+    "decisions": [
+      {
+        "topic": "Stay Shaman until Lv 35",
+        "pick": "Shaman from Ch 6 to the Ovate exam",
+        "why": "Priest would only chase White Magic B, which Arena Mage reaches, and it stops his doubled Black Magic for two chapters. Shaman keeps Mag 60 growth and doubled casts while he escorts Tobias."
+      },
+      {
+        "topic": "Take Bishop in Part II for Barrier",
+        "pick": "Bishop in Part II Ch 1 to 2, Ovate again for Ch 3",
+        "why": "Barrier (Res +3 to adjacent allies) stacks with Sage Advice on the unit he already stands beside, for the rest of the game. Part II gives 5 Advanced Licenses a chapter.",
+        "else": "White Magic short of B: skip the detour"
+      },
+      {
+        "topic": "Make Ovate his main class",
+        "pick": "Ovate at Lv 35, Druid in Part III",
+        "why": "Mag +20 and doubled Black Magic: Part II is full of heavy armor. His White list has no Physic, so Sofia and Theodora stay the healers."
+      }
+    ],
+    "finalists": {
+      "stats": [
+        "Mag",
+        "Spd",
+        "Dex",
+        "Def",
+        "Res"
+      ],
+      "options": [
+        {
+          "class": "Shaman",
+          "use": "Ch 6 to 9",
+          "note": "Doubled black casts while he escorts Tobias"
+        },
+        {
+          "class": "Ovate",
+          "use": "Ch 10 to Part II",
+          "note": "Mag +4, Dex +4, Res +4 flat; doubled casts"
+        },
+        {
+          "class": "Troubadour",
+          "note": "Def 35 and Mov 6, but no doubled casts and Sofia already heals"
+        },
+        {
+          "class": "Caladrius",
+          "note": "No white magic; the default Ornius adds nothing here"
+        },
+        {
+          "class": "Druid",
+          "use": "Part III",
+          "note": "Mag 75 and Bind Resistance beside the strikers"
+        }
+      ]
+    },
+    "gates": [
+      {
+        "route": "Theodora",
+        "from": {
+          "part": 1,
+          "ch": 6
+        },
+        "by": {
+          "part": 1,
+          "ch": 10
+        },
+        "kind": "rank",
+        "text": "Black Magic B by Lv 35 for Ovate; White Magic B before Part II for Bishop"
+      }
+    ]
+  },
+  "sources": [
+    "https://fortunesweave.co.uk/characters/bonaventure",
+    "https://www.pockettactics.com/fire-emblem-fortunes-weave/tier-list",
+    "https://www.keengamer.com/articles/guides/fire-emblem-fortunes-weave-tier-list-best-characters-ranked-for-every-route/",
+    "https://fortunesweave.online/battalions/",
+    "https://docs.google.com/spreadsheets/d/1YW5AdvPUbLPr1RAGlnotcRaNTFCQPTKiIgshwrcdUtE",
+    "https://serenesforest.net/fortunes-weave/characters/personal-abilities"
+  ],
+  "recruitOn": {
+    "Theodora": {
+      "how": "auto"
+    }
+  }
+}

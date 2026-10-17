@@ -1,0 +1,896 @@
+{
+  "name": "Nezha",
+  "slug": "nezha",
+  "epithet": "Boy swordsman of Kunlun",
+  "faction": "Pale Raven's Bridal Party",
+  "homeRoute": "Theodora",
+  "weapons": [
+    "Sword",
+    "Gauntlet"
+  ],
+  "preferred": [
+    "Brawling",
+    "Infantry",
+    "Sword"
+  ],
+  "avoid": [
+    "Spear"
+  ],
+  "personality": "Energetic and self-conscious about his height, bad at keeping secrets, and training to be the strongest.",
+  "story": "A Mediator-race swordsman from Kunlun who travels with Anatolia. Recruiting him needs 3 Sandworm Meat from Aditi's Cave.",
+  "personalSkill": {
+    "name": "Quick Draw",
+    "effect": "Grants Atk+3 during combat if attacking first (50% trigger). Lv 20: Never Stop (Atk +5 when attacking after Quick Draw, 30%); Lv 35: Never Stop+ (same, 50%)."
+  },
+  "growths": {
+    "HP": 45,
+    "Str": 45,
+    "Mag": 25,
+    "Spd": 45,
+    "Dex": 50,
+    "Def": 35,
+    "Res": 25,
+    "Lck": 30,
+    "Cha": 25
+  },
+  "supports": [
+    "Dadao",
+    "Fabio",
+    "Halvin",
+    "Majide",
+    "Sha Lan",
+    "Theodora",
+    "Ultand"
+  ],
+  "tiers": [
+    {
+      "source": "KeenGamer",
+      "tier": "B"
+    },
+    {
+      "source": "Pocket Tactics",
+      "tier": "B"
+    }
+  ],
+  "tierNotes": "KeenGamer: B tier (balanced, no standout). Pocket Tactics: B tier.",
+  "recruit": {
+    "how": "recruit",
+    "support": 2,
+    "renown": 6,
+    "extra": "3× Sandworm Meat",
+    "why": [
+      "Lowest Support requirement of any route: 2 here vs Cai 3, Dietrich 3, Leda 3.",
+      "Theodora is his support partner in this army."
+    ],
+    "tip": "Ready from late Ch 7 (Renown 6). Recruit him Ch 8 week 1 (6/1): about Lv 15 as a Gladiator, and under Lv 20 he brings a Salamander. A Ch 10 join is a Lv 25 Myrmidon without it."
+  },
+  "requirements": {
+    "Cai": "3S 6R",
+    "Dietrich": "3S 10R",
+    "Theodora": "2S 6R",
+    "Leda": "3S 9R"
+  },
+  "build": {
+    "role": "Optional: not in Theodora's army; Part III import only",
+    "path": [
+      "Myrmidon (joins in it, Ch 10 week 1; bench)",
+      "Shido (Part II Ch 2)",
+      "Swordmaster (Part III S3, Mars's request)"
+    ],
+    "part1Target": "Bench: Myrmidon from the Ch 10 join; Sword B from spare Arena seats",
+    "part3Target": "Swordmaster (Section 3; Dietrich holds The Blade)",
+    "notes": "Not in Theodora's army (D-130): Loretta takes the sword striker role and The Blade. This guide stays as an optional plan; he comes in only as a Part III import if another route's Nezha arrives. Endpoint Swordmaster.",
+    "confidence": "medium"
+  },
+  "guide": {
+    "role": "Optional: not in Theodora's army; Part III import only",
+    "summary": "Not in Theodora's army: Loretta is the sword striker and holds The Blade. Keep this as an optional plan for a Part III import. If you run him, attack first so Quick Draw (Atk +3, 50%) and [[ability:Never Stop]] fire, crit with the [[item:Killing Edge]], and stay out of mage range.",
+    "playstyle": "Player-phase only. Swing first at axe users and archers, finish with Deadly Blade, and end turns out of mage range (Res 25 growth).",
+    "focus": [
+      "Spd",
+      "Dex",
+      "Str"
+    ],
+    "keys": [
+      "Store the [[item:Salamander]]: a Part II Ch 5 Dagda answer for the army's casters.",
+      "Take [[class:Hunter]] the week he joins: Spd/Dex +10 row toward Myrmidon.",
+      "Seat him in every dungeon party: Enno Isle (Ch 8), then the Ch 9 to 12 dungeons.",
+      "Take [[class:Myrmidon]] at Lv 20 with Sword C (late Ch 8 or Ch 9 week 1).",
+      "Store the [[item:Salamander]]: a Part II Ch 5 Dagda answer for the army's casters.",
+      "Take [[class:Shido]] at the Part II Ch 2 floor with Sword B."
+    ],
+    "watch": [
+      "Weight: Killing Edge 6 + Archer's Ring 3 = 9; Wooden Sword +5 2 + 3 = 5. If he stops doubling, drop the ring, then swing the Wooden Sword.",
+      "Res: 25 growth, Shido −5. One mage turn can kill him.",
+      "Levels: about Lv 30? by Ch 12 from dungeons and slot 7 to 9 turns; Army Training only tops him up to Lv 34.",
+      "Inventory: 4 core (Killing Edge, Wooden Sword +5, Archer's Ring, Concoction); the Flyssa and Zanbato ride as swaps, 6/6."
+    ],
+    "decisions": [
+      {
+        "topic": "Recruit him Ch 8 week 1",
+        "pick": "Lv 15 Gladiator with a Salamander",
+        "why": "Every Part I level rolls class growths and trains Sword; a Ch 10 join auto-levels him on personal growths with ranks near where they were. The Salamander he brings goes to storage for Part II Ch 5.",
+        "else": "Support 2 or the Sandworm Meat late: recruit the first week both land, still under Lv 20"
+      },
+      {
+        "topic": "Take Hunter for Lv 15 to 20",
+        "pick": "Hunter on a Beginner License",
+        "why": "Hunter's row (Spd/Dex +10) feeds Myrmidon's doubling and crits; Gladiator's is HP/Str +10. Hunter trains Sword, Bow and Infantry in every fight, and Hunting Basics (Dex/Spd +1) stays equippable.",
+        "else": "Bow under D on join: stay Gladiator; Sword C comes either way"
+      },
+      {
+        "topic": "Skip side trips",
+        "pick": "Myrmidon, Shido, Swordmaster",
+        "why": "Part II has no idle chapters: Army Training grows Myrmidon (Spd +15) and Ravaging Arts feeds Shido's crits. A Pugilist trip would push Shido past Ch 2."
+      },
+      {
+        "topic": "Stop at Swordmaster",
+        "pick": "Swordmaster in S3 (Mars) as the endpoint",
+        "why": "The Blade has one holder in Part III and Loretta claims it (Sword boon, Spd 55). Swordmaster keeps Astra and Spd +20 growth.",
+        "else": "Loretta out of Part III: The Blade in S4 (Demonic Swordguard)"
+      }
+    ],
+    "finalists": {
+      "stats": [
+        "Str",
+        "Spd",
+        "Dex",
+        "Def"
+      ],
+      "options": [
+        {
+          "class": "Myrmidon",
+          "use": "Ch 9 to Part II Ch 1",
+          "note": "Spd +15; Ravaging Arts"
+        },
+        {
+          "class": "Shido",
+          "use": "Part II Ch 2 to III S2",
+          "note": "Spd 60, Combat Arts +2"
+        },
+        {
+          "class": "Pugilist",
+          "note": "Brawling boon, but Shido doubles more"
+        },
+        {
+          "class": "Swordmaster",
+          "use": "Part III S3+",
+          "note": "Astra; Mars temple request"
+        },
+        {
+          "class": "The Blade",
+          "note": "Sword S: Spd/Dex +7 flat, but Loretta holds it"
+        }
+      ]
+    },
+    "callouts": [
+      {
+        "type": "timing-trap",
+        "text": "Recruited under Lv 20 (Ch 8) he brings a Salamander; a Ch 10 join is a Lv 25 Myrmidon without it.",
+        "bullets": [
+          "Recruit him Ch 8 week 1 if you run this plan; store the Salamander for Part II Ch 5"
+        ]
+      }
+    ],
+    "gates": [
+      {
+        "route": "Theodora",
+        "from": {
+          "part": 1,
+          "ch": 5
+        },
+        "kind": "recruit",
+        "text": "Support 2 with Theodora by Ch 8 week 1 (Sunday meals from Ch 5)",
+        "by": {
+          "part": 1,
+          "ch": 8
+        }
+      },
+      {
+        "route": "Theodora",
+        "from": {
+          "part": 1,
+          "ch": 6
+        },
+        "kind": "item",
+        "text": "3 Sandworm Meat from Aditi's Cave (Lv 28, about 7 Sandworms) by 6/1",
+        "by": {
+          "part": 1,
+          "ch": 8
+        }
+      }
+    ],
+    "routeNotes": [
+      {
+        "system": "Supports",
+        "note": "Only partner here: Theodora. Seat Nezha with Theodora at Sunday meals from Ch 5 until his Support 2 (6/1); after that the seat goes to army pairs."
+      },
+      {
+        "system": "Recruit timing and the bench",
+        "note": "Optional plan: joins Ch 8 week 1 at Lv 15. EXP: dungeon parties (5 seats, link attacks) and the Arena when the bench leaves a seat. His Part II kit sits in his bag before Ch 12 ends."
+      }
+    ],
+    "stages": [
+      {
+        "when": "Ch 8: Hunter, Lv 15 to 20",
+        "from": {
+          "part": 1,
+          "ch": 8
+        },
+        "to": {
+          "lv": 20
+        },
+        "why": [
+          "Recruit Ch 8 week 1 (6/1): Support 2, Renown 6, 3 Sandworm Meat (Aditi's Cave)",
+          "Joins about Lv 15 as a Gladiator with a [[item:Salamander]]; Hunter on a Beginner License"
+        ],
+        "level": "About Lv 15 on join (6/1) to 20",
+        "class": "Hunter",
+        "kind": "bench",
+        "goal": "Lv 20 off the map: Enno Isle (Lv 24) party seats and link kills. Sword C for Myrmidon; no deploy seat in Ch 8.",
+        "exit": "Lv 20 with Sword C: Myrmidon exam (late Ch 8 or Ch 9 week 1).",
+        "masteries": [
+          "Hunting Basics"
+        ],
+        "weapons": [
+          {
+            "item": "Wooden Sword +5",
+            "why": "Main: Mt 17, Hit 90, Wt 2; trains Sword C for Myrmidon",
+            "plan": "Refine to +5 (Smithing Stone)"
+          },
+          {
+            "item": "Iron Bow",
+            "why": "Bow D: Effective+ chip on fliers; trains Bow"
+          },
+          {
+            "item": "Salamander",
+            "why": "Gauntlet E, magic, 3 uses: save them for Part II Ch 5",
+            "situational": "Not used in Part I: storage for a Part II Ch 5 caster",
+            "plan": "He brings it (recruited under Lv 20)"
+          }
+        ],
+        "equipment": [],
+        "items": [
+          {
+            "item": "Concoction",
+            "why": "40 HP x2: he joins about 10 levels under the dungeon",
+            "alts": [
+              "Vulnerary"
+            ]
+          }
+        ],
+        "arts": [
+          {
+            "name": "Wrath Strike",
+            "why": "Sword D: Mt +4, Hit +10"
+          },
+          {
+            "name": "Vital Shot",
+            "why": "Bow D: Mt +4, Crit +5, range 2-3"
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Hunting Basics",
+            "why": "Hunter mastery, once mastered: Dex/Spd +1"
+          },
+          {
+            "name": "Swords Lv. 1",
+            "why": "Sword D+: Hit +3 with swords"
+          },
+          {
+            "name": "Close Quarters",
+            "why": "Infantry D ?: Mov −1 on adjacent foes"
+          },
+          {
+            "name": "Knightly Senses",
+            "why": "Riding D: Avo +10 vs spears; works on foot"
+          },
+          {
+            "name": "Read the Winds",
+            "why": "Flying D: Avo +10 vs bows; works on foot"
+          }
+        ],
+        "battalion": {
+          "name": "Rookie Soldiers",
+          "why": "Str +2, Cha +3: 2nd copy from early rolls; Authority E?",
+          "where": "Any Ch 6–9 roll (Regia, Alecto, Megaira)",
+          "situational": "Bench in Part I"
+        },
+        "training": [
+          {
+            "rank": "Sword C, Bow D, Infantry D",
+            "for": "Myrmidon exam; Hunter exam; Close Quarters",
+            "how": "Battle (Hunter trains Sword, Bow, Infantry +1); Arena Infantry when a seat frees"
+          },
+          {
+            "rank": "Riding D, Flying D",
+            "for": "Knightly Senses, Read the Winds",
+            "how": "One Arena Mounted week (start ranks ?)"
+          }
+        ],
+        "tips": [
+          "Enno Isle party: put him beside a support pair so link attacks hand him the kills",
+          "Bow under D on join? Stay Gladiator until it lands; Sword C comes either way",
+          "Gladiator mastery is Str +1; Hunter's Dex/Spd +1 serves Myrmidon better"
+        ]
+      },
+      {
+        "when": "Ch 9 to 12: Myrmidon (bench)",
+        "from": {
+          "part": 1,
+          "ch": 9
+        },
+        "to": {
+          "part": 1,
+          "ch": 12
+        },
+        "why": [
+          "Exam at Lv 20: Sword C, Specialty License (Renown 4 is long open)",
+          "EXP: every Ch 9 to 12 dungeon party; no story-map seat"
+        ],
+        "level": "Lv 20 (Ch 9) to about 30? by Ch 12",
+        "class": "Myrmidon",
+        "kind": "bench",
+        "goal": "Sword B for Shido from battle (Myrmidon Sword +2). Never Stop (Lv 20): Atk +5 after Quick Draw (30%).",
+        "exit": "Lv 30? with Sword B at Ch 12's end; Army Training tops him up to Lv 34.",
+        "masteries": [
+          "Ravaging Arts"
+        ],
+        "weapons": [
+          {
+            "item": "Killing Edge",
+            "why": "Deadly Blade (Crit +15); Sword C, so Myrmidon holds it"
+          },
+          {
+            "item": "Wooden Sword +5",
+            "why": "Normal hits: Mt 17, Wt 2; doubles where the Edge (Wt 6) can't",
+            "plan": "Keep it"
+          },
+          {
+            "item": "Flyssa",
+            "why": "Effective vs armor: Mt 10, Wt 4",
+            "situational": "Armor maps: pack it before Ch 12 ends"
+          },
+          {
+            "item": "Zanbato",
+            "why": "Effective vs cavalry: Mt 14, Wt 7",
+            "situational": "Cavalry maps: pack it before Ch 12 ends"
+          }
+        ],
+        "equipment": [
+          {
+            "item": "Archer's Ring",
+            "why": "Hit +5, Wt 3: Killing Edge 6 + 3 stays in budget",
+            "slot": "Accessory",
+            "alts": [
+              "Phantom Ring"
+            ],
+            "plan": "Storage: Tobias's copy once he takes the Conflagrant Gem (Ch 8)"
+          }
+        ],
+        "items": [
+          {
+            "item": "Concoction",
+            "why": "40 HP x2; Part II stock",
+            "alts": [
+              "Vulnerary"
+            ]
+          }
+        ],
+        "arts": [
+          {
+            "name": "Deadly Blade",
+            "why": "Killing Edge art: Crit +15"
+          },
+          {
+            "name": "Crosswise Cut",
+            "why": "Sword C: Mt +5, Dex +2 after combat (max +10)"
+          },
+          {
+            "name": "Wrath Strike",
+            "why": "Sword D: Mt +4, Hit +10"
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Never Stop",
+            "why": "Lv 20: Atk +5 after Quick Draw triggers (30%)"
+          },
+          {
+            "name": "Hunting Basics",
+            "why": "Hunter mastery: Dex/Spd +1"
+          },
+          {
+            "name": "Swords Lv. 2",
+            "why": "Sword C+: Hit +5 with swords"
+          },
+          {
+            "name": "Close-Call Evasion",
+            "why": "Infantry C: Avo +20 at 50% HP or less"
+          },
+          {
+            "name": "Read the Winds",
+            "why": "Flying D: Avo +10 vs bows; works on foot"
+          }
+        ],
+        "battalion": {
+          "name": "Rookie Soldiers",
+          "why": "Str +2, Cha +3 (2nd copy); Authority E?",
+          "where": "Held from Ch 8",
+          "situational": "Bench in Part I"
+        },
+        "drop": [
+          {
+            "item": "Iron Bow",
+            "why": "Myrmidon holds no bows"
+          },
+          {
+            "item": "Salamander",
+            "why": "Storage for Part II Ch 5"
+          },
+          {
+            "item": "Swords Lv. 1",
+            "why": "Swords Lv. 2 from Sword C+"
+          },
+          {
+            "item": "Close Quarters",
+            "why": "Close-Call Evasion from Infantry C"
+          },
+          {
+            "item": "Knightly Senses",
+            "why": "Never Stop takes the slot"
+          }
+        ],
+        "training": [
+          {
+            "rank": "Sword B",
+            "for": "Shido (Part II Ch 2)",
+            "how": "Battle (Myrmidon Sword +2); Arena Infantry alternate weeks from Ch 10"
+          },
+          {
+            "rank": "Infantry C",
+            "for": "Close-Call Evasion",
+            "how": "Myrmidon trains Infantry +1"
+          }
+        ],
+        "tips": [
+          "Ch 9 dungeons: Sand-Shadow Fort (Lv 23) first, then Southern Passage and Stoppered Shrine (Lv 25)",
+          "Ch 10 Nemea Cavern and Uncharted Isle (Lv 30), Ch 11 Iapetus (Lv 32): keep his party seat",
+          "His bag at Ch 12's end: Killing Edge (in hand), Wooden Sword +5, Flyssa, Zanbato, ring, Concoction",
+          "Skip the Da Mina Sword: Wooden Sword +5 out-mights it (17 vs 12) at half the weight"
+        ]
+      },
+      {
+        "when": "Part II Ch 1",
+        "from": {
+          "part": 2,
+          "ch": 1
+        },
+        "to": {
+          "part": 2,
+          "ch": 1
+        },
+        "level": "Lv 34 (Army Training floor)",
+        "class": "Myrmidon",
+        "kind": "core",
+        "goal": "Army Training grows Myrmidon (Spd +15). Master Ravaging Arts (+6 damage on crits) and Sword B for Shido.",
+        "exit": "Lv 35 floor and Sword B: Shido in Ch 2 (Ch 3 if Sword lags).",
+        "masteries": [
+          "Ravaging Arts"
+        ],
+        "weapons": [
+          {
+            "item": "Killing Edge",
+            "why": "Crit sword; Deadly Blade",
+            "plan": "Equipped carry-over"
+          },
+          {
+            "item": "Wooden Sword +5",
+            "why": "Normal hits: Mt 17, Wt 2; doubles where the Edge (Wt 6) can't",
+            "plan": "Keep it"
+          },
+          {
+            "item": "Flyssa",
+            "why": "Effective vs armor: Mt 10, Wt 4",
+            "situational": "Armor maps: open slot",
+            "plan": "Carry-over"
+          },
+          {
+            "item": "Zanbato",
+            "why": "Effective vs cavalry: Mt 14, Wt 7",
+            "situational": "Cavalry maps: open slot",
+            "plan": "Carry-over"
+          }
+        ],
+        "equipment": [
+          {
+            "item": "Archer's Ring",
+            "why": "Hit +5, Wt 3",
+            "slot": "Accessory",
+            "plan": "Carry-over"
+          }
+        ],
+        "items": [
+          {
+            "item": "Concoction",
+            "why": "40 HP x2; no shops in Part II",
+            "plan": "Ch 12 stock"
+          }
+        ],
+        "arts": [
+          {
+            "name": "Deadly Blade",
+            "why": "Killing Edge art: Crit +15"
+          },
+          {
+            "name": "Crosswise Cut",
+            "why": "Sword C: Mt +5, Dex +2 after combat (max +10)"
+          },
+          {
+            "name": "Wrath Strike",
+            "why": "Sword D: Mt +4, Hit +10"
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Ravaging Arts",
+            "why": "Myrmidon mastery: +6 damage on crits, once mastered"
+          },
+          {
+            "name": "Never Stop",
+            "why": "Lv 20: Atk +5 after Quick Draw triggers (30%)"
+          },
+          {
+            "name": "Hunting Basics",
+            "why": "Hunter mastery: Dex/Spd +1"
+          },
+          {
+            "name": "Swords Lv. 2",
+            "why": "Sword C+: Hit +5 with swords"
+          },
+          {
+            "name": "Read the Winds",
+            "why": "Flying D: Avo +10 vs bows; works on foot"
+          }
+        ],
+        "battalion": {
+          "name": "Rookie Soldiers",
+          "why": "Str +2, Cha +3 on the crit striker (2nd copy)",
+          "where": "Held from Ch 8",
+          "situational": "Part II carryover ?"
+        },
+        "training": [
+          {
+            "rank": "Sword B",
+            "for": "Shido exam",
+            "how": "From the Part I Arena and battles; Myrmidon trains Sword +2"
+          }
+        ],
+        "tips": [
+          "No License: Myrmidon since Ch 9",
+          "Below Lv 34 at Ch 12's end? Army Training lifts him on personal growths only"
+        ],
+        "checks": [
+          {
+            "stat": "Spd",
+            "at": "Part II Ch 1",
+            "need": "Killing Edge + ring doubles Ch 1 infantry in the forecast",
+            "why": "Crit fishing needs two swings a round",
+            "fix": [
+              "Take off the Archer's Ring (−3 Wt)",
+              "Wooden Sword +5 (Wt 2) for normal hits",
+              "Shido in Ch 2: Spd +15 growth, Crit +5"
+            ]
+          }
+        ],
+        "drop": [
+          {
+            "item": "Close-Call Evasion",
+            "why": "Ravaging Arts takes the slot"
+          }
+        ]
+      },
+      {
+        "when": "Part II Ch 2 to Part III S2",
+        "from": {
+          "part": 2,
+          "ch": 2,
+          "approx": true
+        },
+        "to": {
+          "part": 3,
+          "ch": 2
+        },
+        "level": "Lv 35 to 45",
+        "class": "Shido",
+        "kind": "core",
+        "goal": "Sword Crit +5 and Ever Vigilant (heals on crit kills). Never Stop+ (Lv 35): Atk +5 after Quick Draw, 50%.",
+        "exit": "Mars's request (S3) opens Swordmaster: Lv 45, Sword A.",
+        "masteries": [
+          "Ever Vigilant"
+        ],
+        "weapons": [
+          {
+            "item": "Killing Edge",
+            "why": "Crit sword; Deadly Blade",
+            "plan": "Keep it"
+          },
+          {
+            "item": "Wooden Sword +5",
+            "why": "Normal hits: Mt 17, Wt 2; doubles where the Edge (Wt 6) can't",
+            "plan": "Keep it"
+          },
+          {
+            "item": "Flyssa",
+            "why": "Effective vs armor: Mt 10, Wt 4",
+            "situational": "Armor maps (Ch 5 Golems?): open slot",
+            "plan": "Keep it"
+          },
+          {
+            "item": "Zanbato",
+            "why": "Effective vs cavalry: Mt 14, Wt 7",
+            "situational": "Cavalry maps: open slot",
+            "plan": "Keep it"
+          }
+        ],
+        "equipment": [
+          {
+            "item": "Archer's Ring",
+            "why": "Hit +5, Wt 3",
+            "slot": "Accessory",
+            "plan": "Carry-over"
+          }
+        ],
+        "items": [
+          {
+            "item": "Concoction",
+            "why": "40 HP x2",
+            "plan": "Ch 12 stock"
+          }
+        ],
+        "arts": [
+          {
+            "name": "Deadly Blade",
+            "why": "Killing Edge art: Crit +15"
+          },
+          {
+            "name": "Gale Blow",
+            "why": "Sword B: Mt +7, Atk +5 (Spd/2 %)"
+          },
+          {
+            "name": "Crosswise Cut",
+            "why": "Sword C: Mt +5, Dex +2 after combat (max +10)"
+          },
+          {
+            "name": "Wrath Strike",
+            "why": "Sword D: Mt +4, Hit +10"
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Ever Vigilant",
+            "why": "Shido mastery: heals a little after a crit kill, once mastered"
+          },
+          {
+            "name": "Never Stop+",
+            "why": "Lv 35: Atk +5 after Quick Draw triggers (50%)"
+          },
+          {
+            "name": "Ravaging Arts",
+            "why": "+6 damage on crits"
+          },
+          {
+            "name": "Swords Lv. 3",
+            "why": "Sword B+ (Shido trains Sword +3 a fight): Hit/Avo +5"
+          },
+          {
+            "name": "Read the Winds",
+            "why": "Avo +10 vs bows: Ch 2 Rangers, Ch 4 bow lines"
+          }
+        ],
+        "battalion": {
+          "name": "Rookie Soldiers",
+          "why": "Str +2, Cha +3 on the Shido (2nd copy)",
+          "where": "Held from Ch 8",
+          "situational": "Part II carryover ?"
+        },
+        "training": [
+          {
+            "rank": "Sword A",
+            "for": "Swordmaster (Part III)",
+            "how": "Shido trains Sword +3"
+          }
+        ],
+        "tips": [
+          "Part III S1 to S2 undead: Cleansing Blade + Wrath Strike, in the Flyssa's slot",
+          "Ch 5 Dagda: he kills the escorts and baits nothing; the Salamander is stored",
+          "Ch 6: save crits for Lyrah's cocoon; it heals on every hit",
+          "Ch 4: kill the escorts around a charging elephant; bows take the Dragoons"
+        ],
+        "drop": [
+          {
+            "item": "Never Stop",
+            "why": "Never Stop+ replaces it at Lv 35"
+          },
+          {
+            "item": "Swords Lv. 2",
+            "why": "Swords Lv. 3 from Sword B+"
+          },
+          {
+            "item": "Hunting Basics",
+            "why": "Ever Vigilant takes the slot"
+          }
+        ]
+      },
+      {
+        "when": "Part III Section 3+ (Swordmaster)",
+        "from": {
+          "part": 3,
+          "ch": 3
+        },
+        "level": "Lv 45+",
+        "class": "Swordmaster",
+        "kind": "core",
+        "goal": "Spd +20 growth and Astra. Undead: swap to a Cleansing Blade, which strips the Boon in combat.",
+        "exit": "Endpoint: Dietrich holds The Blade.",
+        "masteries": [
+          "Astra"
+        ],
+        "weapons": [
+          {
+            "item": "Killing Edge +3",
+            "why": "Crit sword: Mt 20, Deadly Blade",
+            "plan": "Part III chest, already +3"
+          },
+          {
+            "item": "Wooden Sword +9",
+            "why": "Normal hits: Mt 20, Spd +5, Wt 2",
+            "plan": "Refine from +5 with Warrior's Soulstone (Part III Blacksmith)"
+          },
+          {
+            "item": "Cleansing Blade +3",
+            "why": "Sword E: strips the Underworld Boon; Mt 20, Wt 3",
+            "situational": "Undead maps: open slot"
+          },
+          {
+            "item": "Flyssa",
+            "why": "Effective vs armor: Mt 10, Wt 4",
+            "situational": "Armor maps: open slot",
+            "plan": "Keep it"
+          }
+        ],
+        "equipment": [
+          {
+            "item": "Archer's Ring",
+            "why": "Hit +5, Wt 3",
+            "slot": "Accessory",
+            "plan": "Keep it"
+          }
+        ],
+        "items": [
+          {
+            "item": "Concoction",
+            "why": "40 HP x2"
+          }
+        ],
+        "arts": [
+          {
+            "name": "Deadly Blade",
+            "why": "Killing Edge art: Crit +15"
+          },
+          {
+            "name": "Gale Blow",
+            "why": "Sword B: Mt +7, Atk +5 (Spd/2 %)"
+          },
+          {
+            "name": "Crosswise Cut",
+            "why": "Sword C: Mt +5, Dex +2 after combat (max +10)"
+          },
+          {
+            "name": "Wrath Strike",
+            "why": "Sword D: Mt +4, Hit +10"
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Astra",
+            "why": "Swordmaster mastery: 5 hits at 50% damage, once mastered"
+          },
+          {
+            "name": "Never Stop+",
+            "why": "Lv 35: Atk +5 after Quick Draw triggers (50%)"
+          },
+          {
+            "name": "Ever Vigilant",
+            "why": "Heals a little after a crit kill"
+          },
+          {
+            "name": "Ravaging Arts",
+            "why": "+6 damage on crits"
+          },
+          {
+            "name": "Swords Lv. 3",
+            "why": "Sword B+ (A for the exam): Hit/Avo +5 with swords"
+          }
+        ],
+        "battalion": {
+          "name": "Rookie Soldiers",
+          "why": "Str +2, Cha +3 (2nd copy)",
+          "where": "Held since Part I",
+          "situational": "Part III: from storage (medium confidence); Swordmaster movement ?"
+        },
+        "drop": [
+          {
+            "item": "Zanbato",
+            "why": "Storage: few cavalry maps"
+          },
+          {
+            "item": "Read the Winds",
+            "why": "Astra takes the slot"
+          }
+        ],
+        "training": [
+          {
+            "rank": "Sword A",
+            "for": "Swordmaster (Lv 45, Master License)",
+            "how": "Repair Mars's Temple and finish his request"
+          }
+        ],
+        "tips": [
+          "Mars's Kneepads from the same request go to Tobias",
+          "Shenlo (S3): kill the fleeing Smithy Box carriers first",
+          "Hanno (fog) and Drake ban cavalry, not him: he deploys on foot",
+          "Balor: striker by the Dancer (Astra)"
+        ],
+        "to": null
+      }
+    ],
+    "alt": "Bow short of D on join: stay Gladiator to Lv 20, then the same Myrmidon and Part II plan. Loretta out of Part III: The Blade in S4.",
+    "sources": [
+      "class-and-weapon-guide",
+      "class-data",
+      "character-learnsets",
+      "equippable-abilities",
+      "weapons-and-items",
+      "combat-arts-and-abilities",
+      "hard-mode-video-notes",
+      "player-pacing-and-recruit-items",
+      "walkthrough-part1-theodora",
+      "part2-war",
+      "redesign/11-roster-pass",
+      "redesign/13-early-bench-pass"
+    ]
+  },
+  "sources": [
+    "https://fortunesweave.co.uk/characters/nezha",
+    "https://www.keengamer.com/articles/guides/fire-emblem-fortunes-weave-tier-list-best-characters-ranked-for-every-route/",
+    "https://www.pockettactics.com/fire-emblem-fortunes-weave/tier-list"
+  ],
+  "recruitOn": {
+    "Cai": {
+      "how": "recruit",
+      "support": 3,
+      "renown": 6,
+      "task": "3× Sandworm Meat (Heretics' Cave has 1 Sandworm)"
+    },
+    "Dietrich": {
+      "how": "recruit",
+      "support": 3,
+      "renown": 10
+    },
+    "Theodora": {
+      "how": "recruit",
+      "support": 2,
+      "renown": 6,
+      "item": "3× Sandworm Meat",
+      "window": "Ch 8 week 1"
+    },
+    "Leda": {
+      "how": "recruit",
+      "support": 3,
+      "renown": 9,
+      "task": "3× Sandworm Meat (Aditi's Cave)"
+    }
+  }
+}

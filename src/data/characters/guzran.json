@@ -1,0 +1,1753 @@
+{
+  "name": "Guzran",
+  "slug": "guzran",
+  "epithet": "The Unkillable Guzran",
+  "faction": "Neutral (mercenary)",
+  "homeRoute": "Cai",
+  "weapons": [
+    "Sword",
+    "Gauntlet",
+    "Axe"
+  ],
+  "preferred": [
+    "Brawling",
+    "Infantry",
+    "Sword"
+  ],
+  "avoid": [
+    "White Magic",
+    "Black Magic"
+  ],
+  "personality": "Boastful veteran mercenary whose tall tales are partly true.",
+  "story": "A 36-year-old mercenary who exaggerates his exploits but backs them up in battle. He joins automatically on Cai's route and is cheap to recruit elsewhere (easiest on Leda's route: renown 3). Further story role not documented.",
+  "personalSkill": {
+    "name": "Hot-Headed",
+    "effect": "Grants one random bonus in combat: Hit+10, Avo+10, or Crit+10. Bonus rises to 15 at Lv 20 and 20 at Lv 35."
+  },
+  "growths": {
+    "HP": 45,
+    "Str": 45,
+    "Mag": 20,
+    "Spd": 50,
+    "Dex": 45,
+    "Def": 35,
+    "Res": 20,
+    "Lck": 45,
+    "Cha": 30
+  },
+  "supports": [
+    "Leda",
+    "Mikaela",
+    "Mu"
+  ],
+  "tiers": [
+    {
+      "source": "KeenGamer",
+      "tier": "A"
+    },
+    {
+      "source": "Pocket Tactics",
+      "tier": "S"
+    }
+  ],
+  "tierNotes": "KeenGamer: A tier, a cheap, reliable frontliner. Pocket Tactics: S tier. Games with James: B tier (character), noted for powerful follow-up attacks.",
+  "recruit": {
+    "how": "auto",
+    "why": [
+      "Joins Cai's army automatically, so there's no Support or Renown to chase."
+    ]
+  },
+  "requirements": {
+    "Cai": "Auto (tutorial)",
+    "Dietrich": "3S 8R",
+    "Theodora": "3S 8R",
+    "Leda": "3R"
+  },
+  "build": {
+    "role": "Sword crit striker",
+    "path": [
+      "Gladiator",
+      "Myrmidon",
+      "Pugilist (detour: Attack, Get Back)",
+      "Shido",
+      "Sword Master"
+    ],
+    "part1Target": "Shido",
+    "part3Target": "Sword Master",
+    "notes": "Gladiator in Ch 5 (fight with swords and gauntlets), Myrmidon at Lv 20 until Ravaging Arts is mastered, then Pugilist in Ch 7 while he waits for Lv 35: Attack, Get Back and Str 55, Def 45 growth. Shido at Lv 35 (Sword B, trained at the Arena during Pugilist). Sword Master in Part III after Mars's request.",
+    "confidence": "medium"
+  },
+  "guide": {
+    "role": "Sword crit striker",
+    "summary": "Fast infantry swordsman. Hot-Headed gives +10 to Hit, Avo or Crit each combat, +15 from Lv 20 (Top Form) and +20 from Lv 35 (Top Form+); the build adds crit around it (Deadly Blade, Sword Crit +3/+5, Ravaging Arts +6 crit damage) on Spd 65 growth.",
+    "playstyle": "Player-phase killer: crit arts on wounded foes, Ever Vigilant heals him on crit kills. Res grows 15 to 20%: keep him off mages.",
+    "focus": [
+      "Spd",
+      "Str",
+      "Dex"
+    ],
+    "keys": [
+      "Fight with gauntlets in Gladiator too: the Ch 7 Pugilist stint needs Gauntlet C.",
+      "Master Ravaging Arts in Myrmidon before Shido.",
+      "Spend Ch 7 to 9 in Pugilist while he waits for Lv 35 and Renown 8: Attack, Get Back plus Str and Def growth.",
+      "Make a Killing Edge or Da Mina Sword his refine project.",
+      "Carry a Flyssa for armor; refine it once the Killing Edge is done.",
+      "Take the Ch 7 Cleansing Blade for Underworld foes.",
+      "The Bird-Plume Amulet +2 is his Accessory from Part I to Part II; Castor's Bolt Gem stays on Majide."
+    ],
+    "watch": [
+      "Res growth 15% in Shido: mages kill him.",
+      "Avoids both magics: skip his spell list.",
+      "Weight: Silver Sword 4 (Killing Edge 6) + Bird-Plume Amulet 3 = 7 to 9; Archer's Ring is the same 3. Pugilist: Da Mina Gauntlets 4 + amulet 3 = 7. He lives on doubling, so extra weight stays at 3: no Hunter's Ring (4) or Mars's Kneepads (5). If he loses follow-ups, drop the accessory first; Cleansing Blade (3) is the light sword.",
+      "Inventory: 4 to 5 core (two swords, Flyssa, amulet, heal), swaps in the open slots. End of Ch 12: Silver Sword, Killing Edge, Flyssa, amulet, Elixir; keep slot 6 free for the Part II Ch 2 Cleansing Blade +1."
+    ],
+    "stages": [
+      {
+        "when": "Ch 3 to 4 · no class until Ch 5",
+        "from": {
+          "part": 1,
+          "ch": 3
+        },
+        "to": {
+          "part": 1,
+          "ch": 4
+        },
+        "level": "Lv 1 to 20",
+        "kind": "core",
+        "goal": "Hot-Headed: +10 to Hit, Avo or Crit each combat. Fight with swords and gauntlets: Sword C, Gauntlet C.",
+        "exit": "Ch 5: take the Gladiator exam at the Temple Row License tutorial",
+        "training": [
+          {
+            "rank": "Sword C",
+            "for": "Myrmidon exam",
+            "how": "Arena Infantry Training (Sword, Bow, Infantry)"
+          },
+          {
+            "rank": "Gauntlet C",
+            "for": "Pugilist stint (Ch 7)",
+            "how": "Arena Warrior Training (Sword, Axe, Gauntlet); fight with gauntlets in Gladiator (it trains Gauntlet). Brawling is his preferred rank"
+          }
+        ],
+        "tips": [
+          "Ch 3: lead with Cai vs Goliath"
+        ],
+        "weapons": [
+          {
+            "item": "Iron Sword",
+            "why": "Main damage until refines"
+          },
+          {
+            "item": "Wooden Gauntlets",
+            "why": "Gauntlet practice for the Pugilist stint; Brawling is preferred"
+          }
+        ],
+        "arts": [
+          {
+            "name": "Wrath Strike",
+            "why": "Sword D: +4 Mt, +10 Hit"
+          },
+          {
+            "name": "Mighty Fist",
+            "why": "Gauntlet D: +4 Mt, +10 Hit"
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Top Form",
+            "why": "Personal Lv 20 ability: Changes the Effect of Hot-Headed to grant +15 (from Lv 20)"
+          },
+          {
+            "name": "Swords Lv. 1",
+            "why": "Sword D+ rank ability: sword Hit +3 (once Sword D+)"
+          }
+        ],
+        "equipment": [
+          {
+            "item": "Bird-Plume Amulet",
+            "why": "Dex +2, Spd +1, Wt 3: adds hit and doubling without duplicating Hot-Headed's Hit/Avo/Crit roll; one copy, he gains most",
+            "slot": "Accessory",
+            "alts": [
+              "Archer's Ring"
+            ],
+            "plan": "Your Bird-Plume Amulet +2 (one copy, probably Cai's route)"
+          }
+        ],
+        "drop": [
+          {
+            "item": "Wooden Sword",
+            "why": "One sword is enough until refines"
+          }
+        ],
+        "items": [
+          {
+            "item": "Vulnerary",
+            "why": "20 HP x3: early heal"
+          }
+        ],
+        "class": ""
+      },
+      {
+        "when": "Ch 5 (Beginner)",
+        "from": {
+          "part": 1,
+          "ch": 5
+        },
+        "to": {
+          "part": 1,
+          "ch": 5
+        },
+        "level": "Lv 1 to 20",
+        "class": "Gladiator",
+        "kind": "core",
+        "goal": "Hot-Headed: +10 to Hit, Avo or Crit each combat. Wrath Strike's Hit +10 covers the Zanbato's Hit 80.",
+        "exit": "Leave at Lv 20 with Sword C; fight with gauntlets too: Ch 7 Pugilist needs Gauntlet C",
+        "masteries": [
+          "Attack Basics"
+        ],
+        "training": [
+          {
+            "rank": "Sword C",
+            "for": "Myrmidon exam",
+            "how": "Arena Infantry Training (Sword, Bow, Infantry)"
+          },
+          {
+            "rank": "Gauntlet C",
+            "for": "Pugilist stint (Ch 7)",
+            "how": "Arena Warrior Training (Sword, Axe, Gauntlet); fight with gauntlets in Gladiator (it trains Gauntlet). Brawling is his preferred rank"
+          }
+        ],
+        "tips": [
+          "Ch 3: lead with Cai vs Goliath"
+        ],
+        "weapons": [
+          {
+            "item": "Iron Sword",
+            "why": "Main damage until refines"
+          },
+          {
+            "item": "Wooden Gauntlets",
+            "why": "Gauntlet practice for the Pugilist stint; Brawling is preferred"
+          },
+          {
+            "item": "Zanbato",
+            "why": "B tier: vs cavalry",
+            "situational": "Ch 5 (chariots): grab it from the SE chest, open slot"
+          }
+        ],
+        "arts": [
+          {
+            "name": "Wrath Strike",
+            "why": "Sword D: +4 Mt, +10 Hit"
+          },
+          {
+            "name": "Mighty Fist",
+            "why": "Gauntlet D: +4 Mt, +10 Hit"
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Attack Basics",
+            "why": "Gladiator mastery: Str +1 (once mastered)"
+          },
+          {
+            "name": "Top Form",
+            "why": "Personal Lv 20 ability: Changes the Effect of Hot-Headed to grant +15 (from Lv 20)"
+          },
+          {
+            "name": "Swords Lv. 1",
+            "why": "Sword D+ rank ability: sword Hit +3 (once Sword D+)"
+          }
+        ],
+        "equipment": [
+          {
+            "item": "Bird-Plume Amulet",
+            "why": "Dex +2, Spd +1, Wt 3: adds hit and doubling without duplicating Hot-Headed's Hit/Avo/Crit roll; one copy, he gains most",
+            "slot": "Accessory",
+            "alts": [
+              "Archer's Ring"
+            ],
+            "plan": "Your Bird-Plume Amulet +2 (one copy, probably Cai's route)"
+          }
+        ],
+        "drop": [
+          {
+            "item": "Wooden Sword",
+            "why": "One sword is enough until refines"
+          }
+        ],
+        "items": [
+          {
+            "item": "Vulnerary",
+            "why": "20 HP x3: early heal"
+          }
+        ]
+      },
+      {
+        "when": "Ch 6 to 7",
+        "from": {
+          "part": 1,
+          "ch": 6
+        },
+        "to": {
+          "part": 1,
+          "ch": 7
+        },
+        "level": "Lv 20 to 27",
+        "class": "Myrmidon",
+        "kind": "core",
+        "goal": "Top Form (Lv 20): Hot-Headed gives +15. Crit build: Killing Edge, then master Ravaging Arts.",
+        "exit": "Leave once Ravaging Arts is mastered and Gauntlet is C (Pugilist exam at 75%).",
+        "masteries": [
+          "Ravaging Arts"
+        ],
+        "training": [
+          {
+            "rank": "Gauntlet C",
+            "for": "Pugilist exam",
+            "how": "Arena Warrior Training (Sword, Axe, Gauntlet); Inn Auto-Training; gauntlet fights in Gladiator before this"
+          },
+          {
+            "rank": "Sword B",
+            "for": "Shido exam",
+            "how": "Arena Infantry Training (Sword, Bow, Infantry)"
+          }
+        ],
+        "tips": [
+          "Keep a spare Killing Edge if A Sword of Deadly Renown shows up (it eats one)",
+          "Archer's Ring (Hit +5, Wt 3) is the fallback if the amulet isn't in hand; the Hunter's Ring (Wt 4) breaks his 3-weight budget"
+        ],
+        "weapons": [
+          {
+            "item": "Killing Edge",
+            "why": "B tier: Deadly Blade, Crit +15",
+            "alts": [
+              "Iron Sword"
+            ]
+          },
+          {
+            "item": "Flyssa",
+            "why": "A tier: effective vs armor (Ch 7, 8, 10 bring armor)"
+          },
+          {
+            "item": "Cleansing Blade",
+            "why": "Wt 3: the light sword when the Killing Edge (6) costs his double; cancels Underworld Boon. Ch 7 map pickup",
+            "plan": "Ch 7 battle map pickup near the start"
+          },
+          {
+            "item": "Zanbato",
+            "why": "Cavalry counter",
+            "situational": "Cavalry-heavy maps: open slot"
+          }
+        ],
+        "equipment": [
+          {
+            "item": "Bird-Plume Amulet",
+            "why": "Dex +2, Spd +1, Wt 3: adds hit and doubling without duplicating Hot-Headed's Hit/Avo/Crit roll; one copy, he gains most",
+            "slot": "Accessory",
+            "alts": [
+              "Archer's Ring"
+            ],
+            "plan": "Your Bird-Plume Amulet +2 (one copy, probably Cai's route)"
+          }
+        ],
+        "arts": [
+          {
+            "name": "Deadly Blade",
+            "why": "Killing Edge art: Crit +15"
+          },
+          {
+            "name": "Grounder",
+            "why": "Sword C: effective vs fliers"
+          },
+          {
+            "name": "Wrath Strike",
+            "why": "Sword D: +4 Mt, +10 Hit"
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Ravaging Arts",
+            "why": "Myrmidon mastery goal: +6 damage on crits (once mastered)"
+          },
+          {
+            "name": "Top Form",
+            "why": "Personal Lv 20 ability: Changes the Effect of Hot-Headed to grant +15"
+          },
+          {
+            "name": "Attack Basics",
+            "why": "Gladiator mastery: Str +1"
+          },
+          {
+            "name": "Swords Lv. 3",
+            "why": "Sword C+ rank ability: sword Hit/Avo +5 (once Sword C+)"
+          }
+        ],
+        "drop": [
+          {
+            "item": "Iron Sword",
+            "why": "Replaced by the Killing Edge"
+          },
+          {
+            "item": "Wooden Gauntlets",
+            "why": "Myrmidon has no gauntlets; back for Pugilist"
+          },
+          {
+            "item": "Mighty Fist",
+            "why": "Gauntlet art; Myrmidon has no gauntlets"
+          },
+          {
+            "item": "Wooden Sword",
+            "why": "Cleansing Blade is the light sword now"
+          }
+        ],
+        "items": [
+          {
+            "item": "Concoction",
+            "why": "40 HP x2",
+            "alts": [
+              "Vulnerary"
+            ]
+          }
+        ],
+        "why": [
+          "Deadly Blade (Crit +15) plus Sword Crit +3; Ravaging Arts adds +6 damage on every crit",
+          "Sword B for Shido"
+        ]
+      },
+      {
+        "when": "Ch 7 to 9",
+        "from": {
+          "part": 1,
+          "ch": 7
+        },
+        "to": {
+          "part": 1,
+          "ch": 9
+        },
+        "level": "Lv 27 to 35",
+        "class": "Pugilist",
+        "kind": "detour",
+        "goal": "Mastery while he waits for Lv 35: Attack, Get Back (Avo +10 on art turns) carries into every class.",
+        "exit": "Leave at Lv 35 and Renown 8 (Ch 10) with Sword B, once Attack, Get Back is mastered",
+        "masteries": [
+          "Attack, Get Back"
+        ],
+        "training": [
+          {
+            "rank": "Sword B",
+            "for": "Shido exam",
+            "how": "Arena Infantry Training (Sword, Bow, Infantry) every week; Pugilist doesn't train Sword"
+          }
+        ],
+        "tips": [
+          "Pugilist on Guzran: HP 60, Str 55, Spd 60, Def 45",
+          "Gauntlet crits still trigger Ravaging Arts and Hot-Headed's Crit bonus",
+          "Keep the Killing Edge refined in storage; it comes back in Shido"
+        ],
+        "weapons": [
+          {
+            "item": "Da Mina Gauntlets",
+            "why": "Mt 11, Hit 90, Wt 4 at Gauntlet C: best Pugilist hitter",
+            "alts": [
+              "Iron Gauntlets"
+            ]
+          },
+          {
+            "item": "Wooden Gauntlets",
+            "why": "Wt 1: the double when the Da Mina's 4 costs it; cheap refines"
+          }
+        ],
+        "equipment": [
+          {
+            "item": "Bird-Plume Amulet",
+            "why": "Dex +2, Spd +1, Wt 3: adds hit and doubling without duplicating Hot-Headed's Hit/Avo/Crit roll; one copy, he gains most",
+            "slot": "Accessory",
+            "alts": [
+              "Archer's Ring"
+            ],
+            "plan": "Your Bird-Plume Amulet +2 (one copy, probably Cai's route)"
+          }
+        ],
+        "arts": [
+          {
+            "name": "Beatdown",
+            "why": "Gauntlet C: Spd +1 per fight, max +10"
+          },
+          {
+            "name": "Mighty Fist",
+            "why": "Gauntlet D: +4 Mt, +10 Hit"
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Attack, Get Back",
+            "why": "Pugilist mastery goal: Avo +10 when using an art (once mastered)"
+          },
+          {
+            "name": "Top Form+",
+            "why": "Personal Lv 35 ability: Changes the effect of Hot-Headed to grant +20 (from Lv 35)"
+          },
+          {
+            "name": "Ravaging Arts",
+            "why": "Myrmidon mastery: crits deal +6"
+          },
+          {
+            "name": "Attack Basics",
+            "why": "Gladiator mastery: Str +1"
+          },
+          {
+            "name": "Fists Lv. 1",
+            "why": "Gauntlet D+ rank ability: gauntlet Hit +3"
+          }
+        ],
+        "drop": [
+          {
+            "item": "Killing Edge",
+            "why": "Pugilist is gauntlet-only; back in Shido"
+          },
+          {
+            "item": "Cleansing Blade",
+            "why": "Pugilist is gauntlet-only; back in Shido"
+          },
+          {
+            "item": "Flyssa",
+            "why": "Pugilist is gauntlet-only; back in Shido"
+          },
+          {
+            "item": "Zanbato",
+            "why": "Pugilist is gauntlet-only; back in Shido"
+          },
+          {
+            "item": "Wooden Sword",
+            "why": "Pugilist is gauntlet-only; back in Shido"
+          },
+          {
+            "item": "Deadly Blade",
+            "why": "Sword art; Pugilist is gauntlet-only"
+          },
+          {
+            "item": "Grounder",
+            "why": "Sword art; Pugilist is gauntlet-only"
+          },
+          {
+            "item": "Wrath Strike",
+            "why": "Sword art; Pugilist is gauntlet-only"
+          },
+          {
+            "item": "Iron Gauntlets",
+            "why": "Da Mina hits harder, Wooden is lighter: no slot"
+          }
+        ],
+        "items": [
+          {
+            "item": "Concoction",
+            "why": "40 HP x2: he swings first and gets hit back",
+            "alts": [
+              "Vulnerary"
+            ]
+          }
+        ],
+        "why": [
+          "With Top Form's Avo roll that is +25 Avo on art turns",
+          "Pugilist grows Str 55, Def 45 against Myrmidon's 45 and 35; Spd stays 60"
+        ]
+      },
+      {
+        "when": "Ch 10 to 12 (Advanced)",
+        "from": {
+          "part": 1,
+          "ch": 10
+        },
+        "to": {
+          "part": 1,
+          "ch": 12
+        },
+        "level": "Lv 35 to 38",
+        "class": "Shido",
+        "kind": "core",
+        "goal": "Top Form+ (Lv 35): Hot-Headed +20. Silver Sword for steady hits, Killing Edge when you want the crit.",
+        "exit": "Stays through Part I. Ever Vigilant should be mastered before Part II.",
+        "masteries": [
+          "Ever Vigilant"
+        ],
+        "training": [
+          {
+            "rank": "Sword A",
+            "for": "Sword Master (Part III)",
+            "how": "Arena Infantry Training (Sword, Bow, Infantry)"
+          }
+        ],
+        "weapons": [
+          {
+            "item": "Silver Sword",
+            "why": "Mt 18, Hit 95, Wt 4 at Sword B; no known source",
+            "alts": [
+              "Da Mina Sword",
+              "Killing Edge"
+            ]
+          },
+          {
+            "item": "Killing Edge",
+            "why": "Refined crit blade",
+            "plan": "Refine at the Blacksmith"
+          },
+          {
+            "item": "Flyssa",
+            "why": "A tier: effective vs armor (Ch 10 armor, Anna's Giant)",
+            "plan": "Keep from Myrmidon; refine"
+          },
+          {
+            "item": "Cleansing Blade",
+            "why": "Underworld foes",
+            "situational": "Underworld foes: open slot; Wt 3 light sword if he stops doubling",
+            "plan": "Ch 7 battle map pickup near the start"
+          },
+          {
+            "item": "Zanbato",
+            "why": "Cavalry counter",
+            "situational": "Cavalry-heavy maps: open slot"
+          }
+        ],
+        "equipment": [
+          {
+            "item": "Bird-Plume Amulet",
+            "why": "Dex +2, Spd +1, Wt 3: adds hit and doubling without duplicating Hot-Headed's Hit/Avo/Crit roll; one copy, he gains most",
+            "slot": "Accessory",
+            "alts": [
+              "Archer's Ring"
+            ],
+            "plan": "Your Bird-Plume Amulet +2 (one copy, probably Cai's route)"
+          }
+        ],
+        "arts": [
+          {
+            "name": "Blaze Blow",
+            "why": "Sword B: +7 Mt, Atk +5 at Str/2"
+          },
+          {
+            "name": "Deadly Blade",
+            "why": "Crit engine"
+          },
+          {
+            "name": "Grounder",
+            "why": "Sword C: effective vs fliers"
+          },
+          {
+            "name": "Wrath Strike",
+            "why": "Sword D: +4 Mt, +10 Hit"
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Ever Vigilant",
+            "why": "Shido mastery goal: heals after a crit kill (once mastered)"
+          },
+          {
+            "name": "Top Form+",
+            "why": "Personal Lv 35 ability: Changes the effect of Hot-Headed to grant +20"
+          },
+          {
+            "name": "Ravaging Arts",
+            "why": "Myrmidon mastery: crits deal +6"
+          },
+          {
+            "name": "Attack, Get Back",
+            "why": "Pugilist mastery: Avo +10 when using an art"
+          },
+          {
+            "name": "Attack Basics",
+            "why": "Gladiator mastery: Str +1"
+          }
+        ],
+        "drop": [
+          {
+            "item": "Wooden Gauntlets",
+            "why": "Shido has no gauntlets"
+          },
+          {
+            "item": "Iron Gauntlets",
+            "why": "Shido has no gauntlets"
+          },
+          {
+            "item": "Beatdown",
+            "why": "Gauntlet art; Shido has no gauntlets"
+          },
+          {
+            "item": "Mighty Fist",
+            "why": "Gauntlet art; Shido has no gauntlets"
+          },
+          {
+            "item": "Da Mina Sword",
+            "why": "Fallback for the Silver Sword only"
+          }
+        ],
+        "items": [
+          {
+            "item": "Elixir",
+            "why": "100 HP: boss fighter, and his Part II stock",
+            "alts": [
+              "Concoction"
+            ],
+            "plan": "After Ch 6"
+          }
+        ],
+        "why": [
+          "A Crit roll on Deadly Blade with Shido's Sword Crit +5 is +40 Crit",
+          "Ravaging Arts adds +6 on the crit; Ever Vigilant heals on the kill"
+        ]
+      },
+      {
+        "when": "Part II",
+        "from": {
+          "part": 2
+        },
+        "level": "Lv 37 to 42",
+        "class": "Shido",
+        "kind": "core",
+        "goal": "Player-phase cleanup with Top Form+ crits (Deadly Blade, Ravaging Arts, Ever Vigilant). No Part II side trip: his five slots are full, and Warrior's Practiced Art would need Axe B and Gauntlet B.",
+        "exit": "Stays to the end of Part II.",
+        "tips": [
+          "Ch 6: save crit arts for Lyrah's cocoon, which heals on every hit",
+          "No free time in Part II: only equipped items come in, so equip them at the end of Ch 12"
+        ],
+        "weapons": [
+          {
+            "item": "Silver Sword",
+            "why": "Mt 18, Hit 95, Wt 4 at Sword B; no known source",
+            "alts": [
+              "Da Mina Sword",
+              "Killing Edge"
+            ]
+          },
+          {
+            "item": "Killing Edge",
+            "why": "Crit",
+            "plan": "Equip before Part II"
+          },
+          {
+            "item": "Flyssa",
+            "why": "Armor",
+            "plan": "Keep from Myrmidon; refine"
+          },
+          {
+            "item": "Cleansing Blade +1",
+            "why": "Underworld foes; Wt 3 light sword",
+            "situational": "Ch 2 drop (southeast Ranger): fills the open slot from then on; Underworld foes"
+          }
+        ],
+        "equipment": [
+          {
+            "item": "Bird-Plume Amulet",
+            "why": "Dex +2, Spd +1, Wt 3: adds hit and doubling without duplicating Hot-Headed's Hit/Avo/Crit roll; one copy, he gains most",
+            "slot": "Accessory",
+            "alts": [
+              "Archer's Ring"
+            ],
+            "plan": "Your Bird-Plume Amulet +2 (one copy, probably Cai's route)"
+          }
+        ],
+        "arts": [
+          {
+            "name": "Blaze Blow",
+            "why": "Sword B: +7 Mt, Atk +5 at Str/2"
+          },
+          {
+            "name": "Deadly Blade",
+            "why": "Crit engine"
+          },
+          {
+            "name": "Grounder",
+            "why": "Sword C: effective vs fliers"
+          },
+          {
+            "name": "Wrath Strike",
+            "why": "Sword D: +4 Mt, +10 Hit"
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Top Form+",
+            "why": "Personal Lv 35 ability: Changes the effect of Hot-Headed to grant +20"
+          },
+          {
+            "name": "Ever Vigilant",
+            "why": "Shido mastery: heals after a crit kill"
+          },
+          {
+            "name": "Ravaging Arts",
+            "why": "Myrmidon mastery: crits deal +6"
+          },
+          {
+            "name": "Attack, Get Back",
+            "why": "Pugilist mastery: Avo +10 when using an art"
+          },
+          {
+            "name": "Attack Basics",
+            "why": "Gladiator mastery: Str +1"
+          }
+        ],
+        "drop": [
+          {
+            "item": "Cleansing Blade",
+            "why": "Replaced by the Cleansing Blade +1"
+          },
+          {
+            "item": "Bolt Gem",
+            "why": "Back to Majide at the end of Ch 12 (his Part II kit)"
+          },
+          {
+            "item": "Da Mina Sword",
+            "why": "Fallback for the Silver Sword only; storage"
+          },
+          {
+            "item": "Zanbato",
+            "why": "Not in his Ch 12 kit: storage until Part III"
+          }
+        ],
+        "items": [
+          {
+            "item": "Elixir",
+            "why": "100 HP: carried in from Ch 12",
+            "alts": [
+              "Concoction"
+            ],
+            "plan": "After Ch 6"
+          }
+        ]
+      },
+      {
+        "when": "Part III goal",
+        "from": {
+          "part": 3
+        },
+        "level": "Lv 45+",
+        "class": "Sword Master",
+        "kind": "core",
+        "goal": "Spd 70, Astra: five strikes are five Top Form+ crit chances with Sword Crit +7, each crit adding Ravaging Arts' +6.",
+        "exit": "Final class. Stay Shido until Mars's request unlocks it.",
+        "masteries": [
+          "Astra"
+        ],
+        "weapons": [
+          {
+            "item": "Silver Sword",
+            "why": "Mt 18, Hit 95, Wt 4; no known source",
+            "alts": [
+              "Killing Edge +3",
+              "Da Mina Sword"
+            ]
+          },
+          {
+            "item": "Killing Edge +3",
+            "why": "Deadly Blade crit art; Part III chest",
+            "alts": [
+              "Killing Edge"
+            ]
+          },
+          {
+            "item": "Flyssa",
+            "why": "Armor",
+            "plan": "Keep from Myrmidon; refine"
+          },
+          {
+            "item": "Cleansing Blade +1",
+            "why": "Underworld foes",
+            "situational": "Underworld foes: open slot"
+          },
+          {
+            "item": "Zanbato +2",
+            "why": "Cavalry",
+            "situational": "Cavalry-heavy maps: open slot"
+          }
+        ],
+        "equipment": [
+          {
+            "item": "Bird-Plume Amulet",
+            "why": "Dex +2, Spd +1, Wt 3: adds hit and doubling without duplicating Hot-Headed's Hit/Avo/Crit roll; one copy, he gains most",
+            "slot": "Accessory",
+            "alts": [
+              "Archer's Ring"
+            ],
+            "plan": "Your Bird-Plume Amulet +2 (one copy, probably Cai's route)"
+          }
+        ],
+        "arts": [
+          {
+            "name": "Twin Blades",
+            "why": "Sword A: two hits at 80%"
+          },
+          {
+            "name": "Blaze Blow",
+            "why": "Sword B: +7 Mt, Atk +5 at Str/2"
+          },
+          {
+            "name": "Deadly Blade",
+            "why": "Crit engine"
+          },
+          {
+            "name": "Grounder",
+            "why": "Sword C: effective vs fliers"
+          },
+          {
+            "name": "Wrath Strike",
+            "why": "Sword D: +4 Mt, +10 Hit"
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Astra",
+            "why": "Sword Master mastery: 5 hits at 50% (once mastered)"
+          },
+          {
+            "name": "Top Form+",
+            "why": "Personal Lv 35 ability: Changes the effect of Hot-Headed to grant +20"
+          },
+          {
+            "name": "Ravaging Arts",
+            "why": "Crit damage"
+          },
+          {
+            "name": "Ever Vigilant",
+            "why": "Shido mastery: heals after a crit kill"
+          },
+          {
+            "name": "Attack, Get Back",
+            "why": "Pugilist mastery: Avo +10 when using an art"
+          }
+        ],
+        "drop": [
+          {
+            "item": "Killing Edge",
+            "why": "Replaced by the Killing Edge +3"
+          },
+          {
+            "item": "Zanbato",
+            "why": "Replaced by the Zanbato +2"
+          },
+          {
+            "item": "Attack Basics",
+            "why": "Slot goes to Astra"
+          },
+          {
+            "item": "Mars's Kneepads",
+            "why": "Wt 5 breaks his 3-weight budget, and its Crit +10 overlaps Top Form+"
+          },
+          {
+            "item": "Da Mina Sword",
+            "why": "Fallback for the Silver Sword only"
+          }
+        ],
+        "items": [
+          {
+            "item": "Elixir",
+            "why": "100 HP: tank and boss turns",
+            "alts": [
+              "Concoction"
+            ],
+            "plan": "After Ch 6"
+          }
+        ]
+      }
+    ],
+    "alt": "Skip the Pugilist stint if Gauntlet won't reach C; stay Myrmidon (Spd 65) until Shido. A Part II Warrior stint for Practiced Art (Hit +10 on arts) only if Axe and Gauntlet reach B, and Practiced Art would take the slot of Swords Lv. 3 or Attack Basics.",
+    "sources": [
+      "class-and-weapon-guide",
+      "growth.py",
+      "class-data",
+      "character-learnsets",
+      "combat-arts-and-abilities",
+      "weapons-and-items",
+      "hard-mode-video-notes",
+      "PATHS-BRIEF",
+      "walkthrough-part1-cai",
+      "part2-war",
+      "part3-salvation"
+    ],
+    "routeNotes": [
+      {
+        "system": "Mentoring",
+        "note": "Castor's Terrain Tips (Ch 5) gives the Bolt Gem: on Guzran's Combat Arts +2 Shido it fires more often than on anyone else deployed."
+      }
+    ],
+    "decisions": [
+      {
+        "topic": "Take the Pugilist side trip in Ch 7",
+        "pick": "Pugilist once Ravaging Arts is mastered and Gauntlet is C",
+        "why": "Attack, Get Back while he waits for Lv 35 and Renown 8. Top Form's Avo roll plus Attack, Get Back is +25 Avo on art turns.",
+        "else": "Pugilist doesn't train Sword: book the Arena for Sword B"
+      },
+      {
+        "topic": "Go Shido in Ch 10",
+        "pick": "Shido (Sword B) on a crit build",
+        "why": "Top Form+ (Lv 35) makes Hot-Headed +20. Killing Edge's Deadly Blade with Ravaging Arts turns a Crit roll into a kill; Ever Vigilant heals him after it.",
+        "else": "Loses follow-ups: drop the accessory first or swing the Cleansing Blade"
+      }
+    ],
+    "gates": [
+      {
+        "route": "Cai",
+        "from": {
+          "part": 1,
+          "ch": 5
+        },
+        "kind": "rank",
+        "text": "Gauntlet C before the Ch 7 Pugilist side trip: fight with gauntlets in Ch 5 to 6",
+        "by": {
+          "part": 1,
+          "ch": 7
+        }
+      },
+      {
+        "route": "Cai",
+        "from": {
+          "part": 1,
+          "ch": 7
+        },
+        "kind": "rank",
+        "text": "Sword B for Shido: Arena every week Ch 7 to 10 (Pugilist doesn't train Sword)",
+        "by": {
+          "part": 1,
+          "ch": 10
+        }
+      }
+    ]
+  },
+  "copies": [
+    {
+      "route": "Leda",
+      "renown": 3,
+      "chapter": 5,
+      "path": [
+        "Gladiator",
+        "Myrmidon",
+        "Shido (Ch 11)",
+        "Sword Master (merged with the Cai copy)"
+      ],
+      "role": "Sword crit striker, Dance target 2",
+      "part1": "Gladiator, Myrmidon at Lv 20, Shido at Lv 35 (Ch 11)",
+      "why": "Joins late Ch 5 (Renown 3) and deploys from Ch 6 in slot 7. Spd 65 as a Myrmidon and Hot-Headed crits make him the melee unit Leda dances second, after Sirocco.",
+      "guide": {
+        "role": "Sword crit striker, Dance target 2",
+        "summary": "Slot 7: the melee finisher Leda dances second, after Sirocco. Let the tanks and Sirocco soften a foe, crit it with [[art:Deadly Blade]], then take the Dance into a second kill. His Res grows 15 to 20%: never end his turn in mage range.",
+        "playstyle": "Player phase only: kill, get danced, kill again, then end inside Leda's 2-tile ring for Song of Passion. Hot-Headed rolls +15/+20 to Hit, Avo or Crit each fight.",
+        "focus": [
+          "Spd",
+          "Str",
+          "Dex"
+        ],
+        "keys": [
+          "Recruit him late Ch 5 (Renown 3) and deploy him from Ch 6",
+          "Take [[class:Myrmidon]] at Lv 20 (Sword C): Spd +15 row and [[ability:Ravaging Arts]]",
+          "Buy the [[item:Killing Edge]] in Regia by 5/28 and the [[item:Flyssa]] in Zoste (Ch 6)",
+          "Pick up the Ch 8 [[item:Cleansing Blade]] for Ch 11 and Part III undead",
+          "Take [[class:Shido]] the day he shows Lv 35 with Sword B (Ch 11)"
+        ],
+        "watch": [
+          "Weight: Da Mina Sword 4 + Kneepads 5 = 9, 5 over the weapon, no Wooden Spd +5. Speedwing +2, Special Dance +3; Charm first",
+          "Res: 15 to 20%. One mage can take half his HP: end turns out of mage range",
+          "Join: base level? in late Ch 5. If he trails the army, give him the Dance kills first",
+          "Inventory: 3 core (Da Mina Sword, Kneepads, Elixir); Cleansing Blade or Flyssa swaps in",
+          "Merge: same final class as the Cai copy; Merging Causality keeps the better roll per stat"
+        ],
+        "stages": [
+          {
+            "when": "Late Ch 5 join · deploys Ch 6",
+            "from": {
+              "part": 1,
+              "ch": 5
+            },
+            "to": {
+              "part": 1,
+              "ch": 6
+            },
+            "level": "Base level? to 20",
+            "class": "Gladiator",
+            "kind": "core",
+            "mount": "No mount (infantry)",
+            "goal": "Swords only, for Sword C. Hot-Headed rolls +10 to Hit, Avo or Crit; feed him kills with Wrath Strike.",
+            "exit": "[[class:Myrmidon]] at Lv 20 with Sword C (75%), usually Ch 7.",
+            "masteries": [
+              "Attack Basics"
+            ],
+            "why": [
+              "Joins at his base level? in a Beginner class; a License for Gladiator only if it isn't one",
+              "Sits the Ch 5 battle unless a seventh slot shows"
+            ],
+            "weapons": [
+              {
+                "item": "Wooden Sword +5",
+                "why": "Mt 17, Hit 90, Wt 2: refine at the Ch 6 Blacksmith on common ores",
+                "alts": [
+                  "Iron Sword"
+                ]
+              }
+            ],
+            "items": [
+              {
+                "item": "Vulnerary",
+                "why": "Heals 20: early melee"
+              }
+            ],
+            "arts": [
+              {
+                "name": "Wrath Strike",
+                "why": "Sword D: Mt +4, Hit +10"
+              }
+            ],
+            "abilities": [
+              {
+                "name": "Attack Basics",
+                "why": "Gladiator mastery: Str +1 (once mastered)"
+              },
+              {
+                "name": "Swords Lv. 1",
+                "why": "Sword D+: sword Hit +3"
+              },
+              {
+                "name": "Close Quarters",
+                "why": "Infantry D (Infantry course): Mov -1 on adjacent foes"
+              },
+              {
+                "name": "Read the Winds",
+                "why": "Flying D (one Mounted week?): Avo +10 vs bows"
+              },
+              {
+                "name": "Top Form",
+                "why": "Personal Lv 20: Hot-Headed rolls +15 (from Lv 20)"
+              }
+            ],
+            "training": [
+              {
+                "rank": "Sword C",
+                "for": "Myrmidon (Lv 20)",
+                "how": "Battle use plus the Arena Infantry course (Sword, Bow, Infantry)"
+              },
+              {
+                "rank": "Infantry D",
+                "for": "Close Quarters",
+                "how": "Same Infantry session"
+              },
+              {
+                "rank": "Flying D, Riding D",
+                "for": "Read the Winds, Knightly Senses (Avo +10 vs bows / spears)",
+                "how": "1–2 Arena Mounted weeks? on the free seat beside Catania (Ch 5–9)"
+              }
+            ],
+            "tips": [
+              "Buy the Killing Edge (Regia, by 5/28) and Flyssa (Zoste, Ch 6) now: both need Sword C",
+              "Ch 6: Wooden Sword to +5 before his first deploy (Mt 6 to 17 at +5)"
+            ]
+          },
+          {
+            "when": "Ch 7 to 10",
+            "from": {
+              "part": 1,
+              "ch": 7
+            },
+            "to": {
+              "part": 1,
+              "ch": 10
+            },
+            "level": "Lv 20 to 33",
+            "class": "Myrmidon",
+            "kind": "core",
+            "mount": "No mount (infantry)",
+            "goal": "Spd +15 row; master [[ability:Ravaging Arts]]. Top Form (Lv 20) rolls +15: crit kills take +6 damage.",
+            "exit": "[[class:Shido]] the day Lv 35 shows with Sword B (Ch 11).",
+            "masteries": [
+              "Ravaging Arts"
+            ],
+            "why": [
+              "Dance target 2 from Ch 9: kill, get danced, kill again"
+            ],
+            "weapons": [
+              {
+                "item": "Killing Edge +2",
+                "why": "Deadly Blade (Crit +15), Mt ?, Hit 90, Wt 6; rare-ore refine (ledger)"
+              },
+              {
+                "item": "Wooden Sword +5",
+                "why": "Mt 17, Hit 90, Wt 2: plain-hit doubles when Wt 6 costs the x2"
+              },
+              {
+                "item": "Flyssa",
+                "why": "2x vs armor at Wt 4 (Ch 7, 9 and 10 armor)"
+              }
+            ],
+            "equipment": [
+              {
+                "item": "Sea-Spirit Charm",
+                "why": "Adjacent foes Lck −5, so crits land more; Wt 3",
+                "slot": "Accessory",
+                "alts": [
+                  "Phantom Ring"
+                ]
+              }
+            ],
+            "items": [
+              {
+                "item": "Concoction",
+                "why": "Heals 40",
+                "alts": [
+                  "Vulnerary"
+                ]
+              }
+            ],
+            "arts": [
+              {
+                "name": "Deadly Blade",
+                "why": "Killing Edge art: Crit +15"
+              },
+              {
+                "name": "Grounder",
+                "why": "Sword C: Mt +3, 2x vs fliers"
+              },
+              {
+                "name": "Wrath Strike",
+                "why": "Sword D: Mt +4, Hit +10"
+              },
+              {
+                "name": "Blaze Blow",
+                "why": "Sword B: Mt +7, Atk +5 at Str/2 %"
+              }
+            ],
+            "abilities": [
+              {
+                "name": "Top Form",
+                "why": "Personal Lv 20: Hot-Headed rolls +15"
+              },
+              {
+                "name": "Ravaging Arts",
+                "why": "Myrmidon mastery: crits deal +6 (once mastered)"
+              },
+              {
+                "name": "Swords Lv. 2",
+                "why": "Sword C+: sword Hit +5"
+              },
+              {
+                "name": "Attack Basics",
+                "why": "Str +1"
+              },
+              {
+                "name": "Read the Winds",
+                "why": "Flying D: Avo +10 vs bows on a danced striker"
+              }
+            ],
+            "training": [
+              {
+                "rank": "Sword B",
+                "for": "Shido (Lv 35, Ch 11)",
+                "how": "Battle use plus the Arena Infantry course"
+              }
+            ],
+            "checks": [
+              {
+                "stat": "Spd",
+                "at": "Lv 25 (Ch 8)",
+                "need": "Doubles Ch 9 Soldiers and Fighters with the Killing Edge in the forecast",
+                "why": "Crit kills need two swings; one hit leaves him in the open",
+                "fix": [
+                  "Leda's Special Dance first: Spd +3 for the phase (Ch 9 on)",
+                  "Swap the Killing Edge (Wt 6) for the Wooden Sword +5 (Wt 2)",
+                  "A second [[item:Gale Ring]] barter (Spd +3, Wt 2) for the charm"
+                ]
+              }
+            ],
+            "drop": [
+              {
+                "item": "Swords Lv. 1",
+                "why": "Lv. 2 replaces it at Sword C+"
+              },
+              {
+                "item": "Close Quarters",
+                "why": "Ravaging Arts takes the slot"
+              }
+            ],
+            "tips": [
+              "Ch 9 and 10 are armored: Flyssa in hand",
+              "Blacksmith: Killing Edge +2 on rare ores (ledger); Wooden Sword +5 is already done"
+            ]
+          },
+          {
+            "when": "Ch 11 to 12",
+            "from": {
+              "part": 1,
+              "ch": 11
+            },
+            "to": {
+              "part": 1,
+              "ch": 12
+            },
+            "level": "Lv 35 to 37",
+            "class": "Shido",
+            "kind": "core",
+            "mount": "No mount (infantry)",
+            "goal": "Sword Crit +5 and [[ability:Ever Vigilant]] heals him on crit kills. Top Form+ (Lv 35) rolls +20.",
+            "exit": "Stay Shido through Part II.",
+            "masteries": [
+              "Ever Vigilant"
+            ],
+            "why": [
+              "Ch 11 undead: Cleansing Blade in hand, or fight inside Leda's Song of Abjuring ring"
+            ],
+            "weapons": [
+              {
+                "item": "Killing Edge +2",
+                "why": "Crit turns: Deadly Blade, Crit +15; Mt ?, Wt 6"
+              },
+              {
+                "item": "Wooden Sword +5",
+                "why": "Mt 17, Hit 90, Wt 2: plain-hit damage, keeps the double"
+              },
+              {
+                "item": "Flyssa",
+                "why": "2x vs armor at Wt 4 (Ch 7, 9 and 10 armor)"
+              },
+              {
+                "item": "Cleansing Blade",
+                "why": "Strips the Underworld Boon; Sword E, Wt 3",
+                "situational": "Ch 11 undead: open slot",
+                "plan": "Ch 8 battle map, near the start"
+              }
+            ],
+            "equipment": [
+              {
+                "item": "Sea-Spirit Charm",
+                "why": "Adjacent foes Lck −5, so crits land more; Wt 3",
+                "slot": "Accessory",
+                "alts": [
+                  "Phantom Ring"
+                ]
+              }
+            ],
+            "items": [
+              {
+                "item": "Elixir",
+                "why": "Heals 100: Part II stock",
+                "alts": [
+                  "Concoction"
+                ]
+              }
+            ],
+            "arts": [
+              {
+                "name": "Blaze Blow",
+                "why": "Sword B: Mt +7, Atk +5 at Str/2 %"
+              },
+              {
+                "name": "Deadly Blade",
+                "why": "Killing Edge art: Crit +15"
+              },
+              {
+                "name": "Grounder",
+                "why": "Sword C: Mt +3, 2x vs fliers"
+              },
+              {
+                "name": "Wrath Strike",
+                "why": "Sword D: Mt +4, Hit +10"
+              }
+            ],
+            "abilities": [
+              {
+                "name": "Top Form+",
+                "why": "Personal Lv 35: Hot-Headed rolls +20"
+              },
+              {
+                "name": "Ever Vigilant",
+                "why": "Shido mastery: heals after a crit kill (once mastered)"
+              },
+              {
+                "name": "Ravaging Arts",
+                "why": "Crits deal +6"
+              },
+              {
+                "name": "Swords Lv. 3",
+                "why": "Sword B+ (Shido fights): Hit/Avo +5; Lv. 2 until it shows"
+              },
+              {
+                "name": "Read the Winds",
+                "why": "Flying D: Avo +10 vs bows"
+              }
+            ],
+            "checks": [
+              {
+                "stat": "Str",
+                "at": "Lv 35 (Ch 11)",
+                "need": "A doubled Blaze Blow kills Ch 12 Fighters in the forecast without a crit",
+                "why": "Crits are a roll; the plain double must still kill to keep the Dance chain going",
+                "fix": [
+                  "End his turn in Leda's Song of Passion ring (Str +4, +7 after Popular)",
+                  "[[item:Wooden Sword]] +5 (Mt 17, Wt 2) over the Killing Edge on plain turns",
+                  "[[art:Blaze Blow]] on every opener: Mt +7"
+                ]
+              }
+            ],
+            "drop": [
+              {
+                "item": "Silver Sword",
+                "why": "Skip: Wooden Sword +5 is Mt 17 at Wt 2 (Silver 18 at Wt 4)"
+              },
+              {
+                "item": "Concoction",
+                "why": "The Elixir takes the heal slot into Part II"
+              },
+              {
+                "item": "Attack Basics",
+                "why": "Ever Vigilant takes the slot"
+              }
+            ],
+            "tips": [
+              "Part II brings only the 6 items he holds at 11/27: Killing Edge +2 and Wooden Sword +5 first"
+            ]
+          },
+          {
+            "when": "Part II Ch 1 to 6",
+            "from": {
+              "part": 2,
+              "ch": 1
+            },
+            "to": {
+              "part": 3,
+              "ch": 2
+            },
+            "level": "Lv 37 to 42",
+            "class": "Shido",
+            "kind": "core",
+            "mount": "No mount (infantry)",
+            "goal": "Player-phase finisher and Dance target 2. Ch 6: save crit arts for Lyrah's cocoon, which heals per hit.",
+            "exit": "[[class:Sword Master]] at Lv 45 in Part III (Sword A, Mars's request).",
+            "masteries": [],
+            "weapons": [
+              {
+                "item": "Killing Edge +2",
+                "why": "Crit turns: Deadly Blade, Crit +15; Mt ?, Wt 6"
+              },
+              {
+                "item": "Wooden Sword +5",
+                "why": "Mt 17, Hit 90, Wt 2: plain-hit damage, keeps the double"
+              },
+              {
+                "item": "Flyssa",
+                "why": "2x vs armor at Wt 4 (Ch 7, 9 and 10 armor)"
+              }
+            ],
+            "equipment": [
+              {
+                "item": "Sea-Spirit Charm",
+                "why": "Adjacent foes Lck −5, so crits land more; Wt 3",
+                "slot": "Accessory",
+                "alts": [
+                  "Phantom Ring"
+                ]
+              }
+            ],
+            "items": [
+              {
+                "item": "Elixir",
+                "why": "Heals 100: Part II stock",
+                "alts": [
+                  "Concoction"
+                ]
+              },
+              {
+                "item": "Concoction",
+                "why": "Heals 40: Ch 3 asks for concoctions",
+                "alts": [
+                  "Vulnerary"
+                ],
+                "situational": "Part II Ch 3: carried in from Ch 12, open slot"
+              }
+            ],
+            "arts": [
+              {
+                "name": "Blaze Blow",
+                "why": "Sword B: Mt +7, Atk +5 at Str/2 %"
+              },
+              {
+                "name": "Deadly Blade",
+                "why": "Killing Edge art: Crit +15"
+              },
+              {
+                "name": "Grounder",
+                "why": "Sword C: Mt +3, 2x vs fliers"
+              },
+              {
+                "name": "Wrath Strike",
+                "why": "Sword D: Mt +4, Hit +10"
+              }
+            ],
+            "abilities": [
+              {
+                "name": "Top Form+",
+                "why": "Personal Lv 35: Hot-Headed rolls +20"
+              },
+              {
+                "name": "Ever Vigilant",
+                "why": "Heals after a crit kill"
+              },
+              {
+                "name": "Ravaging Arts",
+                "why": "Crits deal +6"
+              },
+              {
+                "name": "Swords Lv. 3",
+                "why": "Sword B+: sword Hit/Avo +5"
+              },
+              {
+                "name": "Read the Winds",
+                "why": "Flying D: Avo +10 vs bows"
+              }
+            ],
+            "training": [
+              {
+                "rank": "Sword A",
+                "for": "Sword Master (Lv 45)",
+                "how": "Battle use only: Arena seats bench first"
+              }
+            ],
+            "tips": [
+              "Ch 2: catch the southeast Ranger before Turn 4 for Cleansing Blade +1",
+              "Part II's temporary +2/+3 weapons don't carry into Part III",
+              "Ch 4: Knightly Senses (Riding D?) in for Read the Winds vs the side Dragoons' spears"
+            ]
+          },
+          {
+            "when": "Part III Section 3+ (Sword Master)",
+            "from": {
+              "part": 3,
+              "ch": 3
+            },
+            "level": "Lv 45+",
+            "class": "Sword Master",
+            "kind": "core",
+            "mount": "No mount (infantry)",
+            "goal": "Astra's 5 strikes, each a Top Form+ crit roll with Sword Crit +7 and Ravaging Arts +6 on every crit.",
+            "exit": "Final class.",
+            "masteries": [
+              "Astra"
+            ],
+            "why": [
+              "Underworld Boon: Leda's Abjuring ring in C and at Balor; Cleansing Blade if he leaves it",
+              "Mars's Kneepads and Speedwing (S5): Atk +3, Crit +10 on arts; Spd +2 keeps him doubling",
+              "Merging Causality keeps the better roll of each stat from the two copies"
+            ],
+            "weapons": [
+              {
+                "item": "Da Mina Sword +3",
+                "why": "Mt 23, Hit and Crit +10 on every art, Wt 4: Astra and Balor art turns",
+                "plan": "Soulstone queue",
+                "alts": [
+                  "Da Mina Sword +2",
+                  "Iron Sword +4"
+                ]
+              },
+              {
+                "item": "Cleansing Blade",
+                "why": "Strips the Boon outside Leda's ring; Sword E, Wt 3",
+                "situational": "Undead away from Leda: open slot",
+                "plan": "Ch 8 battle map, near the start"
+              },
+              {
+                "item": "Flyssa",
+                "why": "2x vs armor at Wt 4",
+                "situational": "Armor-heavy maps: open slot"
+              }
+            ],
+            "equipment": [
+              {
+                "item": "Mars's Kneepads",
+                "why": "Atk +3, Crit +10 on arts, Wt 5: 2 over his cap; Speedwing pays it",
+                "slot": "Accessory",
+                "alts": [
+                  "Sea-Spirit Charm",
+                  "Hunter's Ring"
+                ],
+                "plan": "Section 5 hand-over; Sea-Spirit Charm until then"
+              }
+            ],
+            "items": [
+              {
+                "item": "Elixir",
+                "why": "Heals 100",
+                "alts": [
+                  "Concoction"
+                ]
+              }
+            ],
+            "arts": [
+              {
+                "name": "Twin Blades",
+                "why": "Sword A: two hits at 80%, two crit rolls"
+              },
+              {
+                "name": "Blaze Blow",
+                "why": "Sword B: Mt +7, Atk +5 at Str/2 %"
+              },
+              {
+                "name": "Wrath Strike",
+                "why": "Sword D: Mt +4, Hit +10"
+              },
+              {
+                "name": "Grounder",
+                "why": "Sword C: Mt +3, 2x vs fliers"
+              }
+            ],
+            "abilities": [
+              {
+                "name": "Astra",
+                "why": "Sword Master mastery: 5 hits at 50% (once mastered)"
+              },
+              {
+                "name": "Top Form+",
+                "why": "Personal Lv 35: Hot-Headed rolls +20"
+              },
+              {
+                "name": "Ravaging Arts",
+                "why": "Crits deal +6, on each Astra strike"
+              },
+              {
+                "name": "Attack, Get Back",
+                "why": "Pugilist mastery (Cai merge): Avo +10 on art turns"
+              },
+              {
+                "name": "Swords Lv. 4",
+                "why": "Sword A+ (battle use)?: Hit/Avo +7; Lv. 3 until it shows"
+              }
+            ],
+            "drop": [
+              {
+                "item": "Wooden Sword +5",
+                "why": "Wooden +4 is Mt ~6 without Soulstone; one Da Mina sword does both jobs"
+              },
+              {
+                "item": "Killing Edge +2",
+                "why": "Da Mina Sword +3: Mt 23 vs 20 and Crit +10 on every art, 2 lighter"
+              },
+              {
+                "item": "Deadly Blade",
+                "why": "Leaves with the Killing Edge"
+              },
+              {
+                "item": "Sea-Spirit Charm",
+                "why": "Mars's Kneepads from S5; the Charm is its alt"
+              },
+              {
+                "item": "Ever Vigilant",
+                "why": "Attack, Get Back: Drake and Balor give few crit kills"
+              },
+              {
+                "item": "Read the Winds",
+                "why": "Astra takes the slot"
+              },
+              {
+                "item": "Swords Lv. 3",
+                "why": "Lv. 4 replaces it at Sword A+"
+              }
+            ],
+            "training": [
+              {
+                "rank": "Sword A",
+                "for": "Sword Master (Lv 45, Master License, Mars's request)",
+                "how": "Battle use"
+              }
+            ],
+            "tips": [
+              "Leda dances him first: Special Dance Spd +3 and Speedwing keep Astra doubling",
+              "Passion++ (S4): Str +10 on every Astra strike; Olympia's Barrier beside him covers his Res",
+              "Drake: Dance, then Catania or Mu Warps him beside Drake; kill nothing else (Envy)",
+              "Balor center: Talimun's Slowing Curse first, then a Da Mina art turn on the bar"
+            ]
+          }
+        ],
+        "alt": "A Pugilist trip for [[ability:Attack, Get Back]] if Gauntlet reaches C; his Cai copy already has it. Ludia (bench) takes the slot if he joins too far behind.",
+        "sources": [
+          "class-and-weapon-guide",
+          "class-data",
+          "character-learnsets",
+          "equippable-abilities",
+          "combat-arts-and-abilities",
+          "weapons-and-items",
+          "hard-mode-video-notes",
+          "walkthrough-part1-leda",
+          "part2-war",
+          "part3-salvation",
+          "redesign/11-roster-pass"
+        ],
+        "decisions": [
+          {
+            "topic": "Stay Myrmidon until Shido",
+            "pick": "Myrmidon from Lv 20 to 35, no side trip",
+            "why": "Spd 65 doubles most Part I foes. His Cai copy already ran Pugilist for Str and Def; Merging Causality keeps the better roll per stat, so Spd rolls here add more than a second Str trip.",
+            "else": "Pugilist trip for Attack, Get Back if Gauntlet reaches C"
+          },
+          {
+            "topic": "Feed him kills if he joins low",
+            "pick": "Dance him after kills",
+            "why": "He joins at his base level late Ch 5. Give him the kills Leda can dance into until he matches the army; Special Dance's Spd +3 turns near-doubles into doubles.",
+            "else": "Bench him for Ludia (same role) if he's still behind by Ch 9"
+          }
+        ],
+        "gates": [
+          {
+            "route": "Leda",
+            "from": {
+              "part": 1,
+              "ch": 5
+            },
+            "by": {
+              "part": 1,
+              "ch": 11
+            },
+            "kind": "rank",
+            "text": "Sword B by Lv 35 (Ch 11) for Shido: swords in battle plus the Arena Infantry course"
+          }
+        ],
+        "routeNotes": [
+          {
+            "system": "Supports",
+            "note": "Partners here: Leda, Mu and Mikaela (filler). Meal seat: Leda + Mu + Guzran (all three pairs support)."
+          },
+          {
+            "system": "Dancer (Great Dancer's Successor)",
+            "note": "Dance target 2 from Ch 9, after Sirocco: dance him after a kill when a second foe is in reach. Special Dance adds Spd +3 for the phase."
+          },
+          {
+            "system": "Drink Recipes (Leda's Songs)",
+            "note": "End in Leda's ring for Song of Passion (Str +4, +7 after Popular Drink Recipes); Song of Abjuring covers Ch 11's undead."
+          },
+          {
+            "system": "Perform Quests",
+            "note": "Killing Edge on the Dance for Regia trip (by 5/28), Flyssa on the Dance for Zoste trip (Ch 6); the charm is sold in Fina (Castalia)."
+          }
+        ]
+      }
+    }
+  ],
+  "sources": [
+    "https://fortunesweave.co.uk/characters/guzran",
+    "https://www.keengamer.com/articles/guides/fire-emblem-fortunes-weave-tier-list-best-characters-ranked-for-every-route/",
+    "https://www.pockettactics.com/fire-emblem-fortunes-weave/tier-list"
+  ],
+  "recruitOn": {
+    "Cai": {
+      "how": "recruit",
+      "renown": 2,
+      "item": "1× Mature Ghose",
+      "task": "Ch 3 gift tutorial"
+    },
+    "Dietrich": {
+      "how": "recruit",
+      "support": 3,
+      "renown": 8
+    },
+    "Theodora": {
+      "how": "recruit",
+      "support": 3,
+      "renown": 8
+    },
+    "Leda": {
+      "how": "recruit",
+      "renown": 3
+    }
+  }
+}

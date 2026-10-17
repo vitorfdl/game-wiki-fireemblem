@@ -1,0 +1,688 @@
+{
+  "name": "Yang Jie",
+  "slug": "yang-jie",
+  "epithet": "Wandering warrior monk",
+  "faction": "Neutral",
+  "homeRoute": "Dietrich",
+  "weapons": [
+    "Axe",
+    "White Magic",
+    "Black Magic"
+  ],
+  "preferred": [
+    "Axe",
+    "White Magic"
+  ],
+  "avoid": [
+    "Rider",
+    "Sword"
+  ],
+  "personality": "Jovial wanderer who loves alcohol, old tales, long journeys and protecting the weak.",
+  "story": "A wandering warrior monk who fights and heals with mysterious techniques. He joins automatically on Dietrich's route (as the recruitment tutorial per KeenGamer); on other routes he needs Renown, Support and correct answers to his questions.",
+  "personalSkill": {
+    "name": "Monkly Havoc",
+    "effect": "After defeating a foe, recovers HP equal to max HP (trigger rate Lck/2). Lv20: Robust Health (Shld+3 when attacked); Lv35: Robust Health+ (Shld+5)."
+  },
+  "growths": {
+    "HP": 50,
+    "Str": 30,
+    "Mag": 40,
+    "Spd": 35,
+    "Dex": 35,
+    "Def": 30,
+    "Res": 40,
+    "Lck": 40,
+    "Cha": 25
+  },
+  "supports": [
+    "Anatolia",
+    "Loretta",
+    "Sha Lan"
+  ],
+  "tiers": [
+    {
+      "source": "Pocket Tactics",
+      "tier": "B"
+    },
+    {
+      "source": "KeenGamer",
+      "tier": "B"
+    }
+  ],
+  "tierNotes": "Pocket Tactics B; KeenGamer B.",
+  "recruit": {
+    "how": "auto",
+    "why": [
+      "Joins Dietrich's army automatically, so there's no Support or Renown to chase."
+    ]
+  },
+  "requirements": {
+    "Cai": "2S 3R",
+    "Dietrich": "Auto (tutorial)",
+    "Theodora": "3S 9R",
+    "Leda": "3S 8R"
+  },
+  "build": {
+    "role": "Main healer with axe backup",
+    "path": [
+      "Diviner",
+      "Priest",
+      "Bishop"
+    ],
+    "part1Target": "Bishop",
+    "part3Target": "Wiseman",
+    "notes": "Diviner in Ch 5, Priest in Ch 6 (White Magic C), Bishop in Ch 10 at Renown 8 (White Magic B). Train White Magic; first White-Magic Manuals go to him. Keep an axe for Monkly Havoc kills. Master Barrier (Res +3 to adjacent allies), which covers the Dreadnoughts' low Res. Avoid mounted classes. Physic lets him heal from range.",
+    "confidence": "high"
+  },
+  "guide": {
+    "summary": "Main healer with an axe for Monkly Havoc kills. Priest in Ch 6 and Bishop in Ch 10, where Physic lets him heal at range and Barrier covers the Dreadnoughts' low Res.",
+    "stages": [
+      {
+        "when": "Ch 4 · no class yet",
+        "from": {
+          "part": 1,
+          "ch": 4
+        },
+        "to": {
+          "part": 1,
+          "ch": 4
+        },
+        "class": "",
+        "training": [],
+        "weapons": [
+          {
+            "item": "Iron Axe"
+          }
+        ],
+        "equipment": [],
+        "items": [
+          {
+            "item": "Vulnerary",
+            "why": "20 HP x3: the healer gets targeted"
+          }
+        ],
+        "spells": [
+          {
+            "name": "Heal",
+            "why": "White D"
+          },
+          {
+            "name": "Wind",
+            "why": "Black D chip damage"
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Axes Lv. 1",
+            "why": "Hit +3 with axes, once the Axe rank unlocks it"
+          }
+        ],
+        "goal": "Joins in the Ch 4 recruitment tutorial: your only healer from now, so keep him behind Esmeralda.",
+        "exit": "Ch 5: Diviner on a Beginner License at the class tutorial"
+      },
+      {
+        "when": "Ch 5 (Beginner)",
+        "from": {
+          "part": 1,
+          "ch": 5
+        },
+        "to": {
+          "part": 1,
+          "ch": 5
+        },
+        "class": "Diviner",
+        "training": [
+          {
+            "rank": "White Magic C",
+            "for": "Priest exam",
+            "how": "Arena Mage Training; White-Magic Manuals from Niraga Mine (Ch 4) and Shadowy Cave (Ch 5)"
+          }
+        ],
+        "weapons": [
+          {
+            "item": "Iron Axe"
+          }
+        ],
+        "equipment": [
+          {
+            "item": "Healing Staff",
+            "slot": "Accessory"
+          }
+        ],
+        "items": [
+          {
+            "item": "Vulnerary",
+            "why": "20 HP x3: the healer gets targeted"
+          }
+        ],
+        "spells": [
+          {
+            "name": "Heal",
+            "why": "White D"
+          },
+          {
+            "name": "Wind",
+            "why": "Black D chip damage"
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Magic Basics",
+            "why": "Diviner mastery, Mag/Res +1, once mastered"
+          },
+          {
+            "name": "Axes Lv. 1",
+            "why": "Hit +3 with axes, once the Axe rank unlocks it"
+          }
+        ],
+        "goal": "Monkly Havoc (full heal after a kill, trigger = Lck/2): let him finish weakened foes with the axe when it's safe.",
+        "exit": "Renown 4, Lv 20, White Magic C (Ch 6): Priest exam"
+      },
+      {
+        "when": "Ch 6 to 9 (Specialty)",
+        "from": {
+          "part": 1,
+          "ch": 6
+        },
+        "to": {
+          "part": 1,
+          "ch": 9
+        },
+        "class": "Priest",
+        "training": [
+          {
+            "rank": "White Magic B",
+            "for": "Bishop exam (Renown 8, Lv 35)",
+            "how": "Arena Mage Training; White-Magic Manual from Purloined Spellcasters Tools (Ch 8, due 10/15)"
+          }
+        ],
+        "weapons": [
+          {
+            "item": "Iron Axe"
+          }
+        ],
+        "equipment": [
+          {
+            "item": "Healing Staff",
+            "slot": "Accessory",
+            "plan": "+10 HP on magic heals"
+          }
+        ],
+        "items": [
+          {
+            "item": "Concoction",
+            "why": "40 HP x2",
+            "alts": [
+              "Vulnerary"
+            ]
+          }
+        ],
+        "arts": [
+          {
+            "name": "Smash",
+            "why": "Crit +5 axe art; Axe D per community sheet"
+          },
+          {
+            "name": "Discerning Blow",
+            "why": "Hit +50, half damage; Axe C per community sheet. Finishes weak foes for Monkly Havoc"
+          }
+        ],
+        "spells": [
+          {
+            "name": "Nosferatu",
+            "why": "White C; attack and self-heal"
+          },
+          {
+            "name": "Heal",
+            "why": "Doubled uses from White-Magic Seeker"
+          },
+          {
+            "name": "Wind",
+            "why": "Black D chip damage"
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Piety",
+            "why": "Priest mastery, Lck +3 raises the Monkly Havoc trigger, once mastered"
+          },
+          {
+            "name": "Robust Health",
+            "why": "Personal Lv 20 ability: Grants Shld+3 when attacked. Trigger % = unit's remaining HP"
+          },
+          {
+            "name": "Magic Basics",
+            "why": "Diviner mastery, Mag/Res +1"
+          },
+          {
+            "name": "White Magic Lv. 1",
+            "why": "Hit +3 with white magic, once the rank unlocks it"
+          },
+          {
+            "name": "Axes Lv. 1",
+            "why": "Hit +3 with axes"
+          }
+        ],
+        "goal": "Robust Health (Lv 20): Shld +3 when attacked, at a chance equal to his HP%: heal him first, and let him take kills for Monkly Havoc (Piety's Lck +3 raises it).",
+        "exit": "Renown 8, Lv 35, White Magic B (Ch 10): Bishop exam, first on the list"
+      },
+      {
+        "when": "Ch 10 to 12 (Advanced)",
+        "from": {
+          "part": 1,
+          "ch": 10
+        },
+        "to": {
+          "part": 1,
+          "ch": 12
+        },
+        "class": "Bishop",
+        "tips": [
+          "Stand next to Esmeralda or Goliath on mage maps",
+          "Magic Heal +10 in Bishop stacks with the Healing Staff"
+        ],
+        "weapons": [
+          {
+            "item": "Salamander",
+            "plan": "Refine it in Ch 10"
+          },
+          {
+            "item": "Iron Axe"
+          }
+        ],
+        "equipment": [
+          {
+            "item": "Healing Staff",
+            "slot": "Accessory"
+          }
+        ],
+        "items": [
+          {
+            "item": "Concoction",
+            "why": "Part II stock",
+            "alts": [
+              "Vulnerary"
+            ]
+          }
+        ],
+        "arts": [
+          {
+            "name": "Compressed Laser",
+            "why": "Salamander art; magic hit, Mt +10, Hit +20, range 1 to 2. Only 3 uses per refine"
+          },
+          {
+            "name": "Smash",
+            "why": "Crit +5 axe art; Axe D per community sheet"
+          },
+          {
+            "name": "Discerning Blow",
+            "why": "Hit +50, half damage; Axe C per community sheet. Finishes weak foes for Monkly Havoc"
+          }
+        ],
+        "spells": [
+          {
+            "name": "Physic",
+            "why": "White B; ranged heal, arrives with the Bishop exam"
+          },
+          {
+            "name": "Nosferatu",
+            "why": "Sustain when he has to fight"
+          },
+          {
+            "name": "Heal",
+            "why": "Doubled uses from White-Magic Seeker"
+          },
+          {
+            "name": "Wind",
+            "why": "Black D chip damage"
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Barrier",
+            "why": "Bishop mastery; Res +3 to adjacent allies, once mastered"
+          },
+          {
+            "name": "Robust Health+",
+            "why": "Personal Lv 35 ability: Grants Shld+5 when attacked. Trigger % = unit's remaining HP"
+          },
+          {
+            "name": "Piety",
+            "why": "Monkly Havoc trigger"
+          },
+          {
+            "name": "Magic Basics",
+            "why": "Mag/Res +1"
+          },
+          {
+            "name": "White Magic Lv. 1",
+            "why": "Hit +3 with white magic"
+          }
+        ],
+        "goal": "Robust Health+ (Lv 35): Shld +5 at his HP% chance; finish foes with the Salamander (magic, range 1-2) to proc Monkly Havoc (Lck/2, Piety +3).",
+        "exit": "Stay Bishop into Part II"
+      },
+      {
+        "when": "Part II",
+        "from": {
+          "part": 2
+        },
+        "class": "Bishop",
+        "tips": [
+          "Equip the Healing Staff before leaving Part I",
+          "Healing is mandatory on Hard from here (video)",
+          "Ch 3 asks for Physic users: he is one"
+        ],
+        "weapons": [
+          {
+            "item": "Salamander",
+            "plan": "Refine it in Ch 10"
+          },
+          {
+            "item": "Iron Axe"
+          }
+        ],
+        "equipment": [
+          {
+            "item": "Healing Staff",
+            "slot": "Accessory"
+          }
+        ],
+        "items": [
+          {
+            "item": "Concoction",
+            "why": "40 HP x2",
+            "plan": "Carried from Ch 12 (no shops in Part II)"
+          }
+        ],
+        "arts": [
+          {
+            "name": "Compressed Laser",
+            "why": "Salamander art; magic hit, Mt +10, Hit +20, range 1 to 2. Only 3 uses per refine"
+          },
+          {
+            "name": "Smash",
+            "why": "Crit +5 axe art; Axe D per community sheet"
+          },
+          {
+            "name": "Discerning Blow",
+            "why": "Hit +50, half damage; Axe C per community sheet. Finishes weak foes for Monkly Havoc"
+          }
+        ],
+        "spells": [
+          {
+            "name": "Physic",
+            "why": "White B; ranged heal, arrives with the Bishop exam"
+          },
+          {
+            "name": "Nosferatu",
+            "why": "Sustain when he has to fight"
+          },
+          {
+            "name": "Heal",
+            "why": "Doubled uses from White-Magic Seeker"
+          },
+          {
+            "name": "Wind",
+            "why": "Black D chip damage"
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Robust Health+",
+            "why": "Personal Lv 35 ability: Grants Shld+5 when attacked. Trigger % = unit's remaining HP"
+          },
+          {
+            "name": "Barrier",
+            "why": "Bishop mastery; Res +3 to adjacent allies"
+          },
+          {
+            "name": "Piety",
+            "why": "Monkly Havoc trigger"
+          },
+          {
+            "name": "Magic Basics",
+            "why": "Mag/Res +1"
+          },
+          {
+            "name": "White Magic Lv. 1",
+            "why": "Hit +3 with white magic"
+          }
+        ],
+        "goal": "Robust Health+ (Lv 35): Shld +5 at his HP% chance; finish foes with the Salamander (magic, range 1-2) to proc Monkly Havoc (Lck/2, Piety +3).",
+        "exit": "Part III: Wiseman",
+        "to": {
+          "part": 3,
+          "ch": 4
+        }
+      },
+      {
+        "when": "Part III Section 5+ (Wiseman)",
+        "from": {
+          "part": 3,
+          "ch": 5
+        },
+        "class": "Wiseman",
+        "training": [
+          {
+            "rank": "White Magic A",
+            "for": "Wiseman (Lv 45, Master License)",
+            "how": "Arena Mage Training"
+          },
+          {
+            "rank": "White Magic S",
+            "for": "Aura",
+            "how": "Battle: Wiseman trains White Magic +4"
+          }
+        ],
+        "weapons": [
+          {
+            "item": "Salamander +2",
+            "why": "Magic hit at 1-2, Wt 3; Compressed Laser Mt +10 for finishers",
+            "plan": "His Part I copy; refine to +2"
+          }
+        ],
+        "equipment": [
+          {
+            "item": "Healing Staff",
+            "why": "+10 HP per heal: Physic 8 + Magic Heal 15 + 10 at 1-10",
+            "slot": "Accessory",
+            "alts": [
+              "Photona's Holy Staff"
+            ]
+          }
+        ],
+        "items": [
+          {
+            "item": "Concoction",
+            "why": "40 HP x2",
+            "alts": [
+              "Vulnerary"
+            ]
+          }
+        ],
+        "arts": [
+          {
+            "name": "Compressed Laser",
+            "why": "Salamander art: magic hit, Mt +10, Hit +20, range 1 to 2; his real damage"
+          },
+          {
+            "name": "Swap",
+            "why": "Authority D: trade places to pull a crit unit out of reach"
+          }
+        ],
+        "spells": [
+          {
+            "name": "Physic",
+            "why": "White B: squad D's only ranged heal, 5 uses doubled by Seeker"
+          },
+          {
+            "name": "Recover",
+            "why": "White A: 30 HP, +25 from class and staff, adjacent"
+          },
+          {
+            "name": "Aura",
+            "why": "White S: Mt 22 at 1-2, 3 uses"
+          },
+          {
+            "name": "Nosferatu",
+            "why": "Sustain when he has to fight"
+          },
+          {
+            "name": "Heal",
+            "why": "Doubled uses from White-Magic Seeker"
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Robust Health+",
+            "why": "Personal Lv 35: Shld +5 when attacked, at his HP %"
+          },
+          {
+            "name": "Barrier",
+            "why": "Bishop mastery: Res +3 to adjacent allies"
+          },
+          {
+            "name": "Piety",
+            "why": "Priest mastery: Lck +3 for Monkly Havoc (Lck/2 %)"
+          },
+          {
+            "name": "Magic Basics",
+            "why": "Diviner mastery: Mag/Res +1"
+          },
+          {
+            "name": "Knightly Senses",
+            "why": "Riding D: Avo +10 vs spears (Mahadu)"
+          }
+        ],
+        "drop": [
+          {
+            "item": "Wind",
+            "why": "Wiseman has no Black Magic"
+          },
+          {
+            "item": "Iron Axe",
+            "why": "Wt 10 with the staff gets him doubled; the Salamander finishes"
+          },
+          {
+            "item": "Smash",
+            "why": "Leaves with the Iron Axe"
+          },
+          {
+            "item": "Discerning Blow",
+            "why": "Leaves with the Iron Axe"
+          },
+          {
+            "item": "Photona's Holy Staff",
+            "why": "Physic already reaches 10; Dante wears it"
+          },
+          {
+            "item": "Dominate Magic",
+            "why": "10% trigger; Knightly Senses covers Mahadu's spears"
+          }
+        ],
+        "goal": "Squad D's Physic: 33 HP at range 1-10 with the Healing Staff; Salamander finishers proc Monkly Havoc.",
+        "exit": "Final class.",
+        "tips": [
+          "Physic Klapka and the front from 2+ tiles back; Dante takes the close Recovers",
+          "End beside Gaitz: Brave Assist Def +3; Robust Health+ Shld +5 while HP is high",
+          "Swap pulls Dietrich or Simon back after a kill so Wrath's crits can't reach them",
+          "Boon: the Salamander doesn't strip it; Dietrich's or Simon's Cleansing Blade +3"
+        ]
+      }
+    ],
+    "spells": [
+      {
+        "name": "Physic",
+        "why": "Range heal"
+      },
+      {
+        "name": "Heal",
+        "why": "Cheap heal"
+      },
+      {
+        "name": "Nosferatu",
+        "why": "Self-heal attack"
+      }
+    ],
+    "abilities": [
+      {
+        "name": "Barrier",
+        "why": "Res aura"
+      },
+      {
+        "name": "Piety",
+        "why": "Lck for Monkly Havoc"
+      },
+      {
+        "name": "Magic Basics",
+        "why": "Mag/Res +1"
+      }
+    ],
+    "specials": [
+      "Avoids Rider and Sword: keep him on foot",
+      "Your only healer until Dante (Ch 10): protect him"
+    ],
+    "sources": [
+      "class plan v3",
+      "character-learnsets",
+      "class-data",
+      "weapons-and-items",
+      "hard-mode video notes",
+      "Dietrich Ch 4 to 9 walkthrough",
+      "Part II walkthrough"
+    ],
+    "watch": [
+      "Healer: keep light. Salamander 3 + Healing Staff 3 = 6. The Iron Axe (10) is for finishing blows only: 13 with the staff gets him doubled.",
+      "Part III: Salamander 3 + Healing Staff 3 = 6. No axe: Iron Axe 10 + staff gets him doubled. If he is doubled anyway, he stays out of reach and Physics from 3+ tiles."
+    ],
+    "decisions": [
+      {
+        "topic": "Rush Bishop first",
+        "pick": "Diviner (Ch 5), Priest (Ch 6), Bishop (Ch 10, 1st on the Advanced list)",
+        "why": "S tier: doubled heals, Magic Heal +10, Physic at White Magic B. He is the only healer from Ch 4 until Olympia (Ch 8) and Dante (Ch 10), so he gets finishing blows until Lv 35.",
+        "else": "He keeps axes as a Priest; Salamander from Southern Passage"
+      }
+    ],
+    "gates": [
+      {
+        "route": "Dietrich",
+        "from": {
+          "part": 1,
+          "ch": 6
+        },
+        "by": {
+          "part": 1,
+          "ch": 10
+        },
+        "kind": "rank",
+        "text": "White Magic B by Ch 10: Bishop and Physic. Save the White-Magic Manuals for him"
+      }
+    ]
+  },
+  "sources": [
+    "https://fortunesweave.co.uk/characters/yang-jie",
+    "https://www.pockettactics.com/fire-emblem-fortunes-weave/tier-list",
+    "https://www.keengamer.com/articles/guides/fire-emblem-fortunes-weave-tier-list-best-characters-ranked-for-every-route/"
+  ],
+  "recruitOn": {
+    "Cai": {
+      "how": "recruit",
+      "support": 2,
+      "renown": 3
+    },
+    "Dietrich": {
+      "how": "auto"
+    },
+    "Theodora": {
+      "how": "recruit",
+      "support": 3,
+      "renown": 9
+    },
+    "Leda": {
+      "how": "recruit",
+      "support": 3,
+      "renown": 8
+    }
+  }
+}

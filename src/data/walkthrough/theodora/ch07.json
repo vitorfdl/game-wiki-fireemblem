@@ -1,0 +1,405 @@
+{
+  "route": "Theodora",
+  "ch": 7,
+  "name": "A Voice from the Darkness",
+  "free": {
+    "from": "4/21",
+    "to": "5/28"
+  },
+  "unlocks": [
+    "Transfer Battalions tutorial"
+  ],
+  "routine": {
+    "meals": [
+      {
+        "week": "Every Sunday (4/21 on)",
+        "tables": [
+          [
+            "Theodora",
+            "Loretta",
+            "Ultand"
+          ],
+          [
+            "Theodora",
+            "Ninae",
+            "Simon"
+          ],
+          [
+            "Theodora",
+            "Nydine",
+            "Lilian"
+          ]
+        ],
+        "note": "Last Sundays before the joins: Loretta and Nydine (5/28), Ultand and Ninae (6/1). One short? Seat her at two tables."
+      }
+    ],
+    "gifts": [
+      {
+        "unit": "Loretta",
+        "gift": "Mellow Pastries",
+        "alt": "Simple Pastries",
+        "until": "Support 3, recruit Ch 7"
+      },
+      {
+        "unit": "Nydine",
+        "gift": "Tales of Adventure",
+        "alt": "Kitten Figurine",
+        "until": "Support 3, recruit Ch 7"
+      },
+      {
+        "unit": "Ultand",
+        "gift": "Tales of Adventure",
+        "alt": "Garum",
+        "until": "Support 3, recruit Ch 8"
+      },
+      {
+        "unit": "Ninae",
+        "gift": "Poems of the Greats",
+        "alt": "Tales of Adventure",
+        "until": "Support 3, recruit Ch 8",
+        "note": "Buy several on the Raivo Port trip"
+      },
+      {
+        "unit": "Simon",
+        "gift": "",
+        "alt": "Training Bracelet",
+        "until": "Support 3, recruit Ch 9",
+        "note": "Nothing they like is buyable yet: meals carry them"
+      },
+      {
+        "unit": "Seteth",
+        "gift": "Poems of the Greats",
+        "alt": "Tales of Adventure",
+        "until": "Support 3, recruit Ch 10 (filler)",
+        "note": "Buy several on the Raivo Port trip"
+      },
+      {
+        "unit": "Jester",
+        "gift": "Home-Recipe Book",
+        "alt": "Rare Spices",
+        "until": "Support 3, recruit Ch 10 (filler)"
+      },
+      {
+        "unit": "Io",
+        "gift": "Common Coffee",
+        "alt": "Kitten Figurine",
+        "until": "Support 3, recruit Ch 11 (filler)"
+      },
+      {
+        "unit": "Diego",
+        "gift": "Tales of Adventure",
+        "alt": "The Works of Dante",
+        "until": "Support 2, recruit Ch 12"
+      }
+    ]
+  },
+  "missables": [
+    {
+      "id": "theodora-ch07-missables-alexandra-scene",
+      "kind": "scene",
+      "text": "Talk to Alexandra in City Streets, then catch her follow-up scene in Lowtown",
+      "where": "City Streets, then Lowtown",
+      "lose": "an optional scene with Alexandra",
+      "recover": "None known",
+      "detail": [
+        "She is this chapter's boss; the plan recruits her on 6/1, Ch 8 week 1."
+      ],
+      "task": true,
+      "when": "4/21 to 5/28"
+    }
+  ],
+  "classes": {
+    "note": {
+      "text": "Master the Ch 6 Specialty classes; Zarcone takes [[class:Brigand]] at Lv 20 (Axe C, Sword C)",
+      "detail": [
+        "Sirocco joins about Lv 15 as a Diviner: Beginner License only if he arrives in another class.",
+        "Loretta and Nydine join about Lv 15: Myrmidon and Armored Ornius Rider at Lv 20 (Ch 9)."
+      ]
+    }
+  },
+  "gear": {
+    "barter": [
+      {
+        "item": "Magic Staff",
+        "for": "Sirocco",
+        "at": "Dagsion"
+      },
+      {
+        "item": "Longbow",
+        "for": "Lilian (+1 in Ch 9, +2 in Ch 12)",
+        "at": "Dagsion"
+      },
+      {
+        "item": "Phantom Ring",
+        "for": "Loretta, the week she joins",
+        "at": "Dagsion"
+      }
+    ],
+    "assign": [
+      {
+        "item": "Magic Staff",
+        "to": "Sirocco",
+        "why": "Second Zamir barter at Vandahl"
+      },
+      {
+        "item": "Tactics Manual",
+        "to": "Theodora",
+        "why": "Transfer Battalions tutorial: every Tactics Manual goes to her"
+      },
+      {
+        "item": "Flying Manual",
+        "to": "Lysander",
+        "why": "Cindered Road Cave copy: Dragoon needs Flying C"
+      },
+      {
+        "item": "Short Axe",
+        "to": "Zarcone",
+        "why": "Enno Isle chest"
+      },
+      {
+        "item": "Healing Staff",
+        "to": "Sofia",
+        "why": "Enno Isle chest"
+      },
+      {
+        "item": "Heavy-Armor Manual",
+        "to": "Theodora",
+        "why": "Legacy of a Legendary Sculptor reward"
+      },
+      {
+        "item": "Phantom Ring",
+        "to": "Loretta",
+        "why": "First Vandahl copy: Avo +5, Wt 3 on the Strike dodger"
+      }
+    ],
+    "note": [
+      {
+        "text": "Do the Transfer Battalions tutorial: it pays a Tactics Manual for Theodora",
+        "detail": [
+          "Then transfer every surplus roll at the Transport Chief: 100 troop points = 1 Tactics Manual for Theodora.",
+          "Keep the named squads plus 2 spare Novice Hunters and 1 spare Rookie Soldiers for the bench."
+        ],
+        "conf": "?"
+      },
+      {
+        "text": "Blacksmith: repairs only until Renown 7. Bank the Enno Isle ores for the Ch 9 refines",
+        "conf": "?"
+      }
+    ]
+  },
+  "recruits": [
+    {
+      "unit": "Sirocco",
+      "action": "Recruit him in week 1 with a copy of the Monument Verse and deploy him in slot 8: main nuke",
+      "detail": [
+        "Not at Renown 5 by the Ch 7 battle? He deploys from Ch 8, and Bonaventure stays the main nuke one more map.",
+        "He arrives about 10 levels under the core: feed him kills so Shaman (Lv 20) and Ovate (Lv 35) land on time.",
+        "He joins at about Lv 15 in a Beginner class: Diviner exam only if he isn't one already."
+      ],
+      "when": "Week 1 (Renown 5)"
+    },
+    {
+      "unit": "Loretta",
+      "when": "Late Ch 7 (Support 3, Renown 5)",
+      "action": "Hand over 3 Iron Swords at Support 3 and Renown 5: Strike dodger from Ch 8",
+      "detail": [
+        "About Lv 15 in a Beginner class (Hunter if it isn't hers): Myrmidon at Lv 20 (Ch 9), Sword C.",
+        "Support 3 not in by 5/28? Recruit her Ch 8 week 1. She supports Tobias and Ultand.",
+        "EXP: Ch 7 dungeon parties now; she deploys in slot 3 from Ch 8."
+      ]
+    },
+    {
+      "unit": "Nydine",
+      "when": "Late Ch 7 (Support 3, Renown 5)",
+      "action": "Hand over 3 Iron Axes at Support 3 and Renown 5: Part II bench cavalry",
+      "detail": [
+        "About Lv 15: Armored Ornius Rider at Lv 20 (Ch 9); Cataphract at the Part II Lv 35 floor.",
+        "Keep her mounted: Barge Through works only on cavalry. She supports Bonaventure and Lilian.",
+        "EXP: dungeon parties and Arena seats; she never takes a Part I slot."
+      ]
+    }
+  ],
+  "prep": [
+    {
+      "text": "Ultand and Ninae (Renown 6) land late Ch 7: recruit both on 6/1 (Ch 8 week 1) at Support 3",
+      "detail": [
+        "Ultand: her short quest ?. Ninae: 1 Paradise Fish (Lake Brontes, Saveilon).",
+        "Both join at about Lv 15 and take Priest at Lv 20 (Ch 9)."
+      ]
+    },
+    {
+      "text": "Buy 3 Iron Swords (Loretta) and 3 Iron Axes (Nydine) before their Support 3 lands"
+    },
+    {
+      "text": "Gather Alexandra's [[item:Levin Sword]] mats now: she joins on 6/1 and bartering it is week 1",
+      "detail": [
+        "Thry Fruit ×10 and Yuna Mei ×1 (Spare Turns rows below)."
+      ]
+    }
+  ],
+  "quests": {
+    "route": [
+      {
+        "quest": "send-supplies-thry-fruit",
+        "note": "Gather 30 [[gather:Thry Fruit]]; 10 more for Alexandra's Levin Sword barter (Ch 8)"
+      },
+      {
+        "quest": "send-supplies-carna-bonito"
+      }
+    ],
+    "sub": [
+      {
+        "quest": "rare-stone-hunting",
+        "note": "Finish by 7/31: the [[item:Tempest Bow]] is Lysander's Archer bow (Ch 8 to 9)"
+      },
+      {
+        "quest": "a-screeching-strange-shadow"
+      },
+      {
+        "quest": "legacy-of-a-legendary-sculptor",
+        "note": "Manuals: Heavy-Armor to Theodora, Flying to Alexandra (Ch 8), Riding to Nydine",
+        "detail": [
+          "Flying D for Alexandra's Ch 9 Wing Soldier exam; Lysander takes the Cindered Road Cave copy.",
+          "Riding D for Nydine's Armored Ornius Rider exam (Ch 9)."
+        ]
+      },
+      {
+        "quest": "a-challenge",
+        "offered": "if-offered"
+      },
+      {
+        "quest": "a-sword-of-deadly-renown",
+        "offered": "if-offered"
+      },
+      {
+        "quest": "a-taste-from-home",
+        "offered": "if-offered"
+      }
+    ],
+    "paralogue": []
+  },
+  "explore": [
+    {
+      "group": "Dungeons",
+      "id": "theodora-ch07-explore-cindered-road-cave",
+      "loot": true,
+      "text": "[[place:Cindered Road Cave]] (Lv 22): Flying Manual for Lysander, Conflagrant Gem for Tobias",
+      "detail": [
+        "Also a Concoction."
+      ]
+    },
+    {
+      "group": "Dungeons",
+      "id": "theodora-ch07-explore-cave-behind-the-falls",
+      "loot": true,
+      "text": "[[place:Cave Behind the Falls]] (Lv 22): [[item:Pure Water]] for Alexandra (Ch 9+), Bullion",
+      "detail": [
+        "Archive B too: nobody reads it (see Archives)."
+      ]
+    },
+    {
+      "id": "theodora-ch07-explore-masked-woods",
+      "text": "[[place:Masked Woods]] (Lv 15, Melias): [[item:Veroquine]], Heavy-Armor Manual, Venin Bow",
+      "detail": [
+        "[[item:Veroquine]] is cursed (Curse 2): hold it to the end of Part I (Drifting Reliquary).",
+        "Melias is open by now (Ladon Lake gathering); no Theodora source names this chest."
+      ],
+      "conf": "?",
+      "group": "Dungeons",
+      "loot": true
+    },
+    {
+      "group": "Dungeons",
+      "id": "theodora-ch07-explore-cougar-woodlands",
+      "loot": true,
+      "text": "[[place:Cougar Woodlands]] (Lv 23): [[item:Muen]], a cursed spear, School Scandal, 2 Bullion",
+      "detail": [
+        "Muen is cursed (Curse 2): hold it to the end of Part I (Drifting Reliquary).",
+        "Part III: Theodora's Underworld Calm loop (her build page).",
+        "Windstone crystals here too: bank it for Alexandra's Levin Sword (+1 Ch 9, +2 Ch 12)."
+      ]
+    },
+    {
+      "group": "Dungeons",
+      "id": "theodora-ch07-explore-enno-isle",
+      "loot": true,
+      "text": "Enno Isle (Lv 24, Theodora only in Part I): Healing Staff for Sofia, Short Axe for Zarcone, Bullion",
+      "detail": [
+        "Mine its crystals: Windstone, Cullet and Blue Snoll for the special refines."
+      ]
+    },
+    {
+      "group": "Battalions",
+      "id": "theodora-ch07-explore-recruit-raivo-port",
+      "task": true,
+      "text": "Recruit Soldiers at [[place:Raivo Port]]: clergy squads for Sofia, Bonaventure and the walls",
+      "detail": [
+        "Renown 5: select the town again while the gauge runs (Rousing Speech); a good result strips low tiers.",
+        "[[battalion:Holy Disciples]]: Sofia at Authority C. [[battalion:Elevated Priests]]: Bonaventure at C (Ch 10).",
+        "[[battalion:Fighting Clergy]]: Ninae at Priest (Ch 9)."
+      ]
+    },
+    {
+      "group": "Battalions",
+      "text": "Assign [[battalion:Mage Pupils]] to Sirocco the week he joins",
+      "detail": [
+        "[[battalion:Blackfire Mages]] replace it once Mage weeks give him Authority D (Ch 8)."
+      ]
+    },
+    {
+      "group": "Spare Turns: gather for Vandahl, nearest stop first",
+      "text": "Alexandra's [[item:Levin Sword]] (Ch 8 week 1): Thry Fruit ×10 and Yuna Mei ×1",
+      "detail": [
+        "[[gather:Thry Fruit]] at [[place:Valeri Gorge]] (Amalthea), [[gather:Yuna Mei]] at [[place:Cape Damasen]] (Castalia).",
+        "Jester's copy (Ch 10) goes to Sirocco, so this barter is hers."
+      ]
+    },
+    {
+      "group": "Spare Turns: gather for Vandahl, nearest stop first",
+      "text": "Stockpile for Ch 8's Send Supplies: [[gather:Ladon Loach]] and Steelfish",
+      "detail": [
+        "Ladon Loach: Enceladus Bridge, Ladon Lake, Oracle Falls. Steelfish: Socie Bay, Raivo Port.",
+        "Hold them in inventory: whether items gathered before a quest appears count is unknown."
+      ],
+      "conf": "?"
+    },
+    {
+      "group": "Spare Turns: gather for Vandahl, nearest stop first",
+      "text": "Loretta's [[item:Phantom Ring]]: Shaktoh ×3 and Soldanella ×3 (×6 each for Noctula's second copy ?)",
+      "detail": [
+        "[[gather:Shaktoh]]: [[place:Forest of Enigmas]] (Braxithea). [[gather:Soldanella]]: [[place:Orion Canyon]] (Solidus)."
+      ]
+    },
+    {
+      "group": "Spare Turns",
+      "text": "Run [[place:Valhalla Mine]] (Lv 20, Saveilon) with your support pairs: [[item:Azaga's Bow]]",
+      "detail": [
+        "Also Large Bullion and an Antitoxin.",
+        "[[item:Azaga's Bow]] is cursed (Curse 2): hold it to the end of Part I (Drifting Reliquary)."
+      ],
+      "id": "theodora-ch07-explore-valhalla-mine",
+      "loot": true
+    },
+    {
+      "group": "Spare Turns",
+      "text": "Spend any Turns still left on Inn Auto-Activities"
+    }
+  ],
+  "battle": {
+    "title": "Qualifier vs. Silver Knights of Tellus",
+    "objective": "Boss: Alexandra",
+    "lose": "Leda, Dietrich or Theodora falls",
+    "guests": [
+      "Leda",
+      "Dietrich"
+    ],
+    "tips": [
+      {
+        "text": "Hold back and let the enemy advance"
+      },
+      {
+        "text": "Scripted Bursts lower Theodora's max HP: keep her covered"
+      }
+    ]
+  }
+}

@@ -1,0 +1,946 @@
+{
+  "name": "Nuzzuo",
+  "slug": "nuzzuo",
+  "epithet": "Acting leader of the Har Hali",
+  "faction": "Har Hali tribe",
+  "homeRoute": "Theodora",
+  "weapons": [
+    "Bow",
+    "Sword"
+  ],
+  "preferred": [
+    "Bow",
+    "Sword"
+  ],
+  "personality": "Proud, tradition-bound warrior who speaks with forest spirits.",
+  "story": "Nuzzuo leads the Har Hali tribe after their chieftain vanished, and he reveres the demon god Balor. He first clashes with Cai and company when they trespass on the tribe's sacred grounds. He appears in Dagsion from around 1/7; on Cai's route he costs 3x Iron Bow at Renown 6, Support 2.",
+  "personalSkill": {
+    "name": "Har Hali Wisdom",
+    "effect": "If unit is effective against foe, Atk+3 during combat. Lv20: Precision Strike (Hit+10 vs effective foes); Lv35: Precision Strike+ (Hit+20)."
+  },
+  "growths": {
+    "HP": 50,
+    "Str": 50,
+    "Mag": 15,
+    "Spd": 55,
+    "Dex": 45,
+    "Def": 20,
+    "Res": 15,
+    "Lck": 25,
+    "Cha": 35
+  },
+  "supports": [
+    "Diego"
+  ],
+  "tiers": [
+    {
+      "source": "Pocket Tactics",
+      "tier": "A"
+    },
+    {
+      "source": "KeenGamer",
+      "tier": "C"
+    }
+  ],
+  "tierNotes": "Pocket Tactics: A tier. KeenGamer: C tier (fragile). fortunesweave.co.uk rates Har Hali Wisdom 2/5. Reddit: Ranger or Forest Knight with a Horsekiller bow is excellent against cavalry and fliers in Parts II and III (confirmed).",
+  "recruit": {
+    "how": "recruit",
+    "renown": 6,
+    "extra": "3× Iron Bow; appears in Dagsion ~7/1",
+    "why": [
+      "Renown 6 here is the earliest join.",
+      "Diego is his only support partner in this army."
+    ],
+    "tip": "Ready from Ch 9 (in Dagsion ~7/1). Recruit him Ch 9 week 1 at about Lv 15 in a Beginner class. The Levin Sword he'd bring at Lv 20+ (Ch 10+) comes from Jester instead."
+  },
+  "requirements": {
+    "Cai": "2S 6R (3× Iron Bow)",
+    "Dietrich": "1S 9R (2× Iron Bow)",
+    "Theodora": "1S 6R (3× Iron Bow)",
+    "Leda": "3S 9R (3× Iron Bow)"
+  },
+  "build": {
+    "role": "Part II bench: second bow and effective-weapon skirmisher",
+    "path": [
+      "Hunter (Ch 9 join, Lv 15)",
+      "Rogue (Lv 20; bench to Part II Ch 1)",
+      "Ranger (Part II Ch 2 to 4)",
+      "Sniper (Part II Ch 5 to 6, side trip: Marksmanship)",
+      "The Calamity (Part III S4)"
+    ],
+    "part1Target": "Bench: Rogue from Lv 20; Bow B and Sword B from dungeon parties and Arena seats",
+    "part3Target": "The Calamity (Section 4; Sniper until then, no Master stop)",
+    "notes": "Part II bench and the army's second bow. Joins Ch 9 week 1 at about Lv 15 with no Levin Sword (Jester brings the second one). Rogue at Lv 20, Ranger at the Part II Ch 2 floor, a two-chapter Sniper trip for Marksmanship and Bow A, then Bow Knight and The Calamity.",
+    "confidence": "medium"
+  },
+  "guide": {
+    "role": "Part II bench: second bow and effective-weapon skirmisher",
+    "summary": "Part II's second bow and effective-weapon hunter: Ch 4 Dragoons and elephants with Lilian, Ch 6 Lyrah shield chip. Swap to the weapon each target is weak to (bow vs fliers, Zanbato vs cavalry, Flyssa vs armor): Har Hali Wisdom adds Atk +3 and [[ability:Precision Strike+]] Hit +20 there.",
+    "playstyle": "Sword skirmisher first (Spd 55 growth), bow when fliers show. Pick effective matchups only: Def 20 and Res 15 growth mean he can't trade hits.",
+    "focus": [
+      "Spd",
+      "Str",
+      "Dex"
+    ],
+    "keys": [
+      "Recruit Ch 9 week 1 (~7/1): Renown 6, 3 Iron Bows. Lv 15, no Levin Sword.",
+      "Seat him in every Ch 9 to 12 dungeon party: bow chip, sword kills, Grounder on fliers.",
+      "Take [[class:Rogue]] at Lv 20 with Bow C and Sword C (Ch 9 end or Ch 10 week 1).",
+      "Spend Arena Infantry seats on Bow B and Sword B: the bench gets seats first.",
+      "Ch 10: Da Mina Sword and Bow +1, +2 at Renown 10 (Ch 12); pack them with Zanbato, Flyssa, Concoction.",
+      "Part II Ch 2: kill the west Ranger (moves Turn 8) for the Horsekiller Bow +1."
+    ],
+    "watch": [
+      "Def 20, Res 15 growth: he dies to anything he can't kill first.",
+      "Weight: Da Mina Sword +2 4 or Da Mina Bow 6, no accessory: Def 20 growth, he can't afford a double. Horsekiller Bow +2 (8) only on fliers or cavalry.",
+      "Levels: Lv 15 on 7/1, about Lv 28 to 30? by Ch 12; Army Training only tops him up to Lv 34.",
+      "Inventory: 5/6 into Part II; slot 6 takes the Ch 2 Horsekiller Bow +1."
+    ],
+    "decisions": [
+      {
+        "topic": "Recruit him Ch 9 week 1",
+        "pick": "About Lv 15, no Levin Sword",
+        "why": "Every Part I level rolls Hunter and Rogue growths (Spd +10 to 15); a Ch 10 join auto-levels him on personal growths with ranks near where they were. Jester (filler, Ch 10+) brings the Levin Sword instead.",
+        "else": "Iron Bows short in week 1: recruit the week you have 3"
+      },
+      {
+        "topic": "Take Rogue at Lv 20",
+        "pick": "Hunter, then Rogue in Part I; Ranger at the Part II Ch 2 floor",
+        "why": "Rogue holds bows and swords, the two Ranger ranks, and trains Infantry +2; Myrmidon has the same row (Spd +15, Dex +10) but no bows. Locktouch opens dungeon chests on his EXP runs."
+      },
+      {
+        "topic": "Take the Sniper side trip",
+        "pick": "Sniper in Part II Ch 5 to 6",
+        "why": "Marksmanship (bow Hit +15) stays on him into The Calamity, and Sniper trains Bow +3 toward the Bow A the Arena can't give.",
+        "else": "Countershot not in by Ch 4: stay Ranger"
+      },
+      {
+        "topic": "Take The Calamity in Section 4",
+        "pick": "Sniper to Section 3, The Calamity in Section 4 (Crystal of Darkness)",
+        "why": "Bow and Sword are his boons; Spd +25 growth and Res +4 flat on his Res 15, and on foot he fields at Hanno, where cavalry crawls. Diego (Ch 12) is the fallback holder. No Bow Knight stop (D-149).",
+        "else": "Exam short of 100%: Bow Knight then (Kalla's request)"
+      }
+    ],
+    "finalists": {
+      "stats": [
+        "Str",
+        "Spd",
+        "Dex",
+        "Def",
+        "Res"
+      ],
+      "options": [
+        {
+          "class": "Rogue",
+          "use": "Ch 10 to Part II Ch 1",
+          "note": "Trains Bow and Sword together"
+        },
+        {
+          "class": "Ranger",
+          "use": "Part II Ch 2 to 4",
+          "note": "Spd 70; both Calamity ranks"
+        },
+        {
+          "class": "Sniper",
+          "use": "Part II Ch 5 to III S2",
+          "note": "Marksmanship for Dagda's Deadeye turn"
+        },
+        {
+          "class": "Bow Knight",
+          "note": "Fallback only if The Calamity exam is short of 100% (D-149)"
+        },
+        {
+          "class": "The Calamity",
+          "use": "Part III S4",
+          "note": "Bow S, Sword S: Spd 80, Res +4 flat"
+        }
+      ]
+    },
+    "gates": [
+      {
+        "route": "Theodora",
+        "from": {
+          "part": 1,
+          "ch": 8
+        },
+        "kind": "recruit",
+        "text": "Renown 6 and 3 Iron Bows; recruit Ch 9 week 1 (in Dagsion from ~7/1)",
+        "by": {
+          "part": 1,
+          "ch": 9
+        }
+      }
+    ],
+    "routeNotes": [
+      {
+        "system": "Supports",
+        "note": "Only partner here: Diego, who joins in Ch 12. Seat Theodora + Nuzzuo + Diego at a Ch 12 Sunday meal; the pair keeps growing in Part III."
+      },
+      {
+        "system": "Recruit timing and the bench",
+        "note": "Joins Ch 9 week 1 at about Lv 15 (Ch 9 join level ?) with no Levin Sword. Bench through Part I: dungeon parties (5 seats, link attacks) for EXP, the Arena for ranks."
+      }
+    ],
+    "stages": [
+      {
+        "when": "Ch 9: Hunter, Lv 15 to 20",
+        "from": {
+          "part": 1,
+          "ch": 9
+        },
+        "to": {
+          "lv": 20
+        },
+        "why": [
+          "Recruit Ch 9 week 1: Renown 6, 3 Iron Bows; in Dagsion from about 7/1",
+          "Joins about Lv 15 in a Beginner class, no Levin Sword; Hunter (License if needed)"
+        ],
+        "level": "About Lv 15 on join (~7/1) to 20",
+        "class": "Hunter",
+        "kind": "bench",
+        "goal": "Lv 20 off the map: Ch 9 dungeon parties, bow chip then sword kills. Bow C and Sword C for Rogue.",
+        "exit": "Lv 20 with Bow C and Sword C: Rogue exam (Ch 9 end or Ch 10 week 1).",
+        "masteries": [
+          "Hunting Basics"
+        ],
+        "weapons": [
+          {
+            "item": "Iron Sword +1",
+            "why": "Main: Mt 11, Hit 90, Wt 4; trains Sword C; Grounder on fliers",
+            "plan": "+1 at the Blacksmith (Renown 7); Da Mina Sword at Sword C (Ch 10)",
+            "alts": [
+              "Iron Sword"
+            ]
+          },
+          {
+            "item": "Iron Bow +1",
+            "why": "Bow: Mt 11, Hit 75, Effective+ vs fliers; trains Bow C",
+            "plan": "+1 at the Blacksmith (Renown 7); Da Mina Bow at Bow C (Ch 10)",
+            "alts": [
+              "Iron Bow"
+            ]
+          }
+        ],
+        "items": [
+          {
+            "item": "Concoction",
+            "why": "40 HP x2: he joins about 10 levels under the dungeon",
+            "alts": [
+              "Vulnerary"
+            ]
+          }
+        ],
+        "arts": [
+          {
+            "name": "Grounder",
+            "why": "Sword D: Mt +3, effective vs fliers"
+          },
+          {
+            "name": "Vital Shot",
+            "why": "Bow D: Mt +4, Crit +5, range 2-3"
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Hunting Basics",
+            "why": "Hunter mastery, once mastered: Dex/Spd +1"
+          },
+          {
+            "name": "Bows Lv. 1",
+            "why": "Bow D+: Hit +3 with bows"
+          },
+          {
+            "name": "Swords Lv. 1",
+            "why": "Sword D+: Hit +3 with swords"
+          },
+          {
+            "name": "Evasion",
+            "why": "Infantry D ?: Avo +100 when attacked (3%)"
+          },
+          {
+            "name": "Read the Winds",
+            "why": "Flying D: Avo +10 vs bows; works on foot"
+          }
+        ],
+        "battalion": {
+          "name": "Novice Hunters",
+          "why": "Str +1, Dex +1, Cha +3: 2nd copy from early rolls; Authority E?",
+          "where": "Any Ch 6–9 roll (Regia, Alecto, Raivo Port, Megaira)",
+          "situational": "Bench in Part I"
+        },
+        "training": [
+          {
+            "rank": "Bow C, Sword C, Infantry D",
+            "for": "Rogue exam (Lv 20); Evasion",
+            "how": "Battle (Hunter trains Sword, Bow, Infantry +1); Arena Infantry when a seat frees"
+          },
+          {
+            "rank": "Flying D",
+            "for": "Read the Winds",
+            "how": "One Arena Mounted week (start rank ?)"
+          }
+        ],
+        "tips": [
+          "If he joins at Lv 25 in a Specialty class, skip to the next stage",
+          "No Levin Sword at this level: Jester (filler, Ch 10+) brings the army's second one",
+          "Ch 9 dungeons: Sand-Shadow Fort (Lv 23) first, then Southern Passage and Stoppered Shrine (Lv 25)",
+          "Never give him Tales of Adventure: he dislikes it"
+        ]
+      },
+      {
+        "when": "Ch 10 to 12: Rogue (bench)",
+        "from": {
+          "part": 1,
+          "ch": 10
+        },
+        "to": {
+          "part": 1,
+          "ch": 12
+        },
+        "why": [
+          "Exam at Lv 20: Bow C, Sword C, Specialty License (Renown 4 is long open)",
+          "EXP: Ch 10 to 12 dungeon parties (Nemea, Uncharted Isle, Iapetus); no story-map seat in Part I"
+        ],
+        "level": "Lv 20 (Ch 10) to about 28 to 30? by Ch 12",
+        "class": "Rogue",
+        "kind": "bench",
+        "goal": "Bow chip and sword kills in dungeon parties. Precision Strike (Lv 20): Hit +10 when effective.",
+        "exit": "Bow B and Sword B at Ch 12's end; Army Training tops him up to Lv 34.",
+        "masteries": [
+          "In Shadow"
+        ],
+        "weapons": [
+          {
+            "item": "Da Mina Sword +1",
+            "why": "Main: Mt 15, Hit 90, Wt 4; arts Hit +10",
+            "plan": "+2 at Renown 10, Ch 12",
+            "alts": [
+              "Iron Sword +1"
+            ]
+          },
+          {
+            "item": "Da Mina Bow +1",
+            "why": "His bow: Mt ?, Hit 70, Wt 6, Effective+ vs fliers; arts Hit +10",
+            "plan": "+2 at Renown 10, Ch 12",
+            "alts": [
+              "Iron Bow +1"
+            ]
+          },
+          {
+            "item": "Zanbato",
+            "why": "Effective vs cavalry: Mt 14, Wt 7",
+            "situational": "Cavalry maps: pack it before Ch 12 ends"
+          },
+          {
+            "item": "Flyssa",
+            "why": "Effective vs armor: Mt 10, Wt 4",
+            "situational": "Armor maps: pack it before Ch 12 ends"
+          }
+        ],
+        "items": [
+          {
+            "item": "Concoction",
+            "why": "40 HP x2; Part II stock",
+            "alts": [
+              "Vulnerary"
+            ]
+          }
+        ],
+        "arts": [
+          {
+            "name": "Grounder",
+            "why": "Sword D: Mt +3, effective vs fliers"
+          },
+          {
+            "name": "Destreza",
+            "why": "Sword C: Atk +5, Crit +10 vs foes at 50% HP or less"
+          },
+          {
+            "name": "Surprise Shot",
+            "why": "Bow C: Atk +5 vs foes at full HP (30%)"
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Precision Strike",
+            "why": "Lv 20: Hit +10 when effective on the foe"
+          },
+          {
+            "name": "In Shadow",
+            "why": "Rogue mastery, once mastered: Avo +10 after a kill"
+          },
+          {
+            "name": "Bows Lv. 2",
+            "why": "Bow C+: Hit +5 with bows"
+          },
+          {
+            "name": "Swords Lv. 2",
+            "why": "Sword C+: Hit +5 with swords"
+          },
+          {
+            "name": "Hunting Basics",
+            "why": "Hunter mastery: Dex/Spd +1"
+          }
+        ],
+        "battalion": {
+          "name": "Novice Hunters",
+          "why": "Str +1, Dex +1, Cha +3 (2nd copy)",
+          "where": "Held from Ch 9",
+          "situational": "Bench in Part I"
+        },
+        "drop": [
+          {
+            "item": "Bows Lv. 1",
+            "why": "Bows Lv. 2 from Bow C+"
+          },
+          {
+            "item": "Swords Lv. 1",
+            "why": "Swords Lv. 2 from Sword C+"
+          },
+          {
+            "item": "Evasion",
+            "why": "In Shadow takes the slot"
+          },
+          {
+            "item": "Read the Winds",
+            "why": "Precision Strike takes the slot"
+          }
+        ],
+        "training": [
+          {
+            "rank": "Bow B, Sword B",
+            "for": "Ranger (Part II Ch 2)",
+            "how": "Arena Infantry (Sword, Bow, Infantry), bench seat; Rogue trains Sword/Bow +1"
+          },
+          {
+            "rank": "Infantry C, Riding D",
+            "for": "Positioning later; Riding D for Bow Knight",
+            "how": "Rogue trains Infantry +2; one Mounted week ?"
+          }
+        ],
+        "tips": [
+          "His bag at Ch 12's end: Da Mina Sword +2 (in hand), Da Mina Bow +2, Zanbato, Flyssa, Concoction; slot 6 stays open",
+          "Rogue's Locktouch opens dungeon chests without keys",
+          "Da Mina over Wooden in Part I: Wooden Mt 2 jumps only at +5, a Part III refine"
+        ]
+      },
+      {
+        "when": "Part II Ch 1",
+        "from": {
+          "part": 2,
+          "ch": 1
+        },
+        "to": {
+          "part": 2,
+          "ch": 1
+        },
+        "level": "Lv 34 (Army Training floor)",
+        "class": "Rogue",
+        "kind": "core",
+        "goal": "Rogue at the Lv 34 floor: bow on fliers, Zanbato on cavalry, Flyssa on armor. Har Hali: Atk +3 when effective.",
+        "exit": "Lv 35 floor with Bow B and Sword B: Ranger in Ch 2.",
+        "masteries": [
+          "In Shadow"
+        ],
+        "weapons": [
+          {
+            "item": "Da Mina Sword +2",
+            "why": "Main sword: Mt 20, Wt 4; arts Hit +10",
+            "plan": "Equipped carry-over",
+            "alts": [
+              "Iron Sword +2"
+            ]
+          },
+          {
+            "item": "Da Mina Bow +2",
+            "why": "Fliers: Effective+, Mt ?, Wt 6; arts Hit +10",
+            "plan": "Equipped carry-over",
+            "alts": [
+              "Iron Bow +2"
+            ]
+          },
+          {
+            "item": "Zanbato",
+            "why": "Effective vs cavalry",
+            "plan": "Carry-over"
+          },
+          {
+            "item": "Flyssa",
+            "why": "Effective vs armor",
+            "plan": "Carry-over"
+          }
+        ],
+        "items": [
+          {
+            "item": "Concoction",
+            "why": "40 HP x2; no shops in Part II",
+            "plan": "Ch 12 stock"
+          }
+        ],
+        "arts": [
+          {
+            "name": "Grounder",
+            "why": "Sword D: Mt +3, effective vs fliers"
+          },
+          {
+            "name": "Destreza",
+            "why": "Sword C: Atk +5, Crit +10 vs foes at 50% HP or less"
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Precision Strike",
+            "why": "Lv 20: Hit +10 when effective on the foe"
+          },
+          {
+            "name": "In Shadow",
+            "why": "Rogue mastery: Avo +10 after a kill"
+          },
+          {
+            "name": "Bows Lv. 2",
+            "why": "Bow C+: Hit +5 with bows"
+          },
+          {
+            "name": "Swords Lv. 2",
+            "why": "Sword C+: Hit +5 with swords"
+          },
+          {
+            "name": "Hunting Basics",
+            "why": "Hunter mastery: Dex/Spd +1"
+          }
+        ],
+        "battalion": {
+          "name": "Novice Hunters",
+          "why": "Str +1, Dex +1, Cha +3 (2nd copy)",
+          "where": "Held from Ch 9",
+          "situational": "Part II carryover ?"
+        },
+        "training": [
+          {
+            "rank": "Bow B, Sword B",
+            "for": "Ranger exam (Ch 2)",
+            "how": "From the Part I Arena; Rogue trains Sword and Bow +1"
+          }
+        ],
+        "tips": [
+          "No License: Rogue since Ch 10",
+          "Below Lv 34 at Ch 12's end? Army Training lifts him on personal growths only"
+        ],
+        "checks": [
+          {
+            "stat": "Spd",
+            "at": "Part II Ch 1",
+            "need": "Da Mina Sword +2 doubles Ch 1 infantry and isn't doubled back",
+            "why": "Def 20 growth: a doubled counter kills him",
+            "fix": [
+              "No accessory: stay at Wt 4",
+              "Zanbato (Wt 7) only on cavalry",
+              "Ranger in Ch 2: Spd +15 growth"
+            ]
+          }
+        ]
+      },
+      {
+        "when": "Part II Ch 2 to 4",
+        "from": {
+          "part": 2,
+          "ch": 2
+        },
+        "to": {
+          "part": 2,
+          "ch": 4
+        },
+        "level": "Lv 35 (floor) to about 41",
+        "class": "Ranger",
+        "kind": "core",
+        "goal": "Spd/Dex +15 growth and Countershot. Precision Strike+ (Lv 35): Hit +20 when effective; he takes the fliers.",
+        "exit": "Countershot mastered and Bow near A: Sniper for Ch 5.",
+        "masteries": [
+          "Countershot"
+        ],
+        "weapons": [
+          {
+            "item": "Da Mina Sword +2",
+            "why": "Main sword: Mt 20, Wt 4; arts Hit +10",
+            "plan": "Carry-over"
+          },
+          {
+            "item": "Da Mina Bow +2",
+            "why": "Second bow: Mt ?, Wt 6; arts Hit +10",
+            "plan": "Carry-over"
+          },
+          {
+            "item": "Horsekiller Bow",
+            "why": "Fliers and cavalry: Har Hali on both"
+          },
+          {
+            "item": "Zanbato",
+            "why": "Effective vs cavalry",
+            "plan": "Carry-over"
+          },
+          {
+            "item": "Flyssa",
+            "why": "Effective vs armor",
+            "plan": "Carry-over"
+          }
+        ],
+        "items": [
+          {
+            "item": "Concoction",
+            "why": "40 HP x2",
+            "plan": "Ch 12 stock"
+          }
+        ],
+        "arts": [
+          {
+            "name": "Flash Blow",
+            "why": "Sword B: Mt +7, Atk +5 (Dex/2 %)"
+          },
+          {
+            "name": "Sneaky Shot",
+            "why": "Bow B: Atk +5, Hit/Crit +10 from good terrain"
+          },
+          {
+            "name": "Grounder",
+            "why": "Sword D: Mt +3, effective vs fliers"
+          },
+          {
+            "name": "Destreza",
+            "why": "Sword C: Atk +5, Crit +10 vs foes at 50% HP or less"
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Countershot",
+            "why": "Ranger mastery: 50% bow counter at range 1, once mastered"
+          },
+          {
+            "name": "Precision Strike+",
+            "why": "Lv 35: Hit +20 when effective (replaces Precision Strike)"
+          },
+          {
+            "name": "Bows Lv. 2",
+            "why": "Bow C+: Hit +5 with bows"
+          },
+          {
+            "name": "Swords Lv. 2",
+            "why": "Sword C+ ?: Hit +5 with swords"
+          },
+          {
+            "name": "Read the Winds",
+            "why": "Avo +10 vs bows: Ch 4 bow duels"
+          }
+        ],
+        "battalion": {
+          "name": "Novice Hunters",
+          "why": "Str +1, Dex +1, Cha +3 on the Ranger (2nd copy)",
+          "where": "Held from Ch 9",
+          "situational": "Part II carryover ?"
+        },
+        "training": [
+          {
+            "rank": "Bow A",
+            "for": "Bow Knight (Part III)",
+            "how": "Ranger trains Bow +2; Arena seats bench first"
+          }
+        ],
+        "tips": [
+          "Uses a free Part II Advanced License",
+          "Ch 4: the map wants 3 to 4 bows for the side Dragoons; he and Lilian take them"
+        ],
+        "drop": [
+          {
+            "item": "Precision Strike",
+            "why": "Precision Strike+ replaces it at Lv 35"
+          },
+          {
+            "item": "In Shadow",
+            "why": "Countershot takes the slot"
+          },
+          {
+            "item": "Hunting Basics",
+            "why": "Read the Winds back for Ch 4 bow duels"
+          }
+        ]
+      },
+      {
+        "when": "Part II Ch 5 to Part III S3",
+        "from": {
+          "part": 2,
+          "ch": 5
+        },
+        "to": {
+          "part": 3,
+          "ch": 3
+        },
+        "level": "About Lv 41 to 45",
+        "class": "Sniper",
+        "kind": "detour",
+        "goal": "Bank Marksmanship (bow Hit +15) and Bow +3 a fight toward Bow A. Dex +20 growth fixes his Hit.",
+        "exit": "The Calamity in Section 4 (Bow S, Sword S); no Master stop (D-149)",
+        "masteries": [
+          "Marksmanship"
+        ],
+        "weapons": [
+          {
+            "item": "Horsekiller Bow",
+            "why": "Main bow: fliers and cavalry",
+            "plan": "Keep it"
+          },
+          {
+            "item": "Da Mina Bow +2",
+            "why": "Second bow: Mt ?, Wt 6; normal shots, arts Hit +10",
+            "plan": "Carry-over"
+          }
+        ],
+        "items": [
+          {
+            "item": "Concoction",
+            "why": "40 HP x2",
+            "plan": "Ch 12 stock"
+          }
+        ],
+        "arts": [
+          {
+            "name": "Sneaky Shot",
+            "why": "Bow B: Atk +5, Hit/Crit +10 from good terrain"
+          },
+          {
+            "name": "Surprise Shot",
+            "why": "Bow C: Atk +5 vs foes at full HP (30%)"
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Marksmanship",
+            "why": "Sniper mastery: bow Hit +15, once mastered"
+          },
+          {
+            "name": "Precision Strike+",
+            "why": "Lv 35: Hit +20 when effective"
+          },
+          {
+            "name": "Countershot",
+            "why": "50% bow counter at range 1"
+          },
+          {
+            "name": "Bows Lv. 3",
+            "why": "Bow B+ ? (Sniper trains Bow +3): Hit/Avo +5 with bows"
+          },
+          {
+            "name": "Read the Winds",
+            "why": "Avo +10 vs bows"
+          }
+        ],
+        "battalion": {
+          "name": "Novice Hunters",
+          "why": "Str +1, Dex +1, Cha +3 on the Sniper (2nd copy)",
+          "where": "Held from Ch 9",
+          "situational": "Part II carryover ?"
+        },
+        "drop": [
+          {
+            "item": "Da Mina Sword +2",
+            "why": "Sniper is bow-only: the sword stays in his bag"
+          },
+          {
+            "item": "Swords Lv. 2",
+            "why": "No swords this trip"
+          },
+          {
+            "item": "Bows Lv. 2",
+            "why": "Bows Lv. 3 from Bow B+"
+          }
+        ],
+        "training": [
+          {
+            "rank": "Bow A",
+            "for": "Bow Knight (Part III)",
+            "how": "Sniper trains Bow +3"
+          }
+        ],
+        "tips": [
+          "Countershot still fires at range 1 with a bow (50%)",
+          "Ch 5 Dagda: Lilian fires Longbow Deadeye; Sirocco and the casters do the damage",
+          "Lilian down? Grab the Golems' Longbow +1 (Ch 5 stairs): Deadeye needs Bow C",
+          "Part III S1 to S2: Breza's fliers are his; undead only within 2 of Eshmel",
+          "Ch 6 Lyrah: chip the cocoon shields from range; Tobias and Simon finish"
+        ]
+      },
+      {
+        "when": "Part III Section 4+ (The Calamity)",
+        "from": {
+          "part": 3,
+          "ch": 4
+        },
+        "level": "Lv 45+",
+        "class": "The Calamity",
+        "kind": "core",
+        "goal": "Effective-damage killer: Har Hali Atk +3 and Precision Strike+ Hit +20 whenever his weapon is effective.",
+        "exit": "Endpoint. One holder: Crystal of Darkness, 100% pass; else Bow Knight.",
+        "masteries": [
+          "Divine Will"
+        ],
+        "weapons": [
+          {
+            "item": "Da Mina Bow +3",
+            "why": "Main bow: Mt 23?, Wt 6; fliers take 3x Mt; arts Hit/Crit +10",
+            "plan": "Soulstone queue",
+            "alts": [
+              "Da Mina Bow +2"
+            ]
+          },
+          {
+            "item": "Da Mina Sword +2",
+            "why": "Melee: Mt 20, Wt 4; arts Hit +10 (Twin Blades, Grounder)",
+            "plan": "His Part II copy",
+            "alts": [
+              "Iron Sword +4"
+            ]
+          },
+          {
+            "item": "Horsekiller Bow +2",
+            "why": "Effective vs fliers and cavalry: Har Hali on both, Wt 8",
+            "plan": "Refine his copy"
+          },
+          {
+            "item": "Cleansing Blade +2",
+            "why": "Boon answer: Sword E, Mt 16?, Wt 3"
+          },
+          {
+            "item": "Flyssa +2",
+            "why": "Effective vs armor: Har Hali Atk +3; Crit +10 needs +3",
+            "plan": "Refine his copy",
+            "situational": "Armor maps (Baozi): slot 6"
+          }
+        ],
+        "items": [
+          {
+            "item": "Concoction",
+            "why": "40 HP x2",
+            "alts": [
+              "Vulnerary"
+            ]
+          }
+        ],
+        "arts": [
+          {
+            "name": "Twin Blades",
+            "why": "Sword A: 2 hits at 80%"
+          },
+          {
+            "name": "Spiral Shot",
+            "why": "Bow A: Mt +7, Atk +5 at Dex/2 %"
+          },
+          {
+            "name": "Grounder",
+            "why": "Sword D: Mt +3, effective vs fliers"
+          },
+          {
+            "name": "Flash Blow",
+            "why": "Sword B: Mt +7, Atk +5 at Dex/2 %"
+          },
+          {
+            "name": "Sneaky Shot",
+            "why": "Bow B: Atk +5, Hit/Crit +10 from good terrain"
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Precision Strike+",
+            "why": "Lv 35: Hit +20 when effective"
+          },
+          {
+            "name": "Marksmanship",
+            "why": "Bow Hit +15"
+          },
+          {
+            "name": "Countershot",
+            "why": "50% bow counter at range 1"
+          },
+          {
+            "name": "Bows Lv. 5",
+            "why": "Bow S (the exam rank): Hit/Avo +10 with bows"
+          },
+          {
+            "name": "Swords Lv. 5",
+            "why": "Sword S (the exam rank): Hit/Avo +10 with swords"
+          }
+        ],
+        "drop": [
+          {
+            "item": "Archer's Ring",
+            "why": "Def 20 growth: no weight past the weapon"
+          },
+          {
+            "item": "Bows Lv. 3",
+            "why": "Bows Lv. 5 replaces it at Bow S"
+          },
+          {
+            "item": "Wooden Bow",
+            "why": "Wooden +4 is Mt ~6 without Soulstone: not a main"
+          }
+        ],
+        "tips": [
+          "Hanno and Baozi: bows on the fliers, Flyssa +2 on Baozi's armor",
+          "Cohen and Lyrah: shoot the large birds and summons beside Lilian",
+          "Def 20 growth: end behind Seteth; Tialla's Physic and Troy's Strike and Heal top him up",
+          "Balor east: gate breaker from range 2; Troy's Evilbreak first on Boon foes"
+        ],
+        "why": [
+          "Exam: Bow S, Sword S, Crystal of Darkness (Chamber of Distortion), 100% pass",
+          "Underworld Boon: Cleansing Blade +2 (Sword E) in hand"
+        ],
+        "training": []
+      }
+    ],
+    "alt": "Calamity short of 100%: Bow Knight (Kalla's request). Countershot late: skip the Sniper trip and stay Ranger.",
+    "sources": [
+      "class-and-weapon-guide",
+      "class-data",
+      "mounts.json",
+      "character-learnsets",
+      "equippable-abilities",
+      "weapons-and-items",
+      "combat-arts-and-abilities",
+      "hard-mode-video-notes",
+      "player-pacing-and-recruit-items",
+      "walkthrough-part1-theodora",
+      "part2-war",
+      "redesign/11-roster-pass",
+      "redesign/13-early-bench-pass"
+    ]
+  },
+  "sources": [
+    "https://fortunesweave.co.uk/characters/nuzzuo",
+    "https://www.keengamer.com/articles/guides/fire-emblem-fortunes-weave-tier-list-best-characters-ranked-for-every-route/",
+    "https://www.keengamer.com/articles/guides/fire-emblem-fortunes-weave-best-class-for-every-character/",
+    "https://www.pockettactics.com/fire-emblem-fortunes-weave/tier-list"
+  ],
+  "recruitOn": {
+    "Cai": {
+      "how": "recruit",
+      "support": 2,
+      "renown": 6,
+      "item": "3× Iron Bow"
+    },
+    "Dietrich": {
+      "how": "recruit",
+      "renown": 9,
+      "item": "2× Iron Bow"
+    },
+    "Theodora": {
+      "how": "recruit",
+      "renown": 6,
+      "item": "3× Iron Bow",
+      "task": "Appears in Dagsion ~7/1",
+      "window": "Ch 9 week 1"
+    },
+    "Leda": {
+      "how": "recruit",
+      "support": 3,
+      "renown": 9,
+      "item": "3× Iron Bow"
+    }
+  }
+}

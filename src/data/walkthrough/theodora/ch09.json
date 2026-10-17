@@ -1,0 +1,383 @@
+{
+  "route": "Theodora",
+  "ch": 9,
+  "name": "To The Forbidden Land",
+  "free": {
+    "from": "7/1",
+    "to": "7/31"
+  },
+  "unlocks": [
+    "Wandering Wood (Theodora can enter from this chapter)"
+  ],
+  "routine": {
+    "meals": [
+      {
+        "week": "Every Sunday (7/1 on)",
+        "tables": [
+          [
+            "Theodora",
+            "Diego",
+            "Nuzzuo"
+          ],
+          [
+            "Theodora",
+            "Seteth",
+            "Loretta"
+          ],
+          [
+            "Theodora",
+            "Jester",
+            "Tobias"
+          ]
+        ],
+        "note": "Simon and Nuzzuo join 7/1. Diego to Support 2 by 7/31; Seteth and Jester (fillers) toward Support 3."
+      }
+    ],
+    "gifts": [
+      {
+        "unit": "Simon",
+        "gift": "Shield Portrait",
+        "until": "Support 3, recruit Ch 9",
+        "note": "Buy several on the Megaira trip"
+      },
+      {
+        "unit": "Seteth",
+        "gift": "Poems of the Greats",
+        "alt": "Tales of Adventure",
+        "until": "Support 3, recruit Ch 10 (filler)"
+      },
+      {
+        "unit": "Jester",
+        "gift": "Home-Recipe Book",
+        "alt": "Rare Spices",
+        "until": "Support 3, recruit Ch 10 (filler)"
+      },
+      {
+        "unit": "Io",
+        "gift": "Shield Portrait",
+        "alt": "Common Coffee",
+        "until": "Support 3, recruit Ch 11 (filler)",
+        "note": "Buy several on the Megaira trip"
+      },
+      {
+        "unit": "Diego",
+        "gift": "Tales of Adventure",
+        "alt": "Shield Portrait",
+        "until": "Support 2, recruit Ch 12"
+      }
+    ]
+  },
+  "missables": [
+    {
+      "id": "theodora-ch09-missables-august-skip",
+      "kind": "timing",
+      "text": "Finish anything due in August by 7/31: the calendar skips from 7/31 to 8/25",
+      "when": "7/31",
+      "lose": "every quest due between 8/1 and 8/24",
+      "recover": "None",
+      "task": true
+    },
+    {
+      "id": "theodora-ch09-missables-diego-support",
+      "kind": "timing",
+      "text": "Get Diego to Support 2 by 7/31: Ch 10 and 11 are only buffer",
+      "when": "by 7/31",
+      "lose": "Diego's Ch 12 recruit if Support 2 isn't in by 10/15",
+      "recover": "Ch 10 and 11 meals, until 10/15",
+      "task": true
+    }
+  ],
+  "classes": {
+    "note": {
+      "text": "No Advanced exams yet: Renown 8 lands at the very end of Ch 9 at best, so stay in the side trips",
+      "detail": [
+        "Sirocco: take Shaman the day he reaches Lv 20 if he hasn't yet.",
+        "Lv 20 exams now: Ultand and Ninae Priest, Loretta Myrmidon, Nydine Armored Ornius Rider."
+      ]
+    },
+    "override": [
+      {
+        "unit": "Alexandra",
+        "text": "On Bucephalus at Lv 20: Flying D, Spear C and Sword C. Equip the Phantom Ring after her story"
+      }
+    ]
+  },
+  "gear": {
+    "buy": [
+      {
+        "group": "Megaira trip",
+        "text": "Buy 5 Advanced Licenses in [[place:Megaira]] for priorities 1 to 5 (Ch 10 to 11 exams)",
+        "detail": [
+          "Dagsion sells them only from Ch 10: buy the other 3 (Sirocco, Loretta, Ultand) there."
+        ]
+      },
+      {
+        "group": "Megaira trip",
+        "text": "Megaira: 4 [[item:Elixir]] (2,400G) for Theodora, Tobias, Ultand and Ninae (Part II stock)"
+      },
+      {
+        "group": "Megaira trip",
+        "text": "Megaira: a [[item:Shielding Axe]] for Tobias: Prt +3 on the choke turn"
+      },
+      {
+        "group": "Weapons",
+        "text": "Buy 2 Da Mina weapons as spares for Its Name Is Da Mina (Ch 10)",
+        "detail": [
+          "Hand them in at [[quest:its-name-is-da-mina]] in Ch 10 (20,000G, due 10/24).",
+          "Megaira sells the [[item:Da Mina Spear]]; any 2 Da Mina weapons count."
+        ]
+      },
+      {
+        "group": "Weapons",
+        "text": "Dagsion: [[item:Iron Axe]], 2 [[item:Iron Sword]]s, [[item:Iron Bow]], [[item:Wooden Gauntlets]]",
+        "detail": [
+          "Simon: Iron Axe, Iron Sword, Wooden Gauntlets (Gauntlet trainer). Nuzzuo: Iron Sword, Iron Bow.",
+          "Rank C: [[item:Da Mina Sword]] (Alexandra, Loretta), [[item:Da Mina Spear]] (Alexandra), [[item:Da Mina Axe]] (Nydine)."
+        ]
+      },
+      {
+        "group": "Weapons",
+        "text": "Swap Javelins and Hand Axes for [[item:Short Spear]]s and [[item:Short Axe]]s"
+      }
+    ],
+    "barter": [
+      {
+        "item": "Antitoxin",
+        "for": "This chapter's battle and Leda's Paralogue (Ch 10): Sofia, Bonaventure, Tobias, Lilian",
+        "at": "Santana Bridge",
+        "note": "or the Valhalla Mine chest"
+      },
+      {
+        "item": "Healing Staff",
+        "for": "Ninae at Priest",
+        "at": "Dagsion"
+      }
+    ],
+    "assign": [
+      {
+        "item": "Phantom Ring",
+        "to": "Alexandra",
+        "why": "Northern Passage chest after her story: Avo +5, Wt 3"
+      },
+      {
+        "item": "Salamander",
+        "to": "Bonaventure",
+        "why": "Southern Passage chest"
+      },
+      {
+        "item": "Archive Z",
+        "to": "Bonaventure",
+        "why": "Southern Passage chest: read it at once"
+      },
+      {
+        "item": "Healing Staff",
+        "to": "Ninae",
+        "why": "Vandahl barter: her Priest accessory, second copy after Sofia's"
+      },
+      {
+        "item": "Hexlock Shield",
+        "to": "Ultand",
+        "why": "Dragonbone Tangle chest copy: Res +5 on the wall"
+      },
+      {
+        "item": "Archer's Ring",
+        "to": "Nydine",
+        "why": "Tobias's Vandahl copy, from storage: Hit +5"
+      }
+    ],
+    "note": [
+      {
+        "text": "Blacksmith +1 week (Renown 7): every Ch 9 row in the Ledger's refine plan",
+        "detail": [
+          "Rare ore: [[item:Mahadu's Spear +1]], [[item:Longbow +1]], [[item:Levin Sword +1]] (Alexandra at Sword C).",
+          "Da Mina (ores ?): Alexandra's and Loretta's Swords, Lilian's Bow, Lysander's Spear, Tobias's and Nydine's Axes.",
+          "Smithing Stone: Simon's Iron Axe and Sword, Nuzzuo's Iron Sword and Bow, Nydine's Iron Spear."
+        ],
+        "conf": "?"
+      }
+    ]
+  },
+  "recruits": [
+    {
+      "unit": "Simon",
+      "when": "Week 1 (7/1)",
+      "action": "Call Tails on his coin flip (Support 3, Renown 7): Part II bench axe",
+      "detail": [
+        "About Lv 15 in a Beginner class: Brigand at Lv 20 (Ch 10), Axe C and Sword C from Arena seats.",
+        "EXP: every Ch 9 dungeon party; he never takes a Part I slot.",
+        "The Nemea Cavern Hammer (Ch 10) is his Part II weapon."
+      ]
+    },
+    {
+      "unit": "Nuzzuo",
+      "when": "Week 1 (from about 7/1)",
+      "action": "Hand over 3 Iron Bows (Renown 6): bench skirmisher; no Levin Sword at this level",
+      "detail": [
+        "About Lv 15: Rogue at Lv 20 (Ch 10), Bow C and Sword C from Arena Infantry.",
+        "Sirocco's Levin Sword comes from Jester (filler, Renown 9) instead.",
+        "EXP: dungeon parties with Simon, Nydine and Noctula for the rest of Ch 9."
+      ]
+    }
+  ],
+  "prep": [
+    {
+      "text": "Ultand or Ninae not in yet (Support slipped)? Recruit her this week: the rows are in Ch 8"
+    },
+    {
+      "text": "Simon short of Support 3 on 7/1? Seat him at two tables the first Sunday"
+    }
+  ],
+  "quests": {
+    "route": [
+      {
+        "quest": "send-supplies-roca"
+      },
+      {
+        "quest": "send-supplies-kothar-gar",
+        "note": "Do it for the gold and Renown: Guardian already carries in from Dietrich's path"
+      }
+    ],
+    "sub": [
+      {
+        "quest": "spellcasters-in-the-forest"
+      },
+      {
+        "quest": "even-more-fabled-insect-pearls"
+      },
+      {
+        "quest": "another-challenge"
+      },
+      {
+        "quest": "my-late-sisters-accessory",
+        "offered": "if-offered"
+      },
+      {
+        "quest": "something-a-god-eats",
+        "offered": "if-offered"
+      },
+      {
+        "quest": "missing-customer",
+        "offered": "if-offered"
+      }
+    ],
+    "paralogue": []
+  },
+  "explore": [
+    {
+      "group": "Dungeons",
+      "text": "Bench EXP: Southern Passage, Sand-Shadow Fort, Stoppered Shrine with Simon, Nuzzuo, Nydine, Noctula",
+      "detail": [
+        "Fifth seat: Tobias as the carry; feed the Lv 15 joins the kills.",
+        "Link attacks raise Supports too: Simon with Lilian or Ninae."
+      ]
+    },
+    {
+      "group": "Dungeons",
+      "id": "theodora-ch09-explore-southern-passage",
+      "loot": true,
+      "text": "[[place:Southern Passage]] (Lv 25, Nysiades): Salamander and [[item:Archive Z]] for Bonaventure",
+      "detail": [
+        "Dietrich and Theodora only. Run it with your support pairs."
+      ]
+    },
+    {
+      "group": "Dungeons",
+      "id": "theodora-ch09-explore-dragonbone-tangle",
+      "loot": true,
+      "text": "Dragonbone Tangle (Lv 20, Nysiades): [[item:Hexlock Shield]] for Ultand",
+      "detail": [
+        "Same desert trip as Southern Passage. Also a Hunter's Ring and a Lucky Coin."
+      ]
+    },
+    {
+      "id": "theodora-ch09-explore-sand-shadow-fort",
+      "text": "Sand-Shadow Fort (Lv 23, Nysiades): [[item:Gundogya]], a cursed axe, Large Bullion",
+      "detail": [
+        "Gundogya is cursed (Curse 1): hold it to the end of Part I (Drifting Reliquary).",
+        "Same desert trip as Southern Passage. A Giant always spawns (Giant's Meat)."
+      ],
+      "loot": true,
+      "group": "Dungeons"
+    },
+    {
+      "group": "Dungeons",
+      "id": "theodora-ch09-explore-northern-passage",
+      "loot": true,
+      "text": "Northern Passage (Theodora only in Part I): Dew of Peace, then Alexandra's [[item:Phantom Ring]]",
+      "detail": [
+        "The Phantom Ring appears only after Alexandra's Ch 9 story section: go back for it."
+      ]
+    },
+    {
+      "group": "Dungeons",
+      "id": "theodora-ch09-explore-wandering-wood",
+      "loot": true,
+      "text": "[[place:Wandering Wood]] (Saveilon): [[item:Verdant Gem]] in the Part I chest",
+      "detail": [
+        "Puzzle 1-3-2-1-3: take the path with 1 butterfly, then 3, then 2, then 1, then 3."
+      ]
+    },
+    {
+      "group": "Dungeons",
+      "id": "theodora-ch09-explore-stoppered-shrine",
+      "loot": true,
+      "text": "[[place:Stoppered Shrine]] (Lv 25, Idyia): [[item:Velheit]], a cursed axe, Flower Painting",
+      "detail": [
+        "Velheit is cursed (Curse 1): hold it to the end of Part I (Drifting Reliquary). Mine its Windstone (Levin Sword +2).",
+        "Part III: Orchel's axe (Automaton: Curse never moves her gauge).",
+        "Flower Painting is a loved gift for Simon."
+      ]
+    },
+    {
+      "text": "Gather 35 [[gather:Venomstone]] and 35 [[gather:Desert Millet]] for Ch 10's Send Supplies"
+    },
+    {
+      "group": "Battalions",
+      "id": "theodora-ch09-explore-recruit-megaira",
+      "task": true,
+      "text": "Recruit Soldiers at [[place:Megaira]] on the License trip: Lions of Megaira for Theodora",
+      "detail": [
+        "[[battalion:Lions of Megaira]] (Megaira only): Rousing Speech (Renown 7), roll until it lands.",
+        "Fallback: [[battalion:Silver-Shield Guard]]. Theodora takes it at Authority B (Ch 10 to 11).",
+        "Also: [[battalion:Iron-Shield Fighters]] (Ultand, Priest), [[battalion:Steel-Shield Guard]] (her Part II)."
+      ]
+    },
+    {
+      "group": "Battalions",
+      "text": "Assign [[battalion:Regia Breeze Co.]] to Simon on 7/1 and clergy squads to the new Priests",
+      "detail": [
+        "Ultand [[battalion:Iron-Shield Fighters]], Ninae [[battalion:Fighting Clergy]] once each takes Priest.",
+        "Transfer Priest Trainees, Mage Pupils and Armored Sentinels once replaced: troop points toward Tactics Manuals."
+      ]
+    },
+    {
+      "group": "Spare Turns",
+      "text": "Spend any Turns still left on Inn Auto-Activities"
+    }
+  ],
+  "battle": {
+    "title": "vs. the Digammas",
+    "objective": "Seize the Epimenium",
+    "lose": "Theodora falls",
+    "guests": [
+      "Long"
+    ],
+    "tips": [
+      {
+        "text": "The Digamma boss has three health bars: kill the \"lively\" Digammas first to clear their escorts"
+      },
+      {
+        "text": "Long joins mid-battle with Heal and a [[item:Salamander]]: equip it on him",
+        "detail": [
+          "He isn't on the recruit list, so the plan has no class target for him."
+        ]
+      },
+      {
+        "text": "Pack Antitoxins: Sofia, Bonaventure, Tobias and Lilian carry one; Lysander uses an open slot"
+      },
+      {
+        "text": "Have Bonaventure cast Swarm Z (Spd -3, range 2) on the foe Tobias or Alexandra hits next"
+      }
+    ]
+  }
+}

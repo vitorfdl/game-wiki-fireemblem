@@ -1,0 +1,755 @@
+{
+  "name": "Zarcone",
+  "slug": "zarcone",
+  "epithet": "Leader of the Gaia Brigade",
+  "faction": "Bandits (Gaia Brigade)",
+  "homeRoute": "Theodora",
+  "weapons": [
+    "Axe",
+    "Sword"
+  ],
+  "preferred": [
+    "Axe",
+    "Sword"
+  ],
+  "avoid": [
+    "White Magic",
+    "Black Magic"
+  ],
+  "personality": "Cruel bandit chief who enjoys violence and preys on the weak.",
+  "story": "Zarcone, 29, was raised by bandits and now leads the Gaia Brigade, a notorious bandit gang. He came to Dagsion after hearing about the Heroic Games. He is recruited by negotiation on every route, and KeenGamer notes you can talk his fee down to almost nothing on Theodora's route (Renown 4).",
+  "personalSkill": {
+    "name": "Hatchet Man",
+    "effect": "Hit+10 with an axe equipped. Lv20: Vulgar Conduct (Hit+20 if foe HP <= 50%); Lv35: Vulgar Conduct+ (Hit+20, Atk+3 if foe HP <= 50%)."
+  },
+  "growths": {
+    "HP": 40,
+    "Str": 30,
+    "Mag": 20,
+    "Spd": 35,
+    "Dex": 60,
+    "Def": 30,
+    "Res": 25,
+    "Lck": 30,
+    "Cha": 15
+  },
+  "supports": [
+    "Gaitz",
+    "Halvin",
+    "Simon"
+  ],
+  "tiers": [
+    {
+      "source": "KeenGamer",
+      "tier": "B"
+    },
+    {
+      "source": "Pocket Tactics",
+      "tier": "C"
+    }
+  ],
+  "tierNotes": "KeenGamer: B tier (60% Dex but only 30% Str; cheap on Theodora's route). Pocket Tactics: C tier.",
+  "recruit": {
+    "how": "recruit",
+    "renown": 4,
+    "extra": "Negotiate; you can talk him down to 10G",
+    "why": [
+      "Lowest Support requirement of any route: 1 here vs Cai 3, Dietrich 3, Leda 2."
+    ],
+    "tip": "Keep haggling: his fee drops to 10G. He deploys in Ch 6 and 7, then goes to storage."
+  },
+  "requirements": {
+    "Cai": "3S 8R",
+    "Dietrich": "3S 7R",
+    "Theodora": "4R",
+    "Leda": "2S 5R"
+  },
+  "build": {
+    "role": "Stopgap Hammer, Ch 6 to 7",
+    "path": [
+      "Gladiator (Ch 6, to Lv 20)",
+      "Brigand (Ch 7; storage from Ch 8)"
+    ],
+    "part1Target": "Brigand by Ch 7; storage from Ch 8",
+    "part3Target": "none",
+    "notes": "Joins Ch 6 at about Lv 15 and holds the Hammer seat for Ch 6 and 7. Alexandra takes the seat in Ch 8; the refined Hammer +2 waits in storage and passes to Tobias in Ch 10, the Giant's Ring to Simon. No Part II or III build.",
+    "confidence": "medium"
+  },
+  "guide": {
+    "role": "Stopgap Hammer, Ch 6 to 7",
+    "summary": "The stopgap Hammer for Ch 6 and 7: Dex 60 and Hatchet Man (Hit +10 with axes) land the Hit 60 Hammer on armor. Then storage: the Hammer passes to Tobias in Ch 10 (+1 from Ch 9, +2 from Ch 12). Finish foes at half HP for Vulgar Conduct.",
+    "playstyle": "Walk behind Theodora and swing after Bonaventure moves beside him. Hammer on armor, Hurl at range 2 on wounded foes; keep him off mages (Res 25).",
+    "focus": [
+      "Dex",
+      "Str",
+      "HP"
+    ],
+    "keys": [
+      "Recruit him in Ch 6 at Renown 4; haggle his fee down to 10G",
+      "No refines before Renown 7: [[item:Hammer]] and Iron Axe stay plain in Ch 6 to 7",
+      "Move Bonaventure beside him before every Hammer swing: Hit +10 (30%) from Lv 20",
+      "Swing at foes beside Theodora: [[ability:Rein]], foe Avo −3",
+      "End of Ch 7: Hammer and Giant's Ring to storage for Tobias and Simon"
+    ],
+    "watch": [
+      "Weight: Hammer 20 vs Bld + 4 with the Giant's Ring: no double. Iron Axe (Wt 10) when a follow-up matters.",
+      "Str: 30 growth. He needs Effective+ hits or half-HP foes to kill.",
+      "Res: 25 growth. Mages are not his.",
+      "Inventory: Ch 7 is 5/6 (Hammer, Iron Axe, Short Axe, Giant's Ring, Concoction).",
+      "Join level: about Lv 15 in Ch 6, ~10 under the core. Give him armor kills."
+    ],
+    "stages": [
+      {
+        "when": "Ch 6 to Lv 20: Gladiator",
+        "from": {
+          "part": 1,
+          "ch": 6
+        },
+        "to": {
+          "lv": 20
+        },
+        "level": "About Lv 15 on join (Ch 6) to 20",
+        "class": "Gladiator",
+        "kind": "core",
+        "goal": "Ch 6 armor breaker: Hammer Hit 60 + Hatchet Man +10. Swing after Bonaventure moves beside him.",
+        "exit": "Leave at Lv 20 with Axe C and Sword C: Brigand exam.",
+        "masteries": [],
+        "weapons": [
+          {
+            "item": "Hammer",
+            "why": "Effective+ (3x Mt) vs armor; Hit 60, Wt 20",
+            "plan": "Plain until Renown 7: +1 from Ch 9, +2 from Ch 12 (ledger ore)"
+          },
+          {
+            "item": "Iron Axe",
+            "why": "Main axe: Mt 13, Hit 65, Wt 10",
+            "plan": "Plain until Renown 7 (Ch 9); storage after Ch 7",
+            "alts": [
+              "Bronze Axe"
+            ]
+          },
+          {
+            "item": "Hand Axe",
+            "why": "Range 1-2 until the Short Axe"
+          }
+        ],
+        "equipment": [
+          {
+            "item": "Giant's Ring",
+            "why": "Bld +4, Wt 0: shrinks the Hammer's penalty; Avo −20",
+            "slot": "Accessory",
+            "alts": [
+              "Archer's Ring"
+            ]
+          }
+        ],
+        "items": [
+          {
+            "item": "Concoction",
+            "why": "40 HP x2",
+            "alts": [
+              "Vulnerary"
+            ]
+          }
+        ],
+        "arts": [
+          {
+            "name": "Smash",
+            "why": "Axe D: Mt +4, Crit +5"
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Axes Lv. 1",
+            "why": "Axe rank ?: Hit +3 with axes"
+          },
+          {
+            "name": "Narrow Defense",
+            "why": "Heavy Armor D: Shld +3 when hit (25%)"
+          },
+          {
+            "name": "Threaten",
+            "why": "Authority D: Crit −5 on adjacent foes"
+          },
+          {
+            "name": "Knightly Senses",
+            "why": "Riding D: Avo +10 vs spears; works on foot"
+          },
+          {
+            "name": "Read the Winds",
+            "why": "Flying D: Avo +10 vs bows; works on foot"
+          }
+        ],
+        "battalion": {
+          "name": "Hunter-Drifters",
+          "why": "Str +1, Spd +1, Dex +1, Cha +4 at Authority D (Heavy week)",
+          "where": "[[place:Alecto]] or [[place:Regia]], Ch 6"
+        },
+        "training": [
+          {
+            "rank": "Axe C, Sword C",
+            "for": "Brigand exam (Lv 20)",
+            "how": "Arena Warrior (Sword, Axe, Gauntlet); Gladiator trains all three +1"
+          },
+          {
+            "rank": "Heavy Armor D, Authority D, Riding D, Flying D",
+            "for": "Narrow Defense, Threaten, Knightly Senses, Read the Winds",
+            "how": "One Arena Heavy week (also Axe) and one Mounted week ?"
+          }
+        ],
+        "checks": [
+          {
+            "stat": "Dex",
+            "at": "Ch 6 prep",
+            "need": "Hammer forecast shows Hit 75+ on armor with Bonaventure beside him",
+            "why": "Hammer Hit is 60: a miss leaves the armor standing",
+            "fix": [
+              "Bonaventure adjacent: Additional Intel Hit +10 (30%)",
+              "Theodora adjacent to the target: [[ability:Rein]], foe Avo −3",
+              "[[item:Linaria Juice]]: Hit +10 for the map (source ?)"
+            ]
+          }
+        ],
+        "tips": [
+          "Six slots on the Ch 6 prep screen? He starts in Ch 7",
+          "No Iron Gauntlets: Arena Warrior covers Gauntlet B for Warrior",
+          "Get the Hammer the week he joins (Vandahl opens in Ch 6); no refines before Renown 7"
+        ],
+        "why": [
+          "Recruit: Renown 4; talk his fee down to 10G. Beginner exam only if he isn't a Gladiator",
+          "Hit stack: Hammer 60, Hatchet Man +10, Axes Lv. 1 +3, Bonaventure's Intel +10 (30%), Theodora's Rein"
+        ]
+      },
+      {
+        "when": "Ch 7: Brigand from Lv 20",
+        "from": {
+          "part": 1,
+          "ch": 7
+        },
+        "to": {
+          "part": 1,
+          "ch": 7
+        },
+        "level": "Lv 20 to about 23",
+        "class": "Brigand",
+        "kind": "core",
+        "goal": "Last map in the seat. Vulgar Conduct (Lv 20): Hit +20 on foes at half HP, so he finishes what casters soften.",
+        "exit": "Ch 8: Alexandra takes the seat; he goes to storage.",
+        "masteries": [],
+        "weapons": [
+          {
+            "item": "Hammer",
+            "why": "Armor-killer: Effective+ (3x Mt)",
+            "plan": "Keep it; Tobias refines it from Ch 10"
+          },
+          {
+            "item": "Iron Axe",
+            "why": "Main axe: Mt 13, Hit 65; Wt 10",
+            "plan": "Keep it",
+            "alts": [
+              "Bronze Axe"
+            ]
+          },
+          {
+            "item": "Short Axe",
+            "why": "Range 1-2 for Hurl (Hit +20)",
+            "alts": [
+              "Hand Axe"
+            ]
+          }
+        ],
+        "equipment": [
+          {
+            "item": "Giant's Ring",
+            "why": "Bld +4, Wt 0: shrinks the Hammer's penalty; Avo −20",
+            "slot": "Accessory",
+            "plan": "Keep it",
+            "alts": [
+              "Archer's Ring"
+            ]
+          }
+        ],
+        "items": [
+          {
+            "item": "Concoction",
+            "why": "40 HP x2",
+            "alts": [
+              "Vulnerary"
+            ]
+          }
+        ],
+        "arts": [
+          {
+            "name": "Hurl",
+            "why": "Axe C: range 2, Hit +20 with a 1-2 axe"
+          },
+          {
+            "name": "Smash",
+            "why": "Axe D: Mt +4, Crit +5"
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Vulgar Conduct",
+            "why": "Lv 20: Hit +20 vs foes at 50% HP or less"
+          },
+          {
+            "name": "Axes Lv. 2",
+            "why": "Axe rank ?: Hit +5 with axes"
+          },
+          {
+            "name": "Axes Lv. 1",
+            "why": "Axe rank ?: Hit +3 more with axes"
+          },
+          {
+            "name": "Narrow Defense",
+            "why": "Heavy Armor D: Shld +3 when hit (25%)"
+          },
+          {
+            "name": "Knightly Senses",
+            "why": "Riding D: Avo +10 vs spears; works on foot"
+          }
+        ],
+        "battalion": {
+          "name": "Hunter-Drifters",
+          "why": "Str +1, Spd +1, Dex +1, Cha +4 on the Hammer",
+          "where": "Held from Ch 6"
+        },
+        "drop": [
+          {
+            "item": "Hand Axe",
+            "why": "Short Axe from Enno Isle"
+          },
+          {
+            "item": "Threaten",
+            "why": "Vulgar Conduct takes the slot at Lv 20"
+          },
+          {
+            "item": "Read the Winds",
+            "why": "Axes Lv. 2 takes the slot"
+          }
+        ],
+        "training": [
+          {
+            "rank": "Gauntlet B, Axe B, Sword B",
+            "for": "Warrior exam (Part II Ch 2)",
+            "how": "Arena Warrior (Sword, Axe, Gauntlet); Brigand trains Axe +2"
+          }
+        ],
+        "tips": [
+          "Specialty License at Lv 20, usually early Ch 7",
+          "Ch 7 Qualifier: hold back with the army and Hammer any armor that walks in",
+          "End of Ch 7: Hammer to storage for Tobias (Ch 10), Giant's Ring for Simon"
+        ],
+        "why": [
+          "Hit stack: Hatchet Man +10, Brigand Axe Hit +3, Axes Lv. 1 +3 and Lv. 2 +5, Vulgar Conduct +20 at half HP, Hurl +20"
+        ]
+      },
+      {
+        "when": "Part II Ch 2 to 6: Warrior",
+        "from": {
+          "part": 2,
+          "ch": 2
+        },
+        "to": {
+          "part": 2,
+          "ch": 6
+        },
+        "level": "Lv 35 floor (Ch 2) to about 42",
+        "class": "Warrior",
+        "kind": "bench",
+        "goal": "Optional: only if a Part II slot opens. Part II armor breaker: Warrior Axe Hit +5 and Practiced Art on Dex 60 ",
+        "exit": "At Lv 45 with Gauntlet, Axe and Sword A: Battlemaster (Part III).",
+        "masteries": [
+          "Practiced Art"
+        ],
+        "weapons": [
+          {
+            "item": "Hammer +1",
+            "why": "Ch 1 west Warrior drop: Effective+ (3x Mt) vs armor",
+            "plan": "Part II Ch 1 west-side Warrior; else the packed spare"
+          },
+          {
+            "item": "Da Mina Axe +2",
+            "why": "Main axe: Mt ?, Hit 65, Wt 10; arts Hit +10",
+            "plan": "Optional: pack it at +2 before Ch 12 ends",
+            "alts": [
+              "Iron Axe +2"
+            ]
+          },
+          {
+            "item": "Short Axe",
+            "why": "Range 1-2 for Hurl",
+            "plan": "Equipped carry-over"
+          },
+          {
+            "item": "Wooden Gauntlets",
+            "why": "Rank trainer only (Mt 2, Wt 1): Gauntlet A for Battlemaster",
+            "plan": "Equipped carry-over"
+          }
+        ],
+        "equipment": [],
+        "items": [
+          {
+            "item": "Elixir",
+            "why": "100 HP",
+            "alts": [
+              "Concoction"
+            ],
+            "plan": "Carried from Ch 12"
+          },
+          {
+            "item": "Concoction",
+            "why": "Second heal",
+            "alts": [
+              "Vulnerary"
+            ],
+            "plan": "Carried from Ch 12"
+          }
+        ],
+        "arts": [
+          {
+            "name": "Hurl",
+            "why": "Axe C: range 2, Hit +20"
+          },
+          {
+            "name": "Spear Buster",
+            "why": "Axe B: Atk +7 vs spear users"
+          },
+          {
+            "name": "Smash",
+            "why": "Axe D: Mt +4, Crit +5"
+          },
+          {
+            "name": "Cautious Blow",
+            "why": "Gauntlet D: Avo +10"
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Vulgar Conduct+",
+            "why": "Lv 35: Hit +20, Atk +3 vs foes at half HP"
+          },
+          {
+            "name": "Practiced Art",
+            "why": "Warrior mastery: Hit +10 on arts, once mastered"
+          },
+          {
+            "name": "Axes Lv. 3",
+            "why": "Axe rank ?: Hit/Avo +5 with axes"
+          },
+          {
+            "name": "Fists Lv. 1",
+            "why": "Gauntlet D+: Hit +3 on Gauntlet A fights"
+          },
+          {
+            "name": "Axes Lv. 2",
+            "why": "Axe rank ?: Hit +5 more with axes"
+          }
+        ],
+        "battalion": {
+          "name": "Hunter-Drifters",
+          "why": "Str +1, Spd +1, Dex +1, Cha +4 on the Warrior",
+          "where": "Held from Ch 6",
+          "situational": "Part II carryover ?"
+        },
+        "drop": [
+          {
+            "item": "Hammer",
+            "why": "Hammer +1 from Ch 1 replaces the spare"
+          },
+          {
+            "item": "Vulgar Conduct",
+            "why": "Vulgar Conduct+ replaces it at Lv 35"
+          },
+          {
+            "item": "Axes Lv. 1",
+            "why": "Axes Lv. 3 takes the slot"
+          },
+          {
+            "item": "Narrow Defense",
+            "why": "Practiced Art takes the slot"
+          },
+          {
+            "item": "Knightly Senses",
+            "why": "Fists Lv. 1 takes the slot for gauntlet fights"
+          }
+        ],
+        "training": [
+          {
+            "rank": "Gauntlet A, Axe A, Sword A",
+            "for": "Battlemaster exam (Lv 45)",
+            "how": "Battle only past B: Warrior trains Axe +3, Sword +2, Gauntlet +2"
+          }
+        ],
+        "checks": [
+          {
+            "stat": "Str",
+            "at": "Part II Ch 2",
+            "need": "Hammer forecast kills Part II armor in one hit, or leaves it under half HP",
+            "why": "Str 30 personal: away from armor he only finishes",
+            "fix": [
+              "Let a caster chip first: [[ability:Vulgar Conduct+]] Atk +3 at half HP",
+              "Hammer arts: Smash Mt +4, landed by Practiced Art",
+              "Take Army Training as Warrior each chapter: Str 50 row"
+            ]
+          }
+        ],
+        "tips": [
+          "Part II's free Advanced License (5 a chapter) at the Ch 2 Lv 35 floor",
+          "Ch 5: pull the Golems off their tiles, then Hammer arts with Bonaventure beside him",
+          "Gauntlets on weak foes only: they train Battlemaster's Gauntlet A",
+          "Ch 3: hold an alley choke with the Elixir; Ch 4: break the elephant escorts"
+        ],
+        "why": [
+          "Hit stack: Hatchet Man +10, Da Mina arts +10, Warrior Axe Hit +5, Axes Lv. 2 and 3 +5 each, Practiced Art +10 on arts, Vulgar Conduct+ +20"
+        ]
+      },
+      {
+        "when": "Part III: Battlemaster at Lv 45",
+        "from": {
+          "part": 3
+        },
+        "level": "Lv 45+ (Master License)",
+        "class": "Battlemaster",
+        "kind": "bench",
+        "goal": "Optional: only if a Part II slot opens. War Master's Strike (x1.5) fixes his Str; Hatchet Man and Axe Hit +7 k",
+        "exit": "Endpoint. War Master's Strike comes on the way.",
+        "masteries": [
+          "War Master's Strike"
+        ],
+        "weapons": [
+          {
+            "item": "Hammer +1",
+            "why": "Effective+ (3x Mt) vs armor",
+            "plan": "Keep it"
+          },
+          {
+            "item": "Iron Axe +5",
+            "why": "Main axe: Mt 24, Dex +6, Hit 65, Wt 10",
+            "plan": "His Ch 6 Iron Axe (storage), +5 with Warrior's Soulstone (Part III Blacksmith)"
+          },
+          {
+            "item": "Short Axe",
+            "why": "Range 1-2 for Hurl",
+            "plan": "Keep it"
+          },
+          {
+            "item": "Cleansing Blade +3",
+            "why": "Underworld Boon answer: Mt 20, Wt 3; Flash Blow on it",
+            "plan": "Refine with Soulstone"
+          }
+        ],
+        "equipment": [
+          {
+            "item": "Giant's Ring",
+            "why": "Bld +4 for the Hammer; Avo −20",
+            "slot": "Accessory",
+            "alts": [
+              "Archer's Ring"
+            ]
+          }
+        ],
+        "items": [
+          {
+            "item": "Elixir",
+            "why": "100 HP",
+            "alts": [
+              "Concoction"
+            ]
+          }
+        ],
+        "arts": [
+          {
+            "name": "Hurl",
+            "why": "Axe C: range 2, Hit +20"
+          },
+          {
+            "name": "Spear Buster",
+            "why": "Axe B: Atk +7 vs spear users"
+          },
+          {
+            "name": "Smash",
+            "why": "Axe D: Mt +4, Crit +5"
+          },
+          {
+            "name": "Flash Blow",
+            "why": "Sword B: Mt +7, Atk +5 at Dex/2 %"
+          }
+        ],
+        "abilities": [
+          {
+            "name": "War Master's Strike",
+            "why": "Battlemaster mastery: damage x1.5, once mastered"
+          },
+          {
+            "name": "Vulgar Conduct+",
+            "why": "Lv 35: Hit +20, Atk +3 vs foes at half HP"
+          },
+          {
+            "name": "Practiced Art",
+            "why": "Warrior mastery: Hit +10 on arts"
+          },
+          {
+            "name": "Axes Lv. 4",
+            "why": "Axe rank ?: Hit/Avo +7 with axes"
+          },
+          {
+            "name": "Swords Lv. 3",
+            "why": "Sword B+ (A for the exam): Hit/Avo +5 with the Cleansing Blade"
+          }
+        ],
+        "battalion": {
+          "name": "Hunter-Drifters",
+          "why": "Str +1, Spd +1, Dex +1, Cha +4",
+          "where": "Held since Part I",
+          "situational": "Part III: from storage (medium confidence)"
+        },
+        "drop": [
+          {
+            "item": "Da Mina Axe +2",
+            "why": "Iron Axe +5 (Dex +6) takes the main slot"
+          },
+          {
+            "item": "Wooden Gauntlets",
+            "why": "Exam done; slot goes to the Cleansing Blade"
+          },
+          {
+            "item": "Axes Lv. 2",
+            "why": "Axes Lv. 4 takes the slot"
+          },
+          {
+            "item": "Axes Lv. 3",
+            "why": "Slot goes to Swords Lv. 3 for the Cleansing Blade"
+          },
+          {
+            "item": "Fists Lv. 1",
+            "why": "Slot goes to War Master's Strike"
+          }
+        ],
+        "tips": [
+          "Undead with the Underworld Boon: Cleansing Blade +3, then Flash Blow",
+          "Credna's Mallet goes to Tobias first",
+          "A ranks lag? Stay Warrior (it holds swords too) until they land",
+          "Part III: Shenlo and Balor gates; skip Baozi, Pride cuts Hit"
+        ],
+        "why": [
+          "Exam: Gauntlet A, Axe A, Sword A, Lv 45, Master License",
+          "Hit stack: Hatchet Man +10, Iron Axe +5 Dex +6, Battlemaster Axe Hit +7, Axes Lv. 4 +7, Practiced Art +10 on arts"
+        ]
+      }
+    ],
+    "alt": "His Part II and III stages are optional: only if a Part II slot opens or his route's army is imported.",
+    "sources": [
+      "class-and-weapon-guide",
+      "class-data",
+      "character-learnsets",
+      "equippable-abilities",
+      "weapons-and-items",
+      "combat-arts-and-abilities",
+      "hard-mode-video-notes",
+      "walkthrough-part1-theodora",
+      "part1-theodora-path",
+      "part2-war",
+      "part3-salvation"
+    ],
+    "routeNotes": [
+      {
+        "system": "Supports",
+        "note": "Only partner here: Simon (Part II bench). No meal plan: Zarcone leaves the lineup after Ch 7."
+      },
+      {
+        "system": "Battalions & Gambits",
+        "note": "Carries [[battalion:Hunter-Drifters]] (Str/Spd/Dex +1) at Authority D in Ch 6 to 7; Alexandra takes it in Ch 8. Cha 15 keeps his gambits weak: pick it for the stats."
+      },
+      {
+        "system": "Ships and royalty-only areas",
+        "note": "Enno Isle (Theodora only in Part I, Lv 24, Ch 7) has his Short Axe: Hurl at range 2 without a barter."
+      }
+    ],
+    "decisions": [
+      {
+        "topic": "Deploy him Ch 6 to 7 only",
+        "pick": "Hammer seat for two maps, then storage",
+        "why": "He holds the seat until Alexandra (Ch 8). Tobias takes the Hammer from Ch 10 (+1, then +2 at Ch 12) and Simon is the second axe; Zarcone's Str 30 only finishes what the Hammer hits."
+      },
+      {
+        "topic": "Skip his Part II and III build",
+        "pick": "No Warrior, no Battlemaster",
+        "why": "Core 11 plus the 4-unit bench fill Part II's 15 seats. Arena seats go to that bench (D-113), so his ranks would stall at C anyway.",
+        "else": "Need a third axe? Brigand on the bench, Warrior on a Part II License"
+      }
+    ],
+    "finalists": {
+      "stats": [
+        "Str",
+        "Spd",
+        "Dex",
+        "Def"
+      ],
+      "options": [
+        {
+          "class": "Gladiator",
+          "use": "Ch 6",
+          "note": "HP/Str +10 row; Axe and Sword +1 each toward Brigand"
+        },
+        {
+          "class": "Brigand",
+          "use": "Ch 7",
+          "note": "Str +15: Str 30 is his weak stat"
+        },
+        {
+          "class": "Warrior",
+          "note": "Str +20, Axe Hit +5, but no seat after Ch 7"
+        },
+        {
+          "class": "Battlemaster",
+          "note": "Str +25; Tobias and Simon hold the Part III axe roles"
+        }
+      ]
+    },
+    "gates": [
+      {
+        "route": "Theodora",
+        "from": {
+          "part": 1,
+          "ch": 6
+        },
+        "by": {
+          "part": 1,
+          "ch": 6
+        },
+        "kind": "recruit",
+        "text": "Renown 4 in Ch 6; haggle his fee to 10G and deploy him"
+      }
+    ]
+  },
+  "sources": [
+    "https://fortunesweave.co.uk/characters/zarcone",
+    "https://www.keengamer.com/articles/guides/fire-emblem-fortunes-weave-tier-list-best-characters-ranked-for-every-route/",
+    "https://www.keengamer.com/articles/guides/fire-emblem-fortunes-weave-best-class-for-every-character/",
+    "https://www.pockettactics.com/fire-emblem-fortunes-weave/tier-list"
+  ],
+  "recruitOn": {
+    "Cai": {
+      "how": "recruit",
+      "support": 3,
+      "renown": 8
+    },
+    "Dietrich": {
+      "how": "recruit",
+      "support": 3,
+      "renown": 7
+    },
+    "Theodora": {
+      "how": "recruit",
+      "renown": 4,
+      "task": "Negotiate; you can talk him down to 10G"
+    },
+    "Leda": {
+      "how": "recruit",
+      "support": 2,
+      "renown": 5
+    }
+  }
+}

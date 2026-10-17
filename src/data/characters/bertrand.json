@@ -1,0 +1,420 @@
+{
+  "name": "Bertrand",
+  "slug": "bertrand",
+  "epithet": "The White-Maned Demon",
+  "faction": "Fiery Mane",
+  "personality": "A legendary warrior who fights endlessly for freedom, with a noble, virtuous heart under his overwhelming strength.",
+  "story": "A white-haired Arago-born legend of Dagsion who killed Leda's father, which makes him the target of her revenge. Aswan knew him before the 1449 Heroic Games and is shocked to find him alive. He fights as a guest in Part II and joins fully in Part III.",
+  "personalSkill": {
+    "name": "Requiem Style",
+    "effect": "5% chance of a guaranteed follow-up regardless of AS. Lv20 adds Go No Sen (25% trigger); Lv35 adds Sen No Sen, active when he attacks first."
+  },
+  "growths": {
+    "HP": 50,
+    "Str": 55,
+    "Mag": 15,
+    "Spd": 45,
+    "Dex": 50,
+    "Def": 45,
+    "Res": 20,
+    "Lck": 30,
+    "Cha": 50
+  },
+  "supports": [
+    "Cai (A)",
+    "Theodora (A)"
+  ],
+  "joins": "Guest unit in Part II: War; full unit in Part III: Salvation. Requires completing his Part I paralogue.",
+  "build": {
+    "role": "Squad A sword duelist and Boon breaker",
+    "path": [
+      "Join class ?",
+      "Shido (Sec 2 bridge)",
+      "Sword Master (Sec 3)"
+    ],
+    "part3Target": "Sword Master",
+    "notes": "Underworld-type Blaze Arts: four self Awakenings (Hit +50, Prt +10, Rsl +10, Avo +30) and Underworld Madness. Join class and level ?."
+  },
+  "sources": [
+    "https://fortunesweave.co.uk/characters/bertrand",
+    "https://www.rpgsite.net/guide/21391-fire-emblem-fortunes-weave-recruitment-guide-all-characters-in-game-how-to-recruit-them"
+  ],
+  "guide": {
+    "role": "Squad A duelist: sword striker who also wins enemy phase on a 25% Go No Sen",
+    "summary": "A sword duelist for squad A and the Lust gate (Cha 50). He carries the [[item:Cleansing Blade]] for Boon foes, so the axe and spear users beside him don't need Eshmel for the kill. Open a boss turn with Ruler's Awakening (Hit +50), then swing.",
+    "playstyle": "Player phase: Iron Sword +4 to double, Cleansing Blade on Boon foes; Blaze Blow for damage. Enemy phase: Go No Sen strikes first 25% of the time, Sen No Sen moves his follow-up before the counter. Keep mages off him (Res 20).",
+    "focus": [
+      "Spd",
+      "Str",
+      "Dex"
+    ],
+    "keys": [
+      "Boss turn: Ruler's Awakening (Hit +50, gauge +1), then attack the same turn.",
+      "Train Sword A and Infantry C at the Arena (Infantry course) from Sec 2.",
+      "Take [[class:Sword Master]] on the S4 License once Mars's request clears.",
+      "Hold the Cleansing Blade for Boon foes; Iron Sword +4 everywhere else.",
+      "Sec 5: seat him on Cohen & Maria; Cha 50 growth wins Lust checks."
+    ],
+    "watch": [
+      "Gauge: Underworld type. Each Awakening adds 1; Burst halves max HP. Count them.",
+      "Res: 20 growth. Gate mages two-shot him; Reason Awakening (Rsl +10) on mage turns.",
+      "Join class, level and ranks ?: Sword Master needs Sword A at Lv 45.",
+      "Lunging Gale (Sword A) and Instant Strike (Axe A): effects not in the data yet.",
+      "Weight: Iron Sword +4 4 + Gale Ring 2 = 6; Javelin +2 turns 10. Hexlock Shield adds 4: off on offense maps."
+    ],
+    "decisions": [
+      {
+        "topic": "Go Sword Master, not Battlemaster",
+        "pick": "Shido bridge, Sword Master from Sec 3",
+        "why": "Sword Master adds Spd +7, Dex +7 flat and Spd +20 growth; Battlemaster gives Str +25 but Spd -5 and needs Gauntlet A (his arts stop at B). Simon already holds the Battlemaster line.",
+        "else": "Battlemaster if Sword A stalls and Gauntlet A lands"
+      },
+      {
+        "topic": "Carry the Cleansing Blade",
+        "pick": "Cleansing Blade +3 on Boon foes, Wooden Sword +9 otherwise",
+        "why": "Squad A's walls are spear users (Theodora, Ninae, Ultand): none strips the Boon. His sword does, so the squad can kill Boon foes outside Eshmel's 2 tiles."
+      },
+      {
+        "topic": "No Divine class",
+        "pick": "Sword Master is the endpoint",
+        "why": "The Blade (Sword S) is Loretta's and The Eternal is Tobias's (D-131): one holder each."
+      }
+    ],
+    "finalists": {
+      "stats": [
+        "Spd",
+        "Str",
+        "Dex",
+        "HP"
+      ],
+      "options": [
+        {
+          "class": "Sword Master",
+          "use": "Sec 3+",
+          "note": "Spd +7, Dex +7 flat; Spd +20 growth; Astra"
+        },
+        {
+          "class": "Shido",
+          "use": "Sec 1-2 (bridge)",
+          "note": "Spd +7 flat, trains Sword +3: fastest road to Sword A"
+        },
+        {
+          "class": "Battlemaster",
+          "note": "Str +25 growth, but Spd -5; needs Gauntlet A"
+        },
+        {
+          "class": "Orichaldia",
+          "note": "Riding B, Spear A from Spear D; cavalry on Breza, Drake"
+        },
+        {
+          "class": "Warrior",
+          "note": "Str +20 growth, Spd +0; trains Sword only +2"
+        }
+      ]
+    },
+    "stages": [
+      {
+        "when": "Part III Sec 1 to 2 (Shido)",
+        "from": {
+          "part": 3,
+          "ch": 1
+        },
+        "to": {
+          "part": 3,
+          "ch": 3
+        },
+        "level": "Join Lv ? to 45",
+        "class": "Shido",
+        "kind": "core",
+        "goal": "Sword duelist: Go No Sen strikes first on enemy phase (25%); Ruler's Awakening fixes Hit.",
+        "why": [
+          "Join class ?: Shido (Sword B, Advanced License) in Sec 2 Free Time if he isn't in a sword class",
+          "Underworld Boon: Cleansing Blade +2 strips it on his own hits",
+          "Sec 1 Dagda: arrives Turn 3. Sec 2: off-squad (EXP each map turn) and Arena seats"
+        ],
+        "exit": "Lv 45, Sword A, Mars's request done: Sword Master on the S4 License.",
+        "masteries": [
+          "Ever Vigilant"
+        ],
+        "weapons": [
+          {
+            "item": "Cleansing Blade +2",
+            "why": "Boon foes: strips the Underworld Boon; Mt 16?, Wt 3",
+            "plan": "Refine to +2"
+          },
+          {
+            "item": "Iron Sword +4",
+            "why": "Other foes: Mt 21, Hit 90, Wt 4, Dex starts at +3; main sword",
+            "plan": "New copy, +4 without Soulstone; Soulstone for +3 and +4; Da Mina +2 until then",
+            "alts": [
+              "Da Mina Sword +2"
+            ]
+          },
+          {
+            "item": "Javelin +2",
+            "why": "1-2 range: Mt 10; counters archers and mages",
+            "alts": [
+              "Short Spear"
+            ]
+          }
+        ],
+        "equipment": [
+          {
+            "item": "Gale Ring",
+            "why": "Spd +3, Wt 2: more doubles; Requiem Style covers misses",
+            "slot": "Accessory",
+            "alts": [
+              "Archer's Ring"
+            ]
+          },
+          {
+            "item": "Hexlock Shield",
+            "why": "Res +5 on his Res 20",
+            "slot": "Defense",
+            "situational": "Mage maps (Cohen & Maria): extra Wt 4; off on flier maps",
+            "alts": [
+              "Talisman Shield",
+              "Spirit Gem"
+            ]
+          }
+        ],
+        "items": [
+          {
+            "item": "Elixir",
+            "why": "100 HP: front-line duelist",
+            "alts": [
+              "Concoction"
+            ]
+          }
+        ],
+        "arts": [
+          {
+            "name": "Blaze Blow",
+            "why": "Sword B: Mt +7, Atk +5 at Str/2 %"
+          },
+          {
+            "name": "Wrath Strike",
+            "why": "Sword D: Mt +4, Hit +10"
+          },
+          {
+            "name": "Tiger Slash",
+            "why": "Sword C: effective vs cavalry"
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Go No Sen",
+            "why": "Lv 20: attacks first on enemy phase, 25%"
+          },
+          {
+            "name": "Sen No Sen",
+            "why": "Lv 35: follow-up before the counter when he attacks, 25%"
+          },
+          {
+            "name": "Swords Lv. 3",
+            "why": "Sword B+?: Hit/Avo +5 with swords"
+          },
+          {
+            "name": "Avoid Fatality",
+            "why": "Infantry C?: Ddg +10"
+          },
+          {
+            "name": "Close Quarters",
+            "why": "Infantry D?: Mov -1 on adjacent foes; holds the line"
+          }
+        ],
+        "training": [
+          {
+            "rank": "Sword A",
+            "for": "Sword Master (Lv 45); Lunging Gale",
+            "how": "Fights; Arena Infantry (Sword, Bow, Infantry) after Arena Construction"
+          },
+          {
+            "rank": "Infantry C",
+            "for": "Avoid Fatality",
+            "how": "Same Arena Infantry weeks"
+          }
+        ],
+        "tips": [
+          "Blaze Arts: Ruler's Awakening Hit +50, Storm Awakening Avo +30; he can attack after",
+          "Underworld Madness: gauge 6 and Overblaze locked; save it for the boss map",
+          "Bloodmark Diadem of Duality: Atk +3 when attacking (25%)"
+        ],
+        "checks": [
+          {
+            "stat": "Spd",
+            "at": "Sec 4",
+            "need": "Iron Sword +4 forecast doubles Hanno's foot units (S4)",
+            "why": "Requiem Style gives only 5% free follow-ups",
+            "fix": [
+              "Gale Ring on (Spd +3)",
+              "Sword Master: Spd +7 flat",
+              "Hexlock Shield off (Wt 4)"
+            ]
+          }
+        ],
+        "drop": [
+          {
+            "item": "Zalmoxis",
+            "why": "Axe: Shido and Sword Master can't swing it; it goes to Tobias"
+          }
+        ]
+      },
+      {
+        "when": "Part III Section 4+ (Sword Master)",
+        "from": {
+          "part": 3,
+          "ch": 4
+        },
+        "level": "Lv 45+",
+        "class": "Sword Master",
+        "kind": "core",
+        "goal": "Spd +7, Dex +7, Sword Crit +7: doubles and crits. Astra once mastered; Cleansing Blade for Boon.",
+        "why": [
+          "Exam: Lv 45, Sword A, Master License; Mars's request (Golden Helm) opens the class",
+          "Squad A from S4: Hanno (fog) and Cohen & Maria (Lust duels on Cha 50)",
+          "Underworld Boon: Cleansing Blade +2 on Boon foes; mage turns: Reason Awakening"
+        ],
+        "exit": "Endpoint. The Blade and The Eternal have holders (D-131).",
+        "masteries": [
+          "Astra"
+        ],
+        "weapons": [
+          {
+            "item": "Cleansing Blade +2",
+            "why": "Boon foes: strips the Underworld Boon; Mt 16?, Wt 3",
+            "plan": "Refine to +2"
+          },
+          {
+            "item": "Iron Sword +4",
+            "why": "Other foes: Mt 21, Hit 90, Wt 4, Dex starts at +3; main sword",
+            "plan": "New copy, +4 without Soulstone; Soulstone for +3 and +4; Da Mina +2 until then",
+            "alts": [
+              "Da Mina Sword +2"
+            ]
+          },
+          {
+            "item": "Javelin +2",
+            "why": "1-2 range: Mt 10; counters archers and mages",
+            "alts": [
+              "Short Spear"
+            ]
+          }
+        ],
+        "equipment": [
+          {
+            "item": "Gale Ring",
+            "why": "Spd +3, Wt 2: more doubles; Requiem Style covers misses",
+            "slot": "Accessory",
+            "alts": [
+              "Archer's Ring"
+            ]
+          },
+          {
+            "item": "Hexlock Shield",
+            "why": "Res +5 on his Res 20",
+            "slot": "Defense",
+            "situational": "Mage maps (Cohen & Maria): extra Wt 4; off on flier maps",
+            "alts": [
+              "Talisman Shield",
+              "Spirit Gem"
+            ]
+          }
+        ],
+        "items": [
+          {
+            "item": "Elixir",
+            "why": "100 HP",
+            "alts": [
+              "Concoction"
+            ]
+          }
+        ],
+        "arts": [
+          {
+            "name": "Blaze Blow",
+            "why": "Mt +7, Atk +5 at Str/2 %"
+          },
+          {
+            "name": "Wrath Strike",
+            "why": "Mt +4, Hit +10"
+          },
+          {
+            "name": "Tiger Slash",
+            "why": "Effective vs cavalry"
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Go No Sen",
+            "why": "Attacks first on enemy phase, 25%"
+          },
+          {
+            "name": "Sen No Sen",
+            "why": "Follow-up before the counter, 25%"
+          },
+          {
+            "name": "Astra",
+            "why": "Sword Master mastery: 5 hits at 50%, once mastered"
+          },
+          {
+            "name": "Swords Lv. 4",
+            "why": "Sword A+: Hit/Avo +7 with swords"
+          },
+          {
+            "name": "Avoid Fatality",
+            "why": "Infantry C: Ddg +10, crit insurance on the duelist"
+          }
+        ],
+        "tips": [
+          "Lunging Gale (Sword A): add it to the art list once the rank screen shows its effect",
+          "Hanno (fog): end beside Theodora (A support); Go No Sen holds enemy phase",
+          "Cohen & Maria: Lust duels on Cha 50; Ruler's Awakening (Hit +50) first, then swing",
+          "Ultand adjacent: Ddg +20; Bonaventure adjacent: Hit +20 (30%). Balor: team E, off the 24"
+        ],
+        "checks": [
+          {
+            "stat": "Res",
+            "at": "Sec 5",
+            "need": "A Cohen-map mage's forecast leaves him above half HP",
+            "fix": [
+              "Reason Awakening (Rsl +10) before the enemy phase",
+              "Hexlock Shield (Res +5) on mage maps",
+              "End beside Sirocco or Bonaventure: Barrier Res +3"
+            ]
+          }
+        ],
+        "drop": [
+          {
+            "item": "Close Quarters",
+            "why": "Astra takes the slot once mastered"
+          },
+          {
+            "item": "Swords Lv. 3",
+            "why": "Swords Lv. 4 at A+"
+          }
+        ]
+      }
+    ],
+    "sources": [
+      "part3-salvation",
+      "weapons-and-items",
+      "combat-arts-and-abilities",
+      "character-learnsets",
+      "equippable-abilities",
+      "class-data",
+      "redesign/17-part2-part3-plan"
+    ]
+  },
+  "recruitOn": {
+    "Leda": {
+      "how": "story",
+      "window": "Part III Sec 1 (his Part I Paralogue cleared)"
+    },
+    "Theodora": {
+      "how": "story",
+      "window": "Part III Sec 1 (his Part I Paralogue cleared)"
+    }
+  },
+  "tierNotes": "Reddit: reliable Hit against dodgy foes; some found his Part III version weaker than expected (disputed)."
+}

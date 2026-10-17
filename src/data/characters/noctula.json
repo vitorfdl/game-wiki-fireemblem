@@ -1,0 +1,1369 @@
+{
+  "name": "Noctula",
+  "slug": "noctula",
+  "epithet": "Tribal brawler turned city girl",
+  "faction": "Neutral",
+  "homeRoute": "Cai",
+  "weapons": [
+    "Gauntlet",
+    "Axe"
+  ],
+  "preferred": [
+    "Axe",
+    "Brawling",
+    "Infantry"
+  ],
+  "avoid": [
+    "Sword"
+  ],
+  "personality": "Proud of her trained physique; loves city life, fistfights and training.",
+  "story": "She left a warlike tribe, rejecting rural life and the local men, and moved to the imperial capital Dagsion, which she had admired since childhood. She is one of the cheapest recruits (Renown 3 on Theodora's route).",
+  "personalSkill": {
+    "name": "Warrior's Clarity",
+    "effect": "After combat, Avo+3 until unit's next phase. Lv20 adds a 10% chance of Avo+10; Lv35 raises it to 20%."
+  },
+  "growths": {
+    "HP": 50,
+    "Str": 45,
+    "Mag": 20,
+    "Spd": 45,
+    "Dex": 40,
+    "Def": 40,
+    "Res": 20,
+    "Lck": 35,
+    "Cha": 30
+  },
+  "supports": [
+    "Majide",
+    "Peter",
+    "Tialla"
+  ],
+  "tiers": [
+    {
+      "source": "Pocket Tactics",
+      "tier": "B"
+    },
+    {
+      "source": "KeenGamer",
+      "tier": "A"
+    }
+  ],
+  "tierNotes": "Pocket Tactics B; KeenGamer A (cheapest strong recruit). Reddit: Pugilist → Warrior is the standard dodge tank; Clarity's Avo stacks per combat (single report).",
+  "recruit": {
+    "how": "recruit",
+    "renown": 4,
+    "why": [
+      "No support needed for Noctula. Theodora (Renown 3) would be a little earlier, but that roster was already full, so Cai keeps the four armies level."
+    ],
+    "tip": "No item, quest or support: just Renown 4."
+  },
+  "requirements": {
+    "Cai": "4R",
+    "Dietrich": "6R",
+    "Theodora": "3R",
+    "Leda": "3S 8R"
+  },
+  "build": {
+    "role": "Gauntlet dodge tank",
+    "path": [
+      "Gladiator",
+      "Pugilist",
+      "Brigand (detour: Regroup)",
+      "Pugilist",
+      "War Monk"
+    ],
+    "part1Target": "Pugilist",
+    "part3Target": "War Monk",
+    "notes": "Gladiator on joining (about Lv 15 in Ch 6), Pugilist at Lv 20 until Attack, Get Back is mastered. Brigand in Ch 8 for Regroup: it keeps gauntlets, so the Dodge Gauntlets stay on. Back to Pugilist through Part II. War Monk in Part III keeps her Spd 60; Battlemaster needs Sword A, which she avoids.",
+    "confidence": "medium"
+  },
+  "guide": {
+    "role": "Gauntlet dodge tank",
+    "summary": "Pugilist grows HP 65, Spd 55, Def 50 on her and adds Brawl Avo +3; Warrior's Clarity and Dodge Gauntlets stack more Avo. She stays Pugilist through Part II and goes War Monk in Part III to keep her Spd.",
+    "playstyle": "Bait enemy phase from forests and thickets with Ultand beside her (Patch Up heals, Pray for Safety stops crits) and Ninae on the other side against mages. Counter with gauntlets. Res grows 20%: mages are her death.",
+    "focus": [
+      "Spd",
+      "HP",
+      "Def"
+    ],
+    "keys": [
+      "Fight with gauntlets every map and train Gauntlet at Arena Warrior Training (Sword, Axe, Gauntlet).",
+      "Get Dodge Gauntlets (S tier) and make them her refine project.",
+      "Master Attack, Get Back: Avo +10 on every art.",
+      "Ch 8: a Brigand stint for Regroup (Avo +20 after a miss). Brigand keeps gauntlets.",
+      "Fight with Ultand next to her from Ch 7: Patch Up heals her after every enemy-phase fight and Pray for Safety adds Ddg +10 (+20 at Lv 35): crit avoid, not dodge.",
+      "Against mages, keep Ninae on her other side: Spirits' Guidance gives her Hit/Avo +10 when the foe uses magic.",
+      "Part II Ch 5: park her at the Onager's far range to waste its shots."
+    ],
+    "watch": [
+      "Res growth 20%: never end a turn in mage range.",
+      "Sword is avoided, so Warrior and Battlemaster are poor fits.",
+      "Dodge Gauntlets 3 + Phantom Ring 3 = 6 weight: keep it there (Da Mina Gauntlets add 1 on player phase). Never add a shield: lost Attack Speed costs both doubles and dodges.",
+      "Inventory: 4 core (Dodge and Da Mina Gauntlets, Phantom Ring, Concoction), 2 open for Pure Water or a Miranilla Juice. Part II: all six carried in from Ch 12."
+    ],
+    "stages": [
+      {
+        "when": "Join (Ch 6), Beginner",
+        "from": {
+          "part": 1,
+          "ch": 6
+        },
+        "level": "Lv 15 to 20",
+        "class": "Gladiator",
+        "kind": "core",
+        "goal": "Gauntlet C for Pugilist. Warrior's Clarity (innate): Avo +3 after each combat until her next phase.",
+        "exit": "Leave at Lv 20 with Gauntlet C (Pugilist exam at 75%).",
+        "masteries": [
+          "Attack Basics"
+        ],
+        "training": [
+          {
+            "rank": "Gauntlet C",
+            "for": "Pugilist exam",
+            "how": "Arena Warrior Training (Sword, Axe, Gauntlet); fight with gauntlets, inn Auto-Training; Gladiator trains Gauntlet"
+          },
+          {
+            "rank": "Axe C",
+            "for": "Brigand stint (Ch 8)",
+            "how": "Arena Heavy Training (Spear, Authority, Axe, Heavy); Axe is her preferred rank"
+          }
+        ],
+        "tips": [
+          "Joins in Ch 6 at about Lv 15 in a Beginner class. Ursa's Right Claw only comes with a Lv 20+ Pugilist recruit, so a Ch 6 Noctula doesn't bring it",
+          "Gladiator needs Sword D, which she avoids; take the exam at 75%+"
+        ],
+        "weapons": [
+          {
+            "item": "Iron Gauntlets",
+            "why": "Main damage, Wt 3"
+          },
+          {
+            "item": "Wooden Gauntlets",
+            "why": "A tier: Wt 1 refine project"
+          }
+        ],
+        "arts": [
+          {
+            "name": "Mighty Fist",
+            "why": "Gauntlet D: +4 Mt, +10 Hit"
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Attack Basics",
+            "why": "Gladiator mastery: Str +1 (once mastered)"
+          },
+          {
+            "name": "Attuned",
+            "why": "Personal Lv 20 ability: When Warrior's Clarity triggers, grants Avo+10 until unit's next... (from Lv 20)"
+          },
+          {
+            "name": "Fists Lv. 1",
+            "why": "Gauntlet D+ rank ability: gauntlet Hit +3 (once Gauntlet D+)"
+          }
+        ],
+        "equipment": [],
+        "items": [
+          {
+            "item": "Vulnerary",
+            "why": "20 HP x3: early heal"
+          }
+        ],
+        "to": {
+          "part": 1,
+          "ch": 6
+        }
+      },
+      {
+        "when": "Ch 6 to 7",
+        "from": {
+          "part": 1,
+          "ch": 6
+        },
+        "to": {
+          "part": 1,
+          "ch": 7
+        },
+        "level": "Lv 20 to 28",
+        "class": "Pugilist",
+        "kind": "core",
+        "goal": "Dodge tank; master Attack, Get Back. Attuned (Lv 20) is part of her personal skill, so it needs no slot.",
+        "exit": "Leave once Attack, Get Back is mastered and the Brigand exam shows 75% (Axe C, Sword C).",
+        "masteries": [
+          "Attack, Get Back"
+        ],
+        "training": [
+          {
+            "rank": "Axe C, Sword C",
+            "for": "Brigand exam (Ch 8)",
+            "how": "Arena Warrior Training (Sword, Axe, Gauntlet) covers both. Sword is avoided, so it is slow"
+          },
+          {
+            "rank": "Gauntlet B, then A",
+            "for": "Spirit Blow and War Monk",
+            "how": "Arena Warrior Training (Sword, Axe, Gauntlet); fight with gauntlets, inn Auto-Training; Pugilist trains Gauntlet"
+          },
+          {
+            "rank": "White Magic D",
+            "for": "War Monk (Part III)",
+            "how": "Arena Mage Training (White Magic, Black Magic, Authority)"
+          }
+        ],
+        "tips": [
+          "Keep accessories light: weight cuts Attack Speed"
+        ],
+        "weapons": [
+          {
+            "item": "Dodge Gauntlets",
+            "why": "S tier: Avo +10?",
+            "alts": [
+              "Da Mina Gauntlets",
+              "Iron Gauntlets"
+            ],
+            "plan": "Access chapter on Cai's route not documented"
+          },
+          {
+            "item": "Da Mina Gauntlets",
+            "why": "A tier: Hit +10 on Battle Rush and Fading Blow; back to the Dodge Gauntlets before the enemy phase"
+          }
+        ],
+        "equipment": [
+          {
+            "item": "Phantom Ring",
+            "why": "Avo +5",
+            "slot": "Accessory"
+          }
+        ],
+        "arts": [
+          {
+            "name": "Battle Rush",
+            "why": "Gauntlet B: follow-up before the counter"
+          },
+          {
+            "name": "Fading Blow",
+            "why": "Gauntlet C: move 1 after combat"
+          },
+          {
+            "name": "Mighty Fist",
+            "why": "Gauntlet D: +4 Mt, +10 Hit"
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Attack, Get Back",
+            "why": "Pugilist mastery goal: Avo +10 with arts (once mastered)"
+          },
+          {
+            "name": "Attuned",
+            "why": "Personal Lv 20 ability: When Warrior's Clarity triggers, grants Avo+10 until unit's next..."
+          },
+          {
+            "name": "Attack Basics",
+            "why": "Gladiator mastery: Str +1"
+          },
+          {
+            "name": "Fists Lv. 1",
+            "why": "Gauntlet D+ rank ability: gauntlet Hit +3"
+          }
+        ],
+        "drop": [
+          {
+            "item": "Counter Gauntlets",
+            "why": "Wt 4 and no Avo: she dodges, she doesn't trade"
+          },
+          {
+            "item": "Wooden Gauntlets",
+            "why": "Dodge and Da Mina cover both phases"
+          },
+          {
+            "item": "Iron Gauntlets",
+            "why": "Replaced by the Dodge Gauntlets"
+          }
+        ],
+        "items": [
+          {
+            "item": "Concoction",
+            "why": "40 HP x2: a missed dodge streak hurts",
+            "alts": [
+              "Vulnerary"
+            ]
+          }
+        ]
+      },
+      {
+        "when": "Ch 8 to 9",
+        "from": {
+          "part": 1,
+          "ch": 8
+        },
+        "to": {
+          "part": 1,
+          "ch": 9
+        },
+        "level": "Lv 28 to 33",
+        "class": "Brigand",
+        "kind": "detour",
+        "goal": "Regroup (Avo +20 after a foe misses), the best Part I dodge-tank mastery; stacks with Attack, Get Back",
+        "exit": "Leave once Regroup is mastered.",
+        "masteries": [
+          "Regroup"
+        ],
+        "training": [
+          {
+            "rank": "Gauntlet B, then A",
+            "for": "Spirit Blow and War Monk",
+            "how": "Arena Warrior Training (Sword, Axe, Gauntlet); fight with gauntlets, inn Auto-Training; Pugilist trains Gauntlet"
+          }
+        ],
+        "tips": [
+          "Brigand keeps gauntlets, so the Dodge Gauntlets stay on; it loses Pugilist's Brawl Avo +3, so fight from forests and thickets",
+          "Brigand on Noctula: HP 65, Str 60, Spd 50, Def 45 (Pugilist: Spd 55, Def 50)"
+        ],
+        "weapons": [
+          {
+            "item": "Dodge Gauntlets",
+            "why": "S tier: Avo +10?",
+            "alts": [
+              "Da Mina Gauntlets",
+              "Iron Gauntlets"
+            ],
+            "plan": "Access chapter on Cai's route not documented"
+          },
+          {
+            "item": "Da Mina Gauntlets",
+            "why": "A tier: Hit +10 on Battle Rush and Fading Blow; back to the Dodge Gauntlets before the enemy phase"
+          }
+        ],
+        "equipment": [
+          {
+            "item": "Phantom Ring",
+            "why": "Avo +5",
+            "slot": "Accessory"
+          }
+        ],
+        "arts": [
+          {
+            "name": "Battle Rush",
+            "why": "Gauntlet B: follow-up before the counter"
+          },
+          {
+            "name": "Fading Blow",
+            "why": "Gauntlet C: move 1 after combat"
+          },
+          {
+            "name": "Mighty Fist",
+            "why": "Gauntlet D: +4 Mt, +10 Hit"
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Regroup",
+            "why": "Brigand mastery goal: Avo +20 after a foe misses (once mastered)"
+          },
+          {
+            "name": "Attuned",
+            "why": "Personal Lv 20 ability: When Warrior's Clarity triggers, grants Avo+10 until unit's next..."
+          },
+          {
+            "name": "Attack, Get Back",
+            "why": "Pugilist mastery: Avo +10 when using an art"
+          },
+          {
+            "name": "Attack Basics",
+            "why": "Gladiator mastery: Str +1"
+          },
+          {
+            "name": "Fists Lv. 1",
+            "why": "Gauntlet D+ rank ability: gauntlet Hit +3"
+          }
+        ],
+        "items": [
+          {
+            "item": "Concoction",
+            "why": "40 HP x2",
+            "alts": [
+              "Vulnerary"
+            ]
+          },
+          {
+            "item": "Pure Water",
+            "why": "Res +10, -2 a turn",
+            "situational": "Mage-heavy maps: open slot (Res 20% growth)"
+          },
+          {
+            "item": "Miranilla Juice",
+            "why": "Ddg +5 for the map",
+            "alts": [
+              "Vulnerary"
+            ],
+            "situational": "Ch 9 fog, foes from every side: open slot",
+            "plan": "?"
+          }
+        ],
+        "why": [
+          "Attuned (Lv 20): 10% chance that Clarity grants Avo +10 instead; Regroup stacks on top"
+        ]
+      },
+      {
+        "when": "Ch 10 to 12",
+        "from": {
+          "part": 1,
+          "ch": 10
+        },
+        "to": {
+          "part": 1,
+          "ch": 12
+        },
+        "level": "Lv 33 to 37",
+        "class": "Pugilist",
+        "kind": "core",
+        "goal": "Dodge tank with both dodge masteries: fight on player phase, then bait.",
+        "exit": "Stays through Part II.",
+        "training": [
+          {
+            "rank": "Gauntlet B, then A",
+            "for": "Spirit Blow and War Monk",
+            "how": "Arena Warrior Training (Sword, Axe, Gauntlet); fight with gauntlets, inn Auto-Training; Pugilist trains Gauntlet"
+          },
+          {
+            "rank": "White Magic D",
+            "for": "War Monk (Part III)",
+            "how": "Arena Mage Training (White Magic, Black Magic, Authority)"
+          }
+        ],
+        "tips": [
+          "Keep accessories light: weight cuts Attack Speed"
+        ],
+        "weapons": [
+          {
+            "item": "Dodge Gauntlets",
+            "why": "S tier: Avo +10?",
+            "alts": [
+              "Da Mina Gauntlets",
+              "Iron Gauntlets"
+            ],
+            "plan": "Access chapter on Cai's route not documented"
+          },
+          {
+            "item": "Da Mina Gauntlets",
+            "why": "A tier: Hit +10 on Battle Rush and Fading Blow; back to the Dodge Gauntlets before the enemy phase"
+          }
+        ],
+        "equipment": [
+          {
+            "item": "Phantom Ring",
+            "why": "Avo +5",
+            "slot": "Accessory"
+          }
+        ],
+        "arts": [
+          {
+            "name": "Battle Rush",
+            "why": "Gauntlet B: follow-up before the counter"
+          },
+          {
+            "name": "Fading Blow",
+            "why": "Gauntlet C: move 1 after combat"
+          },
+          {
+            "name": "Mighty Fist",
+            "why": "Gauntlet D: +4 Mt, +10 Hit"
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Attuned+",
+            "why": "Personal Lv 35 ability: When Warrior's Clarity triggers, grants Avo+10 until unit's next... (from Lv 35)"
+          },
+          {
+            "name": "Regroup",
+            "why": "Brigand mastery: Avo +20 after a foe misses"
+          },
+          {
+            "name": "Attack, Get Back",
+            "why": "Pugilist mastery: Avo +10 when using an art"
+          },
+          {
+            "name": "Attack Basics",
+            "why": "Gladiator mastery: Str +1"
+          },
+          {
+            "name": "Fists Lv. 1",
+            "why": "Gauntlet D+ rank ability: gauntlet Hit +3"
+          }
+        ],
+        "items": [
+          {
+            "item": "Concoction",
+            "why": "40 HP x2",
+            "alts": [
+              "Vulnerary"
+            ]
+          },
+          {
+            "item": "Pure Water",
+            "why": "Res +10, -2 a turn",
+            "situational": "Mage-heavy maps: open slot; restock one for Part II"
+          },
+          {
+            "item": "Miranilla Juice",
+            "why": "Ddg +5 for the map",
+            "alts": [
+              "Vulnerary"
+            ],
+            "situational": "End of Ch 12: Part II stock for the Ch 5 Onager bait, open slot",
+            "plan": "?"
+          }
+        ],
+        "why": [
+          "Attuned+ (Lv 35): the Avo +10 chance after combat rises to 20%"
+        ]
+      },
+      {
+        "when": "Part II",
+        "from": {
+          "part": 2
+        },
+        "level": "Lv 37 to 42",
+        "class": "Pugilist",
+        "kind": "core",
+        "goal": "Bait and dodge. No Part II side trip: the only gauntlet Advanced class is Warrior, which needs Sword B, a rank she avoids. Attuned+ (20% for Avo +10 after combat) plus Regroup and Attack, Get Back.",
+        "exit": "Stays to the end of Part II.",
+        "tips": [
+          "No free time in Part II: only equipped items come in, so equip them at the end of Ch 12"
+        ],
+        "weapons": [
+          {
+            "item": "Dodge Gauntlets",
+            "why": "Dodge",
+            "plan": "Equip before Part II"
+          },
+          {
+            "item": "Da Mina Gauntlets",
+            "why": "A tier: Hit +10 on Battle Rush and Fading Blow; back to the Dodge Gauntlets before the enemy phase"
+          }
+        ],
+        "equipment": [
+          {
+            "item": "Phantom Ring",
+            "why": "Avo +5",
+            "slot": "Accessory"
+          }
+        ],
+        "arts": [
+          {
+            "name": "Battle Rush",
+            "why": "Gauntlet B: follow-up before the counter"
+          },
+          {
+            "name": "Fading Blow",
+            "why": "Gauntlet C: move 1 after combat"
+          },
+          {
+            "name": "Mighty Fist",
+            "why": "Gauntlet D: +4 Mt, +10 Hit"
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Attuned+",
+            "why": "Personal Lv 35 ability: When Warrior's Clarity triggers, grants Avo+10 until unit's next..."
+          },
+          {
+            "name": "Regroup",
+            "why": "Brigand mastery: Avo +20 after a foe misses"
+          },
+          {
+            "name": "Attack, Get Back",
+            "why": "Pugilist mastery: Avo +10 when using an art"
+          },
+          {
+            "name": "Attack Basics",
+            "why": "Gladiator mastery: Str +1"
+          },
+          {
+            "name": "Fists Lv. 1",
+            "why": "Gauntlet D+ rank ability: gauntlet Hit +3"
+          }
+        ],
+        "items": [
+          {
+            "item": "Concoction",
+            "why": "40 HP x2: carried in from Ch 12",
+            "alts": [
+              "Vulnerary"
+            ]
+          },
+          {
+            "item": "Miranilla Juice",
+            "why": "Ddg +5 for the map",
+            "alts": [
+              "Vulnerary"
+            ],
+            "situational": "Ch 5: baiting the Onager and Fire Orb, carried in from Ch 12",
+            "plan": "?"
+          },
+          {
+            "item": "Pure Water",
+            "why": "Res +10, -2 a turn",
+            "situational": "Mage packs: carried in from Ch 12"
+          }
+        ]
+      },
+      {
+        "when": "Part III goal",
+        "from": {
+          "part": 3
+        },
+        "level": "Lv 45+",
+        "class": "War Monk",
+        "kind": "core",
+        "goal": "Keeps Spd 60 and adds Brawl Avo +7; Battlemaster would drop her Spd to 40. Attuned+ and Brawl Avo +7 keep the dodge build going.",
+        "exit": "Final class. Stay Pugilist until Aurora's request unlocks it.",
+        "masteries": [
+          "Strike and Heal"
+        ],
+        "weapons": [
+          {
+            "item": "Dodge Gauntlets",
+            "why": "Dodge Gauntlets: Troy holds the Smyrnos's Channels"
+          },
+          {
+            "item": "Dodge Gauntlets",
+            "why": "Dodge",
+            "plan": "Equip before Part II"
+          },
+          {
+            "item": "Da Mina Gauntlets",
+            "why": "A tier: Hit +10 on arts"
+          }
+        ],
+        "equipment": [
+          {
+            "item": "Phantom Ring",
+            "why": "Avo +5",
+            "slot": "Accessory"
+          }
+        ],
+        "arts": [
+          {
+            "name": "Battle Rush",
+            "why": "Gauntlet B: follow-up before the counter"
+          },
+          {
+            "name": "Fading Blow",
+            "why": "Gauntlet C: move 1 after combat"
+          },
+          {
+            "name": "Mighty Fist",
+            "why": "Gauntlet D: +4 Mt, +10 Hit"
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Strike and Heal",
+            "why": "War Monk mastery: assist magic after combat (once mastered)"
+          },
+          {
+            "name": "Attuned+",
+            "why": "Personal Lv 35 ability: When Warrior's Clarity triggers, grants Avo+10 until unit's next..."
+          },
+          {
+            "name": "Regroup",
+            "why": "Brigand mastery: Avo +20 after a foe misses"
+          },
+          {
+            "name": "Attack, Get Back",
+            "why": "Pugilist mastery: Avo +10 when using an art"
+          },
+          {
+            "name": "Attack Basics",
+            "why": "Gladiator mastery: Str +1"
+          }
+        ],
+        "drop": [
+          {
+            "item": "Wooden Gauntlets",
+            "why": "Replaced by Smyrnos's Channels (also Wt 1)"
+          },
+          {
+            "item": "Counter Gauntlets",
+            "why": "No slot: she dodges, she doesn't trade"
+          }
+        ],
+        "items": [
+          {
+            "item": "Concoction",
+            "why": "40 HP x2",
+            "alts": [
+              "Vulnerary"
+            ]
+          },
+          {
+            "item": "Pure Water",
+            "why": "Res +10, -2 a turn",
+            "situational": "Mage-heavy maps: open slot"
+          }
+        ]
+      }
+    ],
+    "alt": "If Sword won't reach C, skip Brigand and stay Pugilist; Regroup is the only loss. Battlemaster (War Master's Strike) only if you train Sword A despite it being avoided.",
+    "sources": [
+      "class-and-weapon-guide",
+      "growth.py",
+      "class-data",
+      "character-learnsets",
+      "combat-arts-and-abilities",
+      "weapons-and-items",
+      "hard-mode-video-notes",
+      "part2-war",
+      "PATHS-BRIEF",
+      "walkthrough-part1-cai",
+      "part3-salvation"
+    ],
+    "routeNotes": [
+      {
+        "system": "Kindness Quests",
+        "note": "She joins at Renown 4, usually Ch 6: clear the Ch 3 to 5 Kindness Quests (100 to 130 Renown each) on time so it lands early in Ch 6."
+      },
+      {
+        "system": "Farming",
+        "note": "Her Phantom Ring is a Vandahl barter (Soldanella x3 + Shaktoh x3): plant 3 extra Shaktoh with the Ch 7 crop."
+      }
+    ],
+    "decisions": [
+      {
+        "topic": "Recruit her at Renown 4 (Ch 6)",
+        "pick": "The day Renown 4 lands, at about Lv 15 in a Beginner class",
+        "why": "Waiting until she is a Lv 20+ Pugilist brings Ursa's Right Claw, but that means a Ch 10+ join and losing her Ch 6 to 9 maps."
+      },
+      {
+        "topic": "Take the Brigand side trip in Ch 8",
+        "pick": "Brigand (Axe C, Sword C) once Attack, Get Back is mastered",
+        "why": "Regroup for the rest of the game; Brigand keeps gauntlets. Back to Pugilist once Regroup is mastered."
+      },
+      {
+        "topic": "Tank beside Ultand and Ninae",
+        "pick": "Bait from forests and thickets with Ultand and Ninae adjacent",
+        "why": "She dodges; Patch Up heals what lands and Pray for Safety (Ddg, crit avoid) stops the crit that would kill her. Res grows 20%, so Ninae's Spirits' Guidance covers mages."
+      }
+    ],
+    "gates": [
+      {
+        "route": "Cai",
+        "from": {
+          "part": 1,
+          "ch": 4
+        },
+        "kind": "recruit",
+        "text": "Recruit her the day Renown 4 lands: no item or quest",
+        "by": {
+          "part": 1,
+          "ch": 6
+        }
+      },
+      {
+        "route": "Cai",
+        "from": {
+          "part": 1,
+          "ch": 5
+        },
+        "kind": "rank",
+        "text": "Axe C and Sword C before the Ch 8 Brigand side trip",
+        "by": {
+          "part": 1,
+          "ch": 8
+        }
+      }
+    ]
+  },
+  "sources": [
+    "https://fortunesweave.co.uk/characters/noctula",
+    "https://www.pockettactics.com/fire-emblem-fortunes-weave/tier-list",
+    "https://www.keengamer.com/articles/guides/fire-emblem-fortunes-weave-tier-list-best-characters-ranked-for-every-route/"
+  ],
+  "recruitOn": {
+    "Cai": {
+      "how": "recruit",
+      "renown": 4
+    },
+    "Dietrich": {
+      "how": "recruit",
+      "renown": 6
+    },
+    "Theodora": {
+      "how": "recruit",
+      "renown": 3,
+      "window": "Ch 8 week 1 (6/1)",
+      "task": "Joins a Pugilist with Ursa's Right Claw (player report ?)"
+    },
+    "Leda": {
+      "how": "recruit",
+      "support": 3,
+      "renown": 8
+    }
+  },
+  "copies": [
+    {
+      "route": "Theodora",
+      "renown": 3,
+      "chapter": 8,
+      "path": [
+        "Pugilist (Ch 8 join, Lv 20?)",
+        "War Monk (Part III S3)"
+      ],
+      "role": "Part II dodge bait (gauntlets)",
+      "part1": "Joins Ch 8 week 1 already a Pugilist with Ursa's Right Claw (player report); bench in Part I",
+      "why": "Part II bench (D-130): a Pugilist dodger who baits the Ch 5 Onager and holds forest tiles. Renown 3 and no Support, so she costs no meal seat. Her Claw goes to storage for Anatolia (D-104).",
+      "guide": {
+        "role": "Part II dodge bait (gauntlets)",
+        "summary": "Part II bench dodger: she stands where the enemy phase hits hardest and lets Avo do the work. Warrior's Clarity (Avo +3 after combat) and Attuned+ (20%: Avo +10) stack on Brawl Avo and the Dodge Gauntlets. Her Res is 20: keep Ninae beside her on mage turns.",
+        "playstyle": "Enemy phase: end on a forest or Thicket with the Dodge Gauntlets in hand and Ultand or Ninae adjacent. Player phase: Da Mina Gauntlets from Part II (Hit +10 on arts) and Attack, Get Back (Avo +10) so the counter misses.",
+        "focus": [
+          "Spd",
+          "HP",
+          "Def"
+        ],
+        "keys": [
+          "Recruit her 6/1: Renown 3, no Support; she joins a Pugilist with the Claw ?",
+          "Store [[item:Ursa's Right Claw]] for Anatolia: cursed, never in her hand",
+          "[[item:Dodge Gauntlets]] on join (Mt 11, Wt 3, Avo +10); [[item:Da Mina Gauntlets]] +2 by Ch 12 for Part II",
+          "Book Arena Warrior and Mage weeks: Gauntlet B and White Magic D for War Monk",
+          "Part II Ch 5: park her at the Onager's farthest range, Dodge Gauntlets in hand"
+        ],
+        "watch": [
+          "Res: 20 growth as a Pugilist. Never end in mage range without Ninae beside her.",
+          "Weight: Dodge Gauntlets 3 + Phantom Ring 3 = 6; Da Mina Gauntlets 4 + 3 = 7; Qiankun Circles 4 + 3 = 7. No shield, ever. Ring off first if she's doubled.",
+          "Avo stacking: Clarity's +3 per combat and Attuned+'s +10 may not stack ?; plan on one of each.",
+          "Claw: Curse 1 per combat; Burst halves max HP for the rest of the map. Storage only.",
+          "Inventory: 4 core (Dodge Gauntlets, Da Mina Gauntlets, Phantom Ring, Concoction); Pure Water swaps in."
+        ],
+        "stages": [
+          {
+            "when": "Ch 8 to 12: Pugilist (bench)",
+            "from": {
+              "part": 1,
+              "ch": 8
+            },
+            "to": {
+              "part": 1,
+              "ch": 12
+            },
+            "why": [
+              "Recruit 6/1 (Ch 8 week 1): Renown 3, no Support",
+              "Joins a Pugilist (player report) at about Lv 20 ?; Ursa's Right Claw goes to storage"
+            ],
+            "level": "About Lv 20? on join (6/1) to about 30? by Ch 12",
+            "class": "Pugilist",
+            "kind": "bench",
+            "mount": "None",
+            "goal": "Bench: dungeon link kills and Arena weeks. Bank Gauntlet B and White Magic D; master Attack, Get Back.",
+            "exit": "Ch 12 end: Gauntlet B, White Magic D banked; her 6 items are her Part II kit.",
+            "masteries": [
+              "Attack, Get Back"
+            ],
+            "weapons": [
+              {
+                "item": "Dodge Gauntlets",
+                "why": "Main: Avo +10, Mt 11, Wt 3: the bait plan; beats Da Mina +0",
+                "plan": "One copy: buy it on a Ch 8 to 9 trip ?",
+                "alts": [
+                  "Iron Gauntlets"
+                ]
+              },
+              {
+                "item": "Da Mina Gauntlets",
+                "why": "Part II art weapon: Mt 11, Wt 4, Hit +10 on arts",
+                "plan": "Buy by Ch 11; +2 at Renown 10, Ch 12 (Mt ?, ores ?)",
+                "alts": [
+                  "Iron Gauntlets"
+                ]
+              }
+            ],
+            "equipment": [
+              {
+                "item": "Phantom Ring",
+                "why": "Avo +5, Wt 3: bait Avo",
+                "plan": "Second Vandahl barter if it restocks ? (Loretta takes the first)",
+                "slot": "Accessory",
+                "alts": [
+                  "Bowbreak Amulet"
+                ]
+              }
+            ],
+            "items": [
+              {
+                "item": "Concoction",
+                "why": "40 HP x2; Part II stock",
+                "alts": [
+                  "Vulnerary"
+                ]
+              }
+            ],
+            "arts": [
+              {
+                "name": "Mighty Fist",
+                "why": "Gauntlet D: Mt +4, Hit +10"
+              },
+              {
+                "name": "Fading Blow",
+                "why": "Gauntlet C: Mt −5; moves 1 tile after combat"
+              },
+              {
+                "name": "Battle Rush",
+                "why": "Gauntlet B: Mt −2; her follow-up lands before the counter"
+              }
+            ],
+            "abilities": [
+              {
+                "name": "Attuned",
+                "why": "Lv 20: Warrior's Clarity adds Avo +10, 10%"
+              },
+              {
+                "name": "Attack, Get Back",
+                "why": "Pugilist mastery, once mastered: Avo +10 on arts"
+              },
+              {
+                "name": "Fists Lv. 2",
+                "why": "Gauntlet C+: Hit +5 with gauntlets"
+              },
+              {
+                "name": "Dodge",
+                "why": "Infantry C: Avo +5 vs bows and magic"
+              },
+              {
+                "name": "Distraction",
+                "why": "Authority D: Hit −3 on adjacent foes"
+              }
+            ],
+            "battalion": {
+              "name": "Rookie Soldiers",
+              "why": "Str +2, Cha +3 on the bench dodger; Authority E?",
+              "where": "Any Ch 6 to 9 roll (Regia, Alecto, Megaira)",
+              "alts": [
+                "Novice Hunters"
+              ],
+              "situational": "Bench in Part I; carried only if a seat opens (count ?)"
+            },
+            "training": [
+              {
+                "rank": "Gauntlet B, Infantry C",
+                "for": "War Monk (Part III); Dodge",
+                "how": "Arena Warrior with a Gauntlet B+ mentor (Tobias); Pugilist trains Gauntlet +2"
+              },
+              {
+                "rank": "White Magic D, Authority D",
+                "for": "War Monk exam; Distraction",
+                "how": "Arena Mage weeks (bench seats first)"
+              }
+            ],
+            "tips": [
+              "Ch 8 to 12 dungeons: seat her in every party so link attacks hand her kills",
+              "Never equip the Claw: each combat feeds its Curse gauge",
+              "Ch 12 end: both gauntlets, ring and a Concoction equipped for Part II"
+            ],
+            "drop": [
+              {
+                "item": "Ursa's Right Claw",
+                "why": "Cursed: storage on join, held to 10/24 for Anatolia (D-104)"
+              }
+            ]
+          },
+          {
+            "when": "Part II to Part III S2: Pugilist",
+            "from": {
+              "part": 2,
+              "ch": 1
+            },
+            "to": {
+              "part": 3,
+              "ch": 3
+            },
+            "why": [
+              "No License in Part II: Warrior needs Sword B, her bane",
+              "Plays Ch 2 (forests) and Ch 5 (Onager bait); the 13-seat rotation picks the rest",
+              "Underworld Boon (Part III S1 to S2): fight within 2 of Eshmel; gauntlets can't strip it"
+            ],
+            "level": "Lv 33 floor, about 37 after Ch 1 drills, to 45",
+            "class": "Pugilist",
+            "kind": "core",
+            "mount": "None",
+            "goal": "Dodge bait: Brawl Avo +3, Dodge Gauntlets +10, Attuned+ (Lv 35) 20% for Avo +10. Ch 5 Onager bait.",
+            "exit": "Lv 45 with Gauntlet B, White Magic D: War Monk once Aurora's request clears.",
+            "masteries": [],
+            "weapons": [
+              {
+                "item": "Dodge Gauntlets",
+                "why": "Avo +10, Mt 11, Wt 3: enemy-phase bait",
+                "plan": "Equipped carry-over",
+                "alts": [
+                  "Iron Gauntlets +2"
+                ]
+              },
+              {
+                "item": "Da Mina Gauntlets +2",
+                "why": "Player phase: Mt ?, Wt 4, Hit +10 on arts",
+                "plan": "Equipped carry-over (refined in Ch 12)",
+                "alts": [
+                  "Iron Gauntlets +2"
+                ]
+              }
+            ],
+            "equipment": [
+              {
+                "item": "Phantom Ring",
+                "why": "Avo +5, Wt 3: bait Avo",
+                "plan": "Equipped carry-over",
+                "slot": "Accessory",
+                "alts": [
+                  "Bowbreak Amulet"
+                ]
+              }
+            ],
+            "items": [
+              {
+                "item": "Concoction",
+                "why": "40 HP: Part II hands out one per chapter"
+              },
+              {
+                "item": "Pure Water",
+                "why": "Res +10, −2 a turn: her Res is 20",
+                "plan": "Carried from Ch 12",
+                "situational": "Ch 5 Fire Orb side: open slot"
+              }
+            ],
+            "arts": [
+              {
+                "name": "Mighty Fist",
+                "why": "Gauntlet D: Mt +4, Hit +10"
+              },
+              {
+                "name": "Fading Blow",
+                "why": "Gauntlet C: Mt −5; moves 1 tile after combat"
+              },
+              {
+                "name": "Battle Rush",
+                "why": "Gauntlet B: Mt −2; her follow-up lands before the counter"
+              }
+            ],
+            "abilities": [
+              {
+                "name": "Attuned+",
+                "why": "Lv 35: Warrior's Clarity adds Avo +10, 20%"
+              },
+              {
+                "name": "Attack, Get Back",
+                "why": "Pugilist mastery: Avo +10 on arts"
+              },
+              {
+                "name": "Fists Lv. 3",
+                "why": "Gauntlet B+: Hit/Avo +5 with gauntlets"
+              },
+              {
+                "name": "Dodge",
+                "why": "Infantry C: Avo +5 vs bows and magic"
+              },
+              {
+                "name": "Distraction",
+                "why": "Authority D: Hit −3 on adjacent foes"
+              }
+            ],
+            "battalion": {
+              "name": "Rookie Soldiers",
+              "why": "Str +2, Cha +3 on the bench dodger; Authority E?",
+              "where": "Held from Ch 8",
+              "alts": [
+                "Novice Hunters"
+              ],
+              "situational": "Part II carryover ?"
+            },
+            "checks": [
+              {
+                "stat": "Spd",
+                "at": "Part II Ch 1",
+                "need": "Enemy forecast: Ch 1 infantry don't double her with the Dodge Gauntlets in hand",
+                "why": "Doubled, two hits land and Avo can't save her",
+                "fix": [
+                  "[[item:Ginji Juice]]: Bld +4 for the map (source ?)",
+                  "Take off the [[item:Phantom Ring]]: Wt 3 back",
+                  "End on Thickets (Ch 1) or forests (Ch 2): terrain Avo"
+                ]
+              }
+            ],
+            "tips": [
+              "Ch 2: bait the Agris cavalry from forest tiles; Ultand beside her",
+              "Ch 5: park her at the Onager's farthest range; Pure Water if the Fire Orb reaches",
+              "Ch 6: hold a corner tile while the bows chip Lyrah's shields",
+              "Mage turns: Ninae adjacent (Spirits' Guidance: Hit/Avo +10 vs magic)"
+            ],
+            "drop": [
+              {
+                "item": "Attuned",
+                "why": "Attuned+ replaces it at Lv 35"
+              },
+              {
+                "item": "Fists Lv. 2",
+                "why": "Fists Lv. 3 replaces it at Gauntlet B+"
+              }
+            ],
+            "training": [
+              {
+                "rank": "Gauntlet B+",
+                "for": "Fists Lv. 3",
+                "how": "Arena Warrior; battles with it count too"
+              }
+            ]
+          },
+          {
+            "when": "Part III Section 4+ (War Monk)",
+            "from": {
+              "part": 3,
+              "ch": 4
+            },
+            "why": [
+              "Exam: Lv 45, White Magic D, Gauntlet B, Master License; Aurora's request (5 Angelica)",
+              "Drake (S5): bait the fliers off the rush lane; Envy zeroes Avo vs higher-level foes",
+              "Underworld Boon: gauntlets can't strip it; stay inside Leda's ring at Drake"
+            ],
+            "level": "Lv 45+ (Master License)",
+            "class": "War Monk",
+            "kind": "core",
+            "mount": "None",
+            "goal": "Dodge bait: Brawl Avo +7, Dodge Gauntlets Avo +10, Attuned+; Strike and Heal casts Laia after fights.",
+            "exit": "Endpoint. Aurora's request opens the exam (Section 3).",
+            "masteries": [
+              "Strike and Heal"
+            ],
+            "weapons": [
+              {
+                "item": "Dodge Gauntlets",
+                "why": "Enemy phase: Avo +10, Mt 11, Wt 3; Wooden +4 is Mt 6",
+                "plan": "Keep it",
+                "alts": [
+                  "Iron Gauntlets +4"
+                ]
+              },
+              {
+                "item": "Da Mina Gauntlets +2",
+                "why": "Player phase: Hit +10 on arts, Wt 4",
+                "plan": "Equipped carry-over (refined in Ch 12)",
+                "alts": [
+                  "Iron Gauntlets +4"
+                ]
+              },
+              {
+                "item": "Qiankun Circles +2",
+                "why": "1-2 range: counters mages and bows; Wt 4"
+              }
+            ],
+            "equipment": [
+              {
+                "item": "Phantom Ring",
+                "why": "Avo +5, Wt 3: bait Avo",
+                "plan": "Keep it",
+                "slot": "Accessory",
+                "alts": [
+                  "Gale Ring",
+                  "Bowbreak Amulet"
+                ]
+              }
+            ],
+            "items": [
+              {
+                "item": "Elixir",
+                "why": "100 HP",
+                "alts": [
+                  "Concoction"
+                ]
+              },
+              {
+                "item": "Pure Water",
+                "why": "Res +10, -2 a turn: her Res is 20",
+                "situational": "Drake mage turns: uses the open slot"
+              }
+            ],
+            "spells": [
+              {
+                "name": "Laia",
+                "why": "White Magic D: heals a little; Strike and Heal casts it after combat"
+              }
+            ],
+            "arts": [
+              {
+                "name": "Mighty Fist",
+                "why": "Gauntlet D: Mt +4, Hit +10"
+              },
+              {
+                "name": "Battle Rush",
+                "why": "Gauntlet B: Mt −2; her follow-up lands before the counter"
+              },
+              {
+                "name": "Fading Blow",
+                "why": "Gauntlet C: Mt −5; moves 1 tile after combat"
+              }
+            ],
+            "abilities": [
+              {
+                "name": "Strike and Heal",
+                "why": "War Monk mastery, once mastered: assist magic after combat"
+              },
+              {
+                "name": "Attuned+",
+                "why": "Lv 35: Warrior's Clarity adds Avo +10, 20%"
+              },
+              {
+                "name": "Attack, Get Back",
+                "why": "Pugilist mastery: Avo +10 on arts"
+              },
+              {
+                "name": "Fists Lv. 4",
+                "why": "Gauntlet A+: Hit/Avo +7 with gauntlets; Lv. 3 until then"
+              },
+              {
+                "name": "Dodge",
+                "why": "Infantry C: Avo +5 vs bows and magic: Drake's mages"
+              }
+            ],
+            "tips": [
+              "Drake: bait a flier lane off the rush; end beside Orchel or Fianna for Barrier Res +3",
+              "Envy miasma: no Avo vs higher-level foes inside it, so never bait from a kill tile",
+              "Mage turns: Qiankun Circles in hand to counter at 2; Pure Water if two mages reach",
+              "Physical maps: Distraction (adjacent Hit -3) back in for Dodge"
+            ],
+            "drop": [
+              {
+                "item": "Distraction",
+                "why": "Dodge: Avo +5 vs Drake's mages"
+              },
+              {
+                "item": "Fists Lv. 3",
+                "why": "Fists Lv. 4 replaces it at Gauntlet A+"
+              }
+            ],
+            "training": [
+              {
+                "rank": "Gauntlet A+",
+                "for": "Fists Lv. 4",
+                "how": "Arena Warrior; battles with it count too"
+              }
+            ]
+          }
+        ],
+        "alt": "No Phantom Ring restock: the Bowbreak Amulet (Hit/Avo +15 vs bows, Wt 4) on Ch 4 and Ch 5, nothing elsewhere.",
+        "sources": [
+          "redesign/16-theodora-army-v2",
+          "class-data",
+          "character-learnsets",
+          "equippable-abilities",
+          "weapons-and-items",
+          "combat-arts-and-abilities",
+          "player-pacing-and-recruit-items",
+          "part2-war",
+          "part3-salvation"
+        ],
+        "routeNotes": [
+          {
+            "system": "Supports",
+            "note": "No partner in this army (Majide, Peter, Tialla) and no Support gate: she takes no meal seat."
+          },
+          {
+            "system": "Battalions & Gambits",
+            "note": "Infantry, so she can carry [[battalion:Rookie Soldiers]] (Str +2). Bench, so it rides only if a carrier seat opens (count ?)."
+          },
+          {
+            "system": "Cursed Treasures",
+            "note": "[[item:Ursa's Right Claw]] is Anatolia's (D-104). Keep it in storage past 10/24 so the Drifting Reliquary can re-sell it."
+          }
+        ],
+        "decisions": [
+          {
+            "topic": "Recruit her Ch 8 week 1",
+            "pick": "6/1, already a Pugilist with the Claw (player report)",
+            "why": "Renown 3 and no Support: no meal seat. The player reports she joins in her Specialty class from Ch 8 carrying Ursa's Right Claw; an earlier join is a Beginner without it ?.",
+            "else": "She joins a Beginner? Gauntlet C, then Pugilist on a Specialty License"
+          },
+          {
+            "topic": "Store the Claw for Anatolia",
+            "pick": "Storage on join; held to the end of Part I",
+            "why": "Cursed: every combat adds to the gauge and Burst halves max HP for the map. Anatolia's Celestial Wells drain it (D-104); the Drifting Reliquary only re-sells items held at Part I's end."
+          },
+          {
+            "topic": "Stay Pugilist through Part II",
+            "pick": "No Warrior detour",
+            "why": "Warrior needs Sword B, her bane: slow Arena Sword weeks the bench needs for Gauntlet B and White Magic D. Pugilist keeps Brawl Avo +3, Spd/Def +10 growth and Gauntlet +2 a fight."
+          },
+          {
+            "topic": "Take War Monk in Section 3",
+            "pick": "Aurora's request, then the Lv 45 exam",
+            "why": "Res +15 growth patches her Res 20, Brawl Avo +7 and Spd +15 keep the dodge, and Strike and Heal casts Laia after each fight. Battlemaster needs Sword A; The Godhand is Tobias's."
+          },
+          {
+            "topic": "Bait the Part II Ch 5 Onager",
+            "pick": "Farthest artillery range, Dodge Gauntlets in hand",
+            "why": "Ch 5's start area sits in Onager range; a dodger there wastes its shots while the army clears the stair base. Dodge (Avo +5 vs bows) applies if the Onager counts as a bow ?."
+          }
+        ],
+        "finalists": {
+          "stats": [
+            "HP",
+            "Spd",
+            "Def",
+            "Res"
+          ],
+          "options": [
+            {
+              "class": "Pugilist",
+              "use": "Ch 8 to Part III S2",
+              "note": "Spd/Def +10, Brawl Avo +3; Gauntlet +2 a fight"
+            },
+            {
+              "class": "Warrior",
+              "note": "Needs Sword B, her bane: the bench Arena weeks can't spare it"
+            },
+            {
+              "class": "War Monk",
+              "use": "Part III S3+",
+              "note": "Res +15, Spd +15, Brawl Avo +7; Aurora's request"
+            },
+            {
+              "class": "Battlemaster",
+              "note": "Sword A on her bane; Spd −5 growth"
+            },
+            {
+              "class": "The Godhand",
+              "note": "One holder: Tobias claims it (D-130)"
+            }
+          ]
+        },
+        "gates": [
+          {
+            "route": "Theodora",
+            "from": {
+              "part": 1,
+              "ch": 8
+            },
+            "by": {
+              "part": 1,
+              "ch": 8
+            },
+            "kind": "recruit",
+            "text": "Recruit her 6/1: Renown 3, no Support; she should arrive a Pugilist with the Claw ?"
+          },
+          {
+            "route": "Theodora",
+            "from": {
+              "part": 1,
+              "ch": 8
+            },
+            "by": {
+              "part": 1,
+              "ch": 12
+            },
+            "kind": "rank",
+            "text": "Bank Gauntlet B and White Magic D in the Arena by 10/24 for War Monk"
+          }
+        ]
+      }
+    }
+  ]
+}

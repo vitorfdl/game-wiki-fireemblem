@@ -1,0 +1,1582 @@
+{
+  "lord": "Cai",
+  "hook": "A half-god boy fighting the Heroic Games to free his imprisoned father.",
+  "plays": "Mounted lord: spear rider from Ch 5, mounted caster (Caladrius) from Ch 10",
+  "pick": "You like a warm, helping-people story and a gentle ramp into the systems.",
+  "watch": "Can't enter the Nysiades Desert in Part I. Orchel's Paralogue window is only 10/18–10/20.",
+  "systems": [
+    "Kindness Quests",
+    "Farming",
+    "Stable & Luring",
+    "Mentoring with Aurora"
+  ],
+  "paralogues": 4,
+  "why": "Arrives with Guardian and Ranger from Dietrich. Unlocks the reliable Dragoon and Troubadour.",
+  "unlocks": {
+    "gives": [
+      "Dragoon",
+      "Troubadour",
+      "Caladrius"
+    ],
+    "wants": [
+      "Guardian",
+      "Ranger"
+    ]
+  },
+  "team": {
+    "summary": "Part I deploys a core of eight (Cai, Tialla, Peter, Guzran, Noctula, Ultand, Seteth, Ninae) plus Sirocco once he joins (late Ch 10 or Ch 11); Majide, Nydine, Jasmine, Peppe, Mikaela and Fianna stay on the bench. Ultand goes Diviner, Shaman, Ovate, so from late Ch 7 the army runs two Physic healers (Tialla, Ninae) and two casters (Cai, Ultand), and Sirocco takes over as the main nuke once he joins. Eight units take an Advanced class before Part II: Tialla (Bishop), Cai (Caladrius), Guzran (Shido) and Ultand (Ovate) in Ch 10, Seteth (Dragoon) and Ninae (Guardian) in Ch 11 to 12, Sirocco (Ovate) in Ch 12 and Fianna (Troubadour) if she makes Lv 35. Late recruits join scaled (about Lv 15 in Ch 6 to 9, about Lv 25 in a Specialty class from Ch 10). Benched units train ranks in the Arena and take any missing exams on Part II's free Licenses.",
+    "gaps": [
+      "Mastery speed is undocumented (one GameFAQs player says it is much quicker than Three Houses). If a mastery is slow, cut the side trip, not the main class.",
+      "Ultand's Black Magic is not a preferred rank: Black Magic C by Lv 20 and B by Lv 35 rely on doubled Shaman casts plus weekly Mage Training.",
+      "Shaman and Armored Ornius Rider Skill EXP rows look swapped in the sources; Cai's and Ultand's Shaman stints rely on casting to train Black Magic (unverified).",
+      "Whether two Barrier users (Tialla, Ninae, Ultand, Fianna) stack on one ally is not documented.",
+      "Mount bonds: Paired Run's bond 3 and bond 5 steps come from one video; whether a bond carries to a new mount is not documented. No Part I Bau catch is confirmed for the Dragoons.",
+      "Mentoring: no local source lists any mentor skill beyond the item and class rewards.",
+      "Noa Fruit (Ninae's Hexlock Shield barter) has no documented source.",
+      "Benched units can only train ranks in the Arena (2 to 3 units per course, each course once a week). Mage Training is now crowded: Cai (Ch 5 to 9), Ultand (Ch 6 to 10), Fianna (Ch 10 on).",
+      "Deployment slot counts are a player report; check the prep screen."
+    ],
+    "fixes": [
+      "Ch 5: start Gauntlet use for Guzran (no Arena course trains it); Axe and Sword training for Noctula; Black Magic for Cai.",
+      "Ch 6: Ultand takes Diviner, not Soldier, and books Mage Training every week for Black Magic C.",
+      "Ch 7: Cai Shaman (Black Magic B for Caladrius), Guzran Pugilist (Attack, Get Back), Ultand Shaman (second caster).",
+      "Ch 8: Noctula Brigand (Regroup).",
+      "Ch 10: Ultand Ovate once Black Magic is B; Sirocco becomes the main nuke once he joins (late Ch 10 or Ch 11).",
+      "Farming: plant 30 Linaria, 40 Coffee Berries/Zang/Pongo (10 Pongo for Archive T), and Melara and Shaktoh past the Ch 8 quest count for Ultand's Iron Gauntlets and Noctula's Phantom Ring.",
+      "Stable: Cai's Ornius bond 5 by Ch 8; Seteth's Meganius bond 3 by Ch 8; Peter's horse from Ch 7. Bench mounts and the spare horses for Cai and Tialla in the Stable by the end of Ch 12.",
+      "Bench Arena plan: Heavy Training for Jasmine, Majide and Nydine (Axe, Spear, Heavy); Mounted for Nydine, Mikaela and Fianna (Rider, Flying); Mage for Ultand and Fianna; Infantry for Peppe, Mikaela and Majide (Bow, Sword).",
+      "Part II Specialty Licenses: Ch 1 Nydine (Armored Ornius Rider) and Mikaela (Archer), plus any join class that came out wrong; Ch 2 Majide (Brigand); Pugilist for Majide once Gauntlet is C.",
+      "Part II Advanced Licenses: Ch 1 slipped Part I exams, then Cai Bardinger and Tialla Troubadour; Ch 2 Nydine Dragoon, Jasmine Dreadnought, Fianna Troubadour, Peter Sniper; Ch 3 Mikaela Forest Knight, Peppe Ranger, Seteth Guardian, Ninae Bishop; Ch 4 Ultand Bishop, Fianna Bishop.",
+      "Part III: Ninae Sentinel and Mikaela Bow Adept while their temple requests (Aurora, Kalla) are pending; Ultand Druid; Cai Orichaldia before The Cavalier.",
+      "Turn on the Increase Class EXP boon (after Dietrich's path): every side trip here waits on a mastery."
+    ]
+  },
+  "chapters": {
+    "1": {
+      "title": "Uproar in Ribeira"
+    },
+    "2": {
+      "title": "Road to the Capital"
+    },
+    "3": {
+      "title": "Partings and Hopes",
+      "free": "2/20–2/28"
+    },
+    "4": {
+      "title": "Festival of the Strong",
+      "free": "3/1–3/7"
+    },
+    "5": {
+      "title": "Cai's Battle",
+      "free": "3/15–4/10"
+    },
+    "6": {
+      "title": "To the Land of Cybele",
+      "free": "4/20–5/20"
+    },
+    "7": {
+      "title": "Opposed Agendas",
+      "free": "6/9–7/9"
+    },
+    "8": {
+      "title": "Unyielding Feelings",
+      "free": "7/20–9/1"
+    },
+    "9": {
+      "title": "Mystery at Aurora's Temple",
+      "free": "9/3–9/11"
+    },
+    "10": {
+      "title": "Precious Time",
+      "free": "9/15–10/15"
+    },
+    "11": {
+      "title": "Dagda's Cauldron",
+      "free": "10/16–10/23"
+    },
+    "12": {
+      "title": "Just One Wish",
+      "free": "11/4–11/27"
+    }
+  },
+  "roster": [
+    {
+      "name": "Tialla",
+      "chapter": 1,
+      "estimate": false,
+      "why": "Joins with the story"
+    },
+    {
+      "name": "Peter",
+      "chapter": 1,
+      "estimate": false,
+      "why": "Joins with the story"
+    },
+    {
+      "name": "Guzran",
+      "chapter": 3,
+      "estimate": false,
+      "why": "Recruitment tutorial (Renown 2)"
+    },
+    {
+      "name": "Noctula",
+      "chapter": 6,
+      "estimate": true,
+      "why": "Renown 4"
+    },
+    {
+      "name": "Ultand",
+      "chapter": 6,
+      "estimate": false,
+      "why": "Joins with the story"
+    },
+    {
+      "name": "Majide",
+      "chapter": 6,
+      "estimate": true,
+      "why": "Renown 5 (late Ch 6 or Ch 7)"
+    },
+    {
+      "name": "Seteth",
+      "chapter": 7,
+      "estimate": true,
+      "why": "Renown 6 (late Ch 7)"
+    },
+    {
+      "name": "Ninae",
+      "chapter": 7,
+      "estimate": true,
+      "why": "Renown 6 (late Ch 7)"
+    },
+    {
+      "name": "Nydine",
+      "chapter": 7,
+      "estimate": true,
+      "why": "Renown 6 (late Ch 7)"
+    },
+    {
+      "name": "Jasmine",
+      "chapter": 10,
+      "estimate": true,
+      "why": "Renown 8"
+    },
+    {
+      "name": "Peppe",
+      "chapter": 10,
+      "estimate": false,
+      "why": "Bertrand's Paralogue 9/17–9/25"
+    }
+  ],
+  "extras": [
+    "Sirocco",
+    "Fianna",
+    "Mikaela"
+  ],
+  "deployment": {
+    "summary": "Cai's Part I core is Cai, Tialla, Peter and Guzran from Ch 1 to 5, plus Noctula and Ultand from Ch 6, Seteth and Ninae from late Ch 7 (Renown 6) and Sirocco from late Ch 10 or Ch 11 (Renown 9). The change is Ultand: she goes Diviner, Shaman, Ovate instead of Guardian, so from late Ch 7 the army runs two healers (Tialla and Ninae, both with Physic) and two casters (Cai and Ultand) instead of three healers and one caster. The army is built around a dodge-tank pocket (Noctula with Ultand's Pray for Safety and Ninae's Spirits' Guidance beside her), a Charge lane (Seteth holds, Peter charges) and Tialla's range-2 Lend Magic on the casters. The route mechanic shapes it through bonded mounts for the mounted strike team (Cai, Peter, Seteth), Kindness Quest Renown that times every exam, and crops that pay for the shields and rings in the builds.",
+    "roles": [
+      {
+        "role": "Lord and mounted caster",
+        "primary": "Cai",
+        "backup": "None",
+        "why": "Always deploys; Caladrius adds doubled Black Magic to a spear rider."
+      },
+      {
+        "role": "Main healer (Physic)",
+        "primary": "Tialla",
+        "backup": "Ninae",
+        "why": "Earliest Physic (White Magic C), doubled casts as Bishop from Ch 10."
+      },
+      {
+        "role": "Second healer and Res wall",
+        "primary": "Ninae",
+        "backup": "Tialla",
+        "why": "Physic at White Magic B from the front line (Priest, then Guardian from Ch 11 or 12); Spirits' Guidance against mages."
+      },
+      {
+        "role": "Magic nuke",
+        "primary": "Ultand (Ch 6 to 10), Sirocco (late Ch 10 or Ch 11 on)",
+        "backup": "Cai",
+        "why": "Ch 6 to 10 needs a second caster; Sirocco (S tier) takes over once he joins and Ultand moves to support caster."
+      },
+      {
+        "role": "Support caster and adjacency auras",
+        "primary": "Ultand (once Sirocco deploys)",
+        "backup": "Tialla",
+        "why": "Patch Up and Pray for Safety+ protect the dodge tank while she casts Bolganone."
+      },
+      {
+        "role": "Physical striker",
+        "primary": "Guzran",
+        "backup": "Cai",
+        "why": "Hot-Headed (+15 at Lv 20, +20 at Lv 35) on a crit build: Deadly Blade, Ravaging Arts, Bird-Plume Amulet (or Archer's Ring)."
+      },
+      {
+        "role": "Dodge tank",
+        "primary": "Noctula",
+        "backup": "Seteth",
+        "why": "The only evasion tank: Pugilist with Dodge Gauntlets, Attack, Get Back and Regroup, baiting from forests and thickets."
+      },
+      {
+        "role": "Flier and enemy-phase tank",
+        "primary": "Seteth",
+        "backup": "None in Part I (Nydine in Part II)",
+        "why": "Ready for Battle on enemy phase; Armored Ornius Rider jumps walls until Dragoon (Ch 11 or 12), the only Part I flier."
+      },
+      {
+        "role": "Ranged and anti-flier",
+        "primary": "Peter",
+        "backup": "Seteth (Javelin)",
+        "why": "Charioteer is S or high A on Peter; Longbow and Mini Bow are effective against fliers."
+      },
+      {
+        "role": "Armor breaker",
+        "primary": "Cai (Levin Sword, Bolganone at Black Magic B)",
+        "backup": "Ultand, Sirocco, Seteth (Ji), Guzran (Flyssa)",
+        "why": "Ch 5, 7, 8 and 10 all ask for magic or armor-piercing weapons."
+      },
+      {
+        "role": "Mounted strike team (Cai route)",
+        "primary": "Cai, Peter, Seteth",
+        "backup": "Nydine (Part II)",
+        "why": "Bonded mounts add growths and Paired Run Mov; Peter's Canto and Cai's Overtake pull the team back out."
+      }
+    ],
+    "phases": [
+      {
+        "chapters": "Ch 1 to 5",
+        "slots": 6,
+        "deploy": [
+          "Cai",
+          "Tialla",
+          "Peter",
+          "Guzran"
+        ],
+        "bench": [],
+        "note": "Only four units exist before Ch 6, so everyone fights (Guzran from Ch 3). Tialla is the only healer; guests help: Ultand in Ch 3, Theodora and Orchel in Ch 4, Dietrich and Anatolia in Ch 5.",
+        "from": 1,
+        "to": 5
+      },
+      {
+        "chapters": "Ch 6 to 9",
+        "slots": 8,
+        "deploy": [
+          "Cai",
+          "Tialla",
+          "Peter",
+          "Guzran",
+          "Noctula",
+          "Ultand",
+          "Seteth",
+          "Ninae"
+        ],
+        "bench": [
+          "Majide",
+          "Mikaela",
+          "Nydine"
+        ],
+        "note": "Ultand fills the caster role from her first map; Seteth and Ninae join at Renown 6 (late Ch 7). Ch 9: Ultand is out, so Noctula takes her slot and Cai (Shaman) casts. On 7-slot maps Noctula sits once Ninae joins.",
+        "from": 6,
+        "to": 9
+      },
+      {
+        "chapters": "Ch 10 to 12",
+        "slots": 9,
+        "deploy": [
+          "Cai",
+          "Tialla",
+          "Peter",
+          "Guzran",
+          "Noctula",
+          "Ultand",
+          "Seteth",
+          "Ninae",
+          "Sirocco"
+        ],
+        "bench": [
+          "Majide",
+          "Mikaela",
+          "Nydine",
+          "Jasmine",
+          "Peppe",
+          "Fianna"
+        ],
+        "note": "Ch 10: Fianna (about Lv 25) borrows the ninth slot until Sirocco joins (Renown 9, late Ch 10 or Ch 11). Then Sirocco is the main nuke and Ultand (Ovate) plays support caster beside Noctula. Anna's Paralogue has a smaller roster: bring Tialla or Ninae and an armor-killer (Cai, Ultand or Sirocco).",
+        "from": 10,
+        "to": 12
+      }
+    ],
+    "synergies": [
+      {
+        "units": [
+          "Noctula",
+          "Ultand",
+          "Ninae"
+        ],
+        "title": "Dodge-tank pocket",
+        "kind": "defense",
+        "how": "Noctula baits enemy phase from a forest or thicket. Ultand ends beside her: Patch Up heals her after every enemy-phase fight, and Pray for Safety adds Ddg +10 (+20 at Lv 35), which stops crits, not hits. Ninae takes the other side: Spirits' Guidance gives Noctula Hit/Avo +10 against mages (her Res grows 20%).",
+        "payoff": "Patch Up after every fight, Ddg +10 against crits (+20 at Lv 35), Hit/Avo +10 against mages"
+      },
+      {
+        "units": [
+          "Tialla",
+          "Cai",
+          "Ultand",
+          "Sirocco"
+        ],
+        "title": "Lend Magic at range 2",
+        "kind": "support",
+        "how": "Tactician's Wit adds range to Tialla's Lend arts: Lend Magic (Authority C) on the caster before it nukes, Lend Strength+ (Authority B) on Guzran. Train Authority in her Mage Training seat.",
+        "payoff": "Tialla buffs from 2 tiles away, so she never stands where the nuke's target can reach her"
+      },
+      {
+        "units": [
+          "Seteth",
+          "Peter"
+        ],
+        "title": "Charge lane",
+        "kind": "offense",
+        "how": "Seteth plugs the choke on enemy phase (Ready for Battle, Sense Threat, Silver Shield and Gale Ring: 6 extra weight, so he isn't doubled). Next turn Peter Charges down the line of foes stacked in front of him.",
+        "payoff": "Charger gives Peter Prt +10 (the chariot can't dodge); one Charge hits the whole stacked line"
+      },
+      {
+        "units": [
+          "Peter",
+          "Guzran",
+          "Cai"
+        ],
+        "title": "Crescendo feed",
+        "kind": "offense",
+        "how": "Guzran and Cai leave targets low so Peter takes the early kills. Crescendo stacks before he swings the Deadeye Longbow.",
+        "payoff": "Crescendo Hit +3 per kill (up to +30) cancels the Deadeye Longbow's Hit -30"
+      },
+      {
+        "units": [
+          "Tialla",
+          "Ninae"
+        ],
+        "title": "Two Physic users",
+        "kind": "healing",
+        "how": "Tialla heals from the back with doubled Bishop casts, Ninae from the front as a Priest, then a Guardian. They carry Ch 9 alone while Ultand is out.",
+        "payoff": "Two range heals a turn from Ch 8; Ch 9 runs without Ultand and still has both"
+      },
+      {
+        "units": [
+          "Cai",
+          "Peter",
+          "Seteth"
+        ],
+        "title": "Mounted strike team",
+        "kind": "mobility",
+        "how": "Paired Run on bonded mounts (Cai's Ornius, Seteth's Meganius), Peter's Canto, and Cai's Brio and Overtake let the three hit a flank and pull back out of reach. Nydine joins in Part II.",
+        "payoff": "Paired Run Mov +1 at bond 3, +2 at bond 5; Canto and Overtake move again after the hit"
+      },
+      {
+        "units": [
+          "Cai",
+          "Guzran"
+        ],
+        "title": "Underworld maps",
+        "kind": "defense",
+        "how": "Flamekeeper makes every ally immune to Underworld Flames and halves damage taken in them; Guzran's Cleansing Blade ignores the Underworld boon. Keep the strikers inside Cai's flames.",
+        "payoff": "No Underworld Flames damage, half damage inside them, and Guzran ignores the Underworld boon"
+      }
+    ],
+    "units": {
+      "Cai": {
+        "status": "core",
+        "role": "Lord, mounted caster, strike team lead",
+        "why": "Lord, always deploys: Caladrius magic on a bonded Ornius.",
+        "partII": "Bardinger stint in Ch 1 to 4 on a free Advanced License, back to Caladrius for Dagda in Ch 5."
+      },
+      "Tialla": {
+        "status": "core",
+        "role": "Main healer (Physic) and Lend support",
+        "why": "Only healer until Ch 6 and the main Physic carrier as a Bishop; S on Pocket Tactics.",
+        "partII": "Troubadour stint in Ch 1 to 2, back to Bishop for the Ch 3 Physic map."
+      },
+      "Peter": {
+        "status": "core",
+        "role": "Ranged, anti-flier and Charge",
+        "why": "Charioteer is the Hard video's S or high-A class and it names Peter as its best user; growths rise with level, so he wants the EXP.",
+        "partII": "Sniper stint in Ch 2 to 3 for Marksmanship, back to Charioteer in Ch 4."
+      },
+      "Guzran": {
+        "status": "core",
+        "role": "Physical crit striker",
+        "why": "S on Pocket Tactics; the sword crit striker who leads Ch 3 to 5 with Cai.",
+        "partII": "Stays Shido; no exam needed. The Bolt Gem stays on Majide."
+      },
+      "Noctula": {
+        "status": "core",
+        "role": "Dodge tank",
+        "why": "Joins in Ch 6 (Renown 4) and rated above every Ch 6 alternative (Majide D, Nydine C); the only evasion tank, and the Ultand and Ninae pocket is built around her.",
+        "partII": "Stays Pugilist; no exam needed."
+      },
+      "Ultand": {
+        "status": "core",
+        "role": "Caster Ch 6 to 10, then support caster",
+        "why": "Joins on her own at the start of Ch 6; as Diviner and Shaman she is the second caster Ch 6 to 10 lacked, and her auras keep Noctula alive. Out for Ch 9 only.",
+        "partII": "Ovate; Bishop stint in Ch 4 to 5 for Barrier, back to Ovate for Ch 6."
+      },
+      "Seteth": {
+        "status": "core",
+        "role": "Flier and enemy-phase tank",
+        "why": "The only Part I flier (Dragoon in Ch 11 or 12) and the Charge lane's anchor; the video rates Ready for Battle excellent.",
+        "partII": "Chases the Ch 2 Ranger with Nydine; Guardian stint in Ch 3 for Brace."
+      },
+      "Ninae": {
+        "status": "core",
+        "role": "Second healer (Physic) and Res wall",
+        "why": "Front-line Physic healer and anti-mage Guardian (KeenGamer A); now the only second healer, so she can't be benched. She joins at Renown 6 (late Ch 7); her Paradise Fish may push that to Ch 8.",
+        "partII": "Bishop stint in Ch 2 to 3 for doubled Physic on the Ch 3 map."
+      },
+      "Sirocco": {
+        "status": "late",
+        "role": "Main magic nuke once he joins",
+        "why": "S tier on both lists; joins at Renown 9 (late Ch 10 or Ch 11) and takes the ninth slot, replacing Ultand as the main nuke.",
+        "partII": "Ovate from Ch 12 (Part II Ch 1 if he missed Lv 35); doubled Thoron for Dagda in Ch 5."
+      },
+      "Majide": {
+        "status": "bench",
+        "role": "Part II axe bruiser",
+        "why": "C and D on every tier list, and his Warrior rank (Gauntlet) can't be trained in the Arena; magic, the Bolt Gem on Guzran and Ji cover armor.",
+        "partII": "Gladiator in Ch 1, Brigand from Ch 2 on a free Specialty License, Pugilist once Gauntlet is C; Warrior waits for Gauntlet B."
+      },
+      "Nydine": {
+        "status": "bench",
+        "role": "Part II second flier and strike team member",
+        "why": "Joins late Ch 7 or Ch 8 (Renown 6), rated C, and Seteth already holds the flier role; every rank her Dragoon exam needs trains in the Arena, and her Red Meganius bonds in the Stable while she waits.",
+        "partII": "Armored Ornius Rider in Ch 1, Dragoon in Ch 2 on a free Advanced License: the second flier for the Ranger chase."
+      },
+      "Jasmine": {
+        "status": "bench",
+        "role": "Part II armored counter tank",
+        "why": "Joins in Ch 10 (Renown 8) after the slots are full, rated D, and Noctula and Seteth already tank; too low for Dreadnought in Part I.",
+        "partII": "Armored Knight? on join, Dreadnought in Part II Ch 2 (Ch 3 if her ranks lag) to hold the chokepoints."
+      },
+      "Peppe": {
+        "status": "bench",
+        "role": "Part II bow and sword finisher",
+        "why": "Joins in Ch 10 with three maps left, and Peter already covers bows.",
+        "partII": "Rogue in Ch 1 to 2, Ranger from Ch 3: one of the 3 to 4 bows Ch 4 asks for."
+      },
+      "Mikaela": {
+        "status": "bench",
+        "role": "Part II mounted bow",
+        "why": "Extra copy who joins late Ch 6 or Ch 7; a second bow behind Peter fills no missing role.",
+        "partII": "Archer in Ch 1 to 2, Forest Knight from Ch 3: another bow for Ch 4."
+      },
+      "Fianna": {
+        "status": "bench",
+        "role": "Part II mounted healer",
+        "why": "Extra copy who joins in Ch 10 (Renown 8); Tialla and Ninae carry Physic, and she is rated C.",
+        "partII": "Joins in a Specialty class (Priest?) at about Lv 25. Troubadour in Ch 12 if she made Lv 35 and Bertrand's request unlocks it, else Part II Ch 2; Bishop stint in Ch 4 to 5, back to Troubadour in Ch 6."
+      }
+    },
+    "part2": {
+      "core": [
+        "Cai",
+        "Tialla",
+        "Peter",
+        "Guzran",
+        "Noctula",
+        "Ultand",
+        "Seteth",
+        "Ninae",
+        "Sirocco",
+        "Nydine",
+        "Jasmine",
+        "Peppe",
+        "Mikaela",
+        "Fianna",
+        "Majide"
+      ],
+      "note": "Part II takes up to 15 units (one source), so all 15 can fight from Ch 1. Before each of the first four battles pick Army Training with every bench unit still in its Beginner class, then spend the free Licenses: Ch 1 Specialty for Nydine, Jasmine, Peppe, Mikaela and Fianna; Ch 2 Advanced for Nydine and Fianna and Specialty for Majide; Ch 3 Advanced for Jasmine, Mikaela and Peppe. Part II has three casters (Cai, Ultand, Sirocco) for the heavy armor ahead. Nydine joins the strike team with Barging Order. If the cap turns out lower, sit Majide first, then Fianna."
+    },
+    "lineup": [
+      {
+        "slot": 1,
+        "role": "Lord, mounted caster",
+        "holders": [
+          {
+            "unit": "Cai",
+            "from": 1
+          }
+        ]
+      },
+      {
+        "slot": 2,
+        "role": "Main healer (Physic)",
+        "holders": [
+          {
+            "unit": "Tialla",
+            "from": 1
+          }
+        ]
+      },
+      {
+        "slot": 3,
+        "role": "Ranged, anti-flier",
+        "holders": [
+          {
+            "unit": "Peter",
+            "from": 1
+          }
+        ]
+      },
+      {
+        "slot": 4,
+        "role": "Physical striker",
+        "holders": [
+          {
+            "unit": "Guzran",
+            "from": 3
+          }
+        ],
+        "note": "Ch 1 to 2: only three units exist"
+      },
+      {
+        "slot": 5,
+        "role": "Magic nuke",
+        "holders": [
+          {
+            "unit": "Ultand",
+            "from": 6,
+            "to": 8,
+            "why": "Joins at the start of Ch 6 and fills the caster role nobody else covers"
+          },
+          {
+            "unit": "Noctula",
+            "from": 9,
+            "to": 9,
+            "why": "Ultand is out in Ch 9: Noctula takes the slot and Cai's Shaman casts"
+          },
+          {
+            "unit": "Ultand",
+            "from": 10,
+            "to": 10,
+            "why": "Back in Ch 10, Bolganone for the armor"
+          },
+          {
+            "unit": "Sirocco",
+            "from": 11,
+            "why": "S tier main nuke once he joins (Renown 9); Ultand moves to slot 9 as support caster"
+          }
+        ],
+        "note": "Ch 3 to 5: story guests fill slots 5 and 6"
+      },
+      {
+        "slot": 6,
+        "role": "Enemy-phase tank, flier",
+        "holders": [
+          {
+            "unit": "Noctula",
+            "from": 6,
+            "to": 7,
+            "why": "The only tank before Seteth: she dodges from forests and thickets"
+          },
+          {
+            "unit": "Seteth",
+            "from": 8,
+            "why": "Ready for Battle holds chokes on enemy phase, and Dragoon (Ch 11 to 12) is the only flier. Noctula drops to slot 8"
+          }
+        ]
+      },
+      {
+        "slot": 7,
+        "role": "Second healer, Res wall",
+        "holders": [
+          {
+            "unit": "Ninae",
+            "from": 8,
+            "why": "Second Physic from the front line; Spirits' Voice against mages"
+          }
+        ]
+      },
+      {
+        "slot": 8,
+        "role": "Dodge tank",
+        "holders": [
+          {
+            "unit": "Noctula",
+            "from": 8,
+            "to": 8,
+            "why": "Eighth slot on 8-slot maps; on 7-slot maps she sits once Ninae joins"
+          },
+          {
+            "unit": "Noctula",
+            "from": 10,
+            "why": "Back on the 8 to 9 slot maps"
+          }
+        ]
+      },
+      {
+        "slot": 9,
+        "role": "Ninth slot: support caster",
+        "holders": [
+          {
+            "unit": "Fianna",
+            "from": 10,
+            "to": 10,
+            "why": "Borrows the ninth slot for dungeon EXP toward Troubadour"
+          },
+          {
+            "unit": "Ultand",
+            "from": 11,
+            "why": "Support caster beside Noctula (Patch Up, Pray for Safety+) once Sirocco nukes"
+          }
+        ]
+      }
+    ],
+    "why": [
+      "Roles first, then the unit per role: about 6 slots in Ch 1 to 5, 7 to 8 in Ch 6 to 9, about 9 in Ch 10 to 12",
+      "Spread EXP thin and nobody reaches Lv 35: a fixed core fights, everyone else waits on the bench",
+      "Ultand goes Diviner, Shaman, Ovate (she has no Physic): two Physic healers and two casters from late Ch 7",
+      "Noctula keeps her slot on merit: rated B (Majide D, Nydine C) and the only evasion tank",
+      "Sirocco joins late (Renown 9) and still deploys: S tier, he replaces Ultand (A/B) as the main nuke",
+      "Majide, Nydine, Jasmine, Mikaela and Peppe fill no missing role: they wait for Part II",
+      "Fianna borrows the Ch 10 ninth slot and dungeon runs for a shot at Troubadour",
+      "Seteth and Ninae can't join before Renown 6 (late Ch 7): Ch 6 and 7 run on six or seven units"
+    ]
+  },
+  "mechanics": [
+    {
+      "system": "Kindness Quests",
+      "what": "Cai's route quests: 100 to 250 Renown (community-reported) and 550 to 7,000G each. Renown gates every exam and unlock: Specialty exams and Noctula (4), Majide and Mikaela (5), Seteth, Ninae and Nydine (6), Castor's Caladrius request and the Theater (7), Advanced exams, Aurora's Dragoon request, Jasmine, Fianna and the Thermae (8), Sirocco and Peppe (9), Bertrand's request (10).",
+      "impact": "Do each Kindness Quest in the chapter it appears, and deliver the three crop quests (200 to 250 Renown) the day the crops are ready, not on 11/27: that pulls Renown 8 into early Ch 10 for the Advanced exams. Quests that say 'beat X at Y' are extra fights (up to 6 units): send the late joiners (Ultand, then Ninae and Seteth, then Fianna and Sirocco) to catch up levels. Take a god audience whenever a temple shows gold on the map (about +50, no Turn). Clear the Ch 10 paralogues early (150 each); For the Empire's Safety (Ch 8) pays 200. Generic subquests you finished on Dietrich's route complete themselves here.",
+      "units": [
+        "Cai",
+        "Ultand",
+        "Ninae",
+        "Seteth",
+        "Sirocco",
+        "Noctula"
+      ]
+    },
+    {
+      "system": "Farming",
+      "what": "Only Cai plants: crops grow on empty land during exploration and pay the three crop Kindness Quests and many Vandahl barters in Dagsion Port.",
+      "impact": "Plant past the quest counts: 30 Linaria, not 20 (10 pay Ninae's Hexlock Shield). 30 Coffee Berries/Zang/Pongo plus 10 Pongo for Archive T (Ultand). From the Ch 8 crops: 3 extra Shaktoh (Noctula's Phantom Ring) and 6 extra Melara (Ultand's Iron Gauntlets); Melara x20 plus Usamos x10 for Peter's Conflagrant Gem only if Cindered Road Cave is late. Zang x10 plus Oda Monja x1 barters the Da Mina Axe for Majide's Part III kit.",
+      "units": [
+        "Ninae",
+        "Ultand",
+        "Noctula",
+        "Peter",
+        "Majide"
+      ]
+    },
+    {
+      "system": "Stable & Luring",
+      "what": "Cai-only: lure with the family's food (fish for Ornius, vegetables for Horse and Pegasus, meat for Bau; the wrong food starts a battle). Each catch rolls breed (rare about 30%?), paired ability and color. Feed every mount once a day: its favourite taste raises bond fastest, and kills while riding count. A ridden mount adds its growths only while the unit is mounted.",
+      "impact": "Bond 3 and bond 5 upgrade the paired ability (Paired Run: Mov +1, then +2); bond 5 gives the full stat bonus. Roll for Mov (Paired Run, Paired Streak) or Canto and skip Paired Alertness: hard save on the tile, lure, check, and reload if wrong. One mount per rider: Cai a Wild Ornius (Ch 5), Seteth a Meganius and Nydine a Red Meganius (Ch 7 or 8), Peter a Ferghanan (Sunfall Path). Every mount must be in the Stable by the end of Ch 12, bench riders' and Part II stints' included: Mikaela's horse, Fianna's Monoceros, spare horses for Cai and Tialla. Charioteer doubles its mount's growth bonus?",
+      "units": [
+        "Cai",
+        "Peter",
+        "Seteth",
+        "Nydine",
+        "Mikaela",
+        "Fianna",
+        "Tialla"
+      ]
+    },
+    {
+      "system": "Mentoring (Aurora, Castor, Centurio, Bertrand)",
+      "what": "Cai-only from Ch 4: Cai is the one mentored, and each mentor pays an item or a class. Centurio: Archer's Ring (Ch 4). Castor: Bolt Gem (Ch 5), Caladrius (Renown 7, late Ch 8). Aurora: Healing Staff (Renown 4, Ch 6), Dragoon (Renown 8, Ch 10). Bertrand: Troubadour or an Advanced License (Renown 10, Ch 11). No local source lists mentor skills beyond these rewards.",
+      "impact": "Rewards go to deployed units: Archer's Ring on Peter, Healing Staff on Tialla, Caladrius for Cai in Ch 10. The Bolt Gem waits for benched Majide: equip it at the end of Ch 12; Guzran wears the Bird-Plume Amulet. Dragoon goes to Seteth (Ch 11 or 12) and Nydine (Part II Ch 2): do the Renown 8 request the day it lands, since Renown doesn't carry into Part II. Troubadour goes to Fianna (Ch 12 or Part II Ch 2) and Tialla's Part II stint.",
+      "units": [
+        "Cai",
+        "Peter",
+        "Tialla",
+        "Majide",
+        "Seteth",
+        "Nydine",
+        "Fianna"
+      ]
+    },
+    {
+      "system": "Archives (dark magic)",
+      "what": "An Archive is used up when read: its dark spell stays on that unit for good, with no inventory or equipment slot. One copy of each per route. Archive Z (Southern Passage) and Archive L (Aditi's Cave) are in Nysiades, closed to Cai in Part I.",
+      "impact": "Tialla reads B in Ch 8 (Mire Β, Mt 3, range 1-3: chip that sets Tactician's Insight where most foes can't counter). Ultand reads θ in Ch 10 (Banshee Θ: Immobilize a boss or runner from range 3) and T from Vandahl (Dark Spikes Τ: Mt 20, 3x vs cavalry). Sirocco reads Γ if Vandahl stocks it (Death Γ: +10 Mt over his Wind and Thunder). Cai skips them: Thoron, Bolganone and a Ridersbane already cover range, armor and cavalry. Spell weight counts like a weapon: Banshee (23), Dark Spikes (20) and Mire (15) get the caster doubled on a counter, so cast them where the foe can't answer.",
+      "units": [
+        "Tialla",
+        "Ultand",
+        "Sirocco"
+      ]
+    },
+    {
+      "system": "Carried-in classes and mounts",
+      "what": "Cai's path is the second one, after Dietrich's: Guardian (Ninae) and Ranger (Peppe) carry in, Blacksmith too (no user). Cai's own mentorships add Caladrius, Dragoon and Troubadour. Cataphract and Dancer aren't available. Only Cai's route has the Stable.",
+      "impact": "Ninae takes Guardian and Peppe Ranger with no unlock quest on this route. Played first instead, Ninae goes Bishop beside Tialla, Ultand stays Ovate and Peppe goes Rogue to Sniper. Every pick, bait and spawn tile is in the Mounts tab (T).",
+      "units": [
+        "Ninae",
+        "Peppe"
+      ]
+    },
+    {
+      "system": "Side trips and free class switching",
+      "what": "Once certified, a unit switches between its classes for free at the Proctor, the Base Menu or Battle Prep. A side trip costs one License, not the old class. Mastery speed is undocumented.",
+      "impact": "Early units master their Specialty class around Ch 7, then wait for Lv 35 and Renown 8 (usually Ch 10): spend Ch 7 to 9 in a second class for a mastery, a stat fix or an exam rank, then switch back or move on. Every switch waits on a condition ('once Regroup is mastered'), not a fixed chapter: if a mastery is slow, drop the side trip, not the main class. The Increase Class EXP boon speeds all of them.",
+      "units": [
+        "Cai",
+        "Guzran",
+        "Noctula"
+      ]
+    },
+    {
+      "system": "Recruit timing and the bench",
+      "what": "Recruits scale to the chapter: Ch 6 to 9 joins arrive at about Lv 15 in a Beginner class, Ch 10 to 12 joins at about Lv 25 already in a Specialty class. Which class each arrives in is ?. A benched unit earns no battle EXP, so it can't reach Lv 20 or 35 in Part I.",
+      "impact": "Recruit every bench unit anyway: Part II takes up to 15 units (one source) and Army Training lifts each to Lv 34 in the class it holds. Check each recruit's class on join and take the planned exam only if it arrived in another one. Train every bench unit's Part II exam ranks by the end of Ch 12, since Part II has no free time and no Arena. At the end of Ch 12, load its Part II kit (6 items at most, healing item included) and keep its mount in the Stable.",
+      "units": [
+        "Majide",
+        "Nydine",
+        "Jasmine",
+        "Peppe",
+        "Mikaela",
+        "Fianna"
+      ]
+    },
+    {
+      "system": "Weekly routine and Spare Turns",
+      "what": "Arena, shrines, gifts, meals, the Pale Raven and Stable feeding cost no Turn: do them every week. Meals, gifts, the Theater and the Thermae are weekly slots, not Turns. Quests finished on an earlier route complete themselves, so most free times end with Turns to spare.",
+      "impact": "Every week: one Arena session (pairs on the Arena sheet, A); pray once per god; one gift per character (the first is a 27G pastry, it only unlocks meals); Sunday: all 3 Inn meals at 150G each, always Cai + 2 targets; feed the Pale Raven (from Ch 4, frontliners first) and every mount (from Ch 5). Watch new support conversations at the Inn as soon as they unlock: some chains lock if you wait. Spare Turns, in order: gather the next Vandahl barter materials, run the suggested dungeon with this week's meal pairs (Link attacks raise Support), then hand the rest to Inn Auto-Activities. Dungeon enemies come back every chapter; chests open once.",
+      "units": [
+        "Cai"
+      ]
+    }
+  ],
+  "fillers": [
+    {
+      "name": "Nuzzuo",
+      "kind": "items",
+      "when": "Ch 10 or later",
+      "item": "Levin Sword",
+      "cost": "Support 2, Renown 6, 3× Iron Bow (in Dagsion from ~7/1)",
+      "why": "A Ch 10+ recruit joins about Lv 25 in a Specialty class and brings a Levin Sword. Cheapest of the three Levin Sword carriers."
+    },
+    {
+      "name": "Io",
+      "kind": "items",
+      "when": "Ch 10 or later",
+      "item": "Levin Sword",
+      "cost": "Support 3, Renown 10, 4,000G",
+      "why": "Joins with a Levin Sword when recruited in Ch 10 or later; partner for Tialla too."
+    },
+    {
+      "name": "Jester",
+      "kind": "items",
+      "when": "Ch 10 or later",
+      "item": "Levin Sword",
+      "cost": "Support 3, Renown 10, 3 short quests",
+      "why": "Brings a Levin Sword as a late recruit (Lv 20+ Myrmidon); supports Peter and Mikaela."
+    },
+    {
+      "name": "Nezha",
+      "kind": "items",
+      "when": "By Ch 9 (before he reaches Lv 20)",
+      "item": "Salamander",
+      "cost": "Support 3, Renown 6, 3× Sandworm Meat (Heretics' Cave has 1 Sandworm)",
+      "why": "Recruited while still a gauntlet class he brings a Salamander; after Lv 20 (Myrmidon) he doesn't. Supports Ultand and Majide."
+    },
+    {
+      "name": "Lilian",
+      "kind": "items",
+      "when": "Ch 10 or later?",
+      "item": "Mini Bow?",
+      "cost": "Support 2, Renown 8, 5,000G",
+      "why": "Reported to bring a Mini Bow when recruited at Lv 20+ (low confidence). Nydine's only other partner besides Dante."
+    },
+    {
+      "name": "Mu",
+      "kind": "supports",
+      "when": "When Renown 9 lands (Ch 10 to 11)",
+      "cost": "Support 3, Renown 9, 3× Glirmosa (Pasithea trails)",
+      "why": "Six partners here: Cai, Peter, Guzran, Peppe, Sirocco and Mikaela. Gives Guzran and Mikaela a second partner."
+    },
+    {
+      "name": "Ursula",
+      "kind": "supports",
+      "when": "Ch 10 (after Talimun's Paralogue, by 10/10)",
+      "cost": "Support 3, Renown 10, clear Talimun's Paralogue, answer Yes ×3",
+      "why": "First partner for Jasmine and Fianna, plus Peter and Sirocco."
+    },
+    {
+      "name": "Dante",
+      "kind": "supports",
+      "when": "When Renown 10 lands (Ch 11)",
+      "cost": "Support 3, Renown 10, 8,000G",
+      "why": "One of only two partners Nydine can get, plus Seteth and Sirocco."
+    }
+  ],
+  "ledger": {
+    "keyDecisions": [
+      {
+        "text": "Do Castor's Special Request from Pop at Renown 7 (late Ch 8): Caladrius for Cai",
+        "ch": 8
+      },
+      {
+        "text": "Do Aurora's Special Request from Mom the day Renown 8 lands: Dragoon for Seteth",
+        "ch": 10
+      },
+      {
+        "text": "Start Support for Seteth, Ninae and Mikaela in Ch 4: they need S3 by Ch 7",
+        "ch": 4
+      },
+      {
+        "text": "Plant past the counts early: three Kindness Quests need 30 crops each",
+        "ch": 5
+      },
+      {
+        "text": "Catch the right mounts: three Wild Ornius in Ch 5, two Meganius in Ch 7",
+        "panel": "mounts"
+      }
+    ],
+    "renownPace": [
+      {
+        "ch": 4,
+        "from": 1,
+        "to": 2,
+        "opens": "Beginner exams only"
+      },
+      {
+        "ch": 5,
+        "from": 2,
+        "to": 3,
+        "opens": "Still Beginner. Specialty, Noctula and Staying Healthy (all R4) wait"
+      },
+      {
+        "ch": 6,
+        "from": 4,
+        "to": 5,
+        "opens": "Specialty exams, Noctula, Staying Healthy. Majide and Mikaela (R5) only at the very end"
+      },
+      {
+        "ch": 7,
+        "from": 5,
+        "to": 6,
+        "opens": "Majide, Mikaela. Seteth, Ninae, Nydine (R6) late Ch 7 at best"
+      },
+      {
+        "ch": 8,
+        "from": 6,
+        "to": 7,
+        "opens": "R6 recruits you missed. Castor's Caladrius request, Theater, Headsman's Rock? (R7) late Ch 8"
+      },
+      {
+        "ch": 9,
+        "from": 7,
+        "to": 8,
+        "opens": "R7 leftovers. R8 only at the very end, if at all"
+      },
+      {
+        "ch": 10,
+        "from": 8,
+        "to": 9,
+        "opens": "Advanced exams, Aurora's Dragoon request, Jasmine, Fianna, Thermae (R8). Sirocco and Peppe (R9) late"
+      },
+      {
+        "ch": 11,
+        "from": 9,
+        "to": 10,
+        "opens": "Sirocco or Peppe if still waiting. Bertrand's request (R10)"
+      },
+      {
+        "ch": 12,
+        "from": 10,
+        "to": 12,
+        "opens": "Leftovers. Every 11/27 deadline"
+      }
+    ],
+    "rules": [
+      "Each exam spends a License even when you fail it: take it at 75% or better",
+      "Specialty opens at Renown 4 (Ch 6): Cai, Tialla, Peter and Guzran take it first; Noctula at Lv 20",
+      "Advanced opens at Renown 8 (Ch 10): 8 units can reach it in Part I, in the order below; the rest use Part II's free Licenses"
+    ],
+    "licenses": {
+      "advancedCap": 8,
+      "buy": "Buy 6 to 7 Advanced Licenses in Megaira (price ?) across Ch 10 to 12. The Giant's-Print Fort chest (Ogmios, Lv 35) gives one; Bertrand's request may give another",
+      "beginner": [
+        {
+          "unit": "Peter",
+          "class": "Hunter",
+          "ch": 5
+        },
+        {
+          "unit": "Tialla",
+          "class": "Diviner",
+          "ch": 5
+        },
+        {
+          "unit": "Guzran",
+          "class": "Gladiator",
+          "ch": 5
+        },
+        {
+          "unit": "Ultand",
+          "class": "Diviner",
+          "ch": 6
+        },
+        {
+          "unit": "Noctula",
+          "class": "Gladiator",
+          "ch": 6,
+          "why": "Only if she doesn't arrive as one"
+        }
+      ],
+      "specialty": [
+        {
+          "unit": "Cai",
+          "class": "Armored Ornius Rider",
+          "ch": 6
+        },
+        {
+          "unit": "Tialla",
+          "class": "Priest",
+          "ch": 6
+        },
+        {
+          "unit": "Peter",
+          "class": "Archer",
+          "ch": 6
+        },
+        {
+          "unit": "Guzran",
+          "class": "Myrmidon",
+          "ch": 6
+        },
+        {
+          "unit": "Noctula",
+          "class": "Pugilist",
+          "ch": 6,
+          "why": "At Lv 20, often lands in Ch 7"
+        },
+        {
+          "unit": "Ultand",
+          "class": "Shaman",
+          "ch": 7,
+          "why": "At Lv 20"
+        },
+        {
+          "unit": "Peter",
+          "class": "Charioteer",
+          "ch": 7
+        },
+        {
+          "unit": "Cai",
+          "class": "Shaman",
+          "ch": 7,
+          "side": true,
+          "why": "Black Magic B for Caladrius"
+        },
+        {
+          "unit": "Guzran",
+          "class": "Pugilist",
+          "ch": 7,
+          "side": true,
+          "why": "Attack, Get Back while he waits for Lv 35"
+        },
+        {
+          "unit": "Seteth",
+          "class": "Armored Ornius Rider",
+          "ch": 8
+        },
+        {
+          "unit": "Ninae",
+          "class": "Priest",
+          "ch": 8
+        },
+        {
+          "unit": "Noctula",
+          "class": "Brigand",
+          "ch": 8,
+          "side": true,
+          "why": "Regroup"
+        },
+        {
+          "unit": "Nydine",
+          "class": "Armored Ornius Rider",
+          "ch": "Part II Ch 1",
+          "why": "Bench: after Army Training"
+        },
+        {
+          "unit": "Mikaela",
+          "class": "Archer",
+          "ch": "Part II Ch 1",
+          "why": "Bench: after Army Training"
+        },
+        {
+          "unit": "Majide",
+          "class": "Brigand",
+          "ch": "Part II Ch 2",
+          "why": "Bench: stays Gladiator for Ch 1"
+        },
+        {
+          "unit": "Majide",
+          "class": "Pugilist",
+          "ch": "Part II Ch 4",
+          "why": "Once Gauntlet is C"
+        }
+      ],
+      "advanced": [
+        {
+          "unit": "Tialla",
+          "class": "Bishop",
+          "ch": 10,
+          "ranks": [
+            "White Magic B"
+          ],
+          "why": "Only healer with doubled Physic; deployed since Ch 1"
+        },
+        {
+          "unit": "Cai",
+          "class": "Caladrius",
+          "ch": 10,
+          "ranks": [
+            "Black Magic B"
+          ],
+          "why": "The lord's class: doubled Black Magic on a mount. Needs Castor's R7 request"
+        },
+        {
+          "unit": "Ultand",
+          "class": "Ovate",
+          "ch": 10,
+          "ranks": [
+            "Black Magic B"
+          ],
+          "why": "Top Part I damage caster; Bolganone for the Ch 10 armor. Ch 11 if short"
+        },
+        {
+          "unit": "Guzran",
+          "class": "Shido",
+          "ch": 10,
+          "ranks": [
+            "Sword B"
+          ],
+          "why": "Crit striker; Lv 35 early. Sword B only from the Arena"
+        },
+        {
+          "unit": "Seteth",
+          "class": "Dragoon",
+          "ch": "Ch 11 or 12",
+          "ranks": [
+            "Flying C",
+            "Axe B",
+            "Spear B"
+          ],
+          "why": "The only flier. Needs Aurora's R8 request"
+        },
+        {
+          "unit": "Ninae",
+          "class": "Guardian",
+          "ch": "Ch 11 or 12",
+          "ranks": [
+            "Spear B"
+          ],
+          "why": "Holds a lane and still casts Physic. Spear B from the Arena"
+        },
+        {
+          "unit": "Sirocco",
+          "class": "Ovate",
+          "ch": 12,
+          "ranks": [
+            "Black Magic B"
+          ],
+          "why": "Joins at about Lv 25, so Lv 35 comes fast; main nuke"
+        },
+        {
+          "unit": "Fianna",
+          "class": "Troubadour",
+          "ch": "Ch 12 or Part II Ch 2",
+          "ranks": [
+            "Riding D",
+            "White Magic B",
+            "Black Magic B"
+          ],
+          "why": "8th: only if Bertrand's request unlocks Troubadour and she reaches Lv 35"
+        },
+        {
+          "unit": "Nydine",
+          "class": "Dragoon",
+          "ch": "Part II Ch 2",
+          "why": "Second flier"
+        },
+        {
+          "unit": "Jasmine",
+          "class": "Dreadnought",
+          "ch": "Part II Ch 2",
+          "why": "Ch 3 if her ranks lag"
+        },
+        {
+          "unit": "Majide",
+          "class": "Warrior",
+          "ch": "Part II Ch 6?",
+          "why": "Once Gauntlet is B"
+        },
+        {
+          "unit": "Peppe",
+          "class": "Ranger",
+          "ch": "Part II Ch 3"
+        },
+        {
+          "unit": "Mikaela",
+          "class": "Forest Knight",
+          "ch": "Part II Ch 3"
+        },
+        {
+          "unit": "Cai",
+          "class": "Bardinger",
+          "ch": "Part II Ch 1",
+          "side": true,
+          "why": "Aegis; Riding, Sword, Spear for Orichaldia. Back to Caladrius for Ch 5"
+        },
+        {
+          "unit": "Tialla",
+          "class": "Troubadour",
+          "ch": "Part II Ch 1",
+          "side": true,
+          "why": "Song of Courage. Back to Bishop for the Ch 3 Physic map"
+        },
+        {
+          "unit": "Peter",
+          "class": "Sniper",
+          "ch": "Part II Ch 2",
+          "side": true,
+          "why": "Marksmanship. Back to Charioteer in Ch 4"
+        },
+        {
+          "unit": "Seteth",
+          "class": "Guardian",
+          "ch": "Part II Ch 3",
+          "side": true,
+          "why": "Brace on the ground map"
+        },
+        {
+          "unit": "Ninae",
+          "class": "Bishop",
+          "ch": "Part II Ch 3",
+          "side": true,
+          "why": "Barrier and doubled Physic for the Ch 3 map"
+        },
+        {
+          "unit": "Ultand",
+          "class": "Bishop",
+          "ch": "Part II Ch 4",
+          "side": true,
+          "why": "Barrier. Back to Ovate for Ch 6"
+        },
+        {
+          "unit": "Fianna",
+          "class": "Bishop",
+          "ch": "Part II Ch 4",
+          "side": true,
+          "why": "Barrier. Back to Troubadour for Ch 6"
+        }
+      ]
+    },
+    "licenseBudget": [
+      {
+        "ch": 5,
+        "beginner": 3,
+        "specialty": 0,
+        "advanced": 0
+      },
+      {
+        "ch": 6,
+        "beginner": 2,
+        "specialty": 5,
+        "advanced": 0
+      },
+      {
+        "ch": 7,
+        "beginner": 3,
+        "specialty": 4,
+        "advanced": 0
+      },
+      {
+        "ch": 8,
+        "beginner": 0,
+        "specialty": 3,
+        "advanced": 0
+      },
+      {
+        "ch": 9,
+        "beginner": 0,
+        "specialty": 0,
+        "advanced": 0
+      },
+      {
+        "ch": 10,
+        "beginner": 0,
+        "specialty": 4,
+        "advanced": 4
+      },
+      {
+        "ch": 11,
+        "beginner": 0,
+        "specialty": 0,
+        "advanced": 2
+      },
+      {
+        "ch": 12,
+        "beginner": 0,
+        "specialty": 0,
+        "advanced": 2
+      }
+    ],
+    "weaponPriority": [
+      {
+        "type": "Spear",
+        "units": [
+          "Cai",
+          "Seteth",
+          "Ninae"
+        ],
+        "why": "Deployed spear users, lord first"
+      },
+      {
+        "type": "Sword",
+        "units": [
+          "Guzran",
+          "Cai"
+        ],
+        "why": "Guzran's crit build; Cai carries the Levin Sword"
+      },
+      {
+        "type": "Bow",
+        "units": [
+          "Peter",
+          "Mikaela",
+          "Peppe"
+        ],
+        "why": "Peter deploys all route; the others wait for Part II"
+      },
+      {
+        "type": "Gauntlet",
+        "units": [
+          "Noctula",
+          "Guzran"
+        ],
+        "why": "Noctula's dodge build; Guzran during his Pugilist stint"
+      },
+      {
+        "type": "Black Magic",
+        "units": [
+          "Ultand",
+          "Cai",
+          "Sirocco"
+        ],
+        "why": "Ultand nukes Ch 6 to 10; Cai casts from his Shaman stint; Sirocco from his join"
+      },
+      {
+        "type": "White Magic",
+        "units": [
+          "Tialla",
+          "Ninae"
+        ],
+        "why": "The two Physic users"
+      },
+      {
+        "type": "Axe",
+        "units": [
+          "Seteth",
+          "Majide",
+          "Nydine"
+        ],
+        "why": "Seteth needs Axe B for Dragoon; the others are bench"
+      }
+    ],
+    "uniques": [
+      {
+        "item": "Bird-Plume Amulet",
+        "to": "Guzran",
+        "from": "Your Bird-Plume Amulet +2 (one copy)",
+        "fallback": "Archer's Ring"
+      },
+      {
+        "item": "Bolt Gem",
+        "to": "Majide",
+        "from": "Castor's Terrain Tips mentorship (Ch 5)",
+        "ch": 5,
+        "fallback": "Equip it on Majide at the end of Ch 12"
+      },
+      {
+        "item": "Archer's Ring",
+        "to": "Peter",
+        "from": "Centurio's mentorship",
+        "fallback": "Mikaela's comes from Vandahl (Jyoppa x2)"
+      },
+      {
+        "item": "Healing Staff",
+        "to": "Tialla",
+        "from": "Aurora's Staying Healthy (R4, Ch 6)",
+        "ch": 6
+      },
+      {
+        "item": "Healing Staff",
+        "to": "Ninae",
+        "from": "Rubess Forest chest",
+        "ch": 7
+      },
+      {
+        "item": "Cleansing Blade",
+        "to": "Guzran",
+        "from": "Ch 7 battle map, near the start",
+        "ch": 7
+      },
+      {
+        "item": "Killing Edge",
+        "to": "Guzran",
+        "from": "Shadowy Cave chest"
+      },
+      {
+        "item": "Levin Sword",
+        "to": "Cai",
+        "from": "Vandahl barter (Thry Fruit x10 + Yuna Mei x1, around R6 to 7)",
+        "ch": 7,
+        "fallback": "Ch 10 map, or a Ch 10+ filler (Nuzzuo, Io or Jester)"
+      },
+      {
+        "item": "Gale Ring",
+        "to": "Seteth",
+        "from": "Vandahl counter, Alecto (Enrietto x10)",
+        "ch": 7,
+        "fallback": "A second one for Peppe in Ch 10, or an Archer's Ring"
+      },
+      {
+        "item": "Hexlock Shield",
+        "to": "Ninae",
+        "from": "Vandahl barter (Linaria x10 + Noa Fruit x1)",
+        "ch": 6
+      },
+      {
+        "item": "Hexlock Shield",
+        "to": "Jasmine",
+        "from": "Dione Fort chest"
+      },
+      {
+        "item": "Flying Manual",
+        "to": "Seteth",
+        "from": "Dione Fort chest (after Trouble at the Gate)"
+      },
+      {
+        "item": "Flying Manual",
+        "to": "Nydine",
+        "from": "Cindered Road Cave chest"
+      },
+      {
+        "item": "Riding Manual",
+        "to": "Peter",
+        "from": "Rubess Forest chest",
+        "fallback": "Then Fianna or Mikaela"
+      },
+      {
+        "item": "Heavy-Armor Manual",
+        "to": "Jasmine",
+        "from": "Masked Woods and Nemea Cavern chests"
+      },
+      {
+        "item": "Archive B",
+        "to": "Tialla",
+        "from": "Cave Behind the Falls (Castalia, Lv 22) or Vandahl (Torment Grass x3)",
+        "ch": 8
+      },
+      {
+        "item": "Archive θ",
+        "to": "Ultand",
+        "from": "Iapetus Cavern (Solidus, Lv 32)",
+        "ch": 10
+      },
+      {
+        "item": "Archive T",
+        "to": "Ultand",
+        "from": "Vandahl (Pongo x10 + Glirmosa x4)"
+      },
+      {
+        "item": "Archive Γ",
+        "to": "Sirocco",
+        "from": "Vandahl ?"
+      },
+      {
+        "item": "Star Spear",
+        "to": "Cai",
+        "from": "Zenzele's Paradise, pick it up before the Ch 9 battle",
+        "ch": 9
+      },
+      {
+        "item": "Hammer",
+        "to": "Majide",
+        "from": "Ch 10 battle map, left side",
+        "ch": 10,
+        "fallback": "His Vandahl Hammer then goes to Jasmine"
+      },
+      {
+        "item": "Levin Sword",
+        "to": "Sirocco",
+        "from": "Ch 10 battle map, right side",
+        "ch": 10,
+        "fallback": "Hold it until he joins; a Ch 10+ Nuzzuo brings another"
+      },
+      {
+        "item": "Cleansing Blade",
+        "to": "Peppe",
+        "from": "Talimun's Paralogue (Ch 10)",
+        "ch": 10
+      },
+      {
+        "item": "Healing Staff",
+        "to": "Fianna",
+        "from": "Orchel's Paralogue (Ch 11)",
+        "ch": 11
+      },
+      {
+        "item": "Gale Ring",
+        "to": "Peppe",
+        "from": "Second Vandahl barter, Alecto (Enrietto x10)",
+        "ch": 10,
+        "fallback": "Archer's Ring"
+      }
+    ],
+    "refines": [
+      {
+        "unit": "Guzran",
+        "item": "Killing Edge",
+        "why": "Or a Da Mina Sword; then the Flyssa"
+      },
+      {
+        "unit": "Peter",
+        "item": "Longbow"
+      }
+    ],
+    "barters": [
+      {
+        "item": "Levin Sword",
+        "for": "Cai",
+        "ch": 7,
+        "at": "Dagsion"
+      },
+      {
+        "item": "Hammer",
+        "for": "Majide",
+        "at": "Dagsion"
+      },
+      {
+        "item": "Longbow",
+        "for": "Peter",
+        "at": "Dagsion"
+      },
+      {
+        "item": "Flyssa",
+        "for": "Guzran",
+        "at": "Dagsion"
+      },
+      {
+        "item": "Hexlock Shield",
+        "for": "Ninae",
+        "at": "Dagsion"
+      },
+      {
+        "item": "Magic Staff",
+        "for": "Ultand",
+        "at": "Dagsion"
+      },
+      {
+        "item": "Horsekiller Bow",
+        "for": "Peter",
+        "at": "Dagsion"
+      },
+      {
+        "item": "Giant's Ring",
+        "for": "Nydine",
+        "ch": 7,
+        "at": "Alecto",
+        "note": "Second Paradise Fish"
+      },
+      {
+        "item": "Gale Ring",
+        "for": "Seteth",
+        "ch": 7,
+        "at": "Alecto"
+      },
+      {
+        "item": "Archive T",
+        "for": "Ultand",
+        "ch": 10,
+        "at": "Dagsion"
+      },
+      {
+        "item": "Phantom Ring",
+        "for": "Noctula",
+        "ch": 8,
+        "at": "Dagsion"
+      },
+      {
+        "item": "Iron Gauntlets",
+        "for": "Ultand",
+        "ch": 8,
+        "at": "Dagsion"
+      },
+      {
+        "item": "Conflagrant Gem",
+        "for": "Peter",
+        "at": "Dagsion",
+        "note": "only if Cindered Road Cave is late"
+      },
+      {
+        "item": "Da Mina Axe",
+        "for": "Majide",
+        "at": "Dagsion",
+        "note": "Part III kit"
+      },
+      {
+        "item": "Archer's Ring",
+        "for": "Mikaela",
+        "at": "Dagsion"
+      },
+      {
+        "item": "Victory Gem",
+        "for": "Jasmine",
+        "ch": 12,
+        "at": "Gaura Grassland"
+      },
+      {
+        "item": "Charm Mask",
+        "for": "Jasmine",
+        "ch": 12,
+        "at": "Valley of Black Wings"
+      }
+    ],
+    "carried": [
+      {
+        "unit": "Seteth",
+        "item": "Spear of Assal",
+        "when": "Any time; weaker than an Iron Spear, to storage"
+      },
+      {
+        "unit": "Noctula",
+        "item": "Ursa's Right Claw",
+        "when": "Only if recruited as a Lv 20+ Pugilist (Ch 10+); the Ch 6 plan skips it"
+      },
+      {
+        "unit": "Nuzzuo",
+        "item": "Levin Sword",
+        "when": "Ch 10+ recruit (filler)"
+      },
+      {
+        "unit": "Io",
+        "item": "Levin Sword",
+        "when": "Ch 10+ recruit (filler)"
+      },
+      {
+        "unit": "Jester",
+        "item": "Levin Sword",
+        "when": "Ch 10+ recruit (filler)"
+      },
+      {
+        "unit": "Nezha",
+        "item": "Salamander",
+        "when": "Recruit by Ch 9, before Lv 20 (filler)"
+      }
+    ]
+  }
+}

@@ -1,0 +1,989 @@
+{
+  "name": "Lilian",
+  "slug": "lilian",
+  "epithet": "Mercenary-minded archer of Megaira's Beacon",
+  "faction": "Megaira's Beacon",
+  "homeRoute": "Theodora",
+  "weapons": [
+    "Bow"
+  ],
+  "preferred": [
+    "Bow",
+    "Infantry"
+  ],
+  "avoid": [
+    "Brawling"
+  ],
+  "personality": "A money-first prodigy archer who insists on being paid what her work is worth.",
+  "story": "Lilian is a 17-18-year-old archer (22-23 after the timeskip) from a once-esteemed Saraminian family whose father lost his position in a civil war. She serves under Theodora in the Heroic Games and joins Theodora's route automatically; on Cai, Dietrich, or Leda routes she can be recruited for Renown 8+, Support 2, and 5000G.",
+  "personalSkill": {
+    "name": "Safety First",
+    "effect": "If the foe cannot counter, grants Hit +10 during combat. Lv 20: Upper Hand (Atk +3 when Hit is 100%); Lv 35: Upper Hand+ (Atk +5)."
+  },
+  "growths": {
+    "HP": 35,
+    "Str": 35,
+    "Mag": 30,
+    "Spd": 40,
+    "Dex": 55,
+    "Def": 30,
+    "Res": 35,
+    "Lck": 50,
+    "Cha": 25
+  },
+  "supports": [
+    "Bonaventure",
+    "Lysander",
+    "Tobias",
+    "Theodora",
+    "Diego",
+    "Gaitz",
+    "Mu",
+    "Nydine",
+    "Simon",
+    "Talimun"
+  ],
+  "tiers": [
+    {
+      "source": "Pocket Tactics",
+      "tier": "A"
+    },
+    {
+      "source": "KeenGamer",
+      "tier": "B"
+    }
+  ],
+  "tierNotes": "Pocket Tactics: A. KeenGamer: B (conditional damage, no standout growth or ability).",
+  "recruit": {
+    "how": "auto",
+    "why": [
+      "Joins Theodora's army automatically, so there's no Support or Renown to chase."
+    ]
+  },
+  "requirements": {
+    "Cai": "2S 8R",
+    "Dietrich": "2S 8R",
+    "Theodora": "Auto",
+    "Leda": "2S 7R"
+  },
+  "build": {
+    "role": "Main archer and anti-flier: Longbow sniper",
+    "path": [
+      "Hunter (Ch 4 to 5)",
+      "Archer (Ch 6 to 7: Crescendo)",
+      "Rogue (Ch 8 to Lv 35, side trip: In Shadow)",
+      "Sniper (Ch 11 to Part II)",
+      "Bow Adept (Part III)"
+    ],
+    "part1Target": "Sniper in Ch 11, Crescendo and In Shadow mastered",
+    "part3Target": "Bow Adept",
+    "notes": "The army's only deployed archer from Ch 4. Archer for Crescendo, a Rogue side trip for In Shadow (both stay equipped to the end) while she waits for Lv 35, Sniper in Ch 11, Bow Adept in Part III. Every rank comes from Arena Infantry Training.",
+    "confidence": "high"
+  },
+  "guide": {
+    "role": "Main archer and anti-flier: Longbow sniper",
+    "summary": "The army's only archer and its flier killer: every bow is Effective+ vs fliers, so Pegasus waves and Dragoons are hers. Stand 2 to 3 tiles behind Theodora's line and shoot what can't counter (Safety First: Hit +10); push each forecast to 100% Hit so [[ability:Upper Hand]] adds Atk.",
+    "playstyle": "Player-phase sniper. Pick targets that can't counter, stack Hit to 100% for Upper Hand, and save [[art:Deadeye]] (range 3 to 5) for armor, bosses and runners. From Ch 11 end turns with the [[item:Mini Bow]] equipped so she can answer at range 1.",
+    "focus": [
+      "Dex",
+      "Spd",
+      "Str"
+    ],
+    "keys": [
+      "Master Archer by Ch 8: Crescendo (Hit +3 a kill, max +30) stays on her to the end.",
+      "Train Bow C by Ch 6, then Sword C and Bow B in Arena Infantry Training.",
+      "Barter the [[item:Da Mina Bow]] in Ch 6 (Bow C); refine it and the Longbow +1 at Ch 9, +2 at Ch 12.",
+      "Push the forecast to 100% Hit: [[ability:Upper Hand]] adds Atk +3, +5 from Lv 35.",
+      "Grab the [[item:Mini Bow]] south of Dagsion before the Ch 11 Sniper exam.",
+      "Seat Theodora + Lilian + Lysander at Sunday meals from Ch 10: all three pairs grow."
+    ],
+    "watch": [
+      "Weight: Silver Bow +2 5 + Archer's Ring 3 = 8 (extra 3, doubler cap). Longbow 13 + 3 = 16: Deadeye can't follow up anyway. Ring off first if she stops doubling.",
+      "Deadeye: Hit −30 on a Hit 60 bow. Fire it once Crescendo has stacks and Bonaventure stands beside her.",
+      "Range 1: no counter until the Mini Bow. Never end Ch 4 to 10 turns next to a foe.",
+      "Fliers: every bow is Effective+ (3x Mt). Lead with the Da Mina Bow or Longbow, never the Hunter's Bow (Mt 6).",
+      "Inventory: 5/6 from Ch 11 (Longbow, Da Mina Bow, Mini Bow, Archer's Ring, Concoction); slot 6 holds Antitoxin or a swap."
+    ],
+    "decisions": [
+      {
+        "topic": "Take the Rogue side trip",
+        "pick": "Rogue from Ch 8 (Crescendo mastered) until Lv 35",
+        "why": "In Shadow (Avo +10 after a kill) stays equipped to Part III, Rogue keeps her bows and Locktouch opens the Ch 9 chests. It costs Archer's Bow Hit +5 for two chapters; Crescendo covers it.",
+        "else": "No Sword C by Ch 8: stay Archer to Lv 35"
+      },
+      {
+        "topic": "Leave the Hunter's Bow in storage",
+        "pick": "Da Mina Bow as the flier bow",
+        "why": "Every bow is Effective+ vs fliers, so the Hunter's Bow only adds beasts, at Mt 6. The Da Mina Bow (Mt 12, Hit 70, arts Hit +10) hits fliers twice as hard, and gains Mt at +1 (Ch 9) and +2 (Ch 12)."
+      },
+      {
+        "topic": "Bow Adept in Part III",
+        "pick": "Bow Adept (Bow A, Master License)",
+        "why": "Bow Hit +15 and Dex +20 growth keep Upper Hand+ at 100%. Bow Knight needs Riding D and Kalla's request, and Nuzzuo takes that path.",
+        "else": "Sniper stays fine if Bow A comes late"
+      }
+    ],
+    "finalists": {
+      "stats": [
+        "Str",
+        "Spd",
+        "Dex",
+        "Def"
+      ],
+      "options": [
+        {
+          "class": "Archer",
+          "use": "Ch 6 to 7",
+          "note": "Crescendo mastery; Bow Hit +5"
+        },
+        {
+          "class": "Rogue",
+          "use": "Ch 8 to 10",
+          "note": "Spd 55 while she waits for Lv 35; In Shadow"
+        },
+        {
+          "class": "Sniper",
+          "use": "Ch 11 to Part II",
+          "note": "Marksmanship (bow Hit +15) feeds Upper Hand at Hit 100"
+        },
+        {
+          "class": "Ranger",
+          "note": "Spd 55, but Countershot invites melee; Safety First wants no counter"
+        },
+        {
+          "class": "Bow Adept",
+          "use": "Part III",
+          "note": "Dex 75, Bow Hit +15, Sky Hunter vs Breza's fliers"
+        }
+      ]
+    },
+    "gates": [
+      {
+        "route": "Theodora",
+        "from": {
+          "part": 1,
+          "ch": 4
+        },
+        "kind": "rank",
+        "text": "Bow C by Ch 6 (Archer), Sword C by Ch 8 (Rogue): Arena Infantry Training",
+        "by": {
+          "part": 1,
+          "ch": 8
+        }
+      },
+      {
+        "route": "Theodora",
+        "from": {
+          "part": 1,
+          "ch": 8
+        },
+        "kind": "rank",
+        "text": "Bow B by Lv 35 for the Ch 11 Sniper exam",
+        "by": {
+          "part": 1,
+          "ch": 11
+        }
+      },
+      {
+        "route": "Theodora",
+        "from": {
+          "part": 1,
+          "ch": 8
+        },
+        "kind": "item",
+        "text": "Mini Bow from the chest south of Dagsion before Sniper",
+        "by": {
+          "part": 1,
+          "ch": 11
+        }
+      }
+    ],
+    "routeNotes": [
+      {
+        "system": "Supports",
+        "note": "Partners here: Theodora, Bonaventure, Tobias, Lysander, Simon (bench) and Diego (Part III). From Ch 10 seat Theodora + Lilian + Lysander (all three pairs grow); in Ch 12 Theodora + Lilian + Diego."
+      }
+    ],
+    "stages": [
+      {
+        "when": "Ch 4 to 5",
+        "from": {
+          "part": 1,
+          "ch": 4
+        },
+        "to": {
+          "part": 1,
+          "ch": 5
+        },
+        "level": "Join level to 20",
+        "class": "Hunter",
+        "kind": "core",
+        "goal": "Bow C for the Ch 6 Archer exam, Sword toward C. Safety First: shoot foes that can't counter for Hit +10.",
+        "exit": "Lv 20 with Bow C: Archer exam in Ch 6. Hunting Basics on the way.",
+        "masteries": [
+          "Hunting Basics"
+        ],
+        "weapons": [
+          {
+            "item": "Iron Bow",
+            "why": "Main bow: Mt 9, Hit 75, Effective+ vs fliers"
+          }
+        ],
+        "items": [
+          {
+            "item": "Vulnerary",
+            "why": "20 HP x3"
+          }
+        ],
+        "arts": [
+          {
+            "name": "Curved Shot",
+            "why": "Bow D: Mt +4, Hit +10, range 2 to 3?"
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Hunting Basics",
+            "why": "Hunter mastery: Dex/Spd +1, once mastered"
+          },
+          {
+            "name": "Bows Lv. 1",
+            "why": "Bow D+: Hit +3 with bows"
+          },
+          {
+            "name": "Steady Shot",
+            "why": "Infantry D: bow Hit +5 (her Arena Infantry seat)"
+          },
+          {
+            "name": "Read the Winds",
+            "why": "Flying D: Avo +10 vs bows; she duels archers"
+          },
+          {
+            "name": "Knightly Senses",
+            "why": "Riding D: Avo +10 vs spears"
+          }
+        ],
+        "training": [
+          {
+            "rank": "Bow C",
+            "for": "Archer exam (Ch 6)",
+            "how": "Arena Infantry Training (Sword, Bow, Infantry); Hunter trains Bow +1"
+          },
+          {
+            "rank": "Sword C",
+            "for": "Rogue side trip (Ch 8)",
+            "how": "Same Arena Infantry seat; Hunter trains Sword +1"
+          },
+          {
+            "rank": "Infantry D; Riding D, Flying D",
+            "for": "Steady Shot; Knightly Senses, Read the Winds",
+            "how": "Infantry: her weekly seat. Riding/Flying: Arena Mounted 1-2 weeks? (start ranks ?)"
+          }
+        ],
+        "tips": [
+          "Shoot melee foes from 2 tiles: no counter, so Safety First's Hit +10 is on",
+          "Galen Fort Ruins' Hunter's Bow can stay in storage: every bow is Effective+ vs fliers"
+        ]
+      },
+      {
+        "when": "Ch 6 to 7 (Specialty)",
+        "from": {
+          "part": 1,
+          "ch": 6
+        },
+        "to": {
+          "part": 1,
+          "ch": 7
+        },
+        "level": "Lv 20 to about 28",
+        "class": "Archer",
+        "kind": "core",
+        "goal": "Master Crescendo (Hit +3 a kill, max +30). Upper Hand (Lv 20): Atk +3 when the forecast shows 100% Hit.",
+        "exit": "Crescendo mastered and Sword C: Rogue in Ch 8.",
+        "masteries": [
+          "Crescendo"
+        ],
+        "weapons": [
+          {
+            "item": "Da Mina Bow",
+            "why": "Main bow: Mt 12, Hit 70, Wt 6; arts Hit +10: doubles",
+            "alts": [
+              "Iron Bow"
+            ],
+            "plan": "Ch 6; +1 at Renown 7 (Ch 9)"
+          },
+          {
+            "item": "Longbow",
+            "why": "Deadeye at range 3 to 5, no counter; Mt 12, Wt 13",
+            "plan": "+1 at Renown 7 (Ch 9), +2 at Renown 10 (Ch 12): her ledger refine"
+          }
+        ],
+        "equipment": [
+          {
+            "item": "Archer's Ring",
+            "why": "Hit +5, Wt 3: the last points to 100% Hit",
+            "slot": "Accessory",
+            "alts": [
+              "Conflagrant Gem",
+              "Hunter's Ring"
+            ]
+          }
+        ],
+        "items": [
+          {
+            "item": "Concoction",
+            "why": "40 HP x2",
+            "alts": [
+              "Vulnerary"
+            ]
+          }
+        ],
+        "arts": [
+          {
+            "name": "Deadeye",
+            "why": "Longbow art: range 3 to 5, Hit −30, no follow-up"
+          },
+          {
+            "name": "Encloser",
+            "why": "Bow C: Mov −3 on hit, range 2 to 3"
+          },
+          {
+            "name": "Curved Shot",
+            "why": "Bow D: Mt +4, Hit +10, range 2 to 3?"
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Crescendo",
+            "why": "Archer mastery: Hit +3 a kill, max +30, once mastered"
+          },
+          {
+            "name": "Upper Hand",
+            "why": "Lv 20: Atk +3 when her Hit is 100%"
+          },
+          {
+            "name": "Bows Lv. 2",
+            "why": "Bow C+: Hit +5 with bows"
+          },
+          {
+            "name": "Steady Shot",
+            "why": "Infantry D: bow Hit +5"
+          },
+          {
+            "name": "Hunting Basics",
+            "why": "Hunter mastery: Dex/Spd +1"
+          }
+        ],
+        "battalion": {
+          "name": "Novice Hunters",
+          "why": "Str +1, Dex +1, Cha +3; Disturbing Volley pins fliers",
+          "where": "From Theodora, Ch 6",
+          "situational": "Fielded once 6 battalions deploy (count ?)"
+        },
+        "drop": [
+          {
+            "item": "Iron Bow",
+            "why": "The Da Mina Bow replaces it: Mt 12 vs 9"
+          },
+          {
+            "item": "Read the Winds",
+            "why": "Upper Hand takes the slot"
+          },
+          {
+            "item": "Knightly Senses",
+            "why": "Crescendo takes the slot"
+          },
+          {
+            "item": "Bows Lv. 1",
+            "why": "Bows Lv. 2 replaces it at Bow C+"
+          }
+        ],
+        "training": [
+          {
+            "rank": "Bow B",
+            "for": "Sniper exam (Lv 35)",
+            "how": "Arena Infantry Training; Archer trains Bow +2"
+          },
+          {
+            "rank": "Sword C",
+            "for": "Rogue side trip (Ch 8)",
+            "how": "Arena Infantry Training (Sword, Bow, Infantry)"
+          }
+        ],
+        "tips": [
+          "Renown 7 (Ch 9): refine the Longbow after Theodora's spear",
+          "End beside Bonaventure: Additional Intel adds Hit +10 (30%)"
+        ],
+        "checks": [
+          {
+            "stat": "Dex",
+            "at": "Lv 25",
+            "need": "Da Mina Bow shows 100% Hit on foes that can't counter (ring on)",
+            "why": "Upper Hand's Atk bonus only fires at 100% Hit",
+            "fix": [
+              "[[item:Archer's Ring]] (Hit +5) stays on",
+              "Take a kill first: Crescendo adds Hit +3 a kill",
+              "Shoot from beside Bonaventure: Additional Intel Hit +10 (30%)"
+            ]
+          }
+        ]
+      },
+      {
+        "when": "Ch 8 to 10 (until Lv 35)",
+        "from": {
+          "part": 1,
+          "ch": 8
+        },
+        "to": {
+          "part": 1,
+          "ch": 10
+        },
+        "level": "Lv 28 to 35",
+        "class": "Rogue",
+        "kind": "detour",
+        "goal": "Bank In Shadow (Avo +10 after a kill) while she waits for Lv 35. Bows stay; Mov 6 and Spd +15 growth.",
+        "exit": "Lv 35 with Bow B: Sniper. Leave even if In Shadow isn't in yet.",
+        "masteries": [
+          "In Shadow"
+        ],
+        "weapons": [
+          {
+            "item": "Da Mina Bow",
+            "why": "Main bow: Wt 6 doubles; Effective+ vs fliers",
+            "alts": [
+              "Iron Bow"
+            ],
+            "plan": "Keep it; +1 at Renown 7 (Ch 9)"
+          },
+          {
+            "item": "Longbow",
+            "why": "Deadeye at range 3 to 5",
+            "plan": "+1 at Renown 7 (Ch 9)"
+          }
+        ],
+        "equipment": [
+          {
+            "item": "Archer's Ring",
+            "why": "Hit +5, Wt 3: the last points to 100% Hit",
+            "slot": "Accessory",
+            "alts": [
+              "Conflagrant Gem",
+              "Hunter's Ring"
+            ]
+          }
+        ],
+        "items": [
+          {
+            "item": "Concoction",
+            "why": "40 HP x2",
+            "alts": [
+              "Vulnerary"
+            ]
+          },
+          {
+            "item": "Antitoxin",
+            "why": "Cures Poison, immune 3 turns",
+            "situational": "Ch 9 Digammas (poison): open slot"
+          }
+        ],
+        "arts": [
+          {
+            "name": "Deadeye",
+            "why": "Longbow art: range 3 to 5, Hit −30, no follow-up"
+          },
+          {
+            "name": "Encloser",
+            "why": "Bow C: Mov −3 on hit, range 2 to 3"
+          },
+          {
+            "name": "Curved Shot",
+            "why": "Bow D: Mt +4, Hit +10, range 2 to 3?"
+          }
+        ],
+        "abilities": [
+          {
+            "name": "In Shadow",
+            "why": "Rogue mastery: Avo +10 after a kill, once mastered"
+          },
+          {
+            "name": "Upper Hand",
+            "why": "Lv 20: Atk +3 when her Hit is 100%"
+          },
+          {
+            "name": "Crescendo",
+            "why": "Archer mastery: Hit +3 a kill, max +30"
+          },
+          {
+            "name": "Bows Lv. 2",
+            "why": "Bow C+: Hit +5 with bows"
+          },
+          {
+            "name": "Steady Shot",
+            "why": "Infantry D: bow Hit +5"
+          }
+        ],
+        "battalion": {
+          "name": "Novice Hunters",
+          "why": "Str +1, Dex +1, Cha +3 on the archer; Authority E?",
+          "where": "Held from Ch 6",
+          "situational": "Fielded once 6 battalions deploy (count ?)"
+        },
+        "training": [
+          {
+            "rank": "Bow B",
+            "for": "Sniper exam (Lv 35)",
+            "how": "Arena Infantry Training; Rogue trains Bow +1"
+          },
+          {
+            "rank": "Infantry B",
+            "for": "Steady Shot+ (bow Hit +10) in Sniper",
+            "how": "Same Arena Infantry seat; the Arena reaches B"
+          }
+        ],
+        "tips": [
+          "Locktouch: open the Ch 9 dungeon chests without keys",
+          "Rogue has no Bow Hit +5: Crescendo and the ring cover it",
+          "Take the Mini Bow from the chest south of Dagsion now, for Ch 11"
+        ],
+        "checks": [
+          {
+            "stat": "Spd",
+            "at": "Lv 30",
+            "need": "Da Mina Bow + ring shows a double on most Ch 9 infantry in the forecast",
+            "why": "Two shots a round is how she kills on player phase",
+            "fix": [
+              "Take the Archer's Ring off on doubling maps (−3 Wt)",
+              "Equip Hunting Basics (Spd +1) over Steady Shot",
+              "Bonaventure's Swarm Z (Spd -3) on the target first"
+            ]
+          }
+        ]
+      },
+      {
+        "when": "Ch 11 to 12 (Advanced)",
+        "from": {
+          "part": 1,
+          "ch": 11,
+          "approx": true
+        },
+        "to": {
+          "part": 1,
+          "ch": 12
+        },
+        "level": "Lv 35 to about 37",
+        "class": "Sniper",
+        "kind": "core",
+        "goal": "Bow Hit +10, Dex +20 growth. Upper Hand+ (Lv 35): Atk +5 at 100% Hit. The Mini Bow counters at range 1.",
+        "exit": "Stay Sniper into Part II; Marksmanship comes on the way.",
+        "masteries": [
+          "Marksmanship"
+        ],
+        "weapons": [
+          {
+            "item": "Longbow +1",
+            "why": "Refined; Deadeye for armor, bosses, runners",
+            "plan": "+2 at Renown 10, Ch 12"
+          },
+          {
+            "item": "Da Mina Bow +1",
+            "why": "Main bow: Mt ?, Hit 70, Wt 6; doubles",
+            "alts": [
+              "Iron Bow"
+            ],
+            "plan": "+2 at Renown 10, Ch 12"
+          },
+          {
+            "item": "Mini Bow",
+            "why": "Range 1 to 2: counters adjacent foes, Wt 5",
+            "plan": "Quality Weapon Crate (random)"
+          }
+        ],
+        "equipment": [
+          {
+            "item": "Archer's Ring",
+            "why": "Hit +5, Wt 3: the last points to 100% Hit",
+            "slot": "Accessory",
+            "alts": [
+              "Conflagrant Gem",
+              "Hunter's Ring"
+            ]
+          }
+        ],
+        "items": [
+          {
+            "item": "Concoction",
+            "why": "40 HP x2",
+            "alts": [
+              "Vulnerary"
+            ]
+          },
+          {
+            "item": "Antitoxin",
+            "why": "Cures Poison, immune 3 turns",
+            "situational": "Poison maps: open slot"
+          }
+        ],
+        "arts": [
+          {
+            "name": "Deadeye",
+            "why": "Armor, bosses and runners at range 3 to 5"
+          },
+          {
+            "name": "Sneaky Shot",
+            "why": "Bow B: Atk +5, Hit/Crit +10 from favorable terrain"
+          },
+          {
+            "name": "Encloser",
+            "why": "Bow C: Mov −3 on hit, range 2 to 3"
+          },
+          {
+            "name": "Curved Shot",
+            "why": "Bow D: Mt +4, Hit +10, range 2 to 3?"
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Marksmanship",
+            "why": "Sniper mastery: bow Hit +15, once mastered"
+          },
+          {
+            "name": "Upper Hand+",
+            "why": "Lv 35: Atk +5 when her Hit is 100% (replaces Upper Hand)"
+          },
+          {
+            "name": "Crescendo",
+            "why": "Hit +3 a kill, max +30"
+          },
+          {
+            "name": "In Shadow",
+            "why": "Avo +10 after a kill"
+          },
+          {
+            "name": "Steady Shot+",
+            "why": "Infantry B: bow Hit +10 (replaces Steady Shot)"
+          }
+        ],
+        "battalion": {
+          "name": "Novice Hunters",
+          "why": "Str +1, Dex +1, Cha +3 on the sniper",
+          "where": "Held from Ch 6",
+          "situational": "Fielded once 6 battalions deploy (count ?)"
+        },
+        "training": [
+          {
+            "rank": "Bow A",
+            "for": "Bow Adept (Part III)",
+            "how": "Sniper trains Bow +3; Arena seats bench first"
+          }
+        ],
+        "tips": [
+          "Ch 12: fliers come from behind on the first stair climb; face her and the casters to the rear",
+          "Not Lv 35 by Ch 12? Stay Rogue; Sniper on a Part II Ch 1 License",
+          "Before Ch 12 ends: Longbow +2, Da Mina Bow +2, Mini Bow, ring, Concoction in her bag"
+        ]
+      },
+      {
+        "when": "Part II",
+        "from": {
+          "part": 2,
+          "ch": 1
+        },
+        "to": {
+          "part": 3,
+          "ch": 1
+        },
+        "level": "Lv 37 to 42",
+        "class": "Sniper",
+        "kind": "core",
+        "goal": "Ranged killer for the Ch 4 Dragoons and the Ch 5 Dagda shield trick. Upper Hand+ fires on most shots.",
+        "exit": "Stay Sniper to the end of Part II; Bow toward A.",
+        "masteries": [],
+        "weapons": [
+          {
+            "item": "Longbow +2",
+            "why": "Deadeye; equipped carry-over",
+            "plan": "+2 at Renown 10 (Ch 12); carry-over"
+          },
+          {
+            "item": "Da Mina Bow +2",
+            "why": "Main bow: Mt ?, Hit 70, Wt 6; doubles",
+            "alts": [
+              "Iron Bow"
+            ],
+            "plan": "+2 at Renown 10 (Ch 12); equipped carry-over"
+          },
+          {
+            "item": "Mini Bow",
+            "why": "Range 1 to 2: counters adjacent foes, Wt 5",
+            "plan": "Carry-over"
+          }
+        ],
+        "equipment": [
+          {
+            "item": "Archer's Ring",
+            "why": "Hit +5, Wt 3",
+            "slot": "Accessory",
+            "plan": "Carry-over",
+            "alts": [
+              "Conflagrant Gem",
+              "Hunter's Ring"
+            ]
+          }
+        ],
+        "items": [
+          {
+            "item": "Concoction",
+            "why": "40 HP x2; no shops in Part II",
+            "plan": "Ch 12 stock"
+          }
+        ],
+        "arts": [
+          {
+            "name": "Deadeye",
+            "why": "Armor, bosses and runners at range 3 to 5"
+          },
+          {
+            "name": "Sneaky Shot",
+            "why": "Bow B: Atk +5, Hit/Crit +10 from favorable terrain"
+          },
+          {
+            "name": "Encloser",
+            "why": "Bow C: Mov −3 on hit, range 2 to 3"
+          },
+          {
+            "name": "Curved Shot",
+            "why": "Bow D: Mt +4, Hit +10, range 2 to 3?"
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Marksmanship",
+            "why": "Sniper mastery: bow Hit +15"
+          },
+          {
+            "name": "Upper Hand+",
+            "why": "Lv 35: Atk +5 when her Hit is 100%"
+          },
+          {
+            "name": "Crescendo",
+            "why": "Hit +3 a kill, max +30"
+          },
+          {
+            "name": "In Shadow",
+            "why": "Avo +10 after a kill"
+          },
+          {
+            "name": "Steady Shot+",
+            "why": "Infantry B: bow Hit +10 (replaces Steady Shot)"
+          }
+        ],
+        "battalion": {
+          "name": "Novice Hunters",
+          "why": "Str +1, Dex +1, Cha +3 on the sniper",
+          "where": "Held from Ch 6",
+          "situational": "Part II carryover ?"
+        },
+        "training": [
+          {
+            "rank": "Bow A",
+            "for": "Bow Adept (Part III)",
+            "how": "Sniper trains Bow +3 in Part II battles"
+          }
+        ],
+        "tips": [
+          "Ch 5: Deadeye on Dagda (no damage) makes Eshmel drop his shield next turn",
+          "Ch 4: Dragoons come from the map sides; she and Nuzzuo take them",
+          "Training Drills: about Lv 37 in Ch 1, Lv 42 by Ch 4"
+        ],
+        "checks": [
+          {
+            "stat": "Str",
+            "at": "Part II Ch 2",
+            "need": "Da Mina Bow +2 kills Ch 1 infantry with two hits in the forecast",
+            "why": "Upper Hand+ adds only Atk +5; low Str leaves foes standing",
+            "fix": [
+              "Stand by Bonaventure: Lend Strength (Str +2)",
+              "Deadeye with the Longbow +2 on tough targets",
+              "Mars's Lv 3 blessing (Str +5) on boss turns"
+            ]
+          }
+        ]
+      },
+      {
+        "when": "Part III Section 2+ (Bow Adept)",
+        "from": {
+          "part": 3,
+          "ch": 2
+        },
+        "level": "Lv 45+",
+        "class": "Bow Adept",
+        "kind": "core",
+        "goal": "Silver Bow +2 kills fliers (3x Mt); Sky Hunter Hit +50 and Upper Hand+ Atk +5 at 100% Hit.",
+        "exit": "Endpoint. Sky Hunter comes on the way.",
+        "masteries": [
+          "Sky Hunter"
+        ],
+        "weapons": [
+          {
+            "item": "Silver Bow +2",
+            "why": "Main: Mt 22?, Wt 5; fliers take 3x Mt",
+            "plan": "Boon or Reliquary buy (Section 2 plan)",
+            "alts": [
+              "Da Mina Bow +2",
+              "Iron Bow +4"
+            ]
+          },
+          {
+            "item": "Longbow +2",
+            "why": "Deadeye at 3-5: Mt 17?, Wt 13, no follow-up",
+            "plan": "Refine hers"
+          },
+          {
+            "item": "Mini Bow +2",
+            "why": "Range 1-2: Mt 15, AS +3 vs adjacent foes, Wt 5"
+          },
+          {
+            "item": "War Bow +2",
+            "why": "Hit +20 vs large foes needs +3; base Mt ?, Wt ?",
+            "situational": "Large foes (Baozi golems, Cohen birds, Giants): slot 6"
+          }
+        ],
+        "equipment": [
+          {
+            "item": "Archer's Ring",
+            "why": "Hit +5, Wt 3: holds Hit at 100% for Upper Hand+",
+            "slot": "Accessory",
+            "plan": "Keep it",
+            "alts": [
+              "Hunter's Ring",
+              "Conflagrant Gem"
+            ]
+          }
+        ],
+        "items": [
+          {
+            "item": "Concoction",
+            "why": "40 HP x2",
+            "alts": [
+              "Vulnerary"
+            ]
+          }
+        ],
+        "arts": [
+          {
+            "name": "Deadeye",
+            "why": "Armor, bosses and runners at range 3 to 5"
+          },
+          {
+            "name": "Sneaky Shot",
+            "why": "Bow B: Atk +5, Hit/Crit +10 from favorable terrain"
+          },
+          {
+            "name": "Encloser",
+            "why": "Bow C: Mov −3 on hit, range 2 to 3"
+          },
+          {
+            "name": "Curved Shot",
+            "why": "Bow D: Mt +4, Hit +10, range 2 to 3?"
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Upper Hand+",
+            "why": "Lv 35: Atk +5 when her Hit is 100%"
+          },
+          {
+            "name": "Marksmanship",
+            "why": "Sniper mastery: bow Hit +15"
+          },
+          {
+            "name": "Steady Shot+",
+            "why": "Infantry B: bow Hit +10"
+          },
+          {
+            "name": "Sky Hunter",
+            "why": "Bow Adept mastery: Hit +50 vs fliers (once mastered); In Shadow until then"
+          },
+          {
+            "name": "Bows Lv. 4",
+            "why": "Bow A+: Hit/Avo +7 with bows; Crescendo until then"
+          }
+        ],
+        "battalion": {
+          "name": "Novice Hunters",
+          "why": "Str +1, Dex +1, Cha +3; Authority E?",
+          "where": "Held since Part I",
+          "situational": "Part III: from storage (medium confidence)"
+        },
+        "drop": [
+          {
+            "item": "Da Mina Bow +2",
+            "why": "Silver Bow +2 takes the main slot"
+          },
+          {
+            "item": "Crescendo",
+            "why": "Bows Lv. 4: Hit/Avo +7 from the first shot"
+          },
+          {
+            "item": "In Shadow",
+            "why": "Sky Hunter once mastered"
+          }
+        ],
+        "training": [
+          {
+            "rank": "Bow A",
+            "for": "Bow Adept (Lv 45, Master License)",
+            "how": "Sniper trains Bow +3; Arena seats bench first"
+          }
+        ],
+        "tips": [
+          "Underworld Boon: bows can't strip it; shoot undead within 2 of Eshmel or after Troy's Evilbreak",
+          "Baozi's Pride cuts Hit: Marksmanship, Steady Shot+ and Bows Lv. 4 keep her near 100%",
+          "Pair with Nuzzuo on fliers; Seteth or Cai in front so nothing reaches her",
+          "Cohen: War Bow on the large birds; Sky Hunter if they fly"
+        ]
+      }
+    ],
+    "alt": "No Sword C by Ch 8: skip Rogue and stay Archer to Lv 35. Shadow Seeker in Part III only if Sword also reaches A.",
+    "sources": [
+      "class-and-weapon-guide",
+      "class-data",
+      "character-learnsets",
+      "equippable-abilities",
+      "weapons-and-items",
+      "combat-arts-and-abilities",
+      "hard-mode-video-notes",
+      "walkthrough-part1-theodora",
+      "part2-war",
+      "part3-salvation",
+      "redesign/11-roster-pass"
+    ]
+  },
+  "sources": [
+    "https://fortunesweave.co.uk/characters/lilian",
+    "https://www.keengamer.com/articles/guides/fire-emblem-fortunes-weave-best-class-for-every-character/",
+    "https://www.keengamer.com/articles/guides/fire-emblem-fortunes-weave-tier-list-best-characters-ranked-for-every-route/",
+    "https://www.pockettactics.com/fire-emblem-fortunes-weave/tier-list"
+  ],
+  "recruitOn": {
+    "Cai": {
+      "how": "recruit",
+      "support": 2,
+      "renown": 8,
+      "task": "5,000G"
+    },
+    "Dietrich": {
+      "how": "recruit",
+      "support": 2,
+      "renown": 8
+    },
+    "Theodora": {
+      "how": "auto"
+    },
+    "Leda": {
+      "how": "recruit",
+      "support": 2,
+      "renown": 7
+    }
+  }
+}

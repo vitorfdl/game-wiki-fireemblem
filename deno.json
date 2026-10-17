@@ -1,0 +1,68 @@
+{
+  "tasks": {
+    "dev": "deno run -A npm:vite",
+    "build": "deno run -A npm:vite build",
+    "preview": "deno run -A npm:vite preview",
+    "check": "deno check src/main.tsx && deno lint && deno fmt --check",
+    "sync-research": "deno run -A scripts/research.mjs",
+    "check-content": "deno run -A scripts/check-content.mjs",
+    "coverage": "deno run -A scripts/coverage.mjs",
+    "merge-quests": "deno run -A scripts/merge-quests.mjs",
+    "gifts-md": "deno run -A scripts/gifts-md.mjs",
+    "dishes-md": "deno run -A scripts/dishes-md.mjs",
+    "shots": "deno run -A scripts/shots.mjs",
+    "parts-md": "deno run -A scripts/parts-md.mjs"
+  },
+  "nodeModulesDir": "auto",
+  "compilerOptions": {
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "deno.ns",
+      "esnext"
+    ],
+    "jsx": "react-jsx",
+    "jsxImportSource": "react",
+    "jsxImportSourceTypes": "@types/react",
+    "types": [
+      "vite/client"
+    ],
+    "strict": true
+  },
+  "imports": {
+    "@tailwindcss/vite": "npm:@tailwindcss/vite@^4.1.14",
+    "@types/react": "npm:@types/react@^19.1.13",
+    "@types/react-dom": "npm:@types/react-dom@^19.1.9",
+    "@vitejs/plugin-react": "npm:@vitejs/plugin-react@^5.0.4",
+    "lucide-react": "npm:lucide-react@^1.50.0",
+    "marked": "npm:marked@^18.0.14",
+    "react": "npm:react@^19.1.1",
+    "react-dom": "npm:react-dom@^19.1.1",
+    "tailwindcss": "npm:tailwindcss@^4.1.14",
+    "vite": "npm:vite@^7.1.9"
+  },
+  "fmt": {
+    "lineWidth": 120,
+    "indentWidth": 2,
+    "singleQuote": false,
+    "semiColons": true,
+    "include": [
+      "src/",
+      "vite.config.ts",
+      "deno.json"
+    ]
+  },
+  "lint": {
+    "include": [
+      "src/",
+      "vite.config.ts"
+    ],
+    "rules": {
+      "tags": [
+        "recommended",
+        "react",
+        "jsx"
+      ]
+    }
+  }
+}

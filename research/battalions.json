@@ -1,0 +1,6417 @@
+{
+  "game": "Fire Emblem: Fortune's Weave",
+  "compiled": "2026-10-10",
+  "sources": [
+    {
+      "key": "G8-GB",
+      "name": "Game8: How to Use Gambits and Battalions",
+      "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/621282"
+    },
+    {
+      "key": "G8-BL",
+      "name": "Game8: List of All Battalions",
+      "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/630342"
+    },
+    {
+      "key": "G8-100",
+      "name": "Game8: 100% Walkthrough Guide",
+      "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/618786"
+    },
+    {
+      "key": "RPG-T",
+      "name": "RPG Site: Part I Theodora's Path Walkthrough",
+      "url": "https://www.rpgsite.net/guide/21211-fire-emblem-fortunes-weave-part-i-theodoras-path-walkthrough"
+    },
+    {
+      "key": "IGN-T4",
+      "name": "IGN: Theodora's Path Chapter 4 walkthrough",
+      "url": "https://www.ign.com/wikis/fire-emblem-fortunes-weave/Theodora%27s_Path_Chapter_4_-_Unlikely_Allegiances_Walkthrough"
+    },
+    {
+      "key": "IGN-T6",
+      "name": "IGN: Theodora's Path Chapter 6 walkthrough",
+      "url": "https://www.ign.com/wikis/fire-emblem-fortunes-weave/Theodora%27s_Path_Chapter_6_-_The_Treasure_Hunter_Walkthrough"
+    },
+    {
+      "key": "IGN-TP",
+      "name": "IGN: Theodora's Path overview",
+      "url": "https://www.ign.com/wikis/fire-emblem-fortunes-weave/Theodora%27s_Path"
+    },
+    {
+      "key": "FWUK-B",
+      "name": "fortunesweave.co.uk: Battalions",
+      "url": "https://fortunesweave.co.uk/wiki/battalions"
+    },
+    {
+      "key": "FWO-B",
+      "name": "fortunesweave.online: Gambits and Battalions",
+      "url": "https://fortunesweave.online/battalions"
+    },
+    {
+      "key": "FWO-T",
+      "name": "fortunesweave.online: Hero Talents",
+      "url": "https://fortunesweave.online/talents"
+    },
+    {
+      "key": "TGW-GB",
+      "name": "thegameswiki.com: Fortune's Weave gambits",
+      "url": "https://thegameswiki.com/fire-emblem-fortunes-weave/wiki/gambits"
+    },
+    {
+      "key": "FEW-DV",
+      "name": "Fire Emblem Wiki: Disturbing Volley",
+      "url": "https://fireemblemwiki.org/wiki/Disturbing_Volley"
+    },
+    {
+      "key": "FAN-EL",
+      "name": "Fire Emblem Fandom: Elektra (settlement recruitment pools)",
+      "url": "https://fireemblem.fandom.com/wiki/Elektra"
+    },
+    {
+      "key": "GFQ-P3",
+      "name": "GameFAQs: Functions and Features for Part 3 (community)",
+      "url": "https://gamefaqs.gamespot.com/boards/559193-fire-emblem-fortunes-weave/81198572"
+    },
+    {
+      "key": "G8-NOVICEHUNTERS",
+      "name": "Game8: Novice Hunters Battalion Location and Stats",
+      "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/630723"
+    },
+    {
+      "key": "G8-ROOKIESOLDIERS",
+      "name": "Game8: Rookie Soldiers Battalion Location and Stats",
+      "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/630722"
+    },
+    {
+      "key": "G8-HOLYAPPRENTICE",
+      "name": "Game8: Holy Apprentices Battalion Location and Stats",
+      "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/630724"
+    },
+    {
+      "key": "G8-PRIESTTRAINEES",
+      "name": "Game8: Priest Trainees Battalion Location and Stats",
+      "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/630725"
+    },
+    {
+      "key": "G8-ROOKIEVANGUARD",
+      "name": "Game8: Rookie Vanguard Battalion Location and Stats",
+      "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/630726"
+    },
+    {
+      "key": "G8-MAGEPUPILS",
+      "name": "Game8: Mage Pupils Battalion Location and Stats",
+      "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/630727"
+    },
+    {
+      "key": "G8-MODELSOLDIERS",
+      "name": "Game8: Model Soldiers Battalion Location and Stats",
+      "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/630728"
+    },
+    {
+      "key": "G8-SPECIALCAVALRY",
+      "name": "Game8: Special Cavalry Battalion Location and Stats",
+      "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/630729"
+    },
+    {
+      "key": "G8-HUNTERDRIFTERS",
+      "name": "Game8: Hunter-Drifters Battalion Location and Stats",
+      "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/630730"
+    },
+    {
+      "key": "G8-ADEPTARCHERS",
+      "name": "Game8: Adept Archers Battalion Location and Stats",
+      "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/630731"
+    },
+    {
+      "key": "G8-ELITEHUNTERS",
+      "name": "Game8: Elite Hunters Battalion Location and Stats",
+      "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/630732"
+    },
+    {
+      "key": "G8-KALLASDIVAS",
+      "name": "Game8: Kalla's Divas Battalion Location and Stats",
+      "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/630733"
+    },
+    {
+      "key": "G8-MAGEINSTRUCTOR",
+      "name": "Game8: Mage Instructors Battalion Location and Stats",
+      "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/630734"
+    },
+    {
+      "key": "G8-SHADOWMAGES",
+      "name": "Game8: Shadow Mages Battalion Location and Stats",
+      "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/630735"
+    },
+    {
+      "key": "G8-BLACKFIREMAGES",
+      "name": "Game8: Blackfire Mages Battalion Location and Stats",
+      "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/630736"
+    },
+    {
+      "key": "G8-LESSERMAGES",
+      "name": "Game8: Lesser Mages Battalion Location and Stats",
+      "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/630737"
+    },
+    {
+      "key": "G8-MAGECANTORS",
+      "name": "Game8: Mage Cantors Battalion Location and Stats",
+      "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/630738"
+    },
+    {
+      "key": "G8-FIGHTINGCLERGY",
+      "name": "Game8: Fighting Clergy Battalion Location and Stats",
+      "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/630739"
+    },
+    {
+      "key": "G8-ELEVATEDPRIEST",
+      "name": "Game8: Elevated Priests Battalion Location and Stats",
+      "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/630741"
+    },
+    {
+      "key": "G8-SHENYANGSQUAD",
+      "name": "Game8: Shen Yang Squad Battalion Location and Stats",
+      "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/630742"
+    },
+    {
+      "key": "G8-LINGGUISQUAD",
+      "name": "Game8: Linggui Squad Battalion Location and Stats",
+      "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/630743"
+    },
+    {
+      "key": "G8-UPLIFTEDHEXERS",
+      "name": "Game8: Uplifted Hexers Battalion Location and Stats",
+      "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/630744"
+    },
+    {
+      "key": "G8-ARAGONIANMAGES",
+      "name": "Game8: Aragonian Mages Battalion Location and Stats",
+      "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/630745"
+    },
+    {
+      "key": "G8-ELEVATEDMAGES",
+      "name": "Game8: Elevated Mages Battalion Location and Stats",
+      "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/630746"
+    },
+    {
+      "key": "G8-ARMOREDSENTINE",
+      "name": "Game8: Armored Sentinels Battalion Location and Stats",
+      "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/630747"
+    },
+    {
+      "key": "G8-BRONZESHIELDGU",
+      "name": "Game8: Bronze-Shield Guard Battalion Location and Stats",
+      "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/630748"
+    },
+    {
+      "key": "G8-TROUPEOFAESOBO",
+      "name": "Game8: Troupe of Aesobos Battalion Location and Stats",
+      "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/630749"
+    },
+    {
+      "key": "G8-RADIANTMESSENG",
+      "name": "Game8: Radiant Messengers Battalion Location and Stats",
+      "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/630750"
+    },
+    {
+      "key": "G8-HOLYDISCIPLES",
+      "name": "Game8: Holy Disciples Battalion Location and Stats",
+      "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/630752"
+    },
+    {
+      "key": "G8-HOLYCLERICS",
+      "name": "Game8: Holy Clerics Battalion Location and Stats",
+      "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/630753"
+    },
+    {
+      "key": "G8-FINAFISHINGGUI",
+      "name": "Game8: Fina Fishing Guild Battalion Location and Stats",
+      "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/630754"
+    },
+    {
+      "key": "G8-ADVANCEDWARRIO",
+      "name": "Game8: Advanced Warriors Battalion Location and Stats",
+      "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/630755"
+    },
+    {
+      "key": "G8-TWINJEWELFANS",
+      "name": "Game8: Twin Jewel Fans Battalion Location and Stats",
+      "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/630756"
+    },
+    {
+      "key": "G8-IRONSHIELDFIGH",
+      "name": "Game8: Iron-Shield Fighters Battalion Location and Stats",
+      "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/630757"
+    },
+    {
+      "key": "G8-STEELSHIELDGUA",
+      "name": "Game8: Steel-Shield Guard Battalion Location and Stats",
+      "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/630758"
+    },
+    {
+      "key": "G8-LIONSOFMEGAIRA",
+      "name": "Game8: Lions of Megaira Battalion Location and Stats",
+      "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/630759"
+    },
+    {
+      "key": "G8-ORCHARDGUARDS",
+      "name": "Game8: Orchard Guards Battalion Location and Stats",
+      "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/630760"
+    },
+    {
+      "key": "G8-LYOSHANBANDITS",
+      "name": "Game8: Lyoshan Bandits Battalion Location and Stats",
+      "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/630761"
+    },
+    {
+      "key": "G8-VANDAHLSECURIT",
+      "name": "Game8: Vandahl Security Battalion Location and Stats",
+      "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/630762"
+    },
+    {
+      "key": "G8-JURAHSLIBRARIA",
+      "name": "Game8: Jurah's Librarians Battalion Location and Stats",
+      "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/630763"
+    },
+    {
+      "key": "G8-PANDORAPORTGUA",
+      "name": "Game8: Pandora Port Guard Battalion Location and Stats",
+      "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/630764"
+    },
+    {
+      "key": "G8-TWALINNSUNSQUA",
+      "name": "Game8: Twalinn Sun Squad Battalion Location and Stats",
+      "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/630765"
+    },
+    {
+      "key": "G8-SALTLAKEPROTEC",
+      "name": "Game8: Salt Lake Protectors Battalion Location and Stats",
+      "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/630766"
+    },
+    {
+      "key": "G8-AURORASSTARGAZ",
+      "name": "Game8: Aurora's Stargazers Battalion Location and Stats",
+      "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/630767"
+    },
+    {
+      "key": "G8-YAAMANALLIANCE",
+      "name": "Game8: Yaaman Alliance Battalion Location and Stats",
+      "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/630768"
+    },
+    {
+      "key": "G8-AEGINAMONKS",
+      "name": "Game8: Aegina Monks Battalion Location and Stats",
+      "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/630769"
+    },
+    {
+      "key": "G8-SECRETARTWIELD",
+      "name": "Game8: Secret-Art Wielders Battalion Location and Stats",
+      "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/630770"
+    },
+    {
+      "key": "G8-BREZASBAUSQUAD",
+      "name": "Game8: Breza's Bau Squad Battalion Location and Stats",
+      "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/630771"
+    },
+    {
+      "key": "G8-ALECTOMORNINGS",
+      "name": "Game8: Alecto Morningstars Battalion Location and Stats",
+      "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/630772"
+    },
+    {
+      "key": "G8-MAHONTWILIGHTE",
+      "name": "Game8: Mahon Twilighters Battalion Location and Stats",
+      "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/630773"
+    },
+    {
+      "key": "G8-SILVERSHIELDGU",
+      "name": "Game8: Silver-Shield Guard Battalion Location and Stats",
+      "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/630774"
+    },
+    {
+      "key": "G8-NOBLEBODYGUARD",
+      "name": "Game8: Noble Bodyguards Battalion Location and Stats",
+      "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/630775"
+    },
+    {
+      "key": "G8-MONSIRONSQUAD",
+      "name": "Game8: Mons Iron Squad Battalion Location and Stats",
+      "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/630776"
+    },
+    {
+      "key": "G8-REGIABREEZECO",
+      "name": "Game8: Regia Breeze Co. Battalion Location and Stats",
+      "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/630777"
+    },
+    {
+      "key": "G8-FISTSOFBLACKSM",
+      "name": "Game8: Fists of Black Smoke Battalion Location and Stats",
+      "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/630778"
+    },
+    {
+      "key": "G8-ANTIQUITYSEEKE",
+      "name": "Game8: Antiquity Seekers Battalion Location and Stats",
+      "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/630779"
+    },
+    {
+      "key": "G8-HEADSMEN",
+      "name": "Game8: Headsmen Battalion Location and Stats",
+      "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/630780"
+    },
+    {
+      "key": "G8-DIVINESHIELDGU",
+      "name": "Game8: Divine-Shield Guard Battalion Location and Stats",
+      "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/630781"
+    },
+    {
+      "key": "G8-ASHERAHWARRIOR",
+      "name": "Game8: Asherah Warriors Battalion Location and Stats",
+      "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/630782"
+    },
+    {
+      "key": "G8-BRIGIDSPIRITSQ",
+      "name": "Game8: Brigid Spirit Squad Battalion Location and Stats",
+      "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/630783"
+    },
+    {
+      "key": "G8-PUREPRIESTS",
+      "name": "Game8: Pure Priests Battalion Location and Stats",
+      "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/630740"
+    },
+    {
+      "key": "G8-VETERANSENTINE",
+      "name": "Game8: Veteran Sentinels Battalion Location and Stats",
+      "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/630751"
+    },
+    {
+      "key": "USER-PLAY",
+      "name": "Player's own Theodora run, stat screens logged in run-log/stat-checkpoints.json (2026-10-13)",
+      "url": "local:user"
+    }
+  ],
+  "conventions": {
+    "null": "Not documented by any Fortune's Weave source checked.",
+    "tier": "Skill Req letter on Game8 = minimum Authority rank of the carrier. 'authority' repeats it for lookup.",
+    "type": "Game8 battalion Type: Phys, Mys, Recovery, Obstructor.",
+    "stats": "Flat bonuses to the carrier (Game8 per-battalion page). null = page blank.",
+    "gambit.kind": "Inferred from battalion type and gambit name unless an effect is published. '?' = inferred.",
+    "where": "Settlement pools from Game8 per-battalion pages. Recruit Soldiers rolls at random from the pool; Renown and Rousing Speech shift it upward. 'region' is filled only where a Fortune's Weave source names it. 'chapter' is null for settlements because opening depends on your route's map and Renown gates.",
+    "three_houses": "Rejected: Fandom's Gambit page tables (Line of Lances Mt 5 Hit 50, endurance) are Three Houses data. Nothing here comes from Three Houses or Three Hopes.",
+    "conflict_rule": "Game8 per-battalion pages win for stats and pools; RPG Site and IGN win for story timing. Lower-tier sources fill only blanks."
+  },
+  "mechanics": {
+    "access": [
+      {
+        "fact": "Battalions and the Gambit command are Theodora's route talent. Other Part I lords cannot recruit or use them.",
+        "sources": [
+          "G8-GB",
+          "RPG-T",
+          "FWO-T"
+        ]
+      },
+      {
+        "fact": "Starters: Novice Hunters (Ch 4 tutorial), Priest Trainees (auto, Ch 5). Recruit Soldiers opens in Ch 6 (Regia tutorial). Transport Chief opens in Ch 7.",
+        "sources": [
+          "IGN-T4",
+          "RPG-T",
+          "IGN-T6",
+          "G8-GB"
+        ]
+      }
+    ],
+    "carriers": [
+      {
+        "fact": "Infantry only. Horse, Ornius and flying mounts can never hold one (Lysander is refused in the Ch 4 tutorial).",
+        "sources": [
+          "G8-GB",
+          "IGN-T4"
+        ]
+      },
+      {
+        "fact": "A unit can hold a battalion whose Skill Req is at or below its Authority rank (E to A). One battalion per unit.",
+        "sources": [
+          "G8-GB",
+          "FWO-B"
+        ]
+      },
+      {
+        "fact": "Assign from Inventory > Assign. The Gambit command only appears once a battalion is assigned.",
+        "sources": [
+          "G8-GB",
+          "IGN-T4"
+        ]
+      }
+    ],
+    "stat_bonus": [
+      {
+        "fact": "The carrier gets flat stat bonuses from the battalion. Higher tiers give more.",
+        "sources": [
+          "G8-BL",
+          "IGN-T4"
+        ]
+      },
+      {
+        "fact": "Cha bonus by tier on Game8 pages: E +3, D +4, C +5, B +7, A +8 (Fists of Black Smoke +9). Other stats add 2 to 8 points.",
+        "sources": [
+          "G8-BL"
+        ]
+      },
+      {
+        "fact": "No battalion HP, endurance or Hit/Avo/Prt bonus appears on any Fortune's Weave page checked.",
+        "sources": [
+          "G8-BL",
+          "TGW-GB"
+        ]
+      },
+      {
+        "fact": "The unit's stat screen includes the battalion's bonuses (seen on Theodora, Sofia, Sirocco, Bonaventure and Tobias at Ch 11). Subtract them when comparing growth.",
+        "sources": [
+          "USER-PLAY"
+        ]
+      }
+    ],
+    "gambits": [
+      {
+        "fact": "Each gambit needs an exact tile pattern relative to the target before the command shows.",
+        "sources": [
+          "G8-GB",
+          "FWO-B"
+        ]
+      },
+      {
+        "fact": "Limited uses per battle (IGN). One capture shows a counter going from 2 to 1.",
+        "sources": [
+          "IGN-T4",
+          "TGW-GB"
+        ]
+      },
+      {
+        "fact": "Charm raises gambit effectiveness (IGN, Game8 via fortunesweave.co.uk). Our combat-stats file records Cha as raising gambit Hit.",
+        "sources": [
+          "IGN-TP",
+          "FWUK-B"
+        ]
+      },
+      {
+        "fact": "Effective+ on a gambit triples the Mt behind it.",
+        "sources": [
+          "TGW-GB",
+          "FEW-DV"
+        ]
+      },
+      {
+        "fact": "Not usable in turn-based Clashes (dungeons).",
+        "sources": [
+          "G8-GB",
+          "FWO-T"
+        ]
+      }
+    ],
+    "recruiting": [
+      {
+        "fact": "Recruit Soldiers on a settlement node starts a gauge. After a few turns one battalion from that town's pool joins at random.",
+        "sources": [
+          "G8-GB",
+          "G8-BL",
+          "IGN-T6"
+        ]
+      },
+      {
+        "fact": "Rousing Speech (Renown 5+): select the town again while recruitment is pending. Perfect result removes most or all low-level battalions from the pool. Bad result still removes a few.",
+        "sources": [
+          "G8-GB"
+        ]
+      },
+      {
+        "fact": "Recruiting Drive: sometimes replaces Recruit Soldiers and combines it with Rousing Speech.",
+        "sources": [
+          "G8-GB"
+        ]
+      },
+      {
+        "fact": "Renown 5, 7 and 9 each raise recruit quality and the number of battalions you can deploy at once. Exact counts not published.",
+        "sources": [
+          "G8-GB",
+          "FWUK-B"
+        ]
+      }
+    ],
+    "search_points": [
+      {
+        "fact": "Send a battalion to a Search node or dungeon node. It returns with materials after some turns, scaled by type and its Gather Cap.",
+        "sources": [
+          "G8-GB",
+          "TGW-GB"
+        ]
+      },
+      {
+        "fact": "Priest and clergy battalions gather more at resource nodes. Mage battalions gather more ore.",
+        "sources": [
+          "G8-GB"
+        ]
+      },
+      {
+        "fact": "Send Supplies quests (all due 10/24) more or less need battalion searching.",
+        "sources": [
+          "RPG-T"
+        ]
+      }
+    ],
+    "transfer": [
+      {
+        "fact": "Transport Chief (Ch 7+) takes surplus battalions for troop points. Higher tiers pay more. 100 points = 1 Tactics Manual (Authority).",
+        "sources": [
+          "G8-GB",
+          "RPG-T"
+        ]
+      }
+    ],
+    "carryover": [
+      {
+        "fact": "Battalions carry over to Part III (Game8, thegameswiki).",
+        "sources": [
+          "G8-BL",
+          "TGW-GB"
+        ]
+      },
+      {
+        "fact": "Community: Part III receives each route's end-of-Part-I inventory. A battalion assigned to a unit stays on that unit's Clear Data instead of going to the pool. If you skip that unit in Part III, buy the battalion back at the Drifting Reliquary for Karma Shards.",
+        "sources": [
+          "GFQ-P3"
+        ]
+      },
+      {
+        "fact": "Part II use is not documented.",
+        "sources": []
+      }
+    ]
+  },
+  "battalions": [
+    {
+      "name": "Bronze-Shield Guard",
+      "tier": "E",
+      "authority": "E",
+      "type": "Obstructor",
+      "stats": {
+        "Str": 0,
+        "Mag": 0,
+        "Spd": 0,
+        "Dex": 0,
+        "Def": 2,
+        "Res": 0,
+        "Lck": 0,
+        "Cha": 3
+      },
+      "gambit": {
+        "name": "Tri-Front Formation",
+        "kind": "formation (effect unknown)",
+        "might": null,
+        "hit": null,
+        "range": null,
+        "area": null,
+        "uses": null,
+        "effect": null
+      },
+      "where": [
+        {
+          "source": "recruit",
+          "location": "Kassite",
+          "region": null,
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Shama Port",
+          "region": null,
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Grand Aragon",
+          "region": "Arago",
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Megaira",
+          "region": "Saramis",
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Messalina Orchards",
+          "region": null,
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Aguiño",
+          "region": null,
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Callianeira Port",
+          "region": "Elektra",
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Port of Pandora",
+          "region": null,
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Barsk Post Town",
+          "region": null,
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Whill",
+          "region": null,
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Benetnasch",
+          "region": null,
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Bombae",
+          "region": null,
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Da Mina",
+          "region": null,
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Breston",
+          "region": "Brezarant",
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Alecto",
+          "region": "Saramis",
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Mahon Castle Town",
+          "region": null,
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Mons",
+          "region": null,
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Zoste",
+          "region": null,
+          "chapter": null,
+          "route": "Theodora"
+        }
+      ],
+      "description": "Heavily armored soldiers who have scarcely seen battle.",
+      "notes": null,
+      "sources": [
+        "G8-BL",
+        "G8-BRONZESHIELDGU"
+      ]
+    },
+    {
+      "name": "Holy Apprentices",
+      "tier": "E",
+      "authority": "E",
+      "type": "Recovery",
+      "stats": {
+        "Str": 0,
+        "Mag": 0,
+        "Spd": 0,
+        "Dex": 0,
+        "Def": 0,
+        "Res": 1,
+        "Lck": 1,
+        "Cha": 3
+      },
+      "gambit": {
+        "name": "Group Detoxification",
+        "kind": "support (heal/cure)?",
+        "might": null,
+        "hit": null,
+        "range": null,
+        "area": null,
+        "uses": null,
+        "effect": "Cures poison on all allies in the gambit's area."
+      },
+      "where": [
+        {
+          "source": "recruit",
+          "location": "Ribeira",
+          "region": null,
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Fina",
+          "region": null,
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Shama Port",
+          "region": null,
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Aguiño",
+          "region": null,
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Osiris",
+          "region": null,
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Callianeira Port",
+          "region": "Elektra",
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Daimon",
+          "region": null,
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Raivo Port",
+          "region": null,
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Baina Oasis",
+          "region": null,
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Yaaman",
+          "region": null,
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Orens",
+          "region": null,
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Benetnasch",
+          "region": null,
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Niiza Port",
+          "region": null,
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Bombae",
+          "region": null,
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Mahon Castle Town",
+          "region": null,
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Mons",
+          "region": null,
+          "chapter": null,
+          "route": "Theodora"
+        }
+      ],
+      "description": "Clergy still devoted to training.",
+      "notes": null,
+      "sources": [
+        "G8-BL",
+        "G8-HOLYAPPRENTICE",
+        "G8-100"
+      ]
+    },
+    {
+      "name": "Lesser Mages",
+      "tier": "E",
+      "authority": "E",
+      "type": "Mys",
+      "stats": {
+        "Str": 0,
+        "Mag": 2,
+        "Spd": 0,
+        "Dex": 0,
+        "Def": 0,
+        "Res": 0,
+        "Lck": 0,
+        "Cha": 3
+      },
+      "gambit": {
+        "name": "Encircling Flames",
+        "kind": "offensive?",
+        "might": null,
+        "hit": null,
+        "range": null,
+        "area": null,
+        "uses": null,
+        "effect": null
+      },
+      "where": [
+        {
+          "source": "recruit",
+          "location": "Fina",
+          "region": null,
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Kassite",
+          "region": null,
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Grand Aragon",
+          "region": "Arago",
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Messalina Orchards",
+          "region": null,
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Aguiño",
+          "region": null,
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Osiris",
+          "region": null,
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Callianeira Port",
+          "region": "Elektra",
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Port of Pandora",
+          "region": null,
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Baina Oasis",
+          "region": null,
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Barsk Post Town",
+          "region": null,
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Orens",
+          "region": null,
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Benetnasch",
+          "region": null,
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Niiza Port",
+          "region": null,
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Bombae",
+          "region": null,
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Alecto",
+          "region": "Saramis",
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Mahon Castle Town",
+          "region": null,
+          "chapter": null,
+          "route": "Theodora"
+        }
+      ],
+      "description": "Hapless spellcasters.",
+      "notes": null,
+      "sources": [
+        "G8-BL",
+        "G8-LESSERMAGES"
+      ]
+    },
+    {
+      "name": "Mage Pupils",
+      "tier": "E",
+      "authority": "E",
+      "type": "Mys",
+      "stats": {
+        "Str": 0,
+        "Mag": 2,
+        "Spd": 0,
+        "Dex": 0,
+        "Def": 0,
+        "Res": 0,
+        "Lck": 0,
+        "Cha": 3
+      },
+      "gambit": {
+        "name": "Scattered Flames",
+        "kind": "offensive?",
+        "might": null,
+        "hit": null,
+        "range": null,
+        "area": null,
+        "uses": null,
+        "effect": null
+      },
+      "where": [
+        {
+          "source": "recruit",
+          "location": "Ribeira",
+          "region": null,
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Fina",
+          "region": null,
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Kassite",
+          "region": null,
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Shama Port",
+          "region": null,
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Megaira",
+          "region": "Saramis",
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Osiris",
+          "region": null,
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Daimon",
+          "region": null,
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Raivo Port",
+          "region": null,
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Baina Oasis",
+          "region": null,
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Barsk Post Town",
+          "region": null,
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Yaaman",
+          "region": null,
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Orens",
+          "region": null,
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Benetnasch",
+          "region": null,
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Niiza Port",
+          "region": null,
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Da Mina",
+          "region": null,
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Breston",
+          "region": "Brezarant",
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Regia",
+          "region": "Elektra",
+          "chapter": null,
+          "route": "Theodora"
+        }
+      ],
+      "description": "Aspiring mages.",
+      "notes": null,
+      "sources": [
+        "G8-BL",
+        "G8-MAGEPUPILS"
+      ]
+    },
+    {
+      "name": "Novice Hunters",
+      "tier": "E",
+      "authority": "E",
+      "type": "Phys",
+      "stats": {
+        "Str": 1,
+        "Mag": 0,
+        "Spd": 0,
+        "Dex": 1,
+        "Def": 0,
+        "Res": 0,
+        "Lck": 0,
+        "Cha": 3
+      },
+      "gambit": {
+        "name": "Disturbing Volley",
+        "kind": "offensive?",
+        "might": null,
+        "hit": null,
+        "range": "2 tiles ahead",
+        "area": "horizontal line of 3",
+        "uses": null,
+        "effect": "Effective+ vs fliers (3x Mt). On hit: Immobilize."
+      },
+      "where": [
+        {
+          "source": "story",
+          "location": "Battalions tutorial (Dagsion)",
+          "region": null,
+          "chapter": "Part I Ch 4",
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Ribeira",
+          "region": null,
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Fina",
+          "region": null,
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Grand Aragon",
+          "region": "Arago",
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Megaira",
+          "region": "Saramis",
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Aguiño",
+          "region": null,
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Osiris",
+          "region": null,
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Daimon",
+          "region": null,
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Raivo Port",
+          "region": null,
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Orens",
+          "region": null,
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Whill",
+          "region": null,
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Niiza Port",
+          "region": null,
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Da Mina",
+          "region": null,
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Breston",
+          "region": "Brezarant",
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Alecto",
+          "region": "Saramis",
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Mahon Castle Town",
+          "region": null,
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Mons",
+          "region": null,
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Regia",
+          "region": "Elektra",
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Zoste",
+          "region": null,
+          "chapter": null,
+          "route": "Theodora"
+        }
+      ],
+      "description": "Inexperienced hunters.",
+      "notes": "Starter battalion, auto-joins in the Ch 4 tutorial.",
+      "sources": [
+        "G8-BL",
+        "G8-NOVICEHUNTERS",
+        "IGN-T4",
+        "RPG-T"
+      ]
+    },
+    {
+      "name": "Priest Trainees",
+      "tier": "E",
+      "authority": "E",
+      "type": "Recovery",
+      "stats": {
+        "Str": 0,
+        "Mag": 0,
+        "Spd": 0,
+        "Dex": 0,
+        "Def": 0,
+        "Res": 1,
+        "Lck": 1,
+        "Cha": 3
+      },
+      "gambit": {
+        "name": "Splash Recover",
+        "kind": "support (heal/cure)?",
+        "might": null,
+        "hit": null,
+        "range": null,
+        "area": null,
+        "uses": null,
+        "effect": null
+      },
+      "where": [
+        {
+          "source": "story",
+          "location": "Search tutorial",
+          "region": null,
+          "chapter": "Part I Ch 5",
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Ribeira",
+          "region": null,
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Kassite",
+          "region": null,
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Shama Port",
+          "region": null,
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Messalina Orchards",
+          "region": null,
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Osiris",
+          "region": null,
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Daimon",
+          "region": null,
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Port of Pandora",
+          "region": null,
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Raivo Port",
+          "region": null,
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Baina Oasis",
+          "region": null,
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Barsk Post Town",
+          "region": null,
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Yaaman",
+          "region": null,
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Orens",
+          "region": null,
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Whill",
+          "region": null,
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Niiza Port",
+          "region": null,
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Bombae",
+          "region": null,
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Regia",
+          "region": "Elektra",
+          "chapter": null,
+          "route": "Theodora"
+        }
+      ],
+      "description": "Priests in training.",
+      "notes": "Second auto battalion (Ch 5).",
+      "sources": [
+        "G8-BL",
+        "G8-PRIESTTRAINEES",
+        "RPG-T",
+        "TGW-GB"
+      ]
+    },
+    {
+      "name": "Regia Breeze Co.",
+      "tier": "E",
+      "authority": "E",
+      "type": "Phys",
+      "stats": {
+        "Str": 1,
+        "Mag": 0,
+        "Spd": 0,
+        "Dex": 1,
+        "Def": 0,
+        "Res": 0,
+        "Lck": 0,
+        "Cha": 3
+      },
+      "gambit": {
+        "name": "Disturbing Deadeye",
+        "kind": "offensive?",
+        "might": null,
+        "hit": null,
+        "range": null,
+        "area": null,
+        "uses": null,
+        "effect": null
+      },
+      "where": [
+        {
+          "source": "recruit",
+          "location": "Regia",
+          "region": "Elektra",
+          "chapter": null,
+          "route": "Theodora"
+        }
+      ],
+      "description": "Young hunters from a village called Regia.",
+      "notes": null,
+      "sources": [
+        "G8-BL",
+        "G8-REGIABREEZECO"
+      ]
+    },
+    {
+      "name": "Rookie Soldiers",
+      "tier": "E",
+      "authority": "E",
+      "type": "Phys",
+      "stats": {
+        "Str": 2,
+        "Mag": 0,
+        "Spd": 0,
+        "Dex": 0,
+        "Def": 0,
+        "Res": 0,
+        "Lck": 0,
+        "Cha": 3
+      },
+      "gambit": {
+        "name": "Line of Lances",
+        "kind": "offensive?",
+        "might": null,
+        "hit": null,
+        "range": null,
+        "area": null,
+        "uses": null,
+        "effect": null
+      },
+      "where": [
+        {
+          "source": "recruit",
+          "location": "Fina",
+          "region": null,
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Shama Port",
+          "region": null,
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Grand Aragon",
+          "region": "Arago",
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Megaira",
+          "region": "Saramis",
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Messalina Orchards",
+          "region": null,
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Aguiño",
+          "region": null,
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Callianeira Port",
+          "region": "Elektra",
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Port of Pandora",
+          "region": null,
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Barsk Post Town",
+          "region": null,
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Yaaman",
+          "region": null,
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Whill",
+          "region": null,
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Da Mina",
+          "region": null,
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Breston",
+          "region": "Brezarant",
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Alecto",
+          "region": "Saramis",
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Mahon Castle Town",
+          "region": null,
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Mons",
+          "region": null,
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Regia",
+          "region": "Elektra",
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Zoste",
+          "region": null,
+          "chapter": null,
+          "route": "Theodora"
+        }
+      ],
+      "description": "Fighters with little experience.",
+      "notes": null,
+      "sources": [
+        "G8-BL",
+        "G8-ROOKIESOLDIERS"
+      ]
+    },
+    {
+      "name": "Rookie Vanguard",
+      "tier": "E",
+      "authority": "E",
+      "type": "Obstructor",
+      "stats": {
+        "Str": 0,
+        "Mag": 0,
+        "Spd": 0,
+        "Dex": 0,
+        "Def": 2,
+        "Res": 0,
+        "Lck": 0,
+        "Cha": 3
+      },
+      "gambit": {
+        "name": "Vertical Formation",
+        "kind": "formation (effect unknown)",
+        "might": null,
+        "hit": null,
+        "range": null,
+        "area": null,
+        "uses": null,
+        "effect": null
+      },
+      "where": [
+        {
+          "source": "recruit",
+          "location": "Ribeira",
+          "region": null,
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Kassite",
+          "region": null,
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Grand Aragon",
+          "region": "Arago",
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Megaira",
+          "region": "Saramis",
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Messalina Orchards",
+          "region": null,
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Callianeira Port",
+          "region": "Elektra",
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Daimon",
+          "region": null,
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Port of Pandora",
+          "region": null,
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Raivo Port",
+          "region": null,
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Baina Oasis",
+          "region": null,
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Yaaman",
+          "region": null,
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Whill",
+          "region": null,
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Benetnasch",
+          "region": null,
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Bombae",
+          "region": null,
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Da Mina",
+          "region": null,
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Breston",
+          "region": "Brezarant",
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Alecto",
+          "region": "Saramis",
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Mons",
+          "region": null,
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Zoste",
+          "region": null,
+          "chapter": null,
+          "route": "Theodora"
+        }
+      ],
+      "description": "Inexperienced guards.",
+      "notes": null,
+      "sources": [
+        "G8-BL",
+        "G8-ROOKIEVANGUARD"
+      ]
+    },
+    {
+      "name": "Salt Lake Protectors",
+      "tier": "E",
+      "authority": "E",
+      "type": "Obstructor",
+      "stats": {
+        "Str": 0,
+        "Mag": 0,
+        "Spd": 0,
+        "Dex": 0,
+        "Def": 2,
+        "Res": 0,
+        "Lck": 0,
+        "Cha": 3
+      },
+      "gambit": {
+        "name": "Dual-Wing Formation",
+        "kind": "formation (effect unknown)",
+        "might": null,
+        "hit": null,
+        "range": null,
+        "area": null,
+        "uses": null,
+        "effect": null
+      },
+      "where": [
+        {
+          "source": "recruit",
+          "location": "Zoste",
+          "region": null,
+          "chapter": null,
+          "route": "Theodora"
+        }
+      ],
+      "description": "Heavily armored soldiers garrisoned at Garamantes Lake.",
+      "notes": null,
+      "sources": [
+        "G8-BL",
+        "G8-SALTLAKEPROTEC"
+      ]
+    },
+    {
+      "name": "Armored Sentinels",
+      "tier": "D",
+      "authority": "D",
+      "type": "Obstructor",
+      "stats": {
+        "Str": 0,
+        "Mag": 0,
+        "Spd": 0,
+        "Dex": 1,
+        "Def": 2,
+        "Res": 0,
+        "Lck": 0,
+        "Cha": 4
+      },
+      "gambit": {
+        "name": "Bulwark Formation",
+        "kind": "formation (effect unknown)",
+        "might": null,
+        "hit": null,
+        "range": null,
+        "area": null,
+        "uses": null,
+        "effect": null
+      },
+      "where": [
+        {
+          "source": "recruit",
+          "location": "Ribeira",
+          "region": null,
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Kassite",
+          "region": null,
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Shama Port",
+          "region": null,
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Grand Aragon",
+          "region": "Arago",
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Megaira",
+          "region": "Saramis",
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Barsk Post Town",
+          "region": null,
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Yaaman",
+          "region": null,
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Whill",
+          "region": null,
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Benetnasch",
+          "region": null,
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Bombae",
+          "region": null,
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Da Mina",
+          "region": null,
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Alecto",
+          "region": "Saramis",
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Mons",
+          "region": null,
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Zoste",
+          "region": null,
+          "chapter": null,
+          "route": "Theodora"
+        }
+      ],
+      "description": "Dependable guards.",
+      "notes": null,
+      "sources": [
+        "G8-BL",
+        "G8-ARMOREDSENTINE"
+      ]
+    },
+    {
+      "name": "Blackfire Mages",
+      "tier": "D",
+      "authority": "D",
+      "type": "Mys",
+      "stats": {
+        "Str": 0,
+        "Mag": 2,
+        "Spd": 0,
+        "Dex": 0,
+        "Def": 0,
+        "Res": 1,
+        "Lck": 0,
+        "Cha": 4
+      },
+      "gambit": {
+        "name": "Scattered Flames",
+        "kind": "offensive?",
+        "might": null,
+        "hit": null,
+        "range": null,
+        "area": null,
+        "uses": null,
+        "effect": null
+      },
+      "where": [
+        {
+          "source": "recruit",
+          "location": "Ribeira",
+          "region": null,
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Kassite",
+          "region": null,
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Shama Port",
+          "region": null,
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Osiris",
+          "region": null,
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Daimon",
+          "region": null,
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Port of Pandora",
+          "region": null,
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Baina Oasis",
+          "region": null,
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Orens",
+          "region": null,
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Benetnasch",
+          "region": null,
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Niiza Port",
+          "region": null,
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Breston",
+          "region": "Brezarant",
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Regia",
+          "region": "Elektra",
+          "chapter": null,
+          "route": "Theodora"
+        }
+      ],
+      "description": "Mages who have mastered black magic.",
+      "notes": null,
+      "sources": [
+        "G8-BL",
+        "G8-BLACKFIREMAGES"
+      ]
+    },
+    {
+      "name": "Fighting Clergy",
+      "tier": "D",
+      "authority": "D",
+      "type": "Recovery",
+      "stats": {
+        "Str": 0,
+        "Mag": 0,
+        "Spd": 0,
+        "Dex": 0,
+        "Def": 0,
+        "Res": 2,
+        "Lck": 1,
+        "Cha": 4
+      },
+      "gambit": {
+        "name": "Column Recovery",
+        "kind": "support (heal/cure)?",
+        "might": null,
+        "hit": null,
+        "range": null,
+        "area": null,
+        "uses": null,
+        "effect": null
+      },
+      "where": [
+        {
+          "source": "recruit",
+          "location": "Ribeira",
+          "region": null,
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Fina",
+          "region": null,
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Shama Port",
+          "region": null,
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Messalina Orchards",
+          "region": null,
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Osiris",
+          "region": null,
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Callianeira Port",
+          "region": "Elektra",
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Daimon",
+          "region": null,
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Raivo Port",
+          "region": null,
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Baina Oasis",
+          "region": null,
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Barsk Post Town",
+          "region": null,
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Yaaman",
+          "region": null,
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Niiza Port",
+          "region": null,
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Bombae",
+          "region": null,
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Mahon Castle Town",
+          "region": null,
+          "chapter": null,
+          "route": "Theodora"
+        }
+      ],
+      "description": "Clergy who have completed their training.",
+      "notes": null,
+      "sources": [
+        "G8-BL",
+        "G8-FIGHTINGCLERGY"
+      ]
+    },
+    {
+      "name": "Hunter-Drifters",
+      "tier": "D",
+      "authority": "D",
+      "type": "Phys",
+      "stats": {
+        "Str": 1,
+        "Mag": 0,
+        "Spd": 1,
+        "Dex": 1,
+        "Def": 0,
+        "Res": 0,
+        "Lck": 0,
+        "Cha": 4
+      },
+      "gambit": {
+        "name": "Disturbing Volley",
+        "kind": "offensive?",
+        "might": null,
+        "hit": null,
+        "range": "2 tiles ahead?",
+        "area": "horizontal line of 3?",
+        "uses": null,
+        "effect": "Effective+ vs fliers (3x Mt). On hit: Immobilize."
+      },
+      "where": [
+        {
+          "source": "recruit",
+          "location": "Grand Aragon",
+          "region": "Arago",
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Megaira",
+          "region": "Saramis",
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Messalina Orchards",
+          "region": null,
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Aguiño",
+          "region": null,
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Port of Pandora",
+          "region": null,
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Barsk Post Town",
+          "region": null,
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Orens",
+          "region": null,
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Da Mina",
+          "region": null,
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Breston",
+          "region": "Brezarant",
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Alecto",
+          "region": "Saramis",
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Mons",
+          "region": null,
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Regia",
+          "region": "Elektra",
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Zoste",
+          "region": null,
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Whill",
+          "region": null,
+          "chapter": null,
+          "route": "Theodora"
+        }
+      ],
+      "description": "Wandering archers.",
+      "notes": "Same gambit as Novice Hunters; shape and effect assumed identical.",
+      "sources": [
+        "G8-BL",
+        "G8-HUNTERDRIFTERS",
+        "IGN-T4"
+      ]
+    },
+    {
+      "name": "Iron-Shield Fighters",
+      "tier": "D",
+      "authority": "D",
+      "type": "Obstructor",
+      "stats": {
+        "Str": 1,
+        "Mag": 0,
+        "Spd": 0,
+        "Dex": 0,
+        "Def": 2,
+        "Res": 0,
+        "Lck": 0,
+        "Cha": 4
+      },
+      "gambit": {
+        "name": "Tri-Front Formation",
+        "kind": "formation (effect unknown)",
+        "might": null,
+        "hit": null,
+        "range": null,
+        "area": null,
+        "uses": null,
+        "effect": null
+      },
+      "where": [
+        {
+          "source": "recruit",
+          "location": "Grand Aragon",
+          "region": "Arago",
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Megaira",
+          "region": "Saramis",
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Messalina Orchards",
+          "region": null,
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Aguiño",
+          "region": null,
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Port of Pandora",
+          "region": null,
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Baina Oasis",
+          "region": null,
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Whill",
+          "region": null,
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Benetnasch",
+          "region": null,
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Bombae",
+          "region": null,
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Da Mina",
+          "region": null,
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Breston",
+          "region": "Brezarant",
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Alecto",
+          "region": "Saramis",
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Mahon Castle Town",
+          "region": null,
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Mons",
+          "region": null,
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Zoste",
+          "region": null,
+          "chapter": null,
+          "route": "Theodora"
+        }
+      ],
+      "description": "Experienced soldiers wearing heavy armor.",
+      "notes": null,
+      "sources": [
+        "G8-BL",
+        "G8-IRONSHIELDFIGH"
+      ]
+    },
+    {
+      "name": "Jurah's Librarians",
+      "tier": "D",
+      "authority": "D",
+      "type": "Recovery",
+      "stats": {
+        "Str": 0,
+        "Mag": 1,
+        "Spd": 0,
+        "Dex": 0,
+        "Def": 0,
+        "Res": 1,
+        "Lck": 1,
+        "Cha": 4
+      },
+      "gambit": {
+        "name": "Joint Recovery",
+        "kind": "support (heal/cure)?",
+        "might": null,
+        "hit": null,
+        "range": null,
+        "area": null,
+        "uses": null,
+        "effect": null
+      },
+      "where": [
+        {
+          "source": "recruit",
+          "location": "Daimon",
+          "region": null,
+          "chapter": null,
+          "route": "Theodora"
+        }
+      ],
+      "description": "Librarians in Jurah's temple—mages, all of them.",
+      "notes": null,
+      "sources": [
+        "G8-BL",
+        "G8-JURAHSLIBRARIA"
+      ]
+    },
+    {
+      "name": "Lyoshan Bandits",
+      "tier": "D",
+      "authority": "D",
+      "type": "Phys",
+      "stats": {
+        "Str": 1,
+        "Mag": 0,
+        "Spd": 1,
+        "Dex": 1,
+        "Def": 0,
+        "Res": 0,
+        "Lck": 0,
+        "Cha": 4
+      },
+      "gambit": {
+        "name": "Disturbing Strike",
+        "kind": "offensive?",
+        "might": null,
+        "hit": null,
+        "range": null,
+        "area": "3-tile target box?",
+        "uses": "2?",
+        "effect": "Capture: 7 damage, 94 Hit, 0 Crit forecast; hits up to 3 foes."
+      },
+      "where": [
+        {
+          "source": "recruit",
+          "location": "Aguiño",
+          "region": null,
+          "chapter": null,
+          "route": "Theodora"
+        }
+      ],
+      "description": "Bandits based in Lyoshan Fort, all of them gladiators.",
+      "notes": "Disturbing Strike capture: counter stepped 2 to 1 (thegameswiki). Unit and battalion in the capture not named.",
+      "sources": [
+        "G8-BL",
+        "G8-LYOSHANBANDITS",
+        "TGW-GB"
+      ]
+    },
+    {
+      "name": "Mage Cantors",
+      "tier": "D",
+      "authority": "D",
+      "type": "Mys",
+      "stats": {
+        "Str": 0,
+        "Mag": 1,
+        "Spd": 0,
+        "Dex": 0,
+        "Def": 1,
+        "Res": 1,
+        "Lck": 0,
+        "Cha": 4
+      },
+      "gambit": {
+        "name": "Encircling Flames",
+        "kind": "offensive?",
+        "might": null,
+        "hit": null,
+        "range": null,
+        "area": null,
+        "uses": null,
+        "effect": null
+      },
+      "where": [
+        {
+          "source": "recruit",
+          "location": "Fina",
+          "region": null,
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Kassite",
+          "region": null,
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Shama Port",
+          "region": null,
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Messalina Orchards",
+          "region": null,
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Osiris",
+          "region": null,
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Callianeira Port",
+          "region": "Elektra",
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Raivo Port",
+          "region": null,
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Barsk Post Town",
+          "region": null,
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Orens",
+          "region": null,
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Benetnasch",
+          "region": null,
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Niiza Port",
+          "region": null,
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Mahon Castle Town",
+          "region": null,
+          "chapter": null,
+          "route": "Theodora"
+        }
+      ],
+      "description": "Casters who excel at magic.",
+      "notes": null,
+      "sources": [
+        "G8-BL",
+        "G8-MAGECANTORS"
+      ]
+    },
+    {
+      "name": "Model Soldiers",
+      "tier": "D",
+      "authority": "D",
+      "type": "Phys",
+      "stats": {
+        "Str": 1,
+        "Mag": 0,
+        "Spd": 0,
+        "Dex": 0,
+        "Def": 2,
+        "Res": 0,
+        "Lck": 0,
+        "Cha": 4
+      },
+      "gambit": {
+        "name": "Line of Lances",
+        "kind": "offensive?",
+        "might": null,
+        "hit": null,
+        "range": null,
+        "area": null,
+        "uses": null,
+        "effect": null
+      },
+      "where": [
+        {
+          "source": "recruit",
+          "location": "Fina",
+          "region": null,
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Grand Aragon",
+          "region": "Arago",
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Megaira",
+          "region": "Saramis",
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Aguiño",
+          "region": null,
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Callianeira Port",
+          "region": "Elektra",
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Yaaman",
+          "region": null,
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Whill",
+          "region": null,
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Da Mina",
+          "region": null,
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Breston",
+          "region": "Brezarant",
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Alecto",
+          "region": "Saramis",
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Mahon Castle Town",
+          "region": null,
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Mons",
+          "region": null,
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Regia",
+          "region": "Elektra",
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Zoste",
+          "region": null,
+          "chapter": null,
+          "route": "Theodora"
+        }
+      ],
+      "description": "Soldiers who have been trained and vetted.",
+      "notes": null,
+      "sources": [
+        "G8-BL",
+        "G8-MODELSOLDIERS"
+      ]
+    },
+    {
+      "name": "Pure Priests",
+      "tier": "D",
+      "authority": "D",
+      "type": "Recovery",
+      "stats": {
+        "Str": 0,
+        "Mag": 1,
+        "Spd": 0,
+        "Dex": 0,
+        "Def": 0,
+        "Res": 1,
+        "Lck": 1,
+        "Cha": 4
+      },
+      "gambit": {
+        "name": "Splash Recover",
+        "kind": "support (heal/cure)?",
+        "might": null,
+        "hit": null,
+        "range": null,
+        "area": null,
+        "uses": null,
+        "effect": null
+      },
+      "where": [
+        {
+          "source": "recruit",
+          "location": "Ribeira",
+          "region": null,
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Fina",
+          "region": null,
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Kassite",
+          "region": null,
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Osiris",
+          "region": null,
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Daimon",
+          "region": null,
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Port of Pandora",
+          "region": null,
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Raivo Port",
+          "region": null,
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Baina Oasis",
+          "region": null,
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Yaaman",
+          "region": null,
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Orens",
+          "region": null,
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Niiza Port",
+          "region": null,
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Bombae",
+          "region": null,
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Regia",
+          "region": "Elektra",
+          "chapter": null,
+          "route": "Theodora"
+        }
+      ],
+      "description": "Temple priests.",
+      "notes": null,
+      "sources": [
+        "G8-BL",
+        "G8-PUREPRIESTS"
+      ]
+    },
+    {
+      "name": "Twalinn Sun Squad",
+      "tier": "D",
+      "authority": "D",
+      "type": "Mys",
+      "stats": {
+        "Str": 0,
+        "Mag": 1,
+        "Spd": 0,
+        "Dex": 0,
+        "Def": 0,
+        "Res": 2,
+        "Lck": 0,
+        "Cha": 4
+      },
+      "gambit": {
+        "name": "Fireguard",
+        "kind": "offensive?",
+        "might": null,
+        "hit": null,
+        "range": null,
+        "area": null,
+        "uses": null,
+        "effect": null
+      },
+      "where": [
+        {
+          "source": "recruit",
+          "location": "Twalinn",
+          "region": null,
+          "chapter": null,
+          "route": "Theodora"
+        }
+      ],
+      "description": "Young mercenaries from a village called Twalinn, all diviners.",
+      "notes": null,
+      "sources": [
+        "G8-BL",
+        "G8-TWALINNSUNSQUA"
+      ]
+    },
+    {
+      "name": "Vandahl Security",
+      "tier": "D",
+      "authority": "D",
+      "type": "Obstructor",
+      "stats": {
+        "Str": 0,
+        "Mag": 0,
+        "Spd": 0,
+        "Dex": 1,
+        "Def": 2,
+        "Res": 0,
+        "Lck": 0,
+        "Cha": 4
+      },
+      "gambit": {
+        "name": "Flank-Guard Formation",
+        "kind": "formation (effect unknown)",
+        "might": null,
+        "hit": null,
+        "range": null,
+        "area": null,
+        "uses": null,
+        "effect": null
+      },
+      "where": [
+        {
+          "source": "recruit",
+          "location": "Callianeira Port",
+          "region": "Elektra",
+          "chapter": null,
+          "route": "Theodora"
+        }
+      ],
+      "description": "Heavily armored defenders of the Vandahl Trading Company's caravans.",
+      "notes": null,
+      "sources": [
+        "G8-BL",
+        "G8-VANDAHLSECURIT"
+      ]
+    },
+    {
+      "name": "Adept Archers",
+      "tier": "C",
+      "authority": "C",
+      "type": "Phys",
+      "stats": {
+        "Str": 1,
+        "Mag": 0,
+        "Spd": 1,
+        "Dex": 2,
+        "Def": 1,
+        "Res": 0,
+        "Lck": 0,
+        "Cha": 5
+      },
+      "gambit": {
+        "name": "Disturbing Volley",
+        "kind": "offensive?",
+        "might": null,
+        "hit": null,
+        "range": "2 tiles ahead?",
+        "area": "horizontal line of 3?",
+        "uses": null,
+        "effect": "Effective+ vs fliers (3x Mt). On hit: Immobilize."
+      },
+      "where": [
+        {
+          "source": "recruit",
+          "location": "Grand Aragon",
+          "region": "Arago",
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Megaira",
+          "region": "Saramis",
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Aguiño",
+          "region": null,
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Port of Pandora",
+          "region": null,
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Orens",
+          "region": null,
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Whill",
+          "region": null,
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Da Mina",
+          "region": null,
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Breston",
+          "region": "Brezarant",
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Regia",
+          "region": "Elektra",
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Zoste",
+          "region": null,
+          "chapter": null,
+          "route": "Theodora"
+        }
+      ],
+      "description": "Highly adept archers.",
+      "notes": "Same gambit as Novice Hunters; shape and effect assumed identical.",
+      "sources": [
+        "G8-BL",
+        "G8-ADEPTARCHERS",
+        "IGN-T4"
+      ]
+    },
+    {
+      "name": "Advanced Warriors",
+      "tier": "C",
+      "authority": "C",
+      "type": "Phys",
+      "stats": {
+        "Str": 2,
+        "Mag": 0,
+        "Spd": 0,
+        "Dex": 1,
+        "Def": 2,
+        "Res": 0,
+        "Lck": 0,
+        "Cha": 5
+      },
+      "gambit": {
+        "name": "Line of Lances",
+        "kind": "offensive?",
+        "might": null,
+        "hit": null,
+        "range": null,
+        "area": null,
+        "uses": null,
+        "effect": null
+      },
+      "where": [
+        {
+          "source": "recruit",
+          "location": "Fina",
+          "region": null,
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Grand Aragon",
+          "region": "Arago",
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Aguiño",
+          "region": null,
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Yaaman",
+          "region": null,
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Whill",
+          "region": null,
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Da Mina",
+          "region": null,
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Alecto",
+          "region": "Saramis",
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Mahon Castle Town",
+          "region": null,
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Regia",
+          "region": "Elektra",
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Breston",
+          "region": "Brezarant",
+          "chapter": null,
+          "route": "Theodora"
+        }
+      ],
+      "description": "Well-trained soldiers.",
+      "notes": null,
+      "sources": [
+        "G8-BL",
+        "G8-ADVANCEDWARRIO"
+      ]
+    },
+    {
+      "name": "Alecto Morningstars",
+      "tier": "C",
+      "authority": "C",
+      "type": "Phys",
+      "stats": {
+        "Str": 3,
+        "Mag": 0,
+        "Spd": 0,
+        "Dex": 0,
+        "Def": 2,
+        "Res": 0,
+        "Lck": 0,
+        "Cha": 5
+      },
+      "gambit": {
+        "name": "All-Out Offensive",
+        "kind": "offensive?",
+        "might": null,
+        "hit": null,
+        "range": null,
+        "area": null,
+        "uses": null,
+        "effect": null
+      },
+      "where": [
+        {
+          "source": "recruit",
+          "location": "Alecto",
+          "region": "Saramis",
+          "chapter": null,
+          "route": "Theodora"
+        }
+      ],
+      "description": "Brawlers from Alecto, the ocean Metropolis.",
+      "notes": null,
+      "sources": [
+        "G8-BL",
+        "G8-ALECTOMORNINGS"
+      ]
+    },
+    {
+      "name": "Aragonian Mages",
+      "tier": "C",
+      "authority": "C",
+      "type": "Mys",
+      "stats": {
+        "Str": 0,
+        "Mag": 2,
+        "Spd": 0,
+        "Dex": 0,
+        "Def": 0,
+        "Res": 2,
+        "Lck": 1,
+        "Cha": 5
+      },
+      "gambit": {
+        "name": "Iceguard",
+        "kind": "offensive?",
+        "might": null,
+        "hit": null,
+        "range": null,
+        "area": null,
+        "uses": null,
+        "effect": null
+      },
+      "where": [
+        {
+          "source": "recruit",
+          "location": "Kassite",
+          "region": null,
+          "chapter": null,
+          "route": "Theodora"
+        }
+      ],
+      "description": "Black-magic users researching spells in service of Arago.",
+      "notes": null,
+      "sources": [
+        "G8-BL",
+        "G8-ARAGONIANMAGES"
+      ]
+    },
+    {
+      "name": "Elevated Mages",
+      "tier": "C",
+      "authority": "C",
+      "type": "Mys",
+      "stats": {
+        "Str": 0,
+        "Mag": 2,
+        "Spd": 0,
+        "Dex": 0,
+        "Def": 0,
+        "Res": 1,
+        "Lck": 2,
+        "Cha": 5
+      },
+      "gambit": {
+        "name": "Encircling Ice",
+        "kind": "offensive?",
+        "might": null,
+        "hit": null,
+        "range": null,
+        "area": null,
+        "uses": null,
+        "effect": null
+      },
+      "where": [
+        {
+          "source": "recruit",
+          "location": "Kassite",
+          "region": null,
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Shama Port",
+          "region": null,
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Messalina Orchards",
+          "region": null,
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Osiris",
+          "region": null,
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Callianeira Port",
+          "region": "Elektra",
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Raivo Port",
+          "region": null,
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Orens",
+          "region": null,
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Mahon Castle Town",
+          "region": null,
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Twalinn",
+          "region": null,
+          "chapter": null,
+          "route": "Theodora"
+        }
+      ],
+      "description": "Spellcasters with abilities that make foes' blood run cold.",
+      "notes": null,
+      "sources": [
+        "G8-BL",
+        "G8-ELEVATEDMAGES"
+      ]
+    },
+    {
+      "name": "Elevated Priests",
+      "tier": "C",
+      "authority": "C",
+      "type": "Recovery",
+      "stats": {
+        "Str": 0,
+        "Mag": 2,
+        "Spd": 0,
+        "Dex": 0,
+        "Def": 0,
+        "Res": 2,
+        "Lck": 1,
+        "Cha": 5
+      },
+      "gambit": {
+        "name": "Splash Recover",
+        "kind": "support (heal/cure)?",
+        "might": null,
+        "hit": null,
+        "range": null,
+        "area": null,
+        "uses": null,
+        "effect": null
+      },
+      "where": [
+        {
+          "source": "recruit",
+          "location": "Ribeira",
+          "region": null,
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Messalina Orchards",
+          "region": null,
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Daimon",
+          "region": null,
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Raivo Port",
+          "region": null,
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Baina Oasis",
+          "region": null,
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Orens",
+          "region": null,
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Niiza Port",
+          "region": null,
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Bombae",
+          "region": null,
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Regia",
+          "region": "Elektra",
+          "chapter": null,
+          "route": "Theodora"
+        }
+      ],
+      "description": "Amply experienced priests.",
+      "notes": null,
+      "sources": [
+        "G8-BL",
+        "G8-ELEVATEDPRIEST"
+      ]
+    },
+    {
+      "name": "Fina Fishing Guild",
+      "tier": "C",
+      "authority": "C",
+      "type": "Recovery",
+      "stats": {
+        "Str": 0,
+        "Mag": 1,
+        "Spd": 0,
+        "Dex": 0,
+        "Def": 0,
+        "Res": 2,
+        "Lck": 2,
+        "Cha": 5
+      },
+      "gambit": {
+        "name": "Mixed Poison Recovery",
+        "kind": "support (heal/cure)?",
+        "might": null,
+        "hit": null,
+        "range": null,
+        "area": null,
+        "uses": null,
+        "effect": null
+      },
+      "where": [
+        {
+          "source": "recruit",
+          "location": "Fina",
+          "region": null,
+          "chapter": null,
+          "route": "Theodora"
+        }
+      ],
+      "description": "Priests who rescue potential victims from the sea beasts.",
+      "notes": null,
+      "sources": [
+        "G8-BL",
+        "G8-FINAFISHINGGUI"
+      ]
+    },
+    {
+      "name": "Holy Disciples",
+      "tier": "C",
+      "authority": "C",
+      "type": "Recovery",
+      "stats": {
+        "Str": 0,
+        "Mag": 1,
+        "Spd": 0,
+        "Dex": 0,
+        "Def": 0,
+        "Res": 2,
+        "Lck": 2,
+        "Cha": 5
+      },
+      "gambit": {
+        "name": "Group Detoxification",
+        "kind": "support (heal/cure)?",
+        "might": null,
+        "hit": null,
+        "range": null,
+        "area": null,
+        "uses": null,
+        "effect": "Cures poison on all allies in the gambit's area."
+      },
+      "where": [
+        {
+          "source": "recruit",
+          "location": "Ribeira",
+          "region": null,
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Shama Port",
+          "region": null,
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Osiris",
+          "region": null,
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Callianeira Port",
+          "region": "Elektra",
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Daimon",
+          "region": null,
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Raivo Port",
+          "region": null,
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Baina Oasis",
+          "region": null,
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Barsk Post Town",
+          "region": null,
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Niiza Port",
+          "region": null,
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Bombae",
+          "region": null,
+          "chapter": null,
+          "route": "Theodora"
+        }
+      ],
+      "description": "Clergy approved by the temples.",
+      "notes": null,
+      "sources": [
+        "G8-BL",
+        "G8-HOLYDISCIPLES",
+        "G8-100"
+      ]
+    },
+    {
+      "name": "Mage Instructors",
+      "tier": "C",
+      "authority": "C",
+      "type": "Mys",
+      "stats": {
+        "Str": 0,
+        "Mag": 2,
+        "Spd": 0,
+        "Dex": 0,
+        "Def": 0,
+        "Res": 2,
+        "Lck": 1,
+        "Cha": 5
+      },
+      "gambit": {
+        "name": "Scattering Ice",
+        "kind": "offensive?",
+        "might": null,
+        "hit": null,
+        "range": null,
+        "area": null,
+        "uses": null,
+        "effect": null
+      },
+      "where": [
+        {
+          "source": "recruit",
+          "location": "Fina",
+          "region": null,
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Kassite",
+          "region": null,
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Osiris",
+          "region": null,
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Daimon",
+          "region": null,
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Port of Pandora",
+          "region": null,
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Baina Oasis",
+          "region": null,
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Barsk Post Town",
+          "region": null,
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Benetnasch",
+          "region": null,
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Niiza Port",
+          "region": null,
+          "chapter": null,
+          "route": "Theodora"
+        }
+      ],
+      "description": "Mages qualified to instruct others.",
+      "notes": null,
+      "sources": [
+        "G8-BL",
+        "G8-MAGEINSTRUCTOR"
+      ]
+    },
+    {
+      "name": "Mons Iron Squad",
+      "tier": "C",
+      "authority": "C",
+      "type": "Obstructor",
+      "stats": {
+        "Str": 0,
+        "Mag": 0,
+        "Spd": 0,
+        "Dex": 0,
+        "Def": 3,
+        "Res": 2,
+        "Lck": 0,
+        "Cha": 5
+      },
+      "gambit": {
+        "name": "Two-Wall Formation",
+        "kind": "formation (effect unknown)",
+        "might": null,
+        "hit": null,
+        "range": null,
+        "area": null,
+        "uses": null,
+        "effect": null
+      },
+      "where": [
+        {
+          "source": "recruit",
+          "location": "Mons",
+          "region": null,
+          "chapter": null,
+          "route": "Theodora"
+        }
+      ],
+      "description": "Heavily armored soldiers - the pride of Mons, the fortress city.",
+      "notes": null,
+      "sources": [
+        "G8-BL",
+        "G8-MONSIRONSQUAD"
+      ]
+    },
+    {
+      "name": "Pandora Port Guard",
+      "tier": "C",
+      "authority": "C",
+      "type": "Obstructor",
+      "stats": {
+        "Str": 0,
+        "Mag": 0,
+        "Spd": 0,
+        "Dex": 2,
+        "Def": 3,
+        "Res": 0,
+        "Lck": 0,
+        "Cha": 5
+      },
+      "gambit": {
+        "name": "Palisade Formation",
+        "kind": "formation (effect unknown)",
+        "might": null,
+        "hit": null,
+        "range": null,
+        "area": null,
+        "uses": null,
+        "effect": null
+      },
+      "where": [
+        {
+          "source": "recruit",
+          "location": "Port of Pandora",
+          "region": null,
+          "chapter": null,
+          "route": "Theodora"
+        }
+      ],
+      "description": "Heavily armored soldiers usually garrisoned at the Port of Pandora.",
+      "notes": null,
+      "sources": [
+        "G8-BL",
+        "G8-PANDORAPORTGUA"
+      ]
+    },
+    {
+      "name": "Steel-Shield Guard",
+      "tier": "C",
+      "authority": "C",
+      "type": "Obstructor",
+      "stats": {
+        "Str": 1,
+        "Mag": 0,
+        "Spd": 0,
+        "Dex": 1,
+        "Def": 2,
+        "Res": 1,
+        "Lck": 0,
+        "Cha": 5
+      },
+      "gambit": {
+        "name": "Tri-Front Formation",
+        "kind": "formation (effect unknown)",
+        "might": null,
+        "hit": null,
+        "range": null,
+        "area": null,
+        "uses": null,
+        "effect": null
+      },
+      "where": [
+        {
+          "source": "recruit",
+          "location": "Shama Port",
+          "region": null,
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Megaira",
+          "region": "Saramis",
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Aguiño",
+          "region": null,
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Callianeira Port",
+          "region": "Elektra",
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Barsk Post Town",
+          "region": null,
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Yaaman",
+          "region": null,
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Benetnasch",
+          "region": null,
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Mahon Castle Town",
+          "region": null,
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Mons",
+          "region": null,
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Zoste",
+          "region": null,
+          "chapter": null,
+          "route": "Theodora"
+        }
+      ],
+      "description": "Heavily armored soldiers who combine to form an iron wall.",
+      "notes": null,
+      "sources": [
+        "G8-BL",
+        "G8-STEELSHIELDGUA"
+      ]
+    },
+    {
+      "name": "Twin Jewel Fans",
+      "tier": "C",
+      "authority": "C",
+      "type": "Recovery",
+      "stats": {
+        "Str": 2,
+        "Mag": 0,
+        "Spd": 1,
+        "Dex": 2,
+        "Def": 0,
+        "Res": 0,
+        "Lck": 0,
+        "Cha": 5
+      },
+      "gambit": {
+        "name": "Blaze",
+        "kind": "offensive?",
+        "might": null,
+        "hit": null,
+        "range": null,
+        "area": null,
+        "uses": null,
+        "effect": null
+      },
+      "where": [
+        {
+          "source": "recruit",
+          "location": "Grand Aragon",
+          "region": "Arago",
+          "chapter": null,
+          "route": "Theodora"
+        }
+      ],
+      "description": "Priests serving Arago and, in particular, the Twin Jewels.",
+      "notes": "Typed Recovery but carries the Blaze gambit and physical bonuses (Str+2 Spd+1 Dex+2).",
+      "sources": [
+        "G8-BL",
+        "G8-TWINJEWELFANS"
+      ]
+    },
+    {
+      "name": "Veteran Sentinels",
+      "tier": "C",
+      "authority": "C",
+      "type": "Obstructor",
+      "stats": {
+        "Str": 0,
+        "Mag": 0,
+        "Spd": 0,
+        "Dex": 2,
+        "Def": 2,
+        "Res": 1,
+        "Lck": 0,
+        "Cha": 5
+      },
+      "gambit": {
+        "name": "Vertical Formation",
+        "kind": "formation (effect unknown)",
+        "might": null,
+        "hit": null,
+        "range": null,
+        "area": null,
+        "uses": null,
+        "effect": null
+      },
+      "where": [
+        {
+          "source": "recruit",
+          "location": "Ribeira",
+          "region": null,
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Megaira",
+          "region": "Saramis",
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Messalina Orchards",
+          "region": null,
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Whill",
+          "region": null,
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Benetnasch",
+          "region": null,
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Bombae",
+          "region": null,
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Da Mina",
+          "region": null,
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Breston",
+          "region": "Brezarant",
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Alecto",
+          "region": "Saramis",
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Mons",
+          "region": null,
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Zoste",
+          "region": null,
+          "chapter": null,
+          "route": "Theodora"
+        }
+      ],
+      "description": "Guards walking the fine line between life and death.",
+      "notes": null,
+      "sources": [
+        "G8-BL",
+        "G8-VETERANSENTINE"
+      ]
+    },
+    {
+      "name": "Yaaman Alliance",
+      "tier": "C",
+      "authority": "C",
+      "type": "Phys",
+      "stats": {
+        "Str": 2,
+        "Mag": 0,
+        "Spd": 1,
+        "Dex": 2,
+        "Def": 0,
+        "Res": 0,
+        "Lck": 0,
+        "Cha": 5
+      },
+      "gambit": {
+        "name": "Poison Tactics",
+        "kind": "offensive?",
+        "might": null,
+        "hit": null,
+        "range": null,
+        "area": null,
+        "uses": null,
+        "effect": null
+      },
+      "where": [
+        {
+          "source": "recruit",
+          "location": "Yaaman",
+          "region": null,
+          "chapter": null,
+          "route": "Theodora"
+        }
+      ],
+      "description": "Youths from Yaaman village - rogues to the last.",
+      "notes": null,
+      "sources": [
+        "G8-BL",
+        "G8-YAAMANALLIANCE"
+      ]
+    },
+    {
+      "name": "Aegina Monks",
+      "tier": "B",
+      "authority": "B",
+      "type": "Mys",
+      "stats": {
+        "Str": 0,
+        "Mag": 3,
+        "Spd": 0,
+        "Dex": 0,
+        "Def": 0,
+        "Res": 1,
+        "Lck": 2,
+        "Cha": 7
+      },
+      "gambit": {
+        "name": "Magic-Ward Tactics",
+        "kind": "offensive?",
+        "might": null,
+        "hit": null,
+        "range": null,
+        "area": null,
+        "uses": null,
+        "effect": null
+      },
+      "where": [
+        {
+          "source": "recruit",
+          "location": "Orens",
+          "region": null,
+          "chapter": null,
+          "route": "Theodora"
+        }
+      ],
+      "description": "Warrior monks and priests who were trained at Mount Aegina.",
+      "notes": null,
+      "sources": [
+        "G8-BL",
+        "G8-AEGINAMONKS"
+      ]
+    },
+    {
+      "name": "Aurora's Stargazers",
+      "tier": "B?",
+      "authority": "B?",
+      "type": "Recovery",
+      "stats": {
+        "Str": 0,
+        "Mag": 1,
+        "Spd": 0,
+        "Dex": 0,
+        "Def": 0,
+        "Res": 2,
+        "Lck": 0,
+        "Cha": 4
+      },
+      "gambit": {
+        "name": "Distant Recovery",
+        "kind": "support (heal/cure)?",
+        "might": null,
+        "hit": null,
+        "range": null,
+        "area": null,
+        "uses": null,
+        "effect": null
+      },
+      "where": [
+        {
+          "source": "recruit",
+          "location": "Raivo Port",
+          "region": null,
+          "chapter": null,
+          "route": "Theodora"
+        }
+      ],
+      "description": "Star watchers serving Aurora's temple, all diviners.",
+      "notes": "Game8 lists B, but its bonuses (Mag+1 Res+2 Cha+4) match D-tier totals. Treat tier or stats as unconfirmed.",
+      "sources": [
+        "G8-BL",
+        "G8-AURORASSTARGAZ"
+      ]
+    },
+    {
+      "name": "Breza's Bau Squad",
+      "tier": "B",
+      "authority": "B",
+      "type": "Phys",
+      "stats": {
+        "Str": 3,
+        "Mag": 0,
+        "Spd": 0,
+        "Dex": 3,
+        "Def": 0,
+        "Res": 0,
+        "Lck": 0,
+        "Cha": 7
+      },
+      "gambit": {
+        "name": "Disturb-Flier Tactics",
+        "kind": "offensive?",
+        "might": null,
+        "hit": null,
+        "range": null,
+        "area": null,
+        "uses": null,
+        "effect": null
+      },
+      "where": [
+        {
+          "source": "recruit",
+          "location": "Breston",
+          "region": "Brezarant",
+          "chapter": null,
+          "route": "Theodora"
+        }
+      ],
+      "description": "Mercenary rangers who revere the hero Breza.",
+      "notes": null,
+      "sources": [
+        "G8-BL",
+        "G8-BREZASBAUSQUAD"
+      ]
+    },
+    {
+      "name": "Elite Hunters",
+      "tier": "B",
+      "authority": "B",
+      "type": "Phys",
+      "stats": {
+        "Str": 3,
+        "Mag": 0,
+        "Spd": 2,
+        "Dex": 1,
+        "Def": 0,
+        "Res": 0,
+        "Lck": 0,
+        "Cha": 7
+      },
+      "gambit": {
+        "name": "Disturbing Volley",
+        "kind": "offensive?",
+        "might": null,
+        "hit": null,
+        "range": "2 tiles ahead?",
+        "area": "horizontal line of 3?",
+        "uses": null,
+        "effect": "Effective+ vs fliers (3x Mt). On hit: Immobilize."
+      },
+      "where": [
+        {
+          "source": "recruit",
+          "location": "Grand Aragon",
+          "region": "Arago",
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Aguiño",
+          "region": null,
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Yaaman",
+          "region": null,
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Orens",
+          "region": null,
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Da Mina",
+          "region": null,
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Alecto",
+          "region": "Saramis",
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Regia",
+          "region": "Elektra",
+          "chapter": null,
+          "route": "Theodora"
+        }
+      ],
+      "description": "Elite archers, all of them rangers.",
+      "notes": "Same gambit as Novice Hunters; shape and effect assumed identical.",
+      "sources": [
+        "G8-BL",
+        "G8-ELITEHUNTERS",
+        "IGN-T4"
+      ]
+    },
+    {
+      "name": "Holy Clerics",
+      "tier": "B",
+      "authority": "B",
+      "type": "Recovery",
+      "stats": null,
+      "gambit": {
+        "name": null,
+        "kind": null,
+        "might": null,
+        "hit": null,
+        "range": null,
+        "area": null,
+        "uses": null,
+        "effect": null
+      },
+      "where": [
+        {
+          "source": "recruit",
+          "location": "Fina",
+          "region": null,
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Daimon",
+          "region": null,
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Raivo Port",
+          "region": null,
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Baina Oasis",
+          "region": null,
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Niiza Port",
+          "region": null,
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Bombae",
+          "region": null,
+          "chapter": null,
+          "route": "Theodora"
+        }
+      ],
+      "description": null,
+      "notes": "Game8 page has no gambit or stats yet (TBD).",
+      "sources": [
+        "G8-BL",
+        "G8-HOLYCLERICS"
+      ]
+    },
+    {
+      "name": "Kalla's Divas",
+      "tier": "B",
+      "authority": "B",
+      "type": "Mys",
+      "stats": {
+        "Str": 0,
+        "Mag": 3,
+        "Spd": 0,
+        "Dex": 0,
+        "Def": 0,
+        "Res": 2,
+        "Lck": 1,
+        "Cha": 7
+      },
+      "gambit": {
+        "name": "Ice Domain",
+        "kind": "offensive?",
+        "might": null,
+        "hit": null,
+        "range": null,
+        "area": null,
+        "uses": null,
+        "effect": null
+      },
+      "where": [
+        {
+          "source": "recruit",
+          "location": "Barsk Post Town",
+          "region": null,
+          "chapter": null,
+          "route": "Theodora"
+        }
+      ],
+      "description": "An opera company composed of mages who sing and dance for Kalla.",
+      "notes": null,
+      "sources": [
+        "G8-BL",
+        "G8-KALLASDIVAS"
+      ]
+    },
+    {
+      "name": "Lions of Megaira",
+      "tier": "B",
+      "authority": "B",
+      "type": "Obstructor",
+      "stats": {
+        "Str": 0,
+        "Mag": 0,
+        "Spd": 0,
+        "Dex": 3,
+        "Def": 3,
+        "Res": 0,
+        "Lck": 0,
+        "Cha": 7
+      },
+      "gambit": {
+        "name": "Flank Formation+",
+        "kind": "formation (effect unknown)",
+        "might": null,
+        "hit": null,
+        "range": null,
+        "area": null,
+        "uses": null,
+        "effect": null
+      },
+      "where": [
+        {
+          "source": "recruit",
+          "location": "Megaira",
+          "region": "Saramis",
+          "chapter": null,
+          "route": "Theodora"
+        }
+      ],
+      "description": "Heavily armored soldiers who share an admiration for Queen Theodora.",
+      "notes": null,
+      "sources": [
+        "G8-BL",
+        "G8-LIONSOFMEGAIRA"
+      ]
+    },
+    {
+      "name": "Mahon Twilighters",
+      "tier": "B",
+      "authority": "B",
+      "type": "Phys",
+      "stats": {
+        "Str": 3,
+        "Mag": 0,
+        "Spd": 3,
+        "Dex": 0,
+        "Def": 0,
+        "Res": 0,
+        "Lck": 0,
+        "Cha": 7
+      },
+      "gambit": {
+        "name": "Disturb-Flier Tactics",
+        "kind": "offensive?",
+        "might": null,
+        "hit": null,
+        "range": null,
+        "area": null,
+        "uses": null,
+        "effect": null
+      },
+      "where": [
+        {
+          "source": "recruit",
+          "location": "Mahon Castle Town",
+          "region": null,
+          "chapter": null,
+          "route": "Theodora"
+        }
+      ],
+      "description": "Virtuous thieves based around Mahon Castle.",
+      "notes": null,
+      "sources": [
+        "G8-BL",
+        "G8-MAHONTWILIGHTE"
+      ]
+    },
+    {
+      "name": "Noble Bodyguards",
+      "tier": "B",
+      "authority": "B",
+      "type": "Obstructor",
+      "stats": {
+        "Str": 0,
+        "Mag": 0,
+        "Spd": 0,
+        "Dex": 2,
+        "Def": 2,
+        "Res": 2,
+        "Lck": 0,
+        "Cha": 7
+      },
+      "gambit": {
+        "name": "Bulwark Formation+",
+        "kind": "formation (effect unknown)",
+        "might": null,
+        "hit": null,
+        "range": null,
+        "area": null,
+        "uses": null,
+        "effect": null
+      },
+      "where": [
+        {
+          "source": "recruit",
+          "location": "Port of Pandora",
+          "region": null,
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Zoste",
+          "region": null,
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Whill",
+          "region": null,
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Mons",
+          "region": null,
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Alecto",
+          "region": "Saramis",
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Mahon Castle Town",
+          "region": null,
+          "chapter": null,
+          "route": "Theodora"
+        }
+      ],
+      "description": "Heavily armored soldiers, eager to protect their allies.",
+      "notes": null,
+      "sources": [
+        "G8-BL",
+        "G8-NOBLEBODYGUARD"
+      ]
+    },
+    {
+      "name": "Orchard Guards",
+      "tier": "B",
+      "authority": "B",
+      "type": "Obstructor",
+      "stats": {
+        "Str": 0,
+        "Mag": 0,
+        "Spd": 0,
+        "Dex": 3,
+        "Def": 2,
+        "Res": 1,
+        "Lck": 0,
+        "Cha": 7
+      },
+      "gambit": {
+        "name": "Wing Formation",
+        "kind": "formation (effect unknown)",
+        "might": null,
+        "hit": null,
+        "range": null,
+        "area": null,
+        "uses": null,
+        "effect": null
+      },
+      "where": [
+        {
+          "source": "recruit",
+          "location": "Messalina Orchards",
+          "region": null,
+          "chapter": null,
+          "route": "Theodora"
+        }
+      ],
+      "description": "Guards of the Messalina Orchards, garbed in heavy armor.",
+      "notes": null,
+      "sources": [
+        "G8-BL",
+        "G8-ORCHARDGUARDS"
+      ]
+    },
+    {
+      "name": "Radiant Messengers",
+      "tier": "B",
+      "authority": "B",
+      "type": "Recovery",
+      "stats": {
+        "Str": 0,
+        "Mag": 2,
+        "Spd": 0,
+        "Dex": 0,
+        "Def": 0,
+        "Res": 2,
+        "Lck": 2,
+        "Cha": 7
+      },
+      "gambit": {
+        "name": "Splash Recover",
+        "kind": "support (heal/cure)?",
+        "might": null,
+        "hit": null,
+        "range": null,
+        "area": null,
+        "uses": null,
+        "effect": null
+      },
+      "where": [
+        {
+          "source": "recruit",
+          "location": "Ribeira",
+          "region": null,
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Shama Port",
+          "region": null,
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Messalina Orchards",
+          "region": null,
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Daimon",
+          "region": null,
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Baina Oasis",
+          "region": null,
+          "chapter": null,
+          "route": "Theodora"
+        }
+      ],
+      "description": "Renowned clergy.",
+      "notes": null,
+      "sources": [
+        "G8-BL",
+        "G8-RADIANTMESSENG"
+      ]
+    },
+    {
+      "name": "Secret-Art Wielders",
+      "tier": "B",
+      "authority": "B",
+      "type": "Recovery",
+      "stats": {
+        "Str": 0,
+        "Mag": 2,
+        "Spd": 0,
+        "Dex": 0,
+        "Def": 0,
+        "Res": 3,
+        "Lck": 1,
+        "Cha": 7
+      },
+      "gambit": {
+        "name": "Complete Recovery",
+        "kind": "support (heal/cure)?",
+        "might": null,
+        "hit": null,
+        "range": null,
+        "area": null,
+        "uses": null,
+        "effect": null
+      },
+      "where": [
+        {
+          "source": "recruit",
+          "location": "Bombae",
+          "region": null,
+          "chapter": null,
+          "route": "Theodora"
+        }
+      ],
+      "description": "Inheritors of secret arts in the hidden village who use White Magic.",
+      "notes": null,
+      "sources": [
+        "G8-BL",
+        "G8-SECRETARTWIELD"
+      ]
+    },
+    {
+      "name": "Shadow Mages",
+      "tier": "B",
+      "authority": "B",
+      "type": "Mys",
+      "stats": {
+        "Str": 0,
+        "Mag": 3,
+        "Spd": 0,
+        "Dex": 0,
+        "Def": 0,
+        "Res": 3,
+        "Lck": 0,
+        "Cha": 7
+      },
+      "gambit": {
+        "name": "Scattering Ice",
+        "kind": "offensive?",
+        "might": null,
+        "hit": null,
+        "range": null,
+        "area": null,
+        "uses": null,
+        "effect": null
+      },
+      "where": [
+        {
+          "source": "recruit",
+          "location": "Kassite",
+          "region": null,
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Shama Port",
+          "region": null,
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Osiris",
+          "region": null,
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Raivo Port",
+          "region": null,
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Twalinn",
+          "region": null,
+          "chapter": null,
+          "route": "Theodora"
+        }
+      ],
+      "description": "Students of black magic who know the subject's darkest depths.",
+      "notes": null,
+      "sources": [
+        "G8-BL",
+        "G8-SHADOWMAGES"
+      ]
+    },
+    {
+      "name": "Silver-Shield Guard",
+      "tier": "B",
+      "authority": "B",
+      "type": "Obstructor",
+      "stats": {
+        "Str": 0,
+        "Mag": 0,
+        "Spd": 0,
+        "Dex": 0,
+        "Def": 3,
+        "Res": 3,
+        "Lck": 0,
+        "Cha": 7
+      },
+      "gambit": {
+        "name": "Tri-Front Formation+",
+        "kind": "formation (effect unknown)",
+        "might": null,
+        "hit": null,
+        "range": null,
+        "area": null,
+        "uses": null,
+        "effect": null
+      },
+      "where": [
+        {
+          "source": "recruit",
+          "location": "Megaira",
+          "region": "Saramis",
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Callianeira Port",
+          "region": "Elektra",
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Barsk Post Town",
+          "region": null,
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Whill",
+          "region": null,
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Benetnasch",
+          "region": null,
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Mons",
+          "region": null,
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Zoste",
+          "region": null,
+          "chapter": null,
+          "route": "Theodora"
+        }
+      ],
+      "description": "Heavily armored soldiers who combine to form an iron wall.",
+      "notes": null,
+      "sources": [
+        "G8-BL",
+        "G8-SILVERSHIELDGU"
+      ]
+    },
+    {
+      "name": "Special Cavalry",
+      "tier": "B",
+      "authority": "B",
+      "type": "Phys",
+      "stats": {
+        "Str": 3,
+        "Mag": 0,
+        "Spd": 1,
+        "Dex": 0,
+        "Def": 2,
+        "Res": 0,
+        "Lck": 0,
+        "Cha": 7
+      },
+      "gambit": {
+        "name": "Line of Lances",
+        "kind": "offensive?",
+        "might": null,
+        "hit": null,
+        "range": null,
+        "area": null,
+        "uses": null,
+        "effect": null
+      },
+      "where": [
+        {
+          "source": "recruit",
+          "location": "Grand Aragon",
+          "region": "Arago",
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Aguiño",
+          "region": null,
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Callianeira Port",
+          "region": "Elektra",
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Yaaman",
+          "region": null,
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Da Mina",
+          "region": null,
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Breston",
+          "region": "Brezarant",
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Regia",
+          "region": "Elektra",
+          "chapter": null,
+          "route": "Theodora"
+        }
+      ],
+      "description": "Experienced spear-using knights.",
+      "notes": null,
+      "sources": [
+        "G8-BL",
+        "G8-SPECIALCAVALRY"
+      ]
+    },
+    {
+      "name": "Troupe of Aesobos",
+      "tier": "B",
+      "authority": "B",
+      "type": "Recovery",
+      "stats": {
+        "Str": 0,
+        "Mag": 2,
+        "Spd": 0,
+        "Dex": 0,
+        "Def": 0,
+        "Res": 1,
+        "Lck": 3,
+        "Cha": 7
+      },
+      "gambit": {
+        "name": "Extensive Recovery",
+        "kind": "support (heal/cure)?",
+        "might": null,
+        "hit": null,
+        "range": null,
+        "area": null,
+        "uses": null,
+        "effect": null
+      },
+      "where": [
+        {
+          "source": "recruit",
+          "location": "Ribeira",
+          "region": null,
+          "chapter": null,
+          "route": "Theodora"
+        }
+      ],
+      "description": "Circus permormers—priests—who give audiences laughter and solace.",
+      "notes": null,
+      "sources": [
+        "G8-BL",
+        "G8-TROUPEOFAESOBO"
+      ]
+    },
+    {
+      "name": "Uplifted Hexers",
+      "tier": "B",
+      "authority": "B",
+      "type": "Mys",
+      "stats": {
+        "Str": 0,
+        "Mag": 3,
+        "Spd": 0,
+        "Dex": 0,
+        "Def": 0,
+        "Res": 2,
+        "Lck": 1,
+        "Cha": 7
+      },
+      "gambit": {
+        "name": "Encircling Ice",
+        "kind": "offensive?",
+        "might": null,
+        "hit": null,
+        "range": null,
+        "area": null,
+        "uses": null,
+        "effect": null
+      },
+      "where": [
+        {
+          "source": "recruit",
+          "location": "Fina",
+          "region": null,
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Kassite",
+          "region": null,
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Osiris",
+          "region": null,
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Port of Pandora",
+          "region": null,
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Twalinn",
+          "region": null,
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Benetnasch",
+          "region": null,
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Niiza Port",
+          "region": null,
+          "chapter": null,
+          "route": "Theodora"
+        }
+      ],
+      "description": "Mages of profound ability.",
+      "notes": null,
+      "sources": [
+        "G8-BL",
+        "G8-UPLIFTEDHEXERS"
+      ]
+    },
+    {
+      "name": "Antiquity Seekers",
+      "tier": "A",
+      "authority": "A",
+      "type": "Recovery",
+      "stats": {
+        "Str": 0,
+        "Mag": 3,
+        "Spd": 0,
+        "Dex": 0,
+        "Def": 1,
+        "Res": 3,
+        "Lck": 1,
+        "Cha": 8
+      },
+      "gambit": {
+        "name": "Wave Recovery",
+        "kind": "support (heal/cure)?",
+        "might": null,
+        "hit": null,
+        "range": null,
+        "area": null,
+        "uses": null,
+        "effect": null
+      },
+      "where": [
+        {
+          "source": "recruit",
+          "location": "Shama Port",
+          "region": null,
+          "chapter": null,
+          "route": "Theodora"
+        }
+      ],
+      "description": "Clergy, searching for the legendary ancient kingdom of Solomon.",
+      "notes": null,
+      "sources": [
+        "G8-BL",
+        "G8-ANTIQUITYSEEKE"
+      ]
+    },
+    {
+      "name": "Asherah Warriors",
+      "tier": "A",
+      "authority": "A",
+      "type": "Obstructor",
+      "stats": {
+        "Str": 0,
+        "Mag": 0,
+        "Spd": 0,
+        "Dex": 3,
+        "Def": 2,
+        "Res": 3,
+        "Lck": 0,
+        "Cha": 8
+      },
+      "gambit": {
+        "name": "Divided Formation",
+        "kind": "formation (effect unknown)",
+        "might": null,
+        "hit": null,
+        "range": null,
+        "area": null,
+        "uses": null,
+        "effect": null
+      },
+      "where": [
+        {
+          "source": "recruit",
+          "location": "Whill",
+          "region": null,
+          "chapter": null,
+          "route": "Theodora"
+        }
+      ],
+      "description": "Heavily armored warriors of a clan that lives on Mount Orgus.",
+      "notes": null,
+      "sources": [
+        "G8-BL",
+        "G8-ASHERAHWARRIOR"
+      ]
+    },
+    {
+      "name": "Bai Ze Squad",
+      "tier": "A",
+      "authority": "A",
+      "type": null,
+      "stats": null,
+      "gambit": {
+        "name": null,
+        "kind": null,
+        "might": null,
+        "hit": null,
+        "range": null,
+        "area": null,
+        "uses": null,
+        "effect": null
+      },
+      "where": [],
+      "description": null,
+      "notes": "Name and tier only (Game8 list, gambit TBD). No page, stats or location. One of seven beast-named A squads ('allowed to raise Dagda's banner').",
+      "sources": [
+        "G8-BL"
+      ]
+    },
+    {
+      "name": "Brigid Spirit Squad",
+      "tier": "A",
+      "authority": "A",
+      "type": "Mys",
+      "stats": {
+        "Str": 0,
+        "Mag": 3,
+        "Spd": 1,
+        "Dex": 0,
+        "Def": 0,
+        "Res": 3,
+        "Lck": 1,
+        "Cha": 8
+      },
+      "gambit": {
+        "name": "Lightning Domain",
+        "kind": "offensive?",
+        "might": null,
+        "hit": null,
+        "range": null,
+        "area": null,
+        "uses": null,
+        "effect": null
+      },
+      "where": [
+        {
+          "source": "recruit",
+          "location": "Niiza Port",
+          "region": null,
+          "chapter": null,
+          "route": "Theodora"
+        }
+      ],
+      "description": "Mages from the Brigid archipelago.",
+      "notes": null,
+      "sources": [
+        "G8-BL",
+        "G8-BRIGIDSPIRITSQ"
+      ]
+    },
+    {
+      "name": "Divine-Shield Guard",
+      "tier": "A",
+      "authority": "A",
+      "type": "Obstructor",
+      "stats": {
+        "Str": 0,
+        "Mag": 0,
+        "Spd": 0,
+        "Dex": 3,
+        "Def": 3,
+        "Res": 2,
+        "Lck": 0,
+        "Cha": 8
+      },
+      "gambit": {
+        "name": "Tri-Front Formation+",
+        "kind": "formation (effect unknown)",
+        "might": null,
+        "hit": null,
+        "range": null,
+        "area": null,
+        "uses": null,
+        "effect": null
+      },
+      "where": [
+        {
+          "source": "recruit",
+          "location": "Messalina Orchards",
+          "region": null,
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Callianeira Port",
+          "region": "Elektra",
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Port of Pandora",
+          "region": null,
+          "chapter": null,
+          "route": "Theodora"
+        }
+      ],
+      "description": "Heavily armored soldiers boasting supreme defense.",
+      "notes": null,
+      "sources": [
+        "G8-BL",
+        "G8-DIVINESHIELDGU"
+      ]
+    },
+    {
+      "name": "Fenghuang Squad",
+      "tier": "A",
+      "authority": "A",
+      "type": null,
+      "stats": null,
+      "gambit": {
+        "name": null,
+        "kind": null,
+        "might": null,
+        "hit": null,
+        "range": null,
+        "area": null,
+        "uses": null,
+        "effect": null
+      },
+      "where": [],
+      "description": null,
+      "notes": "Name and tier only (Game8 list, gambit TBD). No page, stats or location. One of seven beast-named A squads ('allowed to raise Dagda's banner').",
+      "sources": [
+        "G8-BL"
+      ]
+    },
+    {
+      "name": "Fists of Black Smoke",
+      "tier": "A",
+      "authority": "A",
+      "type": "Phys",
+      "stats": {
+        "Str": 3,
+        "Mag": 0,
+        "Spd": 2,
+        "Dex": 0,
+        "Def": 3,
+        "Res": 0,
+        "Lck": 0,
+        "Cha": 9
+      },
+      "gambit": {
+        "name": "Stampede",
+        "kind": "offensive?",
+        "might": null,
+        "hit": null,
+        "range": null,
+        "area": null,
+        "uses": null,
+        "effect": null
+      },
+      "where": [
+        {
+          "source": "recruit",
+          "location": "Da Mina",
+          "region": null,
+          "chapter": null,
+          "route": "Theodora"
+        }
+      ],
+      "description": "Former blacksmiths, now warriors.",
+      "notes": null,
+      "sources": [
+        "G8-BL",
+        "G8-FISTSOFBLACKSM"
+      ]
+    },
+    {
+      "name": "Headsmen",
+      "tier": "A",
+      "authority": "A",
+      "type": "Obstructor",
+      "stats": {
+        "Str": 0,
+        "Mag": 0,
+        "Spd": 3,
+        "Dex": 3,
+        "Def": 0,
+        "Res": 2,
+        "Lck": 0,
+        "Cha": 8
+      },
+      "gambit": {
+        "name": "Fortress Formation",
+        "kind": "formation (effect unknown)",
+        "might": null,
+        "hit": null,
+        "range": null,
+        "area": null,
+        "uses": null,
+        "effect": null
+      },
+      "where": [
+        {
+          "source": "recruit",
+          "location": "Benetnasch",
+          "region": null,
+          "chapter": null,
+          "route": "Theodora"
+        }
+      ],
+      "description": "Heavily armored soldiers who perform rites at an ancient execution site.",
+      "notes": "Game8 spells the settlement 'Benetsnatch'; read as Benetnasch.",
+      "sources": [
+        "G8-BL",
+        "G8-HEADSMEN"
+      ]
+    },
+    {
+      "name": "Hundun Squad",
+      "tier": "A",
+      "authority": "A",
+      "type": null,
+      "stats": null,
+      "gambit": {
+        "name": null,
+        "kind": null,
+        "might": null,
+        "hit": null,
+        "range": null,
+        "area": null,
+        "uses": null,
+        "effect": null
+      },
+      "where": [],
+      "description": null,
+      "notes": "Name and tier only (Game8 list, gambit TBD). No page, stats or location. One of seven beast-named A squads ('allowed to raise Dagda's banner').",
+      "sources": [
+        "G8-BL"
+      ]
+    },
+    {
+      "name": "Linggui Squad",
+      "tier": "A",
+      "authority": "A",
+      "type": "Phys",
+      "stats": {
+        "Str": 0,
+        "Mag": 0,
+        "Spd": 0,
+        "Dex": 3,
+        "Def": 2,
+        "Res": 3,
+        "Lck": 0,
+        "Cha": 8
+      },
+      "gambit": {
+        "name": "Vertical Formation+",
+        "kind": "offensive?",
+        "might": null,
+        "hit": null,
+        "range": null,
+        "area": null,
+        "uses": null,
+        "effect": null
+      },
+      "where": [
+        {
+          "source": "recruit",
+          "location": "Megaira",
+          "region": "Saramis",
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Zoste",
+          "region": null,
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Mons",
+          "region": null,
+          "chapter": null,
+          "route": "Theodora"
+        }
+      ],
+      "description": "Specially chosen, heavily armored soldiers allowed to raise Dagda's banner.",
+      "notes": "One of seven beast-named A squads ('allowed to raise Dagda's banner').",
+      "sources": [
+        "G8-BL",
+        "G8-LINGGUISQUAD"
+      ]
+    },
+    {
+      "name": "Qilin Squad",
+      "tier": "A",
+      "authority": "A",
+      "type": null,
+      "stats": null,
+      "gambit": {
+        "name": null,
+        "kind": null,
+        "might": null,
+        "hit": null,
+        "range": null,
+        "area": null,
+        "uses": null,
+        "effect": null
+      },
+      "where": [
+        {
+          "source": "recruit",
+          "location": "Regia",
+          "region": "Elektra",
+          "chapter": null,
+          "route": "Theodora"
+        }
+      ],
+      "description": null,
+      "notes": "Only Fandom's Elektra page lists it (Regia, A). No Game8 page yet. One of seven beast-named A squads ('allowed to raise Dagda's banner').",
+      "sources": [
+        "G8-BL",
+        "FAN-EL"
+      ]
+    },
+    {
+      "name": "Shen Yang Squad",
+      "tier": "A",
+      "authority": "A",
+      "type": "Recovery",
+      "stats": {
+        "Str": 0,
+        "Mag": 3,
+        "Spd": 0,
+        "Dex": 0,
+        "Def": 0,
+        "Res": 2,
+        "Lck": 3,
+        "Cha": 8
+      },
+      "gambit": {
+        "name": "Resonance Recover",
+        "kind": "support (heal/cure)?",
+        "might": null,
+        "hit": null,
+        "range": null,
+        "area": null,
+        "uses": null,
+        "effect": null
+      },
+      "where": [
+        {
+          "source": "recruit",
+          "location": "Ribeira",
+          "region": null,
+          "chapter": null,
+          "route": "Theodora"
+        },
+        {
+          "source": "recruit",
+          "location": "Daimon",
+          "region": null,
+          "chapter": null,
+          "route": "Theodora"
+        }
+      ],
+      "description": "Priests so attuned that they are allowed to raise Dagda's banner.",
+      "notes": "One of seven beast-named A squads ('allowed to raise Dagda's banner').",
+      "sources": [
+        "G8-BL",
+        "G8-SHENYANGSQUAD"
+      ]
+    },
+    {
+      "name": "Yin Squad",
+      "tier": "A",
+      "authority": "A",
+      "type": null,
+      "stats": null,
+      "gambit": {
+        "name": null,
+        "kind": null,
+        "might": null,
+        "hit": null,
+        "range": null,
+        "area": null,
+        "uses": null,
+        "effect": null
+      },
+      "where": [],
+      "description": null,
+      "notes": "Name and tier only (Game8 list, gambit TBD). No page, stats or location. One of seven beast-named A squads ('allowed to raise Dagda's banner').",
+      "sources": [
+        "G8-BL"
+      ]
+    }
+  ],
+  "gambits": [
+    {
+      "name": "All-Out Offensive",
+      "kind": "offensive?",
+      "battalions": [
+        "Alecto Morningstars (C)"
+      ],
+      "might": null,
+      "hit": null,
+      "range": null,
+      "area": null,
+      "uses": null,
+      "effect": null,
+      "sources": [
+        "G8-BL"
+      ]
+    },
+    {
+      "name": "Blaze",
+      "kind": "offensive?",
+      "battalions": [
+        "Twin Jewel Fans (C)"
+      ],
+      "might": null,
+      "hit": null,
+      "range": null,
+      "area": null,
+      "uses": null,
+      "effect": null,
+      "sources": [
+        "G8-BL"
+      ]
+    },
+    {
+      "name": "Bulwark Formation",
+      "kind": "formation (effect unknown)",
+      "battalions": [
+        "Armored Sentinels (D)"
+      ],
+      "might": null,
+      "hit": null,
+      "range": null,
+      "area": null,
+      "uses": null,
+      "effect": null,
+      "sources": [
+        "G8-BL"
+      ]
+    },
+    {
+      "name": "Bulwark Formation+",
+      "kind": "formation (effect unknown)",
+      "battalions": [
+        "Noble Bodyguards (B)"
+      ],
+      "might": null,
+      "hit": null,
+      "range": null,
+      "area": null,
+      "uses": null,
+      "effect": null,
+      "sources": [
+        "G8-BL"
+      ]
+    },
+    {
+      "name": "Column Recovery",
+      "kind": "support (heal/cure)?",
+      "battalions": [
+        "Fighting Clergy (D)"
+      ],
+      "might": null,
+      "hit": null,
+      "range": null,
+      "area": null,
+      "uses": null,
+      "effect": null,
+      "sources": [
+        "G8-BL"
+      ]
+    },
+    {
+      "name": "Complete Recovery",
+      "kind": "support (heal/cure)?",
+      "battalions": [
+        "Secret-Art Wielders (B)"
+      ],
+      "might": null,
+      "hit": null,
+      "range": null,
+      "area": null,
+      "uses": null,
+      "effect": null,
+      "sources": [
+        "G8-BL"
+      ]
+    },
+    {
+      "name": "Distant Recovery",
+      "kind": "support (heal/cure)?",
+      "battalions": [
+        "Aurora's Stargazers (B?)"
+      ],
+      "might": null,
+      "hit": null,
+      "range": null,
+      "area": null,
+      "uses": null,
+      "effect": null,
+      "sources": [
+        "G8-BL"
+      ]
+    },
+    {
+      "name": "Disturb-Flier Tactics",
+      "kind": "offensive?",
+      "battalions": [
+        "Breza's Bau Squad (B)",
+        "Mahon Twilighters (B)"
+      ],
+      "might": null,
+      "hit": null,
+      "range": null,
+      "area": null,
+      "uses": null,
+      "effect": null,
+      "sources": [
+        "G8-BL"
+      ]
+    },
+    {
+      "name": "Disturbing Deadeye",
+      "kind": "offensive?",
+      "battalions": [
+        "Regia Breeze Co. (E)"
+      ],
+      "might": null,
+      "hit": null,
+      "range": null,
+      "area": null,
+      "uses": null,
+      "effect": null,
+      "sources": [
+        "G8-BL"
+      ]
+    },
+    {
+      "name": "Disturbing Strike",
+      "kind": "offensive?",
+      "battalions": [
+        "Lyoshan Bandits (D)"
+      ],
+      "might": null,
+      "hit": null,
+      "range": null,
+      "area": "3-tile target box?",
+      "uses": "2?",
+      "effect": "Capture forecast: 7 dmg, 94 Hit, 0 Crit vs 3 foes.",
+      "sources": [
+        "G8-BL",
+        "TGW-GB"
+      ]
+    },
+    {
+      "name": "Disturbing Volley",
+      "kind": "offensive?",
+      "battalions": [
+        "Novice Hunters (E)",
+        "Hunter-Drifters (D)",
+        "Adept Archers (C)",
+        "Elite Hunters (B)"
+      ],
+      "might": null,
+      "hit": null,
+      "range": "2 tiles ahead",
+      "area": "horizontal line of 3",
+      "uses": null,
+      "effect": "Effective+ vs fliers. On hit: Immobilize.",
+      "sources": [
+        "G8-BL",
+        "IGN-T4",
+        "FEW-DV",
+        "TGW-GB"
+      ]
+    },
+    {
+      "name": "Divided Formation",
+      "kind": "formation (effect unknown)",
+      "battalions": [
+        "Asherah Warriors (A)"
+      ],
+      "might": null,
+      "hit": null,
+      "range": null,
+      "area": null,
+      "uses": null,
+      "effect": null,
+      "sources": [
+        "G8-BL"
+      ]
+    },
+    {
+      "name": "Dual-Wing Formation",
+      "kind": "formation (effect unknown)",
+      "battalions": [
+        "Salt Lake Protectors (E)"
+      ],
+      "might": null,
+      "hit": null,
+      "range": null,
+      "area": null,
+      "uses": null,
+      "effect": null,
+      "sources": [
+        "G8-BL"
+      ]
+    },
+    {
+      "name": "Encircling Flames",
+      "kind": "offensive?",
+      "battalions": [
+        "Lesser Mages (E)",
+        "Mage Cantors (D)"
+      ],
+      "might": null,
+      "hit": null,
+      "range": null,
+      "area": null,
+      "uses": null,
+      "effect": null,
+      "sources": [
+        "G8-BL"
+      ]
+    },
+    {
+      "name": "Encircling Ice",
+      "kind": "offensive?",
+      "battalions": [
+        "Elevated Mages (C)",
+        "Uplifted Hexers (B)"
+      ],
+      "might": null,
+      "hit": null,
+      "range": null,
+      "area": null,
+      "uses": null,
+      "effect": null,
+      "sources": [
+        "G8-BL"
+      ]
+    },
+    {
+      "name": "Extensive Recovery",
+      "kind": "support (heal/cure)?",
+      "battalions": [
+        "Troupe of Aesobos (B)"
+      ],
+      "might": null,
+      "hit": null,
+      "range": null,
+      "area": null,
+      "uses": null,
+      "effect": null,
+      "sources": [
+        "G8-BL"
+      ]
+    },
+    {
+      "name": "Fireguard",
+      "kind": "offensive?",
+      "battalions": [
+        "Twalinn Sun Squad (D)"
+      ],
+      "might": null,
+      "hit": null,
+      "range": null,
+      "area": null,
+      "uses": null,
+      "effect": null,
+      "sources": [
+        "G8-BL"
+      ]
+    },
+    {
+      "name": "Flank Formation+",
+      "kind": "formation (effect unknown)",
+      "battalions": [
+        "Lions of Megaira (B)"
+      ],
+      "might": null,
+      "hit": null,
+      "range": null,
+      "area": null,
+      "uses": null,
+      "effect": null,
+      "sources": [
+        "G8-BL"
+      ]
+    },
+    {
+      "name": "Flank-Guard Formation",
+      "kind": "formation (effect unknown)",
+      "battalions": [
+        "Vandahl Security (D)"
+      ],
+      "might": null,
+      "hit": null,
+      "range": null,
+      "area": null,
+      "uses": null,
+      "effect": null,
+      "sources": [
+        "G8-BL"
+      ]
+    },
+    {
+      "name": "Fortress Formation",
+      "kind": "formation (effect unknown)",
+      "battalions": [
+        "Headsmen (A)"
+      ],
+      "might": null,
+      "hit": null,
+      "range": null,
+      "area": null,
+      "uses": null,
+      "effect": null,
+      "sources": [
+        "G8-BL"
+      ]
+    },
+    {
+      "name": "Group Detoxification",
+      "kind": "support (heal/cure)?",
+      "battalions": [
+        "Holy Apprentices (E)",
+        "Holy Disciples (C)"
+      ],
+      "might": null,
+      "hit": null,
+      "range": null,
+      "area": null,
+      "uses": null,
+      "effect": "Cures poison on allies in its area.",
+      "sources": [
+        "G8-BL",
+        "G8-100"
+      ]
+    },
+    {
+      "name": "Ice Domain",
+      "kind": "offensive?",
+      "battalions": [
+        "Kalla's Divas (B)"
+      ],
+      "might": null,
+      "hit": null,
+      "range": null,
+      "area": null,
+      "uses": null,
+      "effect": null,
+      "sources": [
+        "G8-BL"
+      ]
+    },
+    {
+      "name": "Iceguard",
+      "kind": "offensive?",
+      "battalions": [
+        "Aragonian Mages (C)"
+      ],
+      "might": null,
+      "hit": null,
+      "range": null,
+      "area": null,
+      "uses": null,
+      "effect": null,
+      "sources": [
+        "G8-BL"
+      ]
+    },
+    {
+      "name": "Joint Recovery",
+      "kind": "support (heal/cure)?",
+      "battalions": [
+        "Jurah's Librarians (D)"
+      ],
+      "might": null,
+      "hit": null,
+      "range": null,
+      "area": null,
+      "uses": null,
+      "effect": null,
+      "sources": [
+        "G8-BL"
+      ]
+    },
+    {
+      "name": "Lightning Domain",
+      "kind": "offensive?",
+      "battalions": [
+        "Brigid Spirit Squad (A)"
+      ],
+      "might": null,
+      "hit": null,
+      "range": null,
+      "area": null,
+      "uses": null,
+      "effect": null,
+      "sources": [
+        "G8-BL"
+      ]
+    },
+    {
+      "name": "Line of Lances",
+      "kind": "offensive?",
+      "battalions": [
+        "Rookie Soldiers (E)",
+        "Model Soldiers (D)",
+        "Advanced Warriors (C)",
+        "Special Cavalry (B)"
+      ],
+      "might": null,
+      "hit": null,
+      "range": null,
+      "area": null,
+      "uses": null,
+      "effect": null,
+      "sources": [
+        "G8-BL"
+      ]
+    },
+    {
+      "name": "Magic-Ward Tactics",
+      "kind": "offensive?",
+      "battalions": [
+        "Aegina Monks (B)"
+      ],
+      "might": null,
+      "hit": null,
+      "range": null,
+      "area": null,
+      "uses": null,
+      "effect": null,
+      "sources": [
+        "G8-BL"
+      ]
+    },
+    {
+      "name": "Mixed Poison Recovery",
+      "kind": "support (heal/cure)?",
+      "battalions": [
+        "Fina Fishing Guild (C)"
+      ],
+      "might": null,
+      "hit": null,
+      "range": null,
+      "area": null,
+      "uses": null,
+      "effect": null,
+      "sources": [
+        "G8-BL"
+      ]
+    },
+    {
+      "name": "Palisade Formation",
+      "kind": "formation (effect unknown)",
+      "battalions": [
+        "Pandora Port Guard (C)"
+      ],
+      "might": null,
+      "hit": null,
+      "range": null,
+      "area": null,
+      "uses": null,
+      "effect": null,
+      "sources": [
+        "G8-BL"
+      ]
+    },
+    {
+      "name": "Poison Tactics",
+      "kind": "offensive?",
+      "battalions": [
+        "Yaaman Alliance (C)"
+      ],
+      "might": null,
+      "hit": null,
+      "range": null,
+      "area": null,
+      "uses": null,
+      "effect": null,
+      "sources": [
+        "G8-BL"
+      ]
+    },
+    {
+      "name": "Resonance Recover",
+      "kind": "support (heal/cure)?",
+      "battalions": [
+        "Shen Yang Squad (A)"
+      ],
+      "might": null,
+      "hit": null,
+      "range": null,
+      "area": null,
+      "uses": null,
+      "effect": null,
+      "sources": [
+        "G8-BL"
+      ]
+    },
+    {
+      "name": "Scattered Flames",
+      "kind": "offensive?",
+      "battalions": [
+        "Mage Pupils (E)",
+        "Blackfire Mages (D)"
+      ],
+      "might": null,
+      "hit": null,
+      "range": null,
+      "area": null,
+      "uses": null,
+      "effect": null,
+      "sources": [
+        "G8-BL"
+      ]
+    },
+    {
+      "name": "Scattering Ice",
+      "kind": "offensive?",
+      "battalions": [
+        "Mage Instructors (C)",
+        "Shadow Mages (B)"
+      ],
+      "might": null,
+      "hit": null,
+      "range": null,
+      "area": null,
+      "uses": null,
+      "effect": null,
+      "sources": [
+        "G8-BL"
+      ]
+    },
+    {
+      "name": "Splash Recover",
+      "kind": "support (heal/cure)?",
+      "battalions": [
+        "Priest Trainees (E)",
+        "Pure Priests (D)",
+        "Elevated Priests (C)",
+        "Radiant Messengers (B)"
+      ],
+      "might": null,
+      "hit": null,
+      "range": null,
+      "area": null,
+      "uses": null,
+      "effect": null,
+      "sources": [
+        "G8-BL"
+      ]
+    },
+    {
+      "name": "Stampede",
+      "kind": "offensive?",
+      "battalions": [
+        "Fists of Black Smoke (A)"
+      ],
+      "might": null,
+      "hit": null,
+      "range": null,
+      "area": null,
+      "uses": null,
+      "effect": null,
+      "sources": [
+        "G8-BL"
+      ]
+    },
+    {
+      "name": "Tri-Front Formation",
+      "kind": "formation (effect unknown)",
+      "battalions": [
+        "Bronze-Shield Guard (E)",
+        "Iron-Shield Fighters (D)",
+        "Steel-Shield Guard (C)"
+      ],
+      "might": null,
+      "hit": null,
+      "range": null,
+      "area": null,
+      "uses": null,
+      "effect": null,
+      "sources": [
+        "G8-BL"
+      ]
+    },
+    {
+      "name": "Tri-Front Formation+",
+      "kind": "formation (effect unknown)",
+      "battalions": [
+        "Silver-Shield Guard (B)",
+        "Divine-Shield Guard (A)"
+      ],
+      "might": null,
+      "hit": null,
+      "range": null,
+      "area": null,
+      "uses": null,
+      "effect": null,
+      "sources": [
+        "G8-BL"
+      ]
+    },
+    {
+      "name": "Two-Wall Formation",
+      "kind": "formation (effect unknown)",
+      "battalions": [
+        "Mons Iron Squad (C)"
+      ],
+      "might": null,
+      "hit": null,
+      "range": null,
+      "area": null,
+      "uses": null,
+      "effect": null,
+      "sources": [
+        "G8-BL"
+      ]
+    },
+    {
+      "name": "Vertical Formation",
+      "kind": "formation (effect unknown)",
+      "battalions": [
+        "Rookie Vanguard (E)",
+        "Veteran Sentinels (C)"
+      ],
+      "might": null,
+      "hit": null,
+      "range": null,
+      "area": null,
+      "uses": null,
+      "effect": null,
+      "sources": [
+        "G8-BL"
+      ]
+    },
+    {
+      "name": "Vertical Formation+",
+      "kind": "offensive?",
+      "battalions": [
+        "Linggui Squad (A)"
+      ],
+      "might": null,
+      "hit": null,
+      "range": null,
+      "area": null,
+      "uses": null,
+      "effect": null,
+      "sources": [
+        "G8-BL"
+      ]
+    },
+    {
+      "name": "Wave Recovery",
+      "kind": "support (heal/cure)?",
+      "battalions": [
+        "Antiquity Seekers (A)"
+      ],
+      "might": null,
+      "hit": null,
+      "range": null,
+      "area": null,
+      "uses": null,
+      "effect": null,
+      "sources": [
+        "G8-BL"
+      ]
+    },
+    {
+      "name": "Wing Formation",
+      "kind": "formation (effect unknown)",
+      "battalions": [
+        "Orchard Guards (B)"
+      ],
+      "might": null,
+      "hit": null,
+      "range": null,
+      "area": null,
+      "uses": null,
+      "effect": null,
+      "sources": [
+        "G8-BL"
+      ]
+    }
+  ],
+  "gaps": [
+    "Gambit Mt, Hit, range, area shape and uses for every gambit except Disturbing Volley (shape) and one Disturbing Strike capture.",
+    "Effect of every Formation gambit (Obstructor type), the Domain gambits and Disturb-Flier/Magic-Ward/Poison Tactics.",
+    "Charm formula: how much Cha adds to gambit Hit or damage.",
+    "Whether battalions have endurance or can be depleted.",
+    "How many battalions can be deployed at once at Renown 1/5/7/9.",
+    "Recruit Soldiers turn cost and gold cost (only 'a few turns' / 'several turns').",
+    "Which tiers each town offers at each Renown level (when A tier first appears).",
+    "Troop points per tier at the Transport Chief.",
+    "Holy Clerics stats and gambit; Bai Ze, Fenghuang, Hundun, Qilin, Yin Squad stats, gambits and (except Qilin) locations.",
+    "Whether battalions work in Part II.",
+    "Which settlements Theodora can reach in each chapter (region for most settlements)."
+  ],
+  "conflicts": [
+    "Aurora's Stargazers: Game8 lists Skill Req B but D-sized bonuses (Mag+1 Res+2 Cha+4).",
+    "Regia pool: Fandom lists 6 battalions (adds Qilin Squad A); Game8 pages put about 14 battalions at Regia and no Qilin page exists.",
+    "Battalion tutorial chapter: IGN and our walkthrough place it in Ch 4; RPG Site's text reads as end of Ch 3/start of Ch 4. Kept Ch 4.",
+    "thegameswiki says no Authority requirement is recorded; Game8 publishes Skill Req for every battalion. Game8 kept."
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "route": "Theodora",
+  "ch": 4,
+  "action": {
+    "pick": "Group Drills",
+    "why": "Everyone sits near Lv 42; rank EXP for all 15 banks the A ranks the Part III Master exams ask for. Last chapter with facilities."
+  },
+  "blessings": [
+    {
+      "god": "Jurah",
+      "why": "Negates effective damage on the turn the Dragoons hit your fliers."
+    },
+    {
+      "god": "Kalla",
+      "why": "Avo +50 when the elephants charge the line."
+    }
+  ],
+  "deploy": {
+    "units": [
+      "Theodora",
+      "Ninae",
+      "Ultand",
+      "Tobias",
+      "Bonaventure",
+      "Sofia",
+      "Sirocco",
+      "Alexandra",
+      "Lysander",
+      "Loretta",
+      "Lilian",
+      "Nuzzuo",
+      "Nydine"
+    ],
+    "bench": [
+      "Noctula",
+      "Simon"
+    ],
+    "note": "13 slots: Lilian, Nuzzuo and Bonaventure's Cutting Gale for the Dragoons; Tobias's Triple Spike on elephants; Nydine rides out to the side Dragoons. Noctula and Simon sit (Group Drills still rank them)."
+  },
+  "missables": [
+    {
+      "id": "theodora-war-ch04-missables-facilities",
+      "kind": "timing",
+      "text": "Last chapter with facilities: spend every License, Support and the Army Action now.",
+      "lose": "Free exams and Supports until Part III",
+      "recover": "None in Part II"
+    }
+  ],
+  "people": [],
+  "tips": [
+    {
+      "text": "Advance slowly: reinforcements come from the south end of the bridge behind you"
+    },
+    {
+      "text": "Clear the side Dragoons first; they're limited"
+    },
+    {
+      "text": "Bait an elephant charge with a high-Move unit stepping in and out of its vision"
+    },
+    {
+      "text": "Gang up on Lind behind his elephants"
+    }
+  ]
+}

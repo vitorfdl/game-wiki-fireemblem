@@ -1,0 +1,501 @@
+{
+  "game": "Fire Emblem: Fortune's Weave",
+  "part": "II",
+  "title": "War",
+  "updated": "2026-10-10",
+  "sources": [
+    {
+      "key": "RPS-P2",
+      "name": "RPG Site: Part II War walkthrough",
+      "url": "https://www.rpgsite.net/guide/21325-fire-emblem-fortunes-weave-part-2-war-walkthrough"
+    },
+    {
+      "key": "RPS-SUB",
+      "name": "RPG Site: Part I subquest guide (no subquests in Part II)",
+      "url": "https://www.rpgsite.net/guide/21392-fire-emblem-fortunes-weave-part-1-subquest-guide-how-subquests-work-where-to-find"
+    },
+    {
+      "key": "G8-P2",
+      "name": "Game8: Part 2 War Arc hub",
+      "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/624554"
+    },
+    {
+      "key": "G8-P2C1",
+      "name": "Game8: Part 2 Ch 1 The Battle of Klytius Plains",
+      "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/624575"
+    },
+    {
+      "key": "G8-P2C2",
+      "name": "Game8: Part 2 Ch 2 Showdown at Agris Stronghold",
+      "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/624684"
+    },
+    {
+      "key": "G8-P2C3",
+      "name": "Game8: Part 2 Ch 3 Beyond the Salt Road",
+      "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/624688"
+    },
+    {
+      "key": "G8-P2C4",
+      "name": "Game8: Part 2 Ch 4 The Storming of Dagsion",
+      "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/624705"
+    },
+    {
+      "key": "G8-P2C5",
+      "name": "Game8: Part 2 Ch 5 Divine Emperor Dagda",
+      "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/624718"
+    },
+    {
+      "key": "G8-P2C6",
+      "name": "Game8: Part 2 Ch 6 The Underworld Incarnate",
+      "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/624743"
+    },
+    {
+      "key": "G8-RECRUIT",
+      "name": "Game8: All characters and playable units (recruit by Part)",
+      "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/618791"
+    },
+    {
+      "key": "IGN-P2C1",
+      "name": "IGN: Part 2 Chapter 1 walkthrough",
+      "url": "https://www.ign.com/wikis/fire-emblem-fortunes-weave/Part_2_Chapter_1_-_The_Battle_of_Klytius_Plains_Walkthrough"
+    }
+  ],
+  "conventions": {
+    "owner": "This file owns Part II structure, battles, recruits, guests and mechanics. Item drops are owned by weapons-and-items.json `where` rows (chapter \"Part II Ch N\"); the .md view lists them from there. Units are owned by site/src/data/characters.",
+    "unconfirmed": "A value ending in '?' is unconfirmed. Source conflicts live in open_questions, not in rows.",
+    "hero": "[Hero] is the Flame Lord whose War Path you play (Cai, Dietrich, Theodora or Leda). Theodora and Bertrand fight on every War Path."
+  },
+  "overview": {
+    "unlock": "Finish any Part I Path. The Strife Obelisk appears in the Obelisk Chamber.",
+    "per_lord": "Each Flame Lord runs their own War Path. A lord's Part I army reaches Part III only if that lord's War Path is done (or skipped).",
+    "skip": "After one full War Path, later ones can be Skipped: units go to Part III with some EXP, less EXP and Skill EXP than playing. Game8 advises playing all four for unit growth.",
+    "same_map_set": "The six chapters are the same for every lord; only dialogue and lord facilities change.",
+    "no_free_time": "No Free Time, World Map, shops, subquests or recruiting outside battles. Turns don't pass in Preparations; you can't leave base.",
+    "defeat": "Every battle: [Hero], Theodora or Bertrand falls.",
+    "deploy": "10 units in Ch 1, 13 from Ch 2 (Game8 boxes). If you deploy fewer than the cap, the game fills slots with temporary guests.",
+    "enemy_baseline": "Ch 1: 44 enemies at start, most Lv 35, all Advanced classes with Silver weapons, 8 with an HP reserve. New enemy classes: Dragoon (Bau rider), Dreadnought, Caladrius (Ornius rider, black magic), Cataphract.",
+    "ideal_tier": "Advanced classes with Da Mina weapons (Game8, every chapter).",
+    "sources": [
+      "RPS-P2",
+      "RPS-SUB",
+      "G8-P2",
+      "G8-P2C1",
+      "IGN-P2C1"
+    ]
+  },
+  "carryover": {
+    "into_part2": "Only items equipped on each unit come into Part II. Consumables can't be placed in a unit's inventory at the transfer screen. Unequipped Part I items wait in storage and return in Part III.",
+    "handouts": "Every chapter gives each unit 1 Concoction and 1 Antitoxin (full inventory sends them to storage) plus class weapons, usually +2 or +3. The handout weapons do not carry into Part III.",
+    "out_of_part2": "Units keep levels, classes and ranks into Part III. Drops (Vendetta, Angela, Dagda's Club, the +1 weapons) are re-sold by the Drifting Reliquary after a Part II clear (see weapons-and-items.json).",
+    "sources": [
+      "RPS-P2",
+      "G8-P2"
+    ]
+  },
+  "prep": {
+    "licenses": "Each chapter refills to 5 Beginner, 5 Specialty and 5 Advanced Licenses. Unused ones don't stack: spend them every chapter.",
+    "divine_sand": "Refills every chapter. Use Blessings in every battle.",
+    "facilities": [
+      {
+        "name": "Pale Raven's Perch",
+        "does": "Foresight and return to the Obelisk Chamber. No feeding."
+      },
+      {
+        "name": "Exam Proctor",
+        "does": "Exams with the free Licenses."
+      },
+      {
+        "name": "Temple Administrator",
+        "does": "Set Blessings."
+      },
+      {
+        "name": "Inn",
+        "does": "Support conversations. New ones open if Support was high enough in Part I."
+      },
+      {
+        "name": "Dispatch Officer",
+        "does": "One Army Action per chapter, then start the battle."
+      }
+    ],
+    "lord_facilities": [
+      {
+        "lord": "Cai",
+        "does": "Stable"
+      },
+      {
+        "lord": "Dietrich",
+        "does": "Temple Administrator also boosts Combat Arts and teaches Secrets"
+      },
+      {
+        "lord": "Leda",
+        "does": "Drink Vendor"
+      }
+    ],
+    "facilities_until": "Ch 4 is the last chapter with facilities. Ch 5 has none; Ch 6 has only the Pale Raven's Perch.",
+    "army_actions": [
+      {
+        "name": "Training Drills",
+        "does": "Raises weaker units' levels toward your stronger ones.",
+        "levels": {
+          "1": "37-38",
+          "2": "~40",
+          "3": "~41",
+          "4": "~42"
+        }
+      },
+      {
+        "name": "Group Drills",
+        "does": "Skill EXP to every unit's two main weapon skills."
+      },
+      {
+        "name": "Group Service",
+        "does": "Raises one god's Blessing level. Unavailable when all Blessings are maxed."
+      }
+    ],
+    "sources": [
+      "RPS-P2",
+      "G8-P2C1",
+      "G8-P2C4"
+    ]
+  },
+  "chapters": [
+    {
+      "ch": 1,
+      "name": "The Battle of Klytius Plains",
+      "prep": "Training Drills recommended: brings the army to Lv 37-38 so every recruit can take an Advanced exam.",
+      "battles": [
+        {
+          "name": "Struggle in Klytius",
+          "location": "Klytius Plains",
+          "max_units": 10,
+          "victory": "Defeat all enemy units.",
+          "suggested": {
+            "classes": [
+              "Cavalry"
+            ],
+            "items": [
+              "Da Mina Spear",
+              "Hammer"
+            ]
+          },
+          "enemies": [
+            "44 enemies at start, most Lv 35; 8 with an HP reserve",
+            "Three named enemies, all mounted (two in the center)",
+            "Creek on the field (enemy)",
+            "A Warrior on the west side"
+          ],
+          "guests": [
+            "Bertrand's Brezarant army, starting on the left/southwest lane"
+          ],
+          "mechanics": [
+            "Three-lane south side",
+            "Thickets give Avoid"
+          ],
+          "tips": [
+            "Split into three lanes; Bertrand's army holds the left",
+            "Anti-cavalry up the center",
+            "Merge left and center once the first wave falls",
+            "End turns on Thickets",
+            "Physic healers in range of the center"
+          ],
+          "sources": [
+            "RPS-P2",
+            "G8-P2C1",
+            "IGN-P2C1"
+          ]
+        }
+      ]
+    },
+    {
+      "ch": 2,
+      "name": "Showdown at Agris Stronghold",
+      "prep": "Training Drills bring the army to about Lv 40. Bring a flier to catch the southeast Ranger, plus mages and anti-cavalry.",
+      "battles": [
+        {
+          "name": "Taking Agris Stronghold",
+          "location": "Agris Stronghold",
+          "max_units": 13,
+          "victory": "Defeat Lind and Ianuarius.",
+          "suggested": {
+            "classes": [
+              "Flying",
+              "Cavalry"
+            ],
+            "items": []
+          },
+          "enemies": [
+            "Lind and Ianuarius in a corner",
+            "Strong cavalry and high-Def knights",
+            "Archers on Onagers (artillery)",
+            "Ranger, southeast: carries a drop, moves Turn 4 and flees north then off the east edge",
+            "Ranger, west: carries a drop, moves Turn 8 and flees"
+          ],
+          "reinforcements": "From the west, southeast and east sides throughout.",
+          "mechanics": [
+            "Select an enemy on an artillery tile to see its range",
+            "Forests give Avoid",
+            "Center cliff: fliers only"
+          ],
+          "tips": [
+            "3-4 strong units up the east path; the rest northwest to the center",
+            "Pincer the bosses from two sides",
+            "Kill the Onager archers first, then use the center with fliers",
+            "Leave a few units back for flank reinforcements"
+          ],
+          "recruits": [
+            {
+              "unit": "Creek",
+              "how": "Defeat him here. Joins only if \"My Late Sister's Accessory\" was done in Part I on this lord's route (Leda or Dietrich only). Usable from Ch 3.",
+              "missable": true
+            }
+          ],
+          "sources": [
+            "RPS-P2",
+            "G8-P2C2",
+            "G8-P2C3"
+          ]
+        }
+      ]
+    },
+    {
+      "ch": 3,
+      "name": "Beyond the Salt Road",
+      "prep": "Training Drills to about Lv 41. Several Physic users, tanks for chokepoints, fliers; spend the stacked Concoctions here. Kalla's Blessing Lv 3 helps.",
+      "battles": [
+        {
+          "name": "Grand Aragon Invaded",
+          "location": "Grand Aragon",
+          "max_units": 13,
+          "victory": "Defeat Gilchris.",
+          "suggested": {
+            "classes": [
+              "White-magic users"
+            ],
+            "items": [
+              "Physic"
+            ]
+          },
+          "enemies": [
+            "Gilchris (boss)",
+            "Nathan (enemy; recruitable)",
+            "Chariot archers",
+            "War elephants"
+          ],
+          "reinforcements": "Frequent, from the west and east ends of the main east-west road; continuous after a point.",
+          "mechanics": [
+            "Narrow alleys: hold chokepoints with armor, fire from range behind them",
+            "Elephants charge through blockades in 2-wide lanes",
+            "Crossing the north edge of the main east-west road makes Gilchris set fire tiles across the map (damage and slow)"
+          ],
+          "tips": [
+            "Push for Gilchris once the chokes hold; killing him ends the map",
+            "Fliers plus Blessings finish him before the fire spreads"
+          ],
+          "guests": [
+            "Aswan and Tahonia walk toward your lord. Talk to them to make them guests. Keep both alive: they join for good in Part III Fifth Section."
+          ],
+          "recruits": [
+            {
+              "unit": "Nathan",
+              "how": "Creek must land the killing blow on Nathan. Joins next chapter. No Creek, no Nathan.",
+              "missable": true
+            }
+          ],
+          "sources": [
+            "RPS-P2",
+            "G8-P2C3"
+          ]
+        }
+      ]
+    },
+    {
+      "ch": 4,
+      "name": "The Storming of Dagsion",
+      "prep": "Training Drills to about Lv 42. Bring 3-4 bow users. Last chapter with facilities.",
+      "battles": [
+        {
+          "name": "The Battle of Alcineus Span",
+          "location": "Alcineus Span",
+          "max_units": 13,
+          "victory": "Defeat Lind.",
+          "suggested": {
+            "classes": [
+              "Bow users"
+            ],
+            "items": [
+              "Da Mina Bow"
+            ]
+          },
+          "enemies": [
+            "Lind, behind war elephants at the top",
+            "Fliers, elephant riders, Ornius riders",
+            "Dragoons from the map sides (limited)"
+          ],
+          "reinforcements": "Heavy early: from the south section of the bridge behind you as you climb, plus Dragoons from the sides. They are limited.",
+          "mechanics": [
+            "Elephant charges are predictable and destroy barricades",
+            "Bait a charge with a high-Move unit stepping into its vision and back out"
+          ],
+          "tips": [
+            "Advance slowly at first; clear the side Dragoons before pushing",
+            "Clear the units around a charging elephant first",
+            "Gang up on Lind"
+          ],
+          "sources": [
+            "RPS-P2",
+            "G8-P2C4"
+          ]
+        }
+      ]
+    },
+    {
+      "ch": 5,
+      "name": "Divine Emperor Dagda",
+      "prep": "No facilities. Explore Dagsion; you can only move toward Dagda's Temple at the top of Hightown. Bring magic users (Game8: Blizzard) or Salamanders, a dodger to bait artillery, and a Longbow for Deadeye.",
+      "battles": [
+        {
+          "name": "Battle vs. Dagda the Great",
+          "location": "Dagsion",
+          "max_units": 13,
+          "victory": "Defeat Dagda.",
+          "suggested": {
+            "classes": [
+              "Black-magic users"
+            ],
+            "items": [
+              "Blizzard"
+            ]
+          },
+          "enemies": [
+            "Dagda: phase 1 humanoid, phase 2 dragon at the top of the stairs; Res much lower than Def",
+            "Golems on protect tiles at the top (each carries a drop)",
+            "Fire Orb and Onager at the top of the stairs"
+          ],
+          "reinforcements": "Spawn when you approach the stairs.",
+          "mechanics": [
+            "The starting area is partly inside Onager range",
+            "Stairs hinder cavalry: dismount",
+            "Ballistae at the south end break golem shields from range",
+            "Fire blocks the side golem (charged AoE) but normal enemies cross it",
+            "Guard spots at the top give large Def bonuses",
+            "Dagda takes no damage at the top: hit him once (Deadeye from the map's Longbow) and Eshmel appears next turn to disable his Shield"
+          ],
+          "tips": [
+            "Move the army north to the Onager and block chokepoints for phase 1",
+            "Clear the stair base first; park a dodger at max artillery range to waste ammo",
+            "Lure Golems off protect tiles",
+            "Then gang up on Dagda",
+            "Players call Ch 5 the hardest Part II map (Reddit, community)"
+          ],
+          "sources": [
+            "RPS-P2",
+            "G8-P2C5"
+          ]
+        }
+      ]
+    },
+    {
+      "ch": 6,
+      "name": "The Underworld Incarnate",
+      "prep": "Walk to the marker. Only the Pale Raven's Perch. Two battles back to back. Use Blessings from Turn 1.",
+      "battles": [
+        {
+          "name": "Battle vs. Lyrah",
+          "location": "Dagsion",
+          "max_units": 13,
+          "victory": "Defeat Lyrah.",
+          "suggested": {
+            "classes": [
+              "Heavy armor"
+            ],
+            "items": [
+              "Hammer"
+            ]
+          },
+          "enemies": [
+            "Lyrah: shields make her invulnerable; phase 2 cocoon starts the same turn phase 1 ends",
+            "Reinforcements swarm after phase 1"
+          ],
+          "mechanics": [
+            "Break shields with weak long-range hits, ideally from the corners",
+            "The cocoon heals a little on every hit: only big hits",
+            "Large square tiles give different defense bonuses",
+            "The east side of the boss has more room than the west"
+          ],
+          "tips": [
+            "Let enemies come to you",
+            "Save the heavy hitters for the HP bars and for phase 2",
+            "Most reported game overs: pulling the center group early (Reddit, community)"
+          ],
+          "sources": [
+            "RPS-P2",
+            "G8-P2C6"
+          ]
+        },
+        {
+          "name": "Flight from Dagsion",
+          "location": "Dagsion",
+          "max_units": 13,
+          "victory": "Get [Hero] to the target destination.",
+          "enemies": [
+            "Enemies stand on the escape tiles",
+            "Center group: don't pull it"
+          ],
+          "mechanics": [
+            "Miasma deals 30 damage to a unit that starts its turn in it"
+          ],
+          "tips": [
+            "[Hero] and the strongest units go down the western edge to the exit",
+            "The split-off upper-right group turtles in its corner",
+            "Bring a Cleansing Blade or Seraphim user for the escape tiles",
+            "Aurora's Blessing (RPG Site) or Kalla's Blessing Lv 3 for Move (Game8)"
+          ],
+          "after": "A short dungeon with no enemies: run to the marker. Then Part III opens.",
+          "sources": [
+            "RPS-P2",
+            "G8-P2C6"
+          ]
+        }
+      ]
+    }
+  ],
+  "missables": [
+    {
+      "when": "End of Part I",
+      "text": "Equip what each unit should carry. Only equipped items enter Part II."
+    },
+    {
+      "when": "Ch 2",
+      "text": "Southeast Ranger flees from Turn 4: kill him for his drop."
+    },
+    {
+      "when": "Ch 2",
+      "text": "West Ranger moves from Turn 8 and flees: kill him for his drop."
+    },
+    {
+      "when": "Ch 2",
+      "text": "Creek joins when defeated, only with \"My Late Sister's Accessory\" done on this route (Leda or Dietrich)."
+    },
+    {
+      "when": "Ch 3",
+      "text": "Creek must kill Nathan, or Nathan is lost for this War Path."
+    },
+    {
+      "when": "Ch 3",
+      "text": "Talk to Aswan and Tahonia and keep both alive: they join in Part III Fifth Section."
+    },
+    {
+      "when": "Ch 4",
+      "text": "Last chapter with facilities: spend Licenses, Supports and Army Action here."
+    }
+  ],
+  "open_questions": [
+    "Deploy cap: Game8's hub says Part II asks for up to 15 units; its chapter boxes say 10 (Ch 1) and 13 (Ch 2 to 6). Rows use the boxes.",
+    "Vendetta: Game8's Ch 3 page and the FE Fandom wiki say Gilchris drops it; Game8's item page says \"obtain after Part 2 Chapter 6\". The catalog uses the Ch 3 drop.",
+    "Dagda's Club: Game8's Ch 5 page calls it Dagda's drop; other pages call it a Part II reward. Either way it comes from Ch 5.",
+    "Levin Sword +1: RPG Site says Creek drops it in Ch 1, while his recruit fight is Ch 2. Check whether Creek fights in both.",
+    "Theodora's War Path: no lord facility is listed for her (Battalions?).",
+    "Whether Skip runs Training Drills-level EXP or less: only 'less EXP and Skill EXP' is documented.",
+    "Deploy cap, Reddit: 13 controllable slots (15 with two auto guests), one report says 14 on Theodora's route; nobody confirms 10 in Ch 1. Check the prep screen (https://www.reddit.com/r/fireemblem/comments/1wwgbnw/fortunes_weave_part_2_four_times/)."
+  ]
+}

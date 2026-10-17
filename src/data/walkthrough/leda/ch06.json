@@ -1,0 +1,378 @@
+{
+  "route": "Leda",
+  "ch": 6,
+  "name": "The Soaring Maiden",
+  "free": {
+    "from": "5/9",
+    "to": "5/28"
+  },
+  "unlocks": [
+    "Specialty exams (Renown 4)",
+    "Blacksmith (Renown 4)"
+  ],
+  "routine": {
+    "meals": [
+      {
+        "week": "Week 1",
+        "tables": [
+          [
+            "Leda",
+            "Esmeralda",
+            "Dadao"
+          ],
+          [
+            "Leda",
+            "Esmeralda",
+            "Jasmine"
+          ],
+          [
+            "Leda",
+            "Jasmine",
+            "Fianna"
+          ]
+        ],
+        "note": "Gift Jasmine the day she appears (about 5/8): two tables this Sunday land her Support 2. Ludia skips one week."
+      },
+      {
+        "week": "Weeks 2 on",
+        "tables": [
+          [
+            "Leda",
+            "Esmeralda",
+            "Dadao"
+          ],
+          [
+            "Leda",
+            "Esmeralda",
+            "Fianna"
+          ],
+          [
+            "Leda",
+            "Ludia",
+            "Halvin"
+          ]
+        ],
+        "note": "Jasmine short of Support 2? She keeps Fianna's seat. Once Dadao is recruited, Sha Lan takes his chair."
+      }
+    ],
+    "gifts": [
+      {
+        "unit": "Dadao",
+        "gift": "Poems of the Greats",
+        "alt": "Mellow Pastries",
+        "until": "Support 2, recruit Ch 6",
+        "note": "Buy several on the Raivo Port trip"
+      },
+      {
+        "unit": "Esmeralda",
+        "gift": "Mellow Pastries",
+        "alt": "Simple Pastries",
+        "until": "Support 3, recruit Ch 7"
+      },
+      {
+        "unit": "Fianna",
+        "gift": "Common Coffee",
+        "alt": "Select Coffee",
+        "until": "Support 3, recruit Ch 7"
+      },
+      {
+        "unit": "Ludia",
+        "gift": "Common Coffee",
+        "alt": "Eastern Love Story",
+        "until": "Support 3, recruit late Ch 8"
+      },
+      {
+        "unit": "Halvin",
+        "gift": "Simple Pastries",
+        "alt": "Garum",
+        "until": "Support 3, recruit Ch 9 after Baina"
+      },
+      {
+        "unit": "Sha Lan",
+        "gift": "Common Coffee",
+        "alt": "Select Coffee",
+        "until": "Support 3, recruit Ch 10"
+      },
+      {
+        "unit": "Noctula",
+        "gift": "",
+        "alt": "Training Bracelet",
+        "until": "Support 3, recruit Ch 10 (filler)",
+        "note": "Nothing they like is buyable yet: meals carry them"
+      },
+      {
+        "unit": "Mikaela",
+        "gift": "Garum",
+        "alt": "Young Ghosh",
+        "until": "Support 3, recruit Ch 10 (filler)"
+      },
+      {
+        "unit": "Lysander",
+        "gift": "",
+        "alt": "Training Bracelet",
+        "until": "Support 3, recruit Ch 10 (filler)",
+        "note": "Nothing they like is buyable yet: meals carry them"
+      },
+      {
+        "unit": "Nezha",
+        "gift": "Pickled Vegetables",
+        "until": "Support 3, recruit Ch 10 (filler)",
+        "alt": "Training Bracelet",
+        "note": "Buy several on the Daimon dance trip"
+      },
+      {
+        "unit": "Jasmine",
+        "gift": "Mellow Pastries",
+        "alt": "Jamel Milk",
+        "until": "Support 2, recruit Ch 6",
+        "first": true,
+        "note": "In Dagsion from 5/8"
+      },
+      {
+        "unit": "Jester",
+        "gift": "Home-Recipe Book",
+        "until": "Support 3, recruit Ch 11 (filler)",
+        "alt": "Garum"
+      },
+      {
+        "unit": "Seteth",
+        "gift": "Poems of the Greats",
+        "alt": "Common Coffee",
+        "until": "Support 3, recruit Ch 11 (filler)",
+        "note": "Buy several on the Raivo Port trip"
+      }
+    ]
+  },
+  "missables": [],
+  "classes": {
+    "note": {
+      "text": "Take each Specialty exam at Lv 20 and 75% odds; anyone not Lv 20 by 5/28 takes it in Ch 7",
+      "detail": [
+        "Renown 4 (usually early to mid Ch 6) opens Specialty: buy the Licenses then.",
+        "Ch 6 to 9 recruits (Jasmine, Dadao, Fianna, Esmeralda, Ludia, Inyoni, Halvin) join near Lv 15 in a Beginner class.",
+        "Each takes its Specialty exam in Part I at Lv 20: Jasmine Ch 7, Fianna Ch 8, the Ch 9 joins late Ch 9."
+      ]
+    },
+    "override": [
+      {
+        "unit": "Dadao",
+        "text": "Gladiator License only if he joins in another class; Brigand at Lv 20 in Ch 7"
+      },
+      {
+        "unit": "Jasmine",
+        "text": "No exam yet: Armored Knight at Lv 20 (Ch 7) once Heavy E+, Axe C and Spear C are in"
+      }
+    ]
+  },
+  "gear": {
+    "buy": [
+      {
+        "text": "Raivo Port trip: [[item:Halberd]] (3,000G) for Buccar: his rare-ore +2 refine"
+      },
+      {
+        "text": "Dagsion Armorer: 2 [[item:Bronze Axe]]s, a [[item:Wooden Spear]] and an [[item:Iron Axe]]",
+        "detail": [
+          "Bronze Axes (500G): Buccar and Jasmine (+4). Wooden Spear (300G): Catania (+5).",
+          "Iron Axe (1,500G): Dadao's +3 at his late Ch 6 join."
+        ]
+      },
+      {
+        "text": "Zoste trip: two [[item:Flyssa]] (3,000G each), for Guzran and Ludia's Part II kit",
+        "detail": [
+          "Ludia's waits in storage until her late Ch 8 recruit."
+        ]
+      }
+    ],
+    "barter": [
+      {
+        "item": "Phantom Ring",
+        "for": "Catania (not the Bowbreak Amulet)",
+        "at": "Dagsion"
+      },
+      {
+        "item": "Hammer",
+        "for": "Dadao: the armored Ch 7 map; Esmeralda's from Ch 9",
+        "at": "Dagsion"
+      }
+    ],
+    "note": [
+      {
+        "text": "Blacksmith opens (Renown 4): refine the ladder weapons on Smithing Stone first, deployed units first",
+        "detail": [
+          "Guzran [[item:Wooden Sword +5]], Mu [[item:Wooden Gauntlets +5]], Leda [[item:Wooden Bow +5]], Catania's Wooden Spear.",
+          "Then Buccar's and Jasmine's [[item:Bronze Axe +4]]; Dadao's [[item:Iron Axe +3]] the day he joins.",
+          "+1 costs 2 Smithing Stone + 180G; higher steps ?. The Ledger's refine plan lists every weapon."
+        ]
+      },
+      {
+        "text": "Blacksmith, rare ores: Leda's [[item:Lakshashi's Iron Fan +2]], then Buccar's [[item:Halberd +2]]",
+        "detail": [
+          "Ores short? The Halberd waits for Ch 7; Guzran's Killing Edge +2 follows it.",
+          "Which rare ore each special takes is unknown: bank Cullet, Windstone and Blue Snoll."
+        ],
+        "conf": "?"
+      }
+    ],
+    "assign": [
+      {
+        "item": "Hexlock Shield",
+        "to": "Buccar",
+        "why": "Dione Fort copy: mage-map swap for his shield"
+      }
+    ]
+  },
+  "recruits": [
+    {
+      "unit": "Jasmine",
+      "action": "Pay 500G once Support 2 and Renown 4 land: bench Armored Knight trainee for Part II",
+      "when": "Mid Ch 6 (in Dagsion from about 5/8)",
+      "detail": [
+        "She joins at about Lv 15 in a Beginner class: Armored Knight at Lv 20 (Ch 7) from the Heavy seat.",
+        "EXP: put her in every Ch 6 to 8 dungeon party (5 seats); link attacks with Buccar raise their Support too.",
+        "Buccar missing before Ch 9? She deploys in his slot 3 from her recruit."
+      ]
+    },
+    {
+      "unit": "Dadao",
+      "action": "Hand over 2× [[gather:Kothar Gar]] once Support 2 and Renown 5 land: fishing only",
+      "when": "Late Ch 6; early Ch 7 if Renown 5 slips",
+      "detail": [
+        "[[place:Zeet Lake]] (Thaleia, via Aragona Posthouse) or [[place:Kothar Lake]] (Amalthea, via East Amalthea Posthouse).",
+        "He joins at about Lv 15 and takes slot 8 from his first map: the Hammer for the armored Ch 7 map.",
+        "When those lakes open on this route is unknown: fish the Gar as soon as one does."
+      ]
+    }
+  ],
+  "prep": [
+    {
+      "text": "Fianna opens at Renown 5 (late Ch 6): recruit her in Ch 7 week 1 once Support 3 lands",
+      "detail": [
+        "Keep 3,000G for her: pay it before the Ch 7 Mons Silver Shields."
+      ]
+    },
+    {
+      "text": "Io: recruit him on 9/28 for the Levin Sword he carries (filler)"
+    }
+  ],
+  "quests": {
+    "route": [
+      {
+        "quest": "dance-for-raivo-port",
+        "note": "Do both early: this chapter's main Renown"
+      },
+      {
+        "quest": "dance-for-zoste"
+      }
+    ],
+    "sub": [
+      {
+        "quest": "defeat-aguinos-thieves",
+        "note": "Keep some Jyoppa for A Taste from Home (Ch 7)"
+      },
+      {
+        "quest": "a-taste-of-nostalgia",
+        "offered": "if-offered"
+      },
+      {
+        "quest": "soil-survey",
+        "offered": "if-offered"
+      },
+      {
+        "quest": "energy-nuts",
+        "offered": "if-offered"
+      }
+    ],
+    "paralogue": []
+  },
+  "explore": [
+    {
+      "group": "Dungeons (up to Lv 20)",
+      "text": "Every dungeon from her recruit: Jasmine in the 5-unit party, kills fed to her for Lv 20 in Ch 7",
+      "detail": [
+        "The other four: Leda plus this week's meal pairs, so link attacks raise Support as well."
+      ]
+    },
+    {
+      "group": "Dungeons (up to Lv 20)",
+      "id": "leda-ch06-explore-masked-woods",
+      "loot": true,
+      "text": "[[place:Masked Woods]] (Lv 15): Heavy-Armor Manual for Buccar, Venin Bow, [[item:Veroquine]]",
+      "detail": [
+        "[[item:Veroquine]] is cursed (Curse 2): hold it to the end of Part I (Drifting Reliquary)."
+      ]
+    },
+    {
+      "group": "Dungeons (up to Lv 20)",
+      "id": "leda-ch06-explore-dione-fort",
+      "loot": true,
+      "text": "[[place:Dione Fort]] (Lv 18): Flying Manual (Catania), Hexlock Shield (Buccar), Dual Fish Knives",
+      "detail": [
+        "Also a Concoction. The Hexlock is his Res +5 swap for the Silver Shield on mage maps."
+      ]
+    },
+    {
+      "group": "Dungeons (up to Lv 20)",
+      "id": "leda-ch06-explore-valhalla-mine",
+      "loot": true,
+      "text": "[[place:Valhalla Mine]] (Lv 20, Saveilon): [[item:Azaga's Bow]], Large Bullion, Antitoxin",
+      "detail": [
+        "[[item:Azaga's Bow]] is cursed (Curse 2): hold it to the end of Part I (Drifting Reliquary).",
+        "Not Lv 20 yet? Run it in Ch 7 with Esmeralda (her Lv 20 push)."
+      ]
+    },
+    {
+      "group": "Dungeons (up to Lv 20)",
+      "id": "leda-ch06-explore-shadowy-cave",
+      "loot": true,
+      "text": "[[place:Shadowy Cave]] (Lv 12): White-Magic and Black-Magic Manuals, Killing Edge",
+      "detail": [
+        "It may stay locked on this path until Dietrich's Paralogue in Ch 11."
+      ],
+      "conf": "?"
+    },
+    {
+      "group": "Dungeons (up to Lv 20)",
+      "text": "Mine rare ores for the specials: Windstone at Dione Fort, Blue Snoll at Valhalla Mine",
+      "detail": [
+        "Cullet: [[place:Shadowy Cave]] if it is open, else [[place:Aditi's Cave]] in Ch 9.",
+        "Re-enter a cleared dungeon to reroll its crystals."
+      ]
+    },
+    {
+      "group": "Spare Turns",
+      "text": "Gather for the next Vandahl barters (Dagsion Port), nearest stop first",
+      "detail": [
+        "[[gather:Roca]] ×12 at [[place:Bernard Pass]] (Thaleia): Dadao's Hammer (2) and Short Axe (10, Ch 9).",
+        "[[gather:Pyrethrum]] ×1 at [[place:Utuna Pass]] (Castalia): the same Short Axe.",
+        "[[gather:Paradise Fish]] ×2 at [[place:Lake Brontes]] (Saveilon): two Giant's Rings (Ch 7 and Ch 9)."
+      ]
+    },
+    {
+      "group": "Spare Turns",
+      "id": "leda-ch06-explore-fort-hayn",
+      "loot": true,
+      "text": "Support run with this week's meal pairs: [[place:Fort Hayn]] (Lv 18, Braxithea)"
+    },
+    {
+      "group": "Spare Turns",
+      "text": "Turns still left at the end: hand them to Inn Auto-Activities"
+    }
+  ],
+  "battle": {
+    "title": "Qualifier: Silver Knights of Tellus",
+    "objective": "Defeat Alexandra",
+    "lose": "Leda, Dietrich or Theodora falls",
+    "guests": [
+      "Dietrich",
+      "Theodora"
+    ],
+    "tips": [
+      {
+        "text": "Let the enemy come to you"
+      },
+      {
+        "text": "Scripted events lower Theodora's max HP: keep her protected"
+      }
+    ]
+  }
+}

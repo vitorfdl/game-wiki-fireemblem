@@ -1,0 +1,4718 @@
+{
+  "game": "Fire Emblem: Fortune's Weave",
+  "updated": "2026-10-09",
+  "about": "Every gift: price, where it is sold, and who loves or really likes it. Source of truth for the site's gift picks and for gifts.md. Meal rules live in gifts-and-meals.md.",
+  "conventions": {
+    "price": "Game8 base price in G, before the Gifts Discount boon. Other guides list some prices about 10% lower (27G pastries, 45G Young Ghosh, 90G coffee, 135G ghosh): that is the boon price.",
+    "tiers": "loved = two gold arrows (about double gain); really = 'They really liked it'. Game8 lists only these two tiers; Fextralife's table agrees on the loved lists.",
+    "sold": "shop is a Dagsion vendor (see shops), a peddler, or a World Map settlement. from = first chapter it is stocked, when known. conf: player = seen in this player's game; unconfirmed = not in the current Game8 merchant list.",
+    "dagsion": "Gift Vendor and Market Vendor are in Dagsion and cost no Turns. Settlements cost Turns unless the route already goes there.",
+    "lovedUnconfirmed": "Raider King marks some loved gifts \"?\" (not verified in game): those units sit in lovedUnconfirmed, not loved.",
+    "characters": "characters: per unit, the gift categories it likes (catalog `likes` keys), a few specific extras and exceptions (`not`). Use it for any item the catalog doesn't tag yet: a gift in a liked category is at least liked. Item-level loved/really lists win over categories."
+  },
+  "shops": {
+    "Gift Vendor": {
+      "where": "Lowtown Tavern, Dagsion",
+      "dagsion": true,
+      "restock": "Refills every chapter",
+      "src": [
+        "G8",
+        "RPS-leda",
+        "FWO"
+      ]
+    },
+    "Market Vendor": {
+      "where": "Midtown Arcade (Shopping Arcade), Dagsion",
+      "dagsion": true,
+      "restock": "Doesn't refill; adds a few items every chapter or so",
+      "src": [
+        "G8",
+        "FWO"
+      ]
+    },
+    "Ribeira Peddler": {
+      "where": "Location unknown",
+      "dagsion": false,
+      "src": [
+        "G8"
+      ]
+    },
+    "Fina Peddler": {
+      "where": "Near Fina (Castalia)?",
+      "dagsion": false,
+      "src": [
+        "G8"
+      ]
+    }
+  },
+  "places": {
+    "Shama Port": {
+      "note": "Solomon Island: Theodora only in Part I (Ch 10 or 11)",
+      "routes": [
+        "Theodora"
+      ]
+    }
+  },
+  "gifts": [
+    {
+      "name": "Ahm Lu Cloth",
+      "price": null,
+      "rarity": "Common",
+      "likes": "beauty",
+      "sold": [],
+      "other": "Perfect Theatre performance reward",
+      "loved": [
+        "Alexandra",
+        "Catania",
+        "Dante",
+        "Gaitz"
+      ],
+      "really": [
+        "Benditz",
+        "Esmeralda",
+        "Ninae",
+        "Tialla",
+        "Ultand",
+        "Ursula"
+      ],
+      "src": [
+        "G8",
+        "RK"
+      ],
+      "g8": "630065"
+    },
+    {
+      "name": "Alecto Garum",
+      "price": 300,
+      "rarity": "Common",
+      "likes": "to cook",
+      "sold": [
+        {
+          "shop": "Alecto"
+        }
+      ],
+      "loved": [],
+      "really": [
+        "Tialla",
+        "Esmeralda",
+        "Tobias",
+        "Mikaela",
+        "Bertrand",
+        "Alexandra",
+        "Bonaventure",
+        "Jester",
+        "Nuzzuo",
+        "Sofia"
+      ],
+      "src": [
+        "G8",
+        "RK"
+      ],
+      "g8": "625945"
+    },
+    {
+      "name": "Antique Medal",
+      "price": 300,
+      "rarity": "Common",
+      "likes": "revere martial achievements",
+      "sold": [
+        {
+          "shop": "Zoste"
+        }
+      ],
+      "loved": [],
+      "really": [
+        "Noctula"
+      ],
+      "src": [
+        "G8",
+        "RK"
+      ],
+      "g8": "629146"
+    },
+    {
+      "name": "Aromatic Shosh",
+      "price": 500,
+      "rarity": "Common",
+      "likes": "fermented drinks",
+      "sold": [
+        {
+          "shop": "Alecto"
+        }
+      ],
+      "loved": [],
+      "really": [
+        "Leda",
+        "Fabio",
+        "Mikaela",
+        "Guzran",
+        "Yang Jie",
+        "Goliath",
+        "Bonaventure",
+        "Buccar"
+      ],
+      "src": [
+        "G8",
+        "RK"
+      ],
+      "g8": "625949"
+    },
+    {
+      "name": "Arrowhead Gem",
+      "price": 1500,
+      "rarity": "Rare",
+      "likes": "fashion lovers",
+      "sold": [
+        {
+          "shop": "Breston"
+        }
+      ],
+      "loved": [
+        "Sirocco",
+        "Diego",
+        "Nuzzuo",
+        "Majide",
+        "Jester",
+        "Kiroc",
+        "Fianna",
+        "Peppe",
+        "Alexandra",
+        "Benditz",
+        "Catania",
+        "Esmeralda",
+        "Inyoni",
+        "Leda",
+        "Nezha",
+        "Olympia"
+      ],
+      "really": [
+        "Cai",
+        "Dietrich",
+        "Buccar",
+        "Mu",
+        "Gaitz",
+        "Ursula",
+        "Dante",
+        "Ninae",
+        "Io",
+        "Sofia",
+        "Loretta",
+        "Jasmine",
+        "Anatolia",
+        "Dadao",
+        "Mikaela",
+        "Noctula",
+        "Nydine",
+        "Simon",
+        "Theodora",
+        "Tialla",
+        "Ultand"
+      ],
+      "src": [
+        "G8",
+        "RK"
+      ],
+      "g8": "625999",
+      "lovedUnconfirmed": [
+        "Peter"
+      ]
+    },
+    {
+      "name": "Blue Shosh",
+      "price": 150,
+      "rarity": "Common",
+      "likes": "fermented drinks",
+      "sold": [],
+      "loved": [],
+      "really": [
+        "Bonaventure",
+        "Buccar",
+        "Goliath"
+      ],
+      "src": [
+        "G8",
+        "RK"
+      ],
+      "g8": "625971"
+    },
+    {
+      "name": "Blue-Rose Bouquet",
+      "price": 500,
+      "rarity": "Common",
+      "likes": "flower lovers",
+      "sold": [
+        {
+          "shop": "Mahon Castle Town"
+        }
+      ],
+      "loved": [
+        "Talimun",
+        "Sofia",
+        "Fianna",
+        "Alexandra",
+        "Benditz",
+        "Catania",
+        "Halvin",
+        "Orchel",
+        "Tialla",
+        "Ultand"
+      ],
+      "really": [
+        "Esmeralda",
+        "Lilian"
+      ],
+      "src": [
+        "G8",
+        "PG",
+        "RK"
+      ],
+      "g8": "625982"
+    },
+    {
+      "name": "Board-Game Tactics",
+      "price": 200,
+      "rarity": "Rare",
+      "likes": "board-game enthusiasts",
+      "sold": [
+        {
+          "shop": "Breston"
+        }
+      ],
+      "loved": [],
+      "really": [
+        "Dietrich",
+        "Io",
+        "Jester",
+        "Peppe",
+        "Dadao",
+        "Gaitz",
+        "Tialla",
+        "Benditz"
+      ],
+      "src": [
+        "G8",
+        "PG",
+        "RK"
+      ],
+      "g8": "626000"
+    },
+    {
+      "name": "Bow Repair Kit",
+      "price": 300,
+      "rarity": "Common",
+      "likes": "archers",
+      "sold": [
+        {
+          "shop": "Zoste"
+        }
+      ],
+      "loved": [],
+      "really": [
+        "Diego",
+        "Inyoni",
+        "Nuzzuo"
+      ],
+      "src": [
+        "G8",
+        "RK"
+      ],
+      "g8": "629143"
+    },
+    {
+      "name": "Brined Fish Guts",
+      "price": 100,
+      "rarity": "Common",
+      "likes": "fish lovers",
+      "sold": [
+        {
+          "shop": "Kira"
+        }
+      ],
+      "loved": [],
+      "really": [
+        "Leda",
+        "Fabio"
+      ],
+      "src": [
+        "G8"
+      ],
+      "g8": "625973"
+    },
+    {
+      "name": "Candy Crystals",
+      "price": 900,
+      "rarity": "Common",
+      "likes": "sweets",
+      "sold": [],
+      "loved": [
+        "Mu",
+        "Sofia"
+      ],
+      "really": [
+        "Diego",
+        "Nuzzuo"
+      ],
+      "src": [
+        "G8",
+        "RK"
+      ],
+      "g8": "625969"
+    },
+    {
+      "name": "Ceremonial Spear",
+      "price": 1000,
+      "rarity": "Rare",
+      "likes": "weapon lovers",
+      "sold": [
+        {
+          "shop": "Grand Aragon"
+        },
+        {
+          "shop": "Da Mina"
+        }
+      ],
+      "loved": [
+        "Alexandra",
+        "Diego",
+        "Gaitz",
+        "Io",
+        "Loretta",
+        "Lysander",
+        "Nezha",
+        "Noctula",
+        "Nuzzuo"
+      ],
+      "really": [
+        "Bonaventure",
+        "Anatolia",
+        "Benditz",
+        "Catania",
+        "Dante",
+        "Esmeralda",
+        "Seteth",
+        "Sha Lan",
+        "Talimun",
+        "Tialla",
+        "Ultand"
+      ],
+      "src": [
+        "G8",
+        "RK"
+      ],
+      "g8": "626002"
+    },
+    {
+      "name": "Coffee Pastries",
+      "price": 30,
+      "rarity": "Common",
+      "likes": "sweets",
+      "sold": [
+        {
+          "shop": "Megaira"
+        }
+      ],
+      "loved": [],
+      "really": [
+        "Fabio",
+        "Peter",
+        "Esmeralda",
+        "Olympia",
+        "Catania",
+        "Benditz",
+        "Yang Jie",
+        "Ludia",
+        "Dadao",
+        "Dante",
+        "Gaitz",
+        "Jasmine",
+        "Nuzzuo",
+        "Sofia",
+        "Ursula"
+      ],
+      "src": [
+        "G8",
+        "RK"
+      ],
+      "g8": "625942"
+    },
+    {
+      "name": "Common Coffee",
+      "price": 100,
+      "rarity": "Common",
+      "likes": "coffee",
+      "sold": [
+        {
+          "shop": "Gift Vendor"
+        },
+        {
+          "shop": "Megaira"
+        },
+        {
+          "shop": "Regia"
+        },
+        {
+          "shop": "Shama Port"
+        }
+      ],
+      "loved": [],
+      "really": [
+        "Fabio",
+        "Mikaela",
+        "Olympia",
+        "Gaitz",
+        "Ursula",
+        "Sha Lan",
+        "Dante",
+        "Guzran",
+        "Io",
+        "Catania",
+        "Benditz",
+        "Yang Jie",
+        "Sofia",
+        "Nuzzuo",
+        "Ludia",
+        "Seteth",
+        "Kiroc",
+        "Fianna",
+        "Peppe",
+        "Bonaventure"
+      ],
+      "src": [
+        "G8",
+        "RK"
+      ],
+      "g8": "625950"
+    },
+    {
+      "name": "Concentrated Garum",
+      "price": 150,
+      "rarity": "Common",
+      "likes": "to cook",
+      "sold": [
+        {
+          "shop": "Port of Pandora"
+        }
+      ],
+      "loved": [],
+      "really": [
+        "Bonaventure",
+        "Jester",
+        "Nuzzuo",
+        "Sofia",
+        "Tialla",
+        "Ultand"
+      ],
+      "src": [
+        "G8",
+        "RK"
+      ],
+      "g8": "626005"
+    },
+    {
+      "name": "Crafting Knives",
+      "price": 1000,
+      "rarity": "Common",
+      "likes": "crafting enthusiasts",
+      "sold": [
+        {
+          "shop": "Da Mina"
+        }
+      ],
+      "loved": [],
+      "really": [
+        "Catania",
+        "Dante",
+        "Gaitz",
+        "Nuzzuo",
+        "Jester"
+      ],
+      "src": [
+        "G8",
+        "PG",
+        "PLAYER",
+        "RK"
+      ],
+      "g8": "625978"
+    },
+    {
+      "name": "Crimson Bull Figure",
+      "price": 1500,
+      "rarity": "Common",
+      "likes": "art lovers",
+      "sold": [
+        {
+          "shop": "Grand Aragon"
+        }
+      ],
+      "loved": [],
+      "really": [
+        "Alexandra",
+        "Catania",
+        "Dante",
+        "Gaitz",
+        "Sirocco"
+      ],
+      "src": [
+        "G8",
+        "RK"
+      ],
+      "g8": "629147"
+    },
+    {
+      "name": "Crimson Ghosh",
+      "price": 200,
+      "rarity": "Rare",
+      "likes": "fermented drinks",
+      "sold": [
+        {
+          "shop": "Grand Aragon"
+        },
+        {
+          "shop": "Barsk Post Town"
+        }
+      ],
+      "loved": [
+        "Bonaventure",
+        "Buccar",
+        "Sirocco",
+        "Talimun",
+        "Majide",
+        "Kiroc",
+        "Goliath",
+        "Guzran",
+        "Leda"
+      ],
+      "really": [
+        "Cai",
+        "Dietrich",
+        "Ultand",
+        "Gaitz",
+        "Ursula",
+        "Diego",
+        "Dante",
+        "Simon",
+        "Ninae",
+        "Io",
+        "Sofia",
+        "Nuzzuo",
+        "Jester",
+        "Fianna",
+        "Loretta",
+        "Halvin",
+        "Jasmine",
+        "Peppe",
+        "Alexandra",
+        "Benditz",
+        "Catania",
+        "Dadao",
+        "Fabio",
+        "Inyoni",
+        "Mikaela",
+        "Noctula",
+        "Seteth",
+        "Yang Jie"
+      ],
+      "src": [
+        "G8",
+        "RK"
+      ],
+      "g8": "625992",
+      "lovedUnconfirmed": []
+    },
+    {
+      "name": "Dagda Beard Grass",
+      "price": 200,
+      "rarity": "Common",
+      "likes": "horses",
+      "sold": [
+        {
+          "shop": "Orens"
+        }
+      ],
+      "loved": [],
+      "really": [
+        "Theodora",
+        "Leda",
+        "Fabio",
+        "Peter",
+        "Esmeralda",
+        "Tobias",
+        "Lysander",
+        "Catania",
+        "Alexandra",
+        "Gaitz"
+      ],
+      "src": [
+        "G8",
+        "RK"
+      ],
+      "g8": "625964"
+    },
+    {
+      "name": "Decorative Arrows",
+      "price": 600,
+      "rarity": "Common",
+      "likes": "archers",
+      "sold": [],
+      "loved": [
+        "Alexandra",
+        "Benditz",
+        "Catania",
+        "Dante",
+        "Diego",
+        "Gaitz",
+        "Nezha"
+      ],
+      "really": [],
+      "src": [
+        "G8",
+        "RK"
+      ],
+      "g8": "625980"
+    },
+    {
+      "name": "Divination Bagua",
+      "price": 800,
+      "rarity": "Common",
+      "likes": "fortune tellers",
+      "sold": [
+        {
+          "shop": "Osiris"
+        }
+      ],
+      "loved": [],
+      "really": [
+        "Anatolia"
+      ],
+      "src": [
+        "G8",
+        "RK"
+      ],
+      "g8": "625997"
+    },
+    {
+      "name": "Dual Fish Knives",
+      "price": 700,
+      "rarity": "Common",
+      "likes": "to cook",
+      "sold": [
+        {
+          "shop": "Niiza Port"
+        }
+      ],
+      "loved": [
+        "Buccar",
+        "Sofia",
+        "Nuzzuo",
+        "Majide",
+        "Alexandra",
+        "Bonaventure",
+        "Esmeralda",
+        "Tialla",
+        "Ultand"
+      ],
+      "really": [
+        "Jester",
+        "Jasmine",
+        "Simon"
+      ],
+      "src": [
+        "G8",
+        "RK",
+        "PLAYER"
+      ],
+      "g8": "625389",
+      "other": "Also a chest in Dione Fort",
+      "lovedUnconfirmed": []
+    },
+    {
+      "name": "Eastern Black Silk",
+      "price": 3000,
+      "rarity": "Rare",
+      "likes": "fashion lovers",
+      "sold": [
+        {
+          "shop": "Callianeira Port"
+        }
+      ],
+      "loved": [
+        "Leda",
+        "Catania",
+        "Benditz",
+        "Ludia",
+        "Halvin",
+        "Alexandra",
+        "Esmeralda",
+        "Fianna",
+        "Gaitz",
+        "Ninae"
+      ],
+      "really": [
+        "Theodora",
+        "Fabio",
+        "Bonaventure",
+        "Tobias",
+        "Anatolia",
+        "Inyoni",
+        "Dadao",
+        "Dante",
+        "Dietrich",
+        "Loretta",
+        "Nuzzuo",
+        "Nydine",
+        "Seteth",
+        "Tialla",
+        "Ultand",
+        "Ursula"
+      ],
+      "src": [
+        "G8",
+        "RK"
+      ],
+      "g8": "625919",
+      "lovedUnconfirmed": []
+    },
+    {
+      "name": "Eastern Board Game",
+      "price": null,
+      "rarity": "Common",
+      "likes": "board-game enthusiasts",
+      "sold": [],
+      "other": "Perfect Theatre performance reward",
+      "loved": [
+        "Gaitz",
+        "Tialla"
+      ],
+      "really": [
+        "Diego",
+        "Inyoni",
+        "Sirocco",
+        "Ultand",
+        "Simon"
+      ],
+      "src": [
+        "G8",
+        "RK",
+        "PLAYER"
+      ],
+      "g8": "625981"
+    },
+    {
+      "name": "Eastern Earrings",
+      "price": 800,
+      "rarity": "Common",
+      "likes": "fashion lovers",
+      "sold": [
+        {
+          "shop": "Callianeira Port"
+        }
+      ],
+      "loved": [
+        "Leda",
+        "Esmeralda",
+        "Lilian",
+        "Olympia",
+        "Catania",
+        "Benditz",
+        "Alexandra",
+        "Ludia",
+        "Halvin",
+        "Fianna",
+        "Sirocco"
+      ],
+      "really": [
+        "Zarcone"
+      ],
+      "src": [
+        "G8",
+        "RK"
+      ],
+      "g8": "625989",
+      "lovedUnconfirmed": []
+    },
+    {
+      "name": "Eastern Love Story",
+      "price": 300,
+      "rarity": "Common",
+      "likes": "book lovers",
+      "sold": [
+        {
+          "shop": "Market Vendor",
+          "conf": "unconfirmed",
+          "note": "Older Game8 parse tied it to the Market Vendor; current Game8 lists no merchant. Likely a later addition"
+        }
+      ],
+      "loved": [
+        "Ludia"
+      ],
+      "really": [
+        "Tialla",
+        "Sirocco",
+        "Ultand",
+        "Ursula",
+        "Nydine",
+        "Benditz"
+      ],
+      "src": [
+        "G8",
+        "G8-old"
+      ],
+      "g8": "625925",
+      "lovedUnconfirmed": []
+    },
+    {
+      "name": "Eastern Tea Leaves",
+      "price": 2000,
+      "rarity": "Common",
+      "likes": "beverages",
+      "sold": [
+        {
+          "shop": "Callianeira Port"
+        }
+      ],
+      "loved": [
+        "Lilian",
+        "Olympia",
+        "Catania",
+        "Benditz",
+        "Yang Jie",
+        "Zarcone",
+        "Ludia",
+        "Fianna"
+      ],
+      "really": [
+        "Theodora",
+        "Leda",
+        "Tialla",
+        "Fabio",
+        "Peter",
+        "Esmeralda",
+        "Tobias",
+        "Mikaela",
+        "Lysander",
+        "Anatolia",
+        "Ninae",
+        "Nezha",
+        "Guzran",
+        "Nydine",
+        "Noctula",
+        "Goliath",
+        "Seteth",
+        "Halvin",
+        "Inyoni",
+        "Bonaventure",
+        "Diego",
+        "Nuzzuo",
+        "Sofia"
+      ],
+      "src": [
+        "G8",
+        "RK"
+      ],
+      "g8": "625988",
+      "lovedUnconfirmed": []
+    },
+    {
+      "name": "Ebony Game Board",
+      "price": 800,
+      "rarity": "Common",
+      "likes": "board-game enthusiasts",
+      "sold": [
+        {
+          "shop": "Port of Pandora"
+        }
+      ],
+      "loved": [
+        "Dietrich",
+        "Gaitz",
+        "Tialla"
+      ],
+      "really": [],
+      "src": [
+        "G8",
+        "RK"
+      ],
+      "g8": "626008"
+    },
+    {
+      "name": "Energizing Ghosh",
+      "price": 150,
+      "rarity": "Common",
+      "likes": "fermented drinks",
+      "sold": [
+        {
+          "shop": "Megaira"
+        },
+        {
+          "shop": "Benetnasch"
+        }
+      ],
+      "loved": [],
+      "really": [
+        "Sha Lan",
+        "Bonaventure",
+        "Buccar",
+        "Fabio",
+        "Goliath",
+        "Guzran",
+        "Leda",
+        "Majide",
+        "Mikaela",
+        "Sirocco",
+        "Talimun",
+        "Yang Jie"
+      ],
+      "src": [
+        "G8",
+        "RK"
+      ],
+      "g8": "625947"
+    },
+    {
+      "name": "Everyday Scenes",
+      "price": null,
+      "rarity": "Common",
+      "likes": "book lovers",
+      "sold": [],
+      "other": "Source under investigation (Game8)",
+      "loved": [],
+      "really": [
+        "Tialla",
+        "Dante",
+        "Ludia"
+      ],
+      "src": [
+        "G8"
+      ],
+      "g8": "625984"
+    },
+    {
+      "name": "Exquisite Ring",
+      "price": 1500,
+      "rarity": "Common",
+      "likes": "fashion lovers",
+      "sold": [
+        {
+          "shop": "Callianeira Port"
+        }
+      ],
+      "loved": [],
+      "really": [
+        "Halvin",
+        "Alexandra",
+        "Benditz",
+        "Catania",
+        "Esmeralda",
+        "Olympia",
+        "Ultand"
+      ],
+      "src": [
+        "G8",
+        "RK"
+      ],
+      "g8": "625939"
+    },
+    {
+      "name": "Flexible Fishing Rod",
+      "price": 400,
+      "rarity": "Common",
+      "likes": "fishing enthusiasts",
+      "sold": [
+        {
+          "shop": "Market Vendor"
+        },
+        {
+          "shop": "Fina Peddler"
+        },
+        {
+          "shop": "Raivo Port"
+        }
+      ],
+      "loved": [],
+      "really": [
+        "Esmeralda",
+        "Yang Jie",
+        "Seteth",
+        "Inyoni"
+      ],
+      "src": [
+        "G8",
+        "RK"
+      ],
+      "g8": "625583"
+    },
+    {
+      "name": "Flower Painting",
+      "price": null,
+      "rarity": "Common",
+      "likes": "painting lovers",
+      "sold": [],
+      "other": "Chest in Stoppered Shrine (Idyia); also the Divine Sovereign's Secret subquest (Dagsion)",
+      "loved": [
+        "Alexandra",
+        "Catania",
+        "Dante",
+        "Esmeralda",
+        "Fabio",
+        "Fianna",
+        "Gaitz",
+        "Halvin",
+        "Leda",
+        "Ludia",
+        "Lysander",
+        "Olympia",
+        "Orchel",
+        "Sirocco",
+        "Sofia",
+        "Tialla",
+        "Ursula"
+      ],
+      "really": [
+        "Anatolia",
+        "Benditz",
+        "Buccar",
+        "Cai",
+        "Dadao",
+        "Diego",
+        "Dietrich",
+        "Io",
+        "Jasmine",
+        "Loretta",
+        "Mikaela",
+        "Nezha",
+        "Ninae",
+        "Nuzzuo",
+        "Seteth",
+        "Simon",
+        "Theodora",
+        "Ultand"
+      ],
+      "src": [
+        "G8",
+        "LOCAL",
+        "RK"
+      ],
+      "g8": "629905"
+    },
+    {
+      "name": "Fodlan Tea",
+      "price": 500,
+      "rarity": "Common",
+      "likes": "beverages",
+      "sold": [
+        {
+          "shop": "Port of Pandora"
+        }
+      ],
+      "loved": [],
+      "really": [],
+      "src": [
+        "G8"
+      ],
+      "g8": "625937"
+    },
+    {
+      "name": "Fragrant Pastries",
+      "price": 30,
+      "rarity": "Common",
+      "likes": "sweets",
+      "sold": [
+        {
+          "shop": "Orens"
+        },
+        {
+          "shop": "Mons"
+        }
+      ],
+      "loved": [],
+      "really": [
+        "Peter",
+        "Esmeralda",
+        "Dadao",
+        "Dietrich",
+        "Halvin",
+        "Jasmine",
+        "Sofia"
+      ],
+      "src": [
+        "G8",
+        "RK"
+      ],
+      "g8": "625968"
+    },
+    {
+      "name": "Full Sewing Kit",
+      "price": 300,
+      "rarity": "Common",
+      "likes": "fashion lovers",
+      "sold": [],
+      "loved": [],
+      "really": [
+        "Aswan",
+        "Tahonia"
+      ],
+      "src": [
+        "G8"
+      ],
+      "g8": "625934"
+    },
+    {
+      "name": "Garum",
+      "price": 50,
+      "rarity": "Common",
+      "likes": "to cook",
+      "sold": [
+        {
+          "shop": "Gift Vendor"
+        },
+        {
+          "shop": "Raivo Port"
+        },
+        {
+          "shop": "Alecto"
+        },
+        {
+          "shop": "Port of Pandora"
+        },
+        {
+          "shop": "Benetnasch"
+        },
+        {
+          "shop": "Niiza Port"
+        }
+      ],
+      "loved": [],
+      "really": [
+        "Tialla",
+        "Bonaventure",
+        "Buccar",
+        "Esmeralda",
+        "Tobias",
+        "Ultand",
+        "Mikaela",
+        "Orchel",
+        "Alexandra",
+        "Halvin",
+        "Bertrand"
+      ],
+      "src": [
+        "G8",
+        "RK"
+      ],
+      "g8": "625944"
+    },
+    {
+      "name": "Gaudy Bangle",
+      "price": 450,
+      "rarity": "Common",
+      "likes": "fashion lovers",
+      "sold": [
+        {
+          "shop": "Market Vendor",
+          "conf": "unconfirmed",
+          "note": "Older Game8 parse tied it to the Market Vendor; current Game8 lists no merchant. Likely a later addition"
+        }
+      ],
+      "loved": [],
+      "really": [
+        "Leda",
+        "Esmeralda",
+        "Lilian",
+        "Olympia",
+        "Catania",
+        "Benditz",
+        "Alexandra",
+        "Zarcone",
+        "Ludia",
+        "Halvin",
+        "Sirocco"
+      ],
+      "src": [
+        "G8",
+        "G8-old",
+        "RK"
+      ],
+      "g8": "625935"
+    },
+    {
+      "name": "Ginji Cervi",
+      "price": 150,
+      "rarity": "Common",
+      "likes": "sweets",
+      "sold": [
+        {
+          "shop": "Ribeira Peddler"
+        }
+      ],
+      "loved": [],
+      "really": [
+        "Dietrich",
+        "Tialla",
+        "Peter",
+        "Sofia",
+        "Dadao",
+        "Halvin",
+        "Jasmine",
+        "Mu"
+      ],
+      "src": [
+        "G8",
+        "RK"
+      ],
+      "g8": "625902"
+    },
+    {
+      "name": "Herbal Recipe Guide",
+      "price": 300,
+      "rarity": "Common",
+      "likes": "to cook",
+      "sold": [
+        {
+          "shop": "Raivo Port"
+        },
+        {
+          "shop": "Megaira"
+        }
+      ],
+      "loved": [],
+      "really": [
+        "Tialla",
+        "Esmeralda",
+        "Tobias",
+        "Mikaela",
+        "Lilian",
+        "Alexandra",
+        "Yang Jie",
+        "Ludia",
+        "Seteth",
+        "Bonaventure",
+        "Dante",
+        "Gaitz",
+        "Jester",
+        "Nuzzuo",
+        "Ultand"
+      ],
+      "src": [
+        "G8",
+        "RK"
+      ],
+      "g8": "625956"
+    },
+    {
+      "name": "History of a Master",
+      "price": 100,
+      "rarity": "Common",
+      "likes": "book lovers",
+      "sold": [
+        {
+          "shop": "Twalinn"
+        }
+      ],
+      "loved": [
+        "Nathan",
+        "Creek",
+        "Anatolia",
+        "Tahonia",
+        "Diego",
+        "Noctula",
+        "Sirocco"
+      ],
+      "really": [],
+      "src": [
+        "G8",
+        "RK"
+      ],
+      "g8": "626010"
+    },
+    {
+      "name": "Home-Recipe Book",
+      "price": 300,
+      "rarity": "Common",
+      "likes": "to cook",
+      "sold": [
+        {
+          "shop": "Market Vendor"
+        },
+        {
+          "shop": "Raivo Port"
+        }
+      ],
+      "loved": [],
+      "really": [
+        "Tialla",
+        "Bonaventure",
+        "Buccar",
+        "Esmeralda",
+        "Tobias",
+        "Mikaela",
+        "Lilian",
+        "Orchel",
+        "Alexandra",
+        "Yang Jie",
+        "Ludia",
+        "Seteth",
+        "Dante",
+        "Gaitz",
+        "Jester",
+        "Ultand"
+      ],
+      "src": [
+        "G8",
+        "RK"
+      ],
+      "g8": "625915"
+    },
+    {
+      "name": "Honey Milk",
+      "price": 100,
+      "rarity": "Common",
+      "likes": "sweets",
+      "sold": [
+        {
+          "shop": "Regia"
+        }
+      ],
+      "loved": [],
+      "really": [
+        "Dietrich",
+        "Sofia",
+        "Loretta",
+        "Dadao",
+        "Jasmine"
+      ],
+      "src": [
+        "G8",
+        "RK"
+      ],
+      "g8": "625918"
+    },
+    {
+      "name": "Honey Pastries",
+      "price": 30,
+      "rarity": "Common",
+      "likes": "sweets",
+      "sold": [
+        {
+          "shop": "Regia"
+        }
+      ],
+      "loved": [],
+      "really": [
+        "Dietrich",
+        "Mu",
+        "Sofia",
+        "Loretta",
+        "Dadao",
+        "Jasmine",
+        "Jester"
+      ],
+      "src": [
+        "G8",
+        "PG",
+        "PLAYER",
+        "RK"
+      ],
+      "g8": "625986"
+    },
+    {
+      "name": "Horse-Grooming Kit",
+      "price": 400,
+      "rarity": "Common",
+      "likes": "horses",
+      "sold": [
+        {
+          "shop": "Aguino"
+        },
+        {
+          "shop": "Grand Aragon"
+        }
+      ],
+      "loved": [],
+      "really": [
+        "Theodora",
+        "Leda",
+        "Esmeralda",
+        "Tobias",
+        "Lysander",
+        "Gaitz",
+        "Io",
+        "Catania",
+        "Alexandra",
+        "Nydine"
+      ],
+      "src": [
+        "G8",
+        "RK"
+      ],
+      "g8": "625977"
+    },
+    {
+      "name": "Huge Fish Eyeball",
+      "price": 400,
+      "rarity": "Common",
+      "likes": "fish lovers",
+      "sold": [
+        {
+          "shop": "Alecto"
+        }
+      ],
+      "loved": [],
+      "really": [
+        "Leda",
+        "Fabio",
+        "Esmeralda",
+        "Tobias",
+        "Mikaela",
+        "Guzran",
+        "Yang Jie",
+        "Seteth",
+        "Dadao",
+        "Inyoni"
+      ],
+      "src": [
+        "G8"
+      ],
+      "g8": "625953"
+    },
+    {
+      "name": "Imitation Medal",
+      "price": 300,
+      "rarity": "Common",
+      "likes": "revere martial achievements",
+      "sold": [
+        {
+          "shop": "Whill"
+        }
+      ],
+      "loved": [],
+      "really": [
+        "Jasmine",
+        "Lysander"
+      ],
+      "src": [
+        "G8",
+        "PG",
+        "RK"
+      ],
+      "g8": "626009"
+    },
+    {
+      "name": "Jade Ghosh",
+      "price": 150,
+      "rarity": "Common",
+      "likes": "fermented drinks",
+      "sold": [
+        {
+          "shop": "Callianeira Port"
+        },
+        {
+          "shop": "Whill"
+        }
+      ],
+      "loved": [],
+      "really": [
+        "Leda",
+        "Fabio",
+        "Bonaventure",
+        "Tobias",
+        "Mikaela",
+        "Guzran",
+        "Yang Jie",
+        "Goliath",
+        "Buccar",
+        "Majide",
+        "Sirocco",
+        "Talimun"
+      ],
+      "src": [
+        "G8",
+        "RK"
+      ],
+      "g8": "625960"
+    },
+    {
+      "name": "Jade Panther Figure",
+      "price": 1500,
+      "rarity": "Rare",
+      "likes": "art lovers",
+      "sold": [
+        {
+          "shop": "Grand Aragon"
+        }
+      ],
+      "loved": [],
+      "really": [
+        "Halvin",
+        "Alexandra",
+        "Catania",
+        "Dante",
+        "Gaitz",
+        "Sirocco"
+      ],
+      "src": [
+        "G8",
+        "RK"
+      ],
+      "g8": "626003"
+    },
+    {
+      "name": "Jamel Milk",
+      "price": 50,
+      "rarity": "Common",
+      "likes": "children",
+      "sold": [
+        {
+          "shop": "Gift Vendor"
+        },
+        {
+          "shop": "Osiris"
+        },
+        {
+          "shop": "Daimon"
+        },
+        {
+          "shop": "Twalinn"
+        }
+      ],
+      "loved": [],
+      "really": [
+        "Tialla",
+        "Peter",
+        "Mu",
+        "Sofia",
+        "Dadao",
+        "Jasmine"
+      ],
+      "src": [
+        "G8",
+        "RK"
+      ],
+      "g8": "625920"
+    },
+    {
+      "name": "Joint-Relief Gloves",
+      "price": 300,
+      "rarity": "Common",
+      "likes": "archers",
+      "sold": [
+        {
+          "shop": "Breston"
+        }
+      ],
+      "loved": [],
+      "really": [
+        "Dietrich",
+        "Sirocco",
+        "Gaitz",
+        "Diego",
+        "Io",
+        "Nuzzuo",
+        "Majide",
+        "Jester",
+        "Kiroc",
+        "Fianna",
+        "Loretta",
+        "Jasmine",
+        "Peppe",
+        "Alexandra",
+        "Benditz",
+        "Inyoni",
+        "Nezha",
+        "Nydine",
+        "Simon"
+      ],
+      "src": [
+        "G8",
+        "RK"
+      ],
+      "g8": "625979"
+    },
+    {
+      "name": "Kitten Figurine",
+      "price": 100,
+      "rarity": "Common",
+      "likes": "animal lovers",
+      "sold": [
+        {
+          "shop": "Market Vendor"
+        },
+        {
+          "shop": "Orens"
+        },
+        {
+          "shop": "Osiris"
+        }
+      ],
+      "loved": [],
+      "really": [
+        "Dietrich",
+        "Leda",
+        "Peter",
+        "Esmeralda",
+        "Tobias",
+        "Orchel",
+        "Ursula",
+        "Nydine",
+        "Io",
+        "Catania",
+        "Alexandra",
+        "Yang Jie",
+        "Sofia",
+        "Nuzzuo",
+        "Goliath",
+        "Jasmine",
+        "Peppe"
+      ],
+      "src": [
+        "G8",
+        "RK"
+      ],
+      "g8": "625917"
+    },
+    {
+      "name": "Legendary Garum",
+      "price": 2000,
+      "rarity": "Common",
+      "likes": "to cook",
+      "sold": [
+        {
+          "shop": "Alecto"
+        }
+      ],
+      "loved": [
+        "Bertrand",
+        "Jester"
+      ],
+      "really": [
+        "Bonaventure",
+        "Nuzzuo",
+        "Sofia"
+      ],
+      "src": [
+        "G8",
+        "RK"
+      ],
+      "g8": "630066"
+    },
+    {
+      "name": "Light Shosh",
+      "price": 100,
+      "rarity": "Common",
+      "likes": "fermented drinks",
+      "sold": [
+        {
+          "shop": "Niiza Port"
+        },
+        {
+          "shop": "Mons"
+        }
+      ],
+      "loved": [],
+      "really": [
+        "Leda",
+        "Fabio",
+        "Buccar",
+        "Sirocco",
+        "Mikaela",
+        "Guzran",
+        "Yang Jie",
+        "Majide",
+        "Goliath",
+        "Kiroc",
+        "Bonaventure"
+      ],
+      "src": [
+        "G8",
+        "RK"
+      ],
+      "g8": "625959"
+    },
+    {
+      "name": "Magic-Trick Set",
+      "price": 200,
+      "rarity": "Common",
+      "likes": "spirituality",
+      "sold": [
+        {
+          "shop": "Regia"
+        }
+      ],
+      "loved": [],
+      "really": [
+        "Leda",
+        "Dante",
+        "Catania",
+        "Sofia",
+        "Ludia",
+        "Halvin",
+        "Jasmine",
+        "Peppe",
+        "Anatolia",
+        "Bonaventure"
+      ],
+      "src": [
+        "G8",
+        "RK"
+      ],
+      "g8": "625985",
+      "lovedUnconfirmed": [
+        "Dante"
+      ]
+    },
+    {
+      "name": "Mane Ornament",
+      "price": 300,
+      "rarity": "Common",
+      "likes": "horses",
+      "sold": [
+        {
+          "shop": "Grand Aragon"
+        }
+      ],
+      "loved": [],
+      "really": [
+        "Lysander",
+        "Ursula",
+        "Io",
+        "Alexandra",
+        "Catania",
+        "Gaitz"
+      ],
+      "src": [
+        "G8",
+        "RK",
+        "PLAYER"
+      ],
+      "g8": "625584"
+    },
+    {
+      "name": "Mature Dried Cervi",
+      "price": 150,
+      "rarity": "Common",
+      "likes": "children",
+      "sold": [
+        {
+          "shop": "Kassite"
+        }
+      ],
+      "loved": [],
+      "really": [
+        "Tialla",
+        "Peter",
+        "Dadao",
+        "Halvin",
+        "Jasmine",
+        "Mu",
+        "Sofia"
+      ],
+      "src": [
+        "G8",
+        "RK"
+      ],
+      "g8": "625966"
+    },
+    {
+      "name": "Mature Ghosh",
+      "price": 100,
+      "rarity": "Common",
+      "likes": "fermented drinks",
+      "sold": [
+        {
+          "shop": "Gift Vendor"
+        },
+        {
+          "shop": "Fina Peddler"
+        },
+        {
+          "shop": "Barsk Post Town"
+        },
+        {
+          "shop": "Mahon Castle Town"
+        }
+      ],
+      "loved": [],
+      "really": [
+        "Leda",
+        "Fabio",
+        "Buccar",
+        "Tobias",
+        "Sirocco",
+        "Mikaela",
+        "Guzran",
+        "Yang Jie",
+        "Majide",
+        "Goliath",
+        "Kiroc",
+        "Bonaventure",
+        "Talimun"
+      ],
+      "src": [
+        "G8",
+        "RK"
+      ],
+      "g8": "625958"
+    },
+    {
+      "name": "Mature Shosh",
+      "price": 150,
+      "rarity": "Common",
+      "likes": "fermented drinks",
+      "sold": [
+        {
+          "shop": "Alecto"
+        },
+        {
+          "shop": "Niiza Port"
+        }
+      ],
+      "loved": [],
+      "really": [
+        "Leda",
+        "Fabio",
+        "Buccar",
+        "Tobias",
+        "Sirocco",
+        "Mikaela",
+        "Guzran",
+        "Yang Jie",
+        "Majide",
+        "Goliath",
+        "Kiroc",
+        "Bonaventure"
+      ],
+      "src": [
+        "G8",
+        "RK"
+      ],
+      "g8": "625930"
+    },
+    {
+      "name": "Meal Voucher",
+      "price": null,
+      "rarity": "Common",
+      "likes": null,
+      "sold": [],
+      "other": "Perfect Theatre performance reward",
+      "loved": [],
+      "really": [],
+      "src": [
+        "G8"
+      ],
+      "g8": "630064"
+    },
+    {
+      "name": "Meaty Delicacy",
+      "price": 100,
+      "rarity": "Common",
+      "likes": "meat lovers",
+      "sold": [
+        {
+          "shop": "Zoste"
+        }
+      ],
+      "loved": [],
+      "really": [
+        "Sofia"
+      ],
+      "src": [
+        "G8",
+        "RK"
+      ],
+      "g8": "629145"
+    },
+    {
+      "name": "Mellow Pastries",
+      "price": 30,
+      "rarity": "Common",
+      "likes": "sweets",
+      "sold": [
+        {
+          "shop": "Gift Vendor"
+        },
+        {
+          "shop": "Orens"
+        }
+      ],
+      "loved": [],
+      "really": [
+        "Peter",
+        "Esmeralda",
+        "Loretta",
+        "Dadao",
+        "Dietrich",
+        "Halvin",
+        "Jasmine",
+        "Sofia"
+      ],
+      "src": [
+        "G8",
+        "RK"
+      ],
+      "g8": "625941"
+    },
+    {
+      "name": "Morfis Almanac",
+      "price": 1500,
+      "rarity": "Common",
+      "likes": "book lovers",
+      "sold": [
+        {
+          "shop": "Port of Pandora"
+        }
+      ],
+      "loved": [
+        "Anatolia",
+        "Bonaventure",
+        "Fianna",
+        "Gaitz",
+        "Seteth",
+        "Tialla"
+      ],
+      "really": [
+        "Fabio",
+        "Mu",
+        "Ninae",
+        "Noctula",
+        "Ultand"
+      ],
+      "src": [
+        "G8",
+        "RK"
+      ],
+      "g8": "626007"
+    },
+    {
+      "name": "Morfis Tea",
+      "price": null,
+      "rarity": "Common",
+      "likes": "beverages",
+      "sold": [],
+      "other": "Source under investigation (Game8)",
+      "loved": [
+        "Tialla"
+      ],
+      "really": [],
+      "src": [
+        "G8",
+        "RK"
+      ],
+      "g8": "625976"
+    },
+    {
+      "name": "Niiza Garum",
+      "price": 300,
+      "rarity": "Common",
+      "likes": "to cook",
+      "sold": [
+        {
+          "shop": "Niiza Port"
+        }
+      ],
+      "loved": [],
+      "really": [
+        "Buccar",
+        "Sha Lan",
+        "Sofia",
+        "Nuzzuo",
+        "Jasmine",
+        "Alexandra",
+        "Bonaventure",
+        "Jester",
+        "Tialla",
+        "Ultand"
+      ],
+      "src": [
+        "G8",
+        "RK"
+      ],
+      "g8": "625993"
+    },
+    {
+      "name": "Odd Vegetable Seeds",
+      "price": 50,
+      "rarity": "Common",
+      "likes": "agriculture enthusiasts",
+      "sold": [
+        {
+          "shop": "Zoste"
+        }
+      ],
+      "loved": [
+        "Nuzzuo",
+        "Sofia"
+      ],
+      "really": [],
+      "src": [
+        "G8",
+        "RK"
+      ],
+      "g8": "629144"
+    },
+    {
+      "name": "Orgus Coffee",
+      "price": 150,
+      "rarity": "Common",
+      "likes": "coffee",
+      "sold": [
+        {
+          "shop": "Whill"
+        }
+      ],
+      "loved": [
+        "Olympia"
+      ],
+      "really": [
+        "Fabio",
+        "Mikaela",
+        "Gaitz",
+        "Guzran",
+        "Catania",
+        "Benditz",
+        "Yang Jie",
+        "Ludia",
+        "Seteth",
+        "Bonaventure",
+        "Fianna",
+        "Mu",
+        "Nuzzuo",
+        "Sofia",
+        "Ursula"
+      ],
+      "src": [
+        "G8",
+        "RK"
+      ],
+      "g8": "625967"
+    },
+    {
+      "name": "Outdoor Cooking Set",
+      "price": 400,
+      "rarity": "Common",
+      "likes": "to cook",
+      "sold": [
+        {
+          "shop": "Grand Aragon"
+        },
+        {
+          "shop": "Mahon Castle Town"
+        }
+      ],
+      "loved": [],
+      "really": [
+        "Buccar",
+        "Ultand",
+        "Mu",
+        "Sha Lan",
+        "Sofia",
+        "Nuzzuo",
+        "Jasmine",
+        "Peppe",
+        "Alexandra",
+        "Jester",
+        "Orchel",
+        "Tialla"
+      ],
+      "src": [
+        "G8",
+        "RK"
+      ],
+      "g8": "625975"
+    },
+    {
+      "name": "Pack of Pastels",
+      "price": 300,
+      "rarity": "Common",
+      "likes": "crafting enthusiasts",
+      "sold": [
+        {
+          "shop": "Regia"
+        }
+      ],
+      "loved": [],
+      "really": [
+        "Leda",
+        "Fabio",
+        "Sirocco",
+        "Ursula",
+        "Dante",
+        "Catania",
+        "Sofia",
+        "Jasmine",
+        "Peppe",
+        "Aswan",
+        "Gaitz",
+        "Halvin"
+      ],
+      "src": [
+        "G8",
+        "RK"
+      ],
+      "g8": "625936"
+    },
+    {
+      "name": "Pastry Cookbook",
+      "price": 200,
+      "rarity": "Common",
+      "likes": "sweets",
+      "sold": [
+        {
+          "shop": "Regia"
+        }
+      ],
+      "loved": [],
+      "really": [
+        "Dietrich",
+        "Tialla",
+        "Bonaventure",
+        "Peter",
+        "Esmeralda",
+        "Tobias",
+        "Ultand",
+        "Mikaela",
+        "Lilian",
+        "Sha Lan",
+        "Alexandra",
+        "Yang Jie",
+        "Sofia",
+        "Ludia",
+        "Seteth",
+        "Loretta",
+        "Dadao",
+        "Jasmine",
+        "Peppe",
+        "Jester"
+      ],
+      "src": [
+        "G8",
+        "RK"
+      ],
+      "g8": "625922"
+    },
+    {
+      "name": "Pegasus Panorama",
+      "price": 2000,
+      "rarity": "Common",
+      "likes": "painting lovers",
+      "sold": [
+        {
+          "shop": "Mons"
+        }
+      ],
+      "loved": [
+        "Alexandra",
+        "Buccar",
+        "Cai",
+        "Catania",
+        "Centurio",
+        "Dietrich",
+        "Fabio",
+        "Gaitz",
+        "Io",
+        "Jasmine",
+        "Ludia",
+        "Lysander",
+        "Nuzzuo",
+        "Nydine",
+        "Olympia",
+        "Peppe",
+        "Theodora",
+        "Ursula"
+      ],
+      "really": [],
+      "src": [
+        "G8",
+        "RK"
+      ],
+      "g8": "629137"
+    },
+    {
+      "name": "Pickled Bulbs",
+      "price": 100,
+      "rarity": "Common",
+      "likes": "vegetable lovers",
+      "sold": [
+        {
+          "shop": "Aguino"
+        }
+      ],
+      "loved": [],
+      "really": [
+        "Tialla",
+        "Nezha",
+        "Zarcone",
+        "Halvin"
+      ],
+      "src": [
+        "G8",
+        "PG",
+        "RK"
+      ],
+      "g8": "625990"
+    },
+    {
+      "name": "Pickled Vegetables",
+      "price": 100,
+      "rarity": "Common",
+      "likes": "vegetable lovers",
+      "sold": [
+        {
+          "shop": "Kassite"
+        },
+        {
+          "shop": "Daimon"
+        },
+        {
+          "shop": "Zoste"
+        }
+      ],
+      "loved": [],
+      "really": [
+        "Mu",
+        "Sofia",
+        "Nuzzuo",
+        "Zarcone"
+      ],
+      "src": [
+        "G8",
+        "RK"
+      ],
+      "g8": "625961"
+    },
+    {
+      "name": "Poems of the Greats",
+      "price": 300,
+      "rarity": "Common",
+      "likes": "book lovers",
+      "sold": [
+        {
+          "shop": "Raivo Port"
+        }
+      ],
+      "loved": [
+        "Lilian",
+        "Yang Jie",
+        "Seteth",
+        "Dadao",
+        "Bonaventure",
+        "Dante",
+        "Ninae"
+      ],
+      "really": [],
+      "src": [
+        "G8",
+        "RK"
+      ],
+      "g8": "625991",
+      "lovedUnconfirmed": []
+    },
+    {
+      "name": "Portrait of Yu Phas",
+      "price": null,
+      "rarity": "Common",
+      "likes": "beauty",
+      "sold": [],
+      "other": "Renown 12 reward, one copy",
+      "loved": [
+        "Alexandra",
+        "Benditz",
+        "Buccar",
+        "Cai",
+        "Catania",
+        "Centurio",
+        "Dadao",
+        "Dante",
+        "Diego",
+        "Fianna",
+        "Gaitz",
+        "Io",
+        "Jester",
+        "Leda",
+        "Loretta",
+        "Ludia",
+        "Lysander",
+        "Nezha",
+        "Ninae",
+        "Olympia",
+        "Orchel",
+        "Peppe",
+        "Seteth",
+        "Sha Lan",
+        "Simon",
+        "Sirocco",
+        "Tialla",
+        "Ultand",
+        "Ursula"
+      ],
+      "really": [
+        "Esmeralda",
+        "Theodora"
+      ],
+      "src": [
+        "G8",
+        "LOCAL",
+        "PG",
+        "RK"
+      ],
+      "g8": "625983"
+    },
+    {
+      "name": "Potted Vegetables",
+      "price": 200,
+      "rarity": "Common",
+      "likes": "vegetable lovers",
+      "sold": [
+        {
+          "shop": "Regia"
+        }
+      ],
+      "loved": [],
+      "really": [
+        "Fabio",
+        "Zarcone",
+        "Halvin",
+        "Dadao",
+        "Nuzzuo",
+        "Tialla"
+      ],
+      "src": [
+        "G8",
+        "RK"
+      ],
+      "g8": "621569"
+    },
+    {
+      "name": "Protection Figurine",
+      "price": 200,
+      "rarity": "Common",
+      "likes": "spirituality",
+      "sold": [
+        {
+          "shop": "Niiza Port"
+        }
+      ],
+      "loved": [],
+      "really": [
+        "Dietrich",
+        "Diego",
+        "Simon",
+        "Io",
+        "Noctula",
+        "Sofia",
+        "Nuzzuo",
+        "Jasmine",
+        "Peppe",
+        "Alexandra",
+        "Anatolia",
+        "Bonaventure",
+        "Gaitz",
+        "Goliath",
+        "Inyoni",
+        "Tialla"
+      ],
+      "src": [
+        "G8",
+        "RK"
+      ],
+      "g8": "625923"
+    },
+    {
+      "name": "Pure-White Cervi",
+      "price": 200,
+      "rarity": "Common",
+      "likes": "sweets",
+      "sold": [
+        {
+          "shop": "Osiris"
+        }
+      ],
+      "loved": [],
+      "really": [
+        "Dietrich",
+        "Mu",
+        "Sofia",
+        "Loretta",
+        "Jasmine",
+        "Dadao",
+        "Halvin",
+        "Tialla"
+      ],
+      "src": [
+        "G8",
+        "RK"
+      ],
+      "g8": "625996"
+    },
+    {
+      "name": "Rancid Garum",
+      "price": 300,
+      "rarity": "Common",
+      "likes": "to cook",
+      "sold": [
+        {
+          "shop": "Benetnasch"
+        }
+      ],
+      "loved": [
+        "Benditz",
+        "Buccar",
+        "Cai",
+        "Centurio",
+        "Dante",
+        "Gaitz",
+        "Goliath",
+        "Peppe",
+        "Simon",
+        "Ultand"
+      ],
+      "really": [
+        "Bonaventure",
+        "Jester",
+        "Nuzzuo",
+        "Sofia"
+      ],
+      "src": [
+        "G8",
+        "RK"
+      ],
+      "g8": "625970"
+    },
+    {
+      "name": "Rare Southern Seeds",
+      "price": 50,
+      "rarity": "Common",
+      "likes": "agriculture enthusiasts",
+      "sold": [
+        {
+          "shop": "Kira"
+        }
+      ],
+      "loved": [
+        "Fabio",
+        "Fianna",
+        "Nuzzuo",
+        "Sofia"
+      ],
+      "really": [],
+      "src": [
+        "G8",
+        "RK"
+      ],
+      "g8": "625974"
+    },
+    {
+      "name": "Rare Spices",
+      "price": 500,
+      "rarity": "Common",
+      "likes": "spicy-food lovers",
+      "sold": [
+        {
+          "shop": "Market Vendor"
+        },
+        {
+          "shop": "Callianeira Port"
+        },
+        {
+          "shop": "Shama Port"
+        }
+      ],
+      "loved": [],
+      "really": [
+        "Bonaventure",
+        "Buccar",
+        "Mikaela",
+        "Fianna",
+        "Jasmine",
+        "Jester",
+        "Nuzzuo"
+      ],
+      "src": [
+        "G8",
+        "RK"
+      ],
+      "g8": "625916"
+    },
+    {
+      "name": "Red Hair Clip",
+      "price": 400,
+      "rarity": "Common",
+      "likes": null,
+      "sold": [
+        {
+          "shop": "Shama Port"
+        }
+      ],
+      "loved": [
+        "Alexandra",
+        "Benditz",
+        "Catania",
+        "Halvin",
+        "Ludia",
+        "Olympia"
+      ],
+      "really": [
+        "Esmeralda"
+      ],
+      "src": [
+        "G8",
+        "RK"
+      ],
+      "g8": "629142"
+    },
+    {
+      "name": "Red-Rose Bouquet",
+      "price": null,
+      "rarity": "Common",
+      "likes": "flower lovers",
+      "sold": [],
+      "other": "Leda gets one in the Ch 4 story scenes",
+      "loved": [],
+      "really": [],
+      "src": [
+        "G8",
+        "LOCAL"
+      ],
+      "g8": "625921",
+      "lovedUnconfirmed": [
+        "Dietrich"
+      ]
+    },
+    {
+      "name": "Rugged Blade",
+      "price": 1000,
+      "rarity": "Common",
+      "likes": "weapon lovers",
+      "sold": [
+        {
+          "shop": "Whill"
+        }
+      ],
+      "loved": [
+        "Anatolia",
+        "Dadao",
+        "Diego",
+        "Dietrich",
+        "Gaitz",
+        "Jasmine",
+        "Loretta",
+        "Mikaela",
+        "Nuzzuo",
+        "Nydine"
+      ],
+      "really": [
+        "Bonaventure",
+        "Fabio",
+        "Theodora",
+        "Ultand"
+      ],
+      "src": [
+        "G8",
+        "RK"
+      ],
+      "g8": "629141"
+    },
+    {
+      "name": "Rustic Ghosh",
+      "price": 100,
+      "rarity": "Common",
+      "likes": "fermented drinks",
+      "sold": [
+        {
+          "shop": "Ribeira Peddler"
+        },
+        {
+          "shop": "Daimon"
+        }
+      ],
+      "loved": [],
+      "really": [
+        "Leda",
+        "Fabio",
+        "Buccar",
+        "Tobias",
+        "Sirocco",
+        "Mikaela",
+        "Guzran",
+        "Yang Jie",
+        "Majide",
+        "Goliath",
+        "Kiroc",
+        "Bonaventure",
+        "Talimun"
+      ],
+      "src": [
+        "G8",
+        "RK"
+      ],
+      "g8": "625903"
+    },
+    {
+      "name": "Saraminian Sweets",
+      "price": 100,
+      "rarity": "Common",
+      "likes": "sweets",
+      "sold": [
+        {
+          "shop": "Megaira"
+        }
+      ],
+      "loved": [],
+      "really": [
+        "Peter",
+        "Esmeralda",
+        "Dadao",
+        "Dietrich",
+        "Jasmine",
+        "Loretta",
+        "Mu",
+        "Nydine",
+        "Orchel",
+        "Sofia"
+      ],
+      "src": [
+        "G8",
+        "RK"
+      ],
+      "g8": "625943"
+    },
+    {
+      "name": "School Scandal",
+      "price": 200,
+      "rarity": "Common",
+      "likes": "book lovers",
+      "sold": [
+        {
+          "shop": "Mons"
+        }
+      ],
+      "loved": [
+        "Bonaventure",
+        "Gaitz"
+      ],
+      "really": [],
+      "src": [
+        "G8",
+        "RK"
+      ],
+      "g8": "629138"
+    },
+    {
+      "name": "Secret Ghosh",
+      "price": 500,
+      "rarity": "Common",
+      "likes": "fermented drinks",
+      "sold": [
+        {
+          "shop": "Callianeira Port"
+        },
+        {
+          "shop": "Yaaman"
+        }
+      ],
+      "loved": [],
+      "really": [
+        "Leda",
+        "Fabio",
+        "Bonaventure",
+        "Tobias",
+        "Mikaela",
+        "Guzran",
+        "Yang Jie",
+        "Goliath",
+        "Buccar",
+        "Majide",
+        "Sirocco",
+        "Talimun"
+      ],
+      "src": [
+        "G8",
+        "RK"
+      ],
+      "g8": "625948"
+    },
+    {
+      "name": "Select Coffee",
+      "price": 100,
+      "rarity": "Common",
+      "likes": "coffee",
+      "sold": [
+        {
+          "shop": "Gift Vendor"
+        },
+        {
+          "shop": "Megaira"
+        },
+        {
+          "shop": "Shama Port"
+        }
+      ],
+      "loved": [],
+      "really": [
+        "Fabio",
+        "Mikaela",
+        "Olympia",
+        "Sha Lan",
+        "Dante",
+        "Guzran",
+        "Catania",
+        "Benditz",
+        "Yang Jie",
+        "Nuzzuo",
+        "Ludia",
+        "Seteth",
+        "Kiroc",
+        "Fianna",
+        "Bonaventure",
+        "Gaitz",
+        "Sofia",
+        "Ursula"
+      ],
+      "src": [
+        "G8",
+        "RK"
+      ],
+      "g8": "625951"
+    },
+    {
+      "name": "Sharp Dagger",
+      "price": 800,
+      "rarity": "Common",
+      "likes": "weapon lovers",
+      "sold": [
+        {
+          "shop": "Da Mina"
+        },
+        {
+          "shop": "Mahon Castle Town"
+        }
+      ],
+      "loved": [],
+      "really": [
+        "Nathan",
+        "Creek",
+        "Alexandra",
+        "Catania",
+        "Dante",
+        "Gaitz",
+        "Noctula",
+        "Nuzzuo"
+      ],
+      "src": [
+        "G8",
+        "RK"
+      ],
+      "g8": "629140"
+    },
+    {
+      "name": "Sharp Fishhook",
+      "price": 100,
+      "rarity": "Common",
+      "likes": "fishing enthusiasts",
+      "sold": [
+        {
+          "shop": "Fina Peddler"
+        },
+        {
+          "shop": "Raivo Port"
+        },
+        {
+          "shop": "Alecto"
+        },
+        {
+          "shop": "Niiza Port"
+        }
+      ],
+      "loved": [],
+      "really": [
+        "Cai",
+        "Esmeralda",
+        "Tobias",
+        "Yang Jie",
+        "Sofia",
+        "Ludia",
+        "Seteth",
+        "Kiroc",
+        "Peppe",
+        "Inyoni"
+      ],
+      "src": [
+        "G8",
+        "RK"
+      ],
+      "g8": "625957"
+    },
+    {
+      "name": "Shield Portrait",
+      "price": 1000,
+      "rarity": "Common",
+      "likes": "painting lovers",
+      "sold": [
+        {
+          "shop": "Megaira"
+        }
+      ],
+      "loved": [
+        "Alexandra",
+        "Buccar",
+        "Centurio",
+        "Diego",
+        "Gaitz",
+        "Guzran",
+        "Inyoni",
+        "Io",
+        "Loretta",
+        "Lysander",
+        "Nezha",
+        "Noctula",
+        "Olympia",
+        "Orchel",
+        "Peppe",
+        "Simon",
+        "Sirocco",
+        "Ursula"
+      ],
+      "really": [],
+      "src": [
+        "G8",
+        "RK"
+      ],
+      "g8": "625954"
+    },
+    {
+      "name": "Simple Pastries",
+      "price": 30,
+      "rarity": "Common",
+      "likes": "sweets",
+      "sold": [
+        {
+          "shop": "Gift Vendor"
+        },
+        {
+          "shop": "Orens"
+        },
+        {
+          "shop": "Benetnasch"
+        }
+      ],
+      "loved": [],
+      "really": [
+        "Peter",
+        "Esmeralda",
+        "Halvin",
+        "Dadao",
+        "Dietrich",
+        "Jasmine",
+        "Sofia"
+      ],
+      "src": [
+        "G8",
+        "RK"
+      ],
+      "g8": "625940"
+    },
+    {
+      "name": "Skin Balm",
+      "price": 500,
+      "rarity": "Common",
+      "likes": "fashion lovers",
+      "sold": [
+        {
+          "shop": "Barsk Post Town"
+        }
+      ],
+      "loved": [],
+      "really": [
+        "Sirocco",
+        "Olympia",
+        "Ludia",
+        "Fianna",
+        "Halvin",
+        "Alexandra",
+        "Catania",
+        "Esmeralda",
+        "Tialla",
+        "Ultand"
+      ],
+      "src": [
+        "G8",
+        "RK"
+      ],
+      "g8": "625938"
+    },
+    {
+      "name": "Smooth Garum",
+      "price": 100,
+      "rarity": "Rare",
+      "likes": "to cook",
+      "sold": [
+        {
+          "shop": "Raivo Port"
+        }
+      ],
+      "loved": [],
+      "really": [
+        "Tialla",
+        "Esmeralda",
+        "Tobias",
+        "Bertrand",
+        "Alexandra",
+        "Bonaventure",
+        "Jester",
+        "Nuzzuo",
+        "Sofia"
+      ],
+      "src": [
+        "G8",
+        "RK"
+      ],
+      "g8": "625987"
+    },
+    {
+      "name": "Solomon Coffee",
+      "price": 2000,
+      "rarity": "Common",
+      "likes": "coffee",
+      "sold": [
+        {
+          "shop": "Shama Port"
+        }
+      ],
+      "loved": [],
+      "really": [
+        "Bonaventure",
+        "Fabio",
+        "Fianna",
+        "Mikaela",
+        "Nuzzuo",
+        "Sofia"
+      ],
+      "src": [
+        "G8",
+        "RK"
+      ],
+      "g8": "625972"
+    },
+    {
+      "name": "Southern Coffee",
+      "price": 150,
+      "rarity": "Common",
+      "likes": "coffee",
+      "sold": [
+        {
+          "shop": "Megaira"
+        }
+      ],
+      "loved": [],
+      "really": [
+        "Fabio",
+        "Mikaela",
+        "Olympia",
+        "Guzran",
+        "Catania",
+        "Benditz",
+        "Yang Jie",
+        "Ludia",
+        "Seteth",
+        "Kiroc",
+        "Fianna",
+        "Bonaventure",
+        "Dante",
+        "Gaitz",
+        "Nuzzuo",
+        "Sofia",
+        "Ursula"
+      ],
+      "src": [
+        "G8",
+        "RK"
+      ],
+      "g8": "625952"
+    },
+    {
+      "name": "Southern Ghosh",
+      "price": 150,
+      "rarity": "Common",
+      "likes": "fermented drinks",
+      "sold": [
+        {
+          "shop": "Callianeira Port"
+        },
+        {
+          "shop": "Megaira"
+        }
+      ],
+      "loved": [],
+      "really": [
+        "Leda",
+        "Fabio",
+        "Tobias",
+        "Mikaela",
+        "Guzran",
+        "Yang Jie",
+        "Goliath",
+        "Bonaventure",
+        "Buccar",
+        "Majide",
+        "Sirocco",
+        "Talimun"
+      ],
+      "src": [
+        "G8",
+        "RK"
+      ],
+      "g8": "625914"
+    },
+    {
+      "name": "Special “Medicine”",
+      "price": 1000,
+      "rarity": "Common",
+      "likes": "fermented drinks",
+      "sold": [
+        {
+          "shop": "Benetnasch"
+        }
+      ],
+      "loved": [
+        "Sha Lan",
+        "Buccar",
+        "Goliath"
+      ],
+      "really": [],
+      "src": [
+        "G8",
+        "RK"
+      ],
+      "g8": "625998"
+    },
+    {
+      "name": "Spirit Board Game",
+      "price": 800,
+      "rarity": "Common",
+      "likes": "board-game enthusiasts",
+      "sold": [
+        {
+          "shop": "Niiza Port"
+        }
+      ],
+      "loved": [],
+      "really": [
+        "Dietrich",
+        "Io",
+        "Jester",
+        "Peppe",
+        "Benditz",
+        "Catania",
+        "Gaitz",
+        "Tialla"
+      ],
+      "src": [
+        "G8",
+        "RK"
+      ],
+      "g8": "625994"
+    },
+    {
+      "name": "Strategy Manuscript",
+      "price": 500,
+      "rarity": "Common",
+      "likes": "training enthusiasts",
+      "sold": [
+        {
+          "shop": "Ribeira Peddler"
+        }
+      ],
+      "loved": [
+        "Bonaventure",
+        "Tobias",
+        "Lilian",
+        "Ninae",
+        "Nezha",
+        "Guzran",
+        "Nydine",
+        "Benditz",
+        "Alexandra",
+        "Noctula",
+        "Yang Jie",
+        "Goliath",
+        "Ludia",
+        "Seteth",
+        "Dadao",
+        "Inyoni",
+        "Anatolia",
+        "Dietrich",
+        "Jasmine",
+        "Mikaela",
+        "Nuzzuo"
+      ],
+      "really": [
+        "Tialla",
+        "Zarcone"
+      ],
+      "src": [
+        "G8",
+        "RK"
+      ],
+      "g8": "625904",
+      "lovedUnconfirmed": []
+    },
+    {
+      "name": "Strong Cervi",
+      "price": 100,
+      "rarity": "Common",
+      "likes": "children",
+      "sold": [
+        {
+          "shop": "Raivo Port"
+        },
+        {
+          "shop": "Orens"
+        },
+        {
+          "shop": "Kassite"
+        }
+      ],
+      "loved": [],
+      "really": [
+        "Tialla",
+        "Peter",
+        "Dadao",
+        "Halvin",
+        "Jasmine",
+        "Mu",
+        "Sofia"
+      ],
+      "src": [
+        "G8",
+        "RK"
+      ],
+      "g8": "625910"
+    },
+    {
+      "name": "Strong Seasonings",
+      "price": 200,
+      "rarity": "Common",
+      "likes": "to cook",
+      "sold": [
+        {
+          "shop": "Callianeira Port"
+        },
+        {
+          "shop": "Kira"
+        }
+      ],
+      "loved": [],
+      "really": [
+        "Tialla",
+        "Bonaventure",
+        "Esmeralda",
+        "Tobias",
+        "Mikaela",
+        "Lilian",
+        "Guzran",
+        "Alexandra",
+        "Jester",
+        "Nuzzuo",
+        "Ultand",
+        "Fianna"
+      ],
+      "src": [
+        "G8",
+        "PG",
+        "RK"
+      ],
+      "g8": "625963"
+    },
+    {
+      "name": "Sturdy Rucksack",
+      "price": 500,
+      "rarity": "Common",
+      "likes": "travel enthusiasts",
+      "sold": [
+        {
+          "shop": "Breston"
+        }
+      ],
+      "loved": [],
+      "really": [
+        "Tobias",
+        "Nezha",
+        "Nydine",
+        "Io",
+        "Alexandra",
+        "Noctula",
+        "Nuzzuo",
+        "Goliath",
+        "Ludia",
+        "Seteth",
+        "Jasmine",
+        "Peppe",
+        "Inyoni",
+        "Gaitz"
+      ],
+      "src": [
+        "G8",
+        "RK"
+      ],
+      "g8": "625932"
+    },
+    {
+      "name": "Sun Ghosh",
+      "price": 150,
+      "rarity": "Common",
+      "likes": "fermented drinks",
+      "sold": [
+        {
+          "shop": "Callianeira Port"
+        }
+      ],
+      "loved": [],
+      "really": [
+        "Leda",
+        "Fabio",
+        "Bonaventure",
+        "Tobias",
+        "Mikaela",
+        "Nathan",
+        "Guzran",
+        "Yang Jie",
+        "Goliath",
+        "Buccar",
+        "Majide",
+        "Sirocco",
+        "Talimun"
+      ],
+      "src": [
+        "G8",
+        "RK"
+      ],
+      "g8": "625946"
+    },
+    {
+      "name": "Tales of Adventure",
+      "price": 300,
+      "rarity": "Common",
+      "likes": "book lovers",
+      "sold": [
+        {
+          "shop": "Alecto"
+        }
+      ],
+      "loved": [
+        "Leda",
+        "Fabio",
+        "Esmeralda",
+        "Tobias",
+        "Mikaela",
+        "Lilian",
+        "Olympia",
+        "Ninae",
+        "Nezha",
+        "Guzran",
+        "Nydine",
+        "Catania",
+        "Benditz",
+        "Alexandra",
+        "Noctula",
+        "Yang Jie",
+        "Ludia",
+        "Seteth",
+        "Dadao",
+        "Inyoni",
+        "Anatolia",
+        "Dante",
+        "Diego",
+        "Gaitz",
+        "Mu",
+        "Sirocco",
+        "Sofia",
+        "Tialla",
+        "Ultand"
+      ],
+      "really": [
+        "Bertrand",
+        "Zarcone"
+      ],
+      "src": [
+        "G8",
+        "RK"
+      ],
+      "g8": "625955",
+      "lovedUnconfirmed": [
+        "Goliath"
+      ]
+    },
+    {
+      "name": "Tales of the Arena",
+      "price": 300,
+      "rarity": "Rare",
+      "likes": "book lovers",
+      "sold": [
+        {
+          "shop": "Kassite"
+        }
+      ],
+      "loved": [],
+      "really": [
+        "Bonaventure"
+      ],
+      "src": [
+        "G8",
+        "RK"
+      ],
+      "g8": "626001"
+    },
+    {
+      "name": "The Knight's Suitors",
+      "price": 300,
+      "rarity": "Common",
+      "likes": "book lovers",
+      "sold": [
+        {
+          "shop": "Mons"
+        }
+      ],
+      "loved": [],
+      "really": [
+        "Gaitz",
+        "Tialla",
+        "Ultand"
+      ],
+      "src": [
+        "G8",
+        "RK"
+      ],
+      "g8": "629139"
+    },
+    {
+      "name": "The Works of Dante",
+      "price": 300,
+      "rarity": "Common",
+      "likes": "book lovers",
+      "sold": [
+        {
+          "shop": "Market Vendor"
+        },
+        {
+          "shop": "Mahon Castle Town"
+        },
+        {
+          "shop": "Mons"
+        }
+      ],
+      "loved": [],
+      "really": [
+        "Bonaventure",
+        "Creek",
+        "Dante",
+        "Yang Jie",
+        "Peppe",
+        "Aswan",
+        "Tahonia",
+        "Gaitz",
+        "Tialla"
+      ],
+      "src": [
+        "G8",
+        "RK"
+      ],
+      "g8": "625924"
+    },
+    {
+      "name": "Thick Foreign Tome",
+      "price": 1000,
+      "rarity": "Common",
+      "likes": "book lovers",
+      "sold": [
+        {
+          "shop": "Mahon Castle Town"
+        }
+      ],
+      "loved": [],
+      "really": [
+        "Bonaventure",
+        "Gaitz",
+        "Tialla"
+      ],
+      "src": [
+        "G8",
+        "RK"
+      ],
+      "g8": "625995"
+    },
+    {
+      "name": "Tome from Away",
+      "price": 500,
+      "rarity": "Common",
+      "likes": "book lovers",
+      "sold": [
+        {
+          "shop": "Port of Pandora"
+        }
+      ],
+      "loved": [
+        "Bonaventure",
+        "Gaitz",
+        "Tialla"
+      ],
+      "really": [
+        "Anatolia",
+        "Esmeralda",
+        "Fabio",
+        "Fianna",
+        "Jasmine",
+        "Mikaela",
+        "Ninae",
+        "Noctula",
+        "Nydine",
+        "Ultand"
+      ],
+      "src": [
+        "G8",
+        "RK"
+      ],
+      "g8": "626006"
+    },
+    {
+      "name": "Trader's Handbook",
+      "price": 300,
+      "rarity": "Common",
+      "likes": "book lovers",
+      "sold": [
+        {
+          "shop": "Alecto"
+        }
+      ],
+      "loved": [],
+      "really": [
+        "Tialla",
+        "Lilian",
+        "Yang Jie",
+        "Ludia",
+        "Seteth"
+      ],
+      "src": [
+        "G8"
+      ],
+      "g8": "625933"
+    },
+    {
+      "name": "Training Bracelet",
+      "price": 450,
+      "rarity": "Common",
+      "likes": "training enthusiasts",
+      "sold": [
+        {
+          "shop": "Market Vendor",
+          "conf": "unconfirmed",
+          "note": "Older Game8 parse tied it to the Market Vendor; current Game8 lists no merchant. Likely a later addition"
+        }
+      ],
+      "loved": [],
+      "really": [
+        "Leda",
+        "Esmeralda",
+        "Tobias",
+        "Lilian",
+        "Bertrand",
+        "Nezha",
+        "Nydine",
+        "Alexandra",
+        "Noctula",
+        "Nuzzuo",
+        "Goliath",
+        "Ludia",
+        "Inyoni"
+      ],
+      "src": [
+        "G8",
+        "G8-old"
+      ],
+      "g8": "625965"
+    },
+    {
+      "name": "Training Pillar",
+      "price": 500,
+      "rarity": "Common",
+      "likes": "training enthusiasts",
+      "sold": [
+        {
+          "shop": "Breston"
+        }
+      ],
+      "loved": [],
+      "really": [
+        "Dietrich",
+        "Gaitz",
+        "Diego",
+        "Io",
+        "Nuzzuo",
+        "Majide",
+        "Kiroc",
+        "Loretta",
+        "Jasmine",
+        "Peppe",
+        "Mikaela"
+      ],
+      "src": [
+        "G8",
+        "RK"
+      ],
+      "g8": "626004"
+    },
+    {
+      "name": "Training Weights",
+      "price": 300,
+      "rarity": "Common",
+      "likes": "training enthusiasts",
+      "sold": [
+        {
+          "shop": "Breston"
+        }
+      ],
+      "loved": [],
+      "really": [
+        "Dietrich",
+        "Gaitz",
+        "Diego",
+        "Nydine",
+        "Io",
+        "Nuzzuo",
+        "Majide",
+        "Kiroc",
+        "Loretta",
+        "Jasmine",
+        "Peppe",
+        "Mikaela",
+        "Noctula"
+      ],
+      "src": [
+        "G8",
+        "RK"
+      ],
+      "g8": "625926"
+    },
+    {
+      "name": "Village Recipes",
+      "price": 200,
+      "rarity": "Common",
+      "likes": "to cook",
+      "sold": [
+        {
+          "shop": "Yaaman"
+        },
+        {
+          "shop": "Aguino"
+        }
+      ],
+      "loved": [],
+      "really": [
+        "Tialla",
+        "Bonaventure",
+        "Buccar",
+        "Esmeralda",
+        "Tobias",
+        "Mikaela",
+        "Lilian",
+        "Alexandra",
+        "Yang Jie",
+        "Ludia",
+        "Seteth",
+        "Halvin"
+      ],
+      "src": [
+        "G8"
+      ],
+      "g8": "625931"
+    },
+    {
+      "name": "Volcano Ghosh",
+      "price": 150,
+      "rarity": "Common",
+      "likes": "fermented drinks",
+      "sold": [
+        {
+          "shop": "Barsk Post Town"
+        },
+        {
+          "shop": "Da Mina"
+        },
+        {
+          "shop": "Gift Vendor",
+          "from": 12,
+          "conf": "player",
+          "note": "Shows up in the Lowtown stall late in Ch 12, not before"
+        }
+      ],
+      "loved": [
+        "Leda",
+        "Fabio",
+        "Bonaventure",
+        "Tobias",
+        "Sirocco",
+        "Talimun",
+        "Guzran",
+        "Yang Jie",
+        "Sofia",
+        "Goliath",
+        "Kiroc",
+        "Fianna",
+        "Buccar"
+      ],
+      "really": [
+        "Majide",
+        "Mikaela"
+      ],
+      "src": [
+        "G8",
+        "PLAYER",
+        "RK"
+      ],
+      "g8": "625391",
+      "lovedUnconfirmed": []
+    },
+    {
+      "name": "Weak Cervi",
+      "price": 50,
+      "rarity": "Common",
+      "likes": "children",
+      "sold": [
+        {
+          "shop": "Raivo Port"
+        },
+        {
+          "shop": "Orens"
+        },
+        {
+          "shop": "Kassite"
+        }
+      ],
+      "loved": [],
+      "really": [
+        "Tialla",
+        "Peter",
+        "Mu",
+        "Dadao",
+        "Halvin",
+        "Jasmine",
+        "Sofia"
+      ],
+      "src": [
+        "G8",
+        "RK"
+      ],
+      "g8": "625927"
+    },
+    {
+      "name": "Wing Fletching",
+      "price": 300,
+      "rarity": "Common",
+      "likes": "archers",
+      "sold": [
+        {
+          "shop": "Ribeira Peddler",
+          "conf": "unconfirmed",
+          "note": "Older local note (300G); current Game8 lists no merchant"
+        }
+      ],
+      "loved": [],
+      "really": [
+        "Peter",
+        "Tobias",
+        "Mikaela",
+        "Lysander",
+        "Lilian",
+        "Nezha",
+        "Guzran",
+        "Nydine",
+        "Benditz",
+        "Alexandra",
+        "Noctula",
+        "Zarcone",
+        "Goliath",
+        "Inyoni"
+      ],
+      "src": [
+        "G8"
+      ],
+      "g8": "625905"
+    },
+    {
+      "name": "Yarc Milk",
+      "price": 50,
+      "rarity": "Common",
+      "likes": "children",
+      "sold": [
+        {
+          "shop": "Ribeira Peddler"
+        }
+      ],
+      "loved": [],
+      "really": [
+        "Tialla",
+        "Peter",
+        "Mu",
+        "Sofia",
+        "Dadao",
+        "Jasmine"
+      ],
+      "src": [
+        "G8",
+        "RK"
+      ],
+      "g8": "625901"
+    },
+    {
+      "name": "Young Ghosh",
+      "price": 50,
+      "rarity": "Common",
+      "likes": "fermented drinks",
+      "sold": [
+        {
+          "shop": "Gift Vendor"
+        },
+        {
+          "shop": "Fina Peddler"
+        },
+        {
+          "shop": "Barsk Post Town"
+        },
+        {
+          "shop": "Mons"
+        }
+      ],
+      "loved": [],
+      "really": [
+        "Leda",
+        "Fabio",
+        "Buccar",
+        "Tobias",
+        "Sirocco",
+        "Mikaela",
+        "Guzran",
+        "Yang Jie",
+        "Majide",
+        "Goliath",
+        "Kiroc",
+        "Bonaventure",
+        "Talimun"
+      ],
+      "src": [
+        "G8",
+        "RK"
+      ],
+      "g8": "625928"
+    },
+    {
+      "name": "Young Shosh",
+      "price": 100,
+      "rarity": "Common",
+      "likes": "fermented drinks",
+      "sold": [
+        {
+          "shop": "Niiza Port"
+        }
+      ],
+      "loved": [],
+      "really": [
+        "Buccar",
+        "Sirocco",
+        "Guzran",
+        "Majide",
+        "Kiroc",
+        "Bonaventure",
+        "Goliath"
+      ],
+      "src": [
+        "G8",
+        "RK"
+      ],
+      "g8": "625929"
+    }
+  ],
+  "avoid": [
+    {
+      "who": [
+        "Dietrich",
+        "Zarcone",
+        "Lysander",
+        "Goliath"
+      ],
+      "what": "Coffee",
+      "src": [
+        "FWO",
+        "PLAYER",
+        "RK"
+      ]
+    },
+    {
+      "who": [
+        "Alexandra",
+        "Catania",
+        "Leda",
+        "Loretta",
+        "Tialla"
+      ],
+      "what": "Rancid Garum",
+      "src": [
+        "RK"
+      ]
+    },
+    {
+      "who": [
+        "Fianna"
+      ],
+      "what": "Sweets",
+      "src": [
+        "RK"
+      ]
+    },
+    {
+      "who": [
+        "Theodora"
+      ],
+      "what": "Reading material",
+      "src": [
+        "RK"
+      ]
+    },
+    {
+      "who": [
+        "Nuzzuo"
+      ],
+      "what": "Tales of Adventure",
+      "src": [
+        "RK"
+      ]
+    },
+    {
+      "who": [
+        "children"
+      ],
+      "what": "Fermented drinks (ghosh, shosh)",
+      "src": [
+        "VGC"
+      ]
+    },
+    {
+      "who": [
+        "Tialla"
+      ],
+      "what": "Coffee Pastries",
+      "src": [
+        "RK"
+      ]
+    },
+    {
+      "who": [
+        "Tialla"
+      ],
+      "what": "Ghosh",
+      "src": [
+        "RK"
+      ]
+    },
+    {
+      "who": [
+        "Tialla"
+      ],
+      "what": "Special \"Medicine\"",
+      "src": [
+        "RK"
+      ]
+    },
+    {
+      "who": [
+        "Theodora"
+      ],
+      "what": "Strategy Manuscript",
+      "src": [
+        "RK"
+      ]
+    },
+    {
+      "who": [
+        "Jester"
+      ],
+      "what": "Saraminian Sweets, Mellow and Simple Pastries",
+      "src": [
+        "PLAYER",
+        "PG"
+      ]
+    },
+    {
+      "who": [
+        "Halvin"
+      ],
+      "what": "Pickled Vegetables",
+      "src": [
+        "PG"
+      ]
+    },
+    {
+      "who": [
+        "Simon"
+      ],
+      "what": "Potted Vegetables",
+      "src": [
+        "PG"
+      ]
+    },
+    {
+      "who": [
+        "Nydine"
+      ],
+      "what": "Mane Ornament",
+      "src": [
+        "PG"
+      ]
+    },
+    {
+      "who": [
+        "Sha Lan"
+      ],
+      "what": "Fodlan Tea",
+      "src": [
+        "PG"
+      ]
+    }
+  ],
+  "rules": [
+    "One gift per character per week; resets Sunday. No Turn cost.",
+    "The first gift only opens the bond (meals, recruit terms). Use the cheapest item: Simple or Mellow Pastries, 30G, Lowtown.",
+    "A birthday gift counts as at least really liked.",
+    "Stock is limited per restock: usually one copy before it refills.",
+    "Five reactions: not liked (0), kind of liked, liked, really liked, really liked with two yellow arrows (double: loved)."
+  ],
+  "open_questions": [
+    "Prices: Game8 lists round prices (30, 50, 100, 150G); Fextralife and older notes list ~10% less. Treated as base vs Gifts Discount price.",
+    "Market Vendor additions by chapter are unknown. Eastern Love Story, Gaudy Bangle and Training Bracelet were tied to it by an older Game8 parse; current Game8 lists no merchant.",
+    "Protection Figurine, Coffee Pastries, Strong Seasonings and Mane Ornament were listed in Dagsion by older Game8 pages; current Game8 sells them only in settlements (Niiza Port, Megaira, Callianeira Port/Kira, Grand Aragon).",
+    "Game8 and Fextralife disagree on really-liked lists for Young Ghosh, Young Shosh and Crimson Ghosh; Game8 is used.",
+    "RaiderKing lists paintings (Pegasus Panorama, Shield Portrait, Flower Painting, Portrait of Yu Phas) as loved by many; Game8 and Fextralife list no recipients. Not used for picks.",
+    "Volcano Ghosh: Buccar really liked (Game8) vs loved (Raider King); listed as loved",
+    "Candy Crystals: Mu really liked (Game8) vs loved (Raider King); listed as loved",
+    "Eastern Black Silk: Ninae really liked (Game8) vs loved (Raider King); listed as loved",
+    "Tales of Adventure: Tialla really liked (Game8) vs loved (Raider King); listed as loved",
+    "Blue-Rose Bouquet: Ultand really liked (Game8) vs loved (Raider King); listed as loved"
+  ],
+  "sources": [
+    {
+      "key": "G8",
+      "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/623690",
+      "note": "Gift Giving Guide, updated 2026-10-06, plus one Game8 page per gift (g8 = archive id)"
+    },
+    {
+      "key": "G8-old",
+      "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/621535",
+      "note": "Earlier parse of Game8 item pages (2026-09-30)"
+    },
+    {
+      "key": "FX",
+      "url": "https://fortunesweave.wiki.fextralife.com/Gifts",
+      "note": "Loved / really liked table, rarity"
+    },
+    {
+      "key": "FWO",
+      "url": "https://fortunesweave.online/gifts/",
+      "note": "Vendor restock behaviour"
+    },
+    {
+      "key": "RPS-leda",
+      "url": "https://www.rpgsite.net/guide/21210-fire-emblem-fortunes-weave-part-i-ledas-path-walkthrough",
+      "note": "Tavern gifts are cheap and replenish every chapter"
+    },
+    {
+      "key": "RK",
+      "url": "https://raiderking.com/fire-emblem-fortunes-weave-all-loved-gifts-guide/",
+      "note": "All Loved Gifts Guide (WIP): loved, really liked and disliked per character; \"?\" = not verified in game by the author"
+    },
+    {
+      "key": "VGC",
+      "url": "https://www.videogameschronicle.com/guide/fire-emblem-fortunes-weave-fastest-way-to-raise-support-ranks/",
+      "note": "Children don't like fermented drinks"
+    },
+    {
+      "key": "PLAYER",
+      "url": "local:player",
+      "note": "Observed in the player's own Cai and Dietrich runs"
+    },
+    {
+      "key": "LOCAL",
+      "url": "local:gifts-and-meals.md",
+      "note": "Earlier local research"
+    },
+    {
+      "key": "PG",
+      "url": "local:player-paste (Polygon best-gifts guide, Sept 25 update)",
+      "note": "Polygon best gifts per character (likes by category) and where to buy gift types, updated 2026-09-25"
+    }
+  ],
+  "characters": {
+    "Alexandra": {
+      "bio": "Her parents, virtuous men, Bucephalus, talking about love",
+      "categories": [
+        "horses",
+        "painting lovers"
+      ],
+      "src": [
+        "PG"
+      ]
+    },
+    "Anatolia": {
+      "bio": "Hexagram divination, round objects",
+      "categories": [
+        "fortune tellers",
+        "book lovers",
+        "fashion lovers"
+      ],
+      "extra": [
+        "Divination Bagua"
+      ],
+      "src": [
+        "PG"
+      ]
+    },
+    "Benditz": {
+      "bio": "The Great August's tactics, up-and-coming young people",
+      "categories": [
+        "weapon lovers",
+        "revere martial achievements",
+        "board-game enthusiasts",
+        "book lovers"
+      ],
+      "extra": [
+        "Strategy Manuscript",
+        "Board-Game Tactics"
+      ],
+      "src": [
+        "PG"
+      ]
+    },
+    "Bonaventure": {
+      "bio": "Knowledge, dialogue with sages, learning about other countries",
+      "categories": [
+        "book lovers",
+        "to cook"
+      ],
+      "src": [
+        "PG"
+      ]
+    },
+    "Buccar": {
+      "bio": "Loyalty, training, alcohol, Leda's happiness",
+      "categories": [
+        "fermented drinks",
+        "revere martial achievements",
+        "training enthusiasts"
+      ],
+      "src": [
+        "PG"
+      ]
+    },
+    "Cai": {
+      "bio": "Physical training, catching animals",
+      "categories": [
+        "horses",
+        "training enthusiasts"
+      ],
+      "src": [
+        "PG"
+      ]
+    },
+    "Catania": {
+      "bio": "Sterling wares, sterling people, sterling meals; any rare item",
+      "categories": [
+        "coffee",
+        "painting lovers"
+      ],
+      "src": [
+        "PG"
+      ]
+    },
+    "Centurio": {
+      "bio": "Serving Aurora's temple, patrolling",
+      "categories": [
+        "spirituality",
+        "coffee",
+        "revere martial achievements",
+        "weapon lovers",
+        "training enthusiasts"
+      ],
+      "src": [
+        "PG"
+      ]
+    },
+    "Dadao": {
+      "bio": "Women (especially Anatolia), machines, good food, fighting; all Cervi",
+      "categories": [
+        "children"
+      ],
+      "extra": [
+        "Ginji Cervi",
+        "Pure-White Cervi"
+      ],
+      "src": [
+        "PG"
+      ]
+    },
+    "Dante": {
+      "bio": "Herself, writing quickly, dramatic subjects",
+      "categories": [
+        "coffee",
+        "book lovers"
+      ],
+      "src": [
+        "PG"
+      ]
+    },
+    "Diego": {
+      "bio": "Forest walks, medicinal herbs, Orchel",
+      "categories": [
+        "archers",
+        "book lovers",
+        "board-game enthusiasts"
+      ],
+      "src": [
+        "PG"
+      ]
+    },
+    "Dietrich": {
+      "bio": "Objects of beauty, cats, sweet things, his sister",
+      "categories": [
+        "sweets",
+        "painting lovers",
+        "beauty"
+      ],
+      "src": [
+        "PG"
+      ]
+    },
+    "Esmeralda": {
+      "bio": "Handsome men, throwing her trident, fishing gear",
+      "categories": [
+        "fishing enthusiasts",
+        "fish lovers"
+      ],
+      "src": [
+        "PG"
+      ]
+    },
+    "Fabio": {
+      "bio": "Suffering, half-forgotten feelings, dissecting beautiful things",
+      "categories": [
+        "coffee"
+      ],
+      "src": [
+        "PG"
+      ]
+    },
+    "Fianna": {
+      "bio": "Poetry books, spicy foods, coffee, trustworthy people",
+      "categories": [
+        "book lovers",
+        "coffee",
+        "beverages",
+        "spicy-food lovers"
+      ],
+      "extra": [
+        "Strong Seasonings"
+      ],
+      "src": [
+        "PG"
+      ]
+    },
+    "Gaitz": {
+      "bio": "Tea from Sai, Ferghanan horses, dueling, calligraphy",
+      "categories": [
+        "weapon lovers",
+        "beverages",
+        "horses"
+      ],
+      "src": [
+        "PG"
+      ]
+    },
+    "Goliath": {
+      "bio": "Rampaging, food, animals, smoking meat",
+      "categories": [
+        "fermented drinks",
+        "board-game enthusiasts"
+      ],
+      "not": [
+        "coffee"
+      ],
+      "src": [
+        "PG",
+        "PLAYER"
+      ]
+    },
+    "Guzran": {
+      "bio": "Booze, women, interesting people, greenhorns",
+      "categories": [
+        "fermented drinks"
+      ],
+      "src": [
+        "PG"
+      ]
+    },
+    "Halvin": {
+      "bio": "Growing vegetables, shopping, street performing",
+      "categories": [
+        "agriculture enthusiasts",
+        "sweets"
+      ],
+      "extra": [
+        "Pickled Bulbs",
+        "Potted Vegetables",
+        "Magic-Trick Set"
+      ],
+      "not": [
+        "Pickled Vegetables"
+      ],
+      "src": [
+        "PG"
+      ]
+    },
+    "Inyoni": {
+      "bio": "Family and hometown, hunting, farm work, bow maintenance",
+      "categories": [
+        "archers",
+        "fishing enthusiasts",
+        "fish lovers"
+      ],
+      "src": [
+        "PG"
+      ]
+    },
+    "Io": {
+      "bio": "Chivalry, self-discipline, his horse Rocinan",
+      "categories": [
+        "horses",
+        "coffee"
+      ],
+      "src": [
+        "PG",
+        "PLAYER"
+      ]
+    },
+    "Jasmine": {
+      "bio": "Memories of her spouse, mercenary friends, getting rich",
+      "categories": [
+        "board-game enthusiasts",
+        "to cook"
+      ],
+      "src": [
+        "PG"
+      ]
+    },
+    "Jester": {
+      "bio": "The White-Maned Demon, fear in opponents' faces",
+      "categories": [
+        "fashion lovers",
+        "to cook"
+      ],
+      "extra": [
+        "Crafting Knives",
+        "Honey Pastries"
+      ],
+      "not": [
+        "Saraminian Sweets",
+        "Mellow Pastries",
+        "Simple Pastries"
+      ],
+      "src": [
+        "PG",
+        "PLAYER"
+      ]
+    },
+    "Kiroc": {
+      "bio": "Thievery, the open sea, ships, obedient underlings",
+      "categories": [
+        "flower lovers",
+        "fashion lovers"
+      ],
+      "src": [
+        "PG"
+      ]
+    },
+    "Leda": {
+      "bio": "Her parents, songs from home, gemstones, applause",
+      "categories": [
+        "fashion lovers",
+        "painting lovers",
+        "beauty"
+      ],
+      "src": [
+        "PG"
+      ]
+    },
+    "Lilian": {
+      "bio": "Gold coins, gemstones, older men",
+      "categories": [
+        "fashion lovers",
+        "flower lovers"
+      ],
+      "extra": [
+        "Eastern Earrings",
+        "Blue-Rose Bouquet"
+      ],
+      "src": [
+        "PG"
+      ]
+    },
+    "Loretta": {
+      "bio": "Reliable people, sweets, her friends (even Simple Pastries)",
+      "categories": [
+        "sweets"
+      ],
+      "src": [
+        "PG"
+      ]
+    },
+    "Ludia": {
+      "bio": "Writing stories, art, love and romance",
+      "categories": [
+        "coffee",
+        "book lovers",
+        "painting lovers"
+      ],
+      "src": [
+        "PG"
+      ]
+    },
+    "Lysander": {
+      "bio": "Skygazing, dining with women",
+      "categories": [
+        "weapon lovers",
+        "training enthusiasts",
+        "revere martial achievements"
+      ],
+      "extra": [
+        "Ceremonial Spear",
+        "Imitation Medal"
+      ],
+      "src": [
+        "PG"
+      ]
+    },
+    "Majide": {
+      "bio": "Booze, women, fighting, being strong",
+      "categories": [
+        "fermented drinks"
+      ],
+      "src": [
+        "PG"
+      ]
+    },
+    "Mikaela": {
+      "bio": "Moving her body, looking after others",
+      "categories": [
+        "coffee",
+        "fermented drinks",
+        "training enthusiasts"
+      ],
+      "src": [
+        "PG"
+      ]
+    },
+    "Mu": {
+      "bio": "New medicines, her parents, eating sweets; all Cervi",
+      "categories": [
+        "children",
+        "sweets",
+        "coffee"
+      ],
+      "src": [
+        "PG"
+      ]
+    },
+    "Nezha": {
+      "bio": "Physical activity, justice, fighting, good food",
+      "categories": [
+        "vegetable lovers",
+        "board-game enthusiasts"
+      ],
+      "src": [
+        "PG"
+      ]
+    },
+    "Ninae": {
+      "bio": "Pitiable people, spirits, her keepsake necklace, skygazing",
+      "categories": [
+        "flower lovers",
+        "painting lovers",
+        "fashion lovers"
+      ],
+      "src": [
+        "PG"
+      ]
+    },
+    "Noctula": {
+      "bio": "The city and its people, brawling",
+      "categories": [
+        "training enthusiasts"
+      ],
+      "src": [
+        "PG"
+      ]
+    },
+    "Nuzzuo": {
+      "bio": "Tradition, honor, great power",
+      "categories": [
+        "to cook",
+        "vegetable lovers"
+      ],
+      "extra": [
+        "Outdoor Cooking Set"
+      ],
+      "src": [
+        "PG"
+      ]
+    },
+    "Nydine": {
+      "bio": "Her duties, caring for her orniuses",
+      "categories": [
+        "archers",
+        "book lovers"
+      ],
+      "extra": [
+        "Horse-Grooming Kit"
+      ],
+      "not": [
+        "Mane Ornament"
+      ],
+      "src": [
+        "PG"
+      ]
+    },
+    "Olympia": {
+      "bio": "Song, dance, instruments, attention",
+      "categories": [
+        "flower lovers",
+        "painting lovers",
+        "beauty",
+        "board-game enthusiasts"
+      ],
+      "src": [
+        "PG"
+      ]
+    },
+    "Orchel": {
+      "bio": "Animals, music, cleaning, laundry, cooking",
+      "categories": [
+        "to cook",
+        "spicy-food lovers",
+        "painting lovers",
+        "book lovers",
+        "agriculture enthusiasts"
+      ],
+      "src": [
+        "PG"
+      ]
+    },
+    "Peppe": {
+      "bio": "The spirits, Brigid's people, the sun, his hometown",
+      "categories": [
+        "coffee",
+        "fishing enthusiasts",
+        "fish lovers",
+        "board-game enthusiasts"
+      ],
+      "src": [
+        "PG"
+      ]
+    },
+    "Peter": {
+      "bio": "His mother's cooking, ginji fruits; all Cervi",
+      "categories": [
+        "children",
+        "sweets",
+        "board-game enthusiasts"
+      ],
+      "extra": [
+        "Pastry Cookbook"
+      ],
+      "src": [
+        "PG"
+      ]
+    },
+    "Seteth": {
+      "bio": "Seiros' teachings, fishing, his daughter",
+      "categories": [
+        "fishing enthusiasts",
+        "fish lovers"
+      ],
+      "src": [
+        "PG"
+      ]
+    },
+    "Sha Lan": {
+      "bio": "Delicious food, drinks, socializing",
+      "categories": [
+        "to cook",
+        "beverages"
+      ],
+      "not": [
+        "Fodlan Tea"
+      ],
+      "src": [
+        "PG"
+      ]
+    },
+    "Simon": {
+      "bio": "Fighting to the death, hometown food, womanizing",
+      "categories": [
+        "vegetable lovers",
+        "training enthusiasts"
+      ],
+      "extra": [
+        "Dual Fish Knives",
+        "Eastern Board Game"
+      ],
+      "not": [
+        "Potted Vegetables"
+      ],
+      "src": [
+        "PG",
+        "PLAYER"
+      ]
+    },
+    "Sirocco": {
+      "bio": "The goddess Kalla, all women, reciting poetry",
+      "categories": [
+        "fermented drinks",
+        "painting lovers",
+        "book lovers"
+      ],
+      "extra": [
+        "Portrait of Yu Phas"
+      ],
+      "src": [
+        "PG"
+      ]
+    },
+    "Sofia": {
+      "bio": "Delicious food, the moment food is served",
+      "categories": [
+        "sweets",
+        "to cook"
+      ],
+      "src": [
+        "PG"
+      ]
+    },
+    "Talimun": {
+      "bio": "Money, adventure, cinnamon, flirting",
+      "categories": [
+        "fermented drinks",
+        "coffee",
+        "book lovers",
+        "board-game enthusiasts",
+        "painting lovers"
+      ],
+      "src": [
+        "PG"
+      ]
+    },
+    "Theodora": {
+      "bio": "Fighting, Yu Phas, her people thriving",
+      "categories": [
+        "beauty"
+      ],
+      "extra": [
+        "Portrait of Yu Phas"
+      ],
+      "src": [
+        "PG"
+      ]
+    },
+    "Tialla": {
+      "bio": "Libraries, love gossip, alone time, her grandfather",
+      "categories": [
+        "book lovers",
+        "children",
+        "board-game enthusiasts"
+      ],
+      "src": [
+        "PG"
+      ]
+    },
+    "Tobias": {
+      "bio": "Drinking, fighting, singing, company",
+      "categories": [
+        "fermented drinks",
+        "weapon lovers",
+        "revere martial achievements"
+      ],
+      "src": [
+        "PG"
+      ]
+    },
+    "Ultand": {
+      "bio": "Looking after others, family, housekeeping, love stories",
+      "categories": [
+        "to cook",
+        "book lovers"
+      ],
+      "src": [
+        "PG"
+      ]
+    },
+    "Ursula": {
+      "bio": "Poetry, animals, shade flowers, counting money",
+      "categories": [
+        "coffee",
+        "board-game enthusiasts",
+        "book lovers",
+        "painting lovers",
+        "flower lovers"
+      ],
+      "src": [
+        "PG"
+      ]
+    },
+    "Yang Jie": {
+      "bio": "Alcohol, tales of old, distant journeys, saving the weak",
+      "categories": [
+        "fermented drinks",
+        "book lovers"
+      ],
+      "src": [
+        "PG"
+      ]
+    },
+    "Zarcone": {
+      "bio": "Money, violence, good women, vegetables, drinking",
+      "categories": [
+        "vegetable lovers"
+      ],
+      "src": [
+        "PG"
+      ]
+    },
+    "Bertrand": {
+      "bio": "Garum (Cai only in Part I)",
+      "categories": [
+        "to cook"
+      ],
+      "src": [
+        "PG"
+      ]
+    }
+  },
+  "sourcing": [
+    "Weapons and martial items: Brezarant south of the desert (Breston, Zoste)",
+    "Fish items: Fina, Raivo Port, Alecto",
+    "Fashion: Callianeira Port (Eastern Black Silk limited, Eastern Earrings, Exquisite Ring); Arrowhead Gem in Breston; Skin Balm in Barsk Post Town",
+    "Horse items: Grand Aragon; Dagda Beard Grass in Orens; Horse-Grooming Kit in Aguino",
+    "Sweets: Honey Pastries in Regia, Fragrant Pastries in Orens; Saraminian Sweets unlimited in Megaira",
+    "Coffee: Megaira, Dagsion Lowtown Tavern",
+    "Books: Mahon Castle Town, Mons; Strategy Manuscript in Ribeira",
+    "Board games: Port of Pandora; Spirit Board Game in Niiza Port",
+    "Beverages: Fodlan Tea in Port of Pandora, Eastern Tea Leaves in Callianeira Port",
+    "Cooking: garum at the Dagsion tavern and Alecto; Outdoor Cooking Set in Grand Aragon",
+    "Archery: Bow Repair Kit in Zoste, Joint-Relief Gloves in Breston, Wing Fletching in Ribeira; Decorative Arrows later in Dagsion",
+    "Paintings: Shield Portrait in Megaira, Pegasus Panorama in Mons; Flower Painting and Portrait of Yu Phas from quests",
+    "Vegetables: Potted Vegetables in Regia, Pickled Bulbs in Aguino, Pickled Vegetables in Kassite and Zoste, Odd Vegetable Seeds in Zoste",
+    "Divination Bagua: Osiris only"
+  ]
+}

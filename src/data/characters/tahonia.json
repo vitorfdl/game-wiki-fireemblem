@@ -1,0 +1,183 @@
+{
+  "name": "Tahonia",
+  "slug": "tahonia",
+  "faction": "Kingdom of Arago (fortunesweave.co.uk lists her as Neutral)",
+  "weapons": [
+    "Gauntlet"
+  ],
+  "personalSkill": {
+    "name": "Python Technique",
+    "effect": "15% chance, when using a gauntlet combat art, to make a follow-up regardless of AS."
+  },
+  "growths": {
+    "HP": 65,
+    "Str": 50,
+    "Mag": 5,
+    "Spd": 20,
+    "Dex": 40,
+    "Def": 45,
+    "Res": 35,
+    "Lck": 20,
+    "Cha": 40
+  },
+  "joins": "Automatically in Part III: Salvation, Fifth Section. MISSABLE: she must survive Part II: War Chapter 3 as a guest unit.",
+  "build": {
+    "role": "Gauntlet brawler",
+    "path": [
+      "Gladiator",
+      "Pugilist",
+      "Warrior, then Battlemaster"
+    ],
+    "notes": "Her personal only works with gauntlet combat arts, so keep her on fists. Most other data is undocumented."
+  },
+  "sources": [
+    "https://fortunesweave.co.uk/characters/tahonia",
+    "https://www.rpgsite.net/guide/21391-fire-emblem-fortunes-weave-recruitment-guide-all-characters-in-game-how-to-recruit-them",
+    "https://www.fortunesweavewiki.wiki/characters/Fortune-s-Weave-playable-characters"
+  ],
+  "guide": {
+    "role": "Bench brawler (Flex squad E): gauntlet arts with a 15% free follow-up",
+    "summary": "Bench depth. A fixed Battlemaster: HP 65 growth holds a lane, and Python Technique adds a follow-up on 15% of gauntlet arts. Carry a Cleansing Blade for Boon foes.",
+    "focus": [
+      "HP",
+      "Str",
+      "Def"
+    ],
+    "watch": [
+      "Missable: she joins only if she survived Part II Ch 3 (talk to her there).",
+      "Spd: 20 growth. She gets doubled; Counter Gauntlets make the enemy phase pay.",
+      "Weight: Iron Gauntlets +4 3 + Silver Shield 4 + Gale Ring 2 = 9 (extra 6); Counter Gauntlets +2 4 + 6 = 10 on enemy phase. Shield off first on offense maps."
+    ],
+    "stages": [
+      {
+        "when": "Part III Sec 5+ (Battlemaster)",
+        "from": {
+          "part": 3,
+          "ch": 5
+        },
+        "level": "Join Lv ?",
+        "class": "Battlemaster",
+        "kind": "bench",
+        "goal": "Arts brawler: Python Technique adds a follow-up on 15% of gauntlet arts; Mind's-Eye Blow Hit +30.",
+        "why": [
+          "Joins Sec 5 if alive after Part II Ch 3; Battlemaster only (sheet), no reclass",
+          "Iron Gauntlets +4 (gold, Wt 3, Dex up) over Silver +2 (Boon, Mt ~21); Wooden +4 is ~Mt 6",
+          "Boon answer: Cleansing Blade +2 (Sword E); Wrath Strike on it"
+        ],
+        "exit": "Endpoint: no reclass. War Master's Strike once mastered (x1.5 damage).",
+        "masteries": [
+          "War Master's Strike"
+        ],
+        "weapons": [
+          {
+            "item": "Iron Gauntlets +4",
+            "why": "Main: Mt ?, Hit 90, Wt 3, Dex up from +3",
+            "plan": "Buy and refine to +4 (no Soulstone); Soulstone for +3 and +4; Da Mina +2 until then",
+            "alts": [
+              "Da Mina Gauntlets +2"
+            ]
+          },
+          {
+            "item": "Counter Gauntlets +2",
+            "why": "Enemy phase: Mt ~17, Atk +5 when attacked first"
+          },
+          {
+            "item": "Cleansing Blade +2",
+            "why": "Boon answer: Mt ~16, Wt 3"
+          }
+        ],
+        "equipment": [
+          {
+            "item": "Silver Shield",
+            "why": "Def +5, Wt 4: she holds a lane",
+            "slot": "Defense",
+            "alts": [
+              "Iron Shield",
+              "Hexlock Shield"
+            ]
+          },
+          {
+            "item": "Gale Ring",
+            "why": "Spd +3, Wt 2: fewer doubles on a Spd 20 growth",
+            "slot": "Accessory",
+            "alts": [
+              "Victory Gem",
+              "Phantom Ring"
+            ]
+          }
+        ],
+        "items": [
+          {
+            "item": "Elixir",
+            "why": "100 HP: she holds a lane",
+            "alts": [
+              "Concoction"
+            ]
+          }
+        ],
+        "arts": [
+          {
+            "name": "Mind's-Eye Blow",
+            "why": "Gauntlet S: Mt +7, Hit +30"
+          },
+          {
+            "name": "Mighty Fist",
+            "why": "Gauntlet D: Mt +4, Hit +10"
+          },
+          {
+            "name": "Deal Death",
+            "why": "Gauntlet C: Mt +4, Crit +5"
+          },
+          {
+            "name": "Cautious Blow",
+            "why": "Gauntlet B: Avo +10"
+          },
+          {
+            "name": "Wrath Strike",
+            "why": "Sword D: Mt +4, Hit +10 on the Cleansing Blade"
+          }
+        ],
+        "abilities": [
+          {
+            "name": "War Master's Strike",
+            "why": "Battlemaster mastery: x1.5 damage, once mastered"
+          },
+          {
+            "name": "Fists Lv. 3",
+            "why": "Gauntlet B+: Hit/Avo +5; Lv. 4 at A+"
+          },
+          {
+            "name": "Swords Lv. 1",
+            "why": "Sword D+ ?: Hit +3 on the Cleansing Blade"
+          }
+        ],
+        "openSlots": "Sheet lists no Infantry, Heavy or Authority rows and no level abilities; fill from her rank screen.",
+        "tips": [
+          "Seat: Drake (E, on foot) for Mikaela: HP 65 and Res 35 growths hold a lane vs mages",
+          "Mahadu (D) for Simon; Balor side team as a lane holder",
+          "Swing a gauntlet art every player phase: Python Technique fires only on them",
+          "Battlemaster: Brawl Hit +7, Combat Arts +3"
+        ]
+      }
+    ],
+    "sources": [
+      "part3-salvation",
+      "weapons-and-items",
+      "combat-arts-and-abilities",
+      "character-learnsets",
+      "equippable-abilities",
+      "class-data",
+      "redesign/17-part2-part3-plan"
+    ]
+  },
+  "recruitOn": {
+    "Leda": {
+      "how": "story",
+      "window": "Part III Sec 5 (alive after Part II Ch 3)"
+    },
+    "Theodora": {
+      "how": "story",
+      "window": "Part III Sec 5 (alive after Part II Ch 3)"
+    }
+  }
+}

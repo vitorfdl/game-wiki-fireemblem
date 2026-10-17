@@ -1,0 +1,1266 @@
+{
+  "name": "Theodora",
+  "slug": "theodora",
+  "epithet": "Queen of the Kingdom of Saramis",
+  "faction": "Megaira's Beacon",
+  "homeRoute": "Theodora",
+  "isLord": true,
+  "weapons": [
+    "Spear (Mahadu's Spear)",
+    "Reason",
+    "Faith"
+  ],
+  "preferred": [
+    "Authority",
+    "White Magic",
+    "Spear"
+  ],
+  "avoid": [
+    "Black Magic"
+  ],
+  "personality": "Proud, merit-minded queen who wants strength enough to protect her people.",
+  "story": "Daughter of the late King Sergio and half-sister to Dyan, she served years at Fort Zanbar, where the assassin Bartolome killed her father and took her right arm. She accepts a cursed prosthetic arm from Mahadu that grants power at the cost of a roughly 10-year lifespan and mental deterioration. Often called the Flame Lord most central to the overall plot.",
+  "personalSkill": {
+    "name": "Royal Resolve",
+    "effect": "Unit takes half damage when attacked (30% trigger). Lv 5: Direct Hit (+10 damage with Blaze Arts, 30% trigger). Lv 20: Unstoppable Force (3x damage vs obstacles)."
+  },
+  "growths": {
+    "HP": 70,
+    "Str": 50,
+    "Mag": 30,
+    "Spd": 40,
+    "Dex": 40,
+    "Def": 40,
+    "Res": 30,
+    "Lck": 30,
+    "Cha": 50
+  },
+  "supports": [
+    "Lilian",
+    "Cai",
+    "Dietrich",
+    "Eshmel",
+    "Tobias",
+    "Bertrand",
+    "Leda"
+  ],
+  "tierNotes": "KeenGamer: most durable lord, 70% HP is the highest of any Part I character. Games with James: A tier (character).",
+  "requirements": {
+    "Cai": "—",
+    "Dietrich": "—",
+    "Theodora": "Auto",
+    "Leda": "—"
+  },
+  "build": {
+    "role": "Lord: Guardian tank, Physic healer, battalion carrier #1",
+    "path": [
+      "Soldier",
+      "Armored Knight",
+      "Guardian",
+      "Sentinel",
+      "The Trident"
+    ],
+    "part1Target": "Guardian (Great Counter mastered, Physic, Brace on the way)",
+    "part3Target": "Sentinel, then The Trident",
+    "notes": "Armored Knight holds the wall from Ch 6 to Lv 35 while Arena Mage trains White Magic B, so Physic is ready the day she becomes a Guardian (Ch 10). No class detours: Priest and Dreadnought only chased ranks or a Hit bonus she doesn't need. Battalion carrier #1: Tactics Manuals go to her first.",
+    "confidence": "medium"
+  },
+  "guide": {
+    "role": "Lord: Guardian tank, Physic healer, first battalion carrier",
+    "summary": "The lord and the army's wall: she holds the choke on enemy phase and, from Ch 10, Physics the lane behind her. End her turn on the chokepoint with the shield on, let [[ability:Great Counter]] and Royal Resolve answer, and park Alexandra beside her.",
+    "playstyle": "Player phase: gambits and one art on the foe that threatens the casters. Enemy phase: stand on the choke and let them come. From Ch 10 she heals from the front, so Sofia can stay further back. She is a defeat condition in most battles.",
+    "focus": [
+      "HP",
+      "Def",
+      "Res"
+    ],
+    "keys": [
+      "Alternate Arena Heavy and Mage weeks: Spear B and White Magic B by Ch 10.",
+      "Refine [[item:Mahadu's Spear]] first: +1 at Renown 7 (Ch 9), +2 at Renown 10 (Ch 12).",
+      "Read every White-Magic Manual on her: Armored Knight gives no White Magic EXP.",
+      "Take [[class:Guardian]] the week she hits Lv 35 in Ch 10: Physic and Brace.",
+      "End Alexandra's turns beside her from Ch 8: Silver Maiden Hit/Avo +5 each.",
+      "Read every Tactics Manual: Lions of Megaira at Authority B, Divine-Shield Guard at A?."
+    ],
+    "watch": [
+      "Weight: Mahadu's Spear 8 + Silver Shield 4 = 12; Vendetta (Part III) is Wt 20. Shield comes off first.",
+      "Part III weight: Bronze Spear +4 7 + Silver Shield 4 + Cloth of Aurora 5 = 16, Bld ?; Vendetta 29. Shield off first.",
+      "Physic: White Magic B? and only from Ch 10. Until then Sofia and Bonaventure heal.",
+      "Inventory: Guardian is 6/6 (Mahadu's Spear, Ji, Short Spear, Silver Shield, Elixir, Dew of Protection). Part II swaps the Dew for the Hexlock Shield.",
+      "Res: 25 growth in Armored Knight, 45 in Guardian. Mage maps before Ch 10 want the Hexlock.",
+      "Defeat condition: check every bow and tome range before you end her turn."
+    ],
+    "stages": [
+      {
+        "when": "Ch 1 to 3 (no class yet)",
+        "from": {
+          "part": 1,
+          "ch": 1
+        },
+        "to": {
+          "part": 1,
+          "ch": 3
+        },
+        "level": "Start (Lv ?) to Ch 3",
+        "class": "",
+        "kind": "core",
+        "goal": "Hold the front with Mahadu's Spear. Royal Resolve (half damage, 30%) is always on.",
+        "exit": "Ch 4: take the Class License tutorial (Soldier).",
+        "masteries": [],
+        "weapons": [
+          {
+            "item": "Mahadu's Spear",
+            "why": "Mt 10, Hit 85, Wt 8; her spear all game"
+          }
+        ],
+        "equipment": [],
+        "items": [
+          {
+            "item": "Vulnerary",
+            "why": "20 HP x3 for the front line"
+          }
+        ],
+        "arts": [
+          {
+            "name": "Tempest Spear",
+            "why": "Spear D: Mt +4, Hit +10 finisher"
+          },
+          {
+            "name": "Full Moon",
+            "why": "Mahadu's Spear art; effect not documented"
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Direct Hit",
+            "why": "Lv 5: Blaze Arts +10 damage (30%); she opens bosses with them"
+          },
+          {
+            "name": "Spears Lv. 1",
+            "why": "Spear D+: Hit +3 with spears"
+          },
+          {
+            "name": "Rein",
+            "why": "Authority D?: Avo -3 on adjacent foes; her lord Authority likely starts at D"
+          },
+          {
+            "name": "Close Quarters",
+            "why": "Infantry D?: Mov -1 on adjacent foes holds the choke"
+          },
+          {
+            "name": "Knightly Senses",
+            "why": "Riding D?: Avo +10 vs spears; swap in whatever D shows on her skill screen"
+          }
+        ],
+        "tips": [
+          "Ch 1 Turn 3: she learns Earthen Throw (range 1-5, 7 HP): her boss opener",
+          "Ch 3: hit the Bullion carrier with Earthen Throw",
+          "Feed the Pale Raven with her every week"
+        ],
+        "training": [
+          {
+            "rank": "Spear D+",
+            "for": "Spears Lv. 1",
+            "how": "Starting rank ?; Arena Mounted in week 1 if short"
+          },
+          {
+            "rank": "Riding D",
+            "for": "Knightly Senses",
+            "how": "Starting rank ?; Arena Mounted in week 1 if short"
+          }
+        ]
+      },
+      {
+        "when": "Ch 4 to 5 (Soldier)",
+        "from": {
+          "part": 1,
+          "ch": 4
+        },
+        "to": {
+          "part": 1,
+          "ch": 5
+        },
+        "level": "Up to Lv 20",
+        "class": "Soldier",
+        "kind": "core",
+        "goal": "Free tutorial class: trains Spear, Axe and Heavy for the Armored Knight exam. No White Magic here.",
+        "exit": "Lv 20 with Spear C, Axe C, Heavy E+: Armored Knight exam in Ch 6.",
+        "masteries": [
+          "Defense Basics"
+        ],
+        "weapons": [
+          {
+            "item": "Mahadu's Spear",
+            "why": "Mt 10, Hit 85, Wt 8; her spear all game"
+          },
+          {
+            "item": "Javelin",
+            "why": "Range 1-2 chip and counters vs bows and mages"
+          },
+          {
+            "item": "Wooden Axe",
+            "why": "Wt 7: one axe fight a map pushes Axe to C"
+          }
+        ],
+        "equipment": [],
+        "items": [
+          {
+            "item": "Vulnerary",
+            "why": "20 HP x3 for the front line"
+          }
+        ],
+        "arts": [
+          {
+            "name": "Tempest Spear",
+            "why": "Spear D: Mt +4, Hit +10 finisher"
+          },
+          {
+            "name": "Full Moon",
+            "why": "Mahadu's Spear art; effect not documented"
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Direct Hit",
+            "why": "Lv 5: Blaze Arts +10 damage (30%)"
+          },
+          {
+            "name": "Spears Lv. 1",
+            "why": "Spear D+: Hit +3 with spears"
+          },
+          {
+            "name": "Defense Basics",
+            "why": "Soldier mastery: Def +1, once mastered"
+          },
+          {
+            "name": "Knightly Senses",
+            "why": "Riding D: Avo +10 vs spears; Ch 4-5 Soldiers carry them"
+          },
+          {
+            "name": "Read the Winds",
+            "why": "Flying D: Avo +10 vs bows"
+          }
+        ],
+        "battalion": {
+          "name": "Novice Hunters",
+          "why": "Str +1, Dex +1, Cha +3: the starter; Authority D? via Rein",
+          "where": "Ch 4 battalion tutorial (auto)"
+        },
+        "training": [
+          {
+            "rank": "Spear C, Axe C, Heavy E+",
+            "for": "Armored Knight exam (Ch 6)",
+            "how": "Arena Heavy (Spear, Axe, Heavy, Authority) every week; Soldier trains Spear, Axe, Armor +1"
+          },
+          {
+            "rank": "Riding D, Flying D",
+            "for": "Knightly Senses, Read the Winds",
+            "how": "Arena Mounted 1-2 weeks? (start ranks ?); it also trains Spear and Authority"
+          }
+        ],
+        "tips": [
+          "Ch 4: [[battalion:Novice Hunters]] go on her; Lilian takes them in Ch 6",
+          "Normal attacks cost no durability; only arts do"
+        ]
+      },
+      {
+        "when": "Ch 6 to 9 (Armored Knight)",
+        "from": {
+          "part": 1,
+          "ch": 6
+        },
+        "to": {
+          "part": 1,
+          "ch": 9
+        },
+        "level": "Lv 20 to 35",
+        "class": "Armored Knight",
+        "kind": "core",
+        "goal": "Def 65 growth and Great Counter: the enemy-phase wall while the Arena trains White Magic B for Guardian.",
+        "why": [
+          "Stays put Ch 8 to 9: a Priest trip would only chase White Magic B, which Arena Mage reaches",
+          "From Ch 8 Alexandra ends her turns beside her (Silver Maiden; they support each other)"
+        ],
+        "exit": "Lv 35 with Spear B and White Magic B: Guardian exam in Ch 10.",
+        "masteries": [
+          "Great Counter"
+        ],
+        "weapons": [
+          {
+            "item": "Mahadu's Spear",
+            "why": "Mt 10, Hit 85, Wt 8; Full Moon; the route's first refine",
+            "alts": [
+              "Da Mina Spear"
+            ],
+            "plan": "Dagsion Blacksmith: +1 at Renown 7 (Ch 9), +2 at Renown 10 (Ch 12); rare ore"
+          },
+          {
+            "item": "Halberd",
+            "why": "Mt 12, Wt 12: effective vs armor and cavalry"
+          },
+          {
+            "item": "Javelin",
+            "why": "Range 1-2 chip and counters vs bows and mages"
+          },
+          {
+            "item": "Cleansing Blade",
+            "why": "Sword E, Wt 3: strips Bahr Vahn's Underworld Boon",
+            "situational": "Ch 6 Bahr Vahn: takes the Halberd's slot"
+          }
+        ],
+        "equipment": [
+          {
+            "item": "Hexlock Shield",
+            "why": "Def +1, Res +5, Wt 4: covers her Res -5 growth here",
+            "slot": "Defense",
+            "alts": [
+              "Iron Shield"
+            ]
+          }
+        ],
+        "items": [
+          {
+            "item": "Concoction",
+            "why": "40 HP x2: she is a defeat condition",
+            "alts": [
+              "Vulnerary"
+            ]
+          }
+        ],
+        "arts": [
+          {
+            "name": "Armored Blow",
+            "why": "Spear C: Prt +3 after a kill"
+          },
+          {
+            "name": "Tempest Spear",
+            "why": "Spear D: Mt +4, Hit +10 finisher"
+          },
+          {
+            "name": "Full Moon",
+            "why": "Mahadu's Spear art; effect not documented"
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Great Counter",
+            "why": "Armored Knight mastery: Atk +3 when the foe attacks first, once mastered"
+          },
+          {
+            "name": "Rein",
+            "why": "Authority D: Avo -3 on adjacent foes, so the Hammer (Zarcone Ch 6 to 7) lands"
+          },
+          {
+            "name": "Direct Hit",
+            "why": "Lv 5: Blaze Arts +10 damage (30%)"
+          },
+          {
+            "name": "Spears Lv. 2",
+            "why": "Spear C+: Hit +5 with spears"
+          },
+          {
+            "name": "Defense Basics",
+            "why": "Def +1"
+          }
+        ],
+        "battalion": {
+          "name": "Armored Sentinels",
+          "why": "Def +2, Dex +1, Cha +4 on the wall at Authority D?",
+          "where": "[[place:Alecto]], Ch 6 Recruit Soldiers",
+          "alts": [
+            "Veteran Sentinels at Authority C (Alecto, Megaira)"
+          ]
+        },
+        "training": [
+          {
+            "rank": "White Magic B",
+            "for": "Physic the day she becomes a Guardian",
+            "how": "Arena Mage (White, Black, Authority) most weeks, plus every White-Magic Manual"
+          },
+          {
+            "rank": "Spear B",
+            "for": "Guardian exam (Ch 10)",
+            "how": "Armored Knight Spear +1 a fight; Arena Heavy when Spear lags"
+          },
+          {
+            "rank": "Authority D, then C",
+            "for": "Rein; Armored Sentinels (D), Veteran Sentinels (C)",
+            "how": "Both courses train it; Tactics Manuals from Ch 7 go to her first"
+          }
+        ],
+        "checks": [
+          {
+            "stat": "Def",
+            "at": "Lv 25",
+            "need": "Ch 7 Iron-weapon foes need 4+ hits to kill her in the forecast",
+            "why": "She holds the choke alone on enemy phase",
+            "fix": [
+              "Iron Shield (Def +3) on physical maps, Hexlock on mage maps",
+              "End where only 2 foes reach her; Royal Resolve halves 30%",
+              "Keep Defense Basics (Def +1) slotted"
+            ]
+          }
+        ],
+        "tips": [
+          "Ch 7: scripted Bursts cut her max HP. Open Cougar Woodlands: Muen to storage for Part III",
+          "Lv 20: Unstoppable Force (3x vs obstacles) swaps in on wall and barricade maps",
+          "Mage weeks with Bonaventure: units trained together gain Support",
+          "Ch 9 Megaira: buy her Advanced License and an Elixir"
+        ],
+        "drop": [
+          {
+            "item": "Wooden Axe",
+            "why": "Axe C is in; she never fights with axes again"
+          },
+          {
+            "item": "Knightly Senses",
+            "why": "Great Counter takes the slot: Avo +10 means little at Armored Knight Spd"
+          },
+          {
+            "item": "Read the Winds",
+            "why": "Rein takes the slot (Authority D)"
+          }
+        ]
+      },
+      {
+        "when": "Ch 10 to 12 (Guardian)",
+        "from": {
+          "part": 1,
+          "ch": 10
+        },
+        "to": {
+          "part": 1,
+          "ch": 12
+        },
+        "level": "Lv 35 to about 38",
+        "class": "Guardian",
+        "kind": "core",
+        "goal": "Physic from the front, Res 45 growth and Brace. Great Counter and Royal Resolve still carry the enemy phase.",
+        "exit": "Stay Guardian into Part II; Brace comes on the way.",
+        "masteries": [
+          "Brace"
+        ],
+        "weapons": [
+          {
+            "item": "Mahadu's Spear +1",
+            "why": "Refined (Mt ?); Spear B arts and Full Moon ride on it",
+            "alts": [
+              "Da Mina Spear"
+            ],
+            "plan": "+2 at Renown 10, Ch 12 (rare ore)"
+          },
+          {
+            "item": "Ji",
+            "why": "Mt 11, Hit 80, Wt 7: effective vs armor and cavalry, Windweave"
+          },
+          {
+            "item": "Short Spear",
+            "why": "Mt 5, range 1-2: chip and counters at range",
+            "alts": [
+              "Javelin"
+            ]
+          }
+        ],
+        "equipment": [
+          {
+            "item": "Silver Shield",
+            "why": "Def +5, Wt 4: the route's one Part I copy",
+            "slot": "Defense",
+            "alts": [
+              "Hexlock Shield"
+            ]
+          }
+        ],
+        "items": [
+          {
+            "item": "Elixir",
+            "why": "100 HP; her Part II stock (no shops there)",
+            "alts": [
+              "Concoction"
+            ]
+          },
+          {
+            "item": "Dew of Protection",
+            "why": "Half damage until her next phase",
+            "situational": "Ch 12 Dyan turn: takes the Short Spear's slot, then swap back"
+          }
+        ],
+        "arts": [
+          {
+            "name": "Protective Storm",
+            "why": "Spear B: Mt +5, Prt +7 in combat; the boss-turn art"
+          },
+          {
+            "name": "Windweave",
+            "why": "Ji art: Hit +10, 10% no counter"
+          },
+          {
+            "name": "Armored Blow",
+            "why": "Spear C: Prt +3 after a kill"
+          },
+          {
+            "name": "Tempest Spear",
+            "why": "Spear D: Mt +4, Hit +10 finisher"
+          },
+          {
+            "name": "Full Moon",
+            "why": "Mahadu's Spear art; effect not documented"
+          }
+        ],
+        "spells": [
+          {
+            "name": "Physic",
+            "why": "White Magic B?: heals 8 (+10 Magic Heal) at range"
+          },
+          {
+            "name": "Heal",
+            "why": "White Magic D: 10 HP (+10) at range 1"
+          },
+          {
+            "name": "Seraphim",
+            "why": "White Magic C: effective vs undead"
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Great Counter",
+            "why": "Atk +3 when the foe attacks first"
+          },
+          {
+            "name": "Brace",
+            "why": "Guardian mastery: Prt +3 after a kill, once mastered"
+          },
+          {
+            "name": "Rein+",
+            "why": "Authority B: Avo -5 on adjacent foes; Rein until then"
+          },
+          {
+            "name": "Direct Hit",
+            "why": "Blaze Arts +10 (30%): Dazzling Comet (Lv 35) never misses"
+          },
+          {
+            "name": "Spears Lv. 2",
+            "why": "Spear C+: Hit +5 with spears"
+          }
+        ],
+        "battalion": {
+          "name": "Lions of Megaira",
+          "why": "Def +3, Dex +3, Cha +7: the best B wall pair",
+          "where": "[[place:Megaira]], Ch 9 (Renown 7, Rousing Speech)",
+          "alts": [
+            "Silver-Shield Guard (Def/Res, Megaira)"
+          ],
+          "situational": "Veteran Sentinels until Authority B"
+        },
+        "training": [
+          {
+            "rank": "Spear A",
+            "for": "Sentinel (Part III, Lv 45)",
+            "how": "Guardian Spear +3 a fight; Arena seats bench first"
+          },
+          {
+            "rank": "Authority B",
+            "for": "Lions of Megaira",
+            "how": "Arena Heavy or Mage"
+          }
+        ],
+        "checks": [
+          {
+            "stat": "Spd",
+            "at": "Ch 10 prep",
+            "need": "Not doubled by Ch 10-11 swords and bows in the forecast, shield on",
+            "why": "Doubled twice a turn, Royal Resolve can't save the choke",
+            "fix": [
+              "Take off the Silver Shield (Wt 4) on fast-foe maps",
+              "Ginji Juice (Bld +4) for that map?",
+              "Bonaventure's Swarm Z (Spd -3) on the fastest foe first"
+            ]
+          }
+        ],
+        "tips": [
+          "Leda's Paralogue (9/8): Unstoppable Force replaces Direct Hit (3x vs obstacles)",
+          "Ch 11 vs Cai: she goes right with the Def units (ballista side)",
+          "Ch 12: her 6 items are her Part II kit; stock the Elixir now"
+        ],
+        "drop": [
+          {
+            "item": "Halberd",
+            "why": "The Ji covers armor and cavalry at Wt 7"
+          },
+          {
+            "item": "Hexlock Shield",
+            "why": "Silver Shield takes the slot; the Hexlock waits in storage for Part III"
+          },
+          {
+            "item": "Javelin",
+            "why": "Short Spear (Mt 5) takes the throw slot"
+          },
+          {
+            "item": "Cleansing Blade",
+            "why": "Guardian has no swords: it goes to Tobias"
+          },
+          {
+            "item": "Defense Basics",
+            "why": "Slot goes to Brace"
+          }
+        ]
+      },
+      {
+        "when": "Part II, Part III Section 1",
+        "from": {
+          "part": 2,
+          "ch": 1
+        },
+        "to": {
+          "part": 3,
+          "ch": 1
+        },
+        "level": "Lv 38 to 42 (Training Drills)",
+        "class": "Guardian",
+        "kind": "core",
+        "goal": "Hold the chokes and Physic: Part II Ch 3 asks for exactly this. Brace on every kill.",
+        "exit": "Spear A by the end of Part II opens Sentinel.",
+        "masteries": [],
+        "weapons": [
+          {
+            "item": "Mahadu's Spear +2",
+            "why": "Equipped carry-over",
+            "plan": "+2 at Renown 10 (Ch 12); Ch 12 kit"
+          },
+          {
+            "item": "Ji",
+            "why": "Mt 11, Hit 80, Wt 7: effective vs armor and cavalry, Windweave",
+            "plan": "Ch 12 kit"
+          },
+          {
+            "item": "Short Spear",
+            "why": "Mt 5, range 1-2: chip and counters at range",
+            "alts": [
+              "Javelin"
+            ],
+            "plan": "Ch 12 kit"
+          }
+        ],
+        "equipment": [
+          {
+            "item": "Silver Shield",
+            "why": "Def +5, Wt 4: the route's one Part I copy",
+            "slot": "Defense",
+            "alts": [
+              "Hexlock Shield"
+            ],
+            "plan": "Ch 12 kit"
+          },
+          {
+            "item": "Hexlock Shield",
+            "why": "Def +1, Res +5, Wt 4",
+            "slot": "Defense",
+            "situational": "Mage maps (Ch 5 Dagda): replaces the Silver Shield",
+            "alts": [
+              "Talisman Shield"
+            ]
+          }
+        ],
+        "items": [
+          {
+            "item": "Elixir",
+            "why": "100 HP: boss turns; no shops in Part II",
+            "alts": [
+              "Concoction"
+            ]
+          }
+        ],
+        "arts": [
+          {
+            "name": "Protective Storm",
+            "why": "Spear B: Mt +5, Prt +7 in combat; the boss-turn art"
+          },
+          {
+            "name": "Windweave",
+            "why": "Ji art: Hit +10, 10% no counter"
+          },
+          {
+            "name": "Armored Blow",
+            "why": "Spear C: Prt +3 after a kill"
+          },
+          {
+            "name": "Tempest Spear",
+            "why": "Spear D: Mt +4, Hit +10 finisher"
+          },
+          {
+            "name": "Full Moon",
+            "why": "Mahadu's Spear art; effect not documented"
+          }
+        ],
+        "spells": [
+          {
+            "name": "Physic",
+            "why": "White Magic B?: heals 8 (+10 Magic Heal) at range"
+          },
+          {
+            "name": "Heal",
+            "why": "White Magic D: 10 HP (+10) at range 1"
+          },
+          {
+            "name": "Seraphim",
+            "why": "White Magic C: effective vs undead"
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Great Counter",
+            "why": "Atk +3 when the foe attacks first"
+          },
+          {
+            "name": "Brace",
+            "why": "Prt +3 after a kill"
+          },
+          {
+            "name": "Rein+",
+            "why": "Authority B: Avo -5 on adjacent foes"
+          },
+          {
+            "name": "Direct Hit",
+            "why": "Blaze Arts +10 (30%): Earthen Hurl and Dazzling Comet"
+          },
+          {
+            "name": "Spears Lv. 3",
+            "why": "Spear B+: Hit/Avo +5 with spears (Guardian Spear +3 a fight)"
+          }
+        ],
+        "battalion": {
+          "name": "Lions of Megaira",
+          "why": "Def +3, Dex +3, Cha +7 stay on the wall",
+          "where": "Held from Ch 10",
+          "situational": "Part II carryover ?"
+        },
+        "tips": [
+          "Only her Ch 12 items come in: no shops, no swaps",
+          "Ch 5: the casters hit Dagda (low Res) while she blocks the stair choke",
+          "Ch 6 Lyrah: Earthen Hurl (1-7) chips shields; Dazzling Comet never misses the cocoon"
+        ],
+        "drop": [
+          {
+            "item": "Spears Lv. 2",
+            "why": "Spears Lv. 3 replaces it at Spear B+"
+          }
+        ],
+        "training": [
+          {
+            "rank": "Authority A",
+            "for": "Divine-Shield Guard (tier A) in Part III",
+            "how": "Every Tactics Manual; Arena Heavy/Mage; Authority is her boon"
+          }
+        ]
+      },
+      {
+        "when": "Part III Sections 2 to 3 (Sentinel)",
+        "from": {
+          "part": 3,
+          "ch": 2
+        },
+        "to": {
+          "part": 3,
+          "ch": 3
+        },
+        "level": "Lv 45+",
+        "class": "Sentinel",
+        "kind": "core",
+        "goal": "Vendetta loop: +2 gauge a combat, Overblaze (6?) in 2-3 fights; Underworld Calm at 10, before Burst.",
+        "why": [
+          "Underworld Boon: no swords in Sentinel, so she takes undead inside Eshmel's Light of Salvation or under Aurora's blessing",
+          "Undead: Offset Curse zeroes cursed hits. Unequip Vendetta; Bronze Spear +4 and Seraphim",
+          "Resolute Stance mastered, not slotted: Blaze Arts cost 7 to 20 HP, so full HP rarely holds"
+        ],
+        "exit": "Spear S and the Trident item: The Trident exam needs 100%.",
+        "masteries": [
+          "Resolute Stance"
+        ],
+        "weapons": [
+          {
+            "item": "Bronze Spear +4",
+            "why": "Mt ?, Hit 90, Wt 7, Def +2? (Def starts at +3): the wall's spear",
+            "plan": "New copy, +4 without Soulstone; Soulstone for +3 and +4; Da Mina +2 until then",
+            "alts": [
+              "Da Mina Spear +2",
+              "Iron Spear +4"
+            ]
+          },
+          {
+            "item": "Vendetta",
+            "why": "Mt 27, Hit 60, Wt 20, Curse 2: gauge spear; Supreme Serpent at 2-5",
+            "alts": [
+              "Muen"
+            ]
+          },
+          {
+            "item": "Ji",
+            "why": "Mt 11, Hit 80, Wt 7: effective vs armor and cavalry, Windweave",
+            "plan": "Carry-over"
+          }
+        ],
+        "equipment": [
+          {
+            "item": "Silver Shield",
+            "why": "Def +5, Wt 4: the route's one Part I copy",
+            "slot": "Defense",
+            "alts": [
+              "Da Mina Shield",
+              "Hexlock Shield"
+            ],
+            "plan": "Carry-over"
+          },
+          {
+            "item": "Hexlock Shield",
+            "why": "Def +1, Res +5, Wt 4",
+            "slot": "Defense",
+            "situational": "Mage-heavy gates: swap for the Silver Shield",
+            "plan": "Stored since Ch 6",
+            "alts": [
+              "Talisman Shield"
+            ]
+          }
+        ],
+        "items": [
+          {
+            "item": "Elixir",
+            "why": "100 HP; Part III shops restock",
+            "alts": [
+              "Concoction"
+            ]
+          }
+        ],
+        "arts": [
+          {
+            "name": "Supreme Serpent",
+            "why": "Vendetta: Mt +7, range 2-5, no follow-up; +2 gauge a use"
+          },
+          {
+            "name": "Protective Storm",
+            "why": "Spear B: Mt +5, Prt +7 in combat; the boss-turn art"
+          },
+          {
+            "name": "Brilliant Strike",
+            "why": "Spear A: Mt +5, Rsl +7 after a kill: a mage-proof wall turn"
+          },
+          {
+            "name": "Windweave",
+            "why": "Ji art: Hit +10, 10% no counter"
+          },
+          {
+            "name": "Armored Blow",
+            "why": "Spear C: Prt +3 after a kill"
+          },
+          {
+            "name": "Tempest Spear",
+            "why": "Spear D: Mt +4, Hit +10 finisher"
+          }
+        ],
+        "spells": [
+          {
+            "name": "Physic",
+            "why": "White Magic B?: heals 8 (+10 Magic Heal) at range"
+          },
+          {
+            "name": "Heal",
+            "why": "White Magic D: 10 HP (+10) at range 1"
+          },
+          {
+            "name": "Seraphim",
+            "why": "White Magic C: effective vs undead"
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Direct Hit",
+            "why": "Blaze Arts +10 (30%): the Overblaze Earthen Hurl and Comet"
+          },
+          {
+            "name": "Spears Lv. 4",
+            "why": "Spear A+: Hit/Avo +7; Vendetta is only Hit 60"
+          },
+          {
+            "name": "Great Counter",
+            "why": "Atk +3 when the foe attacks first"
+          },
+          {
+            "name": "Brace",
+            "why": "Prt +3 after a kill"
+          },
+          {
+            "name": "Rein+",
+            "why": "Avo -5 on adjacent foes"
+          }
+        ],
+        "battalion": {
+          "name": "Divine-Shield Guard",
+          "why": "Def +3, Dex +3, Res +2, Cha +8 once Authority A?",
+          "where": "[[place:Port of Pandora]], Ch 10–11 (Renown 9 reroll)",
+          "alts": [
+            "Lions of Megaira while Authority is B"
+          ],
+          "situational": "Part III: from storage (medium confidence)"
+        },
+        "training": [
+          {
+            "rank": "Spear S",
+            "for": "The Trident (100% pass)",
+            "how": "Sentinel Spear +4 a fight"
+          }
+        ],
+        "checks": [
+          {
+            "stat": "Res",
+            "at": "Section 2",
+            "need": "A Part III mage's forecast leaves her above half HP",
+            "why": "She is the Res wall too; Alexandra only dodges",
+            "fix": [
+              "Hexlock Shield (Res +5) on mage-heavy gates",
+              "End turns beside Sofia (Barrier, Res +3)",
+              "Pure Water (Res +10, -2 a turn) on the mage turn"
+            ]
+          },
+          {
+            "stat": "Spd",
+            "at": "Section 2",
+            "need": "With Vendetta in hand, the forecast vs gate foes shows no double on her",
+            "why": "Vendetta Wt 20 + shield 4 crashes her AS",
+            "fix": [
+              "Strike from 2-5 with Supreme Serpent so nothing counters",
+              "End wall turns on the Bronze Spear +4 (Wt 7), not Vendetta (20)",
+              "Shield off on loop turns"
+            ]
+          }
+        ],
+        "tips": [
+          "Loop: 2 Vendetta fights + Earthen Throw = Overblaze; Comet (+4); Calm before the next cursed fight",
+          "Shenlo's miasma drains durability: Supreme Serpent costs 10 of Vendetta's 20",
+          "Collect the five Keys of the Diadem for the Temple (Section 4)",
+          "Pocket: Ninae within 2 (Hit/Avo +10 vs magic), Bonaventure adjacent (Def +3), Tobias beside"
+        ],
+        "drop": [
+          {
+            "item": "Short Spear",
+            "why": "Vendetta's 1-2 range takes its job"
+          },
+          {
+            "item": "Spears Lv. 3",
+            "why": "Spears Lv. 4 replaces it at Spear A+"
+          },
+          {
+            "item": "Mahadu's Spear +3",
+            "why": "Bronze Spear +4: Hit 90, Def +2?, Wt 7 vs 8; stored"
+          },
+          {
+            "item": "Full Moon",
+            "why": "Mahadu's Spear art; effect undocumented"
+          }
+        ]
+      },
+      {
+        "when": "Part III Section 4+ (The Trident)",
+        "from": {
+          "part": 3,
+          "ch": 4
+        },
+        "level": "Lv 45+",
+        "class": "The Trident",
+        "kind": "core",
+        "goal": "Divine Wall (Def +10), Magic Heal +10 and the Vendetta loop: Calm at 10 gauge. Undead: stay by Eshmel.",
+        "why": [
+          "Underworld Boon: still no swords; Eshmel's Light of Salvation (2 tiles) or Aurora's blessing",
+          "Undead: Offset Curse zeroes cursed hits. Unequip Vendetta; Bronze Spear +4 and Seraphim"
+        ],
+        "exit": "Endpoint. One holder: the Trident item from the Temple of the Diadem.",
+        "masteries": [
+          "Divine Wall"
+        ],
+        "weapons": [
+          {
+            "item": "Bronze Spear +4",
+            "why": "Mt ?, Hit 90, Wt 7, Def +2? (Def starts at +3): the wall's spear",
+            "plan": "Refined in S2; Soulstone for +3 and +4; Da Mina +2 until then",
+            "alts": [
+              "Da Mina Spear +2",
+              "Iron Spear +4"
+            ]
+          },
+          {
+            "item": "Vendetta +2",
+            "why": "Mt 29, Hit 60, Wt 20, Curse 2: gauge spear; Serpent at 2-5",
+            "alts": [
+              "Muen"
+            ],
+            "plan": "Her Part II +2"
+          },
+          {
+            "item": "Ji +2",
+            "why": "Mt 15+ (+1 = 15), effective vs armor (2x Mt), Windweave",
+            "plan": "+2 without Soulstone; Baozi's armor"
+          }
+        ],
+        "equipment": [
+          {
+            "item": "Silver Shield",
+            "why": "Def +5, Wt 4: the route's one Part I copy",
+            "slot": "Defense",
+            "alts": [
+              "Da Mina Shield",
+              "Hexlock Shield"
+            ],
+            "plan": "Carry-over"
+          },
+          {
+            "item": "Cloth of Aurora",
+            "why": "Res +5, Res +3 to adjacent allies, Wt 5: the pocket's Res aura",
+            "slot": "Accessory",
+            "plan": "S5 hand-over; S4 the slot stays empty",
+            "alts": [
+              "Monastery Staff",
+              "Spirit Gem"
+            ]
+          },
+          {
+            "item": "Hexlock Shield",
+            "why": "Def +1, Res +5, Wt 4",
+            "slot": "Defense",
+            "situational": "S4 mage gates, before the Cloth: swap for the Silver Shield",
+            "plan": "Stored since Ch 6",
+            "alts": [
+              "Talisman Shield"
+            ]
+          }
+        ],
+        "items": [
+          {
+            "item": "Elixir",
+            "why": "100 HP; Part III shops restock",
+            "alts": [
+              "Concoction"
+            ]
+          }
+        ],
+        "arts": [
+          {
+            "name": "Supreme Serpent",
+            "why": "Vendetta: Mt +7, range 2-5, no follow-up; +2 gauge a use"
+          },
+          {
+            "name": "Protective Storm",
+            "why": "Spear B: Mt +5, Prt +7 in combat; the boss-turn art"
+          },
+          {
+            "name": "Brilliant Strike",
+            "why": "Spear A: Mt +5, Rsl +7 after a kill: a mage-proof wall turn"
+          },
+          {
+            "name": "Windweave",
+            "why": "Ji art: Hit +10, 10% no counter"
+          },
+          {
+            "name": "Armored Blow",
+            "why": "Spear C: Prt +3 after a kill"
+          },
+          {
+            "name": "Tempest Spear",
+            "why": "Spear D: Mt +4, Hit +10 finisher"
+          }
+        ],
+        "spells": [
+          {
+            "name": "Physic",
+            "why": "White Magic B?: heals 8 (+10 Magic Heal) at range"
+          },
+          {
+            "name": "Heal",
+            "why": "White Magic D: 10 HP (+10) at range 1"
+          },
+          {
+            "name": "Seraphim",
+            "why": "White Magic C: effective vs undead"
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Divine Wall",
+            "why": "The Trident mastery: Def +10, once mastered"
+          },
+          {
+            "name": "Direct Hit",
+            "why": "Blaze Arts +10 (30%) in Overblaze"
+          },
+          {
+            "name": "Spears Lv. 5",
+            "why": "Spear S: Hit/Avo +10; fixes Vendetta's Hit 60"
+          },
+          {
+            "name": "Great Counter",
+            "why": "Atk +3 when the foe attacks first"
+          },
+          {
+            "name": "Rein+",
+            "why": "Avo -5 on adjacent foes"
+          }
+        ],
+        "battalion": {
+          "name": "Divine-Shield Guard",
+          "why": "Def +3, Dex +3, Res +2, Cha +8 at Authority A?",
+          "where": "Held since Part I",
+          "alts": [
+            "Lions of Megaira while Authority is B"
+          ],
+          "situational": "Part III: from storage (medium confidence)"
+        },
+        "tips": [
+          "Baozi (Pride: Hit): Bronze Spear +4 (Hit 90) and Ji +2 on the armor, not Vendetta (Hit 60)",
+          "Cohen & Maria (Lust: Cha): she, Bertrand and Sirocco take the duels; Cha 50 + Divine-Shield Guard",
+          "Cloth pocket (S5): Ninae and Tobias adjacent get Res +3; Ultand diagonal adds Ddg +20",
+          "Balor west: Unstoppable Force (3x vs obstacles) for Rein+ if gates count (?); Sofia heals her"
+        ],
+        "drop": [
+          {
+            "item": "Spears Lv. 4",
+            "why": "Spears Lv. 5 replaces it at Spear S"
+          },
+          {
+            "item": "Brace",
+            "why": "Slot goes to Divine Wall"
+          }
+        ],
+        "training": [],
+        "checks": [
+          {
+            "stat": "Spd",
+            "at": "Section 4",
+            "need": "Bronze Spear +4, Silver Shield and Cloth on: Hanno's foes don't double her (forecast)",
+            "why": "Total Wt 16 eats her Spd; a doubled wall loses Resolute Stance and the tile",
+            "fix": [
+              "Shield off on offense turns (Wt -4)",
+              "Build+5 (Heavy A, Arena Heavy in S3) for Great Counter",
+              "End beside Bonaventure: Bind Speed, adjacent foes Spd -3"
+            ]
+          }
+        ]
+      }
+    ],
+    "alt": "Archer for Crescendo (Hit +3 per kill) in Ch 8 to 9 instead of staying Armored Knight: the video's Theodora never missed after it, but she trades the wall for bows and Infantry Arena weeks.",
+    "sources": [
+      "class-and-weapon-guide",
+      "class-data",
+      "character-learnsets",
+      "equippable-abilities",
+      "weapons-and-items",
+      "combat-arts-and-abilities",
+      "hard-mode-video-notes",
+      "walkthrough-part1-theodora",
+      "part1-theodora-path",
+      "part2-war",
+      "part3-salvation",
+      "redesign/11-roster-pass"
+    ],
+    "routeNotes": [
+      {
+        "system": "Supports",
+        "note": "Alexandra, Bonaventure, Tobias, Lilian, Lysander, Loretta, Ultand, Ninae, Nydine and Simon in this army (Diego joins Ch 12 for Part III). She sits at every meal: from Ch 4 the Support-3 recruits take the other seats (Loretta, Nydine, Ultand, Ninae, Simon), then Theodora + Tobias + Bonaventure."
+      },
+      {
+        "system": "Battalions & Gambits",
+        "note": "First carrier: [[battalion:Novice Hunters]] (Ch 4), [[battalion:Armored Sentinels]] (Ch 6), [[battalion:Veteran Sentinels]] at C, [[battalion:Lions of Megaira]] at B (Ch 10). Wall stats first: Def, Dex, Res. Cha grows 55 in Guardian."
+      },
+      {
+        "system": "Battalions & Gambits",
+        "note": "Authority: Heavy and Mage Training raise it to B; Tactics Manuals (Ch 7 tutorial, Breston x2, Regia, Callianeira Port, Grand Aragon, troop points) push A? for [[battalion:Divine-Shield Guard]]. Rein at D, Attack Formation at C?, Frontline Gambit at S?."
+      },
+      {
+        "system": "Send Supplies",
+        "note": "Guardian carries in from Dietrich's route, so Kothar Gar gates nothing. Do every pair for gold and Renown (Renown 8 opens her Ch 10 exam)."
+      }
+    ],
+    "decisions": [
+      {
+        "topic": "Skip the Priest side trip",
+        "pick": "Armored Knight from Ch 6 to Lv 35; White Magic B from the Arena",
+        "why": "Priest drops her Def growth from 65 to 30 for two chapters to train a rank Arena Mage reaches anyway. She can't cast as an Armored Knight, but Sofia and Bonaventure cover heals until Ch 10.",
+        "else": "White Magic short at Lv 35: read a White-Magic Manual before the exam"
+      },
+      {
+        "topic": "Stay Guardian through Part II",
+        "pick": "Guardian from Ch 10 until Sentinel in Part III",
+        "why": "Focused Counter adds Hit to counters she already lands (Mahadu's Spear Hit 85, Spears Lv. 2). It would cost Physic for two Part II maps and Arena weeks on Axe B, and Rein holds that slot for the axe users."
+      },
+      {
+        "topic": "Take Guardian first in Ch 10",
+        "pick": "Guardian, priority 1 of the Part I Advanced exams",
+        "why": "Physic on the wall, Res 45 growth and Brace. Guardian carries in from Dietrich's route, so no Send Supplies quest gates it, and she reaches Lv 35 first."
+      },
+      {
+        "topic": "Loop Vendetta in Part III",
+        "pick": "Vendetta (Muen as the spare) to Overblaze, Underworld Calm at gauge 10",
+        "why": "Curse 2 a combat plus Earthen Throw reaches Overblaze (6?) in 2-3 fights, so Dazzling Comet comes early. Calm resets to 0 before Burst halves her max HP. Part I and II stay on Mahadu's Spear: Spear A arrives late.",
+        "else": "No loop: Mahadu's Spear all game, Vendetta to storage"
+      },
+      {
+        "topic": "Accessory slot stays empty",
+        "pick": "No accessory through Part II",
+        "why": "Mahadu's Arm is a key item: Str +6 always on, no slot, no weight. Guardian has 2 Wt left after the Silver Shield; the light rings (Gale, Giant's) are held, every free one weighs 3 to 4.",
+        "else": "Part III: Cloth of Aurora (Res +3 to adjacent Fortress walls) if the uniques pass moves it from Eshmel"
+      }
+    ],
+    "finalists": {
+      "stats": [
+        "HP",
+        "Str",
+        "Spd",
+        "Def",
+        "Res"
+      ],
+      "options": [
+        {
+          "class": "Armored Knight",
+          "use": "Ch 6 to 9",
+          "note": "Def +25 growth and Great Counter; Res 25 is the cost"
+        },
+        {
+          "class": "Guardian",
+          "use": "Ch 10 to Part III S1",
+          "note": "Res 45 fixes her weak stat; Physic, Brace, Mov 5"
+        },
+        {
+          "class": "Dreadnought",
+          "note": "Def 70, but Res 20 and Mov 4: mages finish her"
+        },
+        {
+          "class": "The Trident",
+          "use": "Part III S4",
+          "note": "Spear S: Def/Res +5 flat, Divine Wall Def +10"
+        }
+      ]
+    },
+    "gates": [
+      {
+        "route": "Theodora",
+        "from": {
+          "part": 1,
+          "ch": 6
+        },
+        "by": {
+          "part": 1,
+          "ch": 10
+        },
+        "kind": "rank",
+        "text": "Spear B and White Magic B by Ch 10: alternate Arena Heavy and Mage weeks"
+      }
+    ]
+  },
+  "sources": [
+    "https://fortunesweave.co.uk/characters/theodora",
+    "https://www.keengamer.com/articles/guides/fire-emblem-fortunes-weave-tier-list-best-characters-ranked-for-every-route/",
+    "https://fortunesweave.online/battalions/",
+    "https://docs.google.com/spreadsheets/d/1YW5AdvPUbLPr1RAGlnotcRaNTFCQPTKiIgshwrcdUtE"
+  ],
+  "recruitOn": {
+    "Theodora": {
+      "how": "lord"
+    }
+  }
+}

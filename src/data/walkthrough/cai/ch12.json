@@ -1,0 +1,132 @@
+{
+  "route": "Cai",
+  "ch": 12,
+  "name": "Just One Wish",
+  "free": {
+    "from": "11/4",
+    "to": "11/27"
+  },
+  "routine": {
+    "weekly": [
+      {
+        "text": "No recruit targets left: every Sunday meal is an army trio"
+      }
+    ]
+  },
+  "missables": [
+    {
+      "id": "cai-ch12-missables-last-free-time",
+      "kind": "timing",
+      "text": "Clear every 11/27 quest before the Bertrand fight: this is the last free time of Part I",
+      "when": "11/27",
+      "lose": "Every unfinished quest, mentorship unlock and shop trip",
+      "recover": "Replay",
+      "detail": [
+        "Three vegetable deliveries; Flying Steed, Trouble at the Gate, The Artisans of Megaira.",
+        "Bringing Peace, Beasts Blocking the Path Home, Brawlers of the Plains.",
+        "All three mentorship unlocks (Bertrand's needs Renown 10)."
+      ],
+      "task": true
+    },
+    {
+      "id": "cai-ch12-missables-part2-mounts",
+      "kind": "item",
+      "text": "Catch every Part II mount by 11/27: Part II has no free time to lure one",
+      "when": "11/27",
+      "lose": "The mount, for the rest of Part II",
+      "recover": "None",
+      "detail": [
+        "No Black Magonius for Cai yet? Mystery of Headman's Rock takes you to [[place:Headsman's Rock]].",
+        "Stolen Star Observations takes you to [[place:Bau-Caller's Cape]]: catch 2 Wild Bau for the Dragoons.",
+        "Also a horse each for Cai's Bardinger and Tialla's Troubadour stints, plus the bench riders' mounts."
+      ],
+      "task": true
+    }
+  ],
+  "classes": {
+    "note": {
+      "text": "Last exam pass: any Advanced exam still open from Ch 10 or 11 (Seteth, Ninae, Ultand)",
+      "detail": [
+        "Fianna → [[class:Troubadour]] now if Bertrand's request unlocked it and she is Lv 35; else Part II Ch 2.",
+        "Check every bench unit has its Part II ranks (Army roster).",
+        "Spend spare Licenses: Part II gives 5 Beginner, 5 Specialty and 5 Advanced every chapter."
+      ]
+    }
+  },
+  "gear": {
+    "barter": [
+      {
+        "item": "Victory Gem",
+        "for": "Jasmine",
+        "at": "Gaura Grassland"
+      },
+      {
+        "item": "Charm Mask",
+        "for": "Jasmine: armored, so its 5 weight costs her nothing that matters",
+        "at": "Valley of Black Wings"
+      }
+    ]
+  },
+  "recruits": [],
+  "quests": {
+    "route": [
+      {
+        "quest": "that-dark-hero",
+        "note": "Passionate Woman, Arena Plaza"
+      },
+      {
+        "quest": "mystery-of-headmans-rock",
+        "note": "Temple Soldier on the staircase. The trip doubles as Cai's Black Magonius catch"
+      }
+    ],
+    "sub": [
+      {
+        "quest": "gold-coin-chase",
+        "offered": "if-offered",
+        "note": "The Djilu Coin is in Giant's-Print Fort, Ogmios"
+      },
+      {
+        "quest": "stolen-star-observations",
+        "offered": "if-offered",
+        "note": "The trip doubles as the Wild Bau catch"
+      },
+      {
+        "quest": "the-divine-sovereigns-secret",
+        "offered": "if-offered"
+      }
+    ],
+    "paralogue": []
+  },
+  "explore": [
+    {
+      "group": "Training",
+      "text": "Level on Ogmios, Part I's highest dungeons: run [[place:Giant's-Print Fort]] with your support pairs"
+    },
+    {
+      "group": "Skip",
+      "text": "Skip Can't Stay Home and The Hunter for Gisco's Treasure: both end 10/24, before this free time"
+    }
+  ],
+  "battle": {
+    "title": "Finals vs. Bertrand",
+    "objective": "Defeat Bertrand and Castor",
+    "lose": "Cai falls",
+    "tips": [
+      {
+        "text": "Split into two groups and keep Cai on protective tiles"
+      },
+      {
+        "text": "Bring a Physic user such as Tialla: it helps a lot"
+      },
+      {
+        "text": "The barrier drops when you hit the switches or when Cai defeats Castor"
+      },
+      {
+        "text": "Pack Part II stock and keep it after the fight",
+        "detail": [
+          "Cai a Concoction, Seteth the Bowbreak Amulet, Noctula a Miranilla Juice and Pure Water."
+        ]
+      }
+    ]
+  }
+}

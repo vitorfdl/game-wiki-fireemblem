@@ -1,0 +1,521 @@
+{
+  "name": "Dante",
+  "slug": "dante",
+  "epithet": "Playwright and theatre director",
+  "faction": "Bertrand's Army",
+  "homeRoute": "Dietrich",
+  "weapons": [
+    "Black Magic",
+    "White Magic"
+  ],
+  "preferred": [
+    "Authority",
+    "White Magic",
+    "Black Magic"
+  ],
+  "avoid": [
+    "Brawling"
+  ],
+  "personality": "A 24-year-old playwright who believes talent should never stay hidden and turns anything interesting into material.",
+  "story": "Dante is a playwright and theatre director aligned with Bertrand's Army. She is recruited on every route for 8000G plus Renown/Support: Cai 10/3, Dietrich 8/2, Theodora 6/3, Leda 10/3. Her deeper plot role is not documented on the sources checked.",
+  "personalSkill": {
+    "name": "Stage Directions",
+    "effect": "Grants Ddg +10 to allies within 2 spaces during their combats; trigger % = ally's Cha / 2. Lv 20 and 35 upgrades add Hit and Crit bonuses when it triggers."
+  },
+  "growths": {
+    "HP": 30,
+    "Str": 30,
+    "Mag": 45,
+    "Spd": 40,
+    "Dex": 40,
+    "Def": 20,
+    "Res": 40,
+    "Lck": 45,
+    "Cha": 30
+  },
+  "supports": [
+    "Anatolia",
+    "Gaitz",
+    "Goliath",
+    "Jester",
+    "Leda",
+    "Nydine",
+    "Seteth",
+    "Sirocco",
+    "Talimun"
+  ],
+  "tiers": [
+    {
+      "source": "Pocket Tactics",
+      "tier": "A"
+    },
+    {
+      "source": "KeenGamer",
+      "tier": "S"
+    }
+  ],
+  "tierNotes": "Pocket Tactics: A. KeenGamer: S (\"the best team buffer in the game\").",
+  "recruit": {
+    "how": "recruit",
+    "support": 2,
+    "renown": 8,
+    "extra": "8,000G",
+    "why": [
+      "Lowest Support requirement of any route: 2 here vs Cai 3, Theodora 3, Leda 3."
+    ],
+    "tip": "The 8,000G fee is the same everywhere; only the Support need changes."
+  },
+  "requirements": {
+    "Cai": "3S 10R",
+    "Dietrich": "2S 8R",
+    "Theodora": "3S 6R",
+    "Leda": "3S 10R"
+  },
+  "build": {
+    "role": "Second healer and team buffer",
+    "path": [
+      "Priest",
+      "Bishop"
+    ],
+    "part1Target": "Priest (Bishop in Part II Ch 2, earlier if she reaches Lv 35)",
+    "part3Target": "Wiseman or Valkyrium",
+    "notes": "Joins at about Lv 25 (Ch 10), already in a Specialty class (Priest?; take the Priest exam if not). Bishop at Lv 35 (White Magic B): Part II Ch 2 at the Army Training floor, or Ch 11 to 12 if you deploy her every map (then she can take Olympia's 7th spot on Dietrich's Advanced list). Train White Magic; keep Black Magic for chip damage. Stay within 2 spaces of the front for Stage Directions. Master Barrier. Healing is mandatory on Hard from Part II.",
+    "confidence": "high"
+  },
+  "guide": {
+    "summary": "Second healer and team buffer. Stay within 2 of the crit units, Dietrich first, so Stage Directions fires; heal as a Bishop, then as a Wiseman in Part III.",
+    "stages": [
+      {
+        "when": "Join (Ch 10, Lv 25) to Ch 12",
+        "from": {
+          "part": 1,
+          "ch": 10
+        },
+        "to": {
+          "part": 1,
+          "ch": 12
+        },
+        "class": "Priest",
+        "training": [
+          {
+            "rank": "White Magic B",
+            "for": "Bishop exam (Lv 35): Part II Ch 2, or Ch 11 to 12 if she's deployed enough",
+            "how": "Arena Mage Training (also trains Authority)"
+          }
+        ],
+        "tips": [
+          "Recruit: Support 2, Renown 8, 8000G. Ch 10 join: about Lv 25, already Specialty, so no Diviner stage",
+          "Not on the 8-unit Part I Advanced list by default (Olympia is the deployed second caster). Deploy her every map and she can reach Lv 35 by Ch 12 and take Olympia's spot",
+          "Def growth 20: never end turn in front",
+          "Swarm Z the target before a slow hitter swings; it lasts until the foe's next phase"
+        ],
+        "equipment": [
+          {
+            "item": "Healing Staff",
+            "slot": "Accessory"
+          }
+        ],
+        "items": [
+          {
+            "item": "Concoction",
+            "why": "Part II stock",
+            "alts": [
+              "Vulnerary"
+            ]
+          }
+        ],
+        "arts": [
+          {
+            "name": "Lend Strength",
+            "why": "Str +2 to an ally; Authority D per community sheet. Buff Dietrich"
+          },
+          {
+            "name": "Lend Defense",
+            "why": "Def +2; Authority C per community sheet"
+          }
+        ],
+        "spells": [
+          {
+            "name": "Nosferatu",
+            "why": "White C"
+          },
+          {
+            "name": "Swarm Z",
+            "why": "Archive Z (Southern Passage, Ch 9; hold it until she joins): Spd -3 so Mikaela, Simon and the armors double"
+          },
+          {
+            "name": "Thunder",
+            "why": "Black C chip damage"
+          },
+          {
+            "name": "Heal",
+            "why": "White D"
+          },
+          {
+            "name": "Wind",
+            "why": "Black D chip damage"
+          },
+          {
+            "name": "Dark Spikes Τ",
+            "why": "Archive T (Vandahl Dagsion: Pongo x10 + Glirmosa x4): 60 Mt vs cavalry, 2 uses for cavalry bosses"
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Piety",
+            "why": "Priest mastery, Lck +3, once mastered"
+          },
+          {
+            "name": "Dramatic Effect",
+            "why": "Personal Lv 20 ability: When Stage Directions triggers, grans Hit+10 to target allies"
+          },
+          {
+            "name": "Magic Basics",
+            "why": "Diviner mastery, Mag/Res +1"
+          },
+          {
+            "name": "White Magic Lv. 1",
+            "why": "Hit +3 with white magic"
+          }
+        ],
+        "goal": "Dramatic Effect (Lv 20): triggered allies also get Hit +10: stay within 2 of Dietrich so his crit arts land.",
+        "level": "About Lv 25 on join",
+        "why": [
+          "Priest exam (White Magic C) only if she joins in another class"
+        ],
+        "exit": "Part II Ch 2 at the Lv 35 floor with White Magic B: Bishop exam"
+      },
+      {
+        "when": "Part II Ch 2 (Lv 35 floor)",
+        "from": {
+          "part": 2,
+          "ch": 2
+        },
+        "to": {
+          "part": 3,
+          "ch": 3
+        },
+        "class": "Bishop",
+        "tips": [
+          "Bishop exam at Lv 35 with White Magic B: Part II Ch 2 after Army Training (Ch 1's floor is Lv 34), or Part I if she reaches it",
+          "Equip the Healing Staff before leaving Part I",
+          "Healing is mandatory on Hard from Part II"
+        ],
+        "equipment": [
+          {
+            "item": "Healing Staff",
+            "slot": "Accessory",
+            "plan": "Orchel's Paralogue (Ch 11, 10/18 to 10/25)"
+          }
+        ],
+        "items": [
+          {
+            "item": "Concoction",
+            "why": "40 HP x2",
+            "plan": "Carried from Ch 12 (no shops in Part II)"
+          }
+        ],
+        "arts": [
+          {
+            "name": "Lend Strength",
+            "why": "Str +2 to an ally; Authority D per community sheet. Buff Dietrich"
+          },
+          {
+            "name": "Lend Defense",
+            "why": "Def +2; Authority C per community sheet"
+          }
+        ],
+        "spells": [
+          {
+            "name": "Nosferatu",
+            "why": "White C"
+          },
+          {
+            "name": "Swarm Z",
+            "why": "Archive Z (Southern Passage, Ch 9; hold it until she joins): Spd -3 so Mikaela, Simon and the armors double"
+          },
+          {
+            "name": "Thunder",
+            "why": "Black C chip damage"
+          },
+          {
+            "name": "Recover",
+            "why": "White B; arrives with the Bishop exam"
+          },
+          {
+            "name": "Heal",
+            "why": "White D"
+          },
+          {
+            "name": "Wind",
+            "why": "Black D chip damage"
+          },
+          {
+            "name": "Dark Spikes Τ",
+            "why": "Archive T (Vandahl Dagsion: Pongo x10 + Glirmosa x4): 60 Mt vs cavalry, 2 uses for cavalry bosses"
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Dramatic Effect+",
+            "why": "Personal Lv 35 ability: When Stage Directions triggers, grans Hit/Crit+10 to target allies"
+          },
+          {
+            "name": "Dramatic Effect",
+            "why": "Personal Lv 20 ability: When Stage Directions triggers, grans Hit+10 to target allies"
+          },
+          {
+            "name": "Barrier",
+            "why": "Bishop mastery, Res +3 adjacent"
+          },
+          {
+            "name": "Piety",
+            "why": "Priest mastery, Lck +3"
+          },
+          {
+            "name": "Magic Basics",
+            "why": "Diviner mastery, Mag/Res +1"
+          }
+        ],
+        "goal": "Dramatic Effect+ (Lv 35): Hit/Crit +10 on trigger: keep Dietrich (Cha 60%) inside her 2 tiles to feed his crit build, and Lend Strength on him before he swings.",
+        "exit": "Part III: Wiseman (Valkyrium if Jurah's Temple is restored)"
+      },
+      {
+        "when": "Part III Section 4+ (Wiseman)",
+        "from": {
+          "part": 3,
+          "ch": 4
+        },
+        "class": "Wiseman",
+        "training": [
+          {
+            "rank": "White Magic A",
+            "for": "Wiseman (Lv 45, Master License)",
+            "how": "Arena Mage Training"
+          }
+        ],
+        "equipment": [
+          {
+            "item": "Photona's Holy Staff",
+            "why": "Heal and Recover reach 2 tiles: heal from outside the front",
+            "slot": "Accessory",
+            "plan": "Boon or Reliquary buy",
+            "alts": [
+              "Healing Staff"
+            ]
+          }
+        ],
+        "items": [
+          {
+            "item": "Concoction",
+            "why": "40 HP x2",
+            "alts": [
+              "Vulnerary"
+            ]
+          }
+        ],
+        "arts": [
+          {
+            "name": "Lend Strength",
+            "why": "Authority D: Str +2 on Dietrich before he swings (range 1-2)"
+          },
+          {
+            "name": "Lend Defense",
+            "why": "Authority C: Def +2 on the unit Wrath will hit"
+          }
+        ],
+        "spells": [
+          {
+            "name": "Recover",
+            "why": "White B: 30 HP + Magic Heal 15, at range 2 with Photona's"
+          },
+          {
+            "name": "Heal",
+            "why": "White D: doubled uses (White-Magic Seeker)"
+          },
+          {
+            "name": "Nosferatu",
+            "why": "White C: her only attack in Wiseman"
+          },
+          {
+            "name": "Freeze",
+            "why": "White A: Immobilize at 1-10, 1 use: pin a runner"
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Dramatic Effect+",
+            "why": "Personal Lv 35: Hit/Crit +10 when Stage Directions fires"
+          },
+          {
+            "name": "Barrier",
+            "why": "Bishop mastery: Res +3 to adjacent allies"
+          },
+          {
+            "name": "Piety",
+            "why": "Priest mastery: Lck +3, her own crit insurance"
+          },
+          {
+            "name": "Magic Basics",
+            "why": "Diviner mastery: Mag/Res +1"
+          },
+          {
+            "name": "Knightly Senses",
+            "why": "Riding D: Avo +10 vs spears (Mahadu)"
+          }
+        ],
+        "drop": [
+          {
+            "item": "Thoron",
+            "why": "Wiseman has no Black Magic"
+          },
+          {
+            "item": "Swarm Z",
+            "why": "Wiseman has no Black Magic"
+          },
+          {
+            "item": "Dark Spikes Τ",
+            "why": "Wiseman has no Black Magic"
+          },
+          {
+            "item": "Dramatic Effect",
+            "why": "Dramatic Effect+ replaces it"
+          },
+          {
+            "item": "Song of Calm",
+            "why": "Valkyrium mastery; she stays Wiseman"
+          },
+          {
+            "item": "Healing Staff",
+            "why": "Photona's range 2 beats +10 HP on a healer with no Physic; Yang Jie wears it"
+          }
+        ],
+        "goal": "Dramatic Effect+: allies within 2 get Ddg +10 and Hit/Crit +10 at their Cha/2 %; Dietrich (Cha 60%) first.",
+        "why": [
+          "Wiseman wields White Magic, gauntlets and axes: no Black Magic spells in this class",
+          "Boon: she doesn't fight it; Dietrich's Cleansing Blade +3, Aurora Lv 3 at Balor"
+        ],
+        "exit": "Final class.",
+        "tips": [
+          "Mahadu: end turns within 2 of Dietrich, Simon and Kiroc; Ddg +10 blunts Wrath's crits",
+          "Lend Strength on Dietrich before he attacks; Yang Jie Physics the far side",
+          "Lyrah and Balor center: within 2 of Dietrich, Sirocco, Tobias and Guzran; Olympia Physics",
+          "Off Mahadu: Read the Winds (Avo +10 vs bows) for Knightly Senses"
+        ]
+      }
+    ],
+    "spells": [
+      {
+        "name": "Recover",
+        "why": "Big heal"
+      },
+      {
+        "name": "Heal",
+        "why": "Cheap heal"
+      },
+      {
+        "name": "Thunder",
+        "why": "Chip damage"
+      },
+      {
+        "name": "Swarm Z",
+        "why": "Archive Z: Spd -3 debuff"
+      },
+      {
+        "name": "Dark Spikes Τ",
+        "why": "Archive T: cavalry killer"
+      }
+    ],
+    "abilities": [
+      {
+        "name": "Barrier",
+        "why": "Res aura"
+      },
+      {
+        "name": "Piety",
+        "why": "Lck +3"
+      },
+      {
+        "name": "Magic Basics",
+        "why": "Mag/Res +1"
+      }
+    ],
+    "specials": [
+      "Avoids Brawling",
+      "Authority is preferred: Lend arts come from Authority per the community sheet; how they are learned otherwise is not documented"
+    ],
+    "sources": [
+      "class plan v3",
+      "character-learnsets",
+      "class-data",
+      "weapons-and-items",
+      "hard-mode video notes",
+      "Part I Dietrich walkthrough",
+      "Part III walkthrough"
+    ],
+    "watch": [
+      "Weight: no weapon; Photona's Holy Staff 5 (Healing Staff 3). Def growth 20: she dies when doubled, so the staff drops to the Healing Staff first and she ends turns 2 tiles behind the front."
+    ],
+    "decisions": [
+      {
+        "topic": "Recruit her by 10/4",
+        "pick": "Support 2, Renown 8 and 8,000G in Ch 10",
+        "why": "Unrecruited, she fights for Bertrand in Ch 11 and may be gone for this path. Build Support 2 from Ch 7 and save the 8,000G from Ch 8.",
+        "else": "First days of Ch 11, before the Bertrand battle"
+      },
+      {
+        "topic": "Read Archives Z and T on join",
+        "pick": "Swarm Z and Dark Spikes Τ",
+        "why": "She keeps Black Magic as a Priest: Swarm Z (Spd -3) lets Mikaela, Simon and the armors double, and Dark Spikes Τ hits cavalry bosses for 60 Mt."
+      }
+    ],
+    "gates": [
+      {
+        "route": "Dietrich",
+        "from": {
+          "part": 1,
+          "ch": 7
+        },
+        "by": {
+          "part": 1,
+          "ch": 10
+        },
+        "kind": "recruit",
+        "text": "Support 2, Renown 8 and 8,000G by 10/4, before the Ch 11 battle"
+      }
+    ]
+  },
+  "copies": [],
+  "sources": [
+    "https://fortunesweave.co.uk/characters/dante",
+    "https://www.keengamer.com/articles/guides/fire-emblem-fortunes-weave-best-class-for-every-character/",
+    "https://www.keengamer.com/articles/guides/fire-emblem-fortunes-weave-tier-list-best-characters-ranked-for-every-route/",
+    "https://www.pockettactics.com/fire-emblem-fortunes-weave/tier-list"
+  ],
+  "recruitOn": {
+    "Cai": {
+      "how": "recruit",
+      "support": 3,
+      "renown": 10,
+      "task": "8,000G"
+    },
+    "Dietrich": {
+      "how": "recruit",
+      "support": 2,
+      "renown": 8,
+      "task": "8,000G"
+    },
+    "Theodora": {
+      "how": "recruit",
+      "support": 3,
+      "renown": 6,
+      "task": "8,000G",
+      "window": "Ch 8 (Ch 9 week 1 if gold or Support slips)"
+    },
+    "Leda": {
+      "how": "recruit",
+      "support": 3,
+      "renown": 10
+    }
+  }
+}

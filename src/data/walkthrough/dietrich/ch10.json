@@ -1,0 +1,286 @@
+{
+  "route": "Dietrich",
+  "ch": 10,
+  "name": "The Mediator of Nuwa",
+  "free": {
+    "from": "9/29",
+    "to": "10/4"
+  },
+  "unlocks": [
+    "Advanced exams (Renown 8)",
+    "Thermae (Renown 8)",
+    "Advanced Licenses in Dagsion"
+  ],
+  "routine": {
+    "meals": [
+      {
+        "week": "Every Sunday until Gaitz is at Support 3",
+        "tables": [
+          [
+            "Dietrich",
+            "Gaitz",
+            "Ursula"
+          ]
+        ],
+        "note": "Coffee-Berry Paste: the only dish all three like."
+      }
+    ],
+    "gifts": [
+      {
+        "unit": "Gaitz",
+        "gift": "Common Coffee or Orgus Coffee; Training Weights; Arrowhead Gem",
+        "where": "Lowtown Tavern (coffee)",
+        "until": "Support 3, by Ch 12"
+      }
+    ],
+    "weekly": [
+      {
+        "text": "Book a Sunday Special Bath at the Thermae the week before each main battle: it lasts the chapter",
+        "detail": [
+          "Bath pools and who gets which are in Rules › Thermae."
+        ]
+      },
+      {
+        "text": "Keep boosting Combat Arts at [[place:Smyrnos's Temple]] for the Blacksmith unlock (Ch 11)"
+      }
+    ]
+  },
+  "missables": [
+    {
+      "id": "dietrich-ch10-missables-anna-paralogue",
+      "quest": "golden-secret",
+      "kind": "item",
+      "text": "Clear Anna's Paralogue by 10/4: free time ends before its window closes",
+      "when": "by 10/4",
+      "where": "Dagsion Summit (Anna)",
+      "lose": "Orichalcum, 20,000G, 150 Renown and Anna's shop",
+      "recover": "None",
+      "task": true,
+      "detail": [
+        "It also opens Anna's shop: north of Temple Row now and then, with rotating stock."
+      ]
+    },
+    {
+      "id": "dietrich-ch10-missables-bertrand-recruits",
+      "kind": "recruit-window",
+      "text": "Recruit Dante, Goliath and Jester before the Ch 11 battle, or they fight for Bertrand",
+      "when": "Before the Ch 11 battle",
+      "lose": "any of the three still unrecruited",
+      "recover": "none",
+      "conf": "?",
+      "detail": [
+        "Not at Renown 8 by 10/4? Push Anna's Paralogue (150 Renown) first, then recruit Dante in Ch 11's first days.",
+        "Goliath short of Giant's Meat: finish it before that battle too."
+      ],
+      "task": true
+    },
+    {
+      "id": "dietrich-ch10-missables-fabio-scene",
+      "kind": "scene",
+      "text": "See Fabio at 18:00 near Temple Rows: it sets up his Ch 12 scene, which upgrades Answerer",
+      "when": "9/29 to 10/4, at 18:00",
+      "where": "Temple Rows",
+      "lose": "his Ch 12 scene and Answerer Arisen",
+      "recover": "None",
+      "detail": [
+        "Appears only if you saw his Ch 5 scene in the eastern alleys."
+      ],
+      "task": true
+    }
+  ],
+  "classes": {
+    "note": {
+      "text": "Exam in the Ledger's Advanced order as each unit hits Lv 35 at 75% or better: 1 to 4 now",
+      "detail": [
+        "Use the Megaira Licenses (Ch 8) or buy the rest in Dagsion now: 8 in all.",
+        "5 to 8 usually land in Ch 11 or 12. Giant's-Print Fort (Ch 12) drops a spare License.",
+        "Dante, Simon and Jester wait for Part II Ch 1 to 2 and its free Licenses."
+      ]
+    }
+  },
+  "gear": {
+    "buy": [
+      {
+        "text": "Buy the Advanced Licenses still missing in Dagsion"
+      },
+      {
+        "text": "Trade at Vandahl for Archive Γ and read it on Olympia at once: Death Γ is her best nuke until Thoron"
+      },
+      {
+        "text": "Upgrade Yang Jie's [[item:Salamander]]"
+      },
+      {
+        "text": "Look for a [[item:Giant's Ring]] in Anna's shop and in the Vandahl barter at [[place:Alecto]]",
+        "conf": "?"
+      }
+    ],
+    "barter": [
+      {
+        "item": "Archive T",
+        "for": "Dante: Dark Spikes Τ for cavalry bosses",
+        "at": "Dagsion"
+      }
+    ],
+    "assign": [
+      {
+        "item": "Archive Z",
+        "to": "Dante",
+        "why": "Southern Passage (Ch 9): read it the day she joins"
+      }
+    ]
+  },
+  "recruits": [
+    {
+      "unit": "Dante",
+      "action": "Pay 8,000G at Support 2 and Renown 8, before Ch 11",
+      "when": "Ch 10, by 10/4",
+      "detail": [
+        "Your second healer; she keeps Black Magic.",
+        "[[class:Bishop]] at Lv 35: Part II Ch 2 at the Army Training floor.",
+        "Deployed enough to reach Lv 35 in Part I, she can take Olympia's spot on the Advanced list."
+      ]
+    },
+    {
+      "unit": "Catania",
+      "action": "Recruit at Renown 8: she's this army's only flier",
+      "when": "Ch 10",
+      "detail": [
+        "Not a [[class:Wing Soldier]]? Read the Flying Manuals until Flying D, then exam at 75% or better.",
+        "Part II wants 2 to 3 fliers; Dragoon isn't unlocked on this path, so Wing Soldier is the only one.",
+        "Her Leda copy is also a Wing Soldier, so the Part III merge adds less than two classes would."
+      ]
+    },
+    {
+      "unit": "Noctula",
+      "action": "Talk to her at Renown 6: she joins as a Lv 20+ Pugilist with Ursa's Right Claw",
+      "when": "Ch 10 or later",
+      "detail": [
+        "Filler, bench only."
+      ]
+    },
+    {
+      "unit": "Nuzzuo",
+      "action": "Hand over 2× [[item:Iron Bow]] at Renown 9: he brings a Levin Sword",
+      "when": "Late Ch 10 or Ch 11 (Renown 9)",
+      "detail": [
+        "Filler, bench only."
+      ]
+    },
+    {
+      "unit": "Halvin",
+      "action": "Hand over 10 Dates at Support 3 and Renown 9: he supports Dietrich, Fabio and Jester",
+      "when": "Late Ch 10 or Ch 11 (Renown 9)",
+      "detail": [
+        "Filler, bench only."
+      ]
+    }
+  ],
+  "prep": [
+    {
+      "text": "Ursula from the backup window (10/1 to 10/10): she joins about Lv 25, so take Charioteer if needed",
+      "detail": [
+        "Also the case if you were short of Renown 7 in Ch 9."
+      ]
+    },
+    {
+      "text": "Held Jester back? Recruit him before the Ch 11 battle: a Lv 25 Myrmidon with a Levin Sword",
+      "detail": [
+        "Hand the [[item:Levin Sword]] to Dietrich for Anna's Giant and skip the Vandahl barter.",
+        "He still needs Bow B (Arena Infantry Training) for Ranger."
+      ]
+    }
+  ],
+  "quests": {
+    "route": [
+      {
+        "quest": "dread-warrior-damien",
+        "note": "Renown 8, [[place:Aditi's Cave]]: skip if done in Ch 9",
+        "detail": [
+          "Take him in Ch 9 instead if Renown 8 lands before 9/19.",
+          "Also clear any challenge you skipped: Borges, Aguirre, Sepente, Camilo, Cabaye.",
+          "Il-Lara too if skipped: it unlocks Guardian for later paths. All challenges end 11/27."
+        ]
+      }
+    ],
+    "sub": [
+      {
+        "quest": "its-name-is-da-mina",
+        "note": "Hand over the 2 spare Da Mina weapons from Ch 9: 20,000G and 100 Renown"
+      },
+      {
+        "quest": "attack-of-the-huge-birds",
+        "note": "[[place:Lake Brontes]]: same trip as the Yu Phas statue"
+      },
+      {
+        "quest": "skeletons-in-the-ruins",
+        "note": "[[place:Krove Ditch]], for the Noblewoman on Lower Temple Street"
+      },
+      {
+        "quest": "one-last-challenge",
+        "note": "[[place:Mount Ouranos]]: needs Another Challenge"
+      },
+      {
+        "quest": "flamma-smugglers",
+        "offered": "if-offered",
+        "note": "Follows For the Empire's Safety (Ch 8): 2 Wootz Steel"
+      },
+      {
+        "quest": "assassination-no-questions",
+        "skip": true,
+        "note": "Follows A Letter of Some Gravity, which this plan skips"
+      }
+    ],
+    "paralogue": [
+      {
+        "quest": "golden-secret",
+        "note": "By 10/4: Anna at Dagsion Summit, battle in Dagsion. Lose if Dietrich or Solel falls",
+        "detail": [
+          "Bring 3: Dietrich (Levin Sword in the Concoction's slot), Yang Jie, Catania for the far ore piles, else Fabio.",
+          "Clear enemies, then the Abnormal Giant. Break the last ore deposit when ready: armor down, stunned a turn.",
+          "Keep Solel off the Giant until then; save Sol (2 uses). Avoid Vinicius. Vulneraries: the map has artillery."
+        ]
+      }
+    ]
+  },
+  "explore": [
+    {
+      "group": "First day",
+      "text": "Opening scene: choose to ask Fabio about it, for a little Support"
+    },
+    {
+      "group": "First day",
+      "text": "Talk to the Passionate Woman in front of the Arena: she gives a Concoction"
+    },
+    {
+      "group": "Spare Turns",
+      "text": "About 20 Turns this chapter: Anna's Paralogue and the exams come first"
+    }
+  ],
+  "battle": {
+    "title": "Main Match vs. Anatolia",
+    "objective": "Defeat Anatolia",
+    "lose": "Dietrich falls",
+    "tips": [
+      {
+        "text": "Split north and east toward the switches; mounted Io or Ursula reach them fastest",
+        "detail": [
+          "The switches wake the center golems, which attack everyone: pull enemies south first.",
+          "Wasteland squares lower Avo: stay off them."
+        ]
+      },
+      {
+        "text": "Put high-Res units on Nezha's side: Catania, Fabio, Olympia",
+        "detail": [
+          "Pack: Fabio and Esmeralda Pure Water, Goliath the Hexlock Shield.",
+          "Enemies include Dadao, Halvin, Nezha and Sha Lan."
+        ]
+      },
+      {
+        "text": "Anatolia summons 2 Lesser Titanus and a Greater Titanus as you reach her corner",
+        "detail": [
+          "When her first HP bar breaks, finish her with Blaze Arts."
+        ]
+      }
+    ]
+  }
+}

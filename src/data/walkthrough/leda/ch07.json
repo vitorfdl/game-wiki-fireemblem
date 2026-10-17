@@ -1,0 +1,357 @@
+{
+  "route": "Leda",
+  "ch": 7,
+  "name": "Rose of Retribution",
+  "free": {
+    "from": "5/29",
+    "to": "6/28"
+  },
+  "routine": {
+    "meals": [
+      {
+        "week": "Every Sunday",
+        "tables": [
+          [
+            "Leda",
+            "Esmeralda",
+            "Fianna"
+          ],
+          [
+            "Leda",
+            "Esmeralda",
+            "Ludia"
+          ],
+          [
+            "Leda",
+            "Ludia",
+            "Halvin"
+          ]
+        ],
+        "note": "Esmeralda sits two tables until Support 3, Fianna until her recruit; then Sha Lan and Lysander take their chairs."
+      }
+    ],
+    "gifts": [
+      {
+        "unit": "Esmeralda",
+        "gift": "Tales of Adventure",
+        "alt": "Mellow Pastries",
+        "until": "Support 3, recruit Ch 7",
+        "note": "Buy several on the Alecto trip"
+      },
+      {
+        "unit": "Fianna",
+        "gift": "Common Coffee",
+        "alt": "Select Coffee",
+        "until": "Support 3, recruit Ch 7"
+      },
+      {
+        "unit": "Ludia",
+        "gift": "Tales of Adventure",
+        "alt": "Common Coffee",
+        "until": "Support 3, recruit late Ch 8",
+        "note": "Buy several on the Alecto trip"
+      },
+      {
+        "unit": "Halvin",
+        "gift": "Simple Pastries",
+        "alt": "Garum",
+        "until": "Support 3, recruit Ch 9 after Baina"
+      },
+      {
+        "unit": "Sha Lan",
+        "gift": "Common Coffee",
+        "alt": "Select Coffee",
+        "until": "Support 3, recruit Ch 10"
+      },
+      {
+        "unit": "Noctula",
+        "gift": "Tales of Adventure",
+        "until": "Support 3, recruit Ch 10 (filler)",
+        "note": "Buy several on the Alecto trip"
+      },
+      {
+        "unit": "Mikaela",
+        "gift": "Tales of Adventure",
+        "alt": "Garum",
+        "until": "Support 3, recruit Ch 10 (filler)",
+        "note": "Buy several on the Alecto trip"
+      },
+      {
+        "unit": "Lysander",
+        "gift": "",
+        "alt": "Training Bracelet",
+        "until": "Support 3, recruit Ch 10 (filler)",
+        "note": "Nothing they like is buyable yet: meals carry them"
+      },
+      {
+        "unit": "Nezha",
+        "gift": "Tales of Adventure",
+        "alt": "Training Bracelet",
+        "until": "Support 3, recruit Ch 10 (filler)",
+        "note": "Buy several on the Alecto trip"
+      },
+      {
+        "unit": "Jester",
+        "gift": "Home-Recipe Book",
+        "until": "Support 3, recruit Ch 11 (filler)",
+        "alt": "Garum"
+      },
+      {
+        "unit": "Seteth",
+        "gift": "Poems of the Greats",
+        "alt": "Common Coffee",
+        "until": "Support 3, recruit Ch 11 (filler)"
+      }
+    ]
+  },
+  "missables": [],
+  "classes": {
+    "note": {
+      "text": "Anyone not Lv 20 by 5/28 takes their Ch 6 Specialty exam now",
+      "detail": [
+        "Mu's Brigand side trip starts once Attack, Get Back is mastered, not on a set date.",
+        "Switch back free at the Proctor, the Base Menu or Battle Prep.",
+        "Advanced exams wait for Renown 8 (Ch 10)."
+      ]
+    },
+    "override": [
+      {
+        "unit": "Esmeralda",
+        "text": "Soldier License only if she joins in another class; Armored Knight at Lv 20"
+      },
+      {
+        "unit": "Jasmine",
+        "text": "Armored Knight at Lv 20: Heavy E+, Axe C, Spear C from the Heavy seat; Ch 8 if Lv 20 lags"
+      }
+    ]
+  },
+  "gear": {
+    "buy": [
+      {
+        "text": "Buy 2 or 3 Tales of Adventure (270G) on the Alecto dance trip: Esmeralda's and Ludia's gifts"
+      },
+      {
+        "text": "Mons item shop: two [[item:Silver Shield]]s (10,000G each): Buccar's now, Jasmine's when gold allows"
+      },
+      {
+        "text": "Alecto: [[item:Qiankun Circles]] for Mu: thrown gauntlets for range 1-2 counters"
+      },
+      {
+        "text": "Dagsion Armorer: an [[item:Iron Axe]] (1,500G) for Esmeralda: Iron Axe +3 the day she joins"
+      },
+      {
+        "text": "[[place:Fina]] village shop (Castalia): two [[item:Sea-Spirit Charm]]s, for Guzran and Ludia",
+        "detail": [
+          "Ludia's waits in storage until her late Ch 8 recruit."
+        ]
+      },
+      {
+        "text": "Hold two [[item:Killing Edge]]s (3,000G each): Guzran's Myrmidon, and one for Ludia's Part II",
+        "detail": [
+          "Regia sells them, but its dance closed 5/28: they come from that Ch 4 to 6 trip.",
+          "Regia had only one? The [[place:Utuna Pass]] shop lists another at 2,400G from Ch 7."
+        ],
+        "conf": "?"
+      }
+    ],
+    "barter": [
+      {
+        "item": "Giant's Ring",
+        "for": "Dadao's Hammer (Esmeralda's from Ch 9)",
+        "at": "Alecto"
+      },
+      {
+        "item": "Gale Ring",
+        "for": "Mu (the Phantom Ring is the fallback)",
+        "at": "Alecto"
+      },
+      {
+        "item": "Healing Staff",
+        "for": "Catania, for Guardian in Ch 10",
+        "at": "Dagsion"
+      }
+    ],
+    "note": [
+      {
+        "text": "Blacksmith: Guzran's [[item:Killing Edge +2]] (rare ore); Esmeralda's Iron Axe +3 on her join",
+        "detail": [
+          "Finish any Ch 6 ladder refine still short of its cap first.",
+          "Buccar's Halberd +2 still waiting? It goes before the Killing Edge."
+        ],
+        "conf": "?"
+      },
+      {
+        "text": "Yukito ×10 has no gather spot on this route: look in shops and crates",
+        "conf": "?"
+      }
+    ],
+    "assign": [
+      {
+        "item": "Iron Shield",
+        "to": "Esmeralda",
+        "why": "Buccar's, once the Silver Shield replaces it"
+      },
+      {
+        "item": "White-Magic Manual",
+        "to": "Fianna",
+        "why": "Niraga Mine copy, read the day she joins: White C for Priest"
+      }
+    ]
+  },
+  "recruits": [
+    {
+      "unit": "Fianna",
+      "action": "Pay 3,000G once Support 3 and Renown 5 land: bench healer for Part II",
+      "when": "Week 1; later if Support 3 lags",
+      "detail": [
+        "She joins at about Lv 15: Priest at Lv 20 (Ch 8) with White Magic C.",
+        "EXP: she heals in every dungeon party next to Jasmine; each cast trains White too.",
+        "Pay her before the Mons Silver Shields: Jasmine's Shield can wait."
+      ]
+    },
+    {
+      "unit": "Esmeralda",
+      "action": "Finish her short quest at the marker and report back once Support 3 and Renown 6 land",
+      "when": "Late Ch 7, or Ch 8 week 1",
+      "detail": [
+        "Joins at about Lv 15 (Soldier); she takes Dadao's Hammer and slot 8 in Ch 9.",
+        "Run [[place:Valhalla Mine]] with her now: Lv 20 for Armored Knight before Ch 9."
+      ]
+    }
+  ],
+  "prep": [
+    {
+      "text": "Io and Mikaela open at Renown 6: keep them for Ch 10 (fillers)",
+      "detail": [
+        "Io's Levin Sword goes to Sirocco for the armored Ch 10 map."
+      ]
+    },
+    {
+      "text": "Renown 7 (late Ch 8) opens Ludia; Inyoni and Halvin follow in Ch 9, Lysander (filler) in Ch 10"
+    }
+  ],
+  "quests": {
+    "route": [
+      {
+        "quest": "dance-for-mons",
+        "note": "Do all three dances now: about 200 Renown each, this chapter's push toward Renown 6",
+        "detail": [
+          "All three are due 10/15."
+        ]
+      },
+      {
+        "quest": "dance-for-alecto",
+        "note": "Buy the Tales of Adventure on this trip; keep one for Inyoni (Ch 9)"
+      },
+      {
+        "quest": "dance-for-barsh-post-town"
+      }
+    ],
+    "sub": [
+      {
+        "quest": "learning-more-about-mehdel",
+        "note": "Leda only: Sirocco's quest in Temple Row"
+      },
+      {
+        "quest": "legacy-of-a-legendary-sculptor",
+        "offered": "if-offered",
+        "note": "Pick up each statue on the trip that passes it",
+        "detail": [
+          "Pays Riding, Heavy-Armor and Flying Manuals; what each manual adds is unknown.",
+          "Plan them for Halvin (Rider D, Charioteer), Esmeralda (Heavy D, Dreadnought), Catania (Flying)."
+        ]
+      },
+      {
+        "quest": "a-challenge",
+        "offered": "if-offered",
+        "note": "Starts a chain"
+      },
+      {
+        "quest": "a-sword-of-deadly-renown",
+        "offered": "if-offered"
+      },
+      {
+        "quest": "a-screeching-strange-shadow",
+        "offered": "if-offered"
+      },
+      {
+        "quest": "a-taste-from-home",
+        "offered": "if-offered"
+      },
+      {
+        "quest": "rare-stone-hunting",
+        "offered": "if-offered",
+        "note": "Its [[item:Tempest Bow]] is a spare: Leda keeps her Wooden Bow +5"
+      }
+    ],
+    "paralogue": []
+  },
+  "explore": [
+    {
+      "group": "Dungeons (Lv 14 to 20)",
+      "text": "Clear any Ch 6 dungeon you skipped first, then these"
+    },
+    {
+      "group": "Dungeons (Lv 14 to 20)",
+      "text": "Dungeon party (5): Jasmine and Fianna in every run, Esmeralda from her recruit",
+      "detail": [
+        "Two carries take the last seats; feed the kills to the Lv 15 joins.",
+        "Jasmine wants Lv 20 now (Armored Knight), Fianna by Ch 8 (Priest)."
+      ]
+    },
+    {
+      "group": "Dungeons (Lv 14 to 20)",
+      "text": "[[place:Hundred-Hole Cave]] (Lv 14): [[item:Venin Edge]], [[item:Poisonbane Gem]], Bullion"
+    },
+    {
+      "group": "Dungeons (Lv 14 to 20)",
+      "text": "[[place:Fort Hayn]] (Lv 18): [[item:Axebreak Amulet]], [[item:Dew of Peace]]"
+    },
+    {
+      "group": "Dungeons (Lv 14 to 20)",
+      "text": "Dragonbone Tangle (Lv 20, Nysiades): [[item:Hexlock Shield]] for Sha Lan, [[item:Hunter's Ring]]",
+      "detail": [
+        "Also a Lucky Coin. Hold the Hexlock for her Ch 10 join.",
+        "Desert not open yet? Clear it on the Ch 9 desert trip."
+      ],
+      "id": "leda-ch07-explore-dragonbone-tangle",
+      "loot": true
+    },
+    {
+      "group": "Dungeons (Lv 14 to 20)",
+      "text": "[[place:Beast's Path]] (Lv 20): [[item:Poisonhunt Gem]], [[item:Concoction]], Bullion"
+    },
+    {
+      "group": "Spare Turns",
+      "text": "[[place:Valeri Gorge]] (Amalthea): [[gather:Melara]] ×10 for Catania's [[item:Healing Staff]] barter"
+    },
+    {
+      "group": "Spare Turns",
+      "id": "leda-ch07-explore-valhalla-mine",
+      "loot": true,
+      "text": "Run [[place:Valhalla Mine]] (Lv 20, Saveilon) with Esmeralda: [[item:Azaga's Bow]]",
+      "detail": [
+        "Also Large Bullion and an [[item:Antitoxin]].",
+        "[[item:Azaga's Bow]] is cursed (Curse 2): hold it to the end of Part I (Drifting Reliquary).",
+        "Mine its crystals: Blue Snoll for Inyoni's Da Mina Bow +2 (Ch 9)."
+      ]
+    }
+  ],
+  "battle": {
+    "title": "Taking the Carriage",
+    "objective": "Defeat Lechner",
+    "lose": "Leda falls",
+    "tips": [
+      {
+        "text": "Dadao's [[item:Hammer]] takes the armor; Sirocco's magic hits Res, not Prt"
+      },
+      {
+        "text": "Use the onagers near your start"
+      },
+      {
+        "text": "Deal with the units Maria summons",
+        "conf": "?"
+      }
+    ]
+  }
+}

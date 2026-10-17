@@ -1,0 +1,461 @@
+{
+  "name": "Centurio",
+  "slug": "centurio",
+  "epithet": "Steel Jewel",
+  "faction": "Temple Army (Dagdan Empire)",
+  "story": "An elite Vulkan stationed at Aurora Temple and an old friend of Castor, whom he arrests on Cai's 15th birthday and imprisons beneath Dagsion. He joins in Part III after a rescue quest.",
+  "personalSkill": {
+    "name": "Sturdy Corundum",
+    "effect": "Takes half damage in the first combat of each enemy phase."
+  },
+  "growths": {
+    "HP": 45,
+    "Str": 45,
+    "Mag": 25,
+    "Spd": 40,
+    "Dex": 50,
+    "Def": 50,
+    "Res": 30,
+    "Lck": 30,
+    "Cha": 30
+  },
+  "supports": [
+    "Cai (C)",
+    "Ultand"
+  ],
+  "joins": "Part III: Salvation, Second Section, after completing the quest \"Rescue Centurio\".",
+  "build": {
+    "role": "Squad E armored wall",
+    "path": [
+      "Join class ?",
+      "Dreadnought (Sec 2-3)",
+      "Castle Knight (Sec 4)"
+    ],
+    "part3Target": "Castle Knight",
+    "notes": "Sturdy Corundum halves the first enemy-phase combat. Joins after Rescue Centurio (Sec 2). Join class and level ?."
+  },
+  "sources": [
+    "https://fortunesweave.co.uk/characters/centurio",
+    "https://www.rpgsite.net/guide/21391-fire-emblem-fortunes-weave-recruitment-guide-all-characters-in-game-how-to-recruit-them"
+  ],
+  "guide": {
+    "role": "Squad E wall: Sturdy Corundum halves the first enemy-phase hit",
+    "summary": "Squad E's choke. Sturdy Corundum halves the first combat each enemy phase and Castle Knight's Strike-Last Def +7 covers the rest. From Heavy B, Heavy Break+ doubles his counter damage on a Def/2 % roll.",
+    "playstyle": "Enemy phase: stand on the choke tile, Javelin in hand if archers or mages reach him, else the spear. Player phase: Defending Spear on what he can kill; Lend Defense on the next wall. Mov 4: he leads, never chases.",
+    "focus": [
+      "Def",
+      "HP",
+      "Str"
+    ],
+    "keys": [
+      "Clear Rescue Centurio (Elissa Pass, 6 units) in Sec 2, then talk to him in Dagsion.",
+      "Arena Heavy every week from Sec 2: Spear A, Axe A and Heavy C/B in one course.",
+      "Take [[class:Castle Knight]] at Lv 45 in Sec 4: Def +13 flat, Def +30 growth.",
+      "Put him on the choke first each enemy phase: Corundum halves only the first combat.",
+      "Mage maps: Hexlock Shield on; Res 30 is his weak stat."
+    ],
+    "watch": [
+      "Missable: Rescue Centurio is due 6/6; talk to him after (still possible in Sec 3).",
+      "Weight: Shielding Axe 12 + Hexlock 4 + Archer's Ring 3 = 19; armor, doubled anyway (Spd -6 flat). On offense the ring comes off first.",
+      "Doubled: Spd 40 growth, Castle Knight Spd -6 flat. Def carries him, not dodges.",
+      "Res: 30 growth, Castle Knight Res -2. Drake's mages are the threat.",
+      "Underworld Boon: spears and axes can't strip it; hold within 2 of Eshmel.",
+      "Join class, level and ranks ?: Castle Knight needs Axe A, Spear A, Heavy C at Lv 45."
+    ],
+    "decisions": [
+      {
+        "topic": "Go Castle Knight, not Great Knight",
+        "pick": "Dreadnought, then Castle Knight in Sec 4",
+        "why": "Castle Knight: Def +13 flat, Def +30 growth, Strike-Last Def +7, and stays armored for Heavy Break. Great Knight is cavalry (Breza, Hanno, Drake, Cohen & Maria punish it) and Def +15 growth.",
+        "else": "Stay Dreadnought if Axe A or Spear A stalls"
+      },
+      {
+        "topic": "Train Heavy to B",
+        "pick": "Heavy Break+ (Heavy B) in the Castle Knight kit",
+        "why": "x2 damage on a Def/2 % roll: at Def 50 that is about 25% of his counters. Castle Knight trains Heavy +4 a fight."
+      }
+    ],
+    "finalists": {
+      "stats": [
+        "Def",
+        "HP",
+        "Str",
+        "Res"
+      ],
+      "options": [
+        {
+          "class": "Castle Knight",
+          "use": "Sec 4+",
+          "note": "Def +13 flat, Def +30 growth, Strike-Last Def +7; Intercept"
+        },
+        {
+          "class": "Dreadnought",
+          "use": "Sec 2-3",
+          "note": "Def +9 flat, Def +30 growth; Heavy D, Axe B, Spear B exam"
+        },
+        {
+          "class": "Great Knight",
+          "note": "Cavalry on no-cavalry gates; Def +15 growth"
+        },
+        {
+          "class": "Sentinel",
+          "note": "Infantry: Heavy Break and Absolute Defense need armor"
+        }
+      ]
+    },
+    "stages": [
+      {
+        "when": "Part III Sec 2 to 3 (Dreadnought)",
+        "from": {
+          "part": 3,
+          "ch": 2
+        },
+        "to": {
+          "part": 3,
+          "ch": 3
+        },
+        "level": "Join Lv ? to 45",
+        "class": "Dreadnought",
+        "kind": "core",
+        "goal": "Enemy-phase wall: Sturdy Corundum halves the first hit; Strike-Last + Shielding Axe = Prt +10?.",
+        "why": [
+          "Join class ?: Dreadnought (Heavy D, Axe B, Spear B) in Free Time if he isn't armored",
+          "Underworld Boon: spears and axes can't strip it; hold the line within 2 of Eshmel",
+          "Sec 2-3: off-squad (EXP each map turn) and Arena Heavy weeks"
+        ],
+        "exit": "Lv 45, Axe A, Spear A, Heavy C: Castle Knight exam (Sec 4).",
+        "masteries": [
+          "Focused Counter"
+        ],
+        "weapons": [
+          {
+            "item": "Shielding Axe +2",
+            "why": "Main: Mt 18?, Hit 65, Wt 12; Prt +5? when the foe attacks first",
+            "plan": "Refine to +2 (no Soulstone)",
+            "alts": [
+              "Bronze Axe +4"
+            ]
+          },
+          {
+            "item": "Javelin +2",
+            "why": "1-2 range: Mt 10; counters archers and mages"
+          },
+          {
+            "item": "Bronze Spear +4",
+            "why": "Hit 90, Def +? from +3, Wt 7: when the axe misses",
+            "plan": "Refine to +4 (no Soulstone); Soulstone for +3 and +4; Da Mina +2 until then",
+            "situational": "High-Avo foes: uses the open slot",
+            "alts": [
+              "Da Mina Spear +2"
+            ]
+          }
+        ],
+        "equipment": [
+          {
+            "item": "Silver Shield",
+            "why": "Def +5, Wt 4",
+            "slot": "Defense",
+            "alts": [
+              "Iron Shield"
+            ]
+          },
+          {
+            "item": "Victory Gem",
+            "why": "Heals a little after each kill, Wt 3",
+            "slot": "Accessory",
+            "alts": [
+              "Archer's Ring"
+            ]
+          },
+          {
+            "item": "Hexlock Shield",
+            "why": "Res +5 on his Res 30",
+            "slot": "Defense",
+            "situational": "Mage maps (Drake): replaces the Silver Shield",
+            "alts": [
+              "Talisman Shield",
+              "Iron Shield"
+            ]
+          }
+        ],
+        "items": [
+          {
+            "item": "Elixir",
+            "why": "100 HP: he takes the hits",
+            "alts": [
+              "Concoction"
+            ]
+          }
+        ],
+        "arts": [
+          {
+            "name": "Defending Spear",
+            "why": "Spear C: Mt +3, Shld +3"
+          },
+          {
+            "name": "Tempest Spear",
+            "why": "Spear D: Mt +4, Hit +10"
+          },
+          {
+            "name": "Helm Splitter",
+            "why": "Axe B: effective vs armor (Bronze Axe swap)"
+          },
+          {
+            "name": "Lend Defense",
+            "why": "Authority C: Def +2 to an ally at 1-2"
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Absolute Defense",
+            "why": "Heavy D: Shld +10 when attacked (10%)"
+          },
+          {
+            "name": "Heavy Break",
+            "why": "Heavy C?: x1.5 damage at Def/2 % (armored)"
+          },
+          {
+            "name": "Focused Counter",
+            "why": "Dreadnought mastery: Hit +10 on counters, once mastered"
+          },
+          {
+            "name": "Defense Formation",
+            "why": "Authority D: Shld +1 to adjacent allies"
+          },
+          {
+            "name": "Axes Lv. 3",
+            "why": "Axe B+: Hit/Avo +5 with the Shielding Axe"
+          }
+        ],
+        "training": [
+          {
+            "rank": "Spear A, Axe A",
+            "for": "Castle Knight (Lv 45)",
+            "how": "Arena Heavy (Spear, Axe, Heavy, Authority) after Arena Construction; fights"
+          },
+          {
+            "rank": "Heavy Armor C, then B",
+            "for": "Castle Knight; Heavy Break, Heavy Break+",
+            "how": "Same Arena Heavy weeks; Dreadnought trains Heavy +3 a fight"
+          },
+          {
+            "rank": "Authority C",
+            "for": "Lend Defense",
+            "how": "Arena Heavy"
+          }
+        ],
+        "tips": [
+          "Rescue Centurio needs Cai brought into Part III ? (RPG Site); Game8 names no requirement",
+          "Weight: Shielding Axe 12 + Silver Shield 4 + Victory Gem 3 = 19; armor, so fine"
+        ],
+        "checks": [
+          {
+            "stat": "Def",
+            "at": "Sec 4",
+            "need": "Enemy forecast at the choke: common axe and spear foes deal under 10",
+            "why": "Corundum covers one combat; the rest land on Def",
+            "fix": [
+              "Castle Knight: Def +13 flat, Strike-Last Def +7",
+              "Dew of Protection (half damage) on the boss turn",
+              "Defending Spear (Shld +3) on his own attack"
+            ]
+          }
+        ]
+      },
+      {
+        "when": "Part III Section 4+ (Castle Knight)",
+        "from": {
+          "part": 3,
+          "ch": 4
+        },
+        "level": "Lv 45+",
+        "class": "Castle Knight",
+        "kind": "core",
+        "goal": "Prt +13 when attacked first (Strike-Last +7, Shielding Axe +6); Sturdy Corundum halves the first hit.",
+        "why": [
+          "Exam: Lv 45, Heavy C, Axe A, Spear A, Master License (S4)",
+          "Drake (S5): fliers and mages; Hexlock on, Javelin kills the mage on his turn",
+          "Underworld Boon: none of his own; hold inside Leda's ring (C deploys at Drake)"
+        ],
+        "exit": "Endpoint.",
+        "masteries": [
+          "Intercept"
+        ],
+        "weapons": [
+          {
+            "item": "Shielding Axe +3",
+            "why": "Main: Mt 22, Wt 12; Prt +6 when attacked first (+2: Mt 18?, Prt +5?)",
+            "plan": "Soulstone queue",
+            "alts": [
+              "Shielding Axe +2",
+              "Bronze Axe +4"
+            ]
+          },
+          {
+            "item": "Javelin +2",
+            "why": "1-2 range: Mt 10; counters archers and mages"
+          },
+          {
+            "item": "Bronze Spear +4",
+            "why": "Hit 90, Def +? from +3, Wt 7: when the axe misses",
+            "plan": "Carry-over; Soulstone for +3 and +4; Da Mina +2 until then",
+            "situational": "High-Avo fliers: uses the open slot",
+            "alts": [
+              "Da Mina Spear +2"
+            ]
+          }
+        ],
+        "equipment": [
+          {
+            "item": "Hexlock Shield",
+            "why": "Def +1, Res +5, Wt 4: Res 30 is his hole vs Drake's mages",
+            "slot": "Defense",
+            "alts": [
+              "Talisman Shield",
+              "Silver Shield"
+            ]
+          },
+          {
+            "item": "Silver Shield",
+            "why": "Def +5, Wt 4",
+            "slot": "Defense",
+            "situational": "Physical maps (S6 sweep, dungeons): replaces the Hexlock",
+            "alts": [
+              "Da Mina Shield",
+              "Iron Shield"
+            ]
+          },
+          {
+            "item": "Archer's Ring",
+            "why": "Hit +5, Wt 3: lifts the Shielding Axe's Hit 65",
+            "slot": "Accessory",
+            "alts": [
+              "Victory Gem",
+              "Goddess Ring"
+            ]
+          }
+        ],
+        "items": [
+          {
+            "item": "Elixir",
+            "why": "100 HP",
+            "alts": [
+              "Concoction"
+            ]
+          }
+        ],
+        "arts": [
+          {
+            "name": "Spike",
+            "why": "Axe D: Mt +4, Hit +10"
+          },
+          {
+            "name": "Helm Splitter",
+            "why": "Axe B: effective vs armor"
+          },
+          {
+            "name": "Reflecting Dance",
+            "why": "Axe A: a foe's follow-up becomes his (Mt -10, Hit -20)"
+          },
+          {
+            "name": "Defending Spear",
+            "why": "Spear C on the Javelin: Mt +3, Shld +3"
+          },
+          {
+            "name": "Lend Defense",
+            "why": "Authority C: Def +2 to an ally at 1-2"
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Heavy Break+",
+            "why": "Heavy B: x2 damage at Def/2 %"
+          },
+          {
+            "name": "Intercept",
+            "why": "Castle Knight mastery: -5 damage taken, once mastered"
+          },
+          {
+            "name": "Focused Counter",
+            "why": "Hit +10 on counters"
+          },
+          {
+            "name": "Absolute Defense",
+            "why": "Shld +10 when attacked (10%)"
+          },
+          {
+            "name": "Axes Lv. 3",
+            "why": "Axe B+: Hit/Avo +5 with the Shielding Axe"
+          }
+        ],
+        "tips": [
+          "Choke first each enemy phase: Corundum halves the first combat, Prt +13 covers the rest",
+          "End beside Orchel: Barrier Res +3 on top of the Hexlock vs Drake's mages",
+          "Hit stack: Shielding Axe 65, Focused Counter +10, Axes Lv. 3 +5, Archer's Ring +5, Spike +10",
+          "Fliers dodging the axe: Bronze Spear +4 (Hit 90) in hand for that map"
+        ],
+        "checks": [
+          {
+            "stat": "Res",
+            "at": "Sec 5",
+            "need": "A Drake-map mage's forecast leaves him above half HP",
+            "fix": [
+              "Hexlock Shield (Res +5)",
+              "End beside Orchel: Barrier Res +3",
+              "Javelin to kill the mage on player phase"
+            ]
+          },
+          {
+            "stat": "Dex",
+            "at": "Sec 5",
+            "need": "Shielding Axe counter forecast Hit 75+ at the Drake choke",
+            "why": "Axe Hit 65: missed counters leave the wave alive",
+            "fix": [
+              "Archer's Ring (Hit +5) and Axes Lv. 3",
+              "Bronze Spear +4 (Hit 90) for that map"
+            ]
+          }
+        ],
+        "drop": [
+          {
+            "item": "Heavy Break",
+            "why": "Heavy Break+ at Heavy B"
+          },
+          {
+            "item": "Defense Formation",
+            "why": "Intercept takes the slot once mastered"
+          },
+          {
+            "item": "Tempest Spear",
+            "why": "Spike covers Hit +10 on the axe"
+          },
+          {
+            "item": "Victory Gem",
+            "why": "Archer's Ring: Hit +5 on the axe (the gem is its alt)"
+          }
+        ]
+      }
+    ],
+    "sources": [
+      "part3-salvation",
+      "weapons-and-items",
+      "combat-arts-and-abilities",
+      "character-learnsets",
+      "equippable-abilities",
+      "class-data",
+      "redesign/17-part2-part3-plan"
+    ]
+  },
+  "recruitOn": {
+    "Leda": {
+      "how": "recruit",
+      "task": "Clear Rescue Centurio, then talk to him in Dagsion",
+      "window": "Part III Sec 2 to 3"
+    },
+    "Theodora": {
+      "how": "recruit",
+      "task": "Clear Rescue Centurio, then talk to him in Dagsion",
+      "window": "Part III Sec 2 to 3"
+    }
+  }
+}

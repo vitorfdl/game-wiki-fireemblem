@@ -1,0 +1,393 @@
+{
+  "route": "Theodora",
+  "n": 5,
+  "decisions": [
+    {
+      "topic": "Squad E",
+      "pick": "Talimun, Orchel, Anatolia, Mikaela, Loretta, Centurio, Noctula, Fianna",
+      "why": "All infantry for Drake (no mounts): two healers (Orchel, Fianna), two casters, Mikaela's Battlemaster and Loretta. Hong Hua and Nydine sit out Section 5 on the bench.",
+      "alt": "Hong Hua and Nydine in E (both mounted: Drake deploy 14 of 16)"
+    },
+    {
+      "topic": "Gate order",
+      "pick": "Cohen and Maria first (A + B), then Drake (C + E), then Mahadu (D)",
+      "why": "Cohen's gate sits next to Dagsion and is the hardest; Drake is a Kalla's Blessing rush; Mahadu is one squad far southeast with Klapka to protect.",
+      "alt": "Game8's 3 squads at Cohen (leaves Drake short)"
+    },
+    {
+      "topic": "Mahadu",
+      "pick": "Squad D with Esmeralda's thrown spears; Jurah Lv 3 (no crits) over Kalla",
+      "why": "Wrath doubles Crit and halves Def on both sides: Jurah Lv 3 removes enemy crits outright. Esmeralda (Hit +20, Atk +4 on throws) replaces Goliath, whose kit has no spear.",
+      "alt": "Kalla Lv 1 Avo +50 (only if Jurah isn't Lv 3)"
+    },
+    {
+      "topic": "Ultand",
+      "pick": "Second elephant if Section 4's test passed and her Riding is C; else Sentinel",
+      "why": "Prt 17 / Rsl 35 keep her off the line. Half damage, Def +7 and +5 put Pray for Safety+, Patch Up and Defense Formation on 8 allies. A keeps 4 healers.",
+      "alt": "Sentinel behind the walls (doubled Heal and Seraphim)"
+    },
+    {
+      "topic": "Trials",
+      "pick": "Aurora, Jurah, Smyrnos, then Mars (one of the hard ones); Kalla's last, in Section 6",
+      "why": "Squads are near Lv 50 now. Trial items go to the Balor 24: Cloth of Aurora to Theodora, Ice Mirror to Esmeralda, Kneepads to Guzran, Agnea's Arrow (a Black Magic tome) to Sirocco.",
+      "alt": "Saving all Trials for Section 6"
+    },
+    {
+      "topic": "Training",
+      "pick": "Every squad clears dungeons each Free Time turn it isn't repairing",
+      "why": "Dungeon enemies rise each Section and chests refill per Section: the best EXP outside gates. The final 24 must sit near the Lv 60 Trial level.",
+      "alt": "Waiting on the bench (slower)"
+    }
+  ],
+  "plan": [
+    {
+      "group": "Turn 1 · Dagsion",
+      "rows": [
+        {
+          "text": "Aswan and Tahonia join: they wait on the bench"
+        },
+        {
+          "text": "Section 4 test passed: Ultand takes an Elephant License and the second elephant, not Sentinel",
+          "squad": "A",
+          "task": true,
+          "id": "theodora-sal-s5-ultand-elephant",
+          "detail": [
+            "Riding below C: Arena Mounted Training first; she stays Guardian until the exam passes",
+            "Seraphim and Heal need a Dismount: Sofia, Ninae and Theodora carry A's healing"
+          ]
+        },
+        {
+          "text": "Build squad E; Esmeralda moves from C to D, Ludia into C, Bertrand stays in A",
+          "squad": "E"
+        },
+        {
+          "text": "Refine E's kit: Mikaela Silver Axe +2, Loretta Da Mina Sword +2, Orchel Velheit +2",
+          "detail": [
+            "Soulstones before Drake: Centurio and Buccar Shielding Axe +3 (Prt +13 with Strike-Last +7)",
+            "Before Mahadu: Esmeralda's Sinza's Trident +3 (queue 8); Troy Smyrnos's Channels +2"
+          ]
+        },
+        {
+          "text": "Fortuna's Section 5 scene near the Thermae (needs Section 4's)"
+        }
+      ]
+    },
+    {
+      "group": "Free Time 4/6–4/25",
+      "rows": [
+        {
+          "text": "A: Aurora's and Jurah's Trials, then dungeons north of Dagsion",
+          "squad": "A"
+        },
+        {
+          "text": "B: Smyrnos's Trial, then Mars's (one of the hard ones), then the eastern dungeons",
+          "squad": "B"
+        },
+        {
+          "text": "C, D, E: dungeons by level; D keeps casting Answerer's Cry for shards",
+          "squad": "D"
+        },
+        {
+          "text": "Anna's Shop: Speedwing to Guzran, Energy Drop to Dietrich (14,000G each)"
+        },
+        {
+          "text": "Two Spearbreak Amulets for Mahadu (Dietrich, Simon): Hit/Avo +15 vs spears",
+          "squad": "D"
+        }
+      ]
+    },
+    {
+      "group": "Mission Time 4/26–5/15",
+      "rows": [
+        {
+          "text": "D leaves at once for Kurdelind via Salacia Posthouse, clearing the southeast nodes",
+          "squad": "D"
+        },
+        {
+          "text": "C and E take Aragona and Cartodo Posthouses to the Valley of Death nodes",
+          "squad": "E"
+        },
+        {
+          "text": "A and B clear the Fort Hecatoncheires nodes; A launches Cohen and Maria",
+          "squad": "A"
+        },
+        {
+          "text": "E launches Drake once C and E stand at the gate",
+          "squad": "E"
+        },
+        {
+          "text": "D launches Mahadu; right after, enter Dagsion so Klapka joins",
+          "squad": "D",
+          "task": true,
+          "id": "theodora-sal-s5-klapka-dagsion"
+        }
+      ]
+    }
+  ],
+  "missables": [
+    {
+      "id": "theodora-sal-s5-missables-klapka",
+      "kind": "recruit-window",
+      "text": "Keep Klapka alive vs Mahadu, then enter Dagsion right after the battle.",
+      "lose": "Klapka",
+      "recover": "None"
+    },
+    {
+      "id": "theodora-sal-s5-missables-treatises",
+      "kind": "item",
+      "text": "Cohen and Maria map: treatise carriers flee.",
+      "lose": "Six Treatises and two Treatise Crates",
+      "recover": "None"
+    },
+    {
+      "id": "theodora-sal-s5-scene-fortuna",
+      "kind": "scene",
+      "text": "Fortuna's Section 5 scene near the Thermae (needs the Section 4 scene).",
+      "lose": "Fortuna's last scene",
+      "recover": "Replay the Section from the Obelisk Chamber ?",
+      "where": "Thermae"
+    }
+  ],
+  "quests": [],
+  "gear": {
+    "assign": [
+      {
+        "item": "Cloth of Aurora",
+        "to": "Theodora",
+        "why": "Res +5, Res +3 to adjacent allies: the wall's aura; drops the Hexlock swap"
+      },
+      {
+        "item": "Jurah's Ice Mirror",
+        "to": "Esmeralda",
+        "why": "Half crit damage at Mahadu, where Wrath doubles crits; Mu keeps her Gale Ring"
+      },
+      {
+        "item": "Shield of Zephyrus",
+        "to": "Alexandra",
+        "why": "Cancels effective-vs-flying on the lead flier; drops Pure Water"
+      },
+      {
+        "item": "Smyrnos's Channels",
+        "to": "Troy",
+        "why": "Gauntlets with the Thoron art for the Godhand"
+      },
+      {
+        "item": "Agnea's Arrow",
+        "to": "Sirocco",
+        "why": "Black Magic tome from Smyrnos's Trial: The Avatar's big cast"
+      },
+      {
+        "item": "Mars's Kneepads",
+        "to": "Guzran",
+        "why": "Atk +3, Crit +10 on arts: crit striker; drops a Concoction"
+      },
+      {
+        "item": "Speedwing",
+        "to": "Guzran",
+        "why": "Spd +2 keeps Astra doubling at Drake and Balor"
+      },
+      {
+        "item": "Energy Drop",
+        "to": "Dietrich",
+        "why": "Str +2 on The Blade for Mahadu and Balor"
+      }
+    ]
+  },
+  "gates": [
+    {
+      "battle": "Battle vs. Cohen and Maria",
+      "order": 1,
+      "launch": "A",
+      "deploy": [
+        "Theodora",
+        "Ninae",
+        "Ultand",
+        "Tobias",
+        "Bonaventure",
+        "Sofia",
+        "Sirocco",
+        "Bertrand",
+        "Cai",
+        "Seteth",
+        "Alexandra",
+        "Lysander",
+        "Lilian",
+        "Nuzzuo",
+        "Troy",
+        "Tialla"
+      ],
+      "tips": [
+        {
+          "text": "Lust reads Cha: Theodora, Bertrand, Alexandra and Sirocco take the duels, the rest support"
+        },
+        {
+          "text": "Hold the start, then take the open center; kill Maria first, pull Cohen into the center choke"
+        },
+        {
+          "text": "Lilian and Nuzzuo shoot the large birds; fliers run down the treatise carriers"
+        },
+        {
+          "text": "Don't clear the miasma: it moves every couple of turns. Cai stays inside the line"
+        }
+      ],
+      "blessings": [
+        {
+          "god": "Mars",
+          "lv": 1,
+          "why": "Where Lust cuts Hit"
+        },
+        {
+          "god": "Jurah",
+          "lv": 1,
+          "why": "Bows stop hitting Alexandra, Lysander and Seteth for triple damage"
+        }
+      ]
+    },
+    {
+      "battle": "Battle vs. Drake",
+      "order": 2,
+      "launch": "E",
+      "deploy": [
+        "Leda",
+        "Olympia",
+        "Catania",
+        "Mu",
+        "Guzran",
+        "Ludia",
+        "Inyoni",
+        "Buccar",
+        "Talimun",
+        "Orchel",
+        "Anatolia",
+        "Mikaela",
+        "Loretta",
+        "Centurio",
+        "Noctula",
+        "Fianna"
+      ],
+      "tips": [
+        {
+          "text": "Kalla's Blessing and rush Drake: kill nothing on the way, every kill spawns Envy miasma"
+        },
+        {
+          "text": "Leda dances Guzran into Drake; Talimun's Slowing Curse from 10 tiles first"
+        },
+        {
+          "text": "The pirate treasure cancels Envy. Everyone in C and E is on foot: all 16 deploy"
+        }
+      ],
+      "blessings": [
+        {
+          "god": "Kalla",
+          "lv": 3,
+          "why": "Reach Drake before the Envy miasma spreads"
+        }
+      ]
+    },
+    {
+      "battle": "Battle vs. Mahadu",
+      "order": 3,
+      "launch": "D",
+      "deploy": [
+        "Dietrich",
+        "Fabio",
+        "Dante",
+        "Kiroc",
+        "Simon",
+        "Esmeralda",
+        "Gaitz",
+        "Yang Jie"
+      ],
+      "tips": [
+        {
+          "text": "Wrath doubles Crit and halves Def on both sides: Dietrich, Simon and Kiroc fish crits"
+        },
+        {
+          "text": "Kill the foes nearest Klapka first; stand crit units in the brush for Avoid"
+        },
+        {
+          "text": "Move north through the forests; drag Mahadu out of the brush before the kill"
+        },
+        {
+          "text": "Jurah Lv 3 (no crits) if you have it, else Kalla Lv 1; Esmeralda throws the spears"
+        },
+        {
+          "text": "Gaitz's elephant takes half damage: park him beside Klapka's attackers"
+        }
+      ],
+      "blessings": [
+        {
+          "god": "Jurah",
+          "lv": 3,
+          "why": "Wrath doubles the enemy's crits"
+        },
+        {
+          "god": "Kalla",
+          "lv": 1,
+          "why": "Only if Jurah isn't Lv 3"
+        }
+      ]
+    }
+  ],
+  "exitExtra": [
+    {
+      "text": "Klapka recruited in Dagsion"
+    },
+    {
+      "text": "Final 24 near Lv 55+, weapons at max refine"
+    }
+  ],
+  "licenses": [
+    {
+      "unit": "Mikaela",
+      "to": "Battlemaster",
+      "why": "Drake deploy: War Master's Strike (×1.5); Hit +10, Atk +3 vs adjacent"
+    },
+    {
+      "unit": "Fianna",
+      "to": "Wiseman",
+      "why": "Drake deploy: squad E's second healer"
+    },
+    {
+      "unit": "Ludia",
+      "to": "Swordmaster",
+      "why": "Drake rush: Mov 5 sword in squad C"
+    },
+    {
+      "unit": "Simon",
+      "to": "Battlemaster",
+      "why": "Mahadu crit squad; Eternal fallback"
+    },
+    {
+      "unit": "Kiroc",
+      "to": "Bow Adept",
+      "why": "Mahadu crit bow"
+    },
+    {
+      "unit": "Yang Jie",
+      "to": "Wiseman",
+      "why": "Squad D healer"
+    },
+    {
+      "unit": "Esmeralda",
+      "to": "Castle Knight",
+      "why": "Mahadu thrown spears"
+    },
+    {
+      "unit": "Ultand",
+      "to": "Sentinel",
+      "why": "Only if the elephant test failed: doubled Heal and Seraphim behind A's walls"
+    },
+    {
+      "unit": "Buccar",
+      "to": "Castle Knight",
+      "why": "Drake deploy wall"
+    },
+    {
+      "unit": "Ultand",
+      "to": "Elephant Rider",
+      "license": "Elephant",
+      "why": "Only if Section 4's test passed: 8-tile aura wall in A"
+    }
+  ]
+}

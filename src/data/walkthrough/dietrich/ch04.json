@@ -1,0 +1,296 @@
+{
+  "route": "Dietrich",
+  "ch": 4,
+  "name": "Brute Force",
+  "free": {
+    "from": "3/27",
+    "to": "4/10"
+  },
+  "unlocks": [
+    "Meals and gifts (tutorial: Yang Jie joins)",
+    "Answerer's Cry",
+    "Combat Art upgrades (Smyrnos's Temple)",
+    "Marketplace, Divine Services, Pale Raven"
+  ],
+  "routine": {
+    "meals": [
+      {
+        "week": "Week 1 (3/27)",
+        "tables": [
+          [
+            "Dietrich",
+            "Io",
+            "Catania"
+          ],
+          [
+            "Dietrich",
+            "Io",
+            "Esmeralda"
+          ],
+          [
+            "Dietrich",
+            "Io",
+            "Fabio"
+          ]
+        ],
+        "note": "Io sits at all three: he needs Support 2 before Ch 5. First dishes: Coffee-Berry Paste, Goat Roast, Pumpkin Soup"
+      },
+      {
+        "week": "Week 2",
+        "tables": [
+          [
+            "Dietrich",
+            "Io",
+            "Catania"
+          ],
+          [
+            "Dietrich",
+            "Esmeralda",
+            "Mikaela"
+          ],
+          [
+            "Dietrich",
+            "Fabio",
+            "Yang Jie"
+          ]
+        ],
+        "note": "Army bonds. Io not at Support 2 yet: keep week 1's tables. Dishes: Coffee-Berry Paste, Pumpkin Soup, Honey-Poached Pear"
+      }
+    ],
+    "gifts": [
+      {
+        "unit": "Io",
+        "gift": "Any gift (first gift), then Kitten Figurine",
+        "where": "Gifts tab, then Market Vendor, Midtown Arcade",
+        "cost": "100G",
+        "until": "Support 2 (give his first)"
+      },
+      {
+        "unit": "Catania",
+        "gift": "Any gift (first gift), or a Kitten Figurine",
+        "where": "Gifts tab or Market Vendor, Midtown Arcade",
+        "cost": "100G"
+      },
+      {
+        "unit": "Esmeralda",
+        "gift": "Kitten Figurine",
+        "where": "Market Vendor, Midtown Arcade",
+        "cost": "100G"
+      },
+      {
+        "unit": "Fabio",
+        "gift": "Southern Ghosh (Gifts of the Marketplace reward)",
+        "where": "Subquest reward",
+        "cost": "free"
+      },
+      {
+        "unit": "Mikaela",
+        "gift": "Any gift from your bag, or a Kitten Figurine",
+        "where": "Gifts tab or Market Vendor, Midtown Arcade",
+        "cost": "100G"
+      },
+      {
+        "unit": "Yang Jie",
+        "gift": "Any gift from your bag, or a Kitten Figurine",
+        "where": "Gifts tab or Market Vendor, Midtown Arcade",
+        "cost": "100G"
+      }
+    ],
+    "weekly": [
+      {
+        "text": "First gifts only unlock meals: use bag gifts or 100G Kitten Figurines, not good gifts",
+        "detail": [
+          "Lowtown (27G pastries) opens in Ch 5 on this route, so the Midtown Arcade's Market Vendor is the cheap shop now.",
+          "Yellow orbs and glowing spots drop gifts: check the Gifts tab of your inventory first.",
+          "Order: Io first, then Catania, Esmeralda, Fabio, Mikaela, Yang Jie."
+        ]
+      }
+    ]
+  },
+  "missables": [
+    {
+      "id": "dietrich-ch04-missables-esmeralda-inn",
+      "kind": "scene",
+      "text": "Watch Esmeralda's optional scene at the Inn",
+      "where": "Dagsion Inn",
+      "lose": "The scene",
+      "recover": "None",
+      "task": true
+    },
+    {
+      "id": "dietrich-ch04-missables-mikaela-scenes",
+      "kind": "scene",
+      "text": "Watch Mikaela and Esmeralda by the Arena, then Mikaela and Mu in the shopping area",
+      "where": "Arena Plaza, then the shopping area",
+      "lose": "Both optional scenes",
+      "recover": "None",
+      "task": true
+    },
+    {
+      "id": "dietrich-ch04-missables-talimun-marker",
+      "kind": "scene",
+      "text": "Watch Talimun's scene at the pulsing map marker: you need his Paralogue in Ch 9 (Ursula)",
+      "where": "Pulsing marker on the Dagsion map",
+      "lose": "The scene",
+      "recover": "None",
+      "task": true
+    }
+  ],
+  "classes": {
+    "note": {
+      "text": "No exams yet: Renown is 1 to 2, and the class tutorial (Beginner Licenses) comes in Ch 5"
+    }
+  },
+  "gear": {
+    "assign": [
+      {
+        "item": "Zanbato",
+        "to": "Dietrich",
+        "why": "Effective vs cavalry; from this chapter's battle"
+      },
+      {
+        "item": "Iron Shield",
+        "to": "Esmeralda",
+        "why": "Her shield; from this chapter's battle"
+      }
+    ]
+  },
+  "recruits": [],
+  "quests": {
+    "route": [],
+    "sub": [
+      {
+        "group": "One trip around Dagsion: 10 Renown each",
+        "quest": "welcome-to-the-item-shop"
+      },
+      {
+        "group": "One trip around Dagsion: 10 Renown each",
+        "quest": "swing-by-the-armory"
+      },
+      {
+        "group": "One trip around Dagsion: 10 Renown each",
+        "quest": "awaiting-you-at-the-inn"
+      },
+      {
+        "group": "One trip around Dagsion: 10 Renown each",
+        "quest": "find-fellowship-at-the-temples"
+      },
+      {
+        "group": "One trip around Dagsion: 10 Renown each",
+        "quest": "gifts-of-the-marketplace",
+        "note": "Its Southern Ghosh is a free first gift for Fabio, Yang Jie or Mikaela (they like ghosh)"
+      },
+      {
+        "group": "Board quests: 30 Renown each",
+        "quest": "knowing-more-about-him",
+        "note": "Just a conversation: turn it in this chapter"
+      },
+      {
+        "group": "Board quests: 30 Renown each",
+        "quest": "searching-for-smithing-stones",
+        "note": "Mine the 3 stones while you level in [[place:Niraga Mine]]"
+      },
+      {
+        "group": "Board quests: 30 Renown each",
+        "quest": "stolen-knowledge",
+        "offered": "if-offered",
+        "note": "Now, or first thing in Ch 5",
+        "detail": [
+          "Semi-random: no quest bubble on Kinkara in City Streets means it isn't in your run. Skip it."
+        ]
+      },
+      {
+        "group": "Board quests: 30 Renown each",
+        "quest": "valeris-eight-fangs",
+        "note": "Ch 4 or early Ch 5"
+      },
+      {
+        "group": "Board quests: 30 Renown each",
+        "quest": "granadas-thieves",
+        "note": "Ch 4 or early Ch 5"
+      },
+      {
+        "group": "Probably gone: dated before this free time",
+        "quest": "stolen-viewership",
+        "offered": "if-offered",
+        "note": "Due before Ch 4 opens (3/27): only if it is still on the board",
+        "skip": true
+      },
+      {
+        "group": "Probably gone: dated before this free time",
+        "quest": "the-fabled-insect-pearl",
+        "offered": "if-offered",
+        "note": "Due before Ch 4 opens (3/7): only if still on the board. Starts a three-part chain worth 23,000G",
+        "skip": true
+      }
+    ],
+    "paralogue": []
+  },
+  "explore": [
+    {
+      "text": "Visit the Shrine of Causality: at 500 Karma Shards buy Increase EXP +10%, the best first Boon"
+    },
+    {
+      "text": "Talk once to every orange-marker NPC in Dagsion: you can teleport to them later"
+    },
+    {
+      "group": "Dungeons, in level order: break everything for materials",
+      "id": "dietrich-ch04-explore-niraga-mine",
+      "loot": true,
+      "text": "[[place:Niraga Mine]] (Lv 5): White-Magic Manual for Yang Jie, Smithing Stones for the board quest"
+    },
+    {
+      "group": "Dungeons, in level order: break everything for materials",
+      "id": "dietrich-ch04-explore-collapsed-fort",
+      "loot": true,
+      "text": "[[place:Collapsed Fort]] (Lv 6): Black-Magic Manual for Fabio",
+      "detail": [
+        "Also a Bowbreak Amulet."
+      ]
+    },
+    {
+      "group": "Dungeons, in level order: break everything for materials",
+      "id": "dietrich-ch04-explore-heretics-cave",
+      "loot": true,
+      "text": "[[place:Heretics' Cave]] (Lv 7): Dew of Protection and a Vulnerary, if you didn't loot them in Ch 3"
+    },
+    {
+      "group": "Dungeons, in level order: break everything for materials",
+      "id": "dietrich-ch04-explore-galen-fort-ruins",
+      "loot": true,
+      "text": "[[place:Galen Fort Ruins]] (Lv 8): Wooden Shield, Vulnerary, Hunter's Bow"
+    }
+  ],
+  "battle": {
+    "title": "Qualifier vs. Thundercloud Knights",
+    "objective": "Defeat Benditz",
+    "lose": "Dietrich, Cai or Anatolia falls",
+    "guests": [
+      "Cai",
+      "Anatolia",
+      "Sha Lan",
+      "Tialla"
+    ],
+    "tips": [
+      {
+        "text": "Let Sha Lan, Tialla and Anatolia heal; Anatolia and Sha Lan's Salamanders hit the armored units"
+      },
+      {
+        "text": "Split into a clockwise team and a counter-clockwise team"
+      },
+      {
+        "text": "Topple pillars to block the chariots, and use Fabio on the armor"
+      }
+    ],
+    "loot": [
+      {
+        "text": "Open the southeast chest for the [[item:Zanbato]] and the northwest one for the [[item:Iron Shield]]"
+      }
+    ]
+  },
+  "exitExtra": [
+    {
+      "text": "Turn in the five 10-Renown welcome quests and Knowing More About Him before Ch 5"
+    }
+  ]
+}

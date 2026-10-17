@@ -1,0 +1,1035 @@
+{
+  "name": "Leda",
+  "slug": "leda",
+  "epithet": "Rose of Caelus",
+  "faction": "Rose Tempest",
+  "homeRoute": "Leda",
+  "isLord": true,
+  "weapons": [
+    "Bow",
+    "Sword",
+    "White Magic",
+    "Vihuela (Obsidian)"
+  ],
+  "preferred": [
+    "Bow",
+    "White Magic",
+    "Infantry",
+    "Sword"
+  ],
+  "avoid": [
+    "Spear"
+  ],
+  "personality": "Charismatic musician, by turns cunning, flirtatious, warm-hearted, or ruthless.",
+  "story": "A musician of House Cohendia whose father Guillermo, viceroy of Cydonia in Arago, died in 1444; she fled with Buccar and hid in Ortill for years. She joins the Heroic Games to take revenge on those responsible, then realizes how destructive vengeance is and travels in search of a new purpose. She earned the title Rose of Caelus at 13 by defeating Olympia at the Festival of Roses.",
+  "personalSkill": {
+    "name": "Blindside",
+    "effect": "If unit attacks first, foe cannot counter during combat (5% trigger)."
+  },
+  "growths": {
+    "HP": 40,
+    "Str": 35,
+    "Mag": 35,
+    "Spd": 65,
+    "Dex": 50,
+    "Def": 30,
+    "Res": 35,
+    "Lck": 25,
+    "Cha": 55
+  },
+  "supports": [
+    "Aswan",
+    "Buccar",
+    "Cai",
+    "Dante",
+    "Dietrich",
+    "Eshmel",
+    "Esmeralda",
+    "Guzran",
+    "Jester",
+    "Mu",
+    "Olympia",
+    "Orchel",
+    "Sirocco",
+    "Talimun",
+    "Theodora"
+  ],
+  "tierNotes": "KeenGamer: fastest lord; her route gives the best free roster. Games with James: S tier (character).",
+  "requirements": {
+    "Cai": "—",
+    "Dietrich": "—",
+    "Theodora": "—",
+    "Leda": "Auto"
+  },
+  "build": {
+    "role": "Dancer",
+    "path": [
+      "Hunter",
+      "Rogue",
+      "Dancer",
+      "The Apsara"
+    ],
+    "part1Target": "Dancer",
+    "part3Target": "The Apsara",
+    "notes": "Hunter (automatic, Ch 5), Rogue (Ch 6 to 8, In Shadow), Dancer from Ch 9 with the Necklace. The Arena Infantry course lands Bow B and Sword B; Dancer trains Sword +3 a fight toward The Apsara's Sword A. No side trips: Dance is worth more than any mastery.",
+    "confidence": "medium"
+  },
+  "guide": {
+    "role": "Lord and Dancer: a second action for the best attacker every turn",
+    "summary": "The army's engine. From Ch 9 she dances Sirocco, Guzran or Inyoni for a second action, or sings Song of Passion+ over 3 or more attackers; before that she fights at range 2 with bows. Dance from one tile behind the target and end outside the danger line: she is the defeat condition.",
+    "playstyle": "Each turn is a Dance or a Song, never both. Sing Passion+ when 3+ attackers fit in her 2-tile ring, Icewater+ before an enemy phase the tanks can't dodge; otherwise dance the unit that can kill again. With nobody to dance, poke with Toxic Wind or the Wooden Bow +5 from range 2.",
+    "focus": [
+      "Spd",
+      "HP",
+      "Res"
+    ],
+    "keys": [
+      "Seat Leda in Arena Infantry Training every week from Ch 5: Bow B and Sword B by Ch 9",
+      "Stay Rogue Ch 6 to 8 (Mov 6, In Shadow); no side trip, the Arena covers both ranks",
+      "Deliver Hingosh to Baina Oasis on the first Ch 9 trip: Dancer's Necklace, no exam",
+      "Dance Sirocco, then Guzran, then Inyoni; Esmeralda after a Hammer kill on armor maps",
+      "Hand the Mini Bow and Archer's Ring to Inyoni the day she joins (Ch 10 week 1)",
+      "Do Captain's and Popular Drink Recipes in Ch 9: Icewater+ and Passion+ (+7)"
+    ],
+    "watch": [
+      "Defeat condition: every Part I and Part II map is lost if Leda falls",
+      "Blaze Gauge: each Song +2 (Madness +3, Angels +4); a full gauge is Burst for the map. Count first",
+      "Curse: the Iron Fan adds 1 to the gauge per combat?, on top of Songs. Bow only near a full gauge",
+      "Underworld Madness: gauge 6 and Overblaze locked (no Improviso). Burst from Fan combats after it: ? (test once)",
+      "Weight: Cleansing Blade +2 3 + Gale Ring 2 = 5 on enemy phase; bow turns 6 + 2 = 8. Ring off first if doubled",
+      "HP: 55 growth and Def 30 as a Dancer. End every dance outside the danger line (ZL)",
+      "One holder: Dancer stays on Leda until The Apsara frees it in Part III"
+    ],
+    "stages": [
+      {
+        "when": "Ch 1 to 4 · start class unknown",
+        "from": {
+          "part": 1,
+          "ch": 1
+        },
+        "to": {
+          "part": 1,
+          "ch": 4
+        },
+        "level": "Lv 1 to 5",
+        "class": "",
+        "kind": "core",
+        "goal": "Survive the story maps. Turn 1: sing Song of Passion (Str/Mag +4) over Sirocco and Mu, then attack.",
+        "exit": "Ch 5 makes her a Hunter automatically.",
+        "masteries": [],
+        "weapons": [
+          {
+            "item": "Lakshashi's Iron Fan",
+            "why": "Toxic Wind at 1-2: melee foes can't answer"
+          }
+        ],
+        "equipment": [
+          {
+            "item": "Archer's Ring",
+            "why": "Hit +5, Wt 3",
+            "slot": "Accessory"
+          }
+        ],
+        "items": [
+          {
+            "item": "Vulnerary",
+            "why": "Heals 20: she is the defeat condition"
+          }
+        ],
+        "arts": [
+          {
+            "name": "Toxic Wind",
+            "why": "Iron Fan art: magic hit at 1-2 that poisons; trains Sword"
+          }
+        ],
+        "tips": [
+          "Blindside (5%): when she attacks first, the foe sometimes can't counter. A bonus, not a plan",
+          "Ch 4 Tavern: Dance at the Tavern gives Song of Icewater (Def/Res +4); Simple Drink Recipes gives Song of Madness",
+          "Open every chest on her early maps and quests: one holds a Mini Bow",
+          "Song of Abjuring arrives at Lv 10: it is the army's undead answer in Ch 11 and Part III",
+          "No Arena before Ch 5 and starting ranks are undocumented: equip the D abilities the menu shows, in this order",
+          "Iron Fan is cursed (Curse 1): each Fan combat adds 1 to her Blaze Gauge?, on top of the Songs; vs undead it can deal 0, so leave them to others"
+        ],
+        "abilities": [
+          {
+            "name": "Swords Lv. 1",
+            "why": "Sword D+? from Fan fights: Hit +3 with the Fan"
+          },
+          {
+            "name": "Evasion",
+            "why": "Infantry D?: Avo +100 when attacked, 3%"
+          },
+          {
+            "name": "Crit Defense",
+            "why": "Heavy D?: half damage from a crit, 30%: lord insurance"
+          },
+          {
+            "name": "Read the Winds",
+            "why": "Flying D?: Avo +10 vs bows"
+          },
+          {
+            "name": "Knightly Senses",
+            "why": "Riding D?: Avo +10 vs spears"
+          }
+        ]
+      },
+      {
+        "when": "Ch 5",
+        "from": {
+          "part": 1,
+          "ch": 5
+        },
+        "to": {
+          "part": 1,
+          "ch": 5
+        },
+        "level": "Lv 5 to 20",
+        "class": "Hunter",
+        "kind": "core",
+        "goal": "Automatic Hunter: raise Bow C and Sword C for Rogue. Shoot first from range 2, where melee foes can't reply.",
+        "exit": "Leave at Lv 20 once Renown 4 opens Rogue (Ch 6) with Bow C and Sword C.",
+        "masteries": [
+          "Hunting Basics"
+        ],
+        "weapons": [
+          {
+            "item": "Mini Bow",
+            "why": "Bow at range 1-2: she counters adjacent foes",
+            "alts": [
+              "Iron Bow"
+            ],
+            "plan": "Chest in one of Leda's first quests (Ch 3?)"
+          },
+          {
+            "item": "Iron Bow",
+            "why": "Main bow until the Wooden Bow +5 (Ch 6)"
+          },
+          {
+            "item": "Lakshashi's Iron Fan",
+            "why": "Sword-type: Toxic Wind fights raise Sword"
+          }
+        ],
+        "equipment": [
+          {
+            "item": "Archer's Ring",
+            "why": "Hit +5, Wt 3",
+            "slot": "Accessory"
+          }
+        ],
+        "items": [
+          {
+            "item": "Concoction",
+            "why": "Heals 40: she is the defeat condition",
+            "alts": [
+              "Vulnerary"
+            ]
+          }
+        ],
+        "arts": [
+          {
+            "name": "Curved Shot",
+            "why": "Bow D: range 2-3, Hit +10"
+          },
+          {
+            "name": "Wrath Strike",
+            "why": "Sword D: Hit +10"
+          },
+          {
+            "name": "Toxic Wind",
+            "why": "Iron Fan art: magic hit at 1-2 that poisons; trains Sword"
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Hunting Basics",
+            "why": "Hunter mastery: Dex/Spd +1 (once mastered)"
+          },
+          {
+            "name": "Bows Lv. 1",
+            "why": "Bow rank ability (D+): Hit +3 with bows"
+          },
+          {
+            "name": "Swords Lv. 1",
+            "why": "Sword rank ability (D+): Hit +3 with swords"
+          },
+          {
+            "name": "Evasion",
+            "why": "Infantry D (Infantry course): Avo +100 when attacked, 3%"
+          },
+          {
+            "name": "Read the Winds",
+            "why": "Flying D (one Mounted week?): Avo +10 vs bows"
+          }
+        ],
+        "training": [
+          {
+            "rank": "Bow C",
+            "for": "Rogue (Ch 6)",
+            "how": "Arena Infantry Training (Sword, Bow, Infantry) every week"
+          },
+          {
+            "rank": "Sword C",
+            "for": "Rogue (Ch 6)",
+            "how": "Same Infantry session; Iron Fan pokes in easy fights"
+          },
+          {
+            "rank": "Infantry D",
+            "for": "Evasion now; Dodge at C, Dodge+ at B",
+            "how": "Same Infantry session: it trains Infantry too"
+          },
+          {
+            "rank": "Flying D, Riding D",
+            "for": "Read the Winds, Knightly Senses (Avo +10 vs bows / spears)",
+            "how": "1–2 Arena Mounted weeks? on the free seat beside Catania (Ch 5–9)"
+          }
+        ],
+        "tips": [
+          "Clear the 5/28 Perform batch now (Yaaman, Regia, Daimon): a Wooden Bow in Yaaman (300G) for Leda, Guzran's Killing Edge in Regia, Mu's Wooden Gauntlets in Daimon",
+          "Infantry Training raises Sword and Bow together: one seat a week covers both Dancer ranks",
+          "Iron Fan is cursed (Curse 1): each Fan combat adds 1 to her Blaze Gauge?, on top of the Songs. Undead: a bow in hand, never the Fan (Offset Curse can zero a cursed hit)"
+        ]
+      },
+      {
+        "when": "Ch 6 to 8",
+        "from": {
+          "part": 1,
+          "ch": 6
+        },
+        "to": {
+          "part": 1,
+          "ch": 8
+        },
+        "level": "Lv 20 to 30",
+        "class": "Rogue",
+        "kind": "core",
+        "goal": "Mov 6 and Spd 80 growth; master In Shadow. Blindside needs her to attack first.",
+        "exit": "Leave in Ch 9 with Bow B, Sword B and the Dancer's Necklace in hand.",
+        "masteries": [
+          "In Shadow"
+        ],
+        "weapons": [
+          {
+            "item": "Wooden Bow +5",
+            "why": "Mt ? (big jump at +5), Hit 75, Wt 4: lightest bow; common ores",
+            "alts": [
+              "Iron Bow"
+            ],
+            "plan": "Refine at the Blacksmith (Ch 6)"
+          },
+          {
+            "item": "Mini Bow",
+            "why": "Range-1 counters; goes to Inyoni in Ch 10",
+            "plan": "Chest in one of Leda's first quests (Ch 3?)"
+          },
+          {
+            "item": "Lakshashi's Iron Fan +2",
+            "why": "Rare-ore refine (route ledger): Mt ?, Toxic Wind poke at 1-2"
+          }
+        ],
+        "equipment": [
+          {
+            "item": "Archer's Ring",
+            "why": "Hit +5, Wt 3",
+            "slot": "Accessory"
+          }
+        ],
+        "items": [
+          {
+            "item": "Concoction",
+            "why": "Heals 40: she is the defeat condition",
+            "alts": [
+              "Vulnerary"
+            ]
+          },
+          {
+            "item": "Dew of Protection",
+            "why": "Half damage until her next phase",
+            "alts": [
+              "Concoction"
+            ],
+            "situational": "A turn she must end inside enemy range (Ch 8's long-range shot): open slot"
+          }
+        ],
+        "arts": [
+          {
+            "name": "Surprise Shot",
+            "why": "Bow C: Atk +5 on full-HP foes (30%)"
+          },
+          {
+            "name": "Curved Shot",
+            "why": "Bow D: range 2-3, Hit +10"
+          },
+          {
+            "name": "Destreza",
+            "why": "Sword C: Atk +5, Crit +10 on foes at 50% HP or less"
+          },
+          {
+            "name": "Toxic Wind",
+            "why": "Iron Fan art: magic hit at 1-2 that poisons; trains Sword"
+          }
+        ],
+        "abilities": [
+          {
+            "name": "In Shadow",
+            "why": "Rogue mastery: Avo +10 after a kill, through her next combat (once mastered)"
+          },
+          {
+            "name": "Hunting Basics",
+            "why": "Hunter mastery: Dex/Spd +1"
+          },
+          {
+            "name": "Bows Lv. 2",
+            "why": "Bow rank ability (C+): Hit +5 with bows"
+          },
+          {
+            "name": "Dodge",
+            "why": "Infantry C (Infantry course): Avo +5 vs bows and magic"
+          },
+          {
+            "name": "Read the Winds",
+            "why": "Flying D: Avo +10 vs bows"
+          }
+        ],
+        "training": [
+          {
+            "rank": "Bow B",
+            "for": "Dancer (Ch 9)",
+            "how": "Arena Infantry Training every week (Lv 3 from Renown 7)"
+          },
+          {
+            "rank": "Sword B",
+            "for": "Dancer (Ch 9)",
+            "how": "Same Infantry session; Iron Fan fights"
+          },
+          {
+            "rank": "Infantry B",
+            "for": "Dodge (C) now, Dodge+ (B) for Ch 9",
+            "how": "Same Infantry session"
+          }
+        ],
+        "checks": [
+          {
+            "stat": "Spd",
+            "at": "Ch 7 prep",
+            "need": "Forecast shows x2 on most Ch 7 foes with the Wooden Bow +5 (Wt 4)",
+            "why": "She earns her Dancer levels here; doubled shots end fights before replies",
+            "fix": [
+              "Take off the Archer's Ring (Wt 3) first",
+              "Keep Hunting Basics (Dex/Spd +1) equipped",
+              "Shoot from range 2 only: no reply, no risk"
+            ]
+          }
+        ],
+        "drop": [
+          {
+            "item": "Iron Bow",
+            "why": "Wooden Bow +5 out-hits it at Wt 4 from Ch 6"
+          },
+          {
+            "item": "Wrath Strike",
+            "why": "Destreza covers her sword hits"
+          },
+          {
+            "item": "Swords Lv. 1",
+            "why": "She shoots bows in Ch 6 to 8"
+          },
+          {
+            "item": "Evasion",
+            "why": "Dodge: Avo +5 vs bows and magic in every combat"
+          },
+          {
+            "item": "Tempest Bow",
+            "why": "Skip it: Wooden Bow +5 out-hits Mt 9 at 1 less Wt (Avo +3 only)"
+          }
+        ],
+        "tips": [
+          "Rogue has Locktouch and Search: open locked chests and search tiles",
+          "Song of Beasts unlocks in Ch 8 (once per map, gauge 6 needed)",
+          "Ch 8 guests (Cai, Talimun) take slots: Leda still deploys, she is the lord",
+          "Count Fan combats with the Songs: Curse 1 adds 1 to her gauge each? Undead: bow in hand"
+        ]
+      },
+      {
+        "when": "Ch 9 to 12",
+        "from": {
+          "part": 1,
+          "ch": 9
+        },
+        "to": {
+          "part": 1,
+          "ch": 12
+        },
+        "level": "Lv 30 to 38",
+        "class": "Dancer",
+        "kind": "core",
+        "goal": "Dance every turn and master Special Dance before Part II. Order: Sirocco, Guzran, Inyoni; Esmeralda on armor.",
+        "exit": "Stay Dancer through Part II; the Muses' Necklace waits for Part III.",
+        "why": [
+          "Dancer's Necklace: Great Dancer's Successor (Hingosh from Baina Oasis, 1,500G). No exam, no License",
+          "Spd 90 and HP 55 growth on her",
+          "Improviso (Lv 35): after a Song in Overblaze she also shoots, so keep the Wooden Bow in hand"
+        ],
+        "masteries": [
+          "Special Dance"
+        ],
+        "weapons": [
+          {
+            "item": "Wooden Bow +5",
+            "why": "Range-2 shots and Improviso shots after a Song; Mt ?, Wt 4"
+          },
+          {
+            "item": "Lakshashi's Iron Fan +2",
+            "why": "Toxic Wind pokes train Sword +3 toward A"
+          }
+        ],
+        "equipment": [],
+        "items": [
+          {
+            "item": "Elixir",
+            "why": "Heals 100: the defeat condition carries one",
+            "alts": [
+              "Concoction"
+            ]
+          },
+          {
+            "item": "Dew of Protection",
+            "why": "Half damage until her next phase",
+            "alts": [
+              "Concoction"
+            ],
+            "situational": "A turn she must end inside enemy range: open slot"
+          }
+        ],
+        "arts": [
+          {
+            "name": "Dance",
+            "why": "Dancer class art: an ally acts again"
+          },
+          {
+            "name": "Gale Blow",
+            "why": "Sword B: Atk +5 at Spd/2 %, so it fires often for her"
+          },
+          {
+            "name": "Destreza",
+            "why": "Sword C: Atk +5, Crit +10 on foes at 50% HP or less"
+          },
+          {
+            "name": "Surprise Shot",
+            "why": "Bow C: Atk +5 on full-HP foes (30%)"
+          },
+          {
+            "name": "Curved Shot",
+            "why": "Bow D: range 2-3, Hit +10"
+          },
+          {
+            "name": "Toxic Wind",
+            "why": "Iron Fan art: magic hit at 1-2 that poisons; trains Sword"
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Special Dance",
+            "why": "Dancer mastery: the dance target gets Dex/Spd +3 (once mastered)"
+          },
+          {
+            "name": "Improviso",
+            "why": "Personal Lv 35: she can attack after a Blaze Art in Overblaze. In Shadow holds the slot until Lv 35"
+          },
+          {
+            "name": "Dodge+",
+            "why": "Infantry B (Arena): Avo +10 vs bows and magic"
+          },
+          {
+            "name": "Read the Winds",
+            "why": "Flying D: Avo +10 vs bows on the defeat condition"
+          },
+          {
+            "name": "Hunting Basics",
+            "why": "Hunter mastery: Dex/Spd +1"
+          }
+        ],
+        "training": [
+          {
+            "rank": "Sword A",
+            "for": "The Apsara (Part III; also Bow C)",
+            "how": "Dancer fights train Sword +3: poke with the Iron Fan. Arena seats bench first"
+          }
+        ],
+        "checks": [
+          {
+            "stat": "HP",
+            "at": "Ch 10 prep",
+            "need": "Forecast: one hit from any Ch 10 foe leaves her above half HP",
+            "why": "Defeat condition, and a dance puts her one tile behind the front",
+            "fix": [
+              "End every dance outside the danger line (ZL)",
+              "Song of Icewater+ (Def/Res +7) on turns she can't hide",
+              "Dew of Protection (half damage) for one turn in range"
+            ]
+          }
+        ],
+        "drop": [
+          {
+            "item": "Mini Bow",
+            "why": "To Inyoni the day she joins (Ch 10 week 1)"
+          },
+          {
+            "item": "Archer's Ring",
+            "why": "To Inyoni with the Mini Bow: her Dex fix"
+          },
+          {
+            "item": "Concoction",
+            "why": "The Elixir replaces it before Part II"
+          },
+          {
+            "item": "Bows Lv. 2",
+            "why": "A dancer rarely shoots; Avo vs bows keeps the lord up"
+          },
+          {
+            "item": "Dodge",
+            "why": "Dodge+ replaces it at Infantry B"
+          }
+        ],
+        "tips": [
+          "Ch 9 Port of Pandora trip: Captain's and Popular Drink Recipes (Pepper and Bitter Leaves) for Icewater+ and Passion+ (+7)",
+          "Dance from one tile behind the target so she stays out of reach; dance Esmeralda after a Hammer kill on armored maps",
+          "Ch 11: Song of Abjuring makes her ring effective vs undead; Song of Icewater+ on the Acid turn",
+          "Song of Angels (Elegant Drink Recipes, Renown 10): once per map, every adjacent ally acts again. Save it for the Ch 12 boss turn",
+          "Ch 11 is undead: Wooden Bow in hand, never the Fan (Offset Curse can zero a cursed hit)"
+        ]
+      },
+      {
+        "when": "Part II",
+        "from": {
+          "part": 2,
+          "ch": 1
+        },
+        "to": {
+          "part": 2,
+          "ch": 6
+        },
+        "level": "Lv 38 to 42",
+        "class": "Dancer",
+        "kind": "core",
+        "goal": "Keep dancing. Improviso: after a Song in Overblaze she also shoots, so sing, then fire the Wooden Bow.",
+        "exit": "Stay Dancer into Part III.",
+        "masteries": [],
+        "weapons": [
+          {
+            "item": "Wooden Bow +5",
+            "why": "Her bow for Improviso shots; held at 11/27"
+          },
+          {
+            "item": "Lakshashi's Iron Fan +2",
+            "why": "Toxic Wind chip; Sword rank for The Apsara"
+          }
+        ],
+        "equipment": [],
+        "items": [
+          {
+            "item": "Elixir",
+            "why": "Heals 100: the defeat condition carries one",
+            "alts": [
+              "Concoction"
+            ],
+            "plan": "Stocked before 11/27 (no Part II shops)"
+          },
+          {
+            "item": "Concoction",
+            "why": "Heals 40; stocked before 11/27",
+            "plan": "Stocked before 11/27 (no Part II shops)"
+          }
+        ],
+        "arts": [
+          {
+            "name": "Dance",
+            "why": "Dancer class art: an ally acts again"
+          },
+          {
+            "name": "Gale Blow",
+            "why": "Sword B: Atk +5 at Spd/2 %, so it fires often for her"
+          },
+          {
+            "name": "Destreza",
+            "why": "Sword C: Atk +5, Crit +10 on foes at 50% HP or less"
+          },
+          {
+            "name": "Surprise Shot",
+            "why": "Bow C: Atk +5 on full-HP foes (30%)"
+          },
+          {
+            "name": "Curved Shot",
+            "why": "Bow D: range 2-3, Hit +10"
+          },
+          {
+            "name": "Toxic Wind",
+            "why": "Iron Fan art: magic hit at 1-2 that poisons; trains Sword"
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Improviso",
+            "why": "Personal Lv 35: she can attack after a Blaze Art in Overblaze"
+          },
+          {
+            "name": "Special Dance",
+            "why": "Dancer mastery: the dance target gets Dex/Spd +3"
+          },
+          {
+            "name": "Dodge+",
+            "why": "Infantry B: Avo +10 vs bows and magic"
+          },
+          {
+            "name": "Read the Winds",
+            "why": "Flying D: Avo +10 vs bows"
+          },
+          {
+            "name": "Hunting Basics",
+            "why": "Hunter mastery: Dex/Spd +1"
+          }
+        ],
+        "training": [
+          {
+            "rank": "Sword A",
+            "for": "The Apsara (Part III)",
+            "how": "Dancer fights (Sword +3); Part II has no Arena"
+          }
+        ],
+        "tips": [
+          "Every Part II map is lost if Leda falls: she stays behind the tanks and dances",
+          "Ch 6 Part 2: Leda must reach the exit. Send her down the west edge with the strongest units; Aurora's Blessing helps",
+          "The Ch 5 Deadeye (Longbow) belongs to Halvin, with Inyoni as backup, not to her",
+          "Ch 4: she is one of the 3–4 bows with Inyoni and Halvin; shoot from range 2",
+          "Ch 6 Part 1: chip Lyrah's shields with the bow, then dance a big hitter onto the cocoon"
+        ]
+      },
+      {
+        "when": "Part III, Sections 1 to 3",
+        "from": {
+          "part": 3,
+          "ch": 1
+        },
+        "to": {
+          "part": 3,
+          "ch": 3
+        },
+        "level": "Lv 42 to 45+",
+        "class": "Dancer",
+        "kind": "core",
+        "goal": "Dance and sing for C. Eshmel is the lose condition now, so she can work closer. Abjuring answers the Boon.",
+        "exit": "The Apsara once you hold the Muses' Necklace with Bow C and Sword A (Section 4+).",
+        "masteries": [],
+        "weapons": [
+          {
+            "item": "Cleansing Blade +2",
+            "why": "Mt 16?, Wt 3: in hand on enemy phase; strips the Boon on her hits"
+          },
+          {
+            "item": "Da Mina Bow +2",
+            "why": "Mt 20?, Hit +10 on arts, Wt 6: Improviso and Curved Shot at range 2-3"
+          },
+          {
+            "item": "Lakshashi's Iron Fan +2",
+            "why": "Toxic Wind at 1-2 (magic, poison); cursed, so never on undead"
+          }
+        ],
+        "equipment": [
+          {
+            "item": "Gale Ring",
+            "why": "Spd +3 at Wt 2: she ends turns in reach, so she must not be doubled",
+            "slot": "Accessory",
+            "alts": [
+              "Phantom Ring",
+              "Goddess Ring"
+            ]
+          }
+        ],
+        "items": [
+          {
+            "item": "Elixir",
+            "why": "Heals 100: the defeat condition carries one",
+            "alts": [
+              "Concoction"
+            ]
+          }
+        ],
+        "arts": [
+          {
+            "name": "Dance",
+            "why": "Dancer class art: an ally acts again"
+          },
+          {
+            "name": "Gale Blow",
+            "why": "Sword B: Atk +5 at Spd/2 %, so it fires often for her"
+          },
+          {
+            "name": "Destreza",
+            "why": "Sword C: Atk +5, Crit +10 on foes at 50% HP or less"
+          },
+          {
+            "name": "Surprise Shot",
+            "why": "Bow C: Atk +5 on full-HP foes (30%)"
+          },
+          {
+            "name": "Curved Shot",
+            "why": "Bow D: range 2-3, Hit +10"
+          },
+          {
+            "name": "Toxic Wind",
+            "why": "Iron Fan art: magic hit at 1-2 that poisons; trains Sword"
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Improviso",
+            "why": "Personal Lv 35: she can attack after a Blaze Art in Overblaze"
+          },
+          {
+            "name": "Special Dance",
+            "why": "Dancer mastery: the dance target gets Dex/Spd +3"
+          },
+          {
+            "name": "Dodge+",
+            "why": "Infantry B: Avo +10 vs bows and magic"
+          },
+          {
+            "name": "Read the Winds",
+            "why": "Flying D: Avo +10 vs bows"
+          },
+          {
+            "name": "Hunting Basics",
+            "why": "Hunter mastery: Dex/Spd +1"
+          }
+        ],
+        "training": [
+          {
+            "rank": "Sword A",
+            "for": "The Apsara",
+            "how": "Dancer fights (Sword +3); Arena seats bench first"
+          }
+        ],
+        "tips": [
+          "Section 2 (squad B): sing Abjuring at Rescue Centurio so all six hit the Giants effective",
+          "Section 3 (squad C): dance Guzran, then Inyoni, then Esmeralda after a throw",
+          "Icewater++ (Rebuilt Villages, S2) before an enemy phase Buccar and Esmeralda wall: Def/Res +10?",
+          "Undead: Wooden Bow or Cleansing Blade in hand, never the Fan (Offset Curse can zero a cursed hit)"
+        ],
+        "drop": [
+          {
+            "item": "Wooden Bow +5",
+            "why": "Wooden +4 is Mt ~6 without Soulstone; Da Mina Bow +2 is Mt 20?"
+          },
+          {
+            "item": "Concoction",
+            "why": "Gale Ring takes the slot; the Elixir covers her"
+          }
+        ]
+      },
+      {
+        "when": "Part III, Section 4+",
+        "from": {
+          "part": 3,
+          "ch": 4
+        },
+        "level": "Lv 45+",
+        "class": "The Apsara",
+        "kind": "core",
+        "goal": "Spd +25, Cha +30 rows, Arts +3 and Dance. Passion++ (S4): Str/Mag +10 and Mov +1 to all within 2.",
+        "exit": "Final class. One holder: the Muses' Necklace frees Dancer for another unit.",
+        "why": [
+          "Muses' Necklace: Maiden's Chambers, Temple of the Diadem; needs all 5 Keys of the Diadem",
+          "Bow C, Sword A, 100% pass chance"
+        ],
+        "masteries": [
+          "Divine Dance"
+        ],
+        "weapons": [
+          {
+            "item": "Cleansing Blade +2",
+            "why": "Mt 16?, Wt 3: in hand on enemy phase; strips the Boon on her hits"
+          },
+          {
+            "item": "Da Mina Bow +2",
+            "why": "Mt 20?, Hit +10 on arts, Wt 6: Improviso and Curved Shot at range 2-3"
+          },
+          {
+            "item": "Lakshashi's Iron Fan +2",
+            "why": "Toxic Wind at 1-2 (magic, poison); cursed, so never on undead"
+          }
+        ],
+        "equipment": [
+          {
+            "item": "Gale Ring",
+            "why": "Spd +3 at Wt 2: she ends turns in reach, so she must not be doubled",
+            "slot": "Accessory",
+            "alts": [
+              "Phantom Ring",
+              "Goddess Ring"
+            ]
+          }
+        ],
+        "items": [
+          {
+            "item": "Elixir",
+            "why": "Heals 100: the defeat condition carries one",
+            "alts": [
+              "Concoction"
+            ]
+          }
+        ],
+        "arts": [
+          {
+            "name": "Dance",
+            "why": "Dancer class art: an ally acts again"
+          },
+          {
+            "name": "Gale Blow",
+            "why": "Sword B: Atk +5 at Spd/2 %, so it fires often for her"
+          },
+          {
+            "name": "Destreza",
+            "why": "Sword C: Atk +5, Crit +10 on foes at 50% HP or less"
+          },
+          {
+            "name": "Surprise Shot",
+            "why": "Bow C: Atk +5 on full-HP foes (30%)"
+          },
+          {
+            "name": "Curved Shot",
+            "why": "Bow D: range 2-3, Hit +10"
+          },
+          {
+            "name": "Toxic Wind",
+            "why": "Iron Fan art: magic hit at 1-2 that poisons; trains Sword"
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Improviso",
+            "why": "Personal Lv 35: she can attack after a Blaze Art in Overblaze"
+          },
+          {
+            "name": "Special Dance",
+            "why": "Dancer mastery: the dance target gets Dex/Spd +3"
+          },
+          {
+            "name": "Dodge+",
+            "why": "Infantry B: Avo +10 vs bows and magic"
+          },
+          {
+            "name": "Read the Winds",
+            "why": "Flying D: Avo +10 vs bows"
+          },
+          {
+            "name": "Hunting Basics",
+            "why": "Hunter mastery: Dex/Spd +1"
+          }
+        ],
+        "tips": [
+          "Balor center: Passion++ over Sirocco, Dietrich, Tobias and Guzran, then dance the one who drops the bar",
+          "Drake (S5): Passion++ Mov +1 for the rush, then dance Guzran into Drake; kill nothing on the way",
+          "S4 cities: dance Guzran, Inyoni, then Esmeralda; Icewater++ before the walls' enemy phase",
+          "Seraph Robe (S6): HP +4 before Balor. Undead: Bow or Blade in hand, never the Fan"
+        ]
+      }
+    ],
+    "alt": "Ranger (carried in from Dietrich; Spd 80, Countershot) is the fighting fallback if the Necklace is missed. Myrmidon (Sword +2 a fight) only if Sword B is still short in late Ch 8. Shadow Seeker (Bow A, Sword A) is the Part III fallback if the Muses' Necklace isn't found.",
+    "sources": [
+      "class-and-weapon-guide",
+      "growth.py",
+      "class-data",
+      "character-learnsets",
+      "weapons-and-items",
+      "combat-arts-and-abilities",
+      "walkthrough-part1-leda",
+      "part1-leda-path",
+      "hard-mode-video-notes",
+      "part2-war",
+      "part3-salvation"
+    ],
+    "routeNotes": [
+      {
+        "system": "Supports",
+        "note": "Partners here: Sirocco, Buccar, Mu, Olympia, Guzran and Esmeralda (plus Jester, filler). Once recruiting is done (Ch 11 and 12): Leda + Sirocco + Olympia, Leda + Mu + Guzran, Leda + Esmeralda + Dadao."
+      },
+      {
+        "system": "Great Dancer's Successor",
+        "note": "Dancer needs Bow B, Sword B and the Necklace (Hingosh to Baina Oasis, Ch 9; due 10/15?). No exam, no License. Arena Infantry Training from Ch 5 lands both ranks."
+      },
+      {
+        "system": "Dance vs Song",
+        "note": "Dance uses the action a Song would. Dance order: Sirocco, Guzran, Inyoni; Esmeralda after a Hammer kill on armored maps. Improviso (Lv 35) adds an attack after a Song in Overblaze, never a second Dance."
+      },
+      {
+        "system": "Drink Recipes (Leda's Songs)",
+        "note": "Four Tavern requests in order: Simple (Sweet Leaves) for Song of Madness, Captain's (Pepper Leaves) for Icewater+, Popular (Bitter Leaves) for Passion+, Elegant (Wonder Leaves, Renown 10) for Song of Angels. Pepper and Bitter Leaves: Traveler's Garden, past Port of Pandora?"
+      },
+      {
+        "system": "Perform Quests",
+        "note": "No stat check: Leda travels and performs for Renown, gold, crates and Leaves. Clear each batch before it expires (5/28, 9/1, 10/15, 11/27); the trips also buy the strikers' gear."
+      }
+    ],
+    "decisions": [
+      {
+        "topic": "Skip the Myrmidon side trip",
+        "pick": "Rogue Ch 6 to 8, then Dancer",
+        "why": "The Arena takes Sword and Bow to B, and Dancer itself trains Sword +3 toward The Apsara's A. Myrmidon's Spd +15 equals Rogue's, Ravaging Arts never gets a slot on a dancer, and she'd lose her bows.",
+        "else": "Myrmidon for a few fights only if Sword B lags in late Ch 8"
+      },
+      {
+        "topic": "Go Dancer, not Ranger",
+        "pick": "Dancer from Ch 9 to Part III",
+        "why": "Dance is the army's engine and costs no exam or License; one unit holds it. Ranger is carried in from Dietrich's run but a chapter without Dance costs more than a 50% bow counter."
+      },
+      {
+        "topic": "Sing for three, dance for one",
+        "pick": "Song when 3+ attackers fit in the ring; otherwise Dance",
+        "why": "Passion+ gives Str/Mag +7 to everyone within 2; a Dance gives one unit a whole second turn. Three swings at +7 beat one extra action; one or two don't."
+      },
+      {
+        "topic": "Hand the bows to Inyoni",
+        "pick": "Mini Bow and Archer's Ring to Inyoni",
+        "why": "Leda carries them while she trains bows; Inyoni needs range-1 counters and Hit +5 once she joins, and a dancer has no weight to spare."
+      }
+    ],
+    "gates": [
+      {
+        "route": "Leda",
+        "from": {
+          "part": 1,
+          "ch": 5
+        },
+        "by": {
+          "part": 1,
+          "ch": 9
+        },
+        "kind": "rank",
+        "text": "Leda needs Bow B and Sword B for Dancer: Arena Infantry Training weekly from Ch 5"
+      },
+      {
+        "route": "Leda",
+        "from": {
+          "part": 1,
+          "ch": 9
+        },
+        "by": {
+          "part": 1,
+          "ch": 10
+        },
+        "kind": "item",
+        "text": "Dancer's Necklace: deliver Hingosh from Baina Oasis (1,500G) by 10/15?"
+      }
+    ]
+  },
+  "sources": [
+    "https://fortunesweave.co.uk/characters/leda",
+    "https://www.keengamer.com/articles/guides/fire-emblem-fortunes-weave-tier-list-best-characters-ranked-for-every-route/",
+    "https://gameswithjames.substack.com/p/fortunes-weave-character-tierlist",
+    "https://fortunesweave.online/tools/recipe-solver/"
+  ],
+  "recruitOn": {
+    "Leda": {
+      "how": "lord"
+    }
+  }
+}

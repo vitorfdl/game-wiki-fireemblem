@@ -1,0 +1,27 @@
+{
+  "name": "Long",
+  "slug": "long",
+  "faction": "Megaira's Beacon",
+  "personalSkill": {
+    "name": null,
+    "effect": null
+  },
+  "growths": {
+    "HP": 50,
+    "Str": 45,
+    "Mag": 50,
+    "Spd": 50,
+    "Dex": 60,
+    "Def": 40,
+    "Res": 40,
+    "Lck": 30,
+    "Cha": 40
+  },
+  "joins": "Temporary guest only, not a permanent recruit. There is no fortunesweave.co.uk page (404) and no recruitment guide lists him.",
+  "build": {
+    "notes": "Guest unit; don't invest in him long-term."
+  },
+  "sources": [
+    "https://www.fortunesweavewiki.wiki/characters/Fortune-s-Weave-playable-characters"
+  ]
+}

@@ -1,0 +1,217 @@
+{
+  "partII": [
+    {
+      "text": "Pick Army Training before each of the first four Part II battles: floors Lv 34, 35, 37, 39",
+      "detail": [
+        "Anyone below a floor auto-levels to it on personal growths only: Part I levels are the real ones",
+        "Bench units arrive at their Part I level in the Specialty they earned there",
+        "Switching is free afterward, so a side trip can follow at Battle Prep (menu order unverified)"
+      ]
+    },
+    {
+      "text": "Refine every main weapon to +2 before the Ch 12 finale: Part II carries only what units hold",
+      "detail": [
+        "Parts I and II cap at +2 (Renown 10). Refines keep their level in Part III storage.",
+        "Part III Blacksmith (Free Time 1) opens every cap with Warrior's Soulstone: Wooden +9, Iron and Bronze +5, specials +3.",
+        "Soulstone targets per unit, Cleansing Blades +3 included: the Ledger's refine plan."
+      ]
+    },
+    {
+      "text": "Bench units keep the Specialty they earned in Part I; Advanced comes on Licenses at the Lv 35 floor",
+      "detail": [
+        "Brigand then [[class:Warrior]]: Simon · Armored Ornius Rider then [[class:Cataphract]]: Nydine",
+        "Rogue then [[class:Ranger]]: Nuzzuo · Noctula stays [[class:Pugilist]] (dodge bait)",
+        "Alexandra stays Wing Soldier on Bucephalus (Spd 80); she and Lysander fly the Ch 2 Ranger chase"
+      ]
+    },
+    {
+      "text": "From the Lv 35 floor everyone passes Advanced exams; spend Part II Licenses in the Ledger's order",
+      "detail": [
+        "5 Specialty and 5 Advanced a chapter, no stacking",
+        "Ch 1: Simon Warrior, Ninae Guardian, Bonaventure Bishop, plus Ultand, Loretta, Sirocco if Ch 12 missed them",
+        "Ch 2: Nydine Cataphract, Nuzzuo Ranger; then side trips where a mastery pays (Sirocco's Bishop, Ch 3)"
+      ]
+    },
+    {
+      "text": "Use spare Specialty Licenses on a skipped Part I side trip (Lysander's Archer, Lilian's Rogue)",
+      "detail": [
+        "No side trip for Tobias, Sofia, Lilian, Lysander, Noctula or Nuzzuo before his Ch 5 Sniper",
+        "Noctula stays Pugilist: Warrior needs Sword B, her bane"
+      ]
+    },
+    {
+      "text": "Ch 12 is your last shop: stock Elixirs and Concoctions, since Part II has no shops or free time",
+      "detail": [
+        "Elixirs: Theodora, Tobias, Ultand, Ninae. Everyone else carries a Concoction; Part II Ch 3 asks for plenty",
+        "Part II has no recruiting between battles either: plan Ch 10 to 12 around that"
+      ]
+    },
+    {
+      "text": "Don't hoard weapons: Part II repairs every weapon each chapter and issues Iron +3 weapons",
+      "detail": [
+        "Use Combat Arts freely in Ch 12, even if weapons break",
+        "An issued weapon may need a free slot?: units at 6/6 use up a consumable or skip it",
+        "At 6/6: check Theodora, Tobias, Lysander and Simon on their build pages"
+      ]
+    },
+    {
+      "text": "Buy a [[item:Giant's Ring]] the day the Paralogue accessory shop opens (stock changes each chapter)",
+      "detail": [
+        "The video puts the shop Paralogue in Ch 10 on every path except Leda's, without naming it",
+        "Likely Anna's Golden Secret (Ch 11 here, 9/24 to 10/5): unconfirmed"
+      ],
+      "conf": "?"
+    },
+    {
+      "text": "Bring all 15: the core 11 plus Nydine, Noctula, Simon and Nuzzuo (Part II deploys up to 15, one source)",
+      "detail": [
+        "Fortress: Theodora, Ninae, Ultand, Tobias, Bonaventure, with Sirocco and Sofia behind",
+        "Strike: Alexandra, Lysander, Loretta, Lilian. Flex: Nydine, Noctula, Simon, Nuzzuo",
+        "Battalions in Part II are not documented"
+      ]
+    },
+    {
+      "text": "Cover the video's Part II roles: 3–4 physical tanks, 1–2 Res tanks, 2 Physic healers, 2–3 fliers",
+      "detail": [
+        "Physical: Theodora, Ultand, Ninae, Tobias, Simon · Res: Theodora, Ninae, Alexandra · Archers: Lilian, Nuzzuo",
+        "1–3 long-range attackers for shields: Lilian (Longbow Deadeye), the two Ovates",
+        "Physic: Sofia, Theodora, Ninae · Fliers: Alexandra, Lysander"
+      ]
+    },
+    {
+      "text": "Healing is mandatory on Hard from Part II: keep Sofia, Theodora and Ninae on Physic duty"
+    },
+    {
+      "text": "Part II Ch 2: send Lysander after the southeast Ranger before Turn 4: his Cleansing Blade +1"
+    },
+    {
+      "text": "Blessings (video order): Aurora, then Kalla to Lv 3, Smyrnos to Lv 2, then Mars, Jurah, Credna"
+    },
+    {
+      "group": "Part II maps: who answers each",
+      "text": "Ch 2: Alexandra and Lysander fly after the southeast Ranger before Turn 4; Sirocco backs them",
+      "detail": [
+        "Lysander takes the [[item:Cleansing Blade]] +1 drop. The west Ranger runs from Turn 8 (Horsekiller Bow +1)."
+      ]
+    },
+    {
+      "group": "Part II maps: who answers each",
+      "text": "Ch 3: the Fortress holds the alleys (Theodora, Ultand, Ninae, Tobias); Sofia and Ninae cast Physic",
+      "detail": [
+        "Every unit carries a Concoction. Gilchris lights fire tiles once he crosses the main road."
+      ]
+    },
+    {
+      "group": "Part II maps: who answers each",
+      "text": "Ch 4: Lilian and Nuzzuo shoot the Dragoons, Bonaventure's Cutting Gale helps; Tobias's Triple Spike on elephants",
+      "detail": [
+        "Reinforcements pour up the bridge early: advance slowly."
+      ]
+    },
+    {
+      "group": "Part II maps: who answers each",
+      "text": "Ch 5 Dagda: Lilian hits him with [[item:Longbow]] Deadeye (0 damage); Eshmel breaks the shield",
+      "detail": [
+        "Noctula or Loretta baits the Onager and Fire Orb at max range.",
+        "Bonaventure and Sirocco hit Dagda's low Res with their [[item:Salamander]]s.",
+        "Pull the Golems off their protect tiles first."
+      ]
+    },
+    {
+      "group": "Part II maps: who answers each",
+      "text": "Ch 6 Lyrah: Lilian, Nuzzuo and the casters chip the shields; Tobias and Simon hit the cocoon",
+      "detail": [
+        "The cocoon heals on every hit: only big hits once the shields are down.",
+        "Part 2: Theodora's group runs the west edge to the exit; the upper-right group holds."
+      ]
+    },
+    {
+      "group": "Part III: answers to pack",
+      "text": "Underworld Boon: fight undead within 2 of Eshmel; Tobias, Alexandra, Lysander carry Cleansing Blades",
+      "detail": [
+        "Ultand's Seraphim is the backup; Simon buys his blade in Part III."
+      ]
+    },
+    {
+      "group": "Part III: answers to pack",
+      "text": "Offset Curse: unequip cursed gear before hitting undead; the forecast doesn't show the 0",
+      "detail": [
+        "Theodora drops Muen (or Vendetta) for [[item:Mahadu's Spear]] on undead maps."
+      ]
+    },
+    {
+      "group": "Part III: answers to pack",
+      "text": "Breza (fliers): bows, no cavalry: Lilian (Bow Hit +15) and Nuzzuo; Nydine sits"
+    },
+    {
+      "group": "Part III: answers to pack",
+      "text": "Hanno (fog) and Drake (desert): Alexandra and Lysander fly; Sirocco and Bonaventure cast",
+      "detail": [
+        "Credna's Blessing helps on Hanno. No cavalry on either map."
+      ]
+    },
+    {
+      "group": "Part III: answers to pack",
+      "text": "Baozi (Pride cuts Hit): Lilian (Bow Hit +15) and Tobias (Battleblade Strike); stay out of the miasma"
+    },
+    {
+      "group": "Part III: answers to pack",
+      "text": "Cohen & Maria (Lust): Hit and Avo drop vs higher-Cha foes: Ultand, Theodora and Alexandra (Cha 50) lead"
+    },
+    {
+      "group": "Part III: answers to pack",
+      "text": "Mahadu: spears in the forests: Theodora (Mahadu's Spear) and Lysander. Keep Klapka alive"
+    },
+    {
+      "group": "Part III: answers to pack",
+      "text": "Balor: 25 deploy, break 8 gates; Tobias and Sirocco strike with Sofia healing beside them",
+      "detail": [
+        "Lyrah first (Fear confuses): chase her west after her first defeat and finish fast."
+      ]
+    },
+    {
+      "group": "Part III: answers to pack",
+      "text": "Five Keys of the Diadem sit in Part III chests; every quest and God Request is due 6/6",
+      "detail": [
+        "Keys: Heretics' Cave, Cougar Woodlands, Sand-Shadow Fort, Enno Isle, Giant's-Print Fort.",
+        "Divine: Theodora The Trident, Tobias The Godhand, Simon The Eternal, Sirocco The Avatar, Nuzzuo The Calamity, Loretta The Blade."
+      ]
+    },
+    {
+      "group": "Part III: answers to pack",
+      "text": "Hold every cursed item at the end of Part I: the Drifting Reliquary re-sells only those",
+      "detail": [
+        "Theodora runs Muen, then Vendetta, on an Underworld Calm loop.",
+        "Orchel (Velheit, Gundogya, Anguishing Shield) and Anatolia (Ursa's Right Claw): their build pages own the kit."
+      ]
+    }
+  ],
+  "extra": [
+    {
+      "text": "Pack every unit's Part II kit before Ch 12 ends: main weapon in hand, at most 6 items",
+      "detail": [
+        "Only what a unit holds carries in (the game says \"equipped\"; read it as its own 6 items?)",
+        "Each unit's Ch 12 stage lists the 6; everything else waits in storage until Part III",
+        "Keep bows ready for flier-heavy maps"
+      ],
+      "conf": "?"
+    },
+    {
+      "text": "Leave Part III items in storage: both Cleansing Blades, Orichalcum, the second Salamander",
+      "detail": [
+        "Tobias takes Theodora's Cleansing Blade, Alexandra Talimun's blade, in Part III",
+        "Equipped and carried: Silver Shield (Theodora), Salamanders (Bonaventure, Sirocco), Simon's Hammer",
+        "Cursed items stay in storage too: Part III owners are in the Part III list above"
+      ]
+    },
+    {
+      "text": "Take My Late Sister's Accessory if it appears: without it, no Creek in Part II Ch 2 and no Nathan"
+    },
+    {
+      "text": "Hand in every Send Supplies pair for gold and Renown: Cataphract (Ch 8) is Nydine's Part II class"
+    },
+    {
+      "text": "Renown doesn't carry into Part II; Support, Bless Levels and Boons do"
+    }
+  ]
+}

@@ -1,0 +1,805 @@
+{
+  "name": "Ludia",
+  "slug": "ludia",
+  "epithet": "Vandahl Trading swordswoman",
+  "faction": "Tale of the Moon",
+  "homeRoute": "Leda",
+  "weapons": [
+    "Sword"
+  ],
+  "preferred": [
+    "Infantry",
+    "Sword"
+  ],
+  "avoid": [
+    "Axe",
+    "Black Magic"
+  ],
+  "personality": "A romance-loving academy graduate who writes fiction, admires art, and enjoys shopping.",
+  "story": "Daughter of a renowned soldier, she trained in swordsmanship and etiquette at an elite academy and, as of 1449, works for Talimun's Vandahl Trading. Recruitment requires a quest at Callianeira Port.",
+  "personalSkill": {
+    "name": "Falcon",
+    "effect": "If unit attacks first, grants AS+3 during combat. Lv 20: Perception (Avo+10 when she can follow up); Lv 35: Perception+ (Avo+20)."
+  },
+  "growths": {
+    "HP": 40,
+    "Str": 35,
+    "Mag": 20,
+    "Spd": 55,
+    "Dex": 45,
+    "Def": 30,
+    "Res": 20,
+    "Lck": 30,
+    "Cha": 30
+  },
+  "supports": [
+    "Benditz",
+    "Esmeralda",
+    "Seteth",
+    "Tialla",
+    "Buccar",
+    "Fianna",
+    "Gaitz",
+    "Simon"
+  ],
+  "tiers": [
+    {
+      "source": "KeenGamer",
+      "tier": "B"
+    },
+    {
+      "source": "Pocket Tactics",
+      "tier": "B"
+    }
+  ],
+  "tierNotes": "KeenGamer: B tier (speedster). Pocket Tactics: B tier.",
+  "recruit": {
+    "how": "recruit",
+    "support": 3,
+    "renown": 7,
+    "extra": "Short quest",
+    "why": [
+      "Support 3 and Renown 7 tie with Theodora. Neither lord has a support with Ludia, so roster balance decided it."
+    ],
+    "tip": "Recruit late Ch 8 or Ch 9 week 1, as soon as Renown 7 lands: about Lv 15 in a Beginner class."
+  },
+  "requirements": {
+    "Cai": "3S 9R",
+    "Dietrich": "3S 9R",
+    "Theodora": "3S 7R",
+    "Leda": "3S 7R"
+  },
+  "build": {
+    "role": "Player-phase sword crit and dodge",
+    "path": [
+      "Hunter (late Ch 8 or Ch 9 join, bench)",
+      "Myrmidon (Lv 20, Ch 9)",
+      "Shido (Part II Ch 2)",
+      "Sword Master"
+    ],
+    "part1Target": "Myrmidon (bench); Shido in Part II",
+    "part3Target": "Swordmaster",
+    "notes": "Bench in Part I: Guzran holds the sword striker slot. She joins late Ch 8 or Ch 9 week 1 at about Lv 15, levels in dungeon parties, takes Myrmidon at Lv 20 and masters Ravaging Arts before Part II. Shido on Part II Ch 2's License at Lv 35.",
+    "confidence": "medium"
+  },
+  "guide": {
+    "role": "Part II bench sword striker",
+    "summary": "Part II depth: she joins late Ch 8 or Ch 9 week 1 and levels in dungeon parties through Part I. Falcon (AS +3 when she attacks first) and Perception (Avo +10/+20 when she can follow up) mean she doubles and dodges on her own turn, so pick off isolated foes and pull back. In Part II she becomes Leda's fourth Dance target as a [[class:Shido]].",
+    "playstyle": "Player phase only: attack first, double, dodge the counter. Never end in range of mages or several archers.",
+    "focus": [
+      "Spd",
+      "Dex",
+      "Str"
+    ],
+    "keys": [
+      "Gift her, then seat Leda + Ludia + Halvin from Ch 4: Support 3 by late Ch 8",
+      "Recruit late Ch 8 or Ch 9 week 1 (Renown 7, short quest): about Lv 15",
+      "Hunter to Lv 20, then [[class:Myrmidon]] in Ch 9 (Sword C)",
+      "EXP: a dungeon seat every week in Ch 9's caves; aim at Lv 30? by Ch 12",
+      "Hold Wooden Sword +5, Killing Edge, Charm, Flyssa, Cleansing Blade, Concoction at 11/27",
+      "Part II: Myrmidon in Ch 1, [[class:Shido]] on Ch 2's free License (Lv 35)"
+    ],
+    "watch": [
+      "Weight: Iron Sword +4 4 + Gale Ring 2 = 6, no Spd from the sword. Falcon AS +3 when she attacks first",
+      "Res: growth 20, 15 as a Shido; one mage can kill her",
+      "Str 35: she kills with crits and doubles, not single hits",
+      "Ravaging Arts: master it in Part I dungeon fights, or Shido waits a map"
+    ],
+    "stages": [
+      {
+        "when": "Join to Lv 20 · Hunter",
+        "from": {
+          "part": 1,
+          "ch": 8,
+          "at": "late",
+          "approx": true
+        },
+        "to": {
+          "lv": 20
+        },
+        "level": "About Lv 15 on join (late Ch 8 or 7/12) to 20",
+        "class": "Hunter",
+        "kind": "bench",
+        "goal": "Lv 20 with Sword C. EXP: a dungeon party every week; Falcon doubles when she starts the fight.",
+        "exit": "Lv 20 with Sword C: Myrmidon on a Specialty License (Ch 9).",
+        "masteries": [
+          "Hunting Basics"
+        ],
+        "why": [
+          "Hunter: Spd +10, Dex +10 row, and it trains Sword and Infantry",
+          "Falcon (AS +3 when she attacks first): she doubles at Lv 15 on her own turn"
+        ],
+        "weapons": [
+          {
+            "item": "Wooden Sword +5",
+            "why": "Mt 17, Hit 90, Wt 2: Sword EXP and her double",
+            "plan": "Refine to +5 with Smithing Stone"
+          },
+          {
+            "item": "Killing Edge",
+            "why": "Deadly Blade (Crit +15) from Sword C; hold it until then",
+            "plan": "Second copy, by 5/28"
+          }
+        ],
+        "items": [
+          {
+            "item": "Concoction",
+            "why": "Heals 40: she joins about 5 levels under the core",
+            "alts": [
+              "Vulnerary"
+            ]
+          }
+        ],
+        "arts": [
+          {
+            "name": "Wrath Strike",
+            "why": "Sword D: Mt +4, Hit +10"
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Swords Lv. 1",
+            "why": "Sword D+: Hit +3 with swords"
+          },
+          {
+            "name": "Close Quarters",
+            "why": "Infantry D: adjacent foes Mov −1 (Infantry)"
+          },
+          {
+            "name": "Evasion",
+            "why": "Infantry C: Avo +100 on 3% of enemy attacks (Infantry)"
+          },
+          {
+            "name": "Hunting Basics",
+            "why": "Hunter mastery: Dex/Spd +1 (once mastered)"
+          },
+          {
+            "name": "Read the Winds",
+            "why": "Flying D: Avo +10 vs bows; works on foot"
+          }
+        ],
+        "training": [
+          {
+            "rank": "Sword C, Infantry C",
+            "for": "Myrmidon (Lv 20); Evasion",
+            "how": "Arena Combat or Infantry (both train Sword) every week; Hunter trains Sword and Infantry"
+          },
+          {
+            "rank": "Flying D",
+            "for": "Read the Winds",
+            "how": "One Arena Mounted week ? (start rank unknown)"
+          }
+        ],
+        "tips": [
+          "If she joins at Lv 25 in a Specialty class, skip to the next stage",
+          "EXP: Ch 9 caves (Cave Behind the Falls Lv 22, Aditi's Lv 28) in the party",
+          "Joins in another Beginner class? Hunter needs Bow D and Sword D; Gladiator if Bow D is missing"
+        ]
+      },
+      {
+        "when": "Ch 9 to 12 · Myrmidon",
+        "from": {
+          "part": 1,
+          "ch": 9,
+          "at": "late",
+          "approx": true
+        },
+        "to": {
+          "part": 1,
+          "ch": 12
+        },
+        "level": "Lv 20 (Ch 9) to about 30? by Ch 12",
+        "class": "Myrmidon",
+        "kind": "bench",
+        "goal": "Master Ravaging Arts in dungeon fights. Perception (Lv 20): Avo +10 when she can follow up.",
+        "exit": "Sword B by 11/27; Part II Ch 1 in Myrmidon, Shido at Lv 35.",
+        "why": [
+          "Guzran holds the sword striker slot: he joins in Ch 5 and grows Str 45 to her 35",
+          "Falcon (AS +3 when she attacks first) makes her a doubler: accessory Wt 3 or less"
+        ],
+        "weapons": [
+          {
+            "item": "Wooden Sword +5",
+            "why": "Main: Mt 17, Hit 90, Wt 2: Mt +6 and AS +4 over the Killing Edge",
+            "plan": "Refined on join"
+          },
+          {
+            "item": "Killing Edge",
+            "why": "Deadly Blade (Crit +15), Mt 11, Wt 6: crit turns on a lone foe",
+            "plan": "Second copy, by 5/28"
+          },
+          {
+            "item": "Flyssa",
+            "why": "Effective vs armor; Wt 4",
+            "situational": "Armor-heavy maps: open slot"
+          },
+          {
+            "item": "Cleansing Blade",
+            "why": "Cancels the Underworld Boon; Wt 3",
+            "situational": "Undead or Underworld Boon foes: open slot"
+          }
+        ],
+        "equipment": [
+          {
+            "item": "Sea-Spirit Charm",
+            "slot": "Accessory",
+            "why": "Adjacent foes Lck -5 at Wt 3, the swordfighter cap",
+            "alts": [
+              "Phantom Ring"
+            ],
+            "plan": "Second copy"
+          }
+        ],
+        "items": [
+          {
+            "item": "Concoction",
+            "why": "Heals 40: HP 50, Res 20",
+            "alts": [
+              "Vulnerary"
+            ]
+          }
+        ],
+        "arts": [
+          {
+            "name": "Deadly Blade",
+            "why": "Killing Edge art: Crit +15"
+          },
+          {
+            "name": "Wrath Strike",
+            "why": "Sword D: +4 Mt, Hit +10"
+          },
+          {
+            "name": "Haze Slice",
+            "why": "Sword C: +3 Mt, Avo +10"
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Perception",
+            "why": "Personal Lv 20: Avo +10 when she can follow up"
+          },
+          {
+            "name": "Ravaging Arts",
+            "why": "Myrmidon mastery: +6 damage on crits (once mastered)"
+          },
+          {
+            "name": "Swords Lv. 2",
+            "why": "Sword C+: Hit +5; Lv. 3 needs B+"
+          },
+          {
+            "name": "Hunting Basics",
+            "why": "Hunter mastery: Dex/Spd +1"
+          },
+          {
+            "name": "Read the Winds",
+            "why": "Flying D: Avo +10 vs bows; works on foot"
+          }
+        ],
+        "training": [
+          {
+            "rank": "Sword B",
+            "for": "Shido (Part II Ch 2)",
+            "how": "Arena Combat or Infantry every week; Myrmidon trains Sword +2"
+          }
+        ],
+        "tips": [
+          "EXP: a dungeon seat every week (Iapetus Lv 32, Nemea Lv 30); slot 7 to 9 on easy maps",
+          "Only what she holds at 11/27 comes into Part II: all five items here"
+        ],
+        "drop": [
+          {
+            "item": "Swords Lv. 1",
+            "why": "Swords Lv. 2 replaces it at Sword C+"
+          },
+          {
+            "item": "Close Quarters",
+            "why": "Slot goes to Perception"
+          },
+          {
+            "item": "Evasion",
+            "why": "Slot goes to Ravaging Arts"
+          }
+        ],
+        "masteries": [
+          "Ravaging Arts"
+        ]
+      },
+      {
+        "when": "Part II Ch 1: Myrmidon",
+        "from": {
+          "part": 2,
+          "ch": 1
+        },
+        "to": {
+          "part": 2,
+          "ch": 1
+        },
+        "level": "Lv 34 (Army Training 1)",
+        "class": "Myrmidon",
+        "kind": "core",
+        "goal": "Finish Ravaging Arts here if Part I didn't. Perception: Avo +10 whenever she doubles.",
+        "exit": "Sword B and Lv 35 (Army Training 2): Shido on Ch 2's free License.",
+        "masteries": [],
+        "weapons": [
+          {
+            "item": "Wooden Sword +5",
+            "why": "Main: Mt 17, Hit 90, Wt 2: Mt +6 and AS +4 over the Killing Edge",
+            "plan": "Carried from Part I"
+          },
+          {
+            "item": "Killing Edge",
+            "why": "Deadly Blade (Crit +15), Mt 11, Wt 6: crit turns on a lone foe",
+            "plan": "Carried from Part I"
+          },
+          {
+            "item": "Flyssa",
+            "why": "Effective vs armor; Wt 4",
+            "situational": "Armor-heavy maps: open slot",
+            "plan": "Carried from Part I"
+          },
+          {
+            "item": "Cleansing Blade",
+            "why": "Cancels the Underworld Boon; Wt 3",
+            "situational": "Undead or Underworld Boon foes: open slot",
+            "plan": "Carried from Part I"
+          }
+        ],
+        "equipment": [
+          {
+            "item": "Sea-Spirit Charm",
+            "slot": "Accessory",
+            "why": "Adjacent foes Lck -5 at Wt 3, the swordfighter cap",
+            "alts": [
+              "Phantom Ring"
+            ],
+            "plan": "Carried from Part I"
+          }
+        ],
+        "items": [
+          {
+            "item": "Concoction",
+            "why": "Heals 40: HP 50, Res 20",
+            "alts": [
+              "Vulnerary"
+            ],
+            "plan": "Carried from Part I"
+          }
+        ],
+        "arts": [
+          {
+            "name": "Deadly Blade",
+            "why": "Crit +15"
+          },
+          {
+            "name": "Gale Blow",
+            "why": "Sword B: +7 Mt, Atk +5 at Spd/2 %"
+          },
+          {
+            "name": "Haze Slice",
+            "why": "+3 Mt, Avo +10"
+          },
+          {
+            "name": "Wrath Strike",
+            "why": "+4 Mt, Hit +10"
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Perception",
+            "why": "Personal Lv 20: Avo +10 when she can follow up"
+          },
+          {
+            "name": "Ravaging Arts",
+            "why": "Myrmidon mastery: +6 damage on crits"
+          },
+          {
+            "name": "Swords Lv. 2",
+            "why": "Sword C+: Hit +5; Lv. 3 at Sword B+"
+          },
+          {
+            "name": "Hunting Basics",
+            "why": "Dex/Spd +1"
+          },
+          {
+            "name": "Read the Winds",
+            "why": "Avo +10 vs bows: Ch 2 Rangers"
+          }
+        ],
+        "tips": [
+          "Ch 1: finish foes the core has already hit"
+        ],
+        "checks": [
+          {
+            "stat": "Spd",
+            "at": "Part II Ch 1",
+            "need": "Forecast: Wooden Sword +5 + charm doubles Ch 1 infantry (Falcon's AS +3 included)",
+            "why": "Falcon, Perception and her damage all ride on the follow-up",
+            "fix": [
+              "Drop the Sea-Spirit Charm (Wt 3) first",
+              "Dance her: Special Dance Spd +3",
+              "Cleansing Blade (Wt 3) in hand for the Killing Edge (Wt 6)"
+            ]
+          }
+        ]
+      },
+      {
+        "when": "Part II Ch 2 to 6: Shido",
+        "from": {
+          "part": 2,
+          "ch": 2
+        },
+        "to": {
+          "part": 3,
+          "ch": 4
+        },
+        "level": "Lv 35 to 42",
+        "class": "Shido",
+        "kind": "core",
+        "goal": "Spd +15 growth, Sword Crit +5; master Ever Vigilant. Perception+: attack first, double, dodge the reply.",
+        "exit": "Sword Master at Lv 45 with Sword A (Part III, Mars's request).",
+        "masteries": [
+          "Ever Vigilant"
+        ],
+        "weapons": [
+          {
+            "item": "Wooden Sword +5",
+            "why": "Main: Mt 17, Hit 90, Wt 2: Mt +6 and AS +4 over the Killing Edge",
+            "plan": "Carried from Part I"
+          },
+          {
+            "item": "Killing Edge",
+            "why": "Deadly Blade (Crit +15), Mt 11, Wt 6: crit turns on a lone foe",
+            "plan": "Carried from Part I"
+          },
+          {
+            "item": "Flyssa",
+            "why": "Effective vs armor; Wt 4",
+            "situational": "Armor-heavy maps: open slot",
+            "plan": "Carried from Part I"
+          },
+          {
+            "item": "Cleansing Blade",
+            "why": "Cancels the Underworld Boon; Wt 3",
+            "situational": "Undead or Underworld Boon foes: open slot",
+            "plan": "Carried from Part I"
+          }
+        ],
+        "equipment": [
+          {
+            "item": "Sea-Spirit Charm",
+            "slot": "Accessory",
+            "why": "Adjacent foes Lck -5 at Wt 3, the swordfighter cap",
+            "alts": [
+              "Phantom Ring"
+            ],
+            "plan": "Carried from Part I"
+          }
+        ],
+        "items": [
+          {
+            "item": "Concoction",
+            "why": "Heals 40: HP 50, Res 20",
+            "alts": [
+              "Vulnerary"
+            ],
+            "plan": "Carried from Part I"
+          }
+        ],
+        "arts": [
+          {
+            "name": "Deadly Blade",
+            "why": "Crit +15"
+          },
+          {
+            "name": "Gale Blow",
+            "why": "+7 Mt, Atk +5 at Spd/2 %"
+          },
+          {
+            "name": "Haze Slice",
+            "why": "+3 Mt, Avo +10"
+          },
+          {
+            "name": "Wrath Strike",
+            "why": "+4 Mt, Hit +10"
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Perception+",
+            "why": "Personal Lv 35: Avo +20 when she can follow up"
+          },
+          {
+            "name": "Ravaging Arts",
+            "why": "+6 damage on crits"
+          },
+          {
+            "name": "Ever Vigilant",
+            "why": "Shido mastery: heals after a crit kill (once mastered)"
+          },
+          {
+            "name": "Swords Lv. 3",
+            "why": "Sword Hit/Avo +5 at Sword B+ (Shido Sword +3 ?); Lv. 2 till then"
+          },
+          {
+            "name": "Hunting Basics",
+            "why": "Dex/Spd +1"
+          }
+        ],
+        "training": [
+          {
+            "rank": "Sword A",
+            "for": "Sword Master (Lv 45)",
+            "how": "Battle use (no Part II Arena); Sword EXP Boon"
+          }
+        ],
+        "tips": [
+          "Leda's fourth Dance target from here, after Sirocco, Guzran and Inyoni",
+          "Ch 2: forests add Avo on top of Perception+",
+          "Ch 6 Lyrah: Deadly Blade crits are her big hits on the cocoon once the shields fall"
+        ],
+        "drop": [
+          {
+            "item": "Read the Winds",
+            "why": "Slot goes to Ever Vigilant"
+          },
+          {
+            "item": "Swords Lv. 2",
+            "why": "Swords Lv. 3 replaces it at B+"
+          }
+        ]
+      },
+      {
+        "when": "Part III Section 5+ (Sword Master)",
+        "from": {
+          "part": 3,
+          "ch": 5
+        },
+        "level": "Lv 45+",
+        "class": "Sword Master",
+        "kind": "core",
+        "goal": "Astra on top of Falcon (AS +3 attacking) and Perception+ (Avo +20 when she doubles): Mov 5 rush sword.",
+        "exit": "Final class.",
+        "masteries": [
+          "Astra"
+        ],
+        "why": [
+          "Underworld Boon: Leda's Abjuring ring at Drake; Cleansing Blade +3 for undead outside it",
+          "Drake bans mounts: she takes Esmeralda's seat in C for the Mov 5 rush"
+        ],
+        "weapons": [
+          {
+            "item": "Iron Sword +4",
+            "why": "Mt 21, Hit 90, Wt 4: Dex starts at +3; arts and doubles on one sword",
+            "alts": [
+              "Da Mina Sword +2"
+            ],
+            "plan": "Soulstone for +3 and +4; Da Mina +2 until then"
+          },
+          {
+            "item": "Flyssa",
+            "why": "Effective vs armor; Wt 4",
+            "situational": "Armor-heavy maps: open slot",
+            "plan": "Carried from Part I"
+          },
+          {
+            "item": "Cleansing Blade +2",
+            "why": "Mt 16?, Wt 3: cancels the Underworld Boon",
+            "situational": "Underworld Boon foes outside Leda's ring: open slot",
+            "plan": "Carried from Part I"
+          }
+        ],
+        "equipment": [
+          {
+            "item": "Gale Ring",
+            "why": "Spd +3 at Wt 2: Falcon and Perception+ both key off AS",
+            "slot": "Accessory",
+            "alts": [
+              "Sea-Spirit Charm",
+              "Phantom Ring"
+            ]
+          }
+        ],
+        "items": [
+          {
+            "item": "Concoction",
+            "why": "Heals 40: HP 50, Res 20",
+            "alts": [
+              "Vulnerary"
+            ]
+          }
+        ],
+        "arts": [
+          {
+            "name": "Gale Blow",
+            "why": "+7 Mt, Atk +5 at Spd/2 %"
+          },
+          {
+            "name": "Haze Slice",
+            "why": "+3 Mt, Avo +10"
+          },
+          {
+            "name": "Wrath Strike",
+            "why": "+4 Mt, Hit +10"
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Astra",
+            "why": "Sword Master mastery: 5 hits at 50% (once mastered)"
+          },
+          {
+            "name": "Perception+",
+            "why": "Avo +20 when she can follow up"
+          },
+          {
+            "name": "Ravaging Arts",
+            "why": "+6 damage on crits"
+          },
+          {
+            "name": "Swords Lv. 3",
+            "why": "Sword Hit/Avo +5"
+          },
+          {
+            "name": "Hunting Basics",
+            "why": "Hunter mastery: Dex/Spd +1, feeds the double"
+          }
+        ],
+        "training": [
+          {
+            "rank": "Sword A",
+            "for": "Sword Master (Lv 45, Mars's request)",
+            "how": "Battle use; Sword EXP Boon"
+          }
+        ],
+        "drop": [
+          {
+            "item": "Wooden Sword +5",
+            "why": "Wooden +4 is Mt ~6 without Soulstone; Iron Sword +4 is Mt 21"
+          },
+          {
+            "item": "Killing Edge",
+            "why": "Iron Sword +4: Mt 21 vs 11, Wt 4 vs 6"
+          },
+          {
+            "item": "Deadly Blade",
+            "why": "Leaves with the Killing Edge"
+          },
+          {
+            "item": "Sea-Spirit Charm",
+            "why": "Gale Ring: her skills key off AS, not crit"
+          },
+          {
+            "item": "Ever Vigilant",
+            "why": "Slot goes to Astra; Drake wants no kills"
+          }
+        ],
+        "tips": [
+          "Drake: Leda's second Dance after Guzran; Passion++ Mov +1 keeps her in the rush",
+          "Kill nothing on the way: every kill spawns Envy (Avo 0 vs higher levels)",
+          "S6 squad D: Trials and quests by 6/6, no Balor seat"
+        ]
+      }
+    ],
+    "alt": "Deploy her over Guzran only if he falls far behind the core: same role, Spd 70 as a Myrmidon against his Str 45. Ranger (carried in) adds bows and Countershot if you need another archer.",
+    "routeNotes": [
+      {
+        "system": "Supports",
+        "note": "Buccar, Esmeralda and Fianna in this army; Seteth if recruited. Before she joins: Leda + Ludia + Halvin. After: Fianna + Esmeralda + Ludia."
+      },
+      {
+        "system": "Perform Quests",
+        "note": "Her Part II kit comes from dance trips: buy the second Killing Edge in Regia (by 5/28) and the second Flyssa in Zoste (Ch 6). Guzran uses the first pair."
+      },
+      {
+        "system": "Dancer (Great Dancer's Successor)",
+        "note": "Part II Dance target 4: Falcon and Perception only work on her own attacks, and Special Dance's Spd +3 locks in the double."
+      }
+    ],
+    "sources": [
+      "equippable-abilities",
+      "weapons-and-items",
+      "combat-arts-and-abilities",
+      "character-learnsets",
+      "class-data",
+      "player-pacing-and-recruit-items",
+      "redesign/11-roster-pass",
+      "part2-war",
+      "part3-salvation"
+    ],
+    "decisions": [
+      {
+        "topic": "Recruit her late Ch 8",
+        "pick": "Late Ch 8 or Ch 9 week 1: Support 3, Renown 7, short quest",
+        "why": "Every level from Lv 15 grows Hunter and Myrmidon rows, Ravaging Arts is mastered before Part II, and the Arena gets 15+ weeks for Sword B. Unrecruited units auto-level on personal growths only."
+      },
+      {
+        "topic": "Bench her behind Guzran",
+        "pick": "Guzran holds the sword striker slot in Part I",
+        "why": "He joins in Ch 5 and grows Str 45 to her 35; he rates higher on all three lists. She takes the fourth Dance in Part II instead."
+      },
+      {
+        "topic": "Wooden Sword +5 as main",
+        "pick": "Wooden Sword +5 in hand; Killing Edge for Deadly Blade turns",
+        "why": "Mt 17 at Wt 2 beats the Killing Edge's Mt 11 at Wt 6: Mt +6 and AS +4 on a doubler. Common ore only; the route's Killing Edge refine is Guzran's. Part III +9 adds Spd +5.",
+        "else": "Killing Edge as main (unrefined, Mt 11)"
+      }
+    ],
+    "gates": [
+      {
+        "route": "Leda",
+        "from": {
+          "part": 1,
+          "ch": 4
+        },
+        "by": {
+          "part": 1,
+          "ch": 9
+        },
+        "kind": "recruit",
+        "text": "Ludia: Support 3 with Leda by late Ch 8; recruit the week Renown 7 lands"
+      },
+      {
+        "route": "Leda",
+        "from": {
+          "part": 1,
+          "ch": 9
+        },
+        "by": {
+          "part": 1,
+          "ch": 12
+        },
+        "kind": "rank",
+        "text": "Arena Sword every week: Ludia's Sword C by Lv 20 (Myrmidon), B by 11/27 (Shido)"
+      }
+    ]
+  },
+  "sources": [
+    "https://fortunesweave.co.uk/characters/ludia",
+    "https://www.keengamer.com/articles/guides/fire-emblem-fortunes-weave-tier-list-best-characters-ranked-for-every-route/",
+    "https://www.pockettactics.com/fire-emblem-fortunes-weave/tier-list"
+  ],
+  "recruitOn": {
+    "Cai": {
+      "how": "recruit",
+      "support": 3,
+      "renown": 9
+    },
+    "Dietrich": {
+      "how": "recruit",
+      "support": 3,
+      "renown": 9
+    },
+    "Theodora": {
+      "how": "recruit",
+      "support": 3,
+      "renown": 7
+    },
+    "Leda": {
+      "how": "recruit",
+      "support": 3,
+      "renown": 7,
+      "task": "Short quest",
+      "window": "Late Ch 8 or Ch 9 week 1"
+    }
+  }
+}

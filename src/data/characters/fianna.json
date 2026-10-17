@@ -1,0 +1,1175 @@
+{
+  "name": "Fianna",
+  "slug": "fianna",
+  "epithet": "Shadowed priestess",
+  "faction": "Tale of the Moon",
+  "homeRoute": "Leda",
+  "weapons": [
+    "White Magic",
+    "Black Magic"
+  ],
+  "preferred": [
+    "White Magic",
+    "Black Magic"
+  ],
+  "avoid": [
+    "Brawling",
+    "Sword"
+  ],
+  "personality": "A quiet priestess who likes poetry, spicy food, coffee, and people she can trust.",
+  "story": "Found unconscious by a riverside years ago, she was taken in by the temples and later joined Vandahl Trading. She bears the Crest of Fraldarius, and her mysterious origins hint at a hidden past. Recruitment costs 3000G plus Support 3.",
+  "personalSkill": {
+    "name": "Graceful Light",
+    "effect": "When healing an ally with magic, reduces magic cost to 0. Trigger % = Lck. Lv 20+: Gift of Faith adds +20/+30 HP to heals. Crest of Fraldarius: restores minor HP on attack, 20% trigger."
+  },
+  "growths": {
+    "HP": 30,
+    "Str": 35,
+    "Mag": 55,
+    "Spd": 30,
+    "Dex": 40,
+    "Def": 20,
+    "Res": 45,
+    "Lck": 25,
+    "Cha": 40
+  },
+  "supports": [
+    "Ludia",
+    "Lysander",
+    "Olympia",
+    "Orchel",
+    "Simon",
+    "Talimun",
+    "Ursula"
+  ],
+  "tiers": [
+    {
+      "source": "KeenGamer",
+      "tier": "B"
+    },
+    {
+      "source": "Pocket Tactics",
+      "tier": "B"
+    }
+  ],
+  "tierNotes": "KeenGamer: B tier (highest Mag growth among recruits, but 25% Lck limits free heals). Pocket Tactics: B tier.",
+  "recruit": {
+    "how": "recruit",
+    "support": 3,
+    "renown": 5,
+    "extra": "3,000G",
+    "why": [
+      "Bench recruit on Leda's route: join her in Ch 7 at about Lv 15 (Beginner), as soon as Renown 5 and Support 3 land.",
+      "Olympia and Catania heal the Part I maps; she heals dungeon parties and trains for Part II."
+    ],
+    "tip": "3,000G. Gift her, then seat her at Leda's Sunday meals from Ch 4 so Support 3 is there in Ch 7."
+  },
+  "requirements": {
+    "Cai": "3S 8R",
+    "Dietrich": "3S 7R",
+    "Theodora": "3S 9R",
+    "Leda": "3S 5R"
+  },
+  "build": {
+    "role": "Part II healer (Bishop)",
+    "path": [
+      "Diviner (Ch 7 join)",
+      "Priest (Lv 20, Ch 8 or 9)",
+      "Bishop (Part II Ch 2)",
+      "Wiseman (Part III)"
+    ],
+    "part1Target": "Priest (bench, Ch 7 join)",
+    "part3Target": "Wiseman",
+    "notes": "Bench in Part I. She joins in Ch 7 at about Lv 15, heals dungeon parties for EXP and takes Priest at Lv 20 with White C. Arena Mage builds White B by 11/27; Bishop from Part II Ch 2 at Lv 35, Wiseman at Lv 45 in Part III.",
+    "confidence": "medium"
+  },
+  "guide": {
+    "role": "Part II healer (Bishop)",
+    "summary": "The army's fourth healer, built for Part II. She joins in Ch 7, heals dungeon parties through Part I, and heals from the second row from Part II Ch 1; [[class:Bishop]] doubles her casts from Ch 2. Graceful Light and [[ability:Gift of Faith+]] both roll on Lck, so feed her Lck and keep her behind the tanks.",
+    "playstyle": "Heal every turn from behind the tanks, next to Sha Lan (Spd +4) or a tank (Barrier). Attack only with Seraphim on undead.",
+    "focus": [
+      "Lck",
+      "Mag",
+      "Res"
+    ],
+    "keys": [
+      "Recruit her in Ch 7: Support 3, Renown 5, 3,000G. She joins at about Lv 15",
+      "Read the Niraga Mine White-Magic Manual on join day; Arena Mage every week",
+      "Diviner to Lv 20, then [[class:Priest]] (White C) in Ch 8 or 9",
+      "EXP: the healer seat in every dungeon party; aim at Lv 30? by Ch 12",
+      "Hold a Healing Staff and 2 Concoctions at 11/27: only held items reach Part II",
+      "Bishop in Part II Ch 2 (Lv 35, White B); Wiseman at Lv 45 in Part III"
+    ],
+    "watch": [
+      "Lck: Graceful Light and Gift of Faith+ fire at Lck %. Piety +3 and Bishop's Lck +20 growth feed both",
+      "Def: Bishop grows Def −10. Two hits from a Part II striker kill her",
+      "White B: Mage course weekly from Ch 7 plus Priest's White +2; check it in Ch 11",
+      "Weight: Healing Staff 3, nothing else worn; Photona's Holy Staff 5 on wide maps. Bishop's Thunder (7) and Bolganone (8) only on spare turns",
+      "No Physic: Olympia and Catania cover the range heals on the Part II Ch 3 hold"
+    ],
+    "stages": [
+      {
+        "when": "Ch 7 join to Lv 20 · Diviner",
+        "from": {
+          "part": 1,
+          "ch": 7
+        },
+        "to": {
+          "lv": 20
+        },
+        "level": "About Lv 15 on join (Ch 7) to 20",
+        "class": "Diviner",
+        "kind": "bench",
+        "goal": "Lv 20 with White Magic C. EXP: heal in a dungeon party every week; each heal pays EXP.",
+        "exit": "Lv 20 with White Magic C: Priest on a Specialty License (Ch 8 or 9).",
+        "masteries": [
+          "Magic Basics"
+        ],
+        "why": [
+          "Diviner: Mag +15, Res +10 row, and it trains White and Black Magic",
+          "Graceful Light: a heal at Lck % costs no magic, so she heals all dungeon long"
+        ],
+        "items": [
+          {
+            "item": "Concoction",
+            "why": "Heals 40: she joins about 5 levels under the core",
+            "alts": [
+              "Vulnerary"
+            ]
+          }
+        ],
+        "spells": [
+          {
+            "name": "Heal",
+            "why": "White D: 10 HP"
+          },
+          {
+            "name": "Fire",
+            "why": "Black D: chip damage for dungeon EXP"
+          }
+        ],
+        "abilities": [
+          {
+            "name": "White Magic Lv. 1",
+            "why": "White D+: Hit +3 with white magic"
+          },
+          {
+            "name": "Black Magic Lv. 1",
+            "why": "Black D+: Fire Hit +3"
+          },
+          {
+            "name": "Steady Shot",
+            "why": "Infantry D: Hit +5 with magic (Infantry)"
+          },
+          {
+            "name": "Magic Basics",
+            "why": "Diviner mastery: Mag/Res +1 (once mastered)"
+          },
+          {
+            "name": "Read the Winds",
+            "why": "Flying D: Avo +10 vs bows; works on foot"
+          }
+        ],
+        "training": [
+          {
+            "rank": "White Magic C",
+            "for": "Priest (Lv 20)",
+            "how": "Arena Mage every week; the Niraga Mine White-Magic Manual (Ch 4) on join day"
+          },
+          {
+            "rank": "Infantry D, Flying D",
+            "for": "Steady Shot, Read the Winds",
+            "how": "Diviner fights on foot; one Arena Mounted week ? for Flying (start rank unknown)"
+          }
+        ],
+        "tips": [
+          "Support 3 by Ch 7: gift her in Ch 4, then Leda + Fianna + Olympia at Sunday meals",
+          "EXP: Hundred-Hole Cave (Lv 14) and Fort Hayn (Lv 18) parties in Ch 7",
+          "Joins in another Beginner class? A Diviner License that day (White D, Black D)"
+        ]
+      },
+      {
+        "when": "Ch 8 to 12 · Priest",
+        "from": {
+          "part": 1,
+          "ch": 8,
+          "approx": true
+        },
+        "to": {
+          "part": 1,
+          "ch": 12
+        },
+        "level": "Lv 20 (Ch 8 or 9) to about 30? by Ch 12",
+        "class": "Priest",
+        "kind": "bench",
+        "goal": "Master Piety (Lck +3) in dungeon parties. Gift of Faith (Lv 20): +20 HP on a heal at Lck %.",
+        "exit": "White Magic B by 11/27; first Part II map in Priest, Bishop at Lv 35.",
+        "masteries": [
+          "Piety"
+        ],
+        "equipment": [
+          {
+            "item": "Healing Staff",
+            "why": "Hold at 11/27: +10 HP per heal, Wt 3",
+            "slot": "Accessory"
+          }
+        ],
+        "items": [
+          {
+            "item": "Concoction",
+            "why": "Heals 40: part of her 11/27 stock",
+            "alts": [
+              "Vulnerary"
+            ]
+          },
+          {
+            "item": "Concoction",
+            "why": "Spare: hand it to a tank on the hold",
+            "situational": "Part II Ch 3 chokepoint hold: open slot, stocked before 11/27"
+          }
+        ],
+        "spells": [
+          {
+            "name": "Heal",
+            "why": "White D: 10 HP"
+          },
+          {
+            "name": "Seraphim",
+            "why": "White C: effective vs undead"
+          },
+          {
+            "name": "Thunder",
+            "why": "Black C, if she joins with it"
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Gift of Faith",
+            "why": "Personal Lv 20: +20 HP on a heal at Lck %"
+          },
+          {
+            "name": "Piety",
+            "why": "Priest mastery: Lck +3, more free and bigger heals (once mastered)"
+          },
+          {
+            "name": "White Magic Lv. 2",
+            "why": "White C+: Seraphim Hit +5"
+          },
+          {
+            "name": "Steady Shot",
+            "why": "Infantry D: Hit +5 with magic"
+          },
+          {
+            "name": "Read the Winds",
+            "why": "Avo +10 vs bows: healers die to archers"
+          }
+        ],
+        "training": [
+          {
+            "rank": "White Magic B",
+            "for": "Bishop (Part II Ch 2)",
+            "how": "Arena Mage every week; Priest trains White +2"
+          }
+        ],
+        "tips": [
+          "EXP: the healer seat in every party; Ch 9 caves (Aditi's Lv 28, Nemea Lv 30) pay the most",
+          "Slot 7 to 9 on easy maps: heal from the back row; a staff heal is safe EXP",
+          "Part II brings only what she holds at 11/27: the staff and both Concoctions"
+        ],
+        "drop": [
+          {
+            "item": "Fire",
+            "why": "Seraphim and Thunder replace it"
+          },
+          {
+            "item": "White Magic Lv. 1",
+            "why": "White Magic Lv. 2 replaces it at White C+"
+          },
+          {
+            "item": "Black Magic Lv. 1",
+            "why": "Slot goes to Gift of Faith"
+          },
+          {
+            "item": "Magic Basics",
+            "why": "Slot goes to Piety"
+          }
+        ]
+      },
+      {
+        "when": "Part II Ch 1 · Priest",
+        "from": {
+          "part": 2,
+          "ch": 1
+        },
+        "to": {
+          "part": 2,
+          "ch": 1
+        },
+        "level": "Lv 34 (Army Training 1)",
+        "class": "Priest",
+        "kind": "core",
+        "goal": "Second-line healer while the core leads; Piety came in Part I. Gift of Faith: +20 at Lck %.",
+        "exit": "Bishop in Ch 2 at Lv 35 with White B.",
+        "masteries": [],
+        "equipment": [
+          {
+            "item": "Healing Staff",
+            "why": "+10 HP per heal, Wt 3",
+            "slot": "Accessory"
+          }
+        ],
+        "items": [
+          {
+            "item": "Concoction",
+            "why": "Heals 40; stocked before 11/27 (no Part II shops)",
+            "alts": [
+              "Vulnerary"
+            ]
+          },
+          {
+            "item": "Concoction",
+            "why": "Spare: hand it to a tank on the hold",
+            "situational": "Part II Ch 3 chokepoint hold: open slot, stocked before 11/27"
+          }
+        ],
+        "spells": [
+          {
+            "name": "Heal",
+            "why": "White D"
+          },
+          {
+            "name": "Seraphim",
+            "why": "White C: effective vs undead"
+          },
+          {
+            "name": "Thunder",
+            "why": "Black C"
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Gift of Faith",
+            "why": "Personal Lv 20: +20 HP on a heal at Lck %"
+          },
+          {
+            "name": "Piety",
+            "why": "Priest mastery: Lck +3, more free and bigger heals"
+          },
+          {
+            "name": "White Magic Lv. 2",
+            "why": "White C+: Seraphim Hit +5"
+          },
+          {
+            "name": "Steady Shot",
+            "why": "Infantry D: Hit +5 with magic"
+          },
+          {
+            "name": "Read the Winds",
+            "why": "Avo +10 vs bows: healers die to archers"
+          }
+        ],
+        "checks": [
+          {
+            "stat": "Lck",
+            "at": "Part II Ch 2 (Lv 35)",
+            "need": "Lck 20+ on her status screen: Gift of Faith+ adds +30 on 1 heal in 5",
+            "why": "Both her personal skills roll on Lck; low Lck makes her a plain Bishop",
+            "fix": [
+              "Master Piety in Priest before Bishop (Lck +3)",
+              "[[item:Wun Juice]] (Lck +10, map) on the long Ch 3 hold ?",
+              "Bishop on time in Ch 2: Lck +20 growth"
+            ]
+          }
+        ],
+        "tips": [
+          "Part II gives 5 Licenses of each tier per chapter, and they don't stack",
+          "Heal behind Olympia and Catania, never on the front tile"
+        ]
+      },
+      {
+        "when": "Part II Ch 2–6 · Bishop",
+        "from": {
+          "part": 2,
+          "ch": 2
+        },
+        "to": {
+          "part": 3,
+          "ch": 4
+        },
+        "level": "Lv 35 to 42",
+        "class": "Bishop",
+        "kind": "core",
+        "goal": "Main healer: doubled casts. Recover 30 + Magic Heal 10 + Staff 10, plus 30 more on a Gift of Faith+ roll.",
+        "exit": "Wiseman at Lv 45 in Part III (White Magic A)",
+        "masteries": [
+          "Barrier"
+        ],
+        "equipment": [
+          {
+            "item": "Healing Staff",
+            "why": "+10 HP per heal, Wt 3",
+            "slot": "Accessory"
+          }
+        ],
+        "items": [
+          {
+            "item": "Concoction",
+            "why": "Heals 40; stocked before 11/27 (no Part II shops)",
+            "alts": [
+              "Vulnerary"
+            ]
+          },
+          {
+            "item": "Concoction",
+            "why": "Spare: hand it to a tank on the hold",
+            "situational": "Part II Ch 3 chokepoint hold: open slot, stocked before 11/27"
+          }
+        ],
+        "spells": [
+          {
+            "name": "Recover",
+            "why": "White B: heals 30"
+          },
+          {
+            "name": "Heal",
+            "why": "White D: cheap top-up"
+          },
+          {
+            "name": "Seraphim",
+            "why": "White C: effective vs undead"
+          },
+          {
+            "name": "Bolganone",
+            "why": "Black B, if the rank comes: Mt 10"
+          },
+          {
+            "name": "Thunder",
+            "why": "Black C: Mt 5"
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Gift of Faith+",
+            "why": "Personal Lv 35: +30 HP on a heal at Lck %"
+          },
+          {
+            "name": "Barrier",
+            "why": "Bishop mastery: Res +3 to adjacent allies (once mastered)"
+          },
+          {
+            "name": "Piety",
+            "why": "Priest mastery: Lck +3 for both personal skills"
+          },
+          {
+            "name": "White Magic Lv. 2",
+            "why": "White C+: Seraphim Hit +5"
+          },
+          {
+            "name": "Read the Winds",
+            "why": "Avo +10 vs bows: Ch 4 reinforcements"
+          }
+        ],
+        "tips": [
+          "Ch 3 hold: refill the choke tanks; Olympia and Catania carry Physic",
+          "End turns next to Sha Lan: Watchfulness+ gives her Spd +4, Barrier gives Sha Lan Res +3",
+          "Ch 5 Dagda: heal the casters who take him; start outside the Onager's range"
+        ],
+        "drop": [
+          {
+            "item": "Steady Shot",
+            "why": "Slot goes to Barrier"
+          }
+        ]
+      },
+      {
+        "when": "Part III Section 5+ (Wiseman)",
+        "from": {
+          "part": 3,
+          "ch": 5
+        },
+        "level": "Lv 45+",
+        "class": "Wiseman",
+        "kind": "core",
+        "goal": "Magic Heal +15; Gift of Faith+ adds 30 at Lck %. E's adjacent healer at Drake; Orchel carries Physic.",
+        "exit": "Final class.",
+        "masteries": [
+          "Dominate Magic"
+        ],
+        "equipment": [
+          {
+            "item": "Healing Staff",
+            "why": "+10 HP per heal at Wt 3: the light staff for a Def -10 class",
+            "slot": "Accessory",
+            "alts": [
+              "Photona's Holy Staff",
+              "Goddess Ring"
+            ]
+          },
+          {
+            "item": "Photona's Holy Staff",
+            "why": "Healing range +1; Wt 5, 2 more than the Healing Staff",
+            "slot": "Accessory",
+            "plan": "Boon or Reliquary buy",
+            "situational": "Wide maps with the wounded spread out: swaps for the Healing Staff",
+            "alts": [
+              "Healing Staff"
+            ]
+          }
+        ],
+        "items": [
+          {
+            "item": "Concoction",
+            "why": "Heals 40",
+            "alts": [
+              "Vulnerary"
+            ]
+          }
+        ],
+        "spells": [
+          {
+            "name": "Regenera",
+            "why": "White A, single source"
+          },
+          {
+            "name": "Rescue",
+            "why": "White S, single source"
+          },
+          {
+            "name": "Recover",
+            "why": "White B: heals 30"
+          },
+          {
+            "name": "Seraphim",
+            "why": "White C: effective vs undead"
+          },
+          {
+            "name": "Heal",
+            "why": "White D"
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Gift of Faith+",
+            "why": "Personal Lv 35: +30 HP on a heal at Lck %"
+          },
+          {
+            "name": "Barrier",
+            "why": "Bishop mastery: Res +3 to adjacent allies"
+          },
+          {
+            "name": "Piety",
+            "why": "Priest mastery: Lck +3 for both personal skills"
+          },
+          {
+            "name": "White Magic Lv. 3",
+            "why": "White B+ (on the way to A): Hit/Avo +5"
+          },
+          {
+            "name": "Read the Winds",
+            "why": "Flying D: Avo +10 vs bows"
+          }
+        ],
+        "drop": [
+          {
+            "item": "Bolganone",
+            "why": "Wiseman has no Black Magic"
+          },
+          {
+            "item": "Thunder",
+            "why": "Wiseman has no Black Magic"
+          }
+        ],
+        "training": [
+          {
+            "rank": "White Magic A",
+            "for": "Wiseman (Lv 45)",
+            "how": "Part II heals (Bishop casts twice); Arena seats bench first"
+          }
+        ],
+        "tips": [
+          "Drake: stay 2 rows behind Centurio; Recover the walls, top Loretta to 100% for Peak Form+",
+          "End beside a front unit: Barrier gives Res +3 vs Drake's mages",
+          "Dominate Magic (once mastered) only if she starts attacking mages; she heals instead",
+          "S6: bench (E sweeps without her); Balor's healers are Olympia and Dante"
+        ],
+        "why": [
+          "Exam: Lv 45, White Magic A, Master License (S5)",
+          "Drake (S5): heal behind Centurio; Talimun's Lck +5 lifts Gift of Faith+ and Graceful Light",
+          "Underworld Boon: no weapon; heal inside Leda's Song of Abjuring ring"
+        ]
+      }
+    ],
+    "alt": "Troubadour (Mov 6, Def +5 growth) if you want her mounted; she loses doubled casts.",
+    "sources": [
+      "class-and-weapon-guide",
+      "growth.py",
+      "character-learnsets",
+      "class-data",
+      "weapons-and-items",
+      "hard-mode-video-notes",
+      "walkthrough-part1-leda"
+    ],
+    "gates": [
+      {
+        "route": "Leda",
+        "from": {
+          "part": 1,
+          "ch": 4
+        },
+        "by": {
+          "part": 1,
+          "ch": 7
+        },
+        "kind": "recruit",
+        "text": "Recruit Fianna in Ch 7: Support 3, Renown 5, 3,000G; she joins at about Lv 15"
+      },
+      {
+        "route": "Leda",
+        "from": {
+          "part": 1,
+          "ch": 7
+        },
+        "by": {
+          "part": 1,
+          "ch": 12
+        },
+        "kind": "rank",
+        "text": "Arena Mage weekly: Fianna's White C by Lv 20 (Priest), White B by 11/27 (Bishop)"
+      }
+    ],
+    "decisions": [
+      {
+        "topic": "Recruit her in Ch 7",
+        "pick": "Ch 7, as soon as Renown 5 and Support 3 land",
+        "why": "Every level from Lv 15 grows Diviner and Priest rows, Piety is mastered before Part II, and White B gets 20+ Arena weeks. Unrecruited units auto-level on personal growths only. Olympia and Catania still heal Part I."
+      },
+      {
+        "topic": "Stay a pure healer",
+        "pick": "Priest, Bishop, Wiseman",
+        "why": "Bishop's Lck +20 and Res +20 growth feed Graceful Light, Gift of Faith+ and her Res, and doubled casts beat Troubadour's Mov 6 (Lck +15, single casts).",
+        "else": "Troubadour if you want her mounted"
+      }
+    ],
+    "routeNotes": [
+      {
+        "system": "Supports",
+        "note": "Partners here: Olympia and Ludia, plus Lysander if you recruit him. Before Ch 7: Leda + Fianna + Olympia for Support 3; after, Fianna + Olympia + Ludia."
+      }
+    ]
+  },
+  "copies": [
+    {
+      "route": "Cai",
+      "support": 3,
+      "renown": 8,
+      "cost": "3,000G",
+      "chapter": 10,
+      "path": [
+        "Priest (joins at about Lv 25, Specialty; bench in Part I)",
+        "Troubadour (Part II Ch 2)",
+        "Bishop (Part II detour: Barrier)",
+        "Troubadour",
+        "Valkyrium"
+      ],
+      "role": "Mounted healer with backup black magic",
+      "part1": "Bench (joins in Ch 10 at about Lv 25 in a Specialty class): recruit for Part II",
+      "why": "Benched in Part I: Tialla and Ninae carry Physic and Ultand's Heal backs them up. White B, Black B and Rider D come from the Arena; after Army Training she is Priest in Part II Ch 1 and Troubadour on a Monoceros from Ch 2 (Mag 70, Res 70), with a Bishop stint for Barrier. Her Leda copy is Bishop.",
+      "guide": {
+        "role": "Mounted healer with backup black magic",
+        "summary": "Benched in Part I: three healers already deploy. Graceful Light makes heals free at Lck% and Gift of Faith adds +20/+30 HP to them, so she needs a White Magic class. She joins in Ch 10 at about Lv 25, already in a Specialty class: Priest through Part II Ch 1, then Troubadour from Ch 2, a mounted healer with backup black magic.",
+        "playstyle": "Ride to whoever is hurt and heal; Thunder or Bolganone when nobody needs healing. HP and Def grow slowly: stay behind the line.",
+        "focus": [
+          "Mag",
+          "Res",
+          "Lck"
+        ],
+        "keys": [
+          "Bench in Part I: Arena Mage Training for White B and Black B, Mounted Training for Rider D.",
+          "Do Bertrand's Ch 9 mentorship for the Troubadour unlock.",
+          "Equip the Healing Staff and Magic Staff at the end of Ch 12.",
+          "Part II: Priest in Ch 1 (her joining class, or a free Specialty License), Troubadour in Ch 2 to 3, a Bishop stint in Ch 4 to 5 for Barrier."
+        ],
+        "watch": [
+          "RPG Site lists Bertrand's reward as only an Advanced License; if Troubadour doesn't unlock, take Bishop.",
+          "Troubadour has no doubled casts.",
+          "Personal HP 30, Def 20."
+        ],
+        "stages": [
+          {
+            "when": "Join (Ch 10) to Part II Ch 1 · class on join ?",
+            "from": {
+              "part": 1,
+              "ch": 10
+            },
+            "to": {
+              "part": 2,
+              "ch": 1
+            },
+            "level": "About Lv 25 on joining; Lv 34 after Army Training 1",
+            "class": "Priest",
+            "kind": "bench",
+            "goal": "Bench through Part I: joins at about Lv 25 in a Specialty class; train ranks in the Arena.",
+            "exit": "Troubadour in Part II Ch 2 (Rider D, White B, Black B; Bertrand's request)",
+            "masteries": [],
+            "training": [
+              {
+                "rank": "White Magic B, Black Magic B",
+                "for": "Priest (White C) in Part II Ch 1, Troubadour (White B, Black B) in Ch 2",
+                "how": "Arena Mage Training (White Magic, Black Magic, Authority)"
+              },
+              {
+                "rank": "Rider D",
+                "for": "Troubadour exam",
+                "how": "Arena Mounted Training (Spear, Authority, Rider, Flying); Riding Manual (Rubess Forest, Melias, after Peter)"
+              }
+            ],
+            "equipment": [
+              {
+                "item": "Healing Staff",
+                "slot": "Accessory",
+                "why": "+10 HP on heals"
+              }
+            ],
+            "spells": [
+              {
+                "name": "Seraphim",
+                "why": "White C"
+              },
+              {
+                "name": "Heal",
+                "why": "White D"
+              },
+              {
+                "name": "Thunder",
+                "why": "Black C"
+              },
+              {
+                "name": "Fire",
+                "why": "Black D"
+              }
+            ],
+            "abilities": [],
+            "tips": [
+              "If she joins in another Specialty class, take Priest on a free Specialty License in Part II Ch 1 (or a Part I one if White Magic C shows)",
+              "Recruit cost: Support 3, Renown 8, 3,000G.",
+              "Troubadour needs Bertrand's Ch 9 mentorship (Game8, Game Rant). Keep a Monoceros (Oleance Plains) or Wild Horse in the Stable for it.",
+              "Part II has no free time, so these ranks must be done in Part I: they are the exams this unit takes in Part II Ch 1 and Ch 2",
+              "No free time in Part II: only the 6 items held at the end of Ch 12 come in, healing item included"
+            ],
+            "items": [
+              {
+                "item": "Concoction",
+                "why": "Heals 40; stocked before 11/27 (no Part II shops)",
+                "alts": [
+                  "Vulnerary"
+                ]
+              },
+              {
+                "item": "Concoction",
+                "why": "Spare: trade it to a tank on the hold",
+                "situational": "Part II Ch 3 (long chokepoint hold; the map asks for plenty of Concoctions): open slot, stocked before 11/27"
+              }
+            ],
+            "why": [
+              "Priest for Part II Ch 1: Lck growth for Graceful Light",
+              "Gift of Faith (Lv 20): Lck% chance of +20 HP per heal"
+            ]
+          },
+          {
+            "when": "Part II Ch 2 to 3",
+            "from": {
+              "part": 2,
+              "ch": 2
+            },
+            "to": {
+              "part": 2,
+              "ch": 3
+            },
+            "level": "Lv 35 to 37",
+            "class": "Troubadour",
+            "kind": "core",
+            "mount": "Monoceros (Wild Horse if Oleance Plains is out of reach)",
+            "goal": "Mounted healer on a free Advanced License; master Song of Courage. Gift of Faith+ (Lv 35): +30 HP at Lck%.",
+            "exit": "Leave once Song of Courage is mastered (Ch 4 at the earliest).",
+            "masteries": [
+              "Song of Courage"
+            ],
+            "training": [
+              {
+                "rank": "White Magic A, Black Magic A",
+                "for": "Regenera, Thoron, Valkyrium",
+                "how": "Arena Mage Training (White Magic, Black Magic, Authority)"
+              }
+            ],
+            "tips": [
+              "Troubadour(Monoceros) on Fianna: Mag 70, Res 70, HP 45",
+              "No free time in Part II: only the 6 items held at the end of Ch 12 come in, healing item included"
+            ],
+            "equipment": [
+              {
+                "item": "Healing Staff",
+                "slot": "Accessory",
+                "why": "Heals +10",
+                "plan": "Keep equipped"
+              }
+            ],
+            "spells": [
+              {
+                "name": "Recover",
+                "why": "White B"
+              },
+              {
+                "name": "Seraphim",
+                "why": "White C"
+              },
+              {
+                "name": "Heal",
+                "why": "White D"
+              },
+              {
+                "name": "Bolganone",
+                "why": "Black B"
+              },
+              {
+                "name": "Thunder",
+                "why": "Black C"
+              }
+            ],
+            "abilities": [
+              {
+                "name": "Song of Courage",
+                "why": "Troubadour mastery: Dex/Spd +2 to nearby allies (once mastered)"
+              }
+            ],
+            "items": [
+              {
+                "item": "Concoction",
+                "why": "Heals 40; stocked before 11/27 (no Part II shops)",
+                "alts": [
+                  "Vulnerary"
+                ]
+              },
+              {
+                "item": "Concoction",
+                "why": "Spare: trade it to a tank on the hold",
+                "situational": "Part II Ch 3 (long chokepoint hold; the map asks for plenty of Concoctions): open slot, stocked before 11/27"
+              }
+            ]
+          },
+          {
+            "when": "Part II Ch 4 to 5",
+            "from": {
+              "part": 2,
+              "ch": 4
+            },
+            "to": {
+              "part": 2,
+              "ch": 5
+            },
+            "level": "Lv 39 to 41",
+            "class": "Bishop",
+            "kind": "detour",
+            "mount": "None (the Monoceros waits)",
+            "goal": "Mastery: Barrier (Res +3 to adjacent allies), doubled heals and Lck 45 growth (Troubadour 40), which is her Graceful Light rate. Doubled heals mean twice the Gift of Faith+ rolls.",
+            "exit": "Leave once Barrier is mastered; back on the Monoceros for Ch 6.",
+            "masteries": [
+              "Barrier"
+            ],
+            "tips": [
+              "Bishop on Fianna: Mag 70, Res 65, Lck 45, Def 10. Back row only",
+              "Her Leda copy is already Bishop; this copy only visits",
+              "No free time in Part II: only the 6 items held at the end of Ch 12 come in, healing item included"
+            ],
+            "equipment": [
+              {
+                "item": "Healing Staff",
+                "slot": "Accessory",
+                "why": "Heals +10"
+              }
+            ],
+            "spells": [
+              {
+                "name": "Recover",
+                "why": "White B: doubled uses in Bishop"
+              },
+              {
+                "name": "Seraphim",
+                "why": "White C"
+              },
+              {
+                "name": "Heal",
+                "why": "Doubled uses in Bishop"
+              },
+              {
+                "name": "Bolganone",
+                "why": "Black B"
+              },
+              {
+                "name": "Thunder",
+                "why": "Black C"
+              }
+            ],
+            "abilities": [
+              {
+                "name": "Barrier",
+                "why": "Bishop mastery: Res +3 to adjacent allies (once mastered)"
+              },
+              {
+                "name": "Song of Courage",
+                "why": "Troubadour mastery: Dex/Spd +2 to nearby allies"
+              }
+            ],
+            "items": [
+              {
+                "item": "Concoction",
+                "why": "Heals 40; stocked before 11/27 (no Part II shops)",
+                "alts": [
+                  "Vulnerary"
+                ]
+              },
+              {
+                "item": "Concoction",
+                "why": "Spare: trade it to a tank on the hold",
+                "situational": "Part II Ch 3 (long chokepoint hold; the map asks for plenty of Concoctions): open slot, stocked before 11/27"
+              }
+            ]
+          },
+          {
+            "when": "Part II Ch 6",
+            "from": {
+              "part": 2,
+              "ch": 6
+            },
+            "level": "Lv 42",
+            "class": "Troubadour",
+            "kind": "core",
+            "mount": "Monoceros",
+            "goal": "Mobile healing for long maps. Gift of Faith+ rolls on every heal.",
+            "exit": "Stays to the end of Part II.",
+            "tips": [
+              "No free time in Part II: only the 6 items held at the end of Ch 12 come in, healing item included"
+            ],
+            "equipment": [
+              {
+                "item": "Healing Staff",
+                "slot": "Accessory",
+                "why": "Heals +10",
+                "plan": "Keep equipped"
+              }
+            ],
+            "spells": [
+              {
+                "name": "Regenera",
+                "why": "White A if reached"
+              },
+              {
+                "name": "Recover",
+                "why": "White B"
+              },
+              {
+                "name": "Seraphim",
+                "why": "White C"
+              },
+              {
+                "name": "Thoron",
+                "why": "Black A if reached"
+              },
+              {
+                "name": "Bolganone",
+                "why": "Black B"
+              }
+            ],
+            "abilities": [
+              {
+                "name": "Song of Courage",
+                "why": "Troubadour mastery: Dex/Spd +2 to nearby allies"
+              },
+              {
+                "name": "Barrier",
+                "why": "Bishop mastery: Res +3 to adjacent allies"
+              }
+            ],
+            "items": [
+              {
+                "item": "Concoction",
+                "why": "Heals 40; stocked before 11/27 (no Part II shops)",
+                "alts": [
+                  "Vulnerary"
+                ]
+              },
+              {
+                "item": "Concoction",
+                "why": "Spare: trade it to a tank on the hold",
+                "situational": "Part II Ch 3 (long chokepoint hold; the map asks for plenty of Concoctions): open slot, stocked before 11/27"
+              }
+            ]
+          },
+          {
+            "when": "Part III goal",
+            "from": {
+              "part": 3
+            },
+            "level": "Lv 45+",
+            "class": "Valkyrium",
+            "kind": "core",
+            "mount": "Monoceros",
+            "goal": "Both schools with Magic Heal +10 and Master +1 Mov. Gift of Faith+ and Graceful Light run on Lck.",
+            "exit": "Final class. Stay Troubadour until Jurah's request unlocks it.",
+            "masteries": [
+              "Song of Calm"
+            ],
+            "equipment": [
+              {
+                "item": "Healing Staff",
+                "slot": "Accessory",
+                "why": "+10 HP per heal at Wt 3. The Magic Staff (Mag +3) is the other swap"
+              },
+              {
+                "item": "Photona's Holy Staff",
+                "slot": "Accessory",
+                "why": "Healing range +1 on a mounted healer. Wt 5, 2 more than the Healing Staff",
+                "situational": "Wide maps where the wounded are spread out: swaps for the Healing Staff"
+              }
+            ],
+            "spells": [
+              {
+                "name": "Rescue",
+                "why": "White S"
+              },
+              {
+                "name": "Regenera",
+                "why": "White A if reached"
+              },
+              {
+                "name": "Recover",
+                "why": "White B"
+              },
+              {
+                "name": "Seraphim",
+                "why": "White C: Part III undead and armor"
+              },
+              {
+                "name": "Thoron",
+                "why": "Black A if reached"
+              }
+            ],
+            "abilities": [
+              {
+                "name": "Song of Calm",
+                "why": "Valkyrium mastery: Res +2 to allies in range (once mastered)"
+              },
+              {
+                "name": "Song of Courage",
+                "why": "Troubadour mastery: Dex/Spd +2 to nearby allies"
+              },
+              {
+                "name": "Barrier",
+                "why": "Bishop mastery: Res +3 to adjacent allies"
+              }
+            ],
+            "items": [
+              {
+                "item": "Concoction",
+                "why": "Heals 40",
+                "alts": [
+                  "Vulnerary"
+                ]
+              }
+            ]
+          }
+        ],
+        "alt": "Caladrius on a Magonius grows her Mag to 80 but drops White Magic and her whole healing kit. Skip the Bishop stint if Song of Courage isn't mastered by Ch 4. Piety (Priest) is lost unless it fills in Ch 1.",
+        "sources": [
+          "class-and-weapon-guide",
+          "growth.py",
+          "class-data",
+          "character-learnsets",
+          "weapons-and-items",
+          "mounts.json",
+          "plan.json",
+          "PATHS-BRIEF",
+          "walkthrough-part1-cai",
+          "part2-war",
+          "part3-salvation"
+        ],
+        "routeNotes": [
+          {
+            "system": "Stable & Luring",
+            "note": "Catch a Monoceros (Oleance Plains; Res growth, Paired Healing) in Part I and feed it weekly while she is benched, so her Part II Troubadour starts bonded."
+          },
+          {
+            "system": "Mentoring",
+            "note": "Troubadour comes from Bertrand's Ch 9 The White-Maned Demon's Request (Game8, Game Rant; RPG Site lists only an Advanced License). If it doesn't unlock, she goes Bishop."
+          }
+        ],
+        "decisions": [
+          {
+            "topic": "Troubadour only if Bertrand's request unlocks it",
+            "pick": "Troubadour in Ch 12 at Lv 35, else Part II Ch 2",
+            "why": "It needs Rider D, White Magic B and Black Magic B. Borrow the Ch 10 ninth slot and dungeon runs for the levels.",
+            "else": "No Troubadour unlock: she stays Priest in Part II"
+          }
+        ],
+        "gates": [
+          {
+            "route": "Cai",
+            "from": {
+              "part": 1,
+              "ch": 4
+            },
+            "kind": "recruit",
+            "text": "Support 3 by Renown 8, then 3,000G: pastry the first week she shows",
+            "by": {
+              "part": 1,
+              "ch": 10
+            }
+          },
+          {
+            "route": "Cai",
+            "from": {
+              "part": 1,
+              "ch": 10
+            },
+            "kind": "rank",
+            "text": "Rider D, White Magic B, Black Magic B by 11/27 for Troubadour",
+            "by": {
+              "part": 1,
+              "ch": 12
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "sources": [
+    "https://fortunesweave.co.uk/characters/fianna",
+    "https://www.keengamer.com/articles/guides/fire-emblem-fortunes-weave-tier-list-best-characters-ranked-for-every-route/",
+    "https://www.pockettactics.com/fire-emblem-fortunes-weave/tier-list"
+  ],
+  "recruitOn": {
+    "Cai": {
+      "how": "recruit",
+      "support": 3,
+      "renown": 8,
+      "task": "3,000G"
+    },
+    "Dietrich": {
+      "how": "recruit",
+      "support": 3,
+      "renown": 7,
+      "task": "3,000G"
+    },
+    "Theodora": {
+      "how": "recruit",
+      "support": 3,
+      "renown": 9
+    },
+    "Leda": {
+      "how": "recruit",
+      "support": 3,
+      "renown": 5,
+      "gold": 3000,
+      "window": "Ch 7 (from 5/29)"
+    }
+  }
+}

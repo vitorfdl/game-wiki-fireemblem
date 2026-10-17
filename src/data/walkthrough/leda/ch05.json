@@ -1,0 +1,276 @@
+{
+  "route": "Leda",
+  "ch": 5,
+  "name": "Women at Battle",
+  "free": {
+    "from": "4/7",
+    "to": "5/7"
+  },
+  "unlocks": [
+    "Beginner exams"
+  ],
+  "routine": {
+    "meals": [
+      {
+        "week": "Week 1",
+        "tables": [
+          [
+            "Leda",
+            "Esmeralda",
+            "Dadao"
+          ],
+          [
+            "Leda",
+            "Esmeralda",
+            "Fianna"
+          ],
+          [
+            "Leda",
+            "Fianna",
+            "Ludia"
+          ]
+        ],
+        "note": "Gift Esmeralda first. She sits two tables every Sunday: Support 3 must land with Renown 6 (late Ch 7). Fianna needs 3 by Ch 7."
+      },
+      {
+        "week": "Weeks 2 to 5",
+        "tables": [
+          [
+            "Leda",
+            "Esmeralda",
+            "Dadao"
+          ],
+          [
+            "Leda",
+            "Esmeralda",
+            "Fianna"
+          ],
+          [
+            "Leda",
+            "Halvin",
+            "Sha Lan"
+          ]
+        ],
+        "note": "Fianna keeps her seat every week; swap Ludia in for Halvin every other week. Dadao stays until Support 2."
+      }
+    ],
+    "gifts": [
+      {
+        "unit": "Dadao",
+        "gift": "Mellow Pastries",
+        "alt": "Simple Pastries",
+        "until": "Support 2, recruit Ch 6"
+      },
+      {
+        "unit": "Esmeralda",
+        "gift": "Mellow Pastries",
+        "alt": "Simple Pastries",
+        "until": "Support 3, recruit Ch 7"
+      },
+      {
+        "unit": "Fianna",
+        "gift": "Common Coffee",
+        "alt": "Select Coffee",
+        "until": "Support 3, recruit Ch 7"
+      },
+      {
+        "unit": "Ludia",
+        "gift": "Common Coffee",
+        "alt": "Eastern Love Story",
+        "until": "Support 3, recruit late Ch 8"
+      },
+      {
+        "unit": "Halvin",
+        "gift": "Simple Pastries",
+        "alt": "Garum",
+        "until": "Support 3, recruit Ch 9 after Baina"
+      },
+      {
+        "unit": "Sha Lan",
+        "gift": "Common Coffee",
+        "alt": "Select Coffee",
+        "until": "Support 3, recruit Ch 10"
+      },
+      {
+        "unit": "Noctula",
+        "gift": "",
+        "alt": "Training Bracelet",
+        "until": "Support 3, recruit Ch 10 (filler)",
+        "note": "Nothing they like is buyable yet: meals carry them"
+      },
+      {
+        "unit": "Mikaela",
+        "gift": "Garum",
+        "alt": "Young Ghosh",
+        "until": "Support 3, recruit Ch 10 (filler)"
+      },
+      {
+        "unit": "Lysander",
+        "gift": "",
+        "alt": "Training Bracelet",
+        "until": "Support 3, recruit Ch 10 (filler)",
+        "note": "Nothing they like is buyable yet: meals carry them"
+      },
+      {
+        "unit": "Nezha",
+        "gift": "Pickled Vegetables",
+        "until": "Support 3, recruit Ch 10 (filler)",
+        "alt": "Training Bracelet",
+        "note": "Buy several on the Daimon dance trip"
+      },
+      {
+        "unit": "Jester",
+        "gift": "Home-Recipe Book",
+        "until": "Support 3, recruit Ch 11 (filler)",
+        "alt": "Garum"
+      },
+      {
+        "unit": "Seteth",
+        "gift": "Common Coffee",
+        "alt": "Select Coffee",
+        "until": "Support 3, recruit Ch 11 (filler)"
+      }
+    ],
+    "weekly": [
+      {
+        "text": "Clear the 5/28 Perform batch now (Yaaman, Regia, Daimon): Renown 3 here, Renown 4 early Ch 6",
+        "detail": [
+          "No new Perform Quests open in Ch 5."
+        ]
+      }
+    ]
+  },
+  "missables": [],
+  "classes": {
+    "note": {
+      "text": "Catania takes [[class:Ornius Rider]] now (Beginner License): best Beginner growths; she avoids Heavy",
+      "detail": [
+        "Every Ch 5 exam costs a Beginner License: check the Proctor for odds first.",
+        "Renown is 2 to 3: Specialty (Renown 4) isn't open, so everyone fights Ch 5 in a Beginner class."
+      ]
+    },
+    "override": [
+      {
+        "unit": "Mu",
+        "text": "Punch in every fight for Gauntlet C; the Arena Warrior course brings Axe and Sword C for Brigand"
+      },
+      {
+        "unit": "Guzran",
+        "text": "Buy his Beginner License the day he joins, once he is Lv 5. Swords only: Myrmidon needs Sword C"
+      }
+    ]
+  },
+  "gear": {
+    "buy": [
+      {
+        "text": "Buy [[item:Javelin]]s and [[item:Hand Axe]]s; Buccar uses both: Armored Knight needs Axe C, Spear C"
+      }
+    ],
+    "barter": [
+      {
+        "item": "Iron Shield",
+        "for": "Buccar (Esmeralda's in Ch 7)",
+        "at": "Dagsion"
+      },
+      {
+        "item": "Flyssa",
+        "for": "Guzran (or buy one in Zoste, Ch 6)",
+        "at": "Dagsion"
+      }
+    ]
+  },
+  "recruits": [
+    {
+      "unit": "Guzran",
+      "action": "Talk to him once Renown 3 is met: no item or fee",
+      "when": "Late Ch 5",
+      "detail": [
+        "Not Renown 3 by 5/7? Recruit him early in Ch 6: he joins at about Lv 15 in a Beginner class.",
+        "Slot 7 from the Ch 6 battle; he sits Ch 5 unless a seventh slot shows."
+      ]
+    }
+  ],
+  "quests": {
+    "route": [],
+    "sub": [
+      {
+        "quest": "monster-in-the-night",
+        "note": "Leda only. Evening, eastern alleys; its 100 Renown helps toward Guzran's Renown 3"
+      },
+      {
+        "quest": "fate-of-the-expedition"
+      },
+      {
+        "quest": "more-fabled-insect-pearls"
+      },
+      {
+        "quest": "behelda-axes",
+        "offered": "if-offered"
+      },
+      {
+        "quest": "primal-crystal",
+        "offered": "if-offered"
+      },
+      {
+        "quest": "sinister-sacrifices",
+        "offered": "if-offered",
+        "note": "Its Black-Magic Manual goes to Sirocco, for Ovate"
+      },
+      {
+        "quest": "petals-of-encouragement",
+        "offered": "if-offered"
+      }
+    ],
+    "paralogue": []
+  },
+  "explore": [
+    {
+      "group": "Dungeons",
+      "id": "leda-ch05-explore-rubess-forest",
+      "loot": true,
+      "text": "[[place:Rubess Forest]] (Lv 9): Healing Staff for Olympia, Riding Manual (Halvin's, Ch 9 join)",
+      "detail": [
+        "Also a Lucky Coin."
+      ]
+    },
+    {
+      "group": "Spare Turns",
+      "text": "Gather for the next Vandahl barters (Dagsion Port), nearest stop first",
+      "detail": [
+        "[[gather:Noa Fruit]] ×1 at [[place:Sunwatch Pass]] (Elektra): Flyssa for Guzran.",
+        "[[gather:Thry Fruit]] ×6 at [[place:Brigadier Pass]] (Castalia): Buccar's Iron Shield."
+      ]
+    },
+    {
+      "group": "Spare Turns",
+      "id": "leda-ch05-explore-corroios-fort-ruins",
+      "loot": true,
+      "text": "Support run with the meal pairs: [[place:Corroios Fort Ruins]] (Lv 13, Thaleia), cursed chest",
+      "detail": [
+        "Magic Staff: Sirocco",
+        "[[item:Poisonbone Chain]] is cursed (Curse 1): hold it to the end of Part I (Drifting Reliquary)."
+      ]
+    },
+    {
+      "group": "Spare Turns",
+      "text": "Turns still left at the end: hand them to Inn Auto-Activities"
+    }
+  ],
+  "battle": {
+    "title": "Qualifier: Rains of Palma",
+    "objective": "Defeat Jasmine",
+    "lose": "Leda, Orchel or Anatolia falls",
+    "guests": [
+      "Orchel",
+      "Anatolia"
+    ],
+    "tips": [
+      {
+        "text": "Split into a north team and an east team"
+      },
+      {
+        "text": "Bring armor-piercing weapons; Orchel picks up a [[item:Hammer]] mid-battle"
+      }
+    ]
+  }
+}

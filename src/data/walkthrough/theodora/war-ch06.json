@@ -1,0 +1,60 @@
+{
+  "route": "Theodora",
+  "ch": 6,
+  "action": null,
+  "blessings": [
+    {
+      "god": "Aurora",
+      "lv": 3,
+      "why": "Nullifies Underworld Boons; RPG Site calls it extremely useful for the flight."
+    },
+    {
+      "god": "Kalla",
+      "lv": 3,
+      "why": "Mov +2 to reach the escape tiles (Game8)."
+    }
+  ],
+  "deploy": {
+    "units": [
+      "Theodora",
+      "Ninae",
+      "Ultand",
+      "Tobias",
+      "Bonaventure",
+      "Sofia",
+      "Sirocco",
+      "Lysander",
+      "Loretta",
+      "Lilian",
+      "Nuzzuo",
+      "Simon",
+      "Noctula"
+    ],
+    "bench": [
+      "Alexandra",
+      "Nydine"
+    ],
+    "note": "13 slots, same 13 for both battles: Lilian and Nuzzuo chip shields, Tobias and Simon finish the cocoon, Noctula holds a flank. Nydine and Alexandra sit; Loretta keeps Sword EXP for The Blade."
+  },
+  "missables": [],
+  "people": [],
+  "tips": [
+    {
+      "text": "Lyrah: chip shields from the corners with weak ranged hits, then the heavy hitters"
+    },
+    {
+      "text": "Her cocoon starts the same turn phase 1 ends and heals on every hit: only big hits"
+    },
+    {
+      "text": "Flight: Theodora and the strongest go down the western edge; the upper-right group turtles"
+    },
+    {
+      "text": "Bring Lysander's Cleansing Blade to clear enemies standing on the escape tiles"
+    }
+  ],
+  "exitExtra": [
+    {
+      "text": "Before the Door of Destiny: decide whether to skip Part II on Dietrich, Cai and Leda so their armies join in Section 2"
+    }
+  ]
+}

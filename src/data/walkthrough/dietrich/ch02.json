@@ -1,0 +1,36 @@
+{
+  "route": "Dietrich",
+  "ch": 2,
+  "name": "Sacrifice and Strife",
+  "free": null,
+  "unlocks": [
+    "Fortuna's Blessing (from turn 2)"
+  ],
+  "routine": null,
+  "missables": [],
+  "classes": {},
+  "gear": {},
+  "recruits": [],
+  "quests": {
+    "route": [],
+    "sub": [],
+    "paralogue": []
+  },
+  "explore": [],
+  "battle": {
+    "title": "Fina: Sea Beasts vs. Redears",
+    "objective": "Defeat Redears",
+    "lose": "Dietrich or Esmeralda falls",
+    "tips": [
+      {
+        "text": "Spread EXP across all three units"
+      },
+      {
+        "text": "Have Dietrich or Fabio talk to Esmeralda for Support"
+      },
+      {
+        "text": "Grab the yellow orbs on the map for random common items"
+      }
+    ]
+  }
+}

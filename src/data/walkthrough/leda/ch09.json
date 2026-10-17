@@ -1,0 +1,514 @@
+{
+  "route": "Leda",
+  "ch": 9,
+  "name": "Discordance",
+  "free": {
+    "from": "7/12",
+    "to": "9/1"
+  },
+  "unlocks": [
+    "Advanced Licenses (Megaira)"
+  ],
+  "routine": {
+    "meals": [
+      {
+        "week": "Week 1",
+        "tables": [
+          [
+            "Leda",
+            "Halvin",
+            "Sha Lan"
+          ],
+          [
+            "Leda",
+            "Ludia",
+            "Fianna"
+          ],
+          [
+            "Leda",
+            "Lysander",
+            "Catania"
+          ]
+        ],
+        "note": "Ludia not recruited yet? She stays until Support 3. Halvin needs 3 by the end of the Baina trip."
+      },
+      {
+        "week": "Weeks 2 to 4",
+        "tables": [
+          [
+            "Leda",
+            "Halvin",
+            "Sha Lan"
+          ],
+          [
+            "Leda",
+            "Dadao",
+            "Inyoni"
+          ],
+          [
+            "Leda",
+            "Lysander",
+            "Catania"
+          ]
+        ],
+        "note": "Halvin to Support 3 first, then Sha Lan (by 10/14) and Lysander (Ch 10 filler). Dadao is Inyoni's only partner."
+      },
+      {
+        "week": "Weeks 5 to 8",
+        "tables": [
+          [
+            "Leda",
+            "Mikaela",
+            "Noctula"
+          ],
+          [
+            "Leda",
+            "Nezha",
+            "Nuzzuo"
+          ],
+          [
+            "Leda",
+            "Seteth",
+            "Jester"
+          ]
+        ],
+        "note": "Fillers for Ch 10 to 12. Anyone above still short keeps a seat first. Short of Support? Use the replay loop below."
+      }
+    ],
+    "gifts": [
+      {
+        "unit": "Halvin",
+        "gift": "Blue-Rose Bouquet",
+        "alt": "Simple Pastries",
+        "until": "Support 3, recruit Ch 9 after Baina",
+        "note": "Buy several on the Mahon trip"
+      },
+      {
+        "unit": "Sha Lan",
+        "gift": "Common Coffee",
+        "alt": "Select Coffee",
+        "until": "Support 3, recruit Ch 10"
+      },
+      {
+        "unit": "Noctula",
+        "gift": "Tales of Adventure",
+        "alt": "Training Bracelet",
+        "until": "Support 3, recruit Ch 10 (filler)"
+      },
+      {
+        "unit": "Nuzzuo",
+        "gift": "Common Coffee",
+        "alt": "Kitten Figurine",
+        "until": "Support 3, recruit Ch 10 (filler)"
+      },
+      {
+        "unit": "Mikaela",
+        "gift": "Tales of Adventure",
+        "alt": "Garum",
+        "until": "Support 3, recruit Ch 10 (filler)"
+      },
+      {
+        "unit": "Lysander",
+        "gift": "Dagda Beard Grass",
+        "until": "Support 3, recruit Ch 10 (filler)",
+        "note": "Buy several on the Orens trip"
+      },
+      {
+        "unit": "Nezha",
+        "gift": "Tales of Adventure",
+        "alt": "Training Bracelet",
+        "until": "Support 3, recruit Ch 10 (filler)"
+      },
+      {
+        "unit": "Jester",
+        "gift": "Board-Game Tactics",
+        "until": "Support 3, recruit Ch 11 (filler)",
+        "note": "Buy several on the Breston trip",
+        "alt": "Home-Recipe Book"
+      },
+      {
+        "unit": "Seteth",
+        "gift": "Poems of the Greats",
+        "alt": "Common Coffee",
+        "until": "Support 3, recruit Ch 11 (filler)"
+      }
+    ],
+    "weekly": [
+      {
+        "text": "Short of Support? Replay this chapter for meals: hold them, Restart Chapter, save at the end",
+        "detail": [
+          "Support is global, so the loop covers every recruit and filler. Source: RPG Site's support guide."
+        ]
+      },
+      {
+        "text": "Ch 9 runs 7 weeks: dungeon parties with the new recruits on the link-attack side (MVP EXP)"
+      }
+    ]
+  },
+  "missables": [
+    {
+      "id": "leda-ch09-missables-dancers-necklace",
+      "kind": "item",
+      "text": "Do Great Dancer's Successor on this trip: its [[item:Dancer's Necklace]] makes Leda a Dancer",
+      "when": "10/15",
+      "where": "Baina Oasis",
+      "lose": "The Dancer's Necklace, so Leda's Dancer class",
+      "recover": "None known",
+      "conf": "?"
+    },
+    {
+      "id": "leda-ch09-missables-creek",
+      "kind": "recruit-window",
+      "text": "Clear My Late Sister's Accessory if it shows up: it is what lets Creek join in Part II",
+      "when": "10/15",
+      "lose": "The Part II join for Creek",
+      "recover": "None known",
+      "conf": "?",
+      "detail": [
+        "Semi-random: one guide sees it in Ch 9 on Leda's route, another can't pin it down."
+      ]
+    },
+    {
+      "id": "leda-ch09-missables-sirocco-scene",
+      "kind": "scene",
+      "text": "Meet Sirocco at Temple Row at 18:00, then follow him to Hightown for a second scene",
+      "where": "Temple Row",
+      "lose": "Two optional Sirocco scenes",
+      "recover": "None known"
+    }
+  ],
+  "classes": {
+    "note": {
+      "text": "Renown is 7 to 8 here: Advanced (Renown 8) opens at the very end of Ch 9 at best, so plan for Ch 10",
+      "detail": [
+        "Renown 8 before 9/1? Take any unit already at Lv 35, in the ledger order.",
+        "Sirocco stays Shaman until Ovate opens in Ch 10.",
+        "Ludia, Inyoni and Halvin join near Lv 15: Specialty at Lv 20, late Ch 9 (Ch 10 if it slips)."
+      ]
+    },
+    "override": [
+      {
+        "unit": "Esmeralda",
+        "text": "Armored Knight in week 1 if she missed Lv 20 in Ch 8 (the Sealed Letter License)"
+      },
+      {
+        "unit": "Inyoni",
+        "text": "Archer at Lv 20 (Bow C): Crescendo banks before her first map"
+      },
+      {
+        "unit": "Ludia",
+        "text": "Myrmidon at Lv 20 (Sword C)"
+      },
+      {
+        "unit": "Halvin",
+        "text": "Charioteer at Lv 20: Rider D (manual + Mounted) and Bow C"
+      }
+    ]
+  },
+  "gear": {
+    "buy": [
+      {
+        "text": "Buy Advanced Licenses at [[place:Megaira]] on the Saveilon trip: as many of the 7 as stock allows",
+        "detail": [
+          "So Ch 10's exams are ready. Dagsion sells them from Ch 10.",
+          "Need one less if Ogmios is open: [[place:Giant's-Print Fort]] (Lv 35) holds an Advanced License"
+        ]
+      },
+      {
+        "text": "[[place:Port of Pandora]]: three [[item:Ji]] (3,000G) and four [[item:Short Spear]]s",
+        "detail": [
+          "Ji: Catania, Jasmine, Sha Lan. Short Spears: Buccar, Esmeralda, Jasmine, Sha Lan."
+        ]
+      },
+      {
+        "text": "[[place:Orens]] (Perform run): 3 [[item:Da Mina Bow]]s: Inyoni's, plus 2 for Its Name Is Da Mina",
+        "detail": [
+          "The spares go in at Temple Row in Ch 10 (any 2 Da Mina weapons).",
+          "[[place:Baina Oasis]]: 10 Dates for Halvin's recruit."
+        ]
+      }
+    ],
+    "barter": [
+      {
+        "item": "Hexlock Shield",
+        "for": "Esmeralda (Buccar has the Dione Fort copy)",
+        "at": "Dagsion"
+      },
+      {
+        "item": "Archer's Ring",
+        "for": "Buccar (Hit +5 on his axe)",
+        "at": "Dagsion"
+      },
+      {
+        "item": "Short Axe",
+        "for": "Dadao's Part II kit",
+        "at": "Dagsion"
+      },
+      {
+        "item": "Giant's Ring",
+        "for": "Dadao, after his first goes to Esmeralda",
+        "at": "Alecto",
+        "note": "Second copy"
+      },
+      {
+        "item": "Levin Sword",
+        "for": "Sirocco, optional: only for this map (Io brings one on 9/28)",
+        "at": "Dagsion"
+      }
+    ],
+    "assign": [
+      {
+        "item": "Hammer",
+        "to": "Esmeralda",
+        "why": "Dadao's, in prep: Brawn makes it Wt 16"
+      },
+      {
+        "item": "Giant's Ring",
+        "to": "Esmeralda",
+        "why": "Dadao's, with the Hammer: Bld +4"
+      },
+      {
+        "item": "Riding Manual",
+        "to": "Halvin",
+        "why": "Rubess Forest copy, read the day he joins: Rider D for Charioteer"
+      },
+      {
+        "item": "Heavy-Armor Manual",
+        "to": "Jasmine",
+        "why": "Nemea Cavern copy: Heavy D for Dreadnought"
+      }
+    ],
+    "note": [
+      {
+        "text": "Blacksmith: Inyoni's [[item:Da Mina Bow +2]] (rare ore), Halvin's [[item:Wooden Bow +5]] on his join",
+        "detail": [
+          "Rare ores short for the Da Mina? Inyoni takes a [[item:Wooden Bow]] to +5 (common ore) instead.",
+          "Halvin's Wooden Bow is the second Yaaman copy from Ch 4."
+        ],
+        "conf": "?"
+      }
+    ]
+  },
+  "recruits": [
+    {
+      "unit": "Inyoni",
+      "action": "Pay 3,000G in week 1 (Renown 7): main archer, trains in Ch 9 and deploys from Ch 10",
+      "when": "Week 1 (in Dagsion from about 7/10)",
+      "detail": [
+        "She joins at about Lv 15 with a [[item:War Bow]] (one player test): Archer at Lv 20, Bow C from Infantry.",
+        "EXP: every Ch 9 dungeon party; she sits the Cai battle (its 8 slots are set).",
+        "Leda's Mini Bow and Archer's Ring go to her in Ch 10 prep."
+      ]
+    },
+    {
+      "unit": "Halvin",
+      "action": "Hand over the 10 Dates from Baina Oasis once Support 3 and Renown 7 land: bench archer",
+      "when": "After the Baina trip",
+      "detail": [
+        "He joins at about Lv 15: read the Riding Manual at once, then Arena Mounted for Rider D.",
+        "Charioteer at Lv 20 (late Ch 9) with Bow C; give him the Horsekiller Bow and his Wooden Bow +5.",
+        "EXP: dungeon parties with Inyoni and Ludia for the rest of Ch 9."
+      ]
+    }
+  ],
+  "prep": [
+    {
+      "text": "Ludia not in yet (Renown 7 came late)? Recruit her in week 1: her row is in Ch 8"
+    },
+    {
+      "text": "Lysander (Renown 7, filler) waits for Ch 10 week 1 with the other fillers"
+    }
+  ],
+  "quests": {
+    "route": [
+      {
+        "quest": "dance-for-orens",
+        "note": "Do most of the six dances now: the main push toward Renown 8 for Ch 10",
+        "detail": [
+          "150 to 200 Renown, crates and 5,000G each. All six are due 11/27."
+        ]
+      },
+      {
+        "quest": "dance-for-port-of-pandora",
+        "note": "Do Captain's and Popular Drink Recipes on this trip"
+      },
+      {
+        "quest": "dance-for-mahon-castle-town"
+      },
+      {
+        "quest": "dance-for-twalinn"
+      },
+      {
+        "quest": "dance-for-breston"
+      },
+      {
+        "quest": "dance-for-whill"
+      },
+      {
+        "quest": "captains-drink-recipes",
+        "note": "The Search node is past Port of Pandora: do it on that dance trip",
+        "detail": [
+          "Song of Icewater goes to +7 for Ch 10 to 12."
+        ]
+      },
+      {
+        "quest": "popular-drink-recipes",
+        "note": "Same Search node, same trip",
+        "detail": [
+          "Song of Passion goes to +7 for Ch 10 to 12."
+        ]
+      }
+    ],
+    "sub": [
+      {
+        "quest": "great-dancers-successor",
+        "note": "Leda only, starts on its own: do it on this desert trip; buy the 20 Dates in Baina"
+      },
+      {
+        "quest": "even-more-fabled-insect-pearls",
+        "note": "Finish it by 9/1: the listed 9/16 falls in the gap before Ch 10"
+      },
+      {
+        "quest": "my-late-sisters-accessory",
+        "offered": "if-offered",
+        "note": "Violet Brooch from [[place:Axion Gorge]]: Creek's Part II join"
+      },
+      {
+        "quest": "another-challenge",
+        "offered": "if-offered"
+      },
+      {
+        "quest": "spellcasters-in-the-forest",
+        "offered": "if-offered"
+      },
+      {
+        "quest": "something-a-god-eats",
+        "offered": "if-offered",
+        "note": "Rahlan from Port of Pandora"
+      },
+      {
+        "quest": "missing-customer",
+        "offered": "if-offered"
+      }
+    ],
+    "paralogue": []
+  },
+  "explore": [
+    {
+      "group": "Desert trip",
+      "text": "Plan the whole loop to [[place:Baina Oasis]] first: red paths vanish behind you",
+      "detail": [
+        "You move 1 to 2 nodes per turn. Reaching Baina once opens a permanent green shortcut.",
+        "Finish the quests that end 10/15 on the same trip: the path guide routes them through the desert.",
+        "Skipped Dragonbone Tangle in Ch 7? Clear it now: Sha Lan's Hexlock Shield."
+      ]
+    },
+    {
+      "group": "Saveilon trip",
+      "text": "On the Megaira trip, pick up the [[place:Lake Brontes]] statue for Legacy of a Legendary Sculptor"
+    },
+    {
+      "group": "Dungeons (up to Lv 35)",
+      "text": "Bench EXP: Cave Behind the Falls, Cougar Woodlands, Sand-Shadow Fort with Inyoni, Ludia, Halvin",
+      "detail": [
+        "Fifth seat: Guzran or Esmeralda as the carry; feed the Lv 15 joins the kills.",
+        "Link attacks raise their Supports too. Lv 28+ dungeons wait until they reach Lv 20.",
+        "Jasmine and Fianna rotate in once a joiner hits Lv 20."
+      ]
+    },
+    {
+      "group": "Dungeons (up to Lv 35)",
+      "text": "Mine rare ores on every run: Cullet (Aditi's Cave), Windstone (Cougar Woodlands, Stoppered Shrine)",
+      "detail": [
+        "Blue Snoll: [[place:Iapetus Cavern]]. They pay Inyoni's Da Mina Bow +2 and any special still short of +2."
+      ]
+    },
+    {
+      "group": "Dungeons (up to Lv 35)",
+      "id": "leda-ch09-explore-aditis-cave",
+      "loot": true,
+      "text": "[[place:Aditi's Cave]] (Lv 28, Nysiades): Archive L for Sirocco, read it at once",
+      "detail": [
+        "Kill 3 Sandworms here for Nezha's Sandworm Meat (Ch 10 to 11 filler). Lv 20+ party only."
+      ]
+    },
+    {
+      "group": "Dungeons (up to Lv 35)",
+      "id": "leda-ch09-explore-iapetus-cavern",
+      "loot": true,
+      "text": "[[place:Iapetus Cavern]] (Lv 32, Solidus): Archive θ for Sirocco, read it at once",
+      "detail": [
+        "Also a Black-Magic Manual. Can't clear it yet? Do it in Ch 11."
+      ]
+    },
+    {
+      "group": "Dungeons (up to Lv 35)",
+      "id": "leda-ch09-explore-nemea-cavern",
+      "loot": true,
+      "text": "[[place:Nemea Cavern]] (Lv 30, Pasithea): a second [[item:Hammer]] for Dadao, Heavy-Armor Manual",
+      "detail": [
+        "The manual is Jasmine's: read it at once (Heavy D). Also an [[item:Elixir]]."
+      ]
+    },
+    {
+      "group": "Dungeons (up to Lv 35)",
+      "text": "[[place:Cave Behind the Falls]] (Lv 22, Castalia): [[item:Pure Water]]; skip its Archive B",
+      "detail": [
+        "Mire Β (Mt 3) has no job here: read it on anyone or leave it."
+      ]
+    },
+    {
+      "group": "Dungeons (up to Lv 35)",
+      "text": "[[place:Cougar Woodlands]] (Lv 23, Braxithea): [[item:Muen]], a cursed spear",
+      "id": "leda-ch09-explore-cougar-woodlands",
+      "detail": [
+        "Muen is cursed (Curse 2): hold it to the end of Part I (Drifting Reliquary).",
+        "Part III: Eshmel's gauge brake (his build page)."
+      ],
+      "loot": true
+    },
+    {
+      "group": "Dungeons (up to Lv 35)",
+      "text": "Sand-Shadow Fort (Lv 23, Nysiades): [[item:Gundogya]], a cursed axe, Large Bullion",
+      "detail": [
+        "A Giant always spawns there, for Giant's Meat.",
+        "Gundogya is cursed (Curse 1): hold it to the end of Part I (Drifting Reliquary)."
+      ],
+      "id": "leda-ch09-explore-sand-shadow-fort",
+      "loot": true
+    },
+    {
+      "group": "Dungeons (up to Lv 35)",
+      "text": "Run [[place:Stoppered Shrine]] (Lv 25, Idyia) with the meal pairs: [[item:Velheit]], Flower Painting",
+      "id": "leda-ch09-explore-stoppered-shrine",
+      "detail": [
+        "Velheit is cursed (Curse 1): hold it to the end of Part I (Drifting Reliquary).",
+        "Part III: Orchel's axe (Automaton: Curse never moves her gauge)."
+      ],
+      "loot": true
+    },
+    {
+      "group": "Dungeons (up to Lv 35)",
+      "text": "Skip Southern Passage, Northern Passage, Enno Isle and Uncharted Isle: closed to Leda in Part I"
+    }
+  ],
+  "battle": {
+    "title": "Main Match vs. Cai",
+    "objective": "Defeat Cai",
+    "lose": "Leda falls",
+    "tips": [
+      {
+        "text": "Buccar defects to you on Turn 1 and stays after the battle"
+      },
+      {
+        "text": "Maria summons enemies on Turn 3. The explosives hit hard: use them"
+      },
+      {
+        "text": "Armor: Esmeralda's [[item:Hammer]], then a Dance into the next knight; Guzran's [[item:Flyssa]]"
+      },
+      {
+        "text": "Sirocco takes the [[item:Levin Sword]] only if you bartered it and he has Sword C"
+      }
+    ]
+  }
+}

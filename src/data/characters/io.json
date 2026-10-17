@@ -1,0 +1,917 @@
+{
+  "name": "Io",
+  "slug": "io",
+  "epithet": "Knight-errant of Arago",
+  "faction": "Neutral",
+  "homeRoute": "Leda",
+  "weapons": [
+    "Spear",
+    "Axe"
+  ],
+  "preferred": [
+    "Axe",
+    "Rider",
+    "Spear"
+  ],
+  "personality": "Chivalrous, independent ex-knight devoted to his horse Rocinan.",
+  "story": "A former knight of Arago who left in disgust at the king's self-righteousness and now works as a mercenary. He rides Rocinan, inherited from his late father. Cheapest on Dietrich's route (Renown 3, Support 2, 800G); 4000G on Cai and Theodora routes.",
+  "personalSkill": {
+    "name": "With My Steed",
+    "effect": "(Cavalry) If unit attacks first, Shld+3 and Ddg+30 during combat. Lv20: Mounted Push (Hit+10); Lv35: Mounted Push+ (adds Atk+3)."
+  },
+  "growths": {
+    "HP": 45,
+    "Str": 40,
+    "Mag": 25,
+    "Spd": 35,
+    "Dex": 45,
+    "Def": 40,
+    "Res": 25,
+    "Lck": 35,
+    "Cha": 35
+  },
+  "supports": [
+    "Diego",
+    "Tialla"
+  ],
+  "tiers": [
+    {
+      "source": "Pocket Tactics",
+      "tier": "B"
+    },
+    {
+      "source": "KeenGamer",
+      "tier": "B"
+    }
+  ],
+  "tierNotes": "Pocket Tactics B; KeenGamer B.",
+  "recruit": {
+    "how": "recruit",
+    "renown": 6,
+    "extra": "Gold cost varies by path",
+    "why": [
+      "Filler on Leda's route: recruit him on 9/28 (Ch 10 week 1) for the Levin Sword he carries. It goes to Sirocco.",
+      "Renown 6 opens him in late Ch 7, but before Ch 10 he brings no Levin Sword."
+    ],
+    "tip": "1,500G and Renown 6 here. Bench him; field him in Part II only if a slot opens."
+  },
+  "requirements": {
+    "Cai": "3S 10R (4,000G)",
+    "Dietrich": "2S 3R (800G)",
+    "Theodora": "3S 10R (4,000G)",
+    "Leda": "1S 6R (1,500G)"
+  },
+  "build": {
+    "role": "Filler: Levin Sword carrier (optional Part II Charioteer)",
+    "path": [
+      "Join class (filler, Ch 10 to 12)",
+      "Charioteer (Part II Ch 1, only if fielded)"
+    ],
+    "part1Target": "Filler (Levin Sword)",
+    "part3Target": "Charioteer (Lv 45 step)",
+    "notes": "Filler on Leda's route. Recruit him on 9/28 for the Levin Sword he carries and hand it to Sirocco. He sits on the bench; if a Part II slot opens and he has Rider D and Bow C, he is a Charioteer on his own horse Rocinan.",
+    "confidence": "medium"
+  },
+  "guide": {
+    "role": "Filler: Levin Sword carrier (optional Part II Charioteer)",
+    "summary": "Filler on Leda's route: recruit him on 9/28 (Ch 10) for the [[item:Levin Sword]] he carries, and give it to Sirocco the same day. He sits on the bench; field him in Part II only if one of the 15 slots opens, as a [[class:Charioteer]] on his own horse Rocinan (Def 80 growth from Lv 35).",
+    "playstyle": "If he deploys: attack first so With My Steed (Shld +3, Ddg +30) and Mounted Push fire, then hold behind Charger's Prt +10.",
+    "focus": [
+      "Def",
+      "HP",
+      "Dex"
+    ],
+    "keys": [
+      "Recruit him on 9/28 (Renown 6, 1,500G); hand Sirocco his Levin Sword",
+      "Bench him: Arena seats go to Fianna, Halvin and Sha Lan first",
+      "Field him in Part II only if a slot opens and Rider D and Bow C landed",
+      "If fielded: Charioteer on Rocinan, master Charger, never leave the class"
+    ],
+    "watch": [
+      "Role: filler. He is the 16th unit for 15 Part II slots",
+      "Bow C: not a preferred skill, and he only gets spare Infantry seats",
+      "Rocinan: no source says when he has it on Leda's route ?",
+      "Weight: Horsekiller Bow 8 + Silver Shield 4 = 12. He can't dodge, so the shield stays",
+      "Supports: none in this army (Diego and Tialla aren't recruited here)"
+    ],
+    "stages": [
+      {
+        "when": "Join 9/28 · filler",
+        "from": {
+          "part": 1,
+          "ch": 10,
+          "at": "early"
+        },
+        "to": {
+          "part": 1,
+          "ch": 12
+        },
+        "level": "About Lv 25 on joining",
+        "class": "",
+        "kind": "bench",
+        "goal": "Filler: recruit him for the Levin Sword (to Sirocco). Bench all of Part I; Arena only on spare seats.",
+        "exit": "Part II: field him only if a slot opens and Rider D and Bow C landed",
+        "masteries": [],
+        "weapons": [
+          {
+            "item": "Horsekiller Bow",
+            "why": "Hold at 11/27 if you may field him: Wt 8"
+          },
+          {
+            "item": "Mini Bow",
+            "why": "Range 1-2: counters adjacent foes",
+            "plan": "Quality Weapon Crates (random)"
+          }
+        ],
+        "equipment": [
+          {
+            "item": "Silver Shield",
+            "why": "Def +5, Wt 4 on a unit that can't dodge",
+            "slot": "Defense",
+            "alts": [
+              "Iron Shield"
+            ]
+          }
+        ],
+        "items": [
+          {
+            "item": "Concoction",
+            "why": "Heals 40; Elixirs go to the core first",
+            "alts": [
+              "Vulnerary"
+            ]
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Mounted Push",
+            "why": "Personal Lv 20: Hit +10 when he attacks first, if mounted"
+          }
+        ],
+        "training": [
+          {
+            "rank": "Rider D",
+            "for": "Charioteer (only if fielded)",
+            "how": "Arena Mounted on a spare seat"
+          },
+          {
+            "rank": "Bow C",
+            "for": "Charioteer (only if fielded)",
+            "how": "Arena Infantry on a spare seat"
+          }
+        ],
+        "drop": [
+          {
+            "item": "Levin Sword",
+            "why": "To Sirocco on 9/28 for the armored Ch 10 map"
+          }
+        ],
+        "tips": [
+          "He joins at about Lv 25 in a Specialty class; which one is unknown",
+          "Part II brings only what he holds at 11/27: two bows, the shield, a Concoction"
+        ]
+      },
+      {
+        "when": "Part II Ch 1 · if a slot opens",
+        "from": {
+          "part": 2,
+          "ch": 1
+        },
+        "to": {
+          "part": 2,
+          "ch": 1
+        },
+        "level": "Lv 34 (Army Training 1)",
+        "class": "Charioteer",
+        "kind": "core",
+        "mount": "Rocinan (his own horse; when he has it ?)",
+        "goal": "If fielded: Charge lines the core has softened; With My Steed and Mounted Push fire when he attacks first.",
+        "exit": "Army Training 2 lifts him to Lv 35: the Rocinan step (Def 80, HP 75 growth)",
+        "masteries": [],
+        "weapons": [
+          {
+            "item": "Horsekiller Bow",
+            "why": "Main bow, Wt 8: effective vs cavalry and fliers"
+          },
+          {
+            "item": "Mini Bow",
+            "why": "Range 1-2: counters adjacent foes",
+            "plan": "Quality Weapon Crates (random)"
+          }
+        ],
+        "equipment": [
+          {
+            "item": "Silver Shield",
+            "why": "Def +5, Wt 4 on a unit that can't dodge",
+            "slot": "Defense",
+            "alts": [
+              "Iron Shield"
+            ]
+          }
+        ],
+        "items": [
+          {
+            "item": "Concoction",
+            "why": "Heals 40; Elixirs go to the core first",
+            "alts": [
+              "Vulnerary"
+            ]
+          }
+        ],
+        "arts": [
+          {
+            "name": "Vital Shot",
+            "why": "Bow D: Crit +5"
+          },
+          {
+            "name": "Surprise Shot",
+            "why": "Bow C: Atk +5 on full-HP foes (30%)"
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Mounted Push",
+            "why": "Personal Lv 20: Hit +10 when he attacks first, if the chariot counts as Cavalry ?"
+          },
+          {
+            "name": "Charger",
+            "why": "Charioteer mastery: Prt +10 after Charge (once mastered)"
+          },
+          {
+            "name": "Bows Lv. 1",
+            "why": "Bow D+: Hit +3"
+          },
+          {
+            "name": "Bows Lv. 2",
+            "why": "Bow C+ ?: Hit +5"
+          }
+        ],
+        "checks": [
+          {
+            "stat": "Def",
+            "at": "Part II Ch 1 (Lv 34)",
+            "need": "The Ch 1 Warrior's forecast takes under 1/3 of his HP",
+            "why": "He can't dodge: Def is his whole defense",
+            "fix": [
+              "[[item:Silver Shield]] (Def +5, Wt 4) over the Iron Shield",
+              "Ride Rocinan: Charioteer doubles its Def growth",
+              "[[item:Dew of Protection]] (half damage) on the turn he soaks"
+            ]
+          }
+        ],
+        "tips": [
+          "Part II gives 5 Specialty Licenses per chapter: Charioteer costs one"
+        ]
+      },
+      {
+        "when": "Part II Ch 2–6 · Lv 35 step",
+        "from": {
+          "part": 2,
+          "ch": 2
+        },
+        "to": {
+          "part": 2,
+          "ch": 6
+        },
+        "level": "Lv 35 to 42",
+        "class": "Charioteer",
+        "kind": "core",
+        "mount": "Rocinan (his own horse; when he has it ?)",
+        "goal": "Rocinan step: HP 75, Def 80 growth. Mounted Push+ (Hit +10, Atk +3) on player phase; Chariot Armor after.",
+        "exit": "Stay Charioteer: the Lv 45 step comes in Part III",
+        "masteries": [
+          "Charger"
+        ],
+        "weapons": [
+          {
+            "item": "Horsekiller Bow",
+            "why": "Main bow, Wt 8: effective vs cavalry and fliers"
+          },
+          {
+            "item": "Mini Bow",
+            "why": "Range 1-2: counters adjacent foes",
+            "plan": "Quality Weapon Crates (random)"
+          }
+        ],
+        "equipment": [
+          {
+            "item": "Silver Shield",
+            "why": "Def +5, Wt 4 on a unit that can't dodge",
+            "slot": "Defense",
+            "alts": [
+              "Iron Shield"
+            ]
+          }
+        ],
+        "items": [
+          {
+            "item": "Concoction",
+            "why": "Heals 40; Elixirs go to the core first",
+            "alts": [
+              "Vulnerary"
+            ]
+          }
+        ],
+        "arts": [
+          {
+            "name": "Vital Shot",
+            "why": "Bow D: Crit +5"
+          },
+          {
+            "name": "Surprise Shot",
+            "why": "Bow C: Atk +5 on full-HP foes (30%)"
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Mounted Push+",
+            "why": "Personal Lv 35: Hit +10, Atk +3 when he attacks first"
+          },
+          {
+            "name": "Charger",
+            "why": "Charioteer mastery: Prt +10 after Charge (once mastered)"
+          },
+          {
+            "name": "Bows Lv. 2",
+            "why": "Bow C+ ?: Hit +5"
+          },
+          {
+            "name": "Bows Lv. 1",
+            "why": "Bow D+: Hit +3"
+          }
+        ],
+        "tips": [
+          "Ch 4 wants 3 to 4 bows: he is the fourth if fielded"
+        ]
+      },
+      {
+        "when": "Part III · Lv 45 step",
+        "from": {
+          "part": 3
+        },
+        "level": "Lv 45+",
+        "class": "Charioteer",
+        "kind": "core",
+        "mount": "Rocinan (his own horse; when he has it ?)",
+        "goal": "Lv 45 step: Def 90, Str 60, Dex 80. Undead: no sword, so fight inside Leda's Song of Abjuring ring.",
+        "exit": "Final class.",
+        "masteries": [],
+        "weapons": [
+          {
+            "item": "Horsekiller Bow",
+            "why": "Main bow, Wt 8"
+          },
+          {
+            "item": "Mini Bow",
+            "why": "Range 1-2: counters adjacent foes",
+            "plan": "Quality Weapon Crates (random)"
+          }
+        ],
+        "equipment": [
+          {
+            "item": "Silver Shield",
+            "why": "Def +5, Wt 4",
+            "slot": "Defense",
+            "alts": [
+              "Iron Shield"
+            ]
+          },
+          {
+            "item": "Giant's Ring",
+            "why": "Bld +4 at Wt 0 cancels the shield; Avo −20 costs a chariot nothing",
+            "slot": "Accessory",
+            "alts": [
+              "Archer's Ring"
+            ],
+            "plan": "Halvin takes the other"
+          }
+        ],
+        "items": [
+          {
+            "item": "Elixir",
+            "why": "Heals 100",
+            "alts": [
+              "Concoction"
+            ]
+          }
+        ],
+        "arts": [
+          {
+            "name": "Vital Shot",
+            "why": "Bow D: Crit +5"
+          },
+          {
+            "name": "Surprise Shot",
+            "why": "Bow C: Atk +5 on full-HP foes (30%)"
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Mounted Push+",
+            "why": "Personal Lv 35: Hit +10, Atk +3 when he attacks first"
+          },
+          {
+            "name": "Charger",
+            "why": "Charioteer mastery: Prt +10 after Charge"
+          },
+          {
+            "name": "Bows Lv. 2",
+            "why": "Bow C+ ?: Hit +5"
+          },
+          {
+            "name": "Bows Lv. 1",
+            "why": "Bow D+: Hit +3"
+          }
+        ],
+        "tips": [
+          "Underworld Boon: fight undead inside Leda's ring or within 2 of Eshmel"
+        ]
+      }
+    ],
+    "alt": "Armored Ornius Rider (Sense Threat, Mov 7) if he gets a slot but Bow never reaches C. No Part II detour: Sniper would trade the Lv 35 step for Def 45 and HP 55.",
+    "sources": [
+      "class-and-weapon-guide",
+      "growth.py",
+      "mounts.json",
+      "class-data",
+      "character-learnsets",
+      "weapons-and-items",
+      "hard-mode-video-notes",
+      "part2-war"
+    ],
+    "routeNotes": [
+      {
+        "system": "Supports",
+        "note": "No partners in this army: his two, Diego and Tialla, aren't recruited on Leda's route. Skip his meal seats."
+      }
+    ],
+    "decisions": [
+      {
+        "topic": "Recruit him on 9/28",
+        "pick": "Ch 10 week 1: Renown 6, 1,500G",
+        "why": "Before Ch 10 he brings no Levin Sword. On 9/28 he hands Sirocco a free one for the armored Ch 10 map, so the Vandahl barter (Thry Fruit x10 + Yuna Mei x1) is optional.",
+        "else": "Skip him and barter the Levin Sword in Ch 9"
+      },
+      {
+        "topic": "Bench him unless a slot opens",
+        "pick": "Part II only, as a Charioteer",
+        "why": "Leda's 15 Part II slots go to the core and the five bench builds. If a guest doesn't take a slot or a unit falls behind, he is a Def 80-growth chariot from Ch 2.",
+        "else": "Keep him benched all game"
+      }
+    ],
+    "gates": [
+      {
+        "route": "Leda",
+        "from": {
+          "part": 1,
+          "ch": 10
+        },
+        "by": {
+          "part": 1,
+          "ch": 10
+        },
+        "kind": "recruit",
+        "text": "Recruit Io on 9/28 (1,500G): his Levin Sword goes to Sirocco for Ch 10"
+      },
+      {
+        "route": "Leda",
+        "from": {
+          "part": 1,
+          "ch": 10
+        },
+        "by": {
+          "part": 1,
+          "ch": 12
+        },
+        "kind": "rank",
+        "text": "Spare Arena seats only: Io needs Rider D and Bow C by 11/27 to field him"
+      }
+    ]
+  },
+  "copies": [
+    {
+      "route": "Dietrich",
+      "support": 2,
+      "renown": 3,
+      "cost": "800G",
+      "chapter": 5,
+      "path": [
+        "Ornius Rider",
+        "Light Cavalry"
+      ],
+      "role": "Early mounted skirmisher",
+      "part1": "Light Cavalry",
+      "why": "No change. The video rates Io D. Home Io runs Armored Ornius Rider, and Light Cavalry is the only other mounted Part I class he fits here.",
+      "guide": {
+        "summary": "Early mounted skirmisher (second copy; home Io is the Armored Ornius Rider on Leda's route). Here he goes Light Cavalry, scouts, and finishes weakened foes rather than holding a line.",
+        "stages": [
+          {
+            "when": "Join (Ch 5) to Ch 6 (Beginner)",
+            "from": {
+              "part": 1,
+              "ch": 5
+            },
+            "to": {
+              "part": 1,
+              "ch": 6
+            },
+            "class": "Ornius Rider",
+            "training": [
+              {
+                "rank": "Rider D, Spear C, Sword C",
+                "for": "Light Cavalry exam",
+                "how": "Mounted Training (Spear, Rider), Infantry Training (Sword) from Ch 5"
+              }
+            ],
+            "tips": [
+              "Recruit: Support 2, Renown 3, 800G",
+              "Ch 5 Shadowy Cave: send him and Yang Jie to the far left switch",
+              "With My Steed (Shld +3, Ddg +30 when he attacks first, mounted) is his personal skill: always on, no slot"
+            ],
+            "weapons": [
+              {
+                "item": "Iron Spear"
+              },
+              {
+                "item": "Javelin"
+              },
+              {
+                "item": "Iron Sword",
+                "plan": "Use for Sword EXP"
+              }
+            ],
+            "arts": [
+              {
+                "name": "Tempest Spear",
+                "why": "Hit +10; Spear D per community sheet"
+              },
+              {
+                "name": "Wrath Strike",
+                "why": "Hit +10; Sword D per community sheet"
+              }
+            ],
+            "abilities": [
+              {
+                "name": "Offense Basics",
+                "why": "Ornius Rider mastery: Str/Mag +1 (once mastered)"
+              },
+              {
+                "name": "Spears Lv. 1",
+                "why": "Spear D+ rank ability (threshold per fortunesweave.co.uk, unverified; check the skill list): Hit +3 with spears"
+              }
+            ],
+            "goal": "Riding D, Spear C, Sword C for Light Cavalry. With My Steed (mounted, attacks first: Shld +3, Ddg +30): he fights on player phase.",
+            "items": [
+              {
+                "item": "Concoction",
+                "why": "Heals 40: he fights in melee",
+                "alts": [
+                  "Vulnerary"
+                ]
+              }
+            ],
+            "exit": "Renown 4, Lv 20, Rider D, Spear C, Sword C (Ch 6 or 7): Light Cavalry exam"
+          },
+          {
+            "when": "Ch 6 or 7 to 12 (Specialty)",
+            "from": {
+              "part": 1,
+              "ch": 6,
+              "approx": true
+            },
+            "to": {
+              "part": 1,
+              "ch": 12
+            },
+            "class": "Light Cavalry",
+            "tips": [
+              "Ch 7 battle is full of cavalry: spears are effective vs cavalry",
+              "Riding Manual can go to him or Ursula",
+              "Mounted Push (Lv 20, + at Lv 35) comes with his personal skill: always on, no slot"
+            ],
+            "weapons": [
+              {
+                "item": "Ridersbane",
+                "alts": [
+                  "Da Mina Spear"
+                ],
+                "why": "Effective+ vs cavalry: the Ch 6 and 7 maps are full of it"
+              },
+              {
+                "item": "Da Mina Spear"
+              },
+              {
+                "item": "Short Spear",
+                "alts": [
+                  "Javelin"
+                ]
+              },
+              {
+                "item": "Iron Sword",
+                "plan": "Use for Sword EXP"
+              }
+            ],
+            "arts": [
+              {
+                "name": "Defending Spear",
+                "why": "Shld +3; Spear C per community sheet"
+              },
+              {
+                "name": "Crosswise Cut",
+                "why": "Dex +2 stacking; Sword C per community sheet"
+              },
+              {
+                "name": "Tempest Spear",
+                "why": "Hit +10; Spear D per community sheet"
+              },
+              {
+                "name": "Wrath Strike",
+                "why": "Hit +10; Sword D per community sheet"
+              }
+            ],
+            "abilities": [
+              {
+                "name": "Bolster Health",
+                "why": "Light Cavalry mastery, max HP +3 (once mastered)"
+              },
+              {
+                "name": "Offense Basics",
+                "why": "Ornius Rider mastery: Str/Mag +1"
+              },
+              {
+                "name": "Spears Lv. 2",
+                "why": "Spear C+ rank ability (threshold per fortunesweave.co.uk, unverified; check the skill list): Hit +5 with spears"
+              }
+            ],
+            "drop": [
+              {
+                "item": "Iron Spear",
+                "why": "Replaced by the Da Mina Spear and Ridersbane"
+              },
+              {
+                "item": "Javelin",
+                "why": "The Short Spear covers range 1-2 (Javelin only until you have one)"
+              }
+            ],
+            "goal": "Bolster Health and a player-phase lance. Mounted Push (Lv 20): Hit +10 when he attacks first, which offsets the Ridersbane's Hit 70.",
+            "items": [
+              {
+                "item": "Concoction",
+                "why": "Heals 40; part of his 11/27 stock",
+                "alts": [
+                  "Vulnerary"
+                ]
+              }
+            ],
+            "exit": "Stay Light Cavalry into Part II"
+          },
+          {
+            "when": "Part II",
+            "from": {
+              "part": 2
+            },
+            "class": "Light Cavalry",
+            "tips": [
+              "Our only fast mover for the Ch 2 fleeing Rangers (the guide asks for fliers)",
+              "Equip his best spear before leaving Part I"
+            ],
+            "weapons": [
+              {
+                "item": "Silver Spear",
+                "why": "Mt 20, Wt 6: everyday spear; Ridersbane for cavalry",
+                "alts": [
+                  "Da Mina Spear"
+                ]
+              },
+              {
+                "item": "Ridersbane",
+                "situational": "Cavalry maps: open slot, held from 11/27"
+              },
+              {
+                "item": "Short Spear"
+              },
+              {
+                "item": "Iron Sword",
+                "plan": "Use for Sword EXP"
+              }
+            ],
+            "arts": [
+              {
+                "name": "Defending Spear",
+                "why": "Shld +3; Spear C per community sheet"
+              },
+              {
+                "name": "Crosswise Cut",
+                "why": "Dex +2 stacking; Sword C per community sheet"
+              },
+              {
+                "name": "Tempest Spear",
+                "why": "Hit +10; Spear D per community sheet"
+              },
+              {
+                "name": "Wrath Strike",
+                "why": "Hit +10; Sword D per community sheet"
+              }
+            ],
+            "abilities": [
+              {
+                "name": "Bolster Health",
+                "why": "Light Cavalry mastery, max HP +3"
+              },
+              {
+                "name": "Offense Basics",
+                "why": "Ornius Rider mastery: Str/Mag +1"
+              },
+              {
+                "name": "Spears Lv. 2",
+                "why": "Spear C+ rank ability (threshold per fortunesweave.co.uk, unverified; check the skill list): Hit +5 with spears"
+              }
+            ],
+            "drop": [
+              {
+                "item": "Javelin",
+                "why": "Short Spear covers range 1-2"
+              },
+              {
+                "item": "Da Mina Spear",
+                "why": "Only the Silver Spear's fallback (alts)"
+              }
+            ],
+            "goal": "Mounted Push+ (Lv 35): Hit +10, Atk +3 when he attacks first; Silver Spear 6, no shield, so he still doubles.",
+            "items": [
+              {
+                "item": "Concoction",
+                "why": "Heals 40; stocked before 11/27 (no Part II shops)",
+                "alts": [
+                  "Vulnerary"
+                ]
+              }
+            ],
+            "exit": "Part III: merge with the home copy, then Great Knight"
+          },
+          {
+            "when": "Part III goal · merged with home copy",
+            "from": {
+              "part": 3
+            },
+            "class": "Great Knight",
+            "tips": [
+              "Merge Causality from Section 2 (Karma Shards)",
+              "Great Knight needs Heavy D, Riding D, Axe A, Spear A and Credna's request"
+            ],
+            "weapons": [
+              {
+                "item": "Silver Spear",
+                "why": "Mt 20, Wt 6: everyday spear; Ridersbane for cavalry",
+                "alts": [
+                  "Da Mina Spear"
+                ]
+              },
+              {
+                "item": "Ridersbane",
+                "situational": "Cavalry maps: open slot"
+              },
+              {
+                "item": "Short Spear"
+              },
+              {
+                "item": "Iron Sword",
+                "plan": "Use for Sword EXP"
+              }
+            ],
+            "arts": [
+              {
+                "name": "Defending Spear",
+                "why": "Shld +3; Spear C per community sheet"
+              },
+              {
+                "name": "Crosswise Cut",
+                "why": "Dex +2 stacking; Sword C per community sheet"
+              },
+              {
+                "name": "Tempest Spear",
+                "why": "Hit +10; Spear D per community sheet"
+              },
+              {
+                "name": "Wrath Strike",
+                "why": "Hit +10; Sword D per community sheet"
+              }
+            ],
+            "abilities": [
+              {
+                "name": "Fierce Shield",
+                "why": "Great Knight mastery: 50% chance of half damage when he attacks first (once mastered)"
+              },
+              {
+                "name": "Bolster Health",
+                "why": "Light Cavalry mastery, max HP +3"
+              },
+              {
+                "name": "Offense Basics",
+                "why": "Ornius Rider mastery: Str/Mag +1"
+              },
+              {
+                "name": "Spears Lv. 2",
+                "why": "Spear C+ rank ability (threshold per fortunesweave.co.uk, unverified; check the skill list): Hit +5 with spears"
+              }
+            ],
+            "equipment": [
+              {
+                "item": "Silver Shield",
+                "slot": "Defense",
+                "why": "Def +5, Wt 4 once he is armored cavalry",
+                "alts": [
+                  "Iron Shield"
+                ]
+              }
+            ],
+            "goal": "Merge, then Great Knight (armored cavalry): the Silver Shield is fine there, and Mounted Push+ still rewards attacking first.",
+            "drop": [
+              {
+                "item": "Da Mina Spear",
+                "why": "Only the Silver Spear's fallback (alts)"
+              }
+            ],
+            "items": [
+              {
+                "item": "Elixir",
+                "why": "Heals 100: Great Knight takes hits",
+                "alts": [
+                  "Concoction"
+                ]
+              }
+            ],
+            "exit": "Final class."
+          }
+        ],
+        "arts": [
+          {
+            "name": "Protective Storm",
+            "why": "Prt +7; Spear B per community sheet"
+          },
+          {
+            "name": "Defending Spear",
+            "why": "Shld +3"
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Bolster Health",
+            "why": "HP +3"
+          },
+          {
+            "name": "Offense Basics",
+            "why": "Str +1"
+          }
+        ],
+        "specials": [
+          "Stay mounted: With My Steed and Mounted Push only work as cavalry",
+          "Video rates him D on Hard: low damage"
+        ],
+        "sources": [
+          "class plan v3",
+          "weapons-and-items",
+          "character-learnsets",
+          "class-data",
+          "hard-mode video notes",
+          "Dietrich Ch 4 to 9 walkthrough",
+          "Part III walkthrough"
+        ],
+        "watch": [
+          "Weight: Light Cavalry is no armor, so at most 3 over the weapon: Silver Spear 6 or Ridersbane 10, no shield. The Silver Shield (4) waits for Great Knight in Part III"
+        ]
+      }
+    }
+  ],
+  "sources": [
+    "https://fortunesweave.co.uk/characters/io",
+    "https://www.fortunesweavewiki.wiki/classes/Fortune-s-Weave-best-class",
+    "https://www.pockettactics.com/fire-emblem-fortunes-weave/tier-list",
+    "https://www.keengamer.com/articles/guides/fire-emblem-fortunes-weave-tier-list-best-characters-ranked-for-every-route/"
+  ],
+  "recruitOn": {
+    "Cai": {
+      "how": "recruit",
+      "support": 3,
+      "renown": 10,
+      "gold": 4000
+    },
+    "Dietrich": {
+      "how": "recruit",
+      "support": 2,
+      "renown": 3,
+      "gold": 800
+    },
+    "Theodora": {
+      "how": "recruit",
+      "support": 3,
+      "renown": 10,
+      "gold": 4000
+    },
+    "Leda": {
+      "how": "recruit",
+      "renown": 6,
+      "gold": 1500
+    }
+  }
+}

@@ -1,0 +1,1158 @@
+{
+  "name": "Lysander",
+  "slug": "lysander",
+  "epithet": "Son of the Gráinne War hero Kleitos",
+  "faction": "Megaira's Beacon",
+  "homeRoute": "Theodora",
+  "weapons": [
+    "Spear",
+    "Axe"
+  ],
+  "preferred": [
+    "Axe",
+    "Flier",
+    "Rider",
+    "Spear"
+  ],
+  "avoid": [
+    "Brawling",
+    "Heavy",
+    "Sword"
+  ],
+  "personality": "Serious and etiquette-minded, loyal and capable, but rash when chasing achievement of his own.",
+  "story": "Lysander, 20-21 (25-26 post-timeskip), is the son of Kleitos, a warrior famed for the Gráinne War, and wants to make a name apart from his family legacy. He joins Theodora's route automatically; elsewhere he needs Support 3, 5x Iron Spear, and Renown 8+ (Cai), 6+ (Dietrich), or 7+ (Leda).",
+  "personalSkill": {
+    "name": "Racing Attack",
+    "effect": "If unit attacks first, grants Avo +15 during combat. Lv 20: Accelerate (Spd +1 per foe defeated, max +10); Lv 35: Accelerate+ (Spd +2 per kill, max +10)."
+  },
+  "growths": {
+    "HP": 45,
+    "Str": 40,
+    "Mag": 25,
+    "Spd": 50,
+    "Dex": 35,
+    "Def": 40,
+    "Res": 25,
+    "Lck": 30,
+    "Cha": 30
+  },
+  "supports": [
+    "Bonaventure",
+    "Lilian",
+    "Tobias",
+    "Esmeralda",
+    "Theodora",
+    "Catania",
+    "Eshmel",
+    "Fianna",
+    "Ninae"
+  ],
+  "tiers": [
+    {
+      "source": "Pocket Tactics",
+      "tier": "B"
+    },
+    {
+      "source": "KeenGamer",
+      "tier": "B"
+    }
+  ],
+  "tierNotes": "Pocket Tactics: B. KeenGamer: B (evasion build is situational). Reddit: Dragoon becomes a strong mobile attacker once his Str is built (confirmed).",
+  "recruit": {
+    "how": "auto",
+    "why": [
+      "Joins Theodora's army automatically, so there's no Support or Renown to chase."
+    ]
+  },
+  "requirements": {
+    "Cai": "3S 8R",
+    "Dietrich": "3S 6R",
+    "Theodora": "Auto",
+    "Leda": "3S 7R"
+  },
+  "build": {
+    "role": "Flier: spear striker and armor/cavalry breaker",
+    "path": [
+      "Ornius Rider (Ch 4 to 5)",
+      "Armored Ornius Rider (Ch 6 to 7: Sense Threat)",
+      "Archer (Ch 8 to 9, side trip: Crescendo)",
+      "Armored Ornius Rider (Ch 10 to Lv 35)",
+      "Dragoon (Ch 11 or 12 to Part II)",
+      "Bau Lord (Part III, Red Bau)"
+    ],
+    "part1Target": "Dragoon at Lv 35 (Ch 11 or 12), Sense Threat and Crescendo mastered",
+    "part3Target": "Bau Lord (Red Bau)",
+    "notes": "Weak stat Dex 35: Crescendo, Besieger and Bonaventure's aura carry his Hit, and he leads with spears (Hit 80). Dragoon carries in from Cai's route. Arena Mounted and Heavy Training take Flying C, Axe B and Spear B; the Archer side trip only adds Crescendo, which he equips to the end.",
+    "confidence": "medium"
+  },
+  "guide": {
+    "role": "Flier: spear striker and armor/cavalry breaker",
+    "summary": "The army's mobile striker: a wall-jumping [[class:Armored Ornius Rider]] until Lv 35, then a flying [[class:Dragoon]]. Pick off isolated foes, take kills early so [[ability:Accelerate]] stacks Spd, and break armor and cavalry with the [[item:Ji]]. Attack first (Racing Attack: Avo +15) and never end in two archers' range.",
+    "playstyle": "Player-phase picker. Open each map on weak foes so Accelerate and Crescendo stack, lead with spears (Hit 80 vs 65 on axes) and bring the Ji for armor and cavalry. As a Dragoon, fight foes on forests and forts: Besieger adds Hit +20.",
+    "focus": [
+      "Spd",
+      "Str",
+      "Dex"
+    ],
+    "keys": [
+      "Master Armored Ornius Rider by Ch 8: Sense Threat (Avo +20) is his bow answer later.",
+      "Book Arena Mounted and Heavy Training for Flying C, Axe B, Spear B by Lv 35.",
+      "Use the Ch 7 Cindered Road Cave Flying Manual on him.",
+      "Ch 8: Archer for Crescendo only if Bow is C and the three Dragoon ranks are on track.",
+      "Lead with the [[item:Da Mina Spear]] (Spear C, Ch 6); swing the Iron Axe only on safe kills for Axe rank.",
+      "Part II Ch 2: reach the southeast Ranger before Turn 4 for the [[item:Cleansing Blade]] +1."
+    ],
+    "watch": [
+      "Weight: Da Mina Spear 7 + Gale Ring 2 = 9 in Parts I-II. Part III: Iron Spear +4 7 + Kalla's Needle 4 = 11 (extra 4); Javelin +2 throws only. Short of a double? Gale Ring for the Needle on that map.",
+      "Bows: Effective+ on him once he flies. Sense Threat (Avo +20) helps, but archers can still one-shot a Dragoon on Hard: check the purple lines first.",
+      "Axe Hit: Iron Axe Hit 65 on Dex 35. Stack Crescendo (max +30), Besieger (+20 on terrain) and Bonaventure's aura (+10/+20, 30%) before an axe swing.",
+      "Inventory: 6/6 in Ch 10 to 12 (Da Mina Spear, Ji, Short Spear, Iron Axe, Gale Ring, Concoction). Into Part II leave the Short Spear: slot 6 takes the Cleansing Blade."
+    ],
+    "decisions": [
+      {
+        "topic": "Take the Archer side trip if on track",
+        "pick": "Archer in Ch 8 to 9, only with Bow C and the Dragoon ranks on track",
+        "why": "Crescendo (Hit +3 a kill, max +30) stays equipped to Part III and fixes his Dex 35; Archer also grows Dex +10. Alexandra flies from Ch 9, so the army lacks a flier only in Ch 8.",
+        "else": "Stay Armored Ornius Rider to Lv 35"
+      },
+      {
+        "topic": "Take Dragoon at Lv 35",
+        "pick": "Dragoon in Ch 11 or 12 (unlocked on Cai's route)",
+        "why": "The only flying class with Axe and Spear: Mov 7, Besieger, and Axe +3, Flying +3 training toward Bau Lord's Axe A.",
+        "else": "A rank short at Lv 35: stay Armored Ornius Rider; Dragoon on a Part II Ch 1 License"
+      },
+      {
+        "topic": "Carry a Cleansing Blade in Part III",
+        "pick": "Cleansing Blade (Sword E) on the Bau Lord",
+        "why": "Spears and axes can't strip the Underworld Boon, but Bau Lord holds swords. Take the Part II Ch 2 drop, or barter one at Vandahl (Ladon Pike x3) if it doesn't carry.",
+        "else": "Fight undead only on Aurora's Lv 3 blessing turn or next to Eshmel"
+      }
+    ],
+    "finalists": {
+      "stats": [
+        "Str",
+        "Spd",
+        "Dex",
+        "Def",
+        "Res"
+      ],
+      "options": [
+        {
+          "class": "Armored Ornius Rider",
+          "use": "Ch 6 to 11",
+          "note": "Sense Threat: Avo +20 vs bows and Ridersbane"
+        },
+        {
+          "class": "Dragoon",
+          "use": "Ch 12 to Part II",
+          "note": "Flier again, Res +10, Besieger Hit +20"
+        },
+        {
+          "class": "Caladrius",
+          "note": "Mag 25 wastes the spells, and no flight"
+        },
+        {
+          "class": "Bau Lord",
+          "use": "Part III",
+          "note": "Ambush Atk +4 on cliffs; Red Bau from Cai's Stable"
+        }
+      ]
+    },
+    "gates": [
+      {
+        "route": "Theodora",
+        "from": {
+          "part": 1,
+          "ch": 6
+        },
+        "kind": "rank",
+        "text": "Flying C, Axe B, Spear B by Lv 35 (Arena Mounted and Heavy Training)",
+        "by": {
+          "part": 1,
+          "ch": 11
+        }
+      },
+      {
+        "route": "Theodora",
+        "from": {
+          "part": 1,
+          "ch": 6
+        },
+        "kind": "rank",
+        "text": "Bow C by Ch 8, or skip the Archer side trip",
+        "by": {
+          "part": 1,
+          "ch": 8
+        }
+      },
+      {
+        "route": "Theodora",
+        "from": {
+          "part": 1,
+          "ch": 7
+        },
+        "kind": "item",
+        "text": "Flying Manual from the Cindered Road Cave chest goes to him",
+        "by": {
+          "part": 1,
+          "ch": 10
+        }
+      }
+    ],
+    "routeNotes": [
+      {
+        "system": "Supports",
+        "note": "Partners here: Theodora, Bonaventure, Tobias and Lilian. From Ch 10 seat Theodora + Lysander + Lilian at Sunday meals; in battle end beside Bonaventure for Additional Intel."
+      },
+      {
+        "system": "Carried-in classes and mounts",
+        "note": "Dragoon carries in from Cai's route, so no Send Supplies quest gates it. No mount capture here in Part I: base class growths until Part III's Red Bau."
+      }
+    ],
+    "stages": [
+      {
+        "when": "Ch 4 to 5",
+        "from": {
+          "part": 1,
+          "ch": 4
+        },
+        "to": {
+          "part": 1,
+          "ch": 5
+        },
+        "level": "Join level to 20",
+        "class": "Ornius Rider",
+        "kind": "core",
+        "mount": "Default mount (no Part I mount capture on this route)",
+        "goal": "Spear, Riding and Flying +1 a fight. Racing Attack: attack first for Avo +15; he can't trade hits yet.",
+        "exit": "Lv 20 with Riding D, Axe C, Spear C: Armored Ornius Rider (Ch 6).",
+        "masteries": [
+          "Offense Basics"
+        ],
+        "weapons": [
+          {
+            "item": "Iron Spear",
+            "why": "Main: Mt 10, Hit 80"
+          },
+          {
+            "item": "Javelin",
+            "why": "Range 1 to 2: Mt 3, Wt 8"
+          },
+          {
+            "item": "Iron Axe",
+            "why": "Axe C training on weakened foes"
+          }
+        ],
+        "items": [
+          {
+            "item": "Vulnerary",
+            "why": "20 HP x3"
+          }
+        ],
+        "arts": [
+          {
+            "name": "Tempest Spear",
+            "why": "Spear D: Mt +4, Hit +10"
+          },
+          {
+            "name": "Spike",
+            "why": "Axe D: Mt +4, Hit +10"
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Offense Basics",
+            "why": "Ornius Rider mastery: Str/Mag +1, once mastered"
+          },
+          {
+            "name": "Spears Lv. 1",
+            "why": "Spear D+: Hit +3 with spears"
+          },
+          {
+            "name": "Knightly Senses",
+            "why": "Riding D (his exam rank): Avo +10 vs spears"
+          },
+          {
+            "name": "Read the Winds",
+            "why": "Flying D: Avo +10 vs bows; Racing Attack adds +15"
+          },
+          {
+            "name": "Narrow Defense",
+            "why": "Heavy D: Shld +3 when hit (25%); his Arena Heavy seat"
+          }
+        ],
+        "training": [
+          {
+            "rank": "Riding D, Flying D",
+            "for": "Armored Ornius Rider exam (Ch 6); Read the Winds",
+            "how": "Arena Mounted Training (Spear, Riding, Flying, Authority)"
+          },
+          {
+            "rank": "Axe C, Spear C",
+            "for": "Armored Ornius Rider exam (Ch 6)",
+            "how": "Arena Heavy Training (Spear, Axe, Heavy, Authority)"
+          },
+          {
+            "rank": "Heavy D",
+            "for": "Narrow Defense",
+            "how": "Same Arena Heavy seat (start rank ?)"
+          }
+        ],
+        "tips": [
+          "Axe Hit: Iron Axe 65 + Spike +10, + Bonaventure beside him (Hit +10, 30%). Axe only on weakened foes"
+        ]
+      },
+      {
+        "when": "Ch 6 to 7 (Specialty)",
+        "from": {
+          "part": 1,
+          "ch": 6
+        },
+        "to": {
+          "part": 1,
+          "ch": 7
+        },
+        "level": "Lv 20 to about 28",
+        "class": "Armored Ornius Rider",
+        "kind": "core",
+        "mount": "Default mount (no Part I mount capture on this route)",
+        "goal": "Mov 7 wall-jumper; master Sense Threat. Accelerate (Lv 20): Spd +1 a kill, so kill first, then double.",
+        "exit": "Sense Threat mastered: Archer in Ch 8 if on track, else stay to Lv 35.",
+        "masteries": [
+          "Sense Threat"
+        ],
+        "weapons": [
+          {
+            "item": "Da Mina Spear",
+            "why": "Main: Mt 13, Hit 80, Wt 7; arts Hit +10 at Spear C",
+            "alts": [
+              "Iron Spear"
+            ],
+            "plan": "Ch 6; +1 at Renown 7 (Ch 9)"
+          },
+          {
+            "item": "Short Spear",
+            "why": "Range 1 to 2: Mt 5, Wt 10",
+            "alts": [
+              "Javelin"
+            ]
+          },
+          {
+            "item": "Iron Axe",
+            "why": "Mt 13, Hit 65, Wt 10: Axe rank toward B; Careful Attack",
+            "alts": [
+              "Halberd"
+            ],
+            "plan": "His Ch 4 axe; no refine: a rank trainer"
+          },
+          {
+            "item": "Halberd",
+            "why": "Effective vs armor and cavalry; Spear D / Axe D",
+            "situational": "Armor or cavalry maps: open slot"
+          }
+        ],
+        "equipment": [
+          {
+            "item": "Gale Ring",
+            "why": "Spd +3, Wt 2: stacks with Accelerate's kill Spd",
+            "slot": "Accessory",
+            "alts": [
+              "Archer's Ring"
+            ]
+          }
+        ],
+        "items": [
+          {
+            "item": "Concoction",
+            "why": "40 HP x2",
+            "alts": [
+              "Vulnerary"
+            ]
+          }
+        ],
+        "arts": [
+          {
+            "name": "Tempest Spear",
+            "why": "Spear D: Mt +4, Hit +10"
+          },
+          {
+            "name": "Jab",
+            "why": "Spear C: Mt +3"
+          },
+          {
+            "name": "Spike",
+            "why": "Axe D: Mt +4, Hit +10"
+          },
+          {
+            "name": "Careful Attack",
+            "why": "Axe C: no counter if the foe dodges"
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Sense Threat",
+            "why": "AOR mastery: Avo +20 vs foes effective on him, once mastered"
+          },
+          {
+            "name": "Accelerate",
+            "why": "Lv 20: Spd +1 a kill to the map's end, max +10"
+          },
+          {
+            "name": "Offense Basics",
+            "why": "Str/Mag +1"
+          },
+          {
+            "name": "Spears Lv. 2",
+            "why": "Spear C+: Hit +5 with spears"
+          },
+          {
+            "name": "Read the Winds",
+            "why": "Avo +10 vs bows: archers are effective on his mount"
+          }
+        ],
+        "training": [
+          {
+            "rank": "Flying C",
+            "for": "Dragoon exam (Lv 35)",
+            "how": "Arena Mounted Training; Flying Manual from Cindered Road Cave (Ch 7)"
+          },
+          {
+            "rank": "Axe B, Spear B",
+            "for": "Dragoon exam (Lv 35)",
+            "how": "Arena Heavy Training (Spear, Axe, Heavy, Authority)"
+          },
+          {
+            "rank": "Bow C",
+            "for": "Archer side trip (Ch 8)",
+            "how": "Arena Infantry Training, only once Flying C is on track"
+          }
+        ],
+        "tips": [
+          "Mounted Training raises Spear and Flying in one seat: book it most weeks",
+          "Axe Hit: Iron Axe 65 + Spike +10 + Bonaventure beside him; spears first"
+        ],
+        "checks": [
+          {
+            "stat": "Spd",
+            "at": "Lv 25",
+            "need": "Da Mina Spear + Gale Ring doubles Ch 7 infantry after his first kill",
+            "why": "Racing Attack and Accelerate only pay off on player-phase doubles",
+            "fix": [
+              "Open on a weak foe: Accelerate Spd +1 a kill",
+              "Halberd (Wt 12) only for effective hits",
+              "Stay Armored Ornius Rider (Spd +10 growth) if Archer would slip"
+            ]
+          }
+        ],
+        "drop": [
+          {
+            "item": "Iron Spear",
+            "why": "Da Mina Spear replaces it: Mt 13 vs 10, same Wt 7"
+          },
+          {
+            "item": "Knightly Senses",
+            "why": "Sense Threat takes the slot"
+          },
+          {
+            "item": "Narrow Defense",
+            "why": "Accelerate takes the slot"
+          },
+          {
+            "item": "Spears Lv. 1",
+            "why": "Spears Lv. 2 replaces it at Spear C+"
+          }
+        ]
+      },
+      {
+        "when": "Ch 8 to 9 (side trip)",
+        "from": {
+          "part": 1,
+          "ch": 8
+        },
+        "to": {
+          "part": 1,
+          "ch": 9
+        },
+        "level": "Lv 28 to about 32",
+        "class": "Archer",
+        "kind": "detour",
+        "mount": "None: Archer is infantry",
+        "goal": "Bank Crescendo (Hit +3 a kill, max +30) and grow Dex +10. Accelerate stacks Spd on the same kills.",
+        "exit": "Crescendo mastered: back to Armored Ornius Rider for Ch 10.",
+        "masteries": [
+          "Crescendo"
+        ],
+        "weapons": [
+          {
+            "item": "Tempest Bow",
+            "why": "Hit 80, Wt 5; passes to Nuzzuo in Ch 10",
+            "alts": [
+              "Iron Bow"
+            ]
+          }
+        ],
+        "equipment": [
+          {
+            "item": "Gale Ring",
+            "why": "Spd +3, Wt 2",
+            "slot": "Accessory",
+            "plan": "Keep it",
+            "alts": [
+              "Phantom Ring",
+              "Archer's Ring"
+            ]
+          }
+        ],
+        "items": [
+          {
+            "item": "Concoction",
+            "why": "40 HP x2",
+            "alts": [
+              "Vulnerary"
+            ]
+          },
+          {
+            "item": "Antitoxin",
+            "why": "Cures Poison, immune 3 turns",
+            "situational": "Ch 9 Digammas (poison): open slot"
+          }
+        ],
+        "arts": [
+          {
+            "name": "Vital Shot",
+            "why": "Bow D: Mt +4, Crit +5, range 2 to 3?"
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Crescendo",
+            "why": "Archer mastery: Hit +3 a kill, max +30, once mastered"
+          },
+          {
+            "name": "Accelerate",
+            "why": "Lv 20: Spd +1 a kill, max +10"
+          },
+          {
+            "name": "Bows Lv. 2",
+            "why": "Bow C+: Hit +5 with bows"
+          },
+          {
+            "name": "Offense Basics",
+            "why": "Str/Mag +1"
+          },
+          {
+            "name": "Read the Winds",
+            "why": "Avo +10 vs bows: Archer duels at range 2"
+          }
+        ],
+        "drop": [
+          {
+            "item": "Da Mina Spear",
+            "why": "Archer is bow-only: spears and axe wait for Ch 10"
+          },
+          {
+            "item": "Sense Threat",
+            "why": "Nothing on foot is effective on him"
+          },
+          {
+            "item": "Spears Lv. 2",
+            "why": "Archer is bow-only: back in Ch 10"
+          }
+        ],
+        "training": [
+          {
+            "rank": "Flying C, Axe B, Spear B",
+            "for": "Dragoon exam (Lv 35)",
+            "how": "Arena Mounted and Heavy Training: Archer trains none of them"
+          },
+          {
+            "rank": "Bow C+",
+            "for": "Bows Lv. 2",
+            "how": "Arena Infantry; battles with it count too"
+          }
+        ],
+        "tips": [
+          "Mov 5 on foot: Ch 8 has no flier; Alexandra flies from Ch 9",
+          "Feed him weakened foes: Crescendo and Accelerate both grow on kills"
+        ]
+      },
+      {
+        "when": "Ch 10 to 11 (until Lv 35)",
+        "from": {
+          "part": 1,
+          "ch": 10
+        },
+        "to": {
+          "part": 1,
+          "ch": 11
+        },
+        "level": "About Lv 32 to 35",
+        "class": "Armored Ornius Rider",
+        "kind": "core",
+        "mount": "Default mount (no Part I mount capture on this route)",
+        "goal": "Mov 7 again with Sense Threat and Crescendo. The Ji breaks armor and cavalry once Spear is B.",
+        "exit": "Lv 35 with Flying C, Axe B, Spear B: Dragoon (Ch 11 or 12).",
+        "masteries": [],
+        "weapons": [
+          {
+            "item": "Da Mina Spear +1",
+            "why": "Main spear: Mt ?, Wt 7 keeps him doubling; arts Hit +10",
+            "alts": [
+              "Iron Spear"
+            ],
+            "plan": "+1 at Renown 7 (Ch 9); +2 at Renown 10, Ch 12"
+          },
+          {
+            "item": "Ji",
+            "why": "Effective vs armor and cavalry, Hit 80; Windweave",
+            "alts": [
+              "Halberd"
+            ]
+          },
+          {
+            "item": "Short Spear",
+            "why": "Range 1 to 2: Mt 5, Wt 10",
+            "alts": [
+              "Javelin"
+            ]
+          },
+          {
+            "item": "Iron Axe",
+            "why": "Axe B, then A; Careful Attack",
+            "alts": [
+              "Halberd"
+            ],
+            "plan": "Keep it"
+          }
+        ],
+        "equipment": [
+          {
+            "item": "Gale Ring",
+            "why": "Spd +3, Wt 2",
+            "slot": "Accessory",
+            "plan": "Keep it",
+            "alts": [
+              "Phantom Ring",
+              "Archer's Ring"
+            ]
+          }
+        ],
+        "items": [
+          {
+            "item": "Concoction",
+            "why": "40 HP x2",
+            "alts": [
+              "Vulnerary"
+            ]
+          }
+        ],
+        "arts": [
+          {
+            "name": "Tempest Spear",
+            "why": "Spear D: Mt +4, Hit +10"
+          },
+          {
+            "name": "Jab",
+            "why": "Spear C: Mt +3"
+          },
+          {
+            "name": "Windweave",
+            "why": "Ji art: Hit +10; 10% no counter"
+          },
+          {
+            "name": "Careful Attack",
+            "why": "Axe C: no counter if the foe dodges"
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Sense Threat",
+            "why": "Avo +20 vs foes effective on him"
+          },
+          {
+            "name": "Crescendo",
+            "why": "Hit +3 a kill, max +30"
+          },
+          {
+            "name": "Accelerate",
+            "why": "Lv 20: Spd +1 a kill, max +10"
+          },
+          {
+            "name": "Offense Basics",
+            "why": "Str/Mag +1"
+          },
+          {
+            "name": "Spears Lv. 2",
+            "why": "Spear C+: Hit +5 with spears"
+          }
+        ],
+        "drop": [
+          {
+            "item": "Tempest Bow",
+            "why": "To Nuzzuo's Part II kit"
+          },
+          {
+            "item": "Read the Winds",
+            "why": "Crescendo takes the slot; Sense Threat covers bows"
+          }
+        ],
+        "training": [
+          {
+            "rank": "Flying C, Axe B, Spear B",
+            "for": "Dragoon exam (Lv 35)",
+            "how": "Arena Mounted and Heavy Training"
+          }
+        ],
+        "tips": [
+          "Axe Hit: Iron Axe 65 + Crescendo (max +30) + Bonaventure's aura; Spike +10"
+        ]
+      },
+      {
+        "when": "Ch 11 or 12 (Advanced)",
+        "from": {
+          "part": 1,
+          "ch": 11,
+          "approx": true
+        },
+        "to": {
+          "part": 1,
+          "ch": 12
+        },
+        "level": "Lv 35 to about 36",
+        "class": "Dragoon",
+        "kind": "core",
+        "mount": "Default Bau (no captured Bau in Part I)",
+        "goal": "Flight, Mov 7 and Besieger (Hit +20 vs foes on good terrain). Accelerate+ (Lv 35): Spd +2 a kill, max +10.",
+        "exit": "Stay Dragoon through Part II; Besieger comes on the way.",
+        "masteries": [
+          "Besieger"
+        ],
+        "weapons": [
+          {
+            "item": "Da Mina Spear +1",
+            "why": "Main spear: Mt ?, Wt 7 keeps him doubling; arts Hit +10",
+            "alts": [
+              "Iron Spear"
+            ],
+            "plan": "+2 at Renown 10, Ch 12"
+          },
+          {
+            "item": "Ji",
+            "why": "Effective vs armor and cavalry, Hit 80; Windweave",
+            "alts": [
+              "Halberd"
+            ]
+          },
+          {
+            "item": "Short Spear",
+            "why": "Range 1 to 2: Mt 5, Wt 10",
+            "alts": [
+              "Javelin"
+            ]
+          },
+          {
+            "item": "Iron Axe",
+            "why": "Axe B, then A; Careful Attack",
+            "alts": [
+              "Halberd"
+            ],
+            "plan": "Keep it"
+          }
+        ],
+        "equipment": [
+          {
+            "item": "Gale Ring",
+            "why": "Spd +3, Wt 2",
+            "slot": "Accessory",
+            "plan": "Keep it",
+            "alts": [
+              "Phantom Ring",
+              "Archer's Ring"
+            ]
+          }
+        ],
+        "items": [
+          {
+            "item": "Concoction",
+            "why": "40 HP x2",
+            "alts": [
+              "Vulnerary"
+            ]
+          }
+        ],
+        "arts": [
+          {
+            "name": "Vanguard Spear",
+            "why": "Spear B: Mt +7, Atk +5 (Str/2 %)"
+          },
+          {
+            "name": "Windweave",
+            "why": "Ji art: Hit +10; 10% no counter"
+          },
+          {
+            "name": "Tempest Spear",
+            "why": "Spear D: Mt +4, Hit +10"
+          },
+          {
+            "name": "Careful Attack",
+            "why": "Axe C: no counter if the foe dodges"
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Besieger",
+            "why": "Dragoon mastery: Hit +20 vs foes on good terrain, once mastered"
+          },
+          {
+            "name": "Accelerate+",
+            "why": "Lv 35: Spd +2 a kill, max +10 (replaces Accelerate)"
+          },
+          {
+            "name": "Sense Threat",
+            "why": "Avo +20 vs bows now that he flies"
+          },
+          {
+            "name": "Crescendo",
+            "why": "Hit +3 a kill, max +30"
+          },
+          {
+            "name": "Spears Lv. 3",
+            "why": "Spear B?: Hit/Avo +5 with spears (threshold ?)"
+          }
+        ],
+        "drop": [
+          {
+            "item": "Offense Basics",
+            "why": "Slot goes to Besieger"
+          }
+        ],
+        "training": [
+          {
+            "rank": "Axe A, Spear A",
+            "for": "Bau Lord (Part III)",
+            "how": "Dragoon trains Axe +3, Flying +3; Arena seats bench first"
+          }
+        ],
+        "tips": [
+          "Ch 12: the rear waves bring fliers and archers; stay out of bow range while Lilian and the casters clear them",
+          "Pack before Ch 12 ends: Da Mina Spear +2, Ji, Iron Axe, Gale Ring, Concoction; leave slot 6 empty"
+        ],
+        "checks": [
+          {
+            "stat": "Dex",
+            "at": "Lv 35",
+            "need": "Iron Axe shows Hit 70+ on Ch 12 infantry before any kill",
+            "why": "Axe A for Bau Lord needs axe fights; misses cost turns",
+            "fix": [
+              "Kill with spears first: Crescendo Hit +3 a kill",
+              "End beside Bonaventure: Additional Intel+ Hit +20 (30%)",
+              "Swing the axe at foes on forest or forts: Besieger Hit +20"
+            ]
+          }
+        ]
+      },
+      {
+        "when": "Part II",
+        "from": {
+          "part": 2,
+          "ch": 1
+        },
+        "to": {
+          "part": 3,
+          "ch": 3
+        },
+        "level": "Lv 37 to 42",
+        "class": "Dragoon",
+        "kind": "core",
+        "mount": "Default Bau",
+        "goal": "Fast flank killer: the Ch 2 Ranger chase and the Ch 4 flanks. Lead with spears; axe fights push Axe A.",
+        "exit": "Stay Dragoon to the end of Part II with Axe and Spear near A.",
+        "masteries": [],
+        "weapons": [
+          {
+            "item": "Da Mina Spear +2",
+            "why": "Main spear: Mt ?, Wt 7 keeps him doubling; arts Hit +10",
+            "alts": [
+              "Iron Spear"
+            ],
+            "plan": "+2 at Renown 10 (Ch 12); equipped carry-over"
+          },
+          {
+            "item": "Ji",
+            "why": "Armor and cavalry; Windweave",
+            "plan": "Carry-over"
+          },
+          {
+            "item": "Iron Axe",
+            "why": "Axe A for Bau Lord; Careful Attack",
+            "plan": "Carry-over"
+          },
+          {
+            "item": "Cleansing Blade",
+            "why": "Sword E, Wt 3: his Part III Underworld answer"
+          }
+        ],
+        "equipment": [
+          {
+            "item": "Gale Ring",
+            "why": "Spd +3, Wt 2",
+            "slot": "Accessory",
+            "plan": "Carry-over",
+            "alts": [
+              "Phantom Ring",
+              "Archer's Ring"
+            ]
+          }
+        ],
+        "items": [
+          {
+            "item": "Concoction",
+            "why": "40 HP x2; no shops in Part II",
+            "plan": "Ch 12 stock"
+          }
+        ],
+        "arts": [
+          {
+            "name": "Vanguard Spear",
+            "why": "Spear B: Mt +7, Atk +5 (Str/2 %)"
+          },
+          {
+            "name": "Windweave",
+            "why": "Ji art: Hit +10; 10% no counter"
+          },
+          {
+            "name": "Tempest Spear",
+            "why": "Spear D: Mt +4, Hit +10"
+          },
+          {
+            "name": "Careful Attack",
+            "why": "Axe C: no counter if the foe dodges"
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Besieger",
+            "why": "Dragoon mastery: Hit +20 vs foes on good terrain"
+          },
+          {
+            "name": "Accelerate+",
+            "why": "Lv 35: Spd +2 a kill, max +10"
+          },
+          {
+            "name": "Sense Threat",
+            "why": "Avo +20 vs bows"
+          },
+          {
+            "name": "Crescendo",
+            "why": "Hit +3 a kill, max +30"
+          },
+          {
+            "name": "Spears Lv. 3",
+            "why": "Hit/Avo +5 with spears (threshold ?)"
+          }
+        ],
+        "drop": [
+          {
+            "item": "Short Spear",
+            "why": "Left home: slot 6 takes the Ch 2 Cleansing Blade"
+          }
+        ],
+        "training": [
+          {
+            "rank": "Axe A, Spear A",
+            "for": "Bau Lord (Part III)",
+            "how": "Dragoon trains Axe +3 in Part II battles"
+          }
+        ],
+        "tips": [
+          "Ch 2: fly straight for the southeast Ranger; he flees from Turn 4",
+          "Ch 5: stay out of the Onager's range; Alexandra baits it",
+          "Training Drills: about Lv 37 in Ch 1, Lv 42 by Ch 4"
+        ]
+      },
+      {
+        "when": "Part III Section 4+ (Bau Lord)",
+        "from": {
+          "part": 3,
+          "ch": 4
+        },
+        "level": "Lv 45+",
+        "class": "Bau Lord",
+        "kind": "core",
+        "mount": "Red Bau (Yashiro Fort, Part III): Str +15%, Dex +10%; follow-ups Atk +2/+4",
+        "goal": "Doubler: Iron Spear +4, Accelerate+ Spd +2 a kill, Flitting Flier; Kalla's Needle (S6) adds Atk +5 to doubles.",
+        "exit": "Endpoint. Ambush comes on the way.",
+        "masteries": [
+          "Ambush"
+        ],
+        "weapons": [
+          {
+            "item": "Iron Spear +4",
+            "why": "Main: Mt 22?, Hit 80, Wt 7, cavalry-effective; gold",
+            "alts": [
+              "Da Mina Spear +2",
+              "Silver Spear +2"
+            ],
+            "plan": "Soulstone for +3 and +4; Da Mina +2 until then"
+          },
+          {
+            "item": "Ji +2",
+            "why": "Effective vs armor and cavalry, Wt 7; Windweave",
+            "plan": "Refine his copy"
+          },
+          {
+            "item": "Cleansing Blade +2",
+            "why": "Boon answer: Sword E, Mt 16?, Wt 3",
+            "plan": "Refine his +1 copy"
+          },
+          {
+            "item": "Javelin +2",
+            "why": "Range 1-2: Mt 10, Wt 8; chip without a counter"
+          }
+        ],
+        "equipment": [
+          {
+            "item": "Kalla's Needle",
+            "why": "Atk +5 on follow-ups, Wt 4: every double hits harder",
+            "slot": "Accessory",
+            "plan": "Section 6 hand-over; Gale Ring until then",
+            "alts": [
+              "Gale Ring",
+              "Phantom Ring"
+            ]
+          }
+        ],
+        "items": [
+          {
+            "item": "Concoction",
+            "why": "40 HP x2",
+            "alts": [
+              "Vulnerary"
+            ]
+          }
+        ],
+        "arts": [
+          {
+            "name": "Vanguard Spear",
+            "why": "Spear B: Mt +7, Atk +5 (Str/2 %)"
+          },
+          {
+            "name": "Flying Spear",
+            "why": "Spear A: follow-up before the counter"
+          },
+          {
+            "name": "Windweave",
+            "why": "Ji art: Hit +10; 10% no counter"
+          },
+          {
+            "name": "Tempest Spear",
+            "why": "Spear D: Mt +4, Hit +10"
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Ambush",
+            "why": "Bau Lord mastery: Atk +4 on inaccessible terrain, once mastered"
+          },
+          {
+            "name": "Accelerate+",
+            "why": "Lv 35: Spd +2 a kill, max +10"
+          },
+          {
+            "name": "Besieger",
+            "why": "Hit +20 vs foes on good terrain: Hanno's forests"
+          },
+          {
+            "name": "Flitting Flier",
+            "why": "Flying C+: AS +2 when he attacks first"
+          },
+          {
+            "name": "Sense Threat",
+            "why": "Avo +20 vs bows and other effective foes"
+          }
+        ],
+        "drop": [
+          {
+            "item": "Da Mina Spear +2",
+            "why": "Iron Spear +4 takes the main slot (gold, no Soulstone)"
+          },
+          {
+            "item": "Iron Axe",
+            "why": "Axe A done at the exam; spears hit more often"
+          },
+          {
+            "item": "Short Spear",
+            "why": "Javelin +2: Mt 10 vs 5, Wt 8 vs 10"
+          },
+          {
+            "item": "Crescendo",
+            "why": "Flitting Flier: AS +2 feeds the doubles"
+          },
+          {
+            "item": "Spears Lv. 3",
+            "why": "Slot goes to Ambush"
+          }
+        ],
+        "training": [
+          {
+            "rank": "Flying C, Axe A, Spear A",
+            "for": "Bau Lord (Lv 45, Master License)",
+            "how": "Dragoon battles in Part II"
+          },
+          {
+            "rank": "Flying C+",
+            "for": "Flitting Flier",
+            "how": "Bau Lord trains Flying +4 a fight"
+          }
+        ],
+        "tips": [
+          "Hanno (fog): fliers scout; Besieger Hit +20 on foes in the forest",
+          "Cohen: Jurah Lv 1 stops 3x bow hits; chase the treasure carriers",
+          "Squad: Alexandra's Silver Maiden and Tialla's Lend Strength+ (Str +3, range 2)",
+          "Section 6: Balor west with A; Kalla's Needle makes each double +5"
+        ]
+      }
+    ],
+    "alt": "Skip Archer if Bow C or a Dragoon rank lags: stay Armored Ornius Rider to Lv 35 and let Besieger carry his Hit. Black Bau in Part III if bows worry you more than his Hit.",
+    "sources": [
+      "class-and-weapon-guide",
+      "class-data",
+      "mounts.json",
+      "character-learnsets",
+      "equippable-abilities",
+      "weapons-and-items",
+      "combat-arts-and-abilities",
+      "hard-mode-video-notes",
+      "walkthrough-part1-theodora",
+      "part2-war",
+      "part3-salvation",
+      "redesign/11-roster-pass"
+    ]
+  },
+  "sources": [
+    "https://fortunesweave.co.uk/characters/lysander",
+    "https://www.keengamer.com/articles/guides/fire-emblem-fortunes-weave-best-class-for-every-character/",
+    "https://www.keengamer.com/articles/guides/fire-emblem-fortunes-weave-tier-list-best-characters-ranked-for-every-route/",
+    "https://www.pockettactics.com/fire-emblem-fortunes-weave/tier-list"
+  ],
+  "recruitOn": {
+    "Cai": {
+      "how": "recruit",
+      "support": 3,
+      "renown": 8
+    },
+    "Dietrich": {
+      "how": "recruit",
+      "support": 3,
+      "renown": 6
+    },
+    "Theodora": {
+      "how": "auto"
+    },
+    "Leda": {
+      "how": "recruit",
+      "support": 3,
+      "renown": 7
+    }
+  }
+}

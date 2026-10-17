@@ -1,0 +1,181 @@
+{
+  "name": "Klapka",
+  "slug": "klapka",
+  "epithet": "Klapka of Mosa",
+  "faction": "Mosa Army",
+  "weapons": [
+    "Spear",
+    "White Magic"
+  ],
+  "story": "A Mosa Army veteran who fights as a guest in Part III's Fifth Section and stays if he survives.",
+  "personalSkill": {
+    "name": "Spirit of Silver",
+    "effect": "After combat, Def+1 until end of map (max +10). Trigger % = Def."
+  },
+  "growths": {
+    "HP": 40,
+    "Str": 40,
+    "Mag": 10,
+    "Spd": 25,
+    "Dex": 45,
+    "Def": 50,
+    "Res": 15,
+    "Lck": 25,
+    "Cha": 35
+  },
+  "joins": "Automatically in Part III: Salvation, Sixth Section. MISSABLE: he must survive Part III Fifth Section as a guest unit. Base stats at Lv63: HP 60, Str 38, Mag 6, Dex 35, Spd 19, Lck 19, Def 50, Res 20, Cha 25.",
+  "build": {
+    "role": "Pre-promoted spear tank",
+    "path": [
+      "Guardian (join)",
+      "Guardian",
+      "Sentinel"
+    ],
+    "notes": "He arrives at Lv63 with Def 50, so he can hold chokepoints right away. Sentinel is the natural Master step from Guardian's spear line."
+  },
+  "sources": [
+    "https://fortunesweave.co.uk/characters/klapka",
+    "https://www.rpgsite.net/guide/21391-fire-emblem-fortunes-weave-recruitment-guide-all-characters-in-game-how-to-recruit-them"
+  ],
+  "guide": {
+    "role": "Bench wall for Sec 6: Def 50 at join, Def +1 after each combat",
+    "summary": "Bench depth for the last Section. He joins at Lv 63 with Def 50, and Spirit of Silver adds Def +1 after each combat (up to +10). Use him as a spare gate-lane wall on Balor's side teams.",
+    "focus": [
+      "Def",
+      "HP"
+    ],
+    "watch": [
+      "Missable: keep him alive vs Mahadu (Sec 5), then return to Dagsion with Eshmel at once.",
+      "Res: 15 growth, Res 20 at join. Mages are his only threat.",
+      "Weight: Silver Spear +2 6 + Hexlock Shield 4 + Gale Ring 2 = 12 (extra 6). Ring off first if it can't stop a double."
+    ],
+    "stages": [
+      {
+        "when": "Part III Sec 6 (Guardian)",
+        "from": {
+          "part": 3,
+          "ch": 6
+        },
+        "level": "Lv 63 (join)",
+        "class": "Guardian",
+        "kind": "bench",
+        "goal": "Spare wall: Def 50 at join, Spirit of Silver Def +1 per combat (Def %, max +10); Hexlock patches Res 20.",
+        "why": [
+          "Joins Sec 6 only if he survived Mahadu and came back with Eshmel; Guardian only, no reclass",
+          "Silver Spear +2 (Mt ~23) over Iron Spear +4 (Mt ?): his Str carries a big base Mt",
+          "Underworld Boon: spears can't strip it; hold within 2 of Eshmel or in Leda's ring"
+        ],
+        "exit": "Endpoint: Guardian, no reclass.",
+        "weapons": [
+          {
+            "item": "Silver Spear +2",
+            "why": "Main: Mt ~23, Hit 85, Wt 6",
+            "plan": "Boon or Reliquary buy",
+            "alts": [
+              "Iron Spear +4",
+              "Bronze Spear +4"
+            ]
+          },
+          {
+            "item": "Javelin +2",
+            "why": "1-2 range: Mt 10, Hit 80 vs archers and mages"
+          }
+        ],
+        "equipment": [
+          {
+            "item": "Hexlock Shield",
+            "why": "Def +1, Res +5, Wt 4: mages are his threat (Res 20)",
+            "slot": "Defense",
+            "alts": [
+              "Talisman Shield",
+              "Silver Shield"
+            ]
+          },
+          {
+            "item": "Gale Ring",
+            "why": "Spd +3, Wt 2: extra Wt stays at 6",
+            "slot": "Accessory",
+            "alts": [
+              "Victory Gem"
+            ]
+          }
+        ],
+        "items": [
+          {
+            "item": "Elixir",
+            "why": "100 HP",
+            "alts": [
+              "Concoction"
+            ]
+          }
+        ],
+        "arts": [
+          {
+            "name": "Protective Storm",
+            "why": "Spear B: Mt +5, Prt +7"
+          },
+          {
+            "name": "Tempest Spear",
+            "why": "Spear D: Mt +4, Hit +10"
+          },
+          {
+            "name": "Lend Defense",
+            "why": "Authority D: Def +2 to an ally at 1-2"
+          }
+        ],
+        "spells": [
+          {
+            "name": "Laia",
+            "why": "White D: heals; Guardian Magic Heal +10"
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Crit Defense",
+            "why": "Heavy D: halves crit damage (30%)"
+          },
+          {
+            "name": "Brace",
+            "why": "Guardian mastery ?: Prt +3 after a kill"
+          },
+          {
+            "name": "Spears Lv. 3",
+            "why": "Spear B+?: Hit/Avo +5"
+          }
+        ],
+        "openSlots": "No level abilities; join ranks ? and the sheet lists only Heavy D. Fill from his rank screen.",
+        "tips": [
+          "Seat: Balor west (A) wall for Catania; Lyrah's hold-one-area wall",
+          "Spirit of Silver: Def +1 per combat at a Def % chance; take fights early in the map",
+          "Balor: spread out against the plus-shaped AoE",
+          "Res 20: end mage turns next to Theodora (Cloth of Aurora, Res +3 adjacent)"
+        ],
+        "drop": [
+          {
+            "item": "Silver Shield",
+            "why": "Hexlock Shield: Def 50 needs Res more than Def"
+          }
+        ]
+      }
+    ],
+    "sources": [
+      "part3-salvation",
+      "weapons-and-items",
+      "combat-arts-and-abilities",
+      "character-learnsets",
+      "equippable-abilities",
+      "class-data",
+      "redesign/17-part2-part3-plan"
+    ]
+  },
+  "recruitOn": {
+    "Leda": {
+      "how": "story",
+      "window": "Part III Sec 6 (alive after Mahadu; Theodora's Path)"
+    },
+    "Theodora": {
+      "how": "story",
+      "window": "Part III Sec 6 (alive after Mahadu; Theodora's Path)"
+    }
+  }
+}

@@ -1,0 +1,148 @@
+{
+  "partII": [
+    {
+      "text": "Pick Army Training at the Dispatch Officer before each of the first four Part II battles",
+      "detail": [
+        "Floors Lv 34, 35, 37, 39; stats grow from the class a unit is in, so set it first",
+        "Ch 6 to 9 joiners (about Lv 15) jump about 19 levels in their Beginner class; Ch 10+ (about Lv 25) about 9",
+        "Majide Gladiator (Str 60), Mikaela Hunter (Dex 45), Nydine Ornius Rider on her mount, Peppe Rogue? (Spd 75)"
+      ]
+    },
+    {
+      "text": "Then take the bench exams on free Licenses: Specialty in Ch 1, Advanced from the Lv 35 floor",
+      "detail": [
+        "Ch 1 Nydine Armored Ornius Rider, Mikaela Archer · Ch 2 Majide Brigand; Pugilist at Gauntlet C, Warrior at B",
+        "Ch 2: Nydine [[class:Dragoon]], Jasmine [[class:Dreadnought]], Fianna [[class:Troubadour]] if not done",
+        "Ch 3: Mikaela [[class:Forest Knight]], Peppe [[class:Ranger]], Jasmine if her ranks lagged"
+      ]
+    },
+    {
+      "text": "Ch 1: take any Part I Advanced exam that slipped first (Seteth, Ninae, Sirocco)",
+      "detail": [
+        "Then Cai [[class:Bardinger]] on a horse (Aegis; Riding, Sword, Spear) and Tialla [[class:Troubadour]] (Song of Courage)",
+        "Anything over 5 Advanced Licenses in a chapter moves to the next one"
+      ]
+    },
+    {
+      "text": "Part II side trips, back to the main class once each mastery shows (switching is free)",
+      "detail": [
+        "Ch 2 Peter [[class:Sniper]] · Ch 3 Seteth [[class:Guardian]], Ninae [[class:Bishop]]; Tialla back to Bishop",
+        "Ch 4 Ultand and Fianna [[class:Bishop]] (Barrier); Peter back to Charioteer, Ninae and Seteth back once mastered",
+        "Ch 5 Cai back to Caladrius for Dagda (low Res) · Ch 6 Ultand to Ovate, Fianna to Troubadour"
+      ]
+    },
+    {
+      "text": "Keep Guzran, Noctula, Nydine and Sirocco in their main class; the other bench units have no slack",
+      "detail": [
+        "Their main class lands in Ch 2 or 3 and its mastery needs the rest of Part II",
+        "Part II gives about one level per chapter, so a short stint costs little growth",
+        "A slow mastery: stay one more map in the side class, or drop the side trip"
+      ]
+    },
+    {
+      "text": "Ch 12 is your last shop: stock Elixirs and Concoctions, since Part II has no shops or free time",
+      "detail": [
+        "Part II Ch 3 asks for plenty of healing items",
+        "Part II has no recruiting between battles either: plan Ch 10 to 12 around that"
+      ]
+    },
+    {
+      "text": "Don't hoard weapons: Part II repairs every weapon each chapter and issues Iron +3 weapons",
+      "detail": [
+        "Use Combat Arts freely in Ch 12, even if weapons break"
+      ]
+    },
+    {
+      "text": "Buy a [[item:Giant's Ring]] the day the Paralogue accessory shop opens (stock changes each chapter)",
+      "detail": [
+        "The video puts the shop Paralogue in Ch 10 on every path except Leda's, without naming it",
+        "Likely Anna's Golden Secret here (on Dietrich's path it is Anna's)",
+        "Bertrand's and Talimun's also skip Leda's path: check the shops after each of the three"
+      ],
+      "conf": "?"
+    },
+    {
+      "text": "Bring fliers: Part II wants 2 or 3. Ch 2's Ranger flees toward the east edge from Turn 4",
+      "detail": [
+        "Send Seteth (Dragoon since Ch 11 or 12) and Nydine (Dragoon in Ch 2) after him"
+      ]
+    },
+    {
+      "text": "Bring the whole army: Part II takes up to 15 units (one source), so the bench fights from Ch 1",
+      "detail": [
+        "Army Training makes a late or unused recruit as useful as a core unit, so bench depth is free",
+        "All 12 plus Mikaela, Fianna and Sirocco; six of them spend Part I on the bench",
+        "If the cap turns out lower, sit Majide first, then Fianna"
+      ]
+    },
+    {
+      "text": "Keep bonding mounts: Cai's army keeps the Stable in Part II",
+      "detail": [
+        "Riders: Cai, Peter, Fianna, Mikaela, Seteth and Nydine"
+      ]
+    },
+    {
+      "text": "Blessings (video order): Aurora, then Kalla to Lv 3, Smyrnos to Lv 2, then Mars, Jurah, Credna",
+      "detail": [
+        "Put your Temple Row service in that order"
+      ]
+    }
+  ],
+  "extra": [
+    {
+      "text": "Pack every unit's Part II kit before Ch 12 ends: main weapon, shield, accessory, mask, at most 6",
+      "detail": [
+        "Only what a unit holds carries in (the game says \"equipped\"; read it as its own 6 items?)",
+        "Each unit's Ch 12 stage lists its kit; everything else waits in storage until Part III",
+        "Elixirs for Cai, Guzran, Seteth, Ninae, Jasmine: Temple of Balor and Giant's-Print Fort chests, Megaira 2400G"
+      ],
+      "conf": "?"
+    },
+    {
+      "text": "Leave a free slot for the Part II drops",
+      "detail": [
+        "Levin Sword +1 (Creek, Ch 1); Hammer +1 (Ch 1 Warrior: replaces Majide's Hammer)",
+        "Cleansing Blade +1 (Ch 2 southeast Ranger: Guzran); Horsekiller Bow +1 (Ch 2 west Ranger: Peter)",
+        "Longbow +1 (Ch 5 Golems: replaces Peter's Longbow)"
+      ]
+    },
+    {
+      "text": "At 6/6 a unit has no slot for an issued weapon or drop: Cai, Noctula, Seteth, Ninae, Majide, Jasmine",
+      "detail": [
+        "Use up a consumable first, or let the drop go to a unit with a free slot"
+      ]
+    },
+    {
+      "text": "Check what the side trips banked: Black Magic B (Cai), Attack, Get Back (Guzran), Regroup (Noctula)",
+      "detail": [
+        "An unfinished mastery can still be finished later: switching back is free"
+      ]
+    },
+    {
+      "text": "Part II mounts: tick the Ch 12 missable (every mount in the Stable by 11/27)"
+    },
+    {
+      "text": "Finish all three mentorship unlocks: Caladrius (Cai), Dragoon (Seteth, Nydine), Troubadour (Fianna)"
+    },
+    {
+      "text": "Clear Bertrand's, Talimun's, Anna's and Orchel's Paralogues in Part I",
+      "detail": [
+        "Bertrand's, Talimun's and Orchel's in Part I is the safe choice for their Part III joins"
+      ]
+    },
+    {
+      "text": "Take My Late Sister's Accessory if it appears: without it, no Creek in Part II Ch 2 and no Nathan",
+      "detail": [
+        "Ch 9 subquest: Violet Brooch from Axion Gorge, due 10/15",
+        "Sources report it only on Leda's and Dietrich's paths, so it may never show up here"
+      ],
+      "conf": "?"
+    },
+    {
+      "text": "Watch every unlocked support conversation at the Inn before Part II"
+    },
+    {
+      "text": "Renown doesn't carry into Part II, so don't grind it"
+    }
+  ]
+}

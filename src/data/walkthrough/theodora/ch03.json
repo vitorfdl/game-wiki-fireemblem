@@ -1,0 +1,58 @@
+{
+  "route": "Theodora",
+  "ch": 3,
+  "name": "Tumult at the Imperial Capital",
+  "free": {
+    "from": "2/4",
+    "to": "2/4"
+  },
+  "unlocks": [
+    "Limited exploration on 2/4"
+  ],
+  "routine": null,
+  "missables": [
+    {
+      "id": "theodora-ch03-missables-bonaventure-answer",
+      "kind": "scene",
+      "text": "Answer Bonaventure after the training-dummy scene on 2/4: it gives a Support bonus",
+      "when": "2/4",
+      "lose": "The Support bonus with Bonaventure",
+      "recover": "Chapter replay",
+      "task": true
+    }
+  ],
+  "classes": {},
+  "gear": {},
+  "recruits": [],
+  "quests": {
+    "route": [],
+    "sub": [],
+    "paralogue": []
+  },
+  "explore": [
+    {
+      "text": "Explore Temple Row, the Entertainment District and [[place:Aurora's Temple]] on 2/4"
+    }
+  ],
+  "battle": {
+    "title": "vs. Bandits",
+    "objective": "Defeat Idi",
+    "guests": [
+      "Orchel",
+      "Diego",
+      "Seteth",
+      "Loretta"
+    ],
+    "tips": [
+      {
+        "text": "Keep Loretta and Diego alive: both are future recruits on this route"
+      },
+      {
+        "text": "Hit the Bullion carrier with Theodora's Blaze Art"
+      },
+      {
+        "text": "Keep Orchel on healing"
+      }
+    ]
+  }
+}

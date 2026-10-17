@@ -1,0 +1,190 @@
+{
+  "name": "Aswan",
+  "slug": "aswan",
+  "faction": "Kingdom of Arago",
+  "weapons": [
+    "Bow"
+  ],
+  "personality": "Wants friends her own age but struggles socially.",
+  "story": "An Arago archer (age 24-25) who knew Bertrand before the 1449 Heroic Games and is shocked to find him alive. She fights as a guest in Part II and joins in Part III if she survives.",
+  "personalSkill": {
+    "name": "Princess of Arrows",
+    "effect": "Hit+20 when equipped with a bow."
+  },
+  "growths": {
+    "HP": 40,
+    "Str": 35,
+    "Mag": 10,
+    "Spd": 40,
+    "Dex": 50,
+    "Def": 30,
+    "Res": 15,
+    "Lck": 30,
+    "Cha": 20
+  },
+  "supports": [
+    "Leda (C)"
+  ],
+  "joins": "Automatically in Part III: Salvation, Fifth Section. MISSABLE: she must survive Part II: War Chapter 3 as a guest unit.",
+  "build": {
+    "role": "Archer",
+    "path": [
+      "Hunter",
+      "Archer",
+      "Sniper, then Bow Adept"
+    ],
+    "notes": "Princess of Arrows only works with bows, so stay on the bow line. Bloodmark: Diadem of the Earth (Atk+7 when attacking, 3%)."
+  },
+  "sources": [
+    "https://fortunesweave.co.uk/characters/aswan",
+    "https://www.rpgsite.net/guide/21391-fire-emblem-fortunes-weave-recruitment-guide-all-characters-in-game-how-to-recruit-them"
+  ],
+  "guide": {
+    "role": "Bench bow (Flex squad E): Hit +20 with bows",
+    "summary": "Bench depth. She joins in Sec 5 with Princess of Arrows (Hit +20 with bows) and fills a bow seat on a flier gate when Lilian or Nuzzuo sits. Res 15 growth: keep her behind the line.",
+    "focus": [
+      "Dex",
+      "Spd",
+      "Str"
+    ],
+    "watch": [
+      "Missable: she joins only if she survived Part II Ch 3 (talk to her there).",
+      "Res: 15 growth. Any mage two-shots her; Spirit Bow (Rsl +7) on mage turns.",
+      "Weight: Da Mina Bow +2 6 + Gale Ring 2 = 8 (extra 2); Mini Bow +2 5 + 2 = 7; Longbow +2 13 + 2 = 15 on Deadeye turns only."
+    ],
+    "stages": [
+      {
+        "when": "Part III Sec 5+ (bench bow)",
+        "from": {
+          "part": 3,
+          "ch": 5
+        },
+        "level": "Join Lv ?",
+        "class": "Sniper",
+        "kind": "bench",
+        "goal": "Bench bow: Princess of Arrows Hit +20 carries Longbow Deadeye; Cohen & Maria or Drake bow sub.",
+        "why": [
+          "Joins Sec 5 if alive after Part II Ch 3; join class, level and ranks ?",
+          "Da Mina Bow +2 (gold, arts Hit +10) over Silver Bow +2 (Boon): Silver is Da Mina +1 Mt",
+          "Underworld Boon: bows can't strip it; shoot Boon foes within 2 of Eshmel"
+        ],
+        "exit": "Endpoint. Bow Adept at Lv 45 with Bow A needs a Master License (none planned).",
+        "weapons": [
+          {
+            "item": "Da Mina Bow +2",
+            "why": "Main: Mt ?, Hit 70, Wt 6; arts Hit +10. Silver Bow is Da Mina +1",
+            "plan": "No Soulstone on the bench (D-158)"
+          },
+          {
+            "item": "Longbow +2",
+            "why": "Deadeye 3-5: Hit +20 personal offsets its Hit −30; Mt ~17, Wt 13",
+            "plan": "No Soulstone on the bench (D-158)"
+          },
+          {
+            "item": "Mini Bow +2",
+            "why": "Range 1-2: Mt 15, AS +3 vs adjacent; Snipers counter at 1",
+            "plan": "Boon or Reliquary buy",
+            "alts": [
+              "Tempest Bow +2"
+            ]
+          }
+        ],
+        "equipment": [
+          {
+            "item": "Gale Ring",
+            "why": "Spd +3, Wt 2: Hit is covered, AS is not",
+            "slot": "Accessory",
+            "alts": [
+              "Phantom Ring",
+              "Archer's Ring"
+            ]
+          }
+        ],
+        "items": [
+          {
+            "item": "Concoction",
+            "why": "40 HP",
+            "alts": [
+              "Elixir"
+            ]
+          }
+        ],
+        "arts": [
+          {
+            "name": "Curved Shot",
+            "why": "Bow D: range 2-3, Hit +10"
+          },
+          {
+            "name": "Spirit Bow",
+            "why": "Bow C: Mt +8, Rsl +7 vs mages"
+          },
+          {
+            "name": "Spiral Shot",
+            "why": "Bow B: Mt +7, Atk +5 at Dex/2 %"
+          },
+          {
+            "name": "Deadeye",
+            "why": "Longbow art: range 3-5, Hit −30, no follow-up"
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Steady Shot",
+            "why": "Infantry D: Hit +5 with bows; Marksmanship replaces it once mastered"
+          },
+          {
+            "name": "Bows Lv. 3",
+            "why": "Bow B+ ?: Hit/Avo +5"
+          },
+          {
+            "name": "Evasion+",
+            "why": "Infantry B: Avo +100 when attacked (5%); Evasion at C"
+          },
+          {
+            "name": "Read the Winds",
+            "why": "Flying D ?: Avo +10 vs bows"
+          },
+          {
+            "name": "Knightly Senses",
+            "why": "Riding D ?: Avo +10 vs spears"
+          }
+        ],
+        "tips": [
+          "Seat: Cohen & Maria (A launch) for Lilian or Nuzzuo on the large birds",
+          "Drake (E, on foot) for Inyoni: Spirit Bow (Rsl +7) on the mage turns",
+          "Res 15 growth: end turns behind Buccar or Centurio, out of mage range",
+          "Sheet: her Infantry skill EXP is bugged until the Boon of Salvation is bought ?"
+        ],
+        "drop": [
+          {
+            "item": "Silver Bow",
+            "why": "Da Mina +1 Mt and a Boon buy: Da Mina Bow +2 instead"
+          },
+          {
+            "item": "Evasion",
+            "why": "Evasion+ replaces it at Infantry B"
+          }
+        ]
+      }
+    ],
+    "sources": [
+      "part3-salvation",
+      "weapons-and-items",
+      "combat-arts-and-abilities",
+      "character-learnsets",
+      "equippable-abilities",
+      "class-data",
+      "redesign/17-part2-part3-plan"
+    ]
+  },
+  "recruitOn": {
+    "Leda": {
+      "how": "story",
+      "window": "Part III Sec 5 (alive after Part II Ch 3)"
+    },
+    "Theodora": {
+      "how": "story",
+      "window": "Part III Sec 5 (alive after Part II Ch 3)"
+    }
+  }
+}

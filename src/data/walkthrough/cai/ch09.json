@@ -1,0 +1,180 @@
+{
+  "route": "Cai",
+  "ch": 9,
+  "name": "Mystery at Aurora's Temple",
+  "free": {
+    "from": "9/3",
+    "to": "9/11"
+  },
+  "routine": {
+    "meals": [
+      {
+        "week": "Every Sunday",
+        "tables": [
+          [
+            "Cai",
+            "Sirocco",
+            "Ninae"
+          ],
+          [
+            "Cai",
+            "Peter",
+            "Ninae"
+          ],
+          [
+            "Cai",
+            "Tialla",
+            "Peter"
+          ]
+        ],
+        "note": "Meal 1 only if Sirocco is short of Support 3; Ultand is out this chapter."
+      }
+    ],
+    "gifts": [
+      {
+        "unit": "Sirocco",
+        "gift": "Volcano Ghosh",
+        "where": "Lowtown Tavern",
+        "cost": "135G",
+        "until": "recruited"
+      }
+    ]
+  },
+  "missables": [
+    {
+      "id": "cai-ch09-missables-star-spear",
+      "kind": "item",
+      "text": "Pick up the [[item:Star Spear]] in Zenzele's Paradise before you start the battle",
+      "where": "Zenzele's Paradise",
+      "lose": "The Star Spear, Cai's Caladrius spear",
+      "recover": "None known",
+      "task": true
+    },
+    {
+      "id": "cai-ch09-missables-even-more-pearls",
+      "quest": "even-more-fabled-insect-pearls",
+      "kind": "timing",
+      "text": "Hand in 8 Insect Pearls for Even More Fabled Insect Pearls, the last step of the chain",
+      "when": "9/16",
+      "lose": "10,000G, 50 Renown and 2 Thunderstone",
+      "recover": "None",
+      "task": true
+    },
+    {
+      "id": "cai-ch09-missables-nezha-salamander",
+      "kind": "timing",
+      "text": "Recruit Nezha this chapter: from Ch 10 he joins past Lv 20 without the Salamander",
+      "lose": "The Salamander",
+      "recover": "None",
+      "task": true
+    }
+  ],
+  "classes": {
+    "note": {
+      "text": "No exams: Advanced needs Renown 8, usually Ch 10. Spend the Arena weeks on the exam ranks",
+      "detail": [
+        "Arena order: Guzran Sword B, Seteth Flying C, Axe B, Spear B, Ninae Spear B, then Ultand and Cai Black Magic B.",
+        "Expect Cai, Tialla, Guzran near Lv 35 by Ch 10; Ultand a map behind; Seteth, Ninae about Lv 30 (35 in Ch 11).",
+        "Renown 8 at the very end of Ch 9? Start the Ch 10 list now; Cai's Caladrius needs Castor's request first."
+      ]
+    }
+  },
+  "gear": {
+    "note": [
+      {
+        "text": "Save gold for 6 to 7 Advanced Licenses from Megaira over Ch 10 to 12"
+      }
+    ]
+  },
+  "recruits": [
+    {
+      "unit": "Nezha",
+      "action": "Hand over 3× Sandworm Meat while he's under Lv 20: he brings a Salamander",
+      "when": "Ch 9, before Lv 20",
+      "detail": [
+        "Filler, bench only."
+      ]
+    }
+  ],
+  "prep": [
+    {
+      "text": "Leave Nuzzuo for Ch 10: recruited then, he brings a Levin Sword"
+    },
+    {
+      "text": "Reached Renown 7 only now? Do Castor's request (Ch 8 row), the Theater and Headsman's Rock this week"
+    }
+  ],
+  "quests": {
+    "route": [
+      {
+        "quest": "missing-master"
+      }
+    ],
+    "sub": [
+      {
+        "quest": "even-more-fabled-insect-pearls"
+      },
+      {
+        "quest": "missing-customer",
+        "offered": "if-offered"
+      },
+      {
+        "quest": "another-challenge",
+        "offered": "if-offered"
+      },
+      {
+        "quest": "spellcasters-in-the-forest",
+        "offered": "if-offered"
+      },
+      {
+        "quest": "something-a-god-eats",
+        "offered": "if-offered"
+      },
+      {
+        "quest": "my-late-sisters-accessory",
+        "offered": "if-offered"
+      }
+    ],
+    "paralogue": []
+  },
+  "explore": [
+    {
+      "group": "Spare Turns",
+      "text": "Skipped [[place:Cave Behind the Falls]] (Lv 22, Castalia) in Ch 8? Run it now for Tialla's Archive B"
+    },
+    {
+      "group": "Spare Turns",
+      "id": "cai-ch09-explore-stoppered-shrine",
+      "loot": true,
+      "text": "[[place:Stoppered Shrine]] (Lv 25, Idyia): Flower Painting, [[item:Velheit]] (axe)",
+      "detail": [
+        "Run it with your support pairs; it stays the support run through Ch 11."
+      ]
+    }
+  ],
+  "battle": {
+    "title": "Battle in Utopia",
+    "objective": "Defeat Zenzele",
+    "lose": "Cai or Ultand falls?",
+    "tips": [
+      {
+        "text": "Fog of war: have Credna's blessing at Lv 1 ready",
+        "detail": [
+          "Noctula: pack a Miranilla Juice (or a spare Vulnerary) for baiting in the fog."
+        ]
+      },
+      {
+        "text": "Enemies come from every side: hold your start, then push north together"
+      },
+      {
+        "text": "Aurora fights with you: she has Heal, Recover, Fortify and Warp"
+      },
+      {
+        "text": "Ultand is out in free time, so Noctula takes her slot and Cai (Shaman) is the caster",
+        "detail": [
+          "Tialla and Ninae (both Priests) cover the healing."
+        ]
+      }
+    ]
+  }
+}

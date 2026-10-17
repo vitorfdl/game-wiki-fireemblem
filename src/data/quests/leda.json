@@ -1,0 +1,1537 @@
+[
+  {
+    "id": "stolen-viewership",
+    "name": "Stolen Viewership",
+    "kind": "subquest",
+    "giver": "Spectator, Arena Plaza",
+    "task": "Defeat the rogues at Showdown Square",
+    "where": "Showdown Square",
+    "reward": {
+      "gold": 1000,
+      "renown": 30,
+      "items": [
+        "Vulnerary"
+      ]
+    },
+    "routes": {
+      "Leda": {
+        "ch": 4,
+        "due": "3/21",
+        "missable": true
+      }
+    }
+  },
+  {
+    "id": "dance-at-the-tavern",
+    "name": "Dance at the Tavern",
+    "kind": "perform",
+    "task": "Perform at the Tavern in Dagsion (tutorial)",
+    "where": "Dagsion Tavern",
+    "routes": {
+      "Leda": {
+        "ch": 4,
+        "due": "11/27"
+      }
+    }
+  },
+  {
+    "id": "dance-for-yaaman",
+    "name": "Dance for Yaaman",
+    "kind": "perform",
+    "task": "Travel to Yaaman and perform",
+    "where": "Yaaman",
+    "reward": {
+      "gold": 3000,
+      "items": [
+        "Vegetable Crate",
+        "Gift Box"
+      ]
+    },
+    "routes": {
+      "Leda": {
+        "ch": 4,
+        "due": "5/28"
+      }
+    }
+  },
+  {
+    "id": "dance-for-regia",
+    "name": "Dance for Regia",
+    "kind": "perform",
+    "task": "Travel to Regia and perform",
+    "where": "Regia",
+    "routes": {
+      "Leda": {
+        "ch": 4,
+        "due": "5/28"
+      }
+    }
+  },
+  {
+    "id": "dance-for-daimon",
+    "name": "Dance for Daimon",
+    "kind": "perform",
+    "task": "Travel to Daimon and perform",
+    "where": "Daimon",
+    "routes": {
+      "Leda": {
+        "ch": 4,
+        "due": "5/28"
+      }
+    }
+  },
+  {
+    "id": "simple-drink-recipes",
+    "name": "Simple Drink Recipes",
+    "kind": "perform",
+    "task": "Bring Sweet Leaves (Traveler's Hill) to the Dagsion Tavern",
+    "where": "Dagsion Tavern",
+    "reward": {
+      "unlocks": [
+        "Song of Madness"
+      ]
+    },
+    "routes": {
+      "Leda": {
+        "ch": 4,
+        "due": "11/27"
+      }
+    }
+  },
+  {
+    "id": "stolen-knowledge",
+    "name": "Stolen Knowledge",
+    "kind": "subquest",
+    "giver": "Kinkara, City Streets",
+    "task": "Deliver the Ancient Tablet from Wodan Pass",
+    "where": "Wodan Pass",
+    "reward": {
+      "gold": 500,
+      "renown": 30,
+      "items": [
+        "Vulnerary"
+      ]
+    },
+    "routes": {
+      "Leda": {
+        "ch": 4,
+        "due": "4/30"
+      }
+    }
+  },
+  {
+    "id": "valeris-eight-fangs",
+    "name": "Valeri's Eight Fangs",
+    "kind": "subquest",
+    "giver": "Soldier, City Streets",
+    "task": "Defeat the eight fangs at Valeri Gorge",
+    "where": "Valeri Gorge",
+    "reward": {
+      "gold": 600,
+      "renown": 30,
+      "items": [
+        "Yarc Meat ×2"
+      ]
+    },
+    "routes": {
+      "Leda": {
+        "ch": 4,
+        "due": "5/7"
+      }
+    }
+  },
+  {
+    "id": "searching-for-smithing-stones",
+    "name": "Searching for Smithing Stones",
+    "kind": "subquest",
+    "giver": "Soldier, Marketplace",
+    "task": "Deliver 3 Smithing Stones (Niraga Mine, among others)",
+    "reward": {
+      "gold": 500,
+      "renown": 30
+    },
+    "routes": {
+      "Leda": {
+        "ch": 4,
+        "due": "5/7"
+      }
+    }
+  },
+  {
+    "id": "knowing-more-about-him",
+    "name": "Knowing More About Him",
+    "kind": "subquest",
+    "giver": "Troubled Woman, Arena Plaza",
+    "task": "Talk to the man near the Inn in Dagsion",
+    "reward": {
+      "gold": 600,
+      "renown": 30,
+      "items": [
+        "Mane Ornament"
+      ]
+    },
+    "routes": {
+      "Leda": {
+        "ch": 4,
+        "due": "5/7"
+      }
+    }
+  },
+  {
+    "id": "granadas-thieves",
+    "name": "Granada's Thieves",
+    "kind": "subquest",
+    "giver": "Traveler, Arena Plaza",
+    "task": "Defeat the Zaron Thieves at Granada Fort Ruins",
+    "where": "Granada Fort Ruins",
+    "reward": {
+      "gold": 600,
+      "renown": 30,
+      "items": [
+        "Baal Plate ×3"
+      ]
+    },
+    "routes": {
+      "Leda": {
+        "ch": 4,
+        "due": "5/7"
+      }
+    }
+  },
+  {
+    "id": "the-fabled-insect-pearl",
+    "name": "The Fabled Insect Pearl",
+    "kind": "subquest",
+    "giver": "Mandalan Trader, City Streets",
+    "task": "Deliver 3 Insect Pearls; starts the pearl chain",
+    "reward": {
+      "gold": 5000,
+      "renown": 30
+    },
+    "routes": {
+      "Leda": {
+        "ch": 4,
+        "due": "3/7"
+      }
+    },
+    "conf": "?"
+  },
+  {
+    "id": "monster-in-the-night",
+    "name": "Monster in the Night",
+    "kind": "subquest",
+    "giver": "Merchant, City Streets",
+    "task": "Defeat the Phantom in the eastern alleys in the evening",
+    "where": "Eastern alleys, Dagsion",
+    "reward": {
+      "gold": 1500,
+      "renown": 100
+    },
+    "routes": {
+      "Leda": {
+        "ch": 5,
+        "due": "5/7"
+      }
+    }
+  },
+  {
+    "id": "fate-of-the-expedition",
+    "name": "Fate of the Expedition",
+    "kind": "subquest",
+    "giver": "Merchant, Arena Plaza",
+    "task": "Gather information about the cave expedition",
+    "reward": {
+      "renown": 30,
+      "items": [
+        "Lucky Coin"
+      ]
+    },
+    "routes": {
+      "Leda": {
+        "ch": 5,
+        "due": "4/20"
+      }
+    }
+  },
+  {
+    "id": "more-fabled-insect-pearls",
+    "name": "More Fabled Insect Pearls",
+    "kind": "subquest",
+    "giver": "Mandalan Trader, City Streets",
+    "task": "Deliver 2 Large Insect Pearls (needs The Fabled Insect Pearl)",
+    "reward": {
+      "gold": 8000,
+      "renown": 30,
+      "items": [
+        "Wun Fruit ×2",
+        "Pongo ×2"
+      ]
+    },
+    "routes": {
+      "Leda": {
+        "ch": 5,
+        "due": "4/20"
+      }
+    }
+  },
+  {
+    "id": "behelda-axes",
+    "name": "Behelda Axes",
+    "kind": "subquest",
+    "giver": "Vandahl Merchant, Path to Lowtown",
+    "task": "Defeat the Behelda Axes at Napier Woods",
+    "where": "Napier Woods",
+    "reward": {
+      "gold": 1000,
+      "renown": 50,
+      "items": [
+        "Desert Millet",
+        "Shem Yam"
+      ]
+    },
+    "routes": {
+      "Leda": {
+        "ch": 5,
+        "due": "5/28"
+      }
+    }
+  },
+  {
+    "id": "primal-crystal",
+    "name": "Primal Crystal",
+    "kind": "subquest",
+    "giver": "Mage, City Streets",
+    "task": "Deliver the Soul Crystal from Fallen General's Barrows",
+    "where": "Fallen General's Barrows",
+    "reward": {
+      "renown": 30,
+      "items": [
+        "Order's Staff"
+      ]
+    },
+    "routes": {
+      "Leda": {
+        "ch": 5,
+        "due": "5/28"
+      }
+    }
+  },
+  {
+    "id": "sinister-sacrifices",
+    "name": "Sinister Sacrifices",
+    "kind": "subquest",
+    "giver": "Priest, Lower Temple Row",
+    "task": "Defeat Sithya's Secret Seal at Sunset Fortress",
+    "where": "Sunset Fortress",
+    "reward": {
+      "gold": 1000,
+      "renown": 50,
+      "items": [
+        "Black-Magic Manual"
+      ]
+    },
+    "routes": {
+      "Leda": {
+        "ch": 5,
+        "due": "6/28"
+      }
+    }
+  },
+  {
+    "id": "petals-of-encouragement",
+    "name": "Petals of Encouragement",
+    "kind": "subquest",
+    "giver": "Spectator, City Streets",
+    "task": "Deliver a Yaamanthemum (sold in Yaaman)",
+    "reward": {
+      "gold": 800,
+      "renown": 50,
+      "items": [
+        "Linking Rock"
+      ]
+    },
+    "routes": {
+      "Leda": {
+        "ch": 5,
+        "due": "6/28"
+      }
+    }
+  },
+  {
+    "id": "dance-for-raivo-port",
+    "name": "Dance for Raivo Port",
+    "kind": "perform",
+    "task": "Travel to Raivo Port and perform",
+    "where": "Raivo Port",
+    "reward": {
+      "gold": 5000,
+      "renown": 180
+    },
+    "routes": {
+      "Leda": {
+        "ch": 6,
+        "due": "9/1"
+      }
+    },
+    "conf": "?"
+  },
+  {
+    "id": "dance-for-zoste",
+    "name": "Dance for Zoste",
+    "kind": "perform",
+    "task": "Travel to Zoste and perform",
+    "where": "Zoste",
+    "reward": {
+      "gold": 5000,
+      "renown": 180
+    },
+    "routes": {
+      "Leda": {
+        "ch": 6,
+        "due": "9/1"
+      }
+    },
+    "conf": "?"
+  },
+  {
+    "id": "defeat-aguinos-thieves",
+    "name": "Defeat Aguino's Thieves",
+    "kind": "subquest",
+    "giver": "Villager, Port",
+    "task": "Defeat the thieves at Lyoshan Fort",
+    "where": "Lyoshan Fort",
+    "reward": {
+      "gold": 2000,
+      "renown": 30,
+      "items": [
+        "Jyoppa ×5"
+      ]
+    },
+    "routes": {
+      "Leda": {
+        "ch": 6,
+        "due": "5/28"
+      }
+    }
+  },
+  {
+    "id": "a-taste-of-nostalgia",
+    "name": "A Taste of Nostalgia",
+    "kind": "subquest",
+    "giver": "Old Man, Port",
+    "task": "Deliver Sandworm Meat",
+    "reward": {
+      "gold": 3000,
+      "renown": 80,
+      "items": [
+        "Sunstone ×2"
+      ]
+    },
+    "routes": {
+      "Leda": {
+        "ch": 6,
+        "due": "6/15"
+      }
+    }
+  },
+  {
+    "id": "soil-survey",
+    "name": "Soil Survey",
+    "kind": "subquest",
+    "giver": "Soldier, Port",
+    "task": "Deliver Megrez Soil from the Ruins of Megrez",
+    "reward": {
+      "gold": 2000,
+      "renown": 50
+    },
+    "routes": {
+      "Leda": {
+        "ch": 6,
+        "due": "9/1"
+      }
+    }
+  },
+  {
+    "id": "energy-nuts",
+    "name": "Energy Nuts",
+    "kind": "subquest",
+    "giver": "Male Servant, City Streets",
+    "task": "Deliver Enrietto from the Sunlit Garden",
+    "reward": {
+      "gold": 2000,
+      "renown": 50,
+      "items": [
+        "Fodlan Tea"
+      ]
+    },
+    "routes": {
+      "Leda": {
+        "ch": 6,
+        "due": "9/1"
+      }
+    }
+  },
+  {
+    "id": "learning-more-about-mehdel",
+    "name": "Learning More about Mehdel",
+    "kind": "subquest",
+    "giver": "Sirocco, Temple Row",
+    "task": "Talk to the marked NPCs in Temple Row",
+    "where": "Temple Row",
+    "reward": {
+      "renown": 30
+    },
+    "routes": {
+      "Leda": {
+        "ch": 7,
+        "due": "6/28"
+      }
+    }
+  },
+  {
+    "id": "dance-for-mons",
+    "name": "Dance for Mons",
+    "kind": "perform",
+    "task": "Travel to Mons and perform",
+    "where": "Mons",
+    "reward": {
+      "renown": 200
+    },
+    "routes": {
+      "Leda": {
+        "ch": 7,
+        "due": "10/15"
+      }
+    },
+    "conf": "?"
+  },
+  {
+    "id": "dance-for-alecto",
+    "name": "Dance for Alecto",
+    "kind": "perform",
+    "task": "Travel to Alecto and perform",
+    "where": "Alecto",
+    "reward": {
+      "renown": 200
+    },
+    "routes": {
+      "Leda": {
+        "ch": 7,
+        "due": "10/15"
+      }
+    },
+    "conf": "?"
+  },
+  {
+    "id": "dance-for-barsh-post-town",
+    "name": "Dance for Barsh Post Town",
+    "kind": "perform",
+    "task": "Travel to Barsh Post Town and perform",
+    "where": "Barsh Post Town",
+    "reward": {
+      "renown": 200
+    },
+    "routes": {
+      "Leda": {
+        "ch": 7,
+        "due": "10/15"
+      }
+    },
+    "conf": "?"
+  },
+  {
+    "id": "legacy-of-a-legendary-sculptor",
+    "name": "Legacy of a Legendary Sculptor",
+    "kind": "subquest",
+    "giver": "Imperial Soldier, Temple Row",
+    "task": "Deliver 4 statues: Solel's Temple, Utuna Pass, Gaura Grassland, Lake Brontes",
+    "reward": {
+      "gold": 5000,
+      "renown": 100,
+      "items": [
+        "Riding Manual",
+        "Heavy-Armor Manual",
+        "Flying Manual"
+      ]
+    },
+    "routes": {
+      "Leda": {
+        "ch": 7,
+        "due": "11/27"
+      }
+    }
+  },
+  {
+    "id": "a-challenge",
+    "name": "A Challenge",
+    "kind": "subquest",
+    "giver": "Suspicious Man, Arena Plaza",
+    "task": "Complete the challenge; starts a 3-part chain",
+    "reward": {
+      "gold": 1000,
+      "renown": 50
+    },
+    "routes": {
+      "Leda": {
+        "ch": 7,
+        "due": "9/1"
+      }
+    }
+  },
+  {
+    "id": "a-sword-of-deadly-renown",
+    "name": "A Sword of Deadly Renown",
+    "kind": "subquest",
+    "giver": "Gladiator, weapon shop",
+    "task": "Deliver a Killing Edge",
+    "reward": {
+      "gold": 4000,
+      "renown": 30,
+      "items": [
+        "Iron Axe"
+      ]
+    },
+    "routes": {
+      "Leda": {
+        "ch": 7,
+        "due": "9/1"
+      }
+    }
+  },
+  {
+    "id": "a-screeching-strange-shadow",
+    "name": "A Screeching, Strange Shadow",
+    "kind": "subquest",
+    "giver": "Priest, Entertainment District",
+    "task": "Defeat the Mysterious Monster at Fallen General's Barrows",
+    "reward": {
+      "gold": 1000,
+      "renown": 80,
+      "items": [
+        "Black-Sand Steel"
+      ]
+    },
+    "routes": {
+      "Leda": {
+        "ch": 7,
+        "due": "9/1"
+      }
+    }
+  },
+  {
+    "id": "a-taste-from-home",
+    "name": "A Taste from Home",
+    "kind": "subquest",
+    "giver": "Citizen, Lowtown",
+    "task": "Deliver Jyoppa (from Defeat Aguino's Thieves)",
+    "reward": {
+      "gold": 2000,
+      "renown": 50,
+      "items": [
+        "Pickled Bulbs"
+      ]
+    },
+    "routes": {
+      "Leda": {
+        "ch": 7,
+        "due": "9/1"
+      }
+    }
+  },
+  {
+    "id": "rare-stone-hunting",
+    "name": "Rare Stone Hunting",
+    "kind": "subquest",
+    "giver": "Royu, Lowtown",
+    "task": "Deliver 3 Ouranotite from Cougar Woodlands",
+    "reward": {
+      "renown": 80,
+      "items": [
+        "Tempest Bow"
+      ]
+    },
+    "routes": {
+      "Leda": {
+        "ch": 7,
+        "due": "7/31"
+      }
+    }
+  },
+  {
+    "id": "for-the-empires-safety",
+    "name": "For the Empire's Safety",
+    "kind": "subquest",
+    "giver": "Daniel, Temple Row",
+    "task": "Deliver the Sealed Letter from the Unmanned Storehouse",
+    "where": "Unmanned Storehouse",
+    "reward": {
+      "renown": 200,
+      "items": [
+        "Specialty License"
+      ]
+    },
+    "routes": {
+      "Leda": {
+        "ch": 8,
+        "due": "9/19",
+        "missable": true
+      }
+    }
+  },
+  {
+    "id": "a-letter-of-some-gravity",
+    "name": "A Letter of Some Gravity",
+    "kind": "subquest",
+    "giver": "Suspicious Knight, Port",
+    "task": "Deliver the Sealed Letter from the Unmanned Storehouse",
+    "where": "Unmanned Storehouse",
+    "reward": {
+      "gold": 1000,
+      "renown": 30
+    },
+    "routes": {
+      "Leda": {
+        "ch": 8,
+        "due": "9/19",
+        "missable": true
+      }
+    }
+  },
+  {
+    "id": "huge-hairy-beasts",
+    "name": "Huge Hairy Beasts",
+    "kind": "subquest",
+    "giver": "Peddler, Vandahl Trading Company",
+    "task": "Defeat the beasts at Moonwatch Pass",
+    "where": "Moonwatch Pass",
+    "reward": {
+      "gold": 1500,
+      "renown": 80,
+      "items": [
+        "Cadam ×2",
+        "Dates ×2"
+      ]
+    },
+    "routes": {
+      "Leda": {
+        "ch": 8,
+        "due": "9/1"
+      }
+    }
+  },
+  {
+    "id": "purloined-spellcasters-tools",
+    "name": "Purloined Spellcasters Tools",
+    "kind": "subquest",
+    "giver": "Merchant, Arena Plaza",
+    "task": "Deliver the Spellcasters Relics from the Secret Altar",
+    "where": "Secret Altar",
+    "reward": {
+      "gold": 1500,
+      "renown": 80,
+      "items": [
+        "White-Magic Manual"
+      ]
+    },
+    "routes": {
+      "Leda": {
+        "ch": 8,
+        "due": "10/15"
+      }
+    }
+  },
+  {
+    "id": "garum-garum-garum",
+    "name": "Garum, Garum, Garum!",
+    "kind": "subquest",
+    "giver": "Wealthy Man, Inn",
+    "task": "Bring 5 Garum of any kind",
+    "reward": {
+      "gold": 8000,
+      "renown": 100,
+      "items": [
+        "Concoction"
+      ]
+    },
+    "routes": {
+      "Leda": {
+        "ch": 8,
+        "due": "7/31"
+      }
+    }
+  },
+  {
+    "id": "blight-louse-extermination-request",
+    "name": "Blight-Louse Extermination Request",
+    "kind": "subquest",
+    "giver": "Soldier, Port",
+    "task": "Clear the pests in Bugs' Burrow",
+    "where": "Bugs' Burrow",
+    "reward": {
+      "gold": 2500,
+      "renown": 50
+    },
+    "routes": {
+      "Leda": {
+        "ch": 8,
+        "due": "9/1"
+      }
+    }
+  },
+  {
+    "id": "great-dancers-successor",
+    "name": "Great Dancer's Successor",
+    "kind": "subquest",
+    "giver": "Starts automatically",
+    "task": "Buy Hingosh at Baina Oasis (1,500G) and deliver it",
+    "where": "Baina Oasis",
+    "reward": {
+      "items": [
+        "Dancer's Necklace"
+      ]
+    },
+    "routes": {
+      "Leda": {
+        "ch": 9,
+        "due": "10/15"
+      }
+    },
+    "conf": "?"
+  },
+  {
+    "id": "even-more-fabled-insect-pearls",
+    "name": "Even More Fabled Insect Pearls",
+    "kind": "subquest",
+    "giver": "Mandalan Trader, City Streets",
+    "task": "Deliver 8 insect pearls (needs More Fabled Insect Pearls)",
+    "reward": {
+      "gold": 10000,
+      "renown": 50,
+      "items": [
+        "Thunderstone ×2"
+      ]
+    },
+    "routes": {
+      "Leda": {
+        "ch": 9,
+        "due": "9/16"
+      }
+    }
+  },
+  {
+    "id": "my-late-sisters-accessory",
+    "name": "My Late Sister's Accessory",
+    "kind": "subquest",
+    "giver": "Creek",
+    "task": "Deliver the Violet Brooch from Axion Gorge",
+    "where": "Axion Gorge",
+    "reward": {
+      "gold": 3000,
+      "renown": 100,
+      "unlocks": [
+        "Creek recruit in Part II War Ch 2"
+      ]
+    },
+    "routes": {
+      "Leda": {
+        "ch": 9,
+        "due": "10/15"
+      }
+    },
+    "conf": "community"
+  },
+  {
+    "id": "another-challenge",
+    "name": "Another Challenge",
+    "kind": "subquest",
+    "giver": "Suspicious Man, Arena Plaza",
+    "task": "Complete the second challenge (needs A Challenge)",
+    "reward": {
+      "gold": 2000,
+      "renown": 50
+    },
+    "routes": {
+      "Leda": {
+        "ch": 9,
+        "due": "10/15"
+      }
+    }
+  },
+  {
+    "id": "spellcasters-in-the-forest",
+    "name": "Spellcasters in the Forest",
+    "kind": "subquest",
+    "giver": "Hunter, Lowtown",
+    "task": "Defeat the veiled spellcasters in Faun's Forest",
+    "where": "Faun's Forest",
+    "reward": {
+      "gold": 4000,
+      "renown": 50,
+      "items": [
+        "Melara ×3"
+      ]
+    },
+    "routes": {
+      "Leda": {
+        "ch": 9,
+        "due": "10/15"
+      }
+    }
+  },
+  {
+    "id": "something-a-god-eats",
+    "name": "Something a God Eats",
+    "kind": "subquest",
+    "giver": "Worshipper, Jurah's Temple",
+    "task": "Deliver Rahlan (Port of Pandora)",
+    "reward": {
+      "items": [
+        "Eastern Black Silk"
+      ]
+    },
+    "routes": {
+      "Leda": {
+        "ch": 9,
+        "due": "11/6"
+      }
+    }
+  },
+  {
+    "id": "missing-customer",
+    "name": "Missing Customer",
+    "kind": "subquest",
+    "giver": "Tavern Worker",
+    "task": "Talk to Gaston and Fina",
+    "reward": {
+      "renown": 50,
+      "items": [
+        "Crimson Ghosh"
+      ]
+    },
+    "routes": {
+      "Leda": {
+        "ch": 9,
+        "due": "11/3"
+      }
+    }
+  },
+  {
+    "id": "dance-for-orens",
+    "name": "Dance for Orens",
+    "kind": "perform",
+    "task": "Travel to Orens and perform",
+    "where": "Orens",
+    "reward": {
+      "gold": 5000
+    },
+    "routes": {
+      "Leda": {
+        "ch": 9,
+        "due": "11/27"
+      }
+    }
+  },
+  {
+    "id": "dance-for-port-of-pandora",
+    "name": "Dance for Port of Pandora",
+    "kind": "perform",
+    "task": "Travel to Port of Pandora and perform",
+    "where": "Port of Pandora",
+    "reward": {
+      "gold": 5000
+    },
+    "routes": {
+      "Leda": {
+        "ch": 9,
+        "due": "11/27"
+      }
+    }
+  },
+  {
+    "id": "dance-for-mahon-castle-town",
+    "name": "Dance for Mahon Castle Town",
+    "kind": "perform",
+    "task": "Travel to Mahon Castle Town and perform",
+    "where": "Mahon Castle Town",
+    "reward": {
+      "gold": 5000
+    },
+    "routes": {
+      "Leda": {
+        "ch": 9,
+        "due": "11/27"
+      }
+    }
+  },
+  {
+    "id": "dance-for-twalinn",
+    "name": "Dance for Twalinn",
+    "kind": "perform",
+    "task": "Travel to Twalinn and perform",
+    "where": "Twalinn",
+    "reward": {
+      "gold": 5000
+    },
+    "routes": {
+      "Leda": {
+        "ch": 9,
+        "due": "11/27"
+      }
+    }
+  },
+  {
+    "id": "dance-for-breston",
+    "name": "Dance for Breston",
+    "kind": "perform",
+    "task": "Travel to Breston and perform",
+    "where": "Breston",
+    "reward": {
+      "gold": 5000
+    },
+    "routes": {
+      "Leda": {
+        "ch": 9,
+        "due": "11/27"
+      }
+    }
+  },
+  {
+    "id": "dance-for-whill",
+    "name": "Dance for Whill",
+    "kind": "perform",
+    "task": "Travel to Whill and perform",
+    "where": "Whill",
+    "reward": {
+      "gold": 5000
+    },
+    "routes": {
+      "Leda": {
+        "ch": 9,
+        "due": "11/27"
+      }
+    }
+  },
+  {
+    "id": "captains-drink-recipes",
+    "name": "Captain's Drink Recipes",
+    "kind": "perform",
+    "task": "Bring Pepper Leaves (Traveler's Garden) to the Dagsion Tavern",
+    "where": "Dagsion Tavern",
+    "reward": {
+      "unlocks": [
+        "Song of Icewater+"
+      ]
+    },
+    "routes": {
+      "Leda": {
+        "ch": 9
+      }
+    },
+    "conf": "community"
+  },
+  {
+    "id": "popular-drink-recipes",
+    "name": "Popular Drink Recipes",
+    "kind": "perform",
+    "task": "Bring Bitter Leaves (Traveler's Garden) to the Dagsion Tavern",
+    "where": "Dagsion Tavern",
+    "reward": {
+      "unlocks": [
+        "Song of Passion+"
+      ]
+    },
+    "routes": {
+      "Leda": {
+        "ch": 9
+      }
+    },
+    "conf": "community"
+  },
+  {
+    "id": "queen-of-the-erased",
+    "name": "Queen of the Erased",
+    "kind": "paralogue",
+    "giver": "Anatolia, City Streets",
+    "task": "Anatolia's Paralogue: escort the villagers to the exit",
+    "where": "City Streets",
+    "reward": {
+      "gold": 20000,
+      "renown": 150,
+      "items": [
+        "Electron Agitator"
+      ]
+    },
+    "routes": {
+      "Leda": {
+        "ch": 10,
+        "window": {
+          "from": "10/5",
+          "to": "10/14"
+        },
+        "due": "10/14",
+        "missable": true
+      }
+    }
+  },
+  {
+    "id": "dance-for-osiris",
+    "name": "Dance for Osiris",
+    "kind": "perform",
+    "task": "Travel to Osiris and perform",
+    "where": "Osiris",
+    "reward": {
+      "gold": 5000,
+      "renown": 200
+    },
+    "routes": {
+      "Leda": {
+        "ch": 10,
+        "due": "11/27"
+      }
+    }
+  },
+  {
+    "id": "dance-for-niiza-port",
+    "name": "Dance for Niiza Port",
+    "kind": "perform",
+    "task": "Travel to Niiza Port and perform",
+    "where": "Niiza Port",
+    "reward": {
+      "gold": 5000,
+      "renown": 200
+    },
+    "routes": {
+      "Leda": {
+        "ch": 10,
+        "due": "11/27"
+      }
+    }
+  },
+  {
+    "id": "its-name-is-da-mina",
+    "name": "Its Name Is Da Mina",
+    "kind": "subquest",
+    "giver": "Merchant, Temple Row",
+    "task": "Deliver 2 Da Mina weapons",
+    "reward": {
+      "gold": 20000,
+      "renown": 100,
+      "items": [
+        "Torment Grass ×2"
+      ]
+    },
+    "routes": {
+      "Leda": {
+        "ch": 10,
+        "due": "10/24"
+      }
+    }
+  },
+  {
+    "id": "attack-of-the-huge-birds",
+    "name": "Attack of the Huge Birds",
+    "kind": "subquest",
+    "giver": "Villager, Lowtown",
+    "task": "Defeat the great-winged beasts at Lake Brontes",
+    "where": "Lake Brontes",
+    "reward": {
+      "gold": 3000,
+      "renown": 80,
+      "items": [
+        "Shem Yam ×2",
+        "Redflicker ×2"
+      ]
+    },
+    "routes": {
+      "Leda": {
+        "ch": 10,
+        "due": "11/6"
+      }
+    }
+  },
+  {
+    "id": "one-last-challenge",
+    "name": "One Last Challenge",
+    "kind": "subquest",
+    "giver": "Suspicious Man, Arena Plaza",
+    "task": "Complete the last challenge (needs Another Challenge)",
+    "reward": {
+      "gold": 3000,
+      "renown": 80,
+      "items": [
+        "Cullet ×2"
+      ]
+    },
+    "routes": {
+      "Leda": {
+        "ch": 10,
+        "due": "11/27"
+      }
+    }
+  },
+  {
+    "id": "skeletons-in-the-ruins",
+    "name": "Skeletons in the Ruins",
+    "kind": "subquest",
+    "giver": "Noblewoman, Lower Temple Street",
+    "task": "Defeat the dead at Krove Ditch",
+    "where": "Krove Ditch",
+    "reward": {
+      "gold": 2000,
+      "renown": 50,
+      "items": [
+        "Elixir"
+      ]
+    },
+    "routes": {
+      "Leda": {
+        "ch": 10,
+        "due": "11/27"
+      }
+    }
+  },
+  {
+    "id": "flamma-smugglers",
+    "name": "Flamma Smugglers",
+    "kind": "subquest",
+    "giver": "Daniel, Temple Row",
+    "task": "Deliver the Flamma from Merak Pass (needs For the Empire's Safety)",
+    "where": "Merak Pass",
+    "reward": {
+      "gold": 3000,
+      "renown": 30,
+      "items": [
+        "Wootz Steel ×2"
+      ]
+    },
+    "routes": {
+      "Leda": {
+        "ch": 10,
+        "due": "11/3"
+      }
+    }
+  },
+  {
+    "id": "assassination-no-questions",
+    "name": "Assassination (No Questions)",
+    "kind": "subquest",
+    "giver": "Suspicious Knight, Port",
+    "task": "Defeat Inno at Muzura Death Cave (needs A Letter of Some Gravity)",
+    "where": "Muzura Death Cave",
+    "reward": {
+      "gold": 5000,
+      "renown": 30
+    },
+    "routes": {
+      "Leda": {
+        "ch": 10,
+        "due": "10/15"
+      }
+    }
+  },
+  {
+    "id": "the-great-escape",
+    "name": "The Great Escape",
+    "kind": "paralogue",
+    "giver": "Cai, City Streets",
+    "task": "Cai's Paralogue: stop the enemies reaching the goal",
+    "where": "City Streets",
+    "reward": {
+      "gold": 20000,
+      "renown": 150,
+      "items": [
+        "Gem Box"
+      ]
+    },
+    "routes": {
+      "Leda": {
+        "ch": 11,
+        "window": {
+          "from": "10/16",
+          "to": "10/22"
+        },
+        "due": "10/22",
+        "fight": "10/22",
+        "missable": true
+      }
+    }
+  },
+  {
+    "id": "sealed-off-past",
+    "name": "Sealed-Off Past",
+    "kind": "paralogue",
+    "giver": "Dietrich, near the Arena",
+    "task": "Dietrich's Paralogue: hold for 10 turns",
+    "where": "Near the Arena",
+    "reward": {
+      "gold": 20000,
+      "renown": 150,
+      "items": [
+        "Salamander ×2"
+      ]
+    },
+    "routes": {
+      "Leda": {
+        "ch": 11,
+        "window": {
+          "from": "10/16",
+          "to": "10/22"
+        },
+        "due": "11/1",
+        "missable": true
+      }
+    },
+    "conf": "disputed"
+  },
+  {
+    "id": "orchels-regret",
+    "name": "Orchel's Regret",
+    "kind": "paralogue",
+    "giver": "Orchel, Lower Temple Row",
+    "task": "Orchel's Paralogue: hit both switches on the same turn",
+    "where": "Lower Temple Row",
+    "reward": {
+      "gold": 20000,
+      "renown": 150,
+      "items": [
+        "Healing Staff"
+      ]
+    },
+    "routes": {
+      "Leda": {
+        "ch": 11,
+        "window": {
+          "from": "10/18",
+          "to": "10/25"
+        },
+        "due": "10/27",
+        "missable": true
+      }
+    }
+  },
+  {
+    "id": "dance-for-benetnasch",
+    "name": "Dance for Benetnasch",
+    "kind": "perform",
+    "task": "Travel to Benetnasch and perform",
+    "where": "Benetnasch",
+    "reward": {
+      "gold": 5000,
+      "renown": 180,
+      "items": [
+        "Wonder Leaves",
+        "Bitter Leaves",
+        "Da Mina Crate"
+      ]
+    },
+    "routes": {
+      "Leda": {
+        "ch": 11,
+        "due": "11/27"
+      }
+    }
+  },
+  {
+    "id": "elegant-drink-recipes",
+    "name": "Elegant Drink Recipes",
+    "kind": "perform",
+    "task": "Bring Wonder Leaves (Dance for Benetnasch) to the Tavern at Renown 10",
+    "where": "Dagsion Tavern",
+    "reward": {
+      "unlocks": [
+        "Song of Angels",
+        "Ranger",
+        "Troubadour"
+      ]
+    },
+    "routes": {
+      "Leda": {
+        "ch": 11
+      }
+    },
+    "conf": "?"
+  },
+  {
+    "id": "secret-sparkle",
+    "name": "Secret Sparkle",
+    "kind": "subquest",
+    "giver": "Citizen, City Streets",
+    "task": "Deliver the Aegina Crystal (Pyroxene Cave)",
+    "reward": {
+      "gold": 3000,
+      "renown": 80,
+      "items": [
+        "Dew of Protection"
+      ]
+    },
+    "routes": {
+      "Leda": {
+        "ch": 11,
+        "due": "11/27"
+      }
+    }
+  },
+  {
+    "id": "a-lost-object",
+    "name": "A Lost Object",
+    "kind": "subquest",
+    "giver": "Suspicious Knight, Port",
+    "task": "Deliver the Treasured Sword from Iapetus Cavern (Letter chain)",
+    "where": "Iapetus Cavern",
+    "reward": {
+      "items": [
+        "Haze Badge"
+      ]
+    },
+    "routes": {
+      "Leda": {
+        "ch": 11,
+        "due": "11/21"
+      }
+    }
+  },
+  {
+    "id": "defeat-the-rampaging-golems",
+    "name": "Defeat the Rampaging Golems",
+    "kind": "subquest",
+    "giver": "Soldier, Credna's Temple",
+    "task": "Defeat the golems at Kurdelind Ruins",
+    "where": "Kurdelind Ruins",
+    "reward": {
+      "gold": 2000,
+      "renown": 80,
+      "items": [
+        "Sea-Star Stone"
+      ]
+    },
+    "routes": {
+      "Leda": {
+        "ch": 11,
+        "due": "11/27"
+      }
+    }
+  },
+  {
+    "id": "cant-go-home",
+    "name": "Can't Go Home",
+    "kind": "subquest",
+    "giver": "Boy, Entertainment District",
+    "task": "Deliver the Winged-Lion Key (Benetnasch)",
+    "reward": {
+      "renown": 100,
+      "items": [
+        "Dew of Peace"
+      ]
+    },
+    "routes": {
+      "Leda": {
+        "ch": 11,
+        "due": "10/15"
+      }
+    },
+    "conf": "?"
+  },
+  {
+    "id": "gold-coin-chase",
+    "name": "Gold-Coin Chase",
+    "kind": "subquest",
+    "giver": "Coin Collector, Arena Plaza",
+    "task": "Deliver the Djilu Coin (Giant's-Print Fort)",
+    "reward": {
+      "gold": 2000,
+      "renown": 80,
+      "items": [
+        "Luxury Weapon Crate"
+      ]
+    },
+    "routes": {
+      "Leda": {
+        "ch": 12,
+        "due": "11/27"
+      }
+    }
+  },
+  {
+    "id": "stolen-star-observations",
+    "name": "Stolen Star Observations",
+    "kind": "subquest",
+    "giver": "Priest, Arena Plaza",
+    "task": "Defeat the Star-Spurning Bows at Bau-Caller's Cape",
+    "where": "Bau-Caller's Cape",
+    "reward": {
+      "gold": 3000,
+      "renown": 50,
+      "items": [
+        "White-Magic Manual"
+      ]
+    },
+    "routes": {
+      "Leda": {
+        "ch": 12,
+        "due": "11/27"
+      }
+    }
+  },
+  {
+    "id": "the-divine-sovereigns-secret",
+    "name": "The Divine Sovereign's Secret",
+    "kind": "subquest",
+    "giver": "Priest, City Streets",
+    "task": "Talk to 3 marked NPCs in Dagsion",
+    "reward": {
+      "renown": 120,
+      "items": [
+        "Flower Painting",
+        "Saraminian Sweets"
+      ]
+    },
+    "routes": {
+      "Leda": {
+        "ch": 12,
+        "due": "11/27"
+      }
+    }
+  },
+  {
+    "id": "cant-stay-home",
+    "name": "Can't Stay Home",
+    "kind": "subquest",
+    "giver": "Boy, Entertainment District",
+    "task": "Find a buyer for the house in Riberia (needs Can't Go Home)",
+    "reward": {
+      "gold": 1000,
+      "renown": 50,
+      "items": [
+        "Candy Crystals"
+      ]
+    },
+    "routes": {
+      "Leda": {
+        "ch": 12,
+        "due": "10/24"
+      }
+    },
+    "conf": "?"
+  },
+  {
+    "id": "the-hunter-for-giscos-treasure",
+    "name": "The Hunter for Gisco's Treasure",
+    "kind": "subquest",
+    "giver": "Mystery Chaser",
+    "task": "Deliver Gisco's Treasure (Port of Dagsion)",
+    "reward": {
+      "gold": 5000,
+      "renown": 80,
+      "items": [
+        "Morfis Almanac"
+      ]
+    },
+    "routes": {
+      "Leda": {
+        "ch": 12,
+        "due": "10/24"
+      }
+    },
+    "conf": "?"
+  }
+]

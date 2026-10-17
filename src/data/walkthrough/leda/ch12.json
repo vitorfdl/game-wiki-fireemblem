@@ -1,0 +1,123 @@
+{
+  "route": "Leda",
+  "ch": 12,
+  "name": "Revenge's End",
+  "free": {
+    "from": "11/7",
+    "to": "11/27"
+  },
+  "routine": {
+    "same": 11,
+    "weekly": [
+      {
+        "text": "Last chance: anyone short of their Support level sits in every meal and gets a weekly gift"
+      }
+    ]
+  },
+  "missables": [
+    {
+      "id": "leda-ch12-missables-last-recruits",
+      "kind": "recruit-window",
+      "text": "Recruit anyone from the recruit table still missing before 11/27: Part II has no recruiting",
+      "when": "11/27",
+      "lose": "That unit for Part II",
+      "recover": "None: Part II has no recruiting"
+    },
+    {
+      "id": "leda-ch12-missables-cursed-hold",
+      "kind": "item",
+      "text": "Hold every cursed item when Part I ends (storage counts): Iron Fan, Ursa's Claw and 8 chest items",
+      "when": "by 11/27",
+      "lose": "those items in Part III: the Drifting Reliquary re-sells only what you held",
+      "recover": "None: Part I chests don't refill",
+      "detail": [
+        "Chests: Turmoil Mask, Poisonbone Chain, Veroquine, Azaga's Bow, Muen, Gundogya, Velheit, Onoa (if Ogmios opened).",
+        "Part III users own them: Orchel, Eshmel and Anatolia (their build pages)."
+      ],
+      "task": true
+    }
+  ],
+  "classes": {
+    "note": {
+      "text": "Last exam pass: Inyoni Sniper and Esmeralda Dreadnought, plus anything that slipped",
+      "detail": [
+        "Anyone still short goes on Part II Ch 1's free Licenses.",
+        "Giant's-Print Fort's Advanced License (Spare Turns) counts toward the 7.",
+        "Renown 10 came after Ch 11? Do Elegant Drink Recipes now: Song of Angels is then ready for this battle."
+      ]
+    }
+  },
+  "gear": {},
+  "recruits": [],
+  "quests": {
+    "route": [],
+    "sub": [
+      {
+        "quest": "gold-coin-chase",
+        "offered": "if-offered",
+        "note": "Pays a Luxury Weapon Crate"
+      },
+      {
+        "quest": "stolen-star-observations",
+        "offered": "if-offered",
+        "note": "Pays a White-Magic Manual"
+      },
+      {
+        "quest": "the-divine-sovereigns-secret",
+        "offered": "if-offered"
+      },
+      {
+        "quest": "cant-stay-home",
+        "offered": "if-offered",
+        "note": "Take it only if your quest list shows it open: its 10/24 deadline comes before this free time"
+      },
+      {
+        "quest": "the-hunter-for-giscos-treasure",
+        "offered": "if-offered",
+        "note": "Take it only if your quest list shows it open: its 10/24 deadline comes before this free time"
+      }
+    ],
+    "paralogue": []
+  },
+  "explore": [
+    {
+      "group": "Spare Turns",
+      "id": "leda-ch12-explore-giants-print-fort",
+      "loot": true,
+      "text": "Run [[place:Giant's-Print Fort]] (Lv 35, Ogmios) with the meal pairs: Advanced License, Onoa",
+      "detail": [
+        "Also an [[item:Elixir]]. Only if Ogmios is open.",
+        "[[item:Onoa]] is cursed (Curse 1): hold it to the end of Part I (Drifting Reliquary)."
+      ]
+    }
+  ],
+  "battle": {
+    "title": "Finals vs. Bertrand",
+    "objective": "Defeat Bertrand",
+    "lose": "Leda falls",
+    "tips": [
+      {
+        "text": "Split into east and west teams; lure Gaitz off the center path within 5 to 6 turns"
+      },
+      {
+        "text": "From Turn 7, flames spread outward from your start: send Mov 4 Buccar and Esmeralda first"
+      },
+      {
+        "text": "Destroy the southwest and southeast artillery, and stand on protection tiles"
+      },
+      {
+        "text": "Song of Angels (if you have it) on the boss turn, with Sirocco, Inyoni, Guzran and Esmeralda"
+      }
+    ],
+    "loot": [
+      {
+        "text": "Every chest holds a Luxury Weapon Crate"
+      }
+    ]
+  },
+  "prep": [
+    {
+      "text": "Recruit anyone from the table still missing before 11/27: the row is in Missables"
+    }
+  ]
+}

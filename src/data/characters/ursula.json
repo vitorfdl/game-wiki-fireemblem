@@ -1,0 +1,568 @@
+{
+  "name": "Ursula",
+  "slug": "ursula",
+  "epithet": "Managing director, Vandahl Trading Company",
+  "faction": "Tale of the Moon",
+  "homeRoute": "Dietrich",
+  "weapons": [
+    "Bow",
+    "Sword"
+  ],
+  "preferred": [
+    "Bow",
+    "Sword"
+  ],
+  "personality": "A money-counting manager who loves poetry and flowers and constantly scolds her boss Talimun over his spending.",
+  "story": "A 79-year-old human from the Adrestian Empire who runs the Vandahl Trading Company under Talimun, bearing the Crest of the Beast. Recruitment requires clearing Talimun's Paralogue and answering \"Yes\" three times; she cannot be recruited on Leda's route.",
+  "personalSkill": {
+    "name": "Management Skills",
+    "effect": "Allows storage access to unit and allies within 2 spaces. Lv 20: Seize the Chance (1.3x damage, Lck/2 trigger); Lv 35: Seize the Chance+ (1.5x). Crest of the Beast: 1.2x damage when attacking, 5% trigger."
+  },
+  "growths": {
+    "HP": 40,
+    "Str": 35,
+    "Mag": 35,
+    "Spd": 50,
+    "Dex": 50,
+    "Def": 35,
+    "Res": 30,
+    "Lck": 40,
+    "Cha": 45
+  },
+  "supports": [
+    "Bonaventure",
+    "Fianna",
+    "Gaitz",
+    "Jasmine",
+    "Peter",
+    "Simon",
+    "Sirocco"
+  ],
+  "tiers": [
+    {
+      "source": "KeenGamer",
+      "tier": "A"
+    },
+    {
+      "source": "Pocket Tactics",
+      "tier": "B"
+    }
+  ],
+  "tierNotes": "KeenGamer: A tier (utility; in-battle storage access). Pocket Tactics: B tier.",
+  "recruit": {
+    "how": "recruit",
+    "support": 3,
+    "renown": 7,
+    "extra": "Clear Talimun's Paralogue + answer Yes ×3",
+    "why": [
+      "Support 3 ties with Cai, Theodora, but Renown 7 here is the earliest."
+    ],
+    "tip": "Needs Talimun's Paralogue (9/17–9/19 or 10/1–10/10). Answer Yes three times."
+  },
+  "requirements": {
+    "Cai": "3S 10R",
+    "Dietrich": "3S 7R",
+    "Theodora": "3S 9R",
+    "Leda": "—"
+  },
+  "build": {
+    "role": "Chariot archer and storage carrier",
+    "path": [
+      "Hunter",
+      "Charioteer"
+    ],
+    "part1Target": "Charioteer",
+    "part3Target": "Bow Knight (Kalla's Temple)",
+    "notes": "Joins at about Lv 15 in a Beginner class (Hunter; Ch 9), Charioteer at Lv 20 (Riding D, Bow C). A Ch 10 recruit (Talimun's backup window) joins at about Lv 25, already Specialty. Riding Manual goes to her. Stay Charioteer: growths rise at Lv 35 and 45. Master Charger (Prt +10 after Charge). Charioteer can't dodge, so charge into groups she can survive. Keep allies within 2 spaces for Management Skills.",
+    "confidence": "high"
+  },
+  "guide": {
+    "summary": "Chariot archer and mobile storage. Charioteer from Specialty on: she can't dodge, so charge only into groups she can survive, and keep allies within 2 for Management Skills.",
+    "stages": [
+      {
+        "when": "Join (9/18 to 9/19, Lv 15) to Lv 20",
+        "from": {
+          "part": 1,
+          "ch": 9,
+          "at": "late"
+        },
+        "to": {
+          "lv": 20
+        },
+        "class": "Hunter",
+        "training": [
+          {
+            "rank": "Bow D, Sword D",
+            "for": "Hunter exam, only if she joins in another Beginner class",
+            "how": "Arena Infantry Training"
+          },
+          {
+            "rank": "Riding D, Bow C",
+            "for": "Charioteer exam",
+            "how": "Mounted Training for Riding; Riding Manual from Legacy of a Legendary Sculptor"
+          }
+        ],
+        "tips": [
+          "Recruit right after Talimun's Paralogue; answer Yes 3 times",
+          "Skip Forest Knight: Charioteer growth rises at Lv 35 and 45"
+        ],
+        "weapons": [
+          {
+            "item": "Da Mina Bow",
+            "why": "Mt 12 at Bow C",
+            "alts": [
+              "Iron Bow"
+            ]
+          }
+        ],
+        "arts": [
+          {
+            "name": "Warning Shot",
+            "why": "Avo +10; Bow D per community sheet"
+          },
+          {
+            "name": "Breakaway Shot",
+            "why": "Move 1 after combat; Bow C per community sheet"
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Hunting Basics",
+            "why": "Hunter mastery, Dex/Spd +1, once mastered"
+          },
+          {
+            "name": "Seize the Chance",
+            "why": "Personal Lv 20 ability: Multiplies damage by 1.3 when attacking. Trigger % = Lck ÷ 2 (from Lv 20)"
+          },
+          {
+            "name": "Bows Lv. 1",
+            "why": "Hit +3 with bows (Bow D+)"
+          }
+        ],
+        "goal": "Joins after Talimun's Paralogue at about Lv 15: Riding Manual and Arena Mounted Training for Riding D.",
+        "equipment": [
+          {
+            "item": "Archer's Ring",
+            "why": "Hit +5",
+            "slot": "Accessory"
+          }
+        ],
+        "items": [
+          {
+            "item": "Elixir",
+            "why": "Chariot can't dodge; Part II stock",
+            "alts": [
+              "Concoction"
+            ]
+          },
+          {
+            "item": "Concoction",
+            "why": "Part II stock",
+            "alts": [
+              "Vulnerary"
+            ]
+          }
+        ],
+        "drop": [
+          {
+            "item": "Iron Bow",
+            "why": "Da Mina Bow's fallback (in its alts)"
+          }
+        ],
+        "level": "About Lv 15 on join (about Lv 25, already Specialty, if recruited in Ch 10)",
+        "exit": "Lv 20, Riding D and Bow C: take the Charioteer exam"
+      },
+      {
+        "when": "Lv 20 (Ch 10) to Ch 12",
+        "from": {
+          "part": 1,
+          "ch": 10,
+          "approx": true
+        },
+        "to": {
+          "part": 1,
+          "ch": 12
+        },
+        "class": "Charioteer",
+        "training": [
+          {
+            "rank": "Riding D, Bow C",
+            "for": "Charioteer exam",
+            "how": "Mounted Training for Riding; Riding Manual from Legacy of a Legendary Sculptor"
+          }
+        ],
+        "tips": [
+          "Recruit right after Talimun's Paralogue; answer Yes 3 times",
+          "Skip Forest Knight: Charioteer growth rises at Lv 35 and 45"
+        ],
+        "weapons": [
+          {
+            "item": "Da Mina Bow",
+            "why": "Mt 12 at Bow C",
+            "alts": [
+              "Iron Bow"
+            ]
+          },
+          {
+            "item": "Horsekiller Bow",
+            "why": "Effective vs cavalry and fliers",
+            "situational": "Cavalry maps: open slot. Pack it before Ch 12 ends for Part II"
+          }
+        ],
+        "arts": [
+          {
+            "name": "Warning Shot",
+            "why": "Avo +10; Bow D per community sheet"
+          },
+          {
+            "name": "Breakaway Shot",
+            "why": "Move 1 after combat; Bow C per community sheet"
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Hunting Basics",
+            "why": "Hunter mastery, Dex/Spd +1, once mastered"
+          },
+          {
+            "name": "Seize the Chance",
+            "why": "Personal Lv 20 ability: Multiplies damage by 1.3 when attacking. Trigger % = Lck ÷ 2 (from Lv 20)"
+          },
+          {
+            "name": "Bows Lv. 1",
+            "why": "Hit +3 with bows (Bow D+)"
+          }
+        ],
+        "goal": "Management Skills: allies within 2 can use storage, so park her 2 tiles behind the front to restock Vulneraries and swap weapons mid-map; Seize the Chance (Lv 20) adds x1.3 damage at Lck/2.",
+        "equipment": [
+          {
+            "item": "Archer's Ring",
+            "why": "Hit +5",
+            "slot": "Accessory"
+          }
+        ],
+        "items": [
+          {
+            "item": "Elixir",
+            "why": "Chariot can't dodge; Part II stock",
+            "alts": [
+              "Concoction"
+            ]
+          },
+          {
+            "item": "Concoction",
+            "why": "Part II stock",
+            "alts": [
+              "Vulnerary"
+            ]
+          }
+        ],
+        "drop": [
+          {
+            "item": "Iron Bow",
+            "why": "Da Mina Bow's fallback (in its alts)"
+          }
+        ],
+        "level": "About Lv 20 at the exam",
+        "exit": "Stay Charioteer into Part II: growths rise at Lv 35"
+      },
+      {
+        "when": "Part II",
+        "from": {
+          "part": 2
+        },
+        "class": "Charioteer",
+        "tips": [
+          "Ch 4 wants 3 to 4 bows",
+          "Chariot Armor gives Shield +5 but no dodging"
+        ],
+        "weapons": [
+          {
+            "item": "Da Mina Bow"
+          },
+          {
+            "item": "Horsekiller Bow",
+            "why": "Effective vs cavalry and fliers",
+            "situational": "Cavalry foes: open slot (packed at Ch 12)"
+          }
+        ],
+        "arts": [
+          {
+            "name": "Warning Shot",
+            "why": "Avo +10; Bow D per community sheet"
+          },
+          {
+            "name": "Breakaway Shot",
+            "why": "Move 1 after combat; Bow C per community sheet"
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Charger",
+            "why": "Charioteer mastery, Prt +10 after Charge, once mastered"
+          },
+          {
+            "name": "Seize the Chance+",
+            "why": "Personal Lv 35 ability: Multiplies damage by 1.5 when attacking. Trigger % = Lck ÷ 2"
+          },
+          {
+            "name": "Seize the Chance",
+            "why": "Personal Lv 20 ability: Multiplies damage by 1.3 when attacking. Trigger % = Lck ÷ 2"
+          },
+          {
+            "name": "Hunting Basics",
+            "why": "Hunter mastery, Dex/Spd +1"
+          },
+          {
+            "name": "Bows Lv. 2",
+            "why": "Hit +5 with bows (Bow C+); Bows Lv. 1 until then"
+          }
+        ],
+        "drop": [
+          {
+            "item": "Iron Bow",
+            "why": "Replaced by the Da Mina Bow"
+          }
+        ],
+        "goal": "Seize the Chance+ (Lv 35): x1.5 damage at Lck/2 when she attacks: shoot on player phase, then stay within 2 of the front for Management Skills.",
+        "equipment": [
+          {
+            "item": "Archer's Ring",
+            "why": "Hit +5",
+            "slot": "Accessory",
+            "plan": "Equip before Part I ends"
+          }
+        ],
+        "items": [
+          {
+            "item": "Elixir",
+            "why": "100 HP",
+            "plan": "Carried from Ch 12 (no shops in Part II)"
+          },
+          {
+            "item": "Concoction",
+            "why": "40 HP x2",
+            "plan": "Carried from Ch 12 (no shops in Part II)"
+          }
+        ],
+        "exit": "Part III: Bow Knight once Kalla's Temple is restored"
+      },
+      {
+        "when": "Part III goal",
+        "from": {
+          "part": 3
+        },
+        "class": "Bow Knight",
+        "training": [
+          {
+            "rank": "Riding D, Bow A",
+            "for": "Bow Knight (Lv 45, Kalla request done)",
+            "how": "Arena Infantry Training for Bow"
+          },
+          {
+            "rank": "Bow A+",
+            "for": "Bows Lv. 4",
+            "how": "Arena Infantry Training"
+          }
+        ],
+        "weapons": [
+          {
+            "item": "Da Mina Bow +2",
+            "why": "Main: Mt ?, Wt 6; arts Hit +10. Silver Bow is Da Mina +1",
+            "plan": "Her Part II Da Mina Bow, refined to +2"
+          },
+          {
+            "item": "Cleansing Blade +2",
+            "why": "Boon answer and range 1: Mt ~16, Wt 3",
+            "plan": "No Soulstone on the bench (D-158)"
+          },
+          {
+            "item": "Horsekiller Bow +2",
+            "why": "Effective vs cavalry (Hit +10 vs cavalry needs +3)",
+            "situational": "Cavalry maps: uses the open slot"
+          }
+        ],
+        "arts": [
+          {
+            "name": "Spiral Shot",
+            "why": "Bow B: Mt +7, Atk +5 at Dex/2 %"
+          },
+          {
+            "name": "Breakaway Shot",
+            "why": "Bow C: move 1 after combat"
+          },
+          {
+            "name": "Warning Shot",
+            "why": "Bow D: Avo +10, which counts again off the chariot"
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Seize the Chance+",
+            "why": "Personal Lv 35: damage x1.5 when attacking, Lck/2 %"
+          },
+          {
+            "name": "Hunter's Cross",
+            "why": "Bow Knight mastery, once mastered: Hit +20, Crit +10 ?"
+          },
+          {
+            "name": "Bows Lv. 4",
+            "why": "Bow A+: Hit/Avo +7 with bows; Lv. 3 until A+"
+          },
+          {
+            "name": "Knightly Senses",
+            "why": "Riding D: Avo +10 vs spears"
+          },
+          {
+            "name": "Read the Winds",
+            "why": "Flying D: Avo +10 vs bows"
+          }
+        ],
+        "goal": "Bow Knight (Mov 7, dodges again): Seize the Chance+ x1.5 at Lck/2; allies within 2 reach storage.",
+        "equipment": [
+          {
+            "item": "Gale Ring",
+            "why": "Spd +3, Wt 2: Bow Knight doubles now",
+            "slot": "Accessory",
+            "alts": [
+              "Phantom Ring",
+              "Archer's Ring"
+            ]
+          }
+        ],
+        "items": [
+          {
+            "item": "Concoction",
+            "why": "40 HP x2; Management Skills reaches the Elixirs in storage",
+            "alts": [
+              "Elixir"
+            ]
+          }
+        ],
+        "drop": [
+          {
+            "item": "Silver Bow",
+            "why": "Da Mina +1 Mt and a Boon buy: Da Mina Bow +2 instead"
+          },
+          {
+            "item": "Seize the Chance",
+            "why": "Seize the Chance+ replaces it"
+          },
+          {
+            "item": "Charger",
+            "why": "Bow Knight has no Charge command"
+          },
+          {
+            "item": "Hunting Basics",
+            "why": "Bows Lv. 4 takes the slot"
+          },
+          {
+            "item": "Archer's Ring",
+            "why": "Gale Ring: AS for doubles off the chariot"
+          }
+        ],
+        "exit": "Final class.",
+        "level": "Lv 45+",
+        "why": [
+          "Kalla's request opens it; no Master License planned (bench): Charioteer kit until one is spare",
+          "Bow Knight drops Chariot Armor: Avo counts again, Charger (needs Charge) turns off",
+          "Boon answer: Cleansing Blade +2 (Bow Knight wields swords)"
+        ],
+        "tips": [
+          "Seat: Lyrah and Balor east (B) for Lilian; allies within 2 swap gear from storage mid-map",
+          "Lyrah runs into Balor with no Free Time: she is the army's only storage access between",
+          "Skip Hanno, Cohen & Maria and Drake: cavalry struggles or is barred",
+          "Goddess Ring (Lck +5) adds 2.5% to Seize the Chance+ if Simon's copy frees up"
+        ]
+      }
+    ],
+    "arts": [
+      {
+        "name": "Spiral Shot",
+        "why": "Atk +5 at Dex/2; Bow B per community sheet"
+      },
+      {
+        "name": "Hidden Truesnipe",
+        "why": "Teach Secrets; range 3 to 5, 30 durability"
+      },
+      {
+        "name": "Breakaway Shot",
+        "why": "Hit and retreat"
+      }
+    ],
+    "abilities": [
+      {
+        "name": "Charger",
+        "why": "Prt after Charge"
+      },
+      {
+        "name": "Hunting Basics",
+        "why": "Dex/Spd +1"
+      }
+    ],
+    "specials": [
+      "Bloodmark: Diadem of Fetters (x1.2 damage, 5%)",
+      "Charge command (Fandom: 5 uses per map)"
+    ],
+    "sources": [
+      "class plan v3",
+      "weapons-and-items",
+      "character-learnsets",
+      "class-data",
+      "combat-arts-and-abilities",
+      "hard-mode video notes",
+      "Dietrich Ch 4 to 9 walkthrough"
+    ],
+    "watch": [
+      "Weight: Part II chariot Da Mina Bow 6 + Archer's Ring 3 = 9 (can't dodge). Part III Bow Knight dodges: Da Mina Bow +2 6 + Gale Ring 2 = 8, extra 2; Cleansing Blade +2 3 + 2 = 5.",
+      "No Charm Mask: Chariot Armor made its Hit −20 pointless, and Wt 5 breaks the Bow Knight's extra-3 budget.",
+      "Management Skills: in Part I she and allies within 2 reach storage mid-map, so the route's swaps can wait there (Part II storage?)."
+    ],
+    "decisions": [
+      {
+        "topic": "Stay Charioteer, skip Forest Knight",
+        "pick": "Hunter on join, Charioteer at Lv 20",
+        "why": "Charioteer's growths rise at Lv 35 and 45. Management Skills lets allies within 2 use storage, so park her two tiles behind the front."
+      }
+    ],
+    "gates": [
+      {
+        "route": "Dietrich",
+        "from": {
+          "part": 1,
+          "ch": 6
+        },
+        "by": {
+          "part": 1,
+          "ch": 9
+        },
+        "kind": "recruit",
+        "text": "Support 3 by 9/18, clear Talimun's Paralogue, Renown 7, answer Yes 3 times"
+      }
+    ]
+  },
+  "sources": [
+    "https://fortunesweave.co.uk/characters/ursula",
+    "https://www.keengamer.com/articles/guides/fire-emblem-fortunes-weave-tier-list-best-characters-ranked-for-every-route/",
+    "https://www.pockettactics.com/fire-emblem-fortunes-weave/tier-list"
+  ],
+  "recruitOn": {
+    "Cai": {
+      "how": "recruit",
+      "support": 3,
+      "renown": 10,
+      "task": "clear Talimun's Paralogue, answer Yes ×3"
+    },
+    "Dietrich": {
+      "how": "recruit",
+      "support": 3,
+      "renown": 7,
+      "task": "Clear Talimun's Paralogue + answer Yes ×3"
+    },
+    "Theodora": {
+      "how": "recruit",
+      "support": 3,
+      "renown": 9
+    }
+  }
+}

@@ -1,0 +1,322 @@
+{
+  "route": "Cai",
+  "ch": 6,
+  "name": "To the Land of Cybele",
+  "free": {
+    "from": "4/20",
+    "to": "5/20"
+  },
+  "unlocks": [
+    "Specialty exams (Renown 4)",
+    "Blacksmith",
+    "Farming"
+  ],
+  "routine": {
+    "meals": [
+      {
+        "week": "Week 1",
+        "tables": [
+          [
+            "Cai",
+            "Seteth",
+            "Ninae"
+          ],
+          [
+            "Cai",
+            "Mikaela",
+            "Fianna"
+          ],
+          [
+            "Cai",
+            "Majide",
+            "Ninae"
+          ]
+        ],
+        "note": "Gets Majide to Support 2 before Renown 5. No Fianna yet: Cai + Mikaela + Seteth. Majide done: Cai + Mikaela + Ninae."
+      },
+      {
+        "week": "Weeks 2 on",
+        "tables": [
+          [
+            "Cai",
+            "Seteth",
+            "Ninae"
+          ],
+          [
+            "Cai",
+            "Mikaela",
+            "Fianna"
+          ],
+          [
+            "Cai",
+            "Fianna",
+            "Sirocco"
+          ]
+        ],
+        "note": "Whoever reaches Support 3 hands their seat to Fianna or Sirocco. No Sirocco yet: Cai + Fianna + the lowest of Seteth, Ninae and Mikaela."
+      }
+    ],
+    "gifts": [
+      {
+        "unit": "Mikaela",
+        "gift": "Volcano Ghosh (runs out: Common Coffee, 90G)",
+        "where": "Lowtown Tavern",
+        "cost": "135G"
+      },
+      {
+        "unit": "Fianna",
+        "gift": "Volcano Ghosh",
+        "where": "Lowtown Tavern",
+        "cost": "135G"
+      },
+      {
+        "unit": "Sirocco",
+        "gift": "Volcano Ghosh",
+        "where": "Lowtown Tavern",
+        "cost": "135G"
+      },
+      {
+        "unit": "Seteth",
+        "gift": "Common Coffee",
+        "where": "Lowtown Tavern",
+        "cost": "90G"
+      },
+      {
+        "unit": "Majide",
+        "gift": "Young Ghosh",
+        "where": "Lowtown Tavern",
+        "cost": "45G",
+        "until": "Support 2"
+      },
+      {
+        "unit": "Ninae",
+        "gift": "Tales of Adventure, if you reach Saveilon this chapter",
+        "where": "Alecto",
+        "cost": "270G"
+      }
+    ]
+  },
+  "missables": [
+    {
+      "id": "cai-ch06-missables-lost-temple-cat",
+      "kind": "item",
+      "quest": "lost-temple-cat",
+      "text": "Finish [[quest:lost-temple-cat]] by 5/20: find the cat at the fountain",
+      "when": "by 5/20",
+      "lose": "The quest's Renown and gold",
+      "recover": "None"
+    },
+    {
+      "id": "cai-ch06-missables-a-peculiar-message",
+      "kind": "item",
+      "quest": "a-peculiar-message",
+      "text": "Finish [[quest:a-peculiar-message]] (from Ch 5) by 5/20",
+      "when": "by 5/20",
+      "lose": "The quest's Renown and gold",
+      "recover": "None"
+    },
+    {
+      "id": "cai-ch06-missables-noctula-timing",
+      "kind": "timing",
+      "text": "Recruit Noctula the day Renown 4 lands: the plan skips [[item:Ursa's Right Claw]]",
+      "detail": [
+        "The Claw only comes with a Lv 20+ Pugilist recruit, a Ch 10+ join.",
+        "Waiting would cost her the Ch 6 to 9 maps. Already recruited? Nothing to do."
+      ],
+      "when": "Ch 6",
+      "lose": "Ursa's Right Claw",
+      "recover": "None: it only comes with a late recruit",
+      "task": true
+    },
+    {
+      "id": "cai-ch06-missables-ahm-lu-mural",
+      "kind": "scene",
+      "text": "Watch the optional mural scene at Ahm Lu before you go to the story marker",
+      "where": "Ahm Lu",
+      "lose": "The mural scene",
+      "recover": "Chapter replay",
+      "task": true,
+      "when": "by 5/20"
+    }
+  ],
+  "classes": {},
+  "gear": {
+    "barter": [
+      {
+        "item": "Levin Sword",
+        "for": "Cai",
+        "at": "Dagsion"
+      },
+      {
+        "item": "Hexlock Shield",
+        "for": "Ninae",
+        "at": "Dagsion"
+      },
+      {
+        "item": "Longbow",
+        "for": "Peter",
+        "at": "Dagsion"
+      },
+      {
+        "item": "Flyssa",
+        "for": "Guzran",
+        "at": "Dagsion"
+      },
+      {
+        "item": "Hammer",
+        "for": "Majide",
+        "at": "Dagsion"
+      }
+    ],
+    "assign": [
+      {
+        "item": "Healing Staff",
+        "to": "Tialla",
+        "why": "Reward from Aurora's Staying Healthy"
+      }
+    ],
+    "note": [
+      {
+        "text": "The Blacksmith opens: refine each unit's one refine project instead of buying new iron weapons",
+        "detail": [
+          "Refining also restores durability.",
+          "No Levin Sword by Ch 9? Skip the barter: the Ch 10 map has one, and a Ch 10+ Nuzzuo, Io or Jester brings another."
+        ]
+      }
+    ]
+  },
+  "recruits": [
+    {
+      "unit": "Noctula",
+      "action": "Talk to her the day Renown 4 lands: no item or quest needed",
+      "when": "Ch 6",
+      "detail": [
+        "She joins at about Lv 15 in a Beginner class.",
+        "Her Ch 8 Brigand side trip needs Axe C and Sword C, so let her fight with both."
+      ]
+    },
+    {
+      "unit": "Majide",
+      "action": "Answer his question each time you talk: he accepts on the third answer",
+      "when": "Very end of Ch 6 or Ch 7 (Renown 5)"
+    },
+    {
+      "unit": "Mikaela",
+      "action": "Pay the 3,000G fee once Support 3 and Renown 5 are both reached",
+      "when": "Late Ch 6 or Ch 7",
+      "detail": [
+        "Part II extra: she goes to the bench at about Lv 15 in a Beginner class.",
+        "Her Part II Archer and Forest Knight exams need Bow B and Rider D."
+      ]
+    }
+  ],
+  "prep": [
+    {
+      "text": "Keep Seteth and Ninae's Support rising: they join at Renown 6, late Ch 7 at best"
+    },
+    {
+      "text": "Get Ninae's 1× [[gather:Paradise Fish]] at [[place:Lake Brontes]] (Saveilon) if you can reach it",
+      "detail": [
+        "Lake Brontes is past [[place:Valhalla Mine]].",
+        "Can't reach Saveilon yet? Get it in Ch 7, or on Castor's Saveilon trip (Renown 7, late Ch 8)."
+      ]
+    },
+    {
+      "text": "Jasmine (Renown 8, Ch 10) appears around 5/8"
+    }
+  ],
+  "quests": {
+    "route": [
+      {
+        "quest": "staying-healthy",
+        "note": "Renown 4: the [[item:Healing Staff]] goes to Tialla"
+      },
+      {
+        "quest": "lost-temple-cat"
+      },
+      {
+        "quest": "a-bouquet-of-eternal-love",
+        "note": "Plant 30 Linaria, not 20: the extra 10 pay Ninae's Hexlock Shield"
+      },
+      {
+        "quest": "helping-a-bug-hater"
+      },
+      {
+        "quest": "vegetables-for-saramis-guests",
+        "note": "Deliver the day the crops are ready, not on 11/27: it pulls Renown 8 into early Ch 10"
+      }
+    ],
+    "sub": [
+      {
+        "quest": "defeat-aguinos-thieves",
+        "note": "Ch 7's free time starts 6/9, so finish it now. Keep some Jyoppa for A Taste from Home (Ch 7)"
+      },
+      {
+        "quest": "ever-employed-a-blacksmith",
+        "note": "First playthrough only: take it when the Blacksmith opens"
+      },
+      {
+        "quest": "a-taste-of-nostalgia",
+        "offered": "if-offered",
+        "note": "Heretics' Cave has one Sandworm on Cai's route; it can wait for early Ch 7"
+      },
+      {
+        "quest": "soil-survey",
+        "offered": "if-offered"
+      },
+      {
+        "quest": "energy-nuts",
+        "offered": "if-offered"
+      }
+    ],
+    "paralogue": []
+  },
+  "explore": [
+    {
+      "text": "Plant now (Farming, Cai only): 30 Linaria and 30 Coffee Berries, Zang or Pongo, plus 10 extra Pongo",
+      "detail": [
+        "The 10 extra Pongo pay Archive T for Ultand (Pongo ×10 + Glirmosa ×4).",
+        "Crops also pay Vandahl barters in Dagsion Port."
+      ]
+    },
+    {
+      "text": "Watch the Farming tutorial (Cai only) if you haven't planted yet"
+    },
+    {
+      "group": "Spare Turns · gather for Vandahl barters (Dagsion Port), nearest first",
+      "text": "[[place:Gaura Grassland]] (Amalthea): Zamir ×1 for Ultand's [[item:Magic Staff]]"
+    },
+    {
+      "group": "Spare Turns · gather for Vandahl barters (Dagsion Port), nearest first",
+      "text": "[[place:Sunlit Garden]] (Elektra): Enrietto ×1 for Peter's [[item:Horsekiller Bow]]"
+    },
+    {
+      "group": "Spare Turns · support run",
+      "id": "cai-ch06-explore-dione-fort",
+      "loot": true,
+      "text": "Run [[place:Dione Fort]] (Lv 18, Castalia) with this week's meal pairs",
+      "conf": "disputed"
+    },
+    {
+      "group": "After the battle",
+      "id": "cai-ch06-explore-temple-of-balor",
+      "loot": true,
+      "text": "Clear the Temple of Balor dungeon: [[item:Lashing Rapture]] and an [[item:Elixir]]"
+    }
+  ],
+  "battle": {
+    "title": "vs. Har Hali",
+    "objective": "Defeat Nuzzuo",
+    "lose": "Cai falls",
+    "tips": [
+      {
+        "text": "Stay grouped, go clockwise and fight from high-evasion terrain"
+      }
+    ],
+    "loot": [
+      {
+        "text": "Bullion in the northwest chest"
+      }
+    ]
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "name": "Castor",
+  "slug": "castor",
+  "epithet": "Cai's father",
+  "faction": "Aurora Temple (devotee of Aurora)",
+  "weapons": [
+    "Spear (Halberd)"
+  ],
+  "personality": "Devout follower of Aurora who trained his son in combat.",
+  "story": "Before Cai's birth he tried to elope with the goddess Aurora; granted amnesty until Cai turned 15, he was imprisoned on that birthday, which drives Cai into the Heroic Games. He fights as a guest in Cai's Path Chapter 2, 'Road to the Capital' (Defending the Carriage). His final words are 'Cai... Please... Look after your mother.'",
+  "growths": {
+    "HP": 55,
+    "Str": 50,
+    "Mag": 30,
+    "Spd": 45,
+    "Dex": 55,
+    "Def": 45,
+    "Res": 30,
+    "Lck": 35,
+    "Cha": 50
+  },
+  "tierNotes": "Guest unit; not ranked in any tier list found.",
+  "build": {
+    "role": "Guest spear tank (not customizable)",
+    "path": [
+      "Guardian"
+    ],
+    "notes": "Guest-only unit; use his Tempest Spear combat art and Guardian bulk to protect the carriage while Cai's team scores kills."
+  },
+  "sources": [
+    "https://fireemblemwiki.org/wiki/Castor_(Fortune's_Weave)",
+    "https://fortunesweave.co.uk/characters/cai"
+  ]
+}

@@ -1,0 +1,1071 @@
+{
+  "name": "Dietrich",
+  "slug": "dietrich",
+  "epithet": "Shipwrecked swordsman of House Lamine",
+  "faction": "House Lamine",
+  "homeRoute": "Dietrich",
+  "isLord": true,
+  "weapons": [
+    "Sword (Answerer, Hero's Relic)",
+    "Reason",
+    "Faith"
+  ],
+  "preferred": [
+    "Infantry",
+    "Sword"
+  ],
+  "avoid": [
+    "White Magic"
+  ],
+  "personality": "Blunt, combat-hungry swordsman driven by revenge on a sea monster.",
+  "story": "Great-grandson of the late matriarch Lamine (with a younger sister, Elfrida), shipwrecked in Dagda after the sea monster Cetus attacked his ship. He enters the Heroic Games seeking battle and revenge, hunting Cetus and ending Part I in an exhibition battle against Mars; his path digs into the setting's sci-fi backstory. Fabio travels with him as a healer-companion.",
+  "personalSkill": {
+    "name": "Murderous Intent",
+    "effect": "Crit+5 when attacking first. Lv 5 upgrade Bestial Impulse: after combat, Crit+2 until a critical hit occurs."
+  },
+  "growths": {
+    "HP": 50,
+    "Str": 45,
+    "Mag": 30,
+    "Spd": 50,
+    "Dex": 60,
+    "Def": 40,
+    "Res": 30,
+    "Lck": 50,
+    "Cha": 60
+  },
+  "supports": [
+    "Buccar",
+    "Cai",
+    "Catania",
+    "Eshmel",
+    "Esmeralda",
+    "Fabio",
+    "Halvin",
+    "Leda",
+    "Mikaela",
+    "Seteth",
+    "Talimun",
+    "Theodora"
+  ],
+  "tierNotes": "KeenGamer: highest growth total of the four lords and best starting allies. Games with James: A tier (character).",
+  "requirements": {
+    "Cai": "—",
+    "Dietrich": "Auto",
+    "Theodora": "—",
+    "Leda": "—"
+  },
+  "build": {
+    "role": "Crit-fishing sword lord",
+    "path": [
+      "Gladiator",
+      "Myrmidon",
+      "Shido"
+    ],
+    "part1Target": "Shido",
+    "part3Target": "Sword Master, then The Blade (Section 4, D-143)",
+    "notes": "Gladiator via the Ch 5 story. Myrmidon in Ch 6 (Sword C). Shido in Ch 10 at Renown 8 and Lv 35 (Sword B). Train Sword only. Master Ravaging Arts (+6 crit damage) in Myrmidon, then Ever Vigilant in Shido. Stay Shido for the Mars duel in Ch 12.",
+    "confidence": "high"
+  },
+  "guide": {
+    "summary": "Crit-fishing sword lord and your strongest Part I unit. Stack crit (Answerer, Killing Edge, Myrmidon and Shido crit bonuses), boost his arts at Smyrnos's Temple and build him for the solo Mars duel in Ch 12.",
+    "stages": [
+      {
+        "when": "Ch 1 to 3 · no class yet",
+        "from": {
+          "part": 1,
+          "ch": 1
+        },
+        "to": {
+          "part": 1,
+          "ch": 3
+        },
+        "class": "",
+        "training": [],
+        "tips": [
+          "Moving Shadow (Ch 4): warp 3 spaces, then attack",
+          "Use Answerer's Cry from Ch 4 for Magic Echo Shards",
+          "Beat Borges (Niraga Mine, Renown 2) in Ch 5 for 150R"
+        ],
+        "weapons": [
+          {
+            "item": "Answerer",
+            "plan": "Starting weapon"
+          }
+        ],
+        "items": [
+          {
+            "item": "Vulnerary",
+            "why": "20 HP x3"
+          }
+        ],
+        "arts": [
+          {
+            "name": "Bloodletting",
+            "why": "Answerer only; Crit +20 for 2 durability. First art to boost"
+          },
+          {
+            "name": "Grounder",
+            "why": "Anti-flier; Sword D per community sheet"
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Bestial Impulse",
+            "why": "Personal Lv 5 ability: After combat, grants Crit+2 until a unit makes a critical"
+          },
+          {
+            "name": "Swords Lv. 1",
+            "why": "Hit +3 with swords (Sword D+)"
+          }
+        ],
+        "goal": "Lord from Ch 1 with the Answerer; Fabio heals beside him until Yang Jie joins.",
+        "exit": "Ch 4: open the Qualifier chests (Zanbato in the southeast)"
+      },
+      {
+        "when": "Ch 4 · no class yet",
+        "from": {
+          "part": 1,
+          "ch": 4
+        },
+        "to": {
+          "part": 1,
+          "ch": 4
+        },
+        "class": "",
+        "training": [],
+        "tips": [
+          "Moving Shadow (Ch 4): warp 3 spaces, then attack",
+          "Use Answerer's Cry from Ch 4 for Magic Echo Shards",
+          "Beat Borges (Niraga Mine, Renown 2) in Ch 5 for 150R"
+        ],
+        "weapons": [
+          {
+            "item": "Answerer",
+            "plan": "Starting weapon"
+          },
+          {
+            "item": "Zanbato",
+            "situational": "Cavalry maps: open slot. Wt 7: back to Answerer before enemy phase"
+          }
+        ],
+        "items": [
+          {
+            "item": "Vulnerary",
+            "why": "20 HP x3"
+          }
+        ],
+        "arts": [
+          {
+            "name": "Bloodletting",
+            "why": "Answerer only; Crit +20 for 2 durability. First art to boost"
+          },
+          {
+            "name": "Grounder",
+            "why": "Anti-flier; Sword D per community sheet"
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Bestial Impulse",
+            "why": "Personal Lv 5 ability: After combat, grants Crit+2 until a unit makes a critical"
+          },
+          {
+            "name": "Swords Lv. 1",
+            "why": "Hit +3 with swords (Sword D+)"
+          }
+        ],
+        "goal": "Zanbato from the Qualifier chest: effective vs cavalry; Answerer stays in hand.",
+        "exit": "Ch 5: take the class tutorial at Temple Row (Gladiator)"
+      },
+      {
+        "when": "Ch 5 (Beginner)",
+        "from": {
+          "part": 1,
+          "ch": 5
+        },
+        "to": {
+          "part": 1,
+          "ch": 5
+        },
+        "class": "Gladiator",
+        "training": [
+          {
+            "rank": "Sword C",
+            "for": "Myrmidon exam",
+            "how": "Arena Infantry Training from Ch 5; Sword is preferred"
+          }
+        ],
+        "tips": [
+          "Moving Shadow (Ch 4): warp 3 spaces, then attack",
+          "Use Answerer's Cry from Ch 4 for Magic Echo Shards",
+          "Beat Borges (Niraga Mine, Renown 2) in Ch 5 for 150R"
+        ],
+        "weapons": [
+          {
+            "item": "Answerer",
+            "plan": "Starting weapon"
+          },
+          {
+            "item": "Zanbato",
+            "situational": "Cavalry maps: open slot. Wt 7: back to Answerer before enemy phase"
+          },
+          {
+            "item": "Killing Edge",
+            "plan": "Ch 5 Shadowy Cave chest, the only chest copy. This run gave it to A Sword of Deadly Renown, so rebuy one at Rebuy at Regia Armory."
+          }
+        ],
+        "items": [
+          {
+            "item": "Vulnerary",
+            "why": "20 HP x3"
+          }
+        ],
+        "arts": [
+          {
+            "name": "Bloodletting",
+            "why": "Answerer only; Crit +20 for 2 durability. First art to boost"
+          },
+          {
+            "name": "Grounder",
+            "why": "Anti-flier; Sword D per community sheet"
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Attack Basics",
+            "why": "Gladiator mastery, Str +1, once mastered"
+          },
+          {
+            "name": "Bestial Impulse",
+            "why": "Personal Lv 5 ability: After combat, grants Crit+2 until a unit makes a critical"
+          },
+          {
+            "name": "Swords Lv. 1",
+            "why": "Hit +3 with swords (Sword D+)"
+          }
+        ],
+        "goal": "Murderous Intent (Crit +5 when he attacks first) and Bestial Impulse (Lv 5: Crit +2 per combat until he crits): open every fight on player phase and spend Bloodletting once the ramp builds.",
+        "exit": "Renown 4, Lv 20, Sword C (Ch 6): Myrmidon exam at 75% or better"
+      },
+      {
+        "when": "Ch 6 to 9 (Specialty)",
+        "from": {
+          "part": 1,
+          "ch": 6
+        },
+        "to": {
+          "part": 1,
+          "ch": 9
+        },
+        "class": "Myrmidon",
+        "training": [
+          {
+            "rank": "Sword B",
+            "for": "Shido exam (Renown 8, Lv 35)",
+            "how": "Arena Infantry Training (Lv 2 at Renown 4, Lv 3 at Renown 7)"
+          }
+        ],
+        "tips": [
+          "Blacksmith opens Ch 6: refine Answerer and Killing Edge; refining restores durability",
+          "Only arts use durability, so normal attacks with Answerer are free",
+          "Hidden Giantsbane (Camilo, Fort Hayn, Renown 5) and Birdbane (Aguirre, Rubess Forest, Renown 3) are extra Dread Warrior pickups"
+        ],
+        "weapons": [
+          {
+            "item": "Da Mina Sword",
+            "why": "Mt 12, Wt 4: stronger and 2 lighter than the Killing Edge",
+            "alts": [
+              "Killing Edge",
+              "Flyssa"
+            ]
+          },
+          {
+            "item": "Killing Edge",
+            "why": "Deadly Blade art; rebuy at Regia Armory",
+            "plan": "Rebuy at Regia Armory. The Shadowy Cave copy went to A Sword of Deadly Renown. Until you rebuy it, use Answerer and Flyssa"
+          },
+          {
+            "item": "Answerer",
+            "why": "Bloodletting; main sword until you rebuy the Killing Edge",
+            "plan": "Starting weapon"
+          },
+          {
+            "item": "Flyssa",
+            "why": "Effective vs armor at Wt 4",
+            "situational": "Armor-heavy maps: open slot (not with the Zanbato)"
+          },
+          {
+            "item": "Zanbato",
+            "why": "Anti-cavalry for the Ch 7 battle",
+            "situational": "Ch 7 Twin Jewels (cavalry): open slot",
+            "plan": "Take it to the Ch 7 cavalry battle"
+          }
+        ],
+        "equipment": [
+          {
+            "item": "Gale Ring",
+            "why": "Spd +3 for Wt 2 (community-reported): sword 4 + ring 2 keeps extra weight at 2, inside his 3-point budget",
+            "alts": [
+              "Archer's Ring"
+            ],
+            "slot": "Accessory"
+          }
+        ],
+        "items": [
+          {
+            "item": "Concoction",
+            "why": "40 HP x2",
+            "alts": [
+              "Vulnerary"
+            ]
+          }
+        ],
+        "arts": [
+          {
+            "name": "Deadly Blade",
+            "why": "Killing Edge art, Crit +15"
+          },
+          {
+            "name": "Bloodletting",
+            "why": "Answerer only; Crit +20 for 2 durability. First art to boost"
+          },
+          {
+            "name": "Crosswise Cut",
+            "why": "Dex +2 per use until map end; Sword C per community sheet"
+          },
+          {
+            "name": "Hidden Flowform",
+            "why": "Sepente (Corroios Fort Ruins, Renown 4, Ch 6); Avo +20 and a follow-up at half damage"
+          },
+          {
+            "name": "Hidden Twinblade",
+            "why": "Cabaye (Stoppered Shrine, Renown 7, Ch 8); Ddg +20"
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Ravaging Arts",
+            "why": "Myrmidon mastery, +6 damage on crits, once mastered"
+          },
+          {
+            "name": "Bestial Impulse",
+            "why": "Personal Lv 5 ability: After combat, grants Crit+2 until a unit makes a critical"
+          },
+          {
+            "name": "Attack Basics",
+            "why": "Gladiator mastery, Str +1"
+          },
+          {
+            "name": "Swords Lv. 3",
+            "why": "Hit/Avo +5 with swords (Sword C+); Swords Lv. 1 until then"
+          }
+        ],
+        "drop": [
+          {
+            "item": "Grounder",
+            "why": "Slot goes to the Myrmidon arts; bows cover fliers"
+          }
+        ],
+        "goal": "Murderous Intent + Bestial Impulse stack with Myrmidon's Sword Crit +3: open fights, let normal hits build the ramp, then cash it with Bloodletting or Deadly Blade; Ravaging Arts adds +6 per crit.",
+        "exit": "Renown 8, Lv 35, Sword B (Ch 10): Shido exam at 75% or better"
+      },
+      {
+        "when": "Ch 10 to 12 (Advanced)",
+        "from": {
+          "part": 1,
+          "ch": 10
+        },
+        "to": {
+          "part": 1,
+          "ch": 12
+        },
+        "class": "Shido",
+        "tips": [
+          "Stifling Shadow (Lv 20) immobilizes foes within 2; Ruinous Shadow (Lv 35) needs gauge 6",
+          "Ch 12 solo vs Mars: equip Mars Blessing (Physical Hit +50) and Aurora (halves physical damage)",
+          "Stay Shido for the duel; Levin Sword Wt 8 costs AS, so keep a light sword equipped"
+        ],
+        "weapons": [
+          {
+            "item": "Silver Sword",
+            "why": "Mt 18, Wt 4: best sword once Sword B",
+            "alts": [
+              "Da Mina Sword",
+              "Killing Edge (refined)"
+            ]
+          },
+          {
+            "item": "Killing Edge (refined)",
+            "why": "Deadly Blade art",
+            "plan": "Blacksmith, Dagsion, once you rebuy it at Regia Armory. No Killing Edge: refine the Da Mina Sword instead"
+          },
+          {
+            "item": "Answerer",
+            "why": "Bloodletting, his main crit art",
+            "plan": "Starting weapon"
+          },
+          {
+            "item": "Levin Sword",
+            "why": "Lightning Strike hits Res at range 1-2; Wt 8",
+            "situational": "Armored or high-Def foes (Anna's Giant, Ch 10 golems): swap for the Concoction"
+          }
+        ],
+        "equipment": [
+          {
+            "item": "Gale Ring",
+            "why": "Spd +3 for Wt 2 (community-reported): sword 4 + ring 2 keeps extra weight at 2, inside his 3-point budget",
+            "alts": [
+              "Archer's Ring"
+            ],
+            "slot": "Accessory"
+          }
+        ],
+        "items": [
+          {
+            "item": "Elixir",
+            "why": "100 HP: Mars duel, then Part II stock",
+            "alts": [
+              "Concoction"
+            ]
+          },
+          {
+            "item": "Concoction",
+            "why": "Part II stock",
+            "alts": [
+              "Vulnerary"
+            ]
+          },
+          {
+            "item": "Dew of Protection",
+            "why": "Half damage until his next phase",
+            "situational": "Ch 12 Mars duel: takes the Silver Sword's slot (hand it to Jester for Part II)"
+          },
+          {
+            "item": "Dew of Peace",
+            "why": "No crits taken until his next phase",
+            "situational": "Ch 12 Mars duel: takes the Killing Edge's slot (storage until Part III)",
+            "plan": "Anatolia's Paralogue bonus (Ch 11)"
+          }
+        ],
+        "arts": [
+          {
+            "name": "Bloodletting",
+            "why": "Main crit art; boost durability, then Hit"
+          },
+          {
+            "name": "Deadly Blade",
+            "why": "Killing Edge art, Crit +15"
+          },
+          {
+            "name": "Flash Blow",
+            "why": "Atk +5 at Dex/2 trigger; his Dex growth is 60. Sword B per community sheet"
+          },
+          {
+            "name": "Crosswise Cut",
+            "why": "Dex +2 per use; feeds the Flash Blow trigger"
+          },
+          {
+            "name": "Hidden Flowform",
+            "why": "Sepente (Corroios Fort Ruins, Renown 4, Ch 6); Avo +20 and a follow-up at half damage"
+          },
+          {
+            "name": "Hidden Bladerule",
+            "why": "Oko (Iapetus Cavern, Renown 10, late Ch 11 or Ch 12); Crit +100 but Hit 10. Finisher gamble only"
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Ever Vigilant",
+            "why": "Shido mastery; heals after a crit kill, once mastered"
+          },
+          {
+            "name": "Bestial Impulse",
+            "why": "Personal Lv 5 ability: After combat, grants Crit+2 until a unit makes a critical"
+          },
+          {
+            "name": "Ravaging Arts",
+            "why": "Crit damage +6"
+          },
+          {
+            "name": "Attack Basics",
+            "why": "Gladiator mastery, Str +1"
+          },
+          {
+            "name": "Swords Lv. 3",
+            "why": "Hit/Avo +5 with swords"
+          }
+        ],
+        "drop": [
+          {
+            "item": "Flyssa",
+            "why": "Levin Sword hits armor through Res"
+          },
+          {
+            "item": "Hidden Twinblade",
+            "why": "Slot goes to Flash Blow"
+          },
+          {
+            "item": "Da Mina Sword",
+            "why": "Silver Sword's fallback (in its alts): no slot for both"
+          },
+          {
+            "item": "Zanbato",
+            "why": "No cavalry map in Ch 10 to 12; storage until Part III (Zanbato +2)"
+          }
+        ],
+        "goal": "Murderous Intent + Bestial Impulse stack with Shido's Sword Crit +5: open every fight, cash the ramp with Bloodletting, and Ever Vigilant heals him on crit kills.",
+        "exit": "Stay Shido through the Mars duel and into Part II"
+      },
+      {
+        "when": "Part II",
+        "from": {
+          "part": 2
+        },
+        "class": "Shido",
+        "tips": [
+          "No Free Time in Part II: finish refining in Ch 12",
+          "Ch 5 Dagda has low Res: Lightning Strike (Levin Sword) hits Res",
+          "Ch 6 Lyrah cocoon heals on every hit: save his crit arts for it"
+        ],
+        "weapons": [
+          {
+            "item": "Answerer Arisen",
+            "why": "Mt 15?, Bloodletting+ and self-repair: his main crit art needs Answerer in hand; equip it before Mars so it leads his Part II kit",
+            "where": "Fabio's Ch 12 scene in the alley east of the markets upgrades Answerer; equip it before the Mars battle",
+            "alts": [
+              "Answerer",
+              "Silver Sword"
+            ]
+          },
+          {
+            "item": "Levin Sword +1",
+            "why": "Range 1-2 magic hit for high-Def foes; Wt 8, so swap back before enemy phase"
+          }
+        ],
+        "equipment": [
+          {
+            "item": "Gale Ring",
+            "why": "Spd +3 for Wt 2 (community-reported): sword 4 + ring 2 keeps extra weight at 2, inside his 3-point budget",
+            "alts": [
+              "Archer's Ring"
+            ],
+            "slot": "Accessory",
+            "plan": "Equip before Part I ends"
+          }
+        ],
+        "items": [
+          {
+            "item": "Elixir",
+            "why": "100 HP",
+            "plan": "Carried from Ch 12 (no shops in Part II)"
+          },
+          {
+            "item": "Concoction",
+            "why": "40 HP x2",
+            "plan": "Carried from Ch 12 (no shops in Part II)"
+          }
+        ],
+        "arts": [
+          {
+            "name": "Bloodletting",
+            "why": "Main crit art (Bloodletting+ on Answerer Arisen)"
+          },
+          {
+            "name": "Flash Blow",
+            "why": "Atk +5 at Dex/2 trigger; his Dex growth is 60. Sword B per community sheet"
+          },
+          {
+            "name": "Crosswise Cut",
+            "why": "Dex +2 per use until map end; Sword C per community sheet"
+          },
+          {
+            "name": "Hidden Flowform",
+            "why": "Sepente (Corroios Fort Ruins, Renown 4, Ch 6); Avo +20 and a follow-up at half damage"
+          },
+          {
+            "name": "Hidden Bladerule",
+            "why": "Oko (Iapetus Cavern, Renown 10, late Ch 11 or Ch 12); Crit +100 but Hit 10. Finisher gamble only"
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Bestial Impulse",
+            "why": "Personal Lv 5 ability: After combat, grants Crit+2 until a unit makes a critical"
+          },
+          {
+            "name": "Ever Vigilant",
+            "why": "Shido mastery; heals after a crit kill"
+          },
+          {
+            "name": "Ravaging Arts",
+            "why": "Crit damage +6"
+          },
+          {
+            "name": "Attack Basics",
+            "why": "Gladiator mastery, Str +1"
+          },
+          {
+            "name": "Swords Lv. 3",
+            "why": "Hit/Avo +5 with swords"
+          }
+        ],
+        "drop": [
+          {
+            "item": "Deadly Blade",
+            "why": "Needs the Killing Edge in hand"
+          },
+          {
+            "item": "Levin Sword",
+            "why": "Replaced by the Levin Sword +1"
+          },
+          {
+            "item": "Killing Edge (refined)",
+            "why": "Left in storage for Dew of Peace before Mars; back in Part III"
+          },
+          {
+            "item": "Silver Sword",
+            "why": "Handed to Jester before Mars: his Part II sword"
+          },
+          {
+            "item": "Dew of Protection",
+            "why": "Spent on the Ch 12 Mars duel"
+          },
+          {
+            "item": "Dew of Peace",
+            "why": "Spent on the Ch 12 Mars duel"
+          }
+        ],
+        "goal": "Murderous Intent + Bestial Impulse + Shido's Sword Crit +5: open fights, then Bloodletting+ from Answerer Arisen; Ever Vigilant heals on crit kills.",
+        "exit": "Part III: Swordmaster once Mars' Temple is restored",
+        "to": {
+          "part": 3,
+          "ch": 2
+        }
+      },
+      {
+        "when": "Part III Section 3 (Swordmaster)",
+        "from": {
+          "part": 3,
+          "ch": 3
+        },
+        "class": "Swordmaster",
+        "training": [
+          {
+            "rank": "Sword A",
+            "for": "Sword Master (Lv 45, Master License, Mars request done)",
+            "how": "Arena Infantry Training; Sword +3 from Shido"
+          },
+          {
+            "rank": "Sword A+",
+            "for": "Swords Lv. 4",
+            "how": "Arena Infantry Training; Sword Master trains Sword +4"
+          },
+          {
+            "rank": "Sword S",
+            "for": "The Blade (Demonic Swordguard, Chamber of Distortion)",
+            "how": "Arena and battle; needs all 5 Keys of the Diadem"
+          }
+        ],
+        "weapons": [
+          {
+            "item": "Da Mina Sword +3",
+            "why": "+2→+3: Mt 20→23 and Crit +10 on every art (Wrath doubles it)",
+            "plan": "Soulstone queue",
+            "alts": [
+              "Da Mina Sword +2",
+              "Iron Sword +4"
+            ]
+          },
+          {
+            "item": "Answerer +2",
+            "why": "Bloodletting: Crit +20, Mt +4 at +2, effective vs dragons",
+            "plan": "His relic; +2 needs no Soulstone"
+          },
+          {
+            "item": "Cleansing Blade +2",
+            "why": "Mt 16?, Wt 3: Underworld Boon answer; carries his sword arts",
+            "plan": "+2 before Balor"
+          },
+          {
+            "item": "Levin Sword +3",
+            "why": "Magic hit at range 1-2, Lightning Strike; Wt 8",
+            "plan": "Part III chest copy, already +3",
+            "situational": "High-Def foes or armor: open slot; back to a 4-Wt sword for enemy phase"
+          }
+        ],
+        "equipment": [
+          {
+            "item": "Gale Ring",
+            "why": "Spd +3 for Wt 2: keeps a doubling swordfighter in budget",
+            "slot": "Accessory",
+            "alts": [
+              "Archer's Ring",
+              "Phantom Ring"
+            ]
+          }
+        ],
+        "items": [
+          {
+            "item": "Elixir",
+            "why": "100 HP for the lord",
+            "alts": [
+              "Concoction"
+            ]
+          }
+        ],
+        "arts": [
+          {
+            "name": "Bloodletting",
+            "why": "Answerer only: Crit +20, effective vs dragons (Lyrah)"
+          },
+          {
+            "name": "Flash Blow",
+            "why": "Atk +5 at Dex/2 %; Da Mina adds Hit/Crit +10"
+          },
+          {
+            "name": "Crosswise Cut",
+            "why": "Dex +2 per use to map end (max +10): more Hit and Crit"
+          },
+          {
+            "name": "Hidden Flowform",
+            "why": "Avo +20 and a follow-up at half damage"
+          },
+          {
+            "name": "Hidden Twinblade",
+            "why": "Ddg +20 through his next phase: crit insurance"
+          },
+          {
+            "name": "Hidden Bladerule",
+            "why": "Crit +100 but Hit 10: finisher gamble only"
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Astra",
+            "why": "Sword Master mastery: 5 hits at 50%, once mastered"
+          },
+          {
+            "name": "Ravaging Arts",
+            "why": "Crit damage +6, on each Astra hit"
+          },
+          {
+            "name": "Bestial Impulse",
+            "why": "Personal Lv 5: Crit +2 per combat until someone crits"
+          },
+          {
+            "name": "Ever Vigilant",
+            "why": "Shido mastery: heals after a crit kill"
+          },
+          {
+            "name": "Swords Lv. 4",
+            "why": "Sword A+: Hit/Avo +7 with swords (Lv. 3 until then)"
+          }
+        ],
+        "drop": [
+          {
+            "item": "Killing Edge +3",
+            "why": "Deadly Blade's Crit +15 works on one art; Da Mina gives +10 to all and Bloodletting has +20"
+          },
+          {
+            "item": "Deadly Blade",
+            "why": "Leaves with the Killing Edge"
+          },
+          {
+            "item": "Zanbato +2",
+            "why": "The open slot holds the Levin Sword +3"
+          },
+          {
+            "item": "Mars's Kneepads",
+            "why": "Wt 5 breaks his 3-point budget; Guzran holds the one copy"
+          },
+          {
+            "item": "Swords Lv. 3",
+            "why": "Swords Lv. 4 from Sword A+"
+          },
+          {
+            "item": "Silver Sword",
+            "why": "Silver +2 is Mt 22 for shards; Da Mina +2 (Mt 20) adds Hit +10 on arts for gold"
+          }
+        ],
+        "goal": "Murderous Intent + Sword Crit +7 feed Astra: open fights so 5 hits roll crits, +6 each with Ravaging Arts.",
+        "exit": "Final class.",
+        "to": {
+          "part": 3,
+          "ch": 3
+        },
+        "tips": [
+          "Section 3: no gate for him (Shenlo deploys without him); cast Answerer's Cry every map turn",
+          "Bank Sword S in the Arena now: The Blade's exam needs it at 100% in Section 4"
+        ]
+      },
+      {
+        "when": "Part III S4+: The Blade",
+        "from": {
+          "part": 3,
+          "ch": 4
+        },
+        "class": "The Blade",
+        "training": [],
+        "weapons": [
+          {
+            "item": "Da Mina Sword +3",
+            "why": "+2→+3: Mt 20→23 and Crit +10 on every art (Wrath doubles it)",
+            "plan": "Soulstone queue",
+            "alts": [
+              "Da Mina Sword +2",
+              "Iron Sword +4"
+            ]
+          },
+          {
+            "item": "Answerer +2",
+            "why": "Bloodletting: Crit +20, Mt +4 at +2, effective vs dragons",
+            "plan": "His relic; +2 needs no Soulstone"
+          },
+          {
+            "item": "Cleansing Blade +2",
+            "why": "Mt 16?, Wt 3: Underworld Boon answer; carries his sword arts",
+            "plan": "+2 before Balor"
+          },
+          {
+            "item": "Levin Sword +3",
+            "why": "Magic hit at range 1-2, Lightning Strike; Wt 8",
+            "plan": "Part III chest copy, already +3",
+            "situational": "High-Def foes or armor: open slot; back to a 4-Wt sword for enemy phase"
+          }
+        ],
+        "equipment": [
+          {
+            "item": "Gale Ring",
+            "why": "Spd +3 for Wt 2: keeps him doubling inside his budget",
+            "slot": "Accessory",
+            "alts": [
+              "Archer's Ring",
+              "Phantom Ring"
+            ]
+          },
+          {
+            "item": "Spearbreak Amulet",
+            "why": "Hit/Avo +15 vs spears; Wt 4 is 1 over his budget",
+            "slot": "Accessory",
+            "situational": "Mahadu (spear foes): replaces the Gale Ring",
+            "alts": [
+              "Archer's Ring"
+            ]
+          }
+        ],
+        "items": [
+          {
+            "item": "Elixir",
+            "why": "100 HP for the lord",
+            "alts": [
+              "Concoction"
+            ]
+          }
+        ],
+        "arts": [
+          {
+            "name": "Bloodletting",
+            "why": "Answerer only: Crit +20, effective vs dragons (Lyrah)"
+          },
+          {
+            "name": "Flash Blow",
+            "why": "Atk +5 at Dex/2 %; Da Mina adds Hit/Crit +10"
+          },
+          {
+            "name": "Crosswise Cut",
+            "why": "Dex +2 per use to map end (max +10): more Hit and Crit"
+          },
+          {
+            "name": "Hidden Flowform",
+            "why": "Avo +20 and a follow-up at half damage"
+          },
+          {
+            "name": "Hidden Twinblade",
+            "why": "Ddg +20 through his next phase: crit insurance"
+          },
+          {
+            "name": "Hidden Bladerule",
+            "why": "Crit +100 but Hit 10: finisher gamble only"
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Astra",
+            "why": "Sword Master mastery: 5 hits at 50%, each can crit"
+          },
+          {
+            "name": "Divine Insight",
+            "why": "The Blade mastery: Spd +10, once mastered (Ever Vigilant until then)"
+          },
+          {
+            "name": "Ravaging Arts",
+            "why": "Crit damage +6, on each Astra hit"
+          },
+          {
+            "name": "Swords Lv. 5",
+            "why": "Sword S: Hit/Avo +10 with swords"
+          },
+          {
+            "name": "Bestial Impulse",
+            "why": "Personal Lv 5: Crit +2 per combat until someone crits"
+          }
+        ],
+        "drop": [
+          {
+            "item": "Killing Edge +3",
+            "why": "Deadly Blade's Crit +15 works on one art; Da Mina gives +10 to all and Bloodletting has +20"
+          },
+          {
+            "item": "Deadly Blade",
+            "why": "Leaves with the Killing Edge"
+          },
+          {
+            "item": "Zanbato +2",
+            "why": "The open slot holds the Levin Sword +3"
+          },
+          {
+            "item": "Mars's Kneepads",
+            "why": "Wt 5 breaks his 3-point budget; Guzran holds the one copy"
+          },
+          {
+            "item": "Ever Vigilant",
+            "why": "Divine Insight takes the slot once mastered"
+          },
+          {
+            "item": "Swords Lv. 4",
+            "why": "Swords Lv. 5 at Sword S"
+          },
+          {
+            "item": "Silver Sword",
+            "why": "Silver +2 is Mt 22 for shards; Da Mina +2 (Mt 20) adds Hit +10 on arts for gold"
+          }
+        ],
+        "goal": "Sword Crit +10 and Murderous Intent +5 on each opener; Astra's 5 hits crit for +6 each (Ravaging Arts).",
+        "exit": "Endpoint. Sword short of S at Section 5: the Swordguard goes to Loretta",
+        "why": [
+          "Exam: Sword S and the Demonic Swordguard (Chamber of Distortion), 100% pass",
+          "Claim moved from Loretta (D-143): a lord in Balor's center with Murderous Intent feeding Sword Crit +10",
+          "Boosters: Energy Drop in S5 (Str +2), Speedwing and Secret Book in S6 (Spd +2, Dex +2)"
+        ],
+        "masteries": [
+          "Divine Insight"
+        ],
+        "tips": [
+          "Dante within 2: Ddg +10 and Hit/Crit +10 when Stage Directions fires (his Cha/2 %)",
+          "Open on foes inside Fabio's Dark Secrets+ (Ddg -5 within 3); Simon and Kiroc share the pocket",
+          "Mahadu: Spearbreak Amulet on, Hidden Twinblade (Ddg +20) before Wrath's doubled crits",
+          "Lyrah is a dragon: Bloodletting from Answerer +3; at Balor, Leda dances him for a second hit"
+        ]
+      }
+    ],
+    "arts": [
+      {
+        "name": "Bloodletting",
+        "why": "Signature crit art from Answerer"
+      },
+      {
+        "name": "Deadly Blade",
+        "why": "Crit +15 on Killing Edge"
+      },
+      {
+        "name": "Hidden Flowform",
+        "why": "Guaranteed follow-up plus Avo +20"
+      },
+      {
+        "name": "Flash Blow",
+        "why": "Dex-triggered Atk +5"
+      }
+    ],
+    "abilities": [
+      {
+        "name": "Ever Vigilant",
+        "why": "Sustain from crit kills"
+      },
+      {
+        "name": "Ravaging Arts",
+        "why": "Crit damage"
+      },
+      {
+        "name": "Attack Basics",
+        "why": "Str +1"
+      },
+      {
+        "name": "Swords Lv. 3",
+        "why": "Hit/Avo +5 with swords"
+      }
+    ],
+    "specials": [
+      "Answerer: Hero's Relic, Mt 9, Wt 4, 20 uses, grants Bloodletting",
+      "Blaze Arts: Moving Shadow (Ch 4), Stifling Shadow (Lv 20), Ruinous Shadow (Lv 35). HP costs not documented; not usable in dungeon Clashes",
+      "Boost Combat Arts at Smyrnos's Temple (Dietrich's route only in Part I). Boost 10 different arts across the army to unlock Blacksmith for later paths",
+      "Teach Secrets (Ch 7) passes his Hidden arts to allies; they still need the right weapon type",
+      "Ink-Black Wen (personal accessory, Dex +5): where on this route: unknown",
+      "Bloodmark: Diadem of the Endless (heals on attack, 10%)"
+    ],
+    "sources": [
+      "class plan v3",
+      "weapons-and-items",
+      "combat-arts-and-abilities",
+      "character-learnsets",
+      "class-data",
+      "hard-mode video notes",
+      "Dietrich Ch 4 to 9 walkthrough",
+      "Part I Dietrich walkthrough",
+      "RPG Site Dietrich path",
+      "Part II and III walkthroughs"
+    ],
+    "watch": [
+      "Budget (swordfighter who doubles): extra weight on top of the sword ≤ 3. Sword 4 + Gale Ring 2 = 6 (extra 2); Killing Edge 6 + ring = 8. Fallback Archer's Ring 3: 7. Hunter's Ring (4) and Mars's Kneepads (5) break the budget.",
+      "If he stops doubling, swap to a 4-weight sword first: the Gale Ring's Spd +3 pays for its 2 weight. Zanbato (7) and Levin Sword (8) are situational: back to a 4-weight sword before enemy phase.",
+      "Part II: his Ch 12 inventory comes along (6 items?): Answerer Arisen, Gale Ring, Elixir, Concoction, then the Levin Sword +1 drop. Answerer Arisen keeps Bloodletting+.",
+      "6/6 in Ch 10 to 12: the Levin Sword swaps for the Concoction; at Mars the two Dews take the Silver Sword's (to Jester) and the Killing Edge's (storage) slots.",
+      "Weight (Part III): Da Mina Sword 4 + Gale Ring 2 = 6, extra 2 of 3, at +2 or +3. Levin Sword +3 (8) and Spearbreak Amulet (4) are swaps: the amulet comes off first."
+    ],
+    "decisions": [
+      {
+        "topic": "Take Myrmidon, then Shido",
+        "pick": "Gladiator (Ch 5), Myrmidon (Ch 6), Shido (Ch 10)",
+        "why": "Shido is the lord class for the Ch 12 solo duel with Mars. Myrmidon trains Sword toward Shido's Sword B, and he deploys every map, so he reaches Lv 35 first (about Lv 38 by the end of Part I).",
+        "else": "Stay Shido through Part II; Sword Master in Part III needs Mars' Temple restored"
+      },
+      {
+        "topic": "Keep his extra weight at 3 or less",
+        "pick": "A 4-weight sword plus the Gale Ring (2)",
+        "why": "Silver, Da Mina or Answerer Arisen (Wt 4) + Gale Ring = 6, inside his budget; Killing Edge (6) + ring = 8. The Hunter's Ring (Wt 4) is too heavy.",
+        "else": "Archer's Ring if you have no Gale Ring yet"
+      },
+      {
+        "topic": "Pack the Mars duel kit",
+        "pick": "Answerer Arisen, Gale Ring, Elixir, Concoction, Dew of Protection, Dew of Peace",
+        "why": "Part 2 of the Ch 12 battle is Dietrich alone. Consumables share the 6 slots, so the Silver Sword goes to Jester and the Killing Edge, Levin Sword and Zanbato go to storage.",
+        "else": "Answerer or your best 4-weight sword if Fabio's scenes didn't upgrade it"
+      }
+    ],
+    "gates": [
+      {
+        "route": "Dietrich",
+        "from": {
+          "part": 1,
+          "ch": 6
+        },
+        "by": {
+          "part": 1,
+          "ch": 10
+        },
+        "kind": "rank",
+        "text": "Sword B by Lv 35 for Shido: first exam on the Advanced list after Yang Jie and Fabio"
+      }
+    ]
+  },
+  "sources": [
+    "https://fortunesweave.co.uk/characters/dietrich",
+    "https://www.rpgsite.net/guide/21212-fire-emblem-fortunes-weave-part-i-dietrichs-path-walkthrough",
+    "https://www.keengamer.com/articles/guides/fire-emblem-fortunes-weave-tier-list-best-characters-ranked-for-every-route/"
+  ],
+  "recruitOn": {
+    "Dietrich": {
+      "how": "lord"
+    }
+  }
+}

@@ -1,0 +1,332 @@
+{
+  "route": "Cai",
+  "ch": 7,
+  "name": "Opposed Agendas",
+  "free": {
+    "from": "6/9",
+    "to": "7/9"
+  },
+  "unlocks": [
+    "Carriages (after The Artisans of Megaira)",
+    "Castalia passage (after Trouble at the Gate)"
+  ],
+  "routine": {
+    "meals": [
+      {
+        "week": "Every Sunday",
+        "tables": [
+          [
+            "Cai",
+            "Fianna",
+            "Sirocco"
+          ],
+          [
+            "Cai",
+            "Fianna",
+            "Seteth"
+          ],
+          [
+            "Cai",
+            "Sirocco",
+            "Ninae"
+          ]
+        ],
+        "note": "Fianna needs Support 3 well before Renown 8 (Ch 10). Meals 2 and 3: seat whoever of Seteth, Ninae or Mikaela is still short of Support 3, else Sirocco."
+      }
+    ],
+    "gifts": [
+      {
+        "unit": "Fianna",
+        "gift": "Volcano Ghosh",
+        "where": "Lowtown Tavern",
+        "cost": "135G"
+      },
+      {
+        "unit": "Sirocco",
+        "gift": "Volcano Ghosh",
+        "where": "Lowtown Tavern",
+        "cost": "135G"
+      },
+      {
+        "unit": "Seteth",
+        "gift": "Common Coffee",
+        "where": "Lowtown Tavern",
+        "cost": "90G",
+        "until": "recruited"
+      },
+      {
+        "unit": "Ninae",
+        "gift": "Tales of Adventure",
+        "where": "Alecto",
+        "cost": "270G",
+        "until": "recruited"
+      }
+    ],
+    "weekly": [
+      {
+        "text": "Feed every mount at the Stable daily, the two Meganius too once you catch them"
+      }
+    ]
+  },
+  "missables": [
+    {
+      "id": "cai-ch07-missables-help-my-feelings",
+      "quest": "help-my-feelings-take-wing",
+      "kind": "timing",
+      "text": "Talk to Alexandra for Help My Feelings Take Wing before the free time ends",
+      "when": "7/9",
+      "lose": "3,000G and 130 Renown toward Renown 6",
+      "recover": "None",
+      "task": true
+    },
+    {
+      "id": "cai-ch07-missables-hidden-memories",
+      "quest": "hidden-memories",
+      "kind": "timing",
+      "text": "Take the Jurah Carving to Collapsed Fort for Hidden Memories (from Ch 5) if it's still open",
+      "when": "7/9",
+      "lose": "2,000G and 100 Renown",
+      "recover": "None",
+      "task": true
+    },
+    {
+      "id": "cai-ch07-missables-ninae-cai-supports",
+      "kind": "support-chain",
+      "text": "Watch Ninae and Cai's support conversations at the Inn as soon as each one unlocks",
+      "lose": "Some chains are story-timed and lock if you wait",
+      "recover": "None known",
+      "conf": "community",
+      "task": true,
+      "when": "From her join (late Ch 7)"
+    }
+  ],
+  "classes": {
+    "note": {
+      "text": "Finish any Ch 6 Specialty exam still open: Ultand's Shaman and Noctula's Pugilist often land here",
+      "detail": [
+        "Renown 6 joiners arrive at about Lv 15 in a Beginner class: no exam unless one arrives in another class.",
+        "Seteth and Ninae take their Specialty exams in Ch 8, at Lv 20."
+      ]
+    }
+  },
+  "gear": {
+    "buy": [
+      {
+        "text": "Buy several Tales of Adventure (270G) at Alecto: Ninae's weekly gift",
+        "detail": [
+          "Seteth, Mikaela, Nydine and Noctula love it too."
+        ]
+      },
+      {
+        "text": "Megaira Armory: a [[item:Ridersbane]] for Cai and a [[item:Shielding Axe]] for Seteth",
+        "detail": [
+          "The Ridersbane goes to Seteth later; the Shielding Axe to Jasmine.",
+          "Its Da Mina Spear and Da Mina Axe count toward Its Name Is Da Mina (Ch 10 wants 2)."
+        ]
+      },
+      {
+        "text": "Consider a [[item:Cleansing Blade]] from Vandahl for the Underworld maps"
+      }
+    ],
+    "barter": [
+      {
+        "item": "Gale Ring",
+        "for": "Seteth (a second one for Peppe in Ch 10, or an Archer's Ring)",
+        "at": "Alecto"
+      },
+      {
+        "item": "Giant's Ring",
+        "for": "Nydine's axes",
+        "at": "Alecto",
+        "note": "Second Paradise Fish"
+      }
+    ],
+    "assign": [
+      {
+        "item": "Cleansing Blade",
+        "to": "Guzran",
+        "why": "The one near the start of the Ch 7 battle map"
+      }
+    ]
+  },
+  "recruits": [
+    {
+      "unit": "Seteth",
+      "action": "Take his short quest, go to the marker and report back",
+      "when": "Late Ch 7; not there by 7/9 means Ch 8",
+      "detail": [
+        "He brings the Spear of Assal (Mt 7, Wt 8): weaker and heavier than an Iron Spear, so it goes to storage."
+      ],
+      "conf": "?"
+    },
+    {
+      "unit": "Ninae",
+      "action": "Hand over 1× [[gather:Paradise Fish]] from [[place:Lake Brontes]] (Saveilon, past Valhalla Mine)",
+      "when": "Late Ch 7; not there by 7/9 means Ch 8"
+    },
+    {
+      "unit": "Nydine",
+      "action": "Hand over 2× [[item:Bronze Axe]]",
+      "when": "Late Ch 7; not there by 7/9 means Ch 8"
+    }
+  ],
+  "prep": [
+    {
+      "text": "Majide or Mikaela not recruited yet? Their rows are in Ch 6 (Renown 5 often lands here)"
+    },
+    {
+      "text": "Keep Fianna's Support rising: she needs Support 3 by Renown 8 (Ch 10)"
+    }
+  ],
+  "quests": {
+    "route": [
+      {
+        "quest": "the-artisans-of-megaira",
+        "note": "Do it first: it unlocks carriages"
+      },
+      {
+        "quest": "trouble-at-the-gate",
+        "note": "Opens the passage to Castalia: Dione Fort and the Ch 8 Pegasus"
+      },
+      {
+        "quest": "help-my-feelings-take-wing"
+      },
+      {
+        "quest": "fish-are-gross"
+      }
+    ],
+    "sub": [
+      {
+        "quest": "legacy-of-a-legendary-sculptor",
+        "offered": "if-offered",
+        "note": "Grab the Lake Brontes statue on the Saveilon trip. Its Flying Manual goes to Seteth for Dragoon"
+      },
+      {
+        "quest": "rare-stone-hunting",
+        "offered": "if-offered",
+        "note": "Tempest Bow: Peter while he's an Archer, then Mikaela"
+      },
+      {
+        "quest": "a-challenge",
+        "offered": "if-offered",
+        "note": "Starts a 3-part chain: Another Challenge (Ch 9), One Last Challenge (Ch 10)"
+      },
+      {
+        "quest": "a-sword-of-deadly-renown",
+        "offered": "if-offered"
+      },
+      {
+        "quest": "a-screeching-strange-shadow",
+        "offered": "if-offered"
+      },
+      {
+        "quest": "a-taste-from-home",
+        "offered": "if-offered",
+        "note": "Uses the Jyoppa from Defeat Aguino's Thieves"
+      }
+    ],
+    "paralogue": []
+  },
+  "explore": [
+    {
+      "group": "Saveilon trip",
+      "text": "Go to Saveilon this chapter: Ninae's fish, the Alecto shopping and two mounts in one trip",
+      "detail": [
+        "Fish two [[gather:Paradise Fish]] at Lake Brontes: one for Ninae, one for Nydine's Giant's Ring.",
+        "Can't reach Saveilon yet? Do all of it on Castor's Renown 7 trip in late Ch 8; Ninae then joins in Ch 8."
+      ]
+    },
+    {
+      "group": "Saveilon trip",
+      "text": "Catch Seteth's [[mount:Meganius]] and Nydine's [[mount:Red Meganius]] at [[place:Axion Gorge]]",
+      "detail": [
+        "Nydine's is for Part II. Roll for Paired Run: hard save on the animal tile before you set the lure."
+      ]
+    },
+    {
+      "group": "Dungeons",
+      "id": "cai-ch07-explore-dione-fort",
+      "loot": true,
+      "text": "[[place:Dione Fort]] (Lv 18, Castalia): Flying Manual for Seteth, Hexlock Shield for Jasmine",
+      "detail": [
+        "Opens after Trouble at the Gate.",
+        "Ninae takes the Hexlock barter; Cai keeps the lighter Talisman Shield (Dragonbone Tangle is closed in Part I)."
+      ]
+    },
+    {
+      "group": "Dungeons",
+      "id": "cai-ch07-explore-cindered-road-cave",
+      "loot": true,
+      "text": "[[place:Cindered Road Cave]] (Lv 22, Solidus): Flying Manual for Nydine, Conflagrant Gem as a spare",
+      "detail": [
+        "The Gem is an optional swap for Peter's Archer's Ring."
+      ]
+    },
+    {
+      "group": "Dungeons",
+      "id": "cai-ch07-explore-rubess-forest",
+      "loot": true,
+      "text": "[[place:Rubess Forest]] (Lv 9, Melias): Riding Manual for Peter, Healing Staff for Ninae, Lucky Coin",
+      "detail": [
+        "Riding Manual: Peter first, then Fianna or Mikaela. Fianna's staff comes from Orchel's Paralogue (Ch 11).",
+        "Also a good support run for this week's meal pairs."
+      ]
+    },
+    {
+      "group": "Dungeons",
+      "id": "cai-ch07-explore-masked-woods",
+      "loot": true,
+      "text": "[[place:Masked Woods]] (Lv 15, Melias): Heavy-Armor Manual for Jasmine (Heavy D)"
+    },
+    {
+      "group": "Dungeons",
+      "id": "cai-ch07-explore-shadowy-cave",
+      "loot": true,
+      "text": "[[place:Shadowy Cave]] (Lv 12, Lambath): Magic Manuals for Sirocco, Killing Edge for Guzran",
+      "detail": [
+        "White-Magic and Black-Magic Manuals.",
+        "It may need Dietrich's Paralogue first."
+      ],
+      "conf": "?"
+    },
+    {
+      "group": "Dungeons",
+      "id": "cai-ch07-explore-nemea-cavern",
+      "loot": true,
+      "text": "[[place:Nemea Cavern]] (Lv 30, Pasithea): second Heavy-Armor Manual and a Hammer for Jasmine"
+    },
+    {
+      "group": "Farming",
+      "text": "Plant 30 Melara, Shaktoh or Usamos for the Ch 8 crop quest",
+      "detail": [
+        "Plus 3 Shaktoh (Noctula's Phantom Ring) and 6 Melara (Ultand's Iron Gauntlets)."
+      ]
+    }
+  ],
+  "battle": {
+    "title": "Qualifier vs. Braganca Brotherhood",
+    "objective": "Defeat Inyoni",
+    "lose": "Cai, Talimun or Leda falls",
+    "guests": [
+      "Talimun",
+      "Leda"
+    ],
+    "tips": [
+      {
+        "text": "Grab the Cleansing Blade near the start for Guzran, and bring armor-piercing weapons",
+        "detail": [
+          "Talimun can heal."
+        ]
+      },
+      {
+        "text": "Split up and stay out of ballista range (check it with ZL)"
+      },
+      {
+        "text": "Inyoni fires a long-range arrow every third turn: count turns before you step into range"
+      },
+      {
+        "text": "It ends with an Event Clash: give Cai a [[item:Linking Rock]]"
+      }
+    ]
+  }
+}

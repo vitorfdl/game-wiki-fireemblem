@@ -1,0 +1,1503 @@
+{
+  "name": "Nydine",
+  "slug": "nydine",
+  "epithet": "Saraminian mercenary",
+  "faction": "Neutral",
+  "homeRoute": "Cai",
+  "weapons": [
+    "Axe"
+  ],
+  "preferred": [
+    "Axe",
+    "Flier",
+    "Rider"
+  ],
+  "avoid": [
+    "Brawling",
+    "Heavy"
+  ],
+  "personality": "Exemplary, battle-proven warrior who earned Bonaventure's recognition.",
+  "story": "Nydine is a 26-27-year-old Saraminian warrior recognised by Bonaventure. She left Saramis after the Gráinne War and settled in Dagda as a mercenary. Recruitment costs Bronze Axes (Cai/Dietrich) or Iron Axes (Theodora/Leda), with Leda's route the hardest at Renown 10.",
+  "personalSkill": {
+    "name": "Barge Through",
+    "effect": "Cavalry can move through foes' spaces (not large-scale foes). Lv20: At a Gallop (terrain cost -1); Lv35: At a Gallop+ (terrain cost -2)."
+  },
+  "growths": {
+    "HP": 45,
+    "Str": 40,
+    "Mag": 30,
+    "Spd": 45,
+    "Dex": 40,
+    "Def": 30,
+    "Res": 25,
+    "Lck": 35,
+    "Cha": 35
+  },
+  "supports": [
+    "Bonaventure",
+    "Dante",
+    "Lilian"
+  ],
+  "tiers": [
+    {
+      "source": "KeenGamer",
+      "tier": "B"
+    },
+    {
+      "source": "Pocket Tactics",
+      "tier": "B"
+    }
+  ],
+  "tierNotes": "KeenGamer: B tier (Ornius rider who can move through enemy spaces). Pocket Tactics: B tier. Reddit: Armored Ornius Rider → Cataphract worked for some; others found her fragile and slow (disputed).",
+  "recruit": {
+    "how": "recruit",
+    "renown": 6,
+    "extra": "Item varies by path",
+    "why": [
+      "Lowest Support requirement of any route: 1 here vs Dietrich 2, Theodora 3, Leda 3."
+    ],
+    "tip": "Only needs 2 Bronze Axes here instead of 3 Iron Axes."
+  },
+  "requirements": {
+    "Cai": "1S 6R (2× Bronze Axe)",
+    "Dietrich": "2S 5R (2× Bronze Axe)",
+    "Theodora": "3S 5R (3× Iron Axe)",
+    "Leda": "3S 10R (3× Iron Axe)"
+  },
+  "build": {
+    "role": "Mounted axe flanker, then second flier",
+    "path": [
+      "Ornius Rider (bench in Part I)",
+      "Armored Ornius Rider (Part II Ch 1)",
+      "Dragoon (Part II Ch 2)",
+      "Bau Lord"
+    ],
+    "part1Target": "Bench (Ornius Rider): recruit for Part II",
+    "part3Target": "Bau Lord",
+    "notes": "Joins at about Lv 15 in a Beginner class; benched in Part I. Arena Rider D, Flying C, Axe B, Spear B. Part II: Army Training to Lv 34 in Ornius Rider, Armored Ornius Rider in Ch 1, Dragoon in Ch 2 as the second flier, Bau Lord in Part III. The Wing Soldier detour and Sense Threat are gone.",
+    "confidence": "medium"
+  },
+  "guide": {
+    "role": "Mounted axe flanker, then second flier",
+    "summary": "Benched in Part I: Seteth holds the flier role (Dragoon in Ch 11 or 12), and every rank her Dragoon exam needs trains in the Arena. Flier is one of her preferred ranks, so after Army Training she becomes your second flier as a Dragoon in Part II Ch 2, in time for the Ranger chase.",
+    "playstyle": "Slip through enemy lines to hit healers and archers, then pull back. As a Dragoon her cavalry skills switch off: fly over terrain instead.",
+    "focus": [
+      "Str",
+      "Spd",
+      "Def"
+    ],
+    "keys": [
+      "Bench in Part I: Arena Mounted and Heavy Training for Rider D, Flying C, Axe B and Spear B.",
+      "Give her the Cindered Road Cave Flying Manual.",
+      "Equip Ji, Da Mina Axe, Hand Axe, Ridersbane and the Giant's Ring at the end of Ch 12.",
+      "Part II Ch 1: Armored Ornius Rider on a Red Meganius; Ch 2: Dragoon.",
+      "Catch a Wild Bau for her if Ch 12 allows."
+    ],
+    "watch": [
+      "Spear is her weak rank: it gates Dragoon.",
+      "Res growth 25%: keep her away from mages.",
+      "If Flying C or Spear B is short by Part II, she stays Armored Ornius Rider and Seteth flies alone in Ch 2.",
+      "Weight: Da Mina Axe 10 (Silver Axe 9) against the Giant's Ring's Bld +4 (Wt 0, Avo -20): no shield in Parts I and II. Part III: Velheit 5 + Shield of Zephyrus 5 = 10 against Bld +4, so the shield nets 1 extra weight; drop it on maps without archers.",
+      "Inventory: Part II carries 5 (Da Mina Axe, Ji, Hand Axe, Giant's Ring, Concoction): one slot free for an issued Iron +3 weapon."
+    ],
+    "stages": [
+      {
+        "when": "Join (late Ch 7 or Ch 8) to Ch 12",
+        "from": {
+          "part": 1,
+          "ch": 7,
+          "at": "late",
+          "approx": true
+        },
+        "to": {
+          "part": 1,
+          "ch": 12
+        },
+        "level": "About Lv 15 (join)",
+        "class": "Ornius Rider",
+        "kind": "bench",
+        "goal": "Bench: recruit for Part II, train ranks in the Arena. Barge Through: mounted, she walks through foes.",
+        "exit": "Bench through Part I: keep this class for Part II Ch 1 Army Training (about 19 levels)",
+        "masteries": [],
+        "training": [
+          {
+            "rank": "Rider D, Axe C, Spear C",
+            "for": "Armored Ornius Rider exam, Part II Ch 1",
+            "how": "Arena Mounted Training (Spear, Authority, Rider, Flying); Arena Heavy Training (Spear, Authority, Axe, Heavy)"
+          },
+          {
+            "rank": "Flying C, Axe B, Spear B",
+            "for": "Dragoon exam, Part II Ch 2",
+            "how": "Arena Mounted Training (Spear, Authority, Rider, Flying); Arena Heavy Training; Flying Manual (Cindered Road Cave, Solidus)"
+          }
+        ],
+        "tips": [
+          "Joins at about Lv 15 already in a Beginner class. If it isn't Ornius Rider, take the Ornius Rider exam (Riding E+, Axe D, Spear D) on a Beginner License before Part II Ch 1 Army Training.",
+          "Army Training in Ornius Rider: Spd 55, Dex 45, HP 55 on Nydine.",
+          "Recruit cost: Renown 6, 2 Bronze Axes (Armorer, Shopping Arcade, Dagsion, 500).",
+          "Flying is one of her preferred ranks; Spear is her weak one, so book Heavy and Mounted Training every week.",
+          "She no longer needs a Wild Pegasus: the Wing Soldier stint is gone. Catch a Wild Bau if you can (Bau-Caller's Cape, Ch 12).",
+          "Part II has no free time, so these ranks must be done in Part I: they are the exams this unit takes in Part II Ch 1 and Ch 2"
+        ],
+        "mount": "Wild Ornius (Red Meganius once you reach Axion Gorge); keep it in the Stable for Part II",
+        "weapons": [
+          {
+            "item": "Da Mina Axe",
+            "why": "The one weapon she carries into Part II (equip it at the end of Ch 12): Mt 16, Hit +10 on arts",
+            "plan": "Ch 7, after The Artisans of Megaira"
+          },
+          {
+            "item": "Ji",
+            "why": "Carry into Part II for Dragoon (needs Spear B): armor and cavalry, Tempest Spear"
+          },
+          {
+            "item": "Hand Axe",
+            "why": "Carry into Part II: 1 to 2 range"
+          }
+        ],
+        "equipment": [
+          {
+            "item": "Giant's Ring",
+            "why": "Carry into Part II: Bld +4 offsets the Wt 10 axes (Avo -20)",
+            "slot": "Accessory"
+          }
+        ],
+        "arts": [
+          {
+            "name": "Spike",
+            "why": "Axe D: +4 Mt, +10 Hit"
+          },
+          {
+            "name": "Tempest Spear",
+            "why": "Spear D; uses train her weak rank"
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Spears Lv. 2",
+            "why": "Spear C+ rank ability: Ji and Ridersbane Hit +5 (once Spear C+ at the Arena)"
+          }
+        ],
+        "drop": [
+          {
+            "item": "Ridersbane",
+            "why": "Ji covers cavalry: storage until Part III"
+          },
+          {
+            "item": "Wooden Axe",
+            "why": "Storage until Part III"
+          }
+        ],
+        "items": [
+          {
+            "item": "Concoction",
+            "why": "40 HP x2: her Part II stock",
+            "alts": [
+              "Vulnerary"
+            ]
+          }
+        ]
+      },
+      {
+        "when": "Part II Ch 1",
+        "from": {
+          "part": 2,
+          "ch": 1
+        },
+        "level": "Lv 34 (Army Training)",
+        "class": "Armored Ornius Rider",
+        "kind": "core",
+        "mount": "Red Meganius",
+        "goal": "Armored Ornius Rider on a free Specialty License after Army Training: Str 60 on the Red Meganius for the step to Lv 35. Barge Through plus At a Gallop (Lv 20, terrain cost -1) let her cut through the enemy line to its mages. Sense Threat only if it fills in this one map.",
+        "exit": "Leave in Ch 2 for Dragoon (Flying C, Axe B, Spear B at 75%), even if Sense Threat is not mastered: Ch 2 needs her in the air.",
+        "masteries": [],
+        "training": [
+          {
+            "rank": "Flying C, Axe B, Spear B",
+            "for": "Dragoon exam, Ch 2",
+            "how": "Done on the bench in Part I"
+          }
+        ],
+        "tips": [
+          "Armored Ornius Rider(Red Meganius) on Nydine: Str 60, Dex 60, Def 45",
+          "No free time in Part II: only equipped items come in, so equip them at the end of Ch 12"
+        ],
+        "weapons": [
+          {
+            "item": "Da Mina Axe",
+            "why": "A tier: Hit +10 on arts",
+            "plan": "Ch 7, after The Artisans of Megaira"
+          },
+          {
+            "item": "Ji",
+            "why": "Carried for Dragoon next chapter"
+          },
+          {
+            "item": "Hand Axe",
+            "why": "1 to 2 range"
+          }
+        ],
+        "equipment": [
+          {
+            "item": "Giant's Ring",
+            "why": "Bld +4 (reported): carries axe weight",
+            "slot": "Accessory"
+          }
+        ],
+        "arts": [
+          {
+            "name": "Enrage",
+            "why": "Axe C: Str +1 per fight, max +5"
+          },
+          {
+            "name": "Battleblade Strike",
+            "why": "Axe B: +7 Mt, Dex +2 per fight"
+          },
+          {
+            "name": "Spike",
+            "why": "Axe D: +4 Mt, +10 Hit"
+          },
+          {
+            "name": "Tempest Spear",
+            "why": "Spear D: trains her weak rank with the Ridersbane"
+          }
+        ],
+        "abilities": [
+          {
+            "name": "At a Gallop",
+            "why": "Personal Lv 20 ability: (Cavalry) Applies -1 to movement cost for terrain (cannot be..."
+          },
+          {
+            "name": "Spears Lv. 2",
+            "why": "Spear C+ rank ability: spear Hit +5"
+          },
+          {
+            "name": "Sense Threat",
+            "why": "Armored Ornius Rider mastery: Avo +20 vs effective foes (only if it fills this map)"
+          }
+        ],
+        "drop": [
+          {
+            "item": "Ridersbane",
+            "why": "Not in her Ch 12 kit"
+          },
+          {
+            "item": "Wooden Axe",
+            "why": "Not in her Ch 12 kit"
+          }
+        ],
+        "items": [
+          {
+            "item": "Concoction",
+            "why": "40 HP x2: carried in from Ch 12",
+            "alts": [
+              "Vulnerary"
+            ]
+          }
+        ]
+      },
+      {
+        "when": "Part II Ch 2 to 6",
+        "from": {
+          "part": 2,
+          "ch": 2
+        },
+        "to": {
+          "part": 2,
+          "ch": 6
+        },
+        "level": "Lv 35 to 42",
+        "class": "Dragoon",
+        "kind": "core",
+        "mount": "Wild Bau",
+        "goal": "Second flier from Ch 2: chase the southeast Ranger with Seteth before Turn 4. Master Besieger. At a Gallop+ (Lv 35) and Barge Through are (Cavalry) effects: whether a Dragoon counts is unclear?, so test it on a safe map. No Part II side trip: the army needs her in the air.",
+        "exit": "Stays to the end of Part II.",
+        "masteries": [
+          "Besieger"
+        ],
+        "training": [
+          {
+            "rank": "Axe A, Spear A",
+            "for": "Bau Lord (Part III)",
+            "how": "Arena Heavy Training (Spear, Authority, Axe, Heavy)"
+          }
+        ],
+        "tips": [
+          "Takes a free Part II Advanced License in Ch 2",
+          "Seteth holds the only Bowbreak Amulet",
+          "Barge Through and At a Gallop switch off while she flies"
+        ],
+        "weapons": [
+          {
+            "item": "Da Mina Axe",
+            "why": "Hit +10 on arts",
+            "plan": "Keep"
+          },
+          {
+            "item": "Ji",
+            "why": "A tier: armor and cavalry, Spear B + Axe D"
+          },
+          {
+            "item": "Hand Axe",
+            "why": "1 to 2 range",
+            "plan": "Keep"
+          }
+        ],
+        "equipment": [
+          {
+            "item": "Giant's Ring",
+            "why": "Bld +4 (reported): carries axe weight",
+            "slot": "Accessory"
+          }
+        ],
+        "arts": [
+          {
+            "name": "Enrage",
+            "why": "Axe C: Str +1 per fight, max +5"
+          },
+          {
+            "name": "Battleblade Strike",
+            "why": "Axe B: +7 Mt, Dex +2 per fight"
+          },
+          {
+            "name": "Spike",
+            "why": "Axe D: +4 Mt, +10 Hit"
+          },
+          {
+            "name": "Tempest Spear",
+            "why": "Spear D; uses train her weak rank"
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Besieger",
+            "why": "Dragoon mastery goal: Hit +20 vs foes on favorable terrain (once mastered)"
+          },
+          {
+            "name": "At a Gallop+",
+            "why": "Personal Lv 35 ability: (Cavalry) Applies -2 movement cost for terrain (cannot be reduced..."
+          },
+          {
+            "name": "Sense Threat",
+            "why": "Avo +20 vs bows, if mastered in Ch 1"
+          },
+          {
+            "name": "Spears Lv. 2",
+            "why": "Spear C+ rank ability: spear Hit +5"
+          }
+        ],
+        "drop": [
+          {
+            "item": "Silver Axe",
+            "why": "No Part II source"
+          },
+          {
+            "item": "Ridersbane",
+            "why": "Not in her Ch 12 kit"
+          },
+          {
+            "item": "Wooden Axe",
+            "why": "Not in her Ch 12 kit"
+          }
+        ],
+        "items": [
+          {
+            "item": "Concoction",
+            "why": "40 HP x2: carried in from Ch 12",
+            "alts": [
+              "Vulnerary"
+            ]
+          }
+        ]
+      },
+      {
+        "when": "Part III goal",
+        "from": {
+          "part": 3
+        },
+        "level": "Lv 45+",
+        "class": "Bau Lord",
+        "kind": "core",
+        "mount": "Red Bau or Black Bau (Part III)",
+        "goal": "Flier axe striker with Master +1 Mov; Barge Through still lets her pass foes if fliers count as cavalry?",
+        "exit": "Final class.",
+        "masteries": [
+          "Ambush"
+        ],
+        "weapons": [
+          {
+            "item": "Velheit",
+            "why": "Cursed A axe, Wt 5, Hit 95; Part I chest",
+            "alts": [
+              "Silver Axe",
+              "Da Mina Axe"
+            ]
+          },
+          {
+            "item": "Ji",
+            "why": "A tier: armor and cavalry, Spear B + Axe D"
+          },
+          {
+            "item": "Hand Axe",
+            "why": "1 to 2 range",
+            "plan": "Keep"
+          }
+        ],
+        "equipment": [
+          {
+            "item": "Silver Shield",
+            "why": "Silver Shield: Alexandra holds the Shield of Zephyrus",
+            "slot": "Defense",
+            "situational": "Archer maps: open slot (Wt 5: leave it off elsewhere)"
+          },
+          {
+            "item": "Giant's Ring",
+            "why": "Bld +4 (reported): carries axe weight",
+            "slot": "Accessory"
+          }
+        ],
+        "arts": [
+          {
+            "name": "Enrage",
+            "why": "Axe C: Str +1 per fight, max +5"
+          },
+          {
+            "name": "Battleblade Strike",
+            "why": "Axe B: +7 Mt, Dex +2 per fight"
+          },
+          {
+            "name": "Spike",
+            "why": "Axe D: +4 Mt, +10 Hit"
+          },
+          {
+            "name": "Tempest Spear",
+            "why": "Spear D; uses train her weak rank"
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Ambush",
+            "why": "Bau Lord mastery: Atk +4 on inaccessible terrain (once mastered)"
+          },
+          {
+            "name": "At a Gallop+",
+            "why": "Personal Lv 35 ability: (Cavalry) Applies -2 movement cost for terrain (cannot be reduced..."
+          },
+          {
+            "name": "Besieger",
+            "why": "Dragoon mastery: Hit +20 vs foes on favorable terrain"
+          },
+          {
+            "name": "Sense Threat",
+            "why": "Avo +20 vs bows, if mastered"
+          },
+          {
+            "name": "Spears Lv. 2",
+            "why": "Spear C+ rank ability: spear Hit +5"
+          }
+        ],
+        "drop": [
+          {
+            "item": "Wooden Axe",
+            "why": "Slot goes to Velheit"
+          },
+          {
+            "item": "Da Mina Axe",
+            "why": "Fallback for Velheit only"
+          },
+          {
+            "item": "Ridersbane",
+            "why": "Ji covers cavalry"
+          }
+        ],
+        "items": [
+          {
+            "item": "Elixir",
+            "why": "100 HP: flier striker",
+            "alts": [
+              "Concoction"
+            ],
+            "plan": "After Ch 6"
+          }
+        ]
+      }
+    ],
+    "alt": "Stay Armored Ornius Rider through Part II if Seteth covers the flier jobs and you want Barge Through. Wing Soldier (Protecting Wings) was dropped: its payoff was rank training while she waited in Part I, which the Arena now does.",
+    "sources": [
+      "class-and-weapon-guide",
+      "growth.py",
+      "class-data",
+      "character-learnsets",
+      "combat-arts-and-abilities",
+      "weapons-and-items",
+      "mounts.json",
+      "dungeons-and-keys",
+      "PATHS-BRIEF",
+      "walkthrough-part1-cai",
+      "part2-war",
+      "part3-salvation"
+    ],
+    "routeNotes": [
+      {
+        "system": "Stable & Luring",
+        "note": "Benched units can still bond. Catch the Red Meganius at Axion Gorge on the Ch 7 Saveilon trip and feed it every week to Ch 12: Armored Ornius Rider grows Str 60 on it and Paired Run is ready when she deploys in Part II."
+      },
+      {
+        "system": "Mentoring",
+        "note": "Her Part II Dragoon depends on Aurora's Special Request from Mom (Renown 8, usually Ch 10), the same unlock Seteth uses."
+      }
+    ],
+    "decisions": [
+      {
+        "topic": "Bench her until Part II",
+        "pick": "Ornius Rider on recruit, Dragoon in Part II Ch 2",
+        "why": "Joins late Ch 7 or Ch 8, rated C, and Seteth holds the flier role. Every Dragoon rank trains in the Arena, and her Red Meganius bonds in the Stable while she waits."
+      }
+    ],
+    "gates": [
+      {
+        "route": "Cai",
+        "from": {
+          "part": 1,
+          "ch": 5
+        },
+        "kind": "recruit",
+        "text": "Renown 6 and 2 Bronze Axes: buy the axes in Ch 5",
+        "by": {
+          "part": 1,
+          "ch": 8
+        }
+      },
+      {
+        "route": "Cai",
+        "from": {
+          "part": 1,
+          "ch": 8
+        },
+        "kind": "rank",
+        "text": "Rider D, Flying C, Axe B, Spear B by 11/27 for her Part II exams",
+        "by": {
+          "part": 1,
+          "ch": 12
+        }
+      }
+    ]
+  },
+  "sources": [
+    "https://fortunesweave.co.uk/characters/nydine",
+    "https://www.keengamer.com/articles/guides/fire-emblem-fortunes-weave-tier-list-best-characters-ranked-for-every-route/",
+    "https://www.keengamer.com/articles/guides/fire-emblem-fortunes-weave-best-class-for-every-character/",
+    "https://www.pockettactics.com/fire-emblem-fortunes-weave/tier-list"
+  ],
+  "recruitOn": {
+    "Cai": {
+      "how": "recruit",
+      "renown": 6,
+      "item": "2× Bronze Axe",
+      "task": "Item varies by path"
+    },
+    "Dietrich": {
+      "how": "recruit",
+      "support": 2,
+      "renown": 5,
+      "item": "2× Bronze Axe"
+    },
+    "Theodora": {
+      "how": "recruit",
+      "support": 3,
+      "renown": 5,
+      "item": "3× Iron Axe",
+      "window": "Late Ch 7 (by 5/28)"
+    },
+    "Leda": {
+      "how": "recruit",
+      "support": 3,
+      "renown": 10,
+      "item": "3× Iron Axe"
+    }
+  },
+  "copies": [
+    {
+      "route": "Theodora",
+      "support": 3,
+      "renown": 5,
+      "cost": "3× Iron Axe",
+      "chapter": 7,
+      "path": [
+        "Ornius Rider (late Ch 7 join, Lv 15)",
+        "Armored Ornius Rider (Lv 20, bench)",
+        "Cataphract (Part II Ch 2)",
+        "Great Knight (Part III S3)"
+      ],
+      "role": "Part II deep striker (cavalry)",
+      "part1": "Joins late Ch 7 at about Lv 15; bench all of Part I: dungeon parties and the Arena bank her exam ranks",
+      "why": "Part II bench (D-130): Barge Through rides through foe lines to Onager crews, fleeing Rangers and escape tiles. She supports Bonaventure and Lilian, and a Ch 7 join lets the Arena bank Heavy, Riding, Axe and Spear before Part II.",
+      "guide": {
+        "role": "Part II deep striker and rescue runner",
+        "summary": "Part II bench cavalry: Barge Through lets her ride through foe lines to an Onager crew, a fleeing Ranger or the escape tiles. She trains on the bench in Part I and fights Part II as a Cataphract with Pavise and Strike-Last Def +3. Keep her in a cavalry class, or the skill switches off.",
+        "playstyle": "Player phase: ride through the line (At a Gallop+ cuts terrain cost by 2), hit the archer or crew, end beside an ally on a forest. Enemy phase: Pavise and Strike-Last Def +3 take physical hits; stay out of mage range (Res 20 as Cataphract).",
+        "focus": [
+          "Str",
+          "Def",
+          "HP"
+        ],
+        "keys": [
+          "Recruit her late Ch 7: Support 3, Renown 5, 3 Iron Axes",
+          "Book Arena Heavy every week: Axe, Spear, Heavy and Authority in one course",
+          "Clear Bonaventure's Ch 8 Send Supplies by 10/24: it unlocks Cataphract",
+          "Buy a [[item:Da Mina Axe]] at Axe C (Ch 9): +1 then, +2 at Renown 10 (Ch 12)",
+          "Take [[class:Cataphract]] on a Part II Ch 2 Advanced License",
+          "Never leave cavalry: Barge Through and At a Gallop+ switch off on foot"
+        ],
+        "watch": [
+          "Weight: Part II Da Mina Axe 10 + Talisman Shield 3 + Archer's Ring 3 = 16; Part III Bronze Axe +4 9 + Hexlock Shield 4 + 3 = 16 vs Bld ?. Shield off first on maps without mages.",
+          "Res: 25 growth, 20 as Cataphract, 15 as Great Knight. End turns outside mage range.",
+          "Hit: Da Mina Axe 65, arts +10; Spike, Axes Lv. N and the Archer's Ring carry it.",
+          "Join level: Lv 15 late Ch 7 and benched; Part II's Lv 33 floor lifts her on personal growths only.",
+          "Cavalry: Cataphract and Great Knight are mounted (armored); stairs (Part II Ch 5) force a dismount."
+        ],
+        "stages": [
+          {
+            "when": "Ch 7 late to Lv 20: Ornius Rider",
+            "from": {
+              "part": 1,
+              "ch": 7,
+              "at": "late",
+              "approx": true
+            },
+            "to": {
+              "lv": 20
+            },
+            "why": [
+              "Recruit late Ch 7: Support 3, Renown 5, 3 Iron Axes",
+              "Joins about Lv 15 as an Ornius Rider (?); bench all of Part I",
+              "Hit stack: Iron Axe 65, Axes Lv. 1 +3, Spike +10"
+            ],
+            "level": "About Lv 15 on join to 20",
+            "class": "Ornius Rider",
+            "kind": "bench",
+            "mount": "Default mount (no perks off Cai's route)",
+            "goal": "Bench: dungeon party seats and link kills to Lv 20; the Arena banks Riding D, Axe C, Spear C.",
+            "exit": "Lv 20 with Riding D, Axe C, Spear C: Armored Ornius Rider exam.",
+            "masteries": [
+              "Offense Basics"
+            ],
+            "weapons": [
+              {
+                "item": "Iron Axe",
+                "why": "Main: Mt 13, Hit 65, Wt 10; trains Axe C",
+                "plan": "No refines before Renown 7; Da Mina Axe at Axe C (Ch 9)",
+                "alts": [
+                  "Bronze Axe"
+                ]
+              },
+              {
+                "item": "Iron Spear",
+                "why": "Trains Spear C; Mt 10, effective vs cavalry; Wt 7",
+                "plan": "+1 at Renown 7 (Ch 9), +2 at Renown 10 (Ch 12)",
+                "alts": [
+                  "Bronze Spear"
+                ]
+              },
+              {
+                "item": "Hand Axe",
+                "why": "Range 1-2 for dungeon link fights; Wt 10"
+              }
+            ],
+            "equipment": [],
+            "items": [
+              {
+                "item": "Concoction",
+                "why": "40 HP x2: she joins about 10 levels under the dungeons",
+                "alts": [
+                  "Vulnerary"
+                ]
+              }
+            ],
+            "arts": [
+              {
+                "name": "Spike",
+                "why": "Axe D: Mt +4, Hit +10"
+              },
+              {
+                "name": "Tempest Spear",
+                "why": "Spear D: Mt +4, Hit +10"
+              }
+            ],
+            "abilities": [
+              {
+                "name": "Offense Basics",
+                "why": "Ornius Rider mastery, once mastered: Str/Mag +1"
+              },
+              {
+                "name": "Axes Lv. 1",
+                "why": "Axe D+: Hit +3 with axes"
+              },
+              {
+                "name": "Spears Lv. 1",
+                "why": "Spear D+: Hit +3 with spears"
+              },
+              {
+                "name": "Knightly Senses",
+                "why": "Riding D: Avo +10 vs spears"
+              },
+              {
+                "name": "Defense Formation",
+                "why": "Authority D: Shld +1 to adjacent allies"
+              }
+            ],
+            "training": [
+              {
+                "rank": "Riding D, Axe C, Spear C, Authority D",
+                "for": "Armored Ornius Rider exam (Lv 20); Defense Formation",
+                "how": "Arena Heavy (Spear, Axe, Authority) and Mounted (Riding); bench seats first"
+              }
+            ],
+            "tips": [
+              "Meal seat after her Support 3: Theodora + Nydine + Lilian",
+              "Dungeon parties: beside a support pair so link attacks hand her the kills",
+              "Base Ornius: no mount growth off Cai's route"
+            ]
+          },
+          {
+            "when": "Ch 9 to 12: Armored Ornius Rider",
+            "from": {
+              "part": 1,
+              "ch": 9,
+              "approx": true
+            },
+            "to": {
+              "part": 1,
+              "ch": 12
+            },
+            "why": [
+              "Exam: Lv 20, Riding D, Axe C, Spear C, Specialty License",
+              "Hit stack: Da Mina Axe 65, arts +10, Axes Lv. 2 +5, Archer's Ring +5, Spike +10"
+            ],
+            "level": "Lv 20 (Ch 9?) to about 30? by Ch 12",
+            "class": "Armored Ornius Rider",
+            "kind": "bench",
+            "mount": "Default mount (no perks off Cai's route)",
+            "goal": "Bench: bank Axe B, Spear B and Heavy E+ for Cataphract. At a Gallop (Lv 20): terrain cost −1.",
+            "exit": "Ch 12 end: Axe B, Spear B, Heavy E+ banked; her 6 items are her Part II kit.",
+            "masteries": [
+              "Sense Threat"
+            ],
+            "weapons": [
+              {
+                "item": "Da Mina Axe +1",
+                "why": "Main: Mt ?, Hit 65, Wt 10; arts Hit +10",
+                "plan": "+2 at Renown 10, Ch 12; Iron Axe to storage",
+                "alts": [
+                  "Iron Axe +1"
+                ]
+              },
+              {
+                "item": "Iron Spear +1",
+                "why": "Trains Spear B; effective vs cavalry; Wt 7",
+                "plan": "+2 at Renown 10, Ch 12",
+                "alts": [
+                  "Da Mina Spear +1"
+                ]
+              },
+              {
+                "item": "Hand Axe",
+                "why": "Range 1-2 vs archers and mages; Wt 10"
+              }
+            ],
+            "equipment": [
+              {
+                "item": "Talisman Shield",
+                "why": "Def +1, Res +2, Wt 3: patches her Res 25",
+                "plan": "Ch 11; equip it before Ch 12 ends",
+                "slot": "Defense",
+                "alts": [
+                  "Hexlock Shield",
+                  "Iron Shield"
+                ]
+              },
+              {
+                "item": "Archer's Ring",
+                "why": "Hit +5, Wt 3: axes miss",
+                "plan": "Tobias's copy once he takes the Conflagrant Gem (Ch 8); Nezha left the plan",
+                "slot": "Accessory",
+                "alts": [
+                  "Spearbreak Amulet",
+                  "Conflagrant Gem"
+                ]
+              }
+            ],
+            "items": [
+              {
+                "item": "Concoction",
+                "why": "40 HP x2; Part II stock",
+                "alts": [
+                  "Vulnerary"
+                ]
+              }
+            ],
+            "arts": [
+              {
+                "name": "Spike",
+                "why": "Axe D: Mt +4, Hit +10"
+              },
+              {
+                "name": "Enrage",
+                "why": "Axe C: Str +1 after each combat, max +5"
+              },
+              {
+                "name": "Tempest Spear",
+                "why": "Spear D: Mt +4, Hit +10"
+              },
+              {
+                "name": "Armored Blow",
+                "why": "Spear C: Prt +3 after a kill; no follow-up"
+              }
+            ],
+            "abilities": [
+              {
+                "name": "At a Gallop",
+                "why": "Lv 20: [Cavalry] terrain cost −1"
+              },
+              {
+                "name": "Offense Basics",
+                "why": "Ornius Rider mastery: Str/Mag +1"
+              },
+              {
+                "name": "Axes Lv. 2",
+                "why": "Axe C+: Hit +5 with axes"
+              },
+              {
+                "name": "Knightly Senses",
+                "why": "Riding D: Avo +10 vs spears"
+              },
+              {
+                "name": "Vanguard",
+                "why": "Riding C+: Shld +2 when she attacks first (Cavalry)"
+              }
+            ],
+            "training": [
+              {
+                "rank": "Axe B, Spear B, Heavy E+",
+                "for": "Cataphract exam (Lv 35)",
+                "how": "Arena Heavy every week with a B+ mentor (Theodora or Ninae)"
+              },
+              {
+                "rank": "Riding C, Heavy D",
+                "for": "Vanguard; Great Knight (Part III)",
+                "how": "Arena Mounted for Riding; Heavy rides the Heavy seat (her bane: slow)"
+              },
+              {
+                "rank": "Riding C+",
+                "for": "Vanguard",
+                "how": "Arena Mounted; battles with it count too"
+              }
+            ],
+            "tips": [
+              "Clear Bonaventure's Ch 8 Send Supplies (Ladon Loach; Steelfish ?) by 10/24: Cataphract",
+              "Ch 12 end: equip the axe, shield and ring; Part II takes what she holds",
+              "Ch 9 to 12 dungeon parties between maps: her only EXP besides the Arena"
+            ],
+            "drop": [
+              {
+                "item": "Axes Lv. 1",
+                "why": "Axes Lv. 2 replaces it at Axe C+"
+              },
+              {
+                "item": "Spears Lv. 1",
+                "why": "At a Gallop takes the slot"
+              },
+              {
+                "item": "Defense Formation",
+                "why": "Vanguard takes the slot at Riding C+"
+              }
+            ]
+          },
+          {
+            "when": "Part II Ch 1: Armored Ornius Rider",
+            "from": {
+              "part": 2,
+              "ch": 1
+            },
+            "to": {
+              "part": 2,
+              "ch": 1
+            },
+            "why": [
+              "Part II bench (D-130): plays the cavalry and deep-strike maps",
+              "Advanced License at the Ch 2 floor: Lv 37+ after Ch 1's drills",
+              "Hit stack: Da Mina Axe 65, arts +10, Axes Lv. 3 +5, Archer's Ring +5, Spike +10"
+            ],
+            "level": "Lv 33 floor, about 37 after Ch 1 drills",
+            "class": "Armored Ornius Rider",
+            "kind": "core",
+            "mount": "Default mount (no perks off Cai's route)",
+            "goal": "Klytius Plains is a cavalry map: center lane with the anti-cavalry group; spears on the mounted named foes.",
+            "exit": "Lv 35+ with Axe B, Spear B, Heavy E+: Cataphract in Ch 2.",
+            "masteries": [],
+            "weapons": [
+              {
+                "item": "Da Mina Axe +2",
+                "why": "Main: Mt ?, Wt 10; arts Hit +10",
+                "plan": "Equipped carry-over",
+                "alts": [
+                  "Iron Axe +2"
+                ]
+              },
+              {
+                "item": "Iron Spear +2",
+                "why": "Effective vs cavalry: Ch 1's named foes ride",
+                "plan": "Equipped carry-over"
+              },
+              {
+                "item": "Hand Axe",
+                "why": "Range 1-2",
+                "plan": "Equipped carry-over"
+              }
+            ],
+            "equipment": [
+              {
+                "item": "Talisman Shield",
+                "why": "Def +1, Res +2, Wt 3: patches her Res 25",
+                "plan": "Equipped carry-over",
+                "slot": "Defense",
+                "alts": [
+                  "Hexlock Shield",
+                  "Iron Shield"
+                ]
+              },
+              {
+                "item": "Archer's Ring",
+                "why": "Hit +5, Wt 3: axes miss",
+                "plan": "Equipped carry-over",
+                "slot": "Accessory",
+                "alts": [
+                  "Spearbreak Amulet",
+                  "Conflagrant Gem"
+                ]
+              }
+            ],
+            "items": [
+              {
+                "item": "Concoction",
+                "why": "40 HP: Part II hands out one per chapter"
+              }
+            ],
+            "arts": [
+              {
+                "name": "Spike",
+                "why": "Axe D: Mt +4, Hit +10"
+              },
+              {
+                "name": "Enrage",
+                "why": "Axe C: Str +1 after each combat, max +5"
+              },
+              {
+                "name": "Tempest Spear",
+                "why": "Spear D: Mt +4, Hit +10"
+              },
+              {
+                "name": "Armored Blow",
+                "why": "Spear C: Prt +3 after a kill; no follow-up"
+              }
+            ],
+            "abilities": [
+              {
+                "name": "At a Gallop+",
+                "why": "Lv 35: [Cavalry] terrain cost −2; At a Gallop until then"
+              },
+              {
+                "name": "Sense Threat",
+                "why": "Armored Ornius Rider mastery: Avo +20 vs foes effective on her"
+              },
+              {
+                "name": "Axes Lv. 3",
+                "why": "Axe B+: Hit/Avo +5 with axes; Lv. 2 until then"
+              },
+              {
+                "name": "Knightly Senses",
+                "why": "Riding D: Avo +10 vs spears: Ch 1 riders"
+              },
+              {
+                "name": "Vanguard",
+                "why": "Riding C+: Shld +2 when she attacks first (Cavalry)"
+              }
+            ],
+            "training": [
+              {
+                "rank": "Axe B, Spear B, Heavy E+",
+                "for": "Cataphract exam (Ch 2)",
+                "how": "Banked in the Part I Arena; Part II has none"
+              },
+              {
+                "rank": "Axe B+",
+                "for": "Axes Lv. 3",
+                "how": "Arena Warrior; battles with it count too"
+              }
+            ],
+            "checks": [
+              {
+                "stat": "Dex",
+                "at": "Part II Ch 1",
+                "need": "Da Mina Axe +2 with Spike shows Hit 75+ on Ch 1 riders in the forecast",
+                "why": "Axe Hit is 65: a miss at the end of a deep strike leaves her alone in the line",
+                "fix": [
+                  "Bonaventure adjacent: Additional Intel Hit +10 (30%)",
+                  "Theodora adjacent to the target: [[ability:Rein]], foe Avo −3",
+                  "[[item:Roca Juice]]: arts Hit +20 for the map (source ?)"
+                ]
+              }
+            ],
+            "tips": [
+              "Ch 1 deploys 10: she rides the center lane with the anti-cavalry group",
+              "Training Drills here: Lv 37–38 for Ch 2's Advanced License"
+            ],
+            "drop": [
+              {
+                "item": "Offense Basics",
+                "why": "Sense Threat takes the slot"
+              },
+              {
+                "item": "At a Gallop",
+                "why": "At a Gallop+ replaces it at Lv 35"
+              },
+              {
+                "item": "Axes Lv. 2",
+                "why": "Axes Lv. 3 replaces it at Axe B+"
+              }
+            ]
+          },
+          {
+            "when": "Part II Ch 2 to III S2: Cataphract",
+            "from": {
+              "part": 2,
+              "ch": 2
+            },
+            "to": {
+              "part": 3,
+              "ch": 2
+            },
+            "why": [
+              "Exam: Lv 35, Heavy E+, Riding D, Axe B, Spear B; Theodora's Ch 8 Send Supplies unlock",
+              "Underworld Boon (Part III S1 to S2): Cleansing Blade (Sword E) or Eshmel within 2",
+              "Hit stack: Da Mina arts +10, Axes Lv. 3 +5, Archer's Ring +5, Spike +10, Bonaventure"
+            ],
+            "level": "Lv 37 to 45",
+            "class": "Cataphract",
+            "kind": "core",
+            "mount": "Default mount (no perks off Cai's route)",
+            "goal": "Deep striker: Barge Through to Onager crews (Ch 2) and past foes on the escape tiles (Ch 6). Pavise 20%.",
+            "exit": "Lv 45 with Axe A, Spear A, Heavy D: Great Knight once Credna's request clears.",
+            "masteries": [
+              "Pavise"
+            ],
+            "weapons": [
+              {
+                "item": "Da Mina Axe +2",
+                "why": "Main: Mt ?, Wt 10; arts Hit +10",
+                "plan": "Equipped carry-over"
+              },
+              {
+                "item": "Iron Spear +2",
+                "why": "Trains Spear A; effective vs cavalry",
+                "plan": "Equipped carry-over"
+              },
+              {
+                "item": "Hand Axe",
+                "why": "Range 1-2",
+                "plan": "Equipped carry-over"
+              },
+              {
+                "item": "Cleansing Blade",
+                "why": "Sword E: strips the Underworld Boon; Wt 3",
+                "plan": "Part III shop copy, as Simon's",
+                "situational": "Part III S1 to S2 undead maps: Hand Axe's slot"
+              }
+            ],
+            "equipment": [
+              {
+                "item": "Talisman Shield",
+                "why": "Def +1, Res +2, Wt 3: patches her Res 25",
+                "plan": "Equipped carry-over",
+                "slot": "Defense",
+                "alts": [
+                  "Hexlock Shield",
+                  "Iron Shield"
+                ]
+              },
+              {
+                "item": "Archer's Ring",
+                "why": "Hit +5, Wt 3: axes miss",
+                "plan": "Equipped carry-over",
+                "slot": "Accessory",
+                "alts": [
+                  "Spearbreak Amulet",
+                  "Conflagrant Gem"
+                ]
+              }
+            ],
+            "items": [
+              {
+                "item": "Concoction",
+                "why": "40 HP: Part II hands out one per chapter"
+              }
+            ],
+            "arts": [
+              {
+                "name": "Spike",
+                "why": "Axe D: Mt +4, Hit +10"
+              },
+              {
+                "name": "Enrage",
+                "why": "Axe C: Str +1 after each combat, max +5"
+              },
+              {
+                "name": "Tempest Spear",
+                "why": "Spear D: Mt +4, Hit +10"
+              },
+              {
+                "name": "Protective Storm",
+                "why": "Spear B: Mt +5, Prt +7 during combat"
+              }
+            ],
+            "abilities": [
+              {
+                "name": "Pavise",
+                "why": "Cataphract mastery, once mastered: half physical damage, 20%"
+              },
+              {
+                "name": "At a Gallop+",
+                "why": "Lv 35: [Cavalry] terrain cost −2"
+              },
+              {
+                "name": "Sense Threat",
+                "why": "Armored Ornius Rider mastery: Avo +20 vs foes effective on her"
+              },
+              {
+                "name": "Axes Lv. 3",
+                "why": "Axe B+: Hit/Avo +5 with axes"
+              },
+              {
+                "name": "Vanguard",
+                "why": "Riding C+: Shld +2 when she attacks first (Cavalry)"
+              }
+            ],
+            "training": [
+              {
+                "rank": "Axe A, Spear A, Heavy D",
+                "for": "Great Knight exam (Lv 45)",
+                "how": "Battle: Cataphract trains Axe +2, Spear +2, Heavy +1; Heavy D banked in Part I"
+              }
+            ],
+            "tips": [
+              "Ch 2: east path with the strike group; Barge Through to the Onager archers first",
+              "Ch 5: stairs force a dismount and switch Barge Through off: she sits",
+              "Ch 6 Flight: Barge Through past the foes on the escape tiles; miasma deals 30",
+              "Part III S1 to S2 undead: Cleansing Blade, or fight within 2 of Eshmel"
+            ],
+            "drop": [
+              {
+                "item": "Knightly Senses",
+                "why": "Pavise takes the slot"
+              },
+              {
+                "item": "Armored Blow",
+                "why": "Protective Storm (Prt +7) from Spear B"
+              }
+            ]
+          },
+          {
+            "when": "Part III S3+: Great Knight",
+            "from": {
+              "part": 3,
+              "ch": 3
+            },
+            "why": [
+              "No Master License planned (D-151): Cataphract runs the same kit until one is spare",
+              "Boon answer: Cleansing Blade +2 (Great Knight holds swords) or Eshmel within 2",
+              "Hit stack: Bronze Axe +4 70, Axes Lv. 4 +7, Archer's Ring +5, Spike or Power Spike +10"
+            ],
+            "level": "Lv 45+ (Master License)",
+            "class": "Great Knight",
+            "kind": "core",
+            "mount": "Monoceros (Tialla's from Cai's route; Paired Healing)",
+            "goal": "Deep striker: Barge Through to gates and carriers; Fierce Shield (50%) halves damage when she attacks first.",
+            "exit": "Endpoint. Credna's request (Desert Sunstone) opens the exam.",
+            "masteries": [
+              "Fierce Shield"
+            ],
+            "weapons": [
+              {
+                "item": "Bronze Axe +4",
+                "why": "Main: Mt ? (jump at +3), Hit 70, Wt 9; Silver Axe +2 is a Boon buy",
+                "plan": "Buy and refine to +4 (no Soulstone); Soulstone for +3 and +4; Da Mina +2 until then",
+                "alts": [
+                  "Da Mina Axe +2"
+                ]
+              },
+              {
+                "item": "Javelin +2",
+                "why": "1-2 range: Mt 10, Hit 80; effective vs cavalry"
+              },
+              {
+                "item": "Cleansing Blade +2",
+                "why": "Boon answer: Mt ~16, Wt 3; Wrath Strike on it",
+                "plan": "Her copy, refined to +2"
+              },
+              {
+                "item": "Hammer +2",
+                "why": "Effective+ vs armor: three times its Mt",
+                "situational": "Armor maps (Baozi): Javelin's slot"
+              }
+            ],
+            "equipment": [
+              {
+                "item": "Hexlock Shield",
+                "why": "Def +1, Res +5, Wt 4: Great Knight grows Res −10",
+                "slot": "Defense",
+                "alts": [
+                  "Talisman Shield",
+                  "Silver Shield"
+                ]
+              },
+              {
+                "item": "Archer's Ring",
+                "why": "Hit +5, Wt 3: axes miss",
+                "slot": "Accessory",
+                "alts": [
+                  "Giant's Ring",
+                  "Conflagrant Gem"
+                ]
+              }
+            ],
+            "items": [
+              {
+                "item": "Elixir",
+                "why": "100 HP",
+                "alts": [
+                  "Concoction"
+                ]
+              }
+            ],
+            "arts": [
+              {
+                "name": "Power Spike",
+                "why": "Axe A: Mt +12, Hit +10"
+              },
+              {
+                "name": "Spike",
+                "why": "Axe D: Mt +4, Hit +10"
+              },
+              {
+                "name": "Enrage",
+                "why": "Axe C: Str +1 after each combat, max +5"
+              },
+              {
+                "name": "Wrath Strike",
+                "why": "Sword D: Mt +4, Hit +10 with the Cleansing Blade"
+              }
+            ],
+            "abilities": [
+              {
+                "name": "Fierce Shield",
+                "why": "Great Knight mastery, once mastered: half damage when she attacks first, 50%"
+              },
+              {
+                "name": "Pavise",
+                "why": "Cataphract mastery: half physical damage, 20%"
+              },
+              {
+                "name": "At a Gallop+",
+                "why": "Lv 35: [Cavalry] terrain cost −2"
+              },
+              {
+                "name": "Axes Lv. 4",
+                "why": "Axe A+: Hit/Avo +7 (the exam needs A); Lv. 3 until then"
+              },
+              {
+                "name": "Vanguard",
+                "why": "Riding C+: Shld +2 when she attacks first (Cavalry)"
+              }
+            ],
+            "tips": [
+              "Seat: Shenlo (S3) for Catania on the NW box carriers; Balor west (A) for Mu or Fabio",
+              "Balor: Barge Through and At a Gallop+ (terrain −2) carry her past adds to the gates",
+              "Baozi: Hammer +2 on the armor if Sirocco or Bonaventure falls short",
+              "Hanno, Cohen and Maria, Drake and Mahadu punish cavalry: she sits those"
+            ],
+            "drop": [
+              {
+                "item": "Iron Spear +2",
+                "why": "Spear arts left the kit; Javelin +2 covers cavalry and range"
+              },
+              {
+                "item": "Hand Axe",
+                "why": "Javelin +2: Mt 10, Hit 80 at 1-2"
+              },
+              {
+                "item": "Talisman Shield",
+                "why": "Hexlock Shield: Res +5 for 1 more Wt"
+              },
+              {
+                "item": "Sense Threat",
+                "why": "Fierce Shield takes the slot"
+              },
+              {
+                "item": "Axes Lv. 3",
+                "why": "Axes Lv. 4 replaces it at Axe A+"
+              },
+              {
+                "item": "Tempest Spear",
+                "why": "Power Spike and Wrath Strike take the art slots"
+              },
+              {
+                "item": "Protective Storm",
+                "why": "Power Spike and Wrath Strike take the art slots"
+              },
+              {
+                "item": "Da Mina Axe +2",
+                "why": "Bronze Axe +4: Hit 70 vs 65, Wt 9 vs 10"
+              }
+            ],
+            "training": [
+              {
+                "rank": "Axe A+",
+                "for": "Axes Lv. 4",
+                "how": "Arena Warrior; battles with it count too"
+              },
+              {
+                "rank": "Sword D",
+                "for": "Wrath Strike",
+                "how": "Arena Warrior; battles with it count too"
+              }
+            ]
+          }
+        ],
+        "alt": "Cataphract unlock missed by 10/24: stay Armored Ornius Rider through Part II (Sense Threat, Mov 7) and take Great Knight in Section 3.",
+        "sources": [
+          "redesign/16-theodora-army-v2",
+          "class-data",
+          "character-learnsets",
+          "equippable-abilities",
+          "weapons-and-items",
+          "combat-arts-and-abilities",
+          "player-pacing-and-recruit-items",
+          "part2-war",
+          "part3-salvation"
+        ],
+        "routeNotes": [
+          {
+            "system": "Supports",
+            "note": "Partners here: Bonaventure and Lilian. Meal seat after Loretta's: Theodora + Nydine + Lilian."
+          },
+          {
+            "system": "Battalions & Gambits",
+            "note": "Mounted in every class, so she never carries a battalion."
+          },
+          {
+            "system": "Mounts and merge",
+            "note": "Base Ornius: no mount growth off Cai's route. Her Cai copy merges in Section 2 (300 Karma Shards) if Cai's army comes in: higher stats, ranks, masteries."
+          }
+        ],
+        "decisions": [
+          {
+            "topic": "Recruit her late Ch 7",
+            "pick": "Support 3, Renown 5, 3 Iron Axes; bench all of Part I",
+            "why": "Part II bench (D-130). A Ch 7 join gives five chapters of dungeon seats and Arena weeks to bank Heavy, Riding, Axe and Spear; a Ch 10 join auto-levels on personal growths, 3 to 4 points short per stat.",
+            "else": "Support 3 late? Recruit the week it lands"
+          },
+          {
+            "topic": "Stay cavalry to the end",
+            "pick": "Ornius Rider, Armored Ornius Rider, Cataphract, Great Knight",
+            "why": "Barge Through and At a Gallop+ work only in [Cavalry] classes. Dragoon and Bau Lord fly (cavalry ?) and Dragoon opens only in Ch 11 here. Cataphract adds Pavise and Strike-Last Def +3."
+          },
+          {
+            "topic": "Bank Heavy in the Arena",
+            "pick": "Arena Heavy every week from Ch 8",
+            "why": "Cataphract needs Heavy E+ and Great Knight Heavy D. Heavy is her bane and no Part I class of hers trains it. The Heavy course also trains Axe, Spear and Authority: every rank she needs."
+          },
+          {
+            "topic": "Unlock Cataphract by 10/24",
+            "pick": "Clear Bonaventure's Ch 8 Send Supplies",
+            "why": "Theodora's route-locked class: 35 Ladon Loach, plus 10 Steelfish per two sources ?. Requests expire 10/24; miss it and she stays an Armored Ornius Rider through Part II."
+          }
+        ],
+        "finalists": {
+          "stats": [
+            "HP",
+            "Str",
+            "Spd",
+            "Def",
+            "Res"
+          ],
+          "options": [
+            {
+              "class": "Armored Ornius Rider",
+              "use": "Ch 9 to Part II Ch 1",
+              "note": "Spd +10, Def +10; Sense Threat vs effective weapons"
+            },
+            {
+              "class": "Cataphract",
+              "use": "Part II Ch 2 to III S2",
+              "note": "HP/Str +15, Pavise, Strike-Last Def +3; Spd −10"
+            },
+            {
+              "class": "Great Knight",
+              "use": "Part III S3+",
+              "note": "HP/Str +20, Fierce Shield; Res −10"
+            },
+            {
+              "class": "Dragoon",
+              "note": "Flier: Barge Through needs [Cavalry] (?); unlock only in Ch 11 here"
+            },
+            {
+              "class": "Bau Lord",
+              "note": "Flier off the cavalry line; her Cai copy covers it"
+            }
+          ]
+        },
+        "gates": [
+          {
+            "route": "Theodora",
+            "from": {
+              "part": 1,
+              "ch": 4
+            },
+            "by": {
+              "part": 1,
+              "ch": 7
+            },
+            "kind": "recruit",
+            "text": "Support 3 with Theodora by late Ch 7 (meals from Ch 4), Renown 5, 3 Iron Axes"
+          },
+          {
+            "route": "Theodora",
+            "from": {
+              "part": 1,
+              "ch": 8
+            },
+            "by": {
+              "part": 1,
+              "ch": 12
+            },
+            "kind": "item",
+            "text": "Cataphract unlock: clear Bonaventure's Ch 8 Send Supplies by 10/24"
+          },
+          {
+            "route": "Theodora",
+            "from": {
+              "part": 1,
+              "ch": 8
+            },
+            "by": {
+              "part": 1,
+              "ch": 12
+            },
+            "kind": "rank",
+            "text": "Bank Riding D, Axe B, Spear B, Heavy E+ (D for Part III) by 10/24: Arena Heavy"
+          }
+        ]
+      }
+    }
+  ]
+}

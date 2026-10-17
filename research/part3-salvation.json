@@ -1,0 +1,1616 @@
+{
+  "game": "Fire Emblem: Fortune's Weave",
+  "part": "III",
+  "title": "Salvation",
+  "updated": "2026-10-16",
+  "sources": [
+    {
+      "key": "RPS-P3",
+      "name": "RPG Site: Part III Salvation walkthrough",
+      "url": "https://www.rpgsite.net/guide/21433-fire-emblem-fortunes-weave-part-iii-salvation-walkthrough"
+    },
+    {
+      "key": "G8-HUB",
+      "name": "Game8: 100% walkthrough hub (turn budgets per Section)",
+      "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/618786"
+    },
+    {
+      "key": "G8-S1",
+      "name": "Game8: First Section The Liberation of Dagsion",
+      "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/625204"
+    },
+    {
+      "key": "G8-S2",
+      "name": "Game8: Second Section True Strength",
+      "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/625318"
+    },
+    {
+      "key": "G8-S3",
+      "name": "Game8: Third Section The Inheritors",
+      "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/625535"
+    },
+    {
+      "key": "G8-S4",
+      "name": "Game8: Fourth Section The Hopes of Monarchs and the People",
+      "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/625606"
+    },
+    {
+      "key": "G8-S5",
+      "name": "Game8: Fifth Section Song of the Living",
+      "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/625819"
+    },
+    {
+      "key": "G8-S6",
+      "name": "Game8: Sixth Section To the Edge of Twilight",
+      "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/626050"
+    },
+    {
+      "key": "G8-CENT",
+      "name": "Game8: Rescue Centurio",
+      "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/627979"
+    },
+    {
+      "key": "G8-RECRUIT",
+      "name": "Game8: All characters and playable units",
+      "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/618791"
+    },
+    {
+      "key": "G8-MARS",
+      "name": "Game8: Mars's Request (Golden Helm)",
+      "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/628061"
+    },
+    {
+      "key": "G8-CREDNA",
+      "name": "Game8: Credna's Request (Desert Sunstone, Shining Spear)",
+      "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/628007"
+    },
+    {
+      "key": "G8-JURAH",
+      "name": "Game8: Jurah's Request (Dagda's Godshield)",
+      "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/627950"
+    },
+    {
+      "key": "G8-SMYRNOS",
+      "name": "Game8: Smyrnos's Request (Iapetus Cavern)",
+      "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/627967"
+    },
+    {
+      "key": "G8-AURORA",
+      "name": "Game8: Aurora's Request (Angelica)",
+      "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/627946"
+    },
+    {
+      "key": "G8-KALLA",
+      "name": "Game8: Kalla's Request (Sandalwood)",
+      "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/628000"
+    },
+    {
+      "key": "G8-TRIAL",
+      "name": "Game8: God Trials",
+      "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/627434"
+    },
+    {
+      "key": "G8-ELEPH",
+      "name": "Game8: The Elephant Rider's Bond / Hakuren",
+      "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/629372"
+    },
+    {
+      "key": "G8-VILLAGES",
+      "name": "Game8: Dance for Rebuilt Villages",
+      "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/626091"
+    },
+    {
+      "key": "G8-CITIES",
+      "name": "Game8: Dance for Rebuilt Cities",
+      "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/626106"
+    },
+    {
+      "key": "G8-RELIEF",
+      "name": "Game8: Relief",
+      "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/629128"
+    },
+    {
+      "key": "G8-MERGE",
+      "name": "Game8: Merge Causality",
+      "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/626047"
+    },
+    {
+      "key": "G8-DIVINE",
+      "name": "Game8: List of Divine Classes",
+      "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/624172"
+    },
+    {
+      "key": "G8-POSTGAME",
+      "name": "Game8: Post-game content",
+      "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/625536"
+    },
+    {
+      "key": "G8-ENDINGS",
+      "name": "Game8: All paired endings",
+      "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/628208"
+    },
+    {
+      "key": "KG-QUESTS",
+      "name": "KeenGamer: All quests list and rewards (15 Part III quests)",
+      "url": "https://www.keengamer.com/articles/guides/fire-emblem-fortunes-weave-all-quests-list-and-rewards"
+    },
+    {
+      "key": "TG-P3",
+      "name": "TheGamer: Part 3 guide (rebuilding, squads, classes)",
+      "url": "https://www.thegamer.com/fire-emblem-fortunes-weave-part-3-guide-tips"
+    },
+    {
+      "key": "ATH-P3",
+      "name": "allthings.how: Part 3 guide (rebuilding and squads)",
+      "url": "https://allthings.how/fire-emblem-fortune-s-weave-part-3-guide-rebuilding-and-squads"
+    },
+    {
+      "key": "PG-KEYS",
+      "name": "Polygon: Key of the Diadem locations",
+      "url": "https://www.polygon.com/fire-emblem-fortunes-weave-all-key-of-the-diadem-location-where-to-find"
+    },
+    {
+      "key": "PG-NORETURN",
+      "name": "Polygon: point of no return and recruitment cutoff",
+      "url": "https://www.polygon.com/fire-emblem-fortunes-weave-point-of-no-return-recruitment-cutoff"
+    },
+    {
+      "key": "PG-ENDING",
+      "name": "Polygon: ending explained",
+      "url": "https://www.polygon.com/fire-emblem-fortunes-weaves-ending-explained"
+    },
+    {
+      "key": "FWUK-S6",
+      "name": "fortunesweave.co.uk: Part III Section 6",
+      "url": "https://fortunesweave.co.uk/chapters/shared/3/6"
+    },
+    {
+      "key": "SFF-RELIQ",
+      "name": "Serenes Forest forums: Drifting Reliquary (community)",
+      "url": "https://forums.serenesforest.net/topic/108421-drifting-reliquary-feature-for-part-3-part-1-item-catalog"
+    },
+    {
+      "key": "KG-MERGE",
+      "name": "KeenGamer: How to merge character stats",
+      "url": "https://www.keengamer.com/articles/guides/fire-emblem-fortunes-weave-how-to-merge-character-stats"
+    },
+    {
+      "key": "GF-MERGE",
+      "name": "GameFAQs: Part 2 to Part 3 single-route merges (community)",
+      "url": "https://gamefaqs.gamespot.com/boards/559193-fire-emblem-fortunes-weave/81198155"
+    },
+    {
+      "key": "GF-P3FUNC",
+      "name": "GameFAQs: Functions and Features for Part 3 (community)",
+      "url": "https://gamefaqs.gamespot.com/boards/559193-fire-emblem-fortunes-weave/81198572"
+    },
+    {
+      "key": "RPS-RECRUIT",
+      "name": "RPG Site: Recruitment guide",
+      "url": "https://www.rpgsite.net/guide/21391-fire-emblem-fortunes-weave-recruitment-guide-all-characters-in-game-how-to-recruit-them"
+    },
+    {
+      "key": "YT-P3GUIDE",
+      "name": "YouTube: Ultimate Part 3 Guide (squads, rebuilding, merges; Oct 12, 2026)",
+      "url": "https://www.youtube.com/watch?v=uxHUy70BG0U"
+    },
+    {
+      "key": "ATH-P3G",
+      "name": "allthings.how: Part 3 Salvation Arc guide (facilities, Anna's Shop, farming)",
+      "url": "https://allthings.how/fire-emblem-fortune-s-weave-part-3-salvation-arc-guide"
+    },
+    {
+      "key": "G8-MOUNTS",
+      "name": "Game8: List of All Mounts (stats, best mount per class, Assign)",
+      "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/627940"
+    },
+    {
+      "key": "G8-REDBAU",
+      "name": "Game8: How to Get Red Bau (Yashiro Fort)",
+      "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/629211"
+    },
+    {
+      "key": "RD-CAIMOUNTS",
+      "name": "Reddit: Cai's Path mounts, stats and locations (community; Stable open to all units in Part III)",
+      "url": "https://www.reddit.com/r/fireemblem/comments/1wrgxxi/cais_paths_mounts_stats_and_growthrates_locations"
+    },
+    {
+      "key": "G8-MLIC",
+      "name": "Game8: How to Get Master License (vendor stock, markets)",
+      "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/631362"
+    },
+    {
+      "key": "G8-SCENES",
+      "name": "Game8: All Missable Cutscenes and Hidden Events (Part 3 section)",
+      "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/629932"
+    },
+    {
+      "key": "G8-RELIQ",
+      "name": "Game8: Best Drifting Reliquary Items (unlock after a second War clear)",
+      "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/631025"
+    },
+    {
+      "key": "G8-BOONS",
+      "name": "Game8: Boons of Salvation (costs; skill-EXP Boons count in battle only)",
+      "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/622788"
+    },
+    {
+      "key": "G8-SOUL",
+      "name": "Game8: Warrior's Soulstone (farm spots)",
+      "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/628094"
+    },
+    {
+      "key": "G8-CAPTURE",
+      "name": "Game8: How to Capture Animal Mounts",
+      "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/624329"
+    }
+  ],
+  "conventions": {
+    "owner": "This file owns Part III structure, calendar, battles, recruits, quests (rewards included) and systems. Battle drops and chest items are owned by weapons-and-items.json (`where` rows with chapter \"Part III S<n>\", `dungeon_chests.part3`). Classes (Master, Divine, Elephant) are owned by class-data.json. Gathering spots are owned by site/src/data/world-map.json.",
+    "relief": "\"relief\" is Relief Points, Part III's replacement for Renown.",
+    "unconfirmed": "A value ending in '?' is unconfirmed. Source conflicts live in open_questions."
+  },
+  "overview": {
+    "unlock": "Door of Destiny in the Obelisk Chamber, any time after a Part II clear.",
+    "point_of_no_return": "Entering is the last chance to recruit on any Path. A Flame Lord brought in only through their Paralogue (Path not finished) joins as a guest with locked class and inventory. A lord's army comes only if that lord's War Path is done or skipped. Reddit confirms the 'Limited Recruitment' flag on such lords; whether they can ride in squads is unknown.",
+    "storage": "All weapons and items from every imported route sit in storage, refine levels kept.",
+    "recruits_in_dagsion": "Units recruited on earlier routes wait around Dagsion from Section 2 if that route's Part II is done. Talk to them to recruit. With copies from several routes you pick one, or merge them (Merge Causality).",
+    "structure": "6 Sections. Calendar 2/1 to 6/6. Each Section after the first: Free Time (quests, repairs, exams, recruiting), then Mission Time (gates). Defeat in every battle: Eshmel falls.",
+    "path_functions": [
+      {
+        "lord": "Cai",
+        "functions": [
+          "Stable",
+          "Farming",
+          "Lure"
+        ]
+      },
+      {
+        "lord": "Dietrich",
+        "functions": [
+          "Boost Combat Arts",
+          "Teach Secrets",
+          "Answerer's Cry"
+        ]
+      },
+      {
+        "lord": "Theodora",
+        "functions": [
+          "Battalions",
+          "Troop Points"
+        ]
+      },
+      {
+        "lord": "Leda",
+        "functions": [
+          "Drink Vendor",
+          "Performances"
+        ]
+      }
+    ],
+    "new_in_part3": [
+      "Elephant Rider (Elephant License, Lv 35)",
+      "Master exams (Master License, Lv 45)",
+      "Divine classes (Section 4)",
+      "Blacksmith enhanced refining (Warrior's Soulstone)",
+      "Merge Causality",
+      "Squads",
+      "Location repairs",
+      "Relief"
+    ],
+    "dungeons": "Every dungeon is refreshed: higher-level enemies and a new chest set (weapons-and-items.json dungeon_chests.part3). Enemy levels rise slightly each Section.",
+    "sources": [
+      "RPS-P3",
+      "G8-RECRUIT",
+      "PG-NORETURN"
+    ]
+  },
+  "systems": {
+    "squads": [
+      "Up to 8 units per squad. 2 squads in Section 2, then 3, 4 and 5 (Section 5).",
+      "Each squad moves once per map turn; every squad must move or skip before the turn ends.",
+      "A Flame Lord's map ability works only when that lord is in the squad.",
+      "Units outside squads gain EXP and class EXP each map turn.",
+      "Disbanding and rebuilding a squad costs no turn; swapping members costs a turn.",
+      "Only units in Dagsion can use its facilities. Eshmel never joins a squad: he stays in Dagsion and can join any battle.",
+      "The squad cap rises by one after each Section's main battle, to 5 in Section 5 (ATH-P3G)."
+    ],
+    "repairs": [
+      "Damaged locations can't be entered: their shops and quests stay closed.",
+      "Map locations are repaired with Materials Bag items and a squad on site; repair finishes after several turns.",
+      "Dagsion facilities (Arena, Inn, temples) use Building Materials, bought at markets in repaired settlements.",
+      "Posthouses restore carriage fast travel. A repaired temple teleports only after its god's request is done.",
+      "Order: posthouses, then temples, then settlements. RPG Site finished every repair and quest with time to spare when all four routes were imported."
+    ],
+    "relief": "Replaces Renown from Section 2. Earned from quests (best source), repairs, skirmishes, random clashes and Theater. Rewards are Skill Treatises; no major progression is gated by it.",
+    "mission_time": [
+      "Purify the miasma nodes on the map, then enter the gate. Only squads on or next to the gate deploy.",
+      "Clearing a gate early leaves the remaining turns free for exploring.",
+      "Enemy armies march on Dagsion: intercept them with a Clash before they damage the city.",
+      "A squad that launches a gate battle spends its turn.",
+      "Mission Time starts with every squad back in Dagsion (ATH-P3G).",
+      "The deploy list can mix units from every squad on or next to the gate; the squad that launches spends its map turn (G8-S3, G8-S4).",
+      "A squad patrolling the Alcineus Span to Enceladus Bridge road catches most armies marching on Dagsion (ATH-P3G); one squad bouncing between two tiles next to Dagsion is enough (YT-P3GUIDE)."
+    ],
+    "merge_causality": "From Section 2 at the Shrine of Causality: 300 Karma Shards per character. You first pick which route version joins (the base); a merge keeps the highest of each stat across versions, plus higher skill levels, extra classes, mastered-class abilities and combat arts. Not additive. Only for units recruited on 2+ routes. A skipped Part II counts as done for imports (about +5 levels). Re-entering a route's Part II Ch 1, reclassing and skipping again applies a free single-route merge (community-reported). Each finished or skipped Part II saves that route's Clear Data; re-clearing a route merges its new results into that data for free, as long as the unit hasn't been recruited into Eshmel's army yet. After recruitment, any merge costs Karma Shards; the Flame Lords merge automatically on a re-clear. Assigned mounts and battalions stay on the unit's Clear Data (community, GameFAQs Jacien). Resetting the chapter after a merge undoes it (YT-P3GUIDE). Other Karma Shard sinks: skill-EXP Boons cost 300 each and count in battle only, not in training (G8-BOONS).",
+    "drifting_reliquary": "Owned by weapons-and-items.json `systems.part_carryover`.",
+    "trials": "Each god request opens a Lv 60 Trial Clash: two back-to-back clashes, retry freely, no Game Over. Kalla's is the hardest, Credna's the easiest. Mars's Trial is one of the harder ones (G8-TRIAL).",
+    "sources": [
+      "RPS-P3",
+      "G8-S2",
+      "G8-S3",
+      "TG-P3",
+      "ATH-P3",
+      "G8-RELIEF",
+      "G8-MERGE",
+      "G8-TRIAL",
+      "KG-MERGE",
+      "GF-MERGE",
+      "GF-P3FUNC"
+    ],
+    "facilities": [
+      "Dagsion facilities take 37 Building Materials in all: Arena 3, Inn 2, Aiding in Prayer 7, Arena II 20, Inn II 5 (RPS-P3; total ATH-P3G, YT-P3GUIDE).",
+      "Community order: Arena, Inn, temples (Aiding in Prayer), Arena II, Inn II (YT-P3GUIDE, ATH-P3G).",
+      "Only units inside Dagsion use the Arena, Inn and temples (G8-S3)."
+    ],
+    "shops": [
+      "Master Licenses: the License Vendor next to the Exam Proctor (Upper Temple Row, Dagsion) sells 3 per Section at 8,000G and restocks at the next Section's start (G8-MLIC). Repaired settlement markets sell them too: 28 markets listed (G8-MLIC); their stock is undocumented ?.",
+      "Anna's Shop in Dagsion sells permanent stat boosters at 14,000G each: Seraph Robe (HP +4), Energy Drop (Str +2), Spirit Dust (Mag +2), Secret Book (Dex +2), Speedwing (Spd +2), Goddess Icon (Lck +2) (ATH-P3G).",
+      "Drifting Reliquary relics cost 500 (Answerer Arisen) to 1,000 (Chosen Sword+2) Karma Shards (ATH-P3G).",
+      "ZR lists every damaged posthouse, temple, dungeon and upgrade spot; hovering a settlement (LT on the world map) shows its armory and market stock (YT-P3GUIDE, ATH-P3G).",
+      "The Drifting Reliquary opens only after clearing a War Arc a second time (G8-RELIQ); weapons-and-items.json says after a Part II clear (see Open questions).",
+      "Elephant License: Game8 lists it with the exam licenses sold by the License Vendor beside the Exam Proctor; price and stock not published ?"
+    ],
+    "farming": [
+      "Theodora's battalions placed on dungeon nodes gather upgrade materials every map turn while her squad works elsewhere (YT-P3GUIDE, ATH-P3G).",
+      "Cullet and Blue Snoll: Iapetus Cavern, Pyroxene Cave, Galen Fort Ruins. Smithing Stones and common ores: Collapsed Fort (ATH-P3G).",
+      "Dungeon chests are refreshed for Part III and dungeon enemy levels rise each Section: the best EXP outside gates (RPS-P3, G8-S4).",
+      "Unlocked classes stay unlocked save-wide, even after replaying a chapter (YT-P3GUIDE, ATH-P3G).",
+      "Warrior's Soulstone: crystals in dungeons and world-map ore nodes; Northern Passage, Southern Passage and Palace of Sand (Nysiades, via Eastern Passage) are named farms. Re-enter a dungeon to refresh deposits. Soulstone also pays for repairs (G8-SOUL).",
+      "Mage battalions gather more ore at dungeon nodes, priest battalions more at resource nodes (battalions.json, Game8)."
+    ],
+    "mounts": [
+      "With Cai's route imported, the Stable serves every army: Inventory > Assign gives a Stable mount to any unit in a matching mounted class (G8-MOUNTS; RD-CAIMOUNTS, community).",
+      "Luring a new mount still needs Cai in the squad.",
+      "Part III breeds: Black Horse at Daimos Plateau, Red Bau at Yashiro Fort, Black Bau at Warrior's Road and Valley of Sedden (G8-MOUNTS, G8-REDBAU).",
+      "Bond 5 gives the full bonus: up to +3 to a stat and +15% growth per breed, plus the upgraded paired ability (G8-MOUNTS).",
+      "Elephants can't be lured: the Saramis War Elephant is the only elephant breed and comes only from The Elephant Rider's Bond (2 per save). No rare elephant exists (G8-CAPTURE; G8-MOUNTS and LinkKing7's full mount list agree)."
+    ]
+  },
+  "diadem": {
+    "opens": "Temple of the Diadem (Idyia region) opens at the start of Section 4. Keys can be collected earlier.",
+    "rules": [
+      "5 Keys of the Diadem open 5 chambers holding 8 Divine License items. A key is not tied to a chamber.",
+      "Each item exists once: one holder per Divine class. Return Certification at the Exam Proctor frees it for another unit.",
+      "No level requirement; the exam needs a 100% pass chance. Classes, ranks and chambers: class-data.json."
+    ],
+    "keys": [
+      {
+        "dungeon": "Heretics' Cave",
+        "region": "Thaleia",
+        "spot": "Far east area"
+      },
+      {
+        "dungeon": "Cougar Woodlands",
+        "region": "Braxithea",
+        "spot": "Follow the lake to the end, then go right"
+      },
+      {
+        "dungeon": "Giant's-Print Fort",
+        "region": "Ogmios",
+        "spot": "From the rest stop, top level of the ruins on the right"
+      },
+      {
+        "dungeon": "Enno Isle",
+        "region": "Danann Sea",
+        "spot": "The last opening of the path"
+      },
+      {
+        "dungeon": "Sand-Shadow Fort",
+        "region": "Nysiades",
+        "spot": "Up the stairs from the start, then the southeast stairs; chest left of the square structure"
+      }
+    ],
+    "sources": [
+      "RPS-P3",
+      "G8-DIVINE",
+      "PG-KEYS"
+    ]
+  },
+  "sections": [
+    {
+      "n": 1,
+      "name": "The Liberation of Dagsion",
+      "free_time": null,
+      "mission_time": null,
+      "squads": 0,
+      "turns": null,
+      "intro": "Run through Dagsion with a couple of class battles on the way, then a short dungeon (Rest Spot near the lift to the port). Blessings are set on the prep screen.",
+      "battles": [
+        {
+          "name": "Battle vs. Dagda",
+          "location": "Dagsion",
+          "max_units": 11,
+          "victory": "Defeat Dagda.",
+          "flow": "Opens as 3 units vs Dagda: deplete his first HP bar. Then the full battle starts, with allies arriving in waves.",
+          "enemies": [
+            "Dagda: Underworld Boon; counts as Dragon and Flier; summons reinforcements on his first two turns, more periodically",
+            "Golems"
+          ],
+          "mechanics": [
+            "Miasma blocks follow-up attacks; Eshmel's and allies' Blaze Arts clear miasma in their area",
+            "Bonus floor tiles; the center Guard Spot is a good hold point",
+            "Underworld Boon: Eshmel within 2 tiles or Leda's Song of Abjuring",
+            "Celestial Blaze Arts (Orchel's Strahl, Cai's Blackfire) strip most of his shield"
+          ],
+          "allies": [
+            {
+              "turn": 3,
+              "units": [
+                "Cai",
+                "Theodora?",
+                "Bertrand"
+              ]
+            },
+            {
+              "turn": 5,
+              "units": [
+                "Leda",
+                "Dietrich?",
+                "Anatolia"
+              ]
+            },
+            {
+              "turn": 7,
+              "units": [
+                "Orchel",
+                "Talimun"
+              ]
+            }
+          ],
+          "allies_note": "Each ally appears only if their Path or Paralogue was completed.",
+          "tips": [
+            "Meet in the center, clear golems and adds, then Dagda"
+          ],
+          "sources": [
+            "RPS-P3",
+            "G8-S1"
+          ]
+        }
+      ],
+      "joins": [
+        {
+          "unit": "Bertrand",
+          "how": "Becomes a full unit"
+        },
+        {
+          "unit": "Orchel",
+          "how": "Auto (Paralogue)"
+        },
+        {
+          "unit": "Talimun",
+          "how": "Auto (Paralogue)"
+        },
+        {
+          "unit": "Anatolia",
+          "how": "Auto (Paralogue)"
+        },
+        {
+          "unit": "Hong Hua",
+          "how": "Auto in Part III (Section ? : RPG Site lists 'Prologue and Part III')"
+        },
+        {
+          "unit": "Troy",
+          "how": "Auto in Part III (Section ? : RPG Site lists 'Prologue and Part III')"
+        }
+      ],
+      "flow": [
+        "Run through Dagsion with a couple of class battles, then Battle vs. Dagda.",
+        "Allies arrive in waves on Turns 3, 5 and 7; Dagda falls and Bertrand, Orchel, Talimun and Anatolia stay."
+      ],
+      "flow_sources": [
+        "RPS-P3",
+        "G8-S1"
+      ]
+    },
+    {
+      "n": 2,
+      "name": "True Strength",
+      "free_time": {
+        "from": "2/1",
+        "to": "2/10"
+      },
+      "mission_time": {
+        "from": "2/11",
+        "to": "2/15"
+      },
+      "squads": 2,
+      "turns": 36,
+      "unlocks": [
+        "World map with 2 squads",
+        "Location repairs",
+        "Elephant Rider",
+        "Master exams",
+        "Blacksmith enhanced refining",
+        "Path functions",
+        "Merge Causality",
+        "Relief",
+        "God requests (all but Aurora's, per Game8)"
+      ],
+      "scenes": [
+        "Cai, east side of Midtown",
+        "Dietrich, path up to the Port in Lowtown",
+        "Theodora, guesthouse area (Perch) in Hightown",
+        "Leda, fountain at the Arena Plaza in Midtown",
+        "Aurora, south of Temple Row (after Rescue Centurio and talking to Centurio)",
+        "Credna, his branch temple (after his request; later Sections too)",
+        "Fortuna, near the Thermae"
+      ],
+      "scenes_note": "Each lord's scene needs that lord recruited for Part III. Hidden scenes can give skill-level or weapon rewards; watched ones replay at the Shrine of Causality > Memories (G8-SCENES).",
+      "quests": [
+        "arena-construction-effort",
+        "lost-flavors-of-the-capital",
+        "the-elephant-riders-bond",
+        "aiding-in-prayer",
+        "rescue-centurio",
+        "dance-for-rebuilt-villages"
+      ],
+      "battles": [
+        {
+          "name": "Rescue Centurio",
+          "kind": "skirmish",
+          "location": "Elissa Pass",
+          "max_units": 6,
+          "victory": "Defeat the Underworld Giants.",
+          "enemies": [
+            "2+ Underworld Giants with escorts"
+          ],
+          "tips": [
+            "Pull the Giants' escorts first"
+          ],
+          "sources": [
+            "RPS-P3",
+            "G8-CENT"
+          ]
+        },
+        {
+          "name": "Battle vs. Breza",
+          "gate": "Gate II: Yin Yuan",
+          "location": "Evermist Plain",
+          "max_units": 9,
+          "victory": "Defeat Breza.",
+          "ideal_tier": "Advanced / Silver",
+          "suggested": {
+            "classes": [
+              "Bow users"
+            ],
+            "items": [
+              "Silver Bow"
+            ]
+          },
+          "enemies": [
+            "Breza",
+            "Many fliers and large birds (Rukhs)"
+          ],
+          "reinforcements": "SE and SW sides; Rukhs from NW and NE. More after the first bridge, large birds after the second; the boss can join from there.",
+          "mechanics": [
+            "Miasma: Def becomes 0 and you lose half your current HP each round. Never end a turn in it"
+          ],
+          "tips": [
+            "Turtle at the start, fragile units in the middle",
+            "Spam Eshmel's Purifying Flash: clears miasma, hits undead, builds gauge",
+            "Hold the right side of the tree",
+            "Kalla's Blessing to cross the bridges",
+            "Underworld Boon: Eshmel's passive or Aurora's Blessing Lv 3",
+            "Spend saved Divine Sand on Breza"
+          ],
+          "sources": [
+            "RPS-P3",
+            "G8-S2"
+          ]
+        }
+      ],
+      "joins": [
+        {
+          "unit": "Centurio",
+          "how": "Clear Rescue Centurio, then talk to him in Dagsion (still possible in Section 3)"
+        },
+        {
+          "unit": "Earlier-route recruits",
+          "how": "Talk to them around Dagsion"
+        }
+      ],
+      "flow": [
+        "2/1 in Dagsion: storage holds every route's items; earlier recruits wait around Dagsion. Talk to each, pick a copy if there are several.",
+        "Arena Construction Effort starts on its own: 3 Building Materials, bought in repaired settlements.",
+        "Free Time 2/1–2/10: 2 squads, one move each per map turn. Repairs, god requests (5 of 6 open ?), refreshed dungeons.",
+        "Mission Time 2/11–2/15: squads return to Dagsion, miasma nodes and the Evermist Plain gate appear, enemy armies march on Dagsion.",
+        "Purify the nodes, then enter the gate from it or a tile next to it: 8 units + Eshmel.",
+        "Turns left after the gate are free map turns; the Section ends at its deadline."
+      ],
+      "flow_sources": [
+        "RPS-P3",
+        "G8-S2",
+        "ATH-P3G"
+      ]
+    },
+    {
+      "n": 3,
+      "name": "The Inheritors",
+      "free_time": {
+        "from": "2/16",
+        "to": "2/25"
+      },
+      "mission_time": {
+        "from": "2/26",
+        "to": "3/6"
+      },
+      "squads": 3,
+      "turns": 36,
+      "unlocks": [
+        "3rd squad",
+        "Aurora's request",
+        "Fortuna scene"
+      ],
+      "quests": [
+        "arena-reconstruction-effort-part-ii",
+        "returned-flavors-of-the-capital",
+        "auroras-request",
+        "smyrnoss-request",
+        "jurahs-request",
+        "crednas-request",
+        "marss-request",
+        "kallas-request"
+      ],
+      "overworld": [
+        "Desert sandstorm hides path lines: save before entering",
+        "Collect the Keys of the Diadem now; the Temple opens in Section 4"
+      ],
+      "battles": [
+        {
+          "name": "Battle vs. Shenlo",
+          "gate": "Gate VIII: Tian Quan",
+          "location": "Tarvos",
+          "max_units": 9,
+          "victory": "Defeat Shenlo.",
+          "ideal_tier": "Master / Silver",
+          "suggested": {
+            "classes": [
+              "Any"
+            ],
+            "items": [
+              "Silver Gauntlets"
+            ]
+          },
+          "enemies": [
+            "Shenlo: gauntlets, high Avoid",
+            "Salamander user in the center",
+            "Reinforcements mostly Pegasi from the sides and bottom",
+            "Fleeing box carriers heading NW"
+          ],
+          "mechanics": [
+            "Miasma lowers weapon durability and spell charges; Blaze Arts clear it"
+          ],
+          "tips": [
+            "Move SE to NW along the top edge",
+            "AoE Blaze Arts on the boss group; Eshmel adjacent or Leda's Song for the Boon",
+            "Hit Shenlo with your most accurate moves",
+            "Kill the fleeing carriers fast"
+          ],
+          "sources": [
+            "RPS-P3",
+            "G8-S3"
+          ]
+        }
+      ],
+      "flow": [
+        "3rd squad. Aurora reaches Dagsion; her request shows after some time passes.",
+        "Free Time 2/16–2/25. Take the Keys of the Diadem now: the Temple opens with Section 4.",
+        "Mission Time 2/26–3/6: gate at Tarvos (Shenlo); armies march on Dagsion past the nodes. The desert sandstorm hides path lines: save first.",
+        "Shenlo's map: four Smithy Box carriers flee northwest; miasma drains durability and spell uses."
+      ],
+      "flow_sources": [
+        "RPS-P3",
+        "G8-S3"
+      ],
+      "scenes": [
+        "Fortuna, near the Thermae (starts the Sections 3 to 5 chain)"
+      ],
+      "scenes_note": "Fortuna's Section 2 scene isn't needed for this chain (G8-SCENES)."
+    },
+    {
+      "n": 4,
+      "name": "The Hopes of Monarchs and of People",
+      "free_time": {
+        "from": "3/7",
+        "to": "3/21"
+      },
+      "mission_time": {
+        "from": "3/22",
+        "to": "4/5"
+      },
+      "squads": 4,
+      "turns": 56,
+      "unlocks": [
+        "4th squad",
+        "Temple of the Diadem",
+        "Fortuna scene"
+      ],
+      "quests": [
+        "dance-for-rebuilt-cities"
+      ],
+      "overworld": [
+        "Two gates at once: 3 squads north, 1 south",
+        "After Hanno, teleport Kalla's Temple to Mars's Temple for the second gate (Kalla's to Jurah's is the other link)",
+        "Don't launch a gate with your strongest squad: it spends its turn"
+      ],
+      "battles": [
+        {
+          "name": "Battle vs. Hanno",
+          "gate": "Gate III: Tian Xuan",
+          "location": "Ere Mountains",
+          "max_units": 17,
+          "squads_needed": 2,
+          "victory": "Defeat Hanno.",
+          "ideal_tier": "Master / Silver",
+          "enemies": [
+            "Hanno in the SE corner"
+          ],
+          "mechanics": [
+            "Heavy fog, worse inside the miasma (cuts vision)",
+            "Forests and elevation; cavalry struggles",
+            "The army starts split in 2 groups"
+          ],
+          "tips": [
+            "Credna's Blessing for vision",
+            "Swap Spaces so both halves have melee and a healer",
+            "Turtle, merge, push to the bottom right",
+            "Bring fliers",
+            "Keep Hanno off forest tiles",
+            "Save Divine Sand"
+          ],
+          "sources": [
+            "RPS-P3",
+            "G8-S4"
+          ]
+        },
+        {
+          "name": "Battle vs. Baozi",
+          "gate": "Gate VI: Dong Ming",
+          "location": "Daimos Plateau",
+          "max_units": 9,
+          "victory": "Defeat Baozi.",
+          "ideal_tier": "Master / Silver",
+          "suggested": {
+            "items": [
+              "Silver Gauntlets"
+            ]
+          },
+          "enemies": [
+            "Baozi",
+            "Some enemies high Lv 50s, many mid 40s",
+            "Heavy armor and fliers",
+            "Golems"
+          ],
+          "mechanics": [
+            "Pride miasma: the higher-level unit gets an accuracy drop",
+            "Aggroing Baozi buffs every golem"
+          ],
+          "tips": [
+            "Kill all golems before touching Baozi",
+            "Stay out of the miasma above Lv 58",
+            "Bring high-Hit units"
+          ],
+          "sources": [
+            "RPS-P3",
+            "G8-S4"
+          ]
+        }
+      ],
+      "flow": [
+        "4th squad. The Temple of the Diadem (Idyia) opens: 5 keys open 5 chambers with 8 Divine items. Reclass in Dagsion.",
+        "Free Time 3/7–3/21: finish every quest and repair here; Section 5 is for training.",
+        "Mission Time 3/22–4/5: two gates at once. Hanno at Ere Mountains (north, 17 units) and Baozi at Daimos Plateau (west, 9).",
+        "After Hanno, Kalla's Temple teleports to Mars's Temple near Daimos (or to Jurah's)."
+      ],
+      "flow_sources": [
+        "RPS-P3",
+        "G8-S4"
+      ],
+      "scenes": [
+        "Fortuna, near the Thermae (needs the Section 3 scene)"
+      ],
+      "scenes_note": "Fortuna's Section 2 scene isn't needed for this chain (G8-SCENES)."
+    },
+    {
+      "n": 5,
+      "name": "Song of the Living",
+      "free_time": {
+        "from": "4/6",
+        "to": "4/25"
+      },
+      "mission_time": {
+        "from": "4/26",
+        "to": "5/15"
+      },
+      "squads": 5,
+      "turns": 76,
+      "unlocks": [
+        "5th squad",
+        "Fortuna scene"
+      ],
+      "joins": [
+        {
+          "unit": "Aswan",
+          "how": "Auto at Section start, if alive at the end of Part II Ch 3"
+        },
+        {
+          "unit": "Tahonia",
+          "how": "Auto at Section start, if alive at the end of Part II Ch 3"
+        }
+      ],
+      "overworld": [
+        "Three gates. Order: Cohen and Maria first (nearest Dagsion, hardest, 3 squads), then Drake, then Mahadu (1 squad)",
+        "Aragona or Cartodo Posthouse to the top-left gate; Salacia Posthouse or by sea to the bottom-right gate",
+        "Enemy armies don't travel by sea"
+      ],
+      "battles": [
+        {
+          "name": "Battle vs. Cohen and Maria",
+          "gate": "Gate VII: Yu Heng",
+          "location": "Fort Hecatoncheires",
+          "max_units": 17,
+          "squads_needed": 2,
+          "victory": "Defeat Cohen and Maria.",
+          "ideal_tier": "Divine / Silver",
+          "suggested": {
+            "classes": [
+              "Bow users"
+            ],
+            "items": [
+              "Silver Bow",
+              "Physic"
+            ]
+          },
+          "enemies": [
+            "Maria near the center with reinforcements",
+            "Cohen",
+            "Many fliers and large birds",
+            "Fleeing treatise carriers"
+          ],
+          "mechanics": [
+            "Lust miasma: lower Hit (and Avoid, per RPG Site) when the foe's Charisma beats yours",
+            "Miasma tiles shift every couple of turns: don't spend turns clearing them",
+            "Cavalry struggles"
+          ],
+          "tips": [
+            "One squad east, one south; advance slowly",
+            "Kill Maria first, then pull Cohen into the center chokepoint",
+            "High-Cha units and archers"
+          ],
+          "sources": [
+            "RPS-P3",
+            "G8-S5"
+          ]
+        },
+        {
+          "name": "Battle vs. Drake",
+          "gate": "Gate IV: Tian Shu",
+          "location": "The Valley of Death",
+          "max_units": 17,
+          "squads_needed": 2,
+          "victory": "Defeat Drake.",
+          "ideal_tier": "Divine / Silver",
+          "suggested": {
+            "items": [
+              "Physic"
+            ]
+          },
+          "enemies": [
+            "Drake",
+            "Reinforcements from every side"
+          ],
+          "mechanics": [
+            "Desert: no cavalry",
+            "Envy miasma spawns where you defeat an enemy (larger for named foes): doubles Hit but sets Avoid to 0 against higher-level foes",
+            "Picking up the pirate treasure negates Envy",
+            "Treasure chests on the map, mostly gold"
+          ],
+          "tips": [
+            "Fliers and mages",
+            "Rush Drake with Kalla's Blessing and kill nothing on the way, or ball up in the center"
+          ],
+          "sources": [
+            "RPS-P3",
+            "G8-S5"
+          ]
+        },
+        {
+          "name": "Battle vs. Mahadu",
+          "gate": "Gate V: Yao Guang",
+          "location": "Kurdelind Ruins",
+          "max_units": 9,
+          "squads_needed": 1,
+          "victory": "Defeat Mahadu.",
+          "ideal_tier": "Divine / Silver",
+          "suggested": {
+            "classes": [
+              "Spear users",
+              "Crit units"
+            ],
+            "items": [
+              "Silver Spear"
+            ]
+          },
+          "enemies": [
+            "Mahadu"
+          ],
+          "guests": [
+            "Klapka and 4 Mosa soldiers"
+          ],
+          "mechanics": [
+            "Wrath miasma: doubles Crit, halves Def (both sides)",
+            "Forests and brush"
+          ],
+          "tips": [
+            "Move north through the forests",
+            "Kill the enemies nearest Klapka first",
+            "Drag Mahadu out of the brush before the kill",
+            "Kalla's Blessing against crits"
+          ],
+          "sources": [
+            "RPS-P3",
+            "G8-S5"
+          ]
+        }
+      ],
+      "flow": [
+        "Aswan and Tahonia join at the start if alive after War Ch 3. 5th squad.",
+        "Free Time 4/6–4/25: training. Dungeons, Trials and refines.",
+        "Mission Time 4/26–5/15: three gates. Cohen and Maria (Fort Hecatoncheires, just south of Dagsion, 17), Drake (Valley of Death, far northwest, 17), Mahadu (Kurdelind Ruins, far southeast, 9, Klapka as guest).",
+        "Enemy armies don't travel by sea.",
+        "Klapka joins only if he survives Mahadu and you enter Dagsion right after the battle."
+      ],
+      "flow_sources": [
+        "RPS-P3",
+        "G8-S5"
+      ],
+      "scenes": [
+        "Fortuna, near the Thermae (needs the Section 4 scene)"
+      ],
+      "scenes_note": "Fortuna's Section 2 scene isn't needed for this chain (G8-SCENES)."
+    },
+    {
+      "n": 6,
+      "name": "To the Edge of Twilight",
+      "free_time": {
+        "from": "5/16",
+        "to": "6/6"
+      },
+      "mission_time": null,
+      "squads": 5,
+      "turns": 84,
+      "intro": "Last Free Time: every quest and god request ends 6/6. Go to the Temple of Balor when ready.",
+      "joins": [
+        {
+          "unit": "Klapka",
+          "how": "If he survived the Mahadu battle and you returned to Dagsion with Eshmel right after it. Needs Theodora's Path cleared (Game8)."
+        }
+      ],
+      "battles": [
+        {
+          "name": "Showdown vs. Lyrah",
+          "gate": "Gate IX: Kai Yang",
+          "location": "Temple of Balor",
+          "max_units": 17,
+          "victory": "Defeat Lyrah.",
+          "ideal_tier": "Divine / Silver",
+          "enemies": [
+            "Dragon Lyrah",
+            "Summoned enemies across the map after her first defeat"
+          ],
+          "mechanics": [
+            "Fear miasma confuses; it spawns where enemies move (larger for big ones) and fades after a few turns",
+            "After her first bar she reverts to humanoid form and your units are rearranged",
+            "She teleports away when approached until she settles at the map edge"
+          ],
+          "tips": [
+            "Hold one area, clear reinforcements, then chase her with fliers (they skip the miasma)"
+          ],
+          "sources": [
+            "RPS-P3",
+            "G8-S6"
+          ]
+        },
+        {
+          "name": "Temple of Balor",
+          "kind": "dungeon",
+          "location": "Temple of Balor",
+          "flow": "Three areas with chests (consumables) and Rest Spots.",
+          "sources": [
+            "RPS-P3",
+            "G8-S6"
+          ]
+        },
+        {
+          "name": "Balor's Last Stand",
+          "location": "Temple of Balor",
+          "max_units": 25,
+          "squads_needed": 3,
+          "victory": "Defeat Balor.",
+          "enemies": [
+            "Balor: multiple HP bars behind a barrier",
+            "Gates that spawn enemies"
+          ],
+          "mechanics": [
+            "Destroying 2 gates drops his barrier; damage him the same turn, it returns next turn",
+            "Repeat once per HP bar",
+            "He counters with a plus-shaped AoE: spread out",
+            "Purple cross-shaped warnings mark incoming attacks",
+            "He ignites platforms and spews miasma: both deal heavy damage at the start of your turn"
+          ],
+          "formation": "Strongest unit or two, a healer and a Dancer near Balor; fast units on the side teams break gates and stop reinforcements. Troy is the players' pick to run gates solo (high Avo, a healing accessory); Bolting users hit gates from range (Reddit, community: https://www.reddit.com/r/fireemblem/comments/1wn1jp4/completed_a_routeless_run_of_fortunes_weave/). Hong Hua's Wandering Wall helps here.",
+          "sources": [
+            "RPS-P3",
+            "G8-S6"
+          ]
+        }
+      ],
+      "after": "A short dungeon, then a final easy battle. Pick which Lv 5 A support becomes S, then epilogues and credits. No post-game or NG+: the save returns to before the final boss.",
+      "after_sources": [
+        "G8-S6",
+        "G8-POSTGAME",
+        "FWUK-S6",
+        "PG-ENDING"
+      ],
+      "flow": [
+        "Klapka joins if kept alive. Last Free Time 5/16–6/6, no Mission Time: every quest and god request ends 6/6.",
+        "Enter the Temple of Balor when ready: Showdown vs. Lyrah (17), a three-area dungeon with chests and Rest Spots, then Balor's Last Stand (25: 3 squads + Eshmel).",
+        "After Balor: a short dungeon and one easy battle, then pick which Lv 5 A support becomes S. Epilogues; the save returns to before the final boss."
+      ],
+      "flow_sources": [
+        "RPS-P3",
+        "G8-S6"
+      ]
+    }
+  ],
+  "quests": [
+    {
+      "id": "arena-construction-effort",
+      "name": "Arena Construction Effort",
+      "kind": "subquest",
+      "giver": "Automatic",
+      "task": "Deliver 3 Building Materials",
+      "where": "Dagsion",
+      "reward": {
+        "gold": 3000,
+        "relief": 100,
+        "unlocks": [
+          "Arena training"
+        ]
+      },
+      "from_section": 2,
+      "due": "6/6",
+      "sources": [
+        "RPS-P3",
+        "KG-QUESTS"
+      ]
+    },
+    {
+      "id": "lost-flavors-of-the-capital",
+      "name": "Lost Flavors of the Capital",
+      "kind": "subquest",
+      "giver": "Inn Worker",
+      "task": "Deliver 2 Building Materials",
+      "where": "Dagsion",
+      "reward": {
+        "gold": 2000,
+        "relief": 100,
+        "unlocks": [
+          "Meals"
+        ]
+      },
+      "from_section": 2,
+      "due": "6/6",
+      "sources": [
+        "RPS-P3",
+        "KG-QUESTS"
+      ]
+    },
+    {
+      "id": "the-elephant-riders-bond",
+      "name": "The Elephant Rider's Bond",
+      "kind": "subquest",
+      "giver": "Injured Elephant Rider, Temple Row",
+      "task": "Deliver 2 Hakuren",
+      "where": "Dagsion",
+      "requires": "Cai brought into Part III",
+      "how": "Hakuren: rare farm crop at Evermist Plain or Resurgence Stone (any seed; manure raises the odds). Also a Vandahl trade good.",
+      "reward": {
+        "gold": 10000,
+        "relief": 50,
+        "items": [
+          "Saramis War Elephant ×2"
+        ]
+      },
+      "from_section": 2,
+      "due": "6/6",
+      "sources": [
+        "RPS-P3",
+        "G8-ELEPH",
+        "KG-QUESTS"
+      ]
+    },
+    {
+      "id": "aiding-in-prayer",
+      "name": "Aiding in Prayer",
+      "kind": "subquest",
+      "giver": "Hopeful Priest, Temple Row",
+      "task": "Deliver 7 Building Materials",
+      "where": "Dagsion",
+      "reward": {
+        "gold": 10000,
+        "relief": 100,
+        "unlocks": [
+          "Stronger Service effects"
+        ]
+      },
+      "from_section": 2,
+      "due": "6/6",
+      "sources": [
+        "RPS-P3",
+        "KG-QUESTS"
+      ]
+    },
+    {
+      "id": "rescue-centurio",
+      "name": "Rescue Centurio",
+      "kind": "subquest",
+      "giver": "Temple Soldier, Temple Row",
+      "task": "Defeat the Underworld Giants (skirmish, 6 units)",
+      "where": "Elissa Pass",
+      "requires": "Cai brought into Part III?",
+      "reward": {
+        "gold": 3000,
+        "relief": 100,
+        "unlocks": [
+          "Centurio joins (talk to him in Dagsion)"
+        ]
+      },
+      "from_section": 2,
+      "due": "6/6",
+      "missable": true,
+      "sources": [
+        "RPS-P3",
+        "G8-CENT",
+        "KG-QUESTS"
+      ]
+    },
+    {
+      "id": "dance-for-rebuilt-villages",
+      "name": "Dance for Rebuilt Villages",
+      "kind": "perform",
+      "giver": "Tavern Owner",
+      "task": "Perform at Port of Pandora, Regia, Zoste and Baina Oasis (each repaired first)",
+      "where": "Dagsion",
+      "requires": "Leda brought into Part III",
+      "reward": {
+        "relief": 50,
+        "unlocks": [
+          "Song of Icewater++ (Leda)"
+        ]
+      },
+      "stops": [
+        {
+          "at": "Regia",
+          "items": [
+            "Bitter Leaves",
+            "Craft Smithy Box"
+          ],
+          "gold": 5000
+        },
+        {
+          "at": "Port of Pandora",
+          "items": [
+            "Wonder Leaves",
+            "Craft Smithy Box"
+          ],
+          "gold": 5000
+        },
+        {
+          "at": "Zoste",
+          "items": [
+            "Bitter Leaves",
+            "Luxury Weapon Crate"
+          ],
+          "gold": 5000
+        },
+        {
+          "at": "Baina Oasis",
+          "items": [
+            "Bitter Leaves",
+            "Wonder Leaves",
+            "Gem Box"
+          ],
+          "gold": 5000
+        }
+      ],
+      "from_section": 2,
+      "due": "6/6",
+      "sources": [
+        "RPS-P3",
+        "G8-VILLAGES",
+        "KG-QUESTS"
+      ]
+    },
+    {
+      "id": "arena-reconstruction-effort-part-ii",
+      "name": "Arena Reconstruction Effort Part II",
+      "kind": "subquest",
+      "giver": "Automatic",
+      "task": "Deliver 20 Building Materials",
+      "where": "Dagsion",
+      "requires": "Arena Construction Effort",
+      "reward": {
+        "gold": 30000,
+        "relief": 100,
+        "unlocks": [
+          "Stronger Training"
+        ]
+      },
+      "from_section": 3,
+      "due": "6/6",
+      "sources": [
+        "RPS-P3",
+        "KG-QUESTS"
+      ]
+    },
+    {
+      "id": "returned-flavors-of-the-capital",
+      "name": "Returned Flavors of the Capital",
+      "kind": "subquest",
+      "giver": "Inn Worker",
+      "task": "Deliver 5 Building Materials",
+      "where": "Dagsion",
+      "requires": "Lost Flavors of the Capital",
+      "reward": {
+        "gold": 5000,
+        "relief": 100,
+        "unlocks": [
+          "Stronger meals"
+        ]
+      },
+      "from_section": 3,
+      "due": "6/6",
+      "sources": [
+        "RPS-P3",
+        "KG-QUESTS"
+      ]
+    },
+    {
+      "id": "auroras-request",
+      "name": "Aurora's Request",
+      "kind": "god-request",
+      "giver": "Aurora",
+      "task": "Deliver 5 Angelica",
+      "where": "Aurora's Branch Temple, Temple Row, Dagsion",
+      "reward": {
+        "gold": 10000,
+        "relief": 100,
+        "unlocks": [
+          "War Monk (Master class)",
+          "Aurora's Trial Clash (Lv 60)"
+        ],
+        "trial_items": [
+          "Cloth of Aurora"
+        ]
+      },
+      "requires": "Repair Aurora's Temple (Aurora's Main Temple in Melias, 1 Blue Ginji)",
+      "from_section": 3,
+      "due": "6/6",
+      "how": "Angelica: vegetable search spots (world-map.json). Game8 suggests Pale Raven's Perch (Solidus) or Starbirth Garden via Salacia Posthouse.",
+      "sources": [
+        "RPS-P3",
+        "G8-AURORA"
+      ],
+      "repair": {
+        "place": "Aurora's Temple",
+        "material": "Blue Ginji ×1",
+        "note": "Aurora's Main Temple in Melias; the request itself is given at Aurora's Branch Temple in Dagsion"
+      },
+      "master_class": "War Monk"
+    },
+    {
+      "id": "smyrnoss-request",
+      "name": "Smyrnos's Request",
+      "kind": "god-request",
+      "giver": "Smyrnos",
+      "task": "Put out the flames at the marked spot",
+      "where": "Iapetus Cavern",
+      "reward": {
+        "gold": 10000,
+        "relief": 100,
+        "unlocks": [
+          "High Savant (Master class)",
+          "Smyrnos's Trial Clash (Lv 60)"
+        ],
+        "trial_items": [
+          "Smyrnos's Channels",
+          "Agnea's Arrow"
+        ]
+      },
+      "requires": "Repair Smyrnos's Temple (1 Almamet)",
+      "from_section": 2,
+      "due": "6/6",
+      "how": "First repair Jurah's Temple and get the Fimbulvetr Night tome from the marked priest there; teach it to a mage and bring that mage. Press A at the waypoint. An Adamantine pickup sits behind the fire.",
+      "sources": [
+        "RPS-P3",
+        "G8-SMYRNOS"
+      ],
+      "repair": {
+        "place": "Smyrnos's Temple",
+        "material": "Almamet ×1"
+      },
+      "master_class": "High Savant"
+    },
+    {
+      "id": "jurahs-request",
+      "name": "Jurah's Request",
+      "kind": "god-request",
+      "giver": "Jurah",
+      "task": "Deliver Dagda's Godshield",
+      "where": "Dagsion Summit",
+      "reward": {
+        "gold": 10000,
+        "relief": 100,
+        "unlocks": [
+          "Valkyrium (Master class)",
+          "Jurah's Trial Clash (Lv 60)"
+        ],
+        "trial_items": [
+          "Jurah's Ice Mirror",
+          "Shield of Zephyrus"
+        ]
+      },
+      "requires": "Repair Jurah's Temple (1 Jyoppa)",
+      "from_section": 2,
+      "due": "6/6",
+      "how": "Dagda's Godshield: sparkle near the gateway to the summit temple at Dagsion Summit.",
+      "sources": [
+        "RPS-P3",
+        "G8-JURAH"
+      ],
+      "repair": {
+        "place": "Jurah's Temple",
+        "material": "Jyoppa ×1"
+      },
+      "master_class": "Valkyrium"
+    },
+    {
+      "id": "crednas-request",
+      "name": "Credna's Request",
+      "kind": "god-request",
+      "giver": "Credna",
+      "task": "Deliver Desert Sunstone",
+      "where": "Dragonbone Tangle",
+      "reward": {
+        "gold": 10000,
+        "relief": 100,
+        "unlocks": [
+          "Great Knight (Master class)",
+          "Credna's Trial Clash (Lv 60)"
+        ],
+        "trial_items": [
+          "Credna's Mallet"
+        ]
+      },
+      "requires": "Repair Credna's Temple (1 Lightstar)",
+      "from_section": 2,
+      "due": "6/6",
+      "how": "Desert Sunstone: sparkle inside Dragonbone Tangle (Nysiades Desert). Route: Tarvos North Road, exit via Baina Oasis. Afterwards talk to Credna again: he upgrades Eshmel's The Nameless to the Shining Spear (unmarked).",
+      "sources": [
+        "RPS-P3",
+        "G8-CREDNA"
+      ],
+      "missable": true,
+      "repair": {
+        "place": "Credna's Temple",
+        "material": "Lightstar ×1"
+      },
+      "master_class": "Great Knight"
+    },
+    {
+      "id": "marss-request",
+      "name": "Mars's Request",
+      "kind": "god-request",
+      "giver": "Mars",
+      "task": "Deliver Golden Helm",
+      "where": "Nemea Cavern",
+      "reward": {
+        "gold": 10000,
+        "relief": 100,
+        "unlocks": [
+          "Swordmaster (Master class)",
+          "Mars's Trial Clash (Lv 60)"
+        ],
+        "trial_items": [
+          "Mars's Kneepads"
+        ]
+      },
+      "requires": "Repair Mars's Temple (1 Lazanibata)",
+      "from_section": 2,
+      "due": "6/6",
+      "how": "Golden Helm: dropped by a marked thief in a skirmish at Nemea Cavern (high-level sword, spear and bow infantry). About 5 map turns southwest via Rear Mountain Path.",
+      "sources": [
+        "RPS-P3",
+        "G8-MARS"
+      ],
+      "repair": {
+        "place": "Mars's Temple",
+        "material": "Lazanibata ×1"
+      },
+      "master_class": "Swordmaster"
+    },
+    {
+      "id": "kallas-request",
+      "name": "Kalla's Request",
+      "kind": "god-request",
+      "giver": "Kalla",
+      "task": "Deliver Sandalwood",
+      "where": "Brigadier Pass",
+      "reward": {
+        "gold": 10000,
+        "relief": 100,
+        "unlocks": [
+          "Bow Knight (Master class)",
+          "Kalla's Trial Clash (Lv 60)"
+        ],
+        "trial_items": [
+          "Kalla's Needle"
+        ]
+      },
+      "requires": "Repair Kalla's Temple",
+      "from_section": 2,
+      "due": "6/6",
+      "how": "Sandalwood: at Brigadier Pass, directly below Fortuna's Temple east of Dagsion.",
+      "sources": [
+        "RPS-P3",
+        "G8-KALLA"
+      ],
+      "repair": {
+        "place": "Kalla's Temple",
+        "material": null,
+        "note": "Repair material not documented"
+      },
+      "master_class": "Bow Knight"
+    },
+    {
+      "id": "dance-for-rebuilt-cities",
+      "name": "Dance for Rebuilt Cities",
+      "kind": "perform",
+      "giver": "Tavern Owner",
+      "task": "Perform at Mahon Castle Town, Grand Aragon, Breston and Mons (each repaired first)",
+      "where": "Dagsion",
+      "requires": "Leda brought into Part III; Dance for Rebuilt Villages done",
+      "reward": {
+        "relief": 50,
+        "unlocks": [
+          "Song of Passion++ (Leda)"
+        ]
+      },
+      "stops": [
+        {
+          "at": "Mahon Castle Town",
+          "items": [
+            "Bitter Leaves",
+            "Iron Smithy Box"
+          ],
+          "gold": 5000
+        },
+        {
+          "at": "Grand Aragon",
+          "items": [
+            "Bitter Leaves",
+            "Wonder Leaves",
+            "Ring Crate"
+          ],
+          "gold": 5000
+        },
+        {
+          "at": "Breston",
+          "items": [
+            "Wonder Leaves",
+            "Da Mina Smithy Box"
+          ],
+          "gold": 5000
+        },
+        {
+          "at": "Mons",
+          "items": [
+            "Wonder Leaves",
+            "Craft Smithy Box"
+          ],
+          "gold": 5000
+        }
+      ],
+      "from_section": 4,
+      "due": "6/6",
+      "sources": [
+        "RPS-P3",
+        "G8-CITIES",
+        "KG-QUESTS"
+      ]
+    }
+  ],
+  "missables": [
+    {
+      "when": "Before the Door of Destiny",
+      "text": "Last chance to recruit on every Path. A lord with only a Paralogue clear joins as a locked guest."
+    },
+    {
+      "when": "Section 2 to 6",
+      "text": "Every quest and god request ends 6/6. Temple repairs take several turns: start early."
+    },
+    {
+      "when": "Section 2",
+      "text": "Rescue Centurio, then talk to Centurio in Dagsion."
+    },
+    {
+      "when": "Sections 3 to 5",
+      "text": "Fortuna's scene near the Thermae each Section; Sections 4 and 5 need the previous one."
+    },
+    {
+      "when": "Section 2",
+      "text": "Optional scenes: each lord in Dagsion (Cai, Dietrich, Theodora, Leda), Aurora after Centurio's rescue, Fortuna near the Thermae."
+    },
+    {
+      "when": "Section 3",
+      "text": "Shenlo map: four Smithy Box carriers flee NW."
+    },
+    {
+      "when": "After Credna's request",
+      "text": "Talk to Credna again: The Nameless becomes the Shining Spear. Nothing marks it."
+    },
+    {
+      "when": "Section 5",
+      "text": "Cohen and Maria map: treatise carriers flee."
+    },
+    {
+      "when": "Section 5",
+      "text": "Keep Klapka alive vs Mahadu, then return to Dagsion with Eshmel right away."
+    },
+    {
+      "when": "Section 2 to 4",
+      "text": "Collect all 5 Keys of the Diadem (Part III chests only)."
+    }
+  ],
+  "open_questions": [
+    "Section 1 ally waves: RPG Site lists Theodora on both Turn 3 and Turn 5; one is probably Dietrich.",
+    "Rescue Centurio: RPG Site says it 'may require Cai brought into Part III'; Game8 names no requirement.",
+    "God requests start: Game8 lists five from Section 2 (Aurora's from Section 3); RPG Site lists all six in Section 3.",
+    "Elephant Rider's Bond: Game8 says it can only be done in Section 2; RPG Site and KeenGamer give a 6/6 deadline.",
+    "Shining Spear: RPG Site says talk to Credna after repairing his temple; Game8 says after finishing his request.",
+    "Dance for Rebuilt Cities: Game8 places it in Section 2 right after Villages; RPG Site in Section 4.",
+    "Lust miasma: RPG Site says Hit and Avoid drop, Game8 says Hit only.",
+    "Envy miasma: RPG Site says double Hit and 0 Avoid vs higher levels; Game8 says it 'confuses hit and avoid'.",
+    "Lyrah's final spot: RPG Site says she moves to the west side; Game8 says bottom right.",
+    "Balor: RPG Site says 4 HP bars (8 gates); Game8 says 3 cycles with a larger 3rd bar. Game8's box says 17 units, its text 25 (3 squads + Eshmel); RPG Site says 25.",
+    "Cohen and Maria: RPG Site says a two-squad battle; Game8 recommends sending 3 squads.",
+    "Kalla's Temple repair material; which towns sell Building Materials and the price.",
+    "What happens if an enemy army damages Dagsion in Mission Time.",
+    "Part III shop stock changes; Part III boss weapon drops (none documented).",
+    "True ending: no source names a condition. The final easy battle after Balor may be what videos call the true ending.",
+    "Anna's Shop: the video also mentions items that raise Mov; allthings.how lists only the six stat boosters.",
+    "allthings.how lists Lysander with Bertrand and Orchel as Paralogue joiners in Part III; every other source names Talimun and Anatolia.",
+    "Mount bond: whether bond stays with the mount when it is reassigned to another unit is undocumented.",
+    "Saramis War Elephant bond 5 growths: Game8's mount list gives +5% each; the mount guide data gives +10%.",
+    "Master License price: Game8 gives 8,000G at the Dagsion License Vendor; allthings.how gives 5,600G (maybe the market price).",
+    "Drifting Reliquary unlock: Game8 says after a second War Arc clear; weapons-and-items.json part_carryover says after a Part II clear.",
+    "Teach Secrets in Part III: whether units from other armies can learn Dietrich's Hidden arts is unconfirmed.",
+    "Whether Part III Section scenes can be recovered by replaying the Section is unconfirmed.",
+    "Elephant License price and stock per Section: no source gives them.",
+    "Elephant Rider auras: does an 'adjacent allies' ability count from all 4 tiles of the 2×2 body (8 neighbours)? One Reddit thread says yes; untested. The Section 4 plan tests it with Gaitz.",
+    "Elephant Rider Dismount: whether it ends the unit's turn, and whether the dismounted unit can use staves or tomes.",
+    "Heavy Charge: lane width (Part II enemy elephants charged 2-wide lanes), length, damage and uses per map are unpublished."
+  ]
+}

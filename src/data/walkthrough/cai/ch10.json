@@ -1,0 +1,368 @@
+{
+  "route": "Cai",
+  "ch": 10,
+  "name": "Precious Time",
+  "free": {
+    "from": "9/15",
+    "to": "10/15"
+  },
+  "unlocks": [
+    "Advanced exams (Renown 8)",
+    "Thermae (Renown 8)",
+    "Bigger meal rank?"
+  ],
+  "routine": {
+    "meals": [
+      {
+        "week": "Week 1",
+        "tables": [
+          [
+            "Cai",
+            "Peter",
+            "Ninae"
+          ],
+          [
+            "Cai",
+            "Tialla",
+            "Ultand"
+          ],
+          [
+            "Cai",
+            "Ninae",
+            "Sirocco"
+          ]
+        ],
+        "note": "Every meal is an army trio."
+      }
+    ],
+    "gifts": [
+      {
+        "unit": "Sirocco",
+        "gift": "Volcano Ghosh",
+        "where": "Lowtown Tavern",
+        "cost": "135G",
+        "until": "recruited"
+      },
+      {
+        "unit": "Fianna",
+        "gift": "Volcano Ghosh",
+        "where": "Lowtown Tavern",
+        "cost": "135G",
+        "until": "recruited"
+      }
+    ],
+    "weekly": []
+  },
+  "missables": [
+    {
+      "id": "cai-ch10-missables-bertrand-paralogue",
+      "quest": "friendly-match-with-brigids-king",
+      "kind": "recruit-window",
+      "text": "Clear Bertrand's Paralogue by 9/25 even before Renown 9: Peppe can't be recruited without it",
+      "when": "9/17 to 9/25",
+      "where": "Arena Square (Gabriel)",
+      "lose": "Peppe for good, plus 20,000G, 150 Renown and an Extra Large Bullion",
+      "recover": "None",
+      "task": true
+    },
+    {
+      "id": "cai-ch10-missables-talimun-paralogue",
+      "quest": "secret-of-the-vanished-carriage",
+      "kind": "recruit-window",
+      "text": "Clear Talimun's Paralogue 9/17 to 9/22, or in the backup window 10/1 to 10/10",
+      "when": "9/22, else 10/10",
+      "where": "Port (Talimun)",
+      "lose": "The Cleansing Blade, 20,000G, 150 Renown and Ursula's recruit",
+      "recover": "None",
+      "detail": [
+        "Deadline 10/12. Miss both windows and it's gone."
+      ],
+      "task": true
+    },
+    {
+      "id": "cai-ch10-missables-anna-paralogue",
+      "quest": "golden-secret",
+      "kind": "item",
+      "text": "Clear Anna's Paralogue between 9/24 and 10/5",
+      "when": "10/5",
+      "where": "Dagsion Summit (Anna)",
+      "lose": "Orichalcum, 20,000G and 150 Renown",
+      "recover": "None",
+      "task": true
+    },
+    {
+      "id": "cai-ch10-missables-aurora-request",
+      "quest": "special-request-from-mom",
+      "kind": "timing",
+      "text": "Do Aurora's Special Request from Mom the day Renown 8 lands: Seteth and Nydine need Dragoon",
+      "when": "Renown 8",
+      "lose": "Dragoon for Seteth (Ch 11 or 12) and Nydine (Part II Ch 2)",
+      "recover": "None: Renown doesn't carry into Part II",
+      "task": true
+    }
+  ],
+  "classes": {
+    "note": {
+      "text": "Buy 4 Advanced Licenses in Megaira (3 if you clear Giant's-Print Fort first); exam in ledger order",
+      "detail": [
+        "This chapter: Tialla, Cai, Guzran, Ultand. Do Aurora's request first.",
+        "Seteth, Ninae, Sirocco (and maybe Fianna) follow in Ch 11 or 12: 3 to 4 more Licenses."
+      ]
+    },
+    "override": [
+      {
+        "unit": "Ultand",
+        "text": "Black Magic not B yet after her missed Ch 9? Stay Shaman one more map"
+      }
+    ]
+  },
+  "gear": {
+    "barter": [
+      {
+        "item": "Archive T",
+        "for": "Ultand: read it at once for Dark Spikes Τ",
+        "at": "Dagsion"
+      },
+      {
+        "item": "Archive Γ",
+        "for": "Sirocco: Death Γ; hold it until he joins, then read it at once",
+        "at": "Dagsion"
+      }
+    ],
+    "assign": [
+      {
+        "item": "Archive θ",
+        "to": "Ultand",
+        "why": "Iapetus Cavern chest: read it at once for Banshee Θ"
+      },
+      {
+        "item": "Cleansing Blade",
+        "to": "Peppe",
+        "why": "Talimun's Paralogue reward"
+      },
+      {
+        "item": "Hammer",
+        "to": "Majide",
+        "why": "Ch 10 map, left side; his Vandahl Hammer goes to Jasmine"
+      },
+      {
+        "item": "Levin Sword",
+        "to": "Sirocco",
+        "why": "Ch 10 map, right side; hold it until he joins"
+      }
+    ],
+    "note": [
+      {
+        "text": "Check Vandahl's dark-magic stock each visit: it seems to grow with Renown",
+        "conf": "?"
+      },
+      {
+        "text": "Skipped Cai's Vandahl Levin Sword? The map's copy is Cai's; Sirocco then takes a Ch 10+ Nuzzuo's"
+      }
+    ]
+  },
+  "recruits": [
+    {
+      "unit": "Jasmine",
+      "action": "Recruit her the day Renown 8 lands (the Thermae opening is your signal)",
+      "when": "Early Ch 10",
+      "detail": [
+        "Bench, in a Specialty class."
+      ]
+    },
+    {
+      "unit": "Fianna",
+      "action": "Pay 3,000G once both gates are met",
+      "when": "Ch 10",
+      "detail": [
+        "She takes the ninth slot until Sirocco joins; bring her on dungeon runs too."
+      ]
+    },
+    {
+      "unit": "Peppe",
+      "action": "Recruit him right after Bertrand's Paralogue, once Renown 9 lands",
+      "when": "After 9/17; Renown 9 may mean Ch 11",
+      "detail": [
+        "Bench, in a Specialty class."
+      ]
+    },
+    {
+      "unit": "Sirocco",
+      "action": "Finish his short quest (a copy of the Monument Verse?) to recruit him",
+      "when": "Renown 9: late Ch 10 or Ch 11",
+      "detail": [
+        "He takes the ninth slot from the next map as the main nuke; Ultand moves to support caster beside Noctula."
+      ],
+      "conf": "?"
+    },
+    {
+      "unit": "Nuzzuo",
+      "action": "Hand over 3× [[item:Iron Bow]]: he brings a Levin Sword",
+      "when": "Ch 10 or later",
+      "detail": [
+        "Filler, bench only."
+      ]
+    },
+    {
+      "unit": "Lilian",
+      "action": "Pay 5,000G: she brings a Mini Bow?",
+      "when": "Ch 10 or later",
+      "detail": [
+        "Filler, bench only."
+      ]
+    },
+    {
+      "unit": "Ursula",
+      "action": "Clear Talimun's Paralogue, then answer Yes 3 times: she supports Jasmine, Fianna, Peter, Sirocco",
+      "when": "By 10/10",
+      "detail": [
+        "Filler, bench only."
+      ]
+    },
+    {
+      "unit": "Mu",
+      "action": "Hand over 3× Glirmosa: he supports Cai, Peter, Guzran, Peppe, Sirocco and Mikaela",
+      "when": "Renown 9: late Ch 10 or Ch 11",
+      "detail": [
+        "Filler, bench only."
+      ]
+    }
+  ],
+  "prep": [
+    {
+      "text": "Ch 10+ recruits join at about Lv 25 in a Specialty class: no Beginner exam",
+      "detail": [
+        "One arrives in a class other than the plan's? Take that exam with a Specialty License."
+      ]
+    },
+    {
+      "text": "Io and Jester wait for Renown 10 (Ch 11)"
+    }
+  ],
+  "quests": {
+    "route": [
+      {
+        "quest": "special-request-from-mom",
+        "note": "Aurora, Renown 8: the unlock is Dragoon, plus 8,000G"
+      },
+      {
+        "quest": "eternal-prisoner"
+      },
+      {
+        "quest": "brawlers-of-the-plains"
+      },
+      {
+        "quest": "vegetables-for-arena-basement",
+        "note": "Hand in the 30 crops you planted in Ch 8"
+      }
+    ],
+    "sub": [
+      {
+        "quest": "its-name-is-da-mina",
+        "offered": "if-offered",
+        "note": "Hand over 2 of the Da Mina weapons you collected"
+      },
+      {
+        "quest": "flamma-smugglers",
+        "offered": "if-offered",
+        "note": "Follows For the Empire's Safety; the other Ch 8 pick gives Assassination (No Questions)"
+      },
+      {
+        "quest": "assassination-no-questions",
+        "offered": "if-offered"
+      },
+      {
+        "quest": "attack-of-the-huge-birds",
+        "offered": "if-offered",
+        "note": "At Lake Brontes"
+      },
+      {
+        "quest": "one-last-challenge",
+        "offered": "if-offered"
+      },
+      {
+        "quest": "skeletons-in-the-ruins",
+        "offered": "if-offered"
+      },
+      {
+        "quest": "beauty-and-health-at-thermae",
+        "offered": "if-offered",
+        "note": "Thermae bulletin at Renown 8 (first playthrough only)"
+      }
+    ],
+    "paralogue": [
+      {
+        "quest": "friendly-match-with-brigids-king",
+        "note": "First, 9/17 to 9/25: kill 4 Giants before Peppe's group does",
+        "detail": [
+          "Bait your target Giant to hold it for a turn.",
+          "The yellow units around a Giant vanish when it dies, so skip them."
+        ]
+      },
+      {
+        "quest": "secret-of-the-vanished-carriage",
+        "note": "Second, 9/17 to 9/22: a thief with cargo runs for the top exit, so keep one unit back to intercept"
+      },
+      {
+        "quest": "golden-secret",
+        "note": "Third, by 10/5 (opens 9/24): limited roster, so bring Tialla or Ninae plus an armor-killer",
+        "detail": [
+          "Don't send Solel at the Giant.",
+          "Clear enemies and ore deposits first. The last deposit lowers the Giant's armor and stuns it: break it when ready."
+        ]
+      }
+    ]
+  },
+  "explore": [
+    {
+      "group": "Training",
+      "id": "cai-ch10-explore-giants-print-fort",
+      "loot": true,
+      "text": "[[place:Giant's-Print Fort]] (Lv 35, Ogmios): Advanced License, [[item:Onoa]] (spear), Elixir",
+      "detail": [
+        "Train on Ogmios: bring Seteth, Ninae, Fianna and Sirocco, the ones racing to Lv 35."
+      ]
+    },
+    {
+      "group": "Training",
+      "id": "cai-ch10-explore-iapetus-cavern",
+      "loot": true,
+      "text": "[[place:Iapetus Cavern]] (Lv 32, Solidus): Archive θ for Ultand, Black-Magic Manual",
+      "detail": [
+        "Manual: Ultand if she's still short of Black Magic B for Ovate, otherwise Sirocco."
+      ]
+    },
+    {
+      "group": "Gathering",
+      "text": "Gather 7 Glirmosa in Pasithea: 4 for Archive T, 3 for Mu",
+      "detail": [
+        "Mount Orgus Trail, Rear Mountain Path, Forest of No Return, Giant's Mount; grab 4 on the Nemea Cavern trip."
+      ]
+    },
+    {
+      "group": "Mounts",
+      "text": "No Wild Pegasus yet? Catch one now for Flying Steed (Ch 11)"
+    }
+  ],
+  "battle": {
+    "title": "Semifinal vs. Theodora",
+    "objective": "Defeat Theodora",
+    "lose": "Cai falls",
+    "tips": [
+      {
+        "text": "Lure Theodora off her bonus tiles before you attack"
+      },
+      {
+        "text": "Pick up both map items: each helps against armor"
+      }
+    ],
+    "loot": [
+      {
+        "text": "[[item:Hammer]] on the left: Majide"
+      },
+      {
+        "text": "[[item:Levin Sword]] on the right: Sirocco"
+      }
+    ]
+  }
+}

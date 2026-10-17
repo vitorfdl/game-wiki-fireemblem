@@ -1,0 +1,75 @@
+{
+  "route": "Theodora",
+  "ch": 1,
+  "action": {
+    "pick": "Training Drills",
+    "why": "Lifts the bench to the Lv 37–38 floor so Simon and Ninae take Advanced exams this chapter."
+  },
+  "blessings": [
+    {
+      "god": "Kalla",
+      "why": "Avo +50 on the turn the center lane collapses on your group."
+    },
+    {
+      "god": "Aurora",
+      "why": "Halved damage for the turn the three named riders reach the line."
+    }
+  ],
+  "deploy": {
+    "units": [
+      "Theodora",
+      "Ninae",
+      "Ultand",
+      "Tobias",
+      "Bonaventure",
+      "Sofia",
+      "Sirocco",
+      "Alexandra",
+      "Lysander",
+      "Nydine"
+    ],
+    "bench": [
+      "Loretta",
+      "Lilian",
+      "Noctula",
+      "Simon",
+      "Nuzzuo"
+    ],
+    "note": "10 slots: the Fortress spears hold the center for the three named riders; Nydine (Cavalry, the map's pick) and the fliers take the flanks. The other five level on Training Drills."
+  },
+  "missables": [
+    {
+      "id": "theodora-war-ch01-missables-equip",
+      "kind": "item",
+      "text": "Only equipped items came in: check each unit's kit on the transfer screen before the first battle.",
+      "lose": "Unequipped Part I gear until Part III",
+      "recover": "Part III storage returns it; nothing to do in Part II"
+    }
+  ],
+  "people": [
+    {
+      "unit": "Creek",
+      "kind": "skip",
+      "text": "Enemy here. His quest isn't on Theodora's route, so he never joins this War Path."
+    },
+    {
+      "unit": "Bertrand",
+      "kind": "guest",
+      "text": "His Brezarant army holds the left lane: let it, and merge your left group into the center."
+    }
+  ],
+  "tips": [
+    {
+      "text": "Split three lanes: Bertrand's army left, your main group center, a small strike group right"
+    },
+    {
+      "text": "Theodora and the walls lead the center: two of the three named riders come that way"
+    },
+    {
+      "text": "End every turn on Thickets; Sofia and Bonaventure Physic the center from behind"
+    },
+    {
+      "text": "Kill the west-side Warrior for his drop before he reaches Bertrand's line"
+    }
+  ]
+}

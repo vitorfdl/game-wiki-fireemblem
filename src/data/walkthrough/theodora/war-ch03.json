@@ -1,0 +1,81 @@
+{
+  "route": "Theodora",
+  "ch": 3,
+  "action": {
+    "pick": "Training Drills",
+    "why": "Ch 3 floor about Lv 41: Advanced side trips (Sirocco's Bishop) on spare Licenses."
+  },
+  "blessings": [
+    {
+      "god": "Kalla",
+      "lv": 3,
+      "why": "Avo and Mov for the final rush once Gilchris lights the map (Game8)."
+    },
+    {
+      "god": "Aurora",
+      "why": "Halved damage on the turn the fire tiles go up."
+    }
+  ],
+  "deploy": {
+    "units": [
+      "Theodora",
+      "Ninae",
+      "Ultand",
+      "Tobias",
+      "Bonaventure",
+      "Sofia",
+      "Sirocco",
+      "Alexandra",
+      "Lysander",
+      "Loretta",
+      "Lilian",
+      "Simon",
+      "Noctula"
+    ],
+    "bench": [
+      "Nydine",
+      "Nuzzuo"
+    ],
+    "note": "13 slots: Physic from Sofia, Theodora and Ninae behind the Fortress chokes; Simon holds a flank, Noctula dodges in the alleys. Nydine (cavalry in 2-wide alleys) and Nuzzuo sit."
+  },
+  "missables": [
+    {
+      "id": "theodora-war-ch03-missables-aswan-tahonia",
+      "kind": "recruit-window",
+      "text": "Talk to Aswan and Tahonia when they reach Theodora, then keep both alive to the end.",
+      "lose": "Both, for Part III Section 5",
+      "recover": "Replay the chapter"
+    }
+  ],
+  "people": [
+    {
+      "unit": "Aswan",
+      "kind": "guest",
+      "text": "Talk with Theodora when he arrives: a guest now, joins in Part III Section 5 if alive."
+    },
+    {
+      "unit": "Tahonia",
+      "kind": "guest",
+      "text": "Same as Aswan: talk, then park her behind the chokes."
+    },
+    {
+      "unit": "Nathan",
+      "kind": "skip",
+      "text": "Needs Creek's kill: not on Theodora's route. Kill him like any boss guard."
+    }
+  ],
+  "tips": [
+    {
+      "text": "Hold the alley chokes: Theodora and Ultand in front, Ninae adjacent, Sirocco and Lilian firing over them"
+    },
+    {
+      "text": "Elephants charge 2-wide lanes: step out of the lane, then close it again"
+    },
+    {
+      "text": "Don't cross the north edge of the main road until the chokes are clear: that lights the fire tiles"
+    },
+    {
+      "text": "When the fire starts, fliers plus Kalla's Blessing finish Gilchris the same turn"
+    }
+  ]
+}

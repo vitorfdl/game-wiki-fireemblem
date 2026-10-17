@@ -1,0 +1,153 @@
+{
+  "game": "Fire Emblem: Fortune's Weave",
+  "updated": "2026-10-11",
+  "sources": [
+    {
+      "key": "KG-BLESS",
+      "name": "KeenGamer: Best Blessings and which god to serve first",
+      "url": "https://www.keengamer.com/articles/guides/fire-emblem-fortunes-weave-best-blessings-and-which-god-to-serve-first/"
+    },
+    {
+      "key": "RPS-P2",
+      "name": "RPG Site: Part II War walkthrough",
+      "url": "https://www.rpgsite.net/guide/21325-fire-emblem-fortunes-weave-part-2-war-walkthrough"
+    }
+  ],
+  "conventions": {
+    "owner": "Blessing effects per god and level. Shrine service, Bless Levels and Divine Sand rules: 01-getting-started-and-core-mechanics.md. Part III temples and requests: part3-salvation.json.",
+    "confidence": "Community-reported (KeenGamer); verify in game."
+  },
+  "rules": [
+    "Bless Levels are global across Paths.",
+    "A Blessing costs Divine Sand and lasts 1 turn, army-wide (community).",
+    "Part II refills Divine Sand every chapter; Group Service raises one god's level once per chapter."
+  ],
+  "gods": [
+    {
+      "name": "Aurora",
+      "day": "Monday",
+      "levels": [
+        {
+          "lv": 1,
+          "effect": "Halves physical damage"
+        },
+        {
+          "lv": 2,
+          "effect": "Halves magic damage"
+        },
+        {
+          "lv": 3,
+          "effect": "Nullifies enemy Underworld Boons"
+        }
+      ],
+      "sources": [
+        "KG-BLESS"
+      ]
+    },
+    {
+      "name": "Mars",
+      "day": "Tuesday",
+      "levels": [
+        {
+          "lv": 1,
+          "effect": "Hit +50 (physical)"
+        },
+        {
+          "lv": 2,
+          "effect": "Heal HP on kill"
+        },
+        {
+          "lv": 3,
+          "effect": "Str +5"
+        }
+      ],
+      "sources": [
+        "KG-BLESS"
+      ]
+    },
+    {
+      "name": "Smyrnos",
+      "day": "Wednesday",
+      "levels": [
+        {
+          "lv": 1,
+          "effect": "Hit +50 (magic)"
+        },
+        {
+          "lv": 2,
+          "effect": "Magic range +1"
+        },
+        {
+          "lv": 3,
+          "effect": "Mag +5"
+        }
+      ],
+      "sources": [
+        "KG-BLESS"
+      ]
+    },
+    {
+      "name": "Jurah",
+      "day": "Thursday",
+      "levels": [
+        {
+          "lv": 1,
+          "effect": "Negates effective damage"
+        },
+        {
+          "lv": 2,
+          "effect": "Prevents enemy follow-ups"
+        },
+        {
+          "lv": 3,
+          "effect": "Prevents crits"
+        }
+      ],
+      "sources": [
+        "KG-BLESS"
+      ]
+    },
+    {
+      "name": "Kalla",
+      "day": "Friday",
+      "levels": [
+        {
+          "lv": 1,
+          "effect": "Avo +50"
+        },
+        {
+          "lv": 2,
+          "effect": "Spd +5"
+        },
+        {
+          "lv": 3,
+          "effect": "Mov +2"
+        }
+      ],
+      "sources": [
+        "KG-BLESS"
+      ]
+    },
+    {
+      "name": "Credna",
+      "day": "Saturday",
+      "levels": [
+        {
+          "lv": 1,
+          "effect": "Visibility +5 (fog)"
+        },
+        {
+          "lv": 2,
+          "effect": "No durability cost"
+        },
+        {
+          "lv": 3,
+          "effect": "Army-wide Vantage"
+        }
+      ],
+      "sources": [
+        "KG-BLESS"
+      ]
+    }
+  ]
+}

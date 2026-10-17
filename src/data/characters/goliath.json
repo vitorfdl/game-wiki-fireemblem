@@ -1,0 +1,660 @@
+{
+  "name": "Goliath",
+  "slug": "goliath",
+  "epithet": "The Butcher",
+  "faction": "Bertrand's Army",
+  "homeRoute": "Dietrich",
+  "weapons": [
+    "Axe"
+  ],
+  "preferred": [
+    "Axe",
+    "Heavy"
+  ],
+  "personality": "A hulking arena heel who loves rampaging, training, food, and animals.",
+  "story": "Goliath is a 250 cm gladiator called \"The Butcher\", skilled but unpopular and cast as the arena's villain. Recruitment needs Support 3, 3x Giant's Meat, and Renown 7+ (Cai), 6+ (Dietrich), 9+ (Theodora), or 10+ (Leda).",
+  "personalSkill": {
+    "name": "Heavyweight Class",
+    "effect": "Grants Build +5, but he cannot change to cavalry or flying classes. Lv 20: Pin Down (adjacent foes Mov -3); Lv 35: Pin Down+ (Mov -5)."
+  },
+  "growths": {
+    "HP": 55,
+    "Str": 60,
+    "Mag": 5,
+    "Spd": 15,
+    "Dex": 30,
+    "Def": 50,
+    "Res": 20,
+    "Lck": 35,
+    "Cha": 20
+  },
+  "supports": [
+    "Cai",
+    "Dante",
+    "Gaitz",
+    "Jester",
+    "Loretta",
+    "Olympia",
+    "Ultand"
+  ],
+  "tiers": [
+    {
+      "source": "Pocket Tactics",
+      "tier": "A"
+    },
+    {
+      "source": "KeenGamer",
+      "tier": "B"
+    }
+  ],
+  "tierNotes": "Pocket Tactics: A. KeenGamer: B (huge Str/Def but only 15% Spd).",
+  "recruit": {
+    "how": "recruit",
+    "support": 3,
+    "renown": 6,
+    "extra": "3× Giant's Meat",
+    "why": [
+      "Support 3 ties with Cai, Theodora, Leda, but Renown 6 here is the earliest."
+    ],
+    "tip": "Needs 3 Giant's Meat: 1 in Sand-Shadow Fort, the rest from Giant-icon skirmishes."
+  },
+  "requirements": {
+    "Cai": "3S 7R",
+    "Dietrich": "3S 6R",
+    "Theodora": "3S 9R",
+    "Leda": "3S 10R"
+  },
+  "build": {
+    "role": "Enemy-phase armored wall",
+    "path": [
+      "Soldier",
+      "Armored Knight",
+      "Dreadnought"
+    ],
+    "part1Target": "Dreadnought (Ch 12 if he reaches Lv 35; else Part II Ch 1)",
+    "part3Target": "Castle Knight",
+    "notes": "Joins at about Lv 15 in a Beginner class (Soldier; Ch 8 to 9), Armored Knight at Lv 20 (Heavy E+, Axe C, Spear C), Dreadnought at Lv 35 (Heavy D, Axe B, Spear B): 8th on Dietrich's Part I Advanced list, usually Ch 12, else Part II Ch 1. Heavy-Armor Manual goes to him. Master Great Counter, then Focused Counter. Park him on chokepoints for Pin Down. A Warrior stint for Practiced Art is a Part II option.",
+    "confidence": "medium"
+  },
+  "guide": {
+    "summary": "Enemy-phase armored wall. Build +5 offsets part of his heavy axe and shield weight; park him on chokepoints where Pin Down stops foes and Great and Focused Counter punish attackers.",
+    "stages": [
+      {
+        "when": "Join (Ch 8 to 9, Lv 15) to Lv 20",
+        "from": {
+          "part": 1,
+          "ch": 8
+        },
+        "to": {
+          "lv": 20
+        },
+        "class": "Soldier",
+        "training": [
+          {
+            "rank": "Heavy E+, Axe C, Spear C",
+            "for": "Armored Knight exam",
+            "how": "Arena Heavy Training; Heavy-Armor Manual from Legacy of a Legendary Sculptor (4 statues, due 11/27)"
+          }
+        ],
+        "tips": [
+          "Recruit needs 3 Giant's Meat: Sand-Shadow Fort Giant and Giant-icon skirmishes (Ch 8)",
+          "Recruit him as early as the meat allows: he joins at about Lv 15 and needs Lv 35 by Ch 12 for Dreadnought"
+        ],
+        "weapons": [
+          {
+            "item": "Iron Axe"
+          },
+          {
+            "item": "Hand Axe"
+          },
+          {
+            "item": "Iron Spear"
+          }
+        ],
+        "arts": [
+          {
+            "name": "Spike",
+            "why": "Hit +10; Axe D per community sheet"
+          },
+          {
+            "name": "Tempest Spear",
+            "why": "Hit +10; Spear D per community sheet"
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Defense Basics",
+            "why": "Soldier mastery, Def +1, once mastered"
+          },
+          {
+            "name": "Axes Lv. 1",
+            "why": "Hit +3 with axes, once the Axe rank unlocks it"
+          }
+        ],
+        "goal": "Heavyweight Class (Bld +5) is always on: an axe plus the Iron Shield costs him almost no AS.",
+        "equipment": [
+          {
+            "item": "Iron Shield",
+            "why": "Def +3; Esmeralda's copy is free once she takes the Hexlock in Ch 6",
+            "alts": [
+              "Bronze Shield"
+            ],
+            "slot": "Defense"
+          }
+        ],
+        "items": [
+          {
+            "item": "Concoction",
+            "why": "40 HP x2",
+            "alts": [
+              "Vulnerary"
+            ]
+          }
+        ],
+        "level": "About Lv 15 on join",
+        "exit": "Lv 20, Heavy E+, Axe C, Spear C: Armored Knight exam (Heavy-Armor Manual)"
+      },
+      {
+        "when": "Lv 20 (Ch 9) to Lv 35",
+        "from": {
+          "part": 1,
+          "ch": 9
+        },
+        "to": {
+          "lv": 35
+        },
+        "class": "Armored Knight",
+        "training": [
+          {
+            "rank": "Heavy D, Axe B, Spear B",
+            "for": "Dreadnought exam (Renown 8, Lv 35; Ch 12, or Part II Ch 1)",
+            "how": "Arena Heavy Training (all three at once); Heavy-Armor Manual (Breston item shop per NGB)"
+          }
+        ],
+        "tips": [
+          "8th on the Part I Advanced list: Dreadnought at Lv 35, usually Ch 12. Def +25 already makes him the wall, and enemy-phase kills level him fast",
+          "Keep a Bishop adjacent: Res growth 20"
+        ],
+        "weapons": [
+          {
+            "item": "Da Mina Axe",
+            "why": "Mt 23, Wt 9 once Axe B: hits harder than the Hammer at less than half the weight",
+            "alts": [
+              "Da Mina Axe"
+            ]
+          },
+          {
+            "item": "Hammer",
+            "why": "Effective+ vs armor",
+            "situational": "Armor-heavy maps: open slot. Storage before Mars: the Hammer +1 drops in Part II Ch 1"
+          },
+          {
+            "item": "Halberd",
+            "why": "Spear arts (Defending Spear, Tempest Spear); effective vs cavalry and armor"
+          },
+          {
+            "item": "Short Axe",
+            "why": "1-2 counter vs archers and mages"
+          }
+        ],
+        "equipment": [
+          {
+            "item": "Silver Shield",
+            "why": "Def +5. Or swap to the Hexlock Shield (Res +5) on mage maps; one shield slot",
+            "slot": "Defense",
+            "alts": [
+              "Da Mina Shield",
+              "Iron Shield"
+            ],
+            "plan": "Leda's Paralogue (Ch 9, battle on 9/8); Def +5, Wt 4"
+          },
+          {
+            "item": "Hexlock Shield",
+            "why": "Res +5 for mage maps",
+            "slot": "Defense",
+            "situational": "Mage maps (Ch 10 Nezha's side): swap for the Silver Shield"
+          }
+        ],
+        "items": [
+          {
+            "item": "Elixir",
+            "why": "100 HP: the chokepoint wall; Part II stock",
+            "alts": [
+              "Concoction"
+            ]
+          }
+        ],
+        "arts": [
+          {
+            "name": "Defending Spear",
+            "why": "Shld +3; Spear C per community sheet"
+          },
+          {
+            "name": "Guard Spike",
+            "why": "Prt +10; Axe B per community sheet"
+          },
+          {
+            "name": "Hidden Soulrend",
+            "why": "Teach Secrets; axe self-heal, Hit -20"
+          },
+          {
+            "name": "Spike",
+            "why": "Hit +10; Axe D per community sheet"
+          },
+          {
+            "name": "Tempest Spear",
+            "why": "Hit +10; Spear D per community sheet"
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Great Counter",
+            "why": "Armored Knight mastery, Atk +3 when hit first, once mastered"
+          },
+          {
+            "name": "Pin Down+",
+            "why": "Personal Lv 35 ability: Inflicts Mov-5 on adjacent foes"
+          },
+          {
+            "name": "Defense Basics",
+            "why": "Soldier mastery, Def +1"
+          },
+          {
+            "name": "Axes Lv. 1",
+            "why": "Hit +3 with axes"
+          }
+        ],
+        "drop": [
+          {
+            "item": "Iron Axe",
+            "why": "Replaced by the Da Mina Axe"
+          },
+          {
+            "item": "Hand Axe",
+            "why": "Replaced by the Short Axe"
+          },
+          {
+            "item": "Iron Spear",
+            "why": "Replaced by the Halberd"
+          },
+          {
+            "item": "Da Mina Axe",
+            "why": "Silver Axe's fallback (in its alts)"
+          }
+        ],
+        "goal": "Pin Down (Lv 20): adjacent foes Mov -3, so whatever reaches him stays stuck; hold chokepoints on enemy phase with Great Counter, and Bld +5 eats most of the axe and shield weight.",
+        "exit": "Lv 35, Heavy D, Axe B, Spear B: Dreadnought exam (Ch 12, else Part II Ch 1)"
+      },
+      {
+        "when": "Ch 12 at Lv 35, or Part II Ch 1",
+        "from": {
+          "part": 1,
+          "ch": 12
+        },
+        "class": "Dreadnought",
+        "tips": [
+          "Dreadnought exam at Lv 35 with Heavy D, Axe B, Spear B: Ch 12 if he gets there, else a free License in Part II Ch 1",
+          "Equip the shield you want before leaving Part I",
+          "Ch 3: hold the alley chokepoints with Pin Down",
+          "A Warrior stint for Practiced Art is an option once licenses reset each chapter"
+        ],
+        "weapons": [
+          {
+            "item": "Da Mina Axe",
+            "why": "Mt 23, Wt 9 once Axe B: hits harder than the Hammer at less than half the weight",
+            "alts": [
+              "Da Mina Axe"
+            ]
+          },
+          {
+            "item": "Hammer +1",
+            "why": "Effective+ vs armor; the Part II Ch 1 drop fills his 6th slot",
+            "plan": "Part II Ch 1, west-side Warrior"
+          },
+          {
+            "item": "Halberd",
+            "why": "Spear arts; effective vs cavalry and armor"
+          },
+          {
+            "item": "Short Axe"
+          }
+        ],
+        "equipment": [
+          {
+            "item": "Silver Shield",
+            "why": "Def +5; the shield to equip into Part II",
+            "slot": "Defense",
+            "alts": [
+              "Da Mina Shield",
+              "Iron Shield"
+            ],
+            "plan": "Leda's Paralogue (Ch 9, battle on 9/8); Def +5, Wt 4"
+          }
+        ],
+        "items": [
+          {
+            "item": "Elixir",
+            "why": "100 HP",
+            "plan": "Carried from Ch 12 (no shops in Part II)"
+          }
+        ],
+        "arts": [
+          {
+            "name": "Defending Spear",
+            "why": "Shld +3; Spear C per community sheet"
+          },
+          {
+            "name": "Guard Spike",
+            "why": "Prt +10; Axe B per community sheet"
+          },
+          {
+            "name": "Hidden Soulrend",
+            "why": "Teach Secrets; axe self-heal, Hit -20"
+          },
+          {
+            "name": "Spike",
+            "why": "Hit +10; Axe D per community sheet"
+          },
+          {
+            "name": "Tempest Spear",
+            "why": "Hit +10; Spear D per community sheet"
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Pin Down+",
+            "why": "Personal Lv 35 ability: Inflicts Mov-5 on adjacent foes"
+          },
+          {
+            "name": "Great Counter",
+            "why": "Armored Knight mastery, Atk +3 when hit first"
+          },
+          {
+            "name": "Focused Counter",
+            "why": "Dreadnought mastery, Hit +10 when hit first"
+          },
+          {
+            "name": "Defense Basics",
+            "why": "Soldier mastery, Def +1"
+          },
+          {
+            "name": "Axes Lv. 1",
+            "why": "Hit +3 with axes"
+          }
+        ],
+        "drop": [
+          {
+            "item": "Hammer",
+            "why": "Replaced by the Hammer +1"
+          },
+          {
+            "item": "Hexlock Shield",
+            "why": "Left in storage: no slot in Part II; Bishops cover Res"
+          },
+          {
+            "item": "Da Mina Axe",
+            "why": "Silver Axe's fallback (in its alts)"
+          }
+        ],
+        "goal": "Pin Down+ (Lv 35): adjacent foes Mov -5: plug a chokepoint so foes stuck on him can't reach the backline; Bld +5 keeps Silver Axe + shield cheap.",
+        "exit": "Stay Dreadnought into Part II; Castle Knight in Part III"
+      },
+      {
+        "when": "Part III S4 (Dreadnought)",
+        "from": {
+          "part": 3,
+          "ch": 4
+        },
+        "class": "Dreadnought",
+        "training": [
+          {
+            "rank": "Heavy C, Axe A, Spear A",
+            "for": "Castle Knight (Lv 45, Master License)",
+            "how": "Arena Heavy Training"
+          }
+        ],
+        "weapons": [
+          {
+            "item": "Shielding Axe +2",
+            "why": "Prt +5? when attacked first; with Strike-Last +5 that's Prt +10",
+            "plan": "Refine to +2",
+            "alts": [
+              "Bronze Axe +4"
+            ]
+          },
+          {
+            "item": "Short Axe +2",
+            "why": "Range 1-2 counters",
+            "plan": "Refine to +2"
+          },
+          {
+            "item": "Hammer +2",
+            "why": "Effective+ vs armor and Golems; Wt 20",
+            "situational": "Armor-heavy maps: swap for the Short Axe",
+            "plan": "His Part II Ch 1 Hammer, refined to +2"
+          }
+        ],
+        "equipment": [
+          {
+            "item": "Silver Shield",
+            "why": "Def +5, Wt 4",
+            "slot": "Defense",
+            "alts": [
+              "Da Mina Shield",
+              "Iron Shield"
+            ]
+          },
+          {
+            "item": "Giant's Ring",
+            "why": "Bld +4 for Wt 0: with Heavyweight's +5, offsets 9 of his 16 Wt",
+            "slot": "Accessory",
+            "alts": [
+              "Gale Ring"
+            ]
+          }
+        ],
+        "items": [
+          {
+            "item": "Elixir",
+            "why": "100 HP: the chokepoint wall",
+            "alts": [
+              "Concoction"
+            ]
+          }
+        ],
+        "arts": [
+          {
+            "name": "Power Spike",
+            "why": "Axe A: Mt +12, Hit +10 on player phase"
+          },
+          {
+            "name": "Guard Spike",
+            "why": "Axe B: Prt +10 when he must attack into a pack"
+          },
+          {
+            "name": "Hidden Soulrend",
+            "why": "Teach Secrets: heals half the damage dealt, Hit −20"
+          },
+          {
+            "name": "Spike",
+            "why": "Axe D: Hit +10"
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Pin Down+",
+            "why": "Personal Lv 35: adjacent foes Mov −5"
+          },
+          {
+            "name": "Crit Defense",
+            "why": "Heavy Armor D: crit avoid on the choke wall"
+          },
+          {
+            "name": "Great Counter",
+            "why": "Armored Knight mastery: Atk +3 when hit first"
+          },
+          {
+            "name": "Focused Counter",
+            "why": "Dreadnought mastery: Hit +10 when hit first"
+          },
+          {
+            "name": "Absolute Defense+",
+            "why": "Heavy Armor B: Shld +10 when attacked, 20% (Absolute Defense 10% at C)"
+          }
+        ],
+        "goal": "Pin Down+ (Mov −5 adjacent) on a Dagsion choke; Shielding Axe and Strike-Last stack Prt +10 on enemy phase.",
+        "drop": [
+          {
+            "item": "Halberd",
+            "why": "No spear in the wall's kit; spear arts leave with it"
+          },
+          {
+            "item": "Defending Spear",
+            "why": "Needs a spear"
+          },
+          {
+            "item": "Tempest Spear",
+            "why": "Needs a spear"
+          },
+          {
+            "item": "Spirit Gem",
+            "why": "Avo +20 vs magic does little at his Spd; Giant's Ring keeps AS"
+          },
+          {
+            "item": "Defense Basics",
+            "why": "Absolute Defense+ takes the slot"
+          },
+          {
+            "item": "Da Mina Axe",
+            "why": "Shielding Axe +2: Prt +5? on enemy phase"
+          }
+        ],
+        "exit": "Section 4 only: bench from Section 5 (Esmeralda takes the Mahadu seat)",
+        "tips": [
+          "Section 4 home guard: hold Dagsion's south and west nodes; Pin Down+ stops foes on him",
+          "Gaitz beside him: Brave Assist Def +3 on top of Prt +10",
+          "Boon: axes can't strip it; Dietrich's Cleansing Blade +3",
+          "Stays Dreadnought: no Master License (D-151); a spare one makes him Castle Knight (Prt +13, Intercept)"
+        ]
+      }
+    ],
+    "arts": [
+      {
+        "name": "Guard Spike",
+        "why": "Prt +10"
+      },
+      {
+        "name": "Power Spike",
+        "why": "Mt +12, Hit +10; Axe A per community sheet"
+      },
+      {
+        "name": "Hidden Soulrend",
+        "why": "Sustain"
+      }
+    ],
+    "abilities": [
+      {
+        "name": "Focused Counter",
+        "why": "Enemy-phase Hit"
+      },
+      {
+        "name": "Great Counter",
+        "why": "Enemy-phase Atk"
+      },
+      {
+        "name": "Defense Basics",
+        "why": "Def +1"
+      }
+    ],
+    "specials": [
+      "Spd growth 15: he rarely doubles, so play enemy phase",
+      "Bld +5 cancels most weapon and shield weight"
+    ],
+    "sources": [
+      "class plan v3",
+      "weapons-and-items",
+      "combat-arts-and-abilities",
+      "character-learnsets",
+      "class-data",
+      "hard-mode video notes",
+      "Dietrich Ch 4 to 9 walkthrough",
+      "Part II walkthrough"
+    ],
+    "watch": [
+      "Weight: Shielding Axe 12 + Silver Shield 4 = 16 vs Bld +5 (Heavyweight) +4 (Giant's Ring). Hammer 20 + shield = 24 costs 8 more AS: it comes off first.",
+      "Part III: he walls for Section 4 only, then sits on the bench.",
+      "Part II: 6/6 once the Hammer +1 drops in Ch 1, so leave the Hammer in storage before Mars."
+    ],
+    "decisions": [
+      {
+        "topic": "Collect 3 Giant's Meat in Ch 8",
+        "pick": "Sand-Shadow Fort's Giant, then the Giant-icon skirmishes",
+        "why": "One Giant always spawns at Sand-Shadow Fort (desert, Ch 8); the skirmishes south of Breston and west of Credna's Temple run about Lv 35 and drop about 2 each. Luxury Meat Crates can drop it too.",
+        "else": "Unrecruited, he fights for Bertrand in Ch 11: finish the meat before that battle"
+      },
+      {
+        "topic": "Take Dreadnought only at Lv 35",
+        "pick": "Armored Knight until Lv 35, Dreadnought in Ch 12",
+        "why": "8th on the Advanced list: he joins at about Lv 15, so he is last. Armored Knight already has Def +25 for the chokepoints.",
+        "else": "Part II Ch 1 to 2 on a free License"
+      }
+    ],
+    "gates": [
+      {
+        "route": "Dietrich",
+        "from": {
+          "part": 1,
+          "ch": 5
+        },
+        "by": {
+          "part": 1,
+          "ch": 10
+        },
+        "kind": "recruit",
+        "text": "Support 3, Renown 6 and 3 Giant's Meat; recruit before the Ch 11 battle"
+      },
+      {
+        "route": "Dietrich",
+        "from": {
+          "part": 1,
+          "ch": 9
+        },
+        "by": {
+          "part": 1,
+          "ch": 12
+        },
+        "kind": "level",
+        "text": "Lv 35 by Ch 12 for Dreadnought; otherwise Part II"
+      }
+    ]
+  },
+  "sources": [
+    "https://fortunesweave.co.uk/characters/goliath",
+    "https://www.keengamer.com/articles/guides/fire-emblem-fortunes-weave-best-class-for-every-character/",
+    "https://www.keengamer.com/articles/guides/fire-emblem-fortunes-weave-tier-list-best-characters-ranked-for-every-route/",
+    "https://www.pockettactics.com/fire-emblem-fortunes-weave/tier-list"
+  ],
+  "recruitOn": {
+    "Cai": {
+      "how": "recruit",
+      "support": 3,
+      "renown": 7
+    },
+    "Dietrich": {
+      "how": "recruit",
+      "support": 3,
+      "renown": 6,
+      "task": "3× Giant's Meat"
+    },
+    "Theodora": {
+      "how": "recruit",
+      "support": 3,
+      "renown": 9
+    },
+    "Leda": {
+      "how": "recruit",
+      "support": 3,
+      "renown": 10
+    }
+  }
+}

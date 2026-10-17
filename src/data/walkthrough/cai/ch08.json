@@ -1,0 +1,244 @@
+{
+  "route": "Cai",
+  "ch": 8,
+  "name": "Unyielding Feelings",
+  "free": {
+    "from": "7/20",
+    "to": "9/1"
+  },
+  "unlocks": [
+    "Theater (Renown 7, usually late Ch 8)",
+    "Idyia passage (after Beasts Blocking the Path Home)"
+  ],
+  "routine": {
+    "meals": [
+      {
+        "week": "Every Sunday",
+        "tables": [
+          [
+            "Cai",
+            "Sirocco",
+            "Ninae"
+          ],
+          [
+            "Cai",
+            "Sirocco",
+            "Fianna"
+          ],
+          [
+            "Cai",
+            "Tialla",
+            "Ultand"
+          ]
+        ],
+        "note": "Fianna at Support 3: her seat goes to an army pair. Sirocco at Support 3: Meal 1 goes to an army pair too."
+      }
+    ],
+    "gifts": [
+      {
+        "unit": "Sirocco",
+        "gift": "Volcano Ghosh",
+        "where": "Lowtown Tavern",
+        "cost": "135G",
+        "until": "recruited"
+      },
+      {
+        "unit": "Fianna",
+        "gift": "Volcano Ghosh",
+        "where": "Lowtown Tavern",
+        "cost": "135G",
+        "until": "recruited"
+      }
+    ],
+    "weekly": []
+  },
+  "missables": [
+    {
+      "id": "cai-ch08-missables-sealed-letter",
+      "kind": "choice",
+      "text": "Deliver the Sealed Letter for one quest only: pick For the Empire's Safety",
+      "when": "9/19",
+      "where": "Unmanned Storehouse",
+      "lose": "The other quest and its follow-ups",
+      "recover": "None",
+      "options": [
+        {
+          "pick": "For the Empire's Safety",
+          "gives": "Specialty License and 200 Renown (Daniel, Temple Row); Flamma Smugglers in Ch 10",
+          "quests": [
+            "flamma-smugglers"
+          ]
+        },
+        {
+          "pick": "A Letter of Some Gravity",
+          "gives": "A longer chain (Port) that ends in the Haze Badge (Ch 11)",
+          "quests": [
+            "assassination-no-questions",
+            "a-lost-object"
+          ]
+        }
+      ],
+      "detail": [
+        "Most of the roster takes exams, so the License is the practical pick; the 200 Renown helps the Renown 8 push."
+      ]
+    },
+    {
+      "id": "cai-ch08-missables-insect-pearls",
+      "kind": "timing",
+      "text": "Stockpile 8 Insect Pearls now if you're on the pearl chain: its last step is due 9/16",
+      "when": "9/16",
+      "lose": "Even More Fabled Insect Pearls (Ch 9): 10,000G and 2 Thunderstone",
+      "recover": "None",
+      "task": true
+    }
+  ],
+  "classes": {
+    "note": {
+      "text": "Cai, Guzran, Tialla and Ultand stay put until Advanced opens at Renown 8 (Ch 10)",
+      "detail": [
+        "Sirocco joins in Ch 10 or later already in a Specialty class: no License for him now.",
+        "Bench (Majide, Nydine, Mikaela): no exams in Part I."
+      ]
+    }
+  },
+  "gear": {
+    "buy": [
+      {
+        "text": "Buy 2× [[item:Ji]] (3,000G) at the Port of Pandora Armory, Castalia: Seteth now, Jasmine by Ch 12",
+        "detail": [
+          "Their Part II spear unless you find a Silver Spear. Ji needs Spear B."
+        ]
+      },
+      {
+        "text": "Orens Armory, Idyia: a [[item:Da Mina Bow]] for Mikaela and a [[item:Tempest Bow]] for Peppe later"
+      },
+      {
+        "text": "Start collecting Da Mina weapons from ports: Its Name Is Da Mina (Ch 10) wants 2 for 20,000G"
+      }
+    ],
+    "assign": [
+      {
+        "item": "Archive B",
+        "to": "Tialla",
+        "why": "Read it at once: Mire Β, her range-3 Insight tag"
+      }
+    ]
+  },
+  "recruits": [],
+  "prep": [
+    {
+      "text": "Missed a Renown 6 recruit in Ch 7? Seteth, Ninae and Nydine's rows are there"
+    },
+    {
+      "text": "Keep gifting Sirocco and Fianna toward Support 3: they join from Ch 10 (Sirocco late Ch 10 or Ch 11)"
+    }
+  ],
+  "quests": {
+    "route": [
+      {
+        "quest": "special-request-from-pop",
+        "note": "Castor, Renown 7 (usually late Ch 8): Cai needs Caladrius for his Ch 10 exam",
+        "detail": [
+          "Get the 2 Angelica at Starbirth Garden or Messalina Orchards in Saveilon.",
+          "Not Renown 7 by 9/1? Do it in Ch 9, with the Theater and Headsman's Rock."
+        ]
+      },
+      {
+        "quest": "beasts-blocking-the-path-home",
+        "note": "Opens the passage to Idyia: one Wild Pegasus and the Orens Armory"
+      },
+      {
+        "quest": "bringing-peace"
+      },
+      {
+        "quest": "vegetables-for-arago-guests",
+        "note": "Hand in the 30 crops you planted in Ch 7"
+      }
+    ],
+    "sub": [
+      {
+        "quest": "for-the-empires-safety"
+      },
+      {
+        "quest": "a-letter-of-some-gravity"
+      },
+      {
+        "quest": "garum-garum-garum",
+        "note": "Pays 8,000G"
+      },
+      {
+        "quest": "blight-louse-extermination-request"
+      },
+      {
+        "quest": "huge-hairy-beasts"
+      },
+      {
+        "quest": "purloined-spellcasters-tools",
+        "offered": "if-offered"
+      },
+      {
+        "quest": "magic-of-the-theater",
+        "offered": "if-offered",
+        "note": "Theater bulletin at Renown 7 (first playthrough only)"
+      }
+    ],
+    "paralogue": []
+  },
+  "explore": [
+    {
+      "group": "Mounts",
+      "text": "Catch a Wild Pegasus (two spots in Castalia, one in Idyia) for Flying Steed in Ch 11"
+    },
+    {
+      "group": "Mounts",
+      "text": "Catch a Wild Bau at [[place:Bau-Caller's Cape]] for Seteth's Dragoon: roll for Paired Streak"
+    },
+    {
+      "group": "Mounts",
+      "text": "From Renown 7, catch a Black Magonius for Cai at [[place:Headsman's Rock]], east of Saramis",
+      "detail": [
+        "Lure it with bitter fish and roll for Canto.",
+        "Not open yet? Ch 12's Mystery of Headman's Rock takes you there."
+      ],
+      "conf": "?"
+    },
+    {
+      "group": "Farming",
+      "text": "Plant 30 Cocominj, Oda Monja or Jin Ba Jiao for the Ch 10 crop quest"
+    },
+    {
+      "group": "Spare Turns",
+      "id": "cai-ch08-explore-cave-behind-the-falls",
+      "loot": true,
+      "text": "[[place:Cave Behind the Falls]] (Lv 22, Castalia): Archive B for Tialla, Bullion, Pure Water",
+      "detail": [
+        "Run it with your support pairs."
+      ]
+    }
+  ],
+  "battle": {
+    "title": "Main Match vs. Leda",
+    "objective": "Defeat Leda",
+    "lose": "Cai falls",
+    "guests": [
+      "Buccar"
+    ],
+    "tips": [
+      {
+        "text": "Advance slowly and lure the demonic beast where you can surround it; bring armor-piercing weapons"
+      },
+      {
+        "text": "Check the explosives on the map with ZL before you move"
+      },
+      {
+        "text": "Buccar defects on turn 3 and fights on your side for this battle"
+      },
+      {
+        "text": "It ends with an Event Clash: give Cai a [[item:Linking Rock]]",
+        "detail": [
+          "Peter: pack the Hunter's Bow if the demonic beast counts as a beast?"
+        ]
+      }
+    ]
+  }
+}

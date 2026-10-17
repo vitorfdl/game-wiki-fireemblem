@@ -1,0 +1,32 @@
+{
+  "route": "Theodora",
+  "n": 1,
+  "plan": [
+    {
+      "group": "Played",
+      "rows": [
+        {
+          "text": "Dagda is down: Bertrand, Orchel, Talimun and Anatolia joined"
+        },
+        {
+          "text": "All four lords came in as full units with their armies: their map abilities ride with them"
+        }
+      ]
+    }
+  ],
+  "missables": [],
+  "quests": [],
+  "gates": [
+    {
+      "battle": "Battle vs. Dagda",
+      "tips": [
+        {
+          "text": "Deplete Dagda's first bar with the 3 starting units, then hold the center Guard Spot"
+        },
+        {
+          "text": "Orchel's Strahl and Cai's Blackfire strip most of his shield"
+        }
+      ]
+    }
+  ]
+}

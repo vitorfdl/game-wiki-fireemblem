@@ -1,0 +1,221 @@
+{
+  "openQuestions": [
+    {
+      "text": "Class unlock quests: the path guide ties one quest to each class (Ladon Loach: Cataphract, Kothar Gar: Guardian, Sea-Star Stone: Dragoon); GameRant and the build notes say each class needs both quests of its chapter. Do both: every Send Supplies quest pays 5,500G and Renown.",
+      "ch": 8,
+      "sources": [
+        "RPG Site Theodora path guide",
+        "GameRant"
+      ]
+    },
+    {
+      "text": "A GameFAQs report says Dragoon can stay greyed out after Theodora's Ch 11 quests. Dragoon carries in from Cai's Aurora mentoring quest; if you skipped it, keep Lysander in Armored Ornius Rider.",
+      "ch": 11,
+      "units": [
+        "Lysander"
+      ],
+      "sources": [
+        "GameFAQs"
+      ]
+    },
+    {
+      "text": "The walkthrough sources give no location for Caltrop Flowers, White Trout, Black-Sand Steel, Melara, Thry Fruit, Roca, Venomstone, Desert Millet or Lir Fish; check each item's hover card for gather spots.",
+      "ch": 5
+    },
+    {
+      "text": "Whether materials gathered before a Send Supplies quest appears count toward it is not stated: hold them in inventory.",
+      "ch": 7
+    },
+    {
+      "text": "Whether loaning the ship to Anatolia blocks Theodora's sea travel until 9/21 is not stated: finish Lir Sea and Enno Isle trips first.",
+      "ch": 10
+    },
+    {
+      "text": "Whether Orchel's optional scene at Yu Phas' Temple is needed for Orchel's Paralogue is not stated; Diego depends on that Paralogue.",
+      "ch": 10,
+      "units": [
+        "Diego"
+      ]
+    },
+    {
+      "text": "Whether Diego joins the moment Orchel's Paralogue ends, or needs a separate talk, is not stated.",
+      "ch": 12,
+      "units": [
+        "Diego"
+      ]
+    },
+    {
+      "text": "Lv 35 per unit is not in the sources. Player data (lord about Lv 38 at the end of Part I, team 30 to 35, 7 to 8 Advanced) puts the exams in Ch 10 to 12; Sirocco, Loretta and Ultand are the least certain.",
+      "ch": 10,
+      "units": [
+        "Sirocco",
+        "Loretta",
+        "Ultand"
+      ]
+    },
+    {
+      "text": "Deployment slots (about 6, then 7 to 8, then 9) come from a player report, and guests may take slots: check the prep screen each chapter.",
+      "sources": [
+        "Player report"
+      ]
+    },
+    {
+      "text": "Join levels are player data (Ch 6 to 8: about Lv 15, Beginner; Ch 9: Lv 15 or about 25, open; Ch 10+: about Lv 25, Specialty). Which Beginner class each Ch 6 to 9 recruit arrives in is unknown; Noctula joining Ch 8 as a Pugilist with the Claw is one player's report.",
+      "ch": 10,
+      "units": [
+        "Alexandra",
+        "Loretta",
+        "Nydine",
+        "Ultand",
+        "Ninae",
+        "Noctula",
+        "Simon",
+        "Nuzzuo"
+      ]
+    },
+    {
+      "text": "How much Class EXP a mastery takes is not documented (one GameFAQs player says it's much quicker than Three Houses, a comparison). Side-trip lengths are estimates: use the exit conditions.",
+      "ch": 8,
+      "sources": [
+        "GameFAQs"
+      ]
+    },
+    {
+      "text": "Gambit Mt, Hit, range and uses are unpublished except Disturbing Volley's shape, and how much Cha adds is unknown: battalion picks rest on stat bonuses only.",
+      "units": [
+        "Theodora",
+        "Sirocco",
+        "Bonaventure",
+        "Sofia"
+      ],
+      "sources": [
+        "Game8",
+        "fortunesweave.co.uk",
+        "fortunesweave.online"
+      ]
+    },
+    {
+      "text": "Part II deploys up to 15 according to one source only: the plan brings exactly 15."
+    },
+    {
+      "text": "The Part II carry rule says \"equipped\": read here as each unit's own 6 items.",
+      "ch": 12
+    },
+    {
+      "text": "Sources don't say which chapter Loretta, Nydine, Ultand, Ninae, Simon, Diego, Zarcone or Sirocco first appear in Dagsion, or what Ultand's short quest asks: check Map > People every week.",
+      "ch": 4,
+      "units": [
+        "Loretta",
+        "Nydine",
+        "Ultand",
+        "Ninae",
+        "Simon",
+        "Diego",
+        "Zarcone",
+        "Sirocco"
+      ]
+    },
+    {
+      "text": "No dish list exists for this route (the only dish data is from a Dietrich game): pick the dish where all three diners show a note icon.",
+      "ch": 4
+    },
+    {
+      "text": "Loretta's Pastry Cookbook at the Market Vendor comes from Game8 and is unconfirmed.",
+      "ch": 7,
+      "units": [
+        "Loretta"
+      ],
+      "sources": [
+        "Game8"
+      ]
+    },
+    {
+      "text": "Game8 lists Caladrius as Cai-only; the plan assumes it carries in from Cai's route. Nobody here takes it.",
+      "sources": [
+        "Game8"
+      ]
+    },
+    {
+      "text": "Dagsion's Specialty License stock is not documented.",
+      "ch": 6
+    },
+    {
+      "text": "Masked Woods (Veroquine) has no route lock in RPG Site's dungeon list, but no Theodora-route source names its chest.",
+      "ch": 7,
+      "sources": [
+        "RPG Site"
+      ]
+    },
+    {
+      "text": "Whether Vandahl offers the Phantom Ring barter more than once is unknown: Alexandra's copy is the Northern Passage chest.",
+      "ch": 11,
+      "units": [
+        "Alexandra"
+      ]
+    },
+    {
+      "text": "Sirocco's Sword rank on joining is not documented: he can't swing the Levin Sword (Sword C) until it reaches C.",
+      "ch": 10,
+      "units": [
+        "Sirocco"
+      ]
+    },
+    {
+      "text": "How many battalions deploy at once at Renown 1, 5, 7 and 9 is unpublished. The plan fields Theodora, Ultand, Ninae, Sirocco, Sofia, Bonaventure, Tobias, Loretta, Lilian, Simon in that order and drops from the end.",
+      "ch": 6,
+      "units": [
+        "Ultand",
+        "Loretta",
+        "Lilian",
+        "Simon"
+      ],
+      "sources": [
+        "Game8",
+        "fortunesweave.co.uk"
+      ]
+    },
+    {
+      "text": "Which tiers each town offers per Renown (when A tier first shows) is unknown: Divine-Shield Guard at Port of Pandora is planned for Renown 9.",
+      "ch": 10,
+      "units": [
+        "Theodora"
+      ],
+      "sources": [
+        "Game8"
+      ]
+    },
+    {
+      "text": "Battalion use in Part II is undocumented; Part III keeps battalions in storage (Game8, thegameswiki) and assigned ones stay on Clear Data (GameFAQs).",
+      "ch": 12,
+      "sources": [
+        "Game8",
+        "thegameswiki",
+        "GameFAQs"
+      ]
+    },
+    {
+      "text": "Authority start ranks are unknown. The plan reads Theodora D (Rein) and E for units with no Authority seat (Tobias, Lilian, Loretta, Simon); Ultand's and Ninae's come from their build pages.",
+      "ch": 6
+    },
+    {
+      "text": "Unconfirmed for this army: fliers counting as [Cavalry] (Nydine stays on the ground), Noctula's Warrior's Clarity stacking, Nydine reaching Heavy for Cataphract under a bane, and whether Balor's gates count as obstacles for Unstoppable Force.",
+      "ch": 9,
+      "units": [
+        "Nydine",
+        "Noctula",
+        "Theodora"
+      ]
+    },
+    {
+      "text": "Support 3 for five recruits by Ch 9 rests on about 12 Sundays to the end of Ch 7 plus weekly gifts; the meal Support gain per table is not published. A recruit that misses its week joins one chapter later.",
+      "ch": 7,
+      "units": [
+        "Loretta",
+        "Nydine",
+        "Ultand",
+        "Ninae",
+        "Simon"
+      ]
+    }
+  ]
+}

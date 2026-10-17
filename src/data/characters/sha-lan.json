@@ -1,0 +1,802 @@
+{
+  "name": "Sha Lan",
+  "slug": "sha-lan",
+  "epithet": "Caretaker of the Bridal Party",
+  "faction": "Pale Raven's Bridal Party",
+  "homeRoute": "Leda",
+  "weapons": [
+    "White Magic",
+    "Spear"
+  ],
+  "preferred": [
+    "Authority",
+    "White Magic",
+    "Spear"
+  ],
+  "avoid": [
+    "Sword"
+  ],
+  "personality": "Calm and caring; enjoys good food, drinks and socializing, and looks after Anatolia.",
+  "story": "A 20-year-old from a western desert village in Kunlun who cared for the village children before joining the Pale Raven's Bridal Party in Dagshion. Recruitable only on Dietrich and Leda routes after clearing Anatolia's Paralogue and answering Saramis, Da Mina and Grounded Ship.",
+  "personalSkill": {
+    "name": "Cooler Heads",
+    "effect": "After using Draw Back, unit can use assist magic. Lv 20: Watchfulness (Spd+2 to adjacent allies); Lv 35: Watchfulness+ (Spd+4)."
+  },
+  "growths": {
+    "HP": 35,
+    "Str": 30,
+    "Mag": 45,
+    "Spd": 35,
+    "Dex": 50,
+    "Def": 30,
+    "Res": 45,
+    "Lck": 35,
+    "Cha": 40
+  },
+  "supports": [
+    "Diego",
+    "Halvin",
+    "Loretta",
+    "Nezha",
+    "Sirocco",
+    "Yang Jie"
+  ],
+  "tiers": [
+    {
+      "source": "KeenGamer",
+      "tier": "B"
+    },
+    {
+      "source": "Pocket Tactics",
+      "tier": "B"
+    }
+  ],
+  "tierNotes": "KeenGamer: B tier (mage support, Watchfulness Spd aura). Pocket Tactics: B tier.",
+  "recruit": {
+    "how": "recruit",
+    "support": 3,
+    "renown": 8,
+    "extra": "Clear Anatolia's Paralogue + answers: Saramis → Da Mina → Grounded Ship",
+    "why": [
+      "Bench recruit on Leda's route: she joins after Queen of the Erased (10/5–10/14) at about Lv 25 in a Specialty class.",
+      "The paralogue has a window; Support 3 doesn't. Ch 11 or 12 still works once the paralogue is cleared."
+    ],
+    "tip": "Answers: Saramis, Da Mina, Grounded Ship. She brings a Salamander for Mu."
+  },
+  "requirements": {
+    "Cai": "—",
+    "Dietrich": "3S 10R",
+    "Theodora": "—",
+    "Leda": "3S 8R"
+  },
+  "build": {
+    "role": "Part II Res tank and Spd aura",
+    "path": [
+      "Join class (bench, Ch 10 to 12)",
+      "Guardian (Part II Ch 2)",
+      "Bishop (Part II Ch 4 to 5, for Barrier)",
+      "Guardian (Part II Ch 6)",
+      "Sentinel (Part III)"
+    ],
+    "part1Target": "Bench (Ch 10 join)",
+    "part3Target": "Sentinel",
+    "notes": "Bench in Part I. She joins after Anatolia's paralogue (10/5–10/14) at about Lv 25 in a Specialty class, hands Mu her Salamander, and trains Spear B in the Arena. Guardian in Part II Ch 2, a Bishop stint for Barrier in Ch 4 to 5, Sentinel in Part III.",
+    "confidence": "medium"
+  },
+  "guide": {
+    "role": "Res tank and Spd aura (spear Guardian)",
+    "summary": "A Part II Res tank who speeds up her neighbours. She joins after Anatolia's paralogue, sits out Part I, and from Part II stands in front of the mages next to Sirocco or Halvin: [[ability:Watchfulness+]] gives each adjacent ally Spd +4. A two-map [[class:Bishop]] stint adds Barrier (Res +3) to the same tile.",
+    "playstyle": "Stand on the tile that touches the most allies, facing the mages. Counter at range 2 with the Short Spear; cast Recover when nobody needs a spear.",
+    "focus": [
+      "Res",
+      "HP",
+      "Mag"
+    ],
+    "keys": [
+      "Clear Queen of the Erased by 10/14, then answer Saramis, Da Mina, Grounded Ship",
+      "Hand her Salamander to Mu the day she joins",
+      "Arena Mounted every week with Halvin: Spear B by 11/27 for Guardian (Spear is a boon)",
+      "Guardian in Part II Ch 2; Bishop in Ch 4 to 5 for Barrier if White B is there",
+      "Park her next to Sirocco: Watchfulness+ Spd +4 turns more tomes into doubles"
+    ],
+    "watch": [
+      "Res: Guardian adds 15% to her 45%, Hexlock Shield +5. She is the Res wall; Def 40% is not",
+      "Weight: Part II Bronze Spear +4 7 + Hexlock Shield 4 = 11 (4 over the weapon). Part III Bronze Spear +4 7 + Talisman Shield 3 + Healing Staff 3 = 13 (extra 6).",
+      "Spear B: about 7 Arena weeks from a mid-Ch 10 join. If it slips, Guardian moves to Part II Ch 3",
+      "Cooler Heads needs Draw Back, and how she learns it is unknown ?: plan around Watchfulness"
+    ],
+    "stages": [
+      {
+        "when": "Join 10/5–10/14 · class on join ?",
+        "from": {
+          "part": 1,
+          "ch": 10,
+          "at": "late"
+        },
+        "to": {
+          "part": 2,
+          "ch": 1
+        },
+        "level": "About Lv 25 on joining; Lv 34 after Army Training 1",
+        "class": "",
+        "kind": "bench",
+        "goal": "Bench: give Mu the Salamander, train Spear B, stock the Part II kit. Part II Ch 1 in her join class.",
+        "exit": "Guardian in Part II Ch 2 at Lv 35 with Spear B (Ch 3 if the rank slips)",
+        "masteries": [],
+        "weapons": [
+          {
+            "item": "Bronze Spear +4",
+            "why": "Hold at 11/27: Mt ?, Hit 90, Wt 7, Def +1 from +3",
+            "plan": "Refine to +4 with Smithing Stone"
+          },
+          {
+            "item": "Short Spear",
+            "why": "Hold at 11/27: range 1-2: counters mages at 2",
+            "alts": [
+              "Javelin"
+            ]
+          },
+          {
+            "item": "Ji",
+            "why": "Effective vs armor and cavalry; Windweave",
+            "situational": "Armored or cavalry maps: open slot, held at 11/27"
+          }
+        ],
+        "equipment": [
+          {
+            "item": "Hexlock Shield",
+            "why": "Hold at 11/27: Res +5, Wt 4 on the Res wall",
+            "slot": "Defense",
+            "alts": [
+              "Talisman Shield"
+            ]
+          }
+        ],
+        "items": [
+          {
+            "item": "Elixir",
+            "why": "Heals 100: part of her 11/27 stock",
+            "alts": [
+              "Concoction"
+            ]
+          }
+        ],
+        "arts": [
+          {
+            "name": "Tempest Spear",
+            "why": "Spear D: Mt +4, Hit +10"
+          },
+          {
+            "name": "Protective Spear",
+            "why": "Spear C: Ddg +20"
+          }
+        ],
+        "spells": [
+          {
+            "name": "Heal",
+            "why": "White D: 10 HP"
+          },
+          {
+            "name": "Nosferatu",
+            "why": "White C: heals half the damage dealt"
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Watchfulness",
+            "why": "Personal Lv 20: Spd +2 to adjacent allies"
+          },
+          {
+            "name": "Spears Lv. 1",
+            "why": "Spear D+: Hit +3"
+          },
+          {
+            "name": "Spears Lv. 2",
+            "why": "Spear C+ ?: Hit +5"
+          },
+          {
+            "name": "Defense Formation",
+            "why": "Authority D: adjacent allies Shld +1, on her aura tile"
+          },
+          {
+            "name": "Read the Winds",
+            "why": "Flying D: Avo +10 vs bows; works on foot"
+          }
+        ],
+        "training": [
+          {
+            "rank": "Spear B",
+            "for": "Guardian (Part II Ch 2)",
+            "how": "Arena Mounted every week (Heavy is full); Spear is a boon"
+          },
+          {
+            "rank": "White Magic B",
+            "for": "Recover and the Bishop stint (Part II Ch 4)",
+            "how": "Arena Mage on a free week; else Part II heals"
+          },
+          {
+            "rank": "Flying D, Authority D",
+            "for": "Read the Winds, Defense Formation",
+            "how": "Same Arena Mounted weeks: Flier and Authority train with Spear ?"
+          }
+        ],
+        "tips": [
+          "Her Salamander (Gauntlet E, magic damage) goes to Mu for the Part II Ch 5 Dagda fight",
+          "Part II Ch 1: second line next to Sirocco; Watchfulness gives him Spd +2",
+          "Part II brings only what she holds at 11/27: both spears, the Ji, the Hexlock, an Elixir"
+        ]
+      },
+      {
+        "when": "Part II Ch 2–3 · Guardian",
+        "from": {
+          "part": 2,
+          "ch": 2
+        },
+        "to": {
+          "part": 2,
+          "ch": 3
+        },
+        "level": "Lv 35 to 41",
+        "class": "Guardian",
+        "kind": "core",
+        "goal": "Res wall in front of the mages; Watchfulness+ (Lv 35) gives each adjacent ally Spd +4. Master Brace.",
+        "exit": "Bishop in Ch 4 once Brace shows and White B is there",
+        "masteries": [
+          "Brace"
+        ],
+        "weapons": [
+          {
+            "item": "Bronze Spear +4",
+            "why": "Mt ?, Hit 90, Wt 7; Def +1 from +3",
+            "plan": "Carried from Part I"
+          },
+          {
+            "item": "Short Spear",
+            "why": "range 1-2: counters mages at 2",
+            "alts": [
+              "Javelin"
+            ]
+          },
+          {
+            "item": "Ji",
+            "why": "Effective vs armor and cavalry; Windweave",
+            "situational": "Armored or cavalry maps: open slot"
+          }
+        ],
+        "equipment": [
+          {
+            "item": "Hexlock Shield",
+            "why": "Res +5, Wt 4 on the Res wall",
+            "slot": "Defense",
+            "alts": [
+              "Talisman Shield"
+            ]
+          }
+        ],
+        "items": [
+          {
+            "item": "Elixir",
+            "why": "Heals 100",
+            "alts": [
+              "Concoction"
+            ]
+          }
+        ],
+        "arts": [
+          {
+            "name": "Tempest Spear",
+            "why": "Spear D: Mt +4, Hit +10"
+          },
+          {
+            "name": "Protective Spear",
+            "why": "Spear C: Ddg +20"
+          }
+        ],
+        "spells": [
+          {
+            "name": "Recover",
+            "why": "White B: heals 30, +10 Magic Heal"
+          },
+          {
+            "name": "Heal",
+            "why": "White D"
+          },
+          {
+            "name": "Nosferatu",
+            "why": "White C: self-heal hit"
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Watchfulness+",
+            "why": "Personal Lv 35: Spd +4 to adjacent allies"
+          },
+          {
+            "name": "Brace",
+            "why": "Guardian mastery: Prt +3 after a kill (once mastered)"
+          },
+          {
+            "name": "Spears Lv. 2",
+            "why": "Spear C+ ?: Hit +5"
+          },
+          {
+            "name": "Read the Winds",
+            "why": "Avo +10 vs bows"
+          },
+          {
+            "name": "Defense Formation",
+            "why": "Adjacent allies Shld +1: same tile as Watchfulness+"
+          }
+        ],
+        "checks": [
+          {
+            "stat": "Res",
+            "at": "Part II Ch 2 (Lv 35)",
+            "need": "An enemy mage's forecast takes under 1/3 of her HP and doesn't double her",
+            "why": "She holds the tile in front of the mages; two-shot, the tile is lost",
+            "fix": [
+              "[[item:Pure Water]] (Res +10, −2 per turn) on mage-heavy maps",
+              "End turns next to Fianna once Barrier is mastered: Res +3",
+              "Wear the Hexlock (Res +5), never the Talisman (Res +2)"
+            ]
+          }
+        ],
+        "tips": [
+          "Part II gives 5 Advanced Licenses per chapter; Guardian takes one in Ch 2",
+          "Ch 3 hold: she takes the mage-side choke; Short Spear answers at 2"
+        ],
+        "drop": [
+          {
+            "item": "Spears Lv. 1",
+            "why": "Slot goes to Brace"
+          },
+          {
+            "item": "Spears Lv. 3",
+            "why": "Needs Spear B+: Ch 6 or Part III"
+          }
+        ]
+      },
+      {
+        "when": "Part II Ch 4–5 · Bishop stint",
+        "from": {
+          "part": 2,
+          "ch": 4
+        },
+        "to": {
+          "part": 2,
+          "ch": 5
+        },
+        "level": "Lv 41 to 42",
+        "class": "Bishop",
+        "kind": "detour",
+        "goal": "Barrier (Res +3) on the unit whose job is standing next to allies. Needs White B; skip if it isn't there.",
+        "exit": "Back to Guardian once Barrier is mastered",
+        "masteries": [
+          "Barrier"
+        ],
+        "equipment": [
+          {
+            "item": "Hexlock Shield",
+            "why": "Res +5, Wt 4: she still faces mages",
+            "slot": "Defense",
+            "alts": [
+              "Talisman Shield"
+            ]
+          }
+        ],
+        "items": [
+          {
+            "item": "Elixir",
+            "why": "Heals 100; stocked before 11/27",
+            "alts": [
+              "Concoction"
+            ]
+          }
+        ],
+        "spells": [
+          {
+            "name": "Recover",
+            "why": "White B: doubled casts in Bishop"
+          },
+          {
+            "name": "Heal",
+            "why": "White D"
+          },
+          {
+            "name": "Nosferatu",
+            "why": "White C: self-heal hit"
+          },
+          {
+            "name": "Wind",
+            "why": "Black D: effective vs the Ch 4 Dragoons"
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Barrier",
+            "why": "Bishop mastery: Res +3 to adjacent allies (once mastered)"
+          },
+          {
+            "name": "Watchfulness+",
+            "why": "Personal Lv 35: Spd +4 to adjacent allies"
+          },
+          {
+            "name": "Brace",
+            "why": "Guardian mastery: Prt +3 after a kill"
+          },
+          {
+            "name": "Black Magic Lv. 1",
+            "why": "Black D+: Hit +3 on Wind"
+          },
+          {
+            "name": "Defense Formation",
+            "why": "Adjacent allies Shld +1 while she heals"
+          }
+        ],
+        "drop": [
+          {
+            "item": "Bronze Spear +4",
+            "why": "Bishop has no spears; it stays in her bag for Ch 6"
+          },
+          {
+            "item": "Short Spear",
+            "why": "Bishop has no spears; it stays in her bag for Ch 6"
+          },
+          {
+            "item": "Tempest Spear",
+            "why": "Spear art"
+          },
+          {
+            "item": "Protective Spear",
+            "why": "Spear art"
+          }
+        ],
+        "tips": [
+          "Everyone is back in their main class for Ch 5 if Barrier shows in Ch 4",
+          "Ch 5 Dagda: Barrier the casters who hit him; start outside the Onager's range"
+        ]
+      },
+      {
+        "when": "Part II Ch 6 · Guardian",
+        "from": {
+          "part": 2,
+          "ch": 6
+        },
+        "to": {
+          "part": 2,
+          "ch": 6
+        },
+        "level": "Lv 42",
+        "class": "Guardian",
+        "kind": "core",
+        "goal": "Back to Guardian: one tile next to her now gives Spd +4 (Watchfulness+) and Res +3 (Barrier).",
+        "exit": "Sentinel at Lv 45 in Part III (Spear A)",
+        "masteries": [],
+        "weapons": [
+          {
+            "item": "Bronze Spear +4",
+            "why": "Mt ?, Hit 90, Wt 7; Def +1 from +3",
+            "plan": "Carried from Part I"
+          },
+          {
+            "item": "Short Spear",
+            "why": "range 1-2: counters mages at 2",
+            "alts": [
+              "Javelin"
+            ]
+          },
+          {
+            "item": "Ji",
+            "why": "Effective vs armor and cavalry; Windweave",
+            "situational": "Armored or cavalry maps: open slot"
+          }
+        ],
+        "equipment": [
+          {
+            "item": "Hexlock Shield",
+            "why": "Res +5, Wt 4 on the Res wall",
+            "slot": "Defense",
+            "alts": [
+              "Talisman Shield"
+            ]
+          }
+        ],
+        "items": [
+          {
+            "item": "Elixir",
+            "why": "Heals 100",
+            "alts": [
+              "Concoction"
+            ]
+          }
+        ],
+        "arts": [
+          {
+            "name": "Tempest Spear",
+            "why": "Spear D: Mt +4, Hit +10"
+          },
+          {
+            "name": "Protective Spear",
+            "why": "Spear C: Ddg +20"
+          }
+        ],
+        "spells": [
+          {
+            "name": "Recover",
+            "why": "White B: heals 30"
+          },
+          {
+            "name": "Heal",
+            "why": "White D"
+          },
+          {
+            "name": "Nosferatu",
+            "why": "White C: self-heal hit"
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Watchfulness+",
+            "why": "Personal Lv 35: Spd +4 to adjacent allies"
+          },
+          {
+            "name": "Barrier",
+            "why": "Bishop mastery: Res +3 to adjacent allies"
+          },
+          {
+            "name": "Brace",
+            "why": "Guardian mastery: Prt +3 after a kill"
+          },
+          {
+            "name": "Spears Lv. 3",
+            "why": "Spear B+ ? (Guardian Spear +3): Hit/Avo +5"
+          },
+          {
+            "name": "Defense Formation",
+            "why": "Adjacent allies Shld +1: Spd +4, Res +3, Shld +1 on one tile"
+          }
+        ],
+        "tips": [
+          "Ch 6 Lyrah: let foes come to you; she holds the tile beside Leda's escort"
+        ],
+        "drop": [
+          {
+            "item": "Spears Lv. 2",
+            "why": "Spears Lv. 3 replaces it"
+          }
+        ]
+      },
+      {
+        "when": "Part III · Sentinel",
+        "from": {
+          "part": 3
+        },
+        "level": "Lv 45+",
+        "class": "Sentinel",
+        "kind": "core",
+        "goal": "Aura tile: Watchfulness+ Spd +4, Barrier Res +3, Defense Formation Shld +1; Fortify heals all within 5.",
+        "exit": "Final class.",
+        "masteries": [
+          "Resolute Stance"
+        ],
+        "weapons": [
+          {
+            "item": "Bronze Spear +4",
+            "why": "Main: Mt ? (jump at +3), Hit 90, Wt 7, Def up",
+            "plan": "Carried from Part I at +4; Soulstone for +3 and +4; Da Mina +2 until then",
+            "alts": [
+              "Da Mina Spear +2"
+            ]
+          },
+          {
+            "item": "Short Spear +2",
+            "why": "1-2 range: counters mages at 2",
+            "plan": "Her copy, refined to +2"
+          },
+          {
+            "item": "Ji +2",
+            "why": "Effective vs armor and cavalry; Windweave",
+            "situational": "Armored or cavalry maps: open slot"
+          }
+        ],
+        "equipment": [
+          {
+            "item": "Talisman Shield",
+            "why": "Def +1, Res +2, Wt 3: keeps extra Wt at 6 with the staff",
+            "slot": "Defense",
+            "alts": [
+              "Hexlock Shield"
+            ]
+          },
+          {
+            "item": "Healing Staff",
+            "why": "+10 HP per heal on top of Sentinel's Magic Heal +10",
+            "slot": "Accessory",
+            "alts": [
+              "Monastery Staff",
+              "Magic Staff"
+            ]
+          }
+        ],
+        "items": [
+          {
+            "item": "Elixir",
+            "why": "Heals 100",
+            "alts": [
+              "Concoction"
+            ]
+          }
+        ],
+        "arts": [
+          {
+            "name": "Tempest Spear",
+            "why": "Spear D: Mt +4, Hit +10"
+          },
+          {
+            "name": "Protective Spear",
+            "why": "Spear C: Ddg +20"
+          }
+        ],
+        "spells": [
+          {
+            "name": "Rescue",
+            "why": "White A, single source"
+          },
+          {
+            "name": "Fortify",
+            "why": "White S, single source: heals 20 to allies within 5"
+          },
+          {
+            "name": "Recover",
+            "why": "White B: heals 30"
+          },
+          {
+            "name": "Nosferatu",
+            "why": "White C: self-heal hit"
+          },
+          {
+            "name": "Heal",
+            "why": "White D"
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Watchfulness+",
+            "why": "Personal Lv 35: Spd +4 to adjacent allies"
+          },
+          {
+            "name": "Barrier",
+            "why": "Bishop mastery: Res +3 to adjacent allies"
+          },
+          {
+            "name": "Defense Formation",
+            "why": "Authority D: adjacent allies Shld +1"
+          },
+          {
+            "name": "Resolute Stance",
+            "why": "Sentinel mastery: Shld +5 at full HP (once mastered)"
+          },
+          {
+            "name": "Spears Lv. 4",
+            "why": "Spear A+: Hit/Avo +7 with spears; Lv. 3 until A+"
+          }
+        ],
+        "training": [
+          {
+            "rank": "Spear A",
+            "for": "Sentinel (Lv 45)",
+            "how": "Part II spear fights; Arena seats bench first"
+          },
+          {
+            "rank": "Spear A+, White S",
+            "for": "Spears Lv. 4, Fortify",
+            "how": "Arena Heavy and Mage Training"
+          }
+        ],
+        "tips": [
+          "Seat: Balor center (C) for Dante or Olympia: Spd +4 and Res +3 on the strikers she touches",
+          "Lyrah or Drake (on foot): healer seat for Olympia or Fianna",
+          "Tile: between two strikers before Leda dances; Spd +4 turns near-doubles into doubles",
+          "Mage-heavy maps: Hexlock Shield (Res +5) for the Talisman Shield"
+        ],
+        "drop": [
+          {
+            "item": "Hexlock Shield",
+            "why": "Talisman Shield keeps extra Wt at 6; Hexlock on mage maps"
+          },
+          {
+            "item": "Brace",
+            "why": "An aura tank rarely kills; Defense Formation helps every neighbour"
+          }
+        ],
+        "why": [
+          "No Master License planned (bench): Guardian runs the same kit (Magic Heal +10) until one is spare",
+          "Boon answer: no sword; stand in Leda's ring or within 2 of Eshmel",
+          "Bronze Spear +4 (held, Def up, Hit 90): damage isn't her job; Wooden +4 is too weak"
+        ]
+      }
+    ],
+    "alt": "Bishop (Mag 60, Res 65) as her main class if you lose a healer. Without White B by Part II Ch 4, skip the Bishop stint and stay Guardian.",
+    "sources": [
+      "class-and-weapon-guide",
+      "growth.py",
+      "character-learnsets",
+      "class-data",
+      "weapons-and-items",
+      "walkthrough-part1-leda",
+      "part2-war"
+    ],
+    "gates": [
+      {
+        "route": "Leda",
+        "from": {
+          "part": 1,
+          "ch": 4
+        },
+        "by": {
+          "part": 1,
+          "ch": 10
+        },
+        "kind": "recruit",
+        "text": "Sha Lan needs Queen of the Erased cleared by 10/14, plus Support 3 and Renown 8"
+      },
+      {
+        "route": "Leda",
+        "from": {
+          "part": 1,
+          "ch": 10
+        },
+        "by": {
+          "part": 1,
+          "ch": 12
+        },
+        "kind": "rank",
+        "text": "Arena Heavy every week: Sha Lan needs Spear B by 11/27 for Guardian"
+      }
+    ],
+    "decisions": [
+      {
+        "topic": "Take the Bishop stint for Barrier",
+        "pick": "Part II Ch 4 to 5, then back to Guardian",
+        "why": "Barrier (Res +3) lands on the same adjacent tiles as Watchfulness+ (Spd +4), so one tile gives both. It costs two maps of Guardian growth; skip it if White B isn't there by Ch 4.",
+        "else": "Stay Guardian through Part II"
+      },
+      {
+        "topic": "Wear the Hexlock, not a staff",
+        "pick": "Hexlock Shield (Res +5, Wt 4)",
+        "why": "Three healers already carry staffs, and her job is eating magic. Hexlock is 4 over the weapon, inside the hybrid budget of 6; a Healing Staff on top makes 7.",
+        "else": "Talisman Shield (Res +2, Wt 3) + Healing Staff (Wt 3) = 6"
+      }
+    ],
+    "routeNotes": [
+      {
+        "system": "Supports",
+        "note": "Partners here: Sirocco and Halvin, plus Nezha if you recruit him. Once she joins, seat Leda + Sha Lan + Sirocco on Ch 11 and 12 Sundays, then Leda + Sha Lan + Halvin."
+      },
+      {
+        "system": "Paralogue",
+        "note": "Queen of the Erased (Anatolia, City Streets, 10/5–10/14) must be cleared to recruit her; it also gives the Electron Agitator."
+      }
+    ]
+  },
+  "sources": [
+    "https://fortunesweave.co.uk/characters/sha-lan",
+    "https://www.keengamer.com/articles/guides/fire-emblem-fortunes-weave-tier-list-best-characters-ranked-for-every-route/",
+    "https://www.pockettactics.com/fire-emblem-fortunes-weave/tier-list"
+  ],
+  "recruitOn": {
+    "Dietrich": {
+      "how": "recruit",
+      "support": 3,
+      "renown": 10,
+      "task": "clear Anatolia's Paralogue, answers: Saramis → Da Mina → Grounded Ship"
+    },
+    "Leda": {
+      "how": "recruit",
+      "support": 3,
+      "renown": 8,
+      "task": "Clear Anatolia's Paralogue (Queen of the Erased), then answer Saramis → Da Mina → Grounded Ship",
+      "window": "Paralogue 10/5–10/14"
+    }
+  }
+}

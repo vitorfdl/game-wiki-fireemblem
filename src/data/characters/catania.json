@@ -1,0 +1,1465 @@
+{
+  "name": "Catania",
+  "slug": "catania",
+  "epithet": "Mercenary with sterling skill",
+  "faction": "Neutral",
+  "homeRoute": "Leda",
+  "weapons": [
+    "Sword",
+    "Spear"
+  ],
+  "preferred": [
+    "Spear",
+    "Sword"
+  ],
+  "avoid": [
+    "Heavy"
+  ],
+  "personality": "Dignified perfectionist who values quality and seeks strong opponents.",
+  "story": "A Cydonian who served a noble until she lost everything around 1444; by 1449 she is a mercenary keeping her dignity despite poverty. She joins automatically on Leda's route (as the recruitment tutorial per KeenGamer).",
+  "personalSkill": {
+    "name": "Punishing Squall",
+    "effect": "Hit+20 when Attack Speed >= foe's AS+3. Lv20: Wind My Friend (Atk+3 when AS >= foe's AS+5); Lv35: Wind My Friend+ (adds Avo+20 when AS >= foe's AS+8)."
+  },
+  "growths": {
+    "HP": 35,
+    "Str": 35,
+    "Mag": 35,
+    "Spd": 55,
+    "Dex": 50,
+    "Def": 30,
+    "Res": 35,
+    "Lck": 40,
+    "Cha": 45
+  },
+  "supports": [
+    "Dietrich",
+    "Lysander"
+  ],
+  "tiers": [
+    {
+      "source": "Pocket Tactics",
+      "tier": "A"
+    },
+    {
+      "source": "KeenGamer",
+      "tier": "A"
+    }
+  ],
+  "tierNotes": "Pocket Tactics A; KeenGamer A (speedster).",
+  "recruit": {
+    "how": "auto",
+    "why": [
+      "Joins Leda's army automatically, so there's no Support or Renown to chase."
+    ]
+  },
+  "requirements": {
+    "Cai": "3S 10R",
+    "Dietrich": "8R",
+    "Theodora": "3S 7R",
+    "Leda": "Auto (tutorial)"
+  },
+  "build": {
+    "role": "Second Physic healer (spear Guardian) and the army's only flier",
+    "path": [
+      "Ornius Rider",
+      "Wing Soldier",
+      "Guardian",
+      "Bishop (Part II side trip: doubled Physic, Barrier)",
+      "Guardian",
+      "Sentinel"
+    ],
+    "part1Target": "Guardian (Wing Soldier stays certified for flier maps)",
+    "part3Target": "Sentinel",
+    "notes": "She is the only Physic plus Warp unit. Wing Soldier (Ch 6 to 9) flies and masters Protecting Wings while the Arena trains White B and Spear B. Guardian at Lv 35 (Ch 10). Part II Ch 3 to 4 is a Bishop stint: doubled Physic for Ch 3 and Barrier.",
+    "confidence": "medium"
+  },
+  "guide": {
+    "role": "Second healer, the only flier, Res wall",
+    "summary": "Second Physic user and the army's only flier. Wing Soldier until Lv 35 (Ch 6 to 9), then Guardian: a spear front-liner with Physic, Magic Heal +10 and Res 50 growth who walls the mage side. Switch back to Wing Soldier for free when a map needs wings.",
+    "playstyle": "Hold the second line on the mage side and Physic whoever is cut off. Strike only foes she outspeeds by 3 (Punishing Squall Hit +20) or 5 (Wind My Friend Atk +3). While flying, dismount or pull back when the danger line shows an archer.",
+    "focus": [
+      "Spd",
+      "Res",
+      "Def"
+    ],
+    "keys": [
+      "Ornius Rider in Ch 5, Wing Soldier at Lv 20 (Ch 6): the army's only wings",
+      "Arena Mage Training on alternate weeks from Ch 6 for White B; Mounted for Spear B",
+      "Guardian the day she shows Lv 35 with Spear B (Ch 10, Ch 11 at worst)",
+      "Learn Physic (White B) before the Ch 11 battle; Seraphim (White C) for the undead",
+      "Keep Wing Soldier certified: fly the Part II Ch 2 Ranger for Cleansing Blade +1"
+    ],
+    "watch": [
+      "Bows: 3x damage on fliers. Dismount when the danger line shows an archer",
+      "Weight as Wing Soldier: Wooden Spear +5 5 + Phantom Ring 3 = 8. Drop the ring if AS +5 stops",
+      "Weight as Sentinel: Iron Spear +4 7 + Healing Staff 3 = 10, no Spd from the spear. Wind My Friend+ AS +8 needs Quick Thrust",
+      "Heals: Wing Soldier can't cast White Magic, so she heals only as Guardian or Bishop",
+      "Mount: no pegasus on Leda's route, so Wing Soldier runs base rates (Spd +0)"
+    ],
+    "stages": [
+      {
+        "when": "Ch 4 · join class unknown",
+        "from": {
+          "part": 1,
+          "ch": 4
+        },
+        "to": {
+          "part": 1,
+          "ch": 4
+        },
+        "level": "Join level to Lv 5",
+        "class": "",
+        "kind": "core",
+        "goal": "Joins through the Ch 4 recruitment tutorial. Fight her toward Lv 5 for the Ch 5 exam.",
+        "exit": "Ornius Rider exam in Ch 5 (Beginner License).",
+        "masteries": [],
+        "weapons": [
+          {
+            "item": "Iron Spear",
+            "why": "Main weapon; spears are effective vs cavalry"
+          },
+          {
+            "item": "Javelin",
+            "why": "Range 1-2 chip and counters"
+          }
+        ],
+        "items": [
+          {
+            "item": "Vulnerary",
+            "why": "Heals 20: she fights at the front"
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Spears Lv. 1",
+            "why": "Spear D+?: spear Hit +3"
+          },
+          {
+            "name": "Knightly Senses",
+            "why": "Riding D?: Avo +10 vs spears"
+          },
+          {
+            "name": "Read the Winds",
+            "why": "Flying D?: Avo +10 vs bows"
+          },
+          {
+            "name": "Positioning",
+            "why": "Infantry D?: Avo +10 on favorable terrain"
+          },
+          {
+            "name": "Distraction",
+            "why": "Authority D?: Hit -3 on adjacent foes"
+          }
+        ],
+        "tips": [
+          "No Arena before Ch 5 and starting ranks are undocumented: equip the D abilities the menu shows, in this order"
+        ]
+      },
+      {
+        "when": "Ch 5",
+        "from": {
+          "part": 1,
+          "ch": 5
+        },
+        "to": {
+          "part": 1,
+          "ch": 5
+        },
+        "level": "Lv 5 to 20",
+        "class": "Ornius Rider",
+        "kind": "core",
+        "goal": "Spd 65 growth while the Arena builds Flying, Spear and Sword. No accessory: Punishing Squall wants AS +3.",
+        "exit": "Leave at Lv 20 once Renown 4 opens Wing Soldier (Ch 6) with Flying D, Spear C and Sword C.",
+        "why": [
+          "Exam needs Riding E+, Axe D and Spear D: take it at 75% or better"
+        ],
+        "masteries": [
+          "Offense Basics"
+        ],
+        "weapons": [
+          {
+            "item": "Iron Spear",
+            "why": "Main weapon; spears are effective vs cavalry"
+          },
+          {
+            "item": "Javelin",
+            "why": "Range 1-2 chip and counters"
+          }
+        ],
+        "items": [
+          {
+            "item": "Vulnerary",
+            "why": "Heals 20: she fights at the front"
+          }
+        ],
+        "arts": [
+          {
+            "name": "Flowing Spear",
+            "why": "Spear D: Avo +10"
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Offense Basics",
+            "why": "Ornius Rider mastery: Str/Mag +1 (once mastered)"
+          },
+          {
+            "name": "Spears Lv. 1",
+            "why": "Spear rank ability (D+): Hit +3 with spears"
+          },
+          {
+            "name": "Wind My Friend",
+            "why": "Personal Lv 20: Atk +3 at AS +5 over the foe (from Lv 20)"
+          },
+          {
+            "name": "Knightly Senses",
+            "why": "Riding D (Mounted course): Avo +10 vs spears"
+          },
+          {
+            "name": "Read the Winds",
+            "why": "Flying D (same course): Avo +10 vs bows"
+          }
+        ],
+        "training": [
+          {
+            "rank": "Flier D",
+            "for": "Wing Soldier (Ch 6)",
+            "how": "Arena Mounted Training (Spear, Rider, Flier)"
+          },
+          {
+            "rank": "Spear C",
+            "for": "Wing Soldier",
+            "how": "Same Mounted session"
+          },
+          {
+            "rank": "Sword C",
+            "for": "Wing Soldier",
+            "how": "Arena Infantry or Warrior Training on a spare seat"
+          },
+          {
+            "rank": "Riding D",
+            "for": "Knightly Senses",
+            "how": "Same Mounted session"
+          }
+        ]
+      },
+      {
+        "when": "Ch 6 to 9",
+        "from": {
+          "part": 1,
+          "ch": 6
+        },
+        "to": {
+          "part": 1,
+          "ch": 9
+        },
+        "level": "Lv 20 to 35",
+        "class": "Wing Soldier",
+        "kind": "core",
+        "mount": "No pegasus on Leda's route (Stables are Cai's): base Wing Soldier rates",
+        "goal": "The army's only flier; master Protecting Wings and push Spear B. White B comes from the Arena.",
+        "exit": "Guardian at Lv 35 with Spear B once Renown 8 opens it (Ch 10); keep Wing Soldier.",
+        "why": [
+          "Wind My Friend (Lv 20): Atk +3 at AS +5 over the foe; Punishing Squall adds Hit +20 at AS +3",
+          "Wing Soldier can't cast White Magic: heals wait for Guardian"
+        ],
+        "masteries": [
+          "Protecting Wings"
+        ],
+        "weapons": [
+          {
+            "item": "Wooden Spear +5",
+            "why": "Mt ? (big jump at +5), Hit 90, Wt 5: lightest spear; common ores",
+            "alts": [
+              "Iron Spear"
+            ],
+            "plan": "Refine at the Blacksmith (Ch 6)"
+          },
+          {
+            "item": "Javelin",
+            "why": "Range 1-2 chip and counters"
+          }
+        ],
+        "equipment": [
+          {
+            "item": "Phantom Ring",
+            "why": "Avo +5 at Wt 3: the most a flier's budget allows",
+            "slot": "Accessory"
+          }
+        ],
+        "items": [
+          {
+            "item": "Concoction",
+            "why": "Heals 40",
+            "alts": [
+              "Vulnerary"
+            ]
+          }
+        ],
+        "arts": [
+          {
+            "name": "Quick Thrust",
+            "why": "Spear C: AS +3, which keeps Punishing Squall on"
+          },
+          {
+            "name": "Flowing Spear",
+            "why": "Spear D: Avo +10"
+          },
+          {
+            "name": "Crosswise Cut",
+            "why": "Sword C: Dex +2 a use until map end"
+          },
+          {
+            "name": "Haze Slice",
+            "why": "Sword D: Avo +10"
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Protecting Wings",
+            "why": "Wing Soldier mastery: Res +3 (once mastered)"
+          },
+          {
+            "name": "Wind My Friend",
+            "why": "Personal Lv 20: Atk +3 when her AS is 5+ over the foe's"
+          },
+          {
+            "name": "Spears Lv. 2",
+            "why": "Spear rank ability (C+): Hit +5 with spears"
+          },
+          {
+            "name": "Flitting Flier",
+            "why": "Flying C+: AS +2 attacking first; feeds Squall and WMF"
+          },
+          {
+            "name": "Read the Winds",
+            "why": "Flying D: Avo +10 vs bows, which deal 3x to her"
+          }
+        ],
+        "training": [
+          {
+            "rank": "Spear B",
+            "for": "Guardian (Lv 35, Renown 8)",
+            "how": "Arena Mounted Training; spear fights"
+          },
+          {
+            "rank": "White Magic B",
+            "for": "Physic before the Ch 11 battle",
+            "how": "Arena Mage Training on alternate weeks; the Ch 8 White-Magic Manual"
+          },
+          {
+            "rank": "Flying C+",
+            "for": "Flitting Flier (AS +2 when she attacks first)",
+            "how": "Same Mounted session"
+          }
+        ],
+        "checks": [
+          {
+            "stat": "Spd",
+            "at": "Lv 25",
+            "need": "Forecast shows x2 with the Wooden Spear +5 on Ch 7 infantry",
+            "why": "Punishing Squall (AS +3) and Wind My Friend (AS +5) key off her AS lead",
+            "fix": [
+              "Take off the Phantom Ring (Wt 3) first",
+              "[[item:Date Juice]] (AS +3) on a map where the double decides it",
+              "Ch 9+: let Leda dance her, then attack again with Spd +3"
+            ]
+          }
+        ],
+        "drop": [
+          {
+            "item": "Iron Spear",
+            "why": "Replaced by the Wooden Spear +5: Hit 90, Wt 5"
+          },
+          {
+            "item": "Da Mina Spear",
+            "why": "Skip: Wt 7, Hit 80; Wooden +5 keeps AS +5 for Wind My Friend"
+          },
+          {
+            "item": "Iron Sword",
+            "why": "Wooden Spear +5 is Wt 5, 1 more for far more Mt"
+          },
+          {
+            "item": "Offense Basics",
+            "why": "Flitting Flier feeds Punishing Squall"
+          },
+          {
+            "item": "Knightly Senses",
+            "why": "Read the Winds: bows are the flier's threat"
+          }
+        ],
+        "tips": [
+          "Flying Manual: Dione Fort (Lv 18); White-Magic Manual: Purloined Spellcasters Tools (Ch 8)",
+          "Bows deal 3x to fliers: dismount when the danger line shows an archer (mounting is free)",
+          "Buy the Ji in Port of Pandora on the Ch 9 trip: it waits for Guardian's armored Ch 10",
+          "Blacksmith (Ch 6): Wooden Spear to +5 on common ores"
+        ]
+      },
+      {
+        "when": "Ch 10 to 12",
+        "from": {
+          "part": 1,
+          "ch": 10
+        },
+        "to": {
+          "part": 1,
+          "ch": 12
+        },
+        "level": "Lv 35 to 37",
+        "class": "Guardian",
+        "kind": "core",
+        "goal": "Physic and Seraphim on a spear front-liner, Res 50 growth; master Brace. Physic before the Ch 11 battle.",
+        "exit": "Stay into Part II; Wing Soldier and Bishop are switches there.",
+        "why": [
+          "Third Advanced exam of the route: the day she shows Lv 35 with Spear B (Ch 10, Ch 11 at worst)",
+          "Guardian is carried in from Dietrich's run; a normal Advanced License",
+          "Wind My Friend+ (Lv 35): Atk +3 at AS +5, Avo +20 at AS +8"
+        ],
+        "masteries": [
+          "Brace"
+        ],
+        "weapons": [
+          {
+            "item": "Wooden Spear +5",
+            "why": "Mt ?, Hit 90, Wt 5: works as Wing Soldier and Guardian"
+          },
+          {
+            "item": "Ji",
+            "why": "Effective vs armor and cavalry; Windweave",
+            "situational": "Armored maps (Ch 10) and cavalry: open slot"
+          }
+        ],
+        "equipment": [
+          {
+            "item": "Healing Staff",
+            "why": "+10 HP on every heal, Wt 3",
+            "slot": "Accessory",
+            "alts": [
+              "Orchel's Regret reward (Ch 11)"
+            ]
+          },
+          {
+            "item": "Talisman Shield",
+            "why": "Res +2, Def +1 at Wt 3 on mage maps",
+            "slot": "Defense",
+            "situational": "Mage-heavy maps (Ch 11): swap in; drop it if she stops doubling"
+          }
+        ],
+        "items": [
+          {
+            "item": "Elixir",
+            "why": "Heals 100: front-line Guardian",
+            "alts": [
+              "Concoction"
+            ]
+          }
+        ],
+        "arts": [
+          {
+            "name": "Quick Thrust",
+            "why": "Spear C: AS +3, which keeps Punishing Squall on"
+          },
+          {
+            "name": "Flowing Spear",
+            "why": "Spear D: Avo +10"
+          },
+          {
+            "name": "Windweave",
+            "why": "Ji art: 10% no counter"
+          }
+        ],
+        "spells": [
+          {
+            "name": "Physic",
+            "why": "White B: heals 8 at range 1-10, +10 staff, +10 Guardian"
+          },
+          {
+            "name": "Seraphim",
+            "why": "White C: effective vs undead, range 1-2"
+          },
+          {
+            "name": "Heal",
+            "why": "White D: cheap adjacent heal"
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Brace",
+            "why": "Guardian mastery: Prt +3 after a kill (once mastered)"
+          },
+          {
+            "name": "Wind My Friend+",
+            "why": "Personal Lv 35: adds Avo +20 at AS +8; replaces the base"
+          },
+          {
+            "name": "Protecting Wings",
+            "why": "Wing Soldier mastery: Res +3"
+          },
+          {
+            "name": "Spears Lv. 2",
+            "why": "Spear rank ability (C+): Hit +5 with spears"
+          },
+          {
+            "name": "Knightly Senses",
+            "why": "Riding D: Avo +10 vs spears on the front line"
+          }
+        ],
+        "training": [
+          {
+            "rank": "Spear A",
+            "for": "Sentinel (Part III)",
+            "how": "Guardian fights (Spear +3); Arena seats bench first"
+          },
+          {
+            "rank": "White Magic A",
+            "for": "Warp",
+            "how": "Guardian fights (White +1); Stolen Star Observations (Ch 12) manual"
+          }
+        ],
+        "checks": [
+          {
+            "stat": "Res",
+            "at": "Ch 11 prep",
+            "need": "Forecast: one Ch 11 mage hit costs her under a third of her HP",
+            "why": "She walls the mage side and Martila's songs",
+            "fix": [
+              "Song of Icewater+ (Res +7) before the enemy phase",
+              "Keep Protecting Wings (Res +3) equipped",
+              "Talisman Shield (Res +2, Wt 3) on mage maps"
+            ]
+          }
+        ],
+        "drop": [
+          {
+            "item": "Silver Spear",
+            "why": "Skip: 10,000G, unrefined; Wooden +5 is lighter at Hit 90"
+          },
+          {
+            "item": "Javelin",
+            "why": "Seraphim and Physic cover range 2"
+          },
+          {
+            "item": "Phantom Ring",
+            "why": "The Healing Staff takes the accessory slot"
+          },
+          {
+            "item": "Flitting Flier",
+            "why": "Flying only; Guardian is infantry"
+          },
+          {
+            "item": "Read the Winds",
+            "why": "Knightly Senses for the spear front"
+          }
+        ],
+        "tips": [
+          "Advanced Licenses: Megaira in Ch 9, Dagsion from Ch 10",
+          "Weight: Wooden Spear +5 5 + Staff 3 = 8; add the Talisman only on mage maps",
+          "Part II brings only the 6 items she holds at 11/27 (the game says 'equipped'?): keep one slot free for Ch 2"
+        ]
+      },
+      {
+        "when": "Part II Ch 1 to 2",
+        "from": {
+          "part": 2,
+          "ch": 1
+        },
+        "to": {
+          "part": 2,
+          "ch": 2
+        },
+        "level": "Lv 37 to 40",
+        "class": "Guardian",
+        "kind": "core",
+        "goal": "Second Physic user; switch to Wing Soldier for Ch 2 and kill the southeast Ranger before Turn 4.",
+        "exit": "Bishop for Ch 3 to 4 once Ch 2 is done.",
+        "why": [
+          "Wing Soldier is a free switch: the Wooden Spear +5 works in both classes"
+        ],
+        "masteries": [],
+        "weapons": [
+          {
+            "item": "Wooden Spear +5",
+            "why": "Mt ?, Hit 90, Wt 5: her spear in both classes"
+          },
+          {
+            "item": "Ji",
+            "why": "Effective vs armor and cavalry; Windweave",
+            "situational": "Armored or cavalry foes: held from 11/27"
+          }
+        ],
+        "equipment": [
+          {
+            "item": "Healing Staff",
+            "why": "+10 HP on every heal, Wt 3",
+            "slot": "Accessory",
+            "alts": [
+              "Orchel's Regret reward (Ch 11)"
+            ],
+            "plan": "Stocked before 11/27 (no Part II shops)"
+          }
+        ],
+        "items": [
+          {
+            "item": "Elixir",
+            "why": "Heals 100; stocked before 11/27",
+            "alts": [
+              "Concoction"
+            ],
+            "plan": "Stocked before 11/27 (no Part II shops)"
+          }
+        ],
+        "arts": [
+          {
+            "name": "Quick Thrust",
+            "why": "Spear C: AS +3, which keeps Punishing Squall on"
+          },
+          {
+            "name": "Flowing Spear",
+            "why": "Spear D: Avo +10"
+          },
+          {
+            "name": "Windweave",
+            "why": "Ji art: 10% no counter"
+          }
+        ],
+        "spells": [
+          {
+            "name": "Physic",
+            "why": "White B: heals 8 at range 1-10, +10 staff, +10 Guardian"
+          },
+          {
+            "name": "Seraphim",
+            "why": "White C: effective vs undead, range 1-2"
+          },
+          {
+            "name": "Heal",
+            "why": "White D: cheap adjacent heal"
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Wind My Friend+",
+            "why": "Personal Lv 35: adds Avo +20 at AS +8; replaces the base"
+          },
+          {
+            "name": "Brace",
+            "why": "Guardian mastery: Prt +3 after a kill, until her next phase"
+          },
+          {
+            "name": "Protecting Wings",
+            "why": "Wing Soldier mastery: Res +3"
+          },
+          {
+            "name": "Spears Lv. 3",
+            "why": "Spear B+ (Guardian fights): Hit/Avo +5; Lv. 2 until it shows"
+          },
+          {
+            "name": "Read the Winds",
+            "why": "Flying D: Avo +10 vs Ch 2's Rangers"
+          }
+        ],
+        "tips": [
+          "Ch 2 drop: Cleansing Blade +1 from the southeast Ranger (flees from Turn 4). Keep a slot free; it goes to a sword user",
+          "As a Wing Soldier she can't heal: Olympia carries Ch 2's Physic",
+          "Ch 2 as Wing Soldier: Flitting Flier in for Brace (AS +2 when she attacks first)"
+        ],
+        "drop": [
+          {
+            "item": "Knightly Senses",
+            "why": "Read the Winds for Ch 2's Rangers"
+          }
+        ]
+      },
+      {
+        "when": "Part II Ch 3 to 4",
+        "from": {
+          "part": 2,
+          "ch": 3
+        },
+        "to": {
+          "part": 2,
+          "ch": 4
+        },
+        "level": "Lv 40 to 41",
+        "class": "Bishop",
+        "kind": "detour",
+        "goal": "Doubled Physic for Ch 3's hold, which wants several Physic users, and Barrier (Res +3 to adjacent allies).",
+        "exit": "Leave once Barrier is mastered; back to Guardian for Ch 5 and 6.",
+        "why": [
+          "Free Part II Advanced License; White B is already in for Physic",
+          "Guardian doesn't double White Magic; Bishop does"
+        ],
+        "masteries": [
+          "Barrier"
+        ],
+        "weapons": [
+          {
+            "item": "Wooden Spear +5",
+            "why": "Rides in her 6 for Ch 5; Bishop can't use spears",
+            "situational": "Carried, not used, in Ch 3 and 4: held for Guardian",
+            "plan": "No source in the local item list?"
+          }
+        ],
+        "equipment": [
+          {
+            "item": "Healing Staff",
+            "why": "+10 HP on every heal, Wt 3",
+            "slot": "Accessory",
+            "alts": [
+              "Orchel's Regret reward (Ch 11)"
+            ],
+            "plan": "Stocked before 11/27 (no Part II shops)"
+          }
+        ],
+        "items": [
+          {
+            "item": "Elixir",
+            "why": "Heals 100; stocked before 11/27",
+            "alts": [
+              "Concoction"
+            ],
+            "plan": "Stocked before 11/27 (no Part II shops)"
+          }
+        ],
+        "spells": [
+          {
+            "name": "Physic",
+            "why": "White B: doubled uses in Bishop"
+          },
+          {
+            "name": "Seraphim",
+            "why": "White C: effective vs undead, range 1-2"
+          },
+          {
+            "name": "Heal",
+            "why": "White D: cheap adjacent heal"
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Barrier",
+            "why": "Bishop mastery: Res +3 to adjacent allies (once mastered)"
+          },
+          {
+            "name": "Wind My Friend+",
+            "why": "Personal Lv 35: adds Avo +20 at AS +8; replaces the base"
+          },
+          {
+            "name": "Brace",
+            "why": "Guardian mastery: Prt +3 after a kill, until her next phase"
+          },
+          {
+            "name": "Protecting Wings",
+            "why": "Wing Soldier mastery: Res +3"
+          },
+          {
+            "name": "Offense Basics",
+            "why": "Ornius Rider mastery: Str/Mag +1"
+          }
+        ],
+        "tips": [
+          "Ch 3: heal from behind the alley chokepoints with Olympia",
+          "Ch 4 has Dragoons on the map sides: keep her behind the archers"
+        ]
+      },
+      {
+        "when": "Part II Ch 5 to 6",
+        "from": {
+          "part": 2,
+          "ch": 5
+        },
+        "to": {
+          "part": 3,
+          "ch": 2
+        },
+        "level": "Lv 41 to 42",
+        "class": "Guardian",
+        "kind": "core",
+        "goal": "Back to the spear front line with Physic, now with Barrier banked for the tanks beside her.",
+        "exit": "Sentinel at Lv 45 in Part III (Master License, Spear A).",
+        "masteries": [],
+        "weapons": [
+          {
+            "item": "Wooden Spear +5",
+            "why": "Mt ?, Hit 90, Wt 5: her spear in both classes"
+          },
+          {
+            "item": "Ji",
+            "why": "Effective vs armor and cavalry; Windweave",
+            "situational": "Armored or cavalry foes: open slot"
+          }
+        ],
+        "equipment": [
+          {
+            "item": "Healing Staff",
+            "why": "+10 HP on every heal, Wt 3",
+            "slot": "Accessory",
+            "alts": [
+              "Orchel's Regret reward (Ch 11)"
+            ],
+            "plan": "Stocked before 11/27 (no Part II shops)"
+          }
+        ],
+        "items": [
+          {
+            "item": "Elixir",
+            "why": "Heals 100; stocked before 11/27",
+            "alts": [
+              "Concoction"
+            ],
+            "plan": "Stocked before 11/27 (no Part II shops)"
+          }
+        ],
+        "arts": [
+          {
+            "name": "Quick Thrust",
+            "why": "Spear C: AS +3, which keeps Punishing Squall on"
+          },
+          {
+            "name": "Flowing Spear",
+            "why": "Spear D: Avo +10"
+          },
+          {
+            "name": "Windweave",
+            "why": "Ji art: 10% no counter"
+          }
+        ],
+        "spells": [
+          {
+            "name": "Physic",
+            "why": "White B: heals 8 at range 1-10, +10 staff, +10 Guardian"
+          },
+          {
+            "name": "Seraphim",
+            "why": "White C: effective vs undead, range 1-2"
+          },
+          {
+            "name": "Heal",
+            "why": "White D: cheap adjacent heal"
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Wind My Friend+",
+            "why": "Personal Lv 35: adds Avo +20 at AS +8; replaces the base"
+          },
+          {
+            "name": "Brace",
+            "why": "Guardian mastery: Prt +3 after a kill, until her next phase"
+          },
+          {
+            "name": "Barrier",
+            "why": "Bishop mastery: Res +3 to adjacent allies"
+          },
+          {
+            "name": "Protecting Wings",
+            "why": "Wing Soldier mastery: Res +3"
+          },
+          {
+            "name": "Spears Lv. 3",
+            "why": "Spear B+: Hit/Avo +5 with spears"
+          }
+        ],
+        "tips": [
+          "Switch to Wing Soldier again whenever a map wants a flier",
+          "Ch 6 Part 1: Physic the bows that chip Lyrah's shields from the corners"
+        ],
+        "drop": [
+          {
+            "item": "Offense Basics",
+            "why": "Spears Lv. 3 back with the spear"
+          }
+        ]
+      },
+      {
+        "when": "Part III Section 3+ (Sentinel)",
+        "from": {
+          "part": 3,
+          "ch": 3
+        },
+        "level": "Lv 45+",
+        "class": "Sentinel",
+        "kind": "core",
+        "goal": "Doubled White Magic: Physic, Seraphim and Warp on a spear front-liner. Quick Thrust AS +3 feeds her skills.",
+        "exit": "Final class.",
+        "why": [
+          "Underworld Boon: Leda's Abjuring ring in C; at Balor west, Mu's Evilbreak or Aurora Lv 3",
+          "Wind My Friend+ (Avo +20 at AS +8) makes her a spear dodger who heals"
+        ],
+        "masteries": [
+          "Resolute Stance"
+        ],
+        "weapons": [
+          {
+            "item": "Iron Spear +4",
+            "why": "Mt 21?, Hit 80, Wt 7: Dex starts at +3; Quick Thrust covers the AS",
+            "alts": [
+              "Da Mina Spear +2"
+            ],
+            "plan": "Soulstone for +3 and +4; Da Mina +2 until then"
+          },
+          {
+            "item": "Ji +3",
+            "why": "2x vs armor and cavalry; Windweave Hit +10",
+            "situational": "Armored or cavalry maps: open slot",
+            "plan": "The Part III chest copy comes at +3 (no Soulstone)"
+          }
+        ],
+        "equipment": [
+          {
+            "item": "Healing Staff",
+            "why": "+10 HP on every heal, Wt 3",
+            "slot": "Accessory",
+            "alts": [
+              "Magic Staff"
+            ],
+            "plan": "Held from Part I"
+          }
+        ],
+        "items": [
+          {
+            "item": "Elixir",
+            "why": "Heals 100",
+            "alts": [
+              "Concoction"
+            ]
+          }
+        ],
+        "arts": [
+          {
+            "name": "Quick Thrust",
+            "why": "Spear C: AS +3, which keeps Punishing Squall on"
+          },
+          {
+            "name": "Flying Spear",
+            "why": "Spear A: her follow-up lands before the counter"
+          },
+          {
+            "name": "Khamsin",
+            "why": "Spear B: Mt +7; a foe at Hit 20 or less drops to 0"
+          },
+          {
+            "name": "Flowing Spear",
+            "why": "Spear D: Avo +10"
+          },
+          {
+            "name": "Windweave",
+            "why": "Ji art: 10% no counter"
+          }
+        ],
+        "spells": [
+          {
+            "name": "Warp",
+            "why": "White A: she is the only Physic + Warp unit"
+          },
+          {
+            "name": "Physic",
+            "why": "White B: heals 8 at range 1-10, +10 staff, +10 Guardian"
+          },
+          {
+            "name": "Seraphim",
+            "why": "White C: effective vs undead, range 1-2"
+          },
+          {
+            "name": "Heal",
+            "why": "White D: cheap adjacent heal"
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Resolute Stance",
+            "why": "Sentinel mastery: Shld +5 at full HP (once mastered)"
+          },
+          {
+            "name": "Wind My Friend+",
+            "why": "Personal Lv 35: adds Avo +20 at AS +8; replaces the base"
+          },
+          {
+            "name": "Spears Lv. 3",
+            "why": "Spear B+: Hit/Avo +5 in every spear combat"
+          },
+          {
+            "name": "Barrier",
+            "why": "Bishop mastery: Res +3 to adjacent allies"
+          },
+          {
+            "name": "Read the Winds",
+            "why": "Flying D: Avo +10 vs bows"
+          }
+        ],
+        "training": [
+          {
+            "rank": "Spear A",
+            "for": "Sentinel (Lv 45, Master License)",
+            "how": "Guardian fights (Spear +3); Boons of Salvation"
+          }
+        ],
+        "drop": [
+          {
+            "item": "Wooden Spear +5",
+            "why": "Wooden +4 is Mt ~6 without Soulstone; Iron Spear +4 is the gold main"
+          },
+          {
+            "item": "Javelin",
+            "why": "Mt 10 at +2 is not worth Wt 8; Seraphim and Physic work at range"
+          },
+          {
+            "item": "Brace",
+            "why": "Spears Lv. 3 (Hit/Avo +5 every fight) beats Prt +3 after a kill"
+          },
+          {
+            "item": "Protecting Wings",
+            "why": "Read the Winds: Avo +10 vs bows on a dodger beats Res +3"
+          }
+        ],
+        "tips": [
+          "Shenlo: reclass to Wing Soldier (free) to catch the 4 box carriers; Sentinel again after",
+          "Drake: Warp Guzran beside Drake after Leda's Dance, so the rush kills nothing on the way",
+          "Balor west (A): Warp a gate breaker onto the far gate; Mu's Evilbreak strips Boons there",
+          "Second healer in C: front line beside Buccar; Olympia heals from the back"
+        ]
+      }
+    ],
+    "alt": "Stay Wing Soldier into Celestial Trooper for a pure flier with a Cleansing Blade; you lose the second Physic and the only Warp. A Priest stint in Ch 9 only if White Magic is far from B by then: Physic before Ch 11 is worth more than the flier for one chapter.",
+    "sources": [
+      "class-and-weapon-guide",
+      "growth.py",
+      "character-learnsets",
+      "class-data",
+      "weapons-and-items",
+      "combat-arts-and-abilities",
+      "hard-mode-video-notes",
+      "part2-war"
+    ],
+    "decisions": [
+      {
+        "topic": "Skip the Priest side trip",
+        "pick": "Wing Soldier Ch 6 to 9, Guardian at Lv 35",
+        "why": "The Arena Mage course takes White to B (Physic) without a class. Priest would ground the only flier, drop Def growth to 20 and leave her with no weapon, and Piety (Lck +3) never earns a slot.",
+        "else": "Priest in Ch 9 only if White is far from B"
+      },
+      {
+        "topic": "Keep Wing Soldier certified",
+        "pick": "Switch back for flier maps",
+        "why": "She is the army's only flier: Part II Ch 2's fleeing Ranger (Cleansing Blade +1) needs her in the air."
+      },
+      {
+        "topic": "Take Bishop in Part II",
+        "pick": "Bishop Ch 3 to 4 on a free Advanced License",
+        "why": "Ch 3 wants several Physic users and Guardian doesn't double White Magic. Bishop does, and banks Barrier (Res +3 to adjacent allies) for her Sentinel years."
+      }
+    ],
+    "gates": [
+      {
+        "route": "Leda",
+        "from": {
+          "part": 1,
+          "ch": 6
+        },
+        "by": {
+          "part": 1,
+          "ch": 11
+        },
+        "kind": "rank",
+        "text": "Catania needs White Magic B for Physic before the Ch 11 battle: Arena Mage Training"
+      },
+      {
+        "route": "Leda",
+        "from": {
+          "part": 1,
+          "ch": 6
+        },
+        "by": {
+          "part": 1,
+          "ch": 10
+        },
+        "kind": "rank",
+        "text": "Catania needs Spear B for Guardian at Lv 35: Arena Mounted Training"
+      }
+    ],
+    "routeNotes": [
+      {
+        "system": "Supports",
+        "note": "Her only partner here is Lysander (filler, 3S 7R). Seat Leda + Lysander + Catania: his recruit meals build their pair too."
+      },
+      {
+        "system": "Two Physics",
+        "note": "From Ch 10 she and Olympia both carry Physic: Olympia covers the back line, Catania walks or flies to the unit that's cut off."
+      },
+      {
+        "system": "Carried-in classes",
+        "note": "Guardian comes from Dietrich's run: no unlock on this route, just an Advanced License at Lv 35 with Spear B."
+      }
+    ]
+  },
+  "copies": [
+    {
+      "route": "Dietrich",
+      "renown": 8,
+      "chapter": 10,
+      "path": [
+        "Wing Soldier (joins at about Lv 25 in a Specialty class)"
+      ],
+      "role": "Flier, spear and sword speed skirmisher",
+      "part1": "Wing Soldier",
+      "why": "Changed from Myrmidon. Dietrich's army has no fliers, and Part II wants 2 to 3 (Ch 2 asks for fliers to catch a fleeing Ranger before Turn 4). Dragoon isn't unlocked on this path, so Wing Soldier is the only flier she can take. The video rates her B as a Wing Soldier. Trade-off: home Catania is also a Wing Soldier, so the Part III merge gains less; the different-class rule was our own habit, not a game rule.",
+      "guide": {
+        "summary": "Second copy, turned flier: Dietrich's army has none and Part II wants 2 to 3. Wing Soldier is the only flier class on this path (no Dragoon). Spears and light swords keep Punishing Squall's AS +3 check on.",
+        "stages": [
+          {
+            "when": "Join (Ch 10; Renown 8) to end of Part I (Specialty)",
+            "from": {
+              "part": 1,
+              "ch": 10
+            },
+            "class": "Wing Soldier",
+            "training": [
+              {
+                "rank": "Flier D",
+                "for": "Wing Soldier exam",
+                "how": "Both Flying Manuals (Cindered Road Cave, Ch 7; Legacy of a Legendary Sculptor), Arena Mounted Training weekly, Ornius Rider battles (Flying +1)"
+              },
+              {
+                "rank": "Spear B, Sword B",
+                "for": "Head start on Celestial Trooper (Spear A, Sword A)",
+                "how": "Arena Mounted and Infantry Training; Wing Soldier adds Flying +2, Spear +1, Sword +1 per battle"
+              }
+            ],
+            "tips": [
+              "Ch 10+ recruits join at about Lv 25, already in a Specialty class: no Ornius Rider stage. If she isn't a Wing Soldier on joining, take that exam once Flying D shows (both Flying Manuals, Arena Mounted Training)",
+              "Skip Soldier and the armored classes: she avoids Heavy",
+              "Punishing Squall (Hit +20 at AS +3 over the foe) is her personal skill: always on, no slot",
+              "Bows deal 3x damage to fliers. Check archer range before she moves",
+              "Exam needs Flying D, Spear C, Sword C, Lv 20 and a Specialty License; female only",
+              "Wing Soldier gives Spd +4 as a class bonus but no Spd growth",
+              "Wind My Friend (Lv 20, Atk +3 at AS +5) comes with her personal skill: always on, no slot"
+            ],
+            "weapons": [
+              {
+                "item": "Da Mina Spear",
+                "why": "Main spear; Hit +10 with arts"
+              },
+              {
+                "item": "Flyssa",
+                "why": "Wt 4: her sword for Crosswise Cut and Hidden Twinblade; effective vs armor"
+              }
+            ],
+            "arts": [
+              {
+                "name": "Quick Thrust",
+                "why": "AS +3 for the Punishing Squall checks; effective vs cavalry"
+              },
+              {
+                "name": "Crosswise Cut",
+                "why": "Dex +2 stacking; Sword C on her list"
+              },
+              {
+                "name": "Hidden Twinblade",
+                "why": "Teach Secrets (Cabaye); Ddg +20"
+              },
+              {
+                "name": "Flowing Spear",
+                "why": "Avo +10; Spear D on her list"
+              }
+            ],
+            "abilities": [
+              {
+                "name": "Protecting Wings",
+                "why": "Wing Soldier mastery; Res +3 (once mastered)"
+              },
+              {
+                "name": "Offense Basics",
+                "why": "Ornius Rider mastery: Str/Mag +1"
+              },
+              {
+                "name": "Spears Lv. 2",
+                "why": "Spear C+ rank ability (threshold per fortunesweave.co.uk, unverified; check the skill list): Hit +5 with spears"
+              },
+              {
+                "name": "Swords Lv. 1",
+                "why": "Sword D+ rank ability (threshold per fortunesweave.co.uk, unverified; check the skill list): Hit +3 with swords"
+              }
+            ],
+            "goal": "Fly, master Protecting Wings. Wind My Friend (Lv 20): Atk +3 at AS +5, so the Flyssa (4) and Quick Thrust (AS +3) are her damage.",
+            "drop": [
+              {
+                "item": "Iron Spear",
+                "why": "The Da Mina Spear replaces it"
+              },
+              {
+                "item": "Killing Edge",
+                "why": "The Flyssa (Wt 4) carries her sword arts; Deadly Blade is not in her plan"
+              }
+            ],
+            "items": [
+              {
+                "item": "Concoction",
+                "why": "Heals 40; part of her 11/27 stock",
+                "alts": [
+                  "Vulnerary"
+                ]
+              }
+            ],
+            "exit": "Stay Wing Soldier into Part II: she flies in Ch 2"
+          },
+          {
+            "when": "Part II",
+            "from": {
+              "part": 2
+            },
+            "class": "Wing Soldier",
+            "tips": [
+              "Ch 2: catch the southeast Ranger before he flees on Turn 4 (Cleansing Blade +1)",
+              "Stay Wing Soldier through Army Training: Shido or Myrmidon would ground her",
+              "No Advanced flier on this path, so her Advanced Licenses go to others",
+              "Part II brings only the 6 items she holds at 11/27: her best spear, the Flyssa and a Concoction"
+            ],
+            "weapons": [
+              {
+                "item": "Silver Spear",
+                "why": "Mt 20, Wt 6: lighter than the Da Mina Spear",
+                "alts": [
+                  "Da Mina Spear"
+                ]
+              },
+              {
+                "item": "Flyssa",
+                "why": "Wt 4: her sword for Crosswise Cut and Hidden Twinblade; effective vs armor"
+              }
+            ],
+            "arts": [
+              {
+                "name": "Quick Thrust",
+                "why": "AS +3 for the Punishing Squall checks; effective vs cavalry"
+              },
+              {
+                "name": "Crosswise Cut",
+                "why": "Dex +2 stacking; Sword C on her list"
+              },
+              {
+                "name": "Hidden Twinblade",
+                "why": "Teach Secrets (Cabaye); Ddg +20"
+              },
+              {
+                "name": "Flowing Spear",
+                "why": "Avo +10; Spear D on her list"
+              }
+            ],
+            "abilities": [
+              {
+                "name": "Protecting Wings",
+                "why": "Wing Soldier mastery; Res +3"
+              },
+              {
+                "name": "Offense Basics",
+                "why": "Ornius Rider mastery: Str/Mag +1"
+              },
+              {
+                "name": "Spears Lv. 2",
+                "why": "Spear C+ rank ability (threshold per fortunesweave.co.uk, unverified; check the skill list): Hit +5 with spears"
+              },
+              {
+                "name": "Swords Lv. 3",
+                "why": "Sword C+ rank ability (threshold per fortunesweave.co.uk, unverified; check the skill list): Hit/Avo +5 with swords"
+              }
+            ],
+            "drop": [
+              {
+                "item": "Da Mina Spear",
+                "why": "Only the Silver Spear's fallback (alts)"
+              },
+              {
+                "item": "Killing Edge",
+                "why": "The Flyssa (Wt 4) carries her sword arts"
+              },
+              {
+                "item": "Iron Spear",
+                "why": "Replaced by the Da Mina Spear"
+              }
+            ],
+            "goal": "Flier for Ch 2's fleeing Ranger. Wind My Friend+ (Lv 35) adds Avo +20 at AS +8: Silver Spear 6, nothing else equipped.",
+            "items": [
+              {
+                "item": "Concoction",
+                "why": "Heals 40; stocked before 11/27 (no Part II shops)",
+                "alts": [
+                  "Vulnerary"
+                ]
+              }
+            ],
+            "exit": "Part III: merge with the home copy, then Celestial Trooper"
+          },
+          {
+            "when": "Part III goal · merged with home copy",
+            "from": {
+              "part": 3
+            },
+            "class": "Celestial Trooper",
+            "training": [
+              {
+                "rank": "Flier C, Spear A, Sword A",
+                "for": "Celestial Trooper (Lv 45)",
+                "how": "Arena Mounted Training for Spear and Flying, Infantry Training for Sword"
+              }
+            ],
+            "tips": [
+              "Home Catania is also Wing Soldier, so the merge gains less than two different classes would. The different-class rule was our own habit, not a game rule"
+            ],
+            "weapons": [
+              {
+                "item": "Silver Spear",
+                "why": "Mt 20, Wt 6: lighter than the Da Mina Spear",
+                "alts": [
+                  "Da Mina Spear"
+                ]
+              },
+              {
+                "item": "Flyssa",
+                "why": "Wt 4: her sword for Crosswise Cut and Hidden Twinblade; effective vs armor"
+              }
+            ],
+            "equipment": [
+              {
+                "item": "Gale Ring",
+                "slot": "Accessory",
+                "why": "Spd +3 at Wt 2: feeds Punishing Squall (AS +3) and Wind My Friend+ (AS +5, AS +8). No shield: the Shield of Zephyrus (5) breaks a flier's budget",
+                "alts": [
+                  "Phantom Ring"
+                ]
+              }
+            ],
+            "arts": [
+              {
+                "name": "Quick Thrust",
+                "why": "AS +3 for the Punishing Squall checks; effective vs cavalry"
+              },
+              {
+                "name": "Crosswise Cut",
+                "why": "Dex +2 stacking; Sword C on her list"
+              },
+              {
+                "name": "Hidden Twinblade",
+                "why": "Teach Secrets (Cabaye); Ddg +20"
+              },
+              {
+                "name": "Flowing Spear",
+                "why": "Avo +10; Spear D on her list"
+              }
+            ],
+            "abilities": [
+              {
+                "name": "Lightning Reflexes",
+                "why": "Celestial Trooper mastery; follow-up before the counter at AS +10 (once mastered)"
+              },
+              {
+                "name": "Protecting Wings",
+                "why": "Wing Soldier mastery; Res +3"
+              },
+              {
+                "name": "Offense Basics",
+                "why": "Ornius Rider mastery: Str/Mag +1"
+              },
+              {
+                "name": "Spears Lv. 2",
+                "why": "Spear C+ rank ability (threshold per fortunesweave.co.uk, unverified; check the skill list): Hit +5 with spears"
+              },
+              {
+                "name": "Swords Lv. 3",
+                "why": "Sword C+ rank ability (threshold per fortunesweave.co.uk, unverified; check the skill list): Hit/Avo +5 with swords"
+              }
+            ],
+            "goal": "Merge, then Celestial Trooper. Gale Ring Spd +3 keeps Wind My Friend+ and Lightning Reflexes (AS +10) firing.",
+            "drop": [
+              {
+                "item": "Da Mina Spear",
+                "why": "Only the Silver Spear's fallback (alts)"
+              },
+              {
+                "item": "Killing Edge",
+                "why": "The Flyssa (Wt 4) carries her sword arts"
+              }
+            ],
+            "items": [
+              {
+                "item": "Concoction",
+                "why": "Heals 40",
+                "alts": [
+                  "Vulnerary"
+                ]
+              }
+            ],
+            "exit": "Final class."
+          }
+        ],
+        "arts": [
+          {
+            "name": "Quick Thrust",
+            "why": "AS +3 spear art"
+          },
+          {
+            "name": "Crosswise Cut",
+            "why": "Dex stacking"
+          },
+          {
+            "name": "Hidden Twinblade",
+            "why": "Ddg +20: crit avoid, not Avo"
+          },
+          {
+            "name": "Flying Spear",
+            "why": "Spear A; follow-up before the foe's counter"
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Protecting Wings",
+            "why": "Res +3"
+          }
+        ],
+        "specials": [
+          "Both Flying Manuals go to her",
+          "Avoids Heavy",
+          "Only flier in Dietrich's army"
+        ],
+        "sources": [
+          "class plan v3",
+          "weapons-and-items",
+          "character-learnsets",
+          "class-data",
+          "combat-arts-and-abilities",
+          "Dietrich Ch 4 to 9 walkthrough",
+          "Part II walkthrough",
+          "Part III walkthrough"
+        ],
+        "watch": [
+          "Weight (flier, at most 3 over the weapon): Flyssa 4 or Silver Spear 6, plus the Gale Ring 2 in Part III. No Shield of Zephyrus (5) or Bowbreak Amulet (4): both break the budget. Punishing Squall and Wind My Friend need her AS 3 to 8 over the foe"
+        ]
+      }
+    }
+  ],
+  "sources": [
+    "https://fortunesweave.co.uk/characters/catania",
+    "https://www.fortunesweavewiki.wiki/classes/Fortune-s-Weave-best-class",
+    "https://www.pockettactics.com/fire-emblem-fortunes-weave/tier-list",
+    "https://www.keengamer.com/articles/guides/fire-emblem-fortunes-weave-tier-list-best-characters-ranked-for-every-route/"
+  ],
+  "recruitOn": {
+    "Cai": {
+      "how": "recruit",
+      "support": 3,
+      "renown": 10
+    },
+    "Dietrich": {
+      "how": "recruit",
+      "renown": 8
+    },
+    "Theodora": {
+      "how": "recruit",
+      "support": 3,
+      "renown": 7
+    },
+    "Leda": {
+      "how": "auto"
+    }
+  }
+}

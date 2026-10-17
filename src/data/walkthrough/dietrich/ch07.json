@@ -1,0 +1,222 @@
+{
+  "route": "Dietrich",
+  "ch": 7,
+  "name": "Gazing at the Rose Moon",
+  "free": {
+    "from": "5/30",
+    "to": "6/15"
+  },
+  "unlocks": [
+    "Teach Secrets"
+  ],
+  "routine": {
+    "meals": [
+      {
+        "week": "Until Jester and Olympia reach Support 3",
+        "tables": [
+          [
+            "Dietrich",
+            "Jester",
+            "Olympia"
+          ],
+          [
+            "Dietrich",
+            "Simon",
+            "Goliath"
+          ],
+          [
+            "Dietrich",
+            "Dante",
+            "Ursula"
+          ]
+        ],
+        "note": "Order Madazins, Goat Roast and Coffee-Berry Paste: each is Perfect for its table."
+      },
+      {
+        "week": "Then",
+        "tables": [
+          [
+            "Dietrich",
+            "Ursula",
+            "Catania"
+          ],
+          [
+            "Dietrich",
+            "Simon",
+            "Goliath"
+          ],
+          [
+            "Dietrich",
+            "Dante",
+            "Ursula"
+          ]
+        ],
+        "note": "Ursula and Catania take the first table (Coffee-Berry Paste is Perfect)."
+      }
+    ],
+    "weekly": [
+      {
+        "text": "Teach Dietrich's Combat Arts to others for Magic Echo Stones: Jester first once he joins",
+        "detail": [
+          "Rogue and Ranger still use swords, so his arts carry."
+        ]
+      }
+    ]
+  },
+  "missables": [
+    {
+      "id": "dietrich-ch07-missables-sweeties-eye",
+      "quest": "catching-sweeties-eye",
+      "kind": "item",
+      "text": "Give Esmeralda a Mature Blush at the Port by 6/15: Catching Sweetie's Eye is Dietrich only",
+      "when": "by 6/15",
+      "where": "Port",
+      "lose": "the [[item:Sea-Spirit Charm]] on this path",
+      "recover": "None",
+      "detail": [
+        "Look for the Mature Blush at the Item Shop, the Marketplace and Vandahl first."
+      ],
+      "task": true
+    }
+  ],
+  "classes": {
+    "note": {
+      "text": "Catch up on Specialty: anyone who missed Lv 20 or Renown 4 in Ch 6 takes the exam now",
+      "detail": [
+        "Io: [[class:Light Cavalry]] now if his Sword was behind in Ch 6."
+      ]
+    }
+  },
+  "gear": {
+    "buy": [
+      {
+        "text": "Buy cavalry-effective weapons for the battle: [[item:Ridersbane]], [[item:Zanbato]], Ji, Halberd"
+      }
+    ],
+    "note": [
+      {
+        "text": "Leave the [[item:Conflagrant Gem]] in storage: on Mikaela its Hit only repeats Veteran's Mettle",
+        "detail": [
+          "Iron Axe 10 + Gem 5 = Wt 15 gets her doubled. She wears the [[item:Giant's Ring]]."
+        ]
+      }
+    ]
+  },
+  "recruits": [],
+  "prep": [
+    {
+      "text": "Get Jester and Olympia to Support 3 now: recruit both the day Renown 6 lands (late Ch 7 at best)",
+      "detail": [
+        "Renown 6 usually comes in Ch 8: their quest steps are in the Ch 8 Recruits slot."
+      ]
+    },
+    {
+      "text": "Push Goliath to Support 3: his 3 Giant's Meat is a Ch 8 or 9 job (desert and Lv 35 skirmishes)"
+    },
+    {
+      "text": "Keep Simon, Ursula and Dante at the table: they join at Renown 7, after 9/18, and at Renown 8"
+    }
+  ],
+  "quests": {
+    "route": [
+      {
+        "quest": "dread-warrior-camilo",
+        "note": "Beat Camilo at [[place:Fort Hayn]] this chapter (Renown 5): the main push toward Renown 6"
+      }
+    ],
+    "sub": [
+      {
+        "quest": "catching-sweeties-eye",
+        "note": "Dietrich only: Mature Blush to Esmeralda at the Port by 6/15"
+      },
+      {
+        "quest": "rare-stone-hunting",
+        "note": "3 Ouranotite from [[place:Cougar Woodlands]]; hand in before the hunt starts on 7/21",
+        "detail": [
+          "Due 7/31, but Ch 8's free time ends 7/21. The [[item:Tempest Bow]] goes to Kiroc."
+        ]
+      },
+      {
+        "quest": "a-challenge",
+        "note": "Starts a three-part chain: Another Challenge (Ch 9), One Last Challenge (Ch 10)"
+      },
+      {
+        "quest": "a-sword-of-deadly-renown",
+        "note": "Hand over your spare [[item:Killing Edge]]"
+      },
+      {
+        "quest": "a-taste-from-home",
+        "note": "Uses the Jyoppa from Defeat Aguino's Thieves"
+      },
+      {
+        "quest": "a-screeching-strange-shadow",
+        "note": "[[place:Fallen General's Barrows]], for the Priest in the Entertainment District"
+      },
+      {
+        "quest": "legacy-of-a-legendary-sculptor",
+        "note": "Visit 4 statues by 11/27: Riding, Heavy-Armor and Flying Manuals",
+        "detail": [
+          "Statues: Jurah at [[place:Gaura Grassland]], Kalla at [[place:Utuna Pass]], Fortuna at [[place:Solel's Temple]].",
+          "Yu Phas at [[place:Lake Brontes]]: same trip as Attack of the Huge Birds (Ch 10).",
+          "Manuals: Heavy-Armor to Goliath (Heavy D), Riding to Io or Ursula, Flying to Catania (Flying D)."
+        ]
+      }
+    ],
+    "paralogue": []
+  },
+  "explore": [
+    {
+      "group": "Dungeons (Lv 20 to 23)",
+      "id": "dietrich-ch07-explore-cindered-road-cave",
+      "loot": true,
+      "text": "[[place:Cindered Road Cave]]: Flying Manual (save it for Catania, Renown 8), Concoction",
+      "detail": [
+        "The [[item:Conflagrant Gem]] here has no user on this route."
+      ]
+    },
+    {
+      "group": "Dungeons (Lv 20 to 23)",
+      "id": "dietrich-ch07-explore-cougar-woodlands",
+      "loot": true,
+      "text": "[[place:Cougar Woodlands]]: Ouranotite for Rare Stone Hunting, [[item:Muen]] (spear), 2 Bullion",
+      "detail": [
+        "Also a School Scandal."
+      ]
+    },
+    {
+      "group": "Dungeons (Lv 20 to 23)",
+      "text": "[[place:Cave Behind the Falls]]: Bullion and [[item:Pure Water]]; skip Archive B (Fabio knows Mire)"
+    }
+  ],
+  "battle": {
+    "title": "Qualifier vs. Twin Jewels of Arago",
+    "objective": "Defeat Nathan and Creek",
+    "lose": "Dietrich, Orchel or Talimun falls",
+    "guests": [
+      "Orchel",
+      "Talimun"
+    ],
+    "tips": [
+      {
+        "text": "Bring cavalry-effective weapons: the map is full of cavalry",
+        "detail": [
+          "Pack: Dietrich the [[item:Zanbato]], Esmeralda the [[item:Halberd]]."
+        ]
+      },
+      {
+        "text": "Split into teams, with a tank covering each fragile unit"
+      },
+      {
+        "text": "Crates of good weapons appear partway through: grab them"
+      },
+      {
+        "text": "Leave the Bell Tower alone: destroying it brings in a third army of Elephant Riders"
+      }
+    ]
+  },
+  "exitExtra": [
+    {
+      "text": "Jester and Olympia recruited, or at Support 3 and waiting for Renown 6"
+    }
+  ]
+}

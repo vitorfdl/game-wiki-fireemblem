@@ -1,0 +1,1328 @@
+{
+  "name": "Tobias",
+  "slug": "tobias",
+  "epithet": "Lionheart of Saramis",
+  "faction": "Megaira's Beacon",
+  "homeRoute": "Theodora",
+  "personality": "Hearty, forgetful veteran who loves drink, battle, singing and company.",
+  "story": "A decorated commander who has served the Saraminian crown since King Sergio's reign; Queen Theodora calls him 'Boss'. He joins automatically on Theodora's route only, and his A support with Theodora unlocks in Part 3.",
+  "personalSkill": {
+    "name": "Power Arts",
+    "effect": "Atk+3 when attacking with a combat art. Lv20: All-Out Attack (30% chance of 1.3x damage); Lv35: All-Out Attack+ (1.5x)."
+  },
+  "growths": {
+    "HP": 55,
+    "Str": 60,
+    "Mag": 15,
+    "Spd": 25,
+    "Dex": 30,
+    "Def": 45,
+    "Res": 20,
+    "Lck": 40,
+    "Cha": 35
+  },
+  "supports": [
+    "Bonaventure",
+    "Lilian",
+    "Lysander",
+    "Sofia",
+    "Theodora",
+    "Loretta",
+    "Olympia",
+    "Ultand"
+  ],
+  "tiers": [
+    {
+      "source": "Pocket Tactics",
+      "tier": "B"
+    },
+    {
+      "source": "KeenGamer",
+      "tier": "A"
+    }
+  ],
+  "tierNotes": "Pocket Tactics B; KeenGamer A (combat arts specialist). Reddit: Light Cavalry → Cataphract praised as an exceptional physical tank; axe Hit suffers in Part III (confirmed): The Eternal's Axe Hit +10 answers it.",
+  "recruit": {
+    "how": "auto",
+    "why": [
+      "Joins Theodora's army automatically, so there's no Support or Renown to chase."
+    ]
+  },
+  "requirements": {
+    "Cai": "—",
+    "Dietrich": "—",
+    "Theodora": "Auto",
+    "Leda": "—"
+  },
+  "build": {
+    "role": "Arts front-liner on axes and gauntlets, second wall",
+    "path": [
+      "Gladiator",
+      "Pugilist",
+      "Brigand (detour: Regroup)",
+      "Warrior",
+      "The Eternal"
+    ],
+    "part1Target": "Warrior (Attack, Get Back and Regroup mastered)",
+    "part3Target": "The Eternal (Section 4; Warrior to Section 3)",
+    "notes": "Pugilist and Brigand stay for their masteries (Attack, Get Back; Regroup). He sits Ch 8 to 9 (dungeon parties, Arena) and returns in Ch 10 as a Warrior with Zarcone's refined Hammer. Warrior's Axe Hit +5, Practiced Art and Battleblade Strike (Dex +2 a fight) fix his Hit. Warrior already trains Sword, Axe and Gauntlet, The Eternal's three S ranks: he stays Warrior to Section 3 and takes The Eternal in Section 4 (Str +30 growth, Axe Hit +10, Divine Might Str +10). Troy holds The Godhand. Undead: Theodora's Ch 6 Cleansing Blade, refined +3.",
+    "confidence": "medium"
+  },
+  "guide": {
+    "role": "Arts front-liner on axes and gauntlets, second wall",
+    "summary": "The Fortress's art striker and second wall, the army's Hammer, and The Eternal in Part III. Every swing is a combat art: Power Arts (Atk +3), [[ability:All-Out Attack]] and [[ability:Practiced Art]] all key off arts. Open with Battleblade Strike for Dex, then Hammer the armor next to Theodora.",
+    "playstyle": "Player phase: Battleblade Strike on the Da Mina Axe first (Dex +2 a fight), Hammer on armor. Enemy phase: hold the second choke beside Theodora on the Da Mina Sword (Wt 4, not the axe's 10), Bonaventure adjacent (Def +3). Part III: Cleansing Blade +3 on undead. Under Hit 70 in the forecast, switch to gauntlets.",
+    "focus": [
+      "Str",
+      "Dex",
+      "HP"
+    ],
+    "keys": [
+      "Sit him Ch 8 to 9: dungeon parties and Arena Warrior seats bank Sword, Axe and Gauntlet B.",
+      "Attack with an art every swing: Power Arts +3, All-Out Attack x1.3 to x1.5 (30%).",
+      "Take [[class:Pugilist]] at Lv 20, then [[class:Brigand]] in Ch 8 once Attack, Get Back shows.",
+      "Take Zarcone's [[item:Hammer]] in Ch 10 week 1 (+1; +2 at Ch 12): armor only, Wt 20.",
+      "Open each map with Battleblade Strike: Dex +2 a fight (max +10) before Hammer swings.",
+      "Equip the [[item:Conflagrant Gem]] (Ch 7) from Ch 8: arts Hit +20 (30%).",
+      "Push Sword, Axe and Gauntlet to S by Section 4: Arena Warrior seat from Section 2."
+    ],
+    "watch": [
+      "Hit: Hammer 60, Da Mina Axe 65 + arts Hit +10; Spike +10, Warrior +5, Practiced Art +10, Gem +20 (30%). Under 70, bring Bonaventure.",
+      "Spd: 25 growth (35 in Pugilist, 25 in Warrior, 35 in The Eternal). Da Mina Sword (Wt 4) on enemy phase vs fast foes.",
+      "Weight: Da Mina Axe 10 + Gem 5 = 15, extra 5 (budget 6); Da Mina Sword 4 + 5 = 9. Hammer 20 + Gem 5 = 25: no follow-ups; armor only.",
+      "Inventory: Warrior is 6/6 (Da Mina Axe, Hammer, Da Mina Sword, Da Mina Gauntlets, Conflagrant Gem, Elixir).",
+      "Res: 20 growth, +0 flat in The Eternal. On mage maps end beside Sirocco (Barrier) or Ninae (Spirits' Guidance).",
+      "Part III weight: Zalmoxis 10 + Conflagrant Gem 5 = 15, extra 5 (budget 6); Mallet 19; Da Mina Gauntlets 9. Gem off first."
+    ],
+    "stages": [
+      {
+        "when": "Ch 1 to 3 (no class yet)",
+        "from": {
+          "part": 1,
+          "ch": 1
+        },
+        "to": {
+          "part": 1,
+          "ch": 3
+        },
+        "level": "Start (Lv ?) to Ch 3",
+        "class": "",
+        "kind": "core",
+        "goal": "Joins Ch 1 Turn 2. Power Arts (Atk +3 on arts) is always on: attack with an art every time.",
+        "why": [
+          "Hit stack: Iron Axe 65 + Spike 10 + Axes Lv. 1 (+3, rank ?)"
+        ],
+        "exit": "Ch 4: take the Class License tutorial (Gladiator).",
+        "masteries": [],
+        "weapons": [
+          {
+            "item": "Iron Axe",
+            "why": "Mt 13, Hit 65, Wt 10: main damage"
+          },
+          {
+            "item": "Iron Gauntlets",
+            "why": "Mt 8, Hit 90, Wt 3: the accurate option"
+          }
+        ],
+        "items": [
+          {
+            "item": "Vulnerary",
+            "why": "20 HP x3 for the front line"
+          }
+        ],
+        "arts": [
+          {
+            "name": "Spike",
+            "why": "Axe D: Mt +4, Hit +10; his accurate axe art"
+          },
+          {
+            "name": "Mighty Fist",
+            "why": "Gauntlet D: Mt +4, Hit +10"
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Axes Lv. 1",
+            "why": "Hit +3 with axes (Axe rank ?)"
+          },
+          {
+            "name": "Fists Lv. 1",
+            "why": "Gauntlet D+: Hit +3 with gauntlets"
+          },
+          {
+            "name": "Close Quarters",
+            "why": "Infantry D?: Mov -1 on adjacent foes"
+          },
+          {
+            "name": "Knightly Senses",
+            "why": "Riding D?: Avo +10 vs spears"
+          },
+          {
+            "name": "Read the Winds",
+            "why": "Flying D?: Avo +10 vs bows; swap in whatever D shows"
+          }
+        ],
+        "tips": [
+          "Iron Gauntlets plus Mighty Fist when the axe forecast is under 70"
+        ],
+        "training": [
+          {
+            "rank": "Axe D+",
+            "for": "Axes Lv. 1",
+            "how": "Starting rank ?; Arena Warrior in week 1 if short"
+          },
+          {
+            "rank": "Gauntlet D+",
+            "for": "Fists Lv. 1",
+            "how": "Starting rank ?; Arena Warrior in week 1 if short"
+          },
+          {
+            "rank": "Riding D",
+            "for": "Knightly Senses",
+            "how": "Starting rank ?; Arena Mounted in week 1 if short"
+          },
+          {
+            "rank": "Flying D",
+            "for": "Read the Winds",
+            "how": "Starting rank ?; Arena Mounted in week 1 if short"
+          }
+        ]
+      },
+      {
+        "when": "Ch 4 to 5 (Gladiator)",
+        "from": {
+          "part": 1,
+          "ch": 4
+        },
+        "to": {
+          "part": 1,
+          "ch": 5
+        },
+        "level": "Up to Lv 20",
+        "class": "Gladiator",
+        "kind": "core",
+        "goal": "Trains Sword, Axe and Gauntlet +1 each, all three Warrior ranks. Power Arts on every swing.",
+        "why": [
+          "Hit stack: Iron Axe 65 + Spike 10 + Axes Lv. 1 (+3?); Bonaventure adjacent gives Def +3, not Hit"
+        ],
+        "exit": "Lv 20 with Gauntlet C: Pugilist exam (Ch 6).",
+        "masteries": [
+          "Attack Basics"
+        ],
+        "weapons": [
+          {
+            "item": "Iron Axe",
+            "why": "Mt 13, Hit 65, Wt 10: main damage"
+          },
+          {
+            "item": "Iron Gauntlets",
+            "why": "Mt 8, Hit 90, Wt 3: the accurate option"
+          }
+        ],
+        "items": [
+          {
+            "item": "Vulnerary",
+            "why": "20 HP x3 for the front line"
+          }
+        ],
+        "arts": [
+          {
+            "name": "Spike",
+            "why": "Axe D: Mt +4, Hit +10; his accurate axe art"
+          },
+          {
+            "name": "Mighty Fist",
+            "why": "Gauntlet D: Mt +4, Hit +10"
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Attack Basics",
+            "why": "Gladiator mastery: Str +1, once mastered"
+          },
+          {
+            "name": "Axes Lv. 1",
+            "why": "Hit +3 with axes"
+          },
+          {
+            "name": "Fists Lv. 1",
+            "why": "Hit +3 with gauntlets"
+          },
+          {
+            "name": "Knightly Senses",
+            "why": "Riding D: Avo +10 vs spears; Ch 4-5 Soldiers carry them"
+          },
+          {
+            "name": "Read the Winds",
+            "why": "Flying D: Avo +10 vs bows"
+          }
+        ],
+        "training": [
+          {
+            "rank": "Gauntlet C",
+            "for": "Pugilist exam (Ch 6)",
+            "how": "Gladiator +1 a fight; Arena Warrior (Sword, Axe, Gauntlet) every week"
+          },
+          {
+            "rank": "Sword C, Axe C",
+            "for": "Warrior later",
+            "how": "Same Arena Warrior seat"
+          },
+          {
+            "rank": "Riding D, Flying D",
+            "for": "Knightly Senses, Read the Winds",
+            "how": "Arena Mounted 1-2 weeks? (start ranks ?), the seat beside Lysander"
+          }
+        ]
+      },
+      {
+        "when": "Ch 6 to 7 (Pugilist)",
+        "from": {
+          "part": 1,
+          "ch": 6
+        },
+        "to": {
+          "part": 1,
+          "ch": 7
+        },
+        "level": "Lv 20 to about 28",
+        "class": "Pugilist",
+        "kind": "core",
+        "goal": "Spd 35 / Def 55 growth and Attack, Get Back. All-Out Attack (Lv 20): arts deal 1.3x (30%).",
+        "why": [
+          "Attack, Get Back (Avo +10 on arts) stays in his slots to Part III; Gauntlet +2 a fight is a bonus"
+        ],
+        "exit": "Attack, Get Back mastered: Brigand in Ch 8.",
+        "masteries": [
+          "Attack, Get Back"
+        ],
+        "weapons": [
+          {
+            "item": "Da Mina Gauntlets",
+            "why": "Mt 11, Hit 90, Wt 4; arts Hit +10: the Gauntlet C main",
+            "alts": [
+              "Iron Gauntlets"
+            ],
+            "plan": "Ch 6; no refine: the axe is main from Ch 8"
+          },
+          {
+            "item": "Counter Gauntlets",
+            "why": "Atk +5 when the foe attacks first: the choke turn"
+          }
+        ],
+        "equipment": [
+          {
+            "item": "Archer's Ring",
+            "why": "Hit +5, Wt 3: a gauntlet user's weight limit",
+            "slot": "Accessory",
+            "alts": [
+              "Conflagrant Gem",
+              "Phantom Ring"
+            ]
+          }
+        ],
+        "items": [
+          {
+            "item": "Concoction",
+            "why": "40 HP x2: he holds the second choke",
+            "alts": [
+              "Vulnerary"
+            ]
+          }
+        ],
+        "arts": [
+          {
+            "name": "Mighty Fist",
+            "why": "Gauntlet D: Mt +4, Hit +10"
+          },
+          {
+            "name": "Battle Blow",
+            "why": "Gauntlet C: Mt +4, Atk +3 at full HP"
+          }
+        ],
+        "abilities": [
+          {
+            "name": "All-Out Attack",
+            "why": "Lv 20: arts deal 1.3x (30%)"
+          },
+          {
+            "name": "Attack, Get Back",
+            "why": "Pugilist mastery: Avo +10 on arts, once mastered"
+          },
+          {
+            "name": "Attack Basics",
+            "why": "Str +1"
+          },
+          {
+            "name": "Fists Lv. 2",
+            "why": "Gauntlet C+: Hit +5 (Pugilist Gauntlet +2 a fight); Lv. 1 until then"
+          },
+          {
+            "name": "Knightly Senses",
+            "why": "Avo +10 vs spears; stacks with Attack, Get Back"
+          }
+        ],
+        "battalion": {
+          "name": "Rookie Soldiers",
+          "why": "Str +2, Cha +3 on the striker; Authority E?",
+          "where": "[[place:Regia]] or [[place:Alecto]], Ch 6",
+          "alts": [
+            "2nd Hunter-Drifters if Authority D shows"
+          ],
+          "situational": "Fielded once 5 battalions deploy (count ?)"
+        },
+        "training": [
+          {
+            "rank": "Gauntlet B",
+            "for": "Warrior exam",
+            "how": "Pugilist Gauntlet +2 a fight"
+          },
+          {
+            "rank": "Sword B, Axe C",
+            "for": "Warrior; Brigand in Ch 8",
+            "how": "Arena Warrior every week"
+          }
+        ],
+        "checks": [
+          {
+            "stat": "Spd",
+            "at": "Lv 25",
+            "need": "Not doubled by Ch 7 Brigands and Soldiers in the forecast",
+            "why": "Doubled on enemy phase, he can't hold the second choke",
+            "fix": [
+              "Archer's Ring off on that map: Da Mina Gauntlets alone are Wt 4",
+              "End beside Theodora so only one foe reaches him",
+              "Swarm Z (Ch 9+, Spd -3) on the fastest foe"
+            ]
+          }
+        ],
+        "tips": [
+          "Pugilist can't hold the Cleansing Blade: Theodora takes Bahr Vahn in Ch 6",
+          "Kit 4/6: gauntlets 4 + ring 3 is his weight limit"
+        ],
+        "drop": [
+          {
+            "item": "Iron Axe",
+            "why": "Pugilist is gauntlets only; store it"
+          },
+          {
+            "item": "Spike",
+            "why": "Axe art: back in Brigand"
+          },
+          {
+            "item": "Read the Winds",
+            "why": "All-Out Attack takes the slot"
+          },
+          {
+            "item": "Axes Lv. 1",
+            "why": "Pugilist is gauntlets only"
+          }
+        ]
+      },
+      {
+        "when": "Ch 8 to 9 (Brigand, off the map)",
+        "from": {
+          "part": 1,
+          "ch": 8
+        },
+        "to": {
+          "part": 1,
+          "ch": 9
+        },
+        "level": "Lv 28 to about 34",
+        "class": "Brigand",
+        "kind": "detour",
+        "goal": "Sits Ch 8 to 9: dungeon parties and Arena bank Regroup (Avo +20 after a miss) and Warrior's B ranks.",
+        "why": [
+          "He sits the Ch 8 to 9 story maps: Alexandra, Loretta and Ultand or Ninae take the seats",
+          "Regroup stays in his slots to Part III; Axe +2 a dungeon fight is a bonus, not the reason",
+          "Hit stack: Da Mina Axe 65 + arts Hit +10, Spike +10, Brigand Axe Hit +3, Axes Lv. 2 +5?, Gem +20 (30%)"
+        ],
+        "exit": "Lv 35 with Axe, Sword, Gauntlet B: Warrior exam in Ch 10 or 11.",
+        "masteries": [
+          "Regroup"
+        ],
+        "weapons": [
+          {
+            "item": "Da Mina Axe",
+            "why": "Mt 16, Hit 65, Wt 10; arts Hit +10: the base of his Hit stack",
+            "alts": [
+              "Iron Axe"
+            ],
+            "plan": "Ch 8; +1 at Renown 7 (Ch 9)"
+          },
+          {
+            "item": "Da Mina Sword",
+            "why": "Mt 12, Hit 90, Wt 4: enemy-phase swap; trains Sword toward S",
+            "alts": [
+              "Iron Sword"
+            ],
+            "plan": "Ch 8; refines go to the axe first"
+          },
+          {
+            "item": "Da Mina Gauntlets",
+            "why": "Hit 90 when an axe art won't land",
+            "plan": "Keep it"
+          }
+        ],
+        "equipment": [
+          {
+            "item": "Conflagrant Gem",
+            "why": "Arts Hit +20 (30%), Wt 5",
+            "slot": "Accessory",
+            "alts": [
+              "Archer's Ring"
+            ]
+          }
+        ],
+        "items": [
+          {
+            "item": "Concoction",
+            "why": "40 HP x2; an Elixir once you shop in Megaira",
+            "alts": [
+              "Vulnerary"
+            ]
+          }
+        ],
+        "arts": [
+          {
+            "name": "Spike",
+            "why": "Axe D: Mt +4, Hit +10; his accurate axe art"
+          },
+          {
+            "name": "Enrage",
+            "why": "Axe C: Str +1 per combat to the map's end (max +5)"
+          },
+          {
+            "name": "Half Spike",
+            "why": "Axe D: Mt +3, Avo +10"
+          },
+          {
+            "name": "Mighty Fist",
+            "why": "Gauntlet D: Mt +4, Hit +10"
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Regroup",
+            "why": "Brigand mastery: Avo +20 when a foe dodges him, once mastered"
+          },
+          {
+            "name": "All-Out Attack",
+            "why": "Arts 1.3x (30%)"
+          },
+          {
+            "name": "Attack, Get Back",
+            "why": "Avo +10 on arts"
+          },
+          {
+            "name": "Axes Lv. 2",
+            "why": "Hit +5 with axes (rank ?; Lv. 1 until then)"
+          },
+          {
+            "name": "Attack Basics",
+            "why": "Str +1"
+          }
+        ],
+        "battalion": {
+          "name": "Rookie Soldiers",
+          "why": "Str +2, Cha +3 on the axe; Authority E?",
+          "where": "Held from Ch 6",
+          "situational": "Fielded once 5 battalions deploy (count ?)"
+        },
+        "training": [
+          {
+            "rank": "Axe B",
+            "for": "Warrior exam",
+            "how": "Brigand Axe +2 a fight in dungeon parties"
+          },
+          {
+            "rank": "Sword B, Gauntlet B",
+            "for": "Warrior exam",
+            "how": "Arena Warrior every week"
+          }
+        ],
+        "checks": [
+          {
+            "stat": "Dex",
+            "at": "Lv 30",
+            "need": "Spike with the Da Mina Axe shows Hit 75+ on dungeon foes in the forecast",
+            "why": "Below that, Power Arts and All-Out Attack swing at air",
+            "fix": [
+              "Bonaventure beside him first: Additional Intel Hit +10 (30%)",
+              "Conflagrant Gem: arts Hit +20 (30%)",
+              "Hit foes standing next to Theodora (Rein: Avo -3)"
+            ]
+          }
+        ],
+        "tips": [
+          "Regroup fires when a foe dodges him: exactly his miss problem",
+          "Ch 9 Megaira: buy an Elixir",
+          "Ch 8 to 9 story maps: he sits; seat him in every dungeon party"
+        ],
+        "drop": [
+          {
+            "item": "Archer's Ring",
+            "why": "The Gem takes the slot; ring to storage"
+          },
+          {
+            "item": "Counter Gauntlets",
+            "why": "The Da Mina Sword covers enemy phase"
+          },
+          {
+            "item": "Knightly Senses",
+            "why": "Regroup takes the slot"
+          },
+          {
+            "item": "Fists Lv. 2",
+            "why": "Axes Lv. 2 takes the slot: axes are the main weapon again"
+          }
+        ]
+      },
+      {
+        "when": "Ch 10 to 12 (Warrior)",
+        "from": {
+          "part": 1,
+          "ch": 10,
+          "approx": true
+        },
+        "to": {
+          "part": 1,
+          "ch": 12
+        },
+        "level": "Lv 35 to about 37",
+        "class": "Warrior",
+        "kind": "core",
+        "goal": "Back in Ch 10 with the Hammer +1. Axe Hit +5, Practiced Art +10; All-Out Attack+ (Lv 35): arts 1.5x (30%).",
+        "why": [
+          "Hit stack: Hammer 60 or Da Mina Axe 65 (arts +10), Battleblade Strike Dex +2 a fight (max +10), Warrior +5, Axes Lv. 3 +5?, Practiced Art +10",
+          "Gem +20 (30%), Additional Intel+ (Bonaventure Lv 35) +20 (30%); foes beside Theodora lose Avo 3 (Rein)",
+          "Hammer: Zarcone's +1 copy, handed over Ch 10 week 1; Effective+ vs armor"
+        ],
+        "exit": "Stay Warrior through Part II; Practiced Art comes on the way.",
+        "masteries": [
+          "Practiced Art"
+        ],
+        "weapons": [
+          {
+            "item": "Da Mina Axe +1",
+            "why": "Mt ?, Hit 65, Wt 10: main damage; Battleblade Strike first",
+            "alts": [
+              "Iron Axe"
+            ],
+            "plan": "+1 at Renown 7 (Ch 9); +2 at Renown 10, Ch 12"
+          },
+          {
+            "item": "Hammer +1",
+            "why": "Effective+ (3x Mt) vs armor, Hit 60, Wt 20: armor only",
+            "plan": "Zarcone's copy, Ch 10 week 1; +2 at Renown 10, Ch 12",
+            "alts": [
+              "Da Mina Axe"
+            ]
+          },
+          {
+            "item": "Da Mina Sword",
+            "why": "Wt 4: enemy phase without being doubled; Sword EXP for S",
+            "plan": "Keep it"
+          },
+          {
+            "item": "Da Mina Gauntlets",
+            "why": "Hit 90 when an axe art won't land; trains Gauntlet A",
+            "plan": "Keep it"
+          }
+        ],
+        "equipment": [
+          {
+            "item": "Conflagrant Gem",
+            "why": "Arts Hit +20 (30%), Wt 5",
+            "slot": "Accessory",
+            "alts": [
+              "Archer's Ring"
+            ],
+            "plan": "Keep it on"
+          }
+        ],
+        "items": [
+          {
+            "item": "Elixir",
+            "why": "100 HP: front-liner; Fortress heals cover the rest",
+            "alts": [
+              "Concoction"
+            ]
+          }
+        ],
+        "arts": [
+          {
+            "name": "Battleblade Strike",
+            "why": "Axe B?: Mt +7, Dex +2 per combat (max +10): his Hit fix"
+          },
+          {
+            "name": "Spike",
+            "why": "Axe D: Mt +4, Hit +10; his accurate axe art"
+          },
+          {
+            "name": "Enrage",
+            "why": "Axe C: Str +1 per combat to the map's end (max +5)"
+          },
+          {
+            "name": "Mighty Fist",
+            "why": "Gauntlet D: Mt +4, Hit +10"
+          },
+          {
+            "name": "Battle Blow",
+            "why": "Gauntlet C: Mt +4, Atk +3 at full HP"
+          }
+        ],
+        "abilities": [
+          {
+            "name": "All-Out Attack+",
+            "why": "Lv 35: arts deal 1.5x (30%)"
+          },
+          {
+            "name": "Practiced Art",
+            "why": "Warrior mastery: arts Hit +10, once mastered"
+          },
+          {
+            "name": "Regroup",
+            "why": "Avo +20 after a miss"
+          },
+          {
+            "name": "Attack, Get Back",
+            "why": "Avo +10 on arts"
+          },
+          {
+            "name": "Axes Lv. 3",
+            "why": "Hit/Avo +5 with axes (rank ?)"
+          }
+        ],
+        "battalion": {
+          "name": "Rookie Soldiers",
+          "why": "Str +2, Cha +3; no Authority seat, so E-tier only?",
+          "where": "Held from Ch 6",
+          "situational": "Fielded once 5 battalions deploy (count ?)"
+        },
+        "training": [
+          {
+            "rank": "Gauntlet A",
+            "for": "The Eternal's Gauntlet S (Part III)",
+            "how": "Warrior Gauntlet +2 a fight; Da Mina Gauntlets on safe kills"
+          },
+          {
+            "rank": "Axe B+",
+            "for": "Axes Lv. 3",
+            "how": "Arena Warrior; battles with it count too"
+          },
+          {
+            "rank": "Sword B+",
+            "for": "The Eternal's Sword S (Part III)",
+            "how": "Da Mina Sword on enemy phase; Arena Warrior"
+          }
+        ],
+        "checks": [
+          {
+            "stat": "Dex",
+            "at": "Lv 35",
+            "need": "Hammer +1 with Spike shows Hit 75+ on Ch 10 armor after one Battleblade Strike",
+            "why": "Part II has no shops: Hit has to come from him and the escort",
+            "fix": [
+              "Battleblade Strike first: Dex +2 a fight (if it is an axe art)",
+              "No axe art? Da Mina Gauntlets (Hit 90, arts +10) + Mighty Fist",
+              "Bonaventure adjacent: Additional Intel+ Hit +20 (30%)"
+            ]
+          }
+        ],
+        "tips": [
+          "Leda's Paralogue (poison): Antitoxin takes the Da Mina Sword's slot",
+          "Anna's Paralogue (Ch 11) wants an armor-killer: bring the Hammer",
+          "Ch 12: his 6 items are his Part II kit"
+        ],
+        "drop": [
+          {
+            "item": "Attack Basics",
+            "why": "Slot goes to Practiced Art"
+          },
+          {
+            "item": "Axes Lv. 2",
+            "why": "Axes Lv. 3 replaces it"
+          },
+          {
+            "item": "Concoction",
+            "why": "The Hammer takes the slot; Elixir stays"
+          }
+        ]
+      },
+      {
+        "when": "Part II (Warrior)",
+        "from": {
+          "part": 2,
+          "ch": 1
+        },
+        "to": {
+          "part": 2,
+          "ch": 6
+        },
+        "level": "Lv 37 to 45 (Training Drills)",
+        "class": "Warrior",
+        "kind": "core",
+        "goal": "Fortress second wall and the Hammer. Battleblade Strike first; Da Mina Sword on enemy phase trains Sword.",
+        "why": [
+          "Hit stack: as Ch 10 to 12; Battleblade Strike Dex carries to every Hammer swing"
+        ],
+        "exit": "Part III at Lv 45 with Sword, Axe and Gauntlet A, on the way to S.",
+        "masteries": [],
+        "weapons": [
+          {
+            "item": "Da Mina Axe +2",
+            "why": "Mt ?, Hit 65, Wt 10: main damage; every swing an art",
+            "alts": [
+              "Iron Axe"
+            ],
+            "plan": "+2 at Renown 10 (Ch 12); Ch 12 kit"
+          },
+          {
+            "item": "Hammer +2",
+            "why": "Effective+ (3x Mt) vs armor and Golems, Wt 20",
+            "plan": "+2 at Renown 10 (Ch 12); Ch 12 kit"
+          },
+          {
+            "item": "Da Mina Sword",
+            "why": "Wt 4: enemy phase without being doubled; Sword EXP for S",
+            "plan": "Ch 12 kit"
+          },
+          {
+            "item": "Da Mina Gauntlets",
+            "why": "Hit 90 when an axe art won't land; trains Gauntlet A",
+            "plan": "Ch 12 kit"
+          }
+        ],
+        "equipment": [
+          {
+            "item": "Conflagrant Gem",
+            "why": "Arts Hit +20 (30%), Wt 5",
+            "slot": "Accessory",
+            "alts": [
+              "Archer's Ring"
+            ],
+            "plan": "Ch 12 kit"
+          }
+        ],
+        "items": [
+          {
+            "item": "Elixir",
+            "why": "Ch 12 stock: no shops in Part II",
+            "alts": [
+              "Concoction"
+            ],
+            "plan": "Ch 12 kit"
+          }
+        ],
+        "arts": [
+          {
+            "name": "Battleblade Strike",
+            "why": "Axe B?: Mt +7, Dex +2 per combat (max +10): his Hit fix"
+          },
+          {
+            "name": "Spike",
+            "why": "Axe D: Mt +4, Hit +10; his accurate axe art"
+          },
+          {
+            "name": "Enrage",
+            "why": "Axe C: Str +1 per combat to the map's end (max +5)"
+          },
+          {
+            "name": "Wrath Strike",
+            "why": "Sword D: Mt +4, Hit +10 on the Da Mina Sword"
+          },
+          {
+            "name": "Mighty Fist",
+            "why": "Gauntlet D: Mt +4, Hit +10"
+          }
+        ],
+        "abilities": [
+          {
+            "name": "All-Out Attack+",
+            "why": "Arts 1.5x (30%)"
+          },
+          {
+            "name": "Practiced Art",
+            "why": "Arts Hit +10"
+          },
+          {
+            "name": "Regroup",
+            "why": "Avo +20 after a miss"
+          },
+          {
+            "name": "Attack, Get Back",
+            "why": "Avo +10 on arts"
+          },
+          {
+            "name": "Axes Lv. 3",
+            "why": "Hit/Avo +5 with axes"
+          }
+        ],
+        "battalion": {
+          "name": "Rookie Soldiers",
+          "why": "Str +2, Cha +3 on the Warrior",
+          "where": "Held from Ch 6",
+          "situational": "Part II carryover ?"
+        },
+        "tips": [
+          "Only his Ch 12 items come in; Part II repairs weapons each chapter, so spend arts freely",
+          "Ch 3: second choke beside Theodora, Da Mina Sword on enemy phase",
+          "Ch 5: pull the Golems off their tiles, then Hammer arts with Bonaventure beside him",
+          "Ch 6 Lyrah: save Battleblade Strike and All-Out Attack+ for the cocoon: big hits only"
+        ],
+        "training": [
+          {
+            "rank": "Sword A, Axe A, Gauntlet A",
+            "for": "The Eternal (S ranks in Part III)",
+            "how": "Battle: Warrior Axe +3, Sword +2, Gauntlet +2; Ch 4 Group Drills"
+          }
+        ]
+      },
+      {
+        "when": "Part III S1 to S3 (Warrior)",
+        "from": {
+          "part": 3,
+          "ch": 1
+        },
+        "to": {
+          "part": 3,
+          "ch": 3
+        },
+        "level": "Lv 45+",
+        "class": "Warrior",
+        "kind": "core",
+        "goal": "Squad A second wall: Cleansing Blade on undead, Hammer on armor, axe arts on the rest; S pushes on all three.",
+        "why": [
+          "Warrior trains Axe +3, Sword +2, Gauntlet +2: exactly The Eternal's three S ranks, so no Battlemaster step",
+          "Underworld Boon: Zalmoxis's Domination+, Hidden Evilbreak (taught by Breza), Cleansing Blade +2",
+          "Hit stack: Zalmoxis Hit 80, Axe Hit +5, Practiced Art +10, Axes Lv. 4 +7, Battleblade Dex +2 a fight"
+        ],
+        "exit": "Gauntlet, Axe, Sword S + Scales of Judgement: The Eternal in S4 (100%).",
+        "masteries": [],
+        "weapons": [
+          {
+            "item": "Zalmoxis +3",
+            "why": "Mt 26 (23? at +2), Hit 80, Wt 10; Domination+ (Mt +12) skips the Boon",
+            "plan": "Soulstone queue",
+            "alts": [
+              "Zalmoxis +2",
+              "Iron Axe +4"
+            ]
+          },
+          {
+            "item": "Hammer +2",
+            "why": "Effective+ (3x Mt) vs armor and Golems, Hit 60, Wt 20",
+            "plan": "His Part II +2"
+          },
+          {
+            "item": "Cleansing Blade +2",
+            "why": "Mt 16?, Wt 3: passive Boon strip; trains Sword",
+            "plan": "Theodora's Ch 6 copy from storage, +2"
+          },
+          {
+            "item": "Da Mina Gauntlets +2",
+            "why": "Mt 19?, Hit 90, Wt 4, arts Hit +10: Hidden Evilbreak lands",
+            "plan": "His Part II copy, +2"
+          }
+        ],
+        "equipment": [
+          {
+            "item": "Conflagrant Gem",
+            "why": "Arts Hit +20 (30%), Wt 5: every swing is an art",
+            "slot": "Accessory",
+            "alts": [
+              "Archer's Ring",
+              "Bolt Gem"
+            ]
+          }
+        ],
+        "items": [
+          {
+            "item": "Elixir",
+            "why": "100 HP: front-liner",
+            "alts": [
+              "Concoction"
+            ]
+          }
+        ],
+        "arts": [
+          {
+            "name": "Battleblade Strike",
+            "why": "Axe B?: Mt +7, Dex +2 per combat (max +10): his Hit fix"
+          },
+          {
+            "name": "Hidden Evilbreak",
+            "why": "Taught (Answerer's Cry shards) by Breza: on hit, strips the Boon a combat"
+          },
+          {
+            "name": "Spike",
+            "why": "Axe D: Mt +4, Hit +10; his accurate axe art"
+          },
+          {
+            "name": "Enrage",
+            "why": "Axe C: Str +1 per combat to the map's end (max +5)"
+          },
+          {
+            "name": "Wrath Strike",
+            "why": "Sword D: Mt +4, Hit +10 on the Cleansing Blade"
+          },
+          {
+            "name": "Mighty Fist",
+            "why": "Gauntlet D: Mt +4, Hit +10"
+          }
+        ],
+        "abilities": [
+          {
+            "name": "All-Out Attack+",
+            "why": "Arts 1.5x (30%)"
+          },
+          {
+            "name": "Practiced Art",
+            "why": "Arts Hit +10"
+          },
+          {
+            "name": "Regroup",
+            "why": "Avo +20 after a miss"
+          },
+          {
+            "name": "Attack, Get Back",
+            "why": "Avo +10 on arts"
+          },
+          {
+            "name": "Axes Lv. 4",
+            "why": "Axe A+ (rank ?): Hit/Avo +7 with axes"
+          }
+        ],
+        "battalion": {
+          "name": "Rookie Soldiers",
+          "why": "Str +2, Cha +3; Authority E?",
+          "where": "Held since Part I",
+          "situational": "Part III: from storage (medium confidence)"
+        },
+        "training": [
+          {
+            "rank": "Gauntlet S, Axe S, Sword S",
+            "for": "The Eternal (Scales of Judgement)",
+            "how": "Arena Warrior S-push seat from Section 2 (§13); fights add the rest"
+          }
+        ],
+        "checks": [
+          {
+            "stat": "Res",
+            "at": "Section 3",
+            "need": "Enemy forecast: one Shenlo-map mage's spell leaves him above half HP",
+            "why": "Res 20 growth, and The Eternal adds no Res: mages pick off the second wall",
+            "fix": [
+              "End beside Sirocco: Barrier gives Res +3",
+              "Ninae within 2: Spirits' Guidance Hit/Avo +10 vs magic",
+              "Pure Water (Res +10, −2 a turn) on mage-heavy maps"
+            ]
+          }
+        ],
+        "tips": [
+          "Breza (S2): Evilbreak the undead first; Theodora and Ninae kill them the same turn",
+          "Shenlo (S3): second wall beside Theodora; Da Mina Gauntlets +2 (Wt 4) on enemy phase",
+          "Bonaventure adjacent: Def +3, Hit +20 (30%); Theodora's Rein+ cuts his target's Avo 5",
+          "Sword or Gauntlet lags behind Axe? Fight with it on safe kills; the Arena seat goes to the lowest"
+        ],
+        "drop": [
+          {
+            "item": "Da Mina Sword",
+            "why": "The Cleansing Blade +2 takes the sword slot"
+          },
+          {
+            "item": "Da Mina Axe +2",
+            "why": "Zalmoxis (Mt 23?+, Hit 80) takes the axe slot"
+          },
+          {
+            "item": "Axes Lv. 3",
+            "why": "Axes Lv. 4 replaces it at Axe A+"
+          }
+        ]
+      },
+      {
+        "when": "Part III Section 4+ (The Eternal)",
+        "from": {
+          "part": 3,
+          "ch": 4
+        },
+        "level": "Lv 45+",
+        "class": "The Eternal",
+        "kind": "core",
+        "goal": "Str +30, Def +15, Spd +10 growth; Axe and Brawl Hit +10, Divine Might (Str +10) on every art.",
+        "why": [
+          "Exam: Gauntlet S, Axe S, Sword S, Scales of Judgement (Prophet's Chambers, Temple of the Diadem), 100% pass",
+          "Underworld Boon: Domination+ (Zalmoxis), Hidden Evilbreak, Cleansing Blade +2",
+          "Hit stack: Zalmoxis Hit 80, Axe Hit +10, Practiced Art +10, Axes Lv. 5 +10, Battleblade Dex +2 a fight"
+        ],
+        "exit": "Endpoint. One holder: Scales of Judgement, 100% pass; else stay Warrior.",
+        "masteries": [
+          "Divine Might"
+        ],
+        "weapons": [
+          {
+            "item": "Zalmoxis +3",
+            "why": "Mt 26 (23? at +2), Hit 80, Wt 10; Domination+ (Mt +12) skips the Boon",
+            "plan": "Soulstone queue",
+            "alts": [
+              "Zalmoxis +2",
+              "Iron Axe +4"
+            ]
+          },
+          {
+            "item": "Credna's Mallet +2",
+            "why": "Mt 25+, Hit 70, Wt 14; Flame Ring: Mt +10 magic first hit (stat ?)",
+            "plan": "S4 hand-over, +2"
+          },
+          {
+            "item": "Cleansing Blade +2",
+            "why": "Mt 16?, Wt 3: passive Boon strip; trains Sword",
+            "plan": "Theodora's Ch 6 copy from storage, +2"
+          },
+          {
+            "item": "Da Mina Gauntlets +2",
+            "why": "Mt 19?, Hit 90, Wt 4, arts Hit +10: Hidden Evilbreak lands",
+            "plan": "His Part II copy, +2"
+          },
+          {
+            "item": "Hammer +2",
+            "why": "Effective+ (3x Mt) vs armor and Golems, Hit 60, Wt 20",
+            "situational": "Baozi's golems and armor: swaps out the Cleansing Blade",
+            "plan": "Stored after S3"
+          }
+        ],
+        "equipment": [
+          {
+            "item": "Conflagrant Gem",
+            "why": "Arts Hit +20 (30%), Wt 5: every swing is an art",
+            "slot": "Accessory",
+            "alts": [
+              "Archer's Ring",
+              "Bolt Gem"
+            ]
+          }
+        ],
+        "items": [
+          {
+            "item": "Elixir",
+            "why": "100 HP: front-liner",
+            "alts": [
+              "Concoction"
+            ]
+          }
+        ],
+        "arts": [
+          {
+            "name": "Battleblade Strike",
+            "why": "Axe B?: Mt +7, Dex +2 per combat (max +10): his Hit fix"
+          },
+          {
+            "name": "Hidden Evilbreak",
+            "why": "On hit, strips the Boon through the foe's next combat"
+          },
+          {
+            "name": "Flame Ring",
+            "why": "Credna's Mallet: Mt +10, first hit magic; cost 5"
+          },
+          {
+            "name": "Spike",
+            "why": "Axe D: Mt +4, Hit +10; his accurate axe art"
+          },
+          {
+            "name": "Enrage",
+            "why": "Axe C: Str +1 per combat to the map's end (max +5)"
+          },
+          {
+            "name": "Wrath Strike",
+            "why": "Sword D: Mt +4, Hit +10 on the Cleansing Blade"
+          },
+          {
+            "name": "Mighty Fist",
+            "why": "Gauntlet D: Mt +4, Hit +10"
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Divine Might",
+            "why": "The Eternal mastery: Str +10, once mastered"
+          },
+          {
+            "name": "All-Out Attack+",
+            "why": "Arts 1.5x (30%)"
+          },
+          {
+            "name": "Practiced Art",
+            "why": "Arts Hit +10"
+          },
+          {
+            "name": "Attack, Get Back",
+            "why": "Avo +10 on arts"
+          },
+          {
+            "name": "Axes Lv. 5",
+            "why": "Axe S (the exam rank): Hit/Avo +10 with axes"
+          }
+        ],
+        "battalion": {
+          "name": "Rookie Soldiers",
+          "why": "Str +2, Cha +3; Authority E?",
+          "where": "Held since Part I",
+          "situational": "Part III: from storage (medium confidence)"
+        },
+        "tips": [
+          "Hanno (fog) bans cavalry, not him: infantry front line beside Theodora",
+          "Baozi (Pride: Hit): Zalmoxis Hit 80 + Axe Hit +10; Hammer +2 on the golems; Mars Lv 1",
+          "Cohen & Maria: Evilbreak a Boon foe, then Bertrand or Theodora finishes; Bonaventure adjacent",
+          "Balor (team C, center): Leda dances him, Domination+ on Balor; Energy Drop (S6) Str +2"
+        ],
+        "drop": [
+          {
+            "item": "Regroup",
+            "why": "Divine Might takes the slot"
+          },
+          {
+            "item": "Axes Lv. 4",
+            "why": "Axes Lv. 5 replaces it at Axe S"
+          }
+        ],
+        "training": []
+      }
+    ],
+    "alt": "Cataphract → Great Knight (Reddit's tank pick, Mov 6, Pavise) if Nydine leaves: you trade his arts damage for a wall the Fortress already has, plus spear weakness. Archer instead of Brigand in Ch 8 to 9 for Crescendo (Hit +3 per kill).",
+    "sources": [
+      "class-and-weapon-guide",
+      "class-data",
+      "character-learnsets",
+      "equippable-abilities",
+      "weapons-and-items",
+      "combat-arts-and-abilities",
+      "hard-mode-video-notes",
+      "walkthrough-part1-theodora",
+      "part2-war",
+      "part3-salvation",
+      "redesign/11-roster-pass"
+    ],
+    "routeNotes": [
+      {
+        "system": "Supports",
+        "note": "Theodora, Bonaventure, Sofia, Lilian, Lysander, Loretta and Ultand in this army. Meal seat: Theodora + Tobias + Bonaventure; Sofia takes the third seat once that pair is done."
+      },
+      {
+        "system": "Battalions & Gambits",
+        "note": "Fifth carrier: [[battalion:Rookie Soldiers]] (Str +2) from Ch 6; no Authority seat, so E-tier only?. If fewer battalions deploy, the bench (Simon) drops first, then Lilian, then him. Skip Power-Arts Order (Authority A): Arena seats bench first."
+      }
+    ],
+    "decisions": [
+      {
+        "topic": "Keep Pugilist, then Brigand",
+        "pick": "Pugilist at Lv 20 (Attack, Get Back), Brigand in Ch 8 (Regroup)",
+        "why": "Both masteries stay in his slots to Part III: Avo +10 on every art and Avo +20 after a miss. Ranks alone wouldn't justify them, since Arena Warrior covers Sword, Axe and Gauntlet to B.",
+        "else": "Masteries slow: take Warrior at Lv 35 anyway and finish them later"
+      },
+      {
+        "topic": "Aim for Warrior, not Dreadnought",
+        "pick": "Warrior at Lv 35 with Axe, Sword and Gauntlet B",
+        "why": "Warrior adds Axe Hit +5 and Practiced Art (arts Hit +10) to the unit that misses most, plus Str 80 growth. Dreadnought's Hit bonus works only on enemy phase, with Res 10 growth and Mov 4."
+      },
+      {
+        "topic": "Stay infantry: The Eternal, not Cataphract or Castle Knight",
+        "pick": "Warrior → The Eternal; the Fortress's player-phase finisher",
+        "why": "Power Arts fires only on his own art swings; The Eternal pays it (Arts +3, Axe Hit +10, Str 90). Nydine holds the cavalry-armor seat, Centurio the infantry one; three Fortress walls already tank enemy phase.",
+        "else": "Want Reddit's tank pick: Cataphract → Great Knight (Mov 6, Pavise), but spears hit him effective and Breza and Drake bar cavalry"
+      },
+      {
+        "topic": "Take The Eternal; Troy holds The Godhand",
+        "pick": "Warrior through Section 3, The Eternal in Section 4 (Scales of Judgement)",
+        "why": "Warrior already trains Sword, Axe and Gauntlet, The Eternal's three S ranks. It adds Str +30 growth, Axe Hit +10 and Divine Might (Str +10) to every art. Troy has the Brawling and White boons The Godhand wants.",
+        "else": "Exam short of 100%: stay Warrior"
+      },
+      {
+        "topic": "Carry a Cleansing Blade in Part III",
+        "pick": "Theodora's Ch 6 copy from storage, refined +3",
+        "why": "Warrior and The Eternal hold swords, so the blade strips the Underworld Boon on his own swing and trains Sword S; Wrath Strike (Hit +10) lands it. He no longer has to stay within 2 of Eshmel.",
+        "else": "Blade not refined yet: fight within 2 of Eshmel"
+      }
+    ],
+    "finalists": {
+      "stats": [
+        "Str",
+        "Spd",
+        "Def",
+        "Res"
+      ],
+      "options": [
+        {
+          "class": "Brigand",
+          "use": "Ch 8 to 9",
+          "note": "Regroup mastery; Axe EXP toward Warrior B"
+        },
+        {
+          "class": "Warrior",
+          "use": "Ch 10 to Part III S3",
+          "note": "Str +20, Practiced Art; trains all three S ranks"
+        },
+        {
+          "class": "The Eternal",
+          "use": "Part III S4",
+          "note": "Str +30, Axe Hit +10, Divine Might (Str +10); holds swords"
+        },
+        {
+          "class": "Great Knight",
+          "note": "Nydine's seat; spear-effective, no battalion, no Breza or Drake"
+        },
+        {
+          "class": "Castle Knight",
+          "note": "Centurio's seat; Mov 4; Strike-Last bonuses miss Power Arts"
+        },
+        {
+          "class": "Battlemaster",
+          "note": "Not needed: The Eternal has no Lv or Master gate; Spd -5 growth"
+        },
+        {
+          "class": "The Godhand",
+          "note": "Troy holds it: her Brawling and White boons fit it"
+        }
+      ]
+    },
+    "gates": [
+      {
+        "route": "Theodora",
+        "from": {
+          "part": 1,
+          "ch": 4
+        },
+        "by": {
+          "part": 1,
+          "ch": 10
+        },
+        "kind": "rank",
+        "text": "Gauntlet C by Lv 20 (Pugilist); Sword, Axe and Gauntlet B by Lv 35 (Warrior)"
+      },
+      {
+        "route": "Theodora",
+        "from": {
+          "part": 3,
+          "ch": 2
+        },
+        "by": {
+          "part": 3,
+          "ch": 4
+        },
+        "kind": "rank",
+        "text": "Sword, Axe and Gauntlet S by Section 4: The Eternal (Scales of Judgement)"
+      }
+    ]
+  },
+  "sources": [
+    "https://fortunesweave.co.uk/characters/tobias",
+    "https://www.pockettactics.com/fire-emblem-fortunes-weave/tier-list",
+    "https://www.keengamer.com/articles/guides/fire-emblem-fortunes-weave-tier-list-best-characters-ranked-for-every-route/"
+  ],
+  "recruitOn": {
+    "Theodora": {
+      "how": "auto"
+    }
+  }
+}

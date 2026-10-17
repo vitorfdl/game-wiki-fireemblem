@@ -1,0 +1,250 @@
+{
+  "route": "Theodora",
+  "ch": 5,
+  "name": "An Ominous Clash",
+  "free": {
+    "from": "3/8",
+    "to": "3/21"
+  },
+  "unlocks": [
+    "Send Supplies quests",
+    "Search Points (battalions)",
+    "Recruitment (Sofia)"
+  ],
+  "routine": {
+    "meals": [
+      {
+        "week": "Every Sunday (2 this chapter)",
+        "tables": [
+          [
+            "Theodora",
+            "Loretta",
+            "Ultand"
+          ],
+          [
+            "Theodora",
+            "Ninae",
+            "Simon"
+          ],
+          [
+            "Theodora",
+            "Nydine",
+            "Lilian"
+          ]
+        ],
+        "note": "Same tables as Ch 4."
+      }
+    ],
+    "gifts": [
+      {
+        "unit": "Loretta",
+        "gift": "Mellow Pastries",
+        "alt": "Simple Pastries",
+        "until": "Support 3, recruit Ch 7"
+      },
+      {
+        "unit": "Nydine",
+        "gift": "Kitten Figurine",
+        "alt": "The Works of Dante",
+        "until": "Support 3, recruit Ch 7"
+      },
+      {
+        "unit": "Ultand",
+        "gift": "Garum",
+        "alt": "Home-Recipe Book",
+        "until": "Support 3, recruit Ch 8"
+      },
+      {
+        "unit": "Ninae",
+        "gift": "",
+        "alt": "Gaudy Bangle",
+        "until": "Support 3, recruit Ch 8",
+        "note": "Nothing they like is buyable yet: meals carry them"
+      },
+      {
+        "unit": "Simon",
+        "gift": "",
+        "alt": "Training Bracelet",
+        "until": "Support 3, recruit Ch 9",
+        "note": "Nothing they like is buyable yet: meals carry them"
+      },
+      {
+        "unit": "Seteth",
+        "gift": "Common Coffee",
+        "alt": "Select Coffee",
+        "until": "Support 3, recruit Ch 10 (filler)"
+      },
+      {
+        "unit": "Jester",
+        "gift": "Home-Recipe Book",
+        "alt": "Rare Spices",
+        "until": "Support 3, recruit Ch 10 (filler)"
+      },
+      {
+        "unit": "Io",
+        "gift": "Common Coffee",
+        "alt": "Kitten Figurine",
+        "until": "Support 3, recruit Ch 11 (filler)"
+      },
+      {
+        "unit": "Diego",
+        "gift": "The Works of Dante",
+        "until": "Support 2, recruit Ch 12"
+      }
+    ]
+  },
+  "missables": [
+    {
+      "id": "theodora-ch05-missables-noctula-claw",
+      "kind": "timing",
+      "text": "Leave Noctula unrecruited until 6/1 (Ch 8): she should join a Pugilist with Ursa's Right Claw",
+      "when": "Renown 3 lands now",
+      "lose": "[[item:Ursa's Right Claw]], Anatolia's Part III weapon",
+      "recover": "None: the Claw comes only with a Lv 20+ Pugilist recruit",
+      "task": true,
+      "conf": "?"
+    }
+  ],
+  "classes": {},
+  "gear": {
+    "buy": [
+      {
+        "text": "[[place:Yaaman]] (Amalthea): a [[item:Wooden Bow]] (300G) to storage: Nuzzuo's Part III +9 base",
+        "detail": [
+          "Wooden gains Mt only at +5 (Part III). Orens sells them too."
+        ],
+        "conf": "?"
+      }
+    ]
+  },
+  "recruits": [],
+  "quests": {
+    "route": [
+      {
+        "quest": "send-supplies-caltrop-flowers",
+        "note": "Take both Send Supplies quests: they are this route's main Renown source"
+      },
+      {
+        "quest": "send-supplies-white-trout"
+      }
+    ],
+    "sub": [
+      {
+        "quest": "more-fabled-insect-pearls",
+        "note": "Only if you finished The Fabled Insect Pearl in Ch 4"
+      },
+      {
+        "quest": "behelda-axes",
+        "note": "Its Desert Millet counts toward [[quest:send-supplies-desert-millet]] (Ch 10)"
+      },
+      {
+        "quest": "primal-crystal",
+        "offered": "if-offered"
+      },
+      {
+        "quest": "fate-of-the-expedition",
+        "offered": "if-offered"
+      },
+      {
+        "quest": "sinister-sacrifices",
+        "offered": "if-offered"
+      },
+      {
+        "quest": "petals-of-encouragement",
+        "offered": "if-offered"
+      }
+    ],
+    "paralogue": []
+  },
+  "explore": [
+    {
+      "group": "Battalions",
+      "text": "Search tutorial: [[battalion:Priest Trainees]] joins; assign it to Bonaventure",
+      "detail": [
+        "Theodora keeps [[battalion:Novice Hunters]] (Ch 4) until Ch 6.",
+        "Spare turns: send a squad to resource Search Points; clergy squads gather more there.",
+        "Send Supplies quests (all due 10/24) lean on these searches."
+      ]
+    },
+    {
+      "group": "Spare Turns · gather for Vandahl barters, nearest first",
+      "text": "[[place:Sunlit Pass]] (Amalthea): Ginji ×10 for Lilian's Longbow"
+    },
+    {
+      "group": "Spare Turns · gather for Vandahl barters, nearest first",
+      "text": "[[place:Gaura Grassland]] (Amalthea): Zamir ×2 for the Magic Staffs (Bonaventure, Sirocco)"
+    },
+    {
+      "group": "Spare Turns · gather for Vandahl barters, nearest first",
+      "text": "[[place:Unmarked Graves]] (Braxithea): Fyujo ×1 for Lysander's Short Spear"
+    },
+    {
+      "group": "Spare Turns · gather for Vandahl barters, nearest first",
+      "text": "[[place:Lake Brontes]] (Saveilon): Ladon Pike ×3, Paradise Fish ×2",
+      "detail": [
+        "Cleansing Blade for Theodora (Ch 6 boss, then Tobias's Part III).",
+        "One fish for Zarcone's Giant's Ring (Ch 6), one for Ninae's recruit (6/1)."
+      ]
+    },
+    {
+      "group": "Spare Turns · gather for Vandahl barters, nearest first",
+      "text": "[[place:Sunlit Garden]] (Elektra): Enrietto ×10 for Lysander's Gale Ring"
+    },
+    {
+      "group": "Spare Turns · gather for Vandahl barters, nearest first",
+      "text": "[[place:Moonwatch Pass]] (Saveilon): Cadam ×5 for Lilian's Longbow"
+    },
+    {
+      "group": "Spare Turns · gather for Vandahl barters, nearest first",
+      "text": "Re-enter Galen Fort Ruins, Collapsed Fort and Niraga Mine for more rare ores (special refines)",
+      "detail": [
+        "Four specials take +1 in Ch 9 and +2 in Ch 12, and no Ch 6 dungeon has a rare ore: bank them now."
+      ],
+      "conf": "?"
+    },
+    {
+      "group": "Spare Turns · support run",
+      "id": "theodora-ch05-explore-corroios-fort-ruins",
+      "loot": true,
+      "text": "Run [[place:Corroios Fort Ruins]] (Lv 13, Thaleia): Tactics Manual for Theodora, a Magic Staff",
+      "detail": [
+        "The Magic Staff saves Bonaventure's Zamir barter in Ch 6.",
+        "[[item:Poisonbone Chain]] is cursed (Curse 1): hold it to the end of Part I (Drifting Reliquary)."
+      ]
+    },
+    {
+      "group": "Spare Turns · support run",
+      "id": "theodora-ch05-explore-nowahs-cave",
+      "loot": true,
+      "text": "Run [[place:Nowah's Cave]] (Lv 10, Elektra): Tactics Manual for Theodora, [[item:Turmoil Mask]]",
+      "detail": [
+        "Every Tactics Manual goes to Theodora: Authority for bigger battalions. Also Pure Water.",
+        "[[item:Turmoil Mask]] is cursed (Curse 1): hold it to the end of Part I (Drifting Reliquary)."
+      ]
+    },
+    {
+      "group": "Spare Turns · support run",
+      "text": "Run [[place:Hundred-Hole Cave]] (Lv 14, Pasithea) with this week's meal pairs"
+    }
+  ],
+  "battle": {
+    "title": "Qualifier vs. Forgotten Alcor",
+    "objective": "Defeat Bartholomew",
+    "lose": "Theodora, Talimun or Anatolia falls",
+    "guests": [
+      "Talimun",
+      "Anatolia"
+    ],
+    "tips": [
+      {
+        "text": "Split into a left group and a right group"
+      },
+      {
+        "text": "Rain from Turn 5 shuts off the ballistae until Turn 9: close in and break them then"
+      },
+      {
+        "text": "An Event Clash follows the map"
+      }
+    ]
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "route": "Leda",
+  "ch": 3,
+  "name": "The Road to Caelus",
+  "free": null,
+  "routine": null,
+  "missables": [],
+  "classes": {},
+  "gear": {},
+  "recruits": [],
+  "quests": {
+    "route": [],
+    "sub": [],
+    "paralogue": []
+  },
+  "explore": [],
+  "battle": {
+    "title": "vs. Olympia",
+    "objective": "Hold more blue flames than red when 10 turns are up",
+    "tips": [
+      {
+        "text": "Keep the outer flames blue: they chain inward and flip the inner ones"
+      }
+    ]
+  }
+}

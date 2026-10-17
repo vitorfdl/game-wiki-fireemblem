@@ -1,0 +1,2525 @@
+{
+  "name": "Sirocco",
+  "slug": "sirocco",
+  "epithet": "The \"capricious wind\" bard",
+  "faction": "Rose Tempest",
+  "homeRoute": "Leda",
+  "weapons": [
+    "Sword"
+  ],
+  "preferred": [
+    "Authority",
+    "White Magic",
+    "Black Magic",
+    "Sword"
+  ],
+  "avoid": [
+    "Heavy"
+  ],
+  "personality": "A charming, perceptive bard devoted to the goddess Kalla, poetry, and every woman he meets.",
+  "story": "Sirocco is a mysterious 20-year-old bard who meets Leda during her revenge journey and joins her route automatically. On Cai/Dietrich he needs Renown 9+, Support 3, and a quest (give him the Monument Verse); on Theodora's route, Renown 5+ and the same quest. His deeper story role is not documented on the sources checked.",
+  "personalSkill": {
+    "name": "Goddess's Favor",
+    "effect": "Restores 5 HP after combat. Lv 20: Wind's Caprice (random Avo bonus of +1, +5, or +20); upgraded at Lv 35."
+  },
+  "growths": {
+    "HP": 40,
+    "Str": 40,
+    "Mag": 40,
+    "Spd": 45,
+    "Dex": 50,
+    "Def": 35,
+    "Res": 35,
+    "Lck": 50,
+    "Cha": 45
+  },
+  "supports": [
+    "Alexandra",
+    "Anatolia",
+    "Buccar",
+    "Dante",
+    "Leda",
+    "Mu",
+    "Ninae",
+    "Olympia",
+    "Sha Lan",
+    "Ursula"
+  ],
+  "tiers": [
+    {
+      "source": "Pocket Tactics",
+      "tier": "S"
+    },
+    {
+      "source": "KeenGamer",
+      "tier": "S"
+    }
+  ],
+  "tierNotes": "Pocket Tactics: S. KeenGamer: S (one of the most balanced growth spreads, 40-50% across most stats).",
+  "recruit": {
+    "how": "auto",
+    "why": [
+      "Joins Leda's army automatically, so there's no Support or Renown to chase."
+    ]
+  },
+  "requirements": {
+    "Cai": "3S 9R",
+    "Dietrich": "3S 9R",
+    "Theodora": "5R",
+    "Leda": "Auto"
+  },
+  "build": {
+    "role": "Main magic nuke and armor answer",
+    "path": [
+      "Diviner",
+      "Shaman",
+      "Ovate",
+      "Bishop (Part II side trip: Barrier, White toward S)",
+      "Ovate",
+      "Druid",
+      "The Avatar"
+    ],
+    "part1Target": "Ovate",
+    "part3Target": "Druid, then The Avatar",
+    "notes": "Shaman (Ch 6 to 9) and Ovate (Ch 10) double his Black Magic for the armored maps. The Arena Mage course takes both schools to B. The Avatar needs White S and Black S: Ovate and Druid train Black; a Part II Bishop stint (White +3, Barrier) and a free Bishop switch in Part III push White.",
+    "confidence": "medium"
+  },
+  "guide": {
+    "role": "Magic nuke, armor answer and Dance target 1",
+    "summary": "Main magic damage and Leda's first Dance target: cast at range 2, get danced, cast again. Shaman from Ch 6 and Ovate at Lv 35 (Ch 10) double his Black Magic; a Part II Bishop stint pushes White toward The Avatar's S. Keep him a row behind Buccar and Mu: Def 25 as a caster.",
+    "playstyle": "Open each map inside Leda's Song of Passion ring (Mag +7 from Ch 9), delete armor and fliers from range 2, then let Leda dance him for a second cast. Goddess's Favor heals 5 HP after each fight.",
+    "focus": [
+      "Mag",
+      "Spd",
+      "Res"
+    ],
+    "keys": [
+      "Seat him in Arena Mage Training weekly from Ch 5: Black B for Ovate, White B for Bishop",
+      "Shaman at Lv 20 (Ch 6) and stay: doubled Black Magic through Ch 9",
+      "Ovate the day he shows Lv 35 with Black B (Ch 10): the route's 2nd Advanced exam",
+      "Read Archive L (Ch 9) and Archive θ (Ch 9 or 11) the day you find them",
+      "Take Io's Levin Sword in Ch 10; Sword C comes from a spare Infantry seat",
+      "Part II Ch 1 to 2: Bishop for Barrier and White +3, then Ovate for Dagda"
+    ],
+    "watch": [
+      "Def: 25 growth as Shaman and Ovate. Archers and cavalry kill him if he ends in reach",
+      "Weight: Magic Staff 3; Thunder 7, Cutting Gale 8. Levin Sword 8 only on turns he ends out of reach",
+      "Dark spells: Banshee 23, Luna 20. If spell weight counts (?), cast them only from out of reach",
+      "The Avatar: White S and Black S at 100%. Arena seats bench first; White past B comes from Bishop",
+      "Thoron is Black A in every source; Rescue is in no spell list"
+    ],
+    "stages": [
+      {
+        "when": "Ch 1 to 4 · start class unknown",
+        "from": {
+          "part": 1,
+          "ch": 1
+        },
+        "to": {
+          "part": 1,
+          "ch": 4
+        },
+        "level": "Lv 1 to 5",
+        "class": "",
+        "kind": "core",
+        "goal": "Join in Ch 1 and cast from range 2. Goddess's Favor (+5 HP after each combat) covers chip counters.",
+        "exit": "Diviner exam at Lv 5 in Ch 5.",
+        "masteries": [],
+        "items": [
+          {
+            "item": "Vulnerary",
+            "why": "Heals 20; Goddess's Favor covers the rest"
+          }
+        ],
+        "spells": [
+          {
+            "name": "Wind",
+            "why": "Black D: Mt 3, effective vs fliers"
+          },
+          {
+            "name": "Heal",
+            "why": "White D: backup heal"
+          }
+        ],
+        "tips": [
+          "Turn 1 on every map: stand inside Leda's 2-tile ring for Song of Passion (Mag +4), then cast",
+          "Collapsed Fort (Ch 4, Lv 6) has a Black-Magic Manual: read it on him",
+          "No Arena before Ch 5 and starting ranks are undocumented: equip the D abilities the menu shows, in this order"
+        ],
+        "abilities": [
+          {
+            "name": "Black Magic Lv. 1",
+            "why": "Black D+? from Wind casts: Hit +3 with black magic"
+          },
+          {
+            "name": "Dodge",
+            "why": "Infantry D?: Avo +5 vs bows and magic"
+          },
+          {
+            "name": "Distraction",
+            "why": "Authority D?: Hit -3 on adjacent foes"
+          },
+          {
+            "name": "Read the Winds",
+            "why": "Flying D?: Avo +10 vs bows"
+          },
+          {
+            "name": "Knightly Senses",
+            "why": "Riding D?: Avo +10 vs spears"
+          }
+        ]
+      },
+      {
+        "when": "Ch 5",
+        "from": {
+          "part": 1,
+          "ch": 5
+        },
+        "to": {
+          "part": 1,
+          "ch": 5
+        },
+        "level": "Lv 5 to 20",
+        "class": "Diviner",
+        "kind": "core",
+        "goal": "Mag 55 growth; raise Black Magic C for Shaman. Trade only with weak foes at range 2: Goddess's Favor heals 5.",
+        "exit": "Leave at Lv 20 with Black Magic C once Renown 4 opens Shaman (Ch 6).",
+        "masteries": [
+          "Magic Basics"
+        ],
+        "items": [
+          {
+            "item": "Vulnerary",
+            "why": "Heals 20; Goddess's Favor covers the rest"
+          }
+        ],
+        "spells": [
+          {
+            "name": "Wind",
+            "why": "Black D: first attack spell"
+          },
+          {
+            "name": "Heal",
+            "why": "White D: backup heal"
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Magic Basics",
+            "why": "Diviner mastery: Mag/Res +1 (once mastered)"
+          },
+          {
+            "name": "Black Magic Lv. 1",
+            "why": "Black rank ability (D+): Hit +3 with black magic"
+          },
+          {
+            "name": "Wind's Caprice",
+            "why": "Personal Lv 20: Avo +1, +5 or +20 at random (from Lv 20)"
+          },
+          {
+            "name": "Distraction",
+            "why": "Authority D (Mage course): Hit -3 on adjacent foes"
+          },
+          {
+            "name": "Read the Winds",
+            "why": "Flying D (one Mounted week?): Avo +10 vs bows"
+          }
+        ],
+        "training": [
+          {
+            "rank": "Black Magic C",
+            "for": "Shaman (Ch 6)",
+            "how": "Arena Mage Training (Black, White, Authority) every week"
+          },
+          {
+            "rank": "White Magic C",
+            "for": "Restore; White B later for Bishop",
+            "how": "Same Mage session: it trains both schools"
+          },
+          {
+            "rank": "Authority D",
+            "for": "Distraction",
+            "how": "Same Mage session: it trains Authority too"
+          },
+          {
+            "rank": "Flying D, Riding D",
+            "for": "Read the Winds, Knightly Senses (Avo +10 vs bows / spears)",
+            "how": "1–2 Arena Mounted weeks? on the free seat beside Catania (Ch 5–9)"
+          }
+        ]
+      },
+      {
+        "when": "Ch 6 to 9",
+        "from": {
+          "part": 1,
+          "ch": 6
+        },
+        "to": {
+          "part": 1,
+          "ch": 9
+        },
+        "level": "Lv 20 to 35",
+        "class": "Shaman",
+        "kind": "core",
+        "goal": "Doubled Black Magic, Mag 55 and Spd 55 growth; master Bind Dexterity. Dance target 1 from Ch 9.",
+        "exit": "Leave at Lv 35 with Black Magic B once Renown 8 opens Ovate (Ch 10).",
+        "why": [
+          "Wind's Caprice (Lv 20): Avo +1, +5 or +20 at random. Luck, not a plan with Def 25",
+          "Armored Ch 7 and Ch 9 maps: his magic hits Res, not Prt"
+        ],
+        "masteries": [
+          "Bind Dexterity"
+        ],
+        "weapons": [
+          {
+            "item": "Levin Sword",
+            "why": "Magic hit at 1-2 on armor; needs Sword C",
+            "situational": "Ch 9 armored map, only if you barter it before Io's copy (Ch 10): open slot",
+            "plan": "Io carries one when recruited in Ch 10"
+          }
+        ],
+        "equipment": [
+          {
+            "item": "Magic Staff",
+            "why": "Mag +3 at Wt 3: his only accessory",
+            "slot": "Accessory"
+          }
+        ],
+        "items": [
+          {
+            "item": "Concoction",
+            "why": "Heals 40: Def 25, archers and cavalry target him",
+            "alts": [
+              "Vulnerary"
+            ]
+          }
+        ],
+        "spells": [
+          {
+            "name": "Thunder",
+            "why": "Black C: Mt 5, main attack, doubled uses"
+          },
+          {
+            "name": "Wind",
+            "why": "Black D: cheap finisher vs fliers"
+          },
+          {
+            "name": "Luna Λ",
+            "why": "Archive L (Aditi's Cave, Lv 28, Ch 9): ignores Res. Hit 50, 3 uses, Wt 20"
+          },
+          {
+            "name": "Banshee Θ",
+            "why": "Archive θ (Iapetus Cavern, Lv 32, Ch 9 or 11): Immobilize at 1-3. Hit 50, Wt 23"
+          },
+          {
+            "name": "Restore",
+            "why": "White C: removes status"
+          },
+          {
+            "name": "Heal",
+            "why": "White D: backup heal"
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Bind Dexterity",
+            "why": "Shaman mastery: Dex -3 on adjacent foes (once mastered)"
+          },
+          {
+            "name": "Wind's Caprice",
+            "why": "Personal Lv 20: Avo +1, +5 or +20 at random each combat"
+          },
+          {
+            "name": "Magic Basics",
+            "why": "Diviner mastery: Mag/Res +1"
+          },
+          {
+            "name": "Black Magic Lv. 2",
+            "why": "Black C+: Hit +5 with black magic"
+          },
+          {
+            "name": "Read the Winds",
+            "why": "Flying D: Avo +10 vs the archers that reach range 2"
+          }
+        ],
+        "training": [
+          {
+            "rank": "Black Magic B",
+            "for": "Ovate (Lv 35, Renown 8)",
+            "how": "Arena Mage Training every week; Black-Magic Manuals"
+          },
+          {
+            "rank": "White Magic B",
+            "for": "Recover now, Bishop in Part II",
+            "how": "Same Mage session"
+          },
+          {
+            "rank": "Sword C",
+            "for": "Levin Sword (Ch 10)",
+            "how": "Arena Infantry or Warrior Training on a spare seat"
+          }
+        ],
+        "checks": [
+          {
+            "stat": "Mag",
+            "at": "Ch 7 prep",
+            "need": "Forecast: Thunder x2 kills Ch 7's armored foes",
+            "why": "The armored Ch 7, 9 and 10 maps lean on his magic",
+            "fix": [
+              "Sing Song of Passion first: Mag +4 (+7 from Ch 9)",
+              "Keep the Magic Staff (Mag +3) on",
+              "Leave the knight to the Hammer; finish the soft targets"
+            ]
+          }
+        ],
+        "tips": [
+          "From Ch 9: cast at range 2, Leda dances him, cast again. Special Dance's Spd +3 turns near-doubles into doubles",
+          "Read Archive L (Ch 9) at once; Archive θ when he can clear Iapetus Cavern (Lv 32), Ch 9 or 11",
+          "Optional scene: Temple Row at 18:00 in Ch 9, then Hightown"
+        ],
+        "drop": [
+          {
+            "item": "Black Magic Lv. 1",
+            "why": "Lv. 2 replaces it at Black C+"
+          },
+          {
+            "item": "Distraction",
+            "why": "Bind Dexterity covers adjacent foes"
+          }
+        ]
+      },
+      {
+        "when": "Ch 10 to 12",
+        "from": {
+          "part": 1,
+          "ch": 10
+        },
+        "to": {
+          "part": 1,
+          "ch": 12
+        },
+        "level": "Lv 35 to 37",
+        "class": "Ovate",
+        "kind": "core",
+        "goal": "Mag +20 growth, doubled Black Magic and Magic Hit +5 for the armored Ch 10 map; master Bind Speed.",
+        "exit": "Stay Ovate into Part II; Bishop waits for Part II's free Advanced Licenses.",
+        "why": [
+          "Second Advanced exam of the route: the day he shows Lv 35 with Black Magic B (Ch 10, Ch 11 at worst)",
+          "Wind's Caprice+ (Lv 35) adds an Avo +30 roll",
+          "Banshee Θ pins the Ch 11 and Ch 12 bosses at 1-3; dance him for a second try"
+        ],
+        "masteries": [
+          "Bind Speed"
+        ],
+        "weapons": [
+          {
+            "item": "Levin Sword",
+            "why": "Lightning Strike at 1-2 vs armor; Wt 8, so only on safe turns",
+            "situational": "Armored maps (Ch 10): open slot; spells stay his main attack",
+            "plan": "Io carries one when recruited in Ch 10"
+          }
+        ],
+        "equipment": [
+          {
+            "item": "Magic Staff",
+            "why": "Mag +3 at Wt 3: his only accessory",
+            "slot": "Accessory"
+          }
+        ],
+        "items": [
+          {
+            "item": "Concoction",
+            "why": "Heals 40: Def 25, archers and cavalry target him",
+            "alts": [
+              "Vulnerary"
+            ]
+          },
+          {
+            "item": "Elixir",
+            "why": "Heals 100; part of his Part II stock",
+            "alts": [
+              "Concoction"
+            ]
+          }
+        ],
+        "spells": [
+          {
+            "name": "Cutting Gale",
+            "why": "Black B: Mt 7, Hit 95; main nuke, effective vs fliers"
+          },
+          {
+            "name": "Thunder",
+            "why": "Black C: cheaper uses"
+          },
+          {
+            "name": "Banshee Θ",
+            "why": "Archive θ (Iapetus Cavern, Lv 32, Ch 9 or 11): Immobilize at 1-3. Hit 50, Wt 23"
+          },
+          {
+            "name": "Luna Λ",
+            "why": "Archive L (Aditi's Cave, Lv 28, Ch 9): ignores Res. Hit 50, 3 uses, Wt 20"
+          },
+          {
+            "name": "Recover",
+            "why": "White B: heals 30"
+          },
+          {
+            "name": "Restore",
+            "why": "White C: removes status"
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Bind Speed",
+            "why": "Ovate mastery: Spd -3 on adjacent foes (once mastered)"
+          },
+          {
+            "name": "Wind's Caprice+",
+            "why": "Personal Lv 35: adds an Avo +30 roll; replaces Wind's Caprice"
+          },
+          {
+            "name": "Magic Basics",
+            "why": "Diviner mastery: Mag/Res +1"
+          },
+          {
+            "name": "Black Magic Lv. 3",
+            "why": "Black B+ (Ovate fights): Hit/Avo +5; Lv. 2 until it shows"
+          },
+          {
+            "name": "Read the Winds",
+            "why": "Flying D: Avo +10 vs bows"
+          }
+        ],
+        "training": [
+          {
+            "rank": "Black Magic A",
+            "for": "Thoron, then Druid (Part III)",
+            "how": "Ovate fights (Black +3); Arena seats bench first"
+          }
+        ],
+        "checks": [
+          {
+            "stat": "Spd",
+            "at": "Lv 35",
+            "need": "Forecast shows x2 with Cutting Gale on Ch 10's armored knights",
+            "why": "Doubled casts at range 2 are his whole damage plan",
+            "fix": [
+              "Dance him first: Special Dance Spd +3",
+              "Bind Speed (Ovate) slows adjacent foes by 3",
+              "Thunder (Wt 7) over Cutting Gale (8) if 1 AS short?"
+            ]
+          }
+        ],
+        "drop": [
+          {
+            "item": "Wind",
+            "why": "Cutting Gale covers fliers"
+          },
+          {
+            "item": "Heal",
+            "why": "Recover and the healers cover it"
+          },
+          {
+            "item": "Bind Dexterity",
+            "why": "Bind Speed covers adjacent foes; Lv. 3 adds Avo"
+          }
+        ],
+        "tips": [
+          "Advanced Licenses: Megaira in Ch 9, Dagsion from Ch 10",
+          "Ch 10 is full of armor: Sirocco, the Levin Sword and Esmeralda's Hammer are the answer",
+          "Part II brings only the 6 items he holds at 11/27 (the game says 'equipped'?): Staff, Levin Sword, Concoction, Elixir"
+        ]
+      },
+      {
+        "when": "Part II Ch 1 to 2",
+        "from": {
+          "part": 2,
+          "ch": 1
+        },
+        "to": {
+          "part": 2,
+          "ch": 2
+        },
+        "level": "Lv 37 to 40",
+        "class": "Bishop",
+        "kind": "detour",
+        "goal": "Rank push for The Avatar: White +3 a fight toward S (Arena seats bench first), and master Barrier.",
+        "exit": "Leave once Barrier is mastered, or after Ch 2: Ovate for Ch 3's hold and Dagda.",
+        "why": [
+          "Free Part II Advanced License; needs White Magic B (Arena, Part I)",
+          "Bishop still casts Black Magic at single uses, so he keeps hitting"
+        ],
+        "masteries": [
+          "Barrier"
+        ],
+        "weapons": [
+          {
+            "item": "Levin Sword",
+            "why": "Held for Ovate from Ch 3; Bishop can't swing it",
+            "situational": "Carried, not used, in Ch 1 and 2: open slot",
+            "plan": "Io carries one when recruited in Ch 10"
+          }
+        ],
+        "equipment": [
+          {
+            "item": "Magic Staff",
+            "why": "Mag +3 at Wt 3: his only accessory",
+            "slot": "Accessory"
+          }
+        ],
+        "items": [
+          {
+            "item": "Concoction",
+            "why": "Heals 40; stocked before 11/27",
+            "plan": "Stocked before 11/27 (no Part II shops)"
+          },
+          {
+            "item": "Elixir",
+            "why": "Heals 100; part of his Part II stock",
+            "alts": [
+              "Concoction"
+            ],
+            "plan": "Stocked before 11/27 (no Part II shops)"
+          }
+        ],
+        "spells": [
+          {
+            "name": "Recover",
+            "why": "White B: doubled uses in Bishop"
+          },
+          {
+            "name": "Cutting Gale",
+            "why": "Black B: single uses here"
+          },
+          {
+            "name": "Thunder",
+            "why": "Black C"
+          },
+          {
+            "name": "Banshee Θ",
+            "why": "Archive θ (Iapetus Cavern, Lv 32, Ch 9 or 11): Immobilize at 1-3. Hit 50, Wt 23"
+          },
+          {
+            "name": "Luna Λ",
+            "why": "Archive L (Aditi's Cave, Lv 28, Ch 9): ignores Res. Hit 50, 3 uses, Wt 20"
+          },
+          {
+            "name": "Restore",
+            "why": "White C"
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Barrier",
+            "why": "Bishop mastery: Res +3 to adjacent allies (once mastered)"
+          },
+          {
+            "name": "Wind's Caprice+",
+            "why": "Personal Lv 35: adds an Avo +30 roll; replaces Wind's Caprice"
+          },
+          {
+            "name": "Magic Basics",
+            "why": "Diviner mastery: Mag/Res +1"
+          },
+          {
+            "name": "Black Magic Lv. 3",
+            "why": "Black B+: Hit/Avo +5 with black magic"
+          },
+          {
+            "name": "Read the Winds",
+            "why": "Flying D: Avo +10 vs Ch 2's Rangers"
+          }
+        ],
+        "training": [
+          {
+            "rank": "White Magic A, then S",
+            "for": "The Avatar (Part III)",
+            "how": "Bishop fights train White +3; Part II has no Arena"
+          }
+        ],
+        "tips": [
+          "Part II gives 5 Advanced Licenses every chapter and they don't stack: this one costs nothing",
+          "Stand beside a tank so Barrier and his doubled Recover both land",
+          "Ch 2 wants mages and fliers for the fleeing southeast Ranger: he casts before Turn 4"
+        ],
+        "drop": [
+          {
+            "item": "Bind Speed",
+            "why": "Off for the Bishop stint; Read the Winds for Ch 2's bows"
+          }
+        ]
+      },
+      {
+        "when": "Part II Ch 3 to 6",
+        "from": {
+          "part": 2,
+          "ch": 3
+        },
+        "to": {
+          "part": 2,
+          "ch": 6
+        },
+        "level": "Lv 40 to 42",
+        "class": "Ovate",
+        "kind": "core",
+        "goal": "Main damage on Ch 3's hold and on Dagda, whose Res is far below his Def. Cast, get danced, cast again.",
+        "exit": "Druid at Lv 45 in Part III (Master License, Black Magic A).",
+        "masteries": [],
+        "weapons": [
+          {
+            "item": "Levin Sword",
+            "why": "Lightning Strike at 1-2 vs armor; Wt 8, only on safe turns",
+            "situational": "Armored foes or spent spells: open slot",
+            "plan": "Io carries one when recruited in Ch 10"
+          }
+        ],
+        "equipment": [
+          {
+            "item": "Magic Staff",
+            "why": "Mag +3 at Wt 3: his only accessory",
+            "slot": "Accessory"
+          }
+        ],
+        "items": [
+          {
+            "item": "Concoction",
+            "why": "Heals 40; stocked before 11/27",
+            "plan": "Stocked before 11/27 (no Part II shops)"
+          },
+          {
+            "item": "Elixir",
+            "why": "Heals 100; part of his Part II stock",
+            "alts": [
+              "Concoction"
+            ],
+            "plan": "Stocked before 11/27 (no Part II shops)"
+          }
+        ],
+        "spells": [
+          {
+            "name": "Cutting Gale",
+            "why": "Black B: main nuke"
+          },
+          {
+            "name": "Thunder",
+            "why": "Black C"
+          },
+          {
+            "name": "Banshee Θ",
+            "why": "Archive θ (Iapetus Cavern, Lv 32, Ch 9 or 11): Immobilize at 1-3. Hit 50, Wt 23"
+          },
+          {
+            "name": "Luna Λ",
+            "why": "Archive L (Aditi's Cave, Lv 28, Ch 9): ignores Res. Hit 50, 3 uses, Wt 20"
+          },
+          {
+            "name": "Recover",
+            "why": "White B: big single heal"
+          },
+          {
+            "name": "Restore",
+            "why": "White C"
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Wind's Caprice+",
+            "why": "Personal Lv 35: adds an Avo +30 roll; replaces Wind's Caprice"
+          },
+          {
+            "name": "Bind Speed",
+            "why": "Ovate mastery: Spd -3 on adjacent foes"
+          },
+          {
+            "name": "Barrier",
+            "why": "Bishop mastery: Res +3 to adjacent allies"
+          },
+          {
+            "name": "Magic Basics",
+            "why": "Diviner mastery: Mag/Res +1"
+          },
+          {
+            "name": "Black Magic Lv. 3",
+            "why": "Black B+: Hit/Avo +5; Lv. 4 at A+"
+          }
+        ],
+        "tips": [
+          "Ch 3: cast from behind the alley chokepoints while Buccar and Mu hold",
+          "Ch 5: Dagda's Res is far below his Def, so Sirocco leads the damage",
+          "Ch 6 Part 1: bows chip Lyrah's shields; save his doubled Cutting Gale for the cocoon"
+        ],
+        "drop": [
+          {
+            "item": "Read the Winds",
+            "why": "Bind Speed back for Ch 3's chokes"
+          }
+        ]
+      },
+      {
+        "when": "Part III, Sections 1 to 3",
+        "from": {
+          "part": 3,
+          "ch": 1
+        },
+        "to": {
+          "part": 3,
+          "ch": 3
+        },
+        "level": "Lv 45+",
+        "class": "Druid",
+        "kind": "core",
+        "goal": "Mag +30 growth and Black +4 a fight toward S. Underworld Boon: cast inside Leda's Song of Abjuring ring.",
+        "exit": "The Avatar once White S, Black S and the Lotus of Reincarnation are in (Section 4+).",
+        "why": [
+          "Druid has no White Magic: if White is short of S, switch back to Bishop (free) for White +3 fights",
+          "Druid swings swords, so a Cleansing Blade also strips the Boon"
+        ],
+        "masteries": [
+          "Bind Resistance"
+        ],
+        "weapons": [
+          {
+            "item": "Levin Sword",
+            "why": "Lightning Strike at 1-2 vs armor; Wt 8, only on safe turns",
+            "situational": "Armored maps: open slot",
+            "plan": "Io carries one when recruited in Ch 10"
+          },
+          {
+            "item": "Cleansing Blade",
+            "why": "Strips the Underworld Boon outside Leda's ring",
+            "situational": "Undead maps when he fights outside Leda's ring: open slot"
+          }
+        ],
+        "equipment": [
+          {
+            "item": "Magic Staff",
+            "why": "Mag +3 at Wt 3: his only accessory",
+            "slot": "Accessory"
+          }
+        ],
+        "items": [
+          {
+            "item": "Elixir",
+            "why": "Heals 100; part of his Part II stock",
+            "alts": [
+              "Concoction"
+            ]
+          }
+        ],
+        "spells": [
+          {
+            "name": "Thoron",
+            "why": "Black A: Mt 20, range 1-3, Hit 55"
+          },
+          {
+            "name": "Cutting Gale",
+            "why": "Black B: reliable nuke"
+          },
+          {
+            "name": "Banshee Θ",
+            "why": "Archive θ (Iapetus Cavern, Lv 32, Ch 9 or 11): Immobilize at 1-3. Hit 50, Wt 23"
+          },
+          {
+            "name": "Luna Λ",
+            "why": "Archive L (Aditi's Cave, Lv 28, Ch 9): ignores Res. Hit 50, 3 uses, Wt 20"
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Bind Resistance",
+            "why": "Druid mastery: Res -3 on adjacent foes (once mastered)"
+          },
+          {
+            "name": "Wind's Caprice+",
+            "why": "Personal Lv 35: adds an Avo +30 roll; replaces Wind's Caprice"
+          },
+          {
+            "name": "Black Magic Lv. 4",
+            "why": "Black A+ (Druid fights) on the way to S: Hit/Avo +7"
+          },
+          {
+            "name": "Barrier",
+            "why": "Bishop mastery: Res +3 to adjacent allies"
+          },
+          {
+            "name": "Bind Speed",
+            "why": "Ovate mastery: Spd -3 on adjacent foes"
+          }
+        ],
+        "training": [
+          {
+            "rank": "White Magic S, Black Magic S",
+            "for": "The Avatar (Lotus of Reincarnation, Prophet's Chamber)",
+            "how": "Druid fights (Black +4); Bishop stints (White +3) if White lags. Needs all 5 Keys"
+          }
+        ],
+        "drop": [
+          {
+            "item": "Recover",
+            "why": "Druid has no White Magic"
+          },
+          {
+            "item": "Restore",
+            "why": "Druid has no White Magic"
+          },
+          {
+            "item": "Magic Basics",
+            "why": "Slot goes to Bind Resistance"
+          },
+          {
+            "item": "Black Magic Lv. 3",
+            "why": "Lv. 4 at Black A+"
+          }
+        ],
+        "tips": [
+          "Breza and Drake (fliers): Cutting Gale from range 2; Baozi (Pride): Black Magic Lv. 4 holds Hit"
+        ]
+      },
+      {
+        "when": "Part III, Section 4+",
+        "from": {
+          "part": 3,
+          "ch": 4
+        },
+        "level": "Lv 45+",
+        "class": "The Avatar",
+        "kind": "core",
+        "goal": "Both schools tripled, Mag +30 and Res +30 growth, Magic Heal +20. Undead: cast inside Leda's Abjuring ring.",
+        "exit": "Final class. One Lotus: it goes to the merged Sirocco.",
+        "masteries": [
+          "Divine Law"
+        ],
+        "weapons": [
+          {
+            "item": "Levin Sword",
+            "why": "Lightning Strike at 1-2 vs armor; Wt 8, only on safe turns",
+            "situational": "Armored maps: open slot",
+            "plan": "Io carries one when recruited in Ch 10"
+          },
+          {
+            "item": "Cleansing Blade",
+            "why": "Strips the Underworld Boon outside Leda's ring",
+            "situational": "Undead maps when he fights outside Leda's ring: open slot"
+          }
+        ],
+        "equipment": [
+          {
+            "item": "Magic Staff",
+            "why": "Mag +3 at Wt 3: his only accessory",
+            "slot": "Accessory"
+          }
+        ],
+        "items": [
+          {
+            "item": "Elixir",
+            "why": "Heals 100; part of his Part II stock",
+            "alts": [
+              "Concoction"
+            ]
+          }
+        ],
+        "spells": [
+          {
+            "name": "Excalibur",
+            "why": "Black S: Mt 15, Hit 100, effective vs fliers"
+          },
+          {
+            "name": "Thoron",
+            "why": "Black A"
+          },
+          {
+            "name": "Cutting Gale",
+            "why": "Black B"
+          },
+          {
+            "name": "Banshee Θ",
+            "why": "Archive θ (Iapetus Cavern, Lv 32, Ch 9 or 11): Immobilize at 1-3. Hit 50, Wt 23"
+          },
+          {
+            "name": "Warp",
+            "why": "White S"
+          },
+          {
+            "name": "Fortify",
+            "why": "White A: heals 20 to allies within 5"
+          },
+          {
+            "name": "Recover",
+            "why": "White B: heals 30"
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Divine Law",
+            "why": "The Avatar mastery: Mag +10 (once mastered)"
+          },
+          {
+            "name": "Wind's Caprice+",
+            "why": "Personal Lv 35: adds an Avo +30 roll; replaces Wind's Caprice"
+          },
+          {
+            "name": "Black Magic Lv. 5",
+            "why": "Black S (an Avatar requirement): Hit/Avo +10"
+          },
+          {
+            "name": "Bind Resistance",
+            "why": "Druid mastery: Res -3 on adjacent foes"
+          },
+          {
+            "name": "Barrier",
+            "why": "Bishop mastery: Res +3 to adjacent allies"
+          }
+        ],
+        "tips": [
+          "The class video put its Sirocco in The Avatar and rated him above Dietrich (one source)",
+          "His Theodora copy aims at the same class; the merge keeps the better roll of each stat",
+          "Balor: core striker; a Dance and Passion+ turn the gate opening into a kill"
+        ],
+        "drop": [
+          {
+            "item": "Bind Speed",
+            "why": "Black Magic Lv. 5 takes the slot"
+          }
+        ]
+      }
+    ],
+    "alt": "Caladrius (carried in from Cai) gives Mov and Def but drops White Magic, which The Avatar needs at S. Priest in Ch 7 to 9 only if White is far from B by late Ch 8: it halves his Black casts on the armored maps.",
+    "sources": [
+      "class-and-weapon-guide",
+      "growth.py",
+      "character-learnsets",
+      "class-data",
+      "weapons-and-items",
+      "combat-arts-and-abilities",
+      "hard-mode-video-notes",
+      "part2-war",
+      "part3-salvation"
+    ],
+    "routeNotes": [
+      {
+        "system": "Supports",
+        "note": "Partners here: Leda, Buccar, Mu and Olympia (all four support each other too), plus Sha Lan on the bench. Ch 11 and 12 meal: Leda + Sirocco + Olympia."
+      },
+      {
+        "system": "Dancer (Great Dancer's Successor)",
+        "note": "First Dance target from Ch 9: cast at range 2, dance, cast again. Special Dance's Spd +3 can turn a near-double into a double."
+      },
+      {
+        "system": "Drink Recipes (Leda's Songs)",
+        "note": "Song of Passion adds Mag +4 (+7 with Passion+ from Ch 9). Start each map inside Leda's ring, then cast."
+      },
+      {
+        "system": "Archives (dark magic)",
+        "note": "He reads Archive L (Luna, Aditi's Cave, Ch 9) and Archive θ (Banshee, Iapetus Cavern, Ch 9 or 11). Archive Γ goes to Olympia."
+      }
+    ],
+    "decisions": [
+      {
+        "topic": "Skip the Priest side trip",
+        "pick": "Shaman Ch 6 to 9, Ovate at Lv 35",
+        "why": "The Arena Mage course trains White with Black, so White B needs no class. Priest would halve his Black casts and cut Mag growth to 50 on the armored Ch 7 and 9 maps, where he is the nuke.",
+        "else": "Priest only if White is far from B in late Ch 8"
+      },
+      {
+        "topic": "Take Bishop in Part II",
+        "pick": "Bishop Ch 1 to 2 on a free Advanced License",
+        "why": "White past B only comes from fights. Bishop adds White +3 a fight toward The Avatar's S and banks Barrier (Res +3 to adjacent allies) at no License cost."
+      },
+      {
+        "topic": "Stay Ovate, skip Caladrius",
+        "pick": "Ovate from Ch 10",
+        "why": "Caladrius drops White Magic; Ovate is the Hard-mode video's pick and doubles his tomes as Dance target 1."
+      }
+    ]
+  },
+  "copies": [
+    {
+      "route": "Cai",
+      "support": 3,
+      "renown": 9,
+      "cost": "A copy of the Monument Verse",
+      "chapter": 10,
+      "path": [
+        "Shaman",
+        "Ovate",
+        "Druid"
+      ],
+      "role": "Black magic nuker with Fortify and Warp later",
+      "part1": "Shaman (joins at about Lv 25 in a Specialty class, late Ch 10 or Ch 11, and deploys; Ovate in Ch 12 if Lv 35 lands, else Part II Ch 1)",
+      "why": "S tier on both lists and the Hard video's top Ovate. Ultand covers the caster role from Ch 6 (out for Ch 9), and Sirocco takes the ninth slot as the main nuke once Renown 9 lands (late Ch 10 or Ch 11; he joins at about Lv 25). His Leda copy is also Ovate; the brief allows matching classes, and Merging Causality keeps the best stat either way.",
+      "guide": {
+        "role": "Black magic nuker with Fortify and Warp later",
+        "summary": "The Hard video's top Ovate pick: Ovate grows Mag 60, Spd 50, Dex 65 on him with doubled Black Magic and Thoron at A. Ovate keeps White Magic, so Fortify (A) and Warp (S) still come.",
+        "playstyle": "Nuke armor and low-Res targets from range; the Levin Sword covers 1 to 2 range without spending tome uses. Def grows 25%: back line only.",
+        "focus": [
+          "Mag",
+          "Spd",
+          "Res"
+        ],
+        "keys": [
+          "Recruit at Support 3, Renown 9 (late Ch 10 at best, usually Ch 11): Volcano Ghosh every week.",
+          "He joins at about Lv 25, already in a Specialty class: Shaman on the day he joins if he isn't one (Black Magic C), Ovate at Lv 35 (Black Magic B).",
+          "Give him a Levin Sword: he prefers swords and it hits Res.",
+          "Put him in Shaman or Ovate before each Part II Army Training.",
+          "Once he joins he is the main nuke and Ultand the support caster: Tialla's Lend Magic (range 2) goes on him first."
+        ],
+        "watch": [
+          "Joins late Ch 10 or Ch 11 at about Lv 25: Ovate in Ch 12 only if he reaches Lv 35, otherwise Part II Ch 1.",
+          "Def growth 25% in Ovate.",
+          "Weight (caster): Wooden Sword 2 + Magic Staff 3 = 5. The Levin Sword (8) is a situational armor tool, never his everyday weapon in hand"
+        ],
+        "stages": [
+          {
+            "when": "Join (late Ch 10 or Ch 11; recruit at Renown 9) to Ch 12",
+            "from": {
+              "part": 1,
+              "ch": 10,
+              "at": "late",
+              "approx": true
+            },
+            "to": {
+              "part": 1,
+              "ch": 12
+            },
+            "level": "About Lv 25 to 33",
+            "class": "Shaman",
+            "kind": "core",
+            "goal": "Black Magic B for Ovate; he fights from late Ch 10 at best, so no side trips.",
+            "exit": "Leave at Lv 35 with Black Magic B: Ch 12, else Part II Ch 1 after Army Training",
+            "masteries": [],
+            "training": [
+              {
+                "rank": "Black Magic B",
+                "for": "Ovate exam",
+                "how": "Arena Mage Training (White Magic, Black Magic, Authority) every week"
+              }
+            ],
+            "weapons": [
+              {
+                "item": "Levin Sword",
+                "why": "Magic damage at 1-2 (Lightning Strike). Wt 8: in hand only on a turn he ends out of reach",
+                "situational": "Armored foes or spells spent: open slot; hold it at 11/27 for Part II",
+                "plan": "Cai holds the Vandahl copy"
+              },
+              {
+                "item": "Wooden Sword",
+                "why": "Wt 2: the weapon in hand, so Wooden Sword 2 + Magic Staff 3 = 5",
+                "plan": "Keep"
+              }
+            ],
+            "equipment": [
+              {
+                "item": "Magic Staff",
+                "slot": "Accessory",
+                "why": "Mag +3"
+              }
+            ],
+            "spells": [
+              {
+                "name": "Death Γ",
+                "why": "Archive Γ (Vandahl, from about Ch 10?): Mt 15, Crit 20; +10 Mt over Thunder. Wt 13: check he still doubles"
+              },
+              {
+                "name": "Thunder",
+                "why": "Black C, doubled uses"
+              },
+              {
+                "name": "Restore",
+                "why": "White C (Game8 says Recover)"
+              },
+              {
+                "name": "Wind",
+                "why": "Black D"
+              },
+              {
+                "name": "Heal",
+                "why": "White D"
+              }
+            ],
+            "abilities": [
+              {
+                "name": "Magic Basics",
+                "why": "Diviner mastery: Mag/Res +1, if he joins with it (a Ch 10+ recruit skips Diviner)"
+              },
+              {
+                "name": "Black Magic Lv. 1",
+                "why": "Black Magic D+ rank ability (threshold per fortunesweave.co.uk, unverified; check the skill list): Hit +3 with black magic"
+              }
+            ],
+            "items": [
+              {
+                "item": "Concoction",
+                "why": "Heals 40: Def 25, he gets targeted",
+                "alts": [
+                  "Vulnerary"
+                ]
+              }
+            ],
+            "tips": [
+              "Ch 10+ recruits join at about Lv 25, already in a Specialty class: no Diviner stage. If his class isn't Shaman, take the Shaman exam that day (Specialty License, Black Magic C)",
+              "He joins too late for Ultand's Ch 9 absence: deploy him in the ninth slot as soon as he joins",
+              "Feed him kills on the remaining Paralogues to reach Lv 35"
+            ],
+            "why": [
+              "Wind's Caprice (Lv 20) rolls Avo +1, +5 or +20: keep him behind the line",
+              "Goddess's Favor (+5 HP after each combat) lets him trade chip at range 2"
+            ]
+          },
+          {
+            "when": "Ch 12 (Lv 35), else Part II Ch 1",
+            "from": {
+              "part": 1,
+              "ch": 12,
+              "approx": true
+            },
+            "to": {
+              "part": 1,
+              "ch": 12
+            },
+            "level": "Lv 35 to 42",
+            "class": "Ovate",
+            "kind": "core",
+            "goal": "Doubled Black Magic; master Bind Speed. Main nuke from his join.",
+            "exit": "Stays to the end of Part II.",
+            "masteries": [
+              "Bind Speed"
+            ],
+            "training": [
+              {
+                "rank": "Black Magic A, White Magic A",
+                "for": "Thoron, Fortify, Druid",
+                "how": "Arena Mage Training (White Magic, Black Magic, Authority)"
+              }
+            ],
+            "tips": [
+              "If he isn't Lv 35 by 11/27, Army Training lifts him to Lv 34 in Ch 1 and 35 in Ch 2; keep him in Shaman when you pick it",
+              "Part II gives 5 free Advanced Licenses each chapter",
+              "No free time in Part II: only the 6 items held at the end of Ch 12 come in, healing item included"
+            ],
+            "weapons": [
+              {
+                "item": "Levin Sword",
+                "why": "Magic damage at 1-2 (Lightning Strike). Wt 8: in hand only on a turn he ends out of reach",
+                "situational": "Armored foes or spells spent: open slot, held from 11/27. Creek's Levin Sword +1 (Ch 1 drop) replaces it if he takes it",
+                "plan": "Keep"
+              },
+              {
+                "item": "Wooden Sword",
+                "why": "Wt 2: the weapon in hand",
+                "plan": "Keep"
+              }
+            ],
+            "equipment": [
+              {
+                "item": "Magic Staff",
+                "slot": "Accessory",
+                "why": "Mag +3",
+                "plan": "Keep equipped"
+              }
+            ],
+            "spells": [
+              {
+                "name": "Thoron",
+                "why": "Black A: Dagda's low Res in Part II Ch 5"
+              },
+              {
+                "name": "Death Γ",
+                "why": "Archive Γ (Vandahl, from about Ch 10?): Mt 15, Crit 20; +10 Mt over Thunder. Wt 13: check he still doubles"
+              },
+              {
+                "name": "Cutting Gale",
+                "why": "Black B"
+              },
+              {
+                "name": "Thunder",
+                "why": "Black C, doubled uses"
+              },
+              {
+                "name": "Fortify",
+                "why": "White A: area heal at normal uses"
+              },
+              {
+                "name": "Restore",
+                "why": "White C (Game8 says Recover)"
+              }
+            ],
+            "abilities": [
+              {
+                "name": "Bind Speed",
+                "why": "Ovate mastery: Spd -3 on adjacent foes (once mastered)"
+              },
+              {
+                "name": "Magic Basics",
+                "why": "Diviner mastery: Mag/Res +1, if he joins with it (a Ch 10+ recruit skips Diviner)"
+              },
+              {
+                "name": "Black Magic Lv. 1",
+                "why": "Black Magic D+ rank ability (threshold per fortunesweave.co.uk, unverified; check the skill list): Hit +3 with black magic"
+              }
+            ],
+            "items": [
+              {
+                "item": "Concoction",
+                "why": "Heals 40; stocked before 11/27 (no Part II shops)",
+                "alts": [
+                  "Vulnerary"
+                ]
+              }
+            ],
+            "why": [
+              "Wind's Caprice+ (Lv 35) adds an Avo +30 roll; Goddess's Favor heals 5 after each cast"
+            ]
+          },
+          {
+            "when": "Part II Ch 1 to 6",
+            "from": {
+              "part": 2,
+              "ch": 1
+            },
+            "to": {
+              "part": 2,
+              "ch": 6
+            },
+            "level": "Lv 35 to 42",
+            "class": "Ovate",
+            "kind": "core",
+            "goal": "No Part II side trip: Ch 5's Dagda needs his doubled Thoron.",
+            "exit": "Stays through Part II",
+            "masteries": [
+              "Bind Speed"
+            ],
+            "training": [
+              {
+                "rank": "Black Magic A, White Magic A",
+                "for": "Thoron, Fortify, Druid",
+                "how": "Arena Mage Training (White Magic, Black Magic, Authority)"
+              }
+            ],
+            "tips": [
+              "If he isn't Lv 35 by 11/27, Army Training lifts him to Lv 34 in Ch 1 and 35 in Ch 2; keep him in Shaman when you pick it",
+              "Part II gives 5 free Advanced Licenses each chapter",
+              "No free time in Part II: only the 6 items held at the end of Ch 12 come in, healing item included"
+            ],
+            "weapons": [
+              {
+                "item": "Levin Sword",
+                "why": "Magic damage at 1-2 (Lightning Strike). Wt 8: in hand only on a turn he ends out of reach",
+                "situational": "Armored foes or spells spent: open slot, held from 11/27. Creek's Levin Sword +1 (Ch 1 drop) replaces it if he takes it",
+                "plan": "Keep"
+              },
+              {
+                "item": "Wooden Sword",
+                "why": "Wt 2: the weapon in hand",
+                "plan": "Keep"
+              }
+            ],
+            "equipment": [
+              {
+                "item": "Magic Staff",
+                "slot": "Accessory",
+                "why": "Mag +3",
+                "plan": "Keep equipped"
+              }
+            ],
+            "spells": [
+              {
+                "name": "Thoron",
+                "why": "Black A: Dagda's low Res in Part II Ch 5"
+              },
+              {
+                "name": "Death Γ",
+                "why": "Archive Γ (Vandahl, from about Ch 10?): Mt 15, Crit 20; +10 Mt over Thunder. Wt 13: check he still doubles"
+              },
+              {
+                "name": "Cutting Gale",
+                "why": "Black B"
+              },
+              {
+                "name": "Thunder",
+                "why": "Black C, doubled uses"
+              },
+              {
+                "name": "Fortify",
+                "why": "White A: area heal at normal uses"
+              },
+              {
+                "name": "Restore",
+                "why": "White C (Game8 says Recover)"
+              }
+            ],
+            "abilities": [
+              {
+                "name": "Bind Speed",
+                "why": "Ovate mastery: Spd -3 on adjacent foes (once mastered)"
+              },
+              {
+                "name": "Magic Basics",
+                "why": "Diviner mastery: Mag/Res +1, if he joins with it (a Ch 10+ recruit skips Diviner)"
+              },
+              {
+                "name": "Black Magic Lv. 1",
+                "why": "Black Magic D+ rank ability (threshold per fortunesweave.co.uk, unverified; check the skill list): Hit +3 with black magic"
+              }
+            ],
+            "items": [
+              {
+                "item": "Concoction",
+                "why": "Heals 40; stocked before 11/27 (no Part II shops)",
+                "alts": [
+                  "Vulnerary"
+                ]
+              }
+            ]
+          },
+          {
+            "when": "Part III goal",
+            "from": {
+              "part": 3
+            },
+            "level": "Lv 45+",
+            "class": "Druid",
+            "kind": "core",
+            "goal": "Mag 70; The Avatar is the merged Sirocco's Divine goal (one holder). Goddess's Favor and Wind's Caprice+ carry into the merge.",
+            "exit": "Final class for this copy; Merge Causality folds him into the Leda copy.",
+            "masteries": [
+              "Bind Resistance"
+            ],
+            "tips": [
+              "Merge Causality from Section 2 keeps the best stat from each Sirocco copy"
+            ],
+            "weapons": [
+              {
+                "item": "Levin Sword +1",
+                "why": "Magic damage at 1-2 (Lightning Strike). Wt 8: in hand only on a turn he ends out of reach",
+                "situational": "Armored maps: open slot"
+              },
+              {
+                "item": "Wooden Sword",
+                "why": "Wt 2: the weapon in hand",
+                "plan": "Keep"
+              }
+            ],
+            "equipment": [
+              {
+                "item": "Magic Staff",
+                "slot": "Accessory",
+                "why": "Mag +3",
+                "plan": "Keep equipped"
+              }
+            ],
+            "spells": [
+              {
+                "name": "Excalibur",
+                "why": "Black S"
+              },
+              {
+                "name": "Thoron",
+                "why": "Black A: Dagda's low Res in Part II Ch 5"
+              },
+              {
+                "name": "Death Γ",
+                "why": "Archive Γ (Vandahl, from about Ch 10?): Mt 15, Crit 20; +10 Mt over Thunder. Wt 13: check he still doubles"
+              },
+              {
+                "name": "Cutting Gale",
+                "why": "Black B"
+              },
+              {
+                "name": "Thunder",
+                "why": "Black C, doubled uses"
+              },
+              {
+                "name": "Warp",
+                "why": "White S: Druid lacks White Magic, so cast it from Ovate or The Avatar"
+              }
+            ],
+            "abilities": [
+              {
+                "name": "Bind Resistance",
+                "why": "Druid mastery: Res -3 on adjacent foes (once mastered)"
+              },
+              {
+                "name": "Bind Speed",
+                "why": "Ovate mastery: Spd -3 on adjacent foes"
+              },
+              {
+                "name": "Magic Basics",
+                "why": "Diviner mastery: Mag/Res +1, if he joins with it (a Ch 10+ recruit skips Diviner)"
+              },
+              {
+                "name": "Black Magic Lv. 1",
+                "why": "Black Magic D+ rank ability (threshold per fortunesweave.co.uk, unverified; check the skill list): Hit +3 with black magic"
+              }
+            ],
+            "drop": [
+              {
+                "item": "Levin Sword",
+                "why": "Replaced by Creek's Levin Sword +1 if he took it"
+              }
+            ],
+            "items": [
+              {
+                "item": "Concoction",
+                "why": "Heals 40",
+                "alts": [
+                  "Vulnerary"
+                ]
+              }
+            ]
+          }
+        ],
+        "alt": "Bishop if you need a second doubled-cast healer more than a nuker. A Part II Bishop stint for Barrier was checked and rejected: Bishop has no swords, drops his doubled Black Magic and takes him off damage, and this copy merges into the Leda copy in Part III.",
+        "sources": [
+          "class-and-weapon-guide",
+          "growth.py",
+          "class-data",
+          "character-learnsets",
+          "weapons-and-items",
+          "hard-mode-video-notes",
+          "plan.json",
+          "PATHS-BRIEF",
+          "walkthrough-part1-cai",
+          "part2-war",
+          "part3-salvation"
+        ],
+        "routeNotes": [
+          {
+            "system": "Kindness Quests",
+            "note": "Renown 9 gates his recruit. Finish the Kindness Quests and crop deliveries early so Renown 9 lands late in Ch 10 rather than Ch 11."
+          }
+        ],
+        "decisions": [
+          {
+            "topic": "Ovate, main nuke from his join",
+            "pick": "Join class (Shaman?), Ovate at Lv 35 (Ch 12)",
+            "why": "S tier; he joins at about Lv 25, so Lv 35 comes fast. His Leda copy is also Ovate, which Merging Causality allows; Ovate keeps Fortify and Warp."
+          }
+        ],
+        "gates": [
+          {
+            "route": "Cai",
+            "from": {
+              "part": 1,
+              "ch": 4
+            },
+            "kind": "recruit",
+            "text": "Support 3 by Renown 9 (late Ch 10 or Ch 11), then his short quest",
+            "by": {
+              "part": 1,
+              "ch": 10
+            }
+          },
+          {
+            "route": "Cai",
+            "from": {
+              "part": 1,
+              "ch": 10
+            },
+            "kind": "rank",
+            "text": "Black Magic B by Lv 35 for Ovate (Part II Ch 1 if short)",
+            "by": {
+              "part": 1,
+              "ch": 12
+            }
+          }
+        ]
+      }
+    },
+    {
+      "route": "Theodora",
+      "renown": 5,
+      "cost": "A copy of the Monument Verse",
+      "chapter": 7,
+      "path": [
+        "Diviner (joins about Lv 15)",
+        "Shaman",
+        "Ovate (Ch 12 if Lv 35, else Part II Ch 1; all of Part II)",
+        "Druid",
+        "The Avatar"
+      ],
+      "role": "Magic nuke and second battalion carrier",
+      "part1": "Slot 8 from Ch 7: Diviner at about Lv 15, Shaman at Lv 20, Ovate at Lv 35 (Ch 12 or Part II Ch 1)",
+      "why": "Slot 8 from Ch 7: S in both character lists and the only second caster, so Bonaventure can move to the Hit aura. Infantry, Authority preferred and Cha 45 make him the second battalion carrier.",
+      "guide": {
+        "role": "Magic nuke and second battalion carrier",
+        "summary": "Slot 8 from Ch 7: the main black-magic nuke and second battalion carrier. Cast from one row behind Theodora's line at armor and fliers, and end next to Alexandra so her Silver Maiden counts him. He joins about 10 levels under the core, so feed him kills to reach Ovate by Ch 12.",
+        "playstyle": "Cast at range 2 from behind Theodora, then set his gambit tile before she ends her turn on the choke. Goddess's Favor heals 5 HP after each fight; from Lv 20 Wind's Caprice adds a random Avo roll.",
+        "focus": [
+          "Mag",
+          "Spd",
+          "Cha"
+        ],
+        "keys": [
+          "Renown 5 and the Monument Verse are his gate",
+          "Recruit him with the Monument Verse in Ch 7 week 1 and deploy him in slot 8",
+          "Seat him in Arena Mage Training every week: Black B, White B and Authority",
+          "Carry mage battalions up his Authority: Shadow Mages at B (Ch 12); Tactics Manuals go to Theodora",
+          "Feed him finishing blows: Ovate at Lv 35 in Ch 12, else Part II Ch 1",
+          "End turns next to Alexandra: her Silver Maiden counts him, and they support"
+        ],
+        "watch": [
+          "Join level: about Lv 15 in Ch 7, so Shaman at Lv 20 lands in Ch 8",
+          "Def: 25 growth as Shaman and Ovate. Keep him behind Theodora on enemy phase",
+          "Weight: Magic Staff 3 + Thunder 7 or Cutting Gale 8. Death Γ (Wt 13) and Luna Λ (Wt 20): cast from out of reach",
+          "Merge: his Leda copy runs the same class line, so the merge keeps the better roll of each stat",
+          "Part III weight: Levin Sword +2 8 + Magic Staff 3 = 11; Agnea's Arrow 15 + 3 = 18: cast it from out of reach."
+        ],
+        "stages": [
+          {
+            "when": "Ch 7 (joins about Lv 15) to Lv 20",
+            "from": {
+              "part": 1,
+              "ch": 7
+            },
+            "to": {
+              "lv": 20
+            },
+            "level": "About Lv 15 to 20",
+            "class": "Diviner",
+            "kind": "core",
+            "goal": "Second caster from his first map. Goddess's Favor (+5 HP after each combat) covers range-2 trades.",
+            "exit": "Leave at Lv 20 with Black Magic C. Magic Basics comes on the way; don't grind it.",
+            "why": [
+              "Recruit: Renown 5, a copy of the Monument Verse",
+              "Joins about Lv 15 in a Beginner class: Diviner License only if it isn't one"
+            ],
+            "masteries": [
+              "Magic Basics"
+            ],
+            "equipment": [
+              {
+                "item": "Magic Staff",
+                "why": "Mag +3 at Wt 3: his only accessory",
+                "slot": "Accessory",
+                "plan": "Second barter; Bonaventure holds the first",
+                "alts": [
+                  "Healing Staff",
+                  "Spirit Gem"
+                ]
+              }
+            ],
+            "items": [
+              {
+                "item": "Concoction",
+                "why": "Heals 40: Def 25, keep him topped up",
+                "alts": [
+                  "Vulnerary"
+                ]
+              }
+            ],
+            "spells": [
+              {
+                "name": "Wind",
+                "why": "Black D: Mt 3, effective vs fliers"
+              },
+              {
+                "name": "Heal",
+                "why": "White D: backup heals"
+              }
+            ],
+            "abilities": [
+              {
+                "name": "Magic Basics",
+                "why": "Diviner mastery: Mag/Res +1 (once mastered)"
+              },
+              {
+                "name": "Black Magic Lv. 1",
+                "why": "Black rank ability (D+): Hit +3 with black magic"
+              },
+              {
+                "name": "Distraction",
+                "why": "Authority D (Mage course): Hit -3 on adjacent foes"
+              },
+              {
+                "name": "Read the Winds",
+                "why": "Flying D (one Mounted week?): Avo +10 vs bows"
+              },
+              {
+                "name": "Wind's Caprice",
+                "why": "Personal Lv 20: Avo +1, +5 or +20 at random (from Lv 20)"
+              }
+            ],
+            "battalion": {
+              "name": "Mage Pupils",
+              "why": "Mag +2, Cha +3 on the nuke; Authority E? at join",
+              "where": "[[place:Regia]], Ch 6 Recruit Soldiers"
+            },
+            "training": [
+              {
+                "rank": "Black Magic C, then B",
+                "for": "Shaman, then Ovate",
+                "how": "Arena Mage Training (Black, White, Authority) every week"
+              },
+              {
+                "rank": "Authority",
+                "for": "Blackfire Mages (D), Mage Instructors (C), Shadow Mages (B)",
+                "how": "Same Mage session"
+              },
+              {
+                "rank": "Flying D, Riding D",
+                "for": "Read the Winds, Knightly Senses",
+                "how": "1–2 Arena Mounted weeks? on a free seat"
+              },
+              {
+                "rank": "White Magic D",
+                "for": "Heal",
+                "how": "Arena Mage; battles with it count too"
+              }
+            ],
+            "tips": [
+              "Feed him finishing blows: he joins about 10 levels under the core"
+            ]
+          },
+          {
+            "when": "Ch 8 (Lv 20) to 9",
+            "from": {
+              "part": 1,
+              "ch": 8,
+              "approx": true
+            },
+            "to": {
+              "part": 1,
+              "ch": 9
+            },
+            "level": "Lv 20 (Ch 8) and up",
+            "class": "Shaman",
+            "kind": "core",
+            "goal": "Main nuke: doubled Black Magic, Magic Hit +3, Spd 55 growth. Line up his gambit tile before Theodora ends.",
+            "exit": "Take Jester's Levin Sword the week he joins (Renown 9); stay Shaman to Lv 35.",
+            "why": [
+              "Wind's Caprice (Lv 20): Avo +1, +5 or +20 at random each combat",
+              "One Specialty License (Ch 8)"
+            ],
+            "masteries": [
+              "Bind Dexterity"
+            ],
+            "equipment": [
+              {
+                "item": "Magic Staff",
+                "why": "Mag +3 at Wt 3: his only accessory",
+                "slot": "Accessory",
+                "plan": "Second barter; Bonaventure holds the first",
+                "alts": [
+                  "Healing Staff",
+                  "Spirit Gem"
+                ]
+              }
+            ],
+            "items": [
+              {
+                "item": "Concoction",
+                "why": "Heals 40: Def 25, keep him topped up",
+                "alts": [
+                  "Vulnerary"
+                ]
+              }
+            ],
+            "spells": [
+              {
+                "name": "Thunder",
+                "why": "Black C: main nuke, doubled uses"
+              },
+              {
+                "name": "Wind",
+                "why": "Black D: cheap finisher vs fliers"
+              },
+              {
+                "name": "Restore",
+                "why": "White C: removes status"
+              },
+              {
+                "name": "Heal",
+                "why": "White D: backup heals"
+              }
+            ],
+            "abilities": [
+              {
+                "name": "Bind Dexterity",
+                "why": "Shaman mastery: Dex -3 on adjacent foes (once mastered)"
+              },
+              {
+                "name": "Wind's Caprice",
+                "why": "Personal Lv 20: Avo +1, +5 or +20 at random each combat"
+              },
+              {
+                "name": "Magic Basics",
+                "why": "Diviner mastery: Mag/Res +1"
+              },
+              {
+                "name": "Black Magic Lv. 2",
+                "why": "Black C+: Hit +5 with black magic"
+              },
+              {
+                "name": "Read the Winds",
+                "why": "Flying D: Avo +10 vs the archers that reach range 2"
+              }
+            ],
+            "battalion": {
+              "name": "Blackfire Mages",
+              "why": "Mag +2, Res +1, Cha +4 once Mage weeks give Authority D",
+              "where": "[[place:Regia]], Ch 6 Recruit Soldiers"
+            },
+            "training": [
+              {
+                "rank": "Black Magic B",
+                "for": "Ovate exam",
+                "how": "Arena Mage Training; battle use"
+              },
+              {
+                "rank": "White Magic B",
+                "for": "Recover; White past B comes with the Leda merge",
+                "how": "Same Mage session"
+              },
+              {
+                "rank": "Authority D",
+                "for": "Blackfire Mages (tier D)",
+                "how": "Arena Mage (Authority is his boon); Tactics Manuals after Theodora's"
+              }
+            ],
+            "checks": [
+              {
+                "stat": "Mag",
+                "at": "Ch 9 prep",
+                "need": "Forecast: Thunder x2 takes an armored foe below half HP",
+                "why": "Bonaventure moves to the Hit aura, so he is the army's only nuke",
+                "fix": [
+                  "Keep the Magic Staff (Mag +3) on",
+                  "Sofia's Lend Magic (Mag/Res +2) before he casts?",
+                  "Leave armor to Theodora's Halberd; finish the soft targets"
+                ]
+              }
+            ],
+            "tips": [
+              "End turns next to Alexandra: her Silver Maiden counts him"
+            ],
+            "drop": [
+              {
+                "item": "Black Magic Lv. 1",
+                "why": "Lv. 2 replaces it at Black C+"
+              },
+              {
+                "item": "Distraction",
+                "why": "Bind Dexterity covers adjacent foes"
+              }
+            ]
+          },
+          {
+            "when": "Ch 10 to 12 (Levin Sword)",
+            "from": {
+              "part": 1,
+              "ch": 10
+            },
+            "to": {
+              "part": 1,
+              "ch": 12
+            },
+            "level": "Up to Lv 35",
+            "class": "Shaman",
+            "kind": "core",
+            "goal": "Main nuke with Jester's Levin Sword: Lightning Strike hits Res at 1-2 when spell uses run low.",
+            "exit": "Leave for Ovate at Lv 35 with Black Magic B: Ch 12, else Part II Ch 1.",
+            "why": [
+              "Jester's Levin Sword (filler, Ch 10+): its hits use Mag, which Sirocco grows 40",
+              "Shaman holds swords; Ovate trains Sword +2 a fight"
+            ],
+            "masteries": [
+              "Bind Dexterity"
+            ],
+            "equipment": [
+              {
+                "item": "Magic Staff",
+                "why": "Mag +3 at Wt 3: his only accessory",
+                "slot": "Accessory",
+                "plan": "Second barter; Bonaventure holds the first",
+                "alts": [
+                  "Healing Staff",
+                  "Spirit Gem"
+                ]
+              }
+            ],
+            "items": [
+              {
+                "item": "Concoction",
+                "why": "Heals 40: Def 25, keep him topped up",
+                "alts": [
+                  "Vulnerary"
+                ]
+              }
+            ],
+            "spells": [
+              {
+                "name": "Death Γ",
+                "why": "Archive Γ (Vandahl ?, from about Ch 10): Mt 15, Crit 20, Wt 13"
+              },
+              {
+                "name": "Luna Λ",
+                "why": "Archive L (Aditi's Cave, Lv 28): ignores Res, the answer to high-Res bosses; Hit 50, Wt 20"
+              },
+              {
+                "name": "Thunder",
+                "why": "Black C: main nuke, doubled uses"
+              },
+              {
+                "name": "Wind",
+                "why": "Black D: cheap finisher vs fliers"
+              },
+              {
+                "name": "Restore",
+                "why": "White C: removes status"
+              },
+              {
+                "name": "Heal",
+                "why": "White D: backup heals"
+              }
+            ],
+            "abilities": [
+              {
+                "name": "Bind Dexterity",
+                "why": "Shaman mastery: Dex -3 on adjacent foes (once mastered)"
+              },
+              {
+                "name": "Wind's Caprice",
+                "why": "Personal Lv 20: Avo +1, +5 or +20 at random each combat"
+              },
+              {
+                "name": "Magic Basics",
+                "why": "Diviner mastery: Mag/Res +1"
+              },
+              {
+                "name": "Black Magic Lv. 2",
+                "why": "Black C+: Hit +5 with black magic"
+              },
+              {
+                "name": "Read the Winds",
+                "why": "Flying D: Avo +10 vs the archers that reach range 2"
+              }
+            ],
+            "battalion": {
+              "name": "Mage Instructors",
+              "why": "Mag +2, Res +2, Cha +5 at Authority C?",
+              "where": "[[place:Port of Pandora]], Ch 10",
+              "alts": [
+                "Elevated Mages (Raivo Port)"
+              ]
+            },
+            "training": [
+              {
+                "rank": "Black Magic B",
+                "for": "Ovate exam",
+                "how": "Arena Mage Training; battle use"
+              },
+              {
+                "rank": "White Magic B",
+                "for": "Recover; White past B comes with the Leda merge",
+                "how": "Same Mage session"
+              },
+              {
+                "rank": "Sword C",
+                "for": "Levin Sword and Lightning Strike",
+                "how": "Arena Infantry on a spare seat; Sword is a preferred rank"
+              },
+              {
+                "rank": "Authority C",
+                "for": "Mage Instructors (tier C)",
+                "how": "Arena Mage (Authority is his boon); Tactics Manuals after Theodora's"
+              }
+            ],
+            "tips": [
+              "Ch 11 vs Cai: he goes left (Fire Orb) with Alexandra, Bonaventure and Sofia",
+              "Ch 12: magic shoots down the flier waves too; stand next to Lilian so neither is alone",
+              "No Sword C yet? The Levin Sword waits; Thunder and Death Γ carry the damage"
+            ],
+            "weapons": [
+              {
+                "item": "Levin Sword",
+                "why": "Mag hit at range 1-2, no spell use; Wt 8 + staff 3 = 11",
+                "plan": "Jester (filler) brings it when recruited from Ch 10 (Renown 9)"
+              }
+            ],
+            "arts": [
+              {
+                "name": "Lightning Strike",
+                "why": "Levin Sword art: Mt +8, magic, range 1-2 (Sword C)"
+              }
+            ]
+          },
+          {
+            "when": "Part II Ch 1 to 6 (Ovate)",
+            "from": {
+              "part": 2,
+              "ch": 1
+            },
+            "to": {
+              "part": 3,
+              "ch": 1
+            },
+            "level": "Lv 35 to 42",
+            "class": "Ovate",
+            "kind": "core",
+            "goal": "Doubled Black Magic and Mag +20 growth through all of Part II. Wind's Caprice+ (Lv 35) adds an Avo +30 roll.",
+            "exit": "Stay Ovate to the end of Part II; Druid at Lv 45 in Part III.",
+            "why": [
+              "Part I Advanced License the day he shows Lv 35 with Black B; if Lv 35 slips past Ch 12, Part II Ch 1's free License",
+              "No Bishop trip: the Leda copy brings Barrier and White ranks in the Part III S2 merge"
+            ],
+            "masteries": [
+              "Bind Speed"
+            ],
+            "weapons": [
+              {
+                "item": "Salamander",
+                "why": "Light magic hit at 1-2 (Wt 3), Avo +5 equipped",
+                "plan": "Ch 12, one of the pair"
+              },
+              {
+                "item": "Levin Sword",
+                "why": "Mag hit at range 1-2 that saves spell uses; Wt 8",
+                "plan": "Equipped carry-over (Jester's copy)"
+              }
+            ],
+            "equipment": [
+              {
+                "item": "Magic Staff",
+                "why": "Mag +3 at Wt 3: his only accessory",
+                "slot": "Accessory",
+                "plan": "Second barter; Bonaventure holds the first",
+                "alts": [
+                  "Healing Staff",
+                  "Spirit Gem"
+                ]
+              }
+            ],
+            "items": [
+              {
+                "item": "Concoction",
+                "why": "Heals 40; stocked before 10/24",
+                "plan": "Stocked before Ch 12 ends (no Part II shops)"
+              },
+              {
+                "item": "Elixir",
+                "why": "Heals 100; part of his Part II stock",
+                "alts": [
+                  "Concoction"
+                ]
+              }
+            ],
+            "spells": [
+              {
+                "name": "Death Γ",
+                "why": "Archive Γ (Vandahl ?, from about Ch 10): Mt 15, Crit 20, Wt 13"
+              },
+              {
+                "name": "Luna Λ",
+                "why": "Archive L (Aditi's Cave, Lv 28): ignores Res, the answer to high-Res bosses; Hit 50, Wt 20"
+              },
+              {
+                "name": "Cutting Gale",
+                "why": "Black B: Mt 7, Hit 95"
+              },
+              {
+                "name": "Thunder",
+                "why": "Black C"
+              },
+              {
+                "name": "Recover",
+                "why": "White B: single uses; backup heal"
+              }
+            ],
+            "abilities": [
+              {
+                "name": "Bind Speed",
+                "why": "Ovate mastery: Spd -3 on adjacent foes (once mastered)"
+              },
+              {
+                "name": "Wind's Caprice+",
+                "why": "Personal Lv 35: adds an Avo +30 roll; replaces Wind's Caprice"
+              },
+              {
+                "name": "Magic Basics",
+                "why": "Diviner mastery: Mag/Res +1"
+              },
+              {
+                "name": "Black Magic Lv. 3",
+                "why": "Black B+ (Ovate fights): Hit/Avo +5; Lv. 2 until it shows"
+              },
+              {
+                "name": "Read the Winds",
+                "why": "Flying D: Avo +10 vs Ch 2's Rangers"
+              }
+            ],
+            "battalion": {
+              "name": "Shadow Mages",
+              "why": "Mag +3, Res +3, Cha +7: the top B caster pair",
+              "where": "[[place:Raivo Port]], Ch 10–11 (Renown 9 reroll)",
+              "situational": "Mage Instructors until Authority B?; Part II carryover ?"
+            },
+            "training": [
+              {
+                "rank": "Black Magic A",
+                "for": "Thoron (A in every source)",
+                "how": "Ovate fights (Black +3); Part II has no Arena"
+              },
+              {
+                "rank": "Authority B",
+                "for": "Shadow Mages (tier B)",
+                "how": "Arena Mage (Authority is his boon); Tactics Manuals after Theodora's"
+              }
+            ],
+            "checks": [
+              {
+                "stat": "Spd",
+                "at": "Lv 35",
+                "need": "Forecast shows x2 with Cutting Gale on most foes he targets",
+                "why": "Doubled casts are his damage; foes that double him hit a Def 25 caster",
+                "fix": [
+                  "Bind Speed (Ovate) slows adjacent foes by 3",
+                  "Thunder (Wt 7) over Cutting Gale (8) if 1 AS short?",
+                  "Date Juice (AS +3, map) on a boss map?"
+                ]
+              }
+            ],
+            "tips": [
+              "Only what he holds at the end of Ch 12 goes into Part II (the game says 'equipped'?)",
+              "Ch 2 wants mages and fliers for the fleeing southeast Ranger: he casts before Turn 4",
+              "Ch 5: Dagda's Res is far below his Def: doubled Cutting Gale",
+              "Ch 6 Part 1: bows chip Lyrah's shields; save his doubled Cutting Gale for the cocoon"
+            ],
+            "arts": [
+              {
+                "name": "Lightning Strike",
+                "why": "Levin Sword art: Mt +8, magic, range 1-2 (Sword C)"
+              }
+            ],
+            "drop": [
+              {
+                "item": "Bind Dexterity",
+                "why": "Bind Speed covers adjacent foes; Lv. 3 adds Avo"
+              }
+            ]
+          },
+          {
+            "when": "Part III Sections 2 to 3 (Druid)",
+            "from": {
+              "part": 3,
+              "ch": 2
+            },
+            "to": {
+              "part": 3,
+              "ch": 3
+            },
+            "level": "Lv 45+",
+            "class": "Druid",
+            "kind": "core",
+            "goal": "Mag +30 growth and Black +4 a fight. Underworld Boon: fight undead within 2 of Eshmel (Light of Salvation).",
+            "exit": "The Avatar once White S, Black S and the Lotus of Reincarnation are in.",
+            "why": [
+              "Druid swings swords: a Cleansing Blade also strips the Boon",
+              "Druid has no White Magic: the Leda merge (S2) brings his White ranks toward S"
+            ],
+            "masteries": [
+              "Bind Resistance"
+            ],
+            "weapons": [
+              {
+                "item": "Levin Sword +2",
+                "why": "Mt 12+, Hit 70, Wt 8, magic 1-2; Lightning Strike Mt +8: counters",
+                "plan": "His Part II copy (Jester's), +2",
+                "alts": [
+                  "Salamander +2"
+                ]
+              },
+              {
+                "item": "Cleansing Blade",
+                "why": "Strips the Underworld Boon away from Eshmel",
+                "situational": "Undead maps when he can't stay within 2 of Eshmel: open slot"
+              }
+            ],
+            "equipment": [
+              {
+                "item": "Magic Staff",
+                "why": "Mag +3 at Wt 3: his only accessory",
+                "slot": "Accessory",
+                "plan": "Second barter; Bonaventure holds the first",
+                "alts": [
+                  "Healing Staff",
+                  "Spirit Gem"
+                ]
+              }
+            ],
+            "items": [
+              {
+                "item": "Elixir",
+                "why": "Heals 100",
+                "alts": [
+                  "Concoction"
+                ]
+              }
+            ],
+            "spells": [
+              {
+                "name": "Thoron",
+                "why": "Black A: Mt 20, range 1-3"
+              },
+              {
+                "name": "Cutting Gale",
+                "why": "Black B"
+              },
+              {
+                "name": "Luna Λ",
+                "why": "Archive L (Aditi's Cave, Lv 28): ignores Res, the answer to high-Res bosses; Hit 50, Wt 20"
+              },
+              {
+                "name": "Death Γ",
+                "why": "Archive Γ (Vandahl ?, from about Ch 10): Mt 15, Crit 20, Wt 13"
+              },
+              {
+                "name": "Thunder",
+                "why": "Black C"
+              }
+            ],
+            "abilities": [
+              {
+                "name": "Bind Resistance",
+                "why": "Druid mastery: Res -3 on adjacent foes (once mastered)"
+              },
+              {
+                "name": "Wind's Caprice+",
+                "why": "Personal Lv 35: adds an Avo +30 roll; replaces Wind's Caprice"
+              },
+              {
+                "name": "Black Magic Lv. 4",
+                "why": "Black A+ (Druid fights) on the way to S: Hit/Avo +7"
+              },
+              {
+                "name": "Barrier",
+                "why": "Leda copy's Bishop mastery: Res +3 to adjacent allies (S2 merge)"
+              },
+              {
+                "name": "Bind Speed",
+                "why": "Ovate mastery: Spd -3 on adjacent foes"
+              }
+            ],
+            "battalion": {
+              "name": "Shadow Mages",
+              "why": "Mag +3, Res +3, Cha +7; Arena seats bench first",
+              "where": "Held since Part I",
+              "alts": [
+                "Brigid Spirit Squad at Authority A? (Niiza Port, reach ?)"
+              ],
+              "situational": "Part III: from storage (medium confidence)"
+            },
+            "training": [
+              {
+                "rank": "Black Magic S, White Magic S",
+                "for": "The Avatar",
+                "how": "Druid fights (Black +4); White from the Leda merge, then an Arena S-push seat"
+              }
+            ],
+            "drop": [
+              {
+                "item": "Recover",
+                "why": "Druid has no White Magic"
+              },
+              {
+                "item": "Magic Basics",
+                "why": "Slot goes to Bind Resistance"
+              },
+              {
+                "item": "Black Magic Lv. 3",
+                "why": "Lv. 4 at Black A+"
+              },
+              {
+                "item": "Salamander",
+                "why": "Mt 3 at +2 (jump only at +3): Levin Sword +2 counters"
+              }
+            ],
+            "tips": [
+              "Merge in S2 (300 Karma Shards): this copy is the base; the Leda copy adds Barrier and White ranks",
+              "Breza (S2): Cutting Gale on the fliers from range 2; Shenlo (S3): kill the center Salamander user",
+              "End beside Theodora or Tobias: Barrier Res +3; Ninae's Guidance+ covers him within 2"
+            ],
+            "arts": [
+              {
+                "name": "Lightning Strike",
+                "why": "Levin Sword art: Mt +8, magic, range 1-2 (Sword C)"
+              }
+            ]
+          },
+          {
+            "when": "Part III, Section 4+ (merged)",
+            "from": {
+              "part": 3,
+              "ch": 4
+            },
+            "level": "Lv 45+",
+            "class": "The Avatar",
+            "kind": "core",
+            "goal": "Both schools tripled, Mag +30 and Res +30 growth, Divine Law. Undead: stay within 2 of Eshmel.",
+            "exit": "Endpoint. One holder: Lotus of Reincarnation, 100% pass needed.",
+            "masteries": [
+              "Divine Law"
+            ],
+            "weapons": [
+              {
+                "item": "Levin Sword +2",
+                "why": "Mt 12+, Hit 70, Wt 8, magic 1-2; Lightning Strike Mt +8: counters",
+                "plan": "His Part II copy (Jester's), +2",
+                "alts": [
+                  "Salamander +2"
+                ]
+              },
+              {
+                "item": "Cleansing Blade",
+                "why": "Strips the Underworld Boon away from Eshmel",
+                "situational": "Undead maps when he can't stay within 2 of Eshmel: open slot"
+              }
+            ],
+            "equipment": [
+              {
+                "item": "Magic Staff",
+                "why": "Mag +3 at Wt 3: his only accessory",
+                "slot": "Accessory",
+                "plan": "Second barter; Bonaventure holds the first",
+                "alts": [
+                  "Healing Staff",
+                  "Spirit Gem"
+                ]
+              }
+            ],
+            "items": [
+              {
+                "item": "Elixir",
+                "why": "Heals 100",
+                "alts": [
+                  "Concoction"
+                ]
+              }
+            ],
+            "spells": [
+              {
+                "name": "Agnea's Arrow",
+                "why": "Mt 25, Hit 90, Wt 15; 3 casts (All-Magic Zenith); S5 hand-over"
+              },
+              {
+                "name": "Excalibur",
+                "why": "Black S"
+              },
+              {
+                "name": "Thoron",
+                "why": "Black A"
+              },
+              {
+                "name": "Cutting Gale",
+                "why": "Black B"
+              },
+              {
+                "name": "Luna Λ",
+                "why": "Archive L (Aditi's Cave, Lv 28): ignores Res, the answer to high-Res bosses; Hit 50, Wt 20"
+              },
+              {
+                "name": "Death Γ",
+                "why": "Archive Γ (Vandahl ?, from about Ch 10): Mt 15, Crit 20, Wt 13"
+              },
+              {
+                "name": "Warp",
+                "why": "White S"
+              },
+              {
+                "name": "Fortify",
+                "why": "White A: heals 20 +20 (Magic Heal) to allies within 5"
+              },
+              {
+                "name": "Recover",
+                "why": "White B"
+              }
+            ],
+            "abilities": [
+              {
+                "name": "Divine Law",
+                "why": "The Avatar mastery: Mag +10 (once mastered)"
+              },
+              {
+                "name": "Wind's Caprice+",
+                "why": "Personal Lv 35: adds an Avo +30 roll; replaces Wind's Caprice"
+              },
+              {
+                "name": "Black Magic Lv. 5",
+                "why": "Black S (an Avatar requirement): Hit/Avo +10"
+              },
+              {
+                "name": "Bind Resistance",
+                "why": "Druid mastery: Res -3 on adjacent foes"
+              },
+              {
+                "name": "Barrier",
+                "why": "Bishop mastery: Res +3 to adjacent allies"
+              }
+            ],
+            "battalion": {
+              "name": "Shadow Mages",
+              "why": "Mag +3, Res +3, Cha +7 on the nuke",
+              "where": "Held since Part I",
+              "alts": [
+                "Brigid Spirit Squad at Authority A? (Niiza Port, reach ?)"
+              ],
+              "situational": "Part III: from storage (medium confidence)"
+            },
+            "drop": [
+              {
+                "item": "Bind Speed",
+                "why": "Black Magic Lv. 5 takes the slot"
+              }
+            ],
+            "tips": [
+              "Baozi (S4): Thoron at 1-3 on the armor beside Bonaventure; Smyrnos Lv 1 blessing",
+              "Cohen & Maria (Lust: Cha 45): duels with Theodora and Bertrand; Fortify after the push",
+              "Spirit Dust (S4): Mag +2 on every cast from Hanno on",
+              "Balor (team C, center): Leda's Dance, then Agnea's Arrow; Talimun's Slowing Curse first"
+            ],
+            "training": [],
+            "arts": [
+              {
+                "name": "Lightning Strike",
+                "why": "Levin Sword art: Mt +8, magic, range 1-2 (Sword C)"
+              }
+            ]
+          }
+        ],
+        "alt": "Priest while he waits for Lv 35 only if heals run short: it trades his doubled Black Magic for doubled heals.",
+        "sources": [
+          "class-and-weapon-guide",
+          "growth.py",
+          "class-data",
+          "character-learnsets",
+          "weapons-and-items",
+          "hard-mode-video-notes",
+          "plan.json",
+          "walkthrough-part1-theodora",
+          "part3-salvation",
+          "part1-theodora-path"
+        ],
+        "routeNotes": [
+          {
+            "system": "Supports",
+            "note": "Partner here: Alexandra. From Ch 8 seat Theodora + Sirocco + Alexandra at Sunday meals."
+          },
+          {
+            "system": "Battalions & Gambits",
+            "note": "Second carrier: [[battalion:Mage Pupils]] (Ch 7), [[battalion:Blackfire Mages]] (D), [[battalion:Mage Instructors]] (C, Ch 10), [[battalion:Shadow Mages]] (B, Ch 12). Mage Training raises Authority each week. Authority arts: Distraction (D), Lend Dexterity (C), Distraction+ (B), Lend Dexterity+ (A)?"
+          }
+        ],
+        "decisions": [
+          {
+            "topic": "Deploy him in slot 8",
+            "pick": "Recruit at Renown 5 with a Monument Verse; deploy at once",
+            "why": "Bonaventure is the only caster until he joins. He is S-rated, the main nuke and the second battalion carrier (Cha 45, Authority preferred).",
+            "else": "Renown 5 after the Ch 7 battle: deploy from Ch 8"
+          },
+          {
+            "topic": "Take Ovate only at Lv 35",
+            "pick": "Ovate as the 7th Part I Advanced exam",
+            "why": "He joins about 10 levels under the core, so Lv 35 comes last. Give him kills on weakened foes so Shaman (Lv 20) and Ovate come on time.",
+            "else": "Short in Ch 12: stay Shaman for the finale, Ovate in Part II Ch 1"
+          },
+          {
+            "topic": "Skip the Part II Bishop trip",
+            "pick": "Ovate from Ch 12 or Part II Ch 1 to Part II Ch 6",
+            "why": "His Leda copy brings Barrier and its White Magic ranks through Merge Causality in Section 2, so Part II keeps Ovate's doubled Black Magic and Mag +20 growth for Dagda and Lyrah.",
+            "else": "Leda merge skipped: Bishop switch in Part III for Barrier and White +3"
+          }
+        ],
+        "finalists": {
+          "stats": [
+            "Mag",
+            "Spd",
+            "Dex",
+            "Res"
+          ],
+          "options": [
+            {
+              "class": "Shaman",
+              "use": "Ch 8 to 11",
+              "note": "Doubled black casts from Lv 20"
+            },
+            {
+              "class": "Ovate",
+              "use": "Ch 12 to Part II",
+              "note": "Mag +20 and Dex +15: the army's nuke all of Part II"
+            },
+            {
+              "class": "Bishop",
+              "note": "Barrier and White ranks come from his Leda copy's merge"
+            },
+            {
+              "class": "Druid",
+              "use": "Part III S1 to 3",
+              "note": "Mag 70, Bind Resistance"
+            },
+            {
+              "class": "The Avatar",
+              "use": "Part III S4",
+              "note": "White S and Black S: Mag +10 mastery, triple casts"
+            }
+          ]
+        },
+        "gates": [
+          {
+            "route": "Theodora",
+            "from": {
+              "part": 1,
+              "ch": 5
+            },
+            "by": {
+              "part": 1,
+              "ch": 7
+            },
+            "kind": "recruit",
+            "text": "Renown 5 and a Monument Verse by Ch 7"
+          },
+          {
+            "route": "Theodora",
+            "from": {
+              "part": 1,
+              "ch": 10
+            },
+            "by": {
+              "part": 1,
+              "ch": 12
+            },
+            "kind": "rank",
+            "text": "Arena Mage Training every week Ch 10 to 12: Black Magic B for the Ch 12 Ovate exam"
+          }
+        ]
+      }
+    }
+  ],
+  "sources": [
+    "https://fortunesweave.co.uk/characters/sirocco",
+    "https://www.keengamer.com/articles/guides/fire-emblem-fortunes-weave-best-class-for-every-character/",
+    "https://www.keengamer.com/articles/guides/fire-emblem-fortunes-weave-tier-list-best-characters-ranked-for-every-route/",
+    "https://www.pockettactics.com/fire-emblem-fortunes-weave/tier-list",
+    "https://fortunesweave.online/battalions/",
+    "https://docs.google.com/spreadsheets/d/1YW5AdvPUbLPr1RAGlnotcRaNTFCQPTKiIgshwrcdUtE"
+  ],
+  "recruitOn": {
+    "Cai": {
+      "how": "recruit",
+      "support": 3,
+      "renown": 9,
+      "task": "A copy of the Monument Verse"
+    },
+    "Dietrich": {
+      "how": "recruit",
+      "support": 3,
+      "renown": 9
+    },
+    "Theodora": {
+      "how": "recruit",
+      "renown": 5,
+      "task": "A copy of the Monument Verse"
+    },
+    "Leda": {
+      "how": "auto"
+    }
+  }
+}

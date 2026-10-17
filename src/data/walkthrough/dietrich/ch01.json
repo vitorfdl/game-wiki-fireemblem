@@ -1,0 +1,27 @@
+{
+  "route": "Dietrich",
+  "ch": 1,
+  "name": "A Stranger Comes to Dagda",
+  "free": null,
+  "routine": null,
+  "missables": [],
+  "classes": {},
+  "gear": {},
+  "recruits": [],
+  "quests": {
+    "route": [],
+    "sub": [],
+    "paralogue": []
+  },
+  "explore": [],
+  "battle": {
+    "title": "Tutorial vs. Bandits",
+    "objective": "Defeat all enemies",
+    "lose": "Dietrich or Fabio falls",
+    "tips": [
+      {
+        "text": "Learn the controls and let Fabio heal"
+      }
+    ]
+  }
+}

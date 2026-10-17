@@ -1,0 +1,404 @@
+{
+  "name": "Anatolia",
+  "slug": "anatolia",
+  "epithet": "The Mysterious Bride",
+  "faction": "Pale Raven's Bridal Party",
+  "weapons": [
+    "Reason magic (Fire, Glass Wheel up to Thoron)",
+    "Faith magic (Heal, Silence)"
+  ],
+  "personality": "A cool rationalist who keeps emotional distance and sometimes offends people without meaning to.",
+  "story": "A Mediator from Kunlun in the west, nicknamed the Mysterious Bride for her appearance, who fights to save her people. She joins in Part III on every route.",
+  "personalSkill": {
+    "name": "Celestial Flow",
+    "effect": "Avo+3. At Lv20 gains Continuum: restores 5 HP when avoiding an attack (10 HP at Lv35)."
+  },
+  "growths": {
+    "HP": 40,
+    "Str": 35,
+    "Mag": 50,
+    "Spd": 50,
+    "Dex": 45,
+    "Def": 35,
+    "Res": 40,
+    "Lck": 40,
+    "Cha": 50
+  },
+  "supports": [
+    "Dante",
+    "Fabio",
+    "Sirocco",
+    "Yang Jie"
+  ],
+  "joins": "Automatically in Part III: Salvation, First Section, on all routes. Guides advise completing her Part I paralogue to be safe.",
+  "build": {
+    "role": "Dodge caster (Celestial Wells)",
+    "path": [
+      "Ovate",
+      "Druid"
+    ],
+    "part3Target": "Druid",
+    "notes": "Ursa's Right Claw and the Turmoil Mask brake her gauge near the top. Join class ?."
+  },
+  "sources": [
+    "https://fortunesweave.co.uk/characters/anatolia",
+    "https://www.rpgsite.net/guide/21391-fire-emblem-fortunes-weave-recruitment-guide-all-characters-in-game-how-to-recruit-them"
+  ],
+  "guide": {
+    "role": "Dodge caster: Glass Wheel and Thoron from range, Continuum heals on every dodge",
+    "summary": "A fast Black Magic caster for flier and mage maps: Glass Wheel hits Def and is effective vs fliers. Her attacks fill a Celestial Wells gauge and cursed gear drains it, so put on Ursa's Right Claw or the Turmoil Mask only near the top, to hold Overblaze without Burst.",
+    "playstyle": "Player phase: Glass Wheel or Thoron from 2-3 tiles, ending where only bows and mages reach her (Dodge+ and Read the Winds). Enemy phase: Continuum+ heals 10 per dodge. Boss turn: Blaze Arts from Overblaze.",
+    "focus": [
+      "Mag",
+      "Spd",
+      "Dex"
+    ],
+    "keys": [
+      "Train Gauntlet B at the Arena (Warrior course) from Sec 2: the Claw needs it.",
+      "Reach Black A by Lv 45 for Druid: Mage Training weeks, then fights.",
+      "Gauge at 10-11: swap in the Claw (Curse 1, Wt 1) for one combat to brake.",
+      "Pair her with Leda: Song of Madness confuses, the Turmoil Mask hits x1.5.",
+      "Boon maps: cast from within 2 of Eshmel."
+    ],
+    "watch": [
+      "Weight: Glass Wheel 7 + Electron Agitator 5 = 12 over Bld ?. Enemy phase: Dodge Gauntlets 3 + 5 = 8, Avo +10. Turmoil Mask (3) comes off first.",
+      "Gauge: Celestial Wells; Burst at full (12?) drops Overblaze and halves max HP. Seven-Star Dragon needs 11.",
+      "Undead: Claw and Mask can zero her hit (Offset Curse). Undead maps: both off.",
+      "Lashing Rapture: Cai's Ch 6 chest only. In the Reliquary only if that save held it (?); plan without it.",
+      "Join class and level ?: Continuum+ needs Lv 35 (Continuum below)."
+    ],
+    "decisions": [
+      {
+        "topic": "Go Ovate, then Druid",
+        "pick": "Ovate on join, Druid at Lv 45 (Black A)",
+        "why": "Mag 50 is her best growth, and both classes keep Gauntlet for the Claw. War Monk and The Godhand trade Black Magic for White, where she only has Heal and Silence.",
+        "else": "War Monk (Aurora's request) if Black A stalls"
+      },
+      {
+        "topic": "Take Leda's Ursa's Right Claw",
+        "pick": "The Claw from Leda's Lv 20+ Noctula; Theodora's copy stays stored",
+        "why": "The only cursed gauntlet, and Wt 1: the brake costs no AS. Violent Claw (3 hits at 50%) is a finisher; Glass Wheel stays the damage."
+      },
+      {
+        "topic": "No Divine class",
+        "pick": "Druid is the endpoint",
+        "why": "The Avatar is Sirocco's (one holder); The Godhand needs Gauntlet S and drops her Black Magic."
+      }
+    ],
+    "stages": [
+      {
+        "when": "Part III Sec 1 to 3 (Ovate)",
+        "from": {
+          "part": 3,
+          "ch": 1
+        },
+        "to": {
+          "part": 3,
+          "ch": 3
+        },
+        "level": "Join Lv ? to 45",
+        "class": "Ovate",
+        "kind": "core",
+        "goal": "Glass Wheel vs fliers and Def walls; Continuum+ heals 10 per dodge. The Claw brakes the gauge at 10-11.",
+        "why": [
+          "Join class ?: take Ovate in Sec 2 Free Time (Black B) if she isn't one",
+          "Breza (Sec 2): fliers; Glass Wheel is effective, Read the Winds Avo +10 vs bows",
+          "Underworld Boon: no answer of her own; cast from within 2 of Eshmel"
+        ],
+        "exit": "Lv 45 and Black A: Druid exam (Master License)",
+        "masteries": [
+          "Bind Speed"
+        ],
+        "weapons": [
+          {
+            "item": "Dodge Gauntlets",
+            "why": "In hand on enemy phase: Avo +10, Mt 11, Wt 3 (4 under Glass Wheel)",
+            "plan": "Buy one (gold); no refine needed"
+          },
+          {
+            "item": "Ursa's Right Claw",
+            "why": "Gauntlet B, Wt 1: Curse 1 gauge brake; Violent Claw 3 hits",
+            "plan": "Noctula's (Theodora's copy), in storage",
+            "alts": [
+              "Long-Night Katara"
+            ]
+          }
+        ],
+        "equipment": [
+          {
+            "item": "Electron Agitator",
+            "why": "Magic hits: 20% to confuse; Wt 5",
+            "slot": "Accessory",
+            "alts": [
+              "Magic Staff"
+            ],
+            "plan": "Anatolia's Paralogue (Leda Ch 10)"
+          },
+          {
+            "item": "Turmoil Mask",
+            "why": "x1.5 damage vs confused foes; Curse 1 brake; Wt 3",
+            "slot": "Head",
+            "situational": "Confusion maps (Leda's Song of Madness): wear from gauge 9; off vs undead",
+            "alts": [
+              "Charm Mask"
+            ]
+          }
+        ],
+        "items": [
+          {
+            "item": "Concoction",
+            "why": "40 HP, 2 uses",
+            "alts": [
+              "Vulnerary"
+            ]
+          }
+        ],
+        "arts": [
+          {
+            "name": "Mighty Fist",
+            "why": "Gauntlet D: Mt +4, Hit +10 on the Claw"
+          },
+          {
+            "name": "Feint",
+            "why": "Gauntlet C: foe Avo -20 through its next combat"
+          }
+        ],
+        "spells": [
+          {
+            "name": "Glass Wheel",
+            "why": "Black B: Mt 12 vs Def, effective vs fliers"
+          },
+          {
+            "name": "Thunder",
+            "why": "Black C: Mt 5, Hit 75"
+          },
+          {
+            "name": "Silence",
+            "why": "White C?: Silence at 1-10 on a boss caster"
+          },
+          {
+            "name": "Heal",
+            "why": "White D: 10 HP"
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Continuum+",
+            "why": "Lv 35 (join Lv ?): heals 10 per dodge"
+          },
+          {
+            "name": "Black Magic Lv. 2",
+            "why": "Black C+: Hit +5"
+          },
+          {
+            "name": "Dodge",
+            "why": "Infantry D?: Avo +5 vs bows and magic"
+          },
+          {
+            "name": "Knightly Senses",
+            "why": "Riding D?: Avo +10 vs spears"
+          },
+          {
+            "name": "Read the Winds",
+            "why": "Flying D?: Avo +10 vs bows"
+          }
+        ],
+        "training": [
+          {
+            "rank": "Gauntlet B",
+            "for": "Ursa's Right Claw",
+            "how": "Arena Warrior (Sword, Axe, Gauntlet) from Sec 2"
+          },
+          {
+            "rank": "Riding D, Flying D",
+            "for": "Knightly Senses, Read the Winds",
+            "how": "Arena Mounted 1-2 weeks? (start ranks ?)"
+          },
+          {
+            "rank": "Infantry B",
+            "for": "Dodge+ (Sec 4)",
+            "how": "Arena Infantry weeks"
+          }
+        ],
+        "tips": [
+          "Brake: one combat with the Claw at gauge 10-11; back to magic and the Dodge Gauntlets",
+          "Undead: Claw and Mask stay off (Offset Curse); Glass Wheel and Thunder only"
+        ],
+        "checks": [
+          {
+            "stat": "Spd",
+            "at": "Sec 2",
+            "need": "Doubles Breza's fliers in the forecast with Glass Wheel + Agitator",
+            "why": "Her damage plan is two Glass Wheels",
+            "fix": [
+              "Drop the Agitator (Wt 5)",
+              "Dodge Gauntlets in hand on enemy phase: Wt 3, 4 under Glass Wheel",
+              "Speedwing (Spd +2), Part III chests; Bind Speed (Spd -3 adjacent)"
+            ]
+          }
+        ]
+      },
+      {
+        "when": "Part III Section 4+ (Druid)",
+        "from": {
+          "part": 3,
+          "ch": 4
+        },
+        "level": "Lv 45+",
+        "class": "Druid",
+        "kind": "core",
+        "goal": "Druid: Mag +30, Magic Hit +7. Glass Wheel doubles Drake's fliers; Continuum+ heals 10 per dodge.",
+        "why": [
+          "Drake (S5): fliers and mages; Glass Wheel is effective, Dodge+ Avo +10 vs magic",
+          "Envy miasma zeroes Avo vs higher-level foes: never end a turn on a kill tile",
+          "Underworld Boon: Leda's ring at Drake; Cleansing Blade +2 on the S6 sweep"
+        ],
+        "exit": "Endpoint. The Avatar is Sirocco's.",
+        "masteries": [
+          "Bind Resistance"
+        ],
+        "weapons": [
+          {
+            "item": "Dodge Gauntlets",
+            "why": "In hand on enemy phase: Avo +10, Mt 11, Wt 3 (4 under Glass Wheel)",
+            "plan": "Buy one (gold); no refine needed"
+          },
+          {
+            "item": "Ursa's Right Claw",
+            "why": "Gauntlet B, Wt 1: Curse 1 drains her gauge; one swing at 10-11",
+            "plan": "Noctula's (Theodora's copy), in storage",
+            "alts": [
+              "Long-Night Katara"
+            ]
+          },
+          {
+            "item": "Cleansing Blade +2",
+            "why": "Sword E, Mt 16, Wt 3: strips the Boon in her combat",
+            "situational": "Boon foes away from Leda (S6 sweep): uses the open slot"
+          }
+        ],
+        "equipment": [
+          {
+            "item": "Electron Agitator",
+            "why": "Magic hits: 20% to confuse; Wt 5",
+            "slot": "Accessory",
+            "alts": [
+              "Magic Staff",
+              "Gale Ring"
+            ],
+            "plan": "Anatolia's Paralogue (Leda Ch 10)"
+          },
+          {
+            "item": "Turmoil Mask",
+            "why": "x1.5 damage vs confused foes; Curse 1 brake",
+            "slot": "Head",
+            "situational": "Confusion maps (Lyrah, Leda's Song of Madness): from gauge 9; off vs undead",
+            "alts": [
+              "Charm Mask"
+            ]
+          }
+        ],
+        "items": [
+          {
+            "item": "Concoction",
+            "why": "40 HP, 2 uses",
+            "alts": [
+              "Vulnerary"
+            ]
+          }
+        ],
+        "arts": [
+          {
+            "name": "Mighty Fist",
+            "why": "Gauntlet D: Mt +4, Hit +10"
+          },
+          {
+            "name": "Feint",
+            "why": "Gauntlet C: foe Avo -20 through its next combat"
+          }
+        ],
+        "spells": [
+          {
+            "name": "Thoron",
+            "why": "Black A?: Mt 20 at 1-3"
+          },
+          {
+            "name": "Glass Wheel",
+            "why": "Mt 12 vs Def, effective vs fliers"
+          },
+          {
+            "name": "Thunder",
+            "why": "Mt 5, Hit 75: cheap chip"
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Continuum+",
+            "why": "Heals 10 per dodge"
+          },
+          {
+            "name": "Black Magic Lv. 3",
+            "why": "Black B+: Hit/Avo +5"
+          },
+          {
+            "name": "Dodge+",
+            "why": "Infantry B?: Avo +10 vs bows and magic"
+          },
+          {
+            "name": "Knightly Senses",
+            "why": "Avo +10 vs spears (Mahadu)"
+          },
+          {
+            "name": "Read the Winds",
+            "why": "Avo +10 vs bows"
+          }
+        ],
+        "tips": [
+          "Drake: Glass Wheel the fliers Talimun slowed; Leda's Song of Madness sets up the Turmoil Mask",
+          "End her turn with Dodge Gauntlets in hand (Avo +10, Wt 3); Glass Wheel on her turn",
+          "Undead: Claw and Mask off (Offset Curse); Thoron and Glass Wheel only",
+          "Bind Speed (Spd -3 adjacent) for Knightly Senses on maps with no spears"
+        ],
+        "drop": [
+          {
+            "item": "Dodge",
+            "why": "Dodge+ replaces it"
+          },
+          {
+            "item": "Black Magic Lv. 2",
+            "why": "Black Magic Lv. 3 replaces it"
+          },
+          {
+            "item": "Silence",
+            "why": "Druid has no White Magic"
+          },
+          {
+            "item": "Heal",
+            "why": "Druid has no White Magic"
+          }
+        ]
+      }
+    ],
+    "sources": [
+      "part3-salvation",
+      "part2-war",
+      "weapons-and-items",
+      "combat-arts-and-abilities",
+      "character-learnsets",
+      "equippable-abilities",
+      "class-data",
+      "class-and-weapon-guide",
+      "redesign/12-late-game-pass"
+    ]
+  },
+  "recruitOn": {
+    "Leda": {
+      "how": "story",
+      "window": "Part III Sec 1"
+    },
+    "Theodora": {
+      "how": "story",
+      "window": "Part III Sec 1"
+    }
+  }
+}

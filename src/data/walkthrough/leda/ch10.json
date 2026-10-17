@@ -1,0 +1,364 @@
+{
+  "route": "Leda",
+  "ch": 10,
+  "name": "A Father's Request and a Daughter's Wish",
+  "free": {
+    "from": "9/28",
+    "to": "10/15"
+  },
+  "unlocks": [
+    "Advanced exams (Renown 8)",
+    "Advanced Licenses in Dagsion"
+  ],
+  "routine": {
+    "meals": [
+      {
+        "week": "Every Sunday",
+        "tables": [
+          [
+            "Leda",
+            "Sha Lan",
+            "Sirocco"
+          ],
+          [
+            "Leda",
+            "Nezha",
+            "Nuzzuo"
+          ],
+          [
+            "Leda",
+            "Dadao",
+            "Inyoni"
+          ]
+        ],
+        "note": "Sha Lan until Support 3 (by 10/14), then Halvin takes her seat. Fillers still short (Nezha, Nuzzuo, Seteth, Jester) first."
+      }
+    ],
+    "gifts": [
+      {
+        "unit": "Sha Lan",
+        "gift": "Common Coffee",
+        "alt": "Select Coffee",
+        "until": "Support 3, recruit Ch 10"
+      },
+      {
+        "unit": "Noctula",
+        "gift": "Tales of Adventure",
+        "alt": "Training Bracelet",
+        "until": "Support 3, recruit Ch 10 (filler)"
+      },
+      {
+        "unit": "Nuzzuo",
+        "gift": "Common Coffee",
+        "alt": "Kitten Figurine",
+        "until": "Support 3, recruit Ch 10 (filler)"
+      },
+      {
+        "unit": "Mikaela",
+        "gift": "Tales of Adventure",
+        "alt": "Garum",
+        "until": "Support 3, recruit Ch 10 (filler)"
+      },
+      {
+        "unit": "Lysander",
+        "gift": "Dagda Beard Grass",
+        "until": "Support 3, recruit Ch 10 (filler)"
+      },
+      {
+        "unit": "Nezha",
+        "gift": "Tales of Adventure",
+        "alt": "Training Bracelet",
+        "until": "Support 3, recruit Ch 10 (filler)"
+      },
+      {
+        "unit": "Jester",
+        "gift": "Board-Game Tactics",
+        "until": "Support 3, recruit Ch 11 (filler)",
+        "alt": "Home-Recipe Book"
+      },
+      {
+        "unit": "Seteth",
+        "gift": "Poems of the Greats",
+        "alt": "Common Coffee",
+        "until": "Support 3, recruit Ch 11 (filler)"
+      }
+    ],
+    "weekly": [
+      {
+        "text": "The Thermae opens at Renown 8 (usually Ch 10): it raises Support but costs Turns"
+      }
+    ]
+  },
+  "missables": [
+    {
+      "id": "leda-ch10-missables-sha-lan-gate",
+      "kind": "recruit-window",
+      "text": "Clear Queen of the Erased by 10/14: Sha Lan can't be recruited without it",
+      "when": "10/14",
+      "where": "City Streets",
+      "lose": "The Sha Lan recruit, plus the paralogue's 20,000G and 150 Renown",
+      "recover": "None known",
+      "detail": [
+        "Window 10/5 to 10/14.",
+        "The listed battle deadline is 10/17, but free time ends 10/15.",
+        "Renown 8 late? Clear it anyway (its 150 Renown helps) and recruit her in Ch 11 once Renown 8 lands."
+      ]
+    }
+  ],
+  "classes": {
+    "note": {
+      "text": "Renown 8 (early to mid Ch 10) opens Advanced: exam in ledger order as each unit shows Lv 35",
+      "detail": [
+        "Sirocco and Olympia usually get there now, Catania now or in Ch 11; Buccar and Guzran in Ch 11.",
+        "Inyoni Sniper and Esmeralda Dreadnought follow in Ch 12.",
+        "Specialty for any Ch 9 join that missed Lv 20 in Ch 9: Inyoni Archer, Ludia Myrmidon, Halvin Charioteer."
+      ]
+    },
+    "override": [
+      {
+        "unit": "Olympia",
+        "text": "Physic comes at White Magic B; get it before the Ch 11 battle"
+      },
+      {
+        "unit": "Catania",
+        "text": "White Magic B (Physic) from the Arena Mage course before the Ch 11 battle"
+      },
+      {
+        "unit": "Inyoni",
+        "text": "Archer (Bow C) before her first map if Ch 9 didn't get her to Lv 20"
+      },
+      {
+        "unit": "Ludia",
+        "text": "Myrmidon (Sword C) now if Lv 20 slipped past Ch 9"
+      },
+      {
+        "unit": "Halvin",
+        "text": "Charioteer (Rider D, Bow C) now if Ch 9 missed it"
+      }
+    ]
+  },
+  "gear": {
+    "buy": [
+      {
+        "text": "Archive Γ for Olympia (read it at once), if Vandahl Dagsion lists it from about Ch 10",
+        "detail": [
+          "Death Γ is her crit nuke. Barter cost unknown."
+        ],
+        "conf": "?"
+      },
+      {
+        "text": "Anna's Shop sometimes appears north of Temple Row; its stock rotates"
+      },
+      {
+        "text": "Dagsion Armorer: a [[item:Bronze Spear]] (300G) for Sha Lan's join (10/5 to 10/14)"
+      }
+    ],
+    "barter": [
+      {
+        "item": "Talisman Shield",
+        "for": "Catania's mage-map swap (Ch 11)",
+        "at": "Dagsion"
+      },
+      {
+        "item": "Victory Gem",
+        "for": "Jasmine's Part II accessory",
+        "at": "Gaura Grassland"
+      },
+      {
+        "item": "Hammer",
+        "for": "Dadao, only if you skipped Nemea Cavern",
+        "at": "Dagsion"
+      }
+    ],
+    "assign": [
+      {
+        "item": "Mini Bow",
+        "to": "Inyoni",
+        "why": "Leda's, in prep: range 1 counters"
+      },
+      {
+        "item": "Archer's Ring",
+        "to": "Inyoni",
+        "why": "Leda's Coris Mine copy: Hit +5 on her arts"
+      },
+      {
+        "item": "Levin Sword",
+        "to": "Sirocco",
+        "why": "Io's: Lightning Strike at 1-2 for the armored Ch 10 map"
+      },
+      {
+        "item": "Salamander",
+        "to": "Mu",
+        "why": "Sha Lan's: magic hit for Part II Ch 5 (Dagda)"
+      },
+      {
+        "item": "Hexlock Shield",
+        "to": "Sha Lan",
+        "why": "Dragonbone Tangle copy: Res +5"
+      }
+    ],
+    "note": [
+      {
+        "text": "Blacksmith: Sha Lan's [[item:Bronze Spear +4]] on her join, held for 11/27 (Smithing Stone)"
+      }
+    ]
+  },
+  "recruits": [
+    {
+      "unit": "Io",
+      "action": "Pay 1,500G on 9/28 and bench him: his Levin Sword goes to Sirocco",
+      "when": "9/28",
+      "detail": [
+        "Filler. No Arena seat; field him in Part II only if a slot opens."
+      ]
+    },
+    {
+      "unit": "Mikaela",
+      "action": "Pay 3,000G once Support 3 lands: filler for Esmeralda, Guzran and Mu",
+      "when": "Ch 10 week 1"
+    },
+    {
+      "unit": "Lysander",
+      "action": "Hand over 5× [[item:Iron Spear]] once Support 3 lands: Catania's only partner",
+      "when": "Ch 10 week 1"
+    },
+    {
+      "unit": "Sha Lan",
+      "action": "Right after the paralogue, answer Saramis, then Da Mina, then Grounded Ship",
+      "when": "Right after Queen of the Erased (by 10/14)",
+      "detail": [
+        "Bench: joins at about Lv 25 in a Specialty class, no exam (the nine slots are set).",
+        "She brings a [[item:Salamander]]: hand it to Mu. Give her the Dragonbone Tangle Hexlock Shield.",
+        "Short on Support? Ch 11 and Ch 12 still work, as long as the paralogue is cleared."
+      ]
+    },
+    {
+      "unit": "Noctula",
+      "action": "Talk to her once Renown 8 and Support 3 land: she brings Ursa's Right Claw",
+      "when": "Ch 10, once Renown 8 lands",
+      "detail": [
+        "Ch 10+ she joins as a Lv 20+ Pugilist with [[item:Ursa's Right Claw]]; earlier, without it.",
+        "The Claw is cursed (Curse 1): Anatolia's Part III weapon. Hold it to the end of Part I.",
+        "Filler, bench only."
+      ]
+    },
+    {
+      "unit": "Nuzzuo",
+      "action": "Hand over 3× [[item:Iron Bow]] once Renown 9 lands: he brings a Levin Sword",
+      "when": "Late Ch 10 or Ch 11",
+      "detail": [
+        "Filler, bench only."
+      ]
+    },
+    {
+      "unit": "Nezha",
+      "action": "Hand over 3× Sandworm Meat from [[place:Aditi's Cave]] once Renown 9 lands",
+      "when": "Late Ch 10 or Ch 11",
+      "detail": [
+        "Filler for supports with Dadao, Halvin and Sha Lan. Bench only."
+      ]
+    }
+  ],
+  "prep": [
+    {
+      "text": "Ch 10+ recruits join at about Lv 25, already in a Specialty class, with chapter-scaled gear"
+    }
+  ],
+  "quests": {
+    "route": [
+      {
+        "quest": "dance-for-osiris",
+        "note": "Do both dances early: they top you up to Renown 8 for the exams and Sha Lan",
+        "detail": [
+          "200 Renown, crates and 5,000G each. Due 11/27."
+        ]
+      },
+      {
+        "quest": "dance-for-niiza-port"
+      }
+    ],
+    "sub": [
+      {
+        "quest": "its-name-is-da-mina",
+        "offered": "if-offered",
+        "note": "Hand over the 2 spare Da Mina weapons from Ch 9"
+      },
+      {
+        "quest": "attack-of-the-huge-birds",
+        "offered": "if-offered"
+      },
+      {
+        "quest": "one-last-challenge",
+        "offered": "if-offered"
+      },
+      {
+        "quest": "skeletons-in-the-ruins",
+        "offered": "if-offered"
+      },
+      {
+        "quest": "flamma-smugglers",
+        "note": "Follows For the Empire's Safety; the other Ch 8 pick gives Assassination (No Questions)"
+      }
+    ],
+    "paralogue": [
+      {
+        "quest": "queen-of-the-erased",
+        "note": "Finish by 10/14: Sha Lan's recruit needs it",
+        "detail": [
+          "Cure the villagers' confusion, then escort them east, then north, counter-clockwise to the exit.",
+          "Leave the pentkehydra: killing it ends the map. Hit the oddly animated worms to stun it.",
+          "Kalla's Blessing (Avo +50) helps. Save every villager for a Spellshard and a Dew of Peace."
+        ]
+      }
+    ]
+  },
+  "explore": [
+    {
+      "group": "Fights",
+      "text": "Paralogues and subquest fights: rotate one bench unit into slots 7 to 9 when the holder is ahead",
+      "detail": [
+        "Ludia, Halvin, Jasmine, Fianna in turn; the rest run dungeon parties with a carry.",
+        "Aim: the bench near Lv 30 by 11/27 ?"
+      ]
+    },
+    {
+      "group": "Fights",
+      "id": "leda-ch10-explore-kallas-bow",
+      "loot": true,
+      "text": "Win the Lv 30 Clash at Kalla's Main Temple: [[item:Kalla's Bow]] (Bow A) for Inyoni's Part III",
+      "detail": [
+        "Leda and Halvin also use bows; the Bow A gate makes it Inyoni's Part III bow."
+      ]
+    },
+    {
+      "group": "Spare Turns",
+      "text": "Gather Shem Yam ×3 and Desert Millet ×5 for Catania's Talisman Shield",
+      "detail": [
+        "Blue Ginji ×3 for Jasmine's Victory Gem: Vandahl Gaura Grassland takes the barter."
+      ]
+    },
+    {
+      "group": "Spare Turns",
+      "text": "Skipped [[place:Nemea Cavern]] (Lv 30) in Ch 9? Run it now: Dadao's second Hammer, Jasmine's manual"
+    }
+  ],
+  "battle": {
+    "title": "Semifinal vs. Theodora",
+    "objective": "Defeat Theodora",
+    "lose": "Leda dies",
+    "tips": [
+      {
+        "text": "Most enemies are armored: Esmeralda's [[item:Hammer]], Guzran's [[item:Flyssa]] or magic"
+      },
+      {
+        "text": "Sirocco (Io's [[item:Levin Sword]]) and Olympia's Thoron hit Res; dance Esmeralda after Hammer kills"
+      },
+      {
+        "text": "When Theodora threatens Earthen Hurl, pull the lever"
+      },
+      {
+        "text": "Pack: Catania a [[item:Ji]]; Sirocco's Levin Sword (Wt 8) in hand only on turns he ends out of reach"
+      }
+    ]
+  }
+}

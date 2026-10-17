@@ -1,0 +1,62 @@
+{
+  "route": "Cai",
+  "ch": 2,
+  "name": "Road to the Capital",
+  "free": null,
+  "routine": null,
+  "missables": [
+    {
+      "id": "cai-ch02-missables-castor-centurio-scene",
+      "kind": "scene",
+      "text": "Watch the optional Castor and Centurio scene on the east side of Dagsion (partial visit)",
+      "where": "Dagsion, east side",
+      "lose": "The scene",
+      "recover": "None known",
+      "task": true
+    }
+  ],
+  "classes": {},
+  "gear": {},
+  "recruits": [],
+  "quests": {
+    "route": [],
+    "sub": [],
+    "paralogue": []
+  },
+  "explore": [
+    {
+      "group": "Dagsion (partial)",
+      "id": "cai-ch02-explore-galen-fort-ruins",
+      "loot": true,
+      "text": "Clear the [[place:Galen Fort Ruins]] tutorial: [[item:Hunter's Bow]], Vulnerary, Wooden Shield",
+      "detail": [
+        "Save Links for the hard Clashes."
+      ]
+    },
+    {
+      "group": "Dagsion (partial)",
+      "id": "cai-ch02-explore-sewers",
+      "loot": true,
+      "text": "Search the Sewers: [[item:Vulnerary]] and [[item:Talisman Shield]]"
+    },
+    {
+      "group": "Dagsion (partial)",
+      "text": "Talk to Peter at the Inn"
+    }
+  ],
+  "battle": {
+    "title": "Defending the Carriage",
+    "objective": "Defeat all enemies",
+    "guests": [
+      "Castor"
+    ],
+    "tips": [
+      {
+        "text": "Let Castor hold the north; send Cai, Tialla and Peter south together"
+      },
+      {
+        "text": "Send Cai's spear at the riders"
+      }
+    ]
+  }
+}

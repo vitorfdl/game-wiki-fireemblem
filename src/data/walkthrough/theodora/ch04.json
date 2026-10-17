@@ -1,0 +1,255 @@
+{
+  "route": "Theodora",
+  "ch": 4,
+  "name": "Unlikely Allegiances",
+  "free": {
+    "from": "3/1",
+    "to": "3/7"
+  },
+  "unlocks": [
+    "Beginner exams (Class License tutorial)",
+    "Meals and gifts",
+    "God audiences (Renown 2)"
+  ],
+  "routine": {
+    "meals": [
+      {
+        "week": "Sunday (1 this chapter)",
+        "tables": [
+          [
+            "Theodora",
+            "Loretta",
+            "Ultand"
+          ],
+          [
+            "Theodora",
+            "Ninae",
+            "Simon"
+          ],
+          [
+            "Theodora",
+            "Nydine",
+            "Lilian"
+          ]
+        ],
+        "note": "Gifts first, then eat. Five Support 3 targets, two per table where they support each other (Loretta–Ultand, Ninae–Simon)."
+      }
+    ],
+    "gifts": [
+      {
+        "unit": "Loretta",
+        "gift": "Mellow Pastries",
+        "alt": "Simple Pastries",
+        "until": "Support 3, recruit Ch 7"
+      },
+      {
+        "unit": "Nydine",
+        "gift": "Kitten Figurine",
+        "alt": "The Works of Dante",
+        "until": "Support 3, recruit Ch 7",
+        "first": true
+      },
+      {
+        "unit": "Ultand",
+        "gift": "Garum",
+        "alt": "Home-Recipe Book",
+        "until": "Support 3, recruit Ch 8",
+        "first": true
+      },
+      {
+        "unit": "Ninae",
+        "gift": "Mellow Pastries",
+        "alt": "Gaudy Bangle",
+        "until": "Support 3, recruit Ch 8",
+        "note": "Bond only: nothing they like is buyable yet, so meals carry the Support"
+      },
+      {
+        "unit": "Simon",
+        "gift": "Mellow Pastries",
+        "alt": "Training Bracelet",
+        "until": "Support 3, recruit Ch 9",
+        "note": "Bond only: nothing they like is buyable yet, so meals carry the Support"
+      },
+      {
+        "unit": "Seteth",
+        "gift": "Common Coffee",
+        "alt": "Select Coffee",
+        "until": "Support 3, recruit Ch 10 (filler)",
+        "first": true
+      },
+      {
+        "unit": "Jester",
+        "gift": "Home-Recipe Book",
+        "alt": "Rare Spices",
+        "until": "Support 3, recruit Ch 10 (filler)",
+        "first": true
+      },
+      {
+        "unit": "Io",
+        "gift": "Common Coffee",
+        "alt": "Kitten Figurine",
+        "until": "Support 3, recruit Ch 11 (filler)",
+        "first": true
+      },
+      {
+        "unit": "Diego",
+        "gift": "The Works of Dante",
+        "until": "Support 2, recruit Ch 12",
+        "first": true
+      }
+    ],
+    "raven": "Feed it as Theodora (free, weekly): she is a defeat condition in most story battles. Answers: Field Kit",
+    "weekly": [
+      {
+        "text": "Pray at a shrine every week (free), on its god's bonus day",
+        "detail": [
+          "Aurora Monday · Mars Tuesday · Smyrnos Wednesday",
+          "Jurah Thursday · Kalla Friday · Credna Saturday"
+        ]
+      },
+      {
+        "text": "Take a god audience whenever a temple shows gold on the map: about 50 Renown, no Turn",
+        "detail": [
+          "From Renown 2, usually late Ch 4 or Ch 5.",
+          "Not every week: check the map each day."
+        ]
+      }
+    ]
+  },
+  "missables": [
+    {
+      "id": "theodora-ch04-missables-insect-pearl-chain",
+      "kind": "timing",
+      "text": "Finish [[quest:the-fabled-insect-pearl]] by 3/7: the Ch 5 follow-up needs it",
+      "when": "by 3/7",
+      "lose": "More Fabled Insect Pearls (8,000G, Ch 5)",
+      "recover": "None",
+      "task": true
+    }
+  ],
+  "classes": {},
+  "gear": {
+    "assign": [
+      {
+        "item": "Dew of Protection",
+        "to": "Theodora",
+        "why": "Heretics' Cave chest; for her Ch 12 Dyan turn"
+      },
+      {
+        "item": "White-Magic Manual",
+        "to": "Theodora",
+        "why": "Niraga Mine chest: Armored Knight gives no White Magic EXP"
+      }
+    ]
+  },
+  "recruits": [],
+  "quests": {
+    "route": [],
+    "sub": [
+      {
+        "quest": "awaiting-you-at-the-inn"
+      },
+      {
+        "quest": "the-fabled-insect-pearl"
+      },
+      {
+        "quest": "stolen-viewership",
+        "note": "Pick it up now"
+      },
+      {
+        "quest": "welcome-to-the-item-shop"
+      },
+      {
+        "quest": "swing-by-the-armory"
+      },
+      {
+        "quest": "find-fellowship-at-the-temples"
+      },
+      {
+        "quest": "searching-for-smithing-stones",
+        "offered": "if-offered",
+        "note": "Smithing Stones drop in [[place:Niraga Mine]]"
+      },
+      {
+        "quest": "stolen-knowledge",
+        "offered": "if-offered"
+      },
+      {
+        "quest": "valeris-eight-fangs",
+        "offered": "if-offered"
+      },
+      {
+        "quest": "knowing-more-about-him",
+        "offered": "if-offered"
+      },
+      {
+        "quest": "granadas-thieves",
+        "offered": "if-offered"
+      }
+    ],
+    "paralogue": []
+  },
+  "explore": [
+    {
+      "text": "Talk to every orange-marker NPC in Dagsion once: you can teleport to them later"
+    },
+    {
+      "group": "Dungeons",
+      "id": "theodora-ch04-explore-niraga-mine",
+      "loot": true,
+      "text": "[[place:Niraga Mine]] (Lv 5): White-Magic Manual for Theodora, Smithing Stones for a bulletin quest"
+    },
+    {
+      "group": "Dungeons",
+      "id": "theodora-ch04-explore-collapsed-fort",
+      "loot": true,
+      "text": "[[place:Collapsed Fort]] (Lv 6): Black-Magic Manual for Bonaventure, Bowbreak Amulet as a spare",
+      "detail": [
+        "The Bowbreak Amulet's Wt 4 is over a flier's budget."
+      ]
+    },
+    {
+      "group": "Dungeons",
+      "id": "theodora-ch04-explore-heretics-cave",
+      "loot": true,
+      "text": "[[place:Heretics' Cave]] (Lv 7): Dew of Protection for Theodora (Ch 12 Dyan)"
+    },
+    {
+      "group": "Dungeons",
+      "text": "Bank rare ores for the special refines (Ch 9 and 12): mine every crystal, re-enter to reroll",
+      "detail": [
+        "Cullet: [[place:Galen Fort Ruins]]. Windstone: [[place:Collapsed Fort]]. Blue Snoll: [[place:Niraga Mine]].",
+        "Which rare ore each special takes is unknown: bank all three (Zanbato +1 took 2 Cullet)."
+      ],
+      "conf": "?"
+    },
+    {
+      "group": "Spare Turns",
+      "id": "theodora-ch04-explore-galen-fort-ruins",
+      "loot": true,
+      "text": "Support run with this week's meal pairs: [[place:Galen Fort Ruins]] (Lv 8, Idyia)",
+      "detail": [
+        "Spare bow: storage. Lilian's main is the Da Mina Bow from Ch 6"
+      ]
+    }
+  ],
+  "battle": {
+    "title": "Qualifier vs. Gaia Brigade",
+    "objective": "Defeat Zarcone",
+    "guests": [
+      "Tialla",
+      "Orchel"
+    ],
+    "tips": [
+      {
+        "text": "Let the enemy come to you"
+      },
+      {
+        "text": "Cross by the bridge: the shoals lower Avoid"
+      },
+      {
+        "text": "Boss: Zarcone, who becomes a recruit in Ch 6 (Renown 4)"
+      }
+    ]
+  }
+}

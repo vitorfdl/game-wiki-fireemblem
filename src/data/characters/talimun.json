@@ -1,0 +1,342 @@
+{
+  "name": "Talimun",
+  "slug": "talimun",
+  "faction": "Tale of the Moon (Vandahl Trading Company)",
+  "weapons": [
+    "Reason magic (Fire, Thunder, Bolganone, Thoron, Excalibur)",
+    "Faith magic (Heal, Seraphim)"
+  ],
+  "personality": "A frivolous, flirtatious merchant who is always chewing cinnamon, but who hides grand ambitions and an appetite for dangerous adventures.",
+  "story": "One of Dagda's greatest merchants and head of the Vandahl Trading Company, he is half-human and half Child of the Goddess (around 573 years old) and collects Drake's Treasure. He regularly clashes with Ursula over spending.",
+  "personalSkill": {
+    "name": "Swashbuckler's Luck",
+    "effect": "Lck+3. Upgrades at Lv35 to Swashbuckler's Luck+: Lck+5 to unit and allies."
+  },
+  "growths": {
+    "HP": 45,
+    "Str": 40,
+    "Mag": 45,
+    "Spd": 40,
+    "Dex": 45,
+    "Def": 35,
+    "Res": 40,
+    "Lck": 60,
+    "Cha": 50
+  },
+  "supports": [
+    "Dietrich (A)",
+    "Leda (A)",
+    "Theodora (B)",
+    "Dante",
+    "Fianna",
+    "Lilian",
+    "Simon",
+    "Tialla"
+  ],
+  "joins": "Automatically in Part III: Salvation, First Section, on all routes. Guides advise completing his Part I paralogue to be safe.",
+  "build": {
+    "role": "Curse caster and team Lck aura",
+    "path": [
+      "Ovate",
+      "Druid"
+    ],
+    "part3Target": "Druid",
+    "notes": "Arrives with Long-Night Katara and Aaron's Rod: Katara to storage, Rod to Orchel in Sec 2. Bloodmark: Diadem of Duality. Join class ?."
+  },
+  "sources": [
+    "https://fortunesweave.co.uk/characters/talimun",
+    "https://www.rpgsite.net/guide/21391-fire-emblem-fortunes-weave-recruitment-guide-all-characters-in-game-how-to-recruit-them"
+  ],
+  "guide": {
+    "role": "Curse caster: halves a boss's Hit or AS from 10 tiles; Lck +5 to every ally",
+    "summary": "His Blaze curses reach 10 tiles: Slowing Curse halves a boss's AS so the strikers double, Collapsing Curse halves its Hit before the wall takes the turn. Each curse adds 1 to an Underworld gauge with no reset, so count them; between curses he casts Thoron from 3 tiles.",
+    "playstyle": "Player phase: curse the boss first, then let the strikers in; cast Bolganone or Thoron with what's left. Stay out of melee: he is a caster with no Avo tools. Swashbuckler's Luck+ stays on every map.",
+    "focus": [
+      "Mag",
+      "Lck",
+      "Spd"
+    ],
+    "keys": [
+      "Store Long-Night Katara in Sec 2 Free Time: as a caster he never swings it.",
+      "Hand Aaron's Rod to Orchel in Sec 2; wear the Magic Staff (Mag +3, no Curse).",
+      "Slowing Curse on the boss first (halves AS), then send in the doublers.",
+      "Def/Res Curse on a high-Def boss: the physical hitters then face its Res.",
+      "Count his curses: each adds 1 gauge and nothing resets it."
+    ],
+    "watch": [
+      "Weight: Bolganone 8 + Magic Staff 3 = 11 over Bld ?; Thoron Wt ?. Doubled by fliers: the Staff comes off first.",
+      "Gauge: Underworld, no reset. Curse arts +1 each, cursed gear +1 per combat. Burst halves max HP.",
+      "Undead: Katara and Rod can zero his hit (Offset Curse). Both are off from Sec 2.",
+      "Join class and level ?: Swashbuckler's Luck+ needs Lv 35; Winds of Victory level ?.",
+      "Melee: no dodge tools. End turns 3+ tiles from foes; Thoron reaches 3."
+    ],
+    "decisions": [
+      {
+        "topic": "Give both cursed items away",
+        "pick": "Katara to storage, Aaron's Rod to Orchel (Sec 2)",
+        "why": "His curse arts already add 1 each with no reset; the Rod adds 1 more per combat. Orchel wears it at no gauge cost (Automaton), and the Magic Staff keeps Mag +3 here at Wt 3 instead of 8.",
+        "else": "Keep the Rod on a short map (5 combats or fewer) if Orchel sits out"
+      },
+      {
+        "topic": "Go Ovate, then Druid",
+        "pick": "Ovate on join, Druid at Lv 45 (Black A)",
+        "why": "His Black list runs to Thoron (A) and Excalibur (S); Druid adds Mag +30 and doubled casts. White stops at B (Nosferatu), so Wiseman and Valkyrium are out."
+      }
+    ],
+    "stages": [
+      {
+        "when": "Part III Sec 1 to 3 (Ovate)",
+        "from": {
+          "part": 3,
+          "ch": 1
+        },
+        "to": {
+          "part": 3,
+          "ch": 3
+        },
+        "level": "Join Lv ? to 45",
+        "class": "Ovate",
+        "kind": "core",
+        "goal": "Curse support: Slowing or Collapsing Curse on the boss from 10 tiles; Lck +5 to all allies.",
+        "why": [
+          "Sec 1: arrives on Turn 7 with Katara + Rod (2 per combat); fine for one short map",
+          "Underworld Boon: no answer of his own; cast from within 2 of Eshmel",
+          "Join class ?: take Ovate in Sec 2 Free Time (Black B) if he isn't one"
+        ],
+        "exit": "Lv 45 and Black A: Druid exam (Master License)",
+        "masteries": [
+          "Bind Speed"
+        ],
+        "equipment": [
+          {
+            "item": "Magic Staff",
+            "why": "Mag +3, Wt 3, no Curse",
+            "slot": "Accessory",
+            "alts": [
+              "Aaron's Rod"
+            ]
+          }
+        ],
+        "items": [
+          {
+            "item": "Concoction",
+            "why": "40 HP, 2 uses",
+            "alts": [
+              "Vulnerary"
+            ]
+          }
+        ],
+        "spells": [
+          {
+            "name": "Bolganone",
+            "why": "Black B: Mt 10, Hit 85"
+          },
+          {
+            "name": "Thunder",
+            "why": "Black C: Mt 5"
+          },
+          {
+            "name": "Nosferatu",
+            "why": "White B?: heals half the damage dealt"
+          },
+          {
+            "name": "Seraphim",
+            "why": "White C?: effective vs undead"
+          },
+          {
+            "name": "Heal",
+            "why": "White D: 10 HP"
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Swashbuckler's Luck+",
+            "why": "Lv 35 (join Lv ?): Lck +5 to him and all allies"
+          },
+          {
+            "name": "Steady Shot",
+            "why": "Infantry D: Hit +5 with magic"
+          },
+          {
+            "name": "Black Magic Lv. 2",
+            "why": "Black C+: Hit +5"
+          },
+          {
+            "name": "Knightly Senses",
+            "why": "Riding D: Avo +10 vs spears"
+          },
+          {
+            "name": "Read the Winds",
+            "why": "Flying D: Avo +10 vs bows"
+          }
+        ],
+        "training": [
+          {
+            "rank": "Black Magic A",
+            "for": "Druid exam at Lv 45",
+            "how": "Arena Mage to B (also Authority C: Attack Formation), then fights"
+          },
+          {
+            "rank": "Riding D, Flying D",
+            "for": "Knightly Senses, Read the Winds",
+            "how": "Arena Mounted 1-2 weeks? (start ranks ?)"
+          }
+        ],
+        "tips": [
+          "Sec 2 Free Time: Katara to storage, Rod to Orchel, Magic Staff on",
+          "Undead: no cursed gear on him from Sec 2, so nothing to swap"
+        ],
+        "drop": [
+          {
+            "item": "Long-Night Katara",
+            "why": "Storage from Sec 2 (Curse 1); Anatolia's backup gauge brake"
+          },
+          {
+            "item": "Aaron's Rod",
+            "why": "To Orchel (Sec 2): no gauge cost on her"
+          }
+        ],
+        "checks": [
+          {
+            "stat": "Spd",
+            "at": "Sec 2",
+            "need": "Breza's fliers don't double him in the forecast",
+            "why": "A doubled caster dies",
+            "fix": [
+              "Speedwing (Spd +2), Part III chests",
+              "End turns behind Orchel or Eshmel"
+            ]
+          }
+        ]
+      },
+      {
+        "when": "Part III Section 4+ (Druid)",
+        "from": {
+          "part": 3,
+          "ch": 4
+        },
+        "level": "Lv 45+",
+        "class": "Druid",
+        "kind": "core",
+        "goal": "Druid: Mag +30, Magic Hit +7. Slowing Curse halves the boss's AS from 10 tiles; Bolganone between curses.",
+        "why": [
+          "Drake (S5, E): Slowing Curse on Drake first, so Mikaela, Loretta and Guzran double",
+          "Lyrah and Balor (S6, C center): curse from 10 tiles, outside Fear miasma and the plus AoE",
+          "Underworld Boon: Leda's Song of Abjuring ring (C deploys at all three gates)"
+        ],
+        "exit": "Endpoint. No Divine fit (The Avatar is Sirocco's).",
+        "masteries": [
+          "Bind Resistance"
+        ],
+        "equipment": [
+          {
+            "item": "Magic Staff",
+            "why": "Mag +3, Wt 3, no Curse: Bolganone and Thoron damage",
+            "slot": "Accessory",
+            "alts": [
+              "Goddess Ring"
+            ],
+            "plan": "Carry-over"
+          }
+        ],
+        "items": [
+          {
+            "item": "Concoction",
+            "why": "40 HP, 2 uses",
+            "alts": [
+              "Vulnerary"
+            ]
+          }
+        ],
+        "spells": [
+          {
+            "name": "Thoron",
+            "why": "Black A?: Mt 20 at 1-3"
+          },
+          {
+            "name": "Bolganone",
+            "why": "Mt 10, Hit 85"
+          },
+          {
+            "name": "Thunder",
+            "why": "Mt 5: cheap chip"
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Swashbuckler's Luck+",
+            "why": "Lck +5 to him and all allies"
+          },
+          {
+            "name": "Winds of Victory",
+            "why": "Lv ?: Hit +15 attacking, Avo +15 attacked (Lck %)"
+          },
+          {
+            "name": "Steady Shot",
+            "why": "Hit +5 with magic"
+          },
+          {
+            "name": "Black Magic Lv. 3",
+            "why": "Black B+: Hit/Avo +5"
+          },
+          {
+            "name": "Read the Winds",
+            "why": "Avo +10 vs bows"
+          }
+        ],
+        "tips": [
+          "Drake: Slowing Curse on Drake from 10 tiles before Mikaela, Loretta and Guzran go in",
+          "Balor: curse him the turn the barrier drops; Leda then dances the striker",
+          "Swashbuckler's Luck+ adds Lck +5 to Fianna's Gift of Faith+ and Graceful Light rolls",
+          "Winds of Victory not learned by Lv 45: Knightly Senses in its slot. Excalibur at Black S? vs fliers"
+        ],
+        "drop": [
+          {
+            "item": "Black Magic Lv. 2",
+            "why": "Black Magic Lv. 3 replaces it"
+          },
+          {
+            "item": "Knightly Senses",
+            "why": "Slot goes to Winds of Victory"
+          },
+          {
+            "item": "Nosferatu",
+            "why": "Druid has no White Magic"
+          },
+          {
+            "item": "Seraphim",
+            "why": "Druid has no White Magic"
+          }
+        ],
+        "weapons": [
+          {
+            "item": "Cleansing Blade +2",
+            "why": "Sword E, Mt 16, Wt 3: strips the Boon in his own combat",
+            "situational": "Boon foes outside Leda's ring: uses an open slot"
+          }
+        ]
+      }
+    ],
+    "sources": [
+      "part3-salvation",
+      "part2-war",
+      "weapons-and-items",
+      "combat-arts-and-abilities",
+      "character-learnsets",
+      "equippable-abilities",
+      "class-data",
+      "class-and-weapon-guide",
+      "redesign/12-late-game-pass"
+    ]
+  },
+  "recruitOn": {
+    "Leda": {
+      "how": "story",
+      "window": "Part III Sec 1"
+    },
+    "Theodora": {
+      "how": "story",
+      "window": "Part III Sec 1"
+    }
+  }
+}

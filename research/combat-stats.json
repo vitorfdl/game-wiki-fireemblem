@@ -1,0 +1,486 @@
+{
+  "game": "Fire Emblem: Fortune's Weave (Nintendo Switch 2, released 2026-09-17)",
+  "compiled": "2026-10-08",
+  "about": "Glossary of every unit stat, derived combat value and weapon value the game shows, for hover cards and synergy payoffs. `?` marks a value or formula no Fortune's Weave source confirms. Formulas no source publishes are left out or marked `?`; see open_questions. Sources are community tier (criticalhits.com.br, dadsavepoint.com, KeenGamer, thegameswiki.com, fortunesweave.co.uk) because RPG Site and Game8 publish no stats page; Game8 and Fextralife values come through weapons-and-items.json.",
+  "sources": [
+    {
+      "key": "CH",
+      "name": "Critical Hits (Brazil): Fire Emblem: Fortune's Weave, complete stats guide (Portuguese)",
+      "url": "https://criticalhits.com.br/dicas/fire-emblem-fortunes-weave-guia-completo-de-estatisticas/"
+    },
+    {
+      "key": "DSP",
+      "name": "Dad Save Point: What every character stat actually means (Fortune's Weave)",
+      "url": "https://dadsavepoint.com/games/fire-emblem-fortunes-weave/guides/character-stats"
+    },
+    {
+      "key": "DSP-G",
+      "name": "Dad Save Point: Growth rates, level-ups and how classes shape stats (Fortune's Weave)",
+      "url": "https://dadsavepoint.com/games/fire-emblem-fortunes-weave/guides/growth-rates-and-level-ups"
+    },
+    {
+      "key": "KG-GR",
+      "name": "KeenGamer: Fire Emblem Fortune's Weave growth rates for all characters and classes",
+      "url": "https://www.keengamer.com/articles/guides/fire-emblem-fortunes-weave-growth-rates-for-all-characters-and-classes/"
+    },
+    {
+      "key": "FWUK-GS",
+      "name": "fortunesweave.co.uk: Getting started",
+      "url": "https://fortunesweave.co.uk/guide/getting-started"
+    },
+    {
+      "key": "TGW-CS",
+      "name": "thegameswiki.com: Fortune's Weave combat system",
+      "url": "https://thegameswiki.com/fire-emblem-fortunes-weave/wiki/combat-system"
+    },
+    {
+      "key": "TGW-GB",
+      "name": "thegameswiki.com: Fortune's Weave gambits",
+      "url": "https://thegameswiki.com/fire-emblem-fortunes-weave/wiki/gambits"
+    },
+    {
+      "key": "G8-AS",
+      "name": "Game8: Attack Speed Guide (cited in weapons-and-items.json)",
+      "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/620479"
+    },
+    {
+      "key": "G8-ALL",
+      "name": "Game8: List of All Weapons and Spells (cited in weapons-and-items.json)",
+      "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/620255"
+    },
+    {
+      "key": "FX-STATS",
+      "name": "Fextralife: Stats (cited in weapons-and-items.json)",
+      "url": "https://fortunesweave.wiki.fextralife.com/Stats"
+    },
+    {
+      "key": "LOCAL-WI",
+      "name": "Local weapons-and-items.json (systems, spells, equipment)",
+      "url": "local:weapons-and-items.json"
+    },
+    {
+      "key": "LOCAL-CA",
+      "name": "Local combat-arts-and-abilities.json",
+      "url": "local:combat-arts-and-abilities.json"
+    },
+    {
+      "key": "LOCAL-01",
+      "name": "Local 01-getting-started-and-core-mechanics.md",
+      "url": "local:01-getting-started-and-core-mechanics.md"
+    },
+    {
+      "key": "LOCAL-CWG",
+      "name": "Local class-and-weapon-guide.md",
+      "url": "local:class-and-weapon-guide.md"
+    },
+    {
+      "key": "LOCAL-CD",
+      "name": "Local class-data.json",
+      "url": "local:class-data.json"
+    }
+  ],
+  "rules": [
+    {
+      "rule": "Critical hits deal triple damage.",
+      "source": [
+        "TGW-CS",
+        "FX-STATS",
+        "CH"
+      ]
+    },
+    {
+      "rule": "Effective = 2x weapon Mt; Effective+ = 3x Mt (also for the Mt behind a gambit).",
+      "source": [
+        "TGW-CS",
+        "LOCAL-WI"
+      ]
+    },
+    {
+      "rule": "You double when your AS is at least 4 above the foe's (some players report 5?).",
+      "source": [
+        "FWUK-GS",
+        "CH",
+        "LOCAL-01",
+        "DSP"
+      ]
+    },
+    {
+      "rule": "No weapon triangle. Swords: follow-ups deal 1.2x. Axes: every hit deals at least 5. Bows: no counter at range 1 (Mini Bow excepted), Effective+ vs fliers. Gauntlets: extra Avo.",
+      "source": [
+        "G8-ALL",
+        "TGW-CS",
+        "LOCAL-WI"
+      ]
+    },
+    {
+      "rule": "Magic and magic weapons (Levin Sword, firearms) hit Res and Rsl instead of Def and Prt.",
+      "source": [
+        "LOCAL-WI",
+        "CH"
+      ]
+    },
+    {
+      "rule": "Only combat arts spend durability; normal attacks are free.",
+      "source": [
+        "LOCAL-WI",
+        "LOCAL-01"
+      ]
+    },
+    {
+      "rule": "Build and Mov are not growth stats; the nine growth stats are HP, Str, Mag, Dex, Spd, Def, Res, Lck, Cha.",
+      "source": [
+        "DSP-G",
+        "LOCAL-CD"
+      ]
+    }
+  ],
+  "stats": [
+    {
+      "abbr": "HP",
+      "name": "Hit Points",
+      "group": "base",
+      "what": "Damage the unit can take; at 0 it falls.",
+      "matters": "Heals are flat: Physic restores 8 HP at range, Recover 30 adjacent. HP buys the extra enemy phase.",
+      "source": [
+        "CH",
+        "DSP",
+        "LOCAL-WI"
+      ]
+    },
+    {
+      "abbr": "Str",
+      "name": "Strength",
+      "group": "base",
+      "what": "Raises physical attack power.",
+      "formula": "Feeds Atk with physical weapons.",
+      "matters": "About +1? physical damage per hit for each point: Str/Mag +7 from Song of Passion+ is roughly 7 more per hit.",
+      "source": [
+        "CH",
+        "DSP",
+        "LOCAL-CA"
+      ]
+    },
+    {
+      "abbr": "Mag",
+      "name": "Magic",
+      "group": "base",
+      "what": "Raises magic attack power and magic-based effects such as healing.",
+      "formula": "Feeds Atk with spells and magic weapons.",
+      "matters": "Drives spell and Levin Sword damage; class growth modifiers can't make a low-Mag unit a real caster.",
+      "source": [
+        "CH",
+        "DSP",
+        "LOCAL-01"
+      ]
+    },
+    {
+      "abbr": "Dex",
+      "name": "Dexterity",
+      "group": "base",
+      "what": "Raises Hit and Crit; also some skill trigger chances.",
+      "matters": "The accuracy stat: Dex +3 (Sage Advice, Special Dance) lifts Hit and Crit together.",
+      "source": [
+        "CH",
+        "DSP",
+        "LOCAL-CA"
+      ]
+    },
+    {
+      "abbr": "Spd",
+      "name": "Speed",
+      "group": "base",
+      "what": "Feeds Avo and Attack Speed.",
+      "formula": "AS = Spd - max(0, total Wt - Bld).",
+      "matters": "Doubling takes AS 4 over the foe, so Spd +3 turns a near-double into a double.",
+      "source": [
+        "CH",
+        "DSP",
+        "G8-AS",
+        "FWUK-GS"
+      ]
+    },
+    {
+      "abbr": "Def",
+      "name": "Defense",
+      "group": "base",
+      "what": "Reduces physical damage taken; feeds Prt.",
+      "matters": "The base of Prt: Def +7 from Song of Icewater+ is about 7? less from each physical hit.",
+      "source": [
+        "CH",
+        "DSP",
+        "LOCAL-CA"
+      ]
+    },
+    {
+      "abbr": "Res",
+      "name": "Resistance",
+      "group": "base",
+      "what": "Reduces magic damage taken; feeds Rsl.",
+      "matters": "The base of Rsl: Res +3 from Barrier or Protecting Wings is about 3? less from each spell.",
+      "source": [
+        "CH",
+        "DSP",
+        "LOCAL-CA"
+      ]
+    },
+    {
+      "abbr": "Lck",
+      "name": "Luck",
+      "group": "base",
+      "what": "Mainly lowers the foe's crit chance, through Ddg. Any effect on Hit and Avo is unconfirmed.",
+      "matters": "Crits deal 3x, so Lck is crit insurance on tanks and lords.",
+      "source": [
+        "CH",
+        "DSP",
+        "TGW-CS"
+      ]
+    },
+    {
+      "abbr": "Cha",
+      "name": "Charm",
+      "group": "base",
+      "what": "Raises the Hit of Gambits; also sets some trigger rates (Stage Directions: Cha / 2 %).",
+      "matters": "Only matters on battalion carriers and Cha-based triggers; mounted units can't use battalions.",
+      "source": [
+        "KG-GR",
+        "CH",
+        "LOCAL-CA",
+        "LOCAL-CWG"
+      ]
+    },
+    {
+      "abbr": "Mov",
+      "name": "Movement",
+      "group": "base",
+      "what": "Tiles the unit can move per turn; set by class, not a growth stat.",
+      "matters": "Desert and swamp cost 2? per tile; Kalla Lv 3 gives the army Mov +2 for one turn?",
+      "source": [
+        "DSP",
+        "DSP-G",
+        "TGW-CS",
+        "LOCAL-01",
+        "LOCAL-CD"
+      ]
+    },
+    {
+      "abbr": "Bld",
+      "name": "Build",
+      "group": "base",
+      "what": "Cancels equipped weight when Attack Speed is computed; not a growth stat.",
+      "formula": "AS = Spd - max(0, total Wt - Bld).",
+      "matters": "Each Bld point cancels 1 Wt over the limit but never adds AS (Giant's Ring Bld +4, Ginji Juice Bld +4).",
+      "source": [
+        "CH",
+        "DSP",
+        "G8-AS",
+        "LOCAL-WI"
+      ]
+    },
+    {
+      "abbr": "Rating",
+      "name": "Rating",
+      "group": "base",
+      "what": "Sum of the unit's base stats, as an overall power gauge.",
+      "matters": "A rough check only; decide fights from the forecast.",
+      "source": [
+        "CH"
+      ]
+    },
+    {
+      "abbr": "Atk",
+      "name": "Attack",
+      "group": "derived",
+      "what": "Attack power before the target's Prt or Rsl. The status screen splits it into physical (Phys) and magic (Mys?).",
+      "formula": "Str or Mag + weapon Mt + modifiers?",
+      "matters": "Atk bonuses add to damage: Great Counter's Atk +3 is about 3? more per enemy-phase hit.",
+      "source": [
+        "CH",
+        "DSP",
+        "LOCAL-CA"
+      ]
+    },
+    {
+      "abbr": "AS",
+      "name": "Attack Speed",
+      "group": "derived",
+      "what": "Speed after weight; decides follow-up attacks.",
+      "formula": "AS = Spd - max(0, total Wt - Bld). Weapon, shield and accessory weight all count.",
+      "matters": "AS 4 over the foe doubles; the foe 4 over you doubles you. Date Juice gives AS +3 for a map.",
+      "source": [
+        "G8-AS",
+        "FX-STATS",
+        "DSP",
+        "FWUK-GS",
+        "LOCAL-WI"
+      ]
+    },
+    {
+      "abbr": "Hit",
+      "name": "Hit rate",
+      "group": "derived",
+      "what": "Chance an attack connects; built from weapon Hit, Dex and modifiers. The foe's Avo lowers it (formula unpublished).",
+      "matters": "Arts carry Hit penalties (Deadeye -30), so Hit +10 or +20 auras are what make them land.",
+      "source": [
+        "CH",
+        "DSP",
+        "LOCAL-CA"
+      ]
+    },
+    {
+      "abbr": "Avo",
+      "name": "Avoid",
+      "group": "derived",
+      "what": "Chance to evade a hit; built from Spd, terrain and gear. Gauntlets give extra Avo.",
+      "matters": "The dodge-tank stat: forest or thicket +30?, Kalla Lv 1 +50. Not the same as Ddg.",
+      "source": [
+        "CH",
+        "DSP",
+        "TGW-CS",
+        "G8-ALL",
+        "LOCAL-01"
+      ]
+    },
+    {
+      "abbr": "Crit",
+      "name": "Critical rate",
+      "group": "derived",
+      "what": "Chance a hit becomes a critical; built from weapon Crit, Dex and skills. The foe's Ddg lowers it (formula unpublished).",
+      "matters": "Crits deal 3x damage, so Crit +10 changes kill math on bosses.",
+      "source": [
+        "CH",
+        "DSP",
+        "TGW-CS"
+      ]
+    },
+    {
+      "abbr": "Ddg",
+      "name": "Dodge",
+      "group": "derived",
+      "what": "Critical avoid: lowers the foe's crit chance, not its hit chance. Mostly from Lck.",
+      "matters": "Crit insurance, not evasion: Ddg +20 doesn't make a unit harder to hit, it stops 3x crits.",
+      "source": [
+        "CH",
+        "DSP"
+      ]
+    },
+    {
+      "abbr": "Prt",
+      "name": "Protection",
+      "group": "derived",
+      "what": "Effective physical defense: Def plus Shld, gear, class and skill bonuses.",
+      "formula": "Physical damage = Atk - Prt?",
+      "matters": "Prt +10 is about 10? less damage from every physical hit while it lasts.",
+      "source": [
+        "CH",
+        "DSP"
+      ]
+    },
+    {
+      "abbr": "Rsl",
+      "name": "Resilience",
+      "group": "derived",
+      "what": "Effective magic defense: Res plus Shld and other bonuses.",
+      "formula": "Magic damage = Atk - Rsl?",
+      "matters": "Rsl +7 is about 7? less from every spell or magic-weapon hit; mage maps test it.",
+      "source": [
+        "CH",
+        "DSP"
+      ]
+    },
+    {
+      "abbr": "Shld",
+      "name": "Shield",
+      "group": "derived",
+      "what": "Raises Prt and Rsl together.",
+      "matters": "Shield items grant Def, not Shld. Shld +3 counts as Prt +3? and Rsl +3? at once.",
+      "source": [
+        "CH",
+        "LOCAL-WI"
+      ]
+    },
+    {
+      "abbr": "Mt",
+      "name": "Might",
+      "group": "weapon",
+      "what": "Power of a weapon, spell or art; adds to Atk.",
+      "formula": "Effective: 2x Mt. Effective+: 3x Mt.",
+      "matters": "Effectiveness multiplies Mt: Hammer's 14 becomes 42 vs armor (Effective+).",
+      "source": [
+        "CH",
+        "TGW-CS",
+        "LOCAL-WI"
+      ]
+    },
+    {
+      "abbr": "Wt",
+      "name": "Weight",
+      "group": "weapon",
+      "what": "Weight of a weapon or equipment; anything above Bld comes off AS.",
+      "matters": "Every point over Bld is -1 AS: one Wt 5 accessory can cost a double.",
+      "source": [
+        "CH",
+        "G8-AS",
+        "LOCAL-WI"
+      ]
+    },
+    {
+      "abbr": "Rng",
+      "name": "Range",
+      "group": "weapon",
+      "what": "Distance a weapon, spell or art reaches.",
+      "matters": "Bows can't counter at range 1 (Mini Bow excepted); Deadeye reaches 3-5 at Hit -30.",
+      "source": [
+        "CH",
+        "LOCAL-WI",
+        "LOCAL-CA"
+      ]
+    },
+    {
+      "abbr": "Dur",
+      "name": "Durability",
+      "group": "weapon",
+      "what": "How many combat arts a weapon can still use. At 0 it still works, weaker; repair at the Blacksmith.",
+      "matters": "Normal attacks are free; budget durability for arts on kills.",
+      "source": [
+        "CH",
+        "LOCAL-WI",
+        "LOCAL-01"
+      ]
+    },
+    {
+      "abbr": "Uses",
+      "name": "Uses",
+      "group": "weapon",
+      "what": "Casts of a spell per battle; refilled before main battles, at Rest Spot meals, feasts or an inn room.",
+      "matters": "Physic has 5 uses: plan heals per map, not per turn.",
+      "source": [
+        "CH",
+        "LOCAL-WI"
+      ]
+    },
+    {
+      "abbr": "Authority",
+      "name": "Authority",
+      "group": "skill",
+      "what": "Skill rank for leading battalions (Theodora's route in Part I). Raised by Tactics Manuals, among others.",
+      "matters": "Rank abilities are the payoff: Rein at D (adjacent foes Avo -3), Sofia's Healing Order at B.",
+      "source": [
+        "TGW-GB",
+        "TGW-CS",
+        "LOCAL-CA",
+        "LOCAL-01"
+      ]
+    }
+  ],
+  "open_questions": [
+    "Damage formula: no Fortune's Weave source publishes it. Atk - Prt (physical) and Atk - Rsl (magic) is assumed from 'Prt reduces physical damage' (CH) and 'compare attack power against enemy Protection' (DSP).",
+    "Exact Hit, Avo, Crit and Ddg formulas are not published. Fextralife's and Game8's stats pages could not be fetched (robots).",
+    "Doubling threshold: AS +4 (fortunesweave.co.uk, CH, local notes) vs 'disputed, +4 or +5' (DSP). The forecast is authoritative.",
+    "Shld = Prt and Rsl together comes from one source (CH). Only Miranilla Juice (Shld +3, Ddg +5) and With My Steed (Shld +3, Ddg +30) grant it in local data; shields grant Def.",
+    "The magic Atk label on the status screen: CH (Portuguese) gives 'Mys'; the English label is unconfirmed.",
+    "Ddg is crit avoid in both sources (CH, DSP). Cai's walkthrough pairs Pray for Safety (Ddg +10) with a dodge tank, which reads it as Avo; Cai data is frozen (D-42).",
+    "How Authority rank changes battalion or gambit stats is not documented (TGW-GB: no figures recorded).",
+    "RPG Site (main source) has no stats or combat-formula guide as of 2026-10-08.",
+    "Terrain values (thicket/forest Avo +30, deep thicket +40, desert and wasteland Avo -20, desert/swamp cost 2) come from pre-launch footage (TGW-CS). Blessing duration (1 turn) is community-reported (LOCAL-01)."
+  ]
+}

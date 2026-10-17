@@ -1,0 +1,1262 @@
+{
+  "name": "Olympia",
+  "slug": "olympia",
+  "epithet": "Blue Rose of Caelus",
+  "faction": "Rose Tempest",
+  "homeRoute": "Leda",
+  "weapons": [
+    "White Magic",
+    "Black Magic",
+    "Axe"
+  ],
+  "preferred": [
+    "Axe",
+    "White Magic"
+  ],
+  "avoid": [
+    "Spear"
+  ],
+  "personality": "A driven priestess who trained relentlessly to settle her rivalry with Leda.",
+  "story": "Olympia (21-22, 26-27 post-timeskip) is a priestess of the Kalla Temple in Dagsion and Leda's rival from their shared time there; she earned the title \"Blue Rose of Caelus\" to win that contest. She joins Leda's route automatically; on Cai/Theodora you gift her Scarlet Drops then Aurum Rose, and on Dietrich you also need Azure Heart before 27/11.",
+  "personalSkill": {
+    "name": "Competitive Zeal",
+    "effect": "Grants Crit +10 when equipped with magic."
+  },
+  "growths": {
+    "HP": 35,
+    "Str": 35,
+    "Mag": 50,
+    "Spd": 35,
+    "Dex": 35,
+    "Def": 30,
+    "Res": 40,
+    "Lck": 40,
+    "Cha": 40
+  },
+  "supports": [
+    "Alexandra",
+    "Buccar",
+    "Fianna",
+    "Goliath",
+    "Jasmine",
+    "Leda",
+    "Mu",
+    "Sirocco",
+    "Tobias"
+  ],
+  "tiers": [
+    {
+      "source": "Pocket Tactics",
+      "tier": "A"
+    },
+    {
+      "source": "KeenGamer",
+      "tier": "S"
+    }
+  ],
+  "tierNotes": "Pocket Tactics: A. KeenGamer: S (\"the strongest free magic healer\").",
+  "recruit": {
+    "how": "auto",
+    "why": [
+      "Joins Leda's army automatically, so there's no Support or Renown to chase."
+    ]
+  },
+  "requirements": {
+    "Cai": "3S 8R",
+    "Dietrich": "3S 6R",
+    "Theodora": "3S 9R",
+    "Leda": "Auto"
+  },
+  "build": {
+    "role": "Physic healer and Nosferatu crit caster",
+    "path": [
+      "Diviner",
+      "Priest",
+      "Bishop",
+      "Wiseman"
+    ],
+    "part1Target": "Bishop",
+    "part3Target": "Wiseman",
+    "notes": "Bishop doubles both Physic and Nosferatu. Priest's White +2 fights plus the Arena Mage course get White B by Ch 10. She stays Bishop through Part II so the main healer never loses doubled Physic; Wiseman in Part III.",
+    "confidence": "medium"
+  },
+  "guide": {
+    "role": "Main healer: Physic from range, Nosferatu crits between heals",
+    "summary": "The army's main healer. Physic from the back row keeps Buccar and Mu standing so the strikers can stay in Leda's ring; between heals, Nosferatu with Competitive Zeal and Ardent Nosferatu crits and heals her. Bishop at Lv 35 (Ch 10) doubles both.",
+    "playstyle": "Physic whoever took the enemy phase, then Nosferatu a foe Sirocco or the tanks softened. End beside a tank so Barrier lands, and outside archer range: Def 20 as a Bishop.",
+    "focus": [
+      "Mag",
+      "Res",
+      "Spd"
+    ],
+    "keys": [
+      "Priest at Lv 20 (Ch 6) and stay: White +2 a fight toward B",
+      "Bishop the day she shows Lv 35 with White B (Ch 10): the route's first Advanced exam",
+      "Learn Physic (White B) before the Ch 11 battle: the path guide's prep item",
+      "Attack only with Nosferatu: Zeal Crit +10, Ardent Nosferatu+ Atk +5, Crit +10",
+      "Keep the Rubess Forest Healing Staff on: +10 HP on every heal",
+      "Read Archive Γ if Vandahl lists it (Ch 10+): Death Γ, Crit 30 with Zeal"
+    ],
+    "watch": [
+      "Def: 20 growth as a Bishop. One archer volley can kill her; end out of the danger line",
+      "Spd: 35 growth, and Bishop adds none. Fast foes double her: stand behind the tanks",
+      "Weight: Healing Staff 3, nothing else. A weapon in hand switches Zeal off; Wiseman drops Death Γ",
+      "Black Magic at single uses in Bishop: Thoron (B) is her armor answer, not her main attack"
+    ],
+    "stages": [
+      {
+        "when": "Ch 3 to 4 · start class unknown",
+        "from": {
+          "part": 1,
+          "ch": 3
+        },
+        "to": {
+          "part": 1,
+          "ch": 4
+        },
+        "level": "Lv 1 to 5",
+        "class": "",
+        "kind": "core",
+        "goal": "Joins with the story after the Ch 3 battle. Attack only with spells: Competitive Zeal is Crit +10 with magic.",
+        "exit": "Diviner exam at Lv 5 (Ch 5).",
+        "masteries": [],
+        "items": [
+          {
+            "item": "Vulnerary",
+            "why": "Heals 20; she stays behind the tanks"
+          }
+        ],
+        "spells": [
+          {
+            "name": "Nosferatu",
+            "why": "White D: heals half the damage; Zeal Crit +10"
+          },
+          {
+            "name": "Heal",
+            "why": "White D: heals 10"
+          },
+          {
+            "name": "Thunder",
+            "why": "Black D: Black Magic training"
+          }
+        ],
+        "abilities": [
+          {
+            "name": "White Magic Lv. 1",
+            "why": "White D+? from Nosferatu casts: Hit +3 on Nosferatu"
+          },
+          {
+            "name": "Steady Shot",
+            "why": "Infantry D?: Hit +5 with magic in hand"
+          },
+          {
+            "name": "Attack Formation",
+            "why": "Authority D?: Atk +1 to adjacent allies"
+          },
+          {
+            "name": "Read the Winds",
+            "why": "Flying D?: Avo +10 vs bows"
+          },
+          {
+            "name": "Knightly Senses",
+            "why": "Riding D?: Avo +10 vs spears"
+          }
+        ],
+        "tips": [
+          "No Arena before Ch 5 and starting ranks are undocumented: equip the D abilities the menu shows, in this order"
+        ]
+      },
+      {
+        "when": "Ch 5",
+        "from": {
+          "part": 1,
+          "ch": 5
+        },
+        "to": {
+          "part": 1,
+          "ch": 5
+        },
+        "level": "Lv 5 to 20",
+        "class": "Diviner",
+        "kind": "core",
+        "goal": "Mag 65 growth and White Magic C for Priest. Nosferatu is her counter and her self-heal.",
+        "exit": "Leave at Lv 20 with White Magic C once Renown 4 opens Priest (Ch 6).",
+        "masteries": [
+          "Magic Basics"
+        ],
+        "equipment": [
+          {
+            "item": "Healing Staff",
+            "why": "+10 HP on every heal; take it from Rubess Forest in Ch 5",
+            "slot": "Accessory"
+          }
+        ],
+        "items": [
+          {
+            "item": "Vulnerary",
+            "why": "Heals 20; she stays behind the tanks"
+          }
+        ],
+        "spells": [
+          {
+            "name": "Nosferatu",
+            "why": "White D: heals half the damage; Zeal Crit +10"
+          },
+          {
+            "name": "Heal",
+            "why": "White D: heals 10"
+          },
+          {
+            "name": "Thunder",
+            "why": "Black D"
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Magic Basics",
+            "why": "Diviner mastery: Mag/Res +1 (once mastered)"
+          },
+          {
+            "name": "Ardent Nosferatu",
+            "why": "Personal Lv 20: Nosferatu gets Atk +3, Crit +5 (from Lv 20)"
+          },
+          {
+            "name": "White Magic Lv. 1",
+            "why": "White D+ (Mage course): Hit +3 on Nosferatu"
+          },
+          {
+            "name": "Read the Winds",
+            "why": "Flying D (one Mounted week?): Avo +10 vs bows"
+          },
+          {
+            "name": "Knightly Senses",
+            "why": "Riding D (same Mounted week?): Avo +10 vs spears"
+          }
+        ],
+        "training": [
+          {
+            "rank": "White Magic C",
+            "for": "Priest (Ch 6)",
+            "how": "Arena Mage Training (Black, White, Authority) when a seat is free"
+          },
+          {
+            "rank": "Flying D, Riding D",
+            "for": "Read the Winds, Knightly Senses (Avo +10 vs bows / spears)",
+            "how": "1–2 Arena Mounted weeks? on the free seat beside Catania (Ch 5–9)"
+          }
+        ],
+        "tips": [
+          "Sinister Sacrifices (ends 6/28) pays a Black-Magic Manual: Sirocco reads it"
+        ]
+      },
+      {
+        "when": "Ch 6 to 9",
+        "from": {
+          "part": 1,
+          "ch": 6
+        },
+        "to": {
+          "part": 1,
+          "ch": 9
+        },
+        "level": "Lv 20 to 35",
+        "class": "Priest",
+        "kind": "core",
+        "goal": "Doubled heals, Mag 60 growth and White +2 a fight toward B; master Piety. Nosferatu stays her attack.",
+        "exit": "Leave at Lv 35 with White Magic B once Renown 8 opens Bishop (Ch 10).",
+        "why": [
+          "Ardent Nosferatu (Lv 20): Atk +3, Crit +5 on top of Zeal's Crit +10, and every hit heals her",
+          "No axe: an axe in hand switches Competitive Zeal off"
+        ],
+        "masteries": [
+          "Piety"
+        ],
+        "equipment": [
+          {
+            "item": "Healing Staff",
+            "why": "+10 HP on every heal, Wt 3",
+            "slot": "Accessory"
+          }
+        ],
+        "items": [
+          {
+            "item": "Concoction",
+            "why": "Heals 40: Def 20, archers target her",
+            "alts": [
+              "Vulnerary"
+            ]
+          }
+        ],
+        "spells": [
+          {
+            "name": "Nosferatu",
+            "why": "White D: heals half the damage; Zeal Crit +10"
+          },
+          {
+            "name": "Emergis",
+            "why": "White C: saves an ally from a lethal hit"
+          },
+          {
+            "name": "Blizzard",
+            "why": "Black C"
+          },
+          {
+            "name": "Heal",
+            "why": "White D: doubled uses in Priest"
+          },
+          {
+            "name": "Thunder",
+            "why": "Black D"
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Piety",
+            "why": "Priest mastery: Lck +3 (once mastered)"
+          },
+          {
+            "name": "Ardent Nosferatu",
+            "why": "Personal Lv 20: Nosferatu gets Atk +3, Crit +5"
+          },
+          {
+            "name": "Magic Basics",
+            "why": "Diviner mastery: Mag/Res +1"
+          },
+          {
+            "name": "White Magic Lv. 2",
+            "why": "White C+: Hit +5 on Nosferatu"
+          },
+          {
+            "name": "Read the Winds",
+            "why": "Flying D: Avo +10 vs the archers that reach a healer"
+          }
+        ],
+        "training": [
+          {
+            "rank": "White Magic B",
+            "for": "Physic and Bishop (Lv 35, Renown 8)",
+            "how": "Priest fights (White +2) plus Mage Training on free seats"
+          },
+          {
+            "rank": "Black Magic B",
+            "for": "Thoron",
+            "how": "Same Mage session"
+          }
+        ],
+        "checks": [
+          {
+            "stat": "Mag",
+            "at": "Ch 8 prep",
+            "need": "Forecast: Nosferatu kills a foe the tanks left at half HP, no crit",
+            "why": "Nosferatu is her counter and her self-heal",
+            "fix": [
+              "Stand in Leda's ring for Song of Passion: Mag +4 (+7 from Ch 9)",
+              "Keep Magic Basics (Mag/Res +1) equipped",
+              "Stay Priest to Lv 35: Mag 60 growth, no side trip"
+            ]
+          }
+        ],
+        "tips": [
+          "She heals alone until Ch 10: Catania is a Wing Soldier and can't cast White Magic",
+          "Sand Boar and Beans is a liked dish for her and Catania"
+        ],
+        "drop": [
+          {
+            "item": "White Magic Lv. 1",
+            "why": "Lv. 2 replaces it at White C+"
+          },
+          {
+            "item": "Knightly Senses",
+            "why": "Piety takes the slot"
+          }
+        ]
+      },
+      {
+        "when": "Ch 10 to 12",
+        "from": {
+          "part": 1,
+          "ch": 10
+        },
+        "to": {
+          "part": 1,
+          "ch": 12
+        },
+        "level": "Lv 35 to 37",
+        "class": "Bishop",
+        "kind": "core",
+        "goal": "Doubled Physic and Nosferatu, Magic Heal +10; master Barrier. Physic before the Ch 11 battle.",
+        "exit": "Stay Bishop through Part II.",
+        "why": [
+          "First Advanced exam of the route: the day she shows Lv 35 with White B (Ch 10, Ch 11 at worst)",
+          "Ardent Nosferatu+ (Lv 35): Atk +5 and Crit +20 with Zeal on Nosferatu"
+        ],
+        "masteries": [
+          "Barrier"
+        ],
+        "equipment": [
+          {
+            "item": "Healing Staff",
+            "why": "+10 HP on every heal, Wt 3",
+            "slot": "Accessory"
+          }
+        ],
+        "items": [
+          {
+            "item": "Concoction",
+            "why": "Heals 40: Def 20, archers target her",
+            "alts": [
+              "Vulnerary"
+            ]
+          },
+          {
+            "item": "Elixir",
+            "why": "Heals 100: part of her Part II stock",
+            "alts": [
+              "Concoction"
+            ]
+          }
+        ],
+        "spells": [
+          {
+            "name": "Physic",
+            "why": "White B: heals 8 at range 1-10, +10 staff, +10 Bishop"
+          },
+          {
+            "name": "Nosferatu",
+            "why": "White D: doubled; Ardent Nosferatu+ adds Atk/Crit"
+          },
+          {
+            "name": "Death Γ",
+            "why": "Archive Γ (Vandahl ?, Ch 10+): Mt 15, Crit 20 (+10 Zeal), Wt 13"
+          },
+          {
+            "name": "Thoron",
+            "why": "Black B: Mt 20 at range 1-3, single uses"
+          },
+          {
+            "name": "Blizzard",
+            "why": "Black C"
+          },
+          {
+            "name": "Emergis",
+            "why": "White C"
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Barrier",
+            "why": "Bishop mastery: Res +3 to adjacent allies (once mastered)"
+          },
+          {
+            "name": "Ardent Nosferatu+",
+            "why": "Personal Lv 35: Nosferatu gets Atk +5, Crit +10; replaces the base"
+          },
+          {
+            "name": "Magic Basics",
+            "why": "Diviner mastery: Mag/Res +1"
+          },
+          {
+            "name": "White Magic Lv. 3",
+            "why": "White B+ (Bishop fights): Hit/Avo +5; Lv. 2 until it shows"
+          },
+          {
+            "name": "Read the Winds",
+            "why": "Flying D: Avo +10 vs bows"
+          }
+        ],
+        "training": [
+          {
+            "rank": "White Magic A",
+            "for": "Wiseman (Part III)",
+            "how": "Bishop fights (White +3); Arena seats bench first"
+          }
+        ],
+        "checks": [
+          {
+            "stat": "Spd",
+            "at": "Lv 35",
+            "need": "Forecast: Ch 10 foes that can reach her show no x2",
+            "why": "Def 20 as a Bishop: a doubled hit can kill her",
+            "fix": [
+              "End turns two rows behind Buccar and Mu",
+              "Song of Icewater+ (Def/Res +7) when she must end in range",
+              "Dew of Protection (half damage) for a turn she can't hide"
+            ]
+          }
+        ],
+        "drop": [
+          {
+            "item": "Heal",
+            "why": "Physic covers it"
+          },
+          {
+            "item": "Thunder",
+            "why": "Blizzard and Thoron replace it"
+          },
+          {
+            "item": "Piety",
+            "why": "Lck +3 is her weakest slot; Barrier takes it"
+          }
+        ],
+        "tips": [
+          "Advanced Licenses: Megaira in Ch 9, Dagsion from Ch 10",
+          "Read Archive Γ the day Vandahl Dagsion lists it (barter cost ?)",
+          "Part II brings only the 6 items she holds at 11/27 (the game says 'equipped'?): Staff, Concoction, Elixir"
+        ]
+      },
+      {
+        "when": "Part II",
+        "from": {
+          "part": 2,
+          "ch": 1
+        },
+        "to": {
+          "part": 3,
+          "ch": 2
+        },
+        "level": "Lv 37 to 42",
+        "class": "Bishop",
+        "kind": "core",
+        "goal": "Main Physic user on every map; Ch 3's hold wants her and Catania. Nosferatu between heals.",
+        "exit": "Wiseman at Lv 45 in Part III (Master License, White Magic A).",
+        "masteries": [],
+        "equipment": [
+          {
+            "item": "Healing Staff",
+            "why": "+10 HP on every heal, Wt 3",
+            "slot": "Accessory"
+          }
+        ],
+        "items": [
+          {
+            "item": "Concoction",
+            "why": "Heals 40; stocked before 11/27",
+            "plan": "Stocked before 11/27 (no Part II shops)"
+          },
+          {
+            "item": "Elixir",
+            "why": "Heals 100; stocked before 11/27",
+            "alts": [
+              "Concoction"
+            ],
+            "plan": "Stocked before 11/27 (no Part II shops)"
+          },
+          {
+            "item": "Concoction",
+            "why": "Spare: trade it to a tank on the hold",
+            "situational": "Part II Ch 3 (long chokepoint hold, plenty of Concoctions): open slot",
+            "plan": "Stocked before 11/27 (no Part II shops)"
+          }
+        ],
+        "spells": [
+          {
+            "name": "Physic",
+            "why": "White B: heals 8 at range 1-10, +10 staff, +10 Bishop"
+          },
+          {
+            "name": "Nosferatu",
+            "why": "Doubled; Ardent Nosferatu+ adds Atk/Crit"
+          },
+          {
+            "name": "Death Γ",
+            "why": "Archive Γ (Vandahl ?, Ch 10+): Mt 15, Crit 20 (+10 Zeal), Wt 13"
+          },
+          {
+            "name": "Thoron",
+            "why": "Black B: Dagda's low Res in Ch 5"
+          },
+          {
+            "name": "Blizzard",
+            "why": "Black C"
+          },
+          {
+            "name": "Emergis",
+            "why": "White C"
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Ardent Nosferatu+",
+            "why": "Personal Lv 35: Nosferatu gets Atk +5, Crit +10; replaces the base"
+          },
+          {
+            "name": "Barrier",
+            "why": "Bishop mastery: Res +3 to adjacent allies"
+          },
+          {
+            "name": "Magic Basics",
+            "why": "Diviner mastery: Mag/Res +1"
+          },
+          {
+            "name": "White Magic Lv. 3",
+            "why": "White B+: Hit/Avo +5 on Nosferatu"
+          },
+          {
+            "name": "Read the Winds",
+            "why": "Flying D: Avo +10 vs bows"
+          }
+        ],
+        "tips": [
+          "Ch 3: heal from behind the alley chokepoints; Physic reaches 10 tiles",
+          "Ch 5: Thoron and Nosferatu hit Dagda's low Res",
+          "Ch 6 Part 2: she follows Leda down the west edge with Physic",
+          "Ch 6 Part 1: Physic the bows that chip Lyrah's shields from the corners"
+        ]
+      },
+      {
+        "when": "Part III Section 3+ (Wiseman)",
+        "from": {
+          "part": 3,
+          "ch": 3
+        },
+        "level": "Lv 45+",
+        "class": "Wiseman",
+        "kind": "core",
+        "goal": "Magic Heal +15 and Res +25 row: the biggest heals. Physic from 10 tiles; Nosferatu only between heals.",
+        "exit": "Final class.",
+        "why": [
+          "Underworld Boon: she heals from inside Leda's Abjuring ring; she has no sword for a Cleansing Blade",
+          "No weapon: Str −5 row, and a weapon in hand switches Competitive Zeal off",
+          "Wiseman has no Black Magic: Death Γ and Thoron go quiet"
+        ],
+        "masteries": [
+          "Dominate Magic"
+        ],
+        "equipment": [
+          {
+            "item": "Healing Staff",
+            "why": "+10 HP on every heal, Wt 3",
+            "slot": "Accessory",
+            "alts": [
+              "Magic Staff"
+            ]
+          }
+        ],
+        "items": [
+          {
+            "item": "Elixir",
+            "why": "Heals 100",
+            "alts": [
+              "Concoction"
+            ]
+          }
+        ],
+        "spells": [
+          {
+            "name": "Physic",
+            "why": "White B: heals 8 at range 1-10, +10 staff, +10 Bishop"
+          },
+          {
+            "name": "Nosferatu",
+            "why": "Doubled; Ardent Nosferatu+ adds Atk/Crit"
+          },
+          {
+            "name": "Silence",
+            "why": "White A: Silence at range 1-10"
+          },
+          {
+            "name": "Emergis",
+            "why": "White C"
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Ardent Nosferatu+",
+            "why": "Personal Lv 35: Nosferatu gets Atk +5, Crit +10; replaces the base"
+          },
+          {
+            "name": "Barrier",
+            "why": "Bishop mastery: Res +3 to adjacent allies (Guzran's 15–20% Res row)"
+          },
+          {
+            "name": "White Magic Lv. 4",
+            "why": "White A+ (Wiseman fights)?: Hit/Avo +7; Lv. 3 until"
+          },
+          {
+            "name": "Bind Speed",
+            "why": "Ovate mastery (Dietrich merge?): adjacent foes Spd −3, so fewer double her"
+          },
+          {
+            "name": "Read the Winds",
+            "why": "Flying D: Avo +10 vs bows"
+          }
+        ],
+        "drop": [
+          {
+            "item": "Thoron",
+            "why": "Wiseman has no Black Magic"
+          },
+          {
+            "item": "Death Γ",
+            "why": "Wiseman has no Black Magic"
+          },
+          {
+            "item": "Magic Basics",
+            "why": "Bind Speed: Spd −3 on adjacent foes keeps a healer from being doubled"
+          },
+          {
+            "item": "White Magic Lv. 3",
+            "why": "Lv. 4 replaces it at White A+"
+          }
+        ],
+        "tips": [
+          "Balor center: end next to Guzran or Leda; Barrier is Res +3 for that striker",
+          "Drake: heal from the back of the rush; Physic reaches 10 tiles, so she never steps on Envy",
+          "Two healers in C: Catania holds the front line, Olympia the back row",
+          "Dominate Magic (mastered) only for mage-heavy maps, in place of Bind Speed"
+        ]
+      }
+    ],
+    "alt": "Troubadour (carried in from Cai; the Hard-mode video's pick) gives Mov 6 and Song of Courage, but Physic drops from doubled to single uses and she needs Riding D from zero. An Ovate stint for Bind Speed only works if Fianna and Catania carry the heals that chapter.",
+    "sources": [
+      "class-and-weapon-guide",
+      "growth.py",
+      "character-learnsets",
+      "class-data",
+      "class-tier-research",
+      "weapons-and-items",
+      "hard-mode-video-notes",
+      "part1-leda-path",
+      "part2-war"
+    ],
+    "decisions": [
+      {
+        "topic": "Stay Bishop through Part II",
+        "pick": "Bishop from Ch 10 to the end of Part II",
+        "why": "An Ovate stint would cut Physic to single uses for two chapters for a Spd gain under 1 point and Bind Speed, which only slows foes already next to her. Doubled Physic is worth more on every Part II map.",
+        "else": "Ovate in Part II only if Fianna and Catania carry the heals"
+      },
+      {
+        "topic": "Go Bishop, not Troubadour",
+        "pick": "Bishop from Ch 10",
+        "why": "Bishop doubles Physic and Nosferatu; Troubadour is carried in from Cai's run but adds neither."
+      }
+    ],
+    "gates": [
+      {
+        "route": "Leda",
+        "from": {
+          "part": 1,
+          "ch": 6
+        },
+        "by": {
+          "part": 1,
+          "ch": 10
+        },
+        "kind": "rank",
+        "text": "Olympia needs White Magic B for Physic and Bishop by Ch 10"
+      }
+    ],
+    "routeNotes": [
+      {
+        "system": "Supports",
+        "note": "Partners here: Leda, Sirocco, Buccar and Mu (all support each other), plus Fianna and Jasmine on the bench. Ch 11 and 12 meal: Leda + Sirocco + Olympia."
+      },
+      {
+        "system": "Two Physics",
+        "note": "From Ch 10 she and Catania (Guardian) both carry Physic: she covers the back line, Catania walks or flies to the unit that's cut off."
+      }
+    ]
+  },
+  "copies": [
+    {
+      "route": "Dietrich",
+      "support": 3,
+      "renown": 6,
+      "cost": "3 quests (RPG Site; Game8 mentions Scarlet Drops)",
+      "chapter": 8,
+      "path": [
+        "Diviner",
+        "Shaman",
+        "Ovate"
+      ],
+      "role": "Crit mage, second magic damage",
+      "part1": "Shaman (Ovate in Part II Ch 1)",
+      "why": "No change. The video lists Olympia among the best Ovate users. It prefers Troubadour for her, but home Olympia holds Bishop or Troubadour.",
+      "guide": {
+        "summary": "Crit mage and second magic damage (second copy; home Olympia heals on Leda's route). Ovate here, with Competitive Zeal adding Crit +10 to spells and White Magic as a third healer.",
+        "stages": [
+          {
+            "when": "Join (Ch 8, Lv 15) to Lv 20",
+            "from": {
+              "part": 1,
+              "ch": 8
+            },
+            "to": {
+              "lv": 20
+            },
+            "class": "Diviner",
+            "training": [
+              {
+                "rank": "Black Magic C",
+                "for": "Shaman exam",
+                "how": "Arena Mage Training from recruit; Black-Magic Manual (Port of Pandora, Mahon, Barsk)"
+              }
+            ],
+            "equipment": [
+              {
+                "item": "Magic Staff",
+                "slot": "Accessory",
+                "why": "Mag +3",
+                "plan": "The Corroios chest copy goes to Fabio"
+              }
+            ],
+            "spells": [
+              {
+                "name": "Thunder",
+                "why": "Black D"
+              },
+              {
+                "name": "Nosferatu",
+                "why": "White D; attack and self-heal"
+              },
+              {
+                "name": "Heal",
+                "why": "White D backup heals"
+              }
+            ],
+            "abilities": [
+              {
+                "name": "Magic Basics",
+                "why": "Diviner mastery: Mag/Res +1 (once mastered)"
+              },
+              {
+                "name": "Black Magic Lv. 1",
+                "why": "Black Magic D+ rank ability (threshold per fortunesweave.co.uk, unverified; check the skill list): Hit +3 with black magic"
+              }
+            ],
+            "tips": [
+              "Competitive Zeal (Crit +10 with magic) is her personal skill: always on, no slot",
+              "Ch 6 to 9 recruits join at about Lv 15, already in a Beginner class: a Beginner License only if it isn't Diviner"
+            ],
+            "goal": "Black Magic C for Shaman. Competitive Zeal (Crit +10 with magic equipped) is on every spell, so she never fights with a weapon.",
+            "items": [
+              {
+                "item": "Concoction",
+                "why": "Heals 40: second caster, low Def",
+                "alts": [
+                  "Vulnerary"
+                ]
+              }
+            ],
+            "level": "About Lv 15 to 20",
+            "exit": "Lv 20, Black Magic C: Shaman exam"
+          },
+          {
+            "when": "Lv 20 (Ch 9) to Ch 10 (Specialty)",
+            "from": {
+              "part": 1,
+              "ch": 9,
+              "approx": true
+            },
+            "to": {
+              "part": 1,
+              "ch": 10
+            },
+            "class": "Shaman",
+            "training": [
+              {
+                "rank": "Black Magic B",
+                "for": "Ovate exam (Part II Ch 1)",
+                "how": "Arena Mage Training"
+              }
+            ],
+            "equipment": [
+              {
+                "item": "Magic Staff",
+                "slot": "Accessory",
+                "why": "Mag +3",
+                "plan": "The Corroios chest copy goes to Fabio"
+              }
+            ],
+            "spells": [
+              {
+                "name": "Death Γ",
+                "why": "Archive Γ (Vandahl, from about Ch 10): Mt 15, Crit 20 (+10 Crit from Competitive Zeal); best nuke until Thoron"
+              },
+              {
+                "name": "Blizzard",
+                "why": "Black C"
+              },
+              {
+                "name": "Nosferatu",
+                "why": "Ardent Nosferatu boosts it"
+              },
+              {
+                "name": "Thunder",
+                "why": "Black D"
+              },
+              {
+                "name": "Heal",
+                "why": "White D backup heals"
+              }
+            ],
+            "abilities": [
+              {
+                "name": "Bind Dexterity",
+                "why": "Shaman mastery: Dex -3 on adjacent foes (once mastered)"
+              },
+              {
+                "name": "Magic Basics",
+                "why": "Diviner mastery: Mag/Res +1"
+              },
+              {
+                "name": "Black Magic Lv. 1",
+                "why": "Black Magic D+ rank ability (threshold per fortunesweave.co.uk, unverified; check the skill list): Hit +3 with black magic"
+              }
+            ],
+            "tips": [
+              "Ardent Nosferatu (Lv 20, + at Lv 35) comes with her personal skill: always on, no slot"
+            ],
+            "goal": "Black Magic B for Ovate; Bind Dexterity. Ardent Nosferatu (Lv 20): Nosferatu gets Atk +3, Crit +5 on top of Zeal's Crit +10, so it is her self-healing counter.",
+            "items": [
+              {
+                "item": "Concoction",
+                "why": "Heals 40: second caster, low Def",
+                "alts": [
+                  "Vulnerary"
+                ]
+              }
+            ],
+            "level": "Lv 20 to 35",
+            "exit": "Lv 35, Black Magic B: Ovate exam (Ch 11 to 12, else Part II)"
+          },
+          {
+            "when": "Ch 11 to 12 (Advanced)",
+            "from": {
+              "part": 1,
+              "ch": 11
+            },
+            "to": {
+              "part": 1,
+              "ch": 12
+            },
+            "class": "Ovate",
+            "equipment": [
+              {
+                "item": "Magic Staff",
+                "slot": "Accessory",
+                "why": "Mag +3",
+                "plan": "The Corroios chest copy goes to Fabio"
+              }
+            ],
+            "arts": [],
+            "spells": [
+              {
+                "name": "Thoron",
+                "why": "Black B, arrives with the Ovate exam"
+              },
+              {
+                "name": "Death Γ",
+                "why": "Archive Γ (Vandahl, from about Ch 10): Mt 15, Crit 20 (+10 Crit from Competitive Zeal); best nuke until Thoron"
+              },
+              {
+                "name": "Physic",
+                "why": "White B if Mage Training brings White up too"
+              },
+              {
+                "name": "Blizzard",
+                "why": "Black C"
+              },
+              {
+                "name": "Nosferatu",
+                "why": "Ardent Nosferatu boosts it"
+              },
+              {
+                "name": "Heal",
+                "why": "White D backup heals"
+              }
+            ],
+            "abilities": [
+              {
+                "name": "Bind Speed",
+                "why": "Ovate mastery: Spd -3 on adjacent foes (once mastered)"
+              },
+              {
+                "name": "Bind Dexterity",
+                "why": "Shaman mastery: Dex -3 on adjacent foes"
+              },
+              {
+                "name": "Magic Basics",
+                "why": "Diviner mastery: Mag/Res +1"
+              },
+              {
+                "name": "Black Magic Lv. 1",
+                "why": "Black Magic D+ rank ability (threshold per fortunesweave.co.uk, unverified; check the skill list): Hit +3 with black magic"
+              }
+            ],
+            "drop": [
+              {
+                "item": "Thunder",
+                "why": "Replaced by Thoron"
+              },
+              {
+                "item": "Hexblade",
+                "why": "Sword art, and she carries no sword: a weapon in hand would switch Competitive Zeal off"
+              }
+            ],
+            "goal": "Second magic damage: doubled Black Magic with Zeal's Crit +10. Ardent Nosferatu+ (Lv 35) makes Nosferatu Atk +5, Crit +20 in total.",
+            "items": [
+              {
+                "item": "Concoction",
+                "why": "Heals 40; stocked before 11/27 (no Part II shops)",
+                "alts": [
+                  "Vulnerary"
+                ]
+              }
+            ],
+            "level": "Lv 35 to 37",
+            "exit": "Stay Ovate into Part II; merge in Part III"
+          },
+          {
+            "when": "Part II Ch 2 to 6",
+            "from": {
+              "part": 2,
+              "ch": 2
+            },
+            "to": {
+              "part": 2,
+              "ch": 6
+            },
+            "class": "Ovate",
+            "tips": [
+              "Ch 5 Dagda: second magic damage dealer",
+              "Ch 3 asks for Physic users"
+            ],
+            "equipment": [
+              {
+                "item": "Magic Staff",
+                "slot": "Accessory",
+                "why": "Mag +3",
+                "plan": "The Corroios chest copy goes to Fabio"
+              }
+            ],
+            "arts": [],
+            "spells": [
+              {
+                "name": "Thoron",
+                "why": "Black B, arrives with the Ovate exam"
+              },
+              {
+                "name": "Death Γ",
+                "why": "Archive Γ (Vandahl, from about Ch 10): Mt 15, Crit 20 (+10 Crit from Competitive Zeal); best nuke until Thoron"
+              },
+              {
+                "name": "Physic",
+                "why": "White B if Mage Training brings White up too"
+              },
+              {
+                "name": "Blizzard",
+                "why": "Black C"
+              },
+              {
+                "name": "Nosferatu",
+                "why": "Ardent Nosferatu boosts it"
+              },
+              {
+                "name": "Heal",
+                "why": "White D backup heals"
+              }
+            ],
+            "abilities": [
+              {
+                "name": "Bind Speed",
+                "why": "Ovate mastery: Spd -3 on adjacent foes"
+              },
+              {
+                "name": "Bind Dexterity",
+                "why": "Shaman mastery: Dex -3 on adjacent foes"
+              },
+              {
+                "name": "Magic Basics",
+                "why": "Diviner mastery: Mag/Res +1"
+              },
+              {
+                "name": "Black Magic Lv. 1",
+                "why": "Black Magic D+ rank ability (threshold per fortunesweave.co.uk, unverified; check the skill list): Hit +3 with black magic"
+              }
+            ],
+            "goal": "Second magic damage and long range for shields; Thoron crits on Zeal's +10.",
+            "items": [
+              {
+                "item": "Concoction",
+                "why": "Heals 40; stocked before 11/27 (no Part II shops)",
+                "alts": [
+                  "Vulnerary"
+                ]
+              }
+            ],
+            "drop": [
+              {
+                "item": "Hexblade",
+                "why": "Sword art, and she carries no sword: a weapon in hand would switch Competitive Zeal off"
+              }
+            ],
+            "level": "Lv 37 to 42",
+            "exit": "Stay Ovate into Part II; merge in Part III"
+          },
+          {
+            "when": "Part III goal · merged with home copy",
+            "from": {
+              "part": 3
+            },
+            "class": "Druid",
+            "training": [
+              {
+                "rank": "Black Magic A",
+                "for": "Druid (Lv 45)",
+                "how": "Arena Mage Training"
+              }
+            ],
+            "equipment": [
+              {
+                "item": "Magic Staff",
+                "slot": "Accessory",
+                "why": "Mag +3",
+                "plan": "The Corroios chest copy goes to Fabio"
+              }
+            ],
+            "arts": [],
+            "spells": [
+              {
+                "name": "Bolting",
+                "why": "Black S"
+              },
+              {
+                "name": "Ice Blade",
+                "why": "Black A"
+              },
+              {
+                "name": "Death Γ",
+                "why": "Archive Γ (Vandahl, from about Ch 10): Mt 15, Crit 20 (+10 Crit from Competitive Zeal); best nuke until Thoron"
+              },
+              {
+                "name": "Thoron",
+                "why": "Black B, arrives with the Ovate exam"
+              },
+              {
+                "name": "Blizzard",
+                "why": "Black C"
+              }
+            ],
+            "abilities": [
+              {
+                "name": "Bind Resistance",
+                "why": "Druid mastery: Res -3 on adjacent foes (once mastered)"
+              },
+              {
+                "name": "Bind Speed",
+                "why": "Ovate mastery: Spd -3 on adjacent foes"
+              },
+              {
+                "name": "Bind Dexterity",
+                "why": "Shaman mastery: Dex -3 on adjacent foes"
+              },
+              {
+                "name": "Magic Basics",
+                "why": "Diviner mastery: Mag/Res +1"
+              },
+              {
+                "name": "Black Magic Lv. 1",
+                "why": "Black Magic D+ rank ability (threshold per fortunesweave.co.uk, unverified; check the skill list): Hit +3 with black magic"
+              }
+            ],
+            "drop": [
+              {
+                "item": "Physic",
+                "why": "Druid has no White Magic"
+              },
+              {
+                "item": "Nosferatu",
+                "why": "Druid has no White Magic"
+              },
+              {
+                "item": "Heal",
+                "why": "Druid has no White Magic"
+              },
+              {
+                "item": "Hexblade",
+                "why": "Sword art, and she carries no sword: a weapon in hand would switch Competitive Zeal off"
+              }
+            ],
+            "goal": "Merge with the home copy, then Druid; Competitive Zeal stays on every spell.",
+            "items": [
+              {
+                "item": "Concoction",
+                "why": "Heals 40",
+                "alts": [
+                  "Vulnerary"
+                ]
+              }
+            ],
+            "exit": "Final class."
+          }
+        ],
+        "spells": [
+          {
+            "name": "Thoron",
+            "why": "Main nuke"
+          },
+          {
+            "name": "Nosferatu",
+            "why": "Sustain with Ardent Nosferatu"
+          },
+          {
+            "name": "Physic",
+            "why": "Backup ranged heal"
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Bind Speed",
+            "why": "Spd -3 adjacent"
+          },
+          {
+            "name": "Magic Basics",
+            "why": "Mag/Res +1"
+          }
+        ],
+        "specials": [
+          "Avoids Spear",
+          "Video lists her among the best Ovate users"
+        ],
+        "sources": [
+          "class plan v3",
+          "character-learnsets",
+          "class-data",
+          "weapons-and-items",
+          "hard-mode video notes",
+          "Dietrich Ch 4 to 9 walkthrough"
+        ]
+      }
+    }
+  ],
+  "sources": [
+    "https://fortunesweave.co.uk/characters/olympia",
+    "https://www.keengamer.com/articles/guides/fire-emblem-fortunes-weave-best-class-for-every-character/",
+    "https://www.keengamer.com/articles/guides/fire-emblem-fortunes-weave-tier-list-best-characters-ranked-for-every-route/",
+    "https://www.pockettactics.com/fire-emblem-fortunes-weave/tier-list"
+  ],
+  "recruitOn": {
+    "Cai": {
+      "how": "recruit",
+      "support": 3,
+      "renown": 8
+    },
+    "Dietrich": {
+      "how": "recruit",
+      "support": 3,
+      "renown": 6,
+      "task": "3 quests (RPG Site; Game8 mentions Scarlet Drops)"
+    },
+    "Theodora": {
+      "how": "recruit",
+      "support": 3,
+      "renown": 9,
+      "task": "3 short quests"
+    },
+    "Leda": {
+      "how": "auto"
+    }
+  }
+}

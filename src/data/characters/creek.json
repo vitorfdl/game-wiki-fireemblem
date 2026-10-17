@@ -1,0 +1,37 @@
+{
+  "name": "Creek",
+  "slug": "creek",
+  "epithet": "Twin Pillar of Arago",
+  "faction": "Kingdom of Arago",
+  "personality": "Sarcastic and cynical, with a weakness for beautiful women, military strategy and the arts.",
+  "story": "A General of Arago (Japanese name Kirik) and one of the Twin Pillars alongside Nathan, wearing green armor gifted by Arago's king. You defeat him in Part II and he defects if you did his sister's subquest in Part I.",
+  "personalSkill": {
+    "name": "Steady Hands",
+    "effect": "If the foe attacks first, AS+3 and Avo+10 during combat."
+  },
+  "growths": {
+    "HP": 45,
+    "Str": 50,
+    "Mag": 15,
+    "Spd": 60,
+    "Dex": 50,
+    "Def": 35,
+    "Res": 20,
+    "Lck": 30,
+    "Cha": 35
+  },
+  "joins": "Part II: War Chapter 2, after you defeat him in battle. MISSABLE: only if the Part I subquest \"My Late Sister's Accessory\" was completed; this may require playing more than one Part I route.",
+  "build": {
+    "role": "Fast enemy-phase dodger (suggested from growths)",
+    "path": [
+      "Soldier or Gladiator",
+      "Myrmidon or Light Cavalry",
+      "Shido or Bardinger"
+    ],
+    "notes": "Spd 60 plus Steady Hands makes him best at baiting enemy attacks. He must land the killing blow on Nathan in Part II Ch3 to recruit him. Class path is undocumented."
+  },
+  "sources": [
+    "https://fortunesweave.co.uk/characters/creek",
+    "https://www.rpgsite.net/guide/21391-fire-emblem-fortunes-weave-recruitment-guide-all-characters-in-game-how-to-recruit-them"
+  ]
+}

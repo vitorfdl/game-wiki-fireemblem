@@ -1,0 +1,770 @@
+{
+  "name": "Fabio",
+  "slug": "fabio",
+  "epithet": "Missionary of the Church of Seiros (true name Anacharsis)",
+  "faction": "House Lamine",
+  "homeRoute": "Dietrich",
+  "weapons": [
+    "Black Magic",
+    "Faith"
+  ],
+  "preferred": [
+    "Authority",
+    "Black Magic"
+  ],
+  "avoid": [
+    "Bow"
+  ],
+  "personality": "Rational but condescending, calls others 'beasts' and is drawn to suffering and clever talk.",
+  "story": "Posing as a Church of Seiros missionary from Fodlan, he is actually an Agarthan named Anacharsis. He joins Dietrich automatically as a healer-companion; on Leda's route he needs Dietrich's paralogue 'Sealed-Off Past' and the 'They Have Lost' event. Reviewers praise his arc as genuinely moving.",
+  "personalSkill": {
+    "name": "Dark Calling",
+    "effect": "Inflicts Dodge-5 on adjacent foes; range grows to 3 spaces by Lv 35."
+  },
+  "growths": {
+    "HP": 40,
+    "Str": 25,
+    "Mag": 50,
+    "Spd": 35,
+    "Dex": 40,
+    "Def": 30,
+    "Res": 45,
+    "Lck": 35,
+    "Cha": 30
+  },
+  "supports": [
+    "Anatolia",
+    "Dietrich",
+    "Esmeralda",
+    "Halvin",
+    "Mikaela",
+    "Nezha"
+  ],
+  "tiers": [
+    {
+      "source": "KeenGamer",
+      "tier": "A"
+    },
+    {
+      "source": "Pocket Tactics",
+      "tier": "S"
+    }
+  ],
+  "tierNotes": "KeenGamer: A tier. Pocket Tactics: S tier. Games with James: S tier, 'one of the best black magic users'.",
+  "recruit": {
+    "how": "auto",
+    "why": [
+      "Joins Dietrich's army automatically, so there's no Support or Renown to chase."
+    ]
+  },
+  "requirements": {
+    "Cai": "—",
+    "Dietrich": "Auto",
+    "Theodora": "—",
+    "Leda": "3S 9R"
+  },
+  "build": {
+    "role": "Black Magic nuker and debuffer",
+    "path": [
+      "Diviner",
+      "Shaman",
+      "Ovate"
+    ],
+    "part1Target": "Ovate",
+    "part3Target": "Druid",
+    "notes": "Diviner in Ch 5, Shaman in Ch 6 (Black Magic C), Ovate in Ch 10 at Renown 8 (Black Magic B). Train Black Magic only; first Black-Magic Manuals go to him. Master Bind Dexterity, then Bind Speed. Dark Calling's Dodge -5 stacks with Bind Speed. Ovate beats the heavy armor that shows up in Part II.",
+    "confidence": "high"
+  },
+  "guide": {
+    "summary": "Black Magic nuker and debuffer. Train Black Magic only, stack Dark Calling with the Shaman and Ovate binds, and use him as your answer to armor and enemy mages.",
+    "stages": [
+      {
+        "when": "Ch 1 to 4 · no class yet",
+        "from": {
+          "part": 1,
+          "ch": 1
+        },
+        "to": {
+          "part": 1,
+          "ch": 4
+        },
+        "class": "",
+        "training": [],
+        "tips": [
+          "Ch 4 and 5: point him at armored units",
+          "Do the Ch 5 Fabio scene in the eastern alleys; the Ch 10 scene needs it"
+        ],
+        "equipment": [],
+        "items": [
+          {
+            "item": "Vulnerary",
+            "why": "20 HP x3: he fronts mages"
+          }
+        ],
+        "spells": [
+          {
+            "name": "Miasma",
+            "why": "Black D; his first damage spell"
+          },
+          {
+            "name": "Heal",
+            "why": "White D; he is the only healer until Yang Jie in Ch 4"
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Black Magic Lv. 1",
+            "why": "Hit +3 with black magic (Black D+)"
+          }
+        ],
+        "goal": "Heals Dietrich and Esmeralda until Yang Jie joins in Ch 4; Black Magic does the armor damage.",
+        "exit": "Ch 5: Diviner on a Beginner License at the class tutorial"
+      },
+      {
+        "when": "Ch 5 (Beginner)",
+        "from": {
+          "part": 1,
+          "ch": 5
+        },
+        "to": {
+          "part": 1,
+          "ch": 5
+        },
+        "class": "Diviner",
+        "training": [
+          {
+            "rank": "Black Magic C",
+            "for": "Shaman exam",
+            "how": "Arena Mage Training from Ch 5; Black-Magic Manual from Shadowy Cave (Ch 5)"
+          }
+        ],
+        "tips": [
+          "Ch 4 and 5: point him at armored units",
+          "Do the Ch 5 Fabio scene in the eastern alleys; the Ch 10 scene needs it"
+        ],
+        "equipment": [
+          {
+            "item": "Magic Staff",
+            "slot": "Accessory"
+          }
+        ],
+        "items": [
+          {
+            "item": "Vulnerary",
+            "why": "20 HP x3: he fronts mages"
+          }
+        ],
+        "spells": [
+          {
+            "name": "Miasma",
+            "why": "Black D; his first damage spell"
+          },
+          {
+            "name": "Heal",
+            "why": "White D; he is the only healer until Yang Jie in Ch 4"
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Magic Basics",
+            "why": "Diviner mastery, Mag/Res +1, once mastered"
+          },
+          {
+            "name": "Black Magic Lv. 1",
+            "why": "Hit +3 with black magic (Black D+)"
+          }
+        ],
+        "goal": "Dark Calling (Ddg -5 on adjacent foes) is always on and stacks with the binds.",
+        "exit": "Renown 4, Lv 20, Black Magic C (Ch 6): Shaman exam"
+      },
+      {
+        "when": "Ch 6 to 9 (Specialty)",
+        "from": {
+          "part": 1,
+          "ch": 6
+        },
+        "to": {
+          "part": 1,
+          "ch": 9
+        },
+        "class": "Shaman",
+        "training": [
+          {
+            "rank": "Black Magic B",
+            "for": "Ovate exam (Renown 8, Lv 35)",
+            "how": "Arena Mage Training; Black-Magic Manual from Sinister Sacrifices (Ch 5 to 6, due 6/28)"
+          }
+        ],
+        "equipment": [
+          {
+            "item": "Magic Staff",
+            "slot": "Accessory"
+          }
+        ],
+        "items": [
+          {
+            "item": "Concoction",
+            "why": "40 HP x2",
+            "alts": [
+              "Vulnerary"
+            ]
+          }
+        ],
+        "arts": [
+          {
+            "name": "Lend Magic",
+            "why": "Mag/Res +2 to an ally; Authority C per community sheet. Use on a Dreadnought facing mages"
+          }
+        ],
+        "spells": [
+          {
+            "name": "Mire",
+            "why": "Black C, range 1 to 3; hit from outside counter range"
+          },
+          {
+            "name": "Miasma",
+            "why": "Cheap chip damage; Black-Magic Seeker doubles uses"
+          },
+          {
+            "name": "Heal",
+            "why": "Backup heal"
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Bind Dexterity",
+            "why": "Shaman mastery, Dex -3 on adjacent foes, once mastered"
+          },
+          {
+            "name": "Dark Secrets",
+            "why": "Personal Lv 20 ability: Extends range of Dark Calling"
+          },
+          {
+            "name": "Magic Basics",
+            "why": "Diviner mastery, Mag/Res +1"
+          },
+          {
+            "name": "Black Magic Lv. 1",
+            "why": "Hit +3 with black magic; take the higher Lv. as the rank unlocks it"
+          }
+        ],
+        "goal": "Dark Secrets (Lv 20): Dark Calling's Ddg -5 reaches past adjacent foes; stand one tile behind Dietrich and Kiroc so the foes they crit have less Ddg.",
+        "exit": "Renown 8, Lv 35, Black Magic B (Ch 10): Ovate exam"
+      },
+      {
+        "when": "Ch 10 (Advanced)",
+        "from": {
+          "part": 1,
+          "ch": 10
+        },
+        "to": {
+          "part": 1,
+          "ch": 10
+        },
+        "class": "Ovate",
+        "training": [
+          {
+            "rank": "Black Magic A",
+            "for": "Luna and Druid later",
+            "how": "Arena Mage Training; Black-Magic Manuals at Port of Pandora, Mahon, Barsk Post Town"
+          }
+        ],
+        "tips": [
+          "Magic Hit +5 in Ovate; Black-Magic Seeker doubles uses",
+          "Face enemy mages with him: Res growth 45",
+          "Banshee Θ (Hit 50, Wt 23) is a setup cast, not his attack: Immobilize the boss first; Dark Calling's Ddg -5 and Ovate Magic Hit +5 offset the low Hit"
+        ],
+        "equipment": [
+          {
+            "item": "Magic Staff",
+            "slot": "Accessory"
+          }
+        ],
+        "items": [
+          {
+            "item": "Concoction",
+            "why": "Part II stock",
+            "alts": [
+              "Vulnerary"
+            ]
+          },
+          {
+            "item": "Pure Water",
+            "why": "Res +10, -2 per turn",
+            "situational": "Ch 10 Anatolia battle (Nezha's side): open slot"
+          }
+        ],
+        "arts": [
+          {
+            "name": "Lend Magic",
+            "why": "Mag/Res +2 to an ally; Authority C per community sheet. Use on a Dreadnought facing mages"
+          }
+        ],
+        "spells": [
+          {
+            "name": "Death",
+            "why": "Black B, arrives with the Ovate exam"
+          },
+          {
+            "name": "Banshee Θ",
+            "why": "Archive θ (Iapetus Cavern, Lv 32): Immobilize a boss or runner at 1-3; not innate for him"
+          },
+          {
+            "name": "Mire",
+            "why": "Range 1 to 3 workhorse"
+          },
+          {
+            "name": "Miasma",
+            "why": "Cheap chip damage; Black-Magic Seeker doubles uses"
+          },
+          {
+            "name": "Heal",
+            "why": "Backup heal"
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Bind Speed",
+            "why": "Ovate mastery, Spd -3 adjacent, once mastered"
+          },
+          {
+            "name": "Dark Secrets+",
+            "why": "Personal Lv 35 ability: Extends range of Dark Calling to 3 spaces"
+          },
+          {
+            "name": "Bind Dexterity",
+            "why": "Dex -3 adjacent"
+          },
+          {
+            "name": "Magic Basics",
+            "why": "Diviner mastery, Mag/Res +1"
+          },
+          {
+            "name": "Black Magic Lv. 1",
+            "why": "Hit +3 with black magic; take the higher Lv. as the rank unlocks it"
+          }
+        ],
+        "goal": "Dark Secrets+ (Lv 35): Ddg -5 on every foe within 3, on top of Bind Speed: stay 2 to 3 tiles behind the crit units (Dietrich, Kiroc, Olympia) and confuse targets for Kiroc's Tyranny.",
+        "drop": [
+          {
+            "item": "Turmoil Mask",
+            "why": "Casters keep the head slot empty: Agitator 5 + mask 3 on top of a spell gets him doubled"
+          }
+        ],
+        "exit": "Anatolia's Paralogue cleared (Ch 11): swap the Magic Staff for the Electron Agitator"
+      },
+      {
+        "when": "Ch 11 to 12 (Electron Agitator)",
+        "from": {
+          "part": 1,
+          "ch": 11
+        },
+        "to": {
+          "part": 1,
+          "ch": 12
+        },
+        "class": "Ovate",
+        "training": [
+          {
+            "rank": "Black Magic A",
+            "for": "Luna and Druid later",
+            "how": "Arena Mage Training; Black-Magic Manuals at Port of Pandora, Mahon, Barsk Post Town"
+          }
+        ],
+        "tips": [
+          "Magic Hit +5 in Ovate; Black-Magic Seeker doubles uses",
+          "Face enemy mages with him: Res growth 45",
+          "Banshee Θ (Hit 50, Wt 23) is a setup cast, not his attack: Immobilize the boss first; Dark Calling's Ddg -5 and Ovate Magic Hit +5 offset the low Hit"
+        ],
+        "equipment": [
+          {
+            "item": "Electron Agitator",
+            "why": "20% confuse on magic hits: turns on Kiroc's Tyranny (Atk +3, Crit +10 vs foes with a status). Wt 5: swap to the Magic Staff (3) if he starts getting doubled",
+            "alts": [
+              "Magic Staff"
+            ],
+            "slot": "Accessory",
+            "plan": "Equip before Part I ends"
+          }
+        ],
+        "items": [
+          {
+            "item": "Concoction",
+            "why": "Part II stock",
+            "alts": [
+              "Vulnerary"
+            ]
+          }
+        ],
+        "arts": [
+          {
+            "name": "Lend Magic",
+            "why": "Mag/Res +2 to an ally; Authority C per community sheet. Use on a Dreadnought facing mages"
+          }
+        ],
+        "spells": [
+          {
+            "name": "Death",
+            "why": "Black B, arrives with the Ovate exam"
+          },
+          {
+            "name": "Banshee Θ",
+            "why": "Archive θ (Iapetus Cavern, Lv 32): Immobilize a boss or runner at 1-3; not innate for him"
+          },
+          {
+            "name": "Mire",
+            "why": "Range 1 to 3 workhorse"
+          },
+          {
+            "name": "Miasma",
+            "why": "Cheap chip damage; Black-Magic Seeker doubles uses"
+          },
+          {
+            "name": "Heal",
+            "why": "Backup heal"
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Bind Speed",
+            "why": "Ovate mastery, Spd -3 adjacent, once mastered"
+          },
+          {
+            "name": "Dark Secrets+",
+            "why": "Personal Lv 35 ability: Extends range of Dark Calling to 3 spaces"
+          },
+          {
+            "name": "Bind Dexterity",
+            "why": "Dex -3 adjacent"
+          },
+          {
+            "name": "Magic Basics",
+            "why": "Diviner mastery, Mag/Res +1"
+          },
+          {
+            "name": "Black Magic Lv. 1",
+            "why": "Hit +3 with black magic; take the higher Lv. as the rank unlocks it"
+          }
+        ],
+        "goal": "Dark Secrets+ (Lv 35): Ddg -5 on every foe within 3, on top of Bind Speed: stay 2 to 3 tiles behind the crit units (Dietrich, Kiroc, Olympia) and confuse targets for Kiroc's Tyranny.",
+        "drop": [
+          {
+            "item": "Turmoil Mask",
+            "why": "Casters keep the head slot empty: Agitator 5 + mask 3 on top of a spell gets him doubled"
+          }
+        ],
+        "exit": "Stay Ovate into Part II; back to the Magic Staff if he gets doubled"
+      },
+      {
+        "when": "Part II",
+        "from": {
+          "part": 2
+        },
+        "class": "Ovate",
+        "tips": [
+          "Equip the Electron Agitator (or Magic Staff) before leaving Part I",
+          "Ch 5 Dagda: Res much lower than Def, so he is a main damage dealer",
+          "Heavy armor shows up often from here"
+        ],
+        "equipment": [
+          {
+            "item": "Electron Agitator",
+            "why": "20% confuse on magic hits: turns on Kiroc's Tyranny (Atk +3, Crit +10 vs foes with a status). Wt 5: swap to the Magic Staff (3) if he starts getting doubled",
+            "alts": [
+              "Magic Staff"
+            ],
+            "slot": "Accessory"
+          }
+        ],
+        "items": [
+          {
+            "item": "Concoction",
+            "why": "40 HP x2",
+            "plan": "Carried from Ch 12 (no shops in Part II)"
+          }
+        ],
+        "arts": [
+          {
+            "name": "Lend Magic",
+            "why": "Mag/Res +2 to an ally; Authority C per community sheet. Use on a Dreadnought facing mages"
+          }
+        ],
+        "spells": [
+          {
+            "name": "Death",
+            "why": "Black B, arrives with the Ovate exam"
+          },
+          {
+            "name": "Banshee Θ",
+            "why": "Archive θ (Iapetus Cavern, Lv 32): Immobilize a boss or runner at 1-3; not innate for him"
+          },
+          {
+            "name": "Mire",
+            "why": "Range 1 to 3 workhorse"
+          },
+          {
+            "name": "Miasma",
+            "why": "Cheap chip damage; Black-Magic Seeker doubles uses"
+          },
+          {
+            "name": "Heal",
+            "why": "Backup heal"
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Dark Secrets+",
+            "why": "Personal Lv 35 ability: Extends range of Dark Calling to 3 spaces"
+          },
+          {
+            "name": "Bind Speed",
+            "why": "Ovate mastery, Spd -3 adjacent"
+          },
+          {
+            "name": "Bind Dexterity",
+            "why": "Dex -3 adjacent"
+          },
+          {
+            "name": "Magic Basics",
+            "why": "Diviner mastery, Mag/Res +1"
+          },
+          {
+            "name": "Black Magic Lv. 1",
+            "why": "Hit +3 with black magic; take the higher Lv. as the rank unlocks it"
+          }
+        ],
+        "goal": "Dark Secrets+ (Lv 35): Ddg -5 on every foe within 3, on top of Bind Speed: stay 2 to 3 tiles behind the crit units (Dietrich, Kiroc, Olympia) and confuse targets for Kiroc's Tyranny.",
+        "exit": "Part III: Druid",
+        "to": {
+          "part": 3,
+          "ch": 3
+        }
+      },
+      {
+        "when": "Part III Section 4+ (Druid)",
+        "from": {
+          "part": 3,
+          "ch": 4
+        },
+        "class": "Druid",
+        "training": [
+          {
+            "rank": "Black Magic A",
+            "for": "Druid (Lv 45, Master License)",
+            "how": "Arena Mage Training"
+          },
+          {
+            "rank": "Black Magic A+",
+            "for": "Black Magic Lv. 4",
+            "how": "Battle: Druid trains Black Magic +4"
+          },
+          {
+            "rank": "Black Magic S",
+            "for": "Dark Spikes",
+            "how": "Battle and Arena Mage Training"
+          }
+        ],
+        "equipment": [
+          {
+            "item": "Electron Agitator",
+            "why": "20% confuse on magic hits: turns on Kiroc's Tyranny (Crit +10)",
+            "slot": "Accessory",
+            "alts": [
+              "Magic Staff"
+            ],
+            "plan": "His Ch 11 copy; Anatolia keeps Leda's"
+          }
+        ],
+        "items": [
+          {
+            "item": "Concoction",
+            "why": "40 HP x2",
+            "alts": [
+              "Vulnerary"
+            ]
+          }
+        ],
+        "arts": [
+          {
+            "name": "Lend Magic",
+            "why": "Authority C: Mag/Res +2 on Bonaventure at Balor west or Yang Jie"
+          }
+        ],
+        "spells": [
+          {
+            "name": "Death",
+            "why": "Black B: Mt 15, Crit 20; Mahadu's Wrath doubles the Crit"
+          },
+          {
+            "name": "Luna",
+            "why": "Black A: ignores Res; bosses and armor"
+          },
+          {
+            "name": "Mire",
+            "why": "Range 1 to 3: hits from outside counter range"
+          },
+          {
+            "name": "Dark Spikes",
+            "why": "Black S: Mt 20, Effective+ vs cavalry"
+          },
+          {
+            "name": "Banshee Θ",
+            "why": "Archive θ: Immobilize a boss or runner at 1-3"
+          },
+          {
+            "name": "Miasma",
+            "why": "Light (Wt 5) chip cast when foes threaten a double"
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Dark Secrets+",
+            "why": "Personal Lv 35: Dark Calling's Ddg -5 reaches 3 tiles"
+          },
+          {
+            "name": "Bind Speed",
+            "why": "Ovate mastery: adjacent foes Spd -3, so the crit units double"
+          },
+          {
+            "name": "Bind Resistance",
+            "why": "Druid mastery: adjacent foes Res -3, once mastered (Magic Basics until then)"
+          },
+          {
+            "name": "Black Magic Lv. 4",
+            "why": "Black A+: Hit/Avo +7 with magic (Lv. 3 until then)"
+          },
+          {
+            "name": "Steady Shot",
+            "why": "Infantry D: Hit +5 with magic; Death is Hit 75 into forests"
+          }
+        ],
+        "drop": [
+          {
+            "item": "Heal",
+            "why": "Druid has no White Magic"
+          },
+          {
+            "item": "Bind Dexterity",
+            "why": "Steady Shot's Hit +5 lands Death on forest tiles"
+          },
+          {
+            "item": "Magic Basics",
+            "why": "Bind Resistance takes the slot once mastered"
+          }
+        ],
+        "goal": "Dark Secrets+: foes within 3 lose Ddg 5 for Dietrich, Kiroc and Simon; Death's Crit 20 doubles in Wrath.",
+        "exit": "Final class.",
+        "tips": [
+          "Stand 2-3 tiles behind Dietrich: Dark Secrets+ reaches 3, the binds need him adjacent",
+          "Agitator confusion turns on Kiroc's Tyranny: Atk +3, Crit +10 on that foe",
+          "Balor west (team A): Mire and Luna on the gates; Lend Magic on Bonaventure first",
+          "Boon: no strip of his own; Dietrich's Cleansing Blade +3 or Aurora Lv 3 at Balor"
+        ],
+        "why": [
+          "Druid swords and gauntlets lose to his spells: Levin Sword +3 (Mt 12+, Hit 70) trails Death (Mt 15, Crit 20), and spells take no slot"
+        ]
+      }
+    ],
+    "spells": [
+      {
+        "name": "Mire",
+        "why": "Range 1 to 3"
+      },
+      {
+        "name": "Death",
+        "why": "Black B"
+      },
+      {
+        "name": "Luna",
+        "why": "Black A"
+      },
+      {
+        "name": "Banshee Θ",
+        "why": "Archive θ: Immobilize at 1-3"
+      }
+    ],
+    "abilities": [
+      {
+        "name": "Bind Speed",
+        "why": "Spd -3 adjacent"
+      },
+      {
+        "name": "Bind Dexterity",
+        "why": "Dex -3 adjacent"
+      },
+      {
+        "name": "Magic Basics",
+        "why": "Mag/Res +1"
+      }
+    ],
+    "specials": [
+      "Only unit with innate dark magic",
+      "Dark magic scrolls (Archives) teach his spells to others; Mire and Death trade at Vandahl from about Ch 10 on this route",
+      "Avoids Bow; Authority and Black Magic are preferred"
+    ],
+    "sources": [
+      "class plan v3",
+      "character-learnsets",
+      "class-data",
+      "weapons-and-items",
+      "hard-mode video notes",
+      "Dietrich Ch 4 to 9 walkthrough",
+      "Part II walkthrough"
+    ],
+    "watch": [
+      "Caster: keep light. Wind 3 + Magic Staff 3 = 6 to Ch 9.",
+      "From Ch 10: Wind 3 + Electron Agitator 5 = 8 (Thunder 7: 12). No mask: the Turmoil Mask's 3 more points get him doubled. If he is doubled anyway, swap the Agitator for the Magic Staff first.",
+      "Weight (Part III): Death 13 + Agitator 5 = 18 over Bld ?. Doubled? Cast Miasma (5), then swap the Agitator for the Magic Staff (3) first."
+    ],
+    "decisions": [
+      {
+        "topic": "See all three Fabio scenes",
+        "pick": "Ch 5 eastern alleys, Ch 10 at 18:00 near Temple Rows, Ch 12 alley east of the markets",
+        "why": "Each scene needs the one before. The Ch 12 scene upgrades Dietrich's Answerer to Answerer Arisen (Mt 9 to 15?, Bloodletting+, repairs itself).",
+        "else": "Miss the Ch 5 scene and the chain is gone: Dietrich duels Mars with Answerer"
+      },
+      {
+        "topic": "Go Ovate, Black Magic only",
+        "pick": "Diviner (Ch 5), Shaman (Ch 6), Ovate (Ch 10)",
+        "why": "High A: Mag +20 and doubled Black Magic make him the main magic damage and the armor killer. Yang Jie, Olympia and Dante cover healing, and he has high Res for the mage side.",
+        "else": "Druid in Part III"
+      },
+      {
+        "topic": "Wear the Electron Agitator from Ch 11",
+        "pick": "Electron Agitator (Anatolia's Paralogue); no mask",
+        "why": "Its confusion turns on Kiroc's Tyranny (Atk +3, Crit +10 vs a status). Wind 3 + Agitator 5 = 8 weight (Thunder 7: 12).",
+        "else": "Back to the Magic Staff (3) if he gets doubled"
+      }
+    ],
+    "gates": [
+      {
+        "route": "Dietrich",
+        "from": {
+          "part": 1,
+          "ch": 5
+        },
+        "by": {
+          "part": 1,
+          "ch": 5
+        },
+        "kind": "item",
+        "text": "Ch 5: see his eastern-alleys scene, or lose the Ch 10 and Ch 12 scenes (Answerer Arisen)"
+      }
+    ]
+  },
+  "sources": [
+    "https://fortunesweave.co.uk/characters/fabio",
+    "https://www.keengamer.com/articles/guides/fire-emblem-fortunes-weave-tier-list-best-characters-ranked-for-every-route/",
+    "https://gameswithjames.substack.com/p/fortunes-weave-character-tierlist"
+  ],
+  "recruitOn": {
+    "Dietrich": {
+      "how": "auto"
+    },
+    "Leda": {
+      "how": "recruit",
+      "support": 3,
+      "renown": 9
+    }
+  }
+}

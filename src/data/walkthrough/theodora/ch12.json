@@ -1,0 +1,239 @@
+{
+  "route": "Theodora",
+  "ch": 12,
+  "name": "The War of Zanbar",
+  "free": {
+    "from": "10/16",
+    "to": "10/24"
+  },
+  "routine": {
+    "meals": [
+      {
+        "week": "After Diego joins (from 10/18)",
+        "tables": [
+          [
+            "Theodora",
+            "Diego",
+            "Nuzzuo"
+          ],
+          [
+            "Theodora",
+            "Diego",
+            "Lilian"
+          ],
+          [
+            "Theodora",
+            "Tobias",
+            "Bonaventure"
+          ]
+        ],
+        "note": "Diego supports Nuzzuo, Lilian and Theodora: start the pairs that keep growing in Part III."
+      }
+    ],
+    "gifts": [
+      {
+        "unit": "Diego",
+        "gift": "Tales of Adventure",
+        "alt": "Shield Portrait",
+        "until": "Support 2, recruit Ch 12"
+      }
+    ]
+  },
+  "missables": [
+    {
+      "id": "theodora-ch12-missables-paralogue-order",
+      "kind": "timing",
+      "text": "Fight Dietrich's Paralogue on 10/16 or 10/17, Orchel's from 10/18, Cai's battle on 10/22",
+      "when": "10/16 to 10/24",
+      "lose": "each Paralogue's 20,000G, 150 Renown and item; Orchel's also gates Diego",
+      "recover": "None",
+      "detail": [
+        "Ignore the listed end dates (Dietrich's 11/1, Orchel's 10/27): the chapter ends 10/24.",
+        "Quests dated after 10/24 end with Part I on 10/24 too."
+      ],
+      "task": true
+    },
+    {
+      "id": "theodora-ch12-missables-last-recruits",
+      "kind": "recruit-window",
+      "text": "Recruit Diego, and Benditz if he's still waiting, by 10/24: Part II has no recruiting",
+      "when": "by 10/24",
+      "lose": "both recruits for the rest of the route",
+      "recover": "None",
+      "detail": [
+        "Benditz short of Renown 8 in Ch 11? Recruit him on 10/16 (his row is in Ch 10)."
+      ],
+      "task": true
+    },
+    {
+      "id": "theodora-ch12-missables-cursed-hold",
+      "kind": "item",
+      "text": "Hold every cursed item when Part I ends (storage counts): Ursa's Claw and 9 chest items",
+      "when": "by 10/24",
+      "lose": "those items in Part III: the Drifting Reliquary re-sells only what you held",
+      "recover": "None: Part I chests don't refill",
+      "detail": [
+        "Turmoil Mask, Poisonbone Chain, Veroquine, Azaga's Bow, Muen, Gundogya, Velheit, Anguishing Shield, Onoa.",
+        "Part III users own them: Theodora (Muen), Orchel, Eshmel and Anatolia (their build pages)."
+      ],
+      "task": true
+    }
+  ],
+  "classes": {
+    "note": {
+      "text": "Priorities 1 to 8 still waiting: take the Advanced exam now if Lv 35 and the ranks are in",
+      "detail": [
+        "Sirocco, Loretta (Shido) and Ultand (Guardian) only at Lv 35 with the ranks; else Part II Ch 1.",
+        "Giant's-Print Fort (Spare Turns) has an Advanced License in a chest."
+      ]
+    },
+    "override": [
+      {
+        "unit": "Sirocco",
+        "text": "Short of Lv 35? Stay Shaman for the finale; Ovate once he hits Lv 35 in Part II"
+      }
+    ]
+  },
+  "gear": {
+    "assign": [
+      {
+        "item": "Healing Staff",
+        "to": "Ultand",
+        "why": "Orchel's Regret reward, if a repeat barter didn't give her one"
+      },
+      {
+        "item": "White-Magic Manual",
+        "to": "Theodora",
+        "why": "Stolen Star Observations reward: White toward A"
+      }
+    ],
+    "note": [
+      {
+        "text": "Blacksmith +2 week (Renown 10): every Ch 12 row in the Ledger's refine plan, before the finale",
+        "detail": [
+          "Rare ore: Mahadu's Spear, Longbow, Levin Sword and Hammer to +2.",
+          "Da Mina (ores ?): every +1 to +2; buy Ninae's and Ultand's Spears, refine Noctula's Gauntlets and Diego's Sword.",
+          "Smithing Stone: Simon's Iron Sword, Nydine's Iron Spear. Part II carries only what units hold."
+        ],
+        "conf": "?"
+      }
+    ]
+  },
+  "recruits": [
+    {
+      "unit": "Diego",
+      "action": "Recruit him right after Orchel's Paralogue: storage until Part III",
+      "when": "From 10/18",
+      "detail": [
+        "No Part I or II build: he waits for Part III."
+      ],
+      "callout": {
+        "type": "timing-trap",
+        "text": "He also needs Renown 8. Still short on 10/16?",
+        "bullets": [
+          "Hand in every open Send Supplies quest and run Dietrich's Paralogue before Orchel's.",
+          "Not there by 10/24: he can't join this route's army."
+        ]
+      }
+    }
+  ],
+  "quests": {
+    "route": [],
+    "sub": [
+      {
+        "quest": "cant-stay-home",
+        "note": "Only if Turns remain"
+      },
+      {
+        "quest": "the-hunter-for-giscos-treasure",
+        "note": "Only if Turns remain"
+      },
+      {
+        "quest": "gold-coin-chase",
+        "offered": "if-offered"
+      },
+      {
+        "quest": "stolen-star-observations",
+        "offered": "if-offered"
+      },
+      {
+        "quest": "the-divine-sovereigns-secret",
+        "offered": "if-offered"
+      }
+    ],
+    "paralogue": [
+      {
+        "quest": "sealed-off-past",
+        "note": "Do it first, on 10/16 or 10/17: put one or two archers east for the Pegasus Knights",
+        "detail": [
+          "A 10-turn defense. Lilian's Da Mina Bow (Effective+ vs fliers) covers the east."
+        ]
+      },
+      {
+        "quest": "orchels-regret",
+        "note": "Split into two teams to hit both switches on the same turn; Pegasus come from the east"
+      },
+      {
+        "quest": "the-great-escape",
+        "note": "The battle is on 10/22: rush Centurio"
+      }
+    ]
+  },
+  "explore": [
+    {
+      "group": "Battalions",
+      "conf": "community",
+      "text": "Before 10/24: unassign battalions from anyone you skip in Part III",
+      "detail": [
+        "An assigned squad stays on that unit's Clear Data; else buy it back at the Drifting Reliquary.",
+        "Sirocco takes [[battalion:Shadow Mages]] at Authority B.",
+        "Part II use is undocumented ?; Part III keeps them in storage (medium confidence)."
+      ]
+    },
+    {
+      "group": "Spare Turns",
+      "id": "theodora-ch12-explore-giants-print-fort",
+      "loot": true,
+      "text": "[[place:Giant's-Print Fort]] (Lv 35, Ogmios): Advanced License, [[item:Onoa]] (spear), Elixir",
+      "detail": [
+        "Run it with your support pairs.",
+        "Onoa is cursed (Curse 1): hold it to the end of Part I (Drifting Reliquary).",
+        "Part III: Eshmel's spear (his build page)."
+      ]
+    },
+    {
+      "group": "Spare Turns",
+      "text": "Spend any Turns still left on Inn Auto-Activities"
+    }
+  ],
+  "battle": {
+    "title": "The Battle of Fort Zanbar",
+    "objective": "Boss: Dyan",
+    "lose": "Theodora falls",
+    "tips": [
+      {
+        "text": "One spiral route climbs to the boss: dismount cavalry before the stairs, they move farther on foot"
+      },
+      {
+        "text": "Use the long-range artillery"
+      },
+      {
+        "text": "Anatolia and Sha Lan arrive mid-battle if you loaned the ship in Ch 10"
+      },
+      {
+        "text": "Pack Theodora's [[item:Dew of Protection]] for the Dyan turn",
+        "detail": [
+          "The Dew takes the Short Spear's slot for that turn, then put the Short Spear back."
+        ]
+      }
+    ],
+    "callout": {
+      "type": "special-map",
+      "text": "Two reinforcement waves hit from behind on the first stair climb; many are fliers",
+      "bullets": [
+        "Swap Lilian in for Bonaventure: her bows and Sirocco's magic face the rear.",
+        "Alexandra and Lysander stay out of their range."
+      ]
+    }
+  }
+}

@@ -1,0 +1,1468 @@
+{
+  "source": "https://fortunesweave.co.uk/wiki/mounts",
+  "families": {
+    "Ornius": {
+      "food": "Fish",
+      "classes": "Ornius Rider, Armored Ornius Rider, Caladrius"
+    },
+    "Horse": {
+      "food": "Vegetable",
+      "classes": "Bardinger, Charioteer, Forest Knight, Troubadour, Light Cavalry, Cataphract, Orichaldia, High Savant, Great Knight, Bow Knight, Valkyrium, The Cavalier (Game8)"
+    },
+    "Pegasus": {
+      "food": "Vegetable",
+      "classes": "Wing Soldier, Celestial Trooper"
+    },
+    "Bau": {
+      "food": "Meat",
+      "classes": "Dragoon, Bau Lord (Game8)"
+    },
+    "Elephant": {
+      "food": "Vegetable",
+      "classes": "Elephant Rider (Game8)"
+    }
+  },
+  "breeds": [
+    {
+      "name": "Wild Ornius",
+      "slug": "wild-ornius",
+      "family": "Ornius",
+      "rare": false,
+      "abilities": [
+        "Paired Run",
+        "Paired Stealth"
+      ],
+      "bonus": [
+        {
+          "stat": "Spd",
+          "flat": 2,
+          "growth": 10
+        },
+        {
+          "stat": "Dex",
+          "flat": 3,
+          "growth": 15
+        }
+      ],
+      "food": "Fish",
+      "taste": "Sweet",
+      "spawns": [
+        {
+          "place": "Elissa Pass",
+          "rare": false
+        },
+        {
+          "place": "Sparrow's Thoroughfare",
+          "rare": false
+        },
+        {
+          "place": "Mount Ouranos",
+          "rare": false
+        },
+        {
+          "place": "Faro Forest",
+          "rare": false
+        }
+      ],
+      "part": "I",
+      "note": null,
+      "unique": null
+    },
+    {
+      "name": "White Ornius",
+      "slug": "white-ornius",
+      "family": "Ornius",
+      "rare": true,
+      "abilities": [
+        "Paired Purify"
+      ],
+      "bonus": [
+        {
+          "stat": "Spd",
+          "flat": 1,
+          "growth": 5
+        },
+        {
+          "stat": "Dex",
+          "flat": 1,
+          "growth": 5
+        },
+        {
+          "stat": "Res",
+          "flat": 3,
+          "growth": 15
+        }
+      ],
+      "food": "Fish",
+      "taste": "Sweet",
+      "spawns": [
+        {
+          "place": "Faro Forest",
+          "rare": true
+        }
+      ],
+      "part": "I",
+      "note": null,
+      "unique": null
+    },
+    {
+      "name": "Meganius",
+      "slug": "meganius",
+      "family": "Ornius",
+      "rare": false,
+      "abilities": [
+        "Paired Run",
+        "Paired Bulk"
+      ],
+      "bonus": [
+        {
+          "stat": "Str",
+          "flat": 1,
+          "growth": 5
+        },
+        {
+          "stat": "Def",
+          "flat": 3,
+          "growth": 15
+        },
+        {
+          "stat": "Dex",
+          "flat": 1,
+          "growth": 5
+        }
+      ],
+      "food": "Fish",
+      "taste": "Spicy",
+      "spawns": [
+        {
+          "place": "Axion Gorge",
+          "rare": false
+        },
+        {
+          "place": "Sparrow's Thoroughfare",
+          "rare": true
+        },
+        {
+          "place": "Mount Ouranos",
+          "rare": true
+        }
+      ],
+      "part": "I",
+      "note": null,
+      "unique": null
+    },
+    {
+      "name": "Red Meganius",
+      "slug": "red-meganius",
+      "family": "Ornius",
+      "rare": true,
+      "abilities": [
+        "Paired Run",
+        "Paired Protection"
+      ],
+      "bonus": [
+        {
+          "stat": "Str",
+          "flat": 3,
+          "growth": 15
+        },
+        {
+          "stat": "Def",
+          "flat": 1,
+          "growth": 5
+        },
+        {
+          "stat": "Dex",
+          "flat": 1,
+          "growth": 5
+        }
+      ],
+      "food": "Fish",
+      "taste": "Spicy",
+      "spawns": [
+        {
+          "place": "Axion Gorge",
+          "rare": true
+        }
+      ],
+      "part": "I",
+      "note": null,
+      "unique": null
+    },
+    {
+      "name": "Magonius",
+      "slug": "magonius",
+      "family": "Ornius",
+      "rare": false,
+      "abilities": [
+        "Paired Run",
+        "Paired Magic-Focus"
+      ],
+      "bonus": [
+        {
+          "stat": "Mag",
+          "flat": 3,
+          "growth": 15
+        },
+        {
+          "stat": "Dex",
+          "flat": 2,
+          "growth": 10
+        }
+      ],
+      "food": "Fish",
+      "taste": "Bitter",
+      "spawns": [
+        {
+          "place": "Headsman's Rock",
+          "rare": false
+        }
+      ],
+      "part": "I",
+      "note": "Headsman's Rock is east of Saramis and needs Renown 7 (one player report).",
+      "unique": null
+    },
+    {
+      "name": "Black Magonius",
+      "slug": "black-magonius",
+      "family": "Ornius",
+      "rare": true,
+      "abilities": [
+        "Paired Magic-Sight",
+        "Canto"
+      ],
+      "bonus": [
+        {
+          "stat": "Mag",
+          "flat": 2,
+          "growth": 10
+        },
+        {
+          "stat": "Spd",
+          "flat": 2,
+          "growth": 10
+        },
+        {
+          "stat": "Dex",
+          "flat": 1,
+          "growth": 5
+        }
+      ],
+      "food": "Fish",
+      "taste": "Bitter",
+      "spawns": [
+        {
+          "place": "Headsman's Rock",
+          "rare": true
+        }
+      ],
+      "part": "I",
+      "note": null,
+      "unique": null
+    },
+    {
+      "name": "Wild Horse",
+      "slug": "wild-horse",
+      "family": "Horse",
+      "rare": false,
+      "abilities": [
+        "Paired Run",
+        "Paired Alertness"
+      ],
+      "bonus": [
+        {
+          "stat": "Dex",
+          "flat": 3,
+          "growth": 5
+        },
+        {
+          "stat": "Spd",
+          "flat": 1,
+          "growth": 5
+        },
+        {
+          "stat": "Def",
+          "flat": 1,
+          "growth": 5
+        },
+        {
+          "stat": "HP",
+          "flat": 0,
+          "growth": 5
+        },
+        {
+          "stat": "Res",
+          "flat": 0,
+          "growth": 5
+        }
+      ],
+      "food": "Vegetable",
+      "taste": "Sweet",
+      "spawns": [
+        {
+          "place": "Sunlit Pass",
+          "rare": false
+        },
+        {
+          "place": "Oleance Plains",
+          "rare": false
+        },
+        {
+          "place": "Sunfall Path",
+          "rare": false
+        },
+        {
+          "place": "Daimos Plateau",
+          "rare": false
+        }
+      ],
+      "part": "I",
+      "note": null,
+      "unique": null
+    },
+    {
+      "name": "Monoceros",
+      "slug": "monoceros",
+      "family": "Horse",
+      "rare": true,
+      "abilities": [
+        "Paired Healing",
+        "Paired Miracle"
+      ],
+      "bonus": [
+        {
+          "stat": "Lck",
+          "flat": 3,
+          "growth": 0
+        },
+        {
+          "stat": "Spd",
+          "flat": 1,
+          "growth": 5
+        },
+        {
+          "stat": "Dex",
+          "flat": 1,
+          "growth": 5
+        },
+        {
+          "stat": "HP",
+          "flat": 0,
+          "growth": 5
+        },
+        {
+          "stat": "Res",
+          "flat": 0,
+          "growth": 10
+        }
+      ],
+      "food": "Vegetable",
+      "taste": "Rare",
+      "spawns": [
+        {
+          "place": "Oleance Plains",
+          "rare": true
+        }
+      ],
+      "part": "I",
+      "note": null,
+      "unique": null
+    },
+    {
+      "name": "Ferghanan Horse",
+      "slug": "ferghanan-horse",
+      "family": "Horse",
+      "rare": true,
+      "abilities": [
+        "Paired Arts-Focus",
+        "Canto",
+        "Paired Fierce-Arts"
+      ],
+      "bonus": [
+        {
+          "stat": "Str",
+          "flat": 2,
+          "growth": 5
+        },
+        {
+          "stat": "Def",
+          "flat": 2,
+          "growth": 10
+        },
+        {
+          "stat": "Dex",
+          "flat": 1,
+          "growth": 5
+        },
+        {
+          "stat": "HP",
+          "flat": 0,
+          "growth": 5
+        }
+      ],
+      "food": "Vegetable",
+      "taste": "Spicy",
+      "spawns": [
+        {
+          "place": "Sunfall Path",
+          "rare": true
+        }
+      ],
+      "part": "I",
+      "note": null,
+      "unique": null
+    },
+    {
+      "name": "Rocinan",
+      "slug": "rocinan",
+      "family": "Horse",
+      "rare": false,
+      "abilities": [
+        "Paired Run"
+      ],
+      "bonus": [
+        {
+          "stat": "Dex",
+          "flat": 3,
+          "growth": 5
+        },
+        {
+          "stat": "Def",
+          "flat": 2,
+          "growth": 10
+        },
+        {
+          "stat": "Spd",
+          "flat": 1,
+          "growth": 5
+        },
+        {
+          "stat": "HP",
+          "flat": 0,
+          "growth": 5
+        },
+        {
+          "stat": "Res",
+          "flat": 0,
+          "growth": 5
+        }
+      ],
+      "food": "Vegetable",
+      "taste": "Sweet",
+      "spawns": [],
+      "part": "I",
+      "note": null,
+      "unique": "Io"
+    },
+    {
+      "name": "Black Horse",
+      "slug": "black-horse",
+      "family": "Horse",
+      "rare": true,
+      "abilities": [
+        "Canto",
+        "Paired Run"
+      ],
+      "bonus": [
+        {
+          "stat": "Spd",
+          "flat": 3,
+          "growth": 10
+        },
+        {
+          "stat": "Str",
+          "flat": 1,
+          "growth": 5
+        },
+        {
+          "stat": "Dex",
+          "flat": 1,
+          "growth": 5
+        },
+        {
+          "stat": "HP",
+          "flat": 0,
+          "growth": 5
+        }
+      ],
+      "food": "Vegetable",
+      "taste": "Bitter",
+      "spawns": [
+        {
+          "place": "Daimos Plateau",
+          "rare": true
+        }
+      ],
+      "part": "III",
+      "note": null,
+      "unique": null
+    },
+    {
+      "name": "Wild Pegasus",
+      "slug": "wild-pegasus",
+      "family": "Pegasus",
+      "rare": false,
+      "abilities": [
+        "Paired Streak",
+        "Paired Mage-Kill"
+      ],
+      "bonus": [
+        {
+          "stat": "Spd",
+          "flat": 3,
+          "growth": 15
+        },
+        {
+          "stat": "Res",
+          "flat": 2,
+          "growth": 10
+        }
+      ],
+      "food": "Vegetable",
+      "taste": "Sweet",
+      "spawns": [
+        {
+          "place": "Valley of Black Wings",
+          "rare": false
+        },
+        {
+          "place": "Raptor's Throat",
+          "rare": false
+        },
+        {
+          "place": "Pegasi's Peak",
+          "rare": false
+        }
+      ],
+      "part": "I",
+      "note": null,
+      "unique": null
+    },
+    {
+      "name": "Falicorn",
+      "slug": "falicorn",
+      "family": "Pegasus",
+      "rare": true,
+      "abilities": [
+        "Paired Streak",
+        "Paired Tempest",
+        "Canto"
+      ],
+      "bonus": [
+        {
+          "stat": "Spd",
+          "flat": 3,
+          "growth": 15
+        },
+        {
+          "stat": "Str",
+          "flat": 1,
+          "growth": 5
+        },
+        {
+          "stat": "Dex",
+          "flat": 1,
+          "growth": 5
+        }
+      ],
+      "food": "Vegetable",
+      "taste": "Rare",
+      "spawns": [
+        {
+          "place": "Raptor's Throat",
+          "rare": true
+        },
+        {
+          "place": "Pegasi's Peak",
+          "rare": true
+        }
+      ],
+      "part": "I",
+      "note": null,
+      "unique": null
+    },
+    {
+      "name": "Dark Pegasus",
+      "slug": "dark-pegasus",
+      "family": "Pegasus",
+      "rare": true,
+      "abilities": [
+        "Paired Streak",
+        "Paired Magic Speed"
+      ],
+      "bonus": [
+        {
+          "stat": "Mag",
+          "flat": 3,
+          "growth": 15
+        },
+        {
+          "stat": "Spd",
+          "flat": 2,
+          "growth": 10
+        }
+      ],
+      "food": "Vegetable",
+      "taste": "Bitter or spicy",
+      "spawns": [
+        {
+          "place": "Valley of Black Wings",
+          "rare": true
+        }
+      ],
+      "part": "I",
+      "note": "Sources disagree on its taste.",
+      "unique": null
+    },
+    {
+      "name": "Bucephalus",
+      "slug": "bucephalus",
+      "family": "Pegasus",
+      "rare": false,
+      "abilities": [
+        "Paired Streak"
+      ],
+      "bonus": [
+        {
+          "stat": "Spd",
+          "flat": 3,
+          "growth": 15
+        },
+        {
+          "stat": "Res",
+          "flat": 2,
+          "growth": 10
+        },
+        {
+          "stat": "Str",
+          "flat": 1,
+          "growth": 5
+        }
+      ],
+      "food": "Vegetable",
+      "taste": "Sweet",
+      "spawns": [],
+      "part": "I",
+      "note": null,
+      "unique": "Alexandra"
+    },
+    {
+      "name": "Red Falicorn",
+      "slug": "red-falicorn",
+      "family": "Pegasus",
+      "rare": true,
+      "abilities": [
+        "Paired Streak"
+      ],
+      "bonus": [
+        {
+          "stat": "Str",
+          "flat": 2,
+          "growth": 10
+        },
+        {
+          "stat": "Spd",
+          "flat": 2,
+          "growth": 10
+        },
+        {
+          "stat": "Dex",
+          "flat": 1,
+          "growth": 5
+        }
+      ],
+      "food": "Vegetable",
+      "taste": "Spicy",
+      "spawns": [],
+      "part": "III",
+      "note": "Rare at a Part III beach with no English name yet.",
+      "unique": null
+    },
+    {
+      "name": "Wild Bau",
+      "slug": "wild-bau",
+      "family": "Bau",
+      "rare": false,
+      "abilities": [
+        "Paired Streak",
+        "Paired Fierce-Arts"
+      ],
+      "bonus": [
+        {
+          "stat": "Str",
+          "flat": 2,
+          "growth": 10
+        },
+        {
+          "stat": "Dex",
+          "flat": 2,
+          "growth": 10
+        },
+        {
+          "stat": "Spd",
+          "flat": 1,
+          "growth": 5
+        }
+      ],
+      "food": "Meat",
+      "taste": "Sweet",
+      "spawns": [
+        {
+          "place": "Bau-Caller's Cape",
+          "rare": false
+        },
+        {
+          "place": "Warrior's Road",
+          "rare": false
+        },
+        {
+          "place": "Valley of Sedden",
+          "rare": false
+        },
+        {
+          "place": "Velatori Valley",
+          "rare": false
+        },
+        {
+          "place": "Yashiro Fort",
+          "rare": false
+        }
+      ],
+      "part": "I",
+      "note": "Only Bau-Caller's Cape is reachable on Cai's Part I route.",
+      "unique": null
+    },
+    {
+      "name": "Red Bau",
+      "slug": "red-bau",
+      "family": "Bau",
+      "rare": true,
+      "abilities": [
+        "Paired Arts-Focus",
+        "Paired Streak"
+      ],
+      "bonus": [
+        {
+          "stat": "Str",
+          "flat": 3,
+          "growth": 15
+        },
+        {
+          "stat": "Dex",
+          "flat": 2,
+          "growth": 10
+        }
+      ],
+      "food": "Meat",
+      "taste": "Spicy",
+      "spawns": [
+        {
+          "place": "Yashiro Fort",
+          "rare": true
+        }
+      ],
+      "part": "III",
+      "note": null,
+      "unique": null
+    },
+    {
+      "name": "Black Bau",
+      "slug": "black-bau",
+      "family": "Bau",
+      "rare": true,
+      "abilities": [
+        "Paired Resilience",
+        "Canto"
+      ],
+      "bonus": [
+        {
+          "stat": "Spd",
+          "flat": 3,
+          "growth": 15
+        },
+        {
+          "stat": "Str",
+          "flat": 2,
+          "growth": 10
+        }
+      ],
+      "food": "Meat",
+      "taste": "Bitter",
+      "spawns": [
+        {
+          "place": "Warrior's Road",
+          "rare": true
+        },
+        {
+          "place": "Valley of Sedden",
+          "rare": true
+        }
+      ],
+      "part": "III",
+      "note": "Abilities from Game8 (Paired Resilience: halves effective damage; Canto); fortunesweave.co.uk lists one ability, Paired Fortitude, probably the same one under another name.",
+      "unique": null
+    },
+    {
+      "name": "Saramis War Elephant",
+      "slug": "saramis-war-elephant",
+      "family": "Elephant",
+      "rare": false,
+      "abilities": [
+        "Paired Dash"
+      ],
+      "bonus": [
+        {
+          "stat": "Str",
+          "flat": 5,
+          "growth": 5
+        },
+        {
+          "stat": "Dex",
+          "flat": 5,
+          "growth": 5
+        },
+        {
+          "stat": "Def",
+          "flat": 5,
+          "growth": 5
+        },
+        {
+          "stat": "Lck",
+          "flat": 5,
+          "growth": 5
+        },
+        {
+          "stat": "HP",
+          "flat": 0,
+          "growth": 5
+        }
+      ],
+      "food": "Vegetable",
+      "taste": "Rare",
+      "spawns": [],
+      "part": "III",
+      "note": "Only elephant: 2 from The Elephant Rider's Bond (Part III, 2 Hakuren); can't be lured. Bond 5 values from Game8; an older Japanese source gave +10% growths and Paired Great Movement.",
+      "unique": null
+    }
+  ],
+  "recs": {
+    "Cai": [
+      {
+        "unit": "Cai",
+        "cls": "Ornius Rider, Armored Ornius Rider",
+        "mount": "Wild Ornius",
+        "when": "Ch 5",
+        "where": "Elissa Pass",
+        "why": "Mov and Dex growth from day one. Catch two more for Request to Capture Orniuses.",
+        "alt": null,
+        "roll": "Paired Run"
+      },
+      {
+        "unit": "Cai",
+        "cls": "Caladrius",
+        "mount": "Black Magonius",
+        "when": "Renown 7?",
+        "where": "Headsman's Rock",
+        "why": "Mag, Spd and Canto: cast, then pull back.",
+        "alt": "Magonius (Mag +3)",
+        "roll": "Canto"
+      },
+      {
+        "unit": "Cai",
+        "cls": "Bardinger (Part II), The Cavalier",
+        "mount": "Ferghanan Horse",
+        "when": "Before Ch 12 ends",
+        "where": "Sunfall Path",
+        "why": "Str, Def and Canto for physical horse classes.",
+        "alt": null,
+        "roll": "Canto"
+      },
+      {
+        "unit": "Seteth",
+        "cls": "Armored Ornius Rider",
+        "mount": "Meganius",
+        "when": "Ch 6 or 7",
+        "where": "Axion Gorge",
+        "why": "Def +3 for the wall.",
+        "alt": "Red Meganius for Str",
+        "roll": "Paired Run"
+      },
+      {
+        "unit": "Seteth",
+        "cls": "Dragoon",
+        "mount": "Wild Bau",
+        "when": "Ch 12",
+        "where": "Bau-Caller's Cape",
+        "why": "Str, Dex and Mov. The only Bau in Part I.",
+        "alt": "Red Bau in Part III",
+        "roll": "Paired Streak"
+      },
+      {
+        "unit": "Nydine",
+        "cls": "Armored Ornius Rider (Part II)",
+        "mount": "Red Meganius",
+        "when": "Ch 7 Saveilon trip",
+        "where": "Axion Gorge",
+        "why": "Str +3 for her axe.",
+        "alt": null,
+        "roll": "Paired Run"
+      },
+      {
+        "unit": "Nydine",
+        "cls": "Dragoon (Part II)",
+        "mount": "Wild Bau",
+        "when": "Ch 12",
+        "where": "Bau-Caller's Cape",
+        "why": "Same as Seteth's. Bond it before Part II.",
+        "alt": "Red Bau in Part III",
+        "roll": "Paired Streak"
+      },
+      {
+        "unit": "Peter",
+        "cls": "Charioteer",
+        "mount": "Ferghanan Horse",
+        "when": "As soon as Sunfall Path opens",
+        "where": "Sunfall Path",
+        "why": "Shoot, then step back out of reach.",
+        "alt": null,
+        "roll": "Canto"
+      },
+      {
+        "unit": "Mikaela",
+        "cls": "Forest Knight (Part II)",
+        "mount": "Ferghanan Horse",
+        "when": "Same trip as Peter's",
+        "where": "Sunfall Path",
+        "why": "Atk +4 on combat arts for Forest Knight.",
+        "alt": null,
+        "roll": "Paired Fierce-Arts"
+      },
+      {
+        "unit": "Fianna",
+        "cls": "Troubadour (Part II)",
+        "mount": "Monoceros",
+        "when": "As soon as Oleance Plains opens",
+        "where": "Oleance Plains",
+        "why": "Lck and Res for a healer.",
+        "alt": null,
+        "roll": "Paired Miracle"
+      },
+      {
+        "unit": "Tialla",
+        "cls": "Troubadour (Part II stint)",
+        "mount": "Monoceros",
+        "when": "Same trip as Fianna's",
+        "where": "Oleance Plains",
+        "why": "Two-chapter stint; Paired Healing is fine too.",
+        "alt": "Wild Horse",
+        "roll": "Paired Miracle"
+      }
+    ],
+    "Theodora": [
+      {
+        "unit": "Cai",
+        "cls": "Orichaldia, The Cavalier",
+        "mount": "Black Horse",
+        "when": "Section 4, after Baozi",
+        "where": "Daimos Plateau",
+        "why": "Spd +3, Spd +10% and Canto on Mov 9. His bonded Ferghanan Horse carries him until then.",
+        "alt": "Ferghanan Horse (Canto)",
+        "roll": "Canto"
+      },
+      {
+        "unit": "Alexandra",
+        "cls": "Celestial Trooper",
+        "mount": "Falicorn",
+        "when": "Section 2, B's east trip",
+        "where": "Raptor's Throat",
+        "why": "Canto: strike, then fly back behind the line. Bucephalus stays on until the Falicorn reaches bond 3.",
+        "alt": "Bucephalus (her own)",
+        "roll": "Canto"
+      },
+      {
+        "unit": "Lysander",
+        "cls": "Bau Lord",
+        "mount": "Red Bau",
+        "when": "Section 4 Free Time",
+        "where": "Yashiro Fort",
+        "why": "Str +3, Str +15%, Dex +2 and Hit +15 on arts for the spear striker.",
+        "alt": "Wild Bau",
+        "roll": "Paired Arts-Focus"
+      },
+      {
+        "unit": "Seteth",
+        "cls": "Bau Lord",
+        "mount": "Black Bau",
+        "when": "Section 4, after Baozi",
+        "where": "Warrior's Road",
+        "why": "Paired Resilience halves effective damage: bows stop deleting the flier tank. Spd +3, Spd +15%. Wild Bau until bond 3.",
+        "alt": "Wild Bau",
+        "roll": "Paired Resilience"
+      },
+      {
+        "unit": "Gaitz",
+        "cls": "Elephant Rider",
+        "mount": "Saramis War Elephant",
+        "when": "Section 4, at the Elephant Rider exam",
+        "where": "The Elephant Rider's Bond (Dagsion)",
+        "why": "Str/Dex/Def/Lck +5 at bond 5 and Paired Dash (Mov +1/+2) on the 2×2 wall. Only elephant breed.",
+        "alt": "None (no other elephant)",
+        "roll": "Paired Dash"
+      },
+      {
+        "unit": "Ultand",
+        "cls": "Elephant Rider",
+        "mount": "Saramis War Elephant",
+        "when": "Section 5, only if Section 4's test passed",
+        "where": "The Elephant Rider's Bond (Dagsion)",
+        "why": "The second quest elephant: Def +5 on Prt 17, Paired Dash. Stays in the Stable if she goes Druid.",
+        "alt": "None (stays Druid)",
+        "roll": "Paired Dash"
+      },
+      {
+        "unit": "Hong Hua",
+        "cls": "Valkyrium",
+        "mount": "Monoceros",
+        "when": "Section 4, at the Valkyrium exam",
+        "where": "Oleance Plains",
+        "why": "Paired Miracle (Lck +5) raises magic Hit and Crit. Fianna's catch from Cai's route.",
+        "alt": "Ferghanan Horse (Canto)",
+        "roll": "Paired Miracle"
+      }
+    ]
+  },
+  "tips": [
+    "Lure with the family's food: fish for Ornius, vegetables for Horse and Pegasus, meat for Bau. The wrong food starts a battle.",
+    "Each catch rolls its breed (rare about 30%?), its paired ability and its color.",
+    "Hard save on the tile before luring. Wrong roll: System > Return to Title, load, walk to another node and back, then lure again.",
+    "Roll for Mov (Paired Run, Paired Streak) or Canto. Skip Paired Alertness.",
+    "Feed once a day; the favourite taste raises bond fastest. Kills while riding count too.",
+    "Bond 3 and bond 5 upgrade the paired ability. Bond 5 gives the full stat bonus.",
+    "Release spare catches for items; higher bond gives more.",
+    "Part III: with Cai's route imported the Stable serves every army. Inventory > Assign gives a mount to any unit in a matching class; luring still needs Cai in the squad.",
+    "Part III breeds: Black Horse at Daimos Plateau, Red Bau at Yashiro Fort, Black Bau at Warrior's Road and Valley of Sedden."
+  ],
+  "foods": [
+    {
+      "slug": "angelica",
+      "name": "Angelica",
+      "food": "Vegetable",
+      "taste": "Sweet"
+    },
+    {
+      "slug": "bakul",
+      "name": "Bakul",
+      "food": "Vegetable",
+      "taste": "Sweet"
+    },
+    {
+      "slug": "bear-meat",
+      "name": "Bear Meat",
+      "food": "Meat",
+      "taste": "Sweet"
+    },
+    {
+      "slug": "blue-ginji",
+      "name": "Blue Ginji",
+      "food": "Vegetable",
+      "taste": "Sweet"
+    },
+    {
+      "slug": "cadam",
+      "name": "Cadam",
+      "food": "Vegetable",
+      "taste": "Sweet"
+    },
+    {
+      "slug": "caltrop-flower",
+      "name": "Caltrop Flower",
+      "food": "Vegetable",
+      "taste": "Sweet"
+    },
+    {
+      "slug": "coffee-berries",
+      "name": "Coffee Berries",
+      "food": "Vegetable",
+      "taste": "Sweet"
+    },
+    {
+      "slug": "dates",
+      "name": "Dates",
+      "food": "Vegetable",
+      "taste": "Sweet"
+    },
+    {
+      "slug": "desert-millet",
+      "name": "Desert Millet",
+      "food": "Vegetable",
+      "taste": "Sweet"
+    },
+    {
+      "slug": "ginji",
+      "name": "Ginji",
+      "food": "Vegetable",
+      "taste": "Sweet"
+    },
+    {
+      "slug": "jin-ba-jiao",
+      "name": "Jin Ba Jiao",
+      "food": "Vegetable",
+      "taste": "Sweet"
+    },
+    {
+      "slug": "lightstar",
+      "name": "Lightstar",
+      "food": "Vegetable",
+      "taste": "Sweet"
+    },
+    {
+      "slug": "ninokka",
+      "name": "Ninokka",
+      "food": "Vegetable",
+      "taste": "Sweet"
+    },
+    {
+      "slug": "sand-boar-meat",
+      "name": "Sand-Boar Meat",
+      "food": "Meat",
+      "taste": "Sweet"
+    },
+    {
+      "slug": "sea-beast-meat",
+      "name": "Sea-Beast Meat",
+      "food": "Meat",
+      "taste": "Sweet"
+    },
+    {
+      "slug": "shem-yam",
+      "name": "Shem Yam",
+      "food": "Vegetable",
+      "taste": "Sweet"
+    },
+    {
+      "slug": "yaanthemum",
+      "name": "Yaanthemum",
+      "food": "Vegetable",
+      "taste": "Sweet"
+    },
+    {
+      "slug": "crestor",
+      "name": "Crestor",
+      "food": "Vegetable",
+      "taste": "Spicy"
+    },
+    {
+      "slug": "glirmosa",
+      "name": "Glirmosa",
+      "food": "Vegetable",
+      "taste": "Spicy"
+    },
+    {
+      "slug": "kusarik-meat",
+      "name": "Kusarik Meat",
+      "food": "Meat",
+      "taste": "Spicy"
+    },
+    {
+      "slug": "lir-fish",
+      "name": "Lir Fish",
+      "food": "Fish",
+      "taste": "Spicy"
+    },
+    {
+      "slug": "melara",
+      "name": "Melara",
+      "food": "Vegetable",
+      "taste": "Spicy"
+    },
+    {
+      "slug": "pepper-leaves",
+      "name": "Pepper Leaves",
+      "food": "Vegetable",
+      "taste": "Spicy"
+    },
+    {
+      "slug": "red-kimbai",
+      "name": "Red Kimbai",
+      "food": "Vegetable",
+      "taste": "Spicy"
+    },
+    {
+      "slug": "redflicker",
+      "name": "Redflicker",
+      "food": "Vegetable",
+      "taste": "Spicy"
+    },
+    {
+      "slug": "roca",
+      "name": "Roca",
+      "food": "Vegetable",
+      "taste": "Spicy"
+    },
+    {
+      "slug": "rukh-meat",
+      "name": "Rukh Meat",
+      "food": "Meat",
+      "taste": "Spicy"
+    },
+    {
+      "slug": "thry-fruit",
+      "name": "Thry Fruit",
+      "food": "Vegetable",
+      "taste": "Spicy"
+    },
+    {
+      "slug": "torment-grass",
+      "name": "Torment Grass",
+      "food": "Vegetable",
+      "taste": "Spicy"
+    },
+    {
+      "slug": "wolf-meat",
+      "name": "Wolf Meat",
+      "food": "Meat",
+      "taste": "Spicy"
+    },
+    {
+      "slug": "enrietto",
+      "name": "Enrietto",
+      "food": "Vegetable",
+      "taste": "Bitter"
+    },
+    {
+      "slug": "flying-lizard-meat",
+      "name": "Flying-Lizard Meat",
+      "food": "Meat",
+      "taste": "Bitter"
+    },
+    {
+      "slug": "fyujo",
+      "name": "Fyujo",
+      "food": "Vegetable",
+      "taste": "Bitter"
+    },
+    {
+      "slug": "hakseng",
+      "name": "Hakseng",
+      "food": "Vegetable",
+      "taste": "Bitter"
+    },
+    {
+      "slug": "jyoppa",
+      "name": "Jyoppa",
+      "food": "Vegetable",
+      "taste": "Bitter"
+    },
+    {
+      "slug": "linaria",
+      "name": "Linaria",
+      "food": "Vegetable",
+      "taste": "Bitter"
+    },
+    {
+      "slug": "noa-fruit",
+      "name": "Noa Fruit",
+      "food": "Vegetable",
+      "taste": "Bitter"
+    },
+    {
+      "slug": "obroma",
+      "name": "Obroma",
+      "food": "Vegetable",
+      "taste": "Bitter"
+    },
+    {
+      "slug": "oliva",
+      "name": "Oliva",
+      "food": "Vegetable",
+      "taste": "Bitter"
+    },
+    {
+      "slug": "queen-loach",
+      "name": "Queen Loach",
+      "food": "Fish",
+      "taste": "Bitter"
+    },
+    {
+      "slug": "tea-tree",
+      "name": "Tea Tree",
+      "food": "Vegetable",
+      "taste": "Bitter"
+    },
+    {
+      "slug": "wun-fruit",
+      "name": "Wun Fruit",
+      "food": "Vegetable",
+      "taste": "Bitter"
+    },
+    {
+      "slug": "yarc-meat",
+      "name": "Yarc Meat",
+      "food": "Meat",
+      "taste": "Bitter"
+    },
+    {
+      "slug": "zang",
+      "name": "Zang",
+      "food": "Vegetable",
+      "taste": "Bitter"
+    },
+    {
+      "slug": "dagdandi",
+      "name": "Dagdandi",
+      "food": "Fish",
+      "taste": "Rare"
+    },
+    {
+      "slug": "grady-goby",
+      "name": "Grady Goby",
+      "food": "Fish",
+      "taste": "Rare"
+    },
+    {
+      "slug": "liganet",
+      "name": "Liganet",
+      "food": "Vegetable",
+      "taste": "Rare"
+    },
+    {
+      "slug": "meltfish",
+      "name": "Meltfish",
+      "food": "Fish",
+      "taste": "Rare"
+    },
+    {
+      "slug": "miranilla",
+      "name": "Miranilla",
+      "food": "Vegetable",
+      "taste": "Rare"
+    },
+    {
+      "slug": "pongo",
+      "name": "Pongo",
+      "food": "Vegetable",
+      "taste": "Rare"
+    },
+    {
+      "slug": "pyrethrum",
+      "name": "Pyrethrum",
+      "food": "Vegetable",
+      "taste": "Rare"
+    },
+    {
+      "slug": "sandworm-meat",
+      "name": "Sandworm Meat",
+      "food": "Meat",
+      "taste": "Rare"
+    },
+    {
+      "slug": "tenebato",
+      "name": "Tenebato",
+      "food": "Vegetable",
+      "taste": "Rare"
+    },
+    {
+      "slug": "usamos",
+      "name": "Usamos",
+      "food": "Vegetable",
+      "taste": "Rare"
+    },
+    {
+      "slug": "yukito",
+      "name": "Yukito",
+      "food": "Vegetable",
+      "taste": "Rare"
+    },
+    {
+      "slug": "baal-pike",
+      "name": "Baal Pike",
+      "food": "Fish",
+      "taste": "Sweet"
+    },
+    {
+      "slug": "carna-bonito",
+      "name": "Carna Bonito",
+      "food": "Fish",
+      "taste": "Sweet"
+    },
+    {
+      "slug": "golden-trout",
+      "name": "Golden Trout",
+      "food": "Fish",
+      "taste": "Sweet"
+    },
+    {
+      "slug": "paradise-fish",
+      "name": "Paradise Fish",
+      "food": "Fish",
+      "taste": "Sweet"
+    },
+    {
+      "slug": "sugar-marlin",
+      "name": "Sugar Marlin",
+      "food": "Fish",
+      "taste": "Sweet"
+    },
+    {
+      "slug": "talto-goby",
+      "name": "Talto Goby",
+      "food": "Fish",
+      "taste": "Sweet"
+    },
+    {
+      "slug": "bazari-shark",
+      "name": "Bazari Shark",
+      "food": "Fish",
+      "taste": "Spicy"
+    },
+    {
+      "slug": "kothar-gar",
+      "name": "Kothar Gar",
+      "food": "Fish",
+      "taste": "Spicy"
+    },
+    {
+      "slug": "skolai",
+      "name": "Skolai",
+      "food": "Fish",
+      "taste": "Spicy"
+    },
+    {
+      "slug": "white-trout",
+      "name": "White Trout",
+      "food": "Fish",
+      "taste": "Spicy"
+    },
+    {
+      "slug": "ladon-loach",
+      "name": "Ladon Loach",
+      "food": "Fish",
+      "taste": "Bitter"
+    },
+    {
+      "slug": "ladon-pike",
+      "name": "Ladon Pike",
+      "food": "Fish",
+      "taste": "Bitter"
+    },
+    {
+      "slug": "rahlan",
+      "name": "Rahlan",
+      "food": "Fish",
+      "taste": "Bitter"
+    },
+    {
+      "slug": "steelfish",
+      "name": "Steelfish",
+      "food": "Fish",
+      "taste": "Bitter"
+    },
+    {
+      "slug": "moonfish",
+      "name": "Moonfish",
+      "food": "Fish",
+      "taste": "Rare"
+    }
+  ],
+  "foodSource": "https://fortunesweave.co.uk/items/cooking"
+}

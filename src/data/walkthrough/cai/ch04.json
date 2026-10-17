@@ -1,0 +1,230 @@
+{
+  "route": "Cai",
+  "ch": 4,
+  "name": "Festival of the Strong",
+  "free": {
+    "from": "3/1",
+    "to": "3/7"
+  },
+  "unlocks": [
+    "Marketplace",
+    "Meals (after a first gift)",
+    "Mentoring (Cai only)",
+    "Pale Raven",
+    "Vandahl Trading Company"
+  ],
+  "routine": {
+    "meals": [
+      {
+        "week": "Sunday (1 this chapter)",
+        "tables": [
+          [
+            "Cai",
+            "Seteth",
+            "Ninae"
+          ],
+          [
+            "Cai",
+            "Seteth",
+            "Mikaela"
+          ],
+          [
+            "Cai",
+            "Ninae",
+            "Mikaela"
+          ]
+        ],
+        "note": "Starts all three Support 3 targets. If Mikaela isn't in Dagsion: Noctula takes her Meal 2 seat, Majide her Meal 3 seat."
+      }
+    ],
+    "gifts": [],
+    "weekly": [
+      {
+        "text": "First gift for everyone: any 27G pastry (Gift Vendor, Lowtown Tavern) unlocks their meals",
+        "detail": [
+          "Seteth, Ninae, Majide, Noctula and Nydine; Mikaela, Fianna and Sirocco if Map > People shows them.",
+          "Coffee Pastries or Simple Pastries: buy eight, give them before Sunday's meals."
+        ]
+      }
+    ]
+  },
+  "missables": [
+    {
+      "id": "cai-ch04-missables-missing-granddaughter",
+      "kind": "item",
+      "quest": "the-missing-granddaughter",
+      "text": "Finish [[quest:the-missing-granddaughter]] by 3/7: talk to her near the city bridge",
+      "when": "by 3/7",
+      "lose": "The quest's Renown and gold",
+      "recover": "None"
+    },
+    {
+      "id": "cai-ch04-missables-insect-pearl-chain",
+      "kind": "timing",
+      "quest": "the-fabled-insect-pearl",
+      "text": "Finish [[quest:the-fabled-insect-pearl]] by 3/7: the Ch 5 and Ch 9 follow-ups need it",
+      "when": "by 3/7",
+      "lose": "The rest of the 3-part chain (23,000G in all)",
+      "recover": "None"
+    },
+    {
+      "id": "cai-ch04-missables-bertrand-jail-scene",
+      "kind": "scene",
+      "text": "Watch the optional Bertrand jail scene: Cai gets Sword EXP",
+      "lose": "The scene and its Sword EXP",
+      "recover": "None known",
+      "task": true,
+      "when": "by 3/7"
+    }
+  ],
+  "classes": {},
+  "gear": {
+    "assign": [
+      {
+        "item": "Archer's Ring",
+        "to": "Peter",
+        "why": "Centurio's Mentoring tutorial reward"
+      }
+    ]
+  },
+  "recruits": [],
+  "quests": {
+    "route": [
+      {
+        "quest": "the-missing-granddaughter"
+      },
+      {
+        "quest": "cleaning-an-abandoned-house"
+      },
+      {
+        "quest": "mentoring-tutorial",
+        "note": "Cai only: Centurio teaches; the [[item:Archer's Ring]] goes to Peter"
+      }
+    ],
+    "sub": [
+      {
+        "quest": "the-fabled-insect-pearl",
+        "note": "Keep spare Insect Pearls for the Ch 5 and Ch 9 follow-ups"
+      },
+      {
+        "quest": "stolen-viewership",
+        "offered": "if-offered"
+      },
+      {
+        "quest": "stolen-knowledge",
+        "offered": "if-offered"
+      },
+      {
+        "quest": "valeris-eight-fangs",
+        "offered": "if-offered"
+      },
+      {
+        "quest": "searching-for-smithing-stones",
+        "offered": "if-offered"
+      },
+      {
+        "quest": "knowing-more-about-him",
+        "offered": "if-offered"
+      },
+      {
+        "quest": "granadas-thieves",
+        "offered": "if-offered"
+      }
+    ],
+    "paralogue": []
+  },
+  "explore": [
+    {
+      "text": "Talk to every orange-marker NPC: find Noctula, Majide, Seteth, Ninae and Nydine",
+      "detail": [
+        "Once you've met someone, you can teleport to them from the map."
+      ]
+    },
+    {
+      "text": "Take the Sewers' new path to the Arena Underground: talk to Gabriel, then Castor, then Bertrand"
+    },
+    {
+      "text": "Run the tutorials: Vandahl Trading Company (first Port visit), Search, Foresight, Adventure Guide",
+      "detail": [
+        "Foresight is the Pale Raven tutorial."
+      ]
+    },
+    {
+      "group": "Spare Turns · mount bait for the Ch 5 Stable",
+      "text": "Grab bait now: any fish lures an Ornius, any vegetable a horse",
+      "detail": [
+        "The Stable opens in Ch 5.",
+        "The taste only matters for daily feeding."
+      ]
+    },
+    {
+      "group": "Spare Turns · mount bait for the Ch 5 Stable",
+      "text": "[[place:Enceladus Bridge]] (next to Dagsion): 5× Talto Goby or Baal Pike, 4× Ladon Loach",
+      "detail": [
+        "For [[mount:Wild Ornius]] and [[mount:Black Magonius]]."
+      ]
+    },
+    {
+      "group": "Spare Turns · mount bait for the Ch 5 Stable",
+      "text": "[[place:Elissa Pass]] (via East Amalthea Posthouse): Thry Fruit for the [[mount:Ferghanan Horse]]",
+      "detail": [
+        "Also the Ch 5 Wild Ornius tile."
+      ]
+    },
+    {
+      "group": "Spare Turns · mount bait for the Ch 5 Stable",
+      "text": "[[place:Kothar Lake]] (south of Dagsion): 6× White Trout or Kothar Gar",
+      "detail": [
+        "For [[mount:Meganius]] and [[mount:Red Meganius]]."
+      ]
+    },
+    {
+      "group": "Spare Turns · mount bait for the Ch 5 Stable",
+      "text": "[[place:Necropolis of Silence]] (beside Kothar Lake): Meat Crate, Vegetable Crate",
+      "detail": [
+        "For the [[mount:Wild Bau]]."
+      ]
+    },
+    {
+      "group": "Spare Turns · mount bait for the Ch 5 Stable",
+      "text": "[[place:Sunfall Path]] (via Fort Hecatoncheires): Thry Fruit, 10 in total",
+      "detail": [
+        "For the Ferghanan on its own tile."
+      ]
+    },
+    {
+      "group": "Spare Turns · mount bait for the Ch 5 Stable",
+      "text": "[[place:Valeri Gorge]]: Melara, Liganet for the Ferghanan and [[mount:Monoceros]]"
+    },
+    {
+      "group": "Spare Turns · mount bait for the Ch 5 Stable",
+      "text": "Plant extra Pongo once the farm opens (Ch 5): Monoceros feed"
+    },
+    {
+      "group": "Spare Turns · support run",
+      "id": "cai-ch04-explore-nowahs-cave",
+      "loot": true,
+      "text": "Run [[place:Nowah's Cave]] (Lv 10, Elektra) with this week's meal pairs"
+    }
+  ],
+  "battle": {
+    "title": "Qualifier vs. Gaia Brigade",
+    "objective": "Defeat Zarcone",
+    "lose": "Cai, Theodora or Orchel falls",
+    "guests": [
+      "Theodora",
+      "Orchel"
+    ],
+    "tips": [
+      {
+        "text": "Keep Theodora and Orchel out of danger: both are defeat conditions, and both heal"
+      },
+      {
+        "text": "Let the enemy come to you"
+      },
+      {
+        "text": "Cross at the bridge, not the shoals"
+      }
+    ]
+  }
+}

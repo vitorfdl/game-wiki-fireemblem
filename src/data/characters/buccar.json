@@ -1,0 +1,1344 @@
+{
+  "name": "Buccar",
+  "slug": "buccar",
+  "epithet": "Leda's veteran retainer",
+  "faction": "Rose Tempest",
+  "homeRoute": "Leda",
+  "weapons": [
+    "Axe",
+    "Spear"
+  ],
+  "preferred": [
+    "Axe",
+    "Spear"
+  ],
+  "avoid": [
+    "White Magic",
+    "Black Magic"
+  ],
+  "personality": "A loyal old soldier who calls Leda \"princess\" and wants her happiness more than her revenge.",
+  "story": "Buccar (49-50, 54 post-timeskip) served Leda's father for over twenty years and fled Cydonia with Leda after his death, then accompanied her on her revenge quest despite his doubts about it. He joins Leda's route automatically, can be recruited on Dietrich and Theodora routes (Renown 8+, Support 3, clear Leda's Paralogue \"Diversionary Tactics\"), and is unavailable on Cai's route.",
+  "personalSkill": {
+    "name": "Guardian's Duty",
+    "effect": "Reduces damage taken to 90% when attacked. Lv 20 and 35 add Retaliatory Blow variants (1.3x damage when a foe attacks first)."
+  },
+  "growths": {
+    "HP": 50,
+    "Str": 50,
+    "Mag": 20,
+    "Spd": 25,
+    "Dex": 40,
+    "Def": 45,
+    "Res": 20,
+    "Lck": 30,
+    "Cha": 35
+  },
+  "supports": [
+    "Dadao",
+    "Dietrich",
+    "Jasmine",
+    "Jester",
+    "Leda",
+    "Ludia",
+    "Mu",
+    "Olympia",
+    "Sirocco"
+  ],
+  "tiers": [
+    {
+      "source": "Pocket Tactics",
+      "tier": "B"
+    },
+    {
+      "source": "KeenGamer",
+      "tier": "B"
+    }
+  ],
+  "tierNotes": "Pocket Tactics: B. KeenGamer: B (useful damage reduction but narrow impact).",
+  "recruit": {
+    "how": "auto",
+    "why": [
+      "Joins Leda's army with the story in Ch 1 (Lv 1 Commoner?): no Support or Renown to chase.",
+      "The path guide only has him defect to you on Turn 1 of the Ch 9 Cai battle; if he's missing before then, Jasmine stands in."
+    ]
+  },
+  "requirements": {
+    "Cai": "—",
+    "Dietrich": "3S 8R",
+    "Theodora": "3S 8R",
+    "Leda": "Auto"
+  },
+  "build": {
+    "role": "Enemy-phase armored tank",
+    "path": [
+      "Commoner",
+      "Soldier",
+      "Armored Knight",
+      "Dreadnought",
+      "Guardian (Part II Ch 1 side trip: Brace)",
+      "Dreadnought",
+      "Castle Knight"
+    ],
+    "part1Target": "Dreadnought",
+    "part3Target": "Castle Knight",
+    "notes": "Armored all through Part I for the Def rows (Armored Knight +25, Dreadnought +30). One Part II map in Guardian for Brace. Castle Knight adds Intercept in Part III. Ranks to B from the Arena Heavy course; A ranks from battle.",
+    "confidence": "medium"
+  },
+  "guide": {
+    "role": "Armored wall: enemy-phase tank",
+    "summary": "The army's physical wall from Ch 1. Park him in the choke the enemy has to take and let Guardian's Duty (damage x0.9), a [[item:Bronze Axe]] +4 and his counter masteries work on enemy phase. Keep mages off him: his Res grows 10 to 20%, so the [[item:Hexlock Shield]] and Leda's Icewater cover mage maps.",
+    "playstyle": "Enemy phase first: end every turn where foes must hit him, with a Physic healer 2 tiles back. On player phase, [[art:Armored Blow]] a weak foe for Prt +3 into the enemy phase.",
+    "focus": [
+      "Def",
+      "HP",
+      "Str"
+    ],
+    "keys": [
+      "Seat him in the Arena Heavy course weekly: Heavy D, Axe B, Spear B by Ch 11",
+      "Take [[class:Armored Knight]] at Lv 20 in Ch 6 and stay to Lv 35 for the Def +25 row",
+      "Take [[class:Dreadnought]] the day he shows Lv 35 (Ch 11)",
+      "Swap in the Hexlock Shield on Ch 11 and other mage maps, in place of the Silver Shield",
+      "Spend Part II Ch 1 in [[class:Guardian]] for [[ability:Brace]], then back to Dreadnought"
+    ],
+    "watch": [
+      "Weight: armored. Shielding Axe 12 + Silver Shield 4 = 16, Giant's Ring Bld +4; Greatsword 15. Doubled? Greatsword out first",
+      "Doubled: Spd grows 15 to 20%. If fast foes double him, take the ring off first",
+      "Res: 10% as a Dreadnought. Two mage hits can kill him: Hexlock Shield or Icewater",
+      "Mov: 4. Armored Move +2? is unconfirmed: check his skill list",
+      "Inventory: 6/6 from Ch 9. The Hexlock swaps for the Silver Shield, never on top",
+      "Join: Ch 1, Lv 1 Commoner?. If he only joins on Turn 1 of Ch 9, every exam slides back"
+    ],
+    "stages": [
+      {
+        "when": "Ch 1 to 4 · joins as a Lv 1 Commoner?",
+        "from": {
+          "part": 1,
+          "ch": 1
+        },
+        "to": {
+          "part": 1,
+          "ch": 4
+        },
+        "level": "Lv 1 to 5",
+        "class": "Commoner",
+        "kind": "core",
+        "mount": "No mount (armored)",
+        "goal": "Bait from Ch 1: Guardian's Duty cuts every hit he takes to 90%. Bring spear and axe to D for Soldier.",
+        "exit": "Soldier exam at Lv 5 once Ch 5 opens it.",
+        "masteries": [],
+        "weapons": [
+          {
+            "item": "Iron Spear",
+            "why": "Hit 80; 2x vs cavalry"
+          },
+          {
+            "item": "Iron Axe",
+            "why": "Mt 13; every axe hit deals 5+"
+          }
+        ],
+        "items": [
+          {
+            "item": "Vulnerary",
+            "why": "Heals 20: he takes the first hits"
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Spears Lv. 1",
+            "why": "Spear D+: spear Hit +3 (once Spear D+)"
+          },
+          {
+            "name": "Armored Move",
+            "why": "Heavy D?: Mov +1"
+          },
+          {
+            "name": "Defense Formation",
+            "why": "Authority D?: Shld +1 to adjacent allies"
+          },
+          {
+            "name": "Knightly Senses",
+            "why": "Riding D?: Avo +10 vs spears"
+          },
+          {
+            "name": "Read the Winds",
+            "why": "Flying D?: Avo +10 vs bows"
+          }
+        ],
+        "tips": [
+          "No Arena before Ch 5 and starting ranks are undocumented: equip the D abilities the menu shows, in this order"
+        ]
+      },
+      {
+        "when": "Ch 5",
+        "from": {
+          "part": 1,
+          "ch": 5
+        },
+        "to": {
+          "part": 1,
+          "ch": 5
+        },
+        "level": "Lv 5 to 20",
+        "class": "Soldier",
+        "kind": "core",
+        "mount": "No mount (armored)",
+        "goal": "HP +10, Def +10 rows from Lv 5. Take the first hit on every map: spear for chariots, axe for armor.",
+        "exit": "Armored Knight at Lv 20 once Renown 4 opens it (Ch 6).",
+        "masteries": [
+          "Defense Basics"
+        ],
+        "why": [
+          "Axe Hit stack: Iron Axe 65 + [[art:Spike]] +10 + [[ability:Axes Lv. 1]] +3 (rank ?)",
+          "Soldier is armored (Mov 4): shield and axe weight cost no AS budget"
+        ],
+        "weapons": [
+          {
+            "item": "Iron Spear",
+            "why": "Main weapon: Hit 80, 2x vs Ch 5's chariots"
+          },
+          {
+            "item": "Javelin",
+            "why": "Range 1-2 counters, Hit 80"
+          },
+          {
+            "item": "Iron Axe",
+            "why": "Armored foes: every axe hit deals 5+"
+          }
+        ],
+        "equipment": [
+          {
+            "item": "Iron Shield",
+            "why": "Def +3 at Wt 4",
+            "slot": "Defense"
+          }
+        ],
+        "items": [
+          {
+            "item": "Concoction",
+            "why": "Heals 40",
+            "alts": [
+              "Vulnerary"
+            ]
+          }
+        ],
+        "arts": [
+          {
+            "name": "Tempest Spear",
+            "why": "Spear D: Mt +4, Hit +10"
+          },
+          {
+            "name": "Spike",
+            "why": "Axe D: Mt +4, Hit +10"
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Defense Basics",
+            "why": "Soldier mastery: Def +1 (once mastered)"
+          },
+          {
+            "name": "Spears Lv. 1",
+            "why": "Spear D+: spear Hit +3"
+          },
+          {
+            "name": "Axes Lv. 1",
+            "why": "Axe D+ (Heavy course): axe Hit +3"
+          },
+          {
+            "name": "Armored Move",
+            "why": "Heavy D (1–2 Heavy weeks?): Mov +1 on an armor"
+          },
+          {
+            "name": "Defense Formation",
+            "why": "Authority D (Heavy course): Shld +1 to adjacent allies"
+          }
+        ],
+        "training": [
+          {
+            "rank": "Heavy E+, Axe C, Spear C",
+            "for": "Armored Knight (Ch 6)",
+            "how": "Arena Heavy course every week (Spear, Axe, Heavy, Authority)"
+          },
+          {
+            "rank": "Heavy D, Authority D",
+            "for": "Armored Move, Defense Formation",
+            "how": "Same Heavy session; D in 1–2 weeks?"
+          }
+        ],
+        "tips": [
+          "Ch 5: bring armor-piercing weapons; Orchel picks up a Hammer mid-battle"
+        ]
+      },
+      {
+        "when": "Ch 6 to 8",
+        "from": {
+          "part": 1,
+          "ch": 6
+        },
+        "to": {
+          "part": 1,
+          "ch": 8
+        },
+        "level": "Lv 20 to 28",
+        "class": "Armored Knight",
+        "kind": "core",
+        "mount": "No mount (armored)",
+        "goal": "Def +25 row; master [[ability:Great Counter]]. [[ability:Retaliatory Blow]] (Lv 20) rolls 5% on each counter.",
+        "exit": "Ch 9: the Short Spear joins the kit; stay Armored Knight to Lv 35.",
+        "masteries": [
+          "Great Counter"
+        ],
+        "weapons": [
+          {
+            "item": "Bronze Axe +4",
+            "why": "Mt ? (jump at +3), Hit 70, Def +1, Wt 9: common-ore wall axe",
+            "plan": "Refine at the Blacksmith from Ch 6"
+          },
+          {
+            "item": "Halberd +2",
+            "why": "Rare-ore refine (route ledger): Mt ?, 2x vs armor and cavalry"
+          },
+          {
+            "item": "Javelin",
+            "why": "Range 1-2 counters, Hit 80"
+          }
+        ],
+        "equipment": [
+          {
+            "item": "Silver Shield",
+            "why": "Def +5 at Wt 4",
+            "slot": "Defense",
+            "alts": [
+              "Da Mina Shield",
+              "Iron Shield"
+            ]
+          },
+          {
+            "item": "Hexlock Shield",
+            "why": "Def +1, Res +5 at Wt 4: covers his Res hole",
+            "slot": "Defense",
+            "situational": "Mage maps: swaps for the Silver Shield"
+          }
+        ],
+        "items": [
+          {
+            "item": "Concoction",
+            "why": "Heals 40; an Elixir from Ch 9",
+            "alts": [
+              "Vulnerary"
+            ]
+          }
+        ],
+        "arts": [
+          {
+            "name": "Armored Blow",
+            "why": "Spear C: Prt +3 after a kill, into the enemy phase"
+          },
+          {
+            "name": "Tempest Spear",
+            "why": "Spear D: Mt +4, Hit +10"
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Retaliatory Blow",
+            "why": "Personal Lv 20: 1.3x damage at 5% when the foe attacks first"
+          },
+          {
+            "name": "Great Counter",
+            "why": "Armored Knight mastery: Atk +3 when attacked first (once mastered)"
+          },
+          {
+            "name": "Axes Lv. 2",
+            "why": "Axe C+: axe Hit +5 on Bronze Axe counters"
+          },
+          {
+            "name": "Armored Move",
+            "why": "Heavy D: Mov +1, he reaches the choke a turn sooner"
+          },
+          {
+            "name": "Defense Basics",
+            "why": "Soldier mastery: Def +1"
+          }
+        ],
+        "training": [
+          {
+            "rank": "Heavy D, Axe B, Spear B",
+            "for": "Dreadnought (Lv 35, Ch 11)",
+            "how": "Arena Heavy course every week; Heavy-Armor Manual (Masked Woods chest, Lv 15)"
+          },
+          {
+            "rank": "Heavy C",
+            "for": "Bowblock; Heavy B for Armored Move+",
+            "how": "Same Heavy session"
+          }
+        ],
+        "checks": [
+          {
+            "stat": "Def",
+            "at": "Lv 25 (Ch 7)",
+            "need": "Ch 7 and Ch 8 melee foes deal under 10 damage to him in the forecast",
+            "why": "He is the wall: double digits spill onto Mu and the healers",
+            "fix": [
+              "[[item:Silver Shield]] (Def +5) from Mons over the Iron Shield (Def +3)",
+              "End the enemy phase in Leda's Song of Icewater ring (Def/Res +4)",
+              "Stay [[class:Armored Knight]] to Lv 35: Def +25 row"
+            ]
+          }
+        ],
+        "drop": [
+          {
+            "item": "Iron Spear",
+            "why": "The Halberd +2 hits armor and cavalry"
+          },
+          {
+            "item": "Iron Axe",
+            "why": "Bronze Axe +4: Hit 70 vs 65, Def +1, Wt 9"
+          },
+          {
+            "item": "Iron Shield",
+            "why": "Replaced by the Silver Shield"
+          },
+          {
+            "item": "Axes Lv. 1",
+            "why": "Lv. 2 replaces it at Axe C+"
+          },
+          {
+            "item": "Spears Lv. 1",
+            "why": "Axe Hit comes first: the Bronze Axe is his counter weapon"
+          },
+          {
+            "item": "Defense Formation",
+            "why": "Great Counter and Retaliatory Blow take the slots"
+          }
+        ],
+        "tips": [
+          "Blacksmith (Ch 6): Bronze Axe to +4 on common ores first, then the Halberd +2",
+          "Ch 8 guests (Cai, Talimun) may take slots: he still deploys"
+        ]
+      },
+      {
+        "when": "Ch 9 to 10",
+        "from": {
+          "part": 1,
+          "ch": 9
+        },
+        "to": {
+          "part": 1,
+          "ch": 10
+        },
+        "level": "Lv 28 to 35",
+        "class": "Armored Knight",
+        "kind": "core",
+        "mount": "No mount (armored)",
+        "goal": "Enemy-phase kit: Bronze Axe +4 (Hit 70, Def +1) in hand, Halberd +2 for armor and cavalry.",
+        "exit": "[[class:Dreadnought]] the day Lv 35 shows with Heavy D, Axe B, Spear B (Ch 11).",
+        "masteries": [],
+        "why": [
+          "Hit stack: Bronze Axe 70 + [[item:Archer's Ring]] +5 + [[ability:Axes Lv. 2]] +5 (rank ?)",
+          "Halberd +2 stays all game: no Spear B wait, and weight is free on armor"
+        ],
+        "weapons": [
+          {
+            "item": "Bronze Axe +4",
+            "why": "Counter axe: Hit 70, Def +1, Mt ?, Wt 9"
+          },
+          {
+            "item": "Halberd +2",
+            "why": "2x vs armor and cavalry, Mt ?, Hit 70; Spear D or Axe D"
+          },
+          {
+            "item": "Short Spear",
+            "why": "Range 1-2 counters vs archers and mages"
+          }
+        ],
+        "equipment": [
+          {
+            "item": "Silver Shield",
+            "why": "Def +5 at Wt 4",
+            "slot": "Defense",
+            "alts": [
+              "Da Mina Shield",
+              "Iron Shield"
+            ]
+          },
+          {
+            "item": "Archer's Ring",
+            "why": "Hit +5 on every counter; weight is free on armor",
+            "slot": "Accessory",
+            "alts": [
+              "Victory Gem",
+              "Hunter's Ring"
+            ]
+          },
+          {
+            "item": "Hexlock Shield",
+            "why": "Def +1, Res +5 at Wt 4: covers his Res hole",
+            "slot": "Defense",
+            "situational": "Mage maps: swaps for the Silver Shield"
+          }
+        ],
+        "items": [
+          {
+            "item": "Elixir",
+            "why": "Heals 100: the wall takes the most hits",
+            "alts": [
+              "Concoction"
+            ]
+          }
+        ],
+        "arts": [
+          {
+            "name": "Discerning Blow",
+            "why": "Axe C: Hit +50 at half damage; finishes dodgy foes"
+          },
+          {
+            "name": "Spike",
+            "why": "Axe D: Mt +4, Hit +10"
+          },
+          {
+            "name": "Armored Blow",
+            "why": "Spear C: Prt +3 after a kill"
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Retaliatory Blow",
+            "why": "Personal Lv 20: 1.3x damage at 5% when the foe attacks first"
+          },
+          {
+            "name": "Great Counter",
+            "why": "Atk +3 when attacked first"
+          },
+          {
+            "name": "Axes Lv. 2",
+            "why": "Axe C+: Hit +5 on Bronze Axe counters"
+          },
+          {
+            "name": "Spears Lv. 2",
+            "why": "Spear C+: spear Hit +5"
+          },
+          {
+            "name": "Armored Move+",
+            "why": "Heavy B (Arena)?: Mov +2; Armored Move until it shows"
+          }
+        ],
+        "checks": [
+          {
+            "stat": "Dex",
+            "at": "Lv 30 (Ch 9)",
+            "need": "Bronze Axe +4 counters show Hit 75 or more in the Ch 10 forecasts",
+            "why": "Under 75 he trades hits without killing, and the line never thins",
+            "fix": [
+              "Keep the [[item:Archer's Ring]] (Hit +5) on",
+              "Player phase: [[art:Discerning Blow]] (Hit +50) finishes dodgy foes",
+              "[[item:Linaria Juice]] (Hit +10 for the map) on boss maps"
+            ]
+          }
+        ],
+        "drop": [
+          {
+            "item": "Shielding Axe",
+            "why": "Skip it: Bronze Axe +4 has Hit 70 vs 65 and Def +1"
+          },
+          {
+            "item": "Javelin",
+            "why": "The Short Spear: Mt 5 against 3"
+          },
+          {
+            "item": "Defense Basics",
+            "why": "Armored Move+ takes the slot"
+          },
+          {
+            "item": "Armored Move",
+            "why": "Armored Move+ replaces it at Heavy B"
+          }
+        ],
+        "tips": [
+          "Ch 9 Cai battle: if he isn't with you yet, he defects on Turn 1",
+          "Ch 10 is armored: the Halberd +2 is 2x vs armor"
+        ],
+        "training": [
+          {
+            "rank": "Heavy B",
+            "for": "Armored Move+ (Mov +2)",
+            "how": "Same Heavy session; Arena seats bench first"
+          }
+        ]
+      },
+      {
+        "when": "Ch 11 to 12",
+        "from": {
+          "part": 1,
+          "ch": 11
+        },
+        "to": {
+          "part": 1,
+          "ch": 12
+        },
+        "level": "Lv 35 to 37",
+        "class": "Dreadnought",
+        "kind": "core",
+        "mount": "No mount (armored)",
+        "goal": "Def +30 row, Strike-Last Def +5; master [[ability:Focused Counter]] for Hit +10 on every counter.",
+        "exit": "Stay into Part II; the Guardian map waits for Part II Ch 1's free License.",
+        "masteries": [
+          "Focused Counter"
+        ],
+        "why": [
+          "Hit stack: Bronze Axe 70 + [[ability:Focused Counter]] +10 + Archer's Ring +5 + Axes Lv. 2 +5 (?)",
+          "Ch 11 undead: Dreadnought has no sword; fight inside Leda's Song of Abjuring ring"
+        ],
+        "weapons": [
+          {
+            "item": "Bronze Axe +4",
+            "why": "Counter axe: Hit 70, Def +1, Mt ?, Wt 9"
+          },
+          {
+            "item": "Halberd +2",
+            "why": "2x vs armor and cavalry, Mt ?, Hit 70; Spear D or Axe D"
+          },
+          {
+            "item": "Short Spear",
+            "why": "Range 1-2 counters vs archers and mages"
+          }
+        ],
+        "equipment": [
+          {
+            "item": "Silver Shield",
+            "why": "Def +5 at Wt 4",
+            "slot": "Defense",
+            "alts": [
+              "Da Mina Shield",
+              "Iron Shield"
+            ]
+          },
+          {
+            "item": "Archer's Ring",
+            "why": "Hit +5 on every counter; weight is free on armor",
+            "slot": "Accessory",
+            "alts": [
+              "Victory Gem",
+              "Hunter's Ring"
+            ]
+          },
+          {
+            "item": "Hexlock Shield",
+            "why": "Def +1, Res +5 at Wt 4: covers his Res hole",
+            "slot": "Defense",
+            "situational": "Ch 11 (Martila's songs, Acid?): swaps for the Silver Shield"
+          }
+        ],
+        "items": [
+          {
+            "item": "Elixir",
+            "why": "Heals 100: the wall takes the most hits",
+            "alts": [
+              "Concoction"
+            ]
+          }
+        ],
+        "arts": [
+          {
+            "name": "Guard Spike",
+            "why": "Axe B: Mt +7, Prt +10"
+          },
+          {
+            "name": "Protective Storm",
+            "why": "Spear B: Mt +5, Prt +7"
+          },
+          {
+            "name": "Discerning Blow",
+            "why": "Axe C: Hit +50 finisher"
+          },
+          {
+            "name": "Armored Blow",
+            "why": "Spear C: Prt +3 after a kill"
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Focused Counter",
+            "why": "Dreadnought mastery: Hit +10 when attacked first (once mastered)"
+          },
+          {
+            "name": "Retaliatory Blow+",
+            "why": "Personal Lv 35: 1.3x damage at 10% when the foe attacks first"
+          },
+          {
+            "name": "Great Counter",
+            "why": "Atk +3 when attacked first"
+          },
+          {
+            "name": "Axes Lv. 2",
+            "why": "Axe C+: Hit +5; Lv. 3 once B+ shows"
+          },
+          {
+            "name": "Armored Move+",
+            "why": "Heavy B: Mov +2 on the slowest frontliner"
+          }
+        ],
+        "checks": [
+          {
+            "stat": "Res",
+            "at": "Lv 35 (Ch 11)",
+            "need": "Survives two hits from a Ch 11 mage in the forecast",
+            "why": "Res grows 10% here: mages and Caladrius delete Dreadnoughts",
+            "fix": [
+              "[[item:Hexlock Shield]] (Res +5) in place of the Silver Shield",
+              "End the turn in Leda's Song of Icewater ring (Def/Res +7 after Captain's)",
+              "Stand next to Olympia once her [[ability:Barrier]] (Res +3) is mastered"
+            ]
+          }
+        ],
+        "drop": [
+          {
+            "item": "Spears Lv. 2",
+            "why": "Focused Counter takes the slot; the Bronze Axe counters"
+          }
+        ],
+        "tips": [
+          "Advanced Licenses: Megaira from Ch 9, Dagsion from Ch 10",
+          "Part II brings only the 6 items he holds at 11/27: stock the Elixir now"
+        ]
+      },
+      {
+        "when": "Part II Ch 1",
+        "from": {
+          "part": 2,
+          "ch": 1
+        },
+        "to": {
+          "part": 2,
+          "ch": 1
+        },
+        "level": "Lv 37 to 38",
+        "class": "Guardian",
+        "kind": "detour",
+        "mount": "No mount (Guardian is infantry)",
+        "goal": "One map for [[ability:Brace]] (Prt +3 after a kill), which stays in his slots to Part III; Res row 35%.",
+        "exit": "Back to Dreadnought once Brace is mastered, for Ch 2.",
+        "masteries": [
+          "Brace"
+        ],
+        "why": [
+          "Infantry weight: Halberd +2 12 + Silver Shield 4: shield is 4 over (cap 6); ring off",
+          "Needs only Spear B, already in hand for Dreadnought"
+        ],
+        "weapons": [
+          {
+            "item": "Halberd +2",
+            "why": "2x vs armor and cavalry, Mt ?, Hit 70; Spear D or Axe D"
+          },
+          {
+            "item": "Short Spear",
+            "why": "Range 1-2 counters vs archers and mages"
+          }
+        ],
+        "equipment": [
+          {
+            "item": "Silver Shield",
+            "why": "Def +5 at Wt 4",
+            "slot": "Defense",
+            "alts": [
+              "Da Mina Shield",
+              "Iron Shield"
+            ]
+          }
+        ],
+        "items": [
+          {
+            "item": "Elixir",
+            "why": "Heals 100: the wall takes the most hits",
+            "alts": [
+              "Concoction"
+            ]
+          }
+        ],
+        "arts": [
+          {
+            "name": "Protective Storm",
+            "why": "Spear B: Mt +5, Prt +7"
+          },
+          {
+            "name": "Armored Blow",
+            "why": "Spear C: Prt +3 after a kill"
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Brace",
+            "why": "Guardian mastery: Prt +3 after a kill, until his next phase (once mastered)"
+          },
+          {
+            "name": "Retaliatory Blow+",
+            "why": "Personal Lv 35: 1.3x damage at 10% when attacked first"
+          },
+          {
+            "name": "Focused Counter",
+            "why": "Hit +10 when attacked first"
+          },
+          {
+            "name": "Great Counter",
+            "why": "Atk +3 when attacked first"
+          },
+          {
+            "name": "Spears Lv. 2",
+            "why": "Spear C+: spear Hit +5"
+          }
+        ],
+        "drop": [
+          {
+            "item": "Bronze Axe +4",
+            "why": "Guardian can't swing axes; it stays in his 6 for Ch 2"
+          },
+          {
+            "item": "Archer's Ring",
+            "why": "Unequipped for this map (infantry cap); still in his 6"
+          },
+          {
+            "item": "Armored Move+",
+            "why": "Brace takes the slot for the Guardian map"
+          },
+          {
+            "item": "Axes Lv. 2",
+            "why": "Guardian can't swing axes"
+          }
+        ],
+        "tips": [
+          "No Strike-Last Def this map: give him a choke with a healer behind",
+          "Ch 1 drop: Hammer +1 from the west-side Warrior"
+        ]
+      },
+      {
+        "when": "Part II Ch 2 to 6",
+        "from": {
+          "part": 2,
+          "ch": 2
+        },
+        "to": {
+          "part": 2,
+          "ch": 6
+        },
+        "level": "Lv 38 to 42",
+        "class": "Dreadnought",
+        "kind": "core",
+        "mount": "No mount (armored)",
+        "goal": "Hold Ch 3's alleys and Ch 5's chokes. Bronze Axe +4 counters; Brace: Prt +3 after an enemy-phase kill.",
+        "exit": "Stay Dreadnought into Part III; [[class:Castle Knight]] in Section 5.",
+        "masteries": [],
+        "why": [
+          "Hit stack: Bronze Axe 70 + Focused Counter +10 + Archer's Ring +5 + Axes Lv. 2 +5 (?)",
+          "Axe A and Spear A come only from battle: counter with the axe, attack with the Halberd"
+        ],
+        "weapons": [
+          {
+            "item": "Bronze Axe +4",
+            "why": "Counter axe: Hit 70, Def +1, Mt ?, Wt 9"
+          },
+          {
+            "item": "Halberd +2",
+            "why": "2x vs armor and cavalry, Mt ?, Hit 70; Spear D or Axe D"
+          },
+          {
+            "item": "Short Spear",
+            "why": "Range 1-2 counters vs archers and mages"
+          }
+        ],
+        "equipment": [
+          {
+            "item": "Silver Shield",
+            "why": "Def +5 at Wt 4",
+            "slot": "Defense",
+            "alts": [
+              "Da Mina Shield",
+              "Iron Shield"
+            ]
+          },
+          {
+            "item": "Archer's Ring",
+            "why": "Hit +5 on every counter; weight is free on armor",
+            "slot": "Accessory",
+            "alts": [
+              "Victory Gem",
+              "Hunter's Ring"
+            ]
+          }
+        ],
+        "items": [
+          {
+            "item": "Elixir",
+            "why": "Heals 100: the wall takes the most hits",
+            "alts": [
+              "Concoction"
+            ]
+          }
+        ],
+        "arts": [
+          {
+            "name": "Guard Spike",
+            "why": "Axe B: Mt +7, Prt +10"
+          },
+          {
+            "name": "Protective Storm",
+            "why": "Spear B: Mt +5, Prt +7"
+          },
+          {
+            "name": "Discerning Blow",
+            "why": "Axe C: Hit +50 finisher"
+          },
+          {
+            "name": "Armored Blow",
+            "why": "Spear C: Prt +3 after a kill"
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Brace",
+            "why": "Prt +3 after a kill, until his next phase"
+          },
+          {
+            "name": "Focused Counter",
+            "why": "Hit +10 when attacked first"
+          },
+          {
+            "name": "Great Counter",
+            "why": "Atk +3 when attacked first"
+          },
+          {
+            "name": "Retaliatory Blow+",
+            "why": "Personal Lv 35: 1.3x damage at 10% when attacked first"
+          },
+          {
+            "name": "Axes Lv. 3",
+            "why": "Axe B+ (battle use): Hit/Avo +5 on counters"
+          }
+        ],
+        "training": [
+          {
+            "rank": "Axe A, Spear A, Heavy C",
+            "for": "Castle Knight (Part III)",
+            "how": "Battle use only: Arena seats bench first"
+          }
+        ],
+        "tips": [
+          "Ch 3: hold an alley choke; Jasmine takes the other",
+          "Part II's temporary +2/+3 weapons don't carry into Part III",
+          "Ch 4: wall a flank against the side Dragoons while the 3–4 bows shoot; Armored Move+ for Great Counter",
+          "Ch 6 Part 1: hold a corner while the bows chip Lyrah's shields"
+        ]
+      },
+      {
+        "when": "Part III Sections 1 to 4 (Dreadnought)",
+        "from": {
+          "part": 3,
+          "ch": 1
+        },
+        "to": {
+          "part": 3,
+          "ch": 4
+        },
+        "level": "Lv 42 to 45",
+        "class": "Dreadnought",
+        "kind": "core",
+        "mount": "No mount (armored)",
+        "goal": "Squad C's wall from S3: Shielding Axe +3 Prt +6 plus Strike-Last Def +5 = Prt +11 when attacked.",
+        "exit": "[[class:Castle Knight]] on Section 5's Master License (Heavy C, Axe A, Spear A).",
+        "masteries": [],
+        "why": [
+          "Hit stack: Shielding Axe 65 + Focused Counter +10 + Axes Lv. 3 +5; read every forecast",
+          "Underworld Boon: hold inside Leda's Abjuring ring; axes and spears can't strip it"
+        ],
+        "weapons": [
+          {
+            "item": "Shielding Axe +3",
+            "why": "Mt 22, Prt +6 when attacked first, Wt 12: the counter axe",
+            "plan": "Soulstone queue",
+            "alts": [
+              "Shielding Axe +2",
+              "Bronze Axe +4"
+            ]
+          },
+          {
+            "item": "Javelin +2",
+            "why": "Mt 10, Hit 80, range 1-2: counters archers and mages at 2"
+          },
+          {
+            "item": "Greatsword +2",
+            "why": "2x vs armor, Wt 15; Axe D. Hit/Crit +10 vs large needs +3",
+            "situational": "Armor or golems: open slot"
+          }
+        ],
+        "equipment": [
+          {
+            "item": "Silver Shield",
+            "why": "Def +5 at Wt 4",
+            "slot": "Defense",
+            "alts": [
+              "Da Mina Shield",
+              "Iron Shield"
+            ]
+          },
+          {
+            "item": "Giant's Ring",
+            "why": "Bld +4 at Wt 0: 4 less AS lost, so fewer doubles",
+            "slot": "Accessory",
+            "alts": [
+              "Archer's Ring"
+            ],
+            "plan": "Squad C's Section 3 copy"
+          },
+          {
+            "item": "Hexlock Shield",
+            "why": "Def +1, Res +5 at Wt 4: covers his Res hole",
+            "slot": "Defense",
+            "situational": "Mage maps: swaps for the Silver Shield",
+            "alts": [
+              "Talisman Shield"
+            ]
+          }
+        ],
+        "items": [
+          {
+            "item": "Elixir",
+            "why": "Heals 100",
+            "alts": [
+              "Concoction"
+            ]
+          }
+        ],
+        "arts": [
+          {
+            "name": "Guard Spike",
+            "why": "Axe B: Mt +7, Prt +10"
+          },
+          {
+            "name": "Protective Storm",
+            "why": "Spear B: Mt +5, Prt +7"
+          },
+          {
+            "name": "Discerning Blow",
+            "why": "Axe C: Hit +50 finisher"
+          },
+          {
+            "name": "Armored Blow",
+            "why": "Spear C: Prt +3 after a kill"
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Focused Counter",
+            "why": "Hit +10 when attacked first"
+          },
+          {
+            "name": "Great Counter",
+            "why": "Atk +3 when attacked first"
+          },
+          {
+            "name": "Brace",
+            "why": "Prt +3 after a kill, until his next phase"
+          },
+          {
+            "name": "Axes Lv. 3",
+            "why": "Axe B+ (battle use): Hit/Avo +5 on counters"
+          },
+          {
+            "name": "Armored Move",
+            "why": "Heavy D: Mov +1 on a Mov 4 wall (untagged)"
+          }
+        ],
+        "training": [
+          {
+            "rank": "Heavy C, Axe A, Spear A",
+            "for": "Castle Knight (Lv 45, Master License)",
+            "how": "Battle use: counter with the axe, attack with the Javelin"
+          }
+        ],
+        "drop": [
+          {
+            "item": "Bronze Axe +4",
+            "why": "Shielding Axe +3: Prt +6 when attacked beats Def +3 and Mt +3"
+          },
+          {
+            "item": "Halberd +2",
+            "why": "Greatsword +2: more Mt vs armor at the same no-Soulstone level"
+          },
+          {
+            "item": "Short Spear",
+            "why": "Javelin +2: lighter, Hit 80, gold"
+          },
+          {
+            "item": "Archer's Ring",
+            "why": "Giant's Ring: AS beats Hit +5 on a wall that gets doubled"
+          },
+          {
+            "item": "Retaliatory Blow+",
+            "why": "10% for 1.3x; Armored Move is Mov +1 every turn"
+          }
+        ],
+        "tips": [
+          "Wall the choke in front of Olympia; Leda's Icewater++ on the enemy phase he can't hold alone",
+          "Mages: Hexlock in, Silver Shield out; Olympia's Barrier beside him adds Res +3",
+          "Sand-Shadow Fort Giant: Greatsword +2 (2x if it's armored)"
+        ],
+        "checks": [
+          {
+            "stat": "Dex",
+            "at": "Part III Section 3",
+            "need": "Shielding Axe counters show Hit 80+ against the desert's sword users",
+            "why": "Axes miss; a wall that misses never thins the line",
+            "fix": [
+              "Iron Axe +5 (Dex +6) for the Shielding Axe",
+              "Archer's Ring (Hit +5) for the Giant's Ring",
+              "Discerning Blow (Hit +50) on player phase"
+            ]
+          }
+        ]
+      },
+      {
+        "when": "Part III Section 5+ (Castle Knight)",
+        "from": {
+          "part": 3,
+          "ch": 5
+        },
+        "level": "Lv 45+",
+        "class": "Castle Knight",
+        "kind": "core",
+        "mount": "No mount (armored)",
+        "goal": "Intercept −5 a hit on Guardian's Duty x0.9; Shielding Axe +3 and Strike-Last Def +7: Prt +13 when hit.",
+        "exit": "Final class.",
+        "masteries": [
+          "Intercept"
+        ],
+        "why": [
+          "Hit stack: Shielding Axe 65 + Focused Counter +10 + Axes Lv. 3 +5 (Lv. 4 +7 at Axe A+)",
+          "Underworld Boon: Leda's Abjuring ring at Drake; in D (S6), Aurora Lv 3 or foes near Eshmel"
+        ],
+        "weapons": [
+          {
+            "item": "Shielding Axe +3",
+            "why": "Mt 22, Prt +6 when attacked first, Wt 12: the counter axe",
+            "plan": "Soulstone queue",
+            "alts": [
+              "Shielding Axe +2",
+              "Bronze Axe +4"
+            ]
+          },
+          {
+            "item": "Javelin +2",
+            "why": "Mt 10, Hit 80, range 1-2: counters archers and mages at 2"
+          },
+          {
+            "item": "Greatsword +2",
+            "why": "2x vs armor, Wt 15; Axe D. Hit/Crit +10 vs large needs +3",
+            "situational": "Armor or golems: open slot"
+          }
+        ],
+        "equipment": [
+          {
+            "item": "Silver Shield",
+            "why": "Def +5 at Wt 4",
+            "slot": "Defense",
+            "alts": [
+              "Da Mina Shield",
+              "Iron Shield"
+            ]
+          },
+          {
+            "item": "Giant's Ring",
+            "why": "Bld +4 at Wt 0: 4 less AS lost, so fewer doubles",
+            "slot": "Accessory",
+            "alts": [
+              "Archer's Ring"
+            ]
+          },
+          {
+            "item": "Hexlock Shield",
+            "why": "Def +1, Res +5 at Wt 4: covers his Res hole",
+            "slot": "Defense",
+            "situational": "Mage maps: swaps for the Silver Shield",
+            "alts": [
+              "Talisman Shield"
+            ]
+          }
+        ],
+        "items": [
+          {
+            "item": "Elixir",
+            "why": "Heals 100",
+            "alts": [
+              "Concoction"
+            ]
+          }
+        ],
+        "arts": [
+          {
+            "name": "Raging Tempest",
+            "why": "Spear A: Mt +12, Hit +20 (Javelin in hand)"
+          },
+          {
+            "name": "Guard Spike",
+            "why": "Axe B: Mt +7, Prt +10"
+          },
+          {
+            "name": "Protective Storm",
+            "why": "Spear B: Mt +5, Prt +7"
+          },
+          {
+            "name": "Discerning Blow",
+            "why": "Axe C: Hit +50 finisher"
+          },
+          {
+            "name": "Armored Blow",
+            "why": "Spear C: Prt +3 after a kill"
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Intercept",
+            "why": "Castle Knight mastery: 5 less damage from every hit (once mastered)"
+          },
+          {
+            "name": "Focused Counter",
+            "why": "Hit +10 when attacked first"
+          },
+          {
+            "name": "Great Counter",
+            "why": "Atk +3 when attacked first"
+          },
+          {
+            "name": "Axes Lv. 3",
+            "why": "Axe B+: Hit/Avo +5 on counters; Lv. 4 (+7) at Axe A+"
+          },
+          {
+            "name": "Armored Move",
+            "why": "Heavy D: Mov +1 on a Mov 4 wall (untagged)"
+          }
+        ],
+        "training": [
+          {
+            "rank": "Heavy C, Axe A, Spear A",
+            "for": "Castle Knight (Lv 45, Master License)",
+            "how": "Battle use; Heavy-Armor Treatise (Cohen & Maria fleeing drop)"
+          }
+        ],
+        "tips": [
+          "Drake: Armored Move (Mov 5) keeps him with the rush; wall off the path, his counter kills spawn Envy",
+          "Wall in front of Olympia and Catania; Leda's Icewater++ on the enemy phase he can't hold alone",
+          "Mages: Hexlock for the Silver Shield; Olympia's Barrier beside him adds Res +3",
+          "Squad D in S6 (Trials): Greatsword +2 on golems and Giants"
+        ],
+        "drop": [
+          {
+            "item": "Brace",
+            "why": "Slot goes to Intercept"
+          }
+        ]
+      }
+    ],
+    "alt": "[[class:Great Knight]] in Part III (Credna's request; Heavy D, Riding D, Axe A, Spear A) keeps swords for a [[item:Cleansing Blade]], but grows Def 60 against Castle Knight's 75.",
+    "sources": [
+      "class-and-weapon-guide",
+      "class-data",
+      "character-learnsets",
+      "equippable-abilities",
+      "weapons-and-items",
+      "combat-arts-and-abilities",
+      "hard-mode-video-notes",
+      "walkthrough-part1-leda",
+      "part1-leda-path",
+      "part2-war",
+      "part3-salvation",
+      "redesign/11-roster-pass"
+    ],
+    "decisions": [
+      {
+        "topic": "Stay armored all through Part I",
+        "pick": "Soldier, Armored Knight, Dreadnought",
+        "why": "Armored Knight (Def +25) and Dreadnought (Def +30) are the Def rows. Every Specialty class he qualifies for grows Def 15 to 20 points slower, and Def is his job.",
+        "else": "Gladiator or Ornius Rider (the path guide's picks) if you want him mobile"
+      },
+      {
+        "topic": "Spend Part II Ch 1 in Guardian",
+        "pick": "Guardian on a free Part II Advanced License",
+        "why": "[[ability:Brace]] (Prt +3 after a kill) sits in his slots from Part II Ch 2 to Part III. Res grows 35% for those levels. The cost is one map as infantry.",
+        "else": "Back to Dreadnought after one map even if Brace hasn't shown"
+      },
+      {
+        "topic": "Counter with the Bronze Axe +4",
+        "pick": "Bronze Axe +4 in hand on enemy phase; Halberd +2 for armor and cavalry",
+        "why": "Common ores take it to +4 by Ch 6 to 8: Hit 70 (Shielding and Iron Axe 65), Def +1, Wt 9. Focused Counter (Hit +10) and the Archer's Ring push counters past 75. Part III: +5, Mt 25, Def +3.",
+        "else": "Halberd +2 in hand if axe counters show Hit under 75"
+      },
+      {
+        "topic": "Keep the Ch 9 fallback",
+        "pick": "Jasmine (Ch 6 recruit) as the armored stand-in",
+        "why": "One source has him join in Ch 1; the path guide only shows him defecting on Turn 1 of the Ch 9 Cai battle. If he isn't there before Ch 9, recruit Jasmine early and his exams slide one step back."
+      }
+    ],
+    "gates": [
+      {
+        "route": "Leda",
+        "from": {
+          "part": 1,
+          "ch": 1
+        },
+        "by": {
+          "part": 1,
+          "ch": 9
+        },
+        "kind": "recruit",
+        "text": "No Buccar before Ch 9: recruit Jasmine in Ch 6 as the armored stand-in"
+      },
+      {
+        "route": "Leda",
+        "from": {
+          "part": 1,
+          "ch": 5
+        },
+        "by": {
+          "part": 1,
+          "ch": 11
+        },
+        "kind": "rank",
+        "text": "Heavy D, Axe B, Spear B by Lv 35 (Ch 11): Arena Heavy course every week"
+      }
+    ],
+    "routeNotes": [
+      {
+        "system": "Supports",
+        "note": "Partners here: Leda, Sirocco, Mu, Olympia, Dadao, Jasmine, Ludia and Jester. Meal seat: Leda + Buccar + Olympia (all three pairs support)."
+      },
+      {
+        "system": "Drink Recipes (Leda's Songs)",
+        "note": "Icewater (Def/Res +4, +7 after Captain's Drink Recipes) on enemy phases he can't avoid; Abjuring is his undead answer in Ch 11 and Part III."
+      },
+      {
+        "system": "City exploration",
+        "note": "Arena Heavy course every week from Ch 5 (Spear, Axe, Heavy, Authority). Authority C also teaches [[ability:Rein]]: foe Avo −3 when adjacent."
+      }
+    ]
+  },
+  "sources": [
+    "https://fortunesweave.co.uk/characters/buccar",
+    "https://www.keengamer.com/articles/guides/fire-emblem-fortunes-weave-best-class-for-every-character/",
+    "https://www.keengamer.com/articles/guides/fire-emblem-fortunes-weave-tier-list-best-characters-ranked-for-every-route/",
+    "https://www.pockettactics.com/fire-emblem-fortunes-weave/tier-list"
+  ],
+  "recruitOn": {
+    "Dietrich": {
+      "how": "recruit",
+      "support": 3,
+      "renown": 8,
+      "task": "clear Leda's Paralogue"
+    },
+    "Theodora": {
+      "how": "recruit",
+      "support": 3,
+      "renown": 8
+    },
+    "Leda": {
+      "how": "auto"
+    }
+  }
+}

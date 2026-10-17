@@ -1,0 +1,331 @@
+{
+  "route": "Theodora",
+  "n": 3,
+  "decisions": [
+    {
+      "topic": "Squad C",
+      "pick": "Leda's own army: Leda, Olympia, Catania, Mu, Guzran, Esmeralda, Inyoni, Buccar",
+      "why": "Her Part I nine minus Sirocco: Dance targets (Guzran, Inyoni, Esmeralda), two Physic users and two walls. Their supports are already built.",
+      "alt": "Splitting Leda's army across A and B"
+    },
+    {
+      "topic": "Keys",
+      "pick": "All 5 keys this Section: B takes Giant's-Print Fort and Enno Isle, C takes Sand-Shadow Fort and Cougar Woodlands",
+      "why": "The Temple of the Diadem opens on Section 4's first day; holding all 5 then means 8 Divine exams in the first week. Heretics' Cave is B's from Section 2.",
+      "alt": "Leaving keys for Section 4 (Game8's fallback)"
+    },
+    {
+      "topic": "Shenlo",
+      "pick": "A's walls plus Lilian (in A this Section) and Catania from C; C launches",
+      "why": "Shenlo dodges and his reinforcements are Pegasi: Lilian's Bow Adept Hit lands, Catania flies down the carriers. C launching keeps A's turn for the remaining nodes.",
+      "alt": "Leda's squad alone (auto-leveled imports)"
+    },
+    {
+      "topic": "Trials",
+      "pick": "Credna's Trial in Section 4; Aurora, Jurah, Smyrnos, then Mars (one of the hard ones) in Section 5; Kalla's last in Section 6",
+      "why": "Trials can be retried and have no Game Over, but a Lv 40-something squad loses turns to them now. Credna's is the easiest.",
+      "alt": "Each Trial right after its request"
+    }
+  ],
+  "plan": [
+    {
+      "group": "Turn 1 · Dagsion",
+      "rows": [
+        {
+          "text": "Build squad C from Leda's army; Seteth takes Leda's seat in B, Lilian and Ultand swap A and B",
+          "squad": "C"
+        },
+        {
+          "text": "Deliver Arena II's 20 Building Materials as soon as you hold them (Inn II's 5 wait)"
+        },
+        {
+          "text": "Master exams for anyone who reached Lv 45 on the bench"
+        },
+        {
+          "text": "Arena (Divine pushes first): Tobias + Cai on Warrior, Cai + Theodora on Heavy and Mounted, Nuzzuo + Dietrich on Infantry, Sirocco + Troy on Mage",
+          "detail": [
+            "Only units in Dagsion train: end the week in Dagsion with these squads",
+            "Divine exams need 100%: Tobias Gauntlet/Axe/Sword S, Cai Axe/Spear/Sword S, Nuzzuo Sword S, Theodora Spear S"
+          ]
+        },
+        {
+          "text": "Fortuna's Section 3 scene near the Thermae: it starts the chain for Sections 4 and 5"
+        },
+        {
+          "text": "Refine first: Catania Iron Spear +4, Buccar and Esmeralda Shielding Axe +2, Guzran Da Mina Sword +2",
+          "detail": [
+            "Then Inyoni Da Mina Bow +2, Mu Iron Gauntlets +4, Leda Cleansing Blade +2",
+            "First Soulstones (queue): Guzran's and Dietrich's Da Mina Sword +3, Tobias's Zalmoxis +3"
+          ]
+        }
+      ]
+    },
+    {
+      "group": "Free Time · northwest",
+      "rows": [
+        {
+          "text": "Repair Smyrnos's Temple (1 Almamet); take the request",
+          "squad": "A"
+        },
+        {
+          "text": "No Fimbulvetr Night yet? Jurah's Temple teleport, ask the priest, teach Bonaventure before Iapetus",
+          "squad": "A"
+        },
+        {
+          "text": "Iapetus Cavern: Bonaventure puts out the flames at the waypoint; grab the Adamantine",
+          "squad": "A",
+          "detail": [
+            "High Savant unlocks",
+            "Leave a battalion on Iapetus: Cullet and Blue Snoll every turn"
+          ]
+        },
+        {
+          "text": "Leave a mage battalion on Iapetus Cavern: mage battalions gather more ore (Cullet, Blue Snoll)",
+          "squad": "A"
+        }
+      ]
+    },
+    {
+      "group": "Free Time · south",
+      "rows": [
+        {
+          "text": "Heretics' Cave key first if Section 2 missed it",
+          "squad": "B",
+          "task": true,
+          "id": "theodora-sal-s3-heretics"
+        },
+        {
+          "text": "Repair Aurora's Temple (1 Blue Ginji) via Callisto Posthouse",
+          "squad": "B"
+        },
+        {
+          "text": "Pick 5 Angelica at Starbirth Garden (Salacia Posthouse); Aurora asks once time passes",
+          "squad": "B",
+          "detail": [
+            "War Monk unlocks: Noctula's and Mu's class"
+          ]
+        },
+        {
+          "text": "Missing a horse in the Stable? Cai lures a Monoceros at Oleance Plains or a Ferghanan at Sunfall Path",
+          "squad": "B",
+          "detail": [
+            "Both rare, vegetables. Monoceros rolls Paired Healing (Nydine) or Paired Miracle (Hong Hua); Ferghanan rolls Canto"
+          ]
+        },
+        {
+          "text": "Key of the Diadem in Giant's-Print Fort (top level of the ruins, right of the rest stop)",
+          "squad": "B"
+        },
+        {
+          "text": "Key of the Diadem on Enno Isle (last opening of the path)",
+          "squad": "B"
+        }
+      ]
+    },
+    {
+      "group": "Free Time · desert and southwest",
+      "rows": [
+        {
+          "text": "Repair Credna's Temple (1 Lightstar); take the request",
+          "squad": "C"
+        },
+        {
+          "text": "Save, then Tarvos North Road into the desert: Credna's stone sparkles in Dragonbone Tangle",
+          "squad": "C",
+          "detail": [
+            "The sandstorm hides path lines; exit via Baina Oasis"
+          ]
+        },
+        {
+          "text": "Key in Sand-Shadow Fort: up the stairs, SE stairs, chest left of the square block",
+          "squad": "C"
+        },
+        {
+          "text": "Northern and Southern Passage, Palace of Sand: Warrior's Soulstone deposits for Part III refines and repairs",
+          "squad": "C"
+        },
+        {
+          "text": "Repair Baina Oasis and Zoste: Leda performs in both (last two Villages stops)",
+          "squad": "C"
+        },
+        {
+          "text": "Key in Cougar Woodlands: follow the lake to its end, then right",
+          "squad": "C"
+        },
+        {
+          "text": "Deliver it to Credna, then talk to him again: The Nameless becomes the Shining Spear",
+          "squad": "C",
+          "task": true,
+          "id": "theodora-sal-s3-shining-spear"
+        }
+      ]
+    },
+    {
+      "group": "Mission Time 2/26–3/6",
+      "rows": [
+        {
+          "text": "B guards Dagsion and clears the south nodes",
+          "squad": "B"
+        },
+        {
+          "text": "A takes the north nodes and loops to Tarvos; C uses the posthouses to the middle nodes",
+          "squad": "A"
+        },
+        {
+          "text": "A and C meet at the Tarvos gate; C launches Shenlo with the deploy below",
+          "squad": "C"
+        }
+      ]
+    }
+  ],
+  "missables": [
+    {
+      "id": "theodora-sal-s3-missables-boxes",
+      "kind": "item",
+      "text": "Shenlo map: four Smithy Box carriers flee northwest.",
+      "lose": "Da Mina, Craft, Iron and Bronze Smithy Boxes",
+      "recover": "None"
+    },
+    {
+      "id": "theodora-sal-s3-missables-credna",
+      "kind": "scene",
+      "text": "After Credna's request, talk to Credna again (unmarked): Shining Spear for Eshmel.",
+      "lose": "Shining Spear",
+      "recover": "Any time before 6/6 ?"
+    },
+    {
+      "id": "theodora-sal-s3-scene-fortuna",
+      "kind": "scene",
+      "text": "Fortuna's Section 3 scene near the Thermae: needed for the Section 4 and 5 scenes.",
+      "lose": "Fortuna's Sections 3 to 5 scenes",
+      "recover": "Replay the Section from the Obelisk Chamber ?",
+      "where": "Thermae"
+    }
+  ],
+  "joins": [
+    {
+      "unit": "Centurio",
+      "text": "Talk to him in Dagsion if you didn't in Section 2"
+    }
+  ],
+  "quests": [
+    {
+      "id": "smyrnoss-request",
+      "squad": "A",
+      "note": "Bonaventure with Fimbulvetr Night"
+    },
+    {
+      "id": "auroras-request",
+      "squad": "B",
+      "note": "Angelica at Starbirth Garden"
+    },
+    {
+      "id": "crednas-request",
+      "squad": "C",
+      "note": "Dragonbone Tangle; then talk to Credna again"
+    },
+    {
+      "id": "returned-flavors-of-the-capital",
+      "note": "5 Building Materials"
+    },
+    {
+      "id": "arena-reconstruction-effort-part-ii",
+      "note": "20 materials: buy in every repaired town"
+    },
+    {
+      "id": "dance-for-rebuilt-villages",
+      "squad": "C",
+      "note": "Zoste and Baina Oasis now; Port of Pandora in Section 4"
+    }
+  ],
+  "gates": [
+    {
+      "battle": "Battle vs. Shenlo",
+      "launch": "C",
+      "deploy": [
+        "Theodora",
+        "Ninae",
+        "Tobias",
+        "Sofia",
+        "Sirocco",
+        "Bonaventure",
+        "Lilian",
+        "Catania"
+      ],
+      "tips": [
+        {
+          "text": "March SE to NW along the top edge: terrain blocks infantry, reinforcements spawn sides and bottom"
+        },
+        {
+          "text": "Catania flies down the four box carriers heading NW; Lilian shoots the Pegasi"
+        },
+        {
+          "text": "Kill the Salamander user in the center with Sirocco before he reaches the line"
+        },
+        {
+          "text": "Shenlo dodges: open with magic or Tobias's arts; Eshmel adjacent strips his Boon"
+        }
+      ],
+      "blessings": [
+        {
+          "god": "Credna",
+          "lv": 2,
+          "why": "The miasma eats weapons and spell uses"
+        },
+        {
+          "god": "Mars",
+          "lv": 1,
+          "why": "Against the dodging boss"
+        }
+      ]
+    }
+  ],
+  "exitExtra": [
+    {
+      "text": "Five Keys of the Diadem in hand (Diadem tab)"
+    },
+    {
+      "text": "Smyrnos's, Aurora's and Credna's requests done; Shining Spear on Eshmel"
+    },
+    {
+      "text": "Arena II built; Divine candidates trained every week in Dagsion"
+    }
+  ],
+  "licenses": [
+    {
+      "unit": "Catania",
+      "to": "Sentinel",
+      "why": "Shenlo deploy, Balor west Physic; her endpoint"
+    },
+    {
+      "unit": "Inyoni",
+      "to": "Bow Adept",
+      "why": "Shenlo deploy: Hit vs the dodging boss and his Pegasi"
+    },
+    {
+      "unit": "Guzran",
+      "to": "Swordmaster",
+      "why": "Balor center striker: Astra and Sword Crit +7; Mars opened it"
+    },
+    {
+      "unit": "Olympia",
+      "to": "Wiseman",
+      "why": "Balor center healer: Magic Heal +15, Res +25 growth"
+    },
+    {
+      "unit": "Alexandra",
+      "to": "Celestial Trooper",
+      "why": "Lead flier through Hanno and Cohen; her endpoint"
+    },
+    {
+      "unit": "Dietrich",
+      "to": "Swordmaster",
+      "why": "Astra and Sword ranks toward The Blade's S"
+    },
+    {
+      "unit": "Cai",
+      "to": "Orichaldia",
+      "why": "Mov 8 and Fierce Spear; stays his class if The Cavalier's triple S lags"
+    }
+  ]
+}

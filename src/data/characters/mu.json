@@ -1,0 +1,1207 @@
+{
+  "name": "Mu",
+  "slug": "mu",
+  "epithet": "Young wanderer searching for her mother",
+  "faction": "Rose Tempest",
+  "homeRoute": "Leda",
+  "weapons": [
+    "Axe",
+    "Gauntlet",
+    "Sword"
+  ],
+  "preferred": [
+    "Axe",
+    "Brawling",
+    "White Magic",
+    "Sword"
+  ],
+  "personality": "Childlike and innocent, presenting as a boy to protect herself on the road.",
+  "story": "Mu (14-15 pre-timeskip) left home to find her missing mother, Mikaela, and met Leda along the way. She joins Leda's route automatically; on other routes she needs Support 3, 3x Glirmosa, and Renown 9+ (Cai/Theodora) or 7+ (Dietrich). She has a support with Mikaela.",
+  "personalSkill": {
+    "name": "Signs of Growth",
+    "effect": "Grants enhanced basic stat growth on each level-up. Lv 20: Warrior's Blood (stat boost per equipped weapon type); Lv 35: Warrior's Blood+."
+  },
+  "growths": {
+    "HP": 50,
+    "Str": 50,
+    "Mag": 25,
+    "Spd": 50,
+    "Dex": 50,
+    "Def": 40,
+    "Res": 30,
+    "Lck": 30,
+    "Cha": 40
+  },
+  "supports": [
+    "Cai",
+    "Leda",
+    "Buccar",
+    "Guzran",
+    "Lilian",
+    "Mikaela",
+    "Olympia",
+    "Peppe",
+    "Peter",
+    "Sirocco"
+  ],
+  "tiers": [
+    {
+      "source": "Pocket Tactics",
+      "tier": "A"
+    },
+    {
+      "source": "KeenGamer",
+      "tier": "S"
+    }
+  ],
+  "tierNotes": "Pocket Tactics: A. KeenGamer: S (Signs of Growth makes her one of the best physical spreads). fortunesweave.co.uk rates her ability 5/5.",
+  "recruit": {
+    "how": "auto",
+    "why": [
+      "Joins Leda's army with the story in Ch 1 (join class and level not documented): no Support or Renown to chase."
+    ]
+  },
+  "requirements": {
+    "Cai": "3S 9R",
+    "Dietrich": "3S 7R",
+    "Theodora": "3S 9R",
+    "Leda": "Auto"
+  },
+  "build": {
+    "role": "Dodge-tank brawler",
+    "path": [
+      "Gladiator",
+      "Pugilist",
+      "Brigand (Ch 7 to 8 side trip: Regroup)",
+      "Pugilist",
+      "Warrior (Part II Ch 1 to 2 side trip: Practiced Art)",
+      "Pugilist",
+      "War Monk"
+    ],
+    "part1Target": "Pugilist",
+    "part3Target": "War Monk",
+    "notes": "Pugilist is home (Spd 60, Def 50, Brawl Avo +3). Short trips for masteries only: Brigand for Regroup, Warrior for Practiced Art. Every rank to B from the Arena Warrior course. War Monk in Part III.",
+    "confidence": "medium"
+  },
+  "guide": {
+    "role": "Dodge tank and gauntlet striker",
+    "summary": "The army's dodge tank. Bait enemy phase with [[item:Wooden Gauntlets]] +5 and the [[item:Gale Ring]], and open each player phase with an art so [[ability:Attack, Get Back]] adds Avo +10. Signs of Growth boosts every level-up, so feed her kills early: she ends as a hard-hitting [[class:War Monk]] who heals after combat.",
+    "playstyle": "Stand on forests and forts at the front; check every forecast before ending her turn and keep a Physic healer in range. Sing Icewater over her only on enemy phases she can't dodge.",
+    "focus": [
+      "Spd",
+      "Str",
+      "HP"
+    ],
+    "keys": [
+      "Take [[class:Pugilist]] at Lv 20 in Ch 6 and keep it as her home class",
+      "Buy [[item:Wooden Gauntlets]] in Daimon (300G, by 5/28); refine to +5 in Ch 6",
+      "Open every attack with an art: [[ability:Attack, Get Back]] adds Avo +10",
+      "Seat her in the Arena Warrior course weekly: Gauntlet, Axe, Sword B by 11/27",
+      "Spend Ch 7 to 8 in [[class:Brigand]] for [[ability:Regroup]], then back to Pugilist"
+    ],
+    "watch": [
+      "Weight: Iron Gauntlets +4 3 + Gale Ring 2 = 5, no Spd from the gauntlets; Circles turns 4 + 2 = 6",
+      "Res: 30%. Avo works vs magic too, but a mage hit lands harder: check the forecast",
+      "Growth: Signs of Growth adds to each level-up (size ?), so she beats the printed rows",
+      "Inventory: 4 core (gauntlets, circles, ring, heal); Salamander and Juice for Part II Ch 5",
+      "Ddg: Avo isn't crit avoid. Miranilla Juice (Ddg +5) on crit-heavy boss maps"
+    ],
+    "stages": [
+      {
+        "when": "Ch 1 to 4 · join class not documented",
+        "from": {
+          "part": 1,
+          "ch": 1
+        },
+        "to": {
+          "part": 1,
+          "ch": 4
+        },
+        "level": "Join level ? to 5",
+        "class": "",
+        "kind": "core",
+        "mount": "No mount (infantry)",
+        "goal": "Punch every fight so Gauntlet climbs. Signs of Growth makes early levels worth more on her: feed her kills.",
+        "exit": "Gladiator exam at Lv 5 in Ch 5 (Gauntlet D, Axe D, Sword D).",
+        "masteries": [],
+        "weapons": [
+          {
+            "item": "Iron Gauntlets",
+            "why": "Mt 8, Hit 90, Wt 3: trains Gauntlet"
+          }
+        ],
+        "items": [
+          {
+            "item": "Vulnerary",
+            "why": "Heals 20: she fights in melee"
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Fists Lv. 1",
+            "why": "Gauntlet D+: gauntlet Hit +3 (once Gauntlet D+)"
+          },
+          {
+            "name": "Knightly Senses",
+            "why": "Riding D?: Avo +10 vs spears"
+          },
+          {
+            "name": "Read the Winds",
+            "why": "Flying D?: Avo +10 vs bows"
+          },
+          {
+            "name": "Dodge",
+            "why": "Infantry D?: Avo +5 vs bows and magic"
+          },
+          {
+            "name": "Narrow Defense",
+            "why": "Heavy D?: Shld +3 when attacked, 25%"
+          }
+        ],
+        "training": [
+          {
+            "rank": "Axe D, Sword D",
+            "for": "Gladiator (Ch 5)",
+            "how": "Arena Warrior course (Sword, Axe, Gauntlet), first week of Ch 5"
+          }
+        ],
+        "tips": [
+          "No Arena before Ch 5 and starting ranks are undocumented: equip the D abilities the menu shows, in this order"
+        ]
+      },
+      {
+        "when": "Ch 5",
+        "from": {
+          "part": 1,
+          "ch": 5
+        },
+        "to": {
+          "part": 1,
+          "ch": 5
+        },
+        "level": "Lv 5 to 20",
+        "class": "Gladiator",
+        "kind": "core",
+        "mount": "No mount (infantry)",
+        "goal": "HP and Str +10 rows; Gauntlet C for Pugilist. Give her the last hits: Signs of Growth.",
+        "exit": "Pugilist at Lv 20 once Renown 4 opens it (Ch 6), with Gauntlet C.",
+        "masteries": [
+          "Attack Basics"
+        ],
+        "weapons": [
+          {
+            "item": "Iron Gauntlets",
+            "why": "Main weapon: Mt 8, Hit 90, Wt 3"
+          }
+        ],
+        "items": [
+          {
+            "item": "Concoction",
+            "why": "Heals 40",
+            "alts": [
+              "Vulnerary"
+            ]
+          }
+        ],
+        "arts": [
+          {
+            "name": "Deal Death",
+            "why": "Gauntlet D: Mt +4, Crit +5"
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Attack Basics",
+            "why": "Gladiator mastery: Str +1 (once mastered)"
+          },
+          {
+            "name": "Fists Lv. 1",
+            "why": "Gauntlet D+: gauntlet Hit +3"
+          },
+          {
+            "name": "Knightly Senses",
+            "why": "Riding D (one Mounted week?): Avo +10 vs spears"
+          },
+          {
+            "name": "Read the Winds",
+            "why": "Flying D (same Mounted week?): Avo +10 vs bows"
+          },
+          {
+            "name": "Distraction",
+            "why": "Authority D (Mounted course): Hit -3 on adjacent foes"
+          }
+        ],
+        "training": [
+          {
+            "rank": "Gauntlet C",
+            "for": "Pugilist (Ch 6)",
+            "how": "Arena Warrior course every week, plus battle use"
+          },
+          {
+            "rank": "Axe C, Sword C",
+            "for": "Brigand trip (Ch 7)",
+            "how": "Arena Warrior course: no axe or sword in her hands"
+          },
+          {
+            "rank": "Riding D, Flying D, Authority D",
+            "for": "Knightly Senses, Read the Winds, Distraction",
+            "how": "1–2 Arena Mounted weeks? on the free seat beside Catania, after Gauntlet C"
+          }
+        ],
+        "tips": [
+          "Buy Wooden Gauntlets in Daimon now (300G, by 5/28): the Ch 6 Blacksmith takes them to +5"
+        ]
+      },
+      {
+        "when": "Ch 6 to 7",
+        "from": {
+          "part": 1,
+          "ch": 6
+        },
+        "to": {
+          "part": 1,
+          "ch": 7
+        },
+        "level": "Lv 20 to 26",
+        "class": "Pugilist",
+        "kind": "core",
+        "mount": "No mount (infantry)",
+        "goal": "Spd 60, Def 50 rows; master [[ability:Attack, Get Back]]. Warrior's Blood (Lv 20) follows the gauntlets.",
+        "exit": "Brigand once Attack, Get Back is mastered (Axe C, Sword C from the Arena).",
+        "masteries": [
+          "Attack, Get Back"
+        ],
+        "why": [
+          "Warrior's Blood adds stats by weapon type (which stats ?): keep gauntlets in hand"
+        ],
+        "weapons": [
+          {
+            "item": "Wooden Gauntlets +5",
+            "why": "Mt 11, Hit 90, Wt 1, Avo rising (?): common-ore dodge weapon",
+            "alts": [
+              "Iron Gauntlets"
+            ],
+            "plan": "Refine at the Blacksmith (Ch 6)"
+          },
+          {
+            "item": "Qiankun Circles",
+            "why": "Thrown gauntlets: range 1-2 counters, Wt 4"
+          }
+        ],
+        "equipment": [
+          {
+            "item": "Gale Ring",
+            "why": "Spd +3 at Wt 2 (community-reported)",
+            "slot": "Accessory",
+            "alts": [
+              "Phantom Ring"
+            ]
+          }
+        ],
+        "items": [
+          {
+            "item": "Concoction",
+            "why": "Heals 40",
+            "alts": [
+              "Vulnerary"
+            ]
+          }
+        ],
+        "arts": [
+          {
+            "name": "Feint",
+            "why": "Gauntlet C: Hit −50, then foe Avo −20 for its next combat"
+          },
+          {
+            "name": "Deal Death",
+            "why": "Gauntlet D: Mt +4, Crit +5"
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Warrior's Blood",
+            "why": "Personal Lv 20: stats by equipped weapon type"
+          },
+          {
+            "name": "Attack, Get Back",
+            "why": "Pugilist mastery: Avo +10 when she uses an art (once mastered)"
+          },
+          {
+            "name": "Fists Lv. 2",
+            "why": "Gauntlet C+: gauntlet Hit +5"
+          },
+          {
+            "name": "Knightly Senses",
+            "why": "Riding D: Avo +10 vs spears"
+          },
+          {
+            "name": "Read the Winds",
+            "why": "Flying D: Avo +10 vs bows"
+          }
+        ],
+        "training": [
+          {
+            "rank": "Gauntlet B, Axe B, Sword B",
+            "for": "Warrior stint (Part II Ch 1); Gauntlet B for War Monk",
+            "how": "Arena Warrior course every week to 11/27: Part II has no Arena"
+          }
+        ],
+        "checks": [
+          {
+            "stat": "Spd",
+            "at": "Lv 25 (Ch 7)",
+            "need": "Doubles Ch 7 Soldiers and Fighters with Wooden Gauntlets +5 and the Gale Ring on",
+            "why": "Damage and Avo both ride on the double. Signs of Growth usually beats the row",
+            "fix": [
+              "[[item:Gale Ring]] (Spd +3) over the Phantom Ring (Avo +5)",
+              "Skip the [[class:Brigand]] trip: Pugilist grows Spd 5 points faster",
+              "From Ch 9, Leda's Special Dance: Spd +3 for the phase"
+            ]
+          }
+        ],
+        "drop": [
+          {
+            "item": "Iron Gauntlets",
+            "why": "Replaced by the Wooden Gauntlets +5"
+          },
+          {
+            "item": "Dodge Gauntlets",
+            "why": "Skip: Wt 3 and rare-ore refine; Wooden +5 is Mt 11 at Wt 1"
+          },
+          {
+            "item": "Da Mina Gauntlets",
+            "why": "Wooden +5 matches Hit 90 and Mt; the slot stays open"
+          },
+          {
+            "item": "Attack Basics",
+            "why": "Warrior's Blood (Lv 20) takes the slot"
+          },
+          {
+            "item": "Fists Lv. 1",
+            "why": "Lv. 2 replaces it at Gauntlet C+"
+          },
+          {
+            "item": "Distraction",
+            "why": "Attack, Get Back: Avo +10 on every art"
+          }
+        ],
+        "tips": [
+          "Blacksmith: Wooden Gauntlets to +5 first (common ores)"
+        ]
+      },
+      {
+        "when": "Ch 7 to 8 · side trip",
+        "from": {
+          "part": 1,
+          "ch": 7
+        },
+        "to": {
+          "part": 1,
+          "ch": 8
+        },
+        "level": "Lv 26 to 30",
+        "class": "Brigand",
+        "kind": "detour",
+        "mount": "No mount (infantry)",
+        "goal": "Master [[ability:Regroup]]. Brigand keeps gauntlets, so Wooden Gauntlets +5 stay on; Spd row 55.",
+        "exit": "Back to Pugilist once Regroup is mastered, by Ch 9 at the latest.",
+        "masteries": [
+          "Regroup"
+        ],
+        "why": [
+          "Regroup stays in her slots to Part III; ranks aren't the reason, the Arena covers them",
+          "No axe in hand: Warrior's Blood keeps its gauntlet bonus"
+        ],
+        "weapons": [
+          {
+            "item": "Wooden Gauntlets +5",
+            "why": "Mt 11, Hit 90, Wt 1, Avo rising (?): common-ore dodge weapon",
+            "alts": [
+              "Iron Gauntlets"
+            ],
+            "plan": "Refine at the Blacksmith (Ch 6)"
+          },
+          {
+            "item": "Qiankun Circles",
+            "why": "Thrown gauntlets: range 1-2 counters, Wt 4"
+          }
+        ],
+        "equipment": [
+          {
+            "item": "Gale Ring",
+            "why": "Spd +3 at Wt 2 (community-reported)",
+            "slot": "Accessory",
+            "alts": [
+              "Phantom Ring"
+            ]
+          }
+        ],
+        "items": [
+          {
+            "item": "Concoction",
+            "why": "Heals 40",
+            "alts": [
+              "Vulnerary"
+            ]
+          }
+        ],
+        "arts": [
+          {
+            "name": "Feint",
+            "why": "Gauntlet C: Hit −50, then foe Avo −20 for its next combat"
+          },
+          {
+            "name": "Deal Death",
+            "why": "Gauntlet D: Mt +4, Crit +5"
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Regroup",
+            "why": "Brigand mastery: Avo +20 for the combat when a foe avoids her attack (once mastered)"
+          },
+          {
+            "name": "Warrior's Blood",
+            "why": "Personal Lv 20: stats by equipped weapon type"
+          },
+          {
+            "name": "Attack, Get Back",
+            "why": "Avo +10 when she uses an art"
+          },
+          {
+            "name": "Knightly Senses",
+            "why": "Riding D: Avo +10 vs spears"
+          },
+          {
+            "name": "Read the Winds",
+            "why": "Flying D: Avo +10 vs bows"
+          }
+        ],
+        "tips": [
+          "Brigand has no Brawl Avo +3; it comes back with Pugilist",
+          "Certified classes switch back for free at the Proctor or in Battle Prep"
+        ],
+        "drop": [
+          {
+            "item": "Fists Lv. 2",
+            "why": "Regroup takes the slot: Avo over Hit on the dodge tank"
+          }
+        ]
+      },
+      {
+        "when": "Ch 9 to 12",
+        "from": {
+          "part": 1,
+          "ch": 9
+        },
+        "to": {
+          "part": 1,
+          "ch": 12
+        },
+        "level": "Lv 30 to 36",
+        "class": "Pugilist",
+        "kind": "core",
+        "mount": "No mount (infantry)",
+        "goal": "Front-line bait for Ch 9 to 12. [[ability:Warrior's Blood+]] (Lv 35) grows the gauntlet bonus.",
+        "exit": "Stay into Part II; Warrior waits for Part II Ch 1's free License.",
+        "masteries": [],
+        "why": [
+          "Ch 11 undead: Pugilist has no sword; fight inside Leda's Song of Abjuring ring"
+        ],
+        "weapons": [
+          {
+            "item": "Wooden Gauntlets +5",
+            "why": "Mt 11, Hit 90, Wt 1, Avo rising (?): common-ore dodge weapon",
+            "alts": [
+              "Iron Gauntlets"
+            ],
+            "plan": "Refine at the Blacksmith (Ch 6)"
+          },
+          {
+            "item": "Qiankun Circles",
+            "why": "Thrown gauntlets: range 1-2 counters, Wt 4"
+          },
+          {
+            "item": "Salamander",
+            "why": "Magic-damage gauntlet, range 1-2: hits Res",
+            "situational": "Part II Ch 5 (Dagda: Res far below Def): held from 11/27, used only there",
+            "plan": "Sha Lan brings one (Ch 10 recruit)"
+          }
+        ],
+        "equipment": [
+          {
+            "item": "Gale Ring",
+            "why": "Spd +3 at Wt 2 (community-reported)",
+            "slot": "Accessory",
+            "alts": [
+              "Phantom Ring"
+            ]
+          }
+        ],
+        "items": [
+          {
+            "item": "Elixir",
+            "why": "Heals 100: dodge tank and Onager bait",
+            "alts": [
+              "Concoction"
+            ]
+          },
+          {
+            "item": "Miranilla Juice",
+            "why": "Shld +3, Ddg +5 for the map: Onager and Fire Orb bait",
+            "alts": [
+              "Dew of Protection"
+            ],
+            "situational": "Part II Ch 5 (Onager bait): open slot, stocked before 11/27",
+            "plan": "?"
+          }
+        ],
+        "arts": [
+          {
+            "name": "Battle Rush",
+            "why": "Gauntlet B: her follow-up lands before the counter"
+          },
+          {
+            "name": "Feint",
+            "why": "Gauntlet C: Hit −50, then foe Avo −20 for its next combat"
+          },
+          {
+            "name": "Deal Death",
+            "why": "Gauntlet D: Mt +4, Crit +5"
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Warrior's Blood+",
+            "why": "Personal Lv 35: bigger stat bonus by weapon type (Warrior's Blood before)"
+          },
+          {
+            "name": "Attack, Get Back",
+            "why": "Avo +10 when she uses an art"
+          },
+          {
+            "name": "Regroup",
+            "why": "Avo +20 for the combat when a foe avoids her attack"
+          },
+          {
+            "name": "Knightly Senses",
+            "why": "Riding D: Avo +10 vs spears"
+          },
+          {
+            "name": "Read the Winds",
+            "why": "Flying D: Avo +10 vs bows"
+          }
+        ],
+        "training": [
+          {
+            "rank": "Gauntlet B, Axe B, Sword B",
+            "for": "Warrior stint (Part II Ch 1)",
+            "how": "Arena Warrior course every week to 11/27"
+          },
+          {
+            "rank": "White Magic D",
+            "for": "War Monk (Part III)",
+            "how": "Arena Mage course on spare weeks"
+          }
+        ],
+        "checks": [
+          {
+            "stat": "Str",
+            "at": "Lv 32 (Ch 10)",
+            "need": "Two Wooden Gauntlet +5 hits kill Ch 10 archers and mages in the forecast",
+            "why": "She is the second striker on most maps; chip damage wastes her double",
+            "fix": [
+              "End her turn in Leda's Song of Passion ring (Str +4, +7 after Popular)",
+              "[[item:Counter Gauntlets]] (Atk +5 when attacked first) for enemy phase",
+              "Part II [[class:Warrior]] stint: Str +20 row"
+            ]
+          }
+        ],
+        "tips": [
+          "Part II brings only the 6 items she holds at 11/27: Elixir, Salamander, Juice"
+        ]
+      },
+      {
+        "when": "Part II Ch 1 to 2 · side trip",
+        "from": {
+          "part": 2,
+          "ch": 1
+        },
+        "to": {
+          "part": 2,
+          "ch": 2
+        },
+        "level": "Lv 37 to 40",
+        "class": "Warrior",
+        "kind": "detour",
+        "mount": "No mount (infantry)",
+        "goal": "Master [[ability:Practiced Art]] (Hit +10 on arts); HP and Str +20 rows meanwhile. Gauntlets stay on.",
+        "exit": "Back to Pugilist once Practiced Art is mastered, before Ch 5.",
+        "masteries": [
+          "Practiced Art"
+        ],
+        "why": [
+          "Practiced Art covers Feint's Hit −50 on every player phase, through Part III",
+          "Skip it if Axe or Sword missed B by 11/27: Part II has no Arena"
+        ],
+        "weapons": [
+          {
+            "item": "Wooden Gauntlets +5",
+            "why": "Mt 11, Hit 90, Wt 1, Avo rising (?): common-ore dodge weapon",
+            "alts": [
+              "Iron Gauntlets"
+            ],
+            "plan": "Refine at the Blacksmith (Ch 6)"
+          },
+          {
+            "item": "Qiankun Circles",
+            "why": "Thrown gauntlets: range 1-2 counters, Wt 4"
+          },
+          {
+            "item": "Salamander",
+            "why": "Magic-damage gauntlet, range 1-2: hits Res",
+            "situational": "Part II Ch 5 (Dagda): held from 11/27, used only there",
+            "plan": "Sha Lan brings one (Ch 10 recruit)"
+          }
+        ],
+        "equipment": [
+          {
+            "item": "Gale Ring",
+            "why": "Spd +3 at Wt 2 (community-reported)",
+            "slot": "Accessory",
+            "alts": [
+              "Phantom Ring"
+            ]
+          }
+        ],
+        "items": [
+          {
+            "item": "Elixir",
+            "why": "Heals 100: dodge tank and Onager bait",
+            "alts": [
+              "Concoction"
+            ]
+          },
+          {
+            "item": "Miranilla Juice",
+            "why": "Shld +3, Ddg +5 for the map: Onager and Fire Orb bait",
+            "alts": [
+              "Dew of Protection"
+            ],
+            "situational": "Part II Ch 5 (Onager bait): open slot, stocked before 11/27",
+            "plan": "?"
+          }
+        ],
+        "arts": [
+          {
+            "name": "Battle Rush",
+            "why": "Gauntlet B: her follow-up lands before the counter"
+          },
+          {
+            "name": "Feint",
+            "why": "Gauntlet C: Hit −50, then foe Avo −20 for its next combat"
+          },
+          {
+            "name": "Deal Death",
+            "why": "Gauntlet D: Mt +4, Crit +5"
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Practiced Art",
+            "why": "Warrior mastery: Hit +10 when attacking with an art (once mastered)"
+          },
+          {
+            "name": "Warrior's Blood+",
+            "why": "Personal Lv 35: bigger stat bonus by weapon type"
+          },
+          {
+            "name": "Attack, Get Back",
+            "why": "Avo +10 when she uses an art"
+          },
+          {
+            "name": "Regroup",
+            "why": "Avo +20 for the combat when a foe avoids her attack"
+          },
+          {
+            "name": "Read the Winds",
+            "why": "Flying D: Avo +10 vs Ch 2's Rangers"
+          }
+        ],
+        "tips": [
+          "Warrior: Mov 6 and Brawl Hit +5, but no Brawl Avo +3",
+          "Part II gives 5 Advanced Licenses every chapter; they don't stack"
+        ],
+        "drop": [
+          {
+            "item": "Knightly Senses",
+            "why": "Practiced Art takes it for the Warrior stint"
+          }
+        ]
+      },
+      {
+        "when": "Part II Ch 3 to 6",
+        "from": {
+          "part": 2,
+          "ch": 3
+        },
+        "to": {
+          "part": 2,
+          "ch": 6
+        },
+        "level": "Lv 40 to 42",
+        "class": "Pugilist",
+        "kind": "core",
+        "mount": "No mount (infantry)",
+        "goal": "Bait the Ch 5 Onager and Fire Orb at max range; the Salamander's magic hit takes Dagda's low Res.",
+        "exit": "Pugilist into Part III; [[class:War Monk]] in Section 4 (Aurora's request).",
+        "masteries": [],
+        "weapons": [
+          {
+            "item": "Wooden Gauntlets +5",
+            "why": "Mt 11, Hit 90, Wt 1, Avo rising (?): common-ore dodge weapon",
+            "alts": [
+              "Iron Gauntlets"
+            ],
+            "plan": "Refine at the Blacksmith (Ch 6)"
+          },
+          {
+            "item": "Qiankun Circles",
+            "why": "Thrown gauntlets: range 1-2 counters, Wt 4"
+          },
+          {
+            "item": "Salamander",
+            "why": "Magic-damage gauntlet, range 1-2: hits Res",
+            "situational": "Part II Ch 5 (Dagda): held from 11/27, used only there",
+            "plan": "Sha Lan brings one (Ch 10 recruit)"
+          }
+        ],
+        "equipment": [
+          {
+            "item": "Gale Ring",
+            "why": "Spd +3 at Wt 2 (community-reported)",
+            "slot": "Accessory",
+            "alts": [
+              "Phantom Ring"
+            ]
+          }
+        ],
+        "items": [
+          {
+            "item": "Elixir",
+            "why": "Heals 100: dodge tank and Onager bait",
+            "alts": [
+              "Concoction"
+            ]
+          },
+          {
+            "item": "Miranilla Juice",
+            "why": "Shld +3, Ddg +5 for the map: Onager and Fire Orb bait",
+            "alts": [
+              "Dew of Protection"
+            ],
+            "situational": "Part II Ch 5 (Onager bait): open slot, stocked before 11/27",
+            "plan": "?"
+          }
+        ],
+        "arts": [
+          {
+            "name": "Battle Rush",
+            "why": "Gauntlet B: her follow-up lands before the counter"
+          },
+          {
+            "name": "Feint",
+            "why": "Gauntlet C: Hit −50, then foe Avo −20 for its next combat"
+          },
+          {
+            "name": "Deal Death",
+            "why": "Gauntlet D: Mt +4, Crit +5"
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Warrior's Blood+",
+            "why": "Personal Lv 35: bigger stat bonus by weapon type"
+          },
+          {
+            "name": "Attack, Get Back",
+            "why": "Avo +10 when she uses an art"
+          },
+          {
+            "name": "Practiced Art",
+            "why": "Hit +10 when attacking with an art"
+          },
+          {
+            "name": "Regroup",
+            "why": "Avo +20 for the combat when a foe avoids her attack"
+          },
+          {
+            "name": "Knightly Senses",
+            "why": "Riding D: Avo +10 vs the Ch 4 Dragoons' spears"
+          }
+        ],
+        "drop": [
+          {
+            "item": "Read the Winds",
+            "why": "Knightly Senses for Ch 4's Dragoons (spears)"
+          }
+        ],
+        "tips": [
+          "Ch 5: park her at the Onager's farthest range so it wastes ammo",
+          "Ch 5 Golems drop Jamadhars +1"
+        ]
+      },
+      {
+        "when": "Part III Section 3 (Pugilist)",
+        "from": {
+          "part": 3,
+          "ch": 3
+        },
+        "to": {
+          "part": 3,
+          "ch": 3
+        },
+        "level": "Lv 42 to 45",
+        "class": "Pugilist",
+        "kind": "core",
+        "mount": "No mount (infantry)",
+        "goal": "Squad C's dodge tank on the desert maps: Iron Gauntlets +4 at Wt 3, Gale Ring Spd +3.",
+        "exit": "[[class:War Monk]] on Section 4's Master License (Gauntlet B, White D).",
+        "masteries": [],
+        "weapons": [
+          {
+            "item": "Iron Gauntlets +4",
+            "why": "Mt 20?, Hit 90, Avo up to +10 (at +5), Wt 3: the gold dodge weapon",
+            "alts": [
+              "Da Mina Gauntlets +2"
+            ],
+            "plan": "Soulstone for +3 and +4; Da Mina +2 until then"
+          },
+          {
+            "item": "Qiankun Circles +2",
+            "why": "Range 1-2 counters; Hit/Crit/Avo +10 at 2+ needs +3; Wt 4"
+          },
+          {
+            "item": "Salamander",
+            "why": "Magic-damage gauntlet, range 1-2: hits Res",
+            "situational": "Low-Res bosses: open slot",
+            "plan": "Sha Lan brings one (Ch 10 recruit)"
+          }
+        ],
+        "equipment": [
+          {
+            "item": "Gale Ring",
+            "why": "Spd +3 at Wt 2 (community-reported)",
+            "slot": "Accessory",
+            "alts": [
+              "Phantom Ring"
+            ]
+          }
+        ],
+        "items": [
+          {
+            "item": "Elixir",
+            "why": "Heals 100",
+            "alts": [
+              "Concoction"
+            ]
+          }
+        ],
+        "arts": [
+          {
+            "name": "Battle Rush",
+            "why": "Gauntlet B: her follow-up lands before the counter"
+          },
+          {
+            "name": "Feint",
+            "why": "Gauntlet C: Hit −50, then foe Avo −20 for its next combat"
+          },
+          {
+            "name": "Deal Death",
+            "why": "Gauntlet D: Mt +4, Crit +5"
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Warrior's Blood+",
+            "why": "Personal Lv 35: bigger stat bonus by weapon type"
+          },
+          {
+            "name": "Attack, Get Back",
+            "why": "Avo +10 when she uses an art"
+          },
+          {
+            "name": "Practiced Art",
+            "why": "Hit +10 when attacking with an art"
+          },
+          {
+            "name": "Fists Lv. 3",
+            "why": "Gauntlet B+: Hit/Avo +5 in every gauntlet combat"
+          },
+          {
+            "name": "Regroup",
+            "why": "Avo +20 for the combat when a foe avoids her attack"
+          }
+        ],
+        "training": [
+          {
+            "rank": "Gauntlet B, White Magic D",
+            "for": "War Monk (Lv 45, Master License, Aurora's request)",
+            "how": "Done from Part I's Arena"
+          }
+        ],
+        "drop": [
+          {
+            "item": "Wooden Gauntlets +5",
+            "why": "Wooden +4 is Mt ~6 without Soulstone; Iron Gauntlets +4 is the main"
+          },
+          {
+            "item": "Knightly Senses",
+            "why": "Fists Lv. 3: Avo +5 in every fight, not just vs spears"
+          },
+          {
+            "item": "Miranilla Juice",
+            "why": "Part II Ch 5 bait only"
+          }
+        ],
+        "tips": [
+          "Bait the desert maps' melee on enemy phase; Olympia and Catania Physic her from 10 tiles",
+          "Leda's Icewater++ covers her 30% Res row on mage-heavy turns",
+          "Teach Secrets Hidden Evilbreak before Section 4's first undead map (D-147)"
+        ]
+      },
+      {
+        "when": "Part III Section 4+ (War Monk)",
+        "from": {
+          "part": 3,
+          "ch": 4
+        },
+        "level": "Lv 45+",
+        "class": "War Monk",
+        "kind": "core",
+        "mount": "No mount (infantry)",
+        "goal": "Spd 65, Res 45 rows, doubled White Magic. Evilbreak strips the Boon; Strike and Heal patches after fights.",
+        "exit": "Final class.",
+        "masteries": [
+          "Strike and Heal"
+        ],
+        "why": [
+          "Underworld Boon: Hidden Evilbreak (Teach Secrets, S4) strips it on hit through the foe's next combat",
+          "Balor west runner in squad A: dodge the gate guards, Evilbreak a Boon foe for A's strikers",
+          "Weight: Iron Gauntlets +4 3 + Gale Ring 2 = 5, 2 over the weapon (dodger cap 3)"
+        ],
+        "weapons": [
+          {
+            "item": "Iron Gauntlets +4",
+            "why": "Mt 20?, Hit 90, Avo up to +10 (at +5), Wt 3: the gold dodge weapon",
+            "alts": [
+              "Da Mina Gauntlets +2"
+            ],
+            "plan": "Soulstone for +3 and +4; Da Mina +2 until then"
+          },
+          {
+            "item": "Qiankun Circles +2",
+            "why": "Range 1-2 counters; Hit/Crit/Avo +10 at 2+ needs +3; Wt 4"
+          },
+          {
+            "item": "Salamander",
+            "why": "Magic-damage gauntlet, range 1-2: hits Res",
+            "situational": "Low-Res bosses: open slot",
+            "plan": "Sha Lan brings one (Ch 10 recruit)"
+          }
+        ],
+        "equipment": [
+          {
+            "item": "Gale Ring",
+            "why": "Spd +3 at Wt 2: AS for the dodge tank",
+            "slot": "Accessory",
+            "alts": [
+              "Phantom Ring"
+            ]
+          }
+        ],
+        "items": [
+          {
+            "item": "Elixir",
+            "why": "Heals 100",
+            "alts": [
+              "Concoction"
+            ]
+          }
+        ],
+        "spells": [
+          {
+            "name": "Heal",
+            "why": "White D: Strike and Heal after every fight"
+          },
+          {
+            "name": "Regenera",
+            "why": "White B: from the Arena Mage course"
+          },
+          {
+            "name": "Warp",
+            "why": "White A?: War Monk's doubled casts train it in battle"
+          }
+        ],
+        "arts": [
+          {
+            "name": "Hidden Evilbreak",
+            "why": "Teach Secrets (S4): strips the Underworld Boon on hit"
+          },
+          {
+            "name": "Battle Rush",
+            "why": "Gauntlet B: her follow-up lands before the counter"
+          },
+          {
+            "name": "Feint",
+            "why": "Gauntlet C: Hit −50, then foe Avo −20 for its next combat"
+          },
+          {
+            "name": "Deal Death",
+            "why": "Gauntlet D: Mt +4, Crit +5"
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Strike and Heal",
+            "why": "War Monk mastery: assist magic after combat (once mastered)"
+          },
+          {
+            "name": "Warrior's Blood+",
+            "why": "Personal Lv 35: bigger stat bonus by weapon type"
+          },
+          {
+            "name": "Attack, Get Back",
+            "why": "Avo +10 when she uses an art"
+          },
+          {
+            "name": "Practiced Art",
+            "why": "Hit +10 on arts: Evilbreak must land to strip the Boon"
+          },
+          {
+            "name": "Fists Lv. 3",
+            "why": "Gauntlet B+: Hit/Avo +5; Fists Lv. 4 (+7) at Gauntlet A+"
+          }
+        ],
+        "training": [
+          {
+            "rank": "Gauntlet B, White Magic D",
+            "for": "War Monk (Lv 45, Master License, Aurora's request)",
+            "how": "Done from Part I's Arena"
+          },
+          {
+            "rank": "Gauntlet A",
+            "for": "Smyrnos's Channels",
+            "how": "Battle use: Arena seats bench first"
+          }
+        ],
+        "tips": [
+          "Balor west (A): run the gates with Catania; Evilbreak a Boon foe, then A's strikers kill it",
+          "Drake: Envy sets Avo to 0 vs higher levels, so don't bait; Warp a striker forward instead",
+          "Strike and Heal: after each fight, Heal or Regenera the striker she just opened for",
+          "[[class:The Godhand]] (Gauntlet S, White C) is hers only if Troy misses 100% (D-144)"
+        ],
+        "drop": [
+          {
+            "item": "Regroup",
+            "why": "Slot goes to Strike and Heal; Fists Lv. 3 keeps Avo in every fight"
+          }
+        ]
+      }
+    ],
+    "alt": "Staying Pugilist the whole way is fine: she loses Regroup and Practiced Art, not her role. [[class:The Godhand]] (Gauntlet S, White C) fits her in Part III if no other army holds it.",
+    "sources": [
+      "class-and-weapon-guide",
+      "class-data",
+      "character-learnsets",
+      "equippable-abilities",
+      "weapons-and-items",
+      "combat-arts-and-abilities",
+      "hard-mode-video-notes",
+      "walkthrough-part1-leda",
+      "part2-war",
+      "part3-salvation",
+      "redesign/11-roster-pass"
+    ],
+    "decisions": [
+      {
+        "topic": "Keep Pugilist as her home class",
+        "pick": "Pugilist, with short trips out for masteries",
+        "why": "Pugilist grows Spd 60, Def 50 and HP 65, adds Brawl Avo +3 and keeps her gauntlets. Warrior grows Spd 50 and Def 45, so she visits it only for Practiced Art.",
+        "else": "Warrior as home if you'd rather have HP and Str 70 than Avo"
+      },
+      {
+        "topic": "Take the Brigand trip for Regroup",
+        "pick": "Brigand, Ch 7 to 8, once Attack, Get Back is mastered",
+        "why": "[[ability:Regroup]] (Avo +20 for the combat when a foe avoids her attack) fires after Feint's Hit −50 misses and stays in her slots to Part III. Her ranks come from the Arena, not this trip.",
+        "else": "Skip it if the Pugilist mastery runs late; Attack Basics keeps the slot"
+      },
+      {
+        "topic": "Take a Part II Warrior stint",
+        "pick": "Warrior, Part II Ch 1 to 2, for Practiced Art",
+        "why": "[[ability:Practiced Art]] (Hit +10 on arts) covers Feint and Battle Rush on every player phase. Needs Gauntlet, Axe and Sword B by 11/27 from the Arena: Part II has none.",
+        "else": "Stay Pugilist if Axe or Sword misses B"
+      }
+    ],
+    "gates": [
+      {
+        "route": "Leda",
+        "from": {
+          "part": 1,
+          "ch": 5
+        },
+        "by": {
+          "part": 1,
+          "ch": 12
+        },
+        "kind": "rank",
+        "text": "Gauntlet, Axe, Sword B by 11/27 for the Part II Warrior stint: Arena Warrior course"
+      }
+    ],
+    "routeNotes": [
+      {
+        "system": "Supports",
+        "note": "Partners here: Leda, Sirocco, Buccar, Olympia, Guzran and Mikaela (filler). Meal seat: Leda + Mu + Guzran (all three pairs support)."
+      },
+      {
+        "system": "Drink Recipes (Leda's Songs)",
+        "note": "Icewater (Def/Res +4, +7 after Captain's) on enemy phases she can't dodge. She has no sword: undead go down inside Leda's Abjuring ring."
+      },
+      {
+        "system": "Perform Quests",
+        "note": "Wooden Gauntlets in Daimon (by 5/28); Qiankun Circles and the Gale Ring barter on the Dance for Alecto trip (Ch 7)."
+      },
+      {
+        "system": "City exploration",
+        "note": "Arena Warrior course every week from Ch 5 (Sword, Axe, Gauntlet); Mage course on spare weeks for White D."
+      }
+    ]
+  },
+  "sources": [
+    "https://fortunesweave.co.uk/characters/mu",
+    "https://www.keengamer.com/articles/guides/fire-emblem-fortunes-weave-best-class-for-every-character/",
+    "https://www.keengamer.com/articles/guides/fire-emblem-fortunes-weave-tier-list-best-characters-ranked-for-every-route/",
+    "https://www.pockettactics.com/fire-emblem-fortunes-weave/tier-list"
+  ],
+  "recruitOn": {
+    "Cai": {
+      "how": "recruit",
+      "support": 3,
+      "renown": 9,
+      "task": "3× Glirmosa (Pasithea trails)"
+    },
+    "Dietrich": {
+      "how": "recruit",
+      "support": 3,
+      "renown": 7
+    },
+    "Theodora": {
+      "how": "recruit",
+      "support": 3,
+      "renown": 9
+    },
+    "Leda": {
+      "how": "auto"
+    }
+  }
+}

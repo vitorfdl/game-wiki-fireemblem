@@ -1,0 +1,1841 @@
+{
+  "name": "Esmeralda",
+  "slug": "esmeralda",
+  "epithet": "Fisherman's daughter of Fina",
+  "faction": "House Lamine (Dagdan Empire)",
+  "homeRoute": "Dietrich",
+  "weapons": [
+    "Axe",
+    "Spear"
+  ],
+  "preferred": [
+    "Axe",
+    "Heavy",
+    "Spear"
+  ],
+  "avoid": [
+    "Sword"
+  ],
+  "personality": "Wild, physically strong fisher girl who loves fishing and food.",
+  "story": "A fisherman's daughter (father Sinza) from the coastal village of Fina in Dagda, she carries a Bloodmark that Dagda's gods do not recognise. She joins automatically on Dietrich's route; on Cai, Theodora and Leda routes she must be recruited after her Cape Damasen quest.",
+  "personalSkill": {
+    "name": "Brawn",
+    "effect": "Equipment weight reduced to 80%. Lv20: Throwing Arm (Hit+10, Atk+2 when throwing spears); Lv35: Throwing Arm+ (Hit+20, Atk+4)."
+  },
+  "growths": {
+    "HP": 55,
+    "Str": 55,
+    "Mag": 20,
+    "Spd": 35,
+    "Dex": 35,
+    "Def": 45,
+    "Res": 25,
+    "Lck": 35,
+    "Cha": 30
+  },
+  "supports": [
+    "Cai",
+    "Diego",
+    "Dietrich",
+    "Fabio",
+    "Lysander",
+    "Mikaela",
+    "Eshmel",
+    "Dadao",
+    "Ludia",
+    "Leda",
+    "Kiroc"
+  ],
+  "tiers": [
+    {
+      "source": "Pocket Tactics",
+      "tier": "S"
+    },
+    {
+      "source": "KeenGamer",
+      "tier": "A"
+    }
+  ],
+  "tierNotes": "Pocket Tactics S; KeenGamer A (durable frontliner).",
+  "recruit": {
+    "how": "auto",
+    "why": [
+      "Joins Dietrich's army automatically, so there's no Support or Renown to chase."
+    ]
+  },
+  "requirements": {
+    "Cai": "3S 7R",
+    "Dietrich": "Auto",
+    "Theodora": "3S 9R",
+    "Leda": "3S 6R"
+  },
+  "build": {
+    "role": "Thrown-spear armored tank",
+    "path": [
+      "Soldier",
+      "Armored Knight",
+      "Dreadnought"
+    ],
+    "part1Target": "Dreadnought",
+    "part3Target": "Castle Knight",
+    "notes": "Soldier in Ch 5, Armored Knight in Ch 6 (Heavy E+, Axe C, Spear C). Dreadnought in Ch 10 at Renown 8, Lv 35 (Heavy D, Axe B, Spear B). Throw spears for Throwing Arm+ (Hit +20, Atk +4 at Lv 35); Grasitha is hers. Master Great Counter, then Focused Counter. Res is very low: keep her away from mages and next to a Bishop.",
+    "confidence": "high"
+  },
+  "guide": {
+    "summary": "Thrown-spear armored tank. Brawn cuts her gear weight to 80% and Throwing Arm boosts thrown spears, so she fights at range 1 to 2 with Grasitha and holds lines. Her Res is poor: give her a Hexlock Shield and a Bishop neighbor.",
+    "stages": [
+      {
+        "when": "Ch 2 to 3 · no class yet",
+        "from": {
+          "part": 1,
+          "ch": 2
+        },
+        "to": {
+          "part": 1,
+          "ch": 3
+        },
+        "class": "",
+        "training": [],
+        "weapons": [
+          {
+            "item": "Sinza's Trident"
+          }
+        ],
+        "equipment": [],
+        "items": [
+          {
+            "item": "Vulnerary",
+            "why": "20 HP x3"
+          }
+        ],
+        "arts": [
+          {
+            "name": "Brute Throw",
+            "why": "Sinza's Trident art, Mt +10, Hit +10 at range 2"
+          },
+          {
+            "name": "Tempest Spear",
+            "why": "Hit +10; Spear D per community sheet"
+          },
+          {
+            "name": "Spike",
+            "why": "Hit +10 axe art; Axe D per community sheet"
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Spears Lv. 1",
+            "why": "Hit +3 with spears (Spear D+)"
+          }
+        ],
+        "goal": "Joins in Ch 2 with Sinza's Trident: hold the line beside Dietrich, Fabio behind.",
+        "exit": "Ch 4: Iron Shield from the Qualifier's northwest chest"
+      },
+      {
+        "when": "Ch 4 · no class yet",
+        "from": {
+          "part": 1,
+          "ch": 4
+        },
+        "to": {
+          "part": 1,
+          "ch": 4
+        },
+        "class": "",
+        "training": [],
+        "weapons": [
+          {
+            "item": "Sinza's Trident"
+          },
+          {
+            "item": "Iron Axe"
+          }
+        ],
+        "equipment": [
+          {
+            "item": "Iron Shield",
+            "slot": "Defense",
+            "alts": [
+              "Bronze Shield"
+            ]
+          }
+        ],
+        "items": [
+          {
+            "item": "Vulnerary",
+            "why": "20 HP x3"
+          }
+        ],
+        "arts": [
+          {
+            "name": "Brute Throw",
+            "why": "Sinza's Trident art, Mt +10, Hit +10 at range 2"
+          },
+          {
+            "name": "Tempest Spear",
+            "why": "Hit +10; Spear D per community sheet"
+          },
+          {
+            "name": "Spike",
+            "why": "Hit +10 axe art; Axe D per community sheet"
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Spears Lv. 1",
+            "why": "Hit +3 with spears (Spear D+)"
+          }
+        ],
+        "goal": "Iron Shield from the Qualifier chest and an Iron Axe from the Dagsion Armory.",
+        "exit": "Ch 5: Soldier on a Beginner License at the class tutorial"
+      },
+      {
+        "when": "Ch 5 (Beginner)",
+        "from": {
+          "part": 1,
+          "ch": 5
+        },
+        "to": {
+          "part": 1,
+          "ch": 5
+        },
+        "class": "Soldier",
+        "training": [
+          {
+            "rank": "Axe C, Spear C, Heavy E+",
+            "for": "Armored Knight exam",
+            "how": "Arena Heavy Training (covers Spear, Axe, Heavy) from Ch 5"
+          }
+        ],
+        "weapons": [
+          {
+            "item": "Sinza's Trident"
+          },
+          {
+            "item": "Javelin"
+          },
+          {
+            "item": "Iron Axe"
+          }
+        ],
+        "equipment": [
+          {
+            "item": "Iron Shield",
+            "slot": "Defense",
+            "alts": [
+              "Bronze Shield"
+            ]
+          }
+        ],
+        "items": [
+          {
+            "item": "Vulnerary",
+            "why": "20 HP x3"
+          }
+        ],
+        "arts": [
+          {
+            "name": "Brute Throw",
+            "why": "Sinza's Trident art, Mt +10, Hit +10 at range 2"
+          },
+          {
+            "name": "Tempest Spear",
+            "why": "Hit +10; Spear D per community sheet"
+          },
+          {
+            "name": "Spike",
+            "why": "Hit +10 axe art; Axe D per community sheet"
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Defense Basics",
+            "why": "Soldier mastery, Def +1, once mastered"
+          },
+          {
+            "name": "Spears Lv. 1",
+            "why": "Hit +3 with spears (Spear D+)"
+          }
+        ],
+        "goal": "Brawn (gear weight x0.8) is always on: Sinza's Trident 16 + Iron Shield 4 counts as 16, so she can hold the heavy trident and shield.",
+        "exit": "Renown 4, Lv 20, Heavy E+, Axe C, Spear C (Ch 6): Armored Knight exam"
+      },
+      {
+        "when": "Ch 6 to 9 (Specialty)",
+        "from": {
+          "part": 1,
+          "ch": 6
+        },
+        "to": {
+          "part": 1,
+          "ch": 9
+        },
+        "class": "Armored Knight",
+        "training": [
+          {
+            "rank": "Heavy D, Axe B, Spear B",
+            "for": "Dreadnought exam (Renown 8, Lv 35)",
+            "how": "Arena Heavy Training; Heavy-Armor Manual from Nemea Cavern (Ch 9)"
+          }
+        ],
+        "tips": [
+          "Ch 7 (due 6/15): Catching Sweetie's Eye, give her a Mature Blush for the Sea-Spirit Charm",
+          "Ch 8: Grasitha drops from Cetus"
+        ],
+        "weapons": [
+          {
+            "item": "Sinza's Trident"
+          },
+          {
+            "item": "Halberd",
+            "why": "Effective vs cavalry and armor",
+            "situational": "Ch 7 Twin Jewels (cavalry) or armor-heavy maps: open slot"
+          },
+          {
+            "item": "Iron Axe",
+            "why": "Spike and Wild Abandon"
+          }
+        ],
+        "equipment": [
+          {
+            "item": "Hexlock Shield",
+            "slot": "Defense",
+            "alts": [
+              "Talisman Shield",
+              "Iron Shield"
+            ]
+          },
+          {
+            "item": "Giant's Ring",
+            "why": "Bld +4 offsets 4 weight; Avo -20 barely matters on an armor",
+            "alts": [
+              "Archer's Ring"
+            ],
+            "slot": "Accessory"
+          }
+        ],
+        "items": [
+          {
+            "item": "Concoction",
+            "why": "40 HP x2",
+            "alts": [
+              "Vulnerary"
+            ]
+          },
+          {
+            "item": "Antitoxin",
+            "why": "Cures Poison, immune 3 turns",
+            "alts": [
+              "Vulnerary"
+            ],
+            "situational": "Ch 9 Leda's Paralogue (poison): open slot"
+          }
+        ],
+        "arts": [
+          {
+            "name": "Brute Throw",
+            "why": "Sinza's Trident art, Mt +10, Hit +10 at range 2"
+          },
+          {
+            "name": "Focused Throw",
+            "why": "Hit +20 at range 2; Spear C per community sheet"
+          },
+          {
+            "name": "Hidden Windpierce",
+            "why": "Il-Lara (Dione Fort, Renown 6, Ch 8), then Teach Secrets. Hit +20 vs foes 4+ AS faster, which is most foes"
+          },
+          {
+            "name": "Wild Abandon",
+            "why": "Mt +8, Hit -30; Axe C per community sheet. Only on slow targets"
+          },
+          {
+            "name": "Spike",
+            "why": "Hit +10 axe art; Axe D per community sheet"
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Throwing Arm",
+            "why": "Personal Lv 20 ability: If throwing a spear, grants Hit+10, Atk+2 during combat"
+          },
+          {
+            "name": "Great Counter",
+            "why": "Master it here: Atk +3 when the foe attacks first"
+          },
+          {
+            "name": "Defense Basics",
+            "why": "Def +1"
+          },
+          {
+            "name": "Spears Lv. 2",
+            "why": "Hit +5 with spears (Spear C+); Spears Lv. 1 until then"
+          }
+        ],
+        "drop": [
+          {
+            "item": "Iron Shield",
+            "why": "Hexlock Shield takes the shield slot; her Res is the weak spot"
+          },
+          {
+            "item": "Tempest Spear",
+            "why": "Focused Throw and Hidden Windpierce cover Hit"
+          },
+          {
+            "item": "Javelin",
+            "why": "Sinza's Trident already throws at 1-2 (Brute Throw, Throwing Arm)"
+          },
+          {
+            "item": "Iron Spear",
+            "why": "Sinza's Trident covers range 1 and 2"
+          }
+        ],
+        "goal": "Throwing Arm (Lv 20): thrown spears at range 2 get Hit +10, Atk +2, so counter at range 2 with Sinza's Trident or a Javelin; Great Counter adds Atk +3 when she's attacked.",
+        "exit": "Renown 8, Lv 35, Heavy D, Axe B, Spear B (Ch 10): Dreadnought exam"
+      },
+      {
+        "when": "Ch 10 to 12 (Advanced)",
+        "from": {
+          "part": 1,
+          "ch": 10
+        },
+        "to": {
+          "part": 1,
+          "ch": 12
+        },
+        "class": "Dreadnought",
+        "tips": [
+          "Grasitha Wt 14 drops to about 11 with Brawn",
+          "Park Yang Jie or Dante next to her for Barrier (Res +3)"
+        ],
+        "weapons": [
+          {
+            "item": "Grasitha",
+            "alts": [
+              "Pilum",
+              "Sinza's Trident"
+            ]
+          },
+          {
+            "item": "Pilum",
+            "why": "Second 1-2 throw for art-heavy turns; Grasitha backup",
+            "plan": "Theodora's Paralogue, Ch 9 (9/3 to 9/12)"
+          },
+          {
+            "item": "Iron Axe",
+            "why": "Axe for Guard Spike"
+          }
+        ],
+        "equipment": [
+          {
+            "item": "Hexlock Shield",
+            "slot": "Defense",
+            "alts": [
+              "Talisman Shield",
+              "Iron Shield"
+            ]
+          },
+          {
+            "item": "Giant's Ring",
+            "why": "Bld +4 offsets 4 weight; Avo -20 barely matters on an armor",
+            "alts": [
+              "Archer's Ring"
+            ],
+            "slot": "Accessory"
+          }
+        ],
+        "items": [
+          {
+            "item": "Elixir",
+            "why": "100 HP: front-line tank",
+            "alts": [
+              "Concoction"
+            ]
+          },
+          {
+            "item": "Pure Water",
+            "why": "Res +10, -2 per turn",
+            "situational": "Ch 10 Anatolia battle (Nezha's mages): swap for the Pilum"
+          },
+          {
+            "item": "Concoction",
+            "why": "Part II stock",
+            "alts": [
+              "Vulnerary"
+            ],
+            "situational": "Ch 12 Mars on, Part II stock: takes the Pilum's slot (Pilum waits for Part III)"
+          }
+        ],
+        "arts": [
+          {
+            "name": "Leave No Dust",
+            "why": "Grasitha, Esmeralda only; effect not documented"
+          },
+          {
+            "name": "Double Throw",
+            "why": "2 hits at range 2, Hit -30; Spear B per community sheet. Throwing Arm+ offsets the penalty"
+          },
+          {
+            "name": "Focused Throw",
+            "why": "Hit +20 at range 2; Spear C per community sheet"
+          },
+          {
+            "name": "Hidden Windpierce",
+            "why": "Il-Lara (Dione Fort, Renown 6, Ch 8), then Teach Secrets. Hit +20 vs foes 4+ AS faster, which is most foes"
+          },
+          {
+            "name": "Guard Spike",
+            "why": "Prt +10 in combat; Axe B per community sheet"
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Focused Counter",
+            "why": "Dreadnought mastery, Hit +10 when hit first, once mastered"
+          },
+          {
+            "name": "Throwing Arm+",
+            "why": "Personal Lv 35 ability: If throwing a spear, grants Hit+20, Atk+4 during combat"
+          },
+          {
+            "name": "Great Counter",
+            "why": "Atk +3 on enemy phase"
+          },
+          {
+            "name": "Defense Basics",
+            "why": "Def +1"
+          },
+          {
+            "name": "Spears Lv. 2",
+            "why": "Hit +5 with spears"
+          }
+        ],
+        "drop": [
+          {
+            "item": "Javelin",
+            "why": "Replaced by the Short Spear"
+          },
+          {
+            "item": "Halberd",
+            "why": "Grasitha covers cavalry; Goliath's Hammer covers armor"
+          },
+          {
+            "item": "Iron Spear",
+            "why": "Replaced by Grasitha"
+          },
+          {
+            "item": "Wild Abandon",
+            "why": "Slot goes to Guard Spike"
+          },
+          {
+            "item": "Spike",
+            "why": "Slot goes to Double Throw"
+          },
+          {
+            "item": "Short Spear",
+            "why": "Grasitha and the Pilum already throw at 1-2"
+          },
+          {
+            "item": "Sinza's Trident",
+            "why": "Grasitha throws harder; storage until Part III"
+          },
+          {
+            "item": "Brute Throw",
+            "why": "Needs Sinza's Trident, now in storage"
+          }
+        ],
+        "goal": "Throwing Arm+ (Lv 35): Hit +20, Atk +4 on throws: fight at range 2 with Grasitha or the Pilum on both phases; Brawn keeps the kit at 80% weight.",
+        "exit": "Stay Dreadnought into Part II: Great Counter, then Focused Counter"
+      },
+      {
+        "when": "Part II",
+        "from": {
+          "part": 2
+        },
+        "class": "Dreadnought",
+        "tips": [
+          "Equip Grasitha and the Hexlock Shield before leaving Part I",
+          "Ch 3: hold an alley chokepoint",
+          "Mages delete Dreadnoughts (video): let Fabio or Kiroc handle them first"
+        ],
+        "weapons": [
+          {
+            "item": "Grasitha",
+            "alts": [
+              "Pilum",
+              "Sinza's Trident"
+            ]
+          },
+          {
+            "item": "Iron Axe",
+            "why": "Axe for Guard Spike"
+          }
+        ],
+        "equipment": [
+          {
+            "item": "Hexlock Shield",
+            "slot": "Defense",
+            "alts": [
+              "Talisman Shield",
+              "Iron Shield"
+            ]
+          },
+          {
+            "item": "Giant's Ring",
+            "why": "Bld +4 offsets 4 weight; Avo -20 barely matters on an armor",
+            "alts": [
+              "Archer's Ring"
+            ],
+            "slot": "Accessory"
+          }
+        ],
+        "items": [
+          {
+            "item": "Elixir",
+            "why": "100 HP",
+            "plan": "Carried from Ch 12 (no shops in Part II)"
+          },
+          {
+            "item": "Concoction",
+            "why": "40 HP x2",
+            "plan": "Carried from Ch 12 (no shops in Part II)"
+          }
+        ],
+        "arts": [
+          {
+            "name": "Leave No Dust",
+            "why": "Grasitha, Esmeralda only; effect not documented"
+          },
+          {
+            "name": "Double Throw",
+            "why": "2 hits at range 2, Hit -30; Spear B per community sheet. Throwing Arm+ offsets the penalty"
+          },
+          {
+            "name": "Focused Throw",
+            "why": "Hit +20 at range 2; Spear C per community sheet"
+          },
+          {
+            "name": "Hidden Windpierce",
+            "why": "Il-Lara (Dione Fort, Renown 6, Ch 8), then Teach Secrets. Hit +20 vs foes 4+ AS faster, which is most foes"
+          },
+          {
+            "name": "Guard Spike",
+            "why": "Prt +10 in combat; Axe B per community sheet"
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Throwing Arm+",
+            "why": "Personal Lv 35 ability: If throwing a spear, grants Hit+20, Atk+4 during combat"
+          },
+          {
+            "name": "Focused Counter",
+            "why": "Dreadnought mastery, Hit +10 when hit first"
+          },
+          {
+            "name": "Great Counter",
+            "why": "Atk +3 on enemy phase"
+          },
+          {
+            "name": "Defense Basics",
+            "why": "Def +1"
+          },
+          {
+            "name": "Spears Lv. 2",
+            "why": "Hit +5 with spears"
+          }
+        ],
+        "goal": "Throwing Arm+ (Lv 35): Hit +20, Atk +4 on throws: fight at range 2 with Grasitha or the Pilum on both phases; Brawn keeps the kit at 80% weight.",
+        "drop": [
+          {
+            "item": "Pilum",
+            "why": "Left in storage at Ch 12 for the Concoction; back in Part III"
+          },
+          {
+            "item": "Short Spear",
+            "why": "Left in storage; Part II hands out Iron +3 weapons"
+          },
+          {
+            "item": "Sinza's Trident",
+            "why": "Left in storage until Part III"
+          },
+          {
+            "item": "Brute Throw",
+            "why": "Needs Sinza's Trident, left in storage"
+          }
+        ],
+        "exit": "Part III: Castle Knight"
+      },
+      {
+        "when": "Part III goal",
+        "from": {
+          "part": 3
+        },
+        "class": "Castle Knight",
+        "training": [
+          {
+            "rank": "Heavy C, Axe A, Spear A",
+            "for": "Castle Knight (Lv 45, Master License)",
+            "how": "Arena Heavy Training"
+          }
+        ],
+        "weapons": [
+          {
+            "item": "Grasitha",
+            "alts": [
+              "Pilum",
+              "Sinza's Trident"
+            ]
+          },
+          {
+            "item": "Pilum",
+            "plan": "Theodora's Paralogue, Ch 9 (9/3 to 9/12)"
+          },
+          {
+            "item": "Iron Axe",
+            "why": "Axe for Guard Spike and Wild Abandon"
+          }
+        ],
+        "equipment": [
+          {
+            "item": "Silver Shield",
+            "why": "Def +5: Cloth of Aurora now covers Res",
+            "alts": [
+              "Hexlock Shield"
+            ],
+            "slot": "Defense"
+          },
+          {
+            "item": "Giant's Ring",
+            "slot": "Accessory",
+            "why": "Giant's Ring: Theodora holds the Cloth of Aurora"
+          }
+        ],
+        "items": [
+          {
+            "item": "Elixir",
+            "why": "100 HP: front-line tank",
+            "alts": [
+              "Concoction"
+            ]
+          }
+        ],
+        "arts": [
+          {
+            "name": "Leave No Dust",
+            "why": "Grasitha, Esmeralda only; effect not documented"
+          },
+          {
+            "name": "Double Throw",
+            "why": "2 hits at range 2, Hit -30; Spear B per community sheet. Throwing Arm+ offsets the penalty"
+          },
+          {
+            "name": "Focused Throw",
+            "why": "Hit +20 at range 2; Spear C per community sheet"
+          },
+          {
+            "name": "Hidden Windpierce",
+            "why": "Il-Lara (Dione Fort, Renown 6, Ch 8), then Teach Secrets. Hit +20 vs foes 4+ AS faster, which is most foes"
+          },
+          {
+            "name": "Guard Spike",
+            "why": "Prt +10 in combat; Axe B per community sheet"
+          },
+          {
+            "name": "Wild Abandon",
+            "why": "Back in with the third Castle Knight slot; slow targets only"
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Intercept",
+            "why": "Castle Knight mastery; -5 damage taken, once mastered"
+          },
+          {
+            "name": "Throwing Arm+",
+            "why": "Personal Lv 35 ability: If throwing a spear, grants Hit+20, Atk+4 during combat"
+          },
+          {
+            "name": "Focused Counter",
+            "why": "Dreadnought mastery, Hit +10 when hit first"
+          },
+          {
+            "name": "Great Counter",
+            "why": "Atk +3 on enemy phase"
+          },
+          {
+            "name": "Defense Basics",
+            "why": "Def +1"
+          }
+        ],
+        "drop": [
+          {
+            "item": "Pure Water",
+            "why": "Cloth of Aurora and the Hexlock Shield cover Res"
+          },
+          {
+            "item": "Short Spear",
+            "why": "Grasitha and the Pilum already throw at 1-2"
+          },
+          {
+            "item": "Sinza's Trident",
+            "why": "Grasitha out-throws it"
+          },
+          {
+            "item": "Brute Throw",
+            "why": "Needs Sinza's Trident, now in storage"
+          }
+        ],
+        "goal": "Throwing Arm+ (Lv 35): Hit +20, Atk +4 on throws: fight at range 2 with Grasitha or the Pilum on both phases; Brawn keeps the kit at 80% weight.",
+        "exit": "Final class."
+      }
+    ],
+    "arts": [
+      {
+        "name": "Focused Throw",
+        "why": "Accurate range 2 hit"
+      },
+      {
+        "name": "Hidden Windpierce",
+        "why": "Hit +20 thrown spear"
+      },
+      {
+        "name": "Leave No Dust",
+        "why": "Personal via Grasitha"
+      },
+      {
+        "name": "Brute Throw",
+        "why": "Sinza's Trident"
+      }
+    ],
+    "abilities": [
+      {
+        "name": "Focused Counter",
+        "why": "Enemy-phase Hit"
+      },
+      {
+        "name": "Great Counter",
+        "why": "Enemy-phase Atk"
+      },
+      {
+        "name": "Defense Basics",
+        "why": "Def +1"
+      }
+    ],
+    "specials": [
+      "Grasitha: Hero's Relic, Mt 14, Hit 75, Wt 14, range 1 to 2; Esmeralda only for Leave No Dust",
+      "Sinza's Trident: her father's trident, Mt 10, Wt 16, range 1 to 2, grants Brute Throw",
+      "Sea-Spirit Charm from Catching Sweetie's Eye (Dietrich-only, due 6/15); effect not documented",
+      "Bloodmark: Diadem of Valor (x1.5 damage, 3%)",
+      "Avoids Sword"
+    ],
+    "sources": [
+      "class plan v3",
+      "weapons-and-items",
+      "combat-arts-and-abilities",
+      "character-learnsets",
+      "class-data",
+      "hard-mode video notes",
+      "Dietrich Ch 4 to 9 walkthrough",
+      "dungeons file",
+      "Part III walkthrough"
+    ],
+    "watch": [
+      "Armored tank: she doesn't need to double, so heavy kits are fine. Grasitha 14 + Hexlock Shield 4 = 18, about 14 after Brawn; the Giant's Ring (Wt 0, Bld +4) takes the penalty down by 4. Sinza's Trident 16 + shield is about 16 after Brawn.",
+      "Part III: Grasitha 14 + Silver Shield 4 + Cloth of Aurora 5 = 23, about 18 after Brawn: she will be doubled by fast foes, which the Def and Res cover.",
+      "6/6 from Ch 10: Pure Water (mage maps) and the Ch 12 Concoction both take the Pilum's slot."
+    ],
+    "decisions": [
+      {
+        "topic": "Play her armored, not Guardian",
+        "pick": "Soldier (Ch 5), Armored Knight (Ch 6), Dreadnought (Ch 10)",
+        "why": "Heavy armor and thrown spears (Throwing Arm+, always on) suit her better than Guardian's Mag 20 heals. Dreadnought Def +30 holds Bertrand's physical army in Ch 11.",
+        "else": "Guardian unlocks here (Il-Lara) for later paths; nobody takes it on this route"
+      },
+      {
+        "topic": "Keep a Bishop beside her on mage maps",
+        "pick": "Yang Jie or Olympia one tile behind",
+        "why": "Dreadnoughts have very low Res. Let Fabio, Olympia and Catania take the mage side and Kiroc snipe enemy mages first; Pure Water on Nezha's side in Ch 10."
+      }
+    ],
+    "gates": [
+      {
+        "route": "Dietrich",
+        "from": {
+          "part": 1,
+          "ch": 7
+        },
+        "by": {
+          "part": 1,
+          "ch": 7
+        },
+        "kind": "item",
+        "text": "Catching Sweetie's Eye by 6/15: give her a Mature Blush at the Port (Sea-Spirit Charm)"
+      },
+      {
+        "route": "Dietrich",
+        "from": {
+          "part": 1,
+          "ch": 6
+        },
+        "by": {
+          "part": 1,
+          "ch": 10
+        },
+        "kind": "rank",
+        "text": "Heavy D, Axe B, Spear B by Lv 35 for Dreadnought: Heavy-Armor Manual from Masked Woods"
+      }
+    ]
+  },
+  "sources": [
+    "https://fortunesweave.co.uk/characters/esmeralda",
+    "https://www.pockettactics.com/fire-emblem-fortunes-weave/tier-list",
+    "https://www.keengamer.com/articles/guides/fire-emblem-fortunes-weave-tier-list-best-characters-ranked-for-every-route/"
+  ],
+  "recruitOn": {
+    "Cai": {
+      "how": "recruit",
+      "support": 3,
+      "renown": 7
+    },
+    "Dietrich": {
+      "how": "auto"
+    },
+    "Theodora": {
+      "how": "recruit",
+      "support": 3,
+      "renown": 9
+    },
+    "Leda": {
+      "how": "recruit",
+      "support": 3,
+      "renown": 6,
+      "task": "short quest"
+    }
+  },
+  "copies": [
+    {
+      "route": "Leda",
+      "support": 3,
+      "renown": 6,
+      "cost": "Short quest",
+      "chapter": 7,
+      "path": [
+        "Soldier",
+        "Armored Knight (Ch 8 to 11)",
+        "Dreadnought (Ch 12)",
+        "Castle Knight (Part III)"
+      ],
+      "role": "Armored Hammer breaker and spear thrower",
+      "part1": "Armored Knight from Lv 20, Dreadnought in Ch 12",
+      "why": "Main roster from Ch 9: she takes Dadao's Hammer slot. Brawn cuts gear weight to 80% and Throwing Arm boosts thrown spears, so she breaks armor and holds chokes into Part III. Supports Leda and Dadao.",
+      "guide": {
+        "role": "Armored Hammer breaker and spear thrower",
+        "summary": "The army's armor breaker and second wall from Ch 9: she takes Dadao's [[item:Hammer]], and Brawn makes it Wt 16. Walk her into the armored lane, Hammer the knights on player phase, then let the enemy phase come to her: thrown spears counter at range 2 with [[ability:Throwing Arm]]. Mages are her one threat, so they die first.",
+        "playstyle": "Player phase: Hammer the armor, Spike if the forecast is under 80. Enemy phase: hold a choke with the [[item:Short Spear]] equipped so she counters at 1 and 2. Keep her inside Leda's ring on mage turns.",
+        "focus": [
+          "Def",
+          "Str",
+          "Dex"
+        ],
+        "keys": [
+          "Seat her with Leda every week she's in Dagsion: Support 3 must land with Renown 6",
+          "Recruit late Ch 7 (Support 3, Renown 6, short quest); she joins at about Lv 15",
+          "Take [[class:Armored Knight]] at Lv 20 with Axe C, Spear C and Heavy E+, Ch 8 or Ch 9",
+          "Take Dadao's [[item:Hammer]] and [[item:Giant's Ring]] in Ch 9 prep",
+          "Book the Arena Heavy course every week: Heavy D, Axe B, Spear B for Ch 12",
+          "Take [[class:Dreadnought]] in Ch 12 at Lv 35; Part II Ch 1's free License if it slips"
+        ],
+        "watch": [
+          "Weight: Sinza +3 16 + Hexlock 4 = 20, 16 with Brawn; Giant's Ring Bld +4. Hammer turns 24 → 19. Hexlock off only off mage maps",
+          "Res: growth 20 in Armored Knight, 15 in Dreadnought and Castle Knight. One mage can take half her HP",
+          "Hit: Hammer 60. Spike (+10) and Axes Lv. 2 (+5) are the floor; read every forecast",
+          "Mov 4: she can't chase or flee; place her where the enemy has to come",
+          "Inventory: 6/6 from Ch 9 (Hammer, Iron Axe +3, Short Spear, Hexlock, Ring, heal). Pure Water swaps for the axe"
+        ],
+        "stages": [
+          {
+            "when": "Join (late Ch 7) to Lv 20",
+            "from": {
+              "part": 1,
+              "ch": 7,
+              "at": "late",
+              "approx": true
+            },
+            "to": {
+              "part": 1,
+              "ch": 8
+            },
+            "level": "About Lv 15 to 20",
+            "class": "Soldier",
+            "kind": "core",
+            "goal": "Lv 20 with Axe C, Spear C and Heavy E+ for Armored Knight. She sits Ch 8; dungeons give the EXP.",
+            "exit": "Lv 20 and Armored Knight at 75%: take it in Ch 8 or Ch 9 week 1.",
+            "why": [
+              "Joins at about Lv 15 in a Beginner class: Soldier on a Beginner License if it isn't one",
+              "Early join = 6+ more Arena weeks toward Dreadnought's Axe B and Spear B",
+              "The Ch 8 Sealed Letter pick (For the Empire's Safety) pays the Specialty License"
+            ],
+            "weapons": [
+              {
+                "item": "Iron Axe +3",
+                "why": "Mt ? (jump at +3), Hit 65, Dex up; Wt 10 (8 with Brawn)",
+                "plan": "Refine her own Iron Axe at the Blacksmith on join (common ores)"
+              },
+              {
+                "item": "Javelin",
+                "why": "Range 1-2 throw; trains Spear"
+              }
+            ],
+            "equipment": [
+              {
+                "item": "Iron Shield",
+                "slot": "Defense",
+                "why": "Def +3 at Wt 4 (3 with Brawn)"
+              }
+            ],
+            "items": [
+              {
+                "item": "Vulnerary",
+                "why": "Heals 20, 3 uses",
+                "alts": [
+                  "Concoction"
+                ]
+              }
+            ],
+            "arts": [
+              {
+                "name": "Spike",
+                "why": "Axe D: +4 Mt, Hit +10"
+              },
+              {
+                "name": "Tempest Spear",
+                "why": "Spear D: +4 Mt, Hit +10 at range 1"
+              }
+            ],
+            "abilities": [
+              {
+                "name": "Axes Lv. 1",
+                "why": "Axe Hit +3 at Axe D+"
+              },
+              {
+                "name": "Spears Lv. 1",
+                "why": "Spear Hit +3 at Spear D+"
+              },
+              {
+                "name": "Threaten",
+                "why": "Authority D: adjacent foes Crit -5; the Heavy course trains it"
+              },
+              {
+                "name": "Knightly Senses",
+                "why": "Riding D: Avo +10 vs spears; works in armor"
+              },
+              {
+                "name": "Read the Winds",
+                "why": "Flying D: Avo +10 vs bows; works in armor"
+              }
+            ],
+            "training": [
+              {
+                "rank": "Axe C, Spear C, Heavy E+",
+                "for": "Armored Knight (Lv 20)",
+                "how": "Arena Heavy course (Spear, Axe, Heavy) every week, paired with Buccar"
+              },
+              {
+                "rank": "Riding D, Flying D, Authority D",
+                "for": "Knightly Senses, Read the Winds, Threaten",
+                "how": "Authority rides the Heavy course; one Arena Mounted week (Spear too) for Riding/Flying D ?"
+              }
+            ],
+            "tips": [
+              "Run Valhalla Mine (Ch 7) and Cindered Road Cave (Ch 8) with her for EXP; the cave chest holds the [[item:Conflagrant Gem]]",
+              "Ch 8 battle: guests Cai and Talimun take slots, so she sits it"
+            ]
+          },
+          {
+            "when": "Ch 9 to 11: Hammer breaker",
+            "from": {
+              "part": 1,
+              "ch": 9
+            },
+            "to": {
+              "part": 1,
+              "ch": 11
+            },
+            "level": "Lv 20 to 35",
+            "class": "Armored Knight",
+            "kind": "core",
+            "goal": "Breaks armor with the Hammer (Wt 16 with Brawn). Throwing Arm (Lv 20): thrown spears Hit +10, Atk +2.",
+            "exit": "Lv 35 with Heavy D, Axe B, Spear B at 75%: Dreadnought, usually Ch 12.",
+            "masteries": [
+              "Great Counter"
+            ],
+            "why": [
+              "Hit stack: Spike 10 + Axes Lv. 2 (5) on Hammer 60 = 75; on Iron Axe +3 65 = 80, plus its Dex (?)",
+              "Enemy phase: Short Spear counters at 1-2 with Throwing Arm's Hit +10, Atk +2",
+              "Def +25 growth here; Res drops to 20, so mages come first on the kill list"
+            ],
+            "weapons": [
+              {
+                "item": "Hammer",
+                "why": "Effective+ vs armor (Mt 14 x3); the Ch 9 and Ch 10 answer",
+                "alts": [
+                  "Halberd"
+                ],
+                "plan": "Dadao hands it over in Ch 9 prep"
+              },
+              {
+                "item": "Iron Axe +3",
+                "why": "Everyday axe: Mt ?, Hit 65 + Dex, Wt 8 with Brawn"
+              },
+              {
+                "item": "Short Spear",
+                "why": "Thrown spear (1-2) for Throwing Arm and Focused Throw",
+                "alts": [
+                  "Javelin"
+                ]
+              }
+            ],
+            "equipment": [
+              {
+                "item": "Hexlock Shield",
+                "slot": "Defense",
+                "why": "Res +5, Def +1: her Res is the hole, not her Def",
+                "alts": [
+                  "Iron Shield"
+                ],
+                "plan": "Buccar has the Dione Fort copy"
+              },
+              {
+                "item": "Giant's Ring",
+                "slot": "Accessory",
+                "why": "Bld +4 at Wt 0: fewer foes double her; Avo -20 costs an armor nothing",
+                "alts": [
+                  "Conflagrant Gem"
+                ],
+                "plan": "Dadao's copy at the Ch 9 hand-off"
+              }
+            ],
+            "items": [
+              {
+                "item": "Concoction",
+                "why": "Heals 40, 2 uses",
+                "alts": [
+                  "Vulnerary"
+                ]
+              },
+              {
+                "item": "Pure Water",
+                "why": "Res +10, -2 per turn",
+                "situational": "Ch 11 (Martila's songs, Acid): takes the Iron Axe's slot"
+              }
+            ],
+            "arts": [
+              {
+                "name": "Spike",
+                "why": "Hammer swing: +4 Mt, Hit +10"
+              },
+              {
+                "name": "Focused Throw",
+                "why": "Spear C: +3 Mt, Hit +20 at range 2"
+              },
+              {
+                "name": "Guard Spike",
+                "why": "Axe B: +7 Mt, Prt +10 in combat"
+              }
+            ],
+            "abilities": [
+              {
+                "name": "Throwing Arm",
+                "why": "Personal Lv 20: thrown spears Hit +10, Atk +2"
+              },
+              {
+                "name": "Great Counter",
+                "why": "Armored Knight mastery: Atk +3 when the foe attacks first (once mastered)"
+              },
+              {
+                "name": "Axes Lv. 2",
+                "why": "Axe Hit +5 (rank ?): the Hammer's Hit"
+              },
+              {
+                "name": "Spears Lv. 2",
+                "why": "Spear Hit +5 at Spear C+"
+              },
+              {
+                "name": "Threaten",
+                "why": "Adjacent foes Crit -5: she stands next to them all enemy phase"
+              }
+            ],
+            "training": [
+              {
+                "rank": "Heavy D, Axe B, Spear B",
+                "for": "Dreadnought (Lv 35, Renown 8)",
+                "how": "Arena Heavy course every week (Training Lv 3 at Renown 7) plus battle"
+              }
+            ],
+            "tips": [
+              "Armored Ch 9 and Ch 10: Hammer kill, then Leda dances her into a second armored foe",
+              "End mage turns inside Leda's ring: Song of Icewater+ is Def/Res +7",
+              "Mov 4: start her on the lane the armor walks down"
+            ],
+            "checks": [
+              {
+                "stat": "Dex",
+                "at": "Lv 25 (Ch 9)",
+                "need": "Hammer + Spike forecast shows Hit 80+ on the Ch 9 armored foes",
+                "why": "One Hammer hit kills armor; a miss leaves her a 4-Mov wall with nothing done",
+                "fix": [
+                  "Dance her first: Special Dance Dex +3",
+                  "[[item:Archer's Ring]] (Hit +5, Wt 3) in place of the Giant's Ring",
+                  "[[item:Conflagrant Gem]] (Hit +20 on arts, 30%) on armor maps"
+                ]
+              }
+            ],
+            "drop": [
+              {
+                "item": "Da Mina Axe",
+                "why": "Skip: Iron Axe +3 adds Dex on common ores; Spike covers art Hit"
+              },
+              {
+                "item": "Javelin",
+                "why": "Replaced by the Short Spear at Spear C"
+              },
+              {
+                "item": "Iron Shield",
+                "why": "Hexlock Shield: Res matters more than Def +2"
+              },
+              {
+                "item": "Tempest Spear",
+                "why": "Focused Throw covers range 2 Hit"
+              },
+              {
+                "item": "Knightly Senses",
+                "why": "Slot goes to Throwing Arm (Lv 20)"
+              },
+              {
+                "item": "Read the Winds",
+                "why": "Slot goes to Great Counter"
+              },
+              {
+                "item": "Axes Lv. 1",
+                "why": "Axes Lv. 2 replaces it"
+              }
+            ]
+          },
+          {
+            "when": "Ch 12: Dreadnought exam",
+            "from": {
+              "part": 1,
+              "ch": 12
+            },
+            "to": {
+              "part": 1,
+              "ch": 12
+            },
+            "level": "Lv 35 to 37",
+            "class": "Dreadnought",
+            "kind": "core",
+            "goal": "Dreadnought (Def +30 growth). Throwing Arm+ (Lv 35): throws Hit +20, Atk +4; Double Throw at Spear B.",
+            "exit": "Stock the Part II six by 11/27: Elixir in, Concoction out.",
+            "why": [
+              "Takes the route's 7th and last Part I Advanced License",
+              "Lv 35 slips: stay Armored Knight; Dreadnought on Part II Ch 1's free License"
+            ],
+            "masteries": [
+              "Focused Counter"
+            ],
+            "weapons": [
+              {
+                "item": "Hammer",
+                "why": "Effective+ vs armor; Wt 16 with Brawn",
+                "plan": "Dadao hands it over in Ch 9 prep"
+              },
+              {
+                "item": "Iron Axe +3",
+                "why": "Everyday axe: Mt ?, Hit 65 + Dex"
+              },
+              {
+                "item": "Short Spear",
+                "why": "Thrown spear: Throwing Arm+ and Double Throw",
+                "alts": [
+                  "Javelin"
+                ]
+              }
+            ],
+            "equipment": [
+              {
+                "item": "Hexlock Shield",
+                "slot": "Defense",
+                "why": "Res +5: Dreadnought's Res growth is 15",
+                "alts": [
+                  "Iron Shield"
+                ],
+                "plan": "Buccar has the Dione Fort copy"
+              },
+              {
+                "item": "Giant's Ring",
+                "slot": "Accessory",
+                "why": "Bld +4 at Wt 0",
+                "alts": [
+                  "Conflagrant Gem"
+                ],
+                "plan": "Dadao's copy at the Ch 9 hand-off"
+              }
+            ],
+            "items": [
+              {
+                "item": "Elixir",
+                "why": "Heals 100: the front line's Part II heal",
+                "alts": [
+                  "Concoction"
+                ]
+              }
+            ],
+            "arts": [
+              {
+                "name": "Double Throw",
+                "why": "Spear B: 2 hits at range 2, Hit -30; Throwing Arm+ pays it back"
+              },
+              {
+                "name": "Focused Throw",
+                "why": "+3 Mt, Hit +20 at range 2"
+              },
+              {
+                "name": "Guard Spike",
+                "why": "+7 Mt, Prt +10"
+              },
+              {
+                "name": "Spike",
+                "why": "Hammer swing: Hit +10"
+              }
+            ],
+            "abilities": [
+              {
+                "name": "Throwing Arm+",
+                "why": "Personal Lv 35: thrown spears Hit +20, Atk +4"
+              },
+              {
+                "name": "Great Counter",
+                "why": "Atk +3 when the foe attacks first"
+              },
+              {
+                "name": "Focused Counter",
+                "why": "Dreadnought mastery: Hit +10 when hit first (once mastered)"
+              },
+              {
+                "name": "Axes Lv. 2",
+                "why": "Axe Hit +5 (rank ?)"
+              },
+              {
+                "name": "Spears Lv. 2",
+                "why": "Spear Hit +5"
+              }
+            ],
+            "tips": [
+              "Ch 12 flames spread from Turn 7: Mov 4, so send her with the first wave"
+            ],
+            "drop": [
+              {
+                "item": "Concoction",
+                "why": "The Elixir takes its slot for Part II"
+              },
+              {
+                "item": "Threaten",
+                "why": "Slot goes to Focused Counter"
+              }
+            ]
+          },
+          {
+            "when": "Part II: chokepoint wall",
+            "from": {
+              "part": 2,
+              "ch": 1
+            },
+            "to": {
+              "part": 2,
+              "ch": 6
+            },
+            "level": "Lv 37 to 42",
+            "class": "Dreadnought",
+            "kind": "core",
+            "goal": "Hold chokes on enemy phase: Great Counter Atk +3, Focused Counter Hit +10, throws counter at range 2.",
+            "exit": "Stay Dreadnought into Part III; Castle Knight in Section 5.",
+            "weapons": [
+              {
+                "item": "Hammer",
+                "why": "Effective+ vs armor and the Ch 1 Warrior",
+                "plan": "Carried from Part I"
+              },
+              {
+                "item": "Iron Axe +3",
+                "why": "Everyday axe: Mt ?, Hit 65 + Dex; Guard Spike on player phase"
+              },
+              {
+                "item": "Short Spear",
+                "why": "Range 2 counters vs archers and mages",
+                "alts": [
+                  "Javelin"
+                ],
+                "plan": "Carried from Part I"
+              }
+            ],
+            "equipment": [
+              {
+                "item": "Hexlock Shield",
+                "slot": "Defense",
+                "why": "Res +5",
+                "plan": "Carried from Part I"
+              },
+              {
+                "item": "Giant's Ring",
+                "slot": "Accessory",
+                "why": "Bld +4 at Wt 0",
+                "plan": "Carried from Part I"
+              }
+            ],
+            "items": [
+              {
+                "item": "Elixir",
+                "why": "Heals 100; no Part II shops",
+                "plan": "Stocked before 11/27"
+              }
+            ],
+            "arts": [
+              {
+                "name": "Double Throw",
+                "why": "2 hits at range 2"
+              },
+              {
+                "name": "Focused Throw",
+                "why": "Hit +20 at range 2"
+              },
+              {
+                "name": "Guard Spike",
+                "why": "+7 Mt, Prt +10"
+              },
+              {
+                "name": "Spike",
+                "why": "Hammer swing: Hit +10"
+              }
+            ],
+            "abilities": [
+              {
+                "name": "Throwing Arm+",
+                "why": "Thrown spears Hit +20, Atk +4"
+              },
+              {
+                "name": "Focused Counter",
+                "why": "Hit +10 when hit first"
+              },
+              {
+                "name": "Great Counter",
+                "why": "Atk +3 when the foe attacks first"
+              },
+              {
+                "name": "Axes Lv. 2",
+                "why": "Axe Hit +5 (rank ?)"
+              },
+              {
+                "name": "Spears Lv. 2",
+                "why": "Spear Hit +5"
+              }
+            ],
+            "training": [
+              {
+                "rank": "Axe A, Spear A, Heavy C",
+                "for": "Castle Knight (Lv 45)",
+                "how": "Battle use (no Part II Arena); Axe, Spear and Heavy EXP Boons"
+              }
+            ],
+            "tips": [
+              "Ch 3: hold an alley choke while the mages and Inyoni shoot past her",
+              "Ch 5: Dagda's Res is far below his Def; casters take him while she guards them",
+              "Ch 6 Lyrah: Double Throw (2 hits at range 2) chips her shields from outside the swarm"
+            ],
+            "checks": [
+              {
+                "stat": "Res",
+                "at": "Part II Ch 1",
+                "need": "Forecast: one enemy mage takes under half her HP with the Hexlock on",
+                "why": "Mages are the only thing that kills a Dreadnought; Mov 4 can't run",
+                "fix": [
+                  "End turns in Leda's ring: Song of Icewater+ is Def/Res +7",
+                  "Stand next to Olympia's Barrier (Res +3 to adjacent allies)",
+                  "Sirocco or Inyoni kills the mages before she steps in"
+                ]
+              }
+            ]
+          },
+          {
+            "when": "Part III Sections 1 to 4 (Dreadnought)",
+            "from": {
+              "part": 3,
+              "ch": 1
+            },
+            "to": {
+              "part": 3,
+              "ch": 4
+            },
+            "level": "Lv 42 to 45",
+            "class": "Dreadnought",
+            "kind": "core",
+            "goal": "Squad C's thrower: Sinza's Trident +3 at range 2 with Throwing Arm+ (Hit +20, Atk +4) on both phases.",
+            "exit": "Castle Knight on Section 5's Master License; then squad D for Mahadu.",
+            "masteries": [],
+            "why": [
+              "Brawn: gear weighs 80%; Sinza 16 → 13, Shielding Axe 12 → 10",
+              "Hit stack (axe): Shielding Axe 65 + Focused Counter +10 + Axes Lv. 3 +5",
+              "Underworld Boon: Leda's Abjuring ring in C; spears and axes can't strip it"
+            ],
+            "weapons": [
+              {
+                "item": "Sinza's Trident +3",
+                "why": "Mt 20, range 1-2; at +3 Brute Throw Mt +15; Wt 13 with Brawn",
+                "plan": "Boon or Reliquary buy; Soulstone queue",
+                "alts": [
+                  "Sinza's Trident +2",
+                  "Javelin +2"
+                ]
+              },
+              {
+                "item": "Shielding Axe +2",
+                "why": "Mt 18?, Prt +5? when attacked first; 1-tile chokes",
+                "alts": [
+                  "Iron Axe +4"
+                ]
+              },
+              {
+                "item": "Hammer",
+                "why": "Effective+ vs armor; Wt 16 with Brawn",
+                "situational": "Armored foes: open slot",
+                "plan": "Carried from Part I"
+              }
+            ],
+            "equipment": [
+              {
+                "item": "Hexlock Shield",
+                "why": "Res +5: her Res row is 15",
+                "slot": "Defense",
+                "alts": [
+                  "Silver Shield",
+                  "Talisman Shield"
+                ],
+                "plan": "Carried from Part I"
+              },
+              {
+                "item": "Giant's Ring",
+                "why": "Bld +4 at Wt 0: offsets the trident's weight",
+                "slot": "Accessory",
+                "alts": [
+                  "Gale Ring"
+                ],
+                "plan": "Carried from Part I"
+              }
+            ],
+            "items": [
+              {
+                "item": "Elixir",
+                "why": "Heals 100",
+                "alts": [
+                  "Concoction"
+                ]
+              }
+            ],
+            "arts": [
+              {
+                "name": "Double Throw",
+                "why": "2 hits at range 2"
+              },
+              {
+                "name": "Focused Throw",
+                "why": "Hit +20 at range 2"
+              },
+              {
+                "name": "Brute Throw",
+                "why": "Sinza's Trident art: Mt +15 at +3, Hit −20, range 2"
+              },
+              {
+                "name": "Guard Spike",
+                "why": "+7 Mt, Prt +10"
+              }
+            ],
+            "abilities": [
+              {
+                "name": "Throwing Arm+",
+                "why": "Thrown spears Hit +20, Atk +4"
+              },
+              {
+                "name": "Focused Counter",
+                "why": "Hit +10 when hit first"
+              },
+              {
+                "name": "Great Counter",
+                "why": "Atk +3 when the foe attacks first"
+              },
+              {
+                "name": "Spears Lv. 3",
+                "why": "Spear B+: Hit/Avo +5 with the trident"
+              },
+              {
+                "name": "Axes Lv. 3",
+                "why": "Axe B+: Hit/Avo +5 on axe counters"
+              }
+            ],
+            "training": [
+              {
+                "rank": "Heavy C, Axe A, Spear A",
+                "for": "Castle Knight (Lv 45, Master License)",
+                "how": "Battle use; Axe, Spear and Heavy EXP Boons"
+              }
+            ],
+            "drop": [
+              {
+                "item": "Iron Axe +3",
+                "why": "Shielding Axe +2: Prt +5? on enemy phase; Iron Axe +4 is its alt"
+              },
+              {
+                "item": "Short Spear",
+                "why": "Sinza's Trident +3: Mt 20 vs 5, same range"
+              },
+              {
+                "item": "Spike",
+                "why": "Brute Throw takes the slot"
+              },
+              {
+                "item": "Axes Lv. 2",
+                "why": "Axes Lv. 3 replaces it"
+              },
+              {
+                "item": "Spears Lv. 2",
+                "why": "Spears Lv. 3 replaces it"
+              }
+            ],
+            "tips": [
+              "Leda's third Dance target: a second throw after Guzran and Inyoni",
+              "Enemy phase: trident in hand on open ground (counters at 1-2), Shielding Axe in a 1-tile choke",
+              "Mages: Hexlock stays on; Olympia's Barrier beside her adds Res +3"
+            ]
+          },
+          {
+            "when": "Part III Section 5+ (Castle Knight)",
+            "from": {
+              "part": 3,
+              "ch": 5
+            },
+            "level": "Lv 45+",
+            "class": "Castle Knight",
+            "kind": "core",
+            "goal": "Mahadu thrower in squad D: Sinza's Trident +3 from forest tiles, Throwing Arm+ Hit +20, Atk +4.",
+            "exit": "Final class.",
+            "masteries": [
+              "Intercept"
+            ],
+            "why": [
+              "Wrath halves her Def too: throw from range 2 in the brush, never end next to two foes",
+              "Brawn: Sinza 16 → 13, Shielding Axe 12 → 10, Hexlock 4 → 3",
+              "Underworld Boon: no Leda in D; foes within 2 of Eshmel or an Aurora Lv 3 turn"
+            ],
+            "weapons": [
+              {
+                "item": "Sinza's Trident +3",
+                "why": "Mt 20, range 1-2; at +3 Brute Throw Mt +15; Wt 13 with Brawn",
+                "plan": "Boon or Reliquary buy; Soulstone queue",
+                "alts": [
+                  "Sinza's Trident +2",
+                  "Javelin +2"
+                ]
+              },
+              {
+                "item": "Shielding Axe +2",
+                "why": "Mt 18?, Prt +5? when attacked first; 1-tile chokes",
+                "alts": [
+                  "Iron Axe +4"
+                ]
+              },
+              {
+                "item": "Hammer",
+                "why": "Effective+ vs armor; Wt 16 with Brawn",
+                "situational": "Armored foes: open slot",
+                "plan": "Carried from Part I"
+              }
+            ],
+            "equipment": [
+              {
+                "item": "Hexlock Shield",
+                "why": "Res +5: her Res row is 15",
+                "slot": "Defense",
+                "alts": [
+                  "Silver Shield",
+                  "Talisman Shield"
+                ],
+                "plan": "Carried from Part I"
+              },
+              {
+                "item": "Giant's Ring",
+                "why": "Bld +4 at Wt 0: offsets the trident's weight",
+                "slot": "Accessory",
+                "alts": [
+                  "Gale Ring"
+                ],
+                "plan": "Carried from Part I"
+              },
+              {
+                "item": "Jurah's Ice Mirror",
+                "why": "Half crit damage while Wrath doubles crits",
+                "slot": "Accessory",
+                "alts": [
+                  "Giant's Ring"
+                ],
+                "plan": "Section 5 hand-over",
+                "situational": "Mahadu: swap for the Giant's Ring"
+              }
+            ],
+            "items": [
+              {
+                "item": "Elixir",
+                "why": "Heals 100",
+                "alts": [
+                  "Concoction"
+                ]
+              }
+            ],
+            "arts": [
+              {
+                "name": "Double Throw",
+                "why": "2 hits at range 2"
+              },
+              {
+                "name": "Focused Throw",
+                "why": "Hit +20 at range 2"
+              },
+              {
+                "name": "Brute Throw",
+                "why": "Sinza's Trident art: Mt +15 at +3, Hit −20, range 2"
+              },
+              {
+                "name": "Guard Spike",
+                "why": "+7 Mt, Prt +10"
+              },
+              {
+                "name": "Reflecting Dance",
+                "why": "Axe A: the foe's follow-up becomes hers"
+              }
+            ],
+            "abilities": [
+              {
+                "name": "Intercept",
+                "why": "Castle Knight mastery: −5 damage when attacked (once mastered)"
+              },
+              {
+                "name": "Throwing Arm+",
+                "why": "Thrown spears Hit +20, Atk +4"
+              },
+              {
+                "name": "Focused Counter",
+                "why": "Hit +10 when hit first"
+              },
+              {
+                "name": "Great Counter",
+                "why": "Atk +3 when the foe attacks first"
+              },
+              {
+                "name": "Spears Lv. 3",
+                "why": "Spear B+: Hit/Avo +5 with the trident"
+              }
+            ],
+            "training": [
+              {
+                "rank": "Heavy C, Axe A, Spear A",
+                "for": "Castle Knight (Lv 45, Master License)",
+                "how": "Battle use; Axe, Spear and Heavy EXP Boons"
+              }
+            ],
+            "tips": [
+              "Mahadu: Dietrich, Simon and Kiroc fish crits; she throws from the brush on Klapka's side",
+              "Jurah Lv 3 (no crits) is the Wrath answer; without it, Elixir early: her Def is halved",
+              "S6 squad D: Trials and quests by 6/6; Hammer on armored Trial foes"
+            ],
+            "drop": [
+              {
+                "item": "Axes Lv. 3",
+                "why": "Slot goes to Intercept; she throws more than she swings"
+              }
+            ]
+          }
+        ],
+        "decisions": [
+          {
+            "topic": "Build her as the armored thrower",
+            "pick": "Armored Knight, Dreadnought in Ch 12, Castle Knight in Part III",
+            "why": "Brawn cuts gear to 80% and Throwing Arm boosts thrown spears, so heavy armor costs her least. Dreadnought and Castle Knight grow Def +30 and Str +15/+20 on her Str 55.",
+            "else": "Dragoon (carried from Cai) trades Def for Mov 7 and Res, but archers one-shot it"
+          },
+          {
+            "topic": "Recruit her late Ch 7",
+            "pick": "As soon as Support 3 and Renown 6 land",
+            "why": "A Ch 9 join is Lv 25 but brings no Axe C or Spear C. Joining in Ch 7 buys 6+ Arena weeks, so Armored Knight lands by Ch 9 and Dreadnought's B ranks by Ch 12.",
+            "else": "Ch 8 week 1 if Renown 6 slips"
+          },
+          {
+            "topic": "Fight Part III undead in Leda's ring",
+            "pick": "Song of Abjuring ring, else Eshmel's Light of Salvation",
+            "why": "Dreadnought and Castle Knight have no sword, so a Cleansing Blade is out. Leda's Song of Abjuring makes everyone within 2 effective vs undead."
+          }
+        ],
+        "routeNotes": [
+          {
+            "system": "Supports",
+            "note": "Leda and Dadao in the army; Ludia (bench), Mikaela and Lysander (fillers). Before she joins: Leda + Esmeralda + Dadao. After: Leda + Esmeralda + Ludia."
+          },
+          {
+            "system": "Dancer (Great Dancer's Successor)",
+            "note": "Armored Ch 9 and 10: dance her after a Hammer kill for a second armored kill. Sirocco, Guzran and Inyoni keep the dances on other maps."
+          },
+          {
+            "system": "Drink Recipes (Leda's Songs)",
+            "note": "Song of Icewater+ (Def/Res +7) covers her Res on mage turns. Song of Abjuring is her answer to the Part III Underworld Boon."
+          }
+        ],
+        "gates": [
+          {
+            "route": "Leda",
+            "from": {
+              "part": 1,
+              "ch": 5
+            },
+            "by": {
+              "part": 1,
+              "ch": 7
+            },
+            "kind": "recruit",
+            "text": "Esmeralda: seat her with Leda weekly so Support 3 lands with Renown 6 (late Ch 7)"
+          },
+          {
+            "route": "Leda",
+            "from": {
+              "part": 1,
+              "ch": 7
+            },
+            "by": {
+              "part": 1,
+              "ch": 12
+            },
+            "kind": "rank",
+            "text": "Esmeralda: Arena Heavy course every week, Heavy D, Axe B, Spear B for Dreadnought"
+          }
+        ],
+        "sources": [
+          "equippable-abilities",
+          "weapons-and-items",
+          "combat-arts-and-abilities",
+          "character-learnsets",
+          "class-data",
+          "hard-mode-video-notes",
+          "redesign/11-roster-pass",
+          "walkthrough-part1-leda",
+          "part2-war",
+          "part3-salvation"
+        ]
+      }
+    }
+  ]
+}

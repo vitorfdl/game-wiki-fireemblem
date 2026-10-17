@@ -1,0 +1,100 @@
+{
+  "partII": [
+    {
+      "text": "Pick Army Training before each of the first four Part II battles: floors Lv 34, 35, 37, 39",
+      "detail": [
+        "Stats grow from the class a unit is in: set each late joiner's class first",
+        "[[class:Brigand]] Simon (Str) · [[class:Priest]] Dante (Res) · [[class:Shaman]] Olympia if she isn't Ovate yet (Mag)",
+        "[[class:Wing Soldier]] Catania (she flies in Ch 2) · [[class:Armored Ornius Rider]] Gaitz (Def)"
+      ]
+    },
+    {
+      "text": "Spend Part II Advanced Licenses on Dante, Simon and Jester, plus Olympia or Goliath if they slipped",
+      "detail": [
+        "5 Specialty and 5 Advanced a chapter. Ch 1's floor is Lv 34, so anyone under Lv 35 goes in Ch 2",
+        "Jester's Ranger needs Oko beaten in Part I",
+        "Catania, Io, Ursula and Gaitz stay Specialty"
+      ]
+    },
+    {
+      "text": "Ch 12 is your last shop: Part II has no free time, no shops and no recruiting",
+      "detail": [
+        "Buy what you'll want for Part III's opening chapters while shops are open",
+        "Spend every Magic Echo Shard on Combat Art boosts"
+      ]
+    },
+    {
+      "text": "Don't hoard weapons: Part II repairs every weapon each chapter and issues Iron +3 weapons",
+      "detail": [
+        "Use Combat Arts freely in Ch 12, even if weapons break",
+        "The Pilum and Short Spears can wait for Part III"
+      ]
+    },
+    {
+      "text": "Leave a slot free for Part II drops",
+      "detail": [
+        "Ch 1: Goliath's [[item:Hammer]] +1 · Ch 2: Kiroc's [[item:Horsekiller Bow]] +1, Jester's [[item:Cleansing Blade]] +1"
+      ]
+    },
+    {
+      "text": "Bring all 15: Part II deploys up to 15, so the bench fights from Ch 1",
+      "detail": [
+        "Dietrich, Fabio, Esmeralda, Mikaela, Yang Jie, Io, Kiroc, Jester",
+        "Olympia, Goliath, Simon, Dante, Ursula, Catania, Gaitz"
+      ],
+      "conf": "?"
+    },
+    {
+      "text": "Cover the Part II roles: physical tanks, magic tanks, long range for shields, Physic, fliers",
+      "detail": [
+        "Physical: Esmeralda, Goliath, Gaitz, Simon · Magic: Fabio, Olympia, the Bishops",
+        "Long range: Kiroc, Jester, Ursula, Fabio, Olympia, Esmeralda's thrown spears",
+        "Physic: Yang Jie, Olympia · Archers vs fliers: Kiroc, Jester, Ursula · Flier: Catania"
+      ]
+    },
+    {
+      "text": "Part II Ch 2: send Catania after the southeast Ranger before he flees on Turn 4"
+    },
+    {
+      "text": "Blessings for Part II: Aurora, then Kalla to Lv 3, Smyrnos to Lv 2; Credna is the weakest",
+      "detail": [
+        "Smyrnos Lv 2 gives magic Rng +1: Fabio and Olympia poke 2x2 armored units without a counter"
+      ]
+    }
+  ],
+  "extra": [
+    {
+      "text": "Pack every unit's Part II kit before the Mars battle: main weapon in hand, at most 6 items",
+      "detail": [
+        "Only what a unit holds carries in (the game says \"equipped\"; read here as its own 6 items?)",
+        "Each unit's Ch 12 stage lists the 6; pack benched units too",
+        "Elixir on Dietrich and the tanks, a Concoction on everyone: Part II Ch 3 asks for plenty"
+      ],
+      "conf": "?"
+    },
+    {
+      "text": "Hand Dietrich's [[item:Silver Sword]] to Jester before Mars: it is Jester's Part II sword",
+      "detail": [
+        "A Dew takes the slot in Dietrich's duel kit"
+      ]
+    },
+    {
+      "text": "Keep extra weight at 3 or less on Dietrich, Jester, Kiroc and the archers; only armor wears a mask",
+      "detail": [
+        "The [[item:Charm Mask]] waits in storage for Gaitz in Part III"
+      ]
+    },
+    {
+      "text": "Take My Late Sister's Accessory if it appears: no Creek in Part II Ch 2 without it, so no Nathan"
+    },
+    {
+      "text": "Clear all 8 Paralogues: Talimun's, Anatolia's, Orchel's and Bertrand's feed Part III joins"
+    },
+    {
+      "text": "Beat Il-Lara and Oko, finish 10 Combat Art boosts: Guardian, Ranger, Blacksmith carry over"
+    },
+    {
+      "text": "Divine classes take one holder each: plan The Blade for Dietrich, The Eternal for Simon"
+    }
+  ]
+}

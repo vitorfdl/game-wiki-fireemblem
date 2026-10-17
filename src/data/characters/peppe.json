@@ -1,0 +1,546 @@
+{
+  "name": "Peppe",
+  "slug": "peppe",
+  "epithet": "Brigid noble abroad",
+  "faction": "Brigid Army",
+  "homeRoute": "Cai",
+  "weapons": [
+    "Bow",
+    "Sword"
+  ],
+  "preferred": [
+    "Bow",
+    "Infantry",
+    "Sword"
+  ],
+  "personality": "Formal, royal-'we'-speaking noble who is grateful to Ultand.",
+  "story": "Peppe is a Brigid noble who came to Dagsion in 1449 to study Dagdan culture and owes Ultand for help there. He loves hunting, the sun and his homeland. He is recruitable on Cai, Dietrich and Theodora's routes after clearing Bertrand's Paralogue, and cannot be recruited on Leda's route.",
+  "personalSkill": {
+    "name": "Hunter's Snare",
+    "effect": "In enemy phase, if foe is damaged, unit attacks first (trigger 30%). Lv20: King's Majesty (Atk+2, Crit+5 vs damaged foes). Lv35: King's Majesty+ (Atk+4, Crit+10 vs damaged foes)."
+  },
+  "growths": {
+    "HP": 30,
+    "Str": 30,
+    "Mag": 25,
+    "Spd": 60,
+    "Dex": 45,
+    "Def": 30,
+    "Res": 30,
+    "Lck": 45,
+    "Cha": 30
+  },
+  "supports": [
+    "Mu",
+    "Ninae",
+    "Ultand"
+  ],
+  "tiers": [
+    {
+      "source": "KeenGamer",
+      "tier": "C"
+    },
+    {
+      "source": "Pocket Tactics",
+      "tier": "B"
+    }
+  ],
+  "tierNotes": "KeenGamer: C tier (late arrival 7/1, low HP/Str; most useful on Theodora's route). Pocket Tactics: B tier.",
+  "recruit": {
+    "how": "recruit",
+    "renown": 9,
+    "extra": "Clear Bertrand's Paralogue",
+    "why": [
+      "Lowest Support requirement of any route: 1 here vs Dietrich 3, Theodora 2."
+    ],
+    "tip": "Needs Bertrand's Paralogue, which Cai gets for 9 days (9/17–9/25). Dietrich only gets 9/17."
+  },
+  "requirements": {
+    "Cai": "9R",
+    "Dietrich": "3S 8R",
+    "Theodora": "2S 7R",
+    "Leda": "—"
+  },
+  "build": {
+    "role": "Fast bow and sword finisher",
+    "path": [
+      "Rogue? (joins at Lv 25 in Ch 10 or 11; bench in Part I)",
+      "Ranger (Part II Ch 3)",
+      "Shadow Seeker"
+    ],
+    "part1Target": "Bench (joins in a Specialty class, Rogue?): recruit for Part II",
+    "part3Target": "Shadow Seeker",
+    "notes": "Joins in Ch 10 or 11 at about Lv 25, already in a Specialty class; benched in Part I. Arena Bow B and Sword B. Part II: Army Training to Lv 34 in Rogue (In Shadow), Ranger from Ch 3 (Countershot). Shadow Seeker in Part III.",
+    "confidence": "medium"
+  },
+  "guide": {
+    "role": "Fast bow and sword finisher",
+    "summary": "Benched in Part I: he joins in Ch 10 or 11 at about Lv 25, already in a Specialty class, with two or three maps left and Peter covering bows. Spd grows 75% in Rogue and Ranger, and Hunter's Snare and King's Majesty reward hitting foes that are already hurt. Rogue through Part II Ch 2, Ranger from Ch 3.",
+    "playstyle": "Finish wounded foes with Destreza or bow arts; enemy-phase bait only against slow units. HP and Str grow 30 to 40%: don't let him take two hits.",
+    "focus": [
+      "Spd",
+      "Dex",
+      "Str"
+    ],
+    "keys": [
+      "Clear Bertrand's Paralogue (9/17 to 9/25) to recruit him.",
+      "Bench: Arena Infantry Training every week for Bow B and Sword B.",
+      "Equip the Tempest Bow, Horsekiller Bow and Cleansing Blade at the end of Ch 12.",
+      "Joins as a Specialty unit (Rogue?): In Shadow on the bench and in Part II Ch 1 to 2; Ranger (Countershot) from Ch 3."
+    ],
+    "watch": [
+      "Low HP and Str: finisher, not frontliner.",
+      "Only about 8 Arena weeks before Part II: if Bow or Sword is short of B, he stays Rogue.",
+      "Weight: Part II Tempest Bow 5 + Gale Ring 2 = 7. Part III Da Mina Bow +2 6 + 2 = 8, Cleansing Blade +2 3 + 2 = 5; Horsekiller Bow +2 8 + 2 = 10 on cavalry turns only. Extra stays at 2.",
+      "Inventory: 5 into Part II (Tempest Bow, Horsekiller Bow, Cleansing Blade, Gale Ring, Concoction), 1 open."
+    ],
+    "stages": [
+      {
+        "when": "Join (Ch 10 or 11) to Part II Ch 2",
+        "from": {
+          "part": 1,
+          "ch": 10
+        },
+        "to": {
+          "part": 2,
+          "ch": 2
+        },
+        "level": "About Lv 25 (join) to 35",
+        "class": "Rogue",
+        "kind": "bench",
+        "goal": "Bench, then Rogue in Part II: Spd 75 growth and In Shadow.",
+        "exit": "Ranger in Part II Ch 3 (Bow B, Sword B), with or without In Shadow mastered",
+        "masteries": [
+          "In Shadow"
+        ],
+        "training": [
+          {
+            "rank": "Bow B, Sword B",
+            "for": "Ranger exam, Part II Ch 3",
+            "how": "Arena Infantry Training (Sword, Bow, Infantry) covers both; he has about 8 weeks (Ch 10 to 12); Rogue also trains both"
+          }
+        ],
+        "tips": [
+          "Joins at about Lv 25 already in a Specialty class (which one is ?). Not Rogue? Take its exam (Bow C, Sword C) on a Specialty License.",
+          "Recruit cost: Renown 9, clear Bertrand's Paralogue (9/17 to 9/25).",
+          "Talimun's Paralogue Cleansing Blade still goes to him for Part II.",
+          "Skip heavy accessories: weight costs his doubles",
+          "No free time in Part II: only equipped items come in, so equip them at the end of Ch 12"
+        ],
+        "weapons": [
+          {
+            "item": "Tempest Bow",
+            "why": "A tier: light, Avo bonus when attacking"
+          },
+          {
+            "item": "Horsekiller Bow",
+            "why": "A tier: cavalry and fliers"
+          },
+          {
+            "item": "Cleansing Blade",
+            "why": "Range 1",
+            "plan": "Keep"
+          }
+        ],
+        "arts": [
+          {
+            "name": "Destreza",
+            "why": "Sword C: Atk +5, Crit +10 vs foes at 50% HP"
+          },
+          {
+            "name": "Encloser",
+            "why": "Bow C: Mov -3 on hit"
+          },
+          {
+            "name": "Sunder",
+            "why": "Sword D: Crit +10"
+          },
+          {
+            "name": "Vital Shot",
+            "why": "Bow D: Crit +5"
+          }
+        ],
+        "abilities": [
+          {
+            "name": "In Shadow",
+            "why": "Rogue mastery goal: Avo +10 after a kill (once mastered)"
+          },
+          {
+            "name": "King's Majesty+",
+            "why": "Personal Lv 35 ability: If foe is damaged, grants Atk+4, Crit+10 during combat (from Lv 35)"
+          },
+          {
+            "name": "Bows Lv. 2",
+            "why": "Bow C+ rank ability: bow Hit +5"
+          },
+          {
+            "name": "Swords Lv. 3",
+            "why": "Sword C+ rank ability: sword Hit/Avo +5 (once Sword C+)"
+          }
+        ],
+        "equipment": [
+          {
+            "item": "Gale Ring",
+            "why": "Spd +3, Wt 2 (community-reported): more doubles for a finisher. The Bird-Plume Amulet is Guzran's",
+            "slot": "Accessory",
+            "alts": [
+              "Archer's Ring"
+            ],
+            "plan": "Second barter; Seteth wears the first"
+          }
+        ],
+        "items": [
+          {
+            "item": "Concoction",
+            "why": "40 HP x2: carried in from Ch 12",
+            "alts": [
+              "Vulnerary"
+            ]
+          }
+        ],
+        "why": [
+          "Hunter's Snare (innate): 30% to strike first on enemy phase against a hurt foe",
+          "King's Majesty (Lv 20): Atk +2, Crit +5 vs hurt foes, no slot"
+        ]
+      },
+      {
+        "when": "Part II Ch 3 to 6",
+        "from": {
+          "part": 2,
+          "ch": 3
+        },
+        "to": {
+          "part": 2,
+          "ch": 6
+        },
+        "level": "Lv 37 to 42",
+        "class": "Ranger",
+        "kind": "core",
+        "goal": "Bow counters at range 1 on a free Advanced License; one of the 3 to 4 bows Ch 4 asks for. Master Countershot. King's Majesty+ (Lv 35): Atk +4, Crit +10 against hurt foes: finish what others chip, and on enemy phase Hunter's Snare and Countershot punish hurt foes that close in.",
+        "exit": "Stays to the end of Part II.",
+        "masteries": [
+          "Countershot"
+        ],
+        "tips": [
+          "Takes a free Part II Advanced License in Ch 3",
+          "No free time in Part II: only equipped items come in, so equip them at the end of Ch 12"
+        ],
+        "weapons": [
+          {
+            "item": "Tempest Bow",
+            "why": "His carried Part II bow (Wt 5, Avo +3 when he attacks first)"
+          },
+          {
+            "item": "Horsekiller Bow",
+            "why": "His Part I barter copy: cavalry and fliers. Peter takes the Ch 2 +1 drop"
+          },
+          {
+            "item": "Cleansing Blade",
+            "why": "Range 1; Underworld foes",
+            "plan": "Keep"
+          }
+        ],
+        "arts": [
+          {
+            "name": "Destreza",
+            "why": "Sword C: Atk +5, Crit +10 vs foes at 50% HP"
+          },
+          {
+            "name": "Encloser",
+            "why": "Bow C: Mov -3 on hit"
+          },
+          {
+            "name": "Sunder",
+            "why": "Sword D: Crit +10"
+          },
+          {
+            "name": "Vital Shot",
+            "why": "Bow D: Crit +5"
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Countershot",
+            "why": "Ranger mastery goal: bow counters adjacent foes at 50% (once mastered)"
+          },
+          {
+            "name": "King's Majesty+",
+            "why": "Personal Lv 35 ability: If foe is damaged, grants Atk+4, Crit+10 during combat"
+          },
+          {
+            "name": "In Shadow",
+            "why": "Rogue mastery: Avo +10 after a kill"
+          },
+          {
+            "name": "Bows Lv. 2",
+            "why": "Bow C+ rank ability: bow Hit +5"
+          },
+          {
+            "name": "Swords Lv. 3",
+            "why": "Sword C+ rank ability: sword Hit/Avo +5"
+          }
+        ],
+        "drop": [
+          {
+            "item": "Silver Bow",
+            "why": "No Part II source"
+          }
+        ],
+        "equipment": [
+          {
+            "item": "Gale Ring",
+            "why": "Spd +3, Wt 2 (community-reported): more doubles for a finisher. The Bird-Plume Amulet is Guzran's",
+            "slot": "Accessory",
+            "alts": [
+              "Archer's Ring"
+            ],
+            "plan": "Second barter; Seteth wears the first"
+          }
+        ],
+        "items": [
+          {
+            "item": "Concoction",
+            "why": "40 HP x2: carried in from Ch 12",
+            "alts": [
+              "Vulnerary"
+            ]
+          }
+        ]
+      },
+      {
+        "when": "Part III goal",
+        "from": {
+          "part": 3
+        },
+        "level": "Lv 45+",
+        "class": "Shadow Seeker",
+        "kind": "core",
+        "goal": "Finisher: King's Majesty+ Atk +4, Crit +10 on hurt foes; Da Mina Bow +2 arts. Drake bow sub for Inyoni.",
+        "exit": "Final class.",
+        "masteries": [
+          "Dropshadow Blade"
+        ],
+        "tips": [
+          "Seat: Drake (E, on foot) for Inyoni; skip Cohen & Maria (Cha 30 loses Lust duels)",
+          "Hunter's Snare: on enemy phase he strikes first on a hurt foe (30%); Countershot at 1",
+          "Shoot what Lilian or Inyoni chipped: King's Majesty+ needs a damaged foe",
+          "Forest maps: Dropshadow Blade for Read the Winds; Master Search on vegetable runs"
+        ],
+        "weapons": [
+          {
+            "item": "Da Mina Bow +2",
+            "why": "Main: Mt ?, Hit 70, Wt 6; arts Hit +10. Silver Bow is Da Mina +1",
+            "plan": "No Soulstone on the bench (D-158)"
+          },
+          {
+            "item": "Cleansing Blade +2",
+            "why": "Range 1 and Boon answer: Mt ~16, Wt 3; Destreza, Flash Blow",
+            "plan": "His carried copy, refined to +2"
+          },
+          {
+            "item": "Horsekiller Bow +2",
+            "why": "Effective vs cavalry (Hit +10 vs cavalry needs +3)",
+            "situational": "Cavalry maps: uses the open slot"
+          }
+        ],
+        "equipment": [
+          {
+            "item": "Gale Ring",
+            "why": "Spd +3, Wt 2: doubling is his damage",
+            "slot": "Accessory",
+            "alts": [
+              "Archer's Ring",
+              "Phantom Ring"
+            ],
+            "plan": "Second copy; Seteth wears the first"
+          }
+        ],
+        "arts": [
+          {
+            "name": "Destreza",
+            "why": "Sword C: Atk +5, Crit +10 vs foes at 50% HP"
+          },
+          {
+            "name": "Flash Blow",
+            "why": "Sword B: Mt +7, Atk +5 at Dex/2 %"
+          },
+          {
+            "name": "Sunder",
+            "why": "Sword D: Crit +10"
+          },
+          {
+            "name": "Vital Shot",
+            "why": "Bow D: range 2-3, Crit +5"
+          },
+          {
+            "name": "Encloser",
+            "why": "Bow C: Mov −3 on hit"
+          }
+        ],
+        "abilities": [
+          {
+            "name": "King's Majesty+",
+            "why": "Personal Lv 35: Atk +4, Crit +10 vs a damaged foe"
+          },
+          {
+            "name": "Countershot",
+            "why": "Ranger mastery: bow counters adjacent foes (50%)"
+          },
+          {
+            "name": "Bows Lv. 4",
+            "why": "Bow A+: Hit/Avo +7 with bows; Lv. 3 until A+"
+          },
+          {
+            "name": "Read the Winds",
+            "why": "Flying D: Avo +10 vs bows"
+          },
+          {
+            "name": "In Shadow",
+            "why": "Rogue mastery: Avo +10 after a kill"
+          }
+        ],
+        "drop": [
+          {
+            "item": "Silver Bow",
+            "why": "Da Mina +1 Mt and a Boon buy: Da Mina Bow +2 instead"
+          },
+          {
+            "item": "Bows Lv. 2",
+            "why": "Bows Lv. 4 from Bow A+"
+          },
+          {
+            "item": "Dropshadow Blade",
+            "why": "Forest maps only"
+          },
+          {
+            "item": "Kalla's Needle",
+            "why": "Wt 4 is over a doubler's 3"
+          },
+          {
+            "item": "Tempest Bow",
+            "why": "Da Mina Bow +2 replaces it"
+          },
+          {
+            "item": "Horsekiller Bow",
+            "why": "Refined to +2"
+          }
+        ],
+        "items": [
+          {
+            "item": "Concoction",
+            "why": "40 HP x2",
+            "alts": [
+              "Vulnerary"
+            ]
+          }
+        ],
+        "why": [
+          "No Master License planned (bench): Ranger runs the same kit until one is spare",
+          "Da Mina Bow +2 (gold, arts Hit +10) over Silver Bow +2 (Boon): Silver is Da Mina +1 Mt",
+          "Boon answer and range 1: Cleansing Blade +2"
+        ],
+        "training": [
+          {
+            "rank": "Bow A, Sword A",
+            "for": "Shadow Seeker (Lv 45, Master License)",
+            "how": "Arena Infantry Training"
+          },
+          {
+            "rank": "Bow A+",
+            "for": "Bows Lv. 4",
+            "how": "Arena Infantry Training"
+          }
+        ]
+      }
+    ],
+    "alt": "Myrmidon to Shido if you would rather run him as a sword crit unit. The Part II Sniper stint (Marksmanship) was dropped: Ranger arrives only in Ch 3 and Countershot needs the rest of Part II.",
+    "sources": [
+      "class-and-weapon-guide",
+      "growth.py",
+      "class-data",
+      "character-learnsets",
+      "combat-arts-and-abilities",
+      "weapons-and-items",
+      "part2-war",
+      "PATHS-BRIEF",
+      "walkthrough-part1-cai",
+      "part3-salvation"
+    ],
+    "decisions": [
+      {
+        "topic": "Clear Bertrand's Paralogue by 9/25",
+        "pick": "Clear it in its window even before Renown 9, then recruit him",
+        "why": "He depends on it, and it closes 9/25. Renown 9 may land only in Ch 11."
+      },
+      {
+        "topic": "Bench him, Ranger in Part II Ch 3",
+        "pick": "Join class (Rogue?), Ranger on a free License",
+        "why": "Joins in Ch 10 with three maps left, and Peter covers bows. Ranger carries in from Dietrich's route."
+      }
+    ],
+    "gates": [
+      {
+        "route": "Cai",
+        "from": {
+          "part": 1,
+          "ch": 7
+        },
+        "kind": "recruit",
+        "text": "Renown 9, then clear Bertrand's Paralogue (opens 9/17)",
+        "by": {
+          "part": 1,
+          "ch": 9
+        }
+      },
+      {
+        "route": "Cai",
+        "from": {
+          "part": 1,
+          "ch": 10
+        },
+        "kind": "recruit",
+        "text": "Clear Bertrand's Paralogue 9/17 to 9/25, then recruit at Renown 9",
+        "by": {
+          "part": 1,
+          "ch": 10
+        }
+      },
+      {
+        "route": "Cai",
+        "from": {
+          "part": 1,
+          "ch": 10
+        },
+        "kind": "rank",
+        "text": "Bow B and Sword B by 11/27 for Ranger",
+        "by": {
+          "part": 1,
+          "ch": 12
+        }
+      }
+    ]
+  },
+  "sources": [
+    "https://fortunesweave.co.uk/characters/peppe",
+    "https://www.keengamer.com/articles/guides/fire-emblem-fortunes-weave-tier-list-best-characters-ranked-for-every-route/",
+    "https://www.keengamer.com/articles/guides/fire-emblem-fortunes-weave-best-class-for-every-character/",
+    "https://www.pockettactics.com/fire-emblem-fortunes-weave/tier-list"
+  ],
+  "recruitOn": {
+    "Cai": {
+      "how": "recruit",
+      "renown": 9,
+      "task": "Clear Bertrand's Paralogue"
+    },
+    "Dietrich": {
+      "how": "recruit",
+      "support": 3,
+      "renown": 8
+    },
+    "Theodora": {
+      "how": "recruit",
+      "support": 2,
+      "renown": 7
+    }
+  }
+}

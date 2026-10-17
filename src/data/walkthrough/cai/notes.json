@@ -1,0 +1,239 @@
+{
+  "openQuestions": [
+    {
+      "text": "Noctula's name: RPG Site's path guide writes \"Noctua\"; the roster plan and RPG Site's other pages write Noctula.",
+      "ch": 6,
+      "units": [
+        "Noctula"
+      ],
+      "sources": [
+        "RPG Site Cai path guide"
+      ]
+    },
+    {
+      "text": "Levin Sword source: the build review puts it on Centurio's mentorship; the path guide gives Centurio's reward as the Archer's Ring and puts the Levin Sword on the Ch 10 map. This plan follows the path guide.",
+      "ch": 4,
+      "units": [
+        "Cai"
+      ],
+      "sources": [
+        "RPG Site Cai path guide"
+      ]
+    },
+    {
+      "text": "Bertrand's mentorship (The White-Maned Demon's Request) rewards Troubadour (Game8, Game Rant) or an Advanced License (RPG Site). The plan follows Troubadour; if it doesn't unlock, Fianna stays Priest and Tialla skips her Troubadour stint.",
+      "ch": 11,
+      "units": [
+        "Fianna",
+        "Tialla"
+      ],
+      "sources": [
+        "Game8",
+        "Game Rant",
+        "RPG Site"
+      ]
+    },
+    {
+      "text": "Farming start: the path guide says to plant in Ch 5 but lists the Farming tutorial in Ch 6. If the farm isn't open in Ch 5, plant on the first day of Ch 6.",
+      "ch": 5,
+      "sources": [
+        "RPG Site Cai path guide"
+      ]
+    },
+    {
+      "text": "Saveilon access: no source says when Cai can first reach Saveilon for Ninae's Paradise Fish. Ch 7 at the latest; else Castor's Renown 7 trip in late Ch 8.",
+      "ch": 7,
+      "units": [
+        "Ninae"
+      ]
+    },
+    {
+      "text": "Rider and Flying training: Charioteer, Forest Knight, Caladrius and Troubadour need Rider D, Dragoon Flying C. Arena EXP per session isn't documented, so Seteth's Flying C by Lv 35 is an estimate.",
+      "ch": 8,
+      "units": [
+        "Seteth",
+        "Peter",
+        "Mikaela",
+        "Fianna"
+      ]
+    },
+    {
+      "text": "Seteth's recruit quest: RPG Site only says \"short quest\"; the task isn't documented.",
+      "ch": 7,
+      "units": [
+        "Seteth"
+      ],
+      "sources": [
+        "RPG Site recruitment guide"
+      ]
+    },
+    {
+      "text": "Bronze Axes for Nydine are assumed to be sold in shops (weapon shop?); not confirmed.",
+      "ch": 5,
+      "units": [
+        "Nydine"
+      ]
+    },
+    {
+      "text": "Majide's answers: the sources only say to answer his question three times; the correct answers aren't listed.",
+      "ch": 6,
+      "units": [
+        "Majide"
+      ]
+    },
+    {
+      "text": "Level timing is player data from two Part I runs: the lord ends Part I about Lv 38, most deployed units Lv 30 to 35, and 7 to 8 units reach Advanced. Renown timing follows the Renown pace table (Renown 5 at the end of Ch 6 on this route).",
+      "ch": 10,
+      "sources": [
+        "Player data"
+      ]
+    },
+    {
+      "text": "Unlock carryover: Game8, Game Rant and TheGamer say a class unlocked on one path is available on later paths. The plan assumes Dietrich's path is finished first, so Guardian (Ninae) and Ranger (Peppe) are open.",
+      "units": [
+        "Ninae",
+        "Peppe"
+      ],
+      "sources": [
+        "Game8",
+        "Game Rant",
+        "TheGamer"
+      ]
+    },
+    {
+      "text": "Mastery speed: no source gives the Class EXP a mastery needs; one GameFAQs player says it's much quicker than Three Houses (a comparison). Every side trip waits on a condition, not a chapter.",
+      "ch": 7,
+      "units": [
+        "Cai",
+        "Guzran",
+        "Noctula"
+      ],
+      "sources": [
+        "GameFAQs"
+      ]
+    },
+    {
+      "text": "Shaman's Skill EXP: Game8's class data flags the Shaman and Armored Ornius Rider rows as likely swapped. Cai's and Ultand's Shaman stints rely on casting training Black Magic in any class that can cast (unverified).",
+      "ch": 7,
+      "units": [
+        "Cai",
+        "Ultand"
+      ],
+      "sources": [
+        "Game8"
+      ]
+    },
+    {
+      "text": "Deployment slot counts (about 6, then 7 to 8, then 9) are a player report: check the prep screen each chapter.",
+      "sources": [
+        "Player report"
+      ]
+    },
+    {
+      "text": "Join levels are player data (Ch 6 to 9: about Lv 15, Beginner; Ch 10+: about Lv 25, Specialty). Which class each recruit arrives in is unknown (Jasmine Armored Knight?, Peppe Rogue?, Fianna Priest?, Sirocco Shaman?).",
+      "ch": 10,
+      "units": [
+        "Jasmine",
+        "Peppe",
+        "Fianna",
+        "Sirocco"
+      ]
+    },
+    {
+      "text": "Inn Auto-Activities reportedly give EXP to units you don't play; not confirmed."
+    },
+    {
+      "text": "Whether Part I Licenses carry into Part II is not documented: spend spare ones in Ch 12.",
+      "ch": 12
+    },
+    {
+      "text": "Barrier stacking: Ninae, Ultand, Tialla and Fianna all end up with Barrier; whether two Barriers stack on one ally is not documented.",
+      "units": [
+        "Ninae",
+        "Ultand",
+        "Tialla",
+        "Fianna"
+      ]
+    },
+    {
+      "text": "Supports: no source has Cai's dish reactions, so no meal dish is named; pick the dish where Cai and both targets show a note.",
+      "ch": 4,
+      "units": [
+        "Cai"
+      ]
+    },
+    {
+      "text": "No source says when Mikaela, Fianna, Sirocco or Peppe first show up in Dagsion on this route: check Map > People weekly.",
+      "ch": 4,
+      "units": [
+        "Mikaela",
+        "Fianna",
+        "Sirocco",
+        "Peppe"
+      ]
+    },
+    {
+      "text": "Ninae has no confirmed Dagsion gift: meals only until you reach Alecto (Tales of Adventure, 270G).",
+      "ch": 5,
+      "units": [
+        "Ninae"
+      ]
+    },
+    {
+      "text": "Volcano Ghosh stock per restock is unknown, and three targets want it (Mikaela, Fianna, Sirocco): give it in deadline order and fall back to Common Coffee for Mikaela.",
+      "ch": 5,
+      "units": [
+        "Mikaela",
+        "Fianna",
+        "Sirocco"
+      ]
+    },
+    {
+      "text": "Sirocco's recruit cost: RPG Site says \"Quest\"; the plan notes name a copy of the Monument Verse. Check in game.",
+      "ch": 10,
+      "units": [
+        "Sirocco"
+      ],
+      "sources": [
+        "RPG Site recruitment guide"
+      ]
+    },
+    {
+      "text": "Arena sessions: the weekly routine says one session of two units a week; the team notes say 2 to 3 units per course, each course once a week. Seat exam-rank units first.",
+      "ch": 8
+    },
+    {
+      "text": "Headsman's Rock (Black Magonius) is listed at Renown 7?; if it isn't open in late Ch 8, Ch 12's Mystery of Headman's Rock takes you there.",
+      "ch": 8,
+      "units": [
+        "Cai"
+      ]
+    },
+    {
+      "text": "Orchel's Paralogue deadline: RPG Site gives 10/18 to 10/20 (deadline 10/21) on Cai's path; Siliconera lists 10/27 on every path. Treat 10/20 as the cutoff.",
+      "ch": 11,
+      "sources": [
+        "RPG Site Cai path guide",
+        "Siliconera"
+      ]
+    },
+    {
+      "text": "Unlock carryover assumes Dietrich's path came first. If you play Cai first: Ninae goes Bishop alongside Tialla, Ultand stays Ovate, and Peppe goes Rogue, then Sniper.",
+      "units": [
+        "Ninae",
+        "Ultand",
+        "Peppe"
+      ]
+    },
+    {
+      "text": "Ch 9 lose condition: the path guide lists \"Cai or Ultand falls\" though Ultand is out for the free time. Check the prep screen.",
+      "ch": 9,
+      "units": [
+        "Ultand"
+      ],
+      "sources": [
+        "RPG Site Cai path guide"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,453 @@
+{
+  "name": "Gaitz",
+  "slug": "gaitz",
+  "epithet": "Swordsman from Sai",
+  "faction": "Bertrand's Army",
+  "homeRoute": "Dietrich",
+  "weapons": [
+    "Sword",
+    "Spear",
+    "Axe"
+  ],
+  "preferred": [
+    "Axe",
+    "Rider",
+    "Spear"
+  ],
+  "avoid": [
+    "White Magic",
+    "Black Magic"
+  ],
+  "personality": "A seasoned duelist who loves Sai tea, Ferghanan horses, and calligraphy.",
+  "story": "Gaitz is a veteran warrior from the eastern nation of Sai who fights in Bertrand's Army. He can only be recruited on Dietrich's route: Support 3, Renown 10+, complete Bertrand's Paralogue \"Friendly Match with Brigid's King\" (accept window 17/9-25/9), then the \"They Have Lost\" event around Chapter 12, after Bertrand's team is eliminated.",
+  "personalSkill": {
+    "name": "Brave Assist",
+    "effect": "Grants Def +3 to adjacent allies. Lv 20: Flashing Fang (20% trigger: Atk +4, Hit +50); Lv 35: Flashing Fang+ (Atk +7, Hit +100)."
+  },
+  "growths": {
+    "HP": 50,
+    "Str": 50,
+    "Mag": 20,
+    "Spd": 40,
+    "Dex": 45,
+    "Def": 45,
+    "Res": 25,
+    "Lck": 40,
+    "Cha": 45
+  },
+  "supports": [
+    "Alexandra",
+    "Dante",
+    "Goliath",
+    "Lilian",
+    "Ludia",
+    "Ursula",
+    "Zarcone"
+  ],
+  "tiers": [
+    {
+      "source": "Pocket Tactics",
+      "tier": "A"
+    },
+    {
+      "source": "KeenGamer",
+      "tier": "B"
+    }
+  ],
+  "tierNotes": "Pocket Tactics: A. KeenGamer: B (solid stats but very late, Dietrich-only arrival).",
+  "recruit": {
+    "how": "recruit",
+    "support": 3,
+    "renown": 10,
+    "extra": "Clear Bertrand's Paralogue AND Bertrand's team eliminated from tournament (~Ch12)",
+    "why": [
+      "Only Dietrich's route can recruit Gaitz at all, so the choice makes itself."
+    ],
+    "tip": "Also needs Bertrand's Paralogue and Bertrand's team knocked out of the tournament (around Ch 12)."
+  },
+  "requirements": {
+    "Cai": "—",
+    "Dietrich": "3S 10R",
+    "Theodora": "—",
+    "Leda": "—"
+  },
+  "build": {
+    "role": "Mounted spear and axe frontliner",
+    "path": [
+      "Armored Ornius Rider"
+    ],
+    "part1Target": "Armored Ornius Rider",
+    "part3Target": "Elephant Rider (Elephant License, Section 4)",
+    "notes": "Joins at about Lv 25 (Ch 12), already in a Specialty class. If it isn't Armored Ornius Rider, take that exam at once (Riding D, Axe C, Spear C). Part III: Riding C for Elephant Rider (D-156). Master Sense Threat. Brave Assist gives adjacent allies Def +3. The video says wall-jumping Ornius classes have solid stats.",
+    "confidence": "medium"
+  },
+  "guide": {
+    "summary": "Mounted spear and axe frontliner who joins in Ch 12. In Part III he rides a war elephant: half damage taken, Brave Assist on up to 8 allies.",
+    "stages": [
+      {
+        "when": "Join (Ch 12, about Lv 25)",
+        "from": {
+          "part": 1,
+          "ch": 12
+        },
+        "class": "Armored Ornius Rider",
+        "training": [
+          {
+            "rank": "Riding D, Axe C, Spear C",
+            "for": "Armored Ornius Rider exam, only if he joins in another Specialty class",
+            "how": "Arena Mounted Training (Spear, Rider) and Heavy Training (Axe)"
+          }
+        ],
+        "tips": [
+          "Recruit: Bertrand's Paralogue on 9/17, Support 3, Renown 10",
+          "One Free Time only: buy his gear in Ch 12, since Part II has no shops",
+          "Ch 12 join: about Lv 25 and already Specialty, so no Ornius Rider step"
+        ],
+        "weapons": [
+          {
+            "item": "Da Mina Spear",
+            "why": "Mt 13 at the Iron Spear's weight (7)",
+            "alts": [
+              "Iron Spear"
+            ]
+          },
+          {
+            "item": "Iron Axe",
+            "why": "Spike (axe art)"
+          },
+          {
+            "item": "Javelin",
+            "why": "1-2 throw; Hidden Windpierce"
+          }
+        ],
+        "items": [
+          {
+            "item": "Elixir",
+            "why": "Part II stock: his one Free Time to buy it",
+            "alts": [
+              "Concoction"
+            ]
+          },
+          {
+            "item": "Concoction",
+            "why": "Part II stock",
+            "alts": [
+              "Vulnerary"
+            ]
+          }
+        ],
+        "arts": [
+          {
+            "name": "Gale Spear",
+            "why": "Crit +5; Spear D per community sheet"
+          },
+          {
+            "name": "Spike",
+            "why": "Hit +10; Axe D per community sheet"
+          },
+          {
+            "name": "Hidden Windpierce",
+            "why": "Teach Secrets; needs a 1 to 2 range spear"
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Offense Basics",
+            "why": "Ornius Rider mastery, Str/Mag +1, once mastered"
+          },
+          {
+            "name": "Flashing Fang",
+            "why": "Personal Lv 20 ability: Grants Atk+4, Hit+50 when attacking. Trigger % = 20"
+          },
+          {
+            "name": "Spears Lv. 1",
+            "why": "Hit +3 with spears (Spear D+)"
+          }
+        ],
+        "goal": "Brave Assist (Def +3 to adjacent allies): end turns beside Yang Jie, Dante or the archers.",
+        "drop": [
+          {
+            "item": "Iron Spear",
+            "why": "Da Mina Spear's fallback (in its alts)"
+          }
+        ],
+        "level": "About Lv 25 on join",
+        "why": [
+          "Already Specialty on join; take the exam only if he joins in another class"
+        ],
+        "exit": "Stay Armored Ornius Rider into Part II"
+      },
+      {
+        "when": "Part II",
+        "from": {
+          "part": 2
+        },
+        "class": "Armored Ornius Rider",
+        "tips": [
+          "If he joined in another class and missed the exam in Ch 12, take Armored Ornius Rider on a Part II Specialty License"
+        ],
+        "weapons": [
+          {
+            "item": "Da Mina Spear",
+            "alts": [
+              "Iron Spear"
+            ]
+          },
+          {
+            "item": "Iron Axe",
+            "why": "Spike (axe art)"
+          },
+          {
+            "item": "Javelin",
+            "why": "Range 1-2 for Hidden Windpierce"
+          }
+        ],
+        "items": [
+          {
+            "item": "Elixir",
+            "why": "100 HP",
+            "plan": "Carried from Ch 12 (no shops in Part II)"
+          },
+          {
+            "item": "Concoction",
+            "why": "40 HP x2",
+            "plan": "Carried from Ch 12 (no shops in Part II)"
+          }
+        ],
+        "arts": [
+          {
+            "name": "Focused Throw",
+            "why": "Hit +20 at range 2; Spear C per community sheet"
+          },
+          {
+            "name": "Gale Spear",
+            "why": "Crit +5; Spear D per community sheet"
+          },
+          {
+            "name": "Spike",
+            "why": "Hit +10; Axe D per community sheet"
+          },
+          {
+            "name": "Hidden Windpierce",
+            "why": "Teach Secrets; needs a 1 to 2 range spear"
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Sense Threat",
+            "why": "Armored Ornius Rider mastery; Avo +20 vs effective foes, once mastered"
+          },
+          {
+            "name": "Flashing Fang+",
+            "why": "Personal Lv 35 ability: Grants Atk+7, Hit+100 when attacking. Trigger % = 20"
+          },
+          {
+            "name": "Flashing Fang",
+            "why": "Personal Lv 20 ability: Grants Atk+4, Hit+50 when attacking. Trigger % = 20"
+          },
+          {
+            "name": "Offense Basics",
+            "why": "Ornius Rider mastery, Str/Mag +1"
+          },
+          {
+            "name": "Spears Lv. 1",
+            "why": "Hit +3 with spears; Spears Lv. 2 at Spear C+"
+          }
+        ],
+        "drop": [
+          {
+            "item": "Iron Spear",
+            "why": "Replaced by the Da Mina Spear"
+          }
+        ],
+        "goal": "Flashing Fang (Lv 20, + at Lv 35: Atk +7, Hit +100 at 20%) fires when he attacks, so lead on player phase, then end beside a healer or archer for Brave Assist's Def +3.",
+        "exit": "Part III Section 4: Elephant Rider (Lv 35, Riding C, Elephant License)",
+        "to": {
+          "part": 3,
+          "ch": 3
+        }
+      },
+      {
+        "when": "Part III Section 4+ (Elephant Rider)",
+        "from": {
+          "part": 3,
+          "ch": 4
+        },
+        "class": "Elephant Rider",
+        "training": [
+          {
+            "rank": "Riding C",
+            "for": "Elephant Rider (Lv 35, Elephant License)",
+            "how": "Arena Mounted Training in Dagsion; squad D's dungeons for Lv 35"
+          },
+          {
+            "rank": "Riding C+",
+            "for": "Vanguard",
+            "how": "Battle: Elephant Rider trains Riding +2"
+          }
+        ],
+        "weapons": [],
+        "arts": [],
+        "abilities": [
+          {
+            "name": "Flashing Fang+",
+            "why": "Personal Lv 35: Atk +7, Hit +100 when attacking (20%)"
+          },
+          {
+            "name": "Distraction+",
+            "why": "Authority C: adjacent foes Hit −5, up to 8 tiles around the body"
+          },
+          {
+            "name": "Elephant Vanguard",
+            "why": "Elephant Rider mastery: Hit +10, once mastered"
+          },
+          {
+            "name": "Offense Basics",
+            "why": "Ornius Rider mastery: Str/Mag +1"
+          },
+          {
+            "name": "Vanguard",
+            "why": "Riding C+: Shld +2 when he attacks first (Cavalry tag on an elephant ?)"
+          }
+        ],
+        "goal": "Heavy Charge the packs, then park the 2×2 body in the line: Brave Assist Def +3 on up to 8 allies.",
+        "tips": [
+          "Trample (range 1) and Trunk Attack (range 2+) replace weapons; no stats published",
+          "War-Elephant Boots: half damage, no dodge. Def and Shld count, Avo doesn't",
+          "First fight: does every ally around the body show Def +3? That test decides Ultand's elephant",
+          "Mahadu: park beside Klapka with Yang Jie, Dante and Simon inside Brave Assist (Def +3)"
+        ],
+        "items": [
+          {
+            "item": "Elixir",
+            "why": "100 HP for the front",
+            "alts": [
+              "Concoction"
+            ]
+          }
+        ],
+        "exit": "Final class.",
+        "mount": "Saramis War Elephant (The Elephant Rider's Bond; Paired Dash Mov +1/+2)",
+        "equipment": [
+          {
+            "item": "Silver Shield",
+            "why": "Def +5 before War-Elephant Boots halve the hit (shield slot ?)",
+            "slot": "Defense",
+            "alts": [
+              "Iron Shield",
+              "Bronze Shield"
+            ]
+          },
+          {
+            "item": "Victory Gem",
+            "why": "Heals a little after each kill: Trample finishes keep him up",
+            "slot": "Accessory",
+            "alts": [
+              "Goddess Ring"
+            ]
+          }
+        ],
+        "drop": [
+          {
+            "item": "Knightly Senses",
+            "why": "He can't dodge on the elephant: Avo +10 does nothing"
+          }
+        ],
+        "why": [
+          "Boon: Trample can't strip it; Dietrich's or Simon's Cleansing Blade +3 opens the foe"
+        ]
+      }
+    ],
+    "arts": [
+      {
+        "name": "Focused Throw",
+        "why": "Accurate range hit"
+      },
+      {
+        "name": "Protective Storm",
+        "why": "Prt +7; Spear B per community sheet"
+      },
+      {
+        "name": "Gale Spear",
+        "why": "Cheap crit"
+      }
+    ],
+    "abilities": [
+      {
+        "name": "Sense Threat",
+        "why": "Anti-effective"
+      },
+      {
+        "name": "Offense Basics",
+        "why": "Str +1"
+      }
+    ],
+    "specials": [
+      "Dietrich-route-only recruit",
+      "Avoids White and Black Magic"
+    ],
+    "sources": [
+      "class plan v3",
+      "weapons-and-items",
+      "character-learnsets",
+      "class-data",
+      "combat-arts-and-abilities",
+      "Part I Dietrich walkthrough",
+      "Part III walkthrough"
+    ],
+    "watch": [
+      "Hybrid frontliner until Part III: Da Mina Spear 7 and no accessory. Iron Axe (10) and Javelin (8) are swaps; go back to the spear where he needs to double.",
+      "Part III Elephant Rider: no weapon. Silver Shield 4 + Victory Gem 3 = 7; he can't dodge, so weight only costs Trample doubles: the gem comes off first."
+    ],
+    "decisions": [
+      {
+        "topic": "Clear Bertrand's Paralogue on 9/17",
+        "pick": "Save on 9/16, fight on 9/17",
+        "why": "His only door: the Paralogue runs one day. Then keep Support 3 going and reach Renown 10 by 11/27; he joins once Bertrand's team is out (after the Ch 11 battle).",
+        "else": "Miss 9/17 or Renown 10 and he is gone for this path"
+      }
+    ],
+    "gates": [
+      {
+        "route": "Dietrich",
+        "from": {
+          "part": 1,
+          "ch": 9
+        },
+        "by": {
+          "part": 1,
+          "ch": 9
+        },
+        "kind": "recruit",
+        "text": "Bertrand's Paralogue on 9/17 only: no Gaitz without it"
+      },
+      {
+        "route": "Dietrich",
+        "from": {
+          "part": 1,
+          "ch": 8
+        },
+        "by": {
+          "part": 1,
+          "ch": 12
+        },
+        "kind": "recruit",
+        "text": "Support 3 and Renown 10 by 11/27"
+      }
+    ]
+  },
+  "sources": [
+    "https://fortunesweave.co.uk/characters/gaitz",
+    "https://www.keengamer.com/articles/guides/fire-emblem-fortunes-weave-best-class-for-every-character/",
+    "https://www.keengamer.com/articles/guides/fire-emblem-fortunes-weave-tier-list-best-characters-ranked-for-every-route/",
+    "https://www.pockettactics.com/fire-emblem-fortunes-weave/tier-list"
+  ],
+  "recruitOn": {
+    "Dietrich": {
+      "how": "recruit",
+      "support": 3,
+      "renown": 10,
+      "task": "Clear Bertrand's Paralogue AND Bertrand's team eliminated from tournament (~Ch12)"
+    }
+  }
+}

@@ -1,0 +1,259 @@
+{
+  "route": "Theodora",
+  "ch": 11,
+  "name": "A Sudden Turn",
+  "free": {
+    "from": "9/17",
+    "to": "10/15"
+  },
+  "routine": {
+    "meals": [
+      {
+        "week": "Every Sunday",
+        "tables": [
+          [
+            "Theodora",
+            "Jester",
+            "Sirocco"
+          ],
+          [
+            "Theodora",
+            "Io",
+            "Diego"
+          ],
+          [
+            "Theodora",
+            "Seteth",
+            "Loretta"
+          ]
+        ],
+        "note": "Jester until he joins, then army pairs (Theodora + Loretta + Tobias). Io and Diego share a table: they support each other."
+      }
+    ],
+    "gifts": [
+      {
+        "unit": "Io",
+        "gift": "Shield Portrait",
+        "alt": "Common Coffee",
+        "until": "Support 3, recruit Ch 11 (filler)"
+      },
+      {
+        "unit": "Diego",
+        "gift": "Tales of Adventure",
+        "alt": "Shield Portrait",
+        "until": "Support 2, recruit Ch 12"
+      }
+    ],
+    "weekly": [
+      {
+        "text": "Diego short of Support 2 by 10/15? Seat him at every table: Ch 12 is too late"
+      }
+    ]
+  },
+  "missables": [
+    {
+      "id": "theodora-ch11-missables-diego-support",
+      "kind": "recruit-window",
+      "text": "Get Diego to Support 2 before 10/16: check Map > People",
+      "when": "by 10/15",
+      "lose": "the Ch 12 recruit of Diego (he needs Support 2)",
+      "recover": "None",
+      "task": true
+    },
+    {
+      "id": "theodora-ch11-missables-renown-8",
+      "kind": "recruit-window",
+      "text": "Be at Renown 8 before Ch 12: Diego needs it, and Part I ends 10/24",
+      "when": "by 10/15",
+      "lose": "Diego's recruit (and Benditz's, filler)",
+      "recover": "None",
+      "detail": [
+        "Ch 11 usually sits at Renown 9 to 10, so this is a check, not a grind.",
+        "Short? Clear all three Paralogues (150 each) and both Send Supplies (350 each) before 10/15."
+      ],
+      "task": true
+    },
+    {
+      "id": "theodora-ch11-missables-paralogue-windows",
+      "kind": "timing",
+      "text": "Fight three Paralogues in their windows: Bertrand's by 9/25, Anna's 9/24 to 10/5, Talimun's by 10/12",
+      "when": "9/17 to 10/12",
+      "lose": "20,000G, 150 Renown and the item of each one you miss",
+      "recover": "None",
+      "detail": [
+        "Talimun's has two windows: 9/17 to 9/22 or 10/1 to 10/10."
+      ],
+      "task": true
+    }
+  ],
+  "classes": {
+    "note": {
+      "text": "Take any Ch 10 Advanced exam that waited on Renown 8, Lv 35 or a rank, in priority order",
+      "detail": [
+        "Order: Sofia, Bonaventure, Tobias, then Lilian."
+      ]
+    },
+    "override": [
+      {
+        "unit": "Lysander",
+        "text": "Dragoon carries in from Cai's route (Aurora's mentoring quest)"
+      }
+    ]
+  },
+  "gear": {
+    "barter": [
+      {
+        "item": "Zanbato",
+        "for": "Nuzzuo (cavalry maps)",
+        "at": "Dagsion"
+      },
+      {
+        "item": "Flyssa",
+        "for": "Nuzzuo (armor maps)",
+        "at": "Dagsion"
+      }
+    ],
+    "assign": [
+      {
+        "item": "Cleansing Blade",
+        "to": "Alexandra",
+        "why": "Talimun's Paralogue copy: storage until her Part III"
+      },
+      {
+        "item": "Pure Water",
+        "to": "Alexandra",
+        "why": "Open slot for the Fire Orb side of this battle"
+      },
+      {
+        "item": "Archive θ",
+        "to": "Bonaventure",
+        "why": "Iapetus Cavern chest: read it at once"
+      }
+    ],
+    "note": [
+      {
+        "text": "Pack each bench unit's Part II kit now: Nydine, Noctula, Simon, Nuzzuo",
+        "detail": [
+          "Six items at most, main weapon in hand. Each unit's build page lists them.",
+          "Buy Noctula's [[item:Da Mina Gauntlets]] now: +2 in Ch 12."
+        ]
+      }
+    ]
+  },
+  "recruits": [
+    {
+      "unit": "Io",
+      "action": "At Support 3 and Renown 10, pay 4,000G and recruit him for his Levin Sword",
+      "detail": [
+        "Filler: bench only."
+      ]
+    }
+  ],
+  "prep": [
+    {
+      "text": "Jester still waiting for Renown 9? His recruit row is in Ch 10"
+    }
+  ],
+  "quests": {
+    "route": [
+      {
+        "quest": "send-supplies-lir-fish"
+      },
+      {
+        "quest": "send-supplies-sea-star-stone",
+        "note": "One Sea-Star Stone comes from [[quest:defeat-the-rampaging-golems]]",
+        "detail": [
+          "Dragoon already carries in from Cai's path: this pair is for gold and Renown."
+        ]
+      }
+    ],
+    "sub": [
+      {
+        "quest": "cant-go-home"
+      },
+      {
+        "quest": "defeat-the-rampaging-golems",
+        "offered": "if-offered"
+      },
+      {
+        "quest": "secret-sparkle",
+        "offered": "if-offered"
+      },
+      {
+        "quest": "a-lost-object",
+        "offered": "if-offered"
+      }
+    ],
+    "paralogue": [
+      {
+        "quest": "friendly-match-with-brigids-king",
+        "note": "The battle starts at 21:00"
+      },
+      {
+        "quest": "secret-of-the-vanished-carriage",
+        "note": "Keep one unit back to catch the thief; its Cleansing Blade is Alexandra's for Part III",
+        "detail": [
+          "Taking the 10/1 window? Run Iapetus Cavern first: Archive θ's Banshee (range 3) pins the thief."
+        ]
+      },
+      {
+        "quest": "golden-secret",
+        "note": "Break the last ore deposit only when ready"
+      }
+    ]
+  },
+  "explore": [
+    {
+      "group": "Dungeons",
+      "id": "theodora-ch11-explore-iapetus-cavern",
+      "loot": true,
+      "text": "[[place:Iapetus Cavern]] (Lv 32, Solidus): Archive θ for Bonaventure, Black-Magic Manual",
+      "detail": [
+        "Run it with your support pairs."
+      ]
+    },
+    {
+      "group": "Spare Turns: gather for Vandahl, nearest stop first",
+      "text": "Nuzzuo's bench kit (Zanbato, Flyssa): Bakul ×10, Kimbai ×3, Noa Fruit ×1",
+      "detail": [
+        "[[gather:Bakul]] and [[gather:Noa Fruit]] at [[place:Sunwatch Pass]] (Elektra).",
+        "[[gather:Kimbai]] at [[place:Orion Canyon]] (Solidus)."
+      ]
+    },
+    {
+      "group": "Spare Turns",
+      "text": "Spend any Turns still left on Inn Auto-Activities"
+    }
+  ],
+  "battle": {
+    "title": "Semifinal vs. Cai",
+    "objective": "Defeat Cai",
+    "tips": [
+      {
+        "text": "Hit the upper-left and upper-right switches one at a time"
+      },
+      {
+        "text": "High-Res units go left (Fire Orb), high-Def units go right (ballista)",
+        "detail": [
+          "Alexandra packs her Pure Water (open slot) for the Fire Orb side."
+        ]
+      },
+      {
+        "text": "Watch for the purple targeting line of Cai's Underworld Burst"
+      }
+    ],
+    "loot": [
+      {
+        "text": "Afterward, the Sewers dungeon has a [[item:Talisman Shield]] and a Vulnerary"
+      }
+    ]
+  },
+  "exitExtra": [
+    {
+      "text": "Hand in every open Send Supplies quest now: all expire 10/24 and Ch 12 has only about 32 Turns",
+      "detail": [
+        "Your last long free time: finish training and Support here too."
+      ]
+    }
+  ]
+}

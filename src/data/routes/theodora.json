@@ -1,0 +1,2352 @@
+{
+  "lord": "Theodora",
+  "hook": "A one-armed princess who trades years of her life for a cursed arm, and the lord most central to the plot.",
+  "plays": "Spear wall and commander (Soldier line)",
+  "pick": "You like politics, logistics and a demanding calendar.",
+  "watch": "Ch 12 has only about 32 Turns and ends 10/24; three Paralogues and every Send Supplies quest are due by then. Five recruits need Support 3 by Ch 9: seat them at meals from Ch 4. Hold every cursed item past 10/24 (D-103).",
+  "systems": [
+    "Battalions & Gambits",
+    "Send Supplies quests (unlock Cataphract, Guardian, Dragoon)",
+    "Ships and royalty-only areas",
+    "Solomon Island"
+  ],
+  "paralogues": 7,
+  "why": "Arrives with Guardian, Ranger, Blacksmith, Dragoon, Troubadour and Caladrius from the three earlier routes, plus three paths of Boon discounts for Send Supplies.",
+  "unlocks": {
+    "gives": [
+      "Cataphract",
+      "Guardian",
+      "Dragoon*"
+    ],
+    "wants": [
+      "Guardian",
+      "Dragoon",
+      "Ranger"
+    ]
+  },
+  "team": {
+    "summary": "Two groups. The Fortress holds the enemy phase: Theodora (Guardian) with Ninae and Ultand (Priest, then Guardian) beside her, Tobias and Bonaventure on the next tiles, Sirocco and Sofia behind. The Strike group takes the player phase: Alexandra, Lysander, Loretta and Lilian. Zarcone swings the Hammer in Ch 6 to 7 and Tobias takes it in Ch 10. Loretta and Nydine join late Ch 7, Alexandra, Ultand, Ninae and Noctula on 6/1, Simon and Nuzzuo on 7/1, all near Lv 15. Nine deploy from Ch 8; Nydine, Noctula, Simon and Nuzzuo level on the bench, and Part II fields all 15. Advanced before Part II: Theodora, Sofia, Bonaventure, Tobias (Ch 10), Lilian, Lysander (Ch 11), then Sirocco and Loretta or Ultand (Ch 12 if Lv 35). Diego joins in Ch 12 for Part III only.",
+    "gaps": [
+      "Gambit numbers and deploy slots per Renown are undocumented: picks rest on stat bonuses (wall Def/Dex, casters Mag/Res, healers Res/Lck), not gambit damage.",
+      "Mastery pace is undocumented. Every side-trip exit is a condition, not a chapter: if a mastery isn't in by Lv 35, take the Advanced class on time and finish it in Part II.",
+      "Support 3 for five recruits by Ch 9 (Loretta, Nydine, Ultand, Ninae, Simon): Support is global, so bank it first with the replay meal loop on a cleared chapter where Theodora is in Dagsion (support-level-guide.md); normal Sundays alone are tight (about 12 to Ch 7).",
+      "Join levels are player data: Ch 6 to 8 joins arrive at about Lv 15 in a Beginner class; Ch 9 joins (Simon, Nuzzuo) at Lv 15 or about 25 (open). Noctula joining Ch 8 as a Pugilist with the Claw is a player report ?",
+      "Specialty Licenses: Part I uses about 18 (12 main-army classes, 3 side trips, 3 bench exams: Nydine Ch 9, Simon and Nuzzuo Ch 10). Part II Ch 1 to 2 spend the Advanced ones on Simon, Ninae, Nydine, Nuzzuo and anyone Ch 12 missed.",
+      "Bench EXP: Ch 8 to 12 seat 9 of the core 11, so the sitter (Tobias in Ch 8 to 9, Ultand or Ninae, Lilian) and the Part II bench level in dungeon parties (5 seats) and the Arena. Aim at Lv 30+ by Ch 12 ?",
+      "Only one archer deploys in Part I. Ch 12's flier waves and the Pegasus in Dietrich's and Orchel's Paralogues lean on Lilian (swap her in), Bonaventure's Cutting Gale and Sirocco's magic.",
+      "Ch 8 to 9 have no Hammer holder: armor falls to Alexandra's Levin Sword, Theodora's Halberd and both casters.",
+      "Unconfirmed: fliers counting as [Cavalry] (Nydine stays on the ground), Noctula's Avo stacking, Nydine's Heavy D under a bane, Balor's gates as obstacles for Unstoppable Force.",
+      "Deployment slots (6, then 8, then 9) are the player's report, not a source: check the prep screen each chapter."
+    ],
+    "fixes": [
+      "Fortress (enemy phase): Theodora's Royal Resolve on the choke, Ninae and Ultand adjacent (Spirits' Guidance, Patch Up, Pray for Safety), Bonaventure's Sage Advice (Def +3), Tobias on the second tile",
+      "Strike (player phase): Alexandra ends next to Loretta, Lilian or Lysander (Silver Maiden); Loretta stays at full HP for Peak Form (Sofia's range-3 heals, Ultand adjacent)",
+      "Flex bench for Part II: Nydine (Cataphract, Barge Through), Noctula (dodge bait, Ursa's Right Claw), Simon (second Hammer, Power Spike), Nuzzuo (second bow)",
+      "Armor: Zarcone's Hammer (Ch 6 to 7), then Tobias's (Ch 10+); in Ch 8 to 9 Alexandra's Levin Sword, Theodora's Halberd and both casters",
+      "Healers: Sofia (Bishop, main), Theodora (Physic from Guardian, Ch 10), Ninae (Physic at White B), Bonaventure (Heal, Recover), Sirocco (Heal, Restore); Ultand's Patch Up heals the wall after each combat",
+      "Battalions: Theodora first, then Ultand (Cha 50), Ninae, Sirocco, Sofia, Bonaventure, then Tobias, Loretta, Lilian, Simon; Nydine and the fliers carry none",
+      "Hit: Bonaventure's Additional Intel next to Tobias, Battleblade Strike and Enrage on Tobias, Crescendo (Lilian, Lysander), Marksmanship (Lilian), Theodora's Rein",
+      "Res: Alexandra (Protecting Wings, Phantom Ring from Ch 9), Ninae's Spirits' Guidance on the wall, Sofia's Barrier on the mage side",
+      "Divine claims (one holder in the Part III army): Theodora The Trident, Tobias The Eternal, Troy The Godhand, Sirocco The Avatar, Nuzzuo The Calamity, Loretta The Blade; Cai The Cavalier, Leda The Apsara (D-131)",
+      "Part III imports stay open: decide after this Part II whether to skip Part II on Dietrich, Cai and Leda. The 15 stand alone; merges (Sirocco, Simon, Ultand, Ninae, Nydine, Noctula) are a bonus (D-130)",
+      "Paradise Fish ×2 from Lake Brontes (Saveilon): one pays Zarcone's Giant's Ring (Ch 6), one is Ninae's recruit item (6/1)",
+      "Part III undead: Cleansing Blades for Alexandra (Talimun's), Lysander (Part II Ch 2 drop) and Tobias (Theodora's Ch 6 copy); Ultand's Seraphim is the backup; the rest fight beside Eshmel",
+      "Ability slots: every class has 5, and every stage fills all 5 from level, mastery and skill-rank abilities (D-102)",
+      "Cursed treasures: open all 9 Part I cursed chests plus Noctula's Claw and hold them past 10/24; Theodora (Muen, then Vendetta), Orchel, Eshmel and Anatolia use them in Part III (D-103, D-104)"
+    ]
+  },
+  "chapters": {
+    "1": {
+      "title": "Theodora, The Iron Bastion"
+    },
+    "2": {
+      "title": "Dyan's Uprising"
+    },
+    "3": {
+      "title": "Tumult at the Imperial Capital",
+      "free": "2/4-2/4"
+    },
+    "4": {
+      "title": "Unlikely Allegiances",
+      "free": "3/1-3/7"
+    },
+    "5": {
+      "title": "An Ominous Clash",
+      "free": "3/8-3/21"
+    },
+    "6": {
+      "title": "The Treasure Hunter",
+      "free": "3/22-4/20"
+    },
+    "7": {
+      "title": "A Voice from the Darkness",
+      "free": "4/21-5/28"
+    },
+    "8": {
+      "title": "Rendezvous with Troy",
+      "free": "6/1-6/30"
+    },
+    "9": {
+      "title": "To The Forbidden Land",
+      "free": "7/1-7/31"
+    },
+    "10": {
+      "title": "The Queen and the Merchant",
+      "free": "8/25-9/16"
+    },
+    "11": {
+      "title": "A Sudden Turn",
+      "free": "9/17-10/15"
+    },
+    "12": {
+      "title": "The War of Zanbar",
+      "free": "10/16-10/24"
+    }
+  },
+  "roster": [
+    {
+      "name": "Bonaventure",
+      "chapter": 1,
+      "estimate": false,
+      "why": "Joins with the story"
+    },
+    {
+      "name": "Tobias",
+      "chapter": 1,
+      "estimate": false,
+      "why": "Joins with the story"
+    },
+    {
+      "name": "Lilian",
+      "chapter": 4,
+      "estimate": false,
+      "why": "Joins with the story"
+    },
+    {
+      "name": "Lysander",
+      "chapter": 4,
+      "estimate": false,
+      "why": "Joins with the story"
+    },
+    {
+      "name": "Sofia",
+      "chapter": 5,
+      "estimate": false,
+      "why": "Recruitment tutorial (Renown 2)"
+    },
+    {
+      "name": "Zarcone",
+      "chapter": 6,
+      "estimate": true,
+      "why": "Renown 4; Hammer Ch 6 to 7, then storage"
+    },
+    {
+      "name": "Loretta",
+      "chapter": 7,
+      "estimate": true,
+      "why": "Late Ch 7 (Ch 8 week 1 at the latest): Support 3, Renown 5, 3 Iron Swords"
+    },
+    {
+      "name": "Alexandra",
+      "chapter": 8,
+      "estimate": false,
+      "why": "Ch 8 week 1 (6/1): Renown 6"
+    },
+    {
+      "name": "Nuzzuo",
+      "chapter": 9,
+      "estimate": false,
+      "why": "Ch 9 week 1 (from about 7/1): Renown 6, 3 Iron Bows; Part II bench"
+    },
+    {
+      "name": "Diego",
+      "chapter": 12,
+      "estimate": false,
+      "why": "Orchel's Paralogue 10/18 to 10/24 (Support 2, Renown 8); Part III only"
+    }
+  ],
+  "extras": [
+    "Sirocco",
+    "Nydine",
+    "Ultand",
+    "Ninae",
+    "Noctula",
+    "Simon"
+  ],
+  "deployment": {
+    "summary": "Two groups built on stacked auras. The Fortress takes the enemy phase on a choke: Theodora (Guardian, Royal Resolve) with Ninae or Ultand adjacent, Bonaventure's Def +3 and Tobias on the next tile, Sofia's Physic and Sirocco's magic behind. The Strike group takes the player phase: Alexandra (Silver Maiden), Loretta, Lysander and Lilian end turns next to each other. Zarcone holds the Hammer in Ch 6 to 7; Tobias sits Ch 8 to 9 (dungeons, Arena) and returns with it in Ch 10. Nydine, Noctula, Simon and Nuzzuo level on the bench for Part II, which fields all 15.",
+    "roles": [
+      {
+        "role": "Lord, Fortress anchor, first battalion carrier",
+        "primary": "Theodora",
+        "backup": "Ninae",
+        "why": "Guardian (HP 80, Res 45 growth), Great Counter and Royal Resolve (half damage, 30%) hold chokes; best Cha and Authority for gambits."
+      },
+      {
+        "role": "Second wall (Fortress)",
+        "primary": "Ultand",
+        "backup": "Ninae",
+        "why": "Priest at Lv 20, Guardian at Lv 35. Ultand: Patch Up and Pray for Safety (Ddg +10) beside the wall, Cha 50. Ninae: Spirits' Guidance (Hit/Avo +10 vs magic) on mage maps."
+      },
+      {
+        "role": "Main healer (Physic)",
+        "primary": "Sofia",
+        "backup": "Theodora",
+        "why": "S-rated healer: Magic Heal +10, Distant Healing range, Physic at White Magic B; Theodora casts Physic from Guardian (Ch 10), Ninae at White B."
+      },
+      {
+        "role": "Support caster and second healer",
+        "primary": "Bonaventure",
+        "backup": "Sirocco",
+        "why": "Sage Advice (Def +3) and Additional Intel (Hit +10, +20 at Lv 35) on the adjacent tile; Cutting Gale for fliers; Heal, Recover and Torch."
+      },
+      {
+        "role": "Magic nuke",
+        "primary": "Sirocco",
+        "backup": "Bonaventure",
+        "why": "S in both character lists; doubled Black Magic from Shaman, Ovate by Ch 12. Joins Ch 7; Jester's Levin Sword once Renown 9 lands (it hits with Mag)."
+      },
+      {
+        "role": "Physical front-liner and Hammer",
+        "primary": "Tobias",
+        "backup": "Simon",
+        "why": "Zarcone swings the Hammer in Ch 6 to 7; Tobias (Warrior) from Ch 10: Battleblade Strike (Dex +2 per combat) and Enrage fix his Hit. Simon carries the second Hammer in Part II."
+      },
+      {
+        "role": "Strike dodger (sword)",
+        "primary": "Loretta",
+        "backup": "Alexandra",
+        "why": "Myrmidon at Lv 20, Shido at Lv 35, Sword boon and Spd 55: Steadfast (Avo +10 at half HP), Peak Form at full HP. Ends turns next to Alexandra."
+      },
+      {
+        "role": "Ranged and anti-flier",
+        "primary": "Lilian",
+        "backup": "Bonaventure",
+        "why": "The only archer in Part I: every bow is Effective+ vs fliers, Longbow Deadeye, Crescendo, Sniper's Marksmanship. Nuzzuo is the second bow in Part II."
+      },
+      {
+        "role": "Lead flier, sword striker, Res dodge tank",
+        "primary": "Alexandra",
+        "backup": "Loretta",
+        "why": "The player's carry for Parts II and III. Wing Soldier on Bucephalus from Ch 9 (Spd 80, Res 50 growth), Protecting Wings, Phantom Ring, Levin Sword; Silver Maiden beside the Strike group."
+      },
+      {
+        "role": "Flier spear striker",
+        "primary": "Lysander",
+        "backup": "Alexandra",
+        "why": "Armored Ornius Rider jumps walls until Lv 35, then Dragoon (carried in from Cai's path): Ji on armor and cavalry, Besieger."
+      },
+      {
+        "role": "Battalion carriers (route slot)",
+        "primary": "Theodora",
+        "backup": "Ultand, Ninae, Sirocco, Sofia, Bonaventure, then Tobias, Loretta, Lilian, Simon",
+        "why": "Infantry or armored only, tier at or below Authority. Ultand's Cha 50 makes her the best carrier after Theodora. Fewer slots? Drop Simon (bench), then Lilian, then Loretta."
+      }
+    ],
+    "phases": [
+      {
+        "chapters": "Ch 1 to 5",
+        "slots": 6,
+        "deploy": [
+          "Theodora",
+          "Bonaventure",
+          "Tobias",
+          "Lilian",
+          "Lysander",
+          "Sofia"
+        ],
+        "bench": [],
+        "note": "Theodora, Tobias and Bonaventure start alone; Lilian and Lysander join in Ch 4 and Sofia in Ch 5. Bonaventure heals until Sofia arrives; Novice Hunters (Ch 4) go on Theodora. Guests (Ch 3, 4, 5) may take slots.",
+        "from": 1,
+        "to": 5
+      },
+      {
+        "chapters": "Ch 6 to 7",
+        "slots": 8,
+        "deploy": [
+          "Theodora",
+          "Sofia",
+          "Bonaventure",
+          "Tobias",
+          "Lilian",
+          "Lysander",
+          "Zarcone",
+          "Sirocco"
+        ],
+        "bench": [
+          "Loretta",
+          "Nydine"
+        ],
+        "note": "Zarcone swings the Hammer from Ch 6 (seven deploy there); Sirocco joins in Ch 7 week 1 and takes slot 8. Loretta and Nydine join late Ch 7 and level in dungeons.",
+        "from": 6,
+        "to": 7
+      },
+      {
+        "chapters": "Ch 8 to 9",
+        "slots": 9,
+        "deploy": [
+          "Theodora",
+          "Bonaventure",
+          "Loretta",
+          "Lilian",
+          "Lysander",
+          "Sofia",
+          "Alexandra",
+          "Sirocco",
+          "Ultand"
+        ],
+        "bench": [
+          "Tobias",
+          "Ninae",
+          "Nydine",
+          "Noctula",
+          "Simon",
+          "Nuzzuo"
+        ],
+        "note": "Alexandra and Loretta take Zarcone's and Tobias's seats. Ultand holds the wall seat, Ninae on mage maps. Tobias sits for dungeons and Arena seats. No Hammer: Levin Sword, Halberd and both casters break armor. Simon and Nuzzuo join 7/1.",
+        "from": 8,
+        "to": 9
+      },
+      {
+        "chapters": "Ch 10 to 12",
+        "slots": 9,
+        "deploy": [
+          "Theodora",
+          "Bonaventure",
+          "Loretta",
+          "Tobias",
+          "Lysander",
+          "Sofia",
+          "Alexandra",
+          "Sirocco",
+          "Ultand"
+        ],
+        "bench": [
+          "Lilian",
+          "Ninae",
+          "Nydine",
+          "Noctula",
+          "Simon",
+          "Nuzzuo",
+          "Diego"
+        ],
+        "note": "Core 11 minus two per map: Ultand or Ninae (Ninae on mage maps), and Lilian or Bonaventure (Lilian in on flier and shield maps). Tobias returns with the Hammer. Ch 11: Res side left (Fire Orb), Fortress right (ballista). Diego joins Ch 12 for Part III only.",
+        "from": 10,
+        "to": 12
+      }
+    ],
+    "synergies": [
+      {
+        "units": [
+          "Theodora",
+          "Ninae",
+          "Ultand",
+          "Bonaventure",
+          "Tobias"
+        ],
+        "title": "Fortress pocket",
+        "kind": "defense",
+        "how": "Theodora holds the choke on enemy phase. Ultand (or Ninae) ends adjacent: Patch Up heals her after every combat, Pray for Safety adds Ddg +10 from Lv 20; Ninae's Spirits' Guidance gives Hit/Avo +10 vs magic (within 2 at Lv 35). Bonaventure on another adjacent tile adds Def +3 (Sage Advice); Tobias holds the second tile. Sofia and Sirocco stay one row back.",
+        "payoff": "Def +3, Ddg +10, Hit/Avo +10 vs magic and a heal after every combat; Royal Resolve halves 30% of hits"
+      },
+      {
+        "units": [
+          "Alexandra",
+          "Loretta",
+          "Lilian",
+          "Lysander"
+        ],
+        "title": "Silver Maiden strike pocket",
+        "kind": "offense",
+        "how": "Player phase: the Strike group attacks, then ends its turns around Alexandra so Silver Maiden counts each adjacent ally. Loretta stays at full HP for Peak Form: Sofia tops her up from range 3, Ultand's Patch Up when she ends next to the wall. Mage side from Ch 9: Alexandra baits (Res 50 growth, Protecting Wings, Phantom Ring).",
+        "payoff": "Three allies adjacent: Hit/Avo +15 for Alexandra; Loretta at full HP: Atk +3 (Avo +10 more at Lv 35)"
+      },
+      {
+        "units": [
+          "Theodora",
+          "Sofia"
+        ],
+        "title": "Choke and heal",
+        "kind": "healing",
+        "how": "Sofia stays two rows behind the Fortress and Physics whoever took the most hits. Once she masters Bishop (Ch 10 on), Barrier (Res +3) covers whoever stands next to her on mage maps.",
+        "payoff": "Sofia's Physic heals 18 (8 +10) from range, so Theodora never steps off the choke"
+      },
+      {
+        "units": [
+          "Sofia",
+          "Theodora",
+          "Bonaventure",
+          "Sirocco",
+          "Ninae"
+        ],
+        "title": "Healing Order",
+        "kind": "healing",
+        "how": "At Authority B Sofia learns Healing Order?: Healing Knowledge (+10 HP) spreads to every healer within 3 spaces. Keep the other healers within 3 of her when they heal.",
+        "payoff": "Every healer within 3 of Sofia heals +10 HP?: each Physic goes from 8 to 18"
+      },
+      {
+        "units": [
+          "Theodora",
+          "Ultand",
+          "Sirocco",
+          "Bonaventure"
+        ],
+        "title": "Gambit line",
+        "kind": "offense",
+        "how": "Theodora (Lions of Megaira), Ultand, Sirocco (Shadow Mages) and Bonaventure (Elevated Priests) fight as one line: the walls in front, the casters one row back. Each gambit needs an exact spot relative to its target, so line them up on player phase before Theodora ends her turn on the choke.",
+        "payoff": "Four area gambits from one formation in one player phase; [[stat:Cha]] raises gambit Hit (Ultand Cha 50)"
+      },
+      {
+        "units": [
+          "Bonaventure",
+          "Tobias"
+        ],
+        "title": "Accuracy escort",
+        "kind": "support",
+        "how": "Bonaventure moves first and ends next to the axe user about to attack: Additional Intel Hit +10 (30%, +20 at Lv 35). Tobias's arts and the Hit 60 Hammer (Zarcone in Ch 6 to 7, Tobias from Ch 10) need it most; Battleblade Strike stacks Dex +2 per combat on top. From Ch 9 he casts Swarm Z (Spd -3) on the target first.",
+        "payoff": "Hit +10 at 30% (+20 at Lv 35) and Def +3 on the attacker: the Hit 60 Hammer and Tobias's arts start landing"
+      },
+      {
+        "units": [
+          "Tobias",
+          "Alexandra",
+          "Theodora",
+          "Lilian"
+        ],
+        "title": "Effectiveness coverage",
+        "kind": "offense",
+        "how": "Armor: the Hammer (Zarcone in Ch 6 to 7; Tobias from Ch 10, +2 at Ch 12), Alexandra's Levin Sword (+2 at Ch 12), Theodora's Halberd then Ji, both casters. Cavalry: Theodora's Ji, Lysander's Halberd and Ji, Nydine's Iron Spear. Fliers: Lilian's Da Mina Bow and Longbow, Bonaventure's Cutting Gale, Sirocco's magic.",
+        "payoff": "Effective+ triples Mt: Hammer 14 → 42 vs armor; Ji doubles vs armor and cavalry"
+      },
+      {
+        "units": [
+          "Lilian",
+          "Bonaventure"
+        ],
+        "title": "Deadeye sniper nest",
+        "kind": "offense",
+        "how": "Longbow Deadeye trades Hit for range 5 and triple damage: Crescendo stacks from her kills, and Bonaventure adjacent adds Additional Intel. They support each other; Lilian also supports Lysander, Tobias, Nydine and Simon.",
+        "payoff": "Deadeye's Hit −30 at range 3–5: Additional Intel Hit +10 (30%) and Crescendo Hit +3 per kill buy it back"
+      }
+    ],
+    "units": {
+      "Theodora": {
+        "status": "core",
+        "role": "Lord, Guardian tank, Physic, first battalion carrier",
+        "why": "Lord and the S-rated tank; best Cha and Authority on the team for gambits.",
+        "partII": "Stays Guardian through Part II: Physic and Brace on the chokes; Sentinel at Lv 45 in Part III."
+      },
+      "Sofia": {
+        "status": "core",
+        "role": "Main healer (Physic, Barrier, Healing Order)",
+        "why": "S-rated healer; Bishop is a top class, and Healing Order at Authority B boosts every other healer.",
+        "partII": "Stays Bishop: main Physic carrier, deploy every map."
+      },
+      "Bonaventure": {
+        "status": "core",
+        "role": "Support caster: Def and Hit aura, second healer, battalion carrier",
+        "why": "Joins Ch 1; once Sirocco arrives his best use is the Fortress tile next to Theodora or Tobias (Def +3, Hit +10), plus Heal, Recover, Torch and Cutting Gale.",
+        "partII": "Bishop in Ch 1 to 2 for Barrier, then Ovate from Ch 3; deploy every map."
+      },
+      "Tobias": {
+        "status": "core",
+        "role": "Physical front-liner, Hammer from Ch 10",
+        "why": "Ch 1 front-liner; sits Ch 8 to 9 (dungeons, Arena) and returns in Ch 10 as a Warrior with the refined Hammer. Battleblade Strike and Enrage fix his Hit.",
+        "partII": "Warrior through Part II with Da Mina Axe +2 and Hammer +2; stays Warrior to S3, The Eternal in S4 (Troy holds The Godhand)."
+      },
+      "Lilian": {
+        "status": "core",
+        "role": "Archer and anti-flier",
+        "why": "The only Part I archer: flier answer (every bow is Effective+) and Longbow Deadeye. Ch 10 to 12 she swaps with Bonaventure by map.",
+        "partII": "Stays Sniper; takes the Ch 5 Deadeye shield trick."
+      },
+      "Lysander": {
+        "status": "core",
+        "role": "Flier spear striker",
+        "why": "Joins Ch 4; Dragoon carries in from Cai's path. Mounted, so no battalion.",
+        "partII": "Stays Dragoon; the Ch 2 southeast Ranger drops his Cleansing Blade +1."
+      },
+      "Sirocco": {
+        "status": "late",
+        "role": "Main black-magic nuke, second battalion carrier",
+        "why": "S tier, joins Ch 7 and fills the empty second-caster role; Authority preferred and Cha 45 for gambits. Jester's Levin Sword once Renown 9 lands.",
+        "partII": "Ovate in Ch 12 or once he hits Lv 35, all of Part II; The Avatar in S4. Barrier comes with the Leda merge if her army imports."
+      },
+      "Alexandra": {
+        "status": "late",
+        "role": "Lead flier, sword striker, Res dodge tank",
+        "why": "Joins Ch 8 week 1 (Renown 6) at about Lv 15 and takes Zarcone's seat; Wing Soldier at Lv 20 in Ch 9. Built to carry Parts II and III.",
+        "partII": "Stays Wing Soldier; Celestial Trooper at Lv 45 in Part III."
+      },
+      "Zarcone": {
+        "status": "early",
+        "role": "Hammer armor breaker (Ch 6 to 7)",
+        "why": "Joins Ch 6 with the Hammer for two maps; from Ch 8 Alexandra and Loretta take the seats and he goes to storage. The refined Hammer passes to Tobias in Ch 10.",
+        "partII": "No Part II stage: storage."
+      },
+      "Loretta": {
+        "status": "late",
+        "role": "Strike dodger, sword (The Blade in Part III)",
+        "why": "Recruit late Ch 7 (Support 3, Renown 5, 3 Iron Swords) at about Lv 15; deploys from Ch 8. Myrmidon at Lv 20, Shido at Lv 35. Supports Tobias and Ultand.",
+        "partII": "Shido (Ch 12 or the Part II Ch 1 floor); Sword Master in S3 (Mars), The Blade in S4."
+      },
+      "Ultand": {
+        "status": "late",
+        "role": "Second wall: Patch Up, Pray for Safety, battalion carrier",
+        "why": "Recruit 6/1 (Support 3, Renown 6, short quest) at about Lv 15: Priest at Lv 20 (Ch 9), Guardian at Lv 35. Holds the wall seat; Cha 50 for gambits and Lust.",
+        "partII": "Guardian (Ch 12 if Lv 35, else Part II Ch 1); Sentinel in Part III; Seraphim C is the backup undead answer."
+      },
+      "Ninae": {
+        "status": "late",
+        "role": "Second wall on mage maps: Spirits' Guidance, Physic",
+        "why": "Recruit 6/1 (Support 3, Renown 6, 1 Paradise Fish) at about Lv 15: Priest at Lv 20 (Ch 9), Physic at White B. Takes the wall seat on mage maps.",
+        "partII": "Guardian on a Part II Ch 1 License; Sentinel in Part III; dark mages in Part III."
+      },
+      "Nydine": {
+        "status": "bench",
+        "role": "Cavalry axe and spear (Part II)",
+        "why": "Recruit late Ch 7 (Support 3, Renown 5, 3 Iron Axes) at about Lv 15: Armored Ornius Rider at Lv 20 (Ch 9). Stays [Cavalry] for Barge Through.",
+        "partII": "Cataphract at the Lv 35 floor (Ch 1 to 2); Great Knight in S3 (Credna)."
+      },
+      "Noctula": {
+        "status": "bench",
+        "role": "Dodge bait, gauntlets (Part II)",
+        "why": "Recruit 6/1 (Renown 3): she joins a Pugilist with Ursa's Right Claw (player report ?). Levels on the bench; the Claw stays stored for Anatolia.",
+        "partII": "Pugilist through Part II (Onager bait); War Monk in S3 (Aurora: White D, Gauntlet B)."
+      },
+      "Simon": {
+        "status": "bench",
+        "role": "Second axe, second Hammer (Part II)",
+        "why": "Recruit 7/1 (Support 3, Renown 7, coin flip Tails) at about Lv 15: Brigand at Lv 20 (Ch 10). Axe and Sword boons, Power Spike, Close Call. Supports Theodora, Lilian, Ninae.",
+        "partII": "Warrior on a Part II Ch 1 License with the Nemea Cavern Hammer; Battlemaster from S2 to the end (Tobias holds The Eternal)."
+      },
+      "Nuzzuo": {
+        "status": "bench",
+        "role": "Second bow (Part II), skirmisher",
+        "why": "Recruit 7/1 (Renown 6, 3 Iron Bows) at about Lv 15, without a Levin Sword. Rogue at Lv 20 (Ch 10); Infantry seats for Sword and Bow.",
+        "partII": "Ranger at the Ch 2 floor (Part II Ch 4 Dragoons), Sniper in Ch 5; Bow Knight S3, The Calamity S4."
+      },
+      "Diego": {
+        "status": "bench",
+        "role": "Part III recruit",
+        "why": "Joins in Ch 12 after Orchel's Paralogue (Support 2, Renown 8). No Part I or II build: storage until Part III.",
+        "partII": "Does not play Part II."
+      }
+    },
+    "part2": {
+      "core": [
+        "Theodora",
+        "Ninae",
+        "Ultand",
+        "Tobias",
+        "Bonaventure",
+        "Sirocco",
+        "Sofia",
+        "Alexandra",
+        "Lysander",
+        "Loretta",
+        "Lilian",
+        "Nydine",
+        "Noctula",
+        "Simon",
+        "Nuzzuo"
+      ],
+      "note": "Fifteen: the core 11 plus the bench 4 (Nydine, Noctula, Simon, Nuzzuo). Part II auto-levels anyone below its floor (Lv 33, then Army Training's 34, 35, 37, 39) on personal growths only, so the bench arrives at its Part I level in the Specialty it earned. Part II Licenses: Simon Warrior and Ninae Guardian in Ch 1 (Ultand, Loretta and Sirocco too if Ch 12 missed them), Nydine Cataphract and Nuzzuo Ranger at the Ch 2 floor. Whether battalions work in Part II is not documented: each unit keeps its Ch 12 squad ?. Rotation (D-131): caps are 10 in Ch 1 and 13 in Ch 2 to 6, and each bench unit plays at least 3 of the 6 maps; the War chapter plans say who sits where and why."
+    },
+    "why": [
+      "Roles first, then one scorecard per unit (D-129); the player picked the core 11 and the bench 4 (D-130)",
+      "Fortress for the enemy phase, Strike for the player phase: each pocket stacks two or three auras",
+      "Every unit with a build joins at its first chance (about Lv 15 in Ch 7 to 9); fillers wait for Ch 10 to 12",
+      "Tobias sits Ch 8 to 9 for dungeons and Arena seats, then returns with the Hammer",
+      "Ultand and Ninae share one seat: Ninae on mage maps, Ultand otherwise",
+      "Ch 10 to 12: Lilian or Bonaventure sits by map; Lilian comes in for fliers and Dagda-style shields",
+      "Healing: Bonaventure to Ch 5, then Sofia; Theodora's Physic from Ch 10; Ultand's Patch Up on the wall",
+      "Armor: the Hammer (Zarcone, then Tobias), Alexandra's Levin Sword, Theodora's Halberd then Ji, both casters"
+    ],
+    "lineup": [
+      {
+        "slot": 1,
+        "role": "Lord, Fortress anchor, first battalion",
+        "holders": [
+          {
+            "unit": "Theodora",
+            "from": 1
+          }
+        ]
+      },
+      {
+        "slot": 2,
+        "role": "Support caster, Fortress buffer",
+        "holders": [
+          {
+            "unit": "Bonaventure",
+            "from": 1,
+            "why": "The only healer until Sofia joins in Ch 5"
+          }
+        ],
+        "note": "Ch 10 to 12: sits on flier and shield maps so Lilian can deploy"
+      },
+      {
+        "slot": 3,
+        "role": "Front-liner, then Strike dodger",
+        "holders": [
+          {
+            "unit": "Tobias",
+            "from": 1,
+            "to": 7
+          },
+          {
+            "unit": "Loretta",
+            "from": 8,
+            "why": "Recruited late Ch 7 at about Lv 15: Strike dodger beside Alexandra; Tobias sits Ch 8 to 9"
+          }
+        ]
+      },
+      {
+        "slot": 4,
+        "role": "Ranged, then the Hammer",
+        "holders": [
+          {
+            "unit": "Lilian",
+            "from": 4,
+            "to": 9
+          },
+          {
+            "unit": "Tobias",
+            "from": 10,
+            "why": "Back from the bench as a Warrior with the refined Hammer; Lilian swaps in for Bonaventure by map"
+          }
+        ],
+        "note": "Ch 10 to 12: Lilian deploys on flier and shield maps in Bonaventure's seat"
+      },
+      {
+        "slot": 5,
+        "role": "Flier spear striker",
+        "holders": [
+          {
+            "unit": "Lysander",
+            "from": 4
+          }
+        ]
+      },
+      {
+        "slot": 6,
+        "role": "Main healer (Physic)",
+        "holders": [
+          {
+            "unit": "Sofia",
+            "from": 5,
+            "why": "Recruitment tutorial; S-rated healer, Physic and Barrier"
+          }
+        ]
+      },
+      {
+        "slot": 7,
+        "role": "Hammer, then lead flier",
+        "holders": [
+          {
+            "unit": "Zarcone",
+            "from": 6,
+            "to": 7,
+            "why": "Joins at Renown 4 with the Hammer; storage from Ch 8"
+          },
+          {
+            "unit": "Alexandra",
+            "from": 8,
+            "why": "Ch 8 week 1 (6/1) at about Lv 15: the army's carry, Silver Maiden"
+          }
+        ],
+        "note": "Ch 8 to 9: no Hammer; Tobias takes it back in Ch 10"
+      },
+      {
+        "slot": 8,
+        "role": "Magic nuke, battalion",
+        "holders": [
+          {
+            "unit": "Sirocco",
+            "from": 7,
+            "why": "S-rated nuke at Renown 5, recruited Ch 7 week 1"
+          }
+        ]
+      },
+      {
+        "slot": 9,
+        "role": "Second wall (Fortress)",
+        "holders": [
+          {
+            "unit": "Ultand",
+            "from": 8,
+            "to": 8,
+            "why": "6/1 at about Lv 15: Patch Up and Pray for Safety beside Theodora"
+          },
+          {
+            "unit": "Ninae",
+            "from": 9,
+            "to": 9,
+            "why": "Alternates with Ultand map by map, mage maps first: Spirits' Guidance vs magic"
+          },
+          {
+            "unit": "Ultand",
+            "from": 10,
+            "to": 10,
+            "why": "Back in the wall seat; Cha 50 for the gambit line"
+          },
+          {
+            "unit": "Ninae",
+            "from": 11,
+            "to": 11,
+            "why": "Ch 11's Fire Orb side: Spirits' Guidance (Hit/Avo +10 vs magic)"
+          },
+          {
+            "unit": "Ultand",
+            "from": 12,
+            "why": "The finale's stair chokes: Patch Up on the wall"
+          }
+        ],
+        "note": "Ultand and Ninae swap the seat by map; whoever sits runs dungeons and takes Arena seats"
+      }
+    ]
+  },
+  "mechanics": [
+    {
+      "system": "Battalions & Gambits",
+      "what": "Theodora recruits battalions at settlements (Recruit Soldiers: one random squad from the town pool after a few turns; Rousing Speech from Renown 5 strips low tiers). Only infantry or armored units carry one, tier at or below their Authority; the carrier gets flat stat bonuses and the gambit. No gambits in Clashes. Gambit numbers are not documented.",
+      "impact": "Carrier order: Theodora, Ultand (Cha 50), Ninae, Sirocco, Sofia, Bonaventure, then Tobias, Loretta, Lilian, Simon. Theodora Novice Hunters (Ch 4), Armored Sentinels (Ch 6), Lions of Megaira (B, Ch 10), Divine-Shield Guard (A?, Part III). Sirocco Mage Pupils (Ch 7) to Shadow Mages (B, Ch 12). Each build page names its squad. Nydine (Ornius), Alexandra and Lysander carry none. Recruit at Regia and Alecto (Ch 6), Raivo Port (Ch 7, 10), Megaira (Ch 9), Port of Pandora (Ch 10).",
+      "units": [
+        "Theodora",
+        "Ultand",
+        "Ninae",
+        "Sirocco",
+        "Sofia",
+        "Bonaventure",
+        "Tobias",
+        "Loretta",
+        "Lilian",
+        "Simon"
+      ]
+    },
+    {
+      "system": "Authority training",
+      "what": "Arena Heavy, Mage and Mounted Training all raise Authority. Tactics Manuals add Authority (inferred from the name): the Ch 7 Transfer Battalions tutorial, Nowah's Cave and Corroios Fort Ruins chests (Part I), item shops in Breston (x2), Regia, Callianeira Port and Grand Aragon, and 100 troop points from surplus battalions at the Transport Chief (community-reported). Renown 5, 7 and 9 raise battalion quality and how many deploy at once (unverified).",
+      "impact": "The carriers already sit in Heavy or Mage Training, so Authority to B comes free; Arena seats bench first. Every Tactics Manual goes to Theodora for A? (Divine-Shield Guard). Transfer every surplus roll and each replaced squad at the Transport Chief: 100 troop points = 1 Tactics Manual. Authority arts: Theodora's Frontline Gambit at S, Sofia's Healing Order at B, Tobias's Power-Arts Order at A.",
+      "units": [
+        "Theodora",
+        "Ultand",
+        "Sirocco",
+        "Sofia",
+        "Bonaventure",
+        "Tobias"
+      ]
+    },
+    {
+      "system": "Arena seats",
+      "what": "Each course runs once a week with 2 seats: Combat (Sword, Axe, Gauntlet), Infantry (Sword, Bow, Infantry), Heavy (Spear, Axe, Heavy, Authority), Mage (Black, White, Authority), Mounted (Spear, Rider, Flier, Authority). Every rank trains to B; Training Lv 2 at Renown 4, Lv 3 at Renown 7.",
+      "impact": "Pairs come from the builds: Field Kit > Arena. Arena seats go to the bench first (no battle EXP): Tobias in Ch 8 to 9, the sitting wall, Nydine, Noctula, Simon and Nuzzuo bank their Part II and III ranks; then exams due now. Each trainee sits with a higher-ranked partner (+12.5 EXP per half rank below, up to 2 ranks, at Arena Lv 3). Part II has no Arena.",
+      "units": [
+        "Theodora",
+        "Bonaventure",
+        "Sirocco",
+        "Sofia",
+        "Lysander",
+        "Alexandra",
+        "Lilian",
+        "Tobias",
+        "Loretta",
+        "Ultand",
+        "Ninae",
+        "Nydine",
+        "Noctula",
+        "Simon",
+        "Nuzzuo"
+      ]
+    },
+    {
+      "system": "Send Supplies quests",
+      "what": "Each chapter's pair pays 5,500G and Renown; the Ch 8, 9 and 11 pairs unlock Cataphract, Guardian and Dragoon (sources conflict on one quest or both). All expire 10/24.",
+      "impact": "Guardian and Dragoon carry in from the earlier routes, so no exam waits on them. Cataphract (Ch 8) is Nydine's Lv 35 class in Part II. Do every pair for Renown: it feeds the battalion perks at 5, 7 and 9 and the Renown 8 gate for Advanced exams.",
+      "units": [
+        "Theodora",
+        "Lysander",
+        "Nydine"
+      ]
+    },
+    {
+      "system": "Ships and royalty-only areas",
+      "what": "From Ch 6 Theodora sails the Lir Sea; Enno Isle (Lv 24) and Northern Passage are hers alone in Part I, and Uncharted Isle (Lv 30) is open to her any time.",
+      "impact": "Enno Isle's Short Axe goes to Zarcone and its Healing Staff to Sofia; Northern Passage's Phantom Ring (Avo +5, after her Ch 9 story) goes to Alexandra in Ch 9; Southern Passage's Salamander (shared with Dietrich) goes to Bonaventure. Finish sea trips before lending Anatolia the ship in Ch 10.",
+      "units": [
+        "Zarcone",
+        "Sofia",
+        "Alexandra",
+        "Bonaventure"
+      ]
+    },
+    {
+      "system": "Solomon Island",
+      "what": "Theodora-only, Ch 10 or 11 only, costs many turns and holds no special items.",
+      "impact": "Skip it: those turns buy Arena weeks for the Authority and rank pushes and time for the Ch 11 paralogues.",
+      "units": [
+        "Theodora"
+      ]
+    },
+    {
+      "system": "Carried-in classes and mounts",
+      "what": "Played fourth, after Dietrich, Cai and Leda: Guardian, Ranger and Blacksmith carry in from Dietrich; Dragoon, Troubadour and Caladrius from Cai; Leda's run adds Troubadour and Ranger again. Dancer stays Leda's.",
+      "impact": "No Send Supplies quest gates an exam: Theodora takes Guardian in Ch 10, Lysander Dragoon in Ch 11, Nuzzuo Ranger in Part II. Cataphract unlocks in Ch 8 for Nydine (Part II). Theodora can't capture mounts in Part I, so mounted units run base class growths; only Alexandra brings one (Bucephalus).",
+      "units": [
+        "Theodora",
+        "Lysander",
+        "Alexandra",
+        "Nuzzuo",
+        "Nydine"
+      ]
+    },
+    {
+      "system": "Recruit timing and the bench",
+      "what": "Recruits scale to the chapter: Ch 6 to 8 joins arrive at about Lv 15 in a Beginner class, Ch 9 joins at Lv 15 to 25 (open), Ch 10+ joins already Specialty at about Lv 25, Ch 11 to 12 joins can't be developed in Part I. Unrecruited units auto-level on personal growths only, and so does Part II's floor (Lv 33).",
+      "impact": "Loretta and Nydine join late Ch 7; Alexandra, Ultand, Ninae and Noctula on 6/1; Simon and Nuzzuo on 7/1. Loretta and Alexandra deploy at once, Ultand and Ninae share the wall seat; Nydine, Noctula, Simon and Nuzzuo level in dungeon parties and the Arena for Part II. Diego joins after Orchel's Paralogue in Ch 12 for Part III only. Keep Sunday meals going so each Support 3 lands on time, and pack every bench unit's Part II kit before Ch 12 ends.",
+      "units": [
+        "Loretta",
+        "Nydine",
+        "Alexandra",
+        "Ultand",
+        "Ninae",
+        "Noctula",
+        "Simon",
+        "Nuzzuo",
+        "Diego"
+      ]
+    },
+    {
+      "system": "Side trips and free class switching",
+      "what": "Once certified, a unit switches between its classes for free (Proctor, Base Menu or Battle Prep). A sideways class costs one License and earns a mastery that stays equippable. Mastery pace is not documented.",
+      "impact": "Early joiners master their Specialty class long before Lv 35, so Ch 8 to 9 side trips use the wait: Tobias Brigand (on the bench), Lilian Rogue, Lysander Archer. Leave a side trip when its mastery shows; at Lv 35 take the Advanced class on time and finish the mastery in Part II. The Increase Class EXP boon from your Dietrich run speeds this up.",
+      "units": [
+        "Tobias",
+        "Lilian",
+        "Lysander"
+      ]
+    },
+    {
+      "system": "Renown catch-up",
+      "what": "Renown arrives later than older guides assume: plan with the Ledger's Renown pace. Send Supplies quests are this route's Renown quests, and generic subquests you cleared on Cai's route complete themselves here.",
+      "impact": "Hand in each Send Supplies quest the chapter it appears. Take every god audience (about 50, no Turn) when a temple shows gold on the map. Run every Paralogue (150 each); behind in Ch 8, pick For the Empire's Safety for 200 Renown at once.",
+      "units": [
+        "Theodora"
+      ]
+    },
+    {
+      "system": "Archives (dark magic)",
+      "what": "An Archive is used up when read: the spell stays on that unit for good and takes no slot. One copy of each per route. Dark spells weigh 20 to 23 (Mire 15, Death 13), so nobody doubles with them.",
+      "impact": "Bonaventure reads Z (Swarm Z: Spd -3 at range 2, Ch 9), T (Dark Spikes Τ?: 60 Mt vs cavalry) and θ (Banshee Θ: immobilize at range 3; Iapetus Cavern, Lv 32, Ch 11). Sirocco reads Γ (Death Γ: Mt 15, Crit 20) if Vandahl lists it. Sirocco reads L (Luna Λ: ignores Res; Aditi's Cave, Lv 28). Nobody reads B (Mire Β, Cave Behind the Falls, Lv 22).",
+      "units": [
+        "Bonaventure",
+        "Sirocco"
+      ]
+    },
+    {
+      "system": "Sunday routine and Spare Turns",
+      "what": "Meals, gifts, the Theater and the Thermae are weekly slots, not Turns. Quests finished on an earlier route complete themselves, so most free times end with Turns to spare. Dungeon enemies return every chapter; chests open once.",
+      "impact": "Sunday: give this week's gifts, then hold all 3 meals at half price (Theodora + 2 targets). Spare Turns, in order: gather the next Vandahl barter materials, run the chapter's dungeon with this week's meal pairs (link attacks raise Support), then hand the rest to Inn Auto-Activities.",
+      "units": [
+        "Theodora"
+      ]
+    }
+  ],
+  "fillers": [
+    {
+      "name": "Seteth",
+      "kind": "supports",
+      "when": "Ch 10 to 12",
+      "item": "Spear of Assal",
+      "cost": "Support 3, Renown 6, short quest",
+      "why": "Supports Sofia, Loretta and Diego. Brings the Spear of Assal."
+    },
+    {
+      "name": "Jester",
+      "kind": "items",
+      "when": "Late Ch 10 or Ch 11, once Renown 9 lands",
+      "item": "Levin Sword",
+      "cost": "Support 3, Renown 9, 3 short quests",
+      "why": "His Levin Sword is Sirocco's (Alexandra holds the Vandahl one)."
+    },
+    {
+      "name": "Io",
+      "kind": "items",
+      "when": "Ch 11 or later, once Renown 10 lands",
+      "item": "Levin Sword",
+      "cost": "Support 3, Renown 10, 4,000G",
+      "why": "A spare Levin Sword for Part III; supports Diego."
+    },
+    {
+      "name": "Benditz",
+      "kind": "supports",
+      "when": "Ch 10 to 12, once Renown 8 lands",
+      "cost": "Renown 8 (in Dagsion from 4/11)",
+      "why": "No partners here: a Part III body only."
+    }
+  ],
+  "ledger": {
+    "keyDecisions": [
+      {
+        "text": "Seat Loretta, Nydine, Ultand, Ninae and Simon at meals from Ch 4: all need Support 3",
+        "ch": 4
+      },
+      {
+        "text": "Fish 2 Paradise Fish at Lake Brontes: Zarcone's Giant's Ring and Ninae's recruit",
+        "ch": 5
+      },
+      {
+        "text": "Recruit Alexandra, Ultand, Ninae and Noctula on 6/1; Tobias sits Ch 8 to 9",
+        "ch": 8
+      },
+      {
+        "text": "Pick one Sealed Letter quest; Empire's Safety pays a License and 200 Renown",
+        "ch": 8
+      },
+      {
+        "text": "Plan Ch 12 before 10/16: three Paralogues end 10/24; Orchel's unlocks Diego",
+        "ch": 11
+      }
+    ],
+    "renownPace": [
+      {
+        "ch": 4,
+        "from": 1,
+        "to": 2,
+        "opens": "Beginner exams only. Bulletin quests (10 each); god audiences from Renown 2"
+      },
+      {
+        "ch": 5,
+        "from": 2,
+        "to": 3,
+        "opens": "Still Beginner. Send Supplies start. Noctula (R3) is ready: wait for 6/1 and her Claw"
+      },
+      {
+        "ch": 6,
+        "from": 4,
+        "to": 5,
+        "opens": "Specialty exams, Blacksmith and Zarcone (R4). Send Supplies: 320 each"
+      },
+      {
+        "ch": 7,
+        "from": 5,
+        "to": 6,
+        "opens": "Sirocco (R5, week 1); Loretta and Nydine (R5) late, at Support 3. Ultand and Ninae (R6) late"
+      },
+      {
+        "ch": 8,
+        "from": 6,
+        "to": 7,
+        "opens": "Alexandra, Ultand, Ninae (R6) and Noctula on 6/1. Simon and Theater (R7) late: Simon joins 7/1"
+      },
+      {
+        "ch": 9,
+        "from": 7,
+        "to": 8,
+        "opens": "Simon and Nuzzuo week 1 (7/1). R8 only at the very end, if at all"
+      },
+      {
+        "ch": 10,
+        "from": 8,
+        "to": 9,
+        "opens": "Advanced exams, Thermae (R8). Jester (R9): his Levin Sword goes to Sirocco"
+      },
+      {
+        "ch": 11,
+        "from": 9,
+        "to": 10,
+        "opens": "Jester (R9) if not in Ch 10; Io (R10). R8 is the safety check for Diego"
+      },
+      {
+        "ch": 12,
+        "from": 10,
+        "to": 12,
+        "opens": "Diego (R8). Extra Large Bullion (R11), Portrait of Yu Phas (R12)"
+      }
+    ],
+    "rules": [
+      "Each exam spends a License even when you fail it: take it at 75% or better",
+      "Specialty needs Renown 4 (Ch 6) and Lv 20; Advanced needs Renown 8 (Ch 10) and Lv 35. Master and Divine wait for Part III",
+      "Ch 8 to 9 side trips (Tobias, Lilian, Lysander) fill the wait for Lv 35: leave at the mastery or at Lv 35",
+      "Arena seats go to the bench first (no battle EXP), then exams due now; each trainee sits with a higher-ranked partner",
+      "Bank Support 3 with Theodora before Ch 7 using the replay meal loop (support-level-guide.md): Loretta, Nydine, Ultand, Ninae, Simon"
+    ],
+    "licenses": {
+      "advancedCap": 8,
+      "buy": "Buy 5 Advanced Licenses in [[place:Megaira]] in Ch 9 and 3 more in Dagsion from Ch 10; Giant's-Print Fort (Ch 12) has one in a chest. Buy Specialty Licenses as you see them from Ch 6 (Dagsion stock ?). Outside Dagsion (one snapshot, about 17): Breston, Megaira, Mahon ×3; Alecto, Grand Aragon ×2; Mons, Regia, Orens, Raivo Port ×1. Short? Cut Lysander's Archer, then Lilian's Rogue",
+      "beginner": [
+        {
+          "unit": "Theodora",
+          "class": "Soldier",
+          "ch": 4,
+          "why": "Class License tutorial"
+        },
+        {
+          "unit": "Bonaventure",
+          "class": "Diviner",
+          "ch": 4
+        },
+        {
+          "unit": "Tobias",
+          "class": "Gladiator",
+          "ch": 4,
+          "why": "Trains Gauntlet, Axe and Sword: all three Warrior ranks"
+        },
+        {
+          "unit": "Lysander",
+          "class": "Ornius Rider",
+          "ch": 4,
+          "why": "Only if he isn't one already"
+        },
+        {
+          "unit": "Lilian",
+          "class": "Hunter",
+          "ch": 4,
+          "why": "Only if she isn't one already; trains Sword C for Rogue"
+        },
+        {
+          "unit": "Sofia",
+          "class": "Diviner",
+          "ch": 5,
+          "why": "If needed"
+        },
+        {
+          "unit": "Zarcone",
+          "class": "Gladiator",
+          "ch": 6,
+          "why": "Only if he joins in another Beginner class"
+        },
+        {
+          "unit": "Sirocco",
+          "class": "Diviner",
+          "ch": 7,
+          "why": "Only if he joins in another Beginner class"
+        },
+        {
+          "unit": "Loretta",
+          "class": "Hunter",
+          "ch": 7,
+          "why": "Only if she joins in another class: Hunter trains Sword"
+        },
+        {
+          "unit": "Nydine",
+          "class": "Ornius Rider",
+          "ch": 7,
+          "why": "Only if she joins in another class"
+        },
+        {
+          "unit": "Ultand",
+          "class": "Diviner",
+          "ch": 8,
+          "why": "Only if she joins in another class: White Magic toward Priest"
+        },
+        {
+          "unit": "Ninae",
+          "class": "Soldier",
+          "ch": 8,
+          "why": "Only if she joins in another class: Spear toward Guardian"
+        },
+        {
+          "unit": "Simon",
+          "class": "Gladiator",
+          "ch": 9,
+          "why": "Only if he joins in another class"
+        },
+        {
+          "unit": "Nuzzuo",
+          "class": "Hunter",
+          "ch": 9,
+          "why": "Only if he joins in another class"
+        }
+      ],
+      "specialty": [
+        {
+          "unit": "Theodora",
+          "class": "Armored Knight",
+          "ch": 6,
+          "ranks": [
+            "Heavy E+",
+            "Spear C",
+            "Axe C"
+          ],
+          "why": "Great Counter, Def 65 growth"
+        },
+        {
+          "unit": "Tobias",
+          "class": "Pugilist",
+          "ch": 6,
+          "ranks": [
+            "Gauntlet C"
+          ],
+          "why": "Gauntlet +2 a fight and Attack, Get Back"
+        },
+        {
+          "unit": "Sofia",
+          "class": "Priest",
+          "ch": 6,
+          "ranks": [
+            "White Magic C"
+          ],
+          "why": "Her waiting class until Bishop"
+        },
+        {
+          "unit": "Lilian",
+          "class": "Archer",
+          "ch": 6,
+          "ranks": [
+            "Bow C"
+          ],
+          "why": "Crescendo"
+        },
+        {
+          "unit": "Lysander",
+          "class": "Armored Ornius Rider",
+          "ch": 6,
+          "ranks": [
+            "Rider D",
+            "Axe C",
+            "Spear C"
+          ],
+          "why": "Sense Threat"
+        },
+        {
+          "unit": "Bonaventure",
+          "class": "Shaman",
+          "ch": 6,
+          "ranks": [
+            "Black Magic C"
+          ],
+          "why": "Doubled Black Magic; Additional Intel at Lv 20"
+        },
+        {
+          "unit": "Zarcone",
+          "class": "Brigand",
+          "ch": 7,
+          "ranks": [
+            "Axe C",
+            "Sword C"
+          ],
+          "why": "At Lv 20: Vulgar Conduct"
+        },
+        {
+          "unit": "Sirocco",
+          "class": "Shaman",
+          "ch": 8,
+          "ranks": [
+            "Black Magic C"
+          ],
+          "why": "At Lv 20, usually Ch 8"
+        },
+        {
+          "unit": "Tobias",
+          "class": "Brigand",
+          "ch": 8,
+          "ranks": [
+            "Axe C",
+            "Sword C"
+          ],
+          "why": "Once Attack, Get Back is mastered: Regroup",
+          "side": true
+        },
+        {
+          "unit": "Lilian",
+          "class": "Rogue",
+          "ch": 8,
+          "ranks": [
+            "Bow C",
+            "Sword C"
+          ],
+          "why": "Once Crescendo is mastered: In Shadow",
+          "side": true
+        },
+        {
+          "unit": "Lysander",
+          "class": "Archer",
+          "ch": 8,
+          "ranks": [
+            "Bow C"
+          ],
+          "why": "Only if Flying C, Axe B and Spear B are on track: Crescendo",
+          "side": true
+        },
+        {
+          "unit": "Alexandra",
+          "class": "Wing Soldier",
+          "ch": 9,
+          "ranks": [
+            "Flying D",
+            "Spear C",
+            "Sword C"
+          ],
+          "why": "At Lv 20 on Bucephalus: Spd 80, Res 50 growth"
+        },
+        {
+          "unit": "Loretta",
+          "class": "Myrmidon",
+          "ch": 9,
+          "ranks": [
+            "Sword C"
+          ],
+          "why": "At Lv 20: Sword boon, doubles; usually Ch 9"
+        },
+        {
+          "unit": "Ultand",
+          "class": "Priest",
+          "ch": 9,
+          "ranks": [
+            "White Magic C"
+          ],
+          "why": "At Lv 20: White toward Physic; Guardian waits for Lv 35"
+        },
+        {
+          "unit": "Ninae",
+          "class": "Priest",
+          "ch": 9,
+          "ranks": [
+            "White Magic C"
+          ],
+          "why": "At Lv 20: White toward Physic at B"
+        },
+        {
+          "unit": "Nydine",
+          "class": "Armored Ornius Rider",
+          "ch": 9,
+          "ranks": [
+            "Riding D",
+            "Axe C",
+            "Spear C"
+          ],
+          "why": "At Lv 20, bench: stays [Cavalry] for Barge Through"
+        },
+        {
+          "unit": "Simon",
+          "class": "Brigand",
+          "ch": 10,
+          "ranks": [
+            "Axe C",
+            "Sword C"
+          ],
+          "why": "At Lv 20, bench: Part II axe"
+        },
+        {
+          "unit": "Nuzzuo",
+          "class": "Rogue",
+          "ch": 10,
+          "ranks": [
+            "Bow C",
+            "Sword C"
+          ],
+          "why": "At Lv 20, bench: bow and sword toward Ranger"
+        }
+      ],
+      "advanced": [
+        {
+          "unit": "Theodora",
+          "class": "Guardian",
+          "ch": 10,
+          "ranks": [
+            "Spear B",
+            "White Magic B"
+          ],
+          "why": "Lord, S tier: Physic on the tank, Brace. First to Lv 35"
+        },
+        {
+          "unit": "Sofia",
+          "class": "Bishop",
+          "ch": 10,
+          "ranks": [
+            "White Magic B"
+          ],
+          "why": "S tier: doubled casts, Physic, Barrier. Ch 10 or 11"
+        },
+        {
+          "unit": "Bonaventure",
+          "class": "Ovate",
+          "ch": 10,
+          "ranks": [
+            "Black Magic B"
+          ],
+          "why": "Mag +20, doubled Black Magic, Additional Intel+. Ch 10 or 11"
+        },
+        {
+          "unit": "Tobias",
+          "class": "Warrior",
+          "ch": 10,
+          "ranks": [
+            "Axe B",
+            "Sword B",
+            "Gauntlet B"
+          ],
+          "why": "Practiced Art fixes his Hit. Ch 10 or 11; else Brigand until Ch 12"
+        },
+        {
+          "unit": "Lilian",
+          "class": "Sniper",
+          "ch": 11,
+          "ranks": [
+            "Bow B"
+          ],
+          "why": "Only archer; grab the Mini Bow first"
+        },
+        {
+          "unit": "Lysander",
+          "class": "Dragoon",
+          "ch": 11,
+          "ranks": [
+            "Flying C",
+            "Axe B",
+            "Spear B"
+          ],
+          "why": "Flight, Mov 7 and Besieger. Ch 11 or 12"
+        },
+        {
+          "unit": "Sirocco",
+          "class": "Ovate",
+          "ch": "Ch 12, else Part II Ch 1",
+          "ranks": [
+            "Black Magic B"
+          ],
+          "why": "Main nuke; joined Ch 7 at about Lv 15, so Lv 35 comes last"
+        },
+        {
+          "unit": "Bonaventure",
+          "class": "Bishop",
+          "ch": "Part II Ch 1",
+          "ranks": [
+            "White Magic B"
+          ],
+          "why": "Barrier; back to Ovate for Ch 3",
+          "side": true
+        },
+        {
+          "unit": "Loretta",
+          "class": "Shido",
+          "ch": "Ch 12, else Part II Ch 1",
+          "ranks": [
+            "Sword B"
+          ],
+          "why": "Joins late Ch 7 at about Lv 15: Lv 35 by 10/24 is close"
+        },
+        {
+          "unit": "Ultand",
+          "class": "Guardian",
+          "ch": "Ch 12, else Part II Ch 1",
+          "ranks": [
+            "Spear B"
+          ],
+          "why": "Shares the wall seat with Ninae: Lv 35 lands late"
+        },
+        {
+          "unit": "Ninae",
+          "class": "Guardian",
+          "ch": "Part II Ch 1",
+          "ranks": [
+            "Spear B"
+          ],
+          "why": "Lv 35 floor: Brace and Spear +3 on the Ch 3 chokes"
+        },
+        {
+          "unit": "Simon",
+          "class": "Warrior",
+          "ch": "Part II Ch 1",
+          "ranks": [
+            "Axe B",
+            "Sword B",
+            "Gauntlet B"
+          ],
+          "why": "Bench: Gauntlet B from Arena weeks"
+        },
+        {
+          "unit": "Nydine",
+          "class": "Cataphract",
+          "ch": "Part II Ch 2",
+          "ranks": [
+            "Heavy E+",
+            "Riding D",
+            "Axe B",
+            "Spear B"
+          ],
+          "why": "At the Lv 35 floor; Heavy under her bane ?"
+        },
+        {
+          "unit": "Nuzzuo",
+          "class": "Ranger",
+          "ch": "Part II Ch 2",
+          "ranks": [
+            "Bow B",
+            "Sword B"
+          ],
+          "why": "Countershot; second bow for Ch 4"
+        },
+        {
+          "unit": "Nuzzuo",
+          "class": "Sniper",
+          "ch": "Part II Ch 5",
+          "why": "Marksmanship",
+          "side": true
+        }
+      ]
+    },
+    "licenseBudget": [
+      {
+        "ch": 4,
+        "beginner": 4,
+        "specialty": 0,
+        "advanced": 0
+      },
+      {
+        "ch": 5,
+        "beginner": 1,
+        "specialty": 0,
+        "advanced": 0
+      },
+      {
+        "ch": 6,
+        "beginner": 1,
+        "specialty": 6,
+        "advanced": 0
+      },
+      {
+        "ch": 7,
+        "beginner": 3,
+        "specialty": 1,
+        "advanced": 0
+      },
+      {
+        "ch": 8,
+        "beginner": 2,
+        "specialty": 4,
+        "advanced": 0
+      },
+      {
+        "ch": 9,
+        "beginner": 2,
+        "specialty": 5,
+        "advanced": 0
+      },
+      {
+        "ch": 10,
+        "beginner": 0,
+        "specialty": 2,
+        "advanced": 4
+      },
+      {
+        "ch": 11,
+        "beginner": 0,
+        "specialty": 0,
+        "advanced": 2
+      },
+      {
+        "ch": 12,
+        "beginner": 0,
+        "specialty": 0,
+        "advanced": 3
+      }
+    ],
+    "weaponPriority": [
+      {
+        "type": "Spear",
+        "units": [
+          "Theodora",
+          "Ultand",
+          "Ninae",
+          "Lysander",
+          "Alexandra",
+          "Nydine"
+        ],
+        "why": "Lord first; Ultand and Ninae need Spear B for Guardian, Lysander for Dragoon; Nydine C for her Lv 20 exam"
+      },
+      {
+        "type": "Axe",
+        "units": [
+          "Tobias",
+          "Simon",
+          "Nydine",
+          "Lysander",
+          "Zarcone"
+        ],
+        "why": "Hammer holder first (Zarcone Ch 6 to 7, Tobias Ch 10+); Simon and Nydine train it on the bench"
+      },
+      {
+        "type": "Gauntlet",
+        "units": [
+          "Tobias",
+          "Simon",
+          "Noctula"
+        ],
+        "why": "Gauntlet B for Warrior: Tobias by Ch 10, Simon by Part II Ch 1; Noctula B for War Monk"
+      },
+      {
+        "type": "Sword",
+        "units": [
+          "Loretta",
+          "Alexandra",
+          "Tobias",
+          "Simon",
+          "Sirocco"
+        ],
+        "why": "Loretta C, then B, then S for The Blade; Alexandra's Levin Sword; Sword B for the Warriors; Sirocco C"
+      },
+      {
+        "type": "Bow",
+        "units": [
+          "Lilian",
+          "Nuzzuo"
+        ],
+        "why": "Lilian deploys all route; Nuzzuo trains from Ch 9 for Part II"
+      },
+      {
+        "type": "Black Magic",
+        "units": [
+          "Sirocco",
+          "Bonaventure"
+        ],
+        "why": "Black Magic B for both Ovates; Sirocco lags"
+      },
+      {
+        "type": "White Magic",
+        "units": [
+          "Theodora",
+          "Sofia",
+          "Ninae",
+          "Ultand",
+          "Bonaventure",
+          "Noctula"
+        ],
+        "why": "White B: Theodora's Physic by Ch 10, Sofia's Bishop, Ninae's Physic; C for both Priests by Lv 20; Noctula D"
+      }
+    ],
+    "uniques": [
+      {
+        "item": "Dew of Protection",
+        "to": "Theodora",
+        "from": "Heretics' Cave chest",
+        "ch": 4,
+        "fallback": "For the Ch 12 Dyan turn"
+      },
+      {
+        "item": "White-Magic Manual",
+        "to": "Theodora",
+        "from": "Niraga Mine chest",
+        "ch": 4,
+        "fallback": "Armored Knight gives no White Magic EXP"
+      },
+      {
+        "item": "Tactics Manual",
+        "to": "Theodora",
+        "from": "Nowah's Cave chest",
+        "ch": 5
+      },
+      {
+        "item": "Tactics Manual",
+        "to": "Theodora",
+        "from": "Corroios Fort Ruins chest",
+        "ch": 5
+      },
+      {
+        "item": "Hexlock Shield",
+        "to": "Theodora",
+        "from": "Vandahl (Linaria x10 + Noa Fruit x1)",
+        "ch": 6,
+        "fallback": "Silver Shield replaces it in Ch 10"
+      },
+      {
+        "item": "Cleansing Blade",
+        "to": "Theodora",
+        "from": "Vandahl (Ladon Pike x3)",
+        "ch": 6,
+        "fallback": "Bahr Vahn map, then storage for Tobias"
+      },
+      {
+        "item": "Hammer",
+        "to": "Zarcone",
+        "from": "Vandahl (Roca x2 + Zamir x1)",
+        "ch": 6,
+        "fallback": "Refine it: it passes to Tobias in Ch 10"
+      },
+      {
+        "item": "Giant's Ring",
+        "to": "Zarcone",
+        "from": "Vandahl counter, Alecto (Paradise Fish x1)",
+        "ch": 6,
+        "fallback": "Passes to Simon in Ch 10 (Part II kit)"
+      },
+      {
+        "item": "Archer's Ring",
+        "to": "Tobias",
+        "from": "Vandahl (Jyoppa x2)",
+        "ch": 6,
+        "fallback": "Passes to Nydine in Ch 9 once the Conflagrant Gem lands"
+      },
+      {
+        "item": "Archer's Ring",
+        "to": "Lilian",
+        "from": "Coris Mine chest, Thaleia",
+        "ch": 6,
+        "fallback": "A second Vandahl barter (Jyoppa x2)"
+      },
+      {
+        "item": "Gale Ring",
+        "to": "Lysander",
+        "from": "Vandahl counter, Alecto (Enrietto x10)",
+        "ch": 6,
+        "fallback": "Archer's Ring"
+      },
+      {
+        "item": "Magic Staff",
+        "to": "Bonaventure",
+        "from": "Vandahl (Zamir x1)",
+        "ch": 6,
+        "fallback": "Corroios Fort Ruins chest (Ch 5)"
+      },
+      {
+        "item": "Tactics Manual",
+        "to": "Theodora",
+        "from": "Ch 7 Transfer Battalions tutorial",
+        "ch": 7
+      },
+      {
+        "item": "Heavy-Armor Manual",
+        "to": "Theodora",
+        "from": "Legacy of a Legendary Sculptor",
+        "ch": 7
+      },
+      {
+        "item": "Short Axe",
+        "to": "Zarcone",
+        "from": "Enno Isle chest (Theodora only)",
+        "ch": 7,
+        "fallback": "Hand Axe until then"
+      },
+      {
+        "item": "Flying Manual",
+        "to": "Lysander",
+        "from": "Cindered Road Cave chest",
+        "ch": 7
+      },
+      {
+        "item": "Magic Staff",
+        "to": "Sirocco",
+        "from": "Vandahl (Zamir x1), a second barter",
+        "ch": 7
+      },
+      {
+        "item": "Healing Staff",
+        "to": "Sofia",
+        "from": "Enno Isle chest (Theodora only)",
+        "ch": 7
+      },
+      {
+        "item": "Phantom Ring",
+        "to": "Loretta",
+        "from": "Vandahl (Soldanella x3 + Shaktoh x3)",
+        "ch": 7,
+        "fallback": "Join week; Noctula takes a second copy if it restocks ?"
+      },
+      {
+        "item": "Levin Sword",
+        "to": "Alexandra",
+        "from": "Vandahl (Thry Fruit x10 + Yuna Mei x1)",
+        "ch": 8,
+        "fallback": "Equip it once Sword is C; refine it"
+      },
+      {
+        "item": "Flying Manual",
+        "to": "Alexandra",
+        "from": "Legacy of a Legendary Sculptor",
+        "ch": 8,
+        "fallback": "Flying D for her Ch 9 exam"
+      },
+      {
+        "item": "Conflagrant Gem",
+        "to": "Tobias",
+        "from": "Cindered Road Cave chest",
+        "ch": 8
+      },
+      {
+        "item": "Tempest Bow",
+        "to": "Lysander",
+        "from": "Rare Stone Hunting (Ch 7 subquest)",
+        "ch": 8,
+        "fallback": "Archer side trip; passes to Nuzzuo in Ch 10"
+      },
+      {
+        "item": "White-Magic Manual",
+        "to": "Theodora",
+        "from": "Purloined Spellcaster's Tools",
+        "ch": 8
+      },
+      {
+        "item": "Paradise Fish",
+        "to": "Ninae",
+        "from": "Lake Brontes (Saveilon), second of two",
+        "ch": 8,
+        "fallback": "Her recruit item; the first pays Zarcone's Giant's Ring (Ch 6)"
+      },
+      {
+        "item": "Hexlock Shield",
+        "to": "Ninae",
+        "from": "Dione Fort chest",
+        "ch": 8
+      },
+      {
+        "item": "Phantom Ring",
+        "to": "Alexandra",
+        "from": "Northern Passage chest, after her Ch 9 story",
+        "ch": 9
+      },
+      {
+        "item": "Pure Water",
+        "to": "Alexandra",
+        "from": "Cave Behind the Falls chest",
+        "ch": 9,
+        "fallback": "For Ch 11's Fire Orb side"
+      },
+      {
+        "item": "Salamander",
+        "to": "Bonaventure",
+        "from": "Southern Passage chest",
+        "ch": 9
+      },
+      {
+        "item": "Archive Z",
+        "to": "Bonaventure",
+        "from": "Southern Passage chest",
+        "ch": 9
+      },
+      {
+        "item": "Hexlock Shield",
+        "to": "Ultand",
+        "from": "Dragonbone Tangle chest",
+        "ch": 9
+      },
+      {
+        "item": "Healing Staff",
+        "to": "Ninae",
+        "from": "Vandahl (Melara x10 + Yukito x10)",
+        "ch": 9
+      },
+      {
+        "item": "Archer's Ring",
+        "to": "Nydine",
+        "from": "Tobias's Vandahl copy",
+        "ch": 9
+      },
+      {
+        "item": "Silver Shield",
+        "to": "Theodora",
+        "from": "Leda's Paralogue (Diversionary Tactics, 9/8)",
+        "ch": 10,
+        "fallback": "Keep the Hexlock Shield"
+      },
+      {
+        "item": "Hammer",
+        "to": "Tobias",
+        "from": "Zarcone's copy (+1 in Ch 10)",
+        "ch": 10
+      },
+      {
+        "item": "Levin Sword",
+        "to": "Sirocco",
+        "from": "Jester's kit (filler, Renown 9)",
+        "ch": 10,
+        "fallback": "Late Ch 10 or Ch 11; Sirocco casts until then. Needs Sword C"
+      },
+      {
+        "item": "Mini Bow",
+        "to": "Lilian",
+        "from": "Chest south of Dagsion",
+        "ch": 10,
+        "fallback": "Without it a Sniper can't counter at range 1"
+      },
+      {
+        "item": "Archive T",
+        "to": "Bonaventure",
+        "from": "Vandahl (Pongo x10 + Glirmosa x4)",
+        "ch": 10
+      },
+      {
+        "item": "Archive Γ",
+        "to": "Sirocco",
+        "from": "Vandahl ? (from about Ch 10 on Dietrich's route)",
+        "ch": 10
+      },
+      {
+        "item": "Hammer",
+        "to": "Simon",
+        "from": "Nemea Cavern chest (Lv 30)",
+        "ch": 10,
+        "fallback": "Part II kit: the second Hammer"
+      },
+      {
+        "item": "Giant's Ring",
+        "to": "Simon",
+        "from": "Zarcone's copy",
+        "ch": 10,
+        "fallback": "Bld +4 against the Nemea Cavern Hammer"
+      },
+      {
+        "item": "Cleansing Blade",
+        "to": "Alexandra",
+        "from": "Talimun's Paralogue (Secret of the Vanished Carriage)",
+        "ch": 11,
+        "fallback": "Storage until Part III"
+      },
+      {
+        "item": "Archive θ",
+        "to": "Bonaventure",
+        "from": "Iapetus Cavern chest",
+        "ch": 11
+      },
+      {
+        "item": "Salamander",
+        "to": "Sirocco",
+        "from": "Dietrich's Paralogue (one of the pair)",
+        "ch": 12
+      },
+      {
+        "item": "White-Magic Manual",
+        "to": "Theodora",
+        "from": "Stolen Star Observations",
+        "ch": 12
+      },
+      {
+        "item": "Healing Staff",
+        "to": "Ultand",
+        "from": "Orchel's Regret reward",
+        "ch": 12,
+        "fallback": "A repeat Vandahl barter if it restocks ?"
+      },
+      {
+        "item": "Velheit",
+        "to": "Orchel",
+        "from": "Stoppered Shrine chest (Lv 25, Ch 9), held to the end of Part I",
+        "fallback": "Drifting Reliquary re-sells it in Part III"
+      },
+      {
+        "item": "Cleansing Blade",
+        "to": "Tobias",
+        "from": "Theodora's Ch 6 copy, from storage",
+        "fallback": "Part III undead answer"
+      },
+      {
+        "item": "Cleansing Blade",
+        "to": "Lysander",
+        "from": "Part II Ch 2 southeast Ranger drop (+1)",
+        "fallback": "Reach him before Turn 4"
+      },
+      {
+        "item": "Cleansing Blade",
+        "to": "Simon",
+        "from": "Osiris shop, Solidus (Part III)"
+      },
+      {
+        "item": "Muen",
+        "to": "Theodora",
+        "from": "Cougar Woodlands chest (Lv 23, Ch 7), held to the end of Part I",
+        "fallback": "Part III Calm loop; Mahadu's Spear on undead maps"
+      },
+      {
+        "item": "Onoa",
+        "to": "Storage (spare)",
+        "from": "Giant's-Print Fort chest (Lv 35, Ch 12), held to the end of Part I",
+        "fallback": "Drifting Reliquary re-sells it in Part III"
+      },
+      {
+        "item": "Ursa's Right Claw",
+        "to": "Anatolia",
+        "from": "Noctula's kit (6/1 recruit as a Pugilist ?), held to the end of Part I",
+        "fallback": "Drifting Reliquary re-sells it in Part III"
+      }
+    ],
+    "refines": [
+      {
+        "unit": "Theodora",
+        "item": "Mahadu's Spear +1",
+        "ch": 9,
+        "ore": "rare",
+        "why": "Full Moon and her Spear B arts ride on it"
+      },
+      {
+        "unit": "Lilian",
+        "item": "Longbow +1",
+        "ch": 9,
+        "ore": "rare",
+        "why": "Deadeye at range 3-5 hits harder"
+      },
+      {
+        "unit": "Alexandra",
+        "item": "Levin Sword +1",
+        "ch": 9,
+        "ore": "rare",
+        "why": "Magic at 1-2 on armor; she has Sword C"
+      },
+      {
+        "unit": "Tobias",
+        "item": "Hammer +1",
+        "ch": 10,
+        "ore": "rare",
+        "why": "Zarcone's copy, Ch 10 week 1: Effective+ vs armor"
+      },
+      {
+        "unit": "Theodora",
+        "item": "Mahadu's Spear +2",
+        "ch": 12,
+        "ore": "rare",
+        "why": "Part II carry-over"
+      },
+      {
+        "unit": "Lilian",
+        "item": "Longbow +2",
+        "ch": 12,
+        "ore": "rare",
+        "why": "Part II carry-over"
+      },
+      {
+        "unit": "Alexandra",
+        "item": "Levin Sword +2",
+        "ch": 12,
+        "ore": "rare",
+        "why": "Part II: Dagda's low Res (Ch 5)"
+      },
+      {
+        "unit": "Tobias",
+        "item": "Hammer +2",
+        "ch": 12,
+        "ore": "rare",
+        "why": "Part II: armor and Golems"
+      },
+      {
+        "unit": "Alexandra",
+        "item": "Da Mina Sword +1",
+        "ch": 9,
+        "ore": "?",
+        "why": "Main: Mt 15, Wt 4, arts Hit +10"
+      },
+      {
+        "unit": "Loretta",
+        "item": "Da Mina Sword +1",
+        "ch": 9,
+        "ore": "?",
+        "why": "Main: Mt 15, Wt 4, arts Hit +10"
+      },
+      {
+        "unit": "Lilian",
+        "item": "Da Mina Bow +1",
+        "ch": 9,
+        "ore": "?",
+        "why": "Main bow: Wt 6 doubles"
+      },
+      {
+        "unit": "Lysander",
+        "item": "Da Mina Spear +1",
+        "ch": 9,
+        "ore": "?",
+        "why": "Main spear: Wt 7 keeps him doubling"
+      },
+      {
+        "unit": "Tobias",
+        "item": "Da Mina Axe +1",
+        "ch": 9,
+        "ore": "?",
+        "why": "Main axe: the base of his Hit stack"
+      },
+      {
+        "unit": "Nydine",
+        "item": "Da Mina Axe +1",
+        "ch": 9,
+        "ore": "?",
+        "why": "Main axe at Axe C; Iron Axe to storage"
+      },
+      {
+        "unit": "Nuzzuo",
+        "item": "Da Mina Sword +1",
+        "ch": 10,
+        "ore": "?",
+        "why": "Main sword at Sword C: Mt 15, Wt 4"
+      },
+      {
+        "unit": "Nuzzuo",
+        "item": "Da Mina Bow +1",
+        "ch": 10,
+        "ore": "?",
+        "why": "Bow C: Effective+ vs fliers"
+      },
+      {
+        "unit": "Simon",
+        "item": "Da Mina Axe +1",
+        "ch": 10,
+        "ore": "?",
+        "why": "Main axe at Axe C; Iron Axe to storage"
+      },
+      {
+        "unit": "Alexandra",
+        "item": "Da Mina Sword +2",
+        "ch": 12,
+        "ore": "?",
+        "why": "Mt 20: Part II main"
+      },
+      {
+        "unit": "Loretta",
+        "item": "Da Mina Sword +2",
+        "ch": 12,
+        "ore": "?",
+        "why": "Mt 20: Part II main"
+      },
+      {
+        "unit": "Nuzzuo",
+        "item": "Da Mina Sword +2",
+        "ch": 12,
+        "ore": "?",
+        "why": "Mt 20: Part II main"
+      },
+      {
+        "unit": "Diego",
+        "item": "Da Mina Sword +2",
+        "ch": 12,
+        "ore": "?",
+        "why": "Mt 20: the week he joins"
+      },
+      {
+        "unit": "Lilian",
+        "item": "Da Mina Bow +2",
+        "ch": 12,
+        "ore": "?",
+        "why": "Part II main bow"
+      },
+      {
+        "unit": "Nuzzuo",
+        "item": "Da Mina Bow +2",
+        "ch": 12,
+        "ore": "?",
+        "why": "Part II flier bow"
+      },
+      {
+        "unit": "Lysander",
+        "item": "Da Mina Spear +2",
+        "ch": 12,
+        "ore": "?",
+        "why": "Part II main spear"
+      },
+      {
+        "unit": "Ninae",
+        "item": "Da Mina Spear +2",
+        "ch": 12,
+        "ore": "?",
+        "why": "Buy at Spear C; +1 and +2 this week"
+      },
+      {
+        "unit": "Ultand",
+        "item": "Da Mina Spear +2",
+        "ch": 12,
+        "ore": "?",
+        "why": "Buy at Spear C; +1 and +2 this week"
+      },
+      {
+        "unit": "Tobias",
+        "item": "Da Mina Axe +2",
+        "ch": 12,
+        "ore": "?",
+        "why": "Part II main axe"
+      },
+      {
+        "unit": "Nydine",
+        "item": "Da Mina Axe +2",
+        "ch": 12,
+        "ore": "?",
+        "why": "Part II main axe"
+      },
+      {
+        "unit": "Simon",
+        "item": "Da Mina Axe +2",
+        "ch": 12,
+        "ore": "?",
+        "why": "Part II main axe"
+      },
+      {
+        "unit": "Noctula",
+        "item": "Da Mina Gauntlets +2",
+        "ch": 12,
+        "ore": "?",
+        "why": "Part II art weapon; +1 and +2 this week"
+      },
+      {
+        "unit": "Zarcone",
+        "item": "Da Mina Axe +2",
+        "ch": 12,
+        "ore": "?",
+        "why": "Optional: pack it for his Part II Ch 2 return"
+      },
+      {
+        "unit": "Simon",
+        "item": "Iron Axe +1",
+        "ch": 9,
+        "ore": "common",
+        "why": "Trains Axe C on join; storage at Ch 10, Part III +5"
+      },
+      {
+        "unit": "Simon",
+        "item": "Iron Sword +1",
+        "ch": 9,
+        "ore": "common",
+        "why": "Mt 11, Wt 4: trains Sword C"
+      },
+      {
+        "unit": "Nuzzuo",
+        "item": "Iron Sword +1",
+        "ch": 9,
+        "ore": "common",
+        "why": "Mt 11: trains Sword C until Ch 10"
+      },
+      {
+        "unit": "Nuzzuo",
+        "item": "Iron Bow +1",
+        "ch": 9,
+        "ore": "common",
+        "why": "Trains Bow C until Ch 10"
+      },
+      {
+        "unit": "Nydine",
+        "item": "Iron Spear +1",
+        "ch": 9,
+        "ore": "common",
+        "why": "Trains Spear B; effective vs cavalry"
+      },
+      {
+        "unit": "Simon",
+        "item": "Iron Sword +2",
+        "ch": 12,
+        "ore": "common",
+        "why": "Mt 13: Part II enemy-phase swap"
+      },
+      {
+        "unit": "Nydine",
+        "item": "Iron Spear +2",
+        "ch": 12,
+        "ore": "common",
+        "why": "Part II: Ch 1's named foes ride"
+      },
+      {
+        "unit": "Theodora",
+        "item": "Mahadu's Spear +3",
+        "ch": "Part III",
+        "ore": "soulstone",
+        "why": "Mt ?; also [[item:Vendetta]] +3 (Mt 30) from Section 4"
+      },
+      {
+        "unit": "Tobias",
+        "item": "Iron Axe +5",
+        "ch": "Part III",
+        "ore": "soulstone",
+        "why": "Mt 24, Dex +6; also Wooden Gauntlets +9 (Spd +5), Hammer +3, [[item:Cleansing Blade]] +3"
+      },
+      {
+        "unit": "Simon",
+        "item": "Iron Axe +5",
+        "ch": "Part III",
+        "ore": "soulstone",
+        "why": "Mt 24, Dex +6; also Hammer +3, [[item:Cleansing Blade]] +3"
+      },
+      {
+        "unit": "Lilian",
+        "item": "Wooden Bow +9",
+        "ch": "Part III",
+        "ore": "soulstone",
+        "why": "Mt 19, Spd +5; also Longbow +3 (Mt 19), Mini Bow +3 (AS +5 adjacent)"
+      },
+      {
+        "unit": "Lysander",
+        "item": "Wooden Spear +9",
+        "ch": "Part III",
+        "ore": "soulstone",
+        "why": "Mt 20, Spd +5; also [[item:Ji]] +3, [[item:Cleansing Blade]] +3"
+      },
+      {
+        "unit": "Alexandra",
+        "item": "Wooden Sword +9",
+        "ch": "Part III",
+        "ore": "soulstone",
+        "why": "Mt 20, Spd +5; also Levin Sword +3, [[item:Cleansing Blade]] +3"
+      },
+      {
+        "unit": "Nuzzuo",
+        "item": "Wooden Bow +9",
+        "ch": "Part III",
+        "ore": "soulstone",
+        "why": "Mt 19, Spd +5; also Wooden Sword +9, [[item:Cleansing Blade]] +3"
+      },
+      {
+        "unit": "Bonaventure",
+        "item": "Salamander +3",
+        "ch": "Part III",
+        "ore": "soulstone",
+        "why": "Late Mt jump at +3 for Compressed Laser (Section 2)"
+      },
+      {
+        "unit": "Loretta",
+        "item": "Wooden Sword +9",
+        "ch": "Part III",
+        "ore": "soulstone",
+        "why": "Mt 20, Spd +5; also [[item:Cleansing Blade]] +3"
+      },
+      {
+        "unit": "Ninae",
+        "item": "Bronze Spear +5",
+        "ch": "Part III",
+        "ore": "soulstone",
+        "why": "Def +3 on the Sentinel wall"
+      },
+      {
+        "unit": "Ultand",
+        "item": "Bronze Spear +5",
+        "ch": "Part III",
+        "ore": "soulstone",
+        "why": "Def +3 on the Sentinel wall"
+      },
+      {
+        "unit": "Nydine",
+        "item": "Iron Axe +5",
+        "ch": "Part III",
+        "ore": "soulstone",
+        "why": "Dex +6; also Iron Spear +5"
+      },
+      {
+        "unit": "Noctula",
+        "item": "Wooden Gauntlets +9",
+        "ch": "Part III",
+        "ore": "soulstone",
+        "why": "Spd +5 for War Monk"
+      }
+    ],
+    "barters": [
+      {
+        "item": "Hexlock Shield",
+        "for": "Theodora",
+        "ch": 6,
+        "at": "Dagsion"
+      },
+      {
+        "item": "Cleansing Blade",
+        "for": "Theodora",
+        "ch": 6,
+        "at": "Dagsion",
+        "note": "Bahr Vahn; then Tobias's Part III"
+      },
+      {
+        "item": "Archer's Ring",
+        "for": "Tobias",
+        "ch": 6,
+        "at": "Dagsion"
+      },
+      {
+        "item": "Gale Ring",
+        "for": "Lysander",
+        "ch": 6,
+        "at": "Alecto"
+      },
+      {
+        "item": "Magic Staff",
+        "for": "Bonaventure",
+        "ch": 6,
+        "at": "Dagsion",
+        "note": "skip if Corroios Fort Ruins gave one"
+      },
+      {
+        "item": "Hammer",
+        "for": "Zarcone",
+        "ch": 6,
+        "at": "Dagsion"
+      },
+      {
+        "item": "Giant's Ring",
+        "for": "Zarcone",
+        "ch": 6,
+        "at": "Alecto",
+        "note": "first Paradise Fish; the second is Ninae's recruit item"
+      },
+      {
+        "item": "Magic Staff",
+        "for": "Sirocco",
+        "ch": 7,
+        "at": "Dagsion"
+      },
+      {
+        "item": "Longbow",
+        "for": "Lilian",
+        "ch": 7,
+        "at": "Dagsion"
+      },
+      {
+        "item": "Phantom Ring",
+        "for": "Loretta",
+        "ch": 7,
+        "at": "Dagsion"
+      },
+      {
+        "item": "Levin Sword",
+        "for": "Alexandra",
+        "ch": 8,
+        "at": "Dagsion"
+      },
+      {
+        "item": "Healing Staff",
+        "for": "Ninae",
+        "ch": 9,
+        "at": "Dagsion"
+      },
+      {
+        "item": "Archive T",
+        "for": "Bonaventure",
+        "ch": 10,
+        "at": "Dagsion",
+        "note": "stock grows with Renown?"
+      },
+      {
+        "item": "Short Axe",
+        "for": "Simon",
+        "ch": 10,
+        "at": "Dagsion"
+      },
+      {
+        "item": "Zanbato",
+        "for": "Nuzzuo",
+        "ch": 11,
+        "at": "Dagsion"
+      },
+      {
+        "item": "Flyssa",
+        "for": "Nuzzuo",
+        "ch": 11,
+        "at": "Dagsion"
+      }
+    ],
+    "carried": [
+      {
+        "unit": "Noctula",
+        "item": "Ursa's Right Claw",
+        "when": "Recruit 6/1 (Ch 8): she joins a Pugilist with it ?; store it for Anatolia"
+      },
+      {
+        "unit": "Nuzzuo",
+        "item": "Levin Sword",
+        "when": "Not here: he joins 7/1 at about Lv 15 without it; Jester's copy goes to Sirocco"
+      },
+      {
+        "unit": "Seteth",
+        "item": "Spear of Assal",
+        "when": "Filler: Ch 10 to 12 (Renown 6)"
+      },
+      {
+        "unit": "Jester",
+        "item": "Levin Sword",
+        "when": "Filler: Ch 10+ (Renown 9); goes to Sirocco"
+      },
+      {
+        "unit": "Io",
+        "item": "Levin Sword",
+        "when": "Filler: Ch 11+ (Renown 10)"
+      }
+    ]
+  }
+}

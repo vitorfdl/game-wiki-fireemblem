@@ -1,0 +1,301 @@
+{
+  "route": "Leda",
+  "ch": 11,
+  "name": "Banquet of the Risen Dead",
+  "free": {
+    "from": "10/16",
+    "to": "11/6"
+  },
+  "routine": {
+    "meals": [
+      {
+        "week": "Week 1",
+        "tables": [
+          [
+            "Leda",
+            "Mu",
+            "Guzran"
+          ],
+          [
+            "Leda",
+            "Sirocco",
+            "Olympia"
+          ],
+          [
+            "Leda",
+            "Esmeralda",
+            "Dadao"
+          ]
+        ],
+        "note": "Seteth or Jester short of Support 3? They take a seat first. Each table raises three army pairs."
+      },
+      {
+        "week": "Week 2",
+        "tables": [
+          [
+            "Leda",
+            "Dadao",
+            "Inyoni"
+          ],
+          [
+            "Leda",
+            "Lysander",
+            "Catania"
+          ],
+          [
+            "Leda",
+            "Fianna",
+            "Olympia"
+          ]
+        ],
+        "note": "Dadao is Inyoni's only partner; Lysander is Catania's."
+      },
+      {
+        "week": "Week 3",
+        "tables": [
+          [
+            "Leda",
+            "Sha Lan",
+            "Halvin"
+          ],
+          [
+            "Leda",
+            "Jasmine",
+            "Buccar"
+          ],
+          [
+            "Leda",
+            "Esmeralda",
+            "Ludia"
+          ]
+        ],
+        "note": "Bench pairs for Part II. Ch 12 repeats weeks 1 to 3."
+      }
+    ],
+    "weekly": [
+      {
+        "text": "Part II has no Arena: every bench rank must be B by 11/27"
+      }
+    ],
+    "gifts": [
+      {
+        "unit": "Jester",
+        "gift": "Board-Game Tactics",
+        "until": "Support 3, recruit Ch 11 (filler)",
+        "alt": "Home-Recipe Book"
+      },
+      {
+        "unit": "Seteth",
+        "gift": "Poems of the Greats",
+        "alt": "Common Coffee",
+        "until": "Support 3, recruit Ch 11 (filler)"
+      }
+    ]
+  },
+  "missables": [
+    {
+      "id": "leda-ch11-missables-paralogues",
+      "kind": "item",
+      "text": "Clear all three paralogues inside their windows: each pays 20,000G and 150 Renown",
+      "when": "10/22, 10/27, 11/1",
+      "lose": "The Gem Box, 2 Salamanders, a Healing Staff, and Orchel's Part III join",
+      "recover": "None known",
+      "detail": [
+        "Pick up Sealed-Off Past by 10/22 even though its battle is due 11/1."
+      ]
+    },
+    {
+      "id": "leda-ch11-missables-song-of-angels",
+      "kind": "timing",
+      "text": "Reach Renown 10 by 11/27 for Elegant Drink Recipes, or Song of Angels is lost for Part I",
+      "when": "11/27",
+      "lose": "The Song of Angels for all of Part I",
+      "recover": "Catch up with the paralogues, Dance for Benetnasch and god audiences"
+    }
+  ],
+  "classes": {
+    "note": {
+      "text": "Advanced exams in ledger order as each unit shows Lv 35, plus any Ch 10 exam that slipped",
+      "detail": [
+        "Olympia's Bishop or Catania's Guardian slipped? Take it now and carry Physic into this battle.",
+        "Push Inyoni Bow B, Esmeralda Heavy D, Axe B and Spear B, Guzran Sword B if Shido hasn't happened.",
+        "Part II has no Arena: the bench's ranks come from Ch 11 and Ch 12 weeks."
+      ]
+    }
+  },
+  "gear": {
+    "buy": [
+      {
+        "text": "Dagsion Shopping Arcade: [[item:Pure Water]] (500G) for Esmeralda's mage turns on this map"
+      }
+    ],
+    "barter": [
+      {
+        "item": "Healing Staff",
+        "for": "Fianna (Catania has the Ch 7 one)",
+        "at": "Dagsion"
+      },
+      {
+        "item": "Longbow",
+        "for": "Halvin: the Part II Ch 5 Deadeye",
+        "at": "Dagsion"
+      },
+      {
+        "item": "Archer's Ring",
+        "for": "Halvin (Inyoni has Leda's, Buccar the Ch 9 one)",
+        "at": "Dagsion"
+      },
+      {
+        "item": "Cleansing Blade",
+        "for": "Ludia: in her Part II six",
+        "at": "Dagsion"
+      }
+    ],
+    "note": [
+      {
+        "text": "Yukito ×10 has no gather spot on this route: look in shops and crates",
+        "conf": "?"
+      }
+    ]
+  },
+  "recruits": [
+    {
+      "unit": "Jester",
+      "action": "Finish his 3 short quests once Renown 10 lands: he brings a Levin Sword",
+      "when": "Late Ch 11 or Ch 12",
+      "detail": [
+        "Filler, bench only."
+      ]
+    },
+    {
+      "unit": "Seteth",
+      "action": "Finish his short quest once Renown 10 lands: he brings the Spear of Assal",
+      "when": "Late Ch 11 or Ch 12",
+      "detail": [
+        "Filler, bench only."
+      ]
+    }
+  ],
+  "prep": [
+    {
+      "text": "Sha Lan still missing? Recruit her now if Renown 8 or Support 3 came after Ch 10 (row in Ch 10)",
+      "detail": [
+        "Her paralogue must already be cleared."
+      ]
+    },
+    {
+      "text": "Nuzzuo and Nezha: recruit them now if Renown 9 came after Ch 10 (rows in Ch 10)"
+    }
+  ],
+  "quests": {
+    "route": [
+      {
+        "quest": "dance-for-benetnasch",
+        "note": "Do it first: its Wonder Leaves feed Elegant Drink Recipes",
+        "detail": [
+          "180 Renown, Bitter Leaves, a Da Mina Crate and 5,000G. Due 11/27."
+        ]
+      },
+      {
+        "quest": "elegant-drink-recipes",
+        "note": "Renown 10 usually lands late Ch 11: Song of Angels comes with it",
+        "detail": [
+          "Also unlocks Troubadour and Ranger, which earlier paths already opened.",
+          "Not on the path guide's list: check your Perform Quest list.",
+          "Likely not ready for this battle: plan the boss turn without it and save it for Ch 12."
+        ]
+      }
+    ],
+    "sub": [
+      {
+        "quest": "secret-sparkle",
+        "offered": "if-offered"
+      },
+      {
+        "quest": "defeat-the-rampaging-golems",
+        "offered": "if-offered"
+      },
+      {
+        "quest": "a-lost-object",
+        "offered": "if-offered"
+      },
+      {
+        "quest": "cant-go-home",
+        "offered": "if-offered",
+        "note": "Take it only if your quest list shows it open: its 10/15 deadline comes before this free time"
+      }
+    ],
+    "paralogue": [
+      {
+        "quest": "the-great-escape",
+        "note": "Rush Centurio and kill him fast. The battle is on 10/22"
+      },
+      {
+        "quest": "sealed-off-past",
+        "note": "10-turn defense. Pick it up by 10/22; deadline 11/1",
+        "detail": [
+          "Archers on the east side for the Pegasus Knights: Inyoni and Leda's bow, Guzran's [[art:Grounder]] behind.",
+          "Its two [[item:Salamander]]s (magic-damage firearms, Gauntlet E) go to storage.",
+          "Mu already holds Sha Lan's; Dadao's Part II six are full."
+        ]
+      },
+      {
+        "quest": "orchels-regret",
+        "note": "Biggest map: split into two teams so both switches fall on one turn",
+        "detail": [
+          "Pegasus reinforcements come from the east. The two chests only hold Pure Water.",
+          "Clearing it is what lets Orchel join in Part III.",
+          "Its [[item:Healing Staff]]: Catania if she has none, else Fianna (skip her barter)."
+        ]
+      }
+    ]
+  },
+  "explore": [
+    {
+      "group": "Spare Turns",
+      "text": "[[place:Valeri Gorge]] (Amalthea): [[gather:Melara]] ×10 for Fianna's [[item:Healing Staff]]"
+    },
+    {
+      "group": "Spare Turns",
+      "text": "[[place:Klytius Plains]] (Melias): [[gather:Ginji]] ×10, Jyoppa ×2 for Halvin's bow and ring"
+    },
+    {
+      "group": "Spare Turns",
+      "text": "[[place:Mount Ouranos]] (Saveilon): [[gather:Cadam]] ×5 for Halvin's [[item:Longbow]]"
+    },
+    {
+      "group": "Spare Turns",
+      "text": "[[place:Ladon Lake]] (Melias): [[gather:Ladon Pike]] ×3 for Ludia's [[item:Cleansing Blade]]"
+    },
+    {
+      "group": "Spare Turns",
+      "text": "Run [[place:Iapetus Cavern]] (Lv 32) with the meal pairs; Sirocco reads Archive θ if he hasn't",
+      "detail": [
+        "Banshee Θ immobilizes Martila or Guillermo at range 1-3. Also a Black-Magic Manual."
+      ]
+    }
+  ],
+  "battle": {
+    "title": "Showdown vs. Martila & Guillermo",
+    "objective": "Defeat Martila and Guillermo",
+    "lose": "Leda falls",
+    "tips": [
+      {
+        "text": "Kill Guillermo first, then Martila: she summons for about 7 turns, then starts casting songs"
+      },
+      {
+        "text": "Song of Icewater cuts the Acid's damage. Aurora's Blessing is very useful here"
+      },
+      {
+        "text": "Undead: Catania's Seraphim (White C), Guzran's [[item:Cleansing Blade]], Leda's Song of Abjuring",
+        "detail": [
+          "Song of Abjuring (Lv 10) makes everyone within 2 tiles effective against undead."
+        ]
+      },
+      {
+        "text": "Buccar and Esmeralda swap in [[item:Hexlock Shield]]s; Esmeralda packs [[item:Pure Water]]",
+        "conf": "?"
+      }
+    ]
+  }
+}

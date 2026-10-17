@@ -1,0 +1,70 @@
+{
+  "route": "Theodora",
+  "ch": 5,
+  "action": null,
+  "blessings": [
+    {
+      "god": "Smyrnos",
+      "why": "Mag +5 or range +1 on the turn the casters reach Dagda: his Res is much lower than his Def."
+    },
+    {
+      "god": "Credna",
+      "why": "No durability cost on the Golem turn."
+    }
+  ],
+  "deploy": {
+    "units": [
+      "Theodora",
+      "Ninae",
+      "Ultand",
+      "Tobias",
+      "Bonaventure",
+      "Sofia",
+      "Sirocco",
+      "Alexandra",
+      "Lysander",
+      "Loretta",
+      "Lilian",
+      "Noctula",
+      "Simon"
+    ],
+    "bench": [
+      "Nydine",
+      "Nuzzuo"
+    ],
+    "note": "13 slots: casters with Salamanders for Dagda, Lilian's Longbow Deadeye, Noctula baits the Onager, Simon and Tobias Hammer the Golems. Nydine (stairs stop cavalry) and Nuzzuo sit."
+  },
+  "missables": [
+    {
+      "id": "theodora-war-ch05-missables-longbow",
+      "kind": "item",
+      "text": "Take the Longbow +1 from the Golems: Deadeye from it breaks Dagda's shield (Eshmel appears next turn).",
+      "lose": "The shield trick",
+      "recover": "Any Longbow user with Deadeye"
+    }
+  ],
+  "gear": {
+    "assign": [
+      {
+        "item": "Longbow",
+        "to": "Lilian",
+        "why": "Golem drop: Deadeye at range 3–5 triggers Eshmel's shield break"
+      }
+    ]
+  },
+  "people": [],
+  "tips": [
+    {
+      "text": "Move the army north to the Onager and block the chokes for the humanoid phase"
+    },
+    {
+      "text": "Park Noctula or Loretta at the Onager's farthest range to waste its shots"
+    },
+    {
+      "text": "Pull Golems off their protect tiles before the stairs"
+    },
+    {
+      "text": "Lilian fires Deadeye at Dagda; next turn everyone hits once Eshmel drops the shield"
+    }
+  ]
+}

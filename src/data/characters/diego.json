@@ -1,0 +1,741 @@
+{
+  "name": "Diego",
+  "slug": "diego",
+  "epithet": "Orchel's sworn guard",
+  "faction": "Linaria Dewdrops",
+  "homeRoute": "Theodora",
+  "weapons": [
+    "Bow",
+    "Sword"
+  ],
+  "preferred": [
+    "Bow",
+    "Infantry",
+    "Sword"
+  ],
+  "personality": "Untalkative and unsociable; happiest walking the forest, gathering medicinal herbs, or at Orchel's side.",
+  "story": "A member of the Har Hali forest clan, descended from the Damascar Kingdom, Diego served as Orchel's guard during the Heroic Games and swore lifelong loyalty to them. He is 19-20 before the timeskip and 24 after. Recruiting him requires clearing Orchel's Paralogue.",
+  "personalSkill": {
+    "name": "Caretaker",
+    "effect": "Adjacent allies cannot suffer a follow-up during combat. Trigger % = 5. Lv 20: No Mercy (+5 Hit/Crit on follow-ups); Lv 35: No Mercy+ (+10)."
+  },
+  "growths": {
+    "HP": 45,
+    "Str": 40,
+    "Mag": 20,
+    "Spd": 45,
+    "Dex": 60,
+    "Def": 35,
+    "Res": 20,
+    "Lck": 35,
+    "Cha": 30
+  },
+  "supports": [
+    "Esmeralda",
+    "Nuzzuo",
+    "Lilian",
+    "Theodora",
+    "Seteth",
+    "Ninae",
+    "Sha Lan"
+  ],
+  "tiers": [
+    {
+      "source": "KeenGamer",
+      "tier": "B"
+    },
+    {
+      "source": "Pocket Tactics",
+      "tier": "A"
+    }
+  ],
+  "tierNotes": "KeenGamer: B tier (support; Caretaker rated weak at 5%). Pocket Tactics: A tier. fortunesweave.co.uk rates Caretaker 1/5.",
+  "recruit": {
+    "how": "recruit",
+    "support": 2,
+    "renown": 8,
+    "extra": "Clear Orchel's Paralogue",
+    "why": [
+      "Support 2 here vs 3 on every other route.",
+      "Supports Theodora and Lilian in this army."
+    ],
+    "tip": "Clear Orchel's Paralogue (10/18–10/24, Ch 12), then recruit him: about Lv 25 in a Specialty class. He sits the finale and Part II; he fights from Part III."
+  },
+  "requirements": {
+    "Cai": "3S 10R",
+    "Dietrich": "3S 9R",
+    "Theodora": "2S 8R",
+    "Leda": "3S 8R"
+  },
+  "build": {
+    "role": "Part III sword skirmisher (no Part I or II deploy)",
+    "path": [
+      "Rogue (Ch 12 join, about Lv 25; bench through Part II)",
+      "Ranger (Part III S1 to S2)",
+      "Shadow Seeker (Part III S3+)"
+    ],
+    "part1Target": "Recruit only: joins in Ch 12 at about Lv 25 in a Specialty class; Rogue on join if he has Bow C and Sword C",
+    "part3Target": "Shadow Seeker",
+    "notes": "Ch 12 join (Orchel's Paralogue) for Part III only: he sits the finale and Part II (bench of the bench), so Army Training floors are his only Part II growth. Ranger in Part III S1, Shadow Seeker once Bow A and Sword A land, with a Cleansing Blade for the Underworld Boon.",
+    "confidence": "medium"
+  },
+  "guide": {
+    "role": "Part III sword skirmisher (no Part I or II deploy)",
+    "summary": "Part III only: a light sword doubler whose follow-ups get [[ability:No Mercy+]] (Hit/Crit +10). He joins in Ch 12 through Orchel's Paralogue, sits the finale and Part II, then fights from Part III. Lead with the sword and attack only where the forecast shows x2.",
+    "playstyle": "Sword first so he doesn't copy Lilian and Nuzzuo; the bow is for fliers and, as a [[class:Ranger]], [[ability:Countershot]]. Caretaker (adjacent allies can't be doubled, 5%) is a bonus, not a plan.",
+    "focus": [
+      "Spd",
+      "Dex",
+      "Str"
+    ],
+    "keys": [
+      "Reach Support 2 with Theodora by 7/31: he joins only via Orchel's Paralogue (10/18–10/24).",
+      "Seat Theodora + Diego + Lilian at Sunday meals: one meal raises all three pairs.",
+      "Equip the [[item:Da Mina Sword]] +2 and [[item:Archer's Ring]] before Ch 12 ends: equipped gear carries.",
+      "Take [[class:Ranger]] in Part III S1 (Bow B, Sword B); Shadow Seeker at Lv 45.",
+      "Carry a [[item:Cleansing Blade]] in Part III: Wt 3, and it strips the Underworld Boon."
+    ],
+    "watch": [
+      "Gate: Support 2 with Theodora before 10/16 and Renown 8 by Ch 12, or he can't join.",
+      "Weight: Part II Da Mina Sword +2 4 + Archer's Ring 3 = 7. Part III (no Soulstone) Iron Sword +4 4 + Gale Ring 2 = 6, Da Mina Bow +2 6 + 2 = 8, Cleansing Blade +2 3 + 2 = 5; AS = Spd + 3 − max(0, Wt − Bld). Ring off first if a double slips.",
+      "Res: 20 growth (25 as [[class:Rogue]]). Keep him off mage lanes; end turns behind Theodora.",
+      "Inventory: Part II 4 core (Da Mina Sword +2, Wooden Bow, Archer's Ring, [[item:Concoction]]). Part III 5 core (Iron Sword +4, Da Mina Bow +2, [[item:Cleansing Blade]] +2, Gale Ring, Concoction); Flyssa +2 in the open slot on armor maps."
+    ],
+    "stages": [
+      {
+        "when": "Ch 12 bench (join class ?)",
+        "from": {
+          "part": 1,
+          "ch": 12
+        },
+        "to": {
+          "part": 1,
+          "ch": 12
+        },
+        "why": [
+          "Window: Orchel's Paralogue, 10/18–10/24; Support 2, Renown 8",
+          "A Ch 12 join arrives at about Lv 25 in a Specialty class (which one ?)"
+        ],
+        "level": "About Lv 25 on join (Specialty)",
+        "class": "Rogue",
+        "kind": "bench",
+        "mount": "No mount (infantry)",
+        "goal": "Recruit after Orchel's Paralogue for Part III; Rogue on join if needed. No Mercy (Lv 20) is on.",
+        "exit": "Bench for the Ch 12 finale and all of Part II.",
+        "masteries": [],
+        "weapons": [
+          {
+            "item": "Da Mina Sword +2",
+            "why": "Main: Mt 20, Wt 4, Hit +10 on arts; Rogue has Sword C",
+            "plan": "Refine to +2 the week he joins (Renown 10; ores ?)",
+            "alts": [
+              "Iron Sword +2"
+            ]
+          },
+          {
+            "item": "Wooden Bow",
+            "why": "Carried for Part III +5 (bench: never fires in Parts I, II)",
+            "plan": "Hold it: Part III S1 refines it to +5",
+            "alts": [
+              "Iron Bow +2"
+            ]
+          }
+        ],
+        "equipment": [
+          {
+            "item": "Archer's Ring",
+            "why": "Hit +5, Wt 3: No Mercy follow-ups land",
+            "slot": "Accessory",
+            "alts": [
+              "Gale Ring"
+            ],
+            "plan": "Second Vandahl barter (Jyoppa x2) if it restocks ?; Tobias's copy is Nydine's from Ch 9"
+          }
+        ],
+        "items": [
+          {
+            "item": "Concoction",
+            "why": "Part II stock: buy before 10/24",
+            "alts": [
+              "Vulnerary"
+            ]
+          }
+        ],
+        "arts": [
+          {
+            "name": "Sunder",
+            "why": "Sword D: Mt +4, Crit +10"
+          },
+          {
+            "name": "Destreza",
+            "why": "Sword C: Atk +5, Crit +10 on a foe at 50% HP or less"
+          },
+          {
+            "name": "Warning Shot",
+            "why": "Bow D: Avo +10"
+          }
+        ],
+        "abilities": [
+          {
+            "name": "No Mercy",
+            "why": "Personal Lv 20: Hit/Crit +5 on follow-ups"
+          },
+          {
+            "name": "Swords Lv. 1",
+            "why": "Sword D+: Hit +3 with swords"
+          },
+          {
+            "name": "Bows Lv. 1",
+            "why": "Bow D+: Hit +3 with bows"
+          },
+          {
+            "name": "Knightly Senses",
+            "why": "Riding D: Avo +10 vs spears; works on foot"
+          },
+          {
+            "name": "Read the Winds",
+            "why": "Flying D: Avo +10 vs bows; works on foot"
+          }
+        ],
+        "battalion": {
+          "name": "Novice Hunters",
+          "why": "Str +1, Dex +1, Cha +3: 3rd copy from early rolls; Authority E?",
+          "where": "Any Ch 6–9 roll (Regia, Alecto, Raivo Port, Megaira)",
+          "situational": "Bench in Part I"
+        },
+        "training": [
+          {
+            "rank": "Bow C, Sword C",
+            "for": "Rogue exam on join, if he isn't one",
+            "how": "Arena Infantry course (Sword, Bow): one session if Ch 12 has a free seat"
+          },
+          {
+            "rank": "Riding D, Flying D",
+            "for": "Knightly Senses, Read the Winds",
+            "how": "Arena Mounted: Ch 12's one session (10/18–10/24) if he joins a Rogue ?"
+          }
+        ],
+        "tips": [
+          "Recruit right after the Paralogue; whether he needs a separate talk is ?",
+          "[[class:Rogue]] costs one Specialty License only if he joins in another class",
+          "Only equipped gear surely enters Part II: sword in hand, ring on",
+          "Joins outside Rogue? Infantry takes the session: Dodge for the two Mounted picks",
+          "Buy the Da Mina Sword and refine it to +2 the week he joins: it carries into Part II"
+        ]
+      },
+      {
+        "when": "Part II: bench (no deploy)",
+        "from": {
+          "part": 2,
+          "ch": 1
+        },
+        "to": {
+          "part": 2,
+          "ch": 6
+        },
+        "level": "Army Training floors only (Lv 34 to 37?)",
+        "class": "Rogue",
+        "kind": "bench",
+        "mount": "No mount (infantry)",
+        "goal": "Bench of the bench: the 15 deploy, he sits. Army Training floors lift him on Rogue growths (Spd +15).",
+        "exit": "Part III S1: Ranger once Bow B and Sword B are in.",
+        "masteries": [],
+        "weapons": [
+          {
+            "item": "Da Mina Sword +2",
+            "why": "Main: Mt 20, Wt 4; the equipped carry-over",
+            "alts": [
+              "Iron Sword +2"
+            ]
+          },
+          {
+            "item": "Wooden Bow",
+            "why": "Carried for the Part III +5 refine"
+          }
+        ],
+        "equipment": [
+          {
+            "item": "Archer's Ring",
+            "why": "Hit +5, Wt 3: No Mercy follow-ups land",
+            "slot": "Accessory",
+            "alts": [
+              "Gale Ring"
+            ],
+            "plan": "Second Vandahl barter (Jyoppa x2) if it restocks ?; Tobias's copy is Nydine's from Ch 9"
+          }
+        ],
+        "items": [
+          {
+            "item": "Concoction",
+            "why": "40 HP x2",
+            "plan": "Carried from Ch 12 (no shops in Part II)"
+          }
+        ],
+        "arts": [
+          {
+            "name": "Sunder",
+            "why": "Sword D: Mt +4, Crit +10"
+          },
+          {
+            "name": "Destreza",
+            "why": "Sword C: Atk +5, Crit +10 on a foe at 50% HP or less"
+          },
+          {
+            "name": "Warning Shot",
+            "why": "Bow D: Avo +10"
+          }
+        ],
+        "abilities": [
+          {
+            "name": "No Mercy+",
+            "why": "Personal Lv 35: Hit/Crit +10 on follow-ups; No Mercy before"
+          },
+          {
+            "name": "Swords Lv. 1",
+            "why": "Sword D+: Hit +3 with swords"
+          },
+          {
+            "name": "Bows Lv. 1",
+            "why": "Bow D+: Hit +3 with bows"
+          },
+          {
+            "name": "Knightly Senses",
+            "why": "Riding D: Avo +10 vs spears; works on foot"
+          },
+          {
+            "name": "Read the Winds",
+            "why": "Flying D: Avo +10 vs bows; works on foot"
+          }
+        ],
+        "battalion": {
+          "name": "Novice Hunters",
+          "why": "Str +1, Dex +1, Cha +3 (3rd copy)",
+          "where": "Held from Ch 12",
+          "situational": "Bench in Part II"
+        },
+        "tips": [
+          "Pick Army Training while he is a Rogue: the floors grow the class he holds",
+          "Ranks don't move on the bench: Bow B and Sword B come in Part III"
+        ],
+        "drop": [
+          {
+            "item": "No Mercy",
+            "why": "No Mercy+ replaces it at Lv 35"
+          }
+        ]
+      },
+      {
+        "when": "Part III S1 to S2 (Ranger)",
+        "from": {
+          "part": 3,
+          "ch": 1
+        },
+        "to": {
+          "part": 3,
+          "ch": 2
+        },
+        "level": "Lv 37? to 45",
+        "class": "Ranger",
+        "kind": "core",
+        "mount": "No mount (infantry)",
+        "goal": "Ranger (Spd/Dex +15): Iron Sword +4 and Skysplit (AS +5) double for No Mercy+; Breza bow sub for Nuzzuo.",
+        "exit": "Lv 45 with Bow A and Sword A: Shadow Seeker in S3.",
+        "masteries": [
+          "Countershot"
+        ],
+        "weapons": [
+          {
+            "item": "Iron Sword +4",
+            "why": "Main: Mt 21, Hit 90, Wt 4, Dex up from +3; Silver +2 is Mt 22 (Boon)",
+            "plan": "Buy and refine to +4 (no Soulstone); Soulstone for +3 and +4; Da Mina +2 until then",
+            "alts": [
+              "Da Mina Sword +2"
+            ]
+          },
+          {
+            "item": "Da Mina Bow +2",
+            "why": "Fliers (Effective+); arts Hit +10; Countershot needs a bow",
+            "plan": "No Soulstone on the bench (D-158)"
+          },
+          {
+            "item": "Cleansing Blade +2",
+            "why": "Boon answer: Mt ~16, Wt 3; Breza is undead",
+            "plan": "No Soulstone on the bench (D-158)"
+          }
+        ],
+        "equipment": [
+          {
+            "item": "Gale Ring",
+            "why": "Spd +3, Wt 2: No Mercy+ needs the follow-up; Dex 75% covers Hit",
+            "slot": "Accessory",
+            "alts": [
+              "Archer's Ring",
+              "Phantom Ring"
+            ],
+            "plan": "Third copy: Seteth and Peppe wear two"
+          }
+        ],
+        "items": [
+          {
+            "item": "Concoction",
+            "why": "40 HP x2",
+            "alts": [
+              "Vulnerary"
+            ]
+          }
+        ],
+        "arts": [
+          {
+            "name": "Skysplit",
+            "why": "Sword B: AS +5, so the follow-up lands"
+          },
+          {
+            "name": "Destreza",
+            "why": "Sword C: finisher at 50% HP or less"
+          },
+          {
+            "name": "Sunder",
+            "why": "Sword D: Crit +10"
+          },
+          {
+            "name": "Surprise Shot",
+            "why": "Bow C: Atk +5 vs a full-HP foe (30%)"
+          }
+        ],
+        "abilities": [
+          {
+            "name": "No Mercy+",
+            "why": "Personal Lv 35: Hit/Crit +10 on follow-ups"
+          },
+          {
+            "name": "Countershot",
+            "why": "Ranger mastery, once mastered: bow counters at range 1 (50%)"
+          },
+          {
+            "name": "Read the Winds",
+            "why": "Flying D: Avo +10 vs bows"
+          },
+          {
+            "name": "Swords Lv. 2",
+            "why": "Sword C+: Hit +5 with swords; Lv. 3 at B+"
+          },
+          {
+            "name": "Bows Lv. 2",
+            "why": "Bow C+: Hit +5 with bows"
+          }
+        ],
+        "battalion": {
+          "name": "Novice Hunters",
+          "why": "Str +1, Dex +1, Cha +3 on the Ranger (3rd copy)",
+          "where": "Held since Part I",
+          "situational": "Part III: from storage (medium confidence)"
+        },
+        "training": [
+          {
+            "rank": "Bow B, Sword B",
+            "for": "Ranger exam (S1)",
+            "how": "Part III Arena (bench seats first) or battles as a Rogue"
+          },
+          {
+            "rank": "Bow A, Sword A",
+            "for": "Shadow Seeker (Lv 45)",
+            "how": "Ranger trains Bow +2, Sword +2 a fight"
+          }
+        ],
+        "tips": [
+          "Breza (S2): Nuzzuo's seat if he falls short; Da Mina Bow +2 is Effective+ on fliers and Rukhs",
+          "Undead: [[item:Cleansing Blade]] +2 in hand (Wt 3)",
+          "Caretaker: an ally next to him can't be doubled (5%); park him by a slow wall"
+        ],
+        "drop": [
+          {
+            "item": "Swords Lv. 1",
+            "why": "Swords Lv. 2 from Sword C+"
+          },
+          {
+            "item": "Bows Lv. 1",
+            "why": "Bows Lv. 2 from Bow C+"
+          },
+          {
+            "item": "Knightly Senses",
+            "why": "Countershot takes the slot"
+          },
+          {
+            "item": "Archer's Ring",
+            "why": "Gale Ring: AS for the follow-up No Mercy+ needs"
+          },
+          {
+            "item": "Da Mina Sword +2",
+            "why": "Iron Sword +4: Mt 21 vs 20, Dex up"
+          }
+        ],
+        "checks": [
+          {
+            "stat": "Spd",
+            "at": "Part III S1",
+            "need": "Forecast shows x2 vs S1 infantry with the Iron Sword +4 and Gale Ring on",
+            "why": "No Mercy+ only fires on follow-ups",
+            "fix": [
+              "[[art:Skysplit]] from Sword B: AS +5 on the attack",
+              "[[item:Date Juice]] (AS +3, map) on a map where he must double",
+              "Keep the Gale Ring on: it is his only Spd item"
+            ]
+          }
+        ]
+      },
+      {
+        "when": "Part III S3+ (Shadow Seeker)",
+        "from": {
+          "part": 3,
+          "ch": 3
+        },
+        "level": "Lv 45+",
+        "class": "Shadow Seeker",
+        "kind": "core",
+        "mount": "No mount (infantry)",
+        "goal": "Fallback Calamity holder (Bow S, Sword S) for Nuzzuo's B seat; Iron Sword +4 and Skysplit for No Mercy+.",
+        "exit": "Endpoint, or The Calamity if Nuzzuo can't reach 100% by Mission Time.",
+        "masteries": [
+          "Dropshadow Blade"
+        ],
+        "weapons": [
+          {
+            "item": "Iron Sword +4",
+            "why": "Main: Mt 21, Hit 90, Wt 4, Dex up; Skysplit AS +5 for the double",
+            "plan": "From the Ranger stage; Soulstone for +3 and +4; Da Mina +2 until then",
+            "alts": [
+              "Da Mina Sword +2"
+            ]
+          },
+          {
+            "item": "Da Mina Bow +2",
+            "why": "Mt ?, Wt 6: Effective+ fliers at range 2; arts Hit +10",
+            "plan": "No Soulstone on the bench (D-158)"
+          },
+          {
+            "item": "Cleansing Blade +2",
+            "why": "Boon answer: Mt ~16, Wt 3"
+          },
+          {
+            "item": "Flyssa +2",
+            "why": "Effective vs armor, Wt 4 (Crit +10 vs armor needs +3)",
+            "situational": "Armor maps (Baozi): uses the open slot"
+          }
+        ],
+        "equipment": [
+          {
+            "item": "Gale Ring",
+            "why": "Spd +3, Wt 2: follow-ups are his damage",
+            "slot": "Accessory",
+            "alts": [
+              "Archer's Ring",
+              "Phantom Ring"
+            ],
+            "plan": "Third copy: Seteth and Peppe wear two"
+          }
+        ],
+        "items": [
+          {
+            "item": "Concoction",
+            "why": "40 HP x2",
+            "alts": [
+              "Vulnerary"
+            ]
+          }
+        ],
+        "arts": [
+          {
+            "name": "Skysplit",
+            "why": "Sword B: AS +5"
+          },
+          {
+            "name": "Destreza",
+            "why": "Sword C: finisher at 50% HP or less"
+          },
+          {
+            "name": "Sunder",
+            "why": "Sword D: Crit +10"
+          },
+          {
+            "name": "Surprise Shot",
+            "why": "Bow C: Atk +5 vs a full-HP foe (30%)"
+          }
+        ],
+        "abilities": [
+          {
+            "name": "No Mercy+",
+            "why": "Personal Lv 35: Hit/Crit +10 on follow-ups"
+          },
+          {
+            "name": "Dropshadow Blade",
+            "why": "Shadow Seeker mastery, once mastered: ignores terrain bonuses"
+          },
+          {
+            "name": "Swords Lv. 4",
+            "why": "Sword A+: Hit/Avo +7 with swords; Lv. 3 until A+"
+          },
+          {
+            "name": "Read the Winds",
+            "why": "Flying D: Avo +10 vs bows"
+          },
+          {
+            "name": "Knightly Senses",
+            "why": "Riding D: Avo +10 vs spears (Mahadu)"
+          }
+        ],
+        "battalion": {
+          "name": "Novice Hunters",
+          "why": "Str +1, Dex +1, Cha +3 (3rd copy)",
+          "where": "Held since Part I",
+          "situational": "Part III: from storage (medium confidence)"
+        },
+        "training": [
+          {
+            "rank": "Bow A, Sword A",
+            "for": "Shadow Seeker exam (Lv 45)",
+            "how": "Battles if short: Arena seats bench first"
+          },
+          {
+            "rank": "Sword A+",
+            "for": "Swords Lv. 4",
+            "how": "Arena Infantry Training"
+          },
+          {
+            "rank": "Bow S, Sword S",
+            "for": "The Calamity, only if Nuzzuo misses 100%",
+            "how": "Skill-EXP Boons in battle (D-153)"
+          }
+        ],
+        "tips": [
+          "Seat: Nuzzuo's in B (Balor east) if he takes The Calamity; else Kiroc's at Mahadu (D)",
+          "Mahadu: Wrath doubles Crit; No Mercy+ (+10) and Sunder fish crits on follow-ups",
+          "Bow maps: Countershot for Knightly Senses; Hanno: Dropshadow Blade ignores his forest",
+          "Caretaker: an ally next to him can't be doubled (5%)"
+        ],
+        "drop": [
+          {
+            "item": "Countershot",
+            "why": "Knightly Senses takes the slot; back in on bow maps"
+          },
+          {
+            "item": "Swords Lv. 2",
+            "why": "Swords Lv. 4 from Sword A+"
+          },
+          {
+            "item": "Bows Lv. 2",
+            "why": "Dropshadow Blade takes the slot"
+          }
+        ],
+        "why": [
+          "No Master License planned (bench): Ranger runs the same kit until one is spare",
+          "Iron Sword +4 (Mt 21, Wt 4, gold) over Silver Sword +2 (Mt 22, Boon): within 1 Mt",
+          "Boon answer: Cleansing Blade +2 (Mt ~16, Wt 3) on undead"
+        ]
+      }
+    ],
+    "alt": "Bow B or Sword B short in Part III S1? Stay [[class:Rogue]] until battles land them, then Ranger.",
+    "sources": [
+      "class-and-weapon-guide",
+      "growth.py",
+      "class-data",
+      "character-learnsets",
+      "weapons-and-items",
+      "walkthrough-part1-theodora",
+      "part2-war",
+      "part3-salvation"
+    ],
+    "decisions": [
+      {
+        "topic": "Build his Support from Ch 4",
+        "pick": "Support 2 with Theodora by 7/31 (end of Ch 9)",
+        "why": "He joins only after Orchel's Paralogue (10/18 to 10/24) and also needs Renown 8. Ch 12 has one Sunday, so Ch 10 and 11 are the buffer.",
+        "else": "Short on 10/16: seat him at every meal and gift him weekly"
+      },
+      {
+        "topic": "Lead with the sword",
+        "pick": "Rogue, then Ranger and Shadow Seeker in Part III; sword in hand",
+        "why": "Lilian and Nuzzuo already shoot. A Wt 4 sword keeps his doubles, and every follow-up gets [[ability:No Mercy+]] Hit/Crit +10. [[class:Shadow Seeker]]'s sword rank also carries the [[item:Cleansing Blade]] in Part III."
+      }
+    ],
+    "finalists": {
+      "stats": [
+        "Str",
+        "Spd",
+        "Dex",
+        "Def"
+      ],
+      "options": [
+        {
+          "class": "Rogue",
+          "use": "Ch 12 to Part II (bench)",
+          "note": "His join class; Locktouch"
+        },
+        {
+          "class": "Ranger",
+          "use": "Part III S1 to S2",
+          "note": "Spd 60, Dex 75; Countershot"
+        },
+        {
+          "class": "Shadow Seeker",
+          "use": "Part III S3+",
+          "note": "Dex 85, Dropshadow Blade"
+        },
+        {
+          "class": "The Calamity",
+          "note": "Fallback only: Nuzzuo holds it"
+        }
+      ]
+    },
+    "gates": [
+      {
+        "route": "Theodora",
+        "from": {
+          "part": 1,
+          "ch": 4
+        },
+        "kind": "recruit",
+        "text": "Support 2 with Theodora before 10/16 (aim 7/31), Renown 8 by Ch 12",
+        "by": {
+          "part": 1,
+          "ch": 11,
+          "at": "late"
+        }
+      }
+    ],
+    "routeNotes": [
+      {
+        "system": "Supports",
+        "note": "Theodora and Lilian in this army; Nuzzuo on the bench, Seteth as a filler. Sunday seat: Theodora + Diego + Lilian, since all three support each other."
+      }
+    ]
+  },
+  "sources": [
+    "https://fortunesweave.co.uk/characters/diego",
+    "https://www.keengamer.com/articles/guides/fire-emblem-fortunes-weave-tier-list-best-characters-ranked-for-every-route/",
+    "https://www.pockettactics.com/fire-emblem-fortunes-weave/tier-list"
+  ],
+  "recruitOn": {
+    "Cai": {
+      "how": "recruit",
+      "support": 3,
+      "renown": 10
+    },
+    "Dietrich": {
+      "how": "recruit",
+      "support": 3,
+      "renown": 9
+    },
+    "Theodora": {
+      "how": "recruit",
+      "support": 2,
+      "renown": 8,
+      "task": "Clear Orchel's Paralogue",
+      "window": "10/18–10/24 (Ch 12)"
+    },
+    "Leda": {
+      "how": "recruit",
+      "support": 3,
+      "renown": 8
+    }
+  }
+}

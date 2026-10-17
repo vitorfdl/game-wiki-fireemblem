@@ -1,0 +1,47 @@
+{
+  "route": "Dietrich",
+  "ch": 3,
+  "name": "The Grand Megalith",
+  "free": null,
+  "routine": null,
+  "missables": [],
+  "classes": {},
+  "gear": {
+    "assign": [
+      {
+        "item": "Dew of Protection",
+        "to": "Dietrich",
+        "why": "Heretics' Cave chest; keep it for the Ch 12 Mars duel"
+      }
+    ]
+  },
+  "recruits": [],
+  "quests": {
+    "route": [],
+    "sub": [],
+    "paralogue": []
+  },
+  "explore": [
+    {
+      "id": "dietrich-ch03-explore-heretics-cave",
+      "loot": true,
+      "text": "Clear [[place:Heretics' Cave]] with a 5-unit party: loot the Dew of Protection and a Vulnerary",
+      "detail": [
+        "Y strikes first (preemptive strike); ZR shows the path."
+      ]
+    }
+  ],
+  "battle": {
+    "title": "vs. Saint Katarina",
+    "objective": "Defeat Anatolia (the objective changes to this partway through)",
+    "lose": "Dietrich falls",
+    "tips": [
+      {
+        "text": "Sand lowers Avo"
+      },
+      {
+        "text": "Dietrich and Esmeralda hold the line; keep Fabio behind them"
+      }
+    ]
+  }
+}

@@ -1,0 +1,789 @@
+{
+  "name": "Sofia",
+  "slug": "sofia",
+  "epithet": "Priest of Solel's Temple",
+  "faction": "Temple Army",
+  "homeRoute": "Theodora",
+  "weapons": [
+    "White Magic",
+    "Bow"
+  ],
+  "preferred": [
+    "Bow",
+    "White Magic"
+  ],
+  "avoid": [
+    "Axe"
+  ],
+  "personality": "Gentle, zealous about Solel, with a huge appetite that eats her wages.",
+  "story": "She grew up at Lyoshan Fort among bandits led by her father until he died in a dispute. By 1449 she is a priest at Solel's Temple in Dagsion. She joins automatically on Theodora's route as her first healer; other routes need high Renown and Support 3.",
+  "personalSkill": {
+    "name": "Healing Knowledge",
+    "effect": "+10 HP when healing an ally with magic. Lv20: Distant Healing (Rng+1); Lv35: Distant Healing+ (Rng+2)."
+  },
+  "growths": {
+    "HP": 35,
+    "Str": 30,
+    "Mag": 45,
+    "Spd": 30,
+    "Dex": 40,
+    "Def": 25,
+    "Res": 40,
+    "Lck": 30,
+    "Cha": 40
+  },
+  "supports": [
+    "Seteth",
+    "Tobias",
+    "Mikaela",
+    "Peter"
+  ],
+  "tiers": [
+    {
+      "source": "Pocket Tactics",
+      "tier": "S"
+    },
+    {
+      "source": "KeenGamer",
+      "tier": "B"
+    }
+  ],
+  "tierNotes": "Pocket Tactics S (elite healing support); KeenGamer B.",
+  "recruit": {
+    "how": "recruit",
+    "renown": 2,
+    "why": [
+      "Ch 5 recruitment tutorial: the requirement is low and the game suggests her"
+    ],
+    "tip": "Recruit her the week the tutorial opens: every map she misses is heal EXP lost."
+  },
+  "requirements": {
+    "Cai": "3S 9R",
+    "Dietrich": "3S 9R",
+    "Theodora": "Auto (tutorial)",
+    "Leda": "3S 7R"
+  },
+  "build": {
+    "role": "Main healer: Bishop, Healing Order",
+    "path": [
+      "Diviner",
+      "Priest",
+      "Bishop",
+      "Wiseman"
+    ],
+    "part1Target": "Bishop (Piety mastered, Physic)",
+    "part3Target": "Wiseman",
+    "notes": "Linear on purpose: Priest is her wait for Lv 35 and already doubles heals and trains White Magic +2 a fight. Her Arena seats go to Authority B (Healing Order?), not White Magic. Physic sits at her White Magic B (two sources).",
+    "confidence": "high"
+  },
+  "guide": {
+    "role": "Main healer: Bishop, Healing Order",
+    "summary": "The army's main healer. Stand two rows behind Theodora's choke and Physic from range; from Authority B keep the other healers within 3 so their heals get +10. End every turn out of bow range.",
+    "playstyle": "Heal first, attack second. Healing Knowledge, the [[item:Healing Staff]] and Bishop's Magic Heal stack to +30 on every heal, so Physic heals 38 from the back. Nosferatu only on foes that can't double her.",
+    "focus": [
+      "HP",
+      "Res",
+      "Mag"
+    ],
+    "keys": [
+      "Recruit her in the Ch 5 tutorial and deploy her every map from then.",
+      "Put the Enno Isle [[item:Healing Staff]] (Ch 7) on her and never take it off.",
+      "Train Authority to B in any free Heavy, Mage or Mounted seat: Healing Order.",
+      "Take [[class:Bishop]] at Lv 35 (Ch 10 or 11): Magic Heal +10 and Barrier.",
+      "Keep Theodora, Bonaventure and Sirocco within 3 when they heal: Healing Order +10?",
+      "End every turn out of bow range: Def grows 15 in Priest and Bishop."
+    ],
+    "watch": [
+      "Def: 15 growth in Priest and Bishop. Two archer hits can finish her.",
+      "Weight: Healing Staff 3 to Part II; Part III adds Bronze Gauntlets +4 (Wt 2) = 5.",
+      "Range: Physic 1-10 (one source?); Distant Healing+ takes Heal and Recover to range 3.",
+      "Inventory: 2/6 to Part II, 3/6 in Part III (Bronze Gauntlets +4, Healing Staff, Concoction)."
+    ],
+    "stages": [
+      {
+        "when": "Ch 5 (Diviner)",
+        "from": {
+          "part": 1,
+          "ch": 5
+        },
+        "to": {
+          "part": 1,
+          "ch": 5
+        },
+        "level": "Join (Lv ?) to 20",
+        "class": "Diviner",
+        "kind": "core",
+        "goal": "Second healer from her first map; train White Magic C for Priest. Healing Knowledge (+10 HP) is always on.",
+        "exit": "Lv 20 with White Magic C: Priest exam (Ch 6).",
+        "masteries": [
+          "Magic Basics"
+        ],
+        "items": [
+          {
+            "item": "Vulnerary",
+            "why": "20 HP x3: her own heal item"
+          }
+        ],
+        "spells": [
+          {
+            "name": "Heal",
+            "why": "White Magic D: 10 HP +10 Healing Knowledge"
+          },
+          {
+            "name": "Fire",
+            "why": "Black Magic D: chip on fliers and stragglers"
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Magic Basics",
+            "why": "Diviner mastery: Mag/Res +1, once mastered"
+          },
+          {
+            "name": "Black Magic Lv. 1",
+            "why": "Black Magic D+: Hit +3 for Fire"
+          },
+          {
+            "name": "Read the Winds",
+            "why": "Flying D: Avo +10 vs bows, the healer killers"
+          },
+          {
+            "name": "Knightly Senses",
+            "why": "Riding D: Avo +10 vs spears"
+          },
+          {
+            "name": "Evasion",
+            "why": "Infantry D?: Avo +100 when attacked (3%); equip if her skill screen shows Infantry D"
+          }
+        ],
+        "training": [
+          {
+            "rank": "White Magic C",
+            "for": "Priest exam (Ch 6)",
+            "how": "Diviner White +1 a fight; she heals every turn"
+          },
+          {
+            "rank": "Riding D, Flying D",
+            "for": "Knightly Senses, Read the Winds",
+            "how": "Arena Mounted, the seat beside Lysander, 1-2 weeks? (start ranks ?)"
+          },
+          {
+            "rank": "Black Magic D+",
+            "for": "Black Magic Lv. 1",
+            "how": "Arena Mage; battles with it count too"
+          }
+        ],
+        "tips": [
+          "Recruit her in the Ch 5 tutorial (3/8 to 3/21) and deploy her at once",
+          "Short of Lv 20 in Ch 6? Heal every turn: each cast is EXP"
+        ]
+      },
+      {
+        "when": "Ch 6 to 9 (Priest)",
+        "from": {
+          "part": 1,
+          "ch": 6
+        },
+        "to": {
+          "part": 1,
+          "ch": 9
+        },
+        "level": "Lv 20 to about 34",
+        "class": "Priest",
+        "kind": "core",
+        "goal": "Doubled heals, Res 55 growth, White Magic +2 a fight. Distant Healing (Lv 20): her heals reach 1 tile further.",
+        "exit": "Lv 35 with White Magic B: Bishop exam in Ch 10 or 11.",
+        "masteries": [
+          "Piety"
+        ],
+        "equipment": [
+          {
+            "item": "Healing Staff",
+            "why": "+10 HP on magic heals, Wt 3: never take it off",
+            "slot": "Accessory",
+            "alts": [
+              "Magic Staff",
+              "Spirit Gem"
+            ]
+          }
+        ],
+        "items": [
+          {
+            "item": "Concoction",
+            "why": "40 HP x2: archers reach her",
+            "alts": [
+              "Vulnerary"
+            ]
+          },
+          {
+            "item": "Antitoxin",
+            "why": "Cures Poison, immune 3 turns",
+            "situational": "Ch 9 Digammas (poison): open slot"
+          }
+        ],
+        "arts": [
+          {
+            "name": "Draw Back",
+            "why": "Authority D: she and an adjacent ally step 1 back"
+          }
+        ],
+        "spells": [
+          {
+            "name": "Heal",
+            "why": "Doubled in Priest: 35 HP with Staff and Magic Heal +5"
+          },
+          {
+            "name": "Nosferatu",
+            "why": "White Magic C: attack that heals half the damage"
+          },
+          {
+            "name": "Fire",
+            "why": "Black Magic D chip"
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Distant Healing",
+            "why": "Lv 20: Rng +1 on healing magic"
+          },
+          {
+            "name": "Magic Basics",
+            "why": "Mag/Res +1"
+          },
+          {
+            "name": "Piety",
+            "why": "Priest mastery: Lck +3, once mastered"
+          },
+          {
+            "name": "Read the Winds",
+            "why": "Avo +10 vs bows: archers target healers"
+          },
+          {
+            "name": "White Magic Lv. 1",
+            "why": "Hit +3 for Nosferatu (White Magic D+)"
+          }
+        ],
+        "battalion": {
+          "name": "Holy Disciples",
+          "why": "Res +2, Lck +2, Mag +1, Cha +5 on the main healer",
+          "where": "[[place:Raivo Port]], Ch 7 (Renown 5)",
+          "situational": "Priest Trainees from Ch 6 until Authority C"
+        },
+        "training": [
+          {
+            "rank": "White Magic B",
+            "for": "Bishop exam and Physic",
+            "how": "Priest White +2 a fight; no Arena seat needed"
+          },
+          {
+            "rank": "Authority C, then B",
+            "for": "Lend Magic, then Healing Order?",
+            "how": "Any Arena course with Authority (Heavy, Mage, Mounted) that has a seat"
+          }
+        ],
+        "checks": [
+          {
+            "stat": "Spd",
+            "at": "Lv 25",
+            "need": "Not doubled by Ch 8 archers and swordsmen in the forecast",
+            "why": "Def 15 growth: doubled, two hits kill her",
+            "fix": [
+              "Heal from range: Distant Healing (Lv 20) adds Rng +1",
+              "Keep only the Healing Staff equipped (Wt 3)",
+              "End behind Theodora's choke, never on an open flank"
+            ]
+          }
+        ],
+        "tips": [
+          "Healing Knowledge, the Healing Staff and Magic Heal stack: Heal restores 35",
+          "White-Magic Manuals go to Theodora: Priest already trains White Magic every fight"
+        ],
+        "drop": [
+          {
+            "item": "Knightly Senses",
+            "why": "Distant Healing takes the slot"
+          },
+          {
+            "item": "Black Magic Lv. 1",
+            "why": "Piety takes the slot; Nosferatu is her chip now"
+          }
+        ]
+      },
+      {
+        "when": "Ch 10 to 12 (Bishop)",
+        "from": {
+          "part": 1,
+          "ch": 10,
+          "approx": true
+        },
+        "to": {
+          "part": 1,
+          "ch": 12
+        },
+        "level": "Lv 35 to about 37",
+        "class": "Bishop",
+        "kind": "core",
+        "goal": "Magic Heal +10 and doubled casts: Physic heals 38 from range. Distant Healing+ (Lv 35): Heal reaches 3 tiles.",
+        "exit": "Stay Bishop through Part II; Barrier comes on the way.",
+        "masteries": [
+          "Barrier"
+        ],
+        "equipment": [
+          {
+            "item": "Healing Staff",
+            "why": "Keep it on",
+            "slot": "Accessory",
+            "plan": "Enno Isle copy",
+            "alts": [
+              "Magic Staff",
+              "Spirit Gem"
+            ]
+          }
+        ],
+        "items": [
+          {
+            "item": "Concoction",
+            "why": "40 HP x2; also her Part II stock",
+            "alts": [
+              "Vulnerary"
+            ]
+          }
+        ],
+        "arts": [
+          {
+            "name": "Draw Back",
+            "why": "Pull a wounded ally out of reach with her"
+          },
+          {
+            "name": "Lend Magic",
+            "why": "Authority C: Mag/Res +2 on Bonaventure or Sirocco before they cast"
+          }
+        ],
+        "spells": [
+          {
+            "name": "Physic",
+            "why": "White Magic B: 8 HP +30 from range"
+          },
+          {
+            "name": "Heal",
+            "why": "Top-ups: 40 HP"
+          },
+          {
+            "name": "Nosferatu",
+            "why": "Chip that heals her"
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Distant Healing+",
+            "why": "Lv 35: Rng +2 on healing magic"
+          },
+          {
+            "name": "Barrier",
+            "why": "Bishop mastery: Res +3 to adjacent allies, once mastered"
+          },
+          {
+            "name": "Piety",
+            "why": "Lck +3"
+          },
+          {
+            "name": "Magic Basics",
+            "why": "Mag/Res +1"
+          },
+          {
+            "name": "White Magic Lv. 2",
+            "why": "Hit +5 for Nosferatu (White Magic rank ?)"
+          }
+        ],
+        "battalion": {
+          "name": "Holy Disciples",
+          "why": "Res +2, Lck +2, Cha +5; no B healer squad in reach",
+          "where": "Held from Ch 7",
+          "alts": [
+            "Holy Clerics (Raivo Port, stats ?)"
+          ]
+        },
+        "training": [
+          {
+            "rank": "White Magic A",
+            "for": "Recover (30 HP); Wiseman in Part III",
+            "how": "Bishop White +3 a fight"
+          },
+          {
+            "rank": "Authority B",
+            "for": "Healing Order?: +10 HP for healers within 3",
+            "how": "Arena Heavy, Mage or Mounted"
+          }
+        ],
+        "checks": [
+          {
+            "stat": "HP",
+            "at": "Lv 35",
+            "need": "Survives two Ch 10 archer hits in the forecast",
+            "why": "Bishop grows Def 15: archers are what kill her",
+            "fix": [
+              "Stay out of bow range: Physic does the work from the back",
+              "Talisman Shield (Def +1, Res +2, Wt 3) from Ch 11",
+              "End beside Theodora, never on an open flank"
+            ]
+          }
+        ],
+        "tips": [
+          "Anna's Paralogue (Ch 11) wants a healer: her",
+          "Ch 12: her 6 items are her Part II kit"
+        ],
+        "drop": [
+          {
+            "item": "Fire",
+            "why": "Nosferatu covers her chip"
+          },
+          {
+            "item": "Read the Winds",
+            "why": "Slot goes to Barrier"
+          }
+        ]
+      },
+      {
+        "when": "Part II, Part III Section 1",
+        "from": {
+          "part": 2,
+          "ch": 1
+        },
+        "to": {
+          "part": 3,
+          "ch": 1
+        },
+        "level": "Lv 37 to 42 (Training Drills)",
+        "class": "Bishop",
+        "kind": "core",
+        "goal": "Main healer for the Part II marathons: Physic every turn, Barrier on the unit beside her.",
+        "exit": "White Magic A by Part III opens Wiseman.",
+        "masteries": [],
+        "equipment": [
+          {
+            "item": "Healing Staff",
+            "why": "Equipped carry-over",
+            "slot": "Accessory",
+            "plan": "Ch 12 kit",
+            "alts": [
+              "Magic Staff",
+              "Spirit Gem"
+            ]
+          }
+        ],
+        "items": [
+          {
+            "item": "Concoction",
+            "why": "Ch 12 stock",
+            "alts": [
+              "Vulnerary"
+            ]
+          }
+        ],
+        "arts": [
+          {
+            "name": "Draw Back",
+            "why": "Pull a wounded ally back"
+          },
+          {
+            "name": "Lend Magic",
+            "why": "Mag/Res +2 on a caster"
+          }
+        ],
+        "spells": [
+          {
+            "name": "Physic",
+            "why": "Heal from range"
+          },
+          {
+            "name": "Recover",
+            "why": "White Magic A?: 30 HP +30, range 3 with Distant Healing+"
+          },
+          {
+            "name": "Heal",
+            "why": "Top-ups"
+          },
+          {
+            "name": "Nosferatu",
+            "why": "Chip that heals her"
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Distant Healing+",
+            "why": "Rng +2 on healing magic"
+          },
+          {
+            "name": "Barrier",
+            "why": "Res +3 to adjacent allies"
+          },
+          {
+            "name": "Piety",
+            "why": "Lck +3"
+          },
+          {
+            "name": "Magic Basics",
+            "why": "Mag/Res +1"
+          },
+          {
+            "name": "White Magic Lv. 2",
+            "why": "Hit +5 for Nosferatu"
+          }
+        ],
+        "battalion": {
+          "name": "Holy Disciples",
+          "why": "Res +2, Lck +2, Cha +5 on the Physic carrier",
+          "where": "Held from Ch 7",
+          "situational": "Part II carryover ?"
+        },
+        "tips": [
+          "Ch 3 wants several Physic users: she and Theodora",
+          "Only her Ch 12 items come in: no shops in Part II",
+          "Ch 5: start outside the Onager's range; Distant Healing+ (Rng +2) heals from there"
+        ],
+        "training": []
+      },
+      {
+        "when": "Part III Section 2+ (Wiseman)",
+        "from": {
+          "part": 3,
+          "ch": 2
+        },
+        "level": "Lv 45+",
+        "class": "Wiseman",
+        "kind": "core",
+        "goal": "Magic Heal +15, Res 65 growth: Recover heals 65 at range 3. Undead: heal from behind Eshmel.",
+        "why": [
+          "Underworld Boon: she doesn't fight undead. Nosferatu only on foes inside Eshmel's Light of Salvation"
+        ],
+        "exit": "Endpoint. White Magic S adds Aura (Mt 22), her one big hit.",
+        "masteries": [
+          "Dominate Magic"
+        ],
+        "equipment": [
+          {
+            "item": "Healing Staff",
+            "why": "+10 HP on magic heals: Recover 65 with Magic Heal +15 and hers; Wt 3",
+            "slot": "Accessory",
+            "plan": "Carry-over",
+            "alts": [
+              "Magic Staff",
+              "Spirit Gem"
+            ]
+          }
+        ],
+        "items": [
+          {
+            "item": "Concoction",
+            "why": "40 HP x2",
+            "alts": [
+              "Vulnerary"
+            ]
+          }
+        ],
+        "arts": [
+          {
+            "name": "Draw Back",
+            "why": "Pull a wounded ally back"
+          },
+          {
+            "name": "Lend Magic",
+            "why": "Mag/Res +2 on a caster"
+          }
+        ],
+        "spells": [
+          {
+            "name": "Recover",
+            "why": "Range 3: her main heal"
+          },
+          {
+            "name": "Physic",
+            "why": "Long-range top-ups"
+          },
+          {
+            "name": "Heal",
+            "why": "Cheap top-ups"
+          },
+          {
+            "name": "Nosferatu",
+            "why": "Chip that heals her"
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Distant Healing+",
+            "why": "Rng +2 on healing magic"
+          },
+          {
+            "name": "Barrier",
+            "why": "Res +3 to adjacent allies"
+          },
+          {
+            "name": "Piety",
+            "why": "Lck +3"
+          },
+          {
+            "name": "Magic Basics",
+            "why": "Mag/Res +1"
+          },
+          {
+            "name": "White Magic Lv. 4",
+            "why": "White A+ (Wiseman White +4 a fight): Hit/Avo +7 on Nosferatu"
+          }
+        ],
+        "battalion": {
+          "name": "Holy Disciples",
+          "why": "Res +2, Lck +2, Cha +5; Arena seats bench first",
+          "where": "Held since Part I",
+          "alts": [
+            "Shen Yang Squad at Authority A? (Ribeira, Daimon; reach ?)"
+          ],
+          "situational": "Part III: from storage (medium confidence)"
+        },
+        "training": [
+          {
+            "rank": "White Magic S",
+            "for": "Aura (Mt 22, Hit 70)",
+            "how": "Wiseman White +4 a fight"
+          }
+        ],
+        "tips": [
+          "Breza and Shenlo: two rows behind the turtle; Recover at range 3 on Theodora and Tobias",
+          "Healing Order (Authority B?): Theodora, Ninae and Ultand within 3 get +10 on their heals",
+          "Cohen & Maria: Lust compares Cha; keep her outside the moving tiles",
+          "Balor west: heals the gate breakers (Theodora, Bonaventure, Mu, Catania) from range 3"
+        ],
+        "drop": [
+          {
+            "item": "White Magic Lv. 2",
+            "why": "White Magic Lv. 4 replaces it at White A+"
+          }
+        ],
+        "weapons": [
+          {
+            "item": "Bronze Gauntlets +4",
+            "why": "Equipped: Def +2?, gauntlet Avo, Wt 2; she never swings",
+            "plan": "New copy, +4 without Soulstone; Soulstone for +3 and +4; Da Mina +2 until then",
+            "alts": [
+              "Da Mina Gauntlets +2",
+              "Iron Gauntlets +4"
+            ]
+          }
+        ]
+      }
+    ],
+    "alt": "Troubadour only if you need her Mov: it halves her heal casts and drops Magic Heal to +5. Guardian needs Spear B she never trains.",
+    "sources": [
+      "class-and-weapon-guide",
+      "class-data",
+      "character-learnsets",
+      "equippable-abilities",
+      "weapons-and-items",
+      "combat-arts-and-abilities",
+      "hard-mode-video-notes",
+      "walkthrough-part1-theodora",
+      "part2-war",
+      "part3-salvation",
+      "redesign/11-roster-pass"
+    ],
+    "routeNotes": [
+      {
+        "system": "Supports",
+        "note": "Tobias in this army (Seteth as a filler). Meal seat: Theodora + Tobias + Sofia. She likes every recorded dish, so she never breaks a Perfect meal."
+      },
+      {
+        "system": "Battalions & Gambits",
+        "note": "Fourth carrier: [[battalion:Priest Trainees]] from Ch 6, [[battalion:Holy Disciples]] (Res +2, Lck +2) at Authority C. Physic comes first; set a Recovery gambit only when her spot behind the line fits it."
+      },
+      {
+        "system": "Authority",
+        "note": "Authority B gives Healing Order?: Healing Knowledge (+10 HP) spreads to every healer within 3. Lend Magic (C) and Lend Magic+ (A) boost the casters. How Authority arts fire in battle is not documented."
+      }
+    ],
+    "decisions": [
+      {
+        "topic": "Go straight to Bishop",
+        "pick": "Priest from Ch 6, Bishop at Lv 35 (Ch 10 or 11)",
+        "why": "Priest already doubles her heals and trains White Magic +2 a fight, so no detour beats it. Bishop adds Magic Heal +10 and Barrier. Troubadour would halve her casts."
+      },
+      {
+        "topic": "Spend her Arena seats on Authority",
+        "pick": "Authority B by Ch 11; White Magic from battle",
+        "why": "She heals every turn, so White Magic B comes from battle. Authority B gives Healing Order?: +10 HP on every nearby healer's heals, and the White-Magic Manuals go to Theodora instead."
+      }
+    ],
+    "finalists": {
+      "stats": [
+        "Mag",
+        "Spd",
+        "Def",
+        "Res"
+      ],
+      "options": [
+        {
+          "class": "Priest",
+          "use": "Ch 6 to 9",
+          "note": "Doubled white casts; Heal +5"
+        },
+        {
+          "class": "Bishop",
+          "use": "Ch 10 to Part II",
+          "note": "Doubled Physic, Heal +10, Barrier"
+        },
+        {
+          "class": "Troubadour",
+          "note": "Def 30 and Mov 6, but single casts; Distant Healing gives the range"
+        },
+        {
+          "class": "Wiseman",
+          "use": "Part III",
+          "note": "Heal +15, Res 65"
+        }
+      ]
+    },
+    "gates": [
+      {
+        "route": "Theodora",
+        "from": {
+          "part": 1,
+          "ch": 6
+        },
+        "by": {
+          "part": 1,
+          "ch": 11
+        },
+        "kind": "rank",
+        "text": "White Magic B by Lv 35 for Bishop; Authority B by Ch 11 for Healing Order"
+      }
+    ]
+  },
+  "sources": [
+    "https://fortunesweave.co.uk/characters/sofia",
+    "https://www.fortunesweavewiki.wiki/classes/Fortune-s-Weave-best-class",
+    "https://www.pockettactics.com/fire-emblem-fortunes-weave/tier-list",
+    "https://www.keengamer.com/articles/guides/fire-emblem-fortunes-weave-tier-list-best-characters-ranked-for-every-route/",
+    "https://docs.google.com/spreadsheets/d/1YW5AdvPUbLPr1RAGlnotcRaNTFCQPTKiIgshwrcdUtE"
+  ],
+  "recruitOn": {
+    "Cai": {
+      "how": "recruit",
+      "support": 3,
+      "renown": 9
+    },
+    "Dietrich": {
+      "how": "recruit",
+      "support": 3,
+      "renown": 9
+    },
+    "Theodora": {
+      "how": "recruit",
+      "renown": 2,
+      "task": "Recruitment tutorial (Ch 5)"
+    },
+    "Leda": {
+      "how": "recruit",
+      "support": 3,
+      "renown": 7
+    }
+  }
+}

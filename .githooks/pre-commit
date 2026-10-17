@@ -1,0 +1,8 @@
+#!/bin/sh
+# Refreshes research/ from the library one level up and stages it, so every commit builds in CI.
+cd "$(git rev-parse --show-toplevel)" || exit 1
+if command -v deno >/dev/null 2>&1; then deno run -A scripts/research.mjs
+elif command -v node >/dev/null 2>&1; then node scripts/research.mjs
+else echo "pre-commit: no deno or node, research/ not synced"; exit 0
+fi
+git add research

@@ -1,0 +1,666 @@
+{
+  "route": "Theodora",
+  "n": 2,
+  "decisions": [
+    {
+      "topic": "Squads",
+      "pick": "One lord per squad: A Theodora, B Cai now; C Leda, D Dietrich, E Talimun as squads open",
+      "why": "A lord's map ability works only in its squad. Theodora (battalions) and Cai (Farming) farm in different regions, and each lord's own army already has its supports and Dance targets.",
+      "alt": "Role squads with the lords as guests (D-131 #4)"
+    },
+    {
+      "topic": "Who fights first",
+      "pick": "Theodora's War army takes Breza and Shenlo; the imports level on the bench",
+      "why": "Dietrich's, Cai's and Leda's armies skipped Part II and arrive auto-leveled. Theodora's 15 played all six War maps. Bench units gain EXP every map turn.",
+      "alt": "Mixed squads from day one"
+    },
+    {
+      "topic": "Copies",
+      "pick": "Recruit the copy that played Part II (Theodora's), else the one that deployed most in Part I",
+      "why": "More levels, ranks and masteries. Merges keep the best stat of each copy, so the base copy only decides class and kit.",
+      "alt": "Free re-clear merges (replaying Part I and II)"
+    },
+    {
+      "topic": "Merge order",
+      "pick": "Balor 24 first: Sirocco, Olympia, Catania, Guzran, Ninae (1,500 Karma Shards); the other four only with spare shards",
+      "why": "A merge only pays on a unit that fights to the end, and most where the copies took different classes. Sirocco's ranks also decide The Avatar's exam. Merges come before Drifting Reliquary relics (500 to 1,000 each).",
+      "alt": "Merging every copy; relics first"
+    },
+    {
+      "topic": "Karma Shards",
+      "pick": "Merges 1–5 (1,500) → Boon buys (decision below) → skill-EXP Boons for Divine S gaps → Rich Deposits → Discounts → merges 6–9",
+      "why": "Skill Boons (300 each) count in battle only, so they push Cai's Axe, Tobias's and Nuzzuo's Sword S in fights. Weapons come from Boons or the Reliquary (player, Oct 16): only the few that beat gold picks.",
+      "alt": "Relics first; merging every copy"
+    },
+    {
+      "topic": "Gold",
+      "pick": "Arena and Inn materials → the next gate's Licenses → Arena II → other Licenses (squads D and E last) → Elixirs → Anna's boosters",
+      "why": "Licenses are 8,000G and 3 a Section at the vendor; quests pay about 163,000G against 288,000G of planned Licenses. Arena II returns 30,000G; boosters (14,000G each) come last.",
+      "alt": "Boosters early"
+    },
+    {
+      "topic": "Mounts",
+      "pick": "Cai Black Horse · Alexandra Falicorn · Lysander Red Bau · Seteth Black Bau · Hong Hua Monoceros · Gaitz Saramis War Elephant",
+      "why": "The Stable serves every army now. Bond 5 adds up to +3 to a stat and +15% growth, and Canto lets strikers hit and step back. Benched riders' mounts move to squad riders; the quest elephants go to Gaitz and maybe Ultand.",
+      "alt": "Default mounts (no bonus)"
+    },
+    {
+      "topic": "Master Licenses",
+      "pick": "Next gate's deploy first, then the Balor 24, then everyone else; Divine-bound units after units that keep the Master class",
+      "why": "Only 3 Licenses a Section at the Dagsion vendor (8,000G), more in repaired markets. A Master class kept to 6/6 pays longest; one held for a Section or two before a Divine exam pays least. Nuzzuo skips Bow Knight.",
+      "alt": "Licenses in roster order; Nuzzuo's one-Section Bow Knight stint"
+    },
+    {
+      "topic": "Building Materials",
+      "pick": "Arena 3 → Inn 2 → Arena II 20 by the end of Section 3 → Aiding in Prayer 7 → Inn II 5 (37)",
+      "why": "Arena II's stronger training feeds the Divine S ranks before the Section 4 exams and pays 30,000G back; Prayer (stronger Service) only has to land before Section 5's gates.",
+      "alt": "Prayer before Arena II; Inn first"
+    },
+    {
+      "topic": "Boon answer",
+      "pick": "Teach Hidden Evilbreak with Answerer's Cry shards: Tobias by Breza (Section 2), Troy next, Mu by Section 4",
+      "why": "Gauntlet art: on hit it strips the Underworld Boon through the foe's next combat. Tobias fights Breza and Shenlo, both undead. Dietrich rides in A until Section 4 to farm shards.",
+      "alt": "Cleansing Blades only"
+    },
+    {
+      "topic": "Boon buys",
+      "pick": "Silver Axe +2 Mikaela · Sinza's Trident Esmeralda (if no copy) · Silver Spear +2 Seteth · Gale Ring Alexandra, Troy, Seteth · Photona's Holy Staff Dante",
+      "why": "Only picks more than ~2 damage or 5 Hit over the gold option (D-157). After merges 1–5. Lilian's Silver Bow only if no copy (Da Mina Bow +2 is 1 Mt less). Bench last: Dadao, Jasmine, Aswan, Klapka.",
+      "alt": "Each build's gold alt (Iron Axe +4, Javelin +2, Iron Spear +4, Phantom Ring, Healing Staff)"
+    },
+    {
+      "topic": "Soulstone queue",
+      "pick": "1 Bonaventure Salamander +3 · 2 Tobias Zalmoxis +3 · 3 Nuzzuo Da Mina Bow +3 · 4–5 Theodora, Ninae Bronze Spear +3 · 6 Guzran, 7 Dietrich Da Mina Sword +3 · 8–9 Centurio, Buccar Shielding Axe +3",
+      "why": "One level each, Breza's deploy first: Salamander Mt 3→15, Zalmoxis on Boon kills, Crit +10 on Nuzzuo's flier shots, the Bronze Spear +3 jump. Without stones Iron/Bronze stop at +2: Da Mina +2 (Mt 20) is every other main.",
+      "alt": "Iron +4 mains everywhere (two stones each, Mt +1 over Da Mina +2)"
+    }
+  ],
+  "plan": [
+    {
+      "group": "Turn 1 · Dagsion",
+      "rows": [
+        {
+          "text": "Talk to every recruit in Dagsion; take the copy listed under Joins & merges",
+          "task": true,
+          "id": "theodora-sal-s2-recruit-all"
+        },
+        {
+          "text": "Merge Sirocco with Leda's copy first (300 Karma Shards), then the order under Joins & merges",
+          "detail": [
+            "Skip a merge whose preview adds under 5 stat points and no rank",
+            "Don't reset the Section after a merge: the reset undoes it"
+          ]
+        },
+        {
+          "text": "Buy the vendor's 3 Master Licenses (8,000G) and take exams in the Classes order",
+          "detail": [
+            "Buy every Master License each repaired market sells; the vendor restocks 3 next Section",
+            "A unit short of Lv 45 or the rank: the next one in line takes the License"
+          ]
+        },
+        {
+          "text": "Build A and B; everyone else waits on the bench and levels each map turn"
+        },
+        {
+          "text": "Stable, Assign: Fianna's Monoceros to Hong Hua as she takes the class",
+          "detail": [
+            "The two Saramis War Elephants wait for Gaitz (Section 4)",
+            "Hong Hua: Valkyrium (Section 4 License). Gaitz: Elephant Rider (Section 4, Elephant License)"
+          ]
+        },
+        {
+          "text": "Ask Dietrich's Teach Secrets for Evilbreak on Tobias as soon as shards allow",
+          "detail": [
+            "Check on turn 1 that units from other armies can learn; if not, Cleansing Blades carry the Boon answer"
+          ]
+        },
+        {
+          "text": "Refine Breza's deploy: Bronze Spear +4 (Theodora, Ninae), Zalmoxis +2, Levin Sword +2 (Sirocco)",
+          "detail": [
+            "Then Da Mina Gauntlets +2 (Tobias), Bronze Gauntlets +4 (Sofia), Salamander +2 (Bonaventure)",
+            "No Soulstone: Wooden, Iron, Bronze stop at +4, Da Mina and specials at +2. Stones follow the queue above"
+          ]
+        },
+        {
+          "text": "Once the Arena is built: Divine pushes first (Tobias, Cai, Theodora, Nuzzuo, Dietrich, Sirocco, Troy)",
+          "detail": [
+            "Only units in Dagsion train; the full seat plan is in Section 3"
+          ]
+        }
+      ]
+    },
+    {
+      "group": "Free Time · east",
+      "rows": [
+        {
+          "text": "Repair East Amalthea Posthouse, then Rescue Centurio at Elissa Pass with 6",
+          "squad": "B",
+          "detail": [
+            "Take Cai, Leda (Song of Abjuring vs the Giants' Boon), Alexandra, Lilian, Nuzzuo, Tialla"
+          ]
+        },
+        {
+          "text": "Repair Regia and Port of Pandora, buy Building Materials, Leda performs in both",
+          "squad": "B",
+          "detail": [
+            "Villages must be done before the Cities quest opens; Zoste and Baina Oasis follow with squad C in Section 3"
+          ]
+        },
+        {
+          "text": "Cai farms Hakuren at Resurgence Stone (manure raises the odds) for the Elephant Rider",
+          "squad": "B"
+        },
+        {
+          "text": "Raptor's Throat: Cai lures a Falicorn for Alexandra (vegetables; reroll for Canto)",
+          "squad": "B",
+          "detail": [
+            "Skip it if Cai's route already caught one; Bucephalus stays on her until the Falicorn hits bond 3"
+          ]
+        },
+        {
+          "text": "Sandalwood at Brigadier Pass and the Heretics' Cave key on the way to Kalla's Temple",
+          "squad": "B",
+          "detail": [
+            "Repair Kalla's Temple (material ?) and deliver: Bow Knight unlocks and the temple teleports",
+            "Kalla's Temple is the start of both Section 4 teleport links (Hanno → Baozi)"
+          ],
+          "task": true,
+          "id": "theodora-sal-s2-kalla"
+        }
+      ]
+    },
+    {
+      "group": "Free Time · west",
+      "rows": [
+        {
+          "text": "Repair West Amalthea Posthouse, then Zoste (market, Leda's dance stop later)",
+          "squad": "A"
+        },
+        {
+          "text": "Repair Jurah's Temple (1 Jyoppa); take Jurah's request and ask the priest for Fimbulvetr Night",
+          "squad": "A",
+          "detail": [
+            "Jurah's request: Dagda's Godshield sparkles at Dagsion Summit, near the summit temple gateway",
+            "No tome yet? It comes with Smyrnos's request in Section 3"
+          ]
+        },
+        {
+          "text": "Mars's Temple (1 Lazanibata), then the Golden Helm thief at Nemea Cavern",
+          "squad": "A",
+          "detail": [
+            "Swordmaster unlocks for Guzran, Loretta, Bertrand and Dietrich"
+          ]
+        },
+        {
+          "text": "Leave a battalion on every dungeon node A passes: upgrade ores each turn",
+          "squad": "A"
+        }
+      ]
+    },
+    {
+      "group": "Back in Dagsion",
+      "rows": [
+        {
+          "text": "Deliver 3 Building Materials (Arena), then 2 (Inn); bank the rest for Arena II's 20"
+        },
+        {
+          "text": "Talk to Centurio after his rescue: he joins the bench"
+        },
+        {
+          "text": "Watch the four lord scenes and Fortuna's in Dagsion (Joins & merges lists where); they are missable"
+        }
+      ]
+    },
+    {
+      "group": "Mission Time 2/11–2/15",
+      "rows": [
+        {
+          "text": "Mission Time day 1, everyone in Dagsion: Evilbreak on Tobias if not done"
+        },
+        {
+          "text": "A purifies the west nodes; B patrols Alcineus Span to Enceladus Bridge for armies",
+          "squad": "B"
+        },
+        {
+          "text": "Both squads end next to Evermist Plain; A launches Breza with the deploy below",
+          "squad": "A"
+        },
+        {
+          "text": "Spend the turns left after Breza on repairs and dungeons"
+        }
+      ]
+    }
+  ],
+  "missables": [
+    {
+      "id": "theodora-sal-s2-missables-centurio",
+      "kind": "recruit-window",
+      "text": "Rescue Centurio, then talk to him in Dagsion (still possible in Section 3).",
+      "lose": "Centurio",
+      "recover": "Section 3, before Mission Time"
+    },
+    {
+      "id": "theodora-sal-s2-missables-merge-reset",
+      "kind": "timing",
+      "text": "After a Merge Causality, don't reset the Section: the reset undoes the merge.",
+      "lose": "The 300 Karma Shards' merge",
+      "recover": "Merge again"
+    },
+    {
+      "id": "theodora-sal-s2-scene-cai",
+      "kind": "scene",
+      "text": "Cai's scene: approach him on the east side of Midtown after recruiting him for Part III.",
+      "lose": "Cai's Part III scene",
+      "recover": "Replay the Section from the Obelisk Chamber ?",
+      "where": "Midtown, east side"
+    },
+    {
+      "id": "theodora-sal-s2-scene-dietrich",
+      "kind": "scene",
+      "text": "Dietrich's scene: approach him on the path up to the Port in Lowtown.",
+      "lose": "Dietrich's Part III scene",
+      "recover": "Replay the Section from the Obelisk Chamber ?",
+      "where": "Lowtown, path to the Port"
+    },
+    {
+      "id": "theodora-sal-s2-scene-theodora",
+      "kind": "scene",
+      "text": "Theodora's scene: approach her near the guesthouse area (Perch) in Hightown.",
+      "lose": "Theodora's Part III scene",
+      "recover": "Replay the Section from the Obelisk Chamber ?",
+      "where": "Hightown, guesthouse area"
+    },
+    {
+      "id": "theodora-sal-s2-scene-leda",
+      "kind": "scene",
+      "text": "Leda's scene: approach her near the fountain at the Arena Plaza in Midtown.",
+      "lose": "Leda's Part III scene",
+      "recover": "Replay the Section from the Obelisk Chamber ?",
+      "where": "Arena Plaza fountain, Midtown"
+    },
+    {
+      "id": "theodora-sal-s2-scene-aurora",
+      "kind": "scene",
+      "text": "Aurora's scene: after Rescue Centurio, talk to Centurio in Dagsion, then Aurora south of Temple Row.",
+      "lose": "Aurora's hidden scene",
+      "recover": "Replay the Section from the Obelisk Chamber ?",
+      "where": "South of Temple Row"
+    },
+    {
+      "id": "theodora-sal-s2-scene-fortuna",
+      "kind": "scene",
+      "text": "Fortuna's scene: approach her near the Thermae once Free Time begins.",
+      "lose": "Section 2 Fortuna scene (the chain from Section 3 doesn't need it)",
+      "recover": "Replay the Section from the Obelisk Chamber ?",
+      "where": "Thermae"
+    }
+  ],
+  "copies": [
+    {
+      "unit": "Sirocco",
+      "pick": "Theodora",
+      "why": "Played Part II; Leda's copy merges in"
+    },
+    {
+      "unit": "Ninae",
+      "pick": "Theodora",
+      "why": "Played Part II as the Fortress Physic"
+    },
+    {
+      "unit": "Ultand",
+      "pick": "Theodora",
+      "why": "Played Part II; Sentinel wall in A"
+    },
+    {
+      "unit": "Noctula",
+      "pick": "Theodora",
+      "why": "Played 4 War maps; War Monk path"
+    },
+    {
+      "unit": "Nydine",
+      "pick": "Theodora",
+      "why": "Played 3 War maps; Great Knight path"
+    },
+    {
+      "unit": "Simon",
+      "pick": "Theodora",
+      "why": "Played 3 War maps; Battlemaster"
+    },
+    {
+      "unit": "Nuzzuo",
+      "pick": "Theodora",
+      "why": "Played Part II; The Calamity"
+    },
+    {
+      "unit": "Lilian",
+      "pick": "Theodora",
+      "why": "Theodora's main archer"
+    },
+    {
+      "unit": "Lysander",
+      "pick": "Theodora",
+      "why": "Theodora's flier"
+    },
+    {
+      "unit": "Guzran",
+      "pick": "Leda",
+      "why": "Leda's Dance target; Cai's copy merges in"
+    },
+    {
+      "unit": "Olympia",
+      "pick": "Leda",
+      "why": "Leda's Bishop healer; Dietrich's Ovate merges in"
+    },
+    {
+      "unit": "Catania",
+      "pick": "Leda",
+      "why": "Leda's Guardian Physic; Dietrich's Wing Soldier merges in"
+    },
+    {
+      "unit": "Esmeralda",
+      "pick": "Leda",
+      "why": "Leda's Hammer tank; Dietrich's copy merges in"
+    },
+    {
+      "unit": "Mu",
+      "pick": "Leda",
+      "why": "Leda's core dodge tank"
+    },
+    {
+      "unit": "Buccar",
+      "pick": "Leda",
+      "why": "Leda's core wall"
+    },
+    {
+      "unit": "Jasmine",
+      "pick": "Leda",
+      "why": "Bench Castle Knight"
+    },
+    {
+      "unit": "Seteth",
+      "pick": "Cai",
+      "why": "Cai's Dragoon, his only deployed copy"
+    },
+    {
+      "unit": "Mikaela",
+      "pick": "Dietrich",
+      "why": "Dietrich's core Warrior"
+    },
+    {
+      "unit": "Dante",
+      "pick": "Dietrich",
+      "why": "Dietrich's Bishop and buffer"
+    },
+    {
+      "unit": "Jester",
+      "pick": "Dietrich",
+      "why": "Dietrich's core bow"
+    },
+    {
+      "unit": "Ursula",
+      "pick": "Dietrich",
+      "why": "Dietrich's chariot archer"
+    },
+    {
+      "unit": "Fianna",
+      "pick": "Leda",
+      "why": "Leda's Bishop; squad E healer in Section 5"
+    },
+    {
+      "unit": "Ludia",
+      "pick": "Leda",
+      "why": "Leda's Swordmaster; squad C in Section 5"
+    }
+  ],
+  "merges": [
+    {
+      "unit": "Sirocco",
+      "base": "Theodora",
+      "with": [
+        "Leda"
+      ],
+      "why": "1st · Balor center: the higher White and Black ranks of both copies count toward The Avatar's two S ranks"
+    },
+    {
+      "unit": "Olympia",
+      "base": "Leda",
+      "with": [
+        "Dietrich"
+      ],
+      "why": "2nd · Balor center: Bishop copy plus Ovate copy, so Mag, Spd and Dex all take the higher value"
+    },
+    {
+      "unit": "Catania",
+      "base": "Leda",
+      "with": [
+        "Dietrich"
+      ],
+      "why": "3rd · Balor west: Guardian copy's Def plus Wing Soldier copy's Spd and Flying rank"
+    },
+    {
+      "unit": "Guzran",
+      "base": "Leda",
+      "with": [
+        "Cai"
+      ],
+      "why": "4th · Balor center: two core Shido copies; each stat keeps the better roll"
+    },
+    {
+      "unit": "Ninae",
+      "base": "Theodora",
+      "with": [
+        "Cai"
+      ],
+      "why": "5th · Balor west: Cai's core copy adds stats and Spear rank"
+    },
+    {
+      "unit": "Simon",
+      "base": "Theodora",
+      "with": [
+        "Dietrich"
+      ],
+      "why": "6th · spare shards only: Dietrich's core Warrior copy outleveled the War bench copy"
+    },
+    {
+      "unit": "Esmeralda",
+      "base": "Leda",
+      "with": [
+        "Dietrich"
+      ],
+      "why": "7th · spare shards only: both copies are Dreadnoughts, small gain"
+    },
+    {
+      "unit": "Ultand",
+      "base": "Theodora",
+      "with": [
+        "Cai"
+      ],
+      "why": "8th · spare shards only: Cai's Ovate copy adds Mag and Black Magic"
+    },
+    {
+      "unit": "Noctula",
+      "base": "Theodora",
+      "with": [
+        "Cai"
+      ],
+      "why": "9th · spare shards only: Cai's core copy adds Gauntlet rank"
+    }
+  ],
+  "joins": [],
+  "quests": [
+    {
+      "id": "arena-construction-effort",
+      "note": "First 3 Building Materials",
+      "squad": "A"
+    },
+    {
+      "id": "lost-flavors-of-the-capital",
+      "note": "Next 2",
+      "squad": "A"
+    },
+    {
+      "id": "rescue-centurio",
+      "squad": "B",
+      "note": "Cai and Leda in the 6"
+    },
+    {
+      "id": "the-elephant-riders-bond",
+      "note": "Cai's Farming at Resurgence Stone; elephants for Gaitz and Ultand",
+      "squad": "B"
+    },
+    {
+      "id": "aiding-in-prayer",
+      "squad": "A",
+      "note": "7 materials after Arena and Inn"
+    },
+    {
+      "id": "dance-for-rebuilt-villages",
+      "note": "Regia now; Port of Pandora, Zoste and Baina Oasis with squad C",
+      "squad": "B"
+    },
+    {
+      "id": "kallas-request",
+      "squad": "B",
+      "note": "Sandalwood at Brigadier Pass"
+    },
+    {
+      "id": "jurahs-request",
+      "squad": "A",
+      "note": "Godshield at Dagsion Summit"
+    },
+    {
+      "id": "marss-request",
+      "squad": "A",
+      "note": "Golden Helm thief, Nemea Cavern"
+    }
+  ],
+  "gear": {
+    "assign": [
+      {
+        "item": "Zalmoxis",
+        "to": "Tobias",
+        "why": "Bertrand can't swing axes; Domination+ hits Boon foes as if stripped"
+      },
+      {
+        "item": "Fimbulvetr Night",
+        "to": "Bonaventure",
+        "why": "Puts out Smyrnos's flames in Iapetus Cavern (Section 3)"
+      },
+      {
+        "item": "Silver Bow",
+        "to": "Lilian",
+        "why": "Breza's fliers and Rukhs"
+      }
+    ]
+  },
+  "gates": [
+    {
+      "battle": "Rescue Centurio",
+      "order": 1,
+      "launch": "B",
+      "deploy": [
+        "Cai",
+        "Leda",
+        "Alexandra",
+        "Lilian",
+        "Nuzzuo",
+        "Tialla"
+      ],
+      "tips": [
+        {
+          "text": "Leda's Song of Abjuring makes the six effective vs the Giants' Underworld Boon"
+        },
+        {
+          "text": "Pull the escorts first, then focus one Giant at a time from range: Lilian and Nuzzuo"
+        },
+        {
+          "text": "Cai's Blackfire Blaze Art strips most of a Giant's shield"
+        }
+      ]
+    },
+    {
+      "battle": "Battle vs. Breza",
+      "launch": "A",
+      "deploy": [
+        "Theodora",
+        "Ninae",
+        "Sofia",
+        "Tobias",
+        "Sirocco",
+        "Bonaventure",
+        "Lilian",
+        "Nuzzuo"
+      ],
+      "tips": [
+        {
+          "text": "Turtle the opening turns: Theodora, Ninae and Tobias outside, casters and bows inside"
+        },
+        {
+          "text": "Lilian, Nuzzuo and Bonaventure's Cutting Gale take the fliers; Rukhs come from NW and NE"
+        },
+        {
+          "text": "Never end a turn in the miasma (Def 0, half HP lost); Eshmel's Purifying Flash clears it"
+        },
+        {
+          "text": "Kalla's Blessing to cross both bridges fast; spend saved Divine Sand on Breza"
+        }
+      ],
+      "order": 2,
+      "blessings": [
+        {
+          "god": "Aurora",
+          "lv": 3,
+          "why": "Fire it on the turn you hit the undead"
+        },
+        {
+          "god": "Kalla",
+          "lv": 3,
+          "why": "Cross both bridges in one turn"
+        }
+      ]
+    }
+  ],
+  "exitExtra": [
+    {
+      "text": "Heretics' Cave key picked up (B); else it's B's first Section 3 stop"
+    },
+    {
+      "text": "Kalla's Temple repaired and its request done: Section 4's teleports start there"
+    },
+    {
+      "text": "Evilbreak on Tobias"
+    }
+  ],
+  "licenses": [
+    {
+      "unit": "Sofia",
+      "to": "Wiseman",
+      "why": "Main healer at Breza and Shenlo; Magic Heal +15, her endpoint"
+    },
+    {
+      "unit": "Lilian",
+      "to": "Bow Adept",
+      "why": "Sky Hunter: Hit +50 vs fliers, Breza is fliers and Rukhs"
+    },
+    {
+      "unit": "Bonaventure",
+      "to": "Druid",
+      "why": "Mag +30 growth on the Breza and Shenlo caster; his endpoint"
+    },
+    {
+      "unit": "Ninae",
+      "to": "Sentinel",
+      "why": "Fortress wall with doubled White Magic; her endpoint"
+    },
+    {
+      "unit": "Sirocco",
+      "to": "Druid",
+      "why": "Two Sections of Mag growth; Black +4 a fight toward The Avatar's S"
+    },
+    {
+      "unit": "Theodora",
+      "to": "Sentinel",
+      "why": "Spear training toward The Trident's Spear S; she walls either way"
+    }
+  ]
+}

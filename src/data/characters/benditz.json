@@ -1,0 +1,651 @@
+{
+  "name": "Benditz",
+  "slug": "benditz",
+  "epithet": "One-eyed veteran knight",
+  "faction": "Neutral",
+  "homeRoute": "Theodora",
+  "weapons": [
+    "Bow"
+  ],
+  "preferred": [
+    "Bow",
+    "Rider"
+  ],
+  "personality": "Old, bookish mentor type still chasing his dream of becoming a general.",
+  "story": "Benditz is a one-eyed elderly knight who once captained a hundred-man temple unit until a scandal cost him the post. He now works as a mercenary and still wants to become a general, and he enjoys mentoring the young. He appears in Dagsion around 11/4 on all routes.",
+  "personalSkill": {
+    "name": "Wheeled Warrior",
+    "effect": "If unit is a charioteer, grants Hit+20. Lv 20: Chariot Stagger (+1 use of staggering blows as a charioteer); Lv 35: Chariot Stagger+ (+2 uses)."
+  },
+  "growths": {
+    "HP": 50,
+    "Str": 35,
+    "Mag": 20,
+    "Spd": 35,
+    "Dex": 50,
+    "Def": 35,
+    "Res": 25,
+    "Lck": 30,
+    "Cha": 35
+  },
+  "supports": [
+    "Ludia"
+  ],
+  "tiers": [
+    {
+      "source": "KeenGamer",
+      "tier": "C"
+    },
+    {
+      "source": "Pocket Tactics",
+      "tier": "C"
+    }
+  ],
+  "tierNotes": "KeenGamer: C tier (late arrival 4/11; ability locked to chariot classes). Pocket Tactics: C tier.",
+  "recruit": {
+    "how": "recruit",
+    "renown": 8,
+    "extra": "Appears in Dagsion ~4/11",
+    "why": [
+      "Filler here: C (low) on the Hard-mode list, and he joins at Renown 8 with three maps left.",
+      "Cheap: recruit him in Ch 10 or later as a Part III body."
+    ],
+    "tip": "In Dagsion from about 4/11. Recruit once Renown 8 lands (Ch 10 or later): about Lv 25 in a Specialty class. Field him in Part II only if a slot opens."
+  },
+  "requirements": {
+    "Cai": "3S 9R",
+    "Dietrich": "2S 7R",
+    "Theodora": "8R",
+    "Leda": "3S 7R"
+  },
+  "build": {
+    "role": "Filler; optional Part II chariot archer and wall",
+    "path": [
+      "Join class (Ch 10 to 12, filler on the bench)",
+      "Charioteer (Part II Ch 1, if a slot opens)",
+      "Sniper (Part II Ch 5 detour: Marksmanship)",
+      "Charioteer (Part III, Lv 45 step)"
+    ],
+    "part1Target": "Filler: recruit at Renown 8 (Ch 10 or later), no deploy and no Arena seat in Part I",
+    "part3Target": "Charioteer, Lv 45 step (Ferghanan Horse)",
+    "notes": "Filler on Theodora's route (C low on the Hard-mode list). Optional Part II plan if a slot opens: Charioteer on a free Ch 1 License so the Lv 35 to 39 floors use Charioteer's Path, Sniper dip in Ch 5 for Marksmanship, back to the chariot for the Lv 45 step.",
+    "confidence": "medium"
+  },
+  "guide": {
+    "role": "Filler; optional Part II chariot archer and wall",
+    "summary": "A filler on Theodora's route: recruit him in Ch 10 or later (Renown 8) as a Part III body. If a Part II slot opens, he's a [[class:Charioteer]] wall: Wheeled Warrior's Hit +20 lands [[item:Longbow]] [[art:Deadeye]], and Charge with extra staggering blows breaks lines.",
+    "playstyle": "Charge into lines, then sit in front of the archers with the shield up: Chariot Armor can't dodge, so he lives on Def. [[art:Deadeye]] from range 3 to 5 on shields and bosses.",
+    "focus": [
+      "Def",
+      "Dex",
+      "HP"
+    ],
+    "keys": [
+      "In Dagsion from 4/11; recruit once Renown 8 lands (Ch 10+).",
+      "Bench him all of Part I: no Arena seat, and his barters come after the main army's.",
+      "Equip the [[item:Longbow]] and [[item:Da Mina Shield]] before Ch 12 ends if he may play Part II.",
+      "Take [[class:Charioteer]] on Part II Ch 1's free License and hold it for every floor.",
+      "Dip into [[class:Sniper]] in Part II Ch 5 for [[ability:Marksmanship]], then back to the chariot."
+    ],
+    "watch": [
+      "Role: filler. Part II's 15 slots go to the main nine and six bench units; he plays if one drops.",
+      "Res: 25 growth. Mages delete him; keep Sofia ([[ability:Barrier]]) beside him on mage maps.",
+      "Chariot only: Wheeled Warrior and [[ability:Chariot Stagger]] switch off in [[class:Sniper]], so the dip stays short.",
+      "Weight: [[item:Longbow]] 13 + [[item:Da Mina Shield]] 5 = 18, no doubles; fine for a wall. [[item:Da Mina Bow]] 6 + 5 = 11 for follow-ups."
+    ],
+    "stages": [
+      {
+        "when": "Ch 10–12 filler (join class ?)",
+        "from": {
+          "part": 1,
+          "ch": 10
+        },
+        "to": {
+          "part": 1,
+          "ch": 12
+        },
+        "why": [
+          "Renown 8 usually lands in Ch 10; a Ch 10+ join is about Lv 25 in a Specialty class",
+          "Filler: C (low) rating, three maps left, chariot growths rise only at Lv 35"
+        ],
+        "level": "About Lv 25 on join (Specialty)",
+        "class": "",
+        "kind": "bench",
+        "mount": "No mount (join class ?)",
+        "goal": "Filler: recruit at Renown 8, no deploy, no Arena seat. Equip the Longbow and Da Mina Shield so they can carry.",
+        "exit": "Bench to the end of Part I; Part II Ch 1 Army Training lifts him to Lv 34.",
+        "masteries": [],
+        "weapons": [
+          {
+            "item": "Longbow",
+            "why": "Deadeye: range 3-5, triple damage; Wheeled Warrior covers Hit",
+            "plan": "After Lilian's copy (repeat barter ?)"
+          },
+          {
+            "item": "Da Mina Bow",
+            "why": "Wt 6: his follow-up bow; Hit +10 on arts",
+            "alts": [
+              "Iron Bow +3"
+            ]
+          }
+        ],
+        "equipment": [
+          {
+            "item": "Da Mina Shield",
+            "why": "Def +4 for a wall that can't dodge",
+            "slot": "Defense",
+            "alts": [
+              "Iron Shield"
+            ]
+          }
+        ],
+        "items": [
+          {
+            "item": "Concoction",
+            "why": "Part II stock: buy before 10/24",
+            "alts": [
+              "Vulnerary"
+            ]
+          }
+        ],
+        "arts": [
+          {
+            "name": "Curved Shot",
+            "why": "Bow D: range 2-3, Hit +10"
+          },
+          {
+            "name": "Deadeye",
+            "why": "Longbow art (Bow C): range 3-5, no follow-up"
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Bows Lv. 1",
+            "why": "Bow D+: Hit +3 with bows"
+          },
+          {
+            "name": "Bows Lv. 2",
+            "why": "Bow C+: Hit +5 with bows"
+          }
+        ],
+        "training": [
+          {
+            "rank": "Riding D",
+            "for": "Charioteer exam (Part II Ch 1)",
+            "how": "Riding Manual (Legacy of a Legendary Sculptor, or Callianeria, Regia, Breston shops); no Arena seat"
+          }
+        ],
+        "tips": [
+          "[[class:Charioteer]] also needs Bow C: check his join ranks (?)",
+          "Only equipped gear surely enters Part II: [[item:Longbow]] in hand, shield on"
+        ]
+      },
+      {
+        "when": "Part II Ch 1 (if a slot opens)",
+        "from": {
+          "part": 2,
+          "ch": 1
+        },
+        "to": {
+          "part": 2,
+          "ch": 1
+        },
+        "level": "Lv 34 (Army Training floor)",
+        "class": "Charioteer",
+        "kind": "core",
+        "mount": "Default mount: no captured mounts on Theodora's route",
+        "goal": "Charioteer on Ch 1's free License before Army Training, so the floors grow it. Wheeled Warrior: Hit +20.",
+        "exit": "Stay Charioteer for the Lv 35, 37 and 39 floors.",
+        "masteries": [],
+        "weapons": [
+          {
+            "item": "Longbow",
+            "why": "Deadeye: range 3-5, triple damage; Wheeled Warrior covers Hit",
+            "plan": "Equipped carry-over"
+          },
+          {
+            "item": "Da Mina Bow",
+            "why": "Wt 6: his follow-up bow; Hit +10 on arts",
+            "alts": [
+              "Iron Bow +3"
+            ],
+            "plan": "Carried from Ch 12 if Part II keeps his 6 items (?)"
+          }
+        ],
+        "equipment": [
+          {
+            "item": "Da Mina Shield",
+            "why": "Def +4 for a wall that can't dodge",
+            "slot": "Defense",
+            "alts": [
+              "Iron Shield"
+            ],
+            "plan": "Equipped carry-over"
+          }
+        ],
+        "items": [
+          {
+            "item": "Concoction",
+            "why": "40 HP x2",
+            "plan": "Carried from Ch 12 (no shops in Part II)"
+          }
+        ],
+        "arts": [
+          {
+            "name": "Deadeye",
+            "why": "Longbow: range 3-5; Hit −30, Wheeled Warrior gives +20"
+          },
+          {
+            "name": "Curved Shot",
+            "why": "Bow D: range 2-3, Hit +10"
+          },
+          {
+            "name": "Vital Shot",
+            "why": "Bow C: Crit +5, range 2-3"
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Chariot Stagger",
+            "why": "Personal Lv 20, in a chariot: +1 staggering blow"
+          },
+          {
+            "name": "Bows Lv. 2",
+            "why": "Bow C+: Hit +5 with bows"
+          },
+          {
+            "name": "Bows Lv. 1",
+            "why": "Bow D+: Hit +3 with bows"
+          }
+        ],
+        "training": [
+          {
+            "rank": "Bow B",
+            "for": "Sniper dip (Ch 5)",
+            "how": "Part II battles; Charioteer trains Bow +2"
+          }
+        ],
+        "tips": [
+          "Take the exam, then Army Training: the floors grow the class he holds",
+          "Ch 1: let enemies come; he walls the center with Theodora"
+        ],
+        "checks": [
+          {
+            "stat": "Def",
+            "at": "Part II Ch 1 (Lv 34)",
+            "need": "Forecast: one hit from the Ch 1 Warrior takes under a third of his HP",
+            "why": "Chariot Armor can't dodge: Def is his whole defense",
+            "fix": [
+              "[[item:Da Mina Shield]] (Def +4) on, never the Iron Shield",
+              "End turns beside Theodora or Sofia, not alone at the front",
+              "Hold [[class:Charioteer]] for every floor: Def +20 row from Lv 35"
+            ]
+          }
+        ]
+      },
+      {
+        "when": "Part II Ch 2–4",
+        "from": {
+          "part": 2,
+          "ch": 2
+        },
+        "to": {
+          "part": 2,
+          "ch": 4
+        },
+        "level": "Lv 35 to 39 (floors; Charioteer's Path step)",
+        "class": "Charioteer",
+        "kind": "core",
+        "mount": "Default mount: no captured mounts on Theodora's route",
+        "goal": "Charioteer's Path from Lv 35: HP/Dex/Def +20 rows. Chariot Stagger+ adds 2 staggering blows: Charge often.",
+        "exit": "Sniper in Ch 5 once Bow is B; Charger should be in by then.",
+        "masteries": [
+          "Charger"
+        ],
+        "weapons": [
+          {
+            "item": "Longbow",
+            "why": "Deadeye: range 3-5, triple damage; Wheeled Warrior covers Hit",
+            "plan": "Equipped carry-over"
+          },
+          {
+            "item": "Da Mina Bow",
+            "why": "Wt 6: his follow-up bow; Hit +10 on arts",
+            "alts": [
+              "Iron Bow +3"
+            ],
+            "plan": "Carried from Ch 12 if Part II keeps his 6 items (?)"
+          }
+        ],
+        "equipment": [
+          {
+            "item": "Da Mina Shield",
+            "why": "Def +4 for a wall that can't dodge",
+            "slot": "Defense",
+            "alts": [
+              "Iron Shield"
+            ],
+            "plan": "Equipped carry-over"
+          }
+        ],
+        "items": [
+          {
+            "item": "Concoction",
+            "why": "40 HP x2",
+            "plan": "Carried from Ch 12 (no shops in Part II)"
+          }
+        ],
+        "arts": [
+          {
+            "name": "Deadeye",
+            "why": "Longbow: range 3-5 on shields and bosses"
+          },
+          {
+            "name": "Encloser",
+            "why": "Bow B: range 2-3, Mov −3 on hit"
+          },
+          {
+            "name": "Vital Shot",
+            "why": "Bow C: Crit +5, range 2-3"
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Chariot Stagger+",
+            "why": "Personal Lv 35, in a chariot: +2 staggering blows"
+          },
+          {
+            "name": "Charger",
+            "why": "Charioteer mastery, once mastered: Prt +10 after Charge"
+          },
+          {
+            "name": "Bows Lv. 2",
+            "why": "Bow C+: Hit +5 with bows"
+          }
+        ],
+        "training": [
+          {
+            "rank": "Bow B",
+            "for": "Sniper dip (Ch 5)",
+            "how": "Charioteer trains Bow +2 a fight"
+          }
+        ],
+        "tips": [
+          "Ch 4: one of the 3 to 4 bows for the bridge reinforcements"
+        ]
+      },
+      {
+        "when": "Part II Ch 5–6 (detour)",
+        "from": {
+          "part": 2,
+          "ch": 5
+        },
+        "to": {
+          "part": 2,
+          "ch": 6
+        },
+        "level": "Lv 40 to 42 (Drills)",
+        "class": "Sniper",
+        "kind": "detour",
+        "mount": "No mount (Sniper is infantry)",
+        "goal": "Bank Marksmanship (bow Hit +15). Back in the chariot it stacks with Wheeled Warrior's +20.",
+        "exit": "Leave once Marksmanship masters; back to Charioteer for Part III.",
+        "masteries": [
+          "Marksmanship"
+        ],
+        "weapons": [
+          {
+            "item": "Longbow",
+            "why": "Deadeye: range 3-5, triple damage; Wheeled Warrior covers Hit",
+            "plan": "Equipped carry-over"
+          },
+          {
+            "item": "Da Mina Bow",
+            "why": "Wt 6: his follow-up bow; Hit +10 on arts",
+            "alts": [
+              "Iron Bow +3"
+            ],
+            "plan": "Carried from Ch 12 if Part II keeps his 6 items (?)"
+          }
+        ],
+        "equipment": [
+          {
+            "item": "Da Mina Shield",
+            "why": "Def +4 for a wall that can't dodge",
+            "slot": "Defense",
+            "alts": [
+              "Iron Shield"
+            ],
+            "plan": "Equipped carry-over"
+          }
+        ],
+        "items": [
+          {
+            "item": "Concoction",
+            "why": "40 HP x2",
+            "plan": "Carried from Ch 12 (no shops in Part II)"
+          }
+        ],
+        "arts": [
+          {
+            "name": "Deadeye",
+            "why": "Longbow: range 3-5"
+          },
+          {
+            "name": "Encloser",
+            "why": "Bow B: range 2-3, Mov −3 on hit"
+          },
+          {
+            "name": "Vital Shot",
+            "why": "Bow C: Crit +5, range 2-3"
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Marksmanship",
+            "why": "Sniper mastery, once mastered: bow Hit +15"
+          },
+          {
+            "name": "Bows Lv. 2",
+            "why": "Bow C+: Hit +5 with bows"
+          },
+          {
+            "name": "Steady Shot",
+            "why": "Infantry rank (?): bow Hit +5 on foot"
+          }
+        ],
+        "drop": [
+          {
+            "item": "Chariot Stagger+",
+            "why": "Works only in a chariot"
+          },
+          {
+            "item": "Charger",
+            "why": "Needs Charge; Sniper is on foot"
+          }
+        ],
+        "tips": [
+          "Uses one of Ch 5's five free Advanced Licenses",
+          "Lilian takes the Ch 5 [[art:Deadeye]] shield trick on Dagda"
+        ]
+      },
+      {
+        "when": "Part III (Charioteer, Lv 45)",
+        "from": {
+          "part": 3
+        },
+        "level": "Lv 45+",
+        "class": "Charioteer",
+        "kind": "core",
+        "mount": "Ferghanan Horse (Part III capture ?): Def +50 row",
+        "goal": "Lv 45 Charioteer step on a Ferghanan: Def +50 row. Undead: fight them on Aurora's turn or near Eshmel.",
+        "exit": "Endpoint.",
+        "masteries": [],
+        "weapons": [
+          {
+            "item": "Silver Bow",
+            "why": "Mt 18, Wt 5: best normal shots",
+            "alts": [
+              "Da Mina Bow"
+            ]
+          },
+          {
+            "item": "Longbow",
+            "why": "Deadeye: range 3-5, triple damage; Wheeled Warrior covers Hit",
+            "plan": "Equipped carry-over"
+          }
+        ],
+        "equipment": [
+          {
+            "item": "Silver Shield",
+            "why": "Def +5 at Wt 4",
+            "slot": "Defense",
+            "alts": [
+              "Da Mina Shield"
+            ]
+          },
+          {
+            "item": "Victory Gem",
+            "why": "Heals a little after a kill, Wt 3: sustain for a wall",
+            "slot": "Accessory",
+            "alts": [
+              "Sacred Gem",
+              "Archer's Ring"
+            ]
+          }
+        ],
+        "items": [
+          {
+            "item": "Elixir",
+            "why": "100 HP for a wall that can't dodge",
+            "alts": [
+              "Concoction"
+            ]
+          }
+        ],
+        "arts": [
+          {
+            "name": "Deadeye",
+            "why": "Longbow: range 3-5, Hit covered by +20 and +15"
+          },
+          {
+            "name": "Encloser",
+            "why": "Bow B: Mov −3 on hit"
+          },
+          {
+            "name": "Vital Shot",
+            "why": "Bow C: Crit +5"
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Chariot Stagger+",
+            "why": "Personal Lv 35: +2 staggering blows"
+          },
+          {
+            "name": "Marksmanship",
+            "why": "Sniper mastery: bow Hit +15"
+          },
+          {
+            "name": "Charger",
+            "why": "Charioteer mastery: Prt +10 after Charge"
+          },
+          {
+            "name": "Bows Lv. 2",
+            "why": "Bow C+: Hit +5 with bows"
+          }
+        ],
+        "drop": [
+          {
+            "item": "Da Mina Bow",
+            "why": "The Silver Bow is the follow-up bow now"
+          }
+        ],
+        "tips": [
+          "No sword: undead only on Aurora's blessing turn or within 2 of Eshmel",
+          "Hanno and Drake gates say avoid cavalry: leave him for open maps"
+        ]
+      }
+    ],
+    "alt": "Stay [[class:Charioteer]] the whole game if Part II runs short: [[ability:Marksmanship]] is a bonus; the Lv 45 Charioteer step is the payoff.",
+    "sources": [
+      "class-and-weapon-guide",
+      "growth.py",
+      "mounts.json",
+      "class-data",
+      "character-learnsets",
+      "weapons-and-items",
+      "hard-mode-video-notes",
+      "part1-subquests",
+      "walkthrough-part1-theodora",
+      "part2-war"
+    ],
+    "decisions": [
+      {
+        "topic": "Recruit him as a filler",
+        "pick": "Ch 10 or later; bench all of Part I",
+        "why": "C (low) on the Hard-mode list, a Renown 8 join with three maps left, and chariot growths only rise at Lv 35. No support needed: a free Part III body.",
+        "else": "Not at Renown 8 by 10/15: recruit him on 10/16 after Ch 11's Paralogues"
+      },
+      {
+        "topic": "Charioteer, with a Sniper dip",
+        "pick": "Charioteer from Part II Ch 1, Sniper in Ch 5–6",
+        "why": "[[class:Charioteer]]'s Path rows jump at Lv 35, and the floors are free levels. [[ability:Marksmanship]] (bow Hit +15) stacks with Wheeled Warrior's +20, so [[art:Deadeye]]'s Hit −30 is covered."
+      }
+    ],
+    "gates": [
+      {
+        "route": "Theodora",
+        "from": {
+          "part": 1,
+          "ch": 6
+        },
+        "kind": "recruit",
+        "text": "Renown 8 before 10/24 or he can't join; in Dagsion from about 4/11",
+        "by": {
+          "part": 1,
+          "ch": 12,
+          "at": "late"
+        }
+      }
+    ],
+    "routeNotes": [
+      {
+        "system": "Supports",
+        "note": "No partners in this army (his one partner, Ludia, is on Leda's route). He needs no gift or meal seat."
+      },
+      {
+        "system": "Battalions & Gambits",
+        "note": "Charioteers are mounted, so he can't hold a battalion."
+      }
+    ]
+  },
+  "sources": [
+    "https://fortunesweave.co.uk/characters/benditz",
+    "https://www.keengamer.com/articles/guides/fire-emblem-fortunes-weave-tier-list-best-characters-ranked-for-every-route/",
+    "https://www.keengamer.com/articles/guides/fire-emblem-fortunes-weave-best-class-for-every-character/",
+    "https://www.pockettactics.com/fire-emblem-fortunes-weave/tier-list"
+  ],
+  "recruitOn": {
+    "Cai": {
+      "how": "recruit",
+      "support": 3,
+      "renown": 9
+    },
+    "Dietrich": {
+      "how": "recruit",
+      "support": 2,
+      "renown": 7
+    },
+    "Theodora": {
+      "how": "recruit",
+      "renown": 8,
+      "task": "Appears in Dagsion ~4/11"
+    },
+    "Leda": {
+      "how": "recruit",
+      "support": 3,
+      "renown": 7
+    }
+  }
+}

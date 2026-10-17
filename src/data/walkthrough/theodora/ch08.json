@@ -1,0 +1,340 @@
+{
+  "route": "Theodora",
+  "ch": 8,
+  "name": "Rendezvous with Troy",
+  "free": {
+    "from": "6/1",
+    "to": "6/30"
+  },
+  "unlocks": [
+    "Theater (Renown 7, usually late Ch 8)"
+  ],
+  "routine": {
+    "meals": [
+      {
+        "week": "6/1 (week 1)",
+        "tables": [
+          [
+            "Theodora",
+            "Ultand",
+            "Loretta"
+          ],
+          [
+            "Theodora",
+            "Ninae",
+            "Simon"
+          ],
+          [
+            "Theodora",
+            "Diego",
+            "Lilian"
+          ]
+        ],
+        "note": "Eat first, then recruit Ultand and Ninae once this meal tips them to Support 3. Diego starts toward Support 2."
+      },
+      {
+        "week": "Every Sunday after",
+        "tables": [
+          [
+            "Theodora",
+            "Simon",
+            "Lilian"
+          ],
+          [
+            "Theodora",
+            "Diego",
+            "Ninae"
+          ],
+          [
+            "Theodora",
+            "Seteth",
+            "Loretta"
+          ]
+        ],
+        "note": "Simon sits every Sunday until Support 3: he joins 7/1. Diego toward Support 2; Seteth (filler) supports Loretta."
+      }
+    ],
+    "gifts": [
+      {
+        "unit": "Ultand",
+        "gift": "Tales of Adventure",
+        "alt": "Garum",
+        "until": "Support 3, recruit Ch 8"
+      },
+      {
+        "unit": "Ninae",
+        "gift": "Poems of the Greats",
+        "alt": "Tales of Adventure",
+        "until": "Support 3, recruit Ch 8"
+      },
+      {
+        "unit": "Simon",
+        "gift": "",
+        "alt": "Training Bracelet",
+        "until": "Support 3, recruit Ch 9",
+        "note": "Nothing they like is buyable yet: meals carry them"
+      },
+      {
+        "unit": "Seteth",
+        "gift": "Poems of the Greats",
+        "alt": "Tales of Adventure",
+        "until": "Support 3, recruit Ch 10 (filler)"
+      },
+      {
+        "unit": "Jester",
+        "gift": "Home-Recipe Book",
+        "alt": "Rare Spices",
+        "until": "Support 3, recruit Ch 10 (filler)"
+      },
+      {
+        "unit": "Io",
+        "gift": "Common Coffee",
+        "alt": "Kitten Figurine",
+        "until": "Support 3, recruit Ch 11 (filler)"
+      },
+      {
+        "unit": "Diego",
+        "gift": "Tales of Adventure",
+        "alt": "The Works of Dante",
+        "until": "Support 2, recruit Ch 12"
+      }
+    ],
+    "weekly": [
+      {
+        "text": "Tobias, the sitting wall and the bench run dungeon parties every week: their only EXP"
+      }
+    ]
+  },
+  "missables": [
+    {
+      "id": "theodora-ch08-missables-sealed-letter",
+      "kind": "choice",
+      "text": "Pick one Sealed Letter quest: a route allows only one of the two",
+      "when": "by 9/19",
+      "where": "Unmanned Storehouse",
+      "lose": "the other quest and its follow-ups",
+      "recover": "None",
+      "options": [
+        {
+          "pick": "For the Empire's Safety",
+          "gives": "Specialty License and 200 Renown"
+        },
+        {
+          "pick": "A Letter of Some Gravity",
+          "gives": "A longer chain ending in the Haze Badge"
+        }
+      ],
+      "task": true
+    }
+  ],
+  "classes": {
+    "note": {
+      "text": "Side trips fill the wait for Renown 8 and Lv 35: switch each unit once its Specialty mastery shows",
+      "detail": [
+        "Tobias Brigand (on the bench), Lilian Rogue, Lysander Archer. Advanced exams start in Ch 10.",
+        "Alexandra, Ultand and Ninae join about Lv 15: exams at Lv 20 (Ch 9)."
+      ]
+    },
+    "override": [
+      {
+        "unit": "Lysander",
+        "text": "Only if Bow C is in and Flying C, Axe B, Spear B are on track; else stay Armored Ornius Rider"
+      }
+    ]
+  },
+  "gear": {
+    "barter": [
+      {
+        "item": "Levin Sword",
+        "for": "Alexandra (+1 in Ch 9, +2 in Ch 12)",
+        "at": "Dagsion",
+        "note": "week 1"
+      }
+    ],
+    "assign": [
+      {
+        "item": "Conflagrant Gem",
+        "to": "Tobias",
+        "why": "Hit +20 on arts; his Archer's Ring goes to Nydine (Ch 9)"
+      },
+      {
+        "item": "Flying Manual",
+        "to": "Alexandra",
+        "why": "Legacy of a Legendary Sculptor copy: Flying D for Ch 9"
+      },
+      {
+        "item": "Tempest Bow",
+        "to": "Lysander",
+        "why": "Rare Stone Hunting reward: his Archer side trip bow"
+      },
+      {
+        "item": "Hexlock Shield",
+        "to": "Ninae",
+        "why": "Dione Fort chest copy: Res +5 on the wall"
+      }
+    ],
+    "buy": [
+      {
+        "text": "Dagsion: [[item:Da Mina Axe]] and [[item:Da Mina Sword]] for Tobias (Brigand from Ch 8)",
+        "detail": [
+          "Alexandra trains Sword and Spear C on an [[item:Iron Sword]] and [[item:Iron Spear]]: Da Mina at Ch 9.",
+          "Ultand's and Ninae's spears: their build pages."
+        ]
+      }
+    ],
+    "note": [
+      {
+        "text": "Blacksmith: repairs only until Renown 7 (late Ch 8). Bank Smithing Stones and rare ores",
+        "detail": [
+          "Ch 9 is the +1 week, Ch 12 the +2 week: the Ledger's refine plan."
+        ]
+      }
+    ]
+  },
+  "recruits": [
+    {
+      "unit": "Alexandra",
+      "when": "Week 1 (6/1)",
+      "action": "Recruit her: she takes Zarcone's seat",
+      "detail": [
+        "Renown 6 (lands in Ch 7). She arrives about Lv 15: feed her kills to Lv 20 for Ch 9.",
+        "Zarcone goes to storage; the Hammer waits for Tobias in Ch 10."
+      ]
+    },
+    {
+      "unit": "Ultand",
+      "when": "Week 1 (6/1)",
+      "action": "Finish her short quest at Support 3 and Renown 6: the Fortress second wall",
+      "detail": [
+        "About Lv 15: Priest at Lv 20 (Ch 9), Guardian at Lv 35. Holds slot 9 from Ch 8.",
+        "Patch Up and Pray for Safety work only adjacent: end her turns next to Theodora.",
+        "Supports Tobias and Loretta; Cha 50 carries a battalion."
+      ],
+      "conf": "?"
+    },
+    {
+      "unit": "Ninae",
+      "when": "Week 1 (6/1)",
+      "action": "Bring 1 Paradise Fish at Support 3 and Renown 6: the wall on mage maps",
+      "detail": [
+        "About Lv 15: Priest at Lv 20 (Ch 9), Physic at White Magic B, Guardian at Lv 35.",
+        "She shares slot 9 with Ultand: Spirits' Guidance (Hit/Avo +10 vs magic) on mage maps.",
+        "EXP on her off maps: dungeon parties. Supports Simon, Lysander and Sirocco."
+      ]
+    },
+    {
+      "unit": "Noctula",
+      "when": "Week 1 (6/1)",
+      "action": "Recruit her at Renown 3: Part II dodge bait, and she carries Ursa's Right Claw",
+      "detail": [
+        "Store the Claw for Anatolia (Part III); it is cursed (Curse 1): hold it to the end of Part I.",
+        "Bench: dungeon parties and Arena seats (White D, Gauntlet B for War Monk)."
+      ],
+      "callout": {
+        "type": "timing-trap",
+        "text": "Player report: by Ch 8 she joins a Pugilist with the Claw. Check her class first ?"
+      }
+    }
+  ],
+  "prep": [
+    {
+      "text": "Loretta or Nydine not in yet? Their recruit rows are in Ch 7: recruit them this week"
+    },
+    {
+      "text": "Keep Simon at every Sunday meal: Support 3 and Renown 7 (late Ch 8) let him join on 7/1"
+    },
+    {
+      "text": "Nuzzuo (this map's boss) shows in Dagsion about 7/1: buy 3 Iron Bows now for his Ch 9 recruit"
+    }
+  ],
+  "quests": {
+    "route": [
+      {
+        "quest": "send-supplies-steelfish",
+        "note": "Hand in both of this chapter's pair now if you can, even though they're due 10/24"
+      },
+      {
+        "quest": "send-supplies-ladon-loach",
+        "note": "Nobody takes Cataphract and no route follows: do the pair for gold and Renown"
+      }
+    ],
+    "sub": [
+      {
+        "quest": "for-the-empires-safety"
+      },
+      {
+        "quest": "a-letter-of-some-gravity"
+      },
+      {
+        "quest": "garum-garum-garum"
+      },
+      {
+        "quest": "blight-louse-extermination-request"
+      },
+      {
+        "quest": "huge-hairy-beasts"
+      },
+      {
+        "quest": "purloined-spellcasters-tools",
+        "note": "Its White-Magic Manual goes to Theodora (White Magic B by Ch 10)"
+      },
+      {
+        "quest": "magic-of-the-theater",
+        "offered": "if-offered",
+        "note": "Take it the day the Theater opens (Renown 7, usually late Ch 8)"
+      }
+    ],
+    "paralogue": []
+  },
+  "explore": [
+    {
+      "text": "Check north of Temple Row for Anna's Shop: her stock rotates"
+    },
+    {
+      "group": "Battalions",
+      "text": "Assign squads to the joins: Hunter-Drifters to Loretta, then the walls and Noctula",
+      "detail": [
+        "[[battalion:Hunter-Drifters]] (Zarcone's) to Loretta, [[battalion:Bronze-Shield Guard]] to Ultand.",
+        "[[battalion:Rookie Vanguard]] to Ninae; Noctula takes the spare [[battalion:Rookie Soldiers]].",
+        "Alexandra carries none once she flies (Ch 9). Renown 7 (late Ch 8): more deploy slots ?"
+      ]
+    },
+    {
+      "group": "Spare Turns",
+      "id": "theodora-ch08-explore-dione-fort",
+      "loot": true,
+      "text": "Run [[place:Dione Fort]] (Lv 18, Castalia) with the bench: [[item:Hexlock Shield]] for Ninae",
+      "detail": [
+        "Also a Flying Manual (spare) and a Concoction."
+      ]
+    },
+    {
+      "group": "Spare Turns",
+      "text": "Run Enno Isle (Lv 24, Danann Sea) with Tobias as the carry and the Lv 15 joins",
+      "detail": [
+        "Nydine, Noctula and whichever wall sits: feed them the kills; link attacks raise Support too.",
+        "Chests (Ch 7): Bullion, Healing Staff, Short Axe. Enemies return each chapter."
+      ]
+    },
+    {
+      "group": "Spare Turns",
+      "text": "Spend any Turns still left on Inn Auto-Activities"
+    }
+  ],
+  "battle": {
+    "title": "vs. the Har Hali",
+    "objective": "Boss: Nuzzuo",
+    "lose": "20 turns pass (he retreats) or Theodora falls",
+    "tips": [
+      {
+        "text": "Go east, then north: slower but safer, so watch the turn count"
+      },
+      {
+        "text": "Nuzzuo retreats after 20 turns; he's recruitable in Dagsion from about 7/1 (Ch 9 week 1)"
+      },
+      {
+        "text": "No Hammer here: Theodora's Halberd, both casters and Alexandra's Levin Sword (Sword C) break armor"
+      }
+    ]
+  }
+}

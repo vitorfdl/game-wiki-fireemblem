@@ -1,0 +1,138 @@
+{
+  "route": "Dietrich",
+  "ch": 12,
+  "name": "Mars, Bringer of War",
+  "free": {
+    "from": "11/4",
+    "to": "11/27"
+  },
+  "unlocks": [
+    "Last free time and shops of Part I"
+  ],
+  "routine": {
+    "same": 10
+  },
+  "missables": [
+    {
+      "id": "dietrich-ch12-missables-oko",
+      "quest": "dread-warrior-oko",
+      "kind": "item",
+      "text": "Beat Oko by 11/27 if Ch 11 missed it: the Ranger unlock is Jester's Part II class",
+      "when": "by 11/27 (Renown 10)",
+      "where": "[[place:Iapetus Cavern]]",
+      "lose": "the Ranger unlock for Jester and for later paths",
+      "recover": "None",
+      "task": true
+    },
+    {
+      "id": "dietrich-ch12-missables-fabio-scene",
+      "kind": "scene",
+      "text": "Watch Fabio's scene in the alley east of the markets before Mars: Answerer becomes Answerer Arisen",
+      "when": "11/4 to 11/27, before the Mars battle",
+      "where": "Alley east of the markets",
+      "lose": "Answerer Arisen (Mt 9 to 15, Bloodletting+, repairs itself)",
+      "recover": "None",
+      "conf": "?",
+      "detail": [
+        "Needs his Ch 5 and Ch 10 scenes."
+      ],
+      "task": true
+    }
+  ],
+  "classes": {
+    "note": {
+      "text": "Jester stays Rogue: Ranger is a Part II Ch 1 exam, so just beat Oko by 11/27"
+    }
+  },
+  "gear": {},
+  "recruits": [
+    {
+      "unit": "Gaitz",
+      "action": "Find him in Dagsion with Map > People once Bertrand's team is out of the tournament",
+      "when": "Ch 12, by 11/27",
+      "detail": [
+        "Needs Bertrand's Paralogue cleared (9/17) and the Ch 11 battle won."
+      ],
+      "callout": {
+        "type": "timing-trap",
+        "text": "No Renown 10 by 11/27 means no Gaitz on this path",
+        "bullets": [
+          "Short? Clear Oko, any leftover Dread Warrior (150 each) and the 11/27 subquests first."
+        ]
+      }
+    }
+  ],
+  "quests": {
+    "route": [],
+    "sub": [
+      {
+        "quest": "gold-coin-chase",
+        "note": "Djilu Coin from [[place:Giant's-Print Fort]], for the Coin Collector at Arena Plaza"
+      },
+      {
+        "quest": "stolen-star-observations",
+        "note": "Bau-Caller's Cape, for the Priest south of Arena Plaza"
+      },
+      {
+        "quest": "the-divine-sovereigns-secret",
+        "note": "Talk to 3 marked people, for the Priest in City Streets"
+      }
+    ],
+    "paralogue": []
+  },
+  "explore": [
+    {
+      "group": "Dungeons",
+      "id": "dietrich-ch12-explore-giants-print-fort",
+      "loot": true,
+      "text": "[[place:Giant's-Print Fort]] (Lv 35): a spare Advanced License, [[item:Onoa]] (spear), Elixir",
+      "detail": [
+        "The License covers a failed exam, or Goliath's if you bought only 7."
+      ]
+    }
+  ],
+  "battle": {
+    "title": "Exhibition vs. Mars",
+    "objective": "Defeat Mars",
+    "lose": "Dietrich falls",
+    "tips": [
+      {
+        "text": "Part 1: split left and right, take the two artillery stations, then converge on Mars",
+        "detail": [
+          "Right: bows and an armored tank. Left: mages, Catania, Dietrich and Esmeralda.",
+          "Green tiles heal. Three chokepoints hold Mars in; he has no ranged attack."
+        ]
+      },
+      {
+        "text": "Never hit The Brandisher (Mars's beast form) with artillery: it summons reinforcements"
+      },
+      {
+        "text": "Sunday before: Giants' Bath (Crit, Str) or Sea-Tyrant's Bath (HP, Def) on Dietrich",
+        "detail": [
+          "Equip Aurora's Blessing for the duel: it halves damage for a turn."
+        ]
+      },
+      {
+        "text": "Pack the Part II stock before the fight: these kits carry into Part II",
+        "detail": [
+          "Pack: Dietrich both Dews; Esmeralda a Concoction in the Pilum's slot; Mikaela an Elixir, Hammer to storage.",
+          "These kits are the Part II stock: hand Dietrich's [[item:Silver Sword]] to Jester, Killing Edge to storage."
+        ]
+      }
+    ],
+    "callout": {
+      "type": "special-map",
+      "text": "Part 2: Dietrich fights Mars alone while everyone else is pushed back",
+      "bullets": [
+        "Bring Answerer Arisen (or your best sword), his best boosted Combat Arts, and use the heal tiles.",
+        "4-weight sword + [[item:Gale Ring]] (2) = 6, in budget; Killing Edge = 8. Bag Hunter's Ring, Levin Sword, Zanbato.",
+        "Kit 6/6: Answerer Arisen, Gale Ring, [[item:Elixir]], [[item:Concoction]], Dew of Protection, Dew of Peace."
+      ]
+    }
+  },
+  "exitExtra": [
+    {
+      "text": "Work through Before Part II before you fight Mars: Part II has no shops, free time or recruiting"
+    }
+  ]
+}

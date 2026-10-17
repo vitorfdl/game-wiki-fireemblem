@@ -1,0 +1,1659 @@
+{
+  "lord": "Dietrich",
+  "hook": "A shipwrecked swordsman hunting the sea monster that sank him, and any rival worth the fight.",
+  "plays": "Crit-hungry sword duelist (Gladiator from Ch 5)",
+  "pick": "You want the most content and the most optional battles on one route.",
+  "watch": "Bertrand's Paralogue is 9/17 only. Several Paralogue windows stack in Ch 9–11.",
+  "systems": [
+    "Dread Warrior duels",
+    "Answerer's Cry skirmishes",
+    "Combat Art upgrades (Smyrnos's Temple)",
+    "Teach Secrets"
+  ],
+  "paralogues": 8,
+  "why": "Most Paralogues (8), so the most Karma Shards early. Explores the desert for later paths.",
+  "unlocks": {
+    "gives": [
+      "Guardian",
+      "Ranger",
+      "Blacksmith"
+    ],
+    "wants": [
+      "Dragoon"
+    ]
+  },
+  "team": {
+    "summary": "Fifteen units. Two Bishops (Yang Jie, Dante) heal, two Ovates (Fabio, Olympia) deal magic damage, two Dreadnoughts (Esmeralda with thrown spears, Goliath on chokepoints) hold lines, and two Warriors (Mikaela, Simon) hit with Practiced Art. Kiroc, Jester and Ursula cover bows. Io, Ursula and Gaitz are mounted. Catania is the only flier, as a Wing Soldier. Ranger has an owner; Guardian and Blacksmith don't. Eight units reach Advanced before Part II: Yang Jie (Bishop), Fabio (Ovate), Dietrich (Shido), Esmeralda (Dreadnought), Mikaela (Warrior), Kiroc (Sniper), Olympia (Ovate) and Goliath (Dreadnought, Ch 12 or Part II Ch 1); Dante, Simon and Jester take theirs in Part II Ch 1 to 2.",
+    "gaps": [
+      "Both armored tanks are weak to magic: keep a Bishop adjacent, let Fabio and Olympia (high Res) face enemy mages, and have Kiroc snipe them first.",
+      "Guardian has no user. Nobody here pairs Spear with useful White Magic; unlock it for Theodora and later paths.",
+      "One flier where Part II wants 2 to 3. Catania joins late (Renown 8, usually Ch 10) and needs Flying D before Wing Soldier; Part II Ch 2 wants fliers to catch the southeast Ranger before Turn 4. A second flier would be Mikaela as Wing Soldier, but she'd need Spear and Flying from zero and drops her Axe and Bow.",
+      "Only 2 Physic users. Yang Jie and Olympia learn Physic at White Magic B. Dante can't learn it, so she heals adjacent only.",
+      "Jester's Ranger waits on Oko (Renown 10, late Ch 11 or Ch 12). He stays Rogue until then.",
+      "Late joiners: Dante, Catania and Gaitz join at about Lv 25 in a Specialty class (Ch 10+). Simon, Dante and Jester take Advanced in Part II Ch 1 to 2; Goliath may slip there too.",
+      "Mini Bow count is unknown on this route. One lies south of Dagsion; Kiroc gets it first.",
+      "Blacksmith has no user. Unlock it for later paths."
+    ],
+    "fixes": [
+      "Healers: Yang Jie (Bishop), Dante (Bishop), Olympia (Ovate, backup White Magic)",
+      "Physic: Yang Jie and Olympia (White Magic B). Dante can't learn it",
+      "Magic: Fabio (Ovate), Olympia (Ovate), Dante (Black Magic from Bishop)",
+      "Tanks: Esmeralda (Dreadnought), Goliath (Dreadnought), Simon (Warrior, Close Call)",
+      "Physical damage: Dietrich (Shido), Mikaela (Warrior), Simon (Warrior), Catania (Wing Soldier)",
+      "Bows: Kiroc (Sniper), Jester (Ranger), Ursula (Charioteer)",
+      "Fliers: Catania (Wing Soldier)",
+      "Mounted: Io (Light Cavalry), Ursula (Charioteer), Gaitz (Armored Ornius Rider)"
+    ]
+  },
+  "chapters": {
+    "1": {
+      "title": "A Stranger Comes to Dagda"
+    },
+    "2": {
+      "title": "Sacrifice and Strife"
+    },
+    "3": {
+      "title": "The Grand Megalith"
+    },
+    "4": {
+      "title": "Brute Force"
+    },
+    "5": {
+      "title": "The Essence of a Warrior"
+    },
+    "6": {
+      "title": "Instinct and Reason",
+      "free": "5/4–5/28"
+    },
+    "7": {
+      "title": "Gazing at the Rose Moon",
+      "free": "5/30–6/15"
+    },
+    "8": {
+      "title": "Cetus the Sea Tyrant",
+      "free": "6/15–7/21"
+    },
+    "9": {
+      "title": "The Legend of the White Egg",
+      "free": "8/10–9/19"
+    },
+    "10": {
+      "title": "The Mediator of Nuwa",
+      "free": "9/29–10/4"
+    },
+    "11": {
+      "title": "Twisted Love",
+      "free": "10/5–11/3"
+    },
+    "12": {
+      "title": "Mars, Bringer of War",
+      "free": "11/4–11/27"
+    }
+  },
+  "roster": [
+    {
+      "name": "Fabio",
+      "chapter": 1,
+      "estimate": false,
+      "why": "Joins with the story"
+    },
+    {
+      "name": "Esmeralda",
+      "chapter": 2,
+      "estimate": false,
+      "why": "Joins with the story"
+    },
+    {
+      "name": "Mikaela",
+      "chapter": 4,
+      "estimate": false,
+      "why": "Joins with the story"
+    },
+    {
+      "name": "Yang Jie",
+      "chapter": 4,
+      "estimate": false,
+      "why": "Recruitment tutorial (Renown 2)"
+    },
+    {
+      "name": "Kiroc",
+      "chapter": 6,
+      "estimate": false,
+      "why": "Arrives in Dagsion ~5/4"
+    },
+    {
+      "name": "Jester",
+      "chapter": 8,
+      "estimate": true,
+      "why": "Renown 6"
+    },
+    {
+      "name": "Goliath",
+      "chapter": 8,
+      "estimate": true,
+      "why": "Renown 6"
+    },
+    {
+      "name": "Simon",
+      "chapter": 8,
+      "estimate": true,
+      "why": "Renown 7 (late Ch 8)"
+    },
+    {
+      "name": "Ursula",
+      "chapter": 9,
+      "estimate": false,
+      "why": "Talimun's Paralogue 9/18–9/19 (or 10/1–10/10)"
+    },
+    {
+      "name": "Dante",
+      "chapter": 10,
+      "estimate": true,
+      "why": "Renown 8"
+    },
+    {
+      "name": "Gaitz",
+      "chapter": 12,
+      "estimate": false,
+      "why": "Bertrand's team out of the tournament (~Ch 12)"
+    }
+  ],
+  "extras": [
+    "Io",
+    "Olympia",
+    "Catania"
+  ],
+  "deployment": {
+    "summary": "The default five for every map are Dietrich, Yang Jie, Fabio, Esmeralda and Kiroc, plus one flex slot: Mikaela by default, Goliath on chokepoints, Jester or Io on thief and flier maps. Io holds the sixth slot in Ch 5, Olympia deploys every map from Ch 8, and Catania and Goliath join the big maps from Ch 10. Bertrand's physical army (Ch 11) benches Fabio for the armors; Mars (Ch 12) deploys 10 with Ursula and Dante in and Mikaela out. Jester, Simon, Ursula and Gaitz train ranks in skirmishes and the Arena and catch up through Part II Army Training.",
+    "phases": [
+      {
+        "chapters": "Ch 1 to 5",
+        "from": 1,
+        "to": 5,
+        "slots": 6,
+        "deploy": [
+          "Dietrich",
+          "Fabio",
+          "Esmeralda",
+          "Mikaela",
+          "Yang Jie",
+          "Io"
+        ],
+        "bench": [],
+        "note": "Ch 1 to 3 field Dietrich, Fabio and Esmeralda; Fabio heals until Yang Jie joins in Ch 4. Cai and Anatolia (lose if they fall), Sha Lan and Tialla are Ch 4 allies. Ch 5 Shadowy Cave: Io and Yang Jie take the far left lever, Dietrich and Fabio go right."
+      },
+      {
+        "chapters": "Ch 6 to 9",
+        "from": 6,
+        "to": 9,
+        "slots": 7,
+        "deploy": [
+          "Dietrich",
+          "Yang Jie",
+          "Fabio",
+          "Esmeralda",
+          "Kiroc",
+          "Mikaela",
+          "Olympia"
+        ],
+        "bench": [
+          "Io",
+          "Jester",
+          "Goliath",
+          "Simon",
+          "Ursula"
+        ],
+        "note": "Most maps take 5 to 6: the default five plus a flex. Flex: Mikaela by default, Goliath on chokepoint or armor maps, Jester when fliers or a fast thief show up, Olympia for a second healer. Olympia deploys every map from Ch 8 when a seventh slot shows. Talimun's Paralogue: Io or Jester in the flex for the thief. Theodora's Paralogue: Io and Jester in for Kiroc and Fabio."
+      },
+      {
+        "chapters": "Ch 10 to 12",
+        "from": 10,
+        "to": 12,
+        "slots": 10,
+        "deploy": [
+          "Dietrich",
+          "Yang Jie",
+          "Fabio",
+          "Esmeralda",
+          "Kiroc",
+          "Mikaela",
+          "Olympia",
+          "Catania",
+          "Goliath"
+        ],
+        "bench": [
+          "Io",
+          "Jester",
+          "Simon",
+          "Dante",
+          "Ursula",
+          "Gaitz"
+        ],
+        "note": "Ch 10 Anatolia: the default five, Mikaela, and Io or Ursula for the switches; more slots go to Olympia, Goliath, Catania, Dante. Anna's Paralogue takes only 3 (Dietrich, Yang Jie, Catania; Fabio if Catania isn't in). Ch 11 Bertrand: Fabio sits, eight deploy. Ch 12 Mars: ten deploy, Ursula and Dante in, Mikaela out."
+      }
+    ],
+    "units": {
+      "Dietrich": {
+        "status": "core",
+        "why": "Lord and your strongest Part I unit; always deploys and solos Mars in Ch 12.",
+        "partII": "Shido from Part I; leads every map. No exams until Part III.",
+        "role": "Lord, crit sword duelist (Shido)"
+      },
+      "Fabio": {
+        "status": "core",
+        "why": "Joins Ch 1: Black Magic and the armor answer; heals until Yang Jie arrives.",
+        "partII": "Ovate from Part I: main magic damage and a magic tank.",
+        "role": "Magic damage and armor killer"
+      },
+      "Esmeralda": {
+        "status": "core",
+        "why": "Joins Ch 2: armored spear tank with thrown spears; holds the line all route.",
+        "partII": "Dreadnought from Part I: physical tank. Keep a Bishop beside her against mages.",
+        "role": "Armored tank with thrown spears"
+      },
+      "Mikaela": {
+        "status": "core",
+        "why": "Joins Ch 4 and fills the melee axe slot from the start; Practiced Art fixes her Hit once she's a Warrior.",
+        "partII": "Warrior from Part I (Ch 11 at Lv 35).",
+        "role": "Melee axe bruiser"
+      },
+      "Yang Jie": {
+        "status": "core",
+        "why": "Joins Ch 4 and is the only real healer until Olympia; Physic at White Magic B.",
+        "partII": "Bishop from Part I: one of two Physic healers.",
+        "role": "Main healer (Physic)"
+      },
+      "Kiroc": {
+        "status": "core",
+        "why": "Joins Ch 6: in the default five for every map, the bow for fliers and enemy mages (carry the Mini Bow).",
+        "partII": "Sniper from Part I: long range for shields and the anti-flier bow.",
+        "role": "Archer, anti-flier, mage sniper"
+      },
+      "Io": {
+        "status": "early",
+        "why": "Holds the sixth slot in Ch 5 (Shadowy Cave levers). From Ch 6 he sits except on thief and switch maps (Talimun's, Theodora's Paralogue, Ch 10 switches).",
+        "partII": "Light Cavalry from Part I; stays Specialty.",
+        "role": "Switch and thief runner (mounted)"
+      },
+      "Olympia": {
+        "status": "late",
+        "why": "Joins Ch 8: second healer, second mage and second Physic user; deploys every map from Ch 8 to reach Ovate.",
+        "partII": "Ovate from Part I if she reached Lv 35 (7th on the Advanced list), else a Part II Ch 1 to 2 License.",
+        "role": "Second healer and second mage"
+      },
+      "Catania": {
+        "status": "late",
+        "why": "Joins at Renown 8 (usually Ch 10) and is the only flier; she needs battles to reach Wing Soldier before Part II.",
+        "partII": "Stay Wing Soldier through Army Training and send her at the Ch 2 southeast Ranger before Turn 4.",
+        "role": "Only flier"
+      },
+      "Goliath": {
+        "status": "late",
+        "why": "Joins Ch 8 to 9 (Giant's Meat): flex on chokepoint maps, then the second armored wall for Bertrand (Ch 11) and Mars (Ch 12).",
+        "partII": "Dreadnought in Ch 12 if he reaches Lv 35 (8th on the Advanced list), else Part II Ch 1 (Ch 2 if still under Lv 35).",
+        "role": "Second armored wall"
+      },
+      "Jester": {
+        "status": "bench",
+        "why": "Joins Ch 8 behind Kiroc: flex on flier and thief maps (Talimun's, Theodora's Paralogue), and trains his bow in skirmishes.",
+        "partII": "Rogue from Part I; Ranger on a Part II Ch 1 Advanced License (Oko beaten, Bow B, Sword B; Ch 2 if under Lv 35).",
+        "role": "Bow and sword skirmisher"
+      },
+      "Simon": {
+        "status": "bench",
+        "why": "Joins late Ch 8 (Renown 7) into the role Mikaela holds; fights skirmishes with gauntlets for Gauntlet B.",
+        "partII": "Brigand from Part I, held through Army Training for Str; Warrior on a Part II Ch 1 to 2 License at Lv 35 and Gauntlet B.",
+        "role": "Second axe bruiser"
+      },
+      "Dante": {
+        "status": "bench",
+        "why": "Joins at Renown 8 (Ch 10, 8,000G) already a Priest, when Yang Jie and Olympia heal; she can't learn Physic. Deploys for Mars (Ch 12).",
+        "partII": "Priest from Ch 10; Bishop on a Part II Ch 2 License at the Lv 35 floor.",
+        "role": "Third healer, Stage Directions"
+      },
+      "Ursula": {
+        "status": "bench",
+        "why": "Joins after Talimun's Paralogue (9/18 to 9/19) at about Lv 15; deploys on the Mars right side (bows) in Ch 12.",
+        "partII": "Charioteer from Part I; stays Specialty. Long range for shields, storage access.",
+        "role": "Chariot archer, storage access"
+      },
+      "Gaitz": {
+        "status": "bench",
+        "why": "Joins in Ch 12, the last free time, already an Armored Ornius Rider: no slot and no time to level.",
+        "partII": "Armored Ornius Rider; stays Specialty. Physical tank, Def from Army Training.",
+        "role": "Armored mounted front line"
+      }
+    },
+    "part2": {
+      "core": [
+        "Dietrich",
+        "Fabio",
+        "Esmeralda",
+        "Yang Jie",
+        "Mikaela",
+        "Kiroc",
+        "Olympia",
+        "Catania",
+        "Goliath"
+      ],
+      "note": "Part II deploys up to 15 and the army is exactly 15, so everyone fights from Ch 1. Set classes before each Army Training (stats come from the current class): Simon Brigand, Dante Priest, Olympia Shaman if she isn't Ovate, Catania Wing Soldier, Gaitz Armored Ornius Rider. Advanced Licenses go to Jester (Ranger), Simon (Warrior) and Dante (Bishop), plus Olympia or Goliath if they missed Lv 35; Ch 1's floor is Lv 34, so anyone under Lv 35 takes it in Ch 2. Catania, Io, Ursula and Gaitz stay Specialty."
+    },
+    "roles": [
+      {
+        "role": "Lord, sword duelist",
+        "primary": "Dietrich",
+        "backup": "Mikaela",
+        "why": "Shido is the lord class for the Ch 12 solo duel with Mars; deploys every map and reaches Lv 35 first."
+      },
+      {
+        "role": "Main healer (Physic)",
+        "primary": "Yang Jie",
+        "backup": "Olympia",
+        "why": "S tier Bishop: doubled heals, Magic Heal +10, Physic at White Magic B. Only healer from Ch 4 until Olympia."
+      },
+      {
+        "role": "Magic damage, armor killer",
+        "primary": "Fabio",
+        "backup": "Olympia",
+        "why": "High A Ovate: Mag +20, doubled Black Magic. Heals until Yang Jie joins in Ch 4; faces enemy mages (high Res)."
+      },
+      {
+        "role": "Armored tank",
+        "primary": "Esmeralda",
+        "backup": "Goliath",
+        "why": "Dreadnought Def +30 with thrown spears (Throwing Arm+). Very low Res: keep a Bishop beside her against mages."
+      },
+      {
+        "role": "Melee axe bruiser",
+        "primary": "Mikaela",
+        "backup": "Simon",
+        "why": "Warrior: Practiced Art (Hit +10 on arts) fixes axe accuracy. In the army from Ch 4."
+      },
+      {
+        "role": "Bows, anti-flier",
+        "primary": "Kiroc",
+        "backup": "Jester",
+        "why": "In the default five from Ch 6. Sniper: Bow Hit +10, Marksmanship; carries a Mini Bow, since a Sniper can't counter at range 1."
+      },
+      {
+        "role": "Switches and thieves",
+        "primary": "Io",
+        "backup": "Ursula",
+        "why": "Mounted and fast: Shadowy Cave's far lever (Ch 5), Talimun's thief, Theodora's Paralogue switches, Ch 10 switches. Sits on other maps."
+      },
+      {
+        "role": "Second healer and mage",
+        "primary": "Olympia",
+        "backup": "Dante",
+        "why": "Second Physic user and second Ovate; Competitive Zeal adds Crit +10 to every spell. Deploys every map from Ch 8."
+      },
+      {
+        "role": "Flier",
+        "primary": "Catania",
+        "why": "Only flier: Dragoon isn't unlocked on this path. Bertrand's trap switch (Ch 11) and the Part II Ch 2 Ranger chase."
+      },
+      {
+        "role": "Second wall",
+        "primary": "Goliath",
+        "backup": "Esmeralda",
+        "why": "Second Dreadnought for Bertrand's physical army (Ch 11) and the Mars right flank."
+      }
+    ],
+    "synergies": [
+      {
+        "units": [
+          "Fabio",
+          "Kiroc"
+        ],
+        "title": "Confuse, then Tyranny",
+        "kind": "offense",
+        "how": "Fabio wears the Electron Agitator from Anatolia's Paralogue (Ch 11): its confusion is a status, and Kiroc's Tyranny is always on against foes with a status. Fabio casts first, Kiroc shoots the same target.",
+        "payoff": "Kiroc gets Atk +3, Crit +10 on every foe Fabio confused"
+      },
+      {
+        "units": [
+          "Esmeralda",
+          "Goliath",
+          "Yang Jie",
+          "Olympia"
+        ],
+        "title": "Armor wall, Bishop behind",
+        "kind": "defense",
+        "how": "Esmeralda and Goliath hold the chokepoints as Dreadnoughts; Yang Jie (or Olympia) stands one tile behind and Physics them from range. Dreadnoughts have very low Res, so a healer stays adjacent on mage maps.",
+        "payoff": "Dreadnought Def +30 holds Bertrand's physical army; Physic heals without stepping off the line"
+      },
+      {
+        "units": [
+          "Fabio",
+          "Olympia",
+          "Catania",
+          "Kiroc"
+        ],
+        "title": "Mage side",
+        "kind": "defense",
+        "how": "Mages delete the armors, so the high-Res units take the mage side: Fabio and Olympia (Ovates) and Catania. Kiroc snipes enemy mages first. Pure Water on Fabio for Anatolia's Ch 10 match.",
+        "payoff": "Ovates take magic on Res and counter with doubled Black Magic (Mag +20); the Dreadnoughts' Def +30 stays on physical foes"
+      },
+      {
+        "units": [
+          "Dante",
+          "Mikaela",
+          "Simon",
+          "Esmeralda"
+        ],
+        "title": "Swarm, then double",
+        "kind": "support",
+        "how": "Dante reads Archive Z on join (Ch 10) and opens with Swarm Z on the target; Mikaela, Simon and the armors then attack it.",
+        "payoff": "Swarm Z: Spd -3 on the foe, so Mikaela, Simon and the Dreadnoughts double it"
+      },
+      {
+        "units": [
+          "Dietrich",
+          "Jester"
+        ],
+        "title": "Dread arts for Jester",
+        "kind": "support",
+        "how": "From Ch 7, Teach Secrets copies Dietrich's Hidden arts (won from Dread Warriors) to allies for Magic Echo Stones. Jester is the first target: Rogue and Ranger keep swords. The learner needs the art's weapon type.",
+        "payoff": "Hidden Twinblade on Jester: Ddg +20 (crit avoid) through the enemy phase, not Avo"
+      },
+      {
+        "units": [
+          "Io",
+          "Ursula",
+          "Catania"
+        ],
+        "title": "Switch runners",
+        "kind": "mobility",
+        "how": "Mounted units reach switches first (Ch 10 Anatolia, Theodora's Paralogue), Io or Jester catch Talimun's thief, and Catania flies up to Bertrand in Ch 11 to switch off the trap squares.",
+        "payoff": "Switches fall a turn sooner, and Bertrand's traps (about 8 HP a step) stop draining the army"
+      },
+      {
+        "units": [
+          "Yang Jie",
+          "Olympia"
+        ],
+        "title": "Two Physic users",
+        "kind": "healing",
+        "how": "Both learn Physic at White Magic B: Yang Jie as Bishop, Olympia as backup White Magic. Bring both to Bertrand's map and the Mars split, one per side.",
+        "payoff": "Ranged heals on both flanks of the Mars map; Dante adjacent-only heals cover the third"
+      }
+    ],
+    "why": [
+      "Default five on every map: Dietrich, Yang Jie, Fabio, Esmeralda, Kiroc; the sixth slot is a flex",
+      "Fabio heals until Yang Jie joins in Ch 4; Olympia adds a second healer from Ch 8, Dante from Ch 10",
+      "Io takes the sixth slot in Ch 5 only, then sits outside thief and switch maps",
+      "Olympia deploys every map from Ch 8: 7th on the Advanced list, she needs the EXP",
+      "Catania and Goliath take the big-map slots from Ch 10: the Part II flier and the second wall",
+      "Ch 11 is physical: Fabio sits for the armors. Ch 12 Mars deploys ten: Ursula and Dante in, Mikaela out",
+      "Jester, Simon, Ursula and Gaitz train ranks in skirmishes and the Arena, and catch up in Part II Army Training",
+      "Finishing blows: Yang Jie, Fabio and Esmeralda until Lv 35, then Mikaela, Kiroc and Olympia. Dietrich levels on his own"
+    ],
+    "lineup": [
+      {
+        "slot": 1,
+        "role": "Lord, sword duelist",
+        "holders": [
+          {
+            "unit": "Dietrich",
+            "from": 1
+          }
+        ]
+      },
+      {
+        "slot": 2,
+        "role": "Main healer (Physic)",
+        "holders": [
+          {
+            "unit": "Yang Jie",
+            "from": 4,
+            "why": "Recruitment tutorial; Fabio heals until then"
+          }
+        ],
+        "note": "Ch 1 to 3: Fabio heals"
+      },
+      {
+        "slot": 3,
+        "role": "Magic damage, armor killer",
+        "holders": [
+          {
+            "unit": "Fabio",
+            "from": 1,
+            "to": 10
+          },
+          {
+            "unit": "Fabio",
+            "from": 12,
+            "why": "Mars left side; he sits out Bertrand's physical army in Ch 11"
+          }
+        ]
+      },
+      {
+        "slot": 4,
+        "role": "Armored tank",
+        "holders": [
+          {
+            "unit": "Esmeralda",
+            "from": 2
+          }
+        ]
+      },
+      {
+        "slot": 5,
+        "role": "Bows, anti-flier",
+        "holders": [
+          {
+            "unit": "Io",
+            "from": 5,
+            "to": 5,
+            "why": "Ch 5 sixth slot: Shadowy Cave's far lever"
+          },
+          {
+            "unit": "Kiroc",
+            "from": 6,
+            "why": "Renown 4, 3 Pure Water: joins the default five"
+          }
+        ]
+      },
+      {
+        "slot": 6,
+        "role": "Flex: axe bruiser",
+        "holders": [
+          {
+            "unit": "Mikaela",
+            "from": 4,
+            "to": 11
+          },
+          {
+            "unit": "Ursula",
+            "from": 12,
+            "why": "Mars right side wants bows: Mikaela sits"
+          }
+        ],
+        "note": "Goliath on chokepoints, Jester or Io on thief and flier maps"
+      },
+      {
+        "slot": 7,
+        "role": "Second healer and mage",
+        "holders": [
+          {
+            "unit": "Olympia",
+            "from": 8,
+            "why": "Renown 6 recruit; deploy her every map to reach Ovate"
+          }
+        ]
+      },
+      {
+        "slot": 8,
+        "role": "Flier",
+        "holders": [
+          {
+            "unit": "Catania",
+            "from": 10,
+            "why": "Renown 8 join: reaches far ore piles and Bertrand's trap switch"
+          }
+        ]
+      },
+      {
+        "slot": 9,
+        "role": "Second wall",
+        "holders": [
+          {
+            "unit": "Goliath",
+            "from": 10,
+            "why": "Second Dreadnought for Bertrand and the Mars right flank"
+          }
+        ]
+      },
+      {
+        "slot": 10,
+        "role": "Third healer",
+        "holders": [
+          {
+            "unit": "Dante",
+            "from": 12,
+            "why": "Mars deploys ten"
+          }
+        ]
+      }
+    ]
+  },
+  "fillers": [
+    {
+      "name": "Noctula",
+      "kind": "items",
+      "when": "Ch 10 or later (she must be Lv 20+, a Pugilist)",
+      "item": "Ursa's Right Claw",
+      "cost": "Renown 6",
+      "why": "Wait for Ch 10 so she joins as a Lv 20+ Pugilist and brings Ursa's Right Claw."
+    },
+    {
+      "name": "Nuzzuo",
+      "kind": "items",
+      "when": "Ch 10 or 11, when Renown 9 lands",
+      "item": "Levin Sword",
+      "cost": "Renown 9, 2× Iron Bow",
+      "why": "Cheap Ch 10+ recruit with a Levin Sword."
+    },
+    {
+      "name": "Sha Lan",
+      "kind": "items",
+      "when": "Ch 11, after Anatolia's Paralogue and Renown 10",
+      "item": "Salamander",
+      "cost": "Support 3, Renown 10, clear Anatolia's Paralogue, answers: Saramis → Da Mina → Grounded Ship",
+      "why": "Always brings a Salamander."
+    },
+    {
+      "name": "Halvin",
+      "kind": "supports",
+      "when": "Ch 10 or 11, when Renown 9 lands",
+      "cost": "Support 3, Renown 9, 10× Dates",
+      "why": "Supports Dietrich, Fabio and Jester."
+    },
+    {
+      "name": "Buccar",
+      "kind": "supports",
+      "when": "Ch 9 or 10, after Leda's Paralogue (9/8) and Renown 8",
+      "cost": "Support 3, Renown 8, clear Leda's Paralogue",
+      "why": "Supports Dietrich, Jester and Olympia."
+    },
+    {
+      "name": "Fianna",
+      "kind": "supports",
+      "when": "Ch 8 or 9, when Renown 7 lands",
+      "cost": "Support 3, Renown 7, 3,000G",
+      "why": "Supports Simon, Ursula and Olympia."
+    }
+  ],
+  "mechanics": [
+    {
+      "system": "Dread Warrior Challenges",
+      "what": "1-on-1 duels: Dietrich alone against a Dread Warrior. Each opens at a Renown level, from Borges (Renown 2) to Oko (Renown 10), and pays gold, 150 Renown and a Hidden Combat Art. All end 11/27. Il-Lara unlocks Guardian, Oko unlocks Ranger.",
+      "impact": "Your main Renown source, since this path has no Send Supplies. Clear each one the chapter it opens: leaving them for 11/27 makes the Renown 8 gate (Dante, Advanced exams) and the Renown 10 gate (Gaitz, Oko) slip.",
+      "units": [
+        "Dietrich"
+      ]
+    },
+    {
+      "system": "Teach Secrets",
+      "what": "Opens in Ch 7. Copies Dietrich's Hidden arts, and only those, to other units for Magic Echo Stones. The learner needs the art's weapon type (Hidden Windpierce wants a 1-2 range spear).",
+      "impact": "Jester first: Rogue and Ranger keep swords. Hidden Twinblade is Ddg +20, crit insurance, not Avo; his dodging comes from Avo (Phantom Ring, Haze Slice, Kalla's Blessing).",
+      "units": [
+        "Dietrich",
+        "Jester"
+      ]
+    },
+    {
+      "system": "Answerer's Cry and the Blacksmith",
+      "what": "Answerer's Cry (Dietrich only, from Ch 4) summons skirmishes; foes with a bag icon drop Magic Echo Shards. Boosting 10 different Combat Arts at Smyrnos's Temple unlocks the Blacksmith class for later paths: about 400 shards?, plus Renown 8; Smyrnos Blessing Lv 1 is a condition?",
+      "impact": "Farm skirmishes with spare Turns all route and finish the 10 boosts by Ch 11. Spend every shard before Part II: each Part II chapter sets shards to 100?. Nobody here takes Blacksmith.",
+      "units": [
+        "Dietrich"
+      ]
+    },
+    {
+      "system": "Path unlocks (played first)",
+      "what": "Unlocks carry over only once all 12 chapters are done. This path gives Guardian (Il-Lara), Ranger (Oko) and Blacksmith; it pays about 5,000 Karma Shards (8 Paralogues, the most of any lord), and the desert map is shared across the save (Cai can't enter it in Part I).",
+      "impact": "Dragoon isn't unlocked yet, so Catania's Wing Soldier is the only flier you can make. Guardian has no user here: Esmeralda plays armored. Beat Oko even though Jester only takes Ranger in Part II. First Boon: Increase EXP +10% at 500 shards.",
+      "units": [
+        "Catania",
+        "Esmeralda",
+        "Jester"
+      ]
+    },
+    {
+      "system": "Archives (dark magic)",
+      "what": "An Archive is used up when read: the spell stays on that unit for good and takes no slot. One copy of each per route. Fabio learns Miasma, Mire, Death, Luna and Dark Spikes by rank, so only Banshee and Swarm are new to him.",
+      "impact": "Fabio reads θ (Banshee Θ: immobilize at range 1-3; Iapetus Cavern, Ch 11). Dante reads Z (Swarm Z: Spd -3; Southern Passage, Ch 9) and T (Dark Spikes Τ: 60 Mt vs cavalry, 2 uses; Vandahl). Olympia reads Γ (Death Γ: Mt 15, Crit 20; Vandahl from about Ch 10). Skip B (Mire) and L (Luna).",
+      "units": [
+        "Fabio",
+        "Dante",
+        "Olympia"
+      ]
+    },
+    {
+      "system": "Thermae (Renown 8)",
+      "what": "Two recruited units bathe together: HP, magic uses and Motivation restored, Support between them, and one random temporary Ability each from the bath's pool, lasting to the end of the chapter. Sunday Special Baths hold the \"+\" abilities. 500G a bath?; Renown 9 adds three baths.",
+      "impact": "Book a Sunday Special Bath the last week before each main battle: Unicorns' Bath on Catania before Bertrand, Giants' Bath (Crit, Str) or Sea-Tyrant's Bath (HP, Def) on Dietrich before Mars, Harpyrian Bath on the healers.",
+      "units": [
+        "Dietrich",
+        "Catania",
+        "Yang Jie",
+        "Olympia",
+        "Dante"
+      ]
+    },
+    {
+      "system": "Recruit timing and join levels",
+      "what": "Recruits scale to the chapter: Ch 4 to 5 joins come at base level, Ch 6 to 9 at about Lv 15 in a Beginner class, Ch 10 to 12 at about Lv 25 already Specialty. Unrecruited Jester, Dante and Goliath fight for Bertrand in Ch 11.",
+      "impact": "Six recruits need Support 3 (Jester, Olympia, Goliath, Simon, Ursula, Gaitz) and Dante Support 2: start their meals in Ch 5 and 6. Recruit Dante and Goliath before the Ch 11 battle. Part II Army Training lifts every late joiner to Lv 34 to 39.",
+      "units": [
+        "Jester",
+        "Olympia",
+        "Goliath",
+        "Simon",
+        "Ursula",
+        "Gaitz",
+        "Dante"
+      ]
+    },
+    {
+      "system": "Weekly routine",
+      "what": "Every free time from Ch 4, no Turn cost, reset on Sunday: 3 Inn meals (Dietrich + 2 targets, 150G on Sunday instead of 300G), one gift per target, one Arena session (two units), Divine Services on each god's day, the Pale Raven, god audiences when a temple shows gold (about 50 Renown, from Renown 2). Spare Turns: Answerer's Cry skirmishes, then the Inn.",
+      "impact": "Recruit Support only counts with Dietrich, so every meal seats him; the first gift (a 27G pastry) only unlocks meals. Serve each god on its day (a free Perfect): Mon Aurora (halves physical damage), Tue Mars (physical Hit +50), Wed Smyrnos (magic Hit +50), Thu Jurah, Fri Kalla (Avoid +50), Sat Credna (fog vision). Send Dietrich plus your top Support target. Priority: Aurora, Kalla, Smyrnos, Mars, then Jurah and Credna.",
+      "units": [
+        "Dietrich"
+      ]
+    }
+  ],
+  "ledger": {
+    "keyDecisions": [
+      {
+        "text": "Save on 9/16, then clear Bertrand's Paralogue on 9/17, its only day: no Gaitz without it",
+        "ch": 9
+      },
+      {
+        "text": "Clear Talimun's Paralogue on 9/18 or 9/19 for Ursula; the backup window is 10/1 to 10/10",
+        "ch": 9
+      },
+      {
+        "text": "Seat Jester, Olympia, Goliath, Simon, Ursula, Gaitz at Sunday meals: each needs Support 3",
+        "ch": 5
+      },
+      {
+        "text": "Pick For the Empire's Safety in Ch 8: a Specialty License and 200 Renown now",
+        "ch": 8
+      },
+      {
+        "text": "Clear each Dread Warrior the chapter it opens: Renown 10 gates Gaitz and Oko (Ranger)",
+        "ch": 5
+      }
+    ],
+    "renownPace": [
+      {
+        "ch": 4,
+        "from": 1,
+        "to": 2,
+        "opens": "Beginner tier; god audiences from Renown 2. Tutorial quests (10 each), board quests (30)"
+      },
+      {
+        "ch": 5,
+        "from": 2,
+        "to": 3,
+        "opens": "Borges (R2). Io and Aguirre at R3, late Ch 5"
+      },
+      {
+        "ch": 6,
+        "from": 4,
+        "to": 5,
+        "opens": "Specialty exams, Kiroc and Sepente (R4)"
+      },
+      {
+        "ch": 7,
+        "from": 5,
+        "to": 6,
+        "opens": "Camilo (R5). Jester, Goliath, Olympia at R6, late Ch 7 at best"
+      },
+      {
+        "ch": 8,
+        "from": 6,
+        "to": 7,
+        "opens": "Il-Lara (R6). Simon, Cabaye, Theater at R7, late Ch 8. Empire's Safety 200R"
+      },
+      {
+        "ch": 9,
+        "from": 7,
+        "to": 8,
+        "opens": "Ursula (R7, after 9/18). Four Paralogues, 150 each. R8 only at the very end"
+      },
+      {
+        "ch": 10,
+        "from": 8,
+        "to": 9,
+        "opens": "Advanced exams, Dante, Catania, Damien, Thermae (R8). Anna 150, Da Mina 100"
+      },
+      {
+        "ch": 11,
+        "from": 9,
+        "to": 10,
+        "opens": "Berenguela and 3 more baths (R9); Oko (R10). Three Paralogues, 150 each"
+      },
+      {
+        "ch": 12,
+        "from": 10,
+        "to": 12,
+        "opens": "Gaitz (R10); Oko if still open; 11/27 subquests. About R12 by the end"
+      }
+    ],
+    "rules": [
+      "Each exam spends a License even when you fail it: take it at 75% or better",
+      "Specialty needs Renown 4 (Ch 6) and Lv 20; Advanced needs Renown 8 (Ch 10) and Lv 35. Master and Divine wait for Part III",
+      "Ch 6 to 9 recruits join at about Lv 15 (Beginner), Ch 10 to 12 at about Lv 25 (Specialty)"
+    ],
+    "licenses": {
+      "advancedCap": 8,
+      "buy": "Buy 8 Advanced Licenses in [[place:Megaira]] in Ch 8, or 4 there and 4 in Dagsion from Ch 10 if Dante's 8,000G is tight. Giant's-Print Fort (Ch 12) holds a spare in a chest",
+      "beginner": [
+        {
+          "unit": "Dietrich",
+          "class": "Gladiator",
+          "ch": 5,
+          "why": "Class tutorial at Temple Row"
+        },
+        {
+          "unit": "Fabio",
+          "class": "Diviner",
+          "ch": 5
+        },
+        {
+          "unit": "Esmeralda",
+          "class": "Soldier",
+          "ch": 5
+        },
+        {
+          "unit": "Mikaela",
+          "class": "Gladiator",
+          "ch": 5,
+          "why": "Hunter if Gauntlet D isn't there yet"
+        },
+        {
+          "unit": "Yang Jie",
+          "class": "Diviner",
+          "ch": 5
+        },
+        {
+          "unit": "Io",
+          "class": "Ornius Rider",
+          "ch": 5,
+          "why": "On recruit (Renown 3)"
+        },
+        {
+          "unit": "Kiroc",
+          "class": "Hunter",
+          "ch": 6,
+          "why": "Only if he joins in another class"
+        },
+        {
+          "unit": "Olympia",
+          "class": "Diviner",
+          "ch": 8,
+          "why": "Only if she joins in another class"
+        },
+        {
+          "unit": "Jester",
+          "class": "Hunter",
+          "ch": 8,
+          "why": "Only if he joins in another class"
+        },
+        {
+          "unit": "Goliath",
+          "class": "Soldier",
+          "ch": 8,
+          "why": "Only if he joins in another class"
+        },
+        {
+          "unit": "Simon",
+          "class": "Gladiator",
+          "ch": 9,
+          "why": "Only if he joins in another class"
+        },
+        {
+          "unit": "Ursula",
+          "class": "Hunter",
+          "ch": 9,
+          "why": "Only if she joins in another class"
+        }
+      ],
+      "specialty": [
+        {
+          "unit": "Dietrich",
+          "class": "Myrmidon",
+          "ch": 6,
+          "ranks": [
+            "Sword C"
+          ]
+        },
+        {
+          "unit": "Fabio",
+          "class": "Shaman",
+          "ch": 6,
+          "ranks": [
+            "Black Magic C"
+          ]
+        },
+        {
+          "unit": "Esmeralda",
+          "class": "Armored Knight",
+          "ch": 6,
+          "ranks": [
+            "Heavy E+",
+            "Axe C",
+            "Spear C"
+          ]
+        },
+        {
+          "unit": "Mikaela",
+          "class": "Brigand",
+          "ch": 6,
+          "ranks": [
+            "Axe C",
+            "Sword C"
+          ],
+          "why": "Regroup; fight with gauntlets toward Gauntlet B"
+        },
+        {
+          "unit": "Yang Jie",
+          "class": "Priest",
+          "ch": 6,
+          "ranks": [
+            "White Magic C"
+          ]
+        },
+        {
+          "unit": "Io",
+          "class": "Light Cavalry",
+          "ch": 6,
+          "ranks": [
+            "Rider D",
+            "Spear C",
+            "Sword C"
+          ],
+          "why": "Ch 7 if Sword lags"
+        },
+        {
+          "unit": "Kiroc",
+          "class": "Archer",
+          "ch": 7,
+          "ranks": [
+            "Bow C"
+          ],
+          "why": "At Lv 20; Ch 6 if he joins near it"
+        },
+        {
+          "unit": "Olympia",
+          "class": "Shaman",
+          "ch": 9,
+          "ranks": [
+            "Black Magic C"
+          ],
+          "why": "At Lv 20; Ch 8 if she joins near it"
+        },
+        {
+          "unit": "Jester",
+          "class": "Rogue",
+          "ch": 9,
+          "ranks": [
+            "Bow C",
+            "Sword C"
+          ],
+          "why": "At Lv 20; Ch 8 if he gets there"
+        },
+        {
+          "unit": "Goliath",
+          "class": "Armored Knight",
+          "ch": 9,
+          "ranks": [
+            "Heavy E+",
+            "Axe C",
+            "Spear C"
+          ],
+          "why": "Heavy-Armor Manual from the sculptor quest"
+        },
+        {
+          "unit": "Simon",
+          "class": "Brigand",
+          "ch": 9,
+          "ranks": [
+            "Axe C",
+            "Sword C"
+          ],
+          "why": "At Lv 20"
+        },
+        {
+          "unit": "Ursula",
+          "class": "Charioteer",
+          "ch": 10,
+          "ranks": [
+            "Riding D",
+            "Bow C"
+          ],
+          "why": "At Lv 20; Riding Manual first"
+        },
+        {
+          "unit": "Catania",
+          "class": "Wing Soldier",
+          "ch": 10,
+          "ranks": [
+            "Flying D",
+            "Spear C",
+            "Sword C"
+          ],
+          "why": "Only if she joins in another class; Flying Manuals"
+        },
+        {
+          "unit": "Dante",
+          "class": "Priest",
+          "ch": 10,
+          "ranks": [
+            "White Magic C"
+          ],
+          "why": "Only if she joins in another class"
+        },
+        {
+          "unit": "Gaitz",
+          "class": "Armored Ornius Rider",
+          "ch": 12,
+          "ranks": [
+            "Riding D",
+            "Axe C",
+            "Spear C"
+          ],
+          "why": "Only if he joins in another class"
+        }
+      ],
+      "advanced": [
+        {
+          "unit": "Yang Jie",
+          "class": "Bishop",
+          "ch": 10,
+          "ranks": [
+            "White Magic B"
+          ],
+          "why": "S tier: doubled heals, Magic Heal +10, Physic"
+        },
+        {
+          "unit": "Fabio",
+          "class": "Ovate",
+          "ch": 10,
+          "ranks": [
+            "Black Magic B"
+          ],
+          "why": "High A: Mag +20, doubled Black Magic"
+        },
+        {
+          "unit": "Dietrich",
+          "class": "Shido",
+          "ch": 10,
+          "ranks": [
+            "Sword B"
+          ],
+          "why": "Lord class for the Mars duel; first to Lv 35"
+        },
+        {
+          "unit": "Esmeralda",
+          "class": "Dreadnought",
+          "ch": 10,
+          "ranks": [
+            "Heavy D",
+            "Axe B",
+            "Spear B"
+          ],
+          "why": "Def +30 for Bertrand's physical army"
+        },
+        {
+          "unit": "Mikaela",
+          "class": "Warrior",
+          "ch": 11,
+          "ranks": [
+            "Gauntlet B",
+            "Axe B",
+            "Sword B"
+          ],
+          "why": "At Lv 35; Practiced Art fixes axe Hit"
+        },
+        {
+          "unit": "Kiroc",
+          "class": "Sniper",
+          "ch": 11,
+          "ranks": [
+            "Bow B"
+          ],
+          "why": "At Lv 35: Bow Hit +10, Marksmanship"
+        },
+        {
+          "unit": "Olympia",
+          "class": "Ovate",
+          "ch": 11,
+          "ranks": [
+            "Black Magic B"
+          ],
+          "why": "Second mage; Ch 11 to 12 if she reaches Lv 35"
+        },
+        {
+          "unit": "Goliath",
+          "class": "Dreadnought",
+          "ch": 12,
+          "ranks": [
+            "Heavy D",
+            "Axe B",
+            "Spear B"
+          ],
+          "why": "Last to Lv 35; else Part II Ch 1"
+        },
+        {
+          "unit": "Jester",
+          "class": "Ranger",
+          "ch": "Part II Ch 1",
+          "ranks": [
+            "Bow B",
+            "Sword B"
+          ],
+          "why": "Needs Oko beaten in Part I"
+        },
+        {
+          "unit": "Simon",
+          "class": "Warrior",
+          "ch": "Part II Ch 1",
+          "ranks": [
+            "Gauntlet B",
+            "Axe B",
+            "Sword B"
+          ],
+          "why": "Ch 2 if Army Training hasn't lifted him to Lv 35"
+        },
+        {
+          "unit": "Dante",
+          "class": "Bishop",
+          "ch": "Part II Ch 2",
+          "ranks": [
+            "White Magic B"
+          ],
+          "why": "At the Lv 35 floor"
+        }
+      ]
+    },
+    "licenseBudget": [
+      {
+        "ch": 5,
+        "beginner": 6,
+        "specialty": 0,
+        "advanced": 0
+      },
+      {
+        "ch": 6,
+        "beginner": 1,
+        "specialty": 6,
+        "advanced": 0
+      },
+      {
+        "ch": 7,
+        "beginner": 0,
+        "specialty": 1,
+        "advanced": 0
+      },
+      {
+        "ch": 8,
+        "beginner": 3,
+        "specialty": 0,
+        "advanced": 0
+      },
+      {
+        "ch": 9,
+        "beginner": 2,
+        "specialty": 4,
+        "advanced": 0
+      },
+      {
+        "ch": 10,
+        "beginner": 0,
+        "specialty": 3,
+        "advanced": 4
+      },
+      {
+        "ch": 11,
+        "beginner": 0,
+        "specialty": 0,
+        "advanced": 3
+      },
+      {
+        "ch": 12,
+        "beginner": 0,
+        "specialty": 1,
+        "advanced": 1
+      }
+    ],
+    "weaponPriority": [
+      {
+        "type": "Sword",
+        "units": [
+          "Dietrich",
+          "Jester",
+          "Mikaela"
+        ],
+        "why": "Shido Sword B first; Jester Sword B for Ranger; Mikaela Sword B for Warrior"
+      },
+      {
+        "type": "Axe",
+        "units": [
+          "Mikaela",
+          "Esmeralda",
+          "Goliath",
+          "Simon"
+        ],
+        "why": "Axe B for Warrior and both Dreadnoughts"
+      },
+      {
+        "type": "Spear",
+        "units": [
+          "Esmeralda",
+          "Goliath",
+          "Catania",
+          "Io"
+        ],
+        "why": "Spear B for the Dreadnoughts; thrown spears for Esmeralda"
+      },
+      {
+        "type": "Gauntlet",
+        "units": [
+          "Mikaela",
+          "Simon"
+        ],
+        "why": "Gauntlet B: Arena Warrior course plus battle use"
+      },
+      {
+        "type": "Bow",
+        "units": [
+          "Kiroc",
+          "Jester",
+          "Ursula"
+        ],
+        "why": "Kiroc deploys all route; the others train in the Arena"
+      },
+      {
+        "type": "Black Magic",
+        "units": [
+          "Fabio",
+          "Olympia"
+        ],
+        "why": "Black Magic B for both Ovates"
+      },
+      {
+        "type": "White Magic",
+        "units": [
+          "Yang Jie",
+          "Dante"
+        ],
+        "why": "White Magic B: Physic and Bishop"
+      },
+      {
+        "type": "Heavy",
+        "units": [
+          "Esmeralda",
+          "Goliath"
+        ],
+        "why": "Heavy D for Dreadnought: Heavy-Armor Manuals"
+      }
+    ],
+    "uniques": [
+      {
+        "item": "Dew of Protection",
+        "to": "Dietrich",
+        "from": "Heretics' Cave chest",
+        "ch": 3,
+        "fallback": "For the Ch 12 Mars duel"
+      },
+      {
+        "item": "Zanbato",
+        "to": "Dietrich",
+        "from": "Ch 4 battle chest (southeast)",
+        "ch": 4,
+        "fallback": "Cavalry maps; out of the Mars duel kit"
+      },
+      {
+        "item": "Iron Shield",
+        "to": "Esmeralda",
+        "from": "Ch 4 battle chest (northwest)",
+        "ch": 4,
+        "fallback": "Hexlock Shield replaces it in Ch 6"
+      },
+      {
+        "item": "White-Magic Manual",
+        "to": "Yang Jie",
+        "from": "Niraga Mine chest",
+        "ch": 4
+      },
+      {
+        "item": "Black-Magic Manual",
+        "to": "Fabio",
+        "from": "Collapsed Fort chest",
+        "ch": 4
+      },
+      {
+        "item": "Killing Edge",
+        "to": "Dietrich",
+        "from": "Shadowy Cave chest (Ch 5 battle)",
+        "ch": 5,
+        "fallback": "Or hand it to A Sword of Deadly Renown (Ch 7)"
+      },
+      {
+        "item": "Healing Staff",
+        "to": "Yang Jie",
+        "from": "Rubess Forest chest",
+        "ch": 5
+      },
+      {
+        "item": "Riding Manual",
+        "to": "Io",
+        "from": "Rubess Forest chest",
+        "ch": 5
+      },
+      {
+        "item": "Magic Staff",
+        "to": "Fabio",
+        "from": "Corroios Fort Ruins chest",
+        "ch": 5,
+        "fallback": "Electron Agitator replaces it in Ch 11"
+      },
+      {
+        "item": "Gale Ring",
+        "to": "Dietrich",
+        "from": "Vandahl, Alecto (Enrietto x10)",
+        "ch": 6,
+        "fallback": "Archer's Ring"
+      },
+      {
+        "item": "Giant's Ring",
+        "to": "Mikaela",
+        "from": "Vandahl, Alecto (Paradise Fish x1?)",
+        "ch": 6,
+        "fallback": "Victory Gem; a second one goes to Esmeralda"
+      },
+      {
+        "item": "Archer's Ring",
+        "to": "Kiroc",
+        "from": "Vandahl Dagsion (Jyoppa x2)",
+        "ch": 6
+      },
+      {
+        "item": "Hexlock Shield",
+        "to": "Esmeralda",
+        "from": "Dione Fort chest",
+        "ch": 6
+      },
+      {
+        "item": "Heavy-Armor Manual",
+        "to": "Esmeralda",
+        "from": "Masked Woods chest",
+        "ch": 6,
+        "fallback": "Goliath if her Heavy is already on track"
+      },
+      {
+        "item": "Flying Manual",
+        "to": "Catania",
+        "from": "Dione Fort chest",
+        "ch": 6,
+        "fallback": "Hold it until she joins (Ch 10)"
+      },
+      {
+        "item": "Azaga's Bow",
+        "to": "Kiroc",
+        "from": "Valhalla Mine chest",
+        "ch": 6
+      },
+      {
+        "item": "Mini Bow",
+        "to": "Kiroc",
+        "from": "Chest south of Dagsion",
+        "ch": 6,
+        "fallback": "Without it a Sniper can't counter at range 1"
+      },
+      {
+        "item": "Flying Manual",
+        "to": "Catania",
+        "from": "Cindered Road Cave chest",
+        "ch": 7
+      },
+      {
+        "item": "Tempest Bow",
+        "to": "Kiroc",
+        "from": "Rare Stone Hunting (due 7/31)",
+        "ch": 8
+      },
+      {
+        "item": "Magic Staff",
+        "to": "Olympia",
+        "from": "Vandahl Dagsion (Zamir x1)",
+        "ch": 8
+      },
+      {
+        "item": "Victory Gem",
+        "to": "Simon",
+        "from": "Vandahl, Gaura Grassland (Blue Ginji x3)",
+        "ch": 8
+      },
+      {
+        "item": "Phantom Ring",
+        "to": "Jester",
+        "from": "Vandahl Dagsion (Soldanella x3 + Shaktoh x3)",
+        "ch": 8
+      },
+      {
+        "item": "Hexlock Shield",
+        "to": "Goliath",
+        "from": "Dragonbone Tangle chest",
+        "ch": 8,
+        "fallback": "His swap for mage maps"
+      },
+      {
+        "item": "Grasitha",
+        "to": "Esmeralda",
+        "from": "Cetus (Ch 8 battle reward)",
+        "ch": 9
+      },
+      {
+        "item": "Silver Shield",
+        "to": "Goliath",
+        "from": "Leda's Paralogue (9/8)",
+        "ch": 9
+      },
+      {
+        "item": "Pilum",
+        "to": "Esmeralda",
+        "from": "Theodora's Paralogue",
+        "ch": 9
+      },
+      {
+        "item": "Cleansing Blade",
+        "to": "Jester",
+        "from": "Talimun's Paralogue",
+        "ch": 9
+      },
+      {
+        "item": "Salamander",
+        "to": "Yang Jie",
+        "from": "Southern Passage chest",
+        "ch": 9,
+        "fallback": "Refine it in Ch 10"
+      },
+      {
+        "item": "Archive Z",
+        "to": "Dante",
+        "from": "Southern Passage chest",
+        "ch": 9,
+        "fallback": "Hold it; she reads it on join (Ch 10)"
+      },
+      {
+        "item": "Heavy-Armor Manual",
+        "to": "Goliath",
+        "from": "Legacy of a Legendary Sculptor",
+        "ch": 8
+      },
+      {
+        "item": "Riding Manual",
+        "to": "Ursula",
+        "from": "Legacy of a Legendary Sculptor",
+        "ch": 10
+      },
+      {
+        "item": "Flying Manual",
+        "to": "Catania",
+        "from": "Legacy of a Legendary Sculptor",
+        "ch": 10
+      },
+      {
+        "item": "Archive T",
+        "to": "Dante",
+        "from": "Vandahl Dagsion (Pongo x10 + Glirmosa x4)",
+        "ch": 10
+      },
+      {
+        "item": "Archive Γ",
+        "to": "Olympia",
+        "from": "Vandahl, from about Ch 10",
+        "ch": 10
+      },
+      {
+        "item": "Levin Sword",
+        "to": "Dietrich",
+        "from": "Vandahl barter, or a filler (Nuzzuo)",
+        "ch": 10,
+        "fallback": "For Anna's Giant; out of the Mars duel kit"
+      },
+      {
+        "item": "Silver Sword",
+        "to": "Dietrich",
+        "from": "No known source",
+        "ch": 10,
+        "fallback": "Da Mina Sword; to Jester before Mars"
+      },
+      {
+        "item": "Electron Agitator",
+        "to": "Fabio",
+        "from": "Anatolia's Paralogue",
+        "ch": 11,
+        "fallback": "Magic Staff if he gets doubled"
+      },
+      {
+        "item": "Healing Staff",
+        "to": "Dante",
+        "from": "Orchel's Paralogue",
+        "ch": 11
+      },
+      {
+        "item": "Archive θ",
+        "to": "Fabio",
+        "from": "Iapetus Cavern chest (Oko)",
+        "ch": 11
+      },
+      {
+        "item": "Answerer Arisen",
+        "to": "Dietrich",
+        "from": "Fabio's Ch 12 scene (needs the Ch 5 and Ch 10 scenes)",
+        "ch": 12,
+        "fallback": "Answerer"
+      }
+    ],
+    "refines": [
+      {
+        "unit": "Dietrich",
+        "item": "Killing Edge",
+        "why": "Main sword from Ch 6 (Da Mina Sword if you hand it over)"
+      },
+      {
+        "unit": "Kiroc",
+        "item": "Tempest Bow",
+        "why": "His doubling bow (Wt 5)"
+      },
+      {
+        "unit": "Yang Jie",
+        "item": "Salamander",
+        "why": "Ch 10, once the Southern Passage copy is in"
+      }
+    ],
+    "barters": [
+      {
+        "item": "Gale Ring",
+        "for": "Dietrich",
+        "ch": 6,
+        "at": "Alecto"
+      },
+      {
+        "item": "Giant's Ring",
+        "for": "Mikaela",
+        "ch": 6,
+        "at": "Alecto"
+      },
+      {
+        "item": "Archer's Ring",
+        "for": "Kiroc",
+        "ch": 6,
+        "at": "Dagsion",
+        "note": "Defeat Aguino's Thieves pays Jyoppa x5"
+      },
+      {
+        "item": "Longbow",
+        "for": "Kiroc",
+        "ch": 7,
+        "at": "Dagsion"
+      },
+      {
+        "item": "Magic Staff",
+        "for": "Olympia",
+        "ch": 8,
+        "at": "Dagsion"
+      },
+      {
+        "item": "Victory Gem",
+        "for": "Simon",
+        "ch": 8,
+        "at": "Gaura Grassland"
+      },
+      {
+        "item": "Phantom Ring",
+        "for": "Jester",
+        "ch": 8,
+        "at": "Dagsion"
+      },
+      {
+        "item": "Da Mina Bow",
+        "for": "Ursula",
+        "ch": 9,
+        "at": "Dagsion"
+      },
+      {
+        "item": "Archive T",
+        "for": "Dante",
+        "ch": 10,
+        "at": "Dagsion"
+      },
+      {
+        "item": "Archive Γ",
+        "for": "Olympia",
+        "ch": 10,
+        "at": "Dagsion"
+      },
+      {
+        "item": "Horsekiller Bow",
+        "for": "Ursula",
+        "ch": 10,
+        "at": "Dagsion"
+      }
+    ],
+    "carried": [
+      {
+        "unit": "Jester",
+        "item": "Levin Sword",
+        "when": "Only if recruited Ch 10+ (about Lv 25 Myrmidon); the plan recruits him in Ch 8"
+      },
+      {
+        "unit": "Nuzzuo",
+        "item": "Levin Sword",
+        "when": "Filler: Renown 9, Ch 10 or 11"
+      },
+      {
+        "unit": "Noctula",
+        "item": "Ursa's Right Claw",
+        "when": "Filler: Ch 10+ so she joins as a Lv 20+ Pugilist"
+      },
+      {
+        "unit": "Sha Lan",
+        "item": "Salamander",
+        "when": "Filler: after Anatolia's Paralogue, Renown 10 (Ch 11)"
+      },
+      {
+        "unit": "Io",
+        "item": "Levin Sword",
+        "when": "Only if recruited Ch 10+; the plan recruits him in Ch 5 for the thief maps"
+      }
+    ]
+  }
+}

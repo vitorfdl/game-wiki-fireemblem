@@ -1,0 +1,267 @@
+{
+  "route": "Leda",
+  "ch": 8,
+  "name": "Shape of the Conspiracy",
+  "free": {
+    "from": "6/30",
+    "to": "7/9"
+  },
+  "routine": {
+    "meals": [
+      {
+        "week": "Every Sunday",
+        "tables": [
+          [
+            "Leda",
+            "Fianna",
+            "Ludia"
+          ],
+          [
+            "Leda",
+            "Halvin",
+            "Sha Lan"
+          ],
+          [
+            "Leda",
+            "Lysander",
+            "Catania"
+          ]
+        ],
+        "note": "Ludia sits every Sunday until Support 3. Esmeralda short of 3? She takes Lysander's seat. Lysander not in Dagsion yet? Seat Jasmine."
+      }
+    ],
+    "gifts": [
+      {
+        "unit": "Ludia",
+        "gift": "Tales of Adventure",
+        "alt": "Common Coffee",
+        "until": "Support 3, recruit late Ch 8"
+      },
+      {
+        "unit": "Halvin",
+        "gift": "Simple Pastries",
+        "alt": "Garum",
+        "until": "Support 3, recruit Ch 9 after Baina"
+      },
+      {
+        "unit": "Sha Lan",
+        "gift": "Common Coffee",
+        "alt": "Select Coffee",
+        "until": "Support 3, recruit Ch 10"
+      },
+      {
+        "unit": "Noctula",
+        "gift": "Tales of Adventure",
+        "until": "Support 3, recruit Ch 10 (filler)"
+      },
+      {
+        "unit": "Nuzzuo",
+        "gift": "Garum",
+        "alt": "Common Coffee",
+        "until": "Support 3, recruit Ch 10 (filler)",
+        "first": true,
+        "note": "In Dagsion from 7/1"
+      },
+      {
+        "unit": "Mikaela",
+        "gift": "Tales of Adventure",
+        "alt": "Garum",
+        "until": "Support 3, recruit Ch 10 (filler)"
+      },
+      {
+        "unit": "Lysander",
+        "gift": "",
+        "alt": "Training Bracelet",
+        "until": "Support 3, recruit Ch 10 (filler)",
+        "note": "Nothing they like is buyable yet: meals carry them"
+      },
+      {
+        "unit": "Nezha",
+        "gift": "Tales of Adventure",
+        "alt": "Training Bracelet",
+        "until": "Support 3, recruit Ch 10 (filler)"
+      },
+      {
+        "unit": "Jester",
+        "gift": "Home-Recipe Book",
+        "until": "Support 3, recruit Ch 11 (filler)",
+        "alt": "Garum"
+      },
+      {
+        "unit": "Seteth",
+        "gift": "Poems of the Greats",
+        "alt": "Common Coffee",
+        "until": "Support 3, recruit Ch 11 (filler)"
+      }
+    ],
+    "weekly": [
+      {
+        "text": "The Theater opens at Renown 7 (usually late Ch 8, often Ch 9)",
+        "detail": [
+          "Whether Stage Shows raise Support is unknown."
+        ]
+      }
+    ]
+  },
+  "missables": [
+    {
+      "id": "leda-ch08-missables-sealed-letter",
+      "kind": "choice",
+      "text": "Deliver the Sealed Letter from the [[place:Unmanned Storehouse]]: pick For the Empire's Safety",
+      "when": "9/1",
+      "where": "Unmanned Storehouse",
+      "lose": "The other branch and its follow-up quest",
+      "recover": "The other chain on another route",
+      "options": [
+        {
+          "pick": "For the Empire's Safety",
+          "gives": "Specialty License (Esmeralda), 200 Renown; Flamma Smugglers in Ch 10"
+        },
+        {
+          "pick": "A Letter of Some Gravity",
+          "gives": "1,000G, 30 Renown; a chain that ends in the Haze Badge (Ch 11)"
+        }
+      ],
+      "detail": [
+        "Its Specialty License is Esmeralda's Armored Knight (Ch 8 at Lv 20, else Ch 9 week 1).",
+        "Listed due 9/19, but 9/19 falls in the gap between Ch 9 and Ch 10: 9/1 is the real deadline."
+      ]
+    }
+  ],
+  "classes": {
+    "override": [
+      {
+        "unit": "Esmeralda",
+        "text": "Armored Knight on the Sealed Letter License once she is Lv 20; else Ch 9 week 1"
+      },
+      {
+        "unit": "Fianna",
+        "text": "Priest at Lv 20: White Magic C from the manual, dungeon heals and Mage weeks"
+      },
+      {
+        "unit": "Jasmine",
+        "text": "Armored Knight now if Lv 20 slipped past Ch 7"
+      }
+    ]
+  },
+  "gear": {
+    "barter": [
+      {
+        "item": "Longbow",
+        "for": "Inyoni, held for her Ch 9 recruit",
+        "at": "Dagsion"
+      }
+    ],
+    "assign": [
+      {
+        "item": "Cleansing Blade",
+        "to": "Guzran",
+        "why": "Near the start of this map; his Ch 11 undead answer"
+      }
+    ],
+    "buy": [
+      {
+        "text": "Dagsion Armorer: a [[item:Wooden Sword]] (300G) for Ludia's late Ch 8 join"
+      }
+    ],
+    "note": [
+      {
+        "text": "Blacksmith: Ludia's [[item:Wooden Sword +5]] the day she joins (Smithing Stone)"
+      }
+    ]
+  },
+  "recruits": [
+    {
+      "unit": "Ludia",
+      "action": "Once Support 3 and Renown 7 land, take her short quest, go to the marker, report back",
+      "when": "Late Ch 8; else Ch 9 week 1",
+      "detail": [
+        "She joins at about Lv 15: hand her the stored Killing Edge, Flyssa and Sea-Spirit Charm.",
+        "Bench sword: Myrmidon at Lv 20 (late Ch 9), Arena Infantry with Inyoni from Ch 9.",
+        "EXP: Cindered Road Cave now, then every Ch 9 dungeon party."
+      ]
+    }
+  ],
+  "prep": [
+    {
+      "text": "Buy 10 Dates on the Ch 9 Baina trip for Halvin's recruit",
+      "detail": [
+        "[[place:Baina Oasis]] sells them (30G each, 10 in stock). Huge Hairy Beasts pays 2.",
+        "Also [[place:Sandflow Road]] or the [[place:Tarvos]] farming spot (Renown 6)."
+      ]
+    },
+    {
+      "text": "Inyoni appears about 7/10: recruit her in Ch 9 week 1 (Renown 7, 3,000G); keep the gold aside"
+    }
+  ],
+  "quests": {
+    "route": [],
+    "sub": [
+      {
+        "quest": "huge-hairy-beasts",
+        "offered": "if-offered",
+        "note": "[[place:Moonwatch Pass]]: pays 2 Dates toward Halvin's 10"
+      },
+      {
+        "quest": "purloined-spellcasters-tools",
+        "offered": "if-offered",
+        "note": "White-Magic Manual for Catania: White B for Physic by Ch 11"
+      },
+      {
+        "quest": "garum-garum-garum",
+        "offered": "if-offered"
+      },
+      {
+        "quest": "blight-louse-extermination-request",
+        "offered": "if-offered"
+      }
+    ],
+    "paralogue": []
+  },
+  "explore": [
+    {
+      "group": "Spare Turns",
+      "text": "[[place:Klytius Plains]] (Melias): [[gather:Ginji]] ×10 for Inyoni's Longbow, [[gather:Jyoppa]] ×4",
+      "detail": [
+        "Jyoppa pay two Archer's Ring barters: Buccar's (Ch 9) and Halvin's (Ch 11)."
+      ]
+    },
+    {
+      "group": "Spare Turns",
+      "text": "[[place:Mount Ouranos]] (Saveilon): [[gather:Cadam]] ×5 for the same Longbow"
+    },
+    {
+      "group": "Spare Turns",
+      "id": "leda-ch08-explore-cindered-road-cave",
+      "loot": true,
+      "text": "Run [[place:Cindered Road Cave]] (Lv 22, Solidus): Esmeralda, Jasmine, Fianna, Ludia + one carry",
+      "detail": [
+        "Flying Manual for Catania, a [[item:Concoction]] and a [[item:Conflagrant Gem]]: the Giant's Ring fallback.",
+        "Esmeralda sits the battle: this cave is her Lv 20 push. Ludia joins the party once recruited."
+      ]
+    }
+  ],
+  "battle": {
+    "title": "Qualifier: Braganca Brotherhood",
+    "objective": "Defeat Inyoni",
+    "lose": "Leda, Cai or Talimun falls",
+    "guests": [
+      "Cai",
+      "Talimun"
+    ],
+    "tips": [
+      {
+        "text": "A long-range shot fires every third turn: keep HP high and check its range with ZL"
+      },
+      {
+        "text": "Pack: Leda a [[item:Dew of Protection]] for that shot; Dadao his [[item:Iron Axe +3]] (no armor)"
+      },
+      {
+        "text": "Grab the [[item:Cleansing Blade]] near the start for Guzran; Esmeralda sits if guests fill slots"
+      },
+      {
+        "text": "Talimun has Heal: use him to top up the front"
+      }
+    ]
+  }
+}

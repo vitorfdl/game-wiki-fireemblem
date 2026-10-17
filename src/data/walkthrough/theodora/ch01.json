@@ -1,0 +1,32 @@
+{
+  "route": "Theodora",
+  "ch": 1,
+  "name": "Theodora, The Iron Bastion",
+  "free": null,
+  "routine": null,
+  "missables": [],
+  "classes": {},
+  "gear": {},
+  "recruits": [],
+  "quests": {
+    "route": [],
+    "sub": [],
+    "paralogue": []
+  },
+  "explore": [],
+  "battle": {
+    "title": "Battle at Mahadu's Shrine",
+    "objective": "Walk Theodora to the marked spot (cutscene), then defeat all enemies",
+    "tips": [
+      {
+        "text": "Walk Theodora to the marked spot first: it triggers the cutscene"
+      },
+      {
+        "text": "Tobias and Bonaventure arrive on Turn 2; Bonaventure heals"
+      },
+      {
+        "text": "Theodora learns the Earthen Throw Blaze Art on Turn 3"
+      }
+    ]
+  }
+}

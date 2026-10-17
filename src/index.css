@@ -1,0 +1,211 @@
+@import "tailwindcss";
+
+@theme static {
+  --color-paper: #f4ecdc;
+  --color-paper-2: #ebdfc6;
+  --color-paper-3: #e2d3b3;
+  --color-card: #fffaf0;
+  --color-ink: #10262a;
+  --color-ink-soft: #3b4d4f;
+  --color-muted: #6b6453;
+  --color-faint: #9c9178;
+  --color-teal: #132b2e;
+  --color-teal-2: #1c3a3d;
+  --color-teal-3: #274b4e;
+  --color-gold: #b0905a;
+  --color-gold-hi: #ead39c;
+  --color-gold-lo: #7d6435;
+  --color-gold-band: #a88c5c;
+  --color-parchment: #e8dcbf;
+  --color-blood: #7a0e14;
+  --color-blood-2: #a81d22;
+  --color-warn: #f6e6dd;
+  --color-warn-ink: #8a3d22;
+  --color-cai: #2d8a5c;
+  --color-cai-2: #d3ecdc;
+  --color-dietrich: #b3352e;
+  --color-dietrich-2: #f3d2cb;
+  --color-theodora: #3453b3;
+  --color-theodora-2: #d3dcf5;
+  --color-leda: #bd3f7a;
+  --color-leda-2: #f5d3e3;
+  /* Display only: the wordmark, big numerals and italic titles. */
+  --font-logo: "Cormorant", Georgia, serif;
+  /* Headings at 20px and up: keeps the ink-brush flavor where letters are large enough to read it. */
+  --font-display: "Shippori Mincho B1", "Yu Mincho", "Hiragino Mincho ProN", Georgia, serif;
+  --font-min: var(--font-display);
+  /* Body, tables, labels and UI: a humanist sans with a large x-height and tabular figures. */
+  --font-sans: "Source Sans 3", "Source Sans Pro", "Segoe UI", system-ui, sans-serif;
+}
+
+:root {
+  --c: var(--color-gold);
+  --c2: #f3e6c6;
+  --bevel: polygon(14px 0, calc(100% - 14px) 0, 100% 14px, 100% calc(100% - 14px), calc(100% - 14px) 100%, 14px 100%, 0 calc(100% - 14px), 0 14px);
+  --bevel-sm: polygon(8px 0, calc(100% - 8px) 0, 100% 8px, 100% calc(100% - 8px), calc(100% - 8px) 100%, 8px 100%, 0 calc(100% - 8px), 0 8px);
+  color-scheme: light;
+}
+
+@layer base {
+  /* Tables: every cell gets a hairline so rows and columns read apart (D-83). */
+  table { border-collapse: collapse; }
+  table th, table td { border: 1px solid rgb(176 144 90 / 0.28); }
+  table thead th { border-bottom-color: rgb(176 144 90 / 0.6); }
+
+  html {
+    background: var(--color-paper);
+    overflow-x: clip;
+    scroll-behavior: smooth;
+  }
+  body {
+    margin: 0;
+    color: var(--color-ink);
+    font-family: var(--font-sans);
+    font-size: 16px;
+    line-height: 1.6;
+    font-weight: 400;
+    font-optical-sizing: auto;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    background: var(--color-paper);
+    overflow-x: clip;
+  }
+  h1,
+  h2 {
+    font-family: var(--font-display);
+    font-weight: 800;
+    letter-spacing: 0.01em;
+  }
+  h3,
+  h4,
+  h5 {
+    font-weight: 700;
+  }
+  kbd {
+    font-family: var(--font-sans);
+    font-size: 0.9em;
+    font-weight: 600;
+    padding: 0 0.35em;
+    border-radius: 3px;
+    background: var(--color-paper-2);
+  }
+  button {
+    cursor: pointer;
+  }
+  :focus-visible {
+    outline: 2px solid var(--c);
+    outline-offset: 2px;
+  }
+}
+
+@utility bevel {
+  clip-path: var(--bevel);
+}
+@utility bevel-sm {
+  clip-path: var(--bevel-sm);
+}
+@utility vertical {
+  writing-mode: vertical-rl;
+}
+/* Small caps labels stay in the sans: Cormorant at 11px is too thin to read. */
+@utility eyebrow {
+  font-family: var(--font-sans);
+  font-weight: 600;
+  font-size: 12.5px;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+@utility label {
+  font-family: var(--font-sans);
+  font-weight: 600;
+  font-size: 11.5px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+@utility ink-mask {
+  mask-image: var(--inkmask);
+  mask-size: 100% 100%;
+}
+@utility ink-edge {
+  mask-image: var(--inkedge);
+  mask-size: 100% 100%;
+}
+@utility paper-grain {
+  background:
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='240' height='240'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='2' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 .35 0 0 0 0 .27 0 0 0 0 .15 0 0 0 .07 0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E"),
+    radial-gradient(900px 600px at 20% 10%, #fbf5e8, transparent 70%), var(--color-paper);
+}
+@utility gold-frame {
+  position: relative;
+  &::before {
+    content: "";
+    position: absolute;
+    inset: 6px;
+    clip-path: var(--bevel);
+    box-shadow: inset 0 0 0 1px rgba(234, 211, 156, 0.45);
+    pointer-events: none;
+    z-index: 3;
+  }
+}
+@utility ribbon {
+  display: inline-flex;
+  align-items: center;
+  padding: 3px 26px 3px 14px;
+  font-family: var(--font-logo);
+  font-weight: 700;
+  font-size: 17px;
+  letter-spacing: 0.08em;
+  color: #fff8e4;
+  background: linear-gradient(90deg, #8e7442, #c4a86e 60%, #8e7442);
+  clip-path: polygon(0 0, 100% 0, calc(100% - 12px) 50%, 100% 100%, 0 100%);
+  text-shadow: 0 1px 0 rgba(60, 40, 10, 0.5);
+}
+
+.compass-bg {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='600' height='600' viewBox='-300 -300 600 600' fill='none' stroke='%237d6435' stroke-width='1'%3E%3Ccircle r='290'/%3E%3Ccircle r='230'/%3E%3Ccircle r='140'/%3E%3Cpath d='M0-290V290M-290 0H290'/%3E%3Cpath d='M0-270L20-20L270 0L20 20L0 270L-20 20L-270 0L-20-20Z'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+}
+
+@keyframes rise {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+}
+.animate-rise {
+  animation: rise 0.35s ease-out both;
+}
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation: none !important;
+    transition: none !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* Scrollbars in the site's paper and gold instead of the system gray. */
+* {
+  scrollbar-color: rgba(125, 100, 53, 0.55) transparent;
+  scrollbar-width: thin;
+}
+html {
+  scrollbar-color: var(--color-gold) var(--color-paper-2);
+}
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(125, 100, 53, 0.55);
+  border: 2px solid transparent;
+  border-radius: 999px;
+  background-clip: padding-box;
+}
+::-webkit-scrollbar-thumb:hover {
+  background-color: var(--color-gold-lo);
+}

@@ -1,0 +1,329 @@
+{
+  "route": "Dietrich",
+  "ch": 8,
+  "name": "Cetus the Sea Tyrant",
+  "free": {
+    "from": "6/15",
+    "to": "7/21"
+  },
+  "unlocks": [
+    "Nysiades Desert",
+    "Theater (Renown 7, usually late Ch 8)",
+    "The hunt 7/21 to 7/31"
+  ],
+  "routine": {
+    "meals": [
+      {
+        "week": "Until Simon is at Support 3 and Dante at Support 2",
+        "tables": [
+          [
+            "Dietrich",
+            "Simon",
+            "Goliath"
+          ],
+          [
+            "Dietrich",
+            "Dante",
+            "Ursula"
+          ],
+          [
+            "Dietrich",
+            "Ursula",
+            "Catania"
+          ]
+        ],
+        "note": "Order Goat Roast, Pumpkin Soup and Coffee-Berry Paste: each is Perfect for its table. Goliath and Ursula also need Support 3."
+      },
+      {
+        "week": "Then",
+        "tables": [
+          [
+            "Dietrich",
+            "Ursula",
+            "Gaitz"
+          ],
+          [
+            "Dietrich",
+            "Ursula",
+            "Catania"
+          ]
+        ],
+        "note": "Gaitz takes the freed seat (Coffee-Berry Paste)."
+      }
+    ],
+    "weekly": [
+      {
+        "text": "Renown order: god audiences when a temple shows gold (about 50), quick quests, then Empire's Safety",
+        "detail": [
+          "Audiences don't come every week: the quests carry the plan.",
+          "Quick quests that need no Renown: Blight-Louse 50, Huge Hairy Beasts 80, Rare Stone 80, Garum 100, Purloined 80.",
+          "Also any Ch 6 to 7 quest still open from the 9/1 list."
+        ]
+      }
+    ]
+  },
+  "missables": [
+    {
+      "id": "dietrich-ch08-missables-sealed-letter",
+      "kind": "choice",
+      "text": "Pick For the Empire's Safety: a Specialty License and 200 Renown now",
+      "when": "by 9/19",
+      "where": "[[place:Unmanned Storehouse]] (Thaleia, northwest of Dagsion)",
+      "lose": "the other Sealed Letter chain on this path",
+      "recover": "A later path: subquests you finish carry over as auto-completes",
+      "options": [
+        {
+          "pick": "For the Empire's Safety",
+          "gives": "Specialty License, 200 Renown; Flamma Smugglers (Ch 10) pays 2 Wootz Steel",
+          "quests": [
+            "for-the-empires-safety",
+            "flamma-smugglers"
+          ]
+        },
+        {
+          "pick": "A Letter of Some Gravity",
+          "gives": "30 Renown; Assassination (Ch 10), then A Lost Object (Ch 11): Haze Badge",
+          "quests": [
+            "a-letter-of-some-gravity",
+            "assassination-no-questions",
+            "a-lost-object"
+          ]
+        }
+      ],
+      "detail": [
+        "Accept it from Captain Daniel (Hightown or Temple Row: find him with Map > People).",
+        "Carriage to Aragonia Posthouse, walk southeast, then Search the storehouse for the letter.",
+        "Don't talk to the Suspicious Knight at the Port about the letter: his quest locks this one out."
+      ],
+      "task": true
+    },
+    {
+      "id": "dietrich-ch08-missables-lowtown-alley",
+      "kind": "scene",
+      "text": "Visit the Lowtown alley at 18:00 (pulsing circle): an optional scene plus an Event Clash",
+      "when": "6/15 to 7/21, any day at 18:00",
+      "where": "Lowtown",
+      "lose": "the scene and its Event Clash",
+      "recover": "None",
+      "task": true
+    },
+    {
+      "id": "dietrich-ch08-missables-uncharted-isle",
+      "kind": "item",
+      "text": "Clear the [[place:Uncharted Isle]] dungeon: [[item:Anguishing Shield]] and Thick Foreign Tome",
+      "when": "Ch 8 only",
+      "lose": "both items on this path (Archive T from the tome is Part III)",
+      "recover": "Theodora's path can get them",
+      "detail": [
+        "Can't reach the isle during the hunt? Skip it: the loot is minor."
+      ],
+      "conf": "?",
+      "task": true
+    },
+    {
+      "id": "dietrich-ch08-missables-garum-before-hunt",
+      "quest": "garum-garum-garum",
+      "kind": "timing",
+      "text": "Turn in Garum, Garum, Garum! before the hunt starts on 7/21: free time ends then",
+      "when": "by 7/21 (both due 7/31)",
+      "lose": "Garum, Garum, Garum! (8,000G, 100 Renown)",
+      "recover": "None",
+      "task": true
+    }
+  ],
+  "classes": {
+    "note": {
+      "text": "Take each new recruit's Specialty exam the day they reach Lv 20: Jester, Goliath, Simon, Olympia",
+      "detail": [
+        "Most of them get there in Ch 9: their rows are in that chapter.",
+        "Dante and Catania join at Renown 8 (usually Ch 10), about Lv 25 and already in a Specialty class."
+      ]
+    }
+  },
+  "gear": {
+    "buy": [
+      {
+        "text": "Buy 8 Advanced Licenses in [[place:Megaira]]: Renown 8 and Lv 35 unlock the exams (Ch 10)",
+        "detail": [
+          "Short on gold (Dante's 8,000G comes in Ch 10)? Buy 4 now and the rest in Dagsion from Ch 10.",
+          "Expect the first four at Lv 35 in Ch 10, the other four in Ch 11 to 12."
+        ]
+      },
+      {
+        "text": "Buy or fish 5 Garum before 7/21 for Garum, Garum, Garum!"
+      }
+    ]
+  },
+  "recruits": [
+    {
+      "unit": "Jester",
+      "action": "Finish his three short quests the day Renown 6 lands: follow each marker and report back",
+      "when": "Late Ch 7 at best, usually early Ch 8",
+      "detail": [
+        "Recruited in Ch 10 or later he joins about Lv 25 as a Myrmidon with a [[item:Levin Sword]].",
+        "That skips Dietrich's Vandahl Levin Sword barter but costs him the Ch 8 and 9 maps: this plan takes him now."
+      ]
+    },
+    {
+      "unit": "Olympia",
+      "action": "Finish her three quests the day Renown 6 lands; bring Scarlet Drops if one asks",
+      "when": "Late Ch 7 at best, usually early Ch 8",
+      "conf": "?",
+      "detail": [
+        "Deploy her every map from now: Ovate needs Black Magic B.",
+        "Her [[item:Magic Staff]] comes from Vandahl Dagsion (Zamir ×1); the Corroios chest copy is Fabio's."
+      ]
+    },
+    {
+      "unit": "Goliath",
+      "action": "Hand over 3 Giant's Meat once Renown 6 lands: a Giant always spawns at Sand-Shadow Fort",
+      "when": "Ch 8 or 9, before the Ch 11 battle",
+      "detail": [
+        "Recruit him early: he's 8th on the Advanced list.",
+        "More meat: Giant-icon skirmishes south of Breston and west of Credna's Temple (via Chiron Posthouse).",
+        "Those run around Lv 35 and give about 2 meat each; Luxury Meat Crates can also drop it."
+      ]
+    },
+    {
+      "unit": "Simon",
+      "action": "Call Tails on his coin flip at Support 3 and Renown 7",
+      "when": "Late Ch 8 (Renown 7), else Ch 9",
+      "detail": [
+        "Fight with gauntlets from day one: Warrior needs Gauntlet B."
+      ]
+    },
+    {
+      "unit": "Fianna",
+      "action": "Pay 3,000G at Support 3 and Renown 7: she supports Simon, Ursula and Olympia",
+      "when": "Late Ch 8 (Renown 7), else Ch 9",
+      "detail": [
+        "Filler, bench only."
+      ]
+    }
+  ],
+  "prep": [
+    {
+      "text": "Dante: build Support 2 and save 8,000G now; she joins at Renown 8, usually Ch 10"
+    },
+    {
+      "text": "Catania: hold every Flying Manual for her (joins at Renown 8, usually Ch 10)",
+      "detail": [
+        "Manuals: Dione Fort (Ch 6), Cindered Road Cave (Ch 7), the sculptor quest."
+      ]
+    },
+    {
+      "text": "Gaitz: if you can find him in Bertrand's army, start his meals now (Support 3 by Ch 12)"
+    }
+  ],
+  "quests": {
+    "route": [
+      {
+        "quest": "dread-warrior-il-lara",
+        "note": "Renown 6, [[place:Dione Fort]]: unlocks Guardian for every later path",
+        "detail": [
+          "Nobody here takes Guardian: Esmeralda's heavy armor and thrown spears suit Dreadnought better than Mag 20 heals."
+        ]
+      },
+      {
+        "quest": "dread-warrior-cabaye",
+        "note": "Renown 7 (usually late Ch 8), [[place:Stoppered Shrine]]; if it comes too late, early Ch 9"
+      }
+    ],
+    "sub": [
+      {
+        "quest": "for-the-empires-safety",
+        "note": "The pick: 200 Renown is the biggest single push toward Renown 7 and 8",
+        "detail": [
+          "Not on the board? Check Temple Row and Hightown each week until 9/19.",
+          "If it never appears, Ch 9's Paralogues cover the Renown. You need Renown 10 for Gaitz."
+        ]
+      },
+      {
+        "quest": "a-letter-of-some-gravity",
+        "skip": true,
+        "note": "Skip: take the Haze Badge chain on a later path"
+      },
+      {
+        "quest": "garum-garum-garum",
+        "note": "5 Garum of any kind to the Wealthy Man at the Inn: 8,000G, before 7/21"
+      },
+      {
+        "quest": "huge-hairy-beasts",
+        "note": "[[place:Moonwatch Pass]], for the Peddler at Vandahl"
+      },
+      {
+        "quest": "blight-louse-extermination-request",
+        "note": "[[place:Bugs' Burrow]], for the Soldier at the Port"
+      },
+      {
+        "quest": "purloined-spellcasters-tools",
+        "note": "[[place:Secret Altar]]: the White-Magic Manual goes to Yang Jie or Dante"
+      }
+    ],
+    "paralogue": []
+  },
+  "explore": [
+    {
+      "group": "Nysiades Desert",
+      "id": "dietrich-ch08-explore-sand-shadow-fort",
+      "loot": true,
+      "text": "Sand-Shadow Fort: a guaranteed Giant (Giant's Meat), [[item:Gundogya]] (axe), Large Bullion",
+      "detail": [
+        "Also a [[item:Concoction]]."
+      ]
+    },
+    {
+      "group": "Nysiades Desert",
+      "id": "dietrich-ch08-explore-aditis-cave",
+      "loot": true,
+      "text": "[[place:Aditi's Cave]]: about 7 Sandworms (best Sandworm Meat farm), Large Bullion, Spirit Board",
+      "detail": [
+        "Skip Archive L: Fabio learns Luna at Black Magic A.",
+        "You come back for Damien at Renown 8 (usually Ch 10)."
+      ]
+    },
+    {
+      "group": "Nysiades Desert",
+      "id": "dietrich-ch08-explore-dragonbone-tangle",
+      "loot": true,
+      "text": "Dragonbone Tangle: [[item:Hunter's Ring]], [[item:Hexlock Shield]], Lucky Coin",
+      "detail": [
+        "The Hunter's Ring (Wt 4) is too heavy for Dietrich: his fallback is the [[item:Archer's Ring]].",
+        "The spare Hexlock Shield is Goliath's swap for mage maps."
+      ]
+    },
+    {
+      "group": "Skirmishes",
+      "text": "Fight Giant-icon skirmishes (around Lv 35) for the rest of Goliath's meat"
+    }
+  ],
+  "battle": {
+    "title": "The hunt, then vs. the Sea Tyrant",
+    "objective": "Defeat Cetus",
+    "lose": "Dietrich falls",
+    "tips": [
+      {
+        "text": "Hunt 7/21 to 7/31: use Answerer's Cry at Pasha Currents, Wandering Whirlpool and Eif Channel",
+        "detail": [
+          "Cetus then appears at the Sea of Screams."
+        ]
+      },
+      {
+        "text": "Use the Magic Traps at the marked spots to stun Cetus"
+      },
+      {
+        "text": "After the battle, nod to Fabio for a Support boost"
+      }
+    ],
+    "loot": [
+      {
+        "text": "[[item:Grasitha]] (spear): give it to Esmeralda and stock thrown spears for Throwing Arm+"
+      }
+    ]
+  },
+  "exitExtra": [
+    {
+      "text": "Advanced Licenses bought: 8, or 4 now and 4 in Dagsion in Ch 10"
+    }
+  ]
+}

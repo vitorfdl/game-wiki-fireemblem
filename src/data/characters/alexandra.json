@@ -1,0 +1,829 @@
+{
+  "name": "Alexandra",
+  "slug": "alexandra",
+  "epithet": "The Silver Maiden",
+  "faction": "Temple Army (Silver Knights of Therus)",
+  "homeRoute": "Theodora",
+  "weapons": [
+    "Spear",
+    "Sword"
+  ],
+  "preferred": [
+    "Flier",
+    "Spear",
+    "Sword"
+  ],
+  "avoid": [
+    "Axe",
+    "Black Magic"
+  ],
+  "personality": "Well-bred, disciplined temple knight.",
+  "story": "Alexandra Tamsanqa is a Silver Knight of the Temple Army at Jurah Temple in Dagsion, nicknamed the Silver Maiden. She comes from a privileged background, her parents are dead, and she has an unnamed uncle. She can be recruited from around 29/5 and is easiest to get on Theodora's route (Renown 6). She has an A-rank support with Cai.",
+  "personalSkill": {
+    "name": "Silver Maiden",
+    "effect": "Hit/Avo+5 for each adjacent ally. Lv20: Soar (AS+3 on inaccessible terrain); Lv35: Soar+ (AS+5)."
+  },
+  "growths": {
+    "HP": 30,
+    "Str": 35,
+    "Mag": 35,
+    "Spd": 55,
+    "Dex": 45,
+    "Def": 30,
+    "Res": 40,
+    "Lck": 50,
+    "Cha": 50
+  },
+  "supports": [
+    "Cai",
+    "Theodora",
+    "Gaitz",
+    "Olympia",
+    "Sirocco"
+  ],
+  "tiers": [
+    {
+      "source": "Pocket Tactics",
+      "tier": "A"
+    },
+    {
+      "source": "KeenGamer",
+      "tier": "B"
+    }
+  ],
+  "tierNotes": "Pocket Tactics: A tier. KeenGamer: B tier (55% Spd, 50% Lck flier). Reddit: mediocre offense; serviceable flier with decent Def/Res; low HP (single-report pattern).",
+  "recruit": {
+    "how": "recruit",
+    "renown": 6,
+    "extra": "Appears in Dagsion ~5/29",
+    "why": [
+      "Lowest Support requirement of any route: 1 here vs Cai 2, Dietrich 3, Leda 3.",
+      "Supports Theodora and Sirocco, both in this army."
+    ],
+    "tip": "Gift her the first Sunday of Ch 8, seat her with Theodora and Sirocco, then recruit her that week: she deploys on the Ch 8 map."
+  },
+  "requirements": {
+    "Cai": "2S 7R",
+    "Dietrich": "3S 8R",
+    "Theodora": "6R",
+    "Leda": "3S 10R"
+  },
+  "build": {
+    "role": "Lead flier, sword striker and Res dodge tank",
+    "path": [
+      "Class on join (Beginner, Ch 8)",
+      "Wing Soldier (Ch 9 to end of Part II)",
+      "Celestial Trooper (Part III, Lv 45)"
+    ],
+    "part1Target": "Wing Soldier (Bucephalus), Protecting Wings mastered",
+    "part3Target": "Celestial Trooper (Bucephalus)",
+    "notes": "Recruit Ch 8 week 1 at about Lv 15 in a Beginner class; Wing Soldier on Bucephalus at Lv 20 (Ch 9) grows Spd 80, Res 50. She stays mounted through Part II (no Guardian stint) and takes Celestial Trooper at Lv 45 for Lightning Reflexes.",
+    "confidence": "medium"
+  },
+  "guide": {
+    "role": "Lead flier, sword striker and Res dodge tank",
+    "summary": "The army's lead flier and its carry: a fast sword striker who also tanks mages. She joins in Ch 8 at about Lv 15, flies from Ch 9 on Bucephalus and ends as a Celestial Trooper whose Lightning Reflexes hits twice before the counter. Keep her beside Loretta, Lysander or Lilian (the Strike group) for Silver Maiden and out of bow range.",
+    "playstyle": "Player phase: fly in, double with the Da Mina Sword, or hit armor with Lightning Strike, then end beside two allies. Enemy phase: bait mages on the Res side and stay out of bow range.",
+    "focus": [
+      "Spd",
+      "Res",
+      "Str"
+    ],
+    "keys": [
+      "Recruit her Ch 8 week 1: gift, then the Theodora + Sirocco meal, then recruit",
+      "Barter the Levin Sword on join; [[item:Da Mina Sword]] at Sword C (Ch 9): Mt 15 at +1, Wt 4",
+      "Book Arena Mounted and Infantry every Ch 8 week: Spear C and Sword C by Lv 20",
+      "Take [[class:Wing Soldier]] on Bucephalus at Lv 20 (Ch 9): Spd 80, Res 50 growth",
+      "End every turn beside 2 allies: Silver Maiden Hit/Avo +10",
+      "Split kills between sword and spear: [[class:Celestial Trooper]] needs both at A"
+    ],
+    "watch": [
+      "Weight: Da Mina Sword 4 + Phantom Ring 3 = 7 in Parts I-II. Part III: Iron Sword +4 4 + Gale Ring 2 + Shield of Zephyrus 5 = 11; bow-free map: shield off first (AS +5 past Bld).",
+      "Bows: Effective+ (3x Mt) vs fliers. Check every bow's range before you end her turn.",
+      "Join level: about Lv 15 in Ch 8, ~10 under the core. Feed her kills to Lv 20.",
+      "Inventory: 5 core (Da Mina Sword, Levin Sword, Da Mina Spear, Phantom Ring, Concoction); slot 6 swaps.",
+      "Lightning Reflexes: AS +10 over the foe when she attacks first. Gale Ring (Spd +3), Soar+ (AS +5) and Flitting Flier (AS +2) build it."
+    ],
+    "stages": [
+      {
+        "when": "Ch 8 to Lv 20: class on join",
+        "from": {
+          "part": 1,
+          "ch": 8
+        },
+        "to": {
+          "lv": 20
+        },
+        "level": "About Lv 15 on join (Ch 8 week 1) to 20",
+        "class": "",
+        "kind": "core",
+        "mount": "None until Wing Soldier",
+        "goal": "Reach Lv 20 with Spear C and Sword C. Spear and sword only; end turns beside 2 allies.",
+        "exit": "Leave at Lv 20 with Flying D, Spear C and Sword C: Wing Soldier exam.",
+        "masteries": [],
+        "weapons": [
+          {
+            "item": "Iron Sword",
+            "why": "Mt 9, Hit 90, Wt 4: trains Sword C (Sword D on join ?)",
+            "alts": [
+              "Wooden Sword"
+            ],
+            "plan": "Until Sword C; Da Mina Sword at Ch 9"
+          },
+          {
+            "item": "Iron Spear",
+            "why": "Mt 10, Hit 80, Wt 7: trains Spear C",
+            "alts": [
+              "Wooden Spear"
+            ],
+            "plan": "Until Spear C; Da Mina Spear at Ch 9"
+          },
+          {
+            "item": "Levin Sword",
+            "why": "Barter it this week; equip it the day Sword C shows"
+          }
+        ],
+        "equipment": [],
+        "items": [
+          {
+            "item": "Concoction",
+            "why": "40 HP x2: she joins about 10 levels under the core",
+            "alts": [
+              "Vulnerary"
+            ]
+          }
+        ],
+        "arts": [
+          {
+            "name": "Haze Slice",
+            "why": "Sword D: Avo +10 on bait turns"
+          },
+          {
+            "name": "Gale Spear",
+            "why": "Spear D: Mt +4, Crit +5"
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Swords Lv. 1",
+            "why": "Sword D+: Hit +3 with swords"
+          },
+          {
+            "name": "Spears Lv. 1",
+            "why": "Spear D+: Hit +3 with spears"
+          },
+          {
+            "name": "Read the Winds",
+            "why": "Flying D (her exam rank): Avo +10 vs bows"
+          },
+          {
+            "name": "Knightly Senses",
+            "why": "Riding D: Avo +10 vs spears; Mounted trains it too"
+          },
+          {
+            "name": "Distraction",
+            "why": "Authority D: Hit -3 on adjacent foes"
+          }
+        ],
+        "battalion": {
+          "name": "Hunter-Drifters",
+          "why": "Str +1, Spd +1, Dex +1, Cha +4 at Authority D",
+          "where": "From Zarcone (stored after Ch 7), Ch 8",
+          "situational": "Leaves at Wing Soldier: fliers carry none"
+        },
+        "training": [
+          {
+            "rank": "Flying D, Spear C, Sword C",
+            "for": "Wing Soldier exam (Lv 20)",
+            "how": "Arena Mounted (Spear, Flier) and Infantry (Sword) every Ch 8 week; read the Flying Manual from Legacy of a Legendary Sculptor"
+          },
+          {
+            "rank": "Riding D, Authority D",
+            "for": "Knightly Senses, Distraction",
+            "how": "Same Arena Mounted seat (start ranks ?)"
+          }
+        ],
+        "tips": [
+          "Week 1: Simple Pastries (27G, Lowtown Tavern), then the Theodora + Sirocco + Alexandra meal",
+          "Never swing an axe: she avoids Axe, and Wing Soldier wants Spear and Sword",
+          "Keep the join class: Soldier, Ornius Rider and Gladiator exams need Axe D, Hunter drops spears",
+          "Join class without a spear? Spear C rests on Arena Mounted: book it every week"
+        ],
+        "why": [
+          "Joins at about Lv 15 in a Beginner class (which one ?) and takes Zarcone's seat on the Ch 8 map",
+          "Silver Maiden: Hit/Avo +5 per adjacent ally, so two neighbours cover the level gap"
+        ]
+      },
+      {
+        "when": "Ch 9 to 12: Wing Soldier from Lv 20",
+        "from": {
+          "part": 1,
+          "ch": 9
+        },
+        "to": {
+          "part": 1,
+          "ch": 12
+        },
+        "level": "Lv 20 (Ch 9) to about 30–32",
+        "class": "Wing Soldier",
+        "kind": "core",
+        "mount": "Bucephalus (her own): Spd 80, Res 50 growth on her",
+        "goal": "Lead flier: double with Da Mina Sword +1; Levin Sword +1 on armor. Soar (Lv 20): AS +3 over water or cliffs.",
+        "exit": "Stay through Part I: Bucephalus only fits Wing Soldier and Celestial Trooper.",
+        "masteries": [
+          "Protecting Wings"
+        ],
+        "weapons": [
+          {
+            "item": "Da Mina Sword +1",
+            "why": "Main: Mt 15, Wt 4, arts Hit +10; follow-ups 1.2x",
+            "alts": [
+              "Iron Sword"
+            ],
+            "plan": "Ch 9 at Sword C, +1 at Renown 7; +2 at Renown 10, Ch 12"
+          },
+          {
+            "item": "Levin Sword +1",
+            "why": "Mt ? (12 base): magic at 1-2 on armor and high-Def foes",
+            "plan": "+2 at Renown 10, Ch 12: the route's ledger refine (rare ore)"
+          },
+          {
+            "item": "Da Mina Spear",
+            "why": "Mt 13, Hit 80, Wt 7: Spear EXP toward A",
+            "alts": [
+              "Iron Spear"
+            ],
+            "plan": "Ch 9 at Spear C; refines go to the sword"
+          }
+        ],
+        "equipment": [
+          {
+            "item": "Phantom Ring",
+            "why": "Avo +5, Wt 3: dodge-tank budget; stacks with Silver Maiden",
+            "slot": "Accessory",
+            "alts": [
+              "Bowbreak Amulet",
+              "Gale Ring"
+            ]
+          }
+        ],
+        "items": [
+          {
+            "item": "Concoction",
+            "why": "40 HP x2",
+            "alts": [
+              "Vulnerary"
+            ]
+          },
+          {
+            "item": "Pure Water",
+            "why": "Res +10, −2 a turn: the mage-bait turn",
+            "situational": "Ch 11 Fire Orb side: open slot"
+          }
+        ],
+        "arts": [
+          {
+            "name": "Lightning Strike",
+            "why": "Levin Sword art: Mt +8, magic, range 1-2"
+          },
+          {
+            "name": "Rend Armor",
+            "why": "Sword C: effective vs armor"
+          },
+          {
+            "name": "Gale Blow",
+            "why": "Sword B: Mt +7, Atk +5 at Spd/2 %"
+          },
+          {
+            "name": "Flowing Spear",
+            "why": "Spear C: Avo +10"
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Soar",
+            "why": "Lv 20: AS +3 on inaccessible terrain"
+          },
+          {
+            "name": "Protecting Wings",
+            "why": "Wing Soldier mastery: Res +3, once mastered"
+          },
+          {
+            "name": "Swords Lv. 2",
+            "why": "Sword C+: Hit +5 with swords, Levin Sword too"
+          },
+          {
+            "name": "Read the Winds",
+            "why": "Avo +10 vs bows: bows hit her 3x"
+          },
+          {
+            "name": "Knightly Senses",
+            "why": "Avo +10 vs spears"
+          }
+        ],
+        "training": [
+          {
+            "rank": "Flying C, Spear B, Sword B",
+            "for": "Spear and Sword A push for Celestial Trooper",
+            "how": "Arena Mounted (Spear, Flier) and Infantry (Sword); Wing Soldier trains both +1"
+          }
+        ],
+        "checks": [
+          {
+            "stat": "Spd",
+            "at": "Lv 25 (Ch 10)",
+            "need": "Forecast shows x2 on most Ch 10 foes with the Da Mina Sword +1",
+            "why": "Two sword hits are her damage, and Spd feeds the Avo she tanks with",
+            "fix": [
+              "Fight from water or cliffs: [[ability:Soar]] AS +3",
+              "Take the [[item:Phantom Ring]] off on offense maps: Wt 3 back",
+              "[[item:Date Juice]] AS +3 for the map (source ?)"
+            ]
+          },
+          {
+            "stat": "Res",
+            "at": "Ch 11 prep",
+            "need": "A Ch 11 mage's hit shows under a third of her HP in the forecast",
+            "why": "She baits the Fire Orb side",
+            "fix": [
+              "[[item:Pure Water]]: Res +10, −2 a turn",
+              "End beside Sofia: [[ability:Barrier]] Res +3",
+              "Master [[ability:Protecting Wings]] first: Res +3"
+            ]
+          }
+        ],
+        "tips": [
+          "Ch 9: Wing Soldier on a Specialty License the week she hits Lv 20",
+          "Mage side from Ch 10: Sofia's Barrier and Silver Maiden beside her, casters behind",
+          "Ch 11 vs Cai: left (Fire Orb) group with Sirocco, Bonaventure and Sofia",
+          "Ch 12: flier waves hit from behind; keep her out of their range",
+          "Talimun's Paralogue (Ch 11) pays a Cleansing Blade: store it for Part III"
+        ],
+        "why": [
+          "Her 6 items at the end of Ch 12 are her Part II kit: Pure Water in slot 6"
+        ],
+        "drop": [
+          {
+            "item": "Swords Lv. 1",
+            "why": "Swords Lv. 2 replaces it at Sword C+"
+          },
+          {
+            "item": "Spears Lv. 1",
+            "why": "The sword is her main hand; Avo serves the dodge tank more"
+          },
+          {
+            "item": "Distraction",
+            "why": "Protecting Wings takes the slot"
+          }
+        ]
+      },
+      {
+        "when": "Part II Ch 1 to 6: Wing Soldier",
+        "from": {
+          "part": 2,
+          "ch": 1
+        },
+        "to": {
+          "part": 3,
+          "ch": 2
+        },
+        "level": "Lv 37 (drills) to about 43",
+        "class": "Wing Soldier",
+        "kind": "core",
+        "mount": "Bucephalus",
+        "goal": "Lead flier and Onager bait. Soar+ (Lv 35): AS +5 over water or cliffs; Silver Maiden beside 2 allies.",
+        "exit": "At Lv 45 with Flying C, Spear A and Sword A: Celestial Trooper.",
+        "masteries": [],
+        "weapons": [
+          {
+            "item": "Da Mina Sword +2",
+            "why": "Main: Mt 20, Wt 4, arts Hit +10; follow-ups 1.2x",
+            "alts": [
+              "Iron Sword"
+            ],
+            "plan": "+2 at Renown 10 (Ch 12); equipped carry-over"
+          },
+          {
+            "item": "Levin Sword +2",
+            "why": "Magic at 1-2: armor, and Dagda's low Res (Ch 5)",
+            "plan": "+2 at Renown 10 (Ch 12); equipped carry-over"
+          },
+          {
+            "item": "Da Mina Spear",
+            "why": "Spear EXP toward A; Wt 7",
+            "plan": "Equipped carry-over"
+          }
+        ],
+        "equipment": [
+          {
+            "item": "Phantom Ring",
+            "why": "Avo +5, Wt 3",
+            "slot": "Accessory",
+            "plan": "Equipped carry-over",
+            "alts": [
+              "Bowbreak Amulet",
+              "Gale Ring"
+            ]
+          }
+        ],
+        "items": [
+          {
+            "item": "Concoction",
+            "why": "Ch 12 stock: no shops in Part II",
+            "alts": [
+              "Vulnerary"
+            ]
+          },
+          {
+            "item": "Pure Water",
+            "why": "Res +10, −2 a turn",
+            "situational": "Ch 5 Fire Orb and Onager bait: slot 6",
+            "plan": "Carried from Ch 12"
+          }
+        ],
+        "arts": [
+          {
+            "name": "Lightning Strike",
+            "why": "Levin Sword art: Mt +8, magic"
+          },
+          {
+            "name": "Rend Armor",
+            "why": "Sword C: effective vs armor"
+          },
+          {
+            "name": "Gale Blow",
+            "why": "Sword B: Mt +7, Atk +5 at Spd/2 %"
+          },
+          {
+            "name": "Flowing Spear",
+            "why": "Spear C: Avo +10"
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Soar+",
+            "why": "Lv 35: AS +5 on inaccessible terrain"
+          },
+          {
+            "name": "Protecting Wings",
+            "why": "Wing Soldier mastery: Res +3"
+          },
+          {
+            "name": "Swords Lv. 3",
+            "why": "Sword B+: Hit/Avo +5 (Wing Soldier Sword +1 a fight); Lv. 2 until then"
+          },
+          {
+            "name": "Read the Winds",
+            "why": "Avo +10 vs bows: Ch 4 bow waves"
+          },
+          {
+            "name": "Flitting Flier",
+            "why": "Flying C+? (past the exam's C, in battle): AS +2 when she attacks first"
+          }
+        ],
+        "drop": [
+          {
+            "item": "Soar",
+            "why": "Soar+ replaces it at Lv 35"
+          },
+          {
+            "item": "Swords Lv. 2",
+            "why": "Swords Lv. 3 replaces it at Sword B+"
+          },
+          {
+            "item": "Knightly Senses",
+            "why": "Flitting Flier takes the slot: AS for doubles"
+          }
+        ],
+        "training": [
+          {
+            "rank": "Flying C, Spear A, Sword A",
+            "for": "Celestial Trooper exam (Lv 45)",
+            "how": "Battle only past B: Wing Soldier +1 each; Increase Sword/Spear EXP boons"
+          },
+          {
+            "rank": "Flying C+",
+            "for": "Flitting Flier",
+            "how": "Arena Mounted; battles with it count too"
+          }
+        ],
+        "tips": [
+          "Ch 2: fly the southeast Ranger chase with Lysander; his kill takes the Cleansing Blade +1",
+          "Ch 4: Dragoons come in from the map sides",
+          "Ch 5: park her at the Onager's farthest range, Pure Water up",
+          "Split kills between sword and spear: the Master exam wants both at A"
+        ]
+      },
+      {
+        "when": "Part III Section 3+ (Celestial Trooper)",
+        "from": {
+          "part": 3,
+          "ch": 3
+        },
+        "level": "Lv 45+ (Master License from Section 2)",
+        "class": "Celestial Trooper",
+        "kind": "core",
+        "mount": "Falicorn (Raptor's Throat, Section 2; roll Canto); Bucephalus until bond 3",
+        "goal": "Lightning Reflexes at AS +10: Iron Sword +4, Gale Ring, Soar+. Shield of Zephyrus (S5) stops 3x bow hits.",
+        "exit": "Endpoint. Lightning Reflexes comes on the way.",
+        "masteries": [
+          "Lightning Reflexes"
+        ],
+        "weapons": [
+          {
+            "item": "Iron Sword +4",
+            "why": "Main: Mt 21, Hit 90, Wt 4; Dex rises from +3",
+            "alts": [
+              "Da Mina Sword +2",
+              "Silver Sword +2"
+            ],
+            "plan": "Soulstone for +3 and +4; Da Mina +2 until then"
+          },
+          {
+            "item": "Cleansing Blade +2",
+            "why": "Boon answer: Mt 16?, Wt 3; same sword arts as the main"
+          },
+          {
+            "item": "Iron Spear +4",
+            "why": "Effective vs cavalry: Mt 22?, Wt 7; carries Flying Spear",
+            "situational": "Cavalry maps: slot 6",
+            "alts": [
+              "Da Mina Spear +2"
+            ],
+            "plan": "Soulstone for +3 and +4; Da Mina +2 until then"
+          }
+        ],
+        "equipment": [
+          {
+            "item": "Shield of Zephyrus",
+            "why": "Cancels effective-vs-flying: bows lose 3x Mt; Wt 5",
+            "slot": "Defense",
+            "plan": "Section 5 hand-over; before it, dismount at bow lines",
+            "alts": [
+              "Bowbreak Amulet"
+            ]
+          },
+          {
+            "item": "Gale Ring",
+            "why": "Spd +3, Wt 2: widens the Reflexes margin",
+            "slot": "Accessory",
+            "plan": "Boon or Reliquary buy",
+            "alts": [
+              "Phantom Ring",
+              "Bird-Plume Amulet"
+            ]
+          }
+        ],
+        "items": [
+          {
+            "item": "Elixir",
+            "why": "100 HP",
+            "alts": [
+              "Concoction"
+            ]
+          }
+        ],
+        "arts": [
+          {
+            "name": "Gale Blow",
+            "why": "Sword B: Mt +7, Atk +5 at Spd/2 %"
+          },
+          {
+            "name": "Rend Armor",
+            "why": "Sword C: effective vs armor on a Mt 21 sword"
+          },
+          {
+            "name": "Haze Slice",
+            "why": "Sword D: Mt +3, Avo +10"
+          },
+          {
+            "name": "Flying Spear",
+            "why": "Spear A: follow-up before the counter (Iron Spear +4)"
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Lightning Reflexes",
+            "why": "Mastery: follow-up before the counter at AS +10, once mastered"
+          },
+          {
+            "name": "Soar+",
+            "why": "Lv 35: AS +5 on inaccessible terrain"
+          },
+          {
+            "name": "Flitting Flier",
+            "why": "AS +2 when she attacks first: feeds Lightning Reflexes"
+          },
+          {
+            "name": "Swords Lv. 4",
+            "why": "Sword A+: Hit/Avo +7 (the exam needs A); Lv. 3 until then"
+          },
+          {
+            "name": "Read the Winds",
+            "why": "Avo +10 vs bows: Cohen's and Lyrah's archers"
+          }
+        ],
+        "drop": [
+          {
+            "item": "Da Mina Sword +2",
+            "why": "Iron Sword +4: Mt 21 vs 20; Silver +2 is a Boon buy for 1 Mt"
+          },
+          {
+            "item": "Levin Sword +2",
+            "why": "Rend Armor on the Iron Sword covers armor; Mag growth −5"
+          },
+          {
+            "item": "Da Mina Spear",
+            "why": "Iron Spear +4 out-mights it at the same Wt 7"
+          },
+          {
+            "item": "Pure Water",
+            "why": "Shield of Zephyrus from Section 5"
+          },
+          {
+            "item": "Protecting Wings",
+            "why": "Slot goes to Lightning Reflexes: AS before Res +3"
+          },
+          {
+            "item": "Swords Lv. 3",
+            "why": "Swords Lv. 4 replaces it at Sword A+"
+          },
+          {
+            "item": "Phantom Ring",
+            "why": "Gale Ring takes the slot"
+          }
+        ],
+        "checks": [
+          {
+            "stat": "Spd",
+            "at": "Lv 45",
+            "need": "Her AS is 10+ over common gate foes' AS (unit screens)",
+            "why": "Lightning Reflexes only fires at AS +10 when she attacks first",
+            "fix": [
+              "Fight from inaccessible terrain: [[ability:Soar+]] AS +5",
+              "Shield off on bow-free maps; Tialla's Song of Courage Spd +2",
+              "Cleansing Blade +2 in hand: Wt 3 instead of 4"
+            ]
+          }
+        ],
+        "tips": [
+          "Silver Maiden: end beside Seteth and Cai for Hit/Avo +10",
+          "Cohen: Lust reads Cha (60 growth here): she takes the duels, then runs down carriers",
+          "Hanno: scout the fog from cliffs and water, where Soar+ adds AS +5",
+          "Tialla's Song of Courage (Spd +2) widens the AS +10 margin"
+        ],
+        "why": [
+          "Exam: Flying C, Spear A, Sword A, Lv 45, Master License"
+        ],
+        "training": [
+          {
+            "rank": "Sword A+",
+            "for": "Swords Lv. 4",
+            "how": "Arena Warrior; battles with it count too"
+          }
+        ]
+      }
+    ],
+    "alt": "Spear or Sword A late in Part III: stay Wing Soldier with this kit and take Celestial Trooper the Section both land.",
+    "sources": [
+      "class-and-weapon-guide",
+      "class-data",
+      "character-learnsets",
+      "equippable-abilities",
+      "weapons-and-items",
+      "combat-arts-and-abilities",
+      "player-pacing-and-recruit-items",
+      "notable-deeds-and-boons",
+      "walkthrough-part1-theodora",
+      "part2-war",
+      "part3-salvation"
+    ],
+    "routeNotes": [
+      {
+        "system": "Supports",
+        "note": "Partners here: Theodora and Sirocco. Meal seat: Theodora + Sirocco + Alexandra. On the map she ends turns with the Strike group (Loretta, Lysander, Lilian) for Silver Maiden."
+      },
+      {
+        "system": "Battalions & Gambits",
+        "note": "On foot in Ch 8 she borrows Zarcone's [[battalion:Hunter-Drifters]]. From Wing Soldier she flies, so it goes back and her Cha feeds no gambit."
+      },
+      {
+        "system": "Ships and royalty-only areas",
+        "note": "Northern Passage (Theodora only in Part I) holds her Phantom Ring (Avo +5) after the Ch 9 story section."
+      }
+    ],
+    "decisions": [
+      {
+        "topic": "Recruit her in Ch 8 week 1",
+        "pick": "Renown 6: recruit her that week",
+        "why": "Two more maps, four more Arena weeks and earlier Support with Theodora and Sirocco. She takes Zarcone's seat on the Ch 8 map; a Ch 10 join (Lv 25) skips the Beginner stage but costs all of that.",
+        "else": "Renown 6 late? Recruit the week it lands"
+      },
+      {
+        "topic": "Fly through all of Part II",
+        "pick": "Wing Soldier from Part II Ch 1 to 6",
+        "why": "Brace (Prt +3 after a kill) is a wall's mastery and she dodges. On foot she'd lose flight, Soar+, the Levin Sword and Spd 80 level-ups, and Guardian gives no Sword EXP toward A."
+      },
+      {
+        "topic": "Lead with the Da Mina Sword",
+        "pick": "Da Mina Sword from Ch 9 (+1, +2 at Ch 12); Levin Sword for armor",
+        "why": "Mt 15 at +1 and 20 at +2, Wt 4, arts Hit +10. A Wooden Sword stays Mt 2 until +5, which waits for Part III; its +9 there adds Spd +5 for Lightning Reflexes. Lightning Strike still breaks armor at 1-2.",
+        "else": "No 4000G or barter for it: Iron Sword (Mt 9 / 11 / 13)"
+      },
+      {
+        "topic": "Stay mounted to Celestial Trooper",
+        "pick": "Wing Soldier from Lv 20 to 45",
+        "why": "Bucephalus only fits Wing Soldier and Celestial Trooper, and Dragoon needs Axe B, which she avoids. Wing Soldier on Bucephalus grows Spd 80 and Res 50."
+      }
+    ],
+    "finalists": {
+      "stats": [
+        "Str",
+        "Spd",
+        "Dex",
+        "Def",
+        "Res"
+      ],
+      "options": [
+        {
+          "class": "Wing Soldier",
+          "mount": "Bucephalus",
+          "use": "Ch 9 to Part II",
+          "note": "Flight keeps Soar (AS +3/+5) live; her bond grows by riding kills"
+        },
+        {
+          "class": "Myrmidon",
+          "note": "On foot: no Soar and no Bucephalus bond"
+        },
+        {
+          "class": "Celestial Trooper",
+          "mount": "Bucephalus",
+          "use": "Part III",
+          "note": "Lightning Reflexes: her follow-up lands before the counter"
+        },
+        {
+          "class": "The Blade",
+          "note": "Sword S on foot loses Soar; Loretta holds it"
+        }
+      ]
+    },
+    "gates": [
+      {
+        "route": "Theodora",
+        "from": {
+          "part": 1,
+          "ch": 8
+        },
+        "by": {
+          "part": 1,
+          "ch": 8
+        },
+        "kind": "recruit",
+        "text": "Gift her the first Sunday of Ch 8, meal with Theodora and Sirocco, recruit that week"
+      },
+      {
+        "route": "Theodora",
+        "from": {
+          "part": 1,
+          "ch": 8
+        },
+        "by": {
+          "part": 1,
+          "ch": 9
+        },
+        "kind": "rank",
+        "text": "Alexandra needs Spear C and Sword C by Ch 9 for Wing Soldier: Arena every week"
+      }
+    ]
+  },
+  "sources": [
+    "https://fortunesweave.co.uk/characters/alexandra",
+    "https://www.keengamer.com/articles/guides/fire-emblem-fortunes-weave-tier-list-best-characters-ranked-for-every-route/",
+    "https://www.keengamer.com/articles/guides/fire-emblem-fortunes-weave-best-class-for-every-character/",
+    "https://www.pockettactics.com/fire-emblem-fortunes-weave/tier-list",
+    "https://fortunesweave.online/battalions/"
+  ],
+  "recruitOn": {
+    "Cai": {
+      "how": "recruit",
+      "support": 2,
+      "renown": 7
+    },
+    "Dietrich": {
+      "how": "recruit",
+      "support": 3,
+      "renown": 8
+    },
+    "Theodora": {
+      "how": "recruit",
+      "renown": 6,
+      "task": "Appears in Dagsion ~5/29",
+      "window": "Ch 8 week 1 (6/1)"
+    },
+    "Leda": {
+      "how": "recruit",
+      "support": 3,
+      "renown": 10
+    }
+  }
+}

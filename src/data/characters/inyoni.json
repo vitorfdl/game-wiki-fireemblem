@@ -1,0 +1,779 @@
+{
+  "name": "Inyoni",
+  "slug": "inyoni",
+  "epithet": "Magical Bow",
+  "faction": "Sisters of Braganca",
+  "homeRoute": "Leda",
+  "weapons": [
+    "Bow",
+    "Axe"
+  ],
+  "preferred": [
+    "Axe",
+    "Bow"
+  ],
+  "personality": "Dedicated archer who has trained since childhood and recently made a name for herself.",
+  "story": "Inyoni of Bragança is known as the 'Magical Bow' for her archery. She appears in Dagsion around 10/7 and joins for gold: 3000G on Leda's route (the cheapest), 4000G on Theodora's and 6000G on Cai's or Dietrich's. Her signature weapon is Ugo's Bow.",
+  "personalSkill": {
+    "name": "Heavy-Bow User",
+    "effect": "Str+3 when equipped with a bow. Lv20: Pierce (Atk+2, Crit+5); Lv35: Pierce+ (Atk+4, Crit+10)."
+  },
+  "growths": {
+    "HP": 40,
+    "Str": 50,
+    "Mag": 20,
+    "Spd": 35,
+    "Dex": 40,
+    "Def": 40,
+    "Res": 30,
+    "Lck": 40,
+    "Cha": 30
+  },
+  "supports": [
+    "Dadao"
+  ],
+  "tiers": [
+    {
+      "source": "Pocket Tactics",
+      "tier": "A"
+    },
+    {
+      "source": "KeenGamer",
+      "tier": "C"
+    }
+  ],
+  "tierNotes": "Pocket Tactics: A tier. KeenGamer: C tier (late arrival; most affordable on Leda's route).",
+  "recruit": {
+    "how": "recruit",
+    "renown": 7,
+    "extra": "Appears in Dagsion ~7/10",
+    "why": [
+      "Renown 7 here is the earliest join: Ch 9 week 1, once she appears (about 7/10)."
+    ],
+    "tip": "Cheapest fee in the game: 3,000G, versus 6,000G on Cai's or Dietrich's route."
+  },
+  "requirements": {
+    "Cai": "3S 8R (6,000G)",
+    "Dietrich": "3S 8R (6,000G)",
+    "Theodora": "1S 9R (4,000G)",
+    "Leda": "1S 7R (3,000G)"
+  },
+  "build": {
+    "role": "Strength archer",
+    "path": [
+      "Hunter (Ch 9 join)",
+      "Archer (Lv 20, Ch 9)",
+      "Sniper (Lv 35)",
+      "Bow Adept"
+    ],
+    "part1Target": "Archer (Ch 9); Sniper at Lv 35 (Ch 12?)",
+    "part3Target": "Bow Adept",
+    "notes": "Recruit her in Ch 9 week 1: about Lv 15 in a Beginner class with a War Bow (one test). Hunter to Lv 20 in Ch 9's dungeons, Archer for her first map in Ch 10, Sniper at Lv 35. Da Mina Bow arts every turn for Pierce; Leda's third Dance target.",
+    "confidence": "medium"
+  },
+  "guide": {
+    "role": "Strength archer, anti-flier, Dance target 3",
+    "summary": "The army's only archer from Ch 10 and its flier killer: Heavy-Bow User (Str +3) and [[ability:Pierce]] make every bow art hit hard. She joins in Ch 9 week 1 at about Lv 15 and levels in Ch 9's dungeons; from Ch 10 stand two tiles behind the tanks, open each turn with an art, and take Leda's third dance after Sirocco and Guzran.",
+    "playstyle": "Player phase: an art from range 2, then Leda's dance for a second shot. Enemy phase: the [[item:Mini Bow]] equipped so she counters at range 1.",
+    "focus": [
+      "Str",
+      "Dex",
+      "Spd"
+    ],
+    "keys": [
+      "Recruit her in Ch 9 week 1 (from about 7/10): Renown 7, 3,000G",
+      "Hunter to Lv 20 in Ch 9's dungeons, then [[class:Archer]] before the Ch 10 map (Bow C)",
+      "Fire a bow art every turn: Pierce adds Atk and Crit to arts only",
+      "Give her Leda's [[item:Archer's Ring]] and [[item:Mini Bow]]; the [[item:Da Mina Bow]] +2 is her main bow",
+      "Dance her after kills in Ch 10 to 12: [[class:Sniper]] at Lv 35 with Bow B"
+    ],
+    "watch": [
+      "Weight: Da Mina Bow +3 6 + Gale Ring 2 = 8; Mini Bow 5 + 2 = 7. Longbow 13 only on Deadeye turns",
+      "Spd: growth 45 in Archer and Sniper; fast swordfighters double her",
+      "Range 1: no counter without the Mini Bow; equip it before ending the turn",
+      "Levels: Lv 15 on join; Ch 9 dungeons must reach Lv 20 before the Ch 10 map"
+    ],
+    "stages": [
+      {
+        "when": "Ch 9 join to Lv 20 · Hunter",
+        "from": {
+          "part": 1,
+          "ch": 9,
+          "at": "early"
+        },
+        "to": {
+          "lv": 20
+        },
+        "level": "About Lv 15 on join (Ch 9 week 1) to 20",
+        "class": "Hunter",
+        "kind": "core",
+        "goal": "Lv 20 and Bow C before the Ch 10 map: a dungeon party every week. She sits the Ch 9 battle.",
+        "exit": "Lv 20 with Bow C: Archer on a Specialty License before the Ch 10 map.",
+        "masteries": [
+          "Hunting Basics"
+        ],
+        "why": [
+          "Hunter: Spd +10, Dex +10 row, the fix for her Spd 35 and Dex 40 growths",
+          "Heavy-Bow User: Str +3 with any bow, so the War Bow hits from day one"
+        ],
+        "weapons": [
+          {
+            "item": "War Bow",
+            "why": "Joins with it (one test; stats ?): her bow until Bow C",
+            "alts": [
+              "Iron Bow"
+            ],
+            "plan": "Carried on a Ch 9 join"
+          },
+          {
+            "item": "Da Mina Bow +2",
+            "why": "Main bow from Bow C: Mt ?, Hit 70 (+10 on arts), Wt 6; refine on join",
+            "alts": [
+              "Wooden Bow +5"
+            ]
+          }
+        ],
+        "equipment": [
+          {
+            "item": "Archer's Ring",
+            "slot": "Accessory",
+            "why": "Hit +5 at Wt 3: Leda hands it over on join day",
+            "plan": "Leda's Coris Mine copy (Ch 2)"
+          }
+        ],
+        "items": [
+          {
+            "item": "Concoction",
+            "why": "Heals 40: she joins about 10 levels under the core",
+            "alts": [
+              "Vulnerary"
+            ]
+          }
+        ],
+        "arts": [
+          {
+            "name": "Vital Shot",
+            "why": "Bow D: Mt +4, high Crit"
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Bows Lv. 1",
+            "why": "Bow D+: Hit +3"
+          },
+          {
+            "name": "Steady Shot",
+            "why": "Infantry D: bow Hit +5 (Infantry)"
+          },
+          {
+            "name": "Close-Call Evasion",
+            "why": "Infantry C (her own grade): Avo +20 at HP ≤ 50%"
+          },
+          {
+            "name": "Hunting Basics",
+            "why": "Hunter mastery: Dex/Spd +1 (once mastered)"
+          },
+          {
+            "name": "Read the Winds",
+            "why": "Flying D: Avo +10 vs bows; works on foot"
+          }
+        ],
+        "training": [
+          {
+            "rank": "Bow C, Infantry C",
+            "for": "Archer (Lv 20); Steady Shot, Close-Call Evasion",
+            "how": "Arena Infantry (Sword, Bow, Infantry) every week; Hunter trains Bow and Infantry"
+          },
+          {
+            "rank": "Flying D",
+            "for": "Read the Winds",
+            "how": "One Arena Mounted week ? (start rank unknown)"
+          }
+        ],
+        "tips": [
+          "If she joins at Lv 25 in a Specialty class, skip to the next stage",
+          "EXP: Aditi's Cave (Lv 28) and Nemea Cavern (Lv 30) parties; a link attack per fight",
+          "Joins in another Beginner class? Hunter needs Bow D and Sword D"
+        ]
+      },
+      {
+        "when": "Ch 9 to 12 · Archer",
+        "from": {
+          "part": 1,
+          "ch": 9,
+          "at": "late",
+          "approx": true
+        },
+        "to": {
+          "part": 1,
+          "ch": 12
+        },
+        "level": "Lv 20 (Ch 9) to about 33? by Ch 12",
+        "class": "Archer",
+        "kind": "core",
+        "goal": "Archer, anti-flier, Dance target 3 from Ch 10. Pierce (Lv 20): bow arts Atk +2, Crit +5 every turn.",
+        "exit": "Lv 35 with Bow B: Sniper (Ch 12 if she gets there).",
+        "masteries": [
+          "Crescendo"
+        ],
+        "why": [
+          "Hit on arts: Da Mina Bow +2 70 + 10, Archer Bow Hit +5, Archer's Ring +5, Crescendo +3 a kill"
+        ],
+        "weapons": [
+          {
+            "item": "Da Mina Bow +2",
+            "why": "Main bow: Mt ?, Hit +10 on the arts she fires each turn",
+            "alts": [
+              "Wooden Bow +5"
+            ]
+          },
+          {
+            "item": "Longbow",
+            "why": "Deadeye at range 3-5; Wt 13, so no follow-up"
+          },
+          {
+            "item": "Mini Bow",
+            "why": "Range 1 counters on enemy phase",
+            "plan": "Leda's copy (chest in one of her first quests ?); second copy south of Dagsion"
+          }
+        ],
+        "equipment": [
+          {
+            "item": "Archer's Ring",
+            "slot": "Accessory",
+            "why": "Hit +5 at Wt 3, the archer cap",
+            "plan": "Leda's Coris Mine copy (Ch 2)"
+          }
+        ],
+        "items": [
+          {
+            "item": "Concoction",
+            "why": "Heals 40: fast foes double her",
+            "alts": [
+              "Vulnerary"
+            ]
+          }
+        ],
+        "arts": [
+          {
+            "name": "Vital Shot",
+            "why": "Bow D: +4 Mt, Crit +5 at range 2-3"
+          },
+          {
+            "name": "Surprise Shot",
+            "why": "Bow C: +3 Mt, Atk +5 on full-HP foes"
+          },
+          {
+            "name": "Deadeye",
+            "why": "Longbow art: range 3-5, Hit -30"
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Pierce",
+            "why": "Personal Lv 20: bow arts Atk +2, Crit +5; Pierce+ replaces it at Lv 35"
+          },
+          {
+            "name": "Crescendo",
+            "why": "Archer mastery: Hit +3 per kill, max +30 (once mastered)"
+          },
+          {
+            "name": "Bows Lv. 2",
+            "why": "Bow Hit +5 at Bow C+"
+          },
+          {
+            "name": "Bows Lv. 1",
+            "why": "Bow Hit +3 at Bow D+"
+          },
+          {
+            "name": "Steady Shot",
+            "why": "Infantry D: bow Hit +5; Archer and the Infantry course train it"
+          }
+        ],
+        "training": [
+          {
+            "rank": "Bow B",
+            "for": "Sniper (Lv 35)",
+            "how": "Battle use plus the Arena Infantry course every week; Archer trains Bow +2"
+          }
+        ],
+        "tips": [
+          "Ch 10 to 12: deploy every map; dance her after kills to close the level gap",
+          "Dance target 3: shoot at range 2, Leda dances her, shoot again",
+          "Song of Passion+ (Str +7) stacks with Heavy-Bow User's Str +3",
+          "Ch 11 Dietrich's paralogue: she and Leda's bow hold the east side vs Pegasus Knights"
+        ],
+        "checks": [
+          {
+            "stat": "Spd",
+            "at": "Ch 11",
+            "need": "Forecast: she doubles most Ch 11 infantry and no foot unit doubles her",
+            "why": "Pierce only boosts the art; the follow-up is half her damage",
+            "fix": [
+              "Dance her: Special Dance Spd +3 for the second shot",
+              "Drop the Archer's Ring (Wt 3) on maps where she needs the double",
+              "[[item:Wooden Bow]] +5 (Wt 4) for the Da Mina Bow (Wt 6)"
+            ]
+          }
+        ],
+        "drop": [
+          {
+            "item": "War Bow",
+            "why": "The Da Mina Bow +2 replaces it at Bow C; storage"
+          },
+          {
+            "item": "Close-Call Evasion",
+            "why": "Slot goes to Pierce"
+          },
+          {
+            "item": "Hunting Basics",
+            "why": "Slot goes to Crescendo"
+          },
+          {
+            "item": "Read the Winds",
+            "why": "Bows Lv. 2 replaces it at Bow C+"
+          }
+        ]
+      },
+      {
+        "when": "Ch 12: Sniper at Lv 35?",
+        "from": {
+          "part": 1,
+          "ch": 12
+        },
+        "to": {
+          "part": 1,
+          "ch": 12
+        },
+        "level": "Lv 35?",
+        "class": "Sniper",
+        "kind": "core",
+        "goal": "Sniper (Dex +20 growth, Bow Hit +10). Pierce+ (Lv 35): bow arts Atk +4, Crit +10.",
+        "exit": "Stock the Part II six by 11/27.",
+        "why": [
+          "Lv 35 slips: stay Archer; Sniper on the first Part II map at Lv 35 (Ch 2 at worst)"
+        ],
+        "weapons": [
+          {
+            "item": "Da Mina Bow +2",
+            "why": "Main bow; Hit +10 on arts, Mt ?",
+            "alts": [
+              "Wooden Bow +5"
+            ]
+          },
+          {
+            "item": "Longbow",
+            "why": "Deadeye at range 3-5"
+          },
+          {
+            "item": "Mini Bow",
+            "why": "Range 1 counters",
+            "plan": "Leda's copy (chest in one of her first quests ?); second copy south of Dagsion"
+          }
+        ],
+        "equipment": [
+          {
+            "item": "Archer's Ring",
+            "slot": "Accessory",
+            "why": "Hit +5 at Wt 3",
+            "plan": "Leda's Coris Mine copy (Ch 2)"
+          }
+        ],
+        "items": [
+          {
+            "item": "Concoction",
+            "why": "Heals 40; Part II has no shops",
+            "alts": [
+              "Vulnerary"
+            ]
+          }
+        ],
+        "arts": [
+          {
+            "name": "Vital Shot",
+            "why": "+4 Mt, Crit +5"
+          },
+          {
+            "name": "Surprise Shot",
+            "why": "+3 Mt, Atk +5 on full-HP foes"
+          },
+          {
+            "name": "Deadeye",
+            "why": "Range 3-5, Hit -30"
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Pierce+",
+            "why": "Personal Lv 35: bow arts Atk +4, Crit +10"
+          },
+          {
+            "name": "Crescendo",
+            "why": "Hit +3 per kill, max +30"
+          },
+          {
+            "name": "Marksmanship",
+            "why": "Sniper mastery: bow Hit +15 (once mastered)"
+          },
+          {
+            "name": "Bows Lv. 2",
+            "why": "Bow Hit +5"
+          },
+          {
+            "name": "Bows Lv. 1",
+            "why": "Bow Hit +3"
+          }
+        ],
+        "tips": [
+          "Ch 12 boss turn: stand in Leda's Song of Angels ring with Sirocco and Guzran"
+        ]
+      },
+      {
+        "when": "Part II: Sniper",
+        "from": {
+          "part": 2,
+          "ch": 1
+        },
+        "to": {
+          "part": 3,
+          "ch": 2
+        },
+        "level": "Lv 37 to 42",
+        "class": "Sniper",
+        "kind": "core",
+        "goal": "Master Marksmanship (bow Hit +15). Pierce+ on every art; Ch 4 and Ch 5 need her bow.",
+        "exit": "Bow Adept at Lv 45 with Bow A (Part III).",
+        "masteries": [
+          "Marksmanship"
+        ],
+        "weapons": [
+          {
+            "item": "Da Mina Bow +2",
+            "why": "Main bow: Mt ?, Hit +10 on arts; held at 11/27",
+            "alts": [
+              "Wooden Bow +5"
+            ]
+          },
+          {
+            "item": "Longbow",
+            "why": "Ch 5: Deadeye on Dagda lets Eshmel break his shield",
+            "plan": "Carried from Part I"
+          },
+          {
+            "item": "Mini Bow",
+            "why": "Range 1 counters",
+            "plan": "Carried from Part I"
+          }
+        ],
+        "equipment": [
+          {
+            "item": "Archer's Ring",
+            "slot": "Accessory",
+            "why": "Hit +5 at Wt 3",
+            "plan": "Carried from Part I"
+          }
+        ],
+        "items": [
+          {
+            "item": "Concoction",
+            "why": "Heals 40",
+            "plan": "Stocked before 11/27"
+          }
+        ],
+        "arts": [
+          {
+            "name": "Vital Shot",
+            "why": "+4 Mt, Crit +5"
+          },
+          {
+            "name": "Surprise Shot",
+            "why": "+3 Mt, Atk +5 on full-HP foes"
+          },
+          {
+            "name": "Deadeye",
+            "why": "Range 3-5, Hit -30"
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Pierce+",
+            "why": "Bow arts Atk +4, Crit +10"
+          },
+          {
+            "name": "Marksmanship",
+            "why": "Bow Hit +15 (once mastered)"
+          },
+          {
+            "name": "Crescendo",
+            "why": "Hit +3 per kill, max +30"
+          },
+          {
+            "name": "Bows Lv. 2",
+            "why": "Bow Hit +5"
+          },
+          {
+            "name": "Bows Lv. 1",
+            "why": "Bow Hit +3"
+          }
+        ],
+        "training": [
+          {
+            "rank": "Bow A",
+            "for": "Bow Adept (Lv 45)",
+            "how": "Battle use (no Part II Arena); Bow EXP Boon"
+          }
+        ],
+        "tips": [
+          "Ch 2: kill the west Ranger from Turn 8 for the Horsekiller Bow +1",
+          "Ch 4: Dragoons come from the map sides; she is one of the 3 to 4 bows it wants",
+          "Ch 5: her Longbow is the backup Deadeye on Dagda if Halvin can't reach him"
+        ],
+        "checks": [
+          {
+            "stat": "Dex",
+            "at": "Part II Ch 4",
+            "need": "Longbow Deadeye shows Hit 70+ at range 3-5",
+            "why": "Ch 5's shield trick needs one Deadeye to land on Dagda",
+            "fix": [
+              "Kill first: each Crescendo stack is Hit +3",
+              "Dance her before the shot: Special Dance Dex +3",
+              "Wait for Marksmanship (bow Hit +15) before Ch 5"
+            ]
+          }
+        ]
+      },
+      {
+        "when": "Part III Section 3+ (Bow Adept)",
+        "from": {
+          "part": 3,
+          "ch": 3
+        },
+        "level": "Lv 45+",
+        "class": "Bow Adept",
+        "kind": "core",
+        "goal": "Bow Hit +15, Dex +20 row and Sky Hunter. Pierce+ (Atk +4, Crit +10) on arts: fire one every turn.",
+        "exit": "Final class.",
+        "masteries": [
+          "Sky Hunter"
+        ],
+        "why": [
+          "Underworld Boon: no sword, so she shoots undead from inside Leda's Song of Abjuring ring",
+          "No ring that turn: target foes within 2 of Eshmel (Light of Salvation)"
+        ],
+        "weapons": [
+          {
+            "item": "Da Mina Bow +3",
+            "why": "Hit +10 and, at +3, Crit +10 on arts: stacks with Pierce+ Crit +10",
+            "alts": [
+              "Da Mina Bow +2",
+              "Iron Bow +4"
+            ],
+            "plan": "Soulstone queue"
+          },
+          {
+            "item": "Kalla's Bow",
+            "why": "Bow A, Supreme Arc: Mt 13, Wt 6; Heaven's Wind at range 3-10"
+          },
+          {
+            "item": "Mini Bow +2",
+            "why": "Mt 15, range 1-2, AS +3 vs adjacent: her enemy-phase bow",
+            "plan": "Carried from Part I"
+          },
+          {
+            "item": "War Bow +3",
+            "why": "Mt 24, Hit +20 vs large foes: Giants and golems",
+            "situational": "Large foes: uses the open slot",
+            "plan": "Squad C's Section 3 copy; comes at +3 (no Soulstone)"
+          },
+          {
+            "item": "Longbow",
+            "why": "Deadeye at range 3-5",
+            "situational": "Shielded bosses or long-range turns: open slot",
+            "plan": "Carried from Part I"
+          }
+        ],
+        "equipment": [
+          {
+            "item": "Gale Ring",
+            "why": "Spd +3 at Wt 2: fast swordfighters stop doubling her",
+            "slot": "Accessory",
+            "alts": [
+              "Archer's Ring",
+              "Phantom Ring"
+            ]
+          }
+        ],
+        "items": [
+          {
+            "item": "Concoction",
+            "why": "Heals 40",
+            "alts": [
+              "Vulnerary"
+            ]
+          }
+        ],
+        "arts": [
+          {
+            "name": "Vital Shot",
+            "why": "+4 Mt, Crit +5"
+          },
+          {
+            "name": "Surprise Shot",
+            "why": "+3 Mt, Atk +5 on full-HP foes"
+          },
+          {
+            "name": "Deadeye",
+            "why": "Range 3-5, Hit -30"
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Pierce+",
+            "why": "Bow arts Atk +4, Crit +10"
+          },
+          {
+            "name": "Marksmanship",
+            "why": "Bow Hit +15: Deadeye and Heaven's Wind need it"
+          },
+          {
+            "name": "Sky Hunter",
+            "why": "Bow Adept mastery: Hit +50 vs fliers (once mastered)"
+          },
+          {
+            "name": "Bows Lv. 3",
+            "why": "Bow B+: Hit/Avo +5"
+          },
+          {
+            "name": "Read the Winds",
+            "why": "Flying D: Avo +10 vs bows"
+          }
+        ],
+        "training": [
+          {
+            "rank": "Bow A",
+            "for": "Bow Adept (Lv 45, Master License)",
+            "how": "Battle use; Bow EXP Boon"
+          }
+        ],
+        "drop": [
+          {
+            "item": "Bows Lv. 2",
+            "why": "Bows Lv. 3 replaces it"
+          },
+          {
+            "item": "Crescendo",
+            "why": "Hit is covered by Bow Hit +15 and Marksmanship; Drake wants no kills"
+          },
+          {
+            "item": "Archer's Ring",
+            "why": "Gale Ring: Spd +3 beats a fifth Hit source"
+          }
+        ],
+        "tips": [
+          "Leda's second Dance target after Guzran: Special Dance Dex/Spd +3, then one more art",
+          "Drake: Heaven's Wind chips Drake from 3-10 tiles; kill nothing on the way (Envy)",
+          "Sand-Shadow Fort (S3): a Giant always spawns; War Bow +3 Hit +20 if Giants count as large?",
+          "Squad D in S6: Trials and quests, no Balor seat"
+        ]
+      }
+    ],
+    "alt": "Ch 9 dungeon and Arena seats full? A 9/28 join brings about Lv 25 with an Iron Bow and a Tempest Bow (one test), but grown on personal growths only.",
+    "routeNotes": [
+      {
+        "system": "Supports",
+        "note": "Dadao is her only partner here, and he's on the bench from Ch 9. Meal seat from her Ch 9 join: Leda + Dadao + Inyoni."
+      },
+      {
+        "system": "Dancer (Great Dancer's Successor)",
+        "note": "Third Dance target after Sirocco and Guzran. A ranged unit is the safest one to dance: she never ends in melee range."
+      },
+      {
+        "system": "Drink Recipes (Leda's Songs)",
+        "note": "Song of Passion+ (Str +7) feeds her Str-based arts. Song of Abjuring is her Part III undead answer."
+      }
+    ],
+    "sources": [
+      "equippable-abilities",
+      "weapons-and-items",
+      "combat-arts-and-abilities",
+      "character-learnsets",
+      "class-data",
+      "hard-mode-video-notes",
+      "player-pacing-and-recruit-items",
+      "redesign/11-roster-pass",
+      "part2-war"
+    ],
+    "decisions": [
+      {
+        "topic": "Recruit her in Ch 9 week 1",
+        "pick": "Ch 9 week 1: Renown 7, 3,000G",
+        "why": "Every level from Lv 15 grows Hunter and Archer rows, and Ch 9's seven weeks of dungeons and Arena land Lv 20 and Bow C before her first map. Unrecruited units auto-level on personal growths only."
+      },
+      {
+        "topic": "Use the Da Mina Bow +2",
+        "pick": "Da Mina Bow +2 main, Wooden Bow +5 as fallback",
+        "why": "She fires an art every turn for Pierce. Da Mina gets Hit 80 on arts and +2 adds Mt (Sword +2 is Mt 20). Wooden Bow +5 (Wt 4) is the swap when Spd misses the double."
+      }
+    ],
+    "gates": [
+      {
+        "route": "Leda",
+        "from": {
+          "part": 1,
+          "ch": 9
+        },
+        "by": {
+          "part": 1,
+          "ch": 9
+        },
+        "kind": "recruit",
+        "text": "Inyoni: Renown 7 and 3,000G in Ch 9 week 1 (she appears about 7/10)"
+      },
+      {
+        "route": "Leda",
+        "from": {
+          "part": 1,
+          "ch": 9
+        },
+        "by": {
+          "part": 1,
+          "ch": 12
+        },
+        "kind": "rank",
+        "text": "Inyoni: Bow C by Lv 20 (Archer, Ch 9), Bow B for Sniper: Arena Infantry weekly"
+      }
+    ]
+  },
+  "sources": [
+    "https://fortunesweave.co.uk/characters/inyoni",
+    "https://www.keengamer.com/articles/guides/fire-emblem-fortunes-weave-tier-list-best-characters-ranked-for-every-route/",
+    "https://www.keengamer.com/articles/guides/fire-emblem-fortunes-weave-best-class-for-every-character/",
+    "https://www.pockettactics.com/fire-emblem-fortunes-weave/tier-list"
+  ],
+  "recruitOn": {
+    "Cai": {
+      "how": "recruit",
+      "support": 3,
+      "renown": 8,
+      "gold": 6000
+    },
+    "Dietrich": {
+      "how": "recruit",
+      "support": 3,
+      "renown": 8,
+      "gold": 6000
+    },
+    "Theodora": {
+      "how": "recruit",
+      "renown": 9,
+      "gold": 4000
+    },
+    "Leda": {
+      "how": "recruit",
+      "renown": 7,
+      "gold": 3000,
+      "task": "Appears in Dagsion ~7/10",
+      "window": "Ch 9 week 1 (from about 7/10)"
+    }
+  }
+}

@@ -1,0 +1,124 @@
+{
+  "route": "Cai",
+  "ch": 3,
+  "name": "Partings and Hopes",
+  "free": {
+    "from": "2/20",
+    "to": "2/28"
+  },
+  "unlocks": [
+    "Gifts (tutorial)",
+    "Kindness Quests"
+  ],
+  "routine": {
+    "gifts": [
+      {
+        "unit": "Guzran",
+        "gift": "Mature Ghose: the gift tutorial hands it over, and he joins",
+        "where": "Gift tutorial"
+      }
+    ]
+  },
+  "missables": [
+    {
+      "id": "cai-ch03-missables-lost-hair-clip",
+      "kind": "item",
+      "quest": "lost-hair-clip",
+      "text": "Finish [[quest:lost-hair-clip]] by 2/28",
+      "when": "by 2/28",
+      "lose": "The quest's Renown and gold",
+      "recover": "None"
+    },
+    {
+      "id": "cai-ch03-missables-furious-vengeance",
+      "kind": "item",
+      "quest": "furious-vengeance",
+      "text": "Finish [[quest:furious-vengeance]] by 2/28",
+      "when": "by 2/28",
+      "lose": "The quest's Renown and gold",
+      "recover": "None"
+    },
+    {
+      "id": "cai-ch03-missables-the-fabled-sunset",
+      "kind": "item",
+      "quest": "the-fabled-sunset",
+      "text": "Finish [[quest:the-fabled-sunset]] by 2/28",
+      "when": "by 2/28",
+      "lose": "The quest's Renown and gold",
+      "recover": "None"
+    },
+    {
+      "id": "cai-ch03-missables-ultand-arena-scene",
+      "kind": "scene",
+      "text": "Watch the optional scene on the west side of Dagsion: talk to Ultand at the Arena entrance",
+      "where": "Dagsion, Arena entrance",
+      "lose": "The scene",
+      "recover": "None known",
+      "task": true,
+      "when": "by 2/28"
+    }
+  ],
+  "classes": {},
+  "gear": {},
+  "recruits": [],
+  "quests": {
+    "route": [
+      {
+        "quest": "lost-hair-clip",
+        "note": "Leave [[place:Niraga Mine]] by the rear exit",
+        "detail": [
+          "Chests: White-Magic Manual (Tialla, for Bishop's White Magic B), Coin ×2, [[item:Miracle Gem]]."
+        ]
+      },
+      {
+        "quest": "furious-vengeance"
+      },
+      {
+        "quest": "the-fabled-sunset"
+      }
+    ],
+    "sub": [],
+    "paralogue": []
+  },
+  "explore": [
+    {
+      "group": "Dungeons for levels",
+      "id": "cai-ch03-explore-collapsed-fort",
+      "loot": true,
+      "text": "[[place:Collapsed Fort]] (Lv 6): Black-Magic Manual for Cai, [[item:Bowbreak Amulet]] for Seteth",
+      "detail": [
+        "The manual pushes Cai toward Caladrius' Black Magic B.",
+        "The amulet is Seteth's swap-in on archer maps, from Ch 8."
+      ]
+    },
+    {
+      "group": "Dungeons for levels",
+      "id": "cai-ch03-explore-heretics-cave",
+      "loot": true,
+      "text": "[[place:Heretics' Cave]] (Lv 7): [[item:Dew of Protection]], [[item:Vulnerary]]"
+    },
+    {
+      "group": "Dungeons for levels",
+      "text": "[[place:Galen Fort Ruins]] (Lv 8): EXP only, no loot listed"
+    },
+    {
+      "text": "Talk to everyone in Dagsion"
+    }
+  ],
+  "battle": {
+    "title": "vs. Goliath",
+    "objective": "Defeat Goliath",
+    "lose": "Cai falls",
+    "guests": [
+      "Ultand"
+    ],
+    "tips": [
+      {
+        "text": "Lead with Cai and Guzran; everyone else stays behind"
+      },
+      {
+        "text": "Ultand is on the map and can heal"
+      }
+    ]
+  }
+}

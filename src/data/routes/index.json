@@ -1,0 +1,31 @@
+{
+  "order": [
+    "Dietrich",
+    "Cai",
+    "Leda",
+    "Theodora"
+  ],
+  "orderNote": "A class unlocked on one path is available on every later path, but only after you finish all 12 chapters and start the next path from Chapter 1 (GameRant, AllThings.How). Dietrich and Cai are done, so Leda arrives with Guardian, Ranger, Blacksmith, Dragoon, Troubadour and Caladrius, and Theodora (last) with all of those plus Leda's. Only Cataphract stays shut on Leda: Theodora unlocks it, and she comes after. Theodora's tight Ch 12 and costly Send Supplies get three paths of Boon discounts.",
+  "unlockNote": "* Theodora's own Dragoon unlock may stay greyed out (one unverified GameFAQs report); Cai's route already unlocked it.",
+  "part2Cap": 15,
+  "capNote": "Part II allows 15 units per battle (RetroGems, one source). If you bring fewer, the game adds temporary guest soldiers (RPG Site). Creek and Nathan can join in Part II Ch 2 and Ch 3, but only on a path where the random subquest \"My Late Sister's Accessory\" showed up. No source says whether Theodora and Bertrand take slots.",
+  "later": [
+    "Orchel",
+    "Talimun",
+    "Anatolia",
+    "Bertrand",
+    "Creek",
+    "Nathan",
+    "Centurio",
+    "Aswan",
+    "Tahonia",
+    "Klapka",
+    "Hong Hua",
+    "Troy"
+  ],
+  "fillerNote": "Fillers are recruited only for the item they carry or for their support conversations. They stay benched, need no build or Arena time, and don't count toward the deployment plan.",
+  "finished": [
+    "Dietrich",
+    "Cai"
+  ]
+}

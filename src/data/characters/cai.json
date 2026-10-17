@@ -1,0 +1,1478 @@
+{
+  "name": "Cai",
+  "slug": "cai",
+  "epithet": "Flame Lord of Ribeira Winds (epilogue title: Hell's-Eye)",
+  "faction": "Ribeira Winds",
+  "homeRoute": "Cai",
+  "isLord": true,
+  "weapons": [
+    "Spear",
+    "Sword",
+    "Reason",
+    "Faith"
+  ],
+  "preferred": [
+    "White Magic",
+    "Rider",
+    "Spear",
+    "Sword"
+  ],
+  "avoid": [
+    "Bow",
+    "Flier"
+  ],
+  "personality": "Earnest, family-devoted shonen hero from Ribeira village who fights only to save his father.",
+  "story": "A 15-year-old half-human, half-god (child of the goddess Aurora, the Ice Dragon) raised in Ribeira without memories of his mother. When his father Castor is imprisoned on Cai's 15th birthday for trying to elope with Aurora, Cai enters Dagda's Heroic Games to free him. He is one of the four Flame Lords guided by Eshmel and grows into an unwilling wartime leader.",
+  "personalSkill": {
+    "name": "Brio",
+    "effect": "Grants Mov+1 permanently. Lv 5 upgrade Flamekeeper: unit and nearby allies are unaffected by Underworld Flames and take half damage within them."
+  },
+  "growths": {
+    "HP": 45,
+    "Str": 45,
+    "Mag": 40,
+    "Spd": 45,
+    "Dex": 45,
+    "Def": 35,
+    "Res": 35,
+    "Lck": 40,
+    "Cha": 40
+  },
+  "supports": [
+    "Alexandra",
+    "Bertrand",
+    "Centurio",
+    "Dietrich",
+    "Eshmel",
+    "Esmeralda",
+    "Goliath",
+    "Leda",
+    "Mu",
+    "Ninae",
+    "Peter",
+    "Theodora",
+    "Tialla",
+    "Ultand"
+  ],
+  "tierNotes": "Lords excluded from KeenGamer/Pocket Tactics tiers; KeenGamer: most even growth spread of the lords (35-45% everywhere). Brio rated 5/5 by fortunesweave.co.uk.",
+  "requirements": {
+    "Cai": "Auto",
+    "Dietrich": "—",
+    "Theodora": "—",
+    "Leda": "—"
+  },
+  "build": {
+    "role": "Mounted spear and black magic lord",
+    "path": [
+      "Ornius Rider",
+      "Armored Ornius Rider",
+      "Shaman (detour: Black Magic B)",
+      "Caladrius",
+      "Bardinger (Part II detour: Aegis, Riding)",
+      "Caladrius",
+      "Orichaldia",
+      "The Cavalier"
+    ],
+    "part1Target": "Caladrius",
+    "part3Target": "Orichaldia, then The Cavalier (Divine)",
+    "notes": "Ornius Rider in Ch 5 on a Wild Ornius. Armored Ornius Rider at Lv 20 until Sense Threat is mastered, then Shaman in Ch 7 to cast every fight and reach Black Magic B (Mag 55 vs 35). Caladrius in Ch 10 (Renown 8) on the Ornius again; master Overtake. Part II: Bardinger on a horse for Aegis, Str 60 and Riding +3, back to Caladrius for Dagda in Ch 5. Part III: Orichaldia for Fierce Spear, then The Cavalier.",
+    "confidence": "medium"
+  },
+  "guide": {
+    "role": "Mounted spear and black magic lord",
+    "summary": "Your lord and first mage in Parts I and II, and a spear cavalier in Part III. Sense Threat comes from Armored Ornius Rider, Black Magic B from a short Shaman stint, then doubled black magic in Caladrius on the same Ornius. Part II's free Licenses buy a Bardinger stint that grows the Str and Riding his Part III classes need.",
+    "playstyle": "Hit from 1 to 2 range with Thunder, Bolganone, Lightning Strike or Blinding Starlight, then pull back on Mov 8 or more. Losing him ends the map: end every turn outside archer and anti-cavalry reach.",
+    "focus": [
+      "Mag",
+      "Spd",
+      "Str"
+    ],
+    "keys": [
+      "Catch three Wild Ornius east of Dagsion in Ch 5: one to ride, two for Request to Capture Orniuses.",
+      "Take Armored Ornius Rider in Ch 6 for Sense Threat, then go Shaman from Ch 7 until Caladrius opens in Ch 10 (Renown 8): casting every fight trains Black Magic B.",
+      "Do Castor's Special Request from Pop at Renown 7 (usually late Ch 8) to unlock Caladrius.",
+      "Catch a spare horse before Part II: a Bardinger stint there trains Riding, Sword and Spear and grows Str for Part III.",
+      "Refine the Levin Sword and Star Spear and equip both before Part II."
+    ],
+    "watch": [
+      "Axe C for Armored Ornius Rider is not a preferred rank: book Arena Heavy Training (it trains Spear and Axe together) from Ch 5.",
+      "Caladrius has no White Magic in class-data: Nosferatu, Seraphim and Warp wait for a class that casts it.",
+      "Whether a bond stays with the mount when you switch mounts is not documented (unverified).",
+      "Shaman is infantry with Def 25 growth: the Ornius bonus pauses until Caladrius.",
+      "Mastery speed is undocumented: every class change here waits on a condition, not a chapter.",
+      "Weight: Parts I-II Star Spear or Levin Sword 8 + Talisman Shield 3 = 11 (doubler cap 3). Part III: Star Spear +2 8 + Silver Shield 4 + Phantom Ring 3 = 15, extra 7, one over; Fierce Spear stops doubles. Not doubling? Shield off first.",
+      "Inventory: 4 to 5 core all game (spear, Levin Sword, Red Jewel, Talisman Shield, heal). Ch 7 and Ch 8: pack the Linking Rock for the Event Clash. End of Ch 12: Elixir + Concoction is his Part II stock (6/6)."
+    ],
+    "stages": [
+      {
+        "when": "Ch 1 · no class yet",
+        "from": {
+          "part": 1,
+          "ch": 1
+        },
+        "to": {
+          "part": 1,
+          "ch": 1
+        },
+        "level": "Lv 1 to 15",
+        "kind": "core",
+        "goal": "Lord with no class yet. Brio (Mov +1) is innate: strike and pull back out of reach.",
+        "exit": "Ch 2: pick up the Talisman Shield in the Sewers",
+        "training": [
+          {
+            "rank": "Rider D",
+            "for": "Armored Ornius Rider and Caladrius",
+            "how": "Arena Mounted Training (Spear, Authority, Rider, Flying)"
+          },
+          {
+            "rank": "Spear C, Axe C",
+            "for": "Armored Ornius Rider exam",
+            "how": "Arena Heavy Training (Spear, Authority, Axe, Heavy)"
+          },
+          {
+            "rank": "Black Magic C",
+            "for": "Shaman stint (Ch 7), then Caladrius",
+            "how": "Arena Mage Training (White Magic, Black Magic, Authority) from Ch 5; Black-Magic Manual (Collapsed Fort chest, Ch 3)"
+          }
+        ],
+        "weapons": [
+          {
+            "item": "Iron Spear",
+            "why": "Main hitter until the Blacksmith opens in Ch 6"
+          }
+        ],
+        "equipment": [
+          {
+            "item": "Red Jewel",
+            "why": "Personal accessory, Mag +3",
+            "slot": "Accessory",
+            "plan": "Chapter not documented"
+          }
+        ],
+        "arts": [
+          {
+            "name": "Tempest Spear",
+            "why": "Spear D: +4 Mt, +10 Hit, 2 durability"
+          },
+          {
+            "name": "Spike",
+            "why": "Axe D: +4 Mt, +10 Hit; axe fights train Axe"
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Spears Lv. 1",
+            "why": "Spear D+ rank ability: spear Hit +3 (once Spear D+)"
+          }
+        ],
+        "drop": [
+          {
+            "item": "Zanbato",
+            "why": "Spears already hit cavalry; the Ch 5 chest copy goes to Guzran"
+          }
+        ],
+        "class": ""
+      },
+      {
+        "when": "Ch 2 to 4 · no class until Ch 5",
+        "from": {
+          "part": 1,
+          "ch": 2
+        },
+        "to": {
+          "part": 1,
+          "ch": 4
+        },
+        "level": "Lv 1 to 15",
+        "kind": "core",
+        "goal": "Start Rider, Spear, Axe and Black Magic early: Armored Ornius Rider and Caladrius test them.",
+        "exit": "Ch 5: Ornius Rider is automatic at the Temple Row License tutorial",
+        "training": [
+          {
+            "rank": "Rider D",
+            "for": "Armored Ornius Rider and Caladrius",
+            "how": "Arena Mounted Training (Spear, Authority, Rider, Flying)"
+          },
+          {
+            "rank": "Spear C, Axe C",
+            "for": "Armored Ornius Rider exam",
+            "how": "Arena Heavy Training (Spear, Authority, Axe, Heavy)"
+          },
+          {
+            "rank": "Black Magic C",
+            "for": "Shaman stint (Ch 7), then Caladrius",
+            "how": "Arena Mage Training (White Magic, Black Magic, Authority) from Ch 5; Black-Magic Manual (Collapsed Fort chest, Ch 3)"
+          }
+        ],
+        "tips": [
+          "Stables and Luring open in Ch 5 near the port: feed and bond every week. Paired Run gives Mov +1 at bond 3 and +2 at bond 5",
+          "Wild Ornius pushes Ornius Rider to Spd 65, Dex 65 on Cai",
+          "Underworld Burst (Blaze Art, Ch 1) costs HP, not durability"
+        ],
+        "weapons": [
+          {
+            "item": "Iron Spear",
+            "why": "Main hitter until the Blacksmith opens in Ch 6"
+          }
+        ],
+        "equipment": [
+          {
+            "item": "Red Jewel",
+            "why": "Personal accessory, Mag +3",
+            "slot": "Accessory",
+            "plan": "Chapter not documented"
+          },
+          {
+            "item": "Talisman Shield",
+            "why": "Def +1, Res +2, Wt 3",
+            "slot": "Defense"
+          }
+        ],
+        "arts": [
+          {
+            "name": "Tempest Spear",
+            "why": "Spear D: +4 Mt, +10 Hit, 2 durability"
+          },
+          {
+            "name": "Spike",
+            "why": "Axe D: +4 Mt, +10 Hit; axe fights train Axe"
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Spears Lv. 1",
+            "why": "Spear D+ rank ability: spear Hit +3 (once Spear D+)"
+          }
+        ],
+        "drop": [
+          {
+            "item": "Zanbato",
+            "why": "Spears already hit cavalry; the Ch 5 chest copy goes to Guzran"
+          }
+        ],
+        "items": [
+          {
+            "item": "Vulnerary",
+            "why": "20 HP x3: the lord can't fall"
+          }
+        ],
+        "class": "",
+        "why": [
+          "Flamekeeper (Lv 5): no Underworld Flames damage for the army, half damage inside them",
+          "Slot Flamekeeper only on maps with Underworld Flames"
+        ]
+      },
+      {
+        "when": "Ch 5 (automatic at Temple Row)",
+        "from": {
+          "part": 1,
+          "ch": 5
+        },
+        "to": {
+          "part": 1,
+          "ch": 5
+        },
+        "level": "Lv 1 to 15",
+        "class": "Ornius Rider",
+        "kind": "core",
+        "mount": "Wild Ornius",
+        "goal": "Brio (Mov +1) on a Wild Ornius: strike, then pull back. Start Rider, Spear, Axe and Black Magic.",
+        "exit": "Leave at Lv 20 once the Armored Ornius Rider exam shows 75% (Rider D, Axe C, Spear C).",
+        "masteries": [
+          "Offense Basics"
+        ],
+        "training": [
+          {
+            "rank": "Rider D",
+            "for": "Armored Ornius Rider and Caladrius",
+            "how": "Arena Mounted Training (Spear, Authority, Rider, Flying)"
+          },
+          {
+            "rank": "Spear C, Axe C",
+            "for": "Armored Ornius Rider exam",
+            "how": "Arena Heavy Training (Spear, Authority, Axe, Heavy)"
+          },
+          {
+            "rank": "Black Magic C",
+            "for": "Shaman stint (Ch 7), then Caladrius",
+            "how": "Arena Mage Training (White Magic, Black Magic, Authority) from Ch 5; Black-Magic Manual (Collapsed Fort chest, Ch 3)"
+          }
+        ],
+        "tips": [
+          "Stables and Luring open in Ch 5 near the port: feed and bond every week. Paired Run gives Mov +1 at bond 3 and +2 at bond 5",
+          "Wild Ornius pushes Ornius Rider to Spd 65, Dex 65 on Cai",
+          "Underworld Burst (Blaze Art, Ch 1) costs HP, not durability"
+        ],
+        "weapons": [
+          {
+            "item": "Iron Spear",
+            "why": "Main hitter until the Blacksmith opens in Ch 6"
+          },
+          {
+            "item": "Javelin",
+            "why": "B tier: 1 to 2 range chip, effective vs cavalry"
+          }
+        ],
+        "equipment": [
+          {
+            "item": "Red Jewel",
+            "why": "Personal accessory, Mag +3",
+            "slot": "Accessory",
+            "plan": "Chapter not documented"
+          },
+          {
+            "item": "Talisman Shield",
+            "why": "Def +1, Res +2, Wt 3",
+            "slot": "Defense"
+          }
+        ],
+        "arts": [
+          {
+            "name": "Tempest Spear",
+            "why": "Spear D: +4 Mt, +10 Hit, 2 durability"
+          },
+          {
+            "name": "Spike",
+            "why": "Axe D: +4 Mt, +10 Hit; axe fights train Axe"
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Offense Basics",
+            "why": "Ornius Rider mastery: Str/Mag +1 (once mastered)"
+          },
+          {
+            "name": "Spears Lv. 1",
+            "why": "Spear D+ rank ability: spear Hit +3 (once Spear D+)"
+          }
+        ],
+        "drop": [
+          {
+            "item": "Zanbato",
+            "why": "Spears already hit cavalry; the Ch 5 chest copy goes to Guzran"
+          }
+        ],
+        "items": [
+          {
+            "item": "Vulnerary",
+            "why": "20 HP x3: the lord can't fall"
+          }
+        ],
+        "why": [
+          "Flamekeeper (Lv 5): no Underworld Flames damage, half damage inside them; slot it only on those maps"
+        ]
+      },
+      {
+        "when": "Ch 6 to 7",
+        "from": {
+          "part": 1,
+          "ch": 6
+        },
+        "to": {
+          "part": 1,
+          "ch": 7
+        },
+        "level": "Lv 20 to 27",
+        "class": "Armored Ornius Rider",
+        "kind": "core",
+        "mount": "Wild Ornius",
+        "goal": "Master Sense Threat. Brio puts him at Mov 8 on the Ornius: hit, then end the turn out of reach.",
+        "exit": "Leave once Sense Threat is mastered and Black Magic is C (Shaman exam at 75%).",
+        "masteries": [
+          "Sense Threat"
+        ],
+        "training": [
+          {
+            "rank": "Black Magic C",
+            "for": "Shaman exam (Ch 7)",
+            "how": "Arena Mage Training (White Magic, Black Magic, Authority) every week; Black-Magic Manual (Port of Pandora item shop)"
+          },
+          {
+            "rank": "Spear B, Sword C",
+            "for": "Orichaldia later",
+            "how": "Arena Heavy Training (Spear, Authority, Axe, Heavy); Arena Infantry Training (Sword, Bow, Infantry)"
+          }
+        ],
+        "tips": [
+          "Ch 7: do Castor's Special Request from Pop (Renown 7, 2x Angelica from Saveilon) for Caladrius and 8,000G",
+          "Armored Ornius Rider jumps walls like a flier but has no bow weakness",
+          "Blacksmith opens in Ch 6: refine the Levin Sword first; refining restores durability",
+          "Armored Ornius Rider can't cast, so Black Magic only moves at the Arena in this stage"
+        ],
+        "weapons": [
+          {
+            "item": "Da Mina Spear",
+            "why": "Main spear: Hit +10 on Tempest and Defending Spear",
+            "plan": "Ch 7, after The Artisans of Megaira"
+          },
+          {
+            "item": "Levin Sword",
+            "why": "S tier: magic hit at 1 to 2 range, Lightning Strike; the barter lands Ch 7 to 8, so the Javelin until then",
+            "alts": [
+              "Javelin"
+            ]
+          }
+        ],
+        "equipment": [
+          {
+            "item": "Red Jewel",
+            "why": "Mag +3",
+            "slot": "Accessory",
+            "plan": "Keep equipped"
+          },
+          {
+            "item": "Talisman Shield",
+            "why": "Def +1, Res +2, Wt 3",
+            "slot": "Defense"
+          }
+        ],
+        "arts": [
+          {
+            "name": "Lightning Strike",
+            "why": "Levin Sword art: +8 Mt, magic, 1 to 2 range"
+          },
+          {
+            "name": "Defending Spear",
+            "why": "Spear C: Shld +3 in combat"
+          },
+          {
+            "name": "Tempest Spear",
+            "why": "Cheap Hit fix"
+          },
+          {
+            "name": "Spike",
+            "why": "Axe practice for the Armored Ornius Rider exam"
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Sense Threat",
+            "why": "Mastery goal: Avo +20 vs foes effective on him (once mastered)"
+          },
+          {
+            "name": "Offense Basics",
+            "why": "Ornius Rider mastery: Str/Mag +1"
+          },
+          {
+            "name": "Spears Lv. 2",
+            "why": "Spear C+ rank ability: spear Hit +5 (once Spear C+)"
+          },
+          {
+            "name": "Swords Lv. 1",
+            "why": "Sword D+ rank ability: Levin Sword Hit +3"
+          }
+        ],
+        "drop": [
+          {
+            "item": "Iron Spear",
+            "why": "Replaced by the Da Mina Spear and Wooden Spear"
+          },
+          {
+            "item": "Javelin",
+            "why": "Levin Sword covers 1 to 2 range once bartered (keep it until then)"
+          },
+          {
+            "item": "Wooden Spear",
+            "why": "Second spear; the Da Mina covers it. Refine it later only if gold is spare"
+          }
+        ],
+        "items": [
+          {
+            "item": "Concoction",
+            "why": "40 HP x2: the lord can't fall",
+            "alts": [
+              "Vulnerary"
+            ]
+          },
+          {
+            "item": "Linking Rock",
+            "why": "Restores 40 LP in a clash",
+            "situational": "Ch 7 (ends in an Event Clash): open slot"
+          }
+        ],
+        "why": [
+          "The Wild Ornius pushes Dex to 75 and Spd to 50 here"
+        ]
+      },
+      {
+        "when": "Ch 7 to 9",
+        "from": {
+          "part": 1,
+          "ch": 7
+        },
+        "to": {
+          "part": 1,
+          "ch": 9
+        },
+        "level": "Lv 27 to 35",
+        "class": "Shaman",
+        "kind": "detour",
+        "mount": "None (the Wild Ornius waits in the Stable; keep feeding it)",
+        "goal": "Rank side trip: casting every fight takes Black Magic to B for Caladrius; Black-Magic Seeker doubles casts.",
+        "exit": "Leave at Lv 35 and Renown 8 (Ch 10) with Black Magic B; skip Bind Dexterity",
+        "masteries": [],
+        "training": [
+          {
+            "rank": "Black Magic B",
+            "for": "Caladrius exam (Ch 8)",
+            "how": "Cast in every battle; Arena Mage Training (White Magic, Black Magic, Authority)"
+          }
+        ],
+        "tips": [
+          "Shaman on Cai: Mag 55, Spd 55, Def 25 (Armored Ornius Rider: Mag 35, Def 45). Keep him behind the front line",
+          "class-data flags Shaman's Skill EXP row as unreliable; the plan relies on casting, which trains Black Magic in any class (unverified)",
+          "Ch 7: do Castor's Special Request from Pop (Renown 7, 2x Angelica from Saveilon) for Caladrius and 8,000G"
+        ],
+        "weapons": [
+          {
+            "item": "Levin Sword",
+            "why": "Shaman keeps swords: magic hit at 1 to 2 range",
+            "plan": "Stocked around Renown 6 to 7?. Not bartered yet? The Ch 10 map copy, or a Nuzzuo, Io or Jester recruited in Ch 10+ (each brings one), makes the barter optional"
+          }
+        ],
+        "equipment": [
+          {
+            "item": "Red Jewel",
+            "why": "Mag +3",
+            "slot": "Accessory",
+            "plan": "Chapter not documented"
+          },
+          {
+            "item": "Talisman Shield",
+            "why": "Res +2; he is infantry with Def 25 growth here",
+            "slot": "Defense"
+          }
+        ],
+        "arts": [
+          {
+            "name": "Lightning Strike",
+            "why": "Levin Sword art: +8 Mt, magic, 1 to 2 range"
+          }
+        ],
+        "spells": [
+          {
+            "name": "Thunder",
+            "why": "Black C: doubled uses in Shaman; your main spell here"
+          },
+          {
+            "name": "Fire",
+            "why": "Black D: cheapest chip"
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Offense Basics",
+            "why": "Ornius Rider mastery: Str/Mag +1"
+          },
+          {
+            "name": "Black Magic Lv. 1",
+            "why": "Black D+ rank ability: black magic Hit +3"
+          },
+          {
+            "name": "Swords Lv. 1",
+            "why": "Sword D+ rank ability: Levin Sword Hit +3"
+          },
+          {
+            "name": "Sense Threat",
+            "why": "Mastered; little use on foot, keep it for Caladrius"
+          }
+        ],
+        "drop": [
+          {
+            "item": "Da Mina Spear",
+            "why": "Shaman has no spears; the Star Spear takes over in Caladrius"
+          },
+          {
+            "item": "Wooden Spear",
+            "why": "Shaman has no spears; the Star Spear takes over in Caladrius"
+          },
+          {
+            "item": "Defending Spear",
+            "why": "Spear art; Shaman has no spears"
+          },
+          {
+            "item": "Tempest Spear",
+            "why": "Spear art; Shaman has no spears"
+          },
+          {
+            "item": "Spike",
+            "why": "Shaman has no axes"
+          },
+          {
+            "item": "Paired Run",
+            "why": "Mount bond; Shaman is infantry"
+          }
+        ],
+        "items": [
+          {
+            "item": "Concoction",
+            "why": "40 HP x2: Shaman is infantry with Def 25 growth",
+            "alts": [
+              "Vulnerary"
+            ]
+          },
+          {
+            "item": "Linking Rock",
+            "why": "Restores 40 LP in a clash",
+            "situational": "Ch 8 vs Leda (ends in an Event Clash): open slot"
+          }
+        ],
+        "why": [
+          "Armored Ornius Rider can't cast",
+          "Mag grows 55 here against 35 in Armored Ornius Rider",
+          "Flamekeeper still covers Underworld maps on foot"
+        ]
+      },
+      {
+        "when": "Ch 10 to 12",
+        "from": {
+          "part": 1,
+          "ch": 10
+        },
+        "to": {
+          "part": 1,
+          "ch": 12
+        },
+        "level": "Lv 35 to 38",
+        "class": "Caladrius",
+        "kind": "core",
+        "mount": "Wild Ornius (Black Magonius or Magonius if you catch one)",
+        "goal": "Doubled Black Magic on a mount: Brio plus Overtake (up to +3 Mov after kills) lets him nuke and leave.",
+        "exit": "Stays through Part I. Overtake should be mastered before Part II.",
+        "masteries": [
+          "Overtake"
+        ],
+        "training": [
+          {
+            "rank": "Black Magic A",
+            "for": "Thoron",
+            "how": "Arena Mage Training (White Magic, Black Magic, Authority)"
+          },
+          {
+            "rank": "Spear A, Sword A",
+            "for": "Orichaldia (Part III)",
+            "how": "Arena Heavy Training (Spear, Authority, Axe, Heavy); Arena Infantry Training (Sword, Bow, Infantry)"
+          },
+          {
+            "rank": "Rider C",
+            "for": "Bardinger (Part II) and Orichaldia (Rider B)",
+            "how": "Arena Mounted Training (Spear, Authority, Rider, Flying)"
+          }
+        ],
+        "tips": [
+          "Caladrius growths on Cai: Wild Ornius Mag 50, Spd 65; Black Magonius Mag 60, Spd 65; Magonius Mag 65, Spd 55",
+          "Black Magonius and Magonius live at Headsman's Rock; Ch 12's Mystery of Headman's Rock sends you there (same place, unverified)",
+          "Blackfire Blaze Art arrives in the Ch 10 opening scenes",
+          "Catch a spare Ferghanan Horse or Wild Horse for him before Part II: the Bardinger stint needs a horse and Part II has no free time"
+        ],
+        "weapons": [
+          {
+            "item": "Star Spear",
+            "why": "Main spear: Blinding Starlight (magic, 1 to 2 range, effective vs undead: Ch 12 necrodragon); Holy, Defending and Tempest Spear ride on it",
+            "plan": "Ch 9, Zenzele's Paradise pickup before the battle"
+          },
+          {
+            "item": "Levin Sword",
+            "why": "S tier: refine the Vandahl copy",
+            "plan": "Keep from Ch 6 to 7; the Ch 10 map copy goes to Sirocco"
+          }
+        ],
+        "equipment": [
+          {
+            "item": "Red Jewel",
+            "why": "Mag +3",
+            "slot": "Accessory",
+            "plan": "Keep equipped"
+          },
+          {
+            "item": "Talisman Shield",
+            "why": "Def +1, Res +2, Wt 3: the heaviest shield a doubler can carry",
+            "slot": "Defense"
+          }
+        ],
+        "arts": [
+          {
+            "name": "Blinding Starlight",
+            "why": "+10 Mt, magic, 10 durability; refine to restore"
+          },
+          {
+            "name": "Lightning Strike",
+            "why": "Magic hit for armor at 1 to 2 range"
+          },
+          {
+            "name": "Holy Spear",
+            "why": "Spear B: +8 Mt, heals him after combat"
+          },
+          {
+            "name": "Defending Spear",
+            "why": "Spear C: Shld +3 in combat"
+          },
+          {
+            "name": "Tempest Spear",
+            "why": "Cheap Hit fix"
+          }
+        ],
+        "spells": [
+          {
+            "name": "Thunder",
+            "why": "Black C: cheap chip, doubled uses"
+          },
+          {
+            "name": "Bolganone",
+            "why": "Black B: main nuke vs armor"
+          },
+          {
+            "name": "Thoron",
+            "why": "Black A: the reason the Hard video rates Cai S"
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Overtake",
+            "why": "Caladrius mastery goal: Mov +1 per kill, max +3 (once mastered)"
+          },
+          {
+            "name": "Sense Threat",
+            "why": "Avo +20 vs anti-cavalry foes"
+          },
+          {
+            "name": "Offense Basics",
+            "why": "Ornius Rider mastery: Str/Mag +1"
+          },
+          {
+            "name": "Spears Lv. 2",
+            "why": "Spear C+ rank ability: spear Hit +5"
+          },
+          {
+            "name": "Black Magic Lv. 1",
+            "why": "Black D+ rank ability: black magic Hit +3"
+          }
+        ],
+        "drop": [
+          {
+            "item": "Hexlock Shield",
+            "why": "Wt 4 puts him over a doubler's 3; the copies go to Ninae and Jasmine"
+          },
+          {
+            "item": "Ridersbane",
+            "why": "Star Spear is already effective vs cavalry; the +3 copy is a Part III swap"
+          }
+        ],
+        "items": [
+          {
+            "item": "Elixir",
+            "why": "100 HP: the lord, and his Part II stock",
+            "alts": [
+              "Concoction"
+            ],
+            "plan": "After Ch 6"
+          },
+          {
+            "item": "Concoction",
+            "why": "40 HP x2",
+            "alts": [
+              "Vulnerary"
+            ],
+            "situational": "End of Ch 12: Part II stock (Ch 3 asks for concoctions): open slot"
+          }
+        ],
+        "why": [
+          "Master Overtake; Thoron comes at Black Magic A"
+        ]
+      },
+      {
+        "when": "Part II Ch 1 to 4",
+        "from": {
+          "part": 2,
+          "ch": 1
+        },
+        "to": {
+          "part": 2,
+          "ch": 4
+        },
+        "level": "Lv 37 to 41",
+        "class": "Bardinger",
+        "kind": "detour",
+        "mount": "Ferghanan Horse (Wild Horse if that is what you caught)",
+        "goal": "Brio keeps Bardinger at Mov 7. Rank and stat detour for Part III, where he fights with Str, not Mag. Bardinger grows Str 60 on a Ferghanan Horse (Caladrius 45) and trains Riding +3, Sword +2, Spear +2 and Axe +1: every rank Orichaldia and The Cavalier test. Aegis halves a magic hit 20% of the time.",
+        "exit": "Leave once Aegis is mastered. Be back in Caladrius for Ch 5 either way: Dagda has far lower Res than Def.",
+        "masteries": [
+          "Aegis"
+        ],
+        "training": [
+          {
+            "rank": "Rider B, Spear A, Sword A",
+            "for": "Orichaldia (Part III)",
+            "how": "Bardinger trains Riding, Sword and Spear in every battle; Part II has no Arena"
+          }
+        ],
+        "tips": [
+          "Bardinger on Cai: Ferghanan Horse HP 60, Str 60, Def 50, Res 45; Wild Horse Str 55, Spd 50, Res 50",
+          "A new mount starts a new bond: keep feeding the horse, since Stable interactions continue in Part II",
+          "Losing Cai ends every Part II map; Bardinger is sturdier than Caladrius (Def 50 vs 45), but check the danger line before each move",
+          "Bardinger has no magic: Lightning Strike and Blinding Starlight are his magic hits here",
+          "No free time in Part II: only equipped items come in, so equip them at the end of Ch 12"
+        ],
+        "weapons": [
+          {
+            "item": "Star Spear",
+            "why": "Blinding Starlight keeps a magic hit",
+            "plan": "Ch 9, Zenzele's Paradise pickup before the battle"
+          },
+          {
+            "item": "Levin Sword",
+            "why": "Lightning Strike: magic at 1 to 2 range"
+          }
+        ],
+        "equipment": [
+          {
+            "item": "Red Jewel",
+            "why": "Mag +3 for his magic arts",
+            "slot": "Accessory",
+            "plan": "Chapter not documented"
+          },
+          {
+            "item": "Talisman Shield",
+            "why": "Def +1, Res +2, Wt 3: the heaviest shield a doubler can carry",
+            "slot": "Defense"
+          }
+        ],
+        "arts": [
+          {
+            "name": "Blinding Starlight",
+            "why": "+10 Mt, magic, 10 durability; refine to restore"
+          },
+          {
+            "name": "Lightning Strike",
+            "why": "Levin Sword art: +8 Mt, magic, 1 to 2 range"
+          },
+          {
+            "name": "Holy Spear",
+            "why": "Spear B: +8 Mt, heals him after combat"
+          },
+          {
+            "name": "Defending Spear",
+            "why": "Spear C: Shld +3 in combat"
+          },
+          {
+            "name": "Tempest Spear",
+            "why": "Spear D: +4 Mt, +10 Hit, 2 durability"
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Aegis",
+            "why": "Bardinger mastery goal: half damage from a magic hit at 20% (once mastered)"
+          },
+          {
+            "name": "Overtake",
+            "why": "Mov +1 per kill, max +3"
+          },
+          {
+            "name": "Sense Threat",
+            "why": "Avo +20 vs anti-cavalry foes"
+          },
+          {
+            "name": "Offense Basics",
+            "why": "Ornius Rider mastery: Str/Mag +1"
+          },
+          {
+            "name": "Spears Lv. 2",
+            "why": "Spear C+ rank ability: spear Hit +5"
+          }
+        ],
+        "drop": [
+          {
+            "item": "Paired Run+",
+            "why": "Bond is with the Ornius; the horse starts from bond 0"
+          },
+          {
+            "item": "Ridersbane",
+            "why": "Not in his Ch 12 kit: storage until Part III"
+          },
+          {
+            "item": "Da Mina Spear",
+            "why": "Not in his Ch 12 kit: storage until Part III"
+          },
+          {
+            "item": "Wooden Spear",
+            "why": "Not in his Ch 12 kit: storage until Part III"
+          }
+        ],
+        "items": [
+          {
+            "item": "Elixir",
+            "why": "100 HP: carried in from Ch 12",
+            "alts": [
+              "Concoction"
+            ],
+            "plan": "After Ch 6"
+          },
+          {
+            "item": "Concoction",
+            "why": "40 HP x2",
+            "alts": [
+              "Vulnerary"
+            ],
+            "situational": "Ch 3 (asks for concoctions): carried in from Ch 12, open slot"
+          }
+        ]
+      },
+      {
+        "when": "Part II Ch 5 to 6",
+        "from": {
+          "part": 2,
+          "ch": 5
+        },
+        "to": {
+          "part": 3,
+          "ch": 2
+        },
+        "level": "Lv 41 to 42",
+        "class": "Caladrius",
+        "kind": "core",
+        "mount": "Wild Ornius (or the Magonius from Ch 12)",
+        "goal": "Brio and Overtake again for the Dagda map. Back to doubled black magic for Dagda in Ch 5, who has far lower Res than Def.",
+        "exit": "Stays to the end of Part II.",
+        "tips": [
+          "Losing Cai ends every Part II map; check the danger line before each move",
+          "Stable interactions continue in Part II: keep bonding the Ornius"
+        ],
+        "weapons": [
+          {
+            "item": "Star Spear",
+            "why": "Magic art and Mt 16",
+            "plan": "Equip before Part II"
+          },
+          {
+            "item": "Levin Sword",
+            "why": "Magic at 1 to 2 range",
+            "plan": "Equip before Part II"
+          }
+        ],
+        "equipment": [
+          {
+            "item": "Red Jewel",
+            "why": "Mag +3",
+            "slot": "Accessory",
+            "plan": "Keep equipped"
+          },
+          {
+            "item": "Talisman Shield",
+            "why": "Def +1, Res +2, Wt 3: the heaviest shield a doubler can carry",
+            "slot": "Defense"
+          }
+        ],
+        "arts": [
+          {
+            "name": "Blinding Starlight",
+            "why": "+10 Mt, magic, 10 durability; refine to restore"
+          },
+          {
+            "name": "Lightning Strike",
+            "why": "Magic hit for armor at 1 to 2 range"
+          },
+          {
+            "name": "Holy Spear",
+            "why": "Spear B: +8 Mt, heals him after combat"
+          },
+          {
+            "name": "Defending Spear",
+            "why": "Spear C: Shld +3 in combat"
+          },
+          {
+            "name": "Tempest Spear",
+            "why": "Cheap Hit fix"
+          }
+        ],
+        "spells": [
+          {
+            "name": "Thoron",
+            "why": "Black A: Dagda's low Res in Ch 5"
+          },
+          {
+            "name": "Bolganone",
+            "why": "Black B: main nuke vs armor"
+          },
+          {
+            "name": "Thunder",
+            "why": "Black C: cheap chip, doubled uses"
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Overtake",
+            "why": "Mov +1 per kill, max +3"
+          },
+          {
+            "name": "Sense Threat",
+            "why": "Avo +20 vs foes effective on him"
+          },
+          {
+            "name": "Aegis",
+            "why": "Half damage from a magic hit at 20%"
+          },
+          {
+            "name": "Offense Basics",
+            "why": "Ornius Rider mastery: Str/Mag +1"
+          },
+          {
+            "name": "Black Magic Lv. 1",
+            "why": "Black D+ rank ability: black magic Hit +3"
+          }
+        ],
+        "drop": [
+          {
+            "item": "Ridersbane",
+            "why": "Not in his Ch 12 kit: storage until Part III"
+          },
+          {
+            "item": "Da Mina Spear",
+            "why": "Not in his Ch 12 kit: storage until Part III"
+          },
+          {
+            "item": "Wooden Spear",
+            "why": "Not in his Ch 12 kit: storage until Part III"
+          }
+        ],
+        "items": [
+          {
+            "item": "Elixir",
+            "why": "100 HP: carried in from Ch 12",
+            "alts": [
+              "Concoction"
+            ],
+            "plan": "After Ch 6"
+          },
+          {
+            "item": "Concoction",
+            "why": "40 HP x2",
+            "alts": [
+              "Vulnerary"
+            ],
+            "situational": "Ch 3 (asks for concoctions): carried in from Ch 12, open slot"
+          }
+        ]
+      },
+      {
+        "when": "Part III Section 3 (Orichaldia)",
+        "from": {
+          "part": 3,
+          "ch": 3
+        },
+        "to": {
+          "part": 3,
+          "ch": 4
+        },
+        "level": "Lv 45+",
+        "class": "Orichaldia",
+        "kind": "core",
+        "mount": "Ferghanan Horse (Canto); Black Horse from Section 4",
+        "goal": "Fierce Spear: foes can't double him. Star Spear +2 leads; Cleansing Blade +2 strips the Underworld Boon.",
+        "exit": "Fierce Spear mastered, Riding A, S in Axe/Spear/Sword: The Cavalier in Section 4.",
+        "masteries": [
+          "Fierce Spear"
+        ],
+        "training": [
+          {
+            "rank": "Rider B, Spear A, Sword A",
+            "for": "Orichaldia (Lv 45, Master License)",
+            "how": "Arena Mounted Training (Spear, Authority, Rider, Flying); Arena Heavy Training (Spear, Authority, Axe, Heavy); Arena Infantry Training (Sword, Bow, Infantry)"
+          },
+          {
+            "rank": "Rider A, Axe S, Spear S, Sword S",
+            "for": "The Cavalier (Divinium Saddle, five Keys of the Diadem)",
+            "how": "Orichaldia trains Riding +4, Spear +3, Sword +2, Axe +1 in every battle; Arena"
+          }
+        ],
+        "tips": [
+          "Orichaldia on the Ferghanan Horse grows HP 65, Str 65, Def 50 on Cai",
+          "Section 3 has no B gate: keys, Aurora's Temple, home guard",
+          "Squad: Tialla's Lend Strength+ (Str +3) reaches him at range 2 before he charges",
+          "Underworld Flames map: Flamekeeper (Lv 5) swaps in for Aegis"
+        ],
+        "weapons": [
+          {
+            "item": "Star Spear +2",
+            "why": "Main: Mt 21?, Wt 8, cavalry-effective; Blinding Starlight vs undead",
+            "plan": "His own copy; +3 needs Soulstone",
+            "alts": [
+              "Iron Spear +4"
+            ]
+          },
+          {
+            "item": "Cleansing Blade +2",
+            "why": "Boon answer: Mt 16?, Wt 3; carries Windsweep and Skysplit"
+          },
+          {
+            "item": "Ridersbane +2",
+            "why": "Effective+ vs cavalry; Shld +5 vs cavalry needs +3",
+            "situational": "Cavalry-heavy maps: slot 6"
+          }
+        ],
+        "equipment": [
+          {
+            "item": "Silver Shield",
+            "why": "Def +5, Wt 4: Fierce Spear stops doubles, so the shield fits",
+            "slot": "Defense",
+            "alts": [
+              "Iron Shield",
+              "Talisman Shield"
+            ]
+          },
+          {
+            "item": "Phantom Ring",
+            "why": "Avo +5, Wt 3: the Gale Ring Boon goes to Alexandra, Troy, Seteth",
+            "slot": "Accessory",
+            "alts": [
+              "Bird-Plume Amulet",
+              "Gale Ring"
+            ]
+          }
+        ],
+        "arts": [
+          {
+            "name": "Raging Tempest",
+            "why": "Spear A: Mt +12, Hit +20"
+          },
+          {
+            "name": "Blinding Starlight",
+            "why": "Star Spear: Mt +10, magic, 1-2, effective vs undead, no follow-up"
+          },
+          {
+            "name": "Holy Spear",
+            "why": "Spear B: Mt +8, heals him after combat"
+          },
+          {
+            "name": "Windsweep",
+            "why": "Sword A: Mt +5, 20% no counter"
+          },
+          {
+            "name": "Skysplit",
+            "why": "Sword B: AS +5 in combat"
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Fierce Spear",
+            "why": "Orichaldia mastery: cannot be doubled (once mastered)"
+          },
+          {
+            "name": "Overtake",
+            "why": "Mov +1 a kill, max +3: chases carriers and lures"
+          },
+          {
+            "name": "Sense Threat",
+            "why": "Avo +20 vs foes effective on him, until Golden Ride"
+          },
+          {
+            "name": "Spears Lv. 4",
+            "why": "Spear A+: Hit/Avo +7 with spears; Lv. 3 until then"
+          },
+          {
+            "name": "Aegis",
+            "why": "Half damage from a magic hit at 20%"
+          }
+        ],
+        "drop": [
+          {
+            "item": "Levin Sword",
+            "why": "Blinding Starlight covers magic at 1-2; Mag growth −5 here"
+          },
+          {
+            "item": "Red Jewel",
+            "why": "Key item: always on, no slot (D-134)"
+          },
+          {
+            "item": "Offense Basics",
+            "why": "Spears Lv. 4 takes the slot"
+          },
+          {
+            "item": "Paired Run+",
+            "why": "Bond is with the Ornius; the new horse starts from bond 0"
+          },
+          {
+            "item": "Da Mina Spear",
+            "why": "Star Spear +2 carries the spear arts"
+          },
+          {
+            "item": "Wooden Spear",
+            "why": "No slot"
+          },
+          {
+            "item": "Ridersbane",
+            "why": "Replaced by the Ridersbane +2"
+          }
+        ],
+        "items": [
+          {
+            "item": "Elixir",
+            "why": "100 HP: tank and boss turns",
+            "alts": [
+              "Concoction"
+            ]
+          }
+        ]
+      },
+      {
+        "when": "Part III, Section 4 onward",
+        "from": {
+          "part": 3,
+          "ch": 4
+        },
+        "level": "Lv 45+",
+        "class": "The Cavalier",
+        "kind": "core",
+        "mount": "Black Horse (Daimos Plateau, after Baozi; Canto); Ferghanan Horse until bond 3",
+        "goal": "Mov 10 with Brio; Golden Ride voids anti-cavalry hits. Raging Tempest (Hit +20) and Fierce Spear on.",
+        "exit": "Final class. One holder: Return Certification frees it.",
+        "masteries": [
+          "Divine Dexterity"
+        ],
+        "training": [
+          {
+            "rank": "Rider A, Axe S, Spear S, Sword S",
+            "for": "The Cavalier exam (100% pass needed)",
+            "how": "Orichaldia battles and Arena; Bardinger in Part II gave the Riding head start"
+          }
+        ],
+        "tips": [
+          "Hanno: Cavalry Move cuts forest cost by 1; still keep him with the main body",
+          "Every Stable lure needs Cai: Daimos Plateau and Warrior's Road right after Baozi",
+          "Squad: Tialla's Lend Strength+ and Song of Courage (Dex/Spd +2) before he moves",
+          "Balor east: Overtake chains gate kills; Hong Hua warps him in if he is short"
+        ],
+        "weapons": [
+          {
+            "item": "Star Spear +2",
+            "why": "Main: Mt 21?, Wt 8, cavalry-effective; Blinding Starlight vs undead",
+            "plan": "His own copy; +3 needs Soulstone",
+            "alts": [
+              "Iron Spear +4"
+            ]
+          },
+          {
+            "item": "Cleansing Blade +2",
+            "why": "Boon answer: Mt 16?, Wt 3; carries Windsweep and Skysplit"
+          },
+          {
+            "item": "Ridersbane +2",
+            "why": "Effective+ vs cavalry; Shld +5 vs cavalry needs +3",
+            "situational": "Cavalry-heavy maps: slot 6"
+          }
+        ],
+        "equipment": [
+          {
+            "item": "Silver Shield",
+            "why": "Def +5, Wt 4: Fierce Spear stops doubles, so the shield fits",
+            "slot": "Defense",
+            "alts": [
+              "Iron Shield",
+              "Talisman Shield"
+            ]
+          },
+          {
+            "item": "Phantom Ring",
+            "why": "Avo +5, Wt 3: the Gale Ring Boon goes to Alexandra, Troy, Seteth",
+            "slot": "Accessory",
+            "alts": [
+              "Bird-Plume Amulet",
+              "Gale Ring"
+            ]
+          }
+        ],
+        "arts": [
+          {
+            "name": "Raging Tempest",
+            "why": "Spear A: Mt +12, Hit +20"
+          },
+          {
+            "name": "Blinding Starlight",
+            "why": "Star Spear: Mt +10, magic, 1-2, effective vs undead, no follow-up"
+          },
+          {
+            "name": "Holy Spear",
+            "why": "Spear B: Mt +8, heals him after combat"
+          },
+          {
+            "name": "Windsweep",
+            "why": "Sword A: Mt +5, 20% no counter"
+          },
+          {
+            "name": "Skysplit",
+            "why": "Sword B: AS +5 in combat"
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Fierce Spear",
+            "why": "Foes cannot double him"
+          },
+          {
+            "name": "Divine Dexterity",
+            "why": "The Cavalier mastery: Dex +10 (once mastered); Aegis until then"
+          },
+          {
+            "name": "Spears Lv. 5",
+            "why": "Spear S (exam rank): Hit/Avo +10 with spears"
+          },
+          {
+            "name": "Overtake",
+            "why": "Mov +1 a kill, max +3: Lyrah's teleports, Cohen's carriers"
+          },
+          {
+            "name": "Cavalry Move",
+            "why": "Riding A (exam rank): terrain cost −1, Hanno's forests"
+          }
+        ],
+        "drop": [
+          {
+            "item": "Sense Threat",
+            "why": "Golden Ride already cancels anti-cavalry effectiveness"
+          },
+          {
+            "item": "Spears Lv. 4",
+            "why": "Spears Lv. 5 replaces it at Spear S"
+          },
+          {
+            "item": "Aegis",
+            "why": "Divine Dexterity takes the slot once mastered"
+          }
+        ],
+        "items": [
+          {
+            "item": "Elixir",
+            "why": "100 HP: tank and boss turns",
+            "alts": [
+              "Concoction"
+            ]
+          }
+        ],
+        "checks": [
+          {
+            "stat": "Spd",
+            "at": "Section 6",
+            "need": "Star Spear +2 forecast shows x2 on Balor-east gate guards",
+            "why": "Raging Tempest and Holy Spear land twice only when he doubles",
+            "fix": [
+              "Shield off on offense turns: AS +4 past Bld",
+              "Tialla's Song of Courage: Spd +2 in range",
+              "Cleansing Blade +2 in hand: Wt 3 instead of 8"
+            ]
+          }
+        ]
+      }
+    ],
+    "alt": "If Black Magic reaches B at the Arena alone, skip the Shaman stint and stay Armored Ornius Rider (Def 45, mounted) until Caladrius. High Savant (Smyrnos request) keeps Black Magic and swords in Part III; pick it over Orichaldia if Cai stays your main caster.",
+    "sources": [
+      "class-and-weapon-guide",
+      "growth.py",
+      "class-data",
+      "character-learnsets",
+      "combat-arts-and-abilities",
+      "weapons-and-items",
+      "mounts.json",
+      "walkthrough-part1-cai",
+      "part1-cai-path",
+      "hard-mode-video-notes",
+      "PATHS-BRIEF",
+      "part2-war",
+      "part3-salvation"
+    ],
+    "routeNotes": [
+      {
+        "system": "Stable & Luring",
+        "note": "Ride one Wild Ornius from Ch 5 and feed it every week: Paired Run gives Mov +1 at bond 3 and +2 at bond 5. With Brio (Mov +1) and Overtake (up to Mov +3) he strikes and gets back out. Get it to bond 5 before Caladrius in Ch 10."
+      },
+      {
+        "system": "Stable & Luring",
+        "note": "A Magonius (Mag 65 growth in Caladrius, Paired Magic-Focus) from Headsman's Rock in Ch 12 starts a new bond; whether bonds carry between mounts is not documented, so only switch if you can feed it through Part II."
+      },
+      {
+        "system": "Mentoring",
+        "note": "Castor's Special Request from Pop (Renown 7, usually late Ch 8) unlocks Caladrius and Aurora's Special Request from Mom (Renown 8, usually Ch 10) unlocks Dragoon for Seteth (Ch 11 or 12) and Nydine (Part II Ch 2). Mentoring is Cai's alone: no other unit is mentored."
+      },
+      {
+        "system": "Kindness Quests",
+        "note": "Renown 8 gates his Caladrius exam. Deliver the crop quests as soon as the crops are ready, not on 11/27, so Renown 8 lands by early Ch 10 (end of Ch 9 at best)."
+      },
+      {
+        "system": "Farming",
+        "note": "Only Cai plants. Plant on every free tile from the first farm day: the route needs 20 Linaria and 90 vegetables for quests, plus the barter extras in the other units' notes."
+      }
+    ],
+    "decisions": [
+      {
+        "topic": "Take Armored Ornius Rider in Ch 6",
+        "pick": "Armored Ornius Rider (Rider D, Axe C, Spear C), not Light Cavalry",
+        "why": "It rides the same Ornius as Ornius Rider and Caladrius, so one bonded mount carries him to Part II. It adds Mov 7, wall jumps and Sense Threat."
+      },
+      {
+        "topic": "Take the Shaman side trip in Ch 7",
+        "pick": "Shaman (Black Magic C) once Sense Threat is mastered, until Ch 10",
+        "why": "Armored Ornius Rider can't cast. Casting every fight takes Black Magic to B for Caladrius, and Shaman grows Mag 55 against 35."
+      },
+      {
+        "topic": "Go Caladrius in Ch 10",
+        "pick": "Caladrius (Rider D, Black Magic B) after Castor's Renown 7 request",
+        "why": "Doubled Black Magic on a spear rider, same Ornius mount. Brio (Mov +1) plus Overtake lets him nuke and leave; Thoron comes at Black Magic A."
+      },
+      {
+        "topic": "Skip Bardinger until Part II",
+        "pick": "Bardinger stint on a horse in Part II Ch 1 to 4",
+        "why": "Part II Licenses are free: the stint earns Aegis and trains the Riding, Sword and Spear ranks Orichaldia and The Cavalier test. Back to Caladrius for Dagda (Ch 5)."
+      }
+    ],
+    "gates": [
+      {
+        "route": "Cai",
+        "from": {
+          "part": 1,
+          "ch": 5
+        },
+        "kind": "rank",
+        "text": "Black Magic C before the Ch 7 Shaman side trip; Armored Ornius Rider can't cast",
+        "by": {
+          "part": 1,
+          "ch": 7
+        }
+      },
+      {
+        "route": "Cai",
+        "from": {
+          "part": 1,
+          "ch": 8
+        },
+        "kind": "item",
+        "text": "Caladrius needs Castor's Special Request from Pop (Renown 7): 2 Angelica, Saveilon",
+        "by": {
+          "part": 1,
+          "ch": 10
+        }
+      },
+      {
+        "route": "Cai",
+        "from": {
+          "part": 1,
+          "ch": 7
+        },
+        "kind": "rank",
+        "text": "Black Magic B by Lv 35 for Caladrius: cast every fight as a Shaman",
+        "by": {
+          "part": 1,
+          "ch": 10
+        }
+      }
+    ]
+  },
+  "sources": [
+    "https://fortunesweave.co.uk/characters/cai",
+    "https://fireemblemwiki.org/wiki/Cai",
+    "https://www.keengamer.com/articles/guides/fire-emblem-fortunes-weave-tier-list-best-characters-ranked-for-every-route/"
+  ],
+  "recruitOn": {
+    "Cai": {
+      "how": "lord"
+    }
+  }
+}

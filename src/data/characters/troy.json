@@ -1,0 +1,451 @@
+{
+  "name": "Troy",
+  "slug": "troy",
+  "epithet": "Auntie",
+  "faction": "The Savior's Army",
+  "weapons": [
+    "Gauntlet (Zerberus, Silver Gauntlets)",
+    "White Magic (Heal, Physic, Restore)"
+  ],
+  "preferred": [
+    "Brawling",
+    "White Magic",
+    "Black Magic"
+  ],
+  "personality": "A warm elder figure who loves her kin and natural scenery and keeps her weapons well maintained.",
+  "story": "A Mediator and long-time acquaintance of Saramis's kings, called auntie by young Theodora. She joined the Promised One's Army in 1454 after being contacted about preparing Eshmel's body.",
+  "personalSkill": {
+    "name": "Yun Shou",
+    "effect": "Hit+10 when equipped with gauntlets."
+  },
+  "growths": {
+    "HP": 40,
+    "Str": 45,
+    "Mag": 45,
+    "Spd": 50,
+    "Dex": 40,
+    "Def": 30,
+    "Res": 30,
+    "Lck": 30,
+    "Cha": 30
+  },
+  "supports": [
+    "Theodora"
+  ],
+  "joins": "Automatically in the Prologue and in Part III: Salvation, on reaching Alcineus Span. Joins at Lv40 War Monk; base stats HP 52, Str 31, Mag 32, Dex 28, Spd 33, Lck 24, Def 23, Res 28, Cha 21. Combat art: Mighty Fist.",
+  "build": {
+    "role": "Squad B flier killer and backup healer",
+    "path": [
+      "War Monk (join, Lv 40)",
+      "The Godhand (Sec 4, Emperor's Sash)"
+    ],
+    "part3Target": "The Godhand",
+    "notes": "Zerberus (1-2, magic) is effective vs fliers from Lv 50 (Modified Weapon). The Godhand claim moved from Tobias (D-131)."
+  },
+  "sources": [
+    "https://fortunesweave.co.uk/characters/troy",
+    "https://www.rpgsite.net/guide/21391-fire-emblem-fortunes-weave-recruitment-guide-all-characters-in-game-how-to-recruit-them"
+  ],
+  "guide": {
+    "role": "Squad B flier killer: Zerberus at 1-2, Physic and Restore as backup heals",
+    "summary": "She shoots fliers from 2 tiles with [[item:Zerberus]] (magic damage), then Strike and Heal lets her Physic an ally the same turn. From Lv 50 Modified Weapon makes Zerberus effective vs fliers: ride with squad B on every flier gate.",
+    "playstyle": "Player phase: Zerberus on the flier, Strike and Heal into Physic or Restore. Melee: Wooden Gauntlets +9 for Avo +15. Enemy phase: end 2 tiles behind the Strike line; Res 30 growth means mages hurt.",
+    "focus": [
+      "Spd",
+      "Mag",
+      "Res"
+    ],
+    "keys": [
+      "Refine Zerberus to +2 in Sec 2 Free Time; +3 (Mt 20, Hit 80) is her Soulstone pick.",
+      "Reach Lv 50 by Sec 4: Modified Weapon makes Zerberus effective vs fliers.",
+      "Arena Warrior S-push seat from Sec 2: Gauntlet S for [[class:The Godhand]].",
+      "Sec 4: take the Emperor's Sash (Disciple's Chambers); exam only at 100%.",
+      "After each shot, Strike and Heal: Physic squad B from range."
+    ],
+    "watch": [
+      "Zerberus: Dur 5, Compressed Laser costs 2. Refines restore it; Shenlo's miasma drains it.",
+      "Gauntlet rank: Zerberus needs A; join rank ?. Below A, Iron Gauntlets +4 carry her.",
+      "Weight: Zerberus Wt ? or Iron Gauntlets +4 3 (Channels 1 from S5) + Gale Ring 2. Drop the ring first if a staff must go on.",
+      "Res: 30 growth. Godhand Res +5 flat and Divine Adornment (Res +10) close it.",
+      "Physic rank ?: C (site) vs A+ (sheet). Heal works from D."
+    ],
+    "decisions": [
+      {
+        "topic": "Take The Godhand in Sec 4",
+        "pick": "War Monk on join, The Godhand from Sec 4 (Emperor's Sash)",
+        "why": "Gauntlet and White boons, and she joins a War Monk Lv 40: only Gauntlet S is left. The Godhand adds Res +5, Spd +5, Brawl Avo +10 and triples Physic uses. Tobias moves to The Eternal (D-131).",
+        "else": "Stay War Monk if the exam isn't 100%"
+      },
+      {
+        "topic": "Lead with Zerberus vs fliers",
+        "pick": "Zerberus +3 main, Wooden Gauntlets +9 for melee",
+        "why": "Zerberus hits at 1-2 with magic damage and gets effective vs fliers at Lv 50 (+ at Lv 60). Yun Shou adds Hit +10. Wooden +9 adds Avo +15 and Spd +5 at Wt 1 when she must stand adjacent."
+      },
+      {
+        "topic": "Wear the Gale Ring",
+        "pick": "Gale Ring over a staff",
+        "why": "Spd +3 at Wt 2 keeps her doubling fliers. Sofia and Orchel carry the heals; her Physic is backup, so Healing Staff +10 HP is the swap only on heal-heavy maps."
+      }
+    ],
+    "finalists": {
+      "stats": [
+        "Spd",
+        "Mag",
+        "Str",
+        "Res"
+      ],
+      "options": [
+        {
+          "class": "The Godhand",
+          "use": "Sec 4+",
+          "note": "Res +5, Spd +5 flat; Brawl Avo +10; Physic uses x3"
+        },
+        {
+          "class": "War Monk",
+          "use": "Sec 1-3 (join)",
+          "note": "Join class: Brawl Avo +7, Strike and Heal; fallback endpoint"
+        },
+        {
+          "class": "Wiseman",
+          "note": "White A for Magic Heal +15; drops Brawl Avo. Sofia and Orchel heal"
+        }
+      ]
+    },
+    "stages": [
+      {
+        "when": "Part III Sec 1 to 3 (War Monk)",
+        "from": {
+          "part": 3,
+          "ch": 1
+        },
+        "to": {
+          "part": 3,
+          "ch": 3
+        },
+        "level": "Lv 40 (join) to 50",
+        "class": "War Monk",
+        "kind": "core",
+        "goal": "Flier killer: Zerberus hits fliers at 1-2 with magic; Strike and Heal casts Physic after.",
+        "why": [
+          "Joins Section ? (not in B's Section 2 seats): plan from Sec 1",
+          "Underworld Boon: Hidden Evilbreak (D-147) once Teach Secrets reaches her",
+          "Section 3: B has no gate; Aurora's Temple, keys and home guard"
+        ],
+        "exit": "Gauntlet S, White C, Emperor's Sash: The Godhand exam in Sec 4 (100%).",
+        "masteries": [
+          "Strike and Heal"
+        ],
+        "weapons": [
+          {
+            "item": "Zerberus +3",
+            "why": "Main: magic 1-2, Mt 20, Hit 80 at +3",
+            "plan": "Soulstone queue",
+            "alts": [
+              "Zerberus +2"
+            ]
+          },
+          {
+            "item": "Iron Gauntlets +4",
+            "why": "Melee: Mt ?, Wt 3, Hit 90; carries Evilbreak",
+            "alts": [
+              "Da Mina Gauntlets +2"
+            ],
+            "plan": "Soulstone for +3 and +4; Da Mina +2 until then"
+          }
+        ],
+        "equipment": [
+          {
+            "item": "Gale Ring",
+            "why": "Spd +3, Wt 2: doubles fliers",
+            "slot": "Accessory",
+            "plan": "Boon or Reliquary buy",
+            "alts": [
+              "Phantom Ring",
+              "Healing Staff"
+            ]
+          }
+        ],
+        "items": [
+          {
+            "item": "Concoction",
+            "why": "40 HP: she stands near the Strike line",
+            "alts": [
+              "Elixir"
+            ]
+          }
+        ],
+        "arts": [
+          {
+            "name": "Compressed Laser",
+            "why": "Zerberus: Mt +10, Hit +20, magic, 1-2; costs 2 Dur"
+          },
+          {
+            "name": "Hidden Evilbreak",
+            "why": "On hit, the foe loses the Boon through its next combat"
+          },
+          {
+            "name": "Battle Rush",
+            "why": "Gauntlet A: follow-up lands before the counter"
+          },
+          {
+            "name": "Mighty Fist",
+            "why": "Join art: Mt +4, Hit +10"
+          }
+        ],
+        "spells": [
+          {
+            "name": "Physic",
+            "why": "White C? (A+ per sheet): 8 HP at 1-10; War Monk doubles uses"
+          },
+          {
+            "name": "Restore",
+            "why": "White B?: removes status"
+          },
+          {
+            "name": "Heal",
+            "why": "White D: 10 HP"
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Strike and Heal",
+            "why": "War Monk mastery: Physic after she fights, once mastered"
+          },
+          {
+            "name": "Fists Lv. 4",
+            "why": "Gauntlet A+?: Hit/Avo +7 with gauntlets"
+          },
+          {
+            "name": "Read the Winds",
+            "why": "Flying D?: Avo +10 vs bows"
+          },
+          {
+            "name": "Knightly Senses",
+            "why": "Riding D?: Avo +10 vs spears"
+          }
+        ],
+        "openSlots": "5th slot: Modified Weapon at Lv 50 (Sec 3-4). No other level ability; Steady Shot needs a bow or tome.",
+        "training": [
+          {
+            "rank": "Gauntlet S",
+            "for": "The Godhand (Sec 4)",
+            "how": "War Monk Gauntlet +4 a fight; Arena Warrior S-push seat after Arena Construction"
+          },
+          {
+            "rank": "White Magic C",
+            "for": "The Godhand",
+            "how": "Heal and Physic casts; one Arena Mage week if short (join rank ?)"
+          },
+          {
+            "rank": "Riding D, Flying D",
+            "for": "Knightly Senses, Read the Winds",
+            "how": "Arena Mounted (Spear, Riding, Flying, Authority), one week if short"
+          }
+        ],
+        "tips": [
+          "Hit stack: Yun Shou +10, Fists Lv. 4 +7, Compressed Laser +20",
+          "Evilbreak (Teach Secrets, after Tobias): her hit strips a Boon foe for the next attacker",
+          "Squad: her Physic and Tialla's cover B from 10 tiles; Lilian and Nuzzuo split fliers"
+        ],
+        "checks": [
+          {
+            "stat": "Spd",
+            "at": "Sec 3",
+            "need": "Zerberus forecast shows x2 on Section 3 dungeon fliers",
+            "why": "Before Lv 50 she needs both hits to kill a flier",
+            "fix": [
+              "Gale Ring on (Spd +3)",
+              "Smyrnos's Channels (Wt 1) from Section 5",
+              "The Godhand in Sec 4: Spd +5 flat"
+            ]
+          }
+        ],
+        "drop": [
+          {
+            "item": "Wooden Gauntlets",
+            "why": "Wooden +4 is Mt ~6 without Soulstone: Iron Gauntlets +4"
+          }
+        ]
+      },
+      {
+        "when": "Part III Sec 4+ (The Godhand)",
+        "from": {
+          "part": 3,
+          "ch": 4
+        },
+        "level": "Lv 50+",
+        "class": "The Godhand",
+        "kind": "core",
+        "goal": "Res +5, Spd +5, Brawl Avo +10. Modified Weapon (Lv 50) makes Zerberus effective vs fliers.",
+        "why": [
+          "Exam: Gauntlet S, White C, Emperor's Sash (Disciple's Chambers, Temple of the Diadem), 100%",
+          "Hanno, Baozi, Cohen, Lyrah, Balor east: she takes squad B's flier kills",
+          "Underworld Boon: Hidden Evilbreak with any gauntlet; Smyrnos's Channels from Section 5"
+        ],
+        "exit": "Endpoint. Modified Weapon+ at Lv 60 (Effective+ vs fliers).",
+        "masteries": [
+          "Divine Adornment"
+        ],
+        "weapons": [
+          {
+            "item": "Zerberus +3",
+            "why": "Main: magic 1-2, Mt 20, Hit 80 at +3",
+            "plan": "Soulstone queue",
+            "alts": [
+              "Zerberus +2"
+            ]
+          },
+          {
+            "item": "Iron Gauntlets +4",
+            "why": "Melee: Mt ?, Wt 3, Hit 90; carries Evilbreak",
+            "alts": [
+              "Da Mina Gauntlets +2"
+            ],
+            "plan": "Soulstone for +3 and +4; Da Mina +2 until then"
+          },
+          {
+            "item": "Smyrnos's Channels +2",
+            "why": "Thoron Gauntlet: Mt +10, magic, 1-2; Wt 1, melee from S5",
+            "plan": "Section 5 hand-over (Smyrnos's Trial)"
+          }
+        ],
+        "equipment": [
+          {
+            "item": "Gale Ring",
+            "why": "Spd +3, Wt 2: doubles fliers",
+            "slot": "Accessory",
+            "plan": "Boon or Reliquary buy",
+            "alts": [
+              "Phantom Ring",
+              "Healing Staff"
+            ]
+          }
+        ],
+        "items": [
+          {
+            "item": "Concoction",
+            "why": "40 HP",
+            "alts": [
+              "Elixir"
+            ]
+          },
+          {
+            "item": "Pure Water",
+            "why": "Res +10 on her weak stat",
+            "situational": "Mage-heavy gates: slot 6"
+          }
+        ],
+        "arts": [
+          {
+            "name": "Hidden Evilbreak",
+            "why": "On hit, the foe loses the Boon through its next combat"
+          },
+          {
+            "name": "Compressed Laser",
+            "why": "Zerberus: Mt +10, Hit +20, magic; effective vs fliers at Lv 50"
+          },
+          {
+            "name": "Assassin's Fist",
+            "why": "Gauntlet S: at least 20 damage (armor, high-Def fliers)"
+          },
+          {
+            "name": "Battle Rush",
+            "why": "Follow-up before the counter"
+          },
+          {
+            "name": "Mighty Fist",
+            "why": "Mt +4, Hit +10"
+          }
+        ],
+        "spells": [
+          {
+            "name": "Physic",
+            "why": "8 HP at 1-10; White-Magic Zenith triples uses"
+          },
+          {
+            "name": "Restore",
+            "why": "Removes status: Lyrah's Fear confusion ?"
+          },
+          {
+            "name": "Barrier",
+            "why": "White S? (sheet); effect not documented"
+          },
+          {
+            "name": "Heal",
+            "why": "10 HP"
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Modified Weapon",
+            "why": "Lv 50: Zerberus effective vs fliers; + at Lv 60"
+          },
+          {
+            "name": "Divine Adornment",
+            "why": "The Godhand mastery: Res +10, once mastered"
+          },
+          {
+            "name": "Strike and Heal",
+            "why": "Physic after she fights"
+          },
+          {
+            "name": "Fists Lv. 5",
+            "why": "Gauntlet S (exam rank): Hit/Avo +10"
+          },
+          {
+            "name": "Read the Winds",
+            "why": "Avo +10 vs bows"
+          }
+        ],
+        "tips": [
+          "Hanno and Cohen: Zerberus at 1-2 on fliers and large birds",
+          "Evilbreak first, then Cai or Seteth finishes the Boon foe",
+          "Balor east: runs the gates; Tialla's Physic behind, Strike and Heal after each hit",
+          "Lyrah: Restore on a confused ally ?; Modified Weapon+ (Lv 60) replaces the base"
+        ],
+        "checks": [
+          {
+            "stat": "Res",
+            "at": "Sec 5",
+            "need": "A Cohen-map mage's forecast leaves her above half HP",
+            "fix": [
+              "Divine Adornment (Res +10) once mastered",
+              "Pure Water (Res +10) on mage maps",
+              "End 3+ tiles from mages; Zerberus still reaches 2"
+            ]
+          }
+        ],
+        "drop": [
+          {
+            "item": "Knightly Senses",
+            "why": "Modified Weapon takes the slot at Lv 50"
+          },
+          {
+            "item": "Fists Lv. 4",
+            "why": "Fists Lv. 5 at Gauntlet S"
+          }
+        ]
+      }
+    ],
+    "sources": [
+      "part3-salvation",
+      "weapons-and-items",
+      "combat-arts-and-abilities",
+      "character-learnsets",
+      "equippable-abilities",
+      "class-data",
+      "redesign/17-part2-part3-plan"
+    ]
+  },
+  "recruitOn": {
+    "Leda": {
+      "how": "story",
+      "window": "Part III (Section ?), War Monk Lv 40"
+    },
+    "Theodora": {
+      "how": "story",
+      "window": "Part III (Section ?), War Monk Lv 40"
+    }
+  },
+  "tierNotes": "Reddit: strong hybrid bulk and ranged magic; The Godhand; the final map's gate runner (confirmed)."
+}

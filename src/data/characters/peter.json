@@ -1,0 +1,1083 @@
+{
+  "name": "Peter",
+  "slug": "peter",
+  "epithet": "Sharp-eyed archer of Ribeira",
+  "faction": "Ribeira Winds",
+  "homeRoute": "Cai",
+  "weapons": [
+    "Bow",
+    "Sword",
+    "Lance",
+    "Axe",
+    "Gauntlet",
+    "Reason",
+    "Faith"
+  ],
+  "preferred": [
+    "Bow",
+    "Infantry"
+  ],
+  "avoid": [
+    "Heavy"
+  ],
+  "personality": "Gentle, timid archer with eyesight good enough to see stars by day.",
+  "story": "Raised like a brother to Cai in the Dagdan Empire, he joins automatically on Cai's route. On other routes he is recruited through renown, support level 3, and a quest that includes giving him a Phantom Ginji. Further story role not documented.",
+  "personalSkill": {
+    "name": "Steady Aim",
+    "effect": "Rng+1 when attacking with a bow combat art. Lv 20: Correct for Drift (Hit+10 if hit >= 90%). Lv 35: Correct for Drift+ (Hit+20 if hit >= 75%)."
+  },
+  "growths": {
+    "HP": 40,
+    "Str": 35,
+    "Mag": 20,
+    "Spd": 45,
+    "Dex": 60,
+    "Def": 30,
+    "Res": 25,
+    "Lck": 35,
+    "Cha": 30
+  },
+  "supports": [
+    "Cai",
+    "Tialla",
+    "Dadao",
+    "Jester",
+    "Mu",
+    "Ninae",
+    "Noctula",
+    "Sofia",
+    "Ultand",
+    "Ursula"
+  ],
+  "tiers": [
+    {
+      "source": "KeenGamer",
+      "tier": "B"
+    },
+    {
+      "source": "Pocket Tactics",
+      "tier": "A"
+    }
+  ],
+  "tierNotes": "KeenGamer: B tier. Pocket Tactics: A tier.",
+  "recruit": {
+    "how": "auto",
+    "why": [
+      "Joins Cai's army automatically, so there's no Support or Renown to chase."
+    ]
+  },
+  "requirements": {
+    "Cai": "Auto",
+    "Dietrich": "3S 8R",
+    "Theodora": "3S 7R",
+    "Leda": "3S 10R"
+  },
+  "build": {
+    "role": "Chariot archer and long-range finisher",
+    "path": [
+      "Hunter",
+      "Archer",
+      "Charioteer",
+      "Sniper (Part II detour: Marksmanship)",
+      "Charioteer"
+    ],
+    "part1Target": "Charioteer",
+    "part3Target": "Charioteer (Lv 45 growth step)",
+    "notes": "Hunter in Ch 5, Archer in Ch 6 until Crescendo is mastered, Charioteer at Rider D around Ch 7. Charioteer is a Specialty class, so he never waits on Renown 8, and its growths step up at Lv 35 and 45. Part II Ch 2 to 3: Sniper for Marksmanship (Hit +15 with bows), which Deadeye needs, then back to Charioteer for good.",
+    "confidence": "medium"
+  },
+  "guide": {
+    "role": "Chariot archer and long-range finisher",
+    "summary": "Steady Aim adds 1 range to bow arts, so Longbow Deadeye reaches 3 to 6. Charioteer never needs an Advanced exam and its growths step up at Lv 35 and 45 (Dex 95, Def 80 on a Ferghanan Horse), so he stays in it all game.",
+    "playstyle": "Kill fliers and finish wounded foes from 2 to 6 tiles, then Charge lines of enemies. Chariot Armor means no dodging: decide where he ends each turn by who can reach him.",
+    "focus": [
+      "Dex",
+      "Str",
+      "Def"
+    ],
+    "keys": [
+      "Master Crescendo in Archer before Charioteer: Hit +3 per kill offsets Deadeye's Hit -30.",
+      "Train Rider D from Ch 5 at Arena Mounted Training; Charioteer needs it.",
+      "Barter the Longbow at Vandahl (Ginji x10 + Cadam x5) and make it his refine project.",
+      "Ride a Ferghanan Horse if you can reach Sunfall Path, otherwise a Wild Horse.",
+      "Carry a Mini Bow so he can counter at range 1.",
+      "Part II Ch 2 to 3: a Sniper stint for Marksmanship, then back to Charioteer for Ch 4."
+    ],
+    "watch": [
+      "Charioteer can't dodge: no Avo gear.",
+      "Weight: Longbow 13 + Archer's Ring 3 = 16 in Parts I and II: Longbow turns cost his doubles. Part III Da Mina Bow +2 6 + Silver Shield 4 = 10, Longbow +2 13 + 4 = 17, both against Bld + 4 (Giant's Ring); shield off first if x2 slips.",
+      "No local source says which horse spots Cai can reach in Part I.",
+      "Inventory: Part II 4 core (Longbow, Mini Bow, Archer's Ring, Concoction) plus up to 2 bow swaps; the Longbow must come for Dagda's shield (Ch 5). Part III 5 core (Da Mina Bow +2, Longbow +2, Silver Shield, Giant's Ring, Elixir); Mini or Horsekiller Bow in the open slot."
+    ],
+    "stages": [
+      {
+        "when": "Ch 1 · no class yet",
+        "from": {
+          "part": 1,
+          "ch": 1
+        },
+        "to": {
+          "part": 1,
+          "ch": 1
+        },
+        "level": "Lv 1 to 15",
+        "kind": "core",
+        "goal": "Bow C for Archer; start Rider. Steady Aim (innate): bow arts get Rng +1, so Curved Shot reaches 3+.",
+        "exit": "Ch 2: take the Hunter's Bow from Galen Fort Ruins",
+        "training": [
+          {
+            "rank": "Bow C",
+            "for": "Archer exam",
+            "how": "Arena Infantry Training (Sword, Bow, Infantry)"
+          },
+          {
+            "rank": "Rider",
+            "for": "Charioteer later (needs D)",
+            "how": "Arena Mounted Training (Spear, Authority, Rider, Flying)"
+          }
+        ],
+        "weapons": [
+          {
+            "item": "Iron Bow",
+            "why": "Main damage until refines open"
+          }
+        ],
+        "arts": [
+          {
+            "name": "Curved Shot",
+            "why": "Bow D: +4 Mt, +10 Hit, range 3 to 4 with Steady Aim"
+          },
+          {
+            "name": "Vital Shot",
+            "why": "Bow D: Crit +5"
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Bows Lv. 1",
+            "why": "Bow D+ rank ability: bow Hit +3 (once Bow D+)"
+          }
+        ],
+        "class": ""
+      },
+      {
+        "when": "Ch 2 to 3 · no class yet",
+        "from": {
+          "part": 1,
+          "ch": 2
+        },
+        "to": {
+          "part": 1,
+          "ch": 3
+        },
+        "level": "Lv 1 to 15",
+        "kind": "core",
+        "goal": "Bow C for Archer; start Rider. Steady Aim (innate): bow arts get Rng +1, so Curved Shot reaches 3+.",
+        "exit": "Ch 4: Centurio's Mentoring tutorial gives the Archer's Ring",
+        "training": [
+          {
+            "rank": "Bow C",
+            "for": "Archer exam",
+            "how": "Arena Infantry Training (Sword, Bow, Infantry)"
+          },
+          {
+            "rank": "Rider",
+            "for": "Charioteer later (needs D)",
+            "how": "Arena Mounted Training (Spear, Authority, Rider, Flying)"
+          }
+        ],
+        "weapons": [
+          {
+            "item": "Hunter's Bow",
+            "why": "A tier: effective vs fliers and beasts"
+          },
+          {
+            "item": "Iron Bow",
+            "why": "Main damage until refines open"
+          }
+        ],
+        "arts": [
+          {
+            "name": "Curved Shot",
+            "why": "Bow D: +4 Mt, +10 Hit, range 3 to 4 with Steady Aim"
+          },
+          {
+            "name": "Vital Shot",
+            "why": "Bow D: Crit +5"
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Bows Lv. 1",
+            "why": "Bow D+ rank ability: bow Hit +3 (once Bow D+)"
+          }
+        ],
+        "items": [
+          {
+            "item": "Vulnerary",
+            "why": "20 HP x3: early heal"
+          }
+        ],
+        "class": ""
+      },
+      {
+        "when": "Ch 4 · no class until Ch 5",
+        "from": {
+          "part": 1,
+          "ch": 4
+        },
+        "to": {
+          "part": 1,
+          "ch": 4
+        },
+        "level": "Lv 1 to 15",
+        "kind": "core",
+        "goal": "Bow C for Archer; start Rider. Steady Aim (innate): bow arts get Rng +1, so Curved Shot reaches 3+.",
+        "exit": "Ch 5: take the Hunter exam at the Temple Row License tutorial",
+        "training": [
+          {
+            "rank": "Bow C",
+            "for": "Archer exam",
+            "how": "Arena Infantry Training (Sword, Bow, Infantry)"
+          },
+          {
+            "rank": "Rider",
+            "for": "Charioteer later (needs D)",
+            "how": "Arena Mounted Training (Spear, Authority, Rider, Flying)"
+          }
+        ],
+        "weapons": [
+          {
+            "item": "Hunter's Bow",
+            "why": "A tier: effective vs fliers and beasts"
+          },
+          {
+            "item": "Iron Bow",
+            "why": "Main damage until refines open"
+          }
+        ],
+        "equipment": [
+          {
+            "item": "Archer's Ring",
+            "why": "Hit +5, Wt 3",
+            "slot": "Accessory"
+          }
+        ],
+        "arts": [
+          {
+            "name": "Curved Shot",
+            "why": "Bow D: +4 Mt, +10 Hit, range 3 to 4 with Steady Aim"
+          },
+          {
+            "name": "Vital Shot",
+            "why": "Bow D: Crit +5"
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Bows Lv. 1",
+            "why": "Bow D+ rank ability: bow Hit +3 (once Bow D+)"
+          }
+        ],
+        "items": [
+          {
+            "item": "Vulnerary",
+            "why": "20 HP x3: early heal"
+          }
+        ],
+        "class": ""
+      },
+      {
+        "when": "Ch 5 (Beginner)",
+        "from": {
+          "part": 1,
+          "ch": 5
+        },
+        "to": {
+          "part": 1,
+          "ch": 5
+        },
+        "level": "Lv 1 to 15",
+        "class": "Hunter",
+        "kind": "core",
+        "goal": "Bow C for Archer; start Rider. Steady Aim (innate): bow arts get Rng +1, so Curved Shot reaches 3+.",
+        "exit": "Leave at Lv 20 with Bow C (Archer exam at 75%).",
+        "masteries": [
+          "Hunting Basics"
+        ],
+        "training": [
+          {
+            "rank": "Bow C",
+            "for": "Archer exam",
+            "how": "Arena Infantry Training (Sword, Bow, Infantry)"
+          },
+          {
+            "rank": "Rider",
+            "for": "Charioteer later (needs D)",
+            "how": "Arena Mounted Training (Spear, Authority, Rider, Flying)"
+          }
+        ],
+        "weapons": [
+          {
+            "item": "Hunter's Bow",
+            "why": "A tier: effective vs fliers and beasts"
+          },
+          {
+            "item": "Iron Bow",
+            "why": "Main damage until refines open"
+          }
+        ],
+        "equipment": [
+          {
+            "item": "Archer's Ring",
+            "why": "Hit +5, Wt 3",
+            "slot": "Accessory"
+          }
+        ],
+        "arts": [
+          {
+            "name": "Curved Shot",
+            "why": "Bow D: +4 Mt, +10 Hit, range 3 to 4 with Steady Aim"
+          },
+          {
+            "name": "Vital Shot",
+            "why": "Bow D: Crit +5"
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Hunting Basics",
+            "why": "Hunter mastery: Dex/Spd +1 (once mastered)"
+          },
+          {
+            "name": "Bows Lv. 1",
+            "why": "Bow D+ rank ability: bow Hit +3 (once Bow D+)"
+          }
+        ],
+        "items": [
+          {
+            "item": "Vulnerary",
+            "why": "20 HP x3: early heal"
+          }
+        ]
+      },
+      {
+        "when": "Ch 6 to 7 (Specialty)",
+        "from": {
+          "part": 1,
+          "ch": 6
+        },
+        "to": {
+          "part": 1,
+          "ch": 7
+        },
+        "level": "Lv 20 to 25",
+        "class": "Archer",
+        "kind": "core",
+        "goal": "Master Crescendo and finish Rider D. Keep shown Hit at 90+ so Correct for Drift (Lv 20) adds Hit +10.",
+        "exit": "Leave once Crescendo is mastered and Rider D is trained (Charioteer exam at 75%).",
+        "masteries": [
+          "Crescendo"
+        ],
+        "training": [
+          {
+            "rank": "Rider D",
+            "for": "Charioteer exam",
+            "how": "Arena Mounted Training (Spear, Authority, Rider, Flying); Riding Manual (Rubess Forest, Melias, Lv 9; Legacy of a Legendary Sculptor)"
+          }
+        ],
+        "tips": [
+          "Archer uses bows only",
+          "Refine the Longbow first"
+        ],
+        "weapons": [
+          {
+            "item": "Longbow",
+            "why": "S tier: Deadeye at 3 to 6 range for Peter",
+            "alts": [
+              "Hunter's Bow"
+            ]
+          },
+          {
+            "item": "Tempest Bow",
+            "why": "A tier: light, Avo bonus when attacking"
+          },
+          {
+            "item": "Hunter's Bow",
+            "why": "Fliers and beasts",
+            "situational": "Beast or flier maps: open slot",
+            "plan": "Keep from Ch 2"
+          }
+        ],
+        "equipment": [
+          {
+            "item": "Archer's Ring",
+            "why": "Hit +5",
+            "slot": "Accessory",
+            "plan": "Keep equipped"
+          }
+        ],
+        "arts": [
+          {
+            "name": "Encloser",
+            "why": "Bow C: Mov -3 on hit, pins runners"
+          },
+          {
+            "name": "Curved Shot",
+            "why": "Bow D: +4 Mt, +10 Hit, range 3 to 4 with Steady Aim"
+          },
+          {
+            "name": "Vital Shot",
+            "why": "Bow D: Crit +5"
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Crescendo",
+            "why": "Archer mastery goal: Hit +3 per kill, max +30 (once mastered)"
+          },
+          {
+            "name": "Correct for Drift",
+            "why": "Personal Lv 20 ability: If unit's hit percent is ≥ to 90%, grants Hit +10 during combat"
+          },
+          {
+            "name": "Hunting Basics",
+            "why": "Hunter mastery: Dex/Spd +1"
+          },
+          {
+            "name": "Bows Lv. 2",
+            "why": "Bow C+ rank ability: bow Hit +5 (once Bow C+; Bows Lv. 1 until then)"
+          }
+        ],
+        "drop": [
+          {
+            "item": "Iron Bow",
+            "why": "Replaced by the Tempest Bow"
+          }
+        ],
+        "items": [
+          {
+            "item": "Concoction",
+            "why": "40 HP x2",
+            "alts": [
+              "Vulnerary"
+            ]
+          }
+        ],
+        "why": [
+          "Correct for Drift is part of his personal skill: no slot",
+          "Archer's Ring and Crescendo hold the Hit at 90+"
+        ]
+      },
+      {
+        "when": "Ch 7 to 12 (Specialty; no Advanced exam needed)",
+        "from": {
+          "part": 1,
+          "ch": 7
+        },
+        "to": {
+          "part": 1,
+          "ch": 12
+        },
+        "level": "Lv 25 to 38",
+        "class": "Charioteer",
+        "kind": "core",
+        "mount": "Ferghanan Horse (Wild Horse if Sunfall Path is out of reach)",
+        "goal": "Deadeye and Charge; Steady Aim stretches Deadeye to range 3 to 6. Reach Lv 35 for the first growth step.",
+        "exit": "Stays through Part I: master Charger and keep Bow B for Part II's Sniper exam",
+        "masteries": [
+          "Charger"
+        ],
+        "training": [
+          {
+            "rank": "Bow B, then A",
+            "for": "Stronger bow arts",
+            "how": "Arena Infantry Training (Sword, Bow, Infantry); Charioteer trains Bow"
+          }
+        ],
+        "tips": [
+          "Charioteer growths on Peter: Ferghanan Horse Str 50, Dex 85, Def 60; Wild Horse Str 40, Dex 85, Def 50",
+          "Charge hits a line of foes; use it on packs, not bosses"
+        ],
+        "weapons": [
+          {
+            "item": "Longbow",
+            "why": "Refined Deadeye",
+            "alts": [
+              "Hunter's Bow"
+            ],
+            "plan": "Keep; refine at the Blacksmith"
+          },
+          {
+            "item": "Mini Bow",
+            "why": "A tier, Wt 5: his doubling bow, counters at range 1",
+            "alts": [
+              "Hunter's Bow"
+            ],
+            "plan": "Quality Weapon Crate (random); Lilian recruited in Ch 10+ may bring one?"
+          },
+          {
+            "item": "Horsekiller Bow",
+            "why": "A tier: cavalry and fliers",
+            "situational": "Cavalry maps and Orchel's Paralogue (Ch 11, Pegasus wave): open slot"
+          },
+          {
+            "item": "Hunter's Bow",
+            "why": "Fliers and beasts",
+            "situational": "Ch 8 demonic beast (if it counts as a beast?): open slot",
+            "plan": "Keep from Ch 2"
+          }
+        ],
+        "equipment": [
+          {
+            "item": "Archer's Ring",
+            "why": "Hit +5, Wt 3. Or the Conflagrant Gem (art Hit +20 at 30%, Wt 5) for Deadeye maps, or the Giant's Ring: Charioteer can't dodge, so its Avo -20 costs nothing",
+            "slot": "Accessory",
+            "plan": "Keep equipped"
+          }
+        ],
+        "arts": [
+          {
+            "name": "Deadeye",
+            "why": "Longbow art: 3 to 6 range for Peter, Hit -30"
+          },
+          {
+            "name": "Spiral Shot",
+            "why": "Bow B: +7 Mt, Atk +5 at Dex/2"
+          },
+          {
+            "name": "Curved Shot",
+            "why": "Cheap 2 to 4 range"
+          },
+          {
+            "name": "Encloser",
+            "why": "Bow C: Mov -3 on hit, pins runners"
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Charger",
+            "why": "Charioteer mastery goal: Prt +10 after Charge (once mastered)"
+          },
+          {
+            "name": "Correct for Drift+",
+            "why": "Personal Lv 35 ability: If unit's hit % ≥ 75%, grants Hit+20 during combat (from Lv 35)"
+          },
+          {
+            "name": "Crescendo",
+            "why": "Fixes art Hit"
+          },
+          {
+            "name": "Hunting Basics",
+            "why": "Hunter mastery: Dex/Spd +1"
+          },
+          {
+            "name": "Bows Lv. 2",
+            "why": "Bow C+ rank ability: bow Hit +5"
+          }
+        ],
+        "drop": [
+          {
+            "item": "Tempest Bow",
+            "why": "Charioteer can't dodge, so its Avo bonus is wasted"
+          },
+          {
+            "item": "Vital Shot",
+            "why": "Charioteer has no Combat Arts +N; slot goes to Spiral Shot"
+          }
+        ],
+        "items": [
+          {
+            "item": "Concoction",
+            "why": "40 HP x2",
+            "alts": [
+              "Vulnerary"
+            ]
+          }
+        ],
+        "why": [
+          "Correct for Drift+ (Lv 35): Hit +20 whenever shown Hit is 75+",
+          "With Crescendo it cancels most of Deadeye's Hit -30"
+        ]
+      },
+      {
+        "when": "Part II Ch 2 to 3",
+        "from": {
+          "part": 2,
+          "ch": 2
+        },
+        "to": {
+          "part": 2,
+          "ch": 3
+        },
+        "level": "Lv 40 to 41",
+        "class": "Sniper",
+        "kind": "detour",
+        "mount": "None (the horse waits; Charioteer picks it up again in Ch 4)",
+        "goal": "Marksmanship (Hit +15 with any bow) fixes Deadeye's Hit -30 for good, and Dex grows 80 here. Part II gives about one level per chapter, so a two-chapter stint costs little of Charioteer's Lv 35 step (Def 35 here vs 70). Charger only works with Charge, so it stays off here. Marksmanship +15 and Correct for Drift+ +20 stack on Deadeye at range 3 to 6.",
+        "exit": "Leave once Marksmanship is mastered. Be back in Charioteer for Ch 4, which wants 3 to 4 bows and Charge.",
+        "masteries": [
+          "Marksmanship"
+        ],
+        "tips": [
+          "Sniper on Peter: HP 50, Dex 80, Spd 55, Def 35",
+          "Ch 2: the west Ranger drops the Horsekiller Bow +1 once he moves on Turn 8",
+          "No free time in Part II: only equipped items come in, so equip them at the end of Ch 12"
+        ],
+        "weapons": [
+          {
+            "item": "Longbow",
+            "why": "Deadeye",
+            "alts": [
+              "Hunter's Bow"
+            ]
+          },
+          {
+            "item": "Silver Bow",
+            "why": "Mt 18, Wt 5: his doubling bow when Deadeye range is not needed; no known source",
+            "alts": [
+              "Mini Bow"
+            ]
+          },
+          {
+            "item": "Mini Bow",
+            "why": "Wt 5 counter at range 1; carried in from Ch 12",
+            "plan": "Quality Weapon Crate (random); Lilian recruited in Ch 10+ may bring one?"
+          },
+          {
+            "item": "Horsekiller Bow +1",
+            "why": "Cavalry",
+            "situational": "Ch 2 drop (west Ranger, from Turn 8): fills the open slot; Ch 4 Dragoons"
+          }
+        ],
+        "equipment": [
+          {
+            "item": "Archer's Ring",
+            "why": "Hit +5, Wt 3; Conflagrant Gem as the art-Hit swap",
+            "slot": "Accessory"
+          }
+        ],
+        "arts": [
+          {
+            "name": "Deadeye",
+            "why": "Longbow art: 3 to 6 range for Peter, Hit -30"
+          },
+          {
+            "name": "Spiral Shot",
+            "why": "Bow B: +7 Mt, Atk +5 at Dex/2"
+          },
+          {
+            "name": "Curved Shot",
+            "why": "Bow D: +4 Mt, +10 Hit, range 3 to 4 with Steady Aim"
+          },
+          {
+            "name": "Encloser",
+            "why": "Bow C: Mov -3 on hit, pins runners"
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Marksmanship",
+            "why": "Sniper mastery goal: Hit +15 with a bow (once mastered)"
+          },
+          {
+            "name": "Correct for Drift+",
+            "why": "Personal Lv 35 ability: If unit's hit % ≥ 75%, grants Hit+20 during combat"
+          },
+          {
+            "name": "Crescendo",
+            "why": "Fixes art Hit"
+          },
+          {
+            "name": "Hunting Basics",
+            "why": "Hunter mastery: Dex/Spd +1"
+          },
+          {
+            "name": "Bows Lv. 2",
+            "why": "Bow C+ rank ability: bow Hit +5"
+          }
+        ],
+        "drop": [
+          {
+            "item": "Horsekiller Bow",
+            "why": "Replaced by the Horsekiller Bow +1"
+          },
+          {
+            "item": "Charger",
+            "why": "Charge only exists in Charioteer"
+          },
+          {
+            "item": "Hunter's Bow",
+            "why": "Not in his Ch 12 kit (every bow hits fliers): storage until Part III"
+          }
+        ],
+        "items": [
+          {
+            "item": "Concoction",
+            "why": "40 HP x2: carried in from Ch 12",
+            "alts": [
+              "Vulnerary"
+            ]
+          }
+        ]
+      },
+      {
+        "when": "Part II Ch 4 to 6",
+        "from": {
+          "part": 2,
+          "ch": 4
+        },
+        "to": {
+          "part": 2,
+          "ch": 6
+        },
+        "level": "Lv 41 to 42",
+        "class": "Charioteer",
+        "kind": "core",
+        "mount": "same horse",
+        "goal": "Bow anchor for Ch 4 reinforcements and the Ch 5 Dagda trick. Deadeye at range 3 to 6 (Steady Aim) with Marksmanship and Correct for Drift+.",
+        "exit": "Stays to the end of Part II.",
+        "tips": [
+          "Ch 5: Deadeye on Dagda does no damage but Eshmel drops his shield next turn",
+          "Ch 4 wants 3 to 4 bow users",
+          "No free time in Part II: only equipped items come in, so equip them at the end of Ch 12"
+        ],
+        "weapons": [
+          {
+            "item": "Longbow",
+            "why": "Deadeye",
+            "alts": [
+              "Hunter's Bow"
+            ],
+            "plan": "Equip before Part II"
+          },
+          {
+            "item": "Silver Bow",
+            "why": "Mt 18, Wt 5: his doubling bow when Deadeye range is not needed; no known source",
+            "alts": [
+              "Mini Bow"
+            ]
+          },
+          {
+            "item": "Mini Bow",
+            "why": "Wt 5 counter at range 1; carried in from Ch 12",
+            "plan": "Quality Weapon Crate (random); Lilian recruited in Ch 10+ may bring one?"
+          },
+          {
+            "item": "Horsekiller Bow +1",
+            "why": "Cavalry",
+            "situational": "Ch 2 drop (west Ranger, from Turn 8): fills the open slot; Ch 4 Dragoons"
+          },
+          {
+            "item": "Longbow +1",
+            "why": "Upgrade",
+            "alts": [
+              "Longbow"
+            ],
+            "situational": "Ch 5 Golem drop: replaces the Longbow"
+          }
+        ],
+        "equipment": [
+          {
+            "item": "Archer's Ring",
+            "why": "Hit +5, Wt 3; Conflagrant Gem or Giant's Ring as swaps",
+            "slot": "Accessory",
+            "plan": "Keep equipped"
+          }
+        ],
+        "arts": [
+          {
+            "name": "Deadeye",
+            "why": "Longbow art: 3 to 6 range for Peter, Hit -30"
+          },
+          {
+            "name": "Spiral Shot",
+            "why": "Bow B: +7 Mt, Atk +5 at Dex/2"
+          },
+          {
+            "name": "Curved Shot",
+            "why": "Cheap 2 to 4 range"
+          },
+          {
+            "name": "Encloser",
+            "why": "Bow C: Mov -3 on hit, pins runners"
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Correct for Drift+",
+            "why": "Personal Lv 35 ability: If unit's hit % ≥ 75%, grants Hit+20 during combat"
+          },
+          {
+            "name": "Marksmanship",
+            "why": "Sniper mastery: Hit +15 with a bow"
+          },
+          {
+            "name": "Crescendo",
+            "why": "Fixes art Hit"
+          },
+          {
+            "name": "Charger",
+            "why": "Charioteer mastery: Prt +10 after Charge"
+          },
+          {
+            "name": "Hunting Basics",
+            "why": "Hunter mastery: Dex/Spd +1"
+          }
+        ],
+        "drop": [
+          {
+            "item": "Hunter's Bow",
+            "why": "Not in his Ch 12 kit (every bow hits fliers): storage until Part III"
+          }
+        ],
+        "items": [
+          {
+            "item": "Concoction",
+            "why": "40 HP x2: carried in from Ch 12",
+            "alts": [
+              "Vulnerary"
+            ]
+          }
+        ]
+      },
+      {
+        "when": "Part III goal",
+        "from": {
+          "part": 3
+        },
+        "level": "Lv 45+",
+        "class": "Charioteer",
+        "kind": "core",
+        "mount": "Ferghanan Horse, or Black Horse (Daimos Plateau) for Spd",
+        "goal": "Lv 45 step (Dex 95, Def 80): Deadeye at 3-6, Leaden Draw at 2-3; Baozi and Balor east bow sub.",
+        "exit": "Final class: the Lv 45 step is why he never leaves.",
+        "tips": [
+          "Seat: Baozi (B) for Lilian or Nuzzuo: Correct for Drift+ Hit +20 offsets Pride",
+          "Lyrah and Balor east (B): Lilian's bow seat; Leaden Draw reaches 2-3",
+          "Charge, then Charger Prt +10: end beside Troy or Seteth, never alone",
+          "Skip Hanno and Drake (no cavalry); Cohen & Maria only if bows run short"
+        ],
+        "weapons": [
+          {
+            "item": "Da Mina Bow +2",
+            "why": "Main: Mt ?, Wt 6; Leaden Draw and Spiral Shot Hit +10",
+            "plan": "No Soulstone on the bench (D-158)"
+          },
+          {
+            "item": "Longbow +2",
+            "why": "Deadeye at 3-6 (Steady Aim); Mt ~17, Wt 13",
+            "plan": "His +1, refined to +2"
+          },
+          {
+            "item": "Mini Bow +2",
+            "why": "Range 1-2: Mt 15, AS +3 vs adjacent; counters after a Charge",
+            "plan": "His Part II Mini Bow, refined to +2",
+            "situational": "Charge maps: uses the open slot"
+          },
+          {
+            "item": "Horsekiller Bow +1",
+            "why": "Effective vs cavalry",
+            "situational": "Cavalry maps: uses the open slot"
+          }
+        ],
+        "equipment": [
+          {
+            "item": "Silver Shield",
+            "why": "Def +5, Wt 4: Chariot Armor can't dodge, so Def is his defense",
+            "slot": "Defense",
+            "alts": [
+              "Iron Shield",
+              "Hexlock Shield"
+            ]
+          },
+          {
+            "item": "Giant's Ring",
+            "why": "Bld +4, Wt 0: offsets the shield and Longbow; Avo −20 costs nothing",
+            "slot": "Accessory",
+            "alts": [
+              "Archer's Ring"
+            ]
+          }
+        ],
+        "arts": [
+          {
+            "name": "Leaden Draw",
+            "why": "Bow A: +12 Mt, +10 Hit"
+          },
+          {
+            "name": "Deadeye",
+            "why": "Longbow art: 3 to 6 range for Peter, Hit -30"
+          },
+          {
+            "name": "Spiral Shot",
+            "why": "Bow B: +7 Mt, Atk +5 at Dex/2"
+          },
+          {
+            "name": "Curved Shot",
+            "why": "Cheap 2 to 4 range"
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Correct for Drift+",
+            "why": "Personal Lv 35: Hit +20 when his Hit is 75% or more"
+          },
+          {
+            "name": "Marksmanship",
+            "why": "Sniper mastery: Hit +15 with a bow"
+          },
+          {
+            "name": "Charger",
+            "why": "Charioteer mastery: Prt +10 after Charge"
+          },
+          {
+            "name": "Crescendo",
+            "why": "Archer mastery: Hit +3 per kill (max +30)"
+          },
+          {
+            "name": "Bows Lv. 4",
+            "why": "Bow A+: Hit/Avo +7 with bows; Lv. 3 until A+"
+          }
+        ],
+        "drop": [
+          {
+            "item": "Silver Bow",
+            "why": "Da Mina +1 Mt and a Boon buy: Da Mina Bow +2 instead"
+          },
+          {
+            "item": "Hunting Basics",
+            "why": "Bows Lv. 4 takes the slot"
+          },
+          {
+            "item": "Encloser",
+            "why": "Slot goes to Leaden Draw"
+          },
+          {
+            "item": "Longbow +1",
+            "why": "Refined to +2"
+          },
+          {
+            "item": "Hunter's Bow",
+            "why": "Beasts are rare in Part III ?; Mini Bow takes the swap slot"
+          }
+        ],
+        "items": [
+          {
+            "item": "Elixir",
+            "why": "100 HP: he charges into packs",
+            "alts": [
+              "Concoction"
+            ]
+          }
+        ],
+        "why": [
+          "Specialty class: no License needed, so he is the readiest bench bow",
+          "Da Mina Bow +2 (gold, arts Hit +10) over Silver Bow +2 (Boon): Silver is Da Mina +1 Mt",
+          "Boon answer: bows can't strip it; shoot Boon foes in Leda's ring or within 2 of Eshmel"
+        ],
+        "training": [
+          {
+            "rank": "Bow A+",
+            "for": "Bows Lv. 4",
+            "how": "Battles; Arena Infantry Training if short"
+          }
+        ]
+      }
+    ],
+    "alt": "Bow Adept (Sky Hunter) only if you want an infantry bow; it grows Str 40 against Charioteer's 65. No Part III Master detour: every level outside Charioteer at Lv 45+ skips its biggest growth step. Warrior's Practiced Art (the Hard video's Deadeye fix) needs Axe, Sword and Gauntlet B; Sniper only needs Bow B.",
+    "sources": [
+      "class-and-weapon-guide",
+      "growth.py",
+      "class-data",
+      "character-learnsets",
+      "combat-arts-and-abilities",
+      "weapons-and-items",
+      "mounts.json",
+      "hard-mode-video-notes",
+      "part2-war",
+      "PATHS-BRIEF",
+      "walkthrough-part1-cai",
+      "part3-salvation"
+    ],
+    "routeNotes": [
+      {
+        "system": "Stable & Luring",
+        "note": "Charioteer doubles the mount's growth bonus: on a Ferghanan Horse he grows Def 60 and Str 50 (base Charioteer: Def 40, Str 40). Its Canto lets him shoot and pull back, and Paired Fierce Arts adds Atk on art attacks, which suits Deadeye and Steady Aim. A Wild Horse gives Paired Run and Spd 50, Res 35 instead."
+      },
+      {
+        "system": "Farming",
+        "note": "If Cindered Road Cave is out of reach, barter the Conflagrant Gem at Vandahl: Melara x20 + Usamos x10. Plant those on top of the 30 the Ch 8 quest needs."
+      },
+      {
+        "system": "Mentoring",
+        "note": "Centurio's Ch 4 mentoring tutorial gives the Archer's Ring in his kit; keep it on through Part I."
+      }
+    ],
+    "decisions": [
+      {
+        "topic": "Stay Charioteer for the whole game",
+        "pick": "Archer (master Crescendo), then Charioteer once Rider D",
+        "why": "The Hard video names Peter Charioteer's best user, and its growths step up at Lv 35 and 45. It is Specialty, so he needs no Advanced exam in Part I."
+      },
+      {
+        "topic": "Take the Sniper stint in Part II Ch 2 to 3",
+        "pick": "Sniper on a free Advanced License, back to Charioteer in Ch 4",
+        "why": "Marksmanship for the rest of the game at the cost of two maps out of the chariot."
+      }
+    ],
+    "gates": [
+      {
+        "route": "Cai",
+        "from": {
+          "part": 1,
+          "ch": 5
+        },
+        "kind": "rank",
+        "text": "Rider D and Crescendo mastered before the Charioteer exam (Ch 7)",
+        "by": {
+          "part": 1,
+          "ch": 7
+        }
+      },
+      {
+        "route": "Cai",
+        "from": {
+          "part": 1,
+          "ch": 7
+        },
+        "kind": "item",
+        "text": "Longbow 13 + Archer's Ring 3 = 16 weight: if he stops doubling, swing the Mini Bow",
+        "by": {
+          "part": 1,
+          "ch": 12
+        }
+      }
+    ]
+  },
+  "sources": [
+    "https://fortunesweave.co.uk/characters/peter",
+    "https://www.keengamer.com/articles/guides/fire-emblem-fortunes-weave-tier-list-best-characters-ranked-for-every-route/",
+    "https://www.pockettactics.com/fire-emblem-fortunes-weave/tier-list"
+  ],
+  "recruitOn": {
+    "Cai": {
+      "how": "auto"
+    },
+    "Dietrich": {
+      "how": "recruit",
+      "support": 3,
+      "renown": 8
+    },
+    "Theodora": {
+      "how": "recruit",
+      "support": 3,
+      "renown": 7
+    },
+    "Leda": {
+      "how": "recruit",
+      "support": 3,
+      "renown": 10
+    }
+  }
+}

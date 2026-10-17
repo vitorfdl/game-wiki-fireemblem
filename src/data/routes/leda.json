@@ -1,0 +1,2049 @@
+{
+  "lord": "Leda",
+  "hook": "A dancer on a revenge journey who learns what vengeance costs.",
+  "plays": "Fast bow/sword support (Hunter Ch 5, Rogue Ch 6, Dancer Ch 9)",
+  "pick": "You want the strongest free units early (Sirocco, Mu, Olympia) and a support-first lord.",
+  "watch": "Perform Quests expire in batches (5/28, 9/1, 10/15, 11/27). Anatolia's Paralogue closes 10/14 (Sha Lan). Recruit each bench unit the week its gates land (Jasmine Ch 6 to Halvin Ch 9). Open every cursed chest and hold the items past 11/27 (D-103).",
+  "systems": [
+    "Perform Quests",
+    "Great Dancer's Successor (Dancer class)",
+    "City exploration"
+  ],
+  "paralogues": 4,
+  "why": "Arrives with Guardian from Dietrich's run, the class Catania, Buccar and Sha Lan take. Cataphract isn't open yet.",
+  "unlocks": {
+    "gives": [
+      "Dancer",
+      "Ranger",
+      "Troubadour"
+    ],
+    "wants": [
+      "Guardian"
+    ]
+  },
+  "team": {
+    "summary": "Nine carry Part I: Leda, Sirocco, Buccar, Mu, Olympia and Catania from the start, Guzran from Ch 6, Dadao on the Hammer for Ch 6 to 8, then Esmeralda takes that Hammer from Ch 9 and Inyoni (recruited Ch 9 week 1 at about Lv 15) deploys as the archer from Ch 10. From Ch 9 Leda dances Sirocco, then Guzran, then Inyoni (Esmeralda after a Hammer kill on armored maps), or sings Song of Passion+ when three or more attackers fit in her ring. Buccar and Esmeralda hold the chokes, Mu dodges in the open, and Olympia and Catania both carry Physic from Ch 10. The Arena covers every B rank, so the only Part I side trip is Mu's Brigand (Ch 7 to 8, Regroup). Eight reach Advanced before Part II: Leda's Dancer (Ch 9, free), Olympia Bishop, Sirocco Ovate and Catania Guardian (Ch 10), Buccar Dreadnought and Guzran Shido (Ch 11), Inyoni Sniper and Esmeralda Dreadnought (Ch 12). The Part II bench joins as soon as its gates land (Jasmine Ch 6, Fianna Ch 7, Ludia late Ch 8, Halvin Ch 9; Sha Lan by 10/14), levels in dungeon parties and spare deploy slots, and takes its Specialty exam in Part I at Lv 20.",
+    "gaps": [
+      "Guzran (late Ch 5), Jasmine (Ch 6), Dadao (late Ch 6), Fianna (Ch 7), Esmeralda (late Ch 7), Ludia (late Ch 8), Inyoni and Halvin (Ch 9) join at about Lv 15 in a Beginner class: kills and dances go to the deployed ones, dungeon link attacks to the bench.",
+      "Esmeralda sits Ch 8 when Cai and Talimun take slots: run Valhalla Mine and Cindered Road Cave with her for Lv 20 and Armored Knight.",
+      "Arena seats are short from Ch 7: Heavy (Buccar, Jasmine, Esmeralda), Mage (Fianna joins Sirocco, Catania, Olympia) and Mounted from Ch 9 (Halvin, Catania, then Sha Lan). Each chapter's routine row says who yields.",
+      "Bench units level only in dungeon parties (5 seats) and the paralogue slots: Part II auto-levels anyone below Lv 33 on personal growths only, so their real Part I levels are what carries over. Aim at Lv 30+ by Ch 12 ?",
+      "Ch 9 join level is open (Lv 15 or about 25): the plan assumes Lv 15 for Ludia, Inyoni and Halvin. Check Inyoni's level the day she joins.",
+      "Mastery speed is undocumented. Mu's Brigand trip ends on a condition: if Regroup is slow, go back to Pugilist by Ch 9 anyway.",
+      "Perform Quests: no source says whether they check a stat. If your game shows a requirement, it isn't in any source we found.",
+      "Song of Passion+ and Icewater+ depend on reaching Traveler's Garden (Castalia) in Ch 9; that location and the chain order are single-source (fortunesweave.online).",
+      "Leda's turn is a Dance or a Song, never both, and her Blaze Gauge can Burst. One source each for the trade-off and the gauge rules.",
+      "Part II has no Arena: every bench rank (and Mu's Axe B and Sword B) must be in by 11/27.",
+      "Buccar may only join in Ch 9 (he defects on Turn 1 of the Cai battle). Then Jasmine (recruited Ch 6) stands in as the armored tank and Guzran deploys from Ch 5.",
+      "Fliers: Catania is the only one. Part III's Hanno and Drake want fliers: she returns to Wing Soldier (certified) for them."
+    ],
+    "fixes": [
+      "Dance targets planned, not incidental: Sirocco from Ch 9, then Guzran after a kill, then Inyoni from Ch 10; Esmeralda after a Hammer kill on the armored Ch 9 and Ch 10 maps.",
+      "Armor: Dadao's Hammer in Ch 6 to 8, Esmeralda's from Ch 9 (Brawn: Wt 20 to 16), Sirocco's magic and Io's Levin Sword, Guzran's Flyssa.",
+      "Physic by Ch 11: Olympia (Bishop) and Catania (Guardian) both learn it at White B in Ch 10; Catania's White comes from the Arena Mage course, not a side trip.",
+      "Ch 11 undead: Song of Abjuring over the ring plus Guzran's Cleansing Blade from the Ch 8 map.",
+      "Res on the walls: a Hexlock Shield each for Buccar (Dione Fort), Esmeralda (Vandahl barter) and Sha Lan (Dragonbone Tangle); Song of Icewater+ covers the line in Part I.",
+      "Warrior gates: Mu and Dadao take the Arena Warrior course (Sword, Axe, Gauntlet) to B; no Pugilist trip.",
+      "Charioteer gate: Halvin reads the Rubess Forest Riding Manual the day he joins (Ch 9) and takes the Arena Mounted seat Buccar gives up, for Rider D.",
+      "Specialty in Part I at Lv 20: Jasmine Armored Knight (Ch 7), Fianna Priest (Ch 8), Inyoni Archer, Ludia Myrmidon and Halvin Charioteer (late Ch 9). Part II Advanced Licenses: Ch 1 Buccar Guardian, Sirocco Bishop, Mu Warrior, plus any Part I exam that slipped (Inyoni Sniper first). Ch 2 (Lv 35 floor) Dadao Warrior, Jasmine Dreadnought, Fianna Bishop, Sha Lan Guardian. Ch 3 Ludia Shido, Catania Bishop. Ch 4 Sha Lan Bishop. Going back to a certified class costs nothing.",
+      "Divine holders: Leda takes The Apsara and Sirocco The Avatar (his Theodora copy aims at the same class, and merging makes them one unit). The Godhand stays with Troy. The Calamity is unclaimed.",
+      "Ability slots: every class has 5, and every stage fills all 5 from level, mastery and skill-rank abilities (D-102).",
+      "Cursed treasures: open all 8 Part I cursed chests plus Noctula's Claw and hold them past 11/27; Orchel, Eshmel and Anatolia use them in Part III (D-103, D-104).",
+      "Part II and III readiness: Before Part II names who answers each late map (Dagda's Deadeye: Halvin; Onager bait: Mu) (D-105)."
+    ]
+  },
+  "chapters": {
+    "1": {
+      "title": "The Vengeful Dancer"
+    },
+    "2": {
+      "title": "Battle at Coris Mine"
+    },
+    "3": {
+      "title": "The Road to Caelus"
+    },
+    "4": {
+      "title": "The Indelible Past",
+      "free": "3/21-4/4"
+    },
+    "5": {
+      "title": "Women at Battle",
+      "free": "4/7-5/7"
+    },
+    "6": {
+      "title": "The Soaring Maiden",
+      "free": "5/9-5/28"
+    },
+    "7": {
+      "title": "Rose of Retribution",
+      "free": "5/29-6/28"
+    },
+    "8": {
+      "title": "Shape of the Conspiracy",
+      "free": "6/30-7/9"
+    },
+    "9": {
+      "title": "Discordance",
+      "free": "7/12-9/1"
+    },
+    "10": {
+      "title": "A Father's Request and a Daughter's Wish",
+      "free": "9/28-10/15"
+    },
+    "11": {
+      "title": "Banquet of the Risen Dead",
+      "free": "10/16-11/6"
+    },
+    "12": {
+      "title": "Revenge's End",
+      "free": "11/7-11/27"
+    }
+  },
+  "roster": [
+    {
+      "name": "Buccar",
+      "chapter": 1,
+      "estimate": true,
+      "why": "Joins with the story"
+    },
+    {
+      "name": "Sirocco",
+      "chapter": 1,
+      "estimate": false,
+      "why": "Joins with the story"
+    },
+    {
+      "name": "Mu",
+      "chapter": 1,
+      "estimate": false,
+      "why": "Joins with the story"
+    },
+    {
+      "name": "Olympia",
+      "chapter": 3,
+      "estimate": false,
+      "why": "Joins with the story"
+    },
+    {
+      "name": "Catania",
+      "chapter": 4,
+      "estimate": false,
+      "why": "Recruitment tutorial (Renown 2)"
+    },
+    {
+      "name": "Dadao",
+      "chapter": 6,
+      "estimate": true,
+      "why": "Late Ch 6: Support 2, Renown 5, 2 Kothar Gar"
+    },
+    {
+      "name": "Fianna",
+      "chapter": 7,
+      "estimate": true,
+      "why": "Ch 7 week 1: Support 3, Renown 5, 3,000G (bench healer)"
+    },
+    {
+      "name": "Ludia",
+      "chapter": 8,
+      "estimate": true,
+      "why": "Late Ch 8 or Ch 9 week 1: Support 3, Renown 7, short quest (bench)"
+    },
+    {
+      "name": "Inyoni",
+      "chapter": 9,
+      "estimate": false,
+      "why": "Ch 9 week 1 (from about 7/10): Renown 7, 3,000G; deploys from Ch 10"
+    },
+    {
+      "name": "Halvin",
+      "chapter": 9,
+      "estimate": true,
+      "why": "Ch 9, after the Baina trip: Support 3, Renown 7, 10 Dates (bench)"
+    },
+    {
+      "name": "Sha Lan",
+      "chapter": 10,
+      "estimate": false,
+      "why": "Anatolia's Paralogue 10/5–10/14 (bench)"
+    }
+  ],
+  "extras": [
+    "Guzran",
+    "Esmeralda",
+    "Jasmine"
+  ],
+  "deployment": {
+    "summary": "Nine units carry Part I: Leda, Sirocco, Buccar, Mu, Olympia and Catania from the start, Guzran from Ch 6, Dadao on the Hammer for Ch 6 to 8, Esmeralda on it from Ch 9, and Inyoni as the archer from Ch 10 (recruited Ch 9). The army is built around Leda's two actions: from Ch 9 she dances Sirocco, Guzran and Inyoni (in that order) after they attack, or Esmeralda after a Hammer kill on armored maps; on wide turns she sings Song of Passion over a 2-tile ring of attackers or Song of Icewater over the tank line. Buccar and Esmeralda hold the chokes and Mu the open ground while Olympia and Catania (both Physic by Ch 11) keep them up, so the strikers can stay in Leda's ring.",
+    "roles": [
+      {
+        "role": "Lord and Dancer",
+        "primary": "Leda",
+        "backup": "None (one Dancer holder)",
+        "why": "Dance from Ch 9 and her Songs from Ch 1 multiply the strikers; she is also the defeat condition, so she stays one tile behind them."
+      },
+      {
+        "role": "Main healer (Physic)",
+        "primary": "Olympia",
+        "backup": "Catania",
+        "why": "Free healer from Ch 3; Priest from Ch 6, Physic at White B and doubled casts as Bishop from Ch 10."
+      },
+      {
+        "role": "Second healer, flier and Res wall",
+        "primary": "Catania",
+        "backup": "Sirocco (Recover)",
+        "why": "The only flier (Wing Soldier, Ch 6 to 9), then Guardian with Physic and Res 50 growth from Ch 10."
+      },
+      {
+        "role": "Magic nuke and Dance target 1",
+        "primary": "Sirocco",
+        "backup": "Olympia (Nosferatu)",
+        "why": "Doubled Black Magic as Shaman and Ovate; the best second action on the team, and the armor answer with the Levin Sword."
+      },
+      {
+        "role": "Armored tank",
+        "primary": "Buccar",
+        "backup": "Esmeralda (from Ch 9)",
+        "why": "Armored Knight from Ch 6, Dreadnought in Ch 11; holds chokepoints under Song of Icewater."
+      },
+      {
+        "role": "Dodge tank",
+        "primary": "Mu",
+        "backup": "Guzran",
+        "why": "Pugilist with Wooden Gauntlets +5 (Wt 1) and Attack, Get Back; takes the enemy phase in the open."
+      },
+      {
+        "role": "Armor breaker (Hammer)",
+        "primary": "Dadao (Ch 6 to 8), Esmeralda (Ch 9+)",
+        "backup": "Sirocco (Levin Sword), Guzran (Flyssa)",
+        "why": "Dadao swings the Hammer on the armored Ch 7 map; Esmeralda takes it in Ch 9 (Brawn: Wt 16) and counters with thrown spears."
+      },
+      {
+        "role": "Sword striker and Dance target 2",
+        "primary": "Guzran",
+        "backup": "Ludia (bench)",
+        "why": "Joins late Ch 5; Myrmidon Spd +15 row, Killing Edge crits and Top Form make him the player-phase finisher."
+      },
+      {
+        "role": "Archer, anti-flier and Dance target 3",
+        "primary": "Inyoni (recruited Ch 9, deploys from Ch 10; Leda's bows until then)",
+        "backup": "Halvin (bench)",
+        "why": "Strength archer: Pierce on every bow art under Song of Passion, and a ranged dance target never ends in melee."
+      }
+    ],
+    "phases": [
+      {
+        "chapters": "Ch 1 to 5",
+        "from": 1,
+        "to": 5,
+        "slots": 6,
+        "deploy": [
+          "Leda",
+          "Sirocco",
+          "Buccar",
+          "Mu",
+          "Olympia",
+          "Catania"
+        ],
+        "bench": [
+          "Guzran"
+        ],
+        "note": "Olympia heals from Ch 3 and Catania joins in Ch 4. Guzran joins late Ch 5 and sits the Ch 5 battle unless a seventh slot shows; if Orchel and Anatolia take slots, Catania sits. Song of Passion from Ch 1: open maps with Sirocco and Mu inside Leda's ring."
+      },
+      {
+        "chapters": "Ch 6 to 8",
+        "from": 6,
+        "to": 8,
+        "slots": 8,
+        "deploy": [
+          "Leda",
+          "Sirocco",
+          "Buccar",
+          "Mu",
+          "Olympia",
+          "Catania",
+          "Guzran",
+          "Dadao"
+        ],
+        "bench": [
+          "Esmeralda",
+          "Jasmine",
+          "Fianna",
+          "Ludia"
+        ],
+        "note": "Guzran and Dadao (late Ch 6) join the six; Dadao's Hammer takes the armored Ch 7 map. Jasmine (Ch 6), Fianna (Ch 7) and Ludia (late Ch 8) bench and level in dungeon parties. Esmeralda joins late Ch 7 and sits Ch 8, where Cai and Talimun take slots; dungeons give her Lv 20. Ch 6 guests Dietrich and Theodora: sit Dadao if slots run short."
+      },
+      {
+        "chapters": "Ch 9",
+        "from": 9,
+        "to": 9,
+        "slots": 8,
+        "deploy": [
+          "Leda",
+          "Sirocco",
+          "Buccar",
+          "Mu",
+          "Olympia",
+          "Catania",
+          "Guzran",
+          "Esmeralda"
+        ],
+        "bench": [
+          "Dadao",
+          "Inyoni",
+          "Jasmine",
+          "Fianna",
+          "Ludia",
+          "Halvin"
+        ],
+        "note": "Esmeralda takes Dadao's Hammer and Giant's Ring in prep and holds slot 8 from here. Leda dances from this map: Sirocco first, Esmeralda after a Hammer kill on the armor. Inyoni (week 1) and Halvin (after Baina) join for dungeon parties and the Arena; Inyoni deploys from Ch 10. If Buccar isn't on the prep screen, he defects on Turn 1."
+      },
+      {
+        "chapters": "Ch 10 to 12",
+        "from": 10,
+        "to": 12,
+        "slots": 9,
+        "deploy": [
+          "Leda",
+          "Sirocco",
+          "Buccar",
+          "Mu",
+          "Olympia",
+          "Catania",
+          "Guzran",
+          "Esmeralda",
+          "Inyoni"
+        ],
+        "bench": [
+          "Dadao",
+          "Fianna",
+          "Ludia",
+          "Halvin",
+          "Jasmine",
+          "Sha Lan"
+        ],
+        "note": "Inyoni takes the ninth slot as archer and Dance target 3. Olympia and Catania both carry Physic for Ch 11, where Song of Abjuring and Guzran's Cleansing Blade handle the undead. Paralogues and subquest fights: rotate one bench unit (Ludia, Halvin, Jasmine, Fianna) into slots 7 to 9 when the holder is ahead; the rest train at the Arena and in dungeons."
+      }
+    ],
+    "synergies": [
+      {
+        "units": [
+          "Leda",
+          "Sirocco"
+        ],
+        "title": "Dance the caster",
+        "kind": "offense",
+        "how": "Sirocco is the first Dance target from Ch 9: he casts at range 2, Leda steps in behind him and dances, and Special Dance's Spd +3 lets the second cast double. Song of Passion adds Mag +4 (+7 with Passion+).",
+        "payoff": "Two casts a turn; Spd +3 from Special Dance can close the 4-AS gap so the second cast doubles"
+      },
+      {
+        "units": [
+          "Leda",
+          "Guzran"
+        ],
+        "title": "Kill-chain dance",
+        "kind": "offense",
+        "how": "Second Dance target: when he kills and a second foe is in reach, dance him. Spd +3 turns his near-doubles into doubles, and the extra kills catch him up after his Lv 15 join.",
+        "payoff": "A second kill per turn; Spd +3 lifts an AS lead of 1–3 to the 4 that doubles"
+      },
+      {
+        "units": [
+          "Leda",
+          "Inyoni"
+        ],
+        "title": "Dance the archer",
+        "kind": "offense",
+        "how": "Third Dance target from Ch 10: shoot, get danced, shoot again from the same tile. Special Dance's Dex +3 adds Hit to her arts, and each kill stacks Crescendo. Leda hands her the Mini Bow and Archer's Ring before the Ch 10 map.",
+        "payoff": "Two shots a turn from one tile; Dex +3 adds Hit and Crit, and every kill stacks Crescendo Hit +3"
+      },
+      {
+        "units": [
+          "Leda",
+          "Esmeralda",
+          "Sirocco"
+        ],
+        "title": "Hammer, then dance",
+        "kind": "offense",
+        "how": "Armored Ch 9 and Ch 10: Esmeralda's Hammer kills a knight, Leda dances her into a second one, and Sirocco's magic takes the rest (it hits Res, not Prt). Dadao does the Hammer job on Ch 7.",
+        "payoff": "Hammer is Effective+ (Mt 14 → 42); two armored kills a turn from one Mov 4 unit"
+      },
+      {
+        "units": [
+          "Leda",
+          "Sirocco",
+          "Inyoni",
+          "Guzran",
+          "Esmeralda"
+        ],
+        "title": "Passion volley",
+        "kind": "offense",
+        "how": "Song of Passion ring: on turns where three or more of them can stand within 2 tiles of Leda, she sings first (Str/Mag +4, +7 after Popular Drink Recipes in Ch 9) and they all attack. On other turns she dances instead; she can't do both.",
+        "payoff": "Str/Mag +7 for every attacker within 2 tiles until Leda's next phase; pays off once 3 or more swing"
+      },
+      {
+        "units": [
+          "Leda",
+          "Buccar",
+          "Esmeralda",
+          "Mu",
+          "Catania"
+        ],
+        "title": "Icewater wall",
+        "kind": "defense",
+        "how": "Song of Icewater (Def/Res +4, +7 after Captain's Drink Recipes) on the tank line before an enemy phase you can't avoid, such as Ch 11's Acid and mage songs. Buccar and Esmeralda wear Hexlock Shields on mage maps on top of it.",
+        "payoff": "Def/Res +7 on every tank within 2 tiles through the enemy phase, against Acid and mage songs alike"
+      },
+      {
+        "units": [
+          "Buccar",
+          "Mu",
+          "Olympia",
+          "Catania"
+        ],
+        "title": "Two tanks, two healers",
+        "kind": "healing",
+        "how": "Two tanks hold the line while two Physic users heal from range, so the strikers never have to stand in front. Catania walks or flies to whichever tank is cut off.",
+        "payoff": "Two Physics a turn put HP back on the tanks from range; Catania reaches the one cut off"
+      },
+      {
+        "units": [
+          "Leda",
+          "Guzran",
+          "Inyoni"
+        ],
+        "title": "Undead purge",
+        "kind": "offense",
+        "how": "Ch 11 undead: Song of Abjuring (Leda Lv 10) makes everyone in her ring effective vs undead, Guzran carries the Cleansing Blade, and Inyoni picks off what slips through.",
+        "payoff": "Everyone within 2 tiles hits undead at 2x Mt; the Cleansing Blade also cancels the Underworld Boon"
+      },
+      {
+        "units": [
+          "Leda",
+          "Mu",
+          "Guzran",
+          "Esmeralda",
+          "Dadao",
+          "Sirocco",
+          "Olympia"
+        ],
+        "title": "Ch 11–12 support meals",
+        "kind": "support",
+        "how": "Once the recruits are in, Sunday tables build army pairs: Leda + Mu + Guzran, Leda + Sirocco + Olympia, Leda + Esmeralda + Dadao (all three pairs support at each table), then Leda + Dadao + Inyoni and Leda + Lysander + Catania.",
+        "payoff": "Three tables raise nine Support pairs a Sunday, all of them inside the army"
+      }
+    ],
+    "units": {
+      "Leda": {
+        "status": "core",
+        "role": "Lord, Dancer and Song caster",
+        "why": "Lord, always deploys; Dance from Ch 9 and her Songs shape the whole army.",
+        "partII": "Stays Dancer; no exam."
+      },
+      "Sirocco": {
+        "status": "core",
+        "role": "Magic nuke, armor answer, Dance target 1",
+        "why": "Doubled tomes at range 1-2 as Shaman and Ovate make him the best unit to dance.",
+        "partII": "Bishop stint in Ch 1 to 2 for Barrier on a free Advanced License, back to Ovate for Dagda."
+      },
+      "Buccar": {
+        "status": "core",
+        "role": "Armored tank",
+        "why": "Armored Knight from Ch 6, Dreadnought in Ch 11. If he's missing before Ch 9, Jasmine (Ch 6) stands in and Guzran deploys from Ch 5.",
+        "partII": "Guardian stint in Ch 1 for Brace, then Dreadnought."
+      },
+      "Mu": {
+        "status": "core",
+        "role": "Dodge tank",
+        "why": "Pugilist from Ch 6; holds the open ground so the strikers stay in Leda's ring. Brigand in Ch 7 to 8 for Regroup.",
+        "partII": "Warrior stint in Ch 1 to 2 for Practiced Art if Axe B and Sword B are in, then Pugilist."
+      },
+      "Olympia": {
+        "status": "core",
+        "role": "Main healer (Physic)",
+        "why": "Free healer from Ch 3; Priest in Ch 6, Physic at White B and doubled casts as Bishop from Ch 10.",
+        "partII": "Stays Bishop; main Physic user on every map."
+      },
+      "Catania": {
+        "status": "core",
+        "role": "Second healer, flier, Res wall",
+        "why": "The army's only flier as a Wing Soldier, then Guardian with Physic from Ch 10.",
+        "partII": "Wing Soldier for Ch 2's fleeing Ranger, Bishop stint in Ch 3 to 4, Guardian for Ch 5 and 6."
+      },
+      "Guzran": {
+        "status": "late",
+        "role": "Sword striker, Dance target 2",
+        "why": "Joins late Ch 5 (Renown 3) and deploys from Ch 6; Myrmidon in Ch 7, Shido in Ch 11.",
+        "partII": "Shido from Part I; merges with his Cai copy in Part III."
+      },
+      "Dadao": {
+        "status": "early",
+        "role": "Armor breaker (Hammer), Ch 6 to 8",
+        "why": "Joins late Ch 6 (Support 2, Renown 5) and swings the Hammer on the armored Ch 7 map; hands it to Esmeralda in Ch 9 prep and trains at the Arena.",
+        "partII": "Brigand in Ch 1 for Regroup, Warrior on Ch 2's free License at Lv 35."
+      },
+      "Esmeralda": {
+        "status": "late",
+        "role": "Armored Hammer breaker, spear thrower",
+        "why": "Joins late Ch 7 (Support 3, Renown 6); Armored Knight on the Ch 8 Sealed Letter License and slot 8 from Ch 9 with Dadao's Hammer.",
+        "partII": "Dreadnought from Part I (Ch 12); Part II Ch 1's free License if Lv 35 slips."
+      },
+      "Inyoni": {
+        "status": "late",
+        "role": "Archer, anti-flier, Dance target 3",
+        "why": "Recruited Ch 9 week 1 at about Lv 15 with a War Bow; Archer at Lv 20 (late Ch 9) and the archer slot from Ch 10, when Leda starts dancing.",
+        "partII": "Sniper from Part I (Ch 12); Part II Ch 1's free License if Lv 35 slips."
+      },
+      "Fianna": {
+        "status": "bench",
+        "role": "Part II healer (Bishop)",
+        "why": "Olympia and Catania hold both Part I healer slots. Joins Ch 7 (Lv 15): heals in dungeon parties, Priest at Lv 20 (Ch 8), Arena Mage for White B.",
+        "partII": "Priest from Part I; Bishop on Ch 2's free License at the Lv 35 floor."
+      },
+      "Ludia": {
+        "status": "bench",
+        "role": "Part II sword striker",
+        "why": "Guzran holds the sword slot from Ch 6. Joins late Ch 8 (Lv 15): Myrmidon at Lv 20 (late Ch 9), Arena Infantry for Sword B, paralogue slot 7.",
+        "partII": "Myrmidon from Part I for Ravaging Arts, Shido on Ch 3's free License; Dance target 4."
+      },
+      "Halvin": {
+        "status": "bench",
+        "role": "Part II chariot archer",
+        "why": "Inyoni holds the archer slot. Joins in Ch 9 after the Baina trip (10 Dates); Riding Manual, Arena Mounted for Rider D, Charioteer at Lv 20 (late Ch 9).",
+        "partII": "Charioteer from Part I; takes the Ch 5 Deadeye shot on Dagda."
+      },
+      "Jasmine": {
+        "status": "bench",
+        "role": "Part II counter wall",
+        "why": "Buccar and Esmeralda hold the armor slots. Joins mid Ch 6 (Support 2, Renown 4, 500G): Armored Knight at Lv 20 (Ch 7), Arena Heavy for Axe B and Spear B.",
+        "partII": "Armored Knight from Part I for Great Counter, Dreadnought on Ch 2's free License."
+      },
+      "Sha Lan": {
+        "status": "bench",
+        "role": "Part II Res tank and Spd aura",
+        "why": "Joins after Anatolia's paralogue (10/5–10/14) with every slot set. Arena Mounted for Spear B; her Salamander goes to Mu.",
+        "partII": "Join class in Ch 1, Guardian in Ch 2 (Advanced License), Bishop stint in Ch 4 to 5 for Barrier."
+      }
+    },
+    "part2": {
+      "core": [
+        "Leda",
+        "Sirocco",
+        "Buccar",
+        "Mu",
+        "Olympia",
+        "Catania",
+        "Guzran",
+        "Esmeralda",
+        "Inyoni"
+      ],
+      "note": "15 slots: the nine above plus the six on the bench (one source for the cap). Part II auto-levels anyone below the floor (Lv 33, then Army Training's 34, 35, 37, 39) on personal growths only, so bench units arrive at their Part I level in the Specialty class they earned. Ch 1: Ludia, Jasmine, Fianna and Halvin fight in their Part I classes, Dadao in Brigand for Regroup, Sha Lan in her join class. Ch 2 (Lv 35 floor): Dadao Warrior, Jasmine Dreadnought, Fianna Bishop and Sha Lan Guardian on Advanced Licenses. Ch 3: Ludia Shido. Keep the six on the second line until their first Part II masteries show, and keep the Dance order (Sirocco, Guzran, Inyoni; Esmeralda on armor); Ludia becomes Dance target 4 once she is Shido. If Theodora and Bertrand take slots, Halvin and Dadao sit first."
+    },
+    "why": [
+      "Units who join by Ch 7 deploy unless a better unit already holds their role",
+      "A later joiner deploys only if it fills a role better than the holder, or an empty one",
+      "Built around Leda: from Ch 9 she dances after a strong attack; on wide turns she sings over a 2-tile ring",
+      "Esmeralda takes slot 8 in Ch 9: Brawn makes the Hammer Wt 16, she walls as well as breaks, and she supports Leda",
+      "Bench units join at their first gate (Jasmine Ch 6, Fianna Ch 7, Ludia Ch 8, Halvin Ch 9) at about Lv 15: dungeon parties and paralogue slots level them",
+      "Slot counts are a player report (about 6, then 8, then 9): check the prep screen"
+    ],
+    "lineup": [
+      {
+        "slot": 1,
+        "role": "Lord, Dancer and Song caster",
+        "holders": [
+          {
+            "unit": "Leda",
+            "from": 1
+          }
+        ]
+      },
+      {
+        "slot": 2,
+        "role": "Magic nuke, Dance target 1",
+        "holders": [
+          {
+            "unit": "Sirocco",
+            "from": 1
+          }
+        ]
+      },
+      {
+        "slot": 3,
+        "role": "Armored tank",
+        "holders": [
+          {
+            "unit": "Buccar",
+            "from": 1
+          }
+        ],
+        "note": "If Buccar is missing before Ch 9, Jasmine (recruited Ch 6) stands in and Guzran deploys from Ch 5"
+      },
+      {
+        "slot": 4,
+        "role": "Dodge tank",
+        "holders": [
+          {
+            "unit": "Mu",
+            "from": 1
+          }
+        ]
+      },
+      {
+        "slot": 5,
+        "role": "Main healer (Physic)",
+        "holders": [
+          {
+            "unit": "Olympia",
+            "from": 3
+          }
+        ],
+        "note": "Ch 1 to 2: only four units exist"
+      },
+      {
+        "slot": 6,
+        "role": "Second healer, flier, Res wall",
+        "holders": [
+          {
+            "unit": "Catania",
+            "from": 4
+          }
+        ],
+        "note": "Ch 5: sits if Orchel and Anatolia take slots"
+      },
+      {
+        "slot": 7,
+        "role": "Sword striker, Dance target 2",
+        "holders": [
+          {
+            "unit": "Guzran",
+            "from": 6,
+            "why": "Joins late Ch 5 (Renown 3); Killing Edge crits and the second dance"
+          }
+        ],
+        "note": "Sits for a guest in Ch 6 or Ch 8 only if slots run short. Ch 10 to 12 paralogues: Ludia takes it when Guzran is ahead"
+      },
+      {
+        "slot": 8,
+        "role": "Armor breaker (Hammer)",
+        "holders": [
+          {
+            "unit": "Dadao",
+            "from": 6,
+            "to": 8,
+            "why": "Joins late Ch 6 (Support 2, Renown 5): Hammer for the armored Ch 7 map"
+          },
+          {
+            "unit": "Esmeralda",
+            "from": 9,
+            "why": "Takes the Hammer and Giant's Ring in Ch 9 prep: Brawn cuts it to Wt 16, and she walls with thrown spears"
+          }
+        ],
+        "note": "Esmeralda joins late Ch 7 but sits Ch 8 for guests Cai and Talimun; Dadao goes to the Part II bench. Paralogues: Jasmine or Dadao rotate in"
+      },
+      {
+        "slot": 9,
+        "role": "Archer, anti-flier, Dance target 3",
+        "holders": [
+          {
+            "unit": "Inyoni",
+            "from": 10,
+            "why": "Recruited Ch 9 week 1 at about Lv 15; dungeons and the Arena in Ch 9, archer and Dance target 3 from Ch 10"
+          }
+        ],
+        "note": "No ninth slot before Ch 10. Ch 10 to 12 paralogues: Halvin or Fianna take it for EXP when Inyoni is ahead"
+      }
+    ]
+  },
+  "mechanics": [
+    {
+      "system": "Perform Quests",
+      "what": "Leda-only quests: travel to a town and perform for Renown (150 to 200 each), gold, crates and Leaves; some open map locations. They expire in batches (5/28, 9/1, 10/15, 11/27). No source describes a stat check, a minigame or another unit taking part (RPG Site walkthrough, KeenGamer quest list, fortunesweave.online).",
+      "impact": "No unit trains Cha or any other stat for them. Their value is Renown (Specialty exams in Ch 6, Advanced in Ch 10, Sha Lan at 8, Elegant Drink Recipes at 10) and the shopping on each trip: Killing Edge (Regia) and Flyssa (Zoste) twice, for Guzran and Ludia; Wooden Bows and a Horsekiller Bow (Yaaman) for Leda and Halvin; Wooden Gauntlets (Daimon) for Mu; Da Mina Bows (Orens) for Inyoni and the Da Mina quest; Ji and Short Spears (Port of Pandora) for the spear users. Behind on Renown: clear each Perform Quest the chapter it appears, take a god audience (+50) whenever a temple shows gold, pick For the Empire's Safety in Ch 8 (200 against 30), and run the paralogues (150 each).",
+      "units": [
+        "Leda",
+        "Guzran",
+        "Ludia",
+        "Halvin",
+        "Mu"
+      ]
+    },
+    {
+      "system": "Drink Recipes (Leda's Songs)",
+      "what": "Four Tavern requests in Dagsion, in order: Simple (Sweet Leaves, Traveler's Hill) for Song of Madness, Captain's (Pepper Leaves) for Song of Icewater+, Popular (Bitter Leaves) for Song of Passion+, Elegant (Wonder Leaves from Dance for Benetnasch, Renown 10) for Song of Angels plus Ranger and Troubadour. Pepper and Bitter Leaves share one Search node at Traveler's Garden, past Port of Pandora (fortunesweave.online, community-reported).",
+      "impact": "Do Captain's and Popular on the Ch 9 Port of Pandora trip so Ch 10 to 12 get +7 Songs. Passion (Str/Mag) feeds the strikers, so Sirocco, Guzran, Inyoni and Esmeralda fight from inside Leda's 2-tile ring; Icewater (Def/Res) goes on Buccar, Esmeralda, Mu and Catania; Song of Abjuring (Leda Lv 10) is the Ch 11 undead answer.",
+      "units": [
+        "Leda",
+        "Sirocco",
+        "Guzran",
+        "Inyoni",
+        "Esmeralda",
+        "Buccar",
+        "Mu",
+        "Catania"
+      ]
+    },
+    {
+      "system": "Great Dancer's Successor (Dancer)",
+      "what": "Deliver Hingosh to Baina Oasis in Ch 9 for the Dancer's Necklace; Dancer needs Bow B and Sword B but no exam or License. Dance lets an ally act again, and the Special Dance mastery adds Dex/Spd +3 to the target. One holder at a time (class data, RPG Site).",
+      "impact": "Leda takes the Arena Infantry course (Sword, Bow) every week from Ch 5 to 8, so both B ranks land by Ch 9 with no side trip; she stays Rogue in Ch 6 to 8. Dance order: Sirocco (doubled tomes), Guzran (melee finisher, Spd fix), Inyoni (ranged, Dex fix); Esmeralda after a Hammer kill on armored maps. Ludia is the fourth target in Part II.",
+      "units": [
+        "Leda",
+        "Sirocco",
+        "Guzran",
+        "Inyoni",
+        "Esmeralda"
+      ]
+    },
+    {
+      "system": "Dance vs Song, and the Blaze Gauge",
+      "what": "Dance spends the action Leda would use for a Song, so each turn is one or the other (AllThings.How, community-reported). Songs fill her Blaze Gauge (+2 each, Madness +3, Angels +4); half full is Overblaze, full is Burst, which strips bonuses for the map and cuts max HP. Underworld Madness sets the gauge to 6 and locks Overblaze; Improviso (Lv 35) lets her attack after a Song in Overblaze.",
+      "impact": "Sing when three or more attackers fit in the ring; dance when one strong unit can kill again. Count her gauge, since Burst on the defeat-condition unit is a real risk. Improviso adds an attack after a Song from Lv 35, never a second Dance. Song of Angels (Renown 10) is once per map: every adjacent ally acts again; save it for the Ch 12 boss turn.",
+      "units": [
+        "Leda"
+      ]
+    },
+    {
+      "system": "City exploration",
+      "what": "Leda's exploration talent is performing in taverns for gold and materials. Dagsion's facilities are shared with the other routes: Arena Training from Ch 5 (five courses, each once a week, two seats each), Theater at Renown 7, Thermae at Renown 8, Map > People to find and teleport to recruits.",
+      "impact": "Arena pairs come from the builds: Field Kit > Arena, weeks A and B. Seats go to the bench first (no battle EXP), then exams due now; each trainee sits with a higher-ranked partner for the rank-gap bonus. Part II has no Arena.",
+      "units": [
+        "Leda",
+        "Guzran",
+        "Sirocco",
+        "Catania",
+        "Mu",
+        "Dadao",
+        "Buccar",
+        "Esmeralda",
+        "Inyoni",
+        "Ludia",
+        "Fianna",
+        "Jasmine",
+        "Halvin",
+        "Sha Lan"
+      ]
+    },
+    {
+      "system": "Archives (dark magic)",
+      "what": "Reading an Archive uses it up and adds its dark spell to that unit's list for good, with no inventory or equipment slot. One copy of each per route.",
+      "impact": "Sirocco reads Archive L (Luna, Aditi's Cave, Ch 9) and Archive θ (Banshee, Iapetus Cavern, Ch 9 to 11, to pin the Ch 11 and 12 bosses at 1-3). Olympia reads Archive Γ (Death: Mt 15, Crit 20) if Vandahl lists it from Ch 10. Skip Archive B (Mire, Mt 3; Cave Behind the Falls, Lv 22) and Archive T (no Pongo source here ?). Banshee weighs 23, Luna 20, Death 13: cast them on turns the caster ends out of reach.",
+      "units": [
+        "Sirocco",
+        "Olympia"
+      ]
+    },
+    {
+      "system": "Weekly routine",
+      "what": "Every free time from Ch 4: Sunday Inn meals (Leda + 2 targets, 150G; 300G on other days), one gift per target, the Pale Raven, Divine Services and god audiences (about 50 Renown, from Renown 2), the Arena (five courses, two seats each), and Inn auto-activities before long trips. Spare Turns: barter materials first, then a dungeon with the meal pairs, then the Inn.",
+      "impact": "Recruit Support only counts with Leda, so every meal seats her. Ch 5 to 7: Esmeralda sits twice a Sunday (Support 3 with Renown 6), Dadao until Support 2, Jasmine to Support 2 in Ch 6, Fianna to 3 by Ch 7. Ch 8 to 9: Ludia and Halvin to Support 3, then Sha Lan and the fillers. Ch 11 to 12: army pairs. Blessings: Aurora first, then Kalla to Lv 3, Smyrnos to Lv 2, Mars, Jurah, Credna last. If a target is short of Support 3, RPG Site's Ch 9 meal replay loop catches up (Support is global).",
+      "units": [
+        "Leda"
+      ]
+    }
+  ],
+  "fillers": [
+    {
+      "name": "Io",
+      "kind": "items",
+      "when": "Ch 10 week 1 (9/28)",
+      "item": "Levin Sword",
+      "cost": "Renown 6, 1,500G",
+      "why": "His Levin Sword goes to Sirocco for the armored Ch 10 map. Optional Part II Charioteer if a slot opens."
+    },
+    {
+      "name": "Noctula",
+      "kind": "items",
+      "when": "Ch 10, once Renown 8 lands (she must be a Lv 20+ Pugilist)",
+      "item": "Ursa's Right Claw",
+      "cost": "Support 3, Renown 8",
+      "why": "Recruited at Lv 20+ she brings Ursa's Right Claw (cursed gauntlets, Mt 15): Anatolia's Part III weapon. Hold it past Part I."
+    },
+    {
+      "name": "Nuzzuo",
+      "kind": "items",
+      "when": "Late Ch 10 or Ch 11 (Renown 9)",
+      "item": "Levin Sword",
+      "cost": "Support 3, Renown 9, 3× Iron Bow",
+      "why": "A Ch 10+ recruit with a spare Levin Sword (filler: no build on this route)."
+    },
+    {
+      "name": "Jester",
+      "kind": "items",
+      "when": "Ch 11 to 12 (Renown 10)",
+      "item": "Levin Sword",
+      "cost": "Support 3, Renown 10, 3 short quests",
+      "why": "Brings a Levin Sword. Supports Leda, Buccar and Halvin."
+    },
+    {
+      "name": "Seteth",
+      "kind": "items",
+      "when": "Ch 11 to 12 (Renown 10)",
+      "item": "Spear of Assal",
+      "cost": "Support 3, Renown 10, short quest",
+      "why": "Comes with the Spear of Assal (about 7 Mt, Wt 8). Supports Dadao and Ludia."
+    },
+    {
+      "name": "Mikaela",
+      "kind": "supports",
+      "when": "Ch 10 week 1 (Renown 6)",
+      "cost": "Support 3, Renown 6, 3,000G",
+      "why": "Partners Esmeralda, Guzran and Mu."
+    },
+    {
+      "name": "Lysander",
+      "kind": "supports",
+      "when": "Ch 10 week 1 (Renown 7)",
+      "cost": "Support 3, Renown 7, 5× Iron Spear",
+      "why": "Catania's only partner on this route; also Esmeralda and Fianna. Seat Leda + Lysander + Catania."
+    },
+    {
+      "name": "Nezha",
+      "kind": "supports",
+      "when": "Late Ch 10 or Ch 11 (Renown 9)",
+      "cost": "Support 3, Renown 9, 3× Sandworm Meat (Aditi's Cave)",
+      "why": "Partners Dadao, Halvin and Sha Lan. He joins past Lv 20 here, so no Salamander."
+    }
+  ],
+  "ledger": {
+    "keyDecisions": [
+      {
+        "text": "Clear each Perform Quest batch the chapter it opens: they close 5/28, 9/1, 10/15, 11/27",
+        "ch": 4
+      },
+      {
+        "text": "Seat Esmeralda twice a Sunday from Ch 5: Support 3 must land with Renown 6 (late Ch 7)",
+        "ch": 5
+      },
+      {
+        "text": "Recruit early: Jasmine Ch 6, Fianna Ch 7, Ludia late Ch 8, Inyoni and Halvin Ch 9",
+        "ch": 6
+      },
+      {
+        "text": "Pick For the Empire's Safety in Ch 8: Esmeralda's Specialty License and 200 Renown",
+        "ch": 8
+      },
+      {
+        "text": "Hand Dadao's Hammer and Giant's Ring to Esmeralda in Ch 9 prep; Dadao goes to the bench",
+        "ch": 9
+      }
+    ],
+    "renownPace": [
+      {
+        "ch": 4,
+        "from": 1,
+        "to": 2,
+        "opens": "Nothing gated yet"
+      },
+      {
+        "ch": 5,
+        "from": 2,
+        "to": 3,
+        "opens": "Beginner exams. Guzran (R3) late"
+      },
+      {
+        "ch": 6,
+        "from": 4,
+        "to": 5,
+        "opens": "Specialty exams, Blacksmith, Jasmine (R4) mid. Dadao and Fianna (R5) late"
+      },
+      {
+        "ch": 7,
+        "from": 5,
+        "to": 6,
+        "opens": "Fianna (R5) week 1, Esmeralda (R6) late. Io and Mikaela (R6, fillers) wait for Ch 10"
+      },
+      {
+        "ch": 8,
+        "from": 6,
+        "to": 7,
+        "opens": "Ludia and Theater (R7) late, if at all"
+      },
+      {
+        "ch": 9,
+        "from": 7,
+        "to": 8,
+        "opens": "Ludia if Ch 8 missed, Inyoni week 1, Halvin after Baina (R7). R8 only at the very end"
+      },
+      {
+        "ch": 10,
+        "from": 8,
+        "to": 9,
+        "opens": "Advanced exams, Sha Lan, Thermae, Noctula (R8). Nuzzuo, Nezha (R9) late"
+      },
+      {
+        "ch": 11,
+        "from": 9,
+        "to": 10,
+        "opens": "Elegant Drink Recipes, Song of Angels, Jester, Seteth (R10) late"
+      },
+      {
+        "ch": 12,
+        "from": 10,
+        "to": 12,
+        "opens": "R11: Extra Large Bullion. R12: Portrait of Yu Phas. Don't grind past 12"
+      }
+    ],
+    "rules": [
+      "Each exam spends a License even when you fail it: take it at 75% or better. Beginner needs about Lv 5",
+      "Specialty opens at Renown 4 (Ch 6) and Lv 20; Ch 6 to 9 recruits join near Lv 15 and take theirs in Part I",
+      "Advanced opens at Renown 8 (Ch 10) and Lv 35: 7 exams in Part I in the order below, plus Leda's free Dancer",
+      "Arena seats go to the bench first (no battle EXP), then exams due now; each trainee sits with a higher-ranked partner"
+    ],
+    "licenses": {
+      "beginner": [
+        {
+          "unit": "Leda",
+          "class": "Hunter",
+          "ch": 5,
+          "why": "Automatic: no License"
+        },
+        {
+          "unit": "Sirocco",
+          "class": "Diviner",
+          "ch": 5
+        },
+        {
+          "unit": "Olympia",
+          "class": "Diviner",
+          "ch": 5
+        },
+        {
+          "unit": "Mu",
+          "class": "Gladiator",
+          "ch": 5,
+          "why": "Punch every fight: Pugilist needs Gauntlet C"
+        },
+        {
+          "unit": "Buccar",
+          "class": "Soldier",
+          "ch": 5,
+          "why": "Armored line: Armored Knight needs Axe C and Spear C"
+        },
+        {
+          "unit": "Catania",
+          "class": "Ornius Rider",
+          "ch": 5
+        },
+        {
+          "unit": "Guzran",
+          "class": "Gladiator",
+          "ch": 5,
+          "why": "The day he joins (late Ch 5). Swords only"
+        },
+        {
+          "unit": "Dadao",
+          "class": "Gladiator",
+          "ch": 6,
+          "why": "Only if he joins in another class"
+        },
+        {
+          "unit": "Esmeralda",
+          "class": "Soldier",
+          "ch": 7,
+          "why": "Only if she joins in another class"
+        },
+        {
+          "unit": "Jasmine",
+          "class": "Soldier",
+          "ch": 6,
+          "why": "Only if she joins in another class"
+        },
+        {
+          "unit": "Fianna",
+          "class": "Diviner",
+          "ch": 7,
+          "why": "Only if she joins in another class"
+        },
+        {
+          "unit": "Ludia",
+          "class": "Hunter",
+          "ch": 8,
+          "why": "Only if she joins in another class"
+        },
+        {
+          "unit": "Inyoni",
+          "class": "Hunter",
+          "ch": 9,
+          "why": "Only if she joins in another class"
+        },
+        {
+          "unit": "Halvin",
+          "class": "Hunter",
+          "ch": 9,
+          "why": "Only if he joins in another class"
+        }
+      ],
+      "specialty": [
+        {
+          "unit": "Leda",
+          "class": "Rogue",
+          "ch": 6,
+          "ranks": [
+            "Bow C",
+            "Sword C"
+          ]
+        },
+        {
+          "unit": "Catania",
+          "class": "Wing Soldier",
+          "ch": 6,
+          "ranks": [
+            "Flying D",
+            "Spear C",
+            "Sword C"
+          ]
+        },
+        {
+          "unit": "Buccar",
+          "class": "Armored Knight",
+          "ch": 6,
+          "ranks": [
+            "Heavy E+",
+            "Axe C",
+            "Spear C"
+          ]
+        },
+        {
+          "unit": "Sirocco",
+          "class": "Shaman",
+          "ch": 6,
+          "ranks": [
+            "Black Magic C"
+          ]
+        },
+        {
+          "unit": "Olympia",
+          "class": "Priest",
+          "ch": 6,
+          "ranks": [
+            "White Magic C"
+          ]
+        },
+        {
+          "unit": "Mu",
+          "class": "Pugilist",
+          "ch": 6,
+          "ranks": [
+            "Gauntlet C"
+          ]
+        },
+        {
+          "unit": "Dadao",
+          "class": "Brigand",
+          "ch": 7,
+          "ranks": [
+            "Axe C",
+            "Sword C"
+          ],
+          "why": "Hammer for the armored Ch 7 map"
+        },
+        {
+          "unit": "Guzran",
+          "class": "Myrmidon",
+          "ch": 7,
+          "ranks": [
+            "Sword C"
+          ],
+          "why": "At Lv 20, Ch 7"
+        },
+        {
+          "unit": "Mu",
+          "class": "Brigand",
+          "ch": 7,
+          "ranks": [
+            "Axe C",
+            "Sword C"
+          ],
+          "side": true,
+          "why": "Regroup, once Attack, Get Back is mastered; back to Pugilist by Ch 9"
+        },
+        {
+          "unit": "Jasmine",
+          "class": "Armored Knight",
+          "ch": 7,
+          "why": "At Lv 20: Great Counter for Part II",
+          "ranks": [
+            "Heavy E+",
+            "Axe C",
+            "Spear C"
+          ]
+        },
+        {
+          "unit": "Fianna",
+          "class": "Priest",
+          "ch": 8,
+          "ranks": [
+            "White Magic C"
+          ]
+        },
+        {
+          "unit": "Esmeralda",
+          "class": "Armored Knight",
+          "ch": 9,
+          "ranks": [
+            "Heavy E+",
+            "Axe C",
+            "Spear C"
+          ],
+          "why": "The Ch 8 Sealed Letter's License; Ch 8 if she is Lv 20 by 7/9"
+        },
+        {
+          "unit": "Inyoni",
+          "class": "Archer",
+          "ch": 9,
+          "ranks": [
+            "Bow C"
+          ],
+          "why": "At Lv 20: Crescendo banks before her first map (Ch 10)"
+        },
+        {
+          "unit": "Ludia",
+          "class": "Myrmidon",
+          "ch": 9,
+          "ranks": [
+            "Sword C"
+          ],
+          "why": "At Lv 20: Ravaging Arts before Shido"
+        },
+        {
+          "unit": "Halvin",
+          "class": "Charioteer",
+          "ch": 9,
+          "ranks": [
+            "Riding D",
+            "Bow C"
+          ],
+          "why": "At Lv 20 with the Riding Manual read; Ch 10 if Rider D lags"
+        }
+      ],
+      "advanced": [
+        {
+          "unit": "Leda",
+          "class": "Dancer",
+          "ch": 9,
+          "ranks": [
+            "Bow B",
+            "Sword B"
+          ],
+          "why": "No exam, no License; needs the Dancer's Necklace"
+        },
+        {
+          "unit": "Olympia",
+          "class": "Bishop",
+          "ch": 10,
+          "ranks": [
+            "White Magic B"
+          ],
+          "why": "Main healer: doubled Physic and Nosferatu for Ch 11"
+        },
+        {
+          "unit": "Sirocco",
+          "class": "Ovate",
+          "ch": 10,
+          "ranks": [
+            "Black Magic B"
+          ],
+          "why": "Doubled tomes on Dance target 1 for the armored Ch 10 map"
+        },
+        {
+          "unit": "Catania",
+          "class": "Guardian",
+          "ch": 10,
+          "ranks": [
+            "Spear B"
+          ],
+          "why": "Second Physic user and the Res wall. Ch 11 if Lv 35 slips"
+        },
+        {
+          "unit": "Buccar",
+          "class": "Dreadnought",
+          "ch": 11,
+          "ranks": [
+            "Heavy D",
+            "Axe B",
+            "Spear B"
+          ],
+          "why": "Def +30 row and Focused Counter for Ch 11 and Part II"
+        },
+        {
+          "unit": "Guzran",
+          "class": "Shido",
+          "ch": 11,
+          "ranks": [
+            "Sword B"
+          ],
+          "why": "Sword striker and Dance target 2"
+        },
+        {
+          "unit": "Inyoni",
+          "class": "Sniper",
+          "ch": 12,
+          "ranks": [
+            "Bow B"
+          ],
+          "why": "Joins Ch 9 at about Lv 15: dances and kills to Lv 35; Part II Ch 1 if it slips"
+        },
+        {
+          "unit": "Esmeralda",
+          "class": "Dreadnought",
+          "ch": 12,
+          "ranks": [
+            "Heavy D",
+            "Axe B",
+            "Spear B"
+          ],
+          "why": "Last: Lv 35 lands late from a Ch 7 join. Part II Ch 1 if it slips"
+        },
+        {
+          "unit": "Buccar",
+          "class": "Guardian",
+          "ch": "Part II Ch 1",
+          "side": true,
+          "why": "Brace, then back to Dreadnought"
+        },
+        {
+          "unit": "Sirocco",
+          "class": "Bishop",
+          "ch": "Part II Ch 1",
+          "side": true,
+          "why": "Barrier, White rank for The Avatar"
+        },
+        {
+          "unit": "Mu",
+          "class": "Warrior",
+          "ch": "Part II Ch 1",
+          "side": true,
+          "why": "Practiced Art; skip if Axe or Sword isn't B"
+        },
+        {
+          "unit": "Dadao",
+          "class": "Warrior",
+          "ch": "Part II Ch 2",
+          "ranks": [
+            "Gauntlet B",
+            "Axe B",
+            "Sword B"
+          ],
+          "why": "At the Ch 2 floor (Lv 35)"
+        },
+        {
+          "unit": "Jasmine",
+          "class": "Dreadnought",
+          "ch": "Part II Ch 2",
+          "ranks": [
+            "Heavy D",
+            "Axe B",
+            "Spear B"
+          ]
+        },
+        {
+          "unit": "Fianna",
+          "class": "Bishop",
+          "ch": "Part II Ch 2",
+          "ranks": [
+            "White Magic B"
+          ]
+        },
+        {
+          "unit": "Sha Lan",
+          "class": "Guardian",
+          "ch": "Part II Ch 2",
+          "ranks": [
+            "Spear B"
+          ]
+        },
+        {
+          "unit": "Ludia",
+          "class": "Shido",
+          "ch": "Part II Ch 3",
+          "ranks": [
+            "Sword B"
+          ],
+          "why": "Once Ravaging Arts shows"
+        },
+        {
+          "unit": "Catania",
+          "class": "Bishop",
+          "ch": "Part II Ch 3",
+          "side": true,
+          "why": "Doubled Physic for Ch 3, Barrier"
+        },
+        {
+          "unit": "Sha Lan",
+          "class": "Bishop",
+          "ch": "Part II Ch 4",
+          "side": true,
+          "why": "Barrier"
+        }
+      ],
+      "advancedCap": 8,
+      "buy": "Buy 7 Advanced Licenses (6 with Giant's-Print Fort's chest): Megaira sells them in Ch 9, Dagsion from Ch 10. Use them all in Part I"
+    },
+    "licenseBudget": [
+      {
+        "ch": 5,
+        "beginner": 6,
+        "specialty": 0,
+        "advanced": 0
+      },
+      {
+        "ch": 6,
+        "beginner": 0,
+        "specialty": 6,
+        "advanced": 0
+      },
+      {
+        "ch": 7,
+        "beginner": 0,
+        "specialty": 4,
+        "advanced": 0
+      },
+      {
+        "ch": 8,
+        "beginner": 0,
+        "specialty": 1,
+        "advanced": 0
+      },
+      {
+        "ch": 9,
+        "beginner": 0,
+        "specialty": 4,
+        "advanced": 0
+      },
+      {
+        "ch": 10,
+        "beginner": 0,
+        "specialty": 0,
+        "advanced": 3
+      },
+      {
+        "ch": 11,
+        "beginner": 0,
+        "specialty": 0,
+        "advanced": 2
+      },
+      {
+        "ch": 12,
+        "beginner": 0,
+        "specialty": 0,
+        "advanced": 2
+      }
+    ],
+    "weaponPriority": [
+      {
+        "type": "Bow",
+        "units": [
+          "Leda",
+          "Inyoni",
+          "Halvin"
+        ],
+        "why": "Leda needs Bow B for Dancer; Inyoni and Halvin Bow C (late Ch 9), then B"
+      },
+      {
+        "type": "Sword",
+        "units": [
+          "Guzran",
+          "Leda",
+          "Ludia"
+        ],
+        "why": "Sword B for Guzran's Shido and Leda's Dancer; Ludia's B by 11/27 from the Arena"
+      },
+      {
+        "type": "Black Magic",
+        "units": [
+          "Sirocco",
+          "Olympia"
+        ],
+        "why": "Sirocco needs Black Magic B for Ovate; Olympia reads Archive Γ"
+      },
+      {
+        "type": "White Magic",
+        "units": [
+          "Olympia",
+          "Catania",
+          "Fianna",
+          "Sha Lan"
+        ],
+        "why": "Physic at White B for both Part I healers; Fianna White C (Priest, Ch 8), then B"
+      },
+      {
+        "type": "Gauntlet",
+        "units": [
+          "Mu",
+          "Dadao"
+        ],
+        "why": "Mu's dodge build; Dadao needs Gauntlet B for Warrior"
+      },
+      {
+        "type": "Axe",
+        "units": [
+          "Esmeralda",
+          "Dadao",
+          "Buccar",
+          "Jasmine"
+        ],
+        "why": "The Hammer (Dadao, then Esmeralda); Axe B for three Dreadnoughts"
+      },
+      {
+        "type": "Spear",
+        "units": [
+          "Catania",
+          "Buccar",
+          "Esmeralda",
+          "Sha Lan",
+          "Jasmine"
+        ],
+        "why": "Spear B for Guardian and Dreadnought"
+      }
+    ],
+    "uniques": [
+      {
+        "item": "Obsidian",
+        "to": "Leda",
+        "from": "Kassite, before the Ch 1 battle",
+        "ch": 1
+      },
+      {
+        "item": "Lakshashi's Iron Fan",
+        "to": "Leda",
+        "from": "Ch 2 battle reward",
+        "ch": 2
+      },
+      {
+        "item": "Archer's Ring",
+        "to": "Leda",
+        "from": "Coris Mine chest",
+        "ch": 2,
+        "fallback": "Obsidian on maps with enemy mages"
+      },
+      {
+        "item": "Mini Bow",
+        "to": "Leda",
+        "from": "Chest in one of Leda's first quests ?",
+        "fallback": "The second copy, south of Dagsion"
+      },
+      {
+        "item": "Black-Magic Manual",
+        "to": "Sirocco",
+        "from": "Collapsed Fort chest (Lv 6)",
+        "ch": 4
+      },
+      {
+        "item": "White-Magic Manual",
+        "to": "Fianna",
+        "from": "Niraga Mine chest (Lv 5), read the day she joins (Ch 7)",
+        "ch": 4
+      },
+      {
+        "item": "Healing Staff",
+        "to": "Olympia",
+        "from": "Rubess Forest chest (Lv 9)",
+        "ch": 5
+      },
+      {
+        "item": "Riding Manual",
+        "to": "Halvin",
+        "from": "Rubess Forest chest (Lv 9), read the day he joins (Ch 9)",
+        "ch": 5
+      },
+      {
+        "item": "Magic Staff",
+        "to": "Sirocco",
+        "from": "Corroios Fort Ruins chest (Lv 13)",
+        "ch": 5
+      },
+      {
+        "item": "Heavy-Armor Manual",
+        "to": "Buccar",
+        "from": "Masked Woods chest (Lv 15)",
+        "ch": 6
+      },
+      {
+        "item": "Flying Manual",
+        "to": "Catania",
+        "from": "Dione Fort chest (Lv 18)",
+        "ch": 6
+      },
+      {
+        "item": "Hexlock Shield",
+        "to": "Buccar",
+        "from": "Dione Fort chest (Lv 18)",
+        "ch": 6
+      },
+      {
+        "item": "Killing Edge",
+        "to": "Guzran",
+        "from": "Regia shop (3,000G), first copy",
+        "ch": 6
+      },
+      {
+        "item": "Killing Edge",
+        "to": "Ludia",
+        "from": "Regia shop, second copy",
+        "ch": 6,
+        "fallback": "Utuna Pass shop (2,400G) from Ch 7. Held for her Ch 8 join"
+      },
+      {
+        "item": "Hammer",
+        "to": "Dadao",
+        "from": "Vandahl Dagsion barter (Roca ×2 + Zamir ×1)",
+        "ch": 6
+      },
+      {
+        "item": "Giant's Ring",
+        "to": "Dadao",
+        "from": "Vandahl Alecto barter (first Paradise Fish)",
+        "ch": 7,
+        "fallback": "Conflagrant Gem"
+      },
+      {
+        "item": "Sea-Spirit Charm",
+        "to": "Guzran",
+        "from": "Fina village shop (Castalia), first copy",
+        "ch": 7
+      },
+      {
+        "item": "Sea-Spirit Charm",
+        "to": "Ludia",
+        "from": "Fina village shop (Castalia), second copy",
+        "ch": 7,
+        "fallback": "Held for her Ch 8 join"
+      },
+      {
+        "item": "Healing Staff",
+        "to": "Catania",
+        "from": "Vandahl Dagsion barter, first staff",
+        "ch": 7,
+        "fallback": "Orchel's Regret reward (Ch 11)"
+      },
+      {
+        "item": "Hexlock Shield",
+        "to": "Sha Lan",
+        "from": "Dragonbone Tangle chest (Lv 20), held to her join",
+        "ch": 7,
+        "fallback": "Ch 9 desert trip if Nysiades is closed"
+      },
+      {
+        "item": "Cleansing Blade",
+        "to": "Guzran",
+        "from": "Ch 8 battle map, near the start",
+        "ch": 8
+      },
+      {
+        "item": "White-Magic Manual",
+        "to": "Catania",
+        "from": "Purloined Spellcasters Tools",
+        "ch": 8
+      },
+      {
+        "item": "Hammer",
+        "to": "Esmeralda",
+        "from": "Dadao's copy, Ch 9 prep",
+        "ch": 9
+      },
+      {
+        "item": "Giant's Ring",
+        "to": "Esmeralda",
+        "from": "Dadao's copy, Ch 9 prep",
+        "ch": 9
+      },
+      {
+        "item": "Hexlock Shield",
+        "to": "Esmeralda",
+        "from": "Vandahl Dagsion barter (Linaria ×10 + Noa Fruit ×1)",
+        "ch": 9,
+        "fallback": "Iron Shield"
+      },
+      {
+        "item": "Archer's Ring",
+        "to": "Buccar",
+        "from": "Vandahl Dagsion barter (Jyoppa ×2), first",
+        "ch": 9,
+        "fallback": "Victory Gem"
+      },
+      {
+        "item": "Dancer's Necklace",
+        "to": "Leda",
+        "from": "Great Dancer's Successor (Baina Oasis)",
+        "ch": 9
+      },
+      {
+        "item": "Archive L",
+        "to": "Sirocco",
+        "from": "Aditi's Cave (Lv 28)",
+        "ch": 9
+      },
+      {
+        "item": "Archive θ",
+        "to": "Sirocco",
+        "from": "Iapetus Cavern (Lv 32)",
+        "ch": 9,
+        "fallback": "Ch 11 if he can't clear it yet"
+      },
+      {
+        "item": "Giant's Ring",
+        "to": "Dadao",
+        "from": "Vandahl Alecto barter (second Paradise Fish)",
+        "ch": 9,
+        "fallback": "Conflagrant Gem"
+      },
+      {
+        "item": "Hammer",
+        "to": "Dadao",
+        "from": "Nemea Cavern chest (Lv 30)",
+        "ch": 10,
+        "fallback": "A second Vandahl barter (Roca ×2 + Zamir ×1)"
+      },
+      {
+        "item": "Heavy-Armor Manual",
+        "to": "Jasmine",
+        "from": "Nemea Cavern chest (Lv 30)",
+        "ch": 9
+      },
+      {
+        "item": "Archer's Ring",
+        "to": "Inyoni",
+        "from": "Leda's Coris Mine copy, Ch 10 prep",
+        "ch": 10,
+        "fallback": "A Jyoppa ×2 barter"
+      },
+      {
+        "item": "Mini Bow",
+        "to": "Inyoni",
+        "from": "Leda's copy, Ch 10 prep",
+        "ch": 10
+      },
+      {
+        "item": "Levin Sword",
+        "to": "Sirocco",
+        "from": "Io's inventory (9/28 recruit)",
+        "ch": 10,
+        "fallback": "Vandahl barter (Thry Fruit ×10 + Yuna Mei ×1)"
+      },
+      {
+        "item": "Salamander",
+        "to": "Mu",
+        "from": "Sha Lan's inventory",
+        "ch": 10,
+        "fallback": "Sealed-Off Past reward (Ch 11)"
+      },
+      {
+        "item": "Kalla's Bow",
+        "to": "Inyoni",
+        "from": "Lv 30 Clash at Kalla's Main Temple",
+        "ch": 10,
+        "fallback": "Held for her Part III"
+      },
+      {
+        "item": "Archive Γ",
+        "to": "Olympia",
+        "from": "Vandahl Dagsion ?",
+        "ch": 10
+      },
+      {
+        "item": "Cleansing Blade",
+        "to": "Ludia",
+        "from": "Vandahl Dagsion barter (Ladon Pike ×3)",
+        "ch": 11
+      },
+      {
+        "item": "Healing Staff",
+        "to": "Fianna",
+        "from": "Vandahl Dagsion barter, second staff",
+        "ch": 11,
+        "fallback": "Orchel's Regret reward if Catania has hers"
+      },
+      {
+        "item": "Archer's Ring",
+        "to": "Halvin",
+        "from": "Vandahl Dagsion barter (Jyoppa ×2), second",
+        "ch": 11
+      },
+      {
+        "item": "Credna's Mallet",
+        "to": "Esmeralda",
+        "from": "Credna's god request, then its Lv 60 Trial (Part III)",
+        "fallback": "Iron Axe +5"
+      },
+      {
+        "item": "Cloth of Aurora",
+        "to": "Buccar",
+        "from": "Aurora's Lv 60 Trial Clash (Part III)",
+        "fallback": "Archer's Ring; Esmeralda keeps the Giant's Ring"
+      },
+      {
+        "item": "Velheit",
+        "to": "Orchel",
+        "from": "Stoppered Shrine chest (Lv 25, Ch 9), held to the end of Part I",
+        "fallback": "Drifting Reliquary re-sells it in Part III"
+      },
+      {
+        "item": "Muen",
+        "to": "Storage (Eshmel's fallback)",
+        "from": "Cougar Woodlands chest (Lv 23, Ch 9), held to the end of Part I",
+        "fallback": "Eshmel runs Vendetta from this route's Part II Ch 6 clear; Muen backs it up"
+      },
+      {
+        "item": "Ursa's Right Claw",
+        "to": "Anatolia",
+        "from": "Noctula's kit (Ch 10 recruit at Lv 20+), held to the end of Part I",
+        "fallback": "Drifting Reliquary re-sells it in Part III"
+      }
+    ],
+    "refines": [
+      {
+        "unit": "Leda",
+        "item": "Lakshashi's Iron Fan +2",
+        "ch": 6,
+        "ore": "rare",
+        "why": "First special: Toxic Wind hits harder at 1-2; rare ore ?"
+      },
+      {
+        "unit": "Buccar",
+        "item": "Halberd +2",
+        "ch": 6,
+        "ore": "rare",
+        "why": "Mt up on his 2x vs armor and cavalry; Ch 7 if ores run short"
+      },
+      {
+        "unit": "Guzran",
+        "item": "Killing Edge +2",
+        "ch": 7,
+        "ore": "rare",
+        "why": "Mt up for Deadly Blade crit turns"
+      },
+      {
+        "unit": "Inyoni",
+        "item": "Da Mina Bow +2",
+        "ch": 9,
+        "ore": "rare",
+        "why": "Hit +10 on her arts. Rare ores short? [[item:Wooden Bow]] +5 on Smithing Stone instead"
+      },
+      {
+        "unit": "Guzran",
+        "item": "Wooden Sword +5",
+        "ch": 6,
+        "ore": "common",
+        "why": "Mt 17, Wt 2: the bulletin-quest sword"
+      },
+      {
+        "unit": "Mu",
+        "item": "Wooden Gauntlets +5",
+        "ch": 6,
+        "ore": "common",
+        "why": "Mt 11, Wt 1, Avo up: Daimon copy (Ch 4)"
+      },
+      {
+        "unit": "Leda",
+        "item": "Wooden Bow +5",
+        "ch": 6,
+        "ore": "common",
+        "why": "Wt 4 bow for Improviso shots: Yaaman copy (Ch 4)"
+      },
+      {
+        "unit": "Catania",
+        "item": "Wooden Spear +5",
+        "ch": 6,
+        "ore": "common",
+        "why": "Wt 5: her spear as Wing Soldier and Guardian"
+      },
+      {
+        "unit": "Buccar",
+        "item": "Bronze Axe +4",
+        "ch": 6,
+        "ore": "common",
+        "why": "Def +1 from +3: his counter axe"
+      },
+      {
+        "unit": "Jasmine",
+        "item": "Bronze Axe +4",
+        "ch": 6,
+        "ore": "common",
+        "why": "Def +1 from +3: enemy-phase counters"
+      },
+      {
+        "unit": "Dadao",
+        "item": "Iron Axe +3",
+        "ch": 6,
+        "ore": "common",
+        "why": "Dex up at +3: refine it the day he joins"
+      },
+      {
+        "unit": "Esmeralda",
+        "item": "Iron Axe +3",
+        "ch": 7,
+        "ore": "common",
+        "why": "Dex up at +3 for her Hit; on her join"
+      },
+      {
+        "unit": "Ludia",
+        "item": "Wooden Sword +5",
+        "ch": 8,
+        "ore": "common",
+        "why": "Mt 17, Wt 2: on her join"
+      },
+      {
+        "unit": "Halvin",
+        "item": "Wooden Bow +5",
+        "ch": 9,
+        "ore": "common",
+        "why": "Wt 4 main bow: the second Yaaman copy"
+      },
+      {
+        "unit": "Sha Lan",
+        "item": "Bronze Spear +4",
+        "ch": 10,
+        "ore": "common",
+        "why": "Def +1 from +3; held for 11/27"
+      },
+      {
+        "unit": "Leda",
+        "item": "Wooden Bow +9",
+        "ch": "Part III",
+        "ore": "soulstone",
+        "why": "Mt 19, Spd +5, Wt 4"
+      },
+      {
+        "unit": "Guzran",
+        "item": "Wooden Sword +9",
+        "ch": "Part III",
+        "ore": "soulstone",
+        "why": "Mt 20, Spd +5, Wt 2"
+      },
+      {
+        "unit": "Mu",
+        "item": "Wooden Gauntlets +9",
+        "ch": "Part III",
+        "ore": "soulstone",
+        "why": "Mt 20, Avo +15, Spd +5, Wt 1"
+      },
+      {
+        "unit": "Catania",
+        "item": "Wooden Spear +9",
+        "ch": "Part III",
+        "ore": "soulstone",
+        "why": "Mt 20, Spd +5, Wt 5"
+      },
+      {
+        "unit": "Ludia",
+        "item": "Wooden Sword +9",
+        "ch": "Part III",
+        "ore": "soulstone",
+        "why": "Mt 20, Spd +5; also [[item:Cleansing Blade]] +3 (Mt 20)"
+      },
+      {
+        "unit": "Halvin",
+        "item": "Wooden Bow +9",
+        "ch": "Part III",
+        "ore": "soulstone",
+        "why": "Mt 19, Spd +5, Wt 4"
+      },
+      {
+        "unit": "Inyoni",
+        "item": "Da Mina Bow +3",
+        "ch": "Part III",
+        "ore": "soulstone",
+        "why": "Hit and Crit +10 on arts"
+      },
+      {
+        "unit": "Dadao",
+        "item": "Iron Axe +5",
+        "ch": "Part III",
+        "ore": "soulstone",
+        "why": "Mt 24, Dex +6; also [[item:Cleansing Blade]] +3"
+      },
+      {
+        "unit": "Esmeralda",
+        "item": "Iron Axe +5",
+        "ch": "Part III",
+        "ore": "soulstone",
+        "why": "Mt 24, Dex +6"
+      },
+      {
+        "unit": "Buccar",
+        "item": "Bronze Axe +5",
+        "ch": "Part III",
+        "ore": "soulstone",
+        "why": "Mt 25, Def +3"
+      },
+      {
+        "unit": "Jasmine",
+        "item": "Bronze Axe +5",
+        "ch": "Part III",
+        "ore": "soulstone",
+        "why": "Mt 25, Def +3"
+      },
+      {
+        "unit": "Sha Lan",
+        "item": "Bronze Spear +5",
+        "ch": "Part III",
+        "ore": "soulstone",
+        "why": "Def +3"
+      }
+    ],
+    "barters": [
+      {
+        "item": "Iron Shield",
+        "for": "Buccar (Esmeralda's from Ch 7)",
+        "ch": 5,
+        "at": "Dagsion"
+      },
+      {
+        "item": "Flyssa",
+        "for": "Guzran",
+        "ch": 5,
+        "at": "Dagsion",
+        "note": "or buy one in Zoste"
+      },
+      {
+        "item": "Phantom Ring",
+        "for": "Catania",
+        "ch": 6,
+        "at": "Dagsion"
+      },
+      {
+        "item": "Hammer",
+        "for": "Dadao (Esmeralda's from Ch 9)",
+        "ch": 6,
+        "at": "Dagsion"
+      },
+      {
+        "item": "Gale Ring",
+        "for": "Mu",
+        "ch": 7,
+        "at": "Alecto"
+      },
+      {
+        "item": "Giant's Ring",
+        "for": "Dadao (Esmeralda's from Ch 9)",
+        "ch": 7,
+        "at": "Alecto"
+      },
+      {
+        "item": "Healing Staff",
+        "for": "Catania",
+        "ch": 7,
+        "at": "Dagsion"
+      },
+      {
+        "item": "Longbow",
+        "for": "Inyoni",
+        "ch": 8,
+        "at": "Dagsion"
+      },
+      {
+        "item": "Hexlock Shield",
+        "for": "Esmeralda",
+        "ch": 9,
+        "at": "Dagsion"
+      },
+      {
+        "item": "Archer's Ring",
+        "for": "Buccar",
+        "ch": 9,
+        "at": "Dagsion"
+      },
+      {
+        "item": "Short Axe",
+        "for": "Dadao",
+        "ch": 9,
+        "at": "Dagsion"
+      },
+      {
+        "item": "Giant's Ring",
+        "for": "Dadao (second copy)",
+        "ch": 9,
+        "at": "Alecto"
+      },
+      {
+        "item": "Levin Sword",
+        "for": "Sirocco (optional: Ch 9 map only)",
+        "ch": 9,
+        "at": "Dagsion"
+      },
+      {
+        "item": "Talisman Shield",
+        "for": "Catania",
+        "ch": 10,
+        "at": "Dagsion"
+      },
+      {
+        "item": "Victory Gem",
+        "for": "Jasmine",
+        "ch": 10,
+        "at": "Gaura Grassland"
+      },
+      {
+        "item": "Hammer",
+        "for": "Dadao (only if Nemea Cavern is skipped)",
+        "ch": 10,
+        "at": "Dagsion"
+      },
+      {
+        "item": "Cleansing Blade",
+        "for": "Ludia",
+        "ch": 11,
+        "at": "Dagsion"
+      },
+      {
+        "item": "Healing Staff",
+        "for": "Fianna",
+        "ch": 11,
+        "at": "Dagsion"
+      },
+      {
+        "item": "Longbow",
+        "for": "Halvin",
+        "ch": 11,
+        "at": "Dagsion"
+      },
+      {
+        "item": "Archer's Ring",
+        "for": "Halvin",
+        "ch": 11,
+        "at": "Dagsion"
+      }
+    ],
+    "carried": [
+      {
+        "unit": "Inyoni",
+        "item": "War Bow",
+        "when": "Recruited Ch 9 at about Lv 15 (one player test); the Da Mina Bow +2 replaces it at Bow C (late Ch 9)"
+      },
+      {
+        "unit": "Io",
+        "item": "Levin Sword",
+        "when": "Recruited on 9/28 (filler); goes to Sirocco"
+      },
+      {
+        "unit": "Sha Lan",
+        "item": "Salamander",
+        "when": "Any time; goes to Mu"
+      },
+      {
+        "unit": "Noctula",
+        "item": "Ursa's Right Claw",
+        "when": "Ch 10+, as a Lv 20+ Pugilist (filler)"
+      },
+      {
+        "unit": "Nuzzuo",
+        "item": "Levin Sword",
+        "when": "Ch 10+ recruit (filler)"
+      },
+      {
+        "unit": "Jester",
+        "item": "Levin Sword",
+        "when": "Ch 10+ recruit (filler)"
+      },
+      {
+        "unit": "Seteth",
+        "item": "Spear of Assal",
+        "when": "Any time (filler)"
+      },
+      {
+        "unit": "Nezha",
+        "item": "Salamander",
+        "when": "Not here: he joins past Lv 20 at Renown 9"
+      }
+    ]
+  }
+}

@@ -1,0 +1,1019 @@
+{
+  "name": "Seteth",
+  "slug": "seteth",
+  "epithet": "Child of the Goddess (Earth Dragon)",
+  "faction": "Linaria Dewdrops",
+  "homeRoute": "Cai",
+  "weapons": [
+    "Axe",
+    "Spear"
+  ],
+  "preferred": [
+    "Authority",
+    "Axe",
+    "Spear"
+  ],
+  "story": "A Nabatean Child of the Goddess (Earth Dragon) more than 1,000 years old, bearing the Crest of Cichol. Continuity with his Three Houses appearance is unconfirmed, though the shared voice cast suggests a returning character. He is not recruitable on Dietrich's route and needs Renown 10+ on Leda's.",
+  "personalSkill": {
+    "name": "Ready for Battle",
+    "effect": "For the first combat in enemy phase, unit attacks first. Trigger % = 50. Crest of Cichol (Diadem of Balance): unit cannot be countered, 3% trigger; Lv 20 gives Atk+4 on Diadem trigger, Lv 35 Atk+7."
+  },
+  "growths": {
+    "HP": 45,
+    "Str": 45,
+    "Mag": 30,
+    "Spd": 40,
+    "Dex": 45,
+    "Def": 40,
+    "Res": 35,
+    "Lck": 30,
+    "Cha": 50
+  },
+  "supports": [
+    "Dadao",
+    "Dante",
+    "Diego",
+    "Dietrich",
+    "Loretta",
+    "Ludia",
+    "Sofia",
+    "Tialla"
+  ],
+  "tiers": [
+    {
+      "source": "KeenGamer",
+      "tier": "B"
+    },
+    {
+      "source": "Pocket Tactics",
+      "tier": "B"
+    }
+  ],
+  "tierNotes": "KeenGamer: B tier (frontline, conditional enemy-phase first strike). Pocket Tactics: B tier.",
+  "recruit": {
+    "how": "recruit",
+    "support": 3,
+    "renown": 6,
+    "extra": "Short quest",
+    "why": [
+      "Support 3 and Renown 6 tie with Theodora. Neither lord has a support with Seteth, so roster balance decided it."
+    ],
+    "tip": "One short quest."
+  },
+  "requirements": {
+    "Cai": "3S 6R",
+    "Dietrich": "—",
+    "Theodora": "3S 6R",
+    "Leda": "3S 10R"
+  },
+  "build": {
+    "role": "Flier and enemy-phase spear tank",
+    "path": [
+      "Ornius Rider",
+      "Armored Ornius Rider",
+      "Dragoon",
+      "Guardian (Part II detour: Brace)",
+      "Dragoon",
+      "Bau Lord"
+    ],
+    "part1Target": "Dragoon (Ch 11 or 12)",
+    "part3Target": "Bau Lord",
+    "notes": "Ornius Rider on a Meganius when he joins, Armored Ornius Rider at Lv 20 (Def 65 growth) for Sense Threat, Dragoon at Lv 35 in Ch 11 or 12 (unlocked by Aurora's Renown 8 mentorship, usually Ch 10). He joins late Ch 7 (Renown 6) at about Lv 15, so Lv 35 lands late in Part I. Part II Ch 3: Guardian for Brace, which pays off on the enemy-phase kills Ready for Battle sets up. Bau Lord in Part III.",
+    "confidence": "medium"
+  },
+  "guide": {
+    "role": "Flier and enemy-phase spear tank",
+    "summary": "Ready for Battle makes him strike first in his first enemy-phase combat half the time, mounted or not. Pass Judgment (Lv 20) and Pass Judgment+ (Lv 35) add Atk +4 / +7 when his Diadem of Balance fires (3%, no counter): too rare to plan on, so the build stays Atk-first with one shield and one light item. Armored Ornius Rider on a Meganius grows Def 65 on him, and Dragoon (Ch 11 or 12) makes him your first flier.",
+    "playstyle": "Hold chokepoints and let foes come; once flying, cross terrain to reach casters. When the danger line shows archers can one-shot him, dismount (mounting is free).",
+    "focus": [
+      "Def",
+      "Str",
+      "HP"
+    ],
+    "keys": [
+      "Train Flying every week from the week he joins (late Ch 7): Dragoon needs Flying C and it isn't his preferred rank.",
+      "Master Sense Threat in Armored Ornius Rider before Dragoon; it covers bows once he flies.",
+      "Do Aurora's Special Request from Mom at Renown 8 (usually Ch 10) for the Dragoon unlock. His exam is Ch 11 or 12, once he is Lv 35 with Flying C, Axe B and Spear B.",
+      "Kit: one shield (Silver Shield) plus the Gale Ring, nothing else: 6 extra weight. On archer maps, Bowbreak Amulet in the accessory slot and the shield off. No mask.",
+      "Feed him a Flying Manual.",
+      "Part II Ch 3: a Guardian stint for Brace on the ground map, back to Dragoon for Ch 4."
+    ],
+    "watch": [
+      "Archers on Hard can one-shot a Dragoon: Sense Threat (Avo +20 vs bows) is mandatory once he flies.",
+      "Dragoon rides a Bau, so his Ornius stays behind.",
+      "Weight: Silver Spear 6 + Silver Shield 4 + Gale Ring 2 = 12, extra 6 (enemy-phase cap); Javelin in hand 14. Archer maps: Bowbreak Amulet 4 for the ring, shield off. Doubled? Shield off first.",
+      "Inventory: 5 core (Da Mina Spear, Ji, Silver Shield, Gale Ring, Elixir), 1 open: Shielding Axe on safe maps or Bowbreak Amulet on archer maps. End of Ch 12: pack the Bowbreak Amulet, not the axe, for Part II."
+    ],
+    "stages": [
+      {
+        "when": "Join (late Ch 7), Beginner",
+        "from": {
+          "part": 1,
+          "ch": 7,
+          "at": "late",
+          "approx": true
+        },
+        "level": "Lv 15 to 20",
+        "class": "Ornius Rider",
+        "kind": "core",
+        "mount": "Meganius",
+        "goal": "Ready for Battle: 50% to strike first in his first enemy-phase combat; end turns with the spear in hand.",
+        "exit": "Leave at Lv 20 once the Armored Ornius Rider exam shows 75% (Rider D, Axe C, Spear C).",
+        "masteries": [
+          "Offense Basics"
+        ],
+        "training": [
+          {
+            "rank": "Rider D, Axe C, Spear C",
+            "for": "Armored Ornius Rider exam",
+            "how": "Arena Mounted Training (Spear, Authority, Rider, Flying); Arena Heavy Training (Spear, Authority, Axe, Heavy)"
+          },
+          {
+            "rank": "Flying",
+            "for": "Dragoon (needs C)",
+            "how": "Arena Mounted Training (Spear, Authority, Rider, Flying) every week"
+          }
+        ],
+        "tips": [
+          "Joins late Ch 7 at about Lv 15 in his Beginner class",
+          "Meganius lives at Sparrow's Thoroughfare and Mount Ouranos; reports put his recruit errand at Mount Ouranos (Game8)"
+        ],
+        "weapons": [
+          {
+            "item": "Iron Spear",
+            "why": "Main damage"
+          },
+          {
+            "item": "Iron Axe",
+            "why": "Axe rank"
+          }
+        ],
+        "arts": [
+          {
+            "name": "Tempest Spear",
+            "why": "Spear D: +4 Mt, +10 Hit"
+          },
+          {
+            "name": "Spike",
+            "why": "Axe D: same on an axe"
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Offense Basics",
+            "why": "Ornius Rider mastery: Str/Mag +1 (once mastered)"
+          },
+          {
+            "name": "Pass Judgment",
+            "why": "Personal Lv 20 ability: When Diadem of Balance triggers, grants Atk+4 (from Lv 20)"
+          },
+          {
+            "name": "Spears Lv. 1",
+            "why": "Spear D+ rank ability: spear Hit +3 (once Spear D+)"
+          }
+        ],
+        "equipment": [],
+        "drop": [
+          {
+            "item": "Assal",
+            "why": "Comes with him when recruited (Mt 7, Wt 8, cavalry-effective): weaker and heavier than the Iron Spear, and Sacred Strike's effect is ?. Storage"
+          },
+          {
+            "item": "Wooden Spear",
+            "why": "No slot: refine it only if gold is spare"
+          }
+        ],
+        "items": [
+          {
+            "item": "Concoction",
+            "why": "40 HP x2: enemy-phase tank",
+            "alts": [
+              "Vulnerary"
+            ]
+          }
+        ],
+        "to": {
+          "part": 1,
+          "ch": 7
+        },
+        "why": [
+          "Arts don't fire on enemy phase",
+          "Rider D, Axe C, Spear C for Armored Ornius Rider; start Flying"
+        ]
+      },
+      {
+        "when": "Ch 8 to 11 or 12 (Specialty)",
+        "from": {
+          "part": 1,
+          "ch": 8
+        },
+        "to": {
+          "part": 1,
+          "ch": 11
+        },
+        "level": "Lv 20 to 35",
+        "class": "Armored Ornius Rider",
+        "kind": "core",
+        "mount": "Meganius",
+        "goal": "Master Sense Threat; hold the Da Mina Spear (Ji at Spear B) for enemy phase at 6 extra weight.",
+        "exit": "Leave at Lv 35 with Flying C, Axe B, Spear B and Aurora's request; else Part II Ch 1",
+        "masteries": [
+          "Sense Threat"
+        ],
+        "training": [
+          {
+            "rank": "Flying C",
+            "for": "Dragoon exam (Ch 11 or 12)",
+            "how": "Arena Mounted Training (Spear, Authority, Rider, Flying); Flying Manual (Dione Fort, Castalia, Lv 18; Cindered Road Cave, Solidus, Lv 22; Legacy of a Legendary Sculptor)"
+          },
+          {
+            "rank": "Axe B, Spear B",
+            "for": "Dragoon exam (Ch 11 or 12)",
+            "how": "Arena Heavy Training (Spear, Authority, Axe, Heavy)"
+          }
+        ],
+        "tips": [
+          "Armored Ornius Rider(Meganius) on Seteth: Str 55, Def 65; Red Meganius gives Str 65, Def 55 if you prefer offense",
+          "End of Ch 12: keep Ji (or Silver Spear), Silver Shield and Gale Ring equipped; that is his Part II Dragoon kit"
+        ],
+        "weapons": [
+          {
+            "item": "Da Mina Spear",
+            "why": "A tier: Mt 13 at Spear C, Hit +10 on arts; his enemy-phase spear until Spear B",
+            "plan": "Ch 7, after The Artisans of Megaira"
+          },
+          {
+            "item": "Ji",
+            "why": "A tier: armor and cavalry; once Spear B"
+          },
+          {
+            "item": "Shielding Axe",
+            "why": "Axe B training on safe maps only: Wt 12 costs 5 more Speed than the spear",
+            "situational": "Safe maps for Axe B (Dragoon exam): open slot"
+          }
+        ],
+        "equipment": [
+          {
+            "item": "Silver Shield",
+            "why": "Def +5, Wt 4: the one Part I copy goes to your enemy-phase tank (Diversionary Tactics, 9/2 to 9/8)",
+            "slot": "Defense",
+            "alts": [
+              "Iron Shield",
+              "Bronze Shield"
+            ],
+            "plan": "Leda, Temple Row, 9/2 to 9/8; the one Part I copy"
+          },
+          {
+            "item": "Gale Ring",
+            "why": "Spd +3?, Wt 2: keeps him from being doubled. No Gale Ring yet: leave the slot empty",
+            "slot": "Accessory",
+            "plan": "First barter; Peppe gets the second"
+          },
+          {
+            "item": "Bowbreak Amulet",
+            "why": "Hit/Avo +15 vs bows, Wt 4",
+            "slot": "Accessory",
+            "situational": "Archer maps: replaces the Gale Ring, shield off"
+          }
+        ],
+        "arts": [
+          {
+            "name": "Protective Storm",
+            "why": "Spear B: Prt +7"
+          },
+          {
+            "name": "Protective Spear",
+            "why": "Spear C: Ddg +20"
+          },
+          {
+            "name": "Spear Buster",
+            "why": "Axe C: Atk +7 vs spears (only with the Shielding Axe packed)"
+          },
+          {
+            "name": "Tempest Spear",
+            "why": "Spear D: +4 Mt, +10 Hit"
+          },
+          {
+            "name": "Spike",
+            "why": "Axe D: same on an axe (only with the Shielding Axe packed)"
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Sense Threat",
+            "why": "Mastery goal: Avo +20 vs foes effective on him (once mastered)"
+          },
+          {
+            "name": "Pass Judgment+",
+            "why": "Personal Lv 35 ability: When Diadem of Balance triggers, grants Atk+7 (from Lv 35)"
+          },
+          {
+            "name": "Offense Basics",
+            "why": "Ornius Rider mastery: Str/Mag +1"
+          },
+          {
+            "name": "Spears Lv. 2",
+            "why": "Spear C+ rank ability: spear Hit +5 (once Spear C+)"
+          }
+        ],
+        "drop": [
+          {
+            "item": "Iron Spear",
+            "why": "Replaced by the Da Mina Spear"
+          },
+          {
+            "item": "Iron Axe",
+            "why": "Replaced by the Shielding Axe"
+          },
+          {
+            "item": "Iron Shield",
+            "why": "Replaced by the Silver Shield once Diversionary Tactics is cleared"
+          },
+          {
+            "item": "Wooden Spear",
+            "why": "No slot"
+          }
+        ],
+        "items": [
+          {
+            "item": "Elixir",
+            "why": "100 HP: enemy-phase tank; his Part II stock",
+            "alts": [
+              "Concoction"
+            ],
+            "plan": "After Ch 6"
+          }
+        ],
+        "why": [
+          "Pass Judgment (Lv 20): Atk +4 when Diadem of Balance fires (3%): too rare, so build raw Atk",
+          "Silver Shield 4 + Gale Ring 2 = 6 extra",
+          "Flying C, Axe B, Spear B for the Dragoon exam (Ch 11 or 12)"
+        ]
+      },
+      {
+        "when": "Ch 11 or 12 to Part II Ch 2 (Advanced)",
+        "from": {
+          "part": 1,
+          "ch": 11,
+          "approx": true
+        },
+        "to": {
+          "part": 2,
+          "ch": 2
+        },
+        "level": "Lv 35 to 40",
+        "class": "Dragoon",
+        "kind": "core",
+        "mount": "Wild Bau",
+        "goal": "Your first flier, in time for Part II Ch 2's Ranger chase; master Besieger.",
+        "exit": "Stay a flier through Part II Ch 2 (Ranger chase); Guardian stint in Part II Ch 3",
+        "masteries": [
+          "Besieger"
+        ],
+        "training": [
+          {
+            "rank": "Axe A, Spear A",
+            "for": "Bau Lord (Part III)",
+            "how": "Arena Heavy Training (Spear, Authority, Axe, Heavy)"
+          }
+        ],
+        "tips": [
+          "Exam in Ch 11 or 12 once Lv 35 and the ranks are in; missed it? Part II Ch 1, after Army Training",
+          "Ch 2: catch the southeast Ranger before he flees on Turn 4",
+          "Lead enemy phase at chokepoints with Ready for Battle",
+          "No free time in Part II: only equipped items come in, so equip them at the end of Ch 12",
+          "Wild Bau spots include Bau-Caller's Cape, which Cai's Ch 12 subquest Stolen Star Observations visits; whether you can catch one there in Part I is not documented",
+          "Dragoon(Wild Bau) on Seteth: Str 60, Dex 60, Def 50; without a Bau the base row is Str 50, Def 50"
+        ],
+        "weapons": [
+          {
+            "item": "Silver Spear",
+            "why": "Mt 20, Wt 6 at Spear B; Ji stays for armor; no known source",
+            "alts": [
+              "Da Mina Spear"
+            ]
+          },
+          {
+            "item": "Ji",
+            "why": "Armor and cavalry",
+            "plan": "Keep; refine"
+          }
+        ],
+        "equipment": [
+          {
+            "item": "Silver Shield",
+            "why": "Def +5, Wt 4: the one Part I copy goes to your enemy-phase tank",
+            "slot": "Defense",
+            "alts": [
+              "Iron Shield"
+            ],
+            "plan": "Leda, Temple Row, 9/2 to 9/8; the one Part I copy"
+          },
+          {
+            "item": "Gale Ring",
+            "why": "Spd +3?, Wt 2: keeps him from being doubled. No Gale Ring yet: leave the slot empty",
+            "slot": "Accessory",
+            "plan": "First barter; Peppe gets the second"
+          },
+          {
+            "item": "Bowbreak Amulet",
+            "why": "Hit/Avo +15 vs bows, Wt 4",
+            "slot": "Accessory",
+            "situational": "Archer maps (Ch 2 Rangers?): replaces the Gale Ring, shield off; carried in from Ch 12"
+          }
+        ],
+        "arts": [
+          {
+            "name": "Protective Storm",
+            "why": "Spear B: Prt +7"
+          },
+          {
+            "name": "Protective Spear",
+            "why": "Spear C: Ddg +20"
+          },
+          {
+            "name": "Tempest Spear",
+            "why": "Spear D: +4 Mt, +10 Hit"
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Besieger",
+            "why": "Dragoon mastery goal: Hit +20 vs foes on favorable terrain (once mastered)"
+          },
+          {
+            "name": "Pass Judgment+",
+            "why": "Personal Lv 35 ability: When Diadem of Balance triggers, grants Atk+7"
+          },
+          {
+            "name": "Sense Threat",
+            "why": "Avo +20 vs bows once he flies"
+          },
+          {
+            "name": "Offense Basics",
+            "why": "Ornius Rider mastery: Str/Mag +1"
+          },
+          {
+            "name": "Spears Lv. 2",
+            "why": "Spear C+ rank ability: spear Hit +5"
+          }
+        ],
+        "drop": [
+          {
+            "item": "Paired Run",
+            "why": "Bond is with his Ornius, which stays behind once he rides a Bau"
+          },
+          {
+            "item": "Charm Mask",
+            "why": "Wt 5 on a Spd 40 flier gets him doubled; it goes to Jasmine (armor) for Part II"
+          },
+          {
+            "item": "Ridersbane",
+            "why": "Ji covers cavalry; not in his Ch 12 kit"
+          },
+          {
+            "item": "Javelin",
+            "why": "Not in his Ch 12 kit"
+          },
+          {
+            "item": "Da Mina Spear",
+            "why": "Fallback for the Silver Spear only"
+          },
+          {
+            "item": "Shielding Axe",
+            "why": "No room in the Part II 6; Axe A for Bau Lord waits for Part III"
+          },
+          {
+            "item": "Spear Buster",
+            "why": "Axe art: no axe in the Part II kit"
+          },
+          {
+            "item": "Spike",
+            "why": "Axe art: no axe in the Part II kit"
+          }
+        ],
+        "items": [
+          {
+            "item": "Elixir",
+            "why": "100 HP: carried in from Ch 12",
+            "alts": [
+              "Concoction"
+            ],
+            "plan": "After Ch 6"
+          }
+        ],
+        "why": [
+          "Pass Judgment+ (Lv 35): Atk +7 when Diadem of Balance fires (3%)",
+          "Silver Spear (Mt 20) in hand; Silver Shield 4 + Gale Ring 2 = 6 extra, so he isn't doubled"
+        ]
+      },
+      {
+        "when": "Part II Ch 3",
+        "from": {
+          "part": 2,
+          "ch": 3
+        },
+        "level": "Lv 40 to 41",
+        "class": "Guardian",
+        "kind": "detour",
+        "mount": "None (the Bau waits)",
+        "goal": "Mastery: Brace (Prt +3 after a kill, until his next phase) fires on the enemy-phase kills Ready for Battle sets up; Pass Judgment+ adds Atk +7 when Diadem of Balance fires. Guardian also trains Spear +3 toward Bau Lord's Spear A and grows Res 50 (Dragoon 45). Ch 3 is a ground chokepoint map, so not flying costs little.",
+        "exit": "Leave once Brace is mastered. If it isn't done after Ch 3, keep him Guardian in Ch 4 while Nydine flies.",
+        "masteries": [
+          "Brace"
+        ],
+        "tips": [
+          "Guardian on Seteth: HP 55, Str 55, Def 50, Res 50",
+          "Ready for Battle works on foot",
+          "Hold the Ch 3 alley chokepoints beside Jasmine"
+        ],
+        "weapons": [
+          {
+            "item": "Silver Spear",
+            "why": "Mt 20, Wt 6 at Spear B; Ji stays for armor; no known source",
+            "alts": [
+              "Da Mina Spear"
+            ]
+          },
+          {
+            "item": "Ji",
+            "why": "Armor and cavalry"
+          }
+        ],
+        "equipment": [
+          {
+            "item": "Silver Shield",
+            "why": "Def +5, Wt 4: the one Part I copy goes to your enemy-phase tank",
+            "slot": "Defense",
+            "alts": [
+              "Iron Shield"
+            ],
+            "plan": "Leda, Temple Row, 9/2 to 9/8; the one Part I copy"
+          },
+          {
+            "item": "Gale Ring",
+            "why": "Spd +3?, Wt 2: keeps him from being doubled. No Gale Ring yet: leave the slot empty",
+            "slot": "Accessory",
+            "plan": "First barter; Peppe gets the second"
+          },
+          {
+            "item": "Bowbreak Amulet",
+            "why": "Hit/Avo +15 vs bows, Wt 4",
+            "slot": "Accessory",
+            "situational": "Archer maps (Ch 2 Rangers?): replaces the Gale Ring, shield off; carried in from Ch 12"
+          }
+        ],
+        "arts": [
+          {
+            "name": "Protective Storm",
+            "why": "Spear B: Prt +7"
+          },
+          {
+            "name": "Protective Spear",
+            "why": "Spear C: Ddg +20"
+          },
+          {
+            "name": "Tempest Spear",
+            "why": "Spear D: +4 Mt, +10 Hit"
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Brace",
+            "why": "Guardian mastery goal: Prt +3 after a kill (once mastered)"
+          },
+          {
+            "name": "Pass Judgment+",
+            "why": "Personal Lv 35 ability: When Diadem of Balance triggers, grants Atk+7"
+          },
+          {
+            "name": "Besieger",
+            "why": "Dragoon mastery: Hit +20 vs foes on favorable terrain"
+          },
+          {
+            "name": "Offense Basics",
+            "why": "Ornius Rider mastery: Str/Mag +1"
+          },
+          {
+            "name": "Spears Lv. 2",
+            "why": "Spear C+ rank ability: spear Hit +5"
+          }
+        ],
+        "drop": [
+          {
+            "item": "Spear Buster",
+            "why": "Axe art; Guardian has no axes"
+          },
+          {
+            "item": "Spike",
+            "why": "Axe art; Guardian has no axes"
+          },
+          {
+            "item": "Shielding Axe",
+            "why": "No room in the Part II 6; Axe A for Bau Lord waits for Part III"
+          }
+        ],
+        "items": [
+          {
+            "item": "Elixir",
+            "why": "100 HP: carried in from Ch 12",
+            "alts": [
+              "Concoction"
+            ],
+            "plan": "After Ch 6"
+          }
+        ]
+      },
+      {
+        "when": "Part II Ch 4 to 6",
+        "from": {
+          "part": 2,
+          "ch": 4
+        },
+        "to": {
+          "part": 3,
+          "ch": 3
+        },
+        "level": "Lv 41 to 42",
+        "class": "Dragoon",
+        "kind": "core",
+        "mount": "Wild Bau",
+        "goal": "Back in the air with Brace for enemy-phase kills; same 6-weight kit (Silver Shield, Gale Ring).",
+        "exit": "Stays to the end of Part II.",
+        "tips": [
+          "Ch 4: fly out to the side reinforcements; dismount when the danger line shows archers can one-shot him"
+        ],
+        "weapons": [
+          {
+            "item": "Silver Spear",
+            "why": "Mt 20, Wt 6 at Spear B; Ji stays for armor; no known source",
+            "alts": [
+              "Da Mina Spear"
+            ]
+          },
+          {
+            "item": "Ji",
+            "why": "Armor and cavalry",
+            "plan": "Keep; refine"
+          }
+        ],
+        "equipment": [
+          {
+            "item": "Silver Shield",
+            "why": "Def +5, Wt 4: the one Part I copy goes to your enemy-phase tank",
+            "slot": "Defense",
+            "alts": [
+              "Iron Shield"
+            ],
+            "plan": "Leda, Temple Row, 9/2 to 9/8; the one Part I copy"
+          },
+          {
+            "item": "Gale Ring",
+            "why": "Spd +3?, Wt 2: keeps him from being doubled. No Gale Ring yet: leave the slot empty",
+            "slot": "Accessory",
+            "plan": "First barter; Peppe gets the second"
+          },
+          {
+            "item": "Bowbreak Amulet",
+            "why": "Hit/Avo +15 vs bows, Wt 4",
+            "slot": "Accessory",
+            "situational": "Archer maps (Ch 2 Rangers?): replaces the Gale Ring, shield off; carried in from Ch 12"
+          }
+        ],
+        "arts": [
+          {
+            "name": "Protective Storm",
+            "why": "Spear B: Prt +7"
+          },
+          {
+            "name": "Protective Spear",
+            "why": "Spear C: Ddg +20"
+          },
+          {
+            "name": "Tempest Spear",
+            "why": "Spear D: +4 Mt, +10 Hit"
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Pass Judgment+",
+            "why": "Personal Lv 35 ability: When Diadem of Balance triggers, grants Atk+7"
+          },
+          {
+            "name": "Brace",
+            "why": "Guardian mastery: Prt +3 after a kill"
+          },
+          {
+            "name": "Sense Threat",
+            "why": "Avo +20 vs bows"
+          },
+          {
+            "name": "Besieger",
+            "why": "Dragoon mastery: Hit +20 vs foes on favorable terrain"
+          },
+          {
+            "name": "Offense Basics",
+            "why": "Ornius Rider mastery: Str/Mag +1"
+          }
+        ],
+        "drop": [
+          {
+            "item": "Spear Buster",
+            "why": "Axe art: no axe in the Part II kit"
+          },
+          {
+            "item": "Spike",
+            "why": "Axe art: no axe in the Part II kit"
+          }
+        ],
+        "items": [
+          {
+            "item": "Elixir",
+            "why": "100 HP: carried in from Ch 12",
+            "alts": [
+              "Concoction"
+            ],
+            "plan": "After Ch 6"
+          }
+        ]
+      },
+      {
+        "when": "Part III Section 4+ (Bau Lord)",
+        "from": {
+          "part": 3,
+          "ch": 4
+        },
+        "level": "Lv 45+",
+        "class": "Bau Lord",
+        "kind": "core",
+        "mount": "Black Bau (Warrior's Road, after Baozi; Paired Resilience, Canto); Wild Bau until bond 3",
+        "goal": "Enemy-phase flier wall: Ready for Battle strikes first 50%, Brace Prt +3, Black Bau halves effective hits.",
+        "exit": "Final class.",
+        "masteries": [
+          "Ambush"
+        ],
+        "weapons": [
+          {
+            "item": "Silver Spear +2",
+            "why": "Main: Mt 23, Hit 85, Wt 6: enemy-phase Atk for Pass Judgment+",
+            "plan": "Boon or Reliquary buy",
+            "alts": [
+              "Iron Spear +4",
+              "Da Mina Spear +2"
+            ]
+          },
+          {
+            "item": "Javelin +3",
+            "why": "Range 1-2: Mt 15, Wt 8; counters bows and mages at 2",
+            "plan": "Soulstone queue",
+            "alts": [
+              "Javelin +2"
+            ]
+          },
+          {
+            "item": "Cleansing Blade +2",
+            "why": "Boon answer: Sword E, Mt 16?, Wt 3",
+            "plan": "Second copy"
+          },
+          {
+            "item": "Ji +2",
+            "why": "Effective vs armor and cavalry; Windweave",
+            "situational": "Armor or cavalry maps: replaces the Javelin"
+          }
+        ],
+        "equipment": [
+          {
+            "item": "Silver Shield",
+            "why": "Def +5, Wt 4: takes the enemy-phase hits",
+            "slot": "Defense",
+            "alts": [
+              "Iron Shield",
+              "Talisman Shield"
+            ]
+          },
+          {
+            "item": "Gale Ring",
+            "why": "Spd +3, Wt 2: keeps him from being doubled",
+            "slot": "Accessory",
+            "plan": "Boon or Reliquary buy",
+            "alts": [
+              "Phantom Ring",
+              "Bird-Plume Amulet"
+            ]
+          },
+          {
+            "item": "Bowbreak Amulet",
+            "why": "Hit/Avo +15 vs bows, Wt 4",
+            "slot": "Accessory",
+            "alts": [
+              "Phantom Ring"
+            ],
+            "situational": "Archer maps: replaces the Gale Ring"
+          }
+        ],
+        "arts": [
+          {
+            "name": "Protective Storm",
+            "why": "Spear B: Prt +7"
+          },
+          {
+            "name": "Protective Spear",
+            "why": "Spear C: Ddg +20"
+          },
+          {
+            "name": "Tempest Spear",
+            "why": "Spear D: +4 Mt, +10 Hit"
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Pass Judgment+",
+            "why": "Lv 35: Atk +7 when Diadem of Balance triggers"
+          },
+          {
+            "name": "Brace",
+            "why": "Guardian mastery: Prt +3 after a kill, until his next phase"
+          },
+          {
+            "name": "Ambush",
+            "why": "Bau Lord mastery: Atk +4 on inaccessible terrain (once mastered)"
+          },
+          {
+            "name": "Sense Threat",
+            "why": "Avo +20 vs foes effective on him"
+          },
+          {
+            "name": "Spears Lv. 4",
+            "why": "Spear A+: Hit/Avo +7 with spears; Lv. 3 until then"
+          }
+        ],
+        "drop": [
+          {
+            "item": "Silver Spear",
+            "why": "Replaced by the Silver Spear +2"
+          },
+          {
+            "item": "Ji",
+            "why": "Replaced by the Ji +2"
+          },
+          {
+            "item": "Besieger",
+            "why": "Spears Lv. 4: Hit/Avo +7 in every fight"
+          },
+          {
+            "item": "Ridersbane",
+            "why": "Silver Spear is cavalry-effective; Ji +2 on cavalry maps"
+          },
+          {
+            "item": "Da Mina Spear",
+            "why": "No slot"
+          },
+          {
+            "item": "Shielding Axe",
+            "why": "Prt +6 only when the foe attacks first; Ready for Battle flips that"
+          },
+          {
+            "item": "Spear Buster",
+            "why": "Axe art: no axe in the 6"
+          },
+          {
+            "item": "Spike",
+            "why": "Axe art: no axe in the 6"
+          }
+        ],
+        "items": [
+          {
+            "item": "Elixir",
+            "why": "100 HP: tank and boss turns",
+            "alts": [
+              "Concoction"
+            ],
+            "plan": "After Ch 6"
+          }
+        ],
+        "tips": [
+          "Black Bau's Paired Resilience halves effective damage: bows stop deleting him",
+          "Hold the line ahead of Tialla and Lilian: Ready for Battle kills on enemy phase",
+          "Cohen: Jurah Lv 1 stops 3x bow hits on him, Alexandra and Lysander",
+          "Squad: Tialla's Lend Defense (Def +2, range 2) on the turn he holds a choke"
+        ]
+      }
+    ],
+    "alt": "Stay Armored Ornius Rider through Part II if Flying C lags; Nydine then becomes your only flier. Great Counter and Focused Counter were skipped: they need the foe to attack first, which Ready for Battle prevents half the time.",
+    "sources": [
+      "class-and-weapon-guide",
+      "growth.py",
+      "class-data",
+      "class-tier-research",
+      "character-learnsets",
+      "combat-arts-and-abilities",
+      "weapons-and-items",
+      "mounts.json",
+      "part2-war",
+      "PATHS-BRIEF",
+      "walkthrough-part1-cai",
+      "part3-salvation"
+    ],
+    "routeNotes": [
+      {
+        "system": "Stable & Luring",
+        "note": "Ride a Meganius from his join (late Ch 7): Armored Ornius Rider grows Def 65 on it, Paired Run adds Mov, and Paired Bulk adds Bld (helps carry the Wt 7 Ji). Feed it weekly; bond 3 by Ch 10 at least."
+      },
+      {
+        "system": "Stable & Luring",
+        "note": "Dragoon rides a Bau. No Part I Bau catch is confirmed, so in Part II he likely runs Dragoon's base growths (Str 50, Dex 50; Wild Bau: Str 60, Dex 60). Try Bau-Caller's Cape on the Ch 12 Stolen Star Observations trip."
+      },
+      {
+        "system": "Mentoring",
+        "note": "Aurora's Special Request from Mom (Renown 8, Fortuna's Temple) unlocks Dragoon. Do it as soon as Renown 8 lands (usually Ch 10) so his Ch 11 or 12 exam isn't held up."
+      },
+      {
+        "system": "Kindness Quests",
+        "note": "His recruit needs Renown 6 and Support 3; Kindness Quests in Ch 6 and 7 carry the Renown (usually late Ch 7)."
+      }
+    ],
+    "decisions": [
+      {
+        "topic": "Stay Armored Ornius Rider until Dragoon",
+        "pick": "Armored Ornius Rider (Ch 8), Dragoon in Ch 11 or 12",
+        "why": "Sense Threat (Avo +20 when the foe is effective against him) carries over and covers bows once he flies. Ornius Rider and Armored Ornius Rider also train Flying."
+      },
+      {
+        "topic": "Hold the weight at 6 extra",
+        "pick": "Da Mina Spear, Iron Shield and Gale Ring, nothing else",
+        "why": "7 + 4 + 2 = 13 is the cap: a Charm Mask or amulet on top gets him doubled. Bowbreak Amulet only on archer maps, with the shield off."
+      },
+      {
+        "topic": "Take the Guardian stint in Part II Ch 3",
+        "pick": "Guardian on the ground map, back to Dragoon once Brace is mastered",
+        "why": "Brace for the rest of the game; Ch 3 doesn't need a flier."
+      }
+    ],
+    "gates": [
+      {
+        "route": "Cai",
+        "from": {
+          "part": 1,
+          "ch": 4
+        },
+        "kind": "recruit",
+        "text": "Support 3 by Renown 6 (late Ch 7): start meals in Ch 4, then his short quest",
+        "by": {
+          "part": 1,
+          "ch": 7
+        }
+      },
+      {
+        "route": "Cai",
+        "from": {
+          "part": 1,
+          "ch": 10
+        },
+        "kind": "item",
+        "text": "Dragoon needs Aurora's Special Request from Mom: do it the day Renown 8 lands",
+        "by": {
+          "part": 1,
+          "ch": 11
+        }
+      },
+      {
+        "route": "Cai",
+        "from": {
+          "part": 1,
+          "ch": 8
+        },
+        "kind": "rank",
+        "text": "Arena every week Ch 8 to 12: Flying C, Axe B, Spear B for Dragoon",
+        "by": {
+          "part": 1,
+          "ch": 12
+        }
+      }
+    ]
+  },
+  "sources": [
+    "https://fortunesweave.co.uk/characters/seteth",
+    "https://www.keengamer.com/articles/guides/fire-emblem-fortunes-weave-tier-list-best-characters-ranked-for-every-route/",
+    "https://www.pockettactics.com/fire-emblem-fortunes-weave/tier-list"
+  ],
+  "recruitOn": {
+    "Cai": {
+      "how": "recruit",
+      "support": 3,
+      "renown": 6,
+      "task": "Short quest"
+    },
+    "Theodora": {
+      "how": "recruit",
+      "support": 3,
+      "renown": 6,
+      "task": "short quest"
+    },
+    "Leda": {
+      "how": "recruit",
+      "support": 3,
+      "renown": 10,
+      "task": "short quest"
+    }
+  }
+}

@@ -1,0 +1,819 @@
+{
+  "name": "Loretta",
+  "slug": "loretta",
+  "epithet": "Credna Temple servant",
+  "faction": "Linaria Dewdrops",
+  "homeRoute": "Theodora",
+  "weapons": [
+    "Spear",
+    "Sword"
+  ],
+  "preferred": [
+    "Spear",
+    "Sword"
+  ],
+  "avoid": [
+    "Heavy"
+  ],
+  "personality": "Lively, stubborn and competitive, with a serious fear of ghosts.",
+  "story": "A former street orphan who stole to survive (and bears a scar from past punishment) before finding work at the Credna Temple in Dagsion. Ozin taught her self-defense, and she devotedly follows Orchel, calling them \"Priest.\" Recruiting her costs 3 Iron Swords on some routes.",
+  "personalSkill": {
+    "name": "Steadfast",
+    "effect": "If unit's HP >= 50%, grants Avo+10 during combat. Lv 20: Peak Form (Atk +3 at full HP); Lv 35: Peak Form+ (Atk +3, Avo +10 at full HP)."
+  },
+  "growths": {
+    "HP": 35,
+    "Str": 35,
+    "Mag": 35,
+    "Spd": 55,
+    "Dex": 40,
+    "Def": 30,
+    "Res": 40,
+    "Lck": 30,
+    "Cha": 30
+  },
+  "supports": [
+    "Goliath",
+    "Mikaela",
+    "Seteth",
+    "Sha Lan",
+    "Tobias",
+    "Ultand",
+    "Yang Jie"
+  ],
+  "tiers": [
+    {
+      "source": "KeenGamer",
+      "tier": "B"
+    },
+    {
+      "source": "Pocket Tactics",
+      "tier": "B"
+    }
+  ],
+  "tierNotes": "KeenGamer: B tier (speedster, 55% Spd, reliable evasion). Pocket Tactics: B tier.",
+  "recruit": {
+    "how": "recruit",
+    "support": 3,
+    "renown": 5,
+    "extra": "3× Iron Sword",
+    "why": [
+      "Core 11 strike-group dodger on Theodora's route (D-130): Steadfast and Peak Form+ stack Avo at full HP.",
+      "Supports Tobias and Ultand, both in this army."
+    ],
+    "tip": "Ready at Renown 5 (Ch 7) once Support 3 lands: recruit late Ch 7 or Ch 8 week 1 with 3 Iron Swords."
+  },
+  "requirements": {
+    "Cai": "3S 7R",
+    "Dietrich": "3S 9R",
+    "Theodora": "3S 5R",
+    "Leda": "3S 5R"
+  },
+  "build": {
+    "role": "Strike-group dodger (sword)",
+    "path": [
+      "Hunter (late Ch 7 or Ch 8 join, Lv 15)",
+      "Myrmidon (Lv 20, Ch 9)",
+      "Shido (Lv 35: Ch 12 or Part II Ch 1)",
+      "Sword Master (Part III S3)"
+    ],
+    "part1Target": "Myrmidon, Ravaging Arts mastered; Sword B",
+    "part3Target": "Sword Master (The Blade goes to Dietrich, D-143; she is the fallback holder)",
+    "notes": "Core 11 on Theodora's route (D-130). Recruit late Ch 7 or Ch 8 week 1 at about Lv 15; Hunter for Sword and Infantry, Myrmidon at Lv 20, Shido at Lv 35 (Ch 12 or Part II Ch 1), Sword Master in Section 3 as her endpoint; The Blade goes to Dietrich (D-143), she is the fallback holder. Kept at 100% HP for Peak Form+.",
+    "confidence": "medium"
+  },
+  "guide": {
+    "role": "Strike-group dodger (sword)",
+    "summary": "The strike group's dodger from Ch 8: she doubles with a light sword and stacks Avo +30 from Steadfast, Peak Form+, Swords Lv. 3 and her ring while her HP is full. Attack only from 100% HP, end beside Alexandra and Ultand, and let Sofia's range-3 Heal top her up.",
+    "playstyle": "Player phase: top her to 100%, double with the Da Mina Sword (Haze Slice on risky targets: Hit +10 on arts), then end beside Alexandra and Ultand. Enemy phase: Avo does the work; Sniper Evasion covers Onagers and Longbows at 3+ tiles.",
+    "focus": [
+      "Spd",
+      "Str",
+      "Def"
+    ],
+    "keys": [
+      "Recruit her late Ch 7 or 6/1: Support 3, Renown 5, 3 Iron Swords",
+      "Buy a 4th [[item:Iron Sword]] for her join; [[item:Da Mina Sword]] at Sword C (Ch 9): +1 then, +2 in Ch 12 (Mt 20)",
+      "Book Arena Infantry each week until Lv 20: Sword C and Infantry C",
+      "Attack only at 100% HP: [[ability:Peak Form+]] gives Atk +3 and Avo +10",
+      "End beside Alexandra (her Silver Maiden +5) and Ultand (Patch Up heals Loretta)",
+      "Take [[class:Sword Master]] in Section 3: her endpoint (Dietrich holds [[class:The Blade]], D-143)"
+    ],
+    "watch": [
+      "Weight: Iron or Da Mina Sword 4 + Phantom Ring 3 = 7; Flyssa 4 + ring = 7. Ring off first on offense maps. Part III S4: Da Mina Sword +2 4 + Gale Ring 2 = 6, Spd +3.",
+      "HP: Peak Form+ needs exactly 100%; one chip costs Atk +3 and Avo +10 until healed.",
+      "Def: 30 growth, Shido +0. Two hits put her under 50% and Steadfast's Avo +10 goes too.",
+      "Join level: about Lv 15 at Ch 8, ~10 under the core. Feed her kills to Lv 20.",
+      "Inventory: 3 core (Da Mina Sword, Phantom Ring, Concoction); Flyssa and Cleansing Blade swap in."
+    ],
+    "stages": [
+      {
+        "when": "Ch 7 late to Lv 20: Hunter",
+        "from": {
+          "part": 1,
+          "ch": 7,
+          "at": "late",
+          "approx": true
+        },
+        "to": {
+          "lv": 20
+        },
+        "why": [
+          "Recruit late Ch 7 or 6/1: Support 3, Renown 5, 3 Iron Swords",
+          "Joins about Lv 15 (class ?); Hunter trains Sword +1 and Infantry +1 toward Myrmidon"
+        ],
+        "level": "About Lv 15 on join to 20",
+        "class": "Hunter",
+        "kind": "core",
+        "mount": "None",
+        "goal": "Lv 20 with Sword C: Ch 8 map seat in the strike group, dungeon link kills. Steadfast: Avo +10 at 50%+ HP.",
+        "exit": "Lv 20 with Sword C: Myrmidon exam (Ch 9 week 1).",
+        "masteries": [
+          "Hunting Basics"
+        ],
+        "weapons": [
+          {
+            "item": "Iron Sword",
+            "why": "Main: Mt 9, Hit 90, Wt 4 at Sword D; trains Sword C",
+            "plan": "Buy a 4th with the recruit's 3; Da Mina Sword at Sword C (Ch 9)",
+            "alts": [
+              "Bronze Sword"
+            ]
+          }
+        ],
+        "equipment": [
+          {
+            "item": "Phantom Ring",
+            "why": "Avo +5, Wt 3: stacks with Steadfast's Avo +10",
+            "plan": "First Vandahl barter copy: Diego now joins Ch 12 with no build",
+            "slot": "Accessory",
+            "alts": [
+              "Verdant Gem",
+              "Swordbreak Amulet"
+            ]
+          }
+        ],
+        "items": [
+          {
+            "item": "Concoction",
+            "why": "40 HP x2: she joins about 10 levels under the core",
+            "alts": [
+              "Vulnerary"
+            ]
+          }
+        ],
+        "arts": [
+          {
+            "name": "Haze Slice",
+            "why": "Sword D: Mt +3, Avo +10 on her attack"
+          },
+          {
+            "name": "Chop",
+            "why": "Sword C: Mt +8, Hit −30: finisher on low-Avo foes"
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Swords Lv. 1",
+            "why": "Sword D+: Hit +3 with swords"
+          },
+          {
+            "name": "Evasion",
+            "why": "Infantry D: Avo +100 when attacked, 3%"
+          },
+          {
+            "name": "Hunting Basics",
+            "why": "Hunter mastery, once mastered: Spd/Dex +1"
+          },
+          {
+            "name": "Read the Winds",
+            "why": "Flying D: Avo +10 vs bows; works on foot"
+          },
+          {
+            "name": "Knightly Senses",
+            "why": "Riding D: Avo +10 vs spears; works on foot"
+          }
+        ],
+        "battalion": {
+          "name": "Hunter-Drifters",
+          "why": "Str +1, Spd +1, Dex +1, Cha +4: doubling stats on the dodger",
+          "where": "Recruit Soldiers roll, Ch 8 (Megaira, Alecto or Regia)",
+          "alts": [
+            "Novice Hunters"
+          ],
+          "situational": "Authority D ?; drops before the casters' and walls' (count ?)"
+        },
+        "training": [
+          {
+            "rank": "Bow D, Sword C, Infantry C",
+            "for": "Hunter exam (Bow D); Myrmidon (Sword C); Dodge",
+            "how": "Arena Infantry (Sword, Bow, Infantry) every week from her join"
+          },
+          {
+            "rank": "Flying D, Riding D, Authority D",
+            "for": "Read the Winds, Knightly Senses, battalion",
+            "how": "One Arena Mounted week (start ranks ?)"
+          }
+        ],
+        "tips": [
+          "Support 3 first: Ch 4+ meals in queue order Loretta, Nydine, Ultand, Ninae, Simon",
+          "Join class ?: Hunter on a Beginner License once Bow D shows; never Soldier (Heavy, Spd −5)",
+          "Ch 8 map: strike group beside Alexandra; Ultand or Ninae adjacent keeps her at 100%",
+          "Buy 4 Iron Swords before the recruit talk: 3 for her, 1 for her hand"
+        ]
+      },
+      {
+        "when": "Ch 9 to 12: Myrmidon",
+        "from": {
+          "part": 1,
+          "ch": 9
+        },
+        "to": {
+          "part": 1,
+          "ch": 12
+        },
+        "why": [
+          "Exam: Lv 20, Sword C, Specialty License (Renown 4 is long open)",
+          "Avo at 100% HP: Steadfast +10, Phantom Ring +5, Haze Slice +10 on her attacks"
+        ],
+        "level": "Lv 20 (Ch 9) to about 33? by Ch 12",
+        "class": "Myrmidon",
+        "kind": "core",
+        "mount": "None",
+        "goal": "Strike dodger: double with the Da Mina Sword +1. Peak Form (Lv 20): Atk +3, only at 100% HP.",
+        "exit": "Lv 35 with Sword B: Shido in Ch 12, else on the first Part II License at Lv 35.",
+        "masteries": [
+          "Ravaging Arts"
+        ],
+        "weapons": [
+          {
+            "item": "Da Mina Sword +1",
+            "why": "Main: Mt 15, Wt 4, Hit +10 on arts; Peak Form adds Atk +3",
+            "plan": "At Sword C, +1 (Renown 7); +2 at Renown 10, Ch 12 (Mt 20)",
+            "alts": [
+              "Iron Sword +1"
+            ]
+          },
+          {
+            "item": "Flyssa",
+            "why": "Effective vs armor: Mt 10, Wt 4",
+            "situational": "Armor maps: open slot"
+          }
+        ],
+        "equipment": [
+          {
+            "item": "Phantom Ring",
+            "why": "Avo +5, Wt 3: stacks with Steadfast's Avo +10",
+            "plan": "Equipped since her join",
+            "slot": "Accessory",
+            "alts": [
+              "Verdant Gem",
+              "Swordbreak Amulet"
+            ]
+          }
+        ],
+        "items": [
+          {
+            "item": "Concoction",
+            "why": "40 HP x2: back to 100% for Peak Form",
+            "alts": [
+              "Vulnerary"
+            ]
+          }
+        ],
+        "arts": [
+          {
+            "name": "Haze Slice",
+            "why": "Sword D: Mt +3, Avo +10 on her attack"
+          },
+          {
+            "name": "Chop",
+            "why": "Sword C: Mt +8, Hit −30: finisher on low-Avo foes"
+          },
+          {
+            "name": "Gale Blow",
+            "why": "Sword B: Mt +7, Atk +5 at Spd/2 %"
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Peak Form",
+            "why": "Lv 20: Atk +3 at 100% HP"
+          },
+          {
+            "name": "Swords Lv. 2",
+            "why": "Sword C+: Hit +5 with swords"
+          },
+          {
+            "name": "Dodge",
+            "why": "Infantry C: Avo +5 vs bows and magic"
+          },
+          {
+            "name": "Read the Winds",
+            "why": "Flying D: Avo +10 vs bows"
+          },
+          {
+            "name": "Hunting Basics",
+            "why": "Hunter mastery: Spd/Dex +1"
+          }
+        ],
+        "battalion": {
+          "name": "Hunter-Drifters",
+          "why": "Str +1, Spd +1, Dex +1, Cha +4: doubling stats on the dodger",
+          "where": "Held from Ch 8",
+          "alts": [
+            "Novice Hunters"
+          ],
+          "situational": "Authority D ?; drops before the casters' and walls' (count ?)"
+        },
+        "training": [
+          {
+            "rank": "Sword B, Infantry B",
+            "for": "Shido exam (Lv 35); Sniper Evasion",
+            "how": "Battle (Myrmidon Sword +2, Infantry +1); Arena Infantry alternate weeks"
+          }
+        ],
+        "checks": [
+          {
+            "stat": "Spd",
+            "at": "Lv 25 (Ch 10)",
+            "need": "Forecast shows x2 on most Ch 10 infantry with the Da Mina Sword +1 and ring on",
+            "why": "Two hits are her damage, and AS feeds her Avo",
+            "fix": [
+              "Take the [[item:Phantom Ring]] off on offense maps: Wt 3 back",
+              "[[item:Date Juice]]: AS +3 for the map (source ?)",
+              "Master [[ability:Hunting Basics]] first: Spd +1"
+            ]
+          },
+          {
+            "stat": "Def",
+            "at": "Ch 11 prep",
+            "need": "A Ch 11 foe's hit takes under a third of her HP in the forecast",
+            "why": "Two hits put her under 50%: Steadfast's Avo +10 goes",
+            "fix": [
+              "End beside Ultand: [[ability:Patch Up]] heals her after each fight",
+              "Sofia's Heal at range 3 tops her to 100% before she attacks",
+              "Spear maps: [[ability:Knightly Senses]] for Hunting Basics (Avo +10)"
+            ]
+          }
+        ],
+        "tips": [
+          "Ch 9: Myrmidon on a Specialty License the week she hits Lv 20",
+          "Ch 11 vs Cai: cavalry spears; swap Knightly Senses in for Hunting Basics",
+          "Ch 12 end: her 6 items are her Part II kit; pack the Flyssa",
+          "Ch 10 to 12 dungeons between maps: she is ~10 levels behind the core"
+        ],
+        "drop": [
+          {
+            "item": "Swords Lv. 1",
+            "why": "Swords Lv. 2 replaces it at Sword C+"
+          },
+          {
+            "item": "Evasion",
+            "why": "Dodge takes the slot at Infantry C: Avo +5 every time"
+          },
+          {
+            "item": "Knightly Senses",
+            "why": "Peak Form takes the slot"
+          }
+        ]
+      },
+      {
+        "when": "Part II to Part III S2: Shido",
+        "from": {
+          "part": 2,
+          "ch": 1,
+          "approx": true
+        },
+        "to": {
+          "part": 3,
+          "ch": 3
+        },
+        "why": [
+          "Exam: Lv 35, Sword B, Advanced License (Ch 12 if she gets there, else Part II Ch 1 or 2)",
+          "Underworld Boon (Part III S1 to S2): Cleansing Blade in hand on undead maps"
+        ],
+        "level": "Lv 33 floor, about 37 after Ch 1 drills, to 45",
+        "class": "Shido",
+        "kind": "core",
+        "mount": "None",
+        "goal": "Spd +15 growth, Spd +7 flat. Peak Form+ (Lv 35): Atk +3, Avo +10 at 100% HP; Sniper Evasion at 3+.",
+        "exit": "Lv 45 with Sword A: Sword Master once Mars's request clears (Section 3).",
+        "masteries": [
+          "Ever Vigilant"
+        ],
+        "weapons": [
+          {
+            "item": "Da Mina Sword +2",
+            "why": "Main: Mt 20, Wt 4, Hit +10 on arts: doubles",
+            "plan": "Equipped carry-over (refined in Ch 12)",
+            "alts": [
+              "Iron Sword +2"
+            ]
+          },
+          {
+            "item": "Flyssa",
+            "why": "Effective vs armor: Mt 10, Wt 4",
+            "plan": "Carried from Ch 12",
+            "situational": "Armor maps (Ch 5 Golems ?): open slot"
+          },
+          {
+            "item": "Cleansing Blade",
+            "why": "Sword E: strips the Underworld Boon; Wt 3",
+            "plan": "Part III copy: Zarcone's barter, free now he has no Part III stage",
+            "situational": "Part III S1 to S2 undead maps: Flyssa's slot"
+          }
+        ],
+        "equipment": [
+          {
+            "item": "Phantom Ring",
+            "why": "Avo +5, Wt 3: stacks with Steadfast's Avo +10",
+            "plan": "Equipped carry-over",
+            "slot": "Accessory",
+            "alts": [
+              "Verdant Gem",
+              "Swordbreak Amulet"
+            ]
+          }
+        ],
+        "items": [
+          {
+            "item": "Concoction",
+            "why": "40 HP x2: Part II hands out one per chapter"
+          },
+          {
+            "item": "Pure Water",
+            "why": "Res +10, −2 a turn",
+            "plan": "Carried from Ch 12",
+            "situational": "Ch 5 Fire Orb side: open slot"
+          }
+        ],
+        "arts": [
+          {
+            "name": "Haze Slice",
+            "why": "Sword D: Mt +3, Avo +10 on her attack"
+          },
+          {
+            "name": "Chop",
+            "why": "Sword C: Mt +8, Hit −30: finisher on low-Avo foes"
+          },
+          {
+            "name": "Gale Blow",
+            "why": "Sword B: Mt +7, Atk +5 at Spd/2 %"
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Peak Form+",
+            "why": "Lv 35: Atk +3, Avo +10 at 100% HP"
+          },
+          {
+            "name": "Swords Lv. 3",
+            "why": "Sword B+: Hit/Avo +5 with swords"
+          },
+          {
+            "name": "Sniper Evasion",
+            "why": "Infantry B: Avo +10 vs foes 3+ tiles away"
+          },
+          {
+            "name": "Dodge",
+            "why": "Infantry C: Avo +5 vs bows and magic"
+          },
+          {
+            "name": "Read the Winds",
+            "why": "Flying D: Avo +10 vs bows"
+          }
+        ],
+        "battalion": {
+          "name": "Hunter-Drifters",
+          "why": "Str +1, Spd +1, Dex +1, Cha +4: doubling stats on the dodger",
+          "where": "Held from Ch 8",
+          "alts": [
+            "Novice Hunters"
+          ],
+          "situational": "Part II carryover ?"
+        },
+        "training": [
+          {
+            "rank": "Sword A",
+            "for": "Sword Master (Lv 45, Section 3)",
+            "how": "Battle: Shido trains Sword +3"
+          }
+        ],
+        "tips": [
+          "Ch 1–2: Thickets and forests give Avo; east path with Alexandra, Onager archers first",
+          "Ch 4: kill the escorts around a charging elephant; bows take the Dragoons",
+          "Ch 5: Noctula baits the Onager; she strikes the stair base at full HP",
+          "Ch 6: hit Lyrah's adds, not the cocoon: it heals on every hit"
+        ],
+        "drop": [
+          {
+            "item": "Peak Form",
+            "why": "Peak Form+ replaces it at Lv 35"
+          },
+          {
+            "item": "Swords Lv. 2",
+            "why": "Swords Lv. 3 replaces it at Sword B+"
+          },
+          {
+            "item": "Hunting Basics",
+            "why": "Sniper Evasion takes the slot at Infantry B"
+          }
+        ]
+      },
+      {
+        "when": "Part III Section 4+ (Sword Master)",
+        "from": {
+          "part": 3,
+          "ch": 4
+        },
+        "why": [
+          "Exam: Lv 45, Sword A, Master License; Mars's request (Golden Helm) opens it",
+          "Drake (S5): Envy zeroes Avo vs higher-level foes, so she wins on AS, not Avo",
+          "Underworld Boon: Cleansing Blade +2 in hand; her sword arts still fire"
+        ],
+        "level": "Lv 45+ (Master License)",
+        "class": "Sword Master",
+        "kind": "core",
+        "mount": "None",
+        "goal": "Spd +20 growth, Sword Crit +7, Astra. Da Mina Sword +2 (Mt 20, Hit +10 on arts) and Gale Ring Spd +3.",
+        "exit": "Endpoint. The Blade goes to Dietrich (D-143); take it only if his Sword misses S",
+        "masteries": [
+          "Astra"
+        ],
+        "weapons": [
+          {
+            "item": "Da Mina Sword +2",
+            "why": "Main: Mt 20, Wt 4, Hit +10 on arts; held since Part II",
+            "plan": "Equipped carry-over (refined in Ch 12)",
+            "alts": [
+              "Iron Sword +4"
+            ]
+          },
+          {
+            "item": "Cleansing Blade +2",
+            "why": "Mt 16, Wt 3: strips the Underworld Boon",
+            "plan": "Her Part III copy, +2"
+          },
+          {
+            "item": "Flyssa",
+            "why": "Effective vs armor: Mt 10, Wt 4",
+            "situational": "Armor maps: open slot"
+          }
+        ],
+        "equipment": [
+          {
+            "item": "Gale Ring",
+            "why": "Spd +3, Wt 2: AS +4 over the Phantom Ring; Envy can't zero AS",
+            "slot": "Accessory",
+            "alts": [
+              "Phantom Ring",
+              "Swordbreak Amulet"
+            ]
+          }
+        ],
+        "items": [
+          {
+            "item": "Elixir",
+            "why": "100 HP: back to 100% for Peak Form+",
+            "alts": [
+              "Concoction"
+            ]
+          }
+        ],
+        "arts": [
+          {
+            "name": "Haze Slice",
+            "why": "Sword D: Mt +3, Avo +10 on her attack"
+          },
+          {
+            "name": "Chop",
+            "why": "Sword C: Mt +8, Hit −30: finisher on low-Avo foes"
+          },
+          {
+            "name": "Gale Blow",
+            "why": "Sword B: Mt +7, Atk +5 at Spd/2 %"
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Astra",
+            "why": "Sword Master mastery, once mastered: 5 hits at 50% damage"
+          },
+          {
+            "name": "Peak Form+",
+            "why": "Lv 35: Atk +3, Avo +10 at 100% HP"
+          },
+          {
+            "name": "Swords Lv. 4",
+            "why": "Sword A+: Hit/Avo +7 (the exam needs A); Lv. 3 until then"
+          },
+          {
+            "name": "Dodge",
+            "why": "Infantry C: Avo +5 vs bows and magic: Drake's mages"
+          },
+          {
+            "name": "Read the Winds",
+            "why": "Flying D: Avo +10 vs bows"
+          }
+        ],
+        "battalion": {
+          "name": "Hunter-Drifters",
+          "why": "Str +1, Spd +1, Dex +1, Cha +4: doubling stats on the dodger",
+          "where": "Held since Part I",
+          "alts": [
+            "Novice Hunters"
+          ],
+          "situational": "Part III: from storage (medium confidence)"
+        },
+        "training": [
+          {
+            "rank": "Sword S",
+            "for": "The Blade (Demonic Swordguard)",
+            "how": "Sword Master Sword +4 a fight; Arena S-push seat (§13)"
+          }
+        ],
+        "tips": [
+          "Drake: double Drake after Talimun's Slowing Curse; Astra hits 5 times at 50%",
+          "Envy miasma: no Avo vs higher-level foes inside it; end turns off kill tiles",
+          "Peak Form+ needs 100% HP: Fianna's Recover (+15 Magic Heal) tops her up",
+          "Blade exam short of 100% in S4? Stay Sword Master: the fallback endpoint"
+        ],
+        "drop": [
+          {
+            "item": "Sniper Evasion",
+            "why": "Dodge: Avo +5 vs the mages inside 3 tiles"
+          },
+          {
+            "item": "Swords Lv. 3",
+            "why": "Swords Lv. 4 replaces it at Sword A+"
+          },
+          {
+            "item": "Phantom Ring",
+            "why": "Gale Ring: AS +4 (the ring is its alt)"
+          }
+        ]
+      }
+    ],
+    "alt": "Sword A late in Part III: stay Shido with this kit and take Sword Master the Section it lands.",
+    "sources": [
+      "redesign/16-theodora-army-v2",
+      "class-data",
+      "character-learnsets",
+      "equippable-abilities",
+      "weapons-and-items",
+      "combat-arts-and-abilities",
+      "battalions",
+      "player-pacing-and-recruit-items",
+      "part2-war",
+      "part3-salvation"
+    ],
+    "routeNotes": [
+      {
+        "system": "Supports",
+        "note": "Partners here: Tobias and Ultand. Meal seat: Theodora + Loretta + Ultand; Ultand beside her on the map also fires Patch Up."
+      },
+      {
+        "system": "Battalions & Gambits",
+        "note": "On foot all game, so she carries [[battalion:Hunter-Drifters]] (Str/Spd/Dex +1). She drops first if fewer battalions deploy (count ?)."
+      },
+      {
+        "system": "Strike group",
+        "note": "End turns beside [[unit:Alexandra]]: each neighbour gives her Silver Maiden Hit/Avo +5. Ultand on the other side keeps Loretta at 100%."
+      }
+    ],
+    "decisions": [
+      {
+        "topic": "Recruit her late Ch 7 or 6/1",
+        "pick": "Support 3, Renown 5, 3 Iron Swords; deploy from Ch 8",
+        "why": "Core 11 strike dodger (D-130). An early join trains Sword C by Lv 20 and builds the Tobias and Ultand supports; a Ch 10 join auto-levels on personal growths, 3 to 4 points short per stat.",
+        "else": "Support 3 late? Recruit the week it lands"
+      },
+      {
+        "topic": "Take Hunter for the Beginner stage",
+        "pick": "Hunter (Bow D, Sword D) unless she joins in it",
+        "why": "Trains Sword +1 and Infantry +1 (Evasion D, Dodge C, Sniper Evasion B) and grows HP/Spd/Dex +10. Soldier trains Heavy, her bane, at Spd −5; Gladiator trains Axe and Gauntlet she never uses."
+      },
+      {
+        "topic": "Stay on foot to Sword Master",
+        "pick": "Myrmidon, Shido, Sword Master",
+        "why": "Infantry ranks are her Avo (Dodge, Sniper Evasion), she can carry a battalion, and the sword line grows Spd +15 to +20. Wing Soldier makes a third flier and loses both."
+      },
+      {
+        "topic": "Keep her at 100% HP",
+        "pick": "Heal her before she attacks; Ultand adjacent",
+        "why": "Peak Form+ (Atk +3, Avo +10) needs 100% HP and Steadfast (Avo +10) 50%+. Patch Up heals her after each fight beside Ultand; Sofia's Heal reaches 3 tiles. One chip costs her Avo +10."
+      },
+      {
+        "topic": "Sword Master is the endpoint",
+        "pick": "Sword Master in S3; The Blade only as Dietrich's fallback",
+        "why": "D-143 gives the Demonic Swordguard to Dietrich, a lord with a fixed Balor seat and a crit engine. Astra and Spd +20 growth carry her in squad A; keep training Sword toward S in case his exam falls short.",
+        "else": "Dietrich's Sword short of S at Section 5: she takes The Blade"
+      }
+    ],
+    "finalists": {
+      "stats": [
+        "Str",
+        "Spd",
+        "Dex",
+        "Def",
+        "Res"
+      ],
+      "options": [
+        {
+          "class": "Myrmidon",
+          "use": "Ch 9 to 12",
+          "note": "Spd +15, Dex +10; Sword +2 a fight toward Shido"
+        },
+        {
+          "class": "Shido",
+          "use": "Part II to III S2",
+          "note": "Spd +15 growth, Spd +7 flat, Combat Arts +2"
+        },
+        {
+          "class": "Wing Soldier",
+          "note": "Third flier behind Alexandra and Lysander; no battalion, no Infantry Avo"
+        },
+        {
+          "class": "Sword Master",
+          "use": "Part III S3+",
+          "note": "Spd +20 growth and Astra; Mars's request"
+        },
+        {
+          "class": "The Blade",
+          "note": "Spd/Dex +7 flat, Divine Insight Spd +10; held by Dietrich (D-143), fallback only"
+        }
+      ]
+    },
+    "gates": [
+      {
+        "route": "Theodora",
+        "from": {
+          "part": 1,
+          "ch": 4
+        },
+        "by": {
+          "part": 1,
+          "ch": 8
+        },
+        "kind": "recruit",
+        "text": "Support 3 with Theodora by late Ch 7 (meals from Ch 4), Renown 5, 3 Iron Swords"
+      },
+      {
+        "route": "Theodora",
+        "from": {
+          "part": 1,
+          "ch": 7
+        },
+        "by": {
+          "part": 1,
+          "ch": 9
+        },
+        "kind": "rank",
+        "text": "Sword C by Lv 20 (Ch 9) for Myrmidon: Arena Infantry every week from her join"
+      },
+      {
+        "route": "Theodora",
+        "from": {
+          "part": 3,
+          "ch": 3
+        },
+        "by": {
+          "part": 3,
+          "ch": 4
+        },
+        "kind": "rank",
+        "text": "Sword S before Section 4 for The Blade: Sword Master plus an Arena S-push seat"
+      }
+    ]
+  },
+  "sources": [
+    "https://fortunesweave.co.uk/characters/loretta",
+    "https://www.keengamer.com/articles/guides/fire-emblem-fortunes-weave-tier-list-best-characters-ranked-for-every-route/",
+    "https://www.pockettactics.com/fire-emblem-fortunes-weave/tier-list"
+  ],
+  "recruitOn": {
+    "Cai": {
+      "how": "recruit",
+      "support": 3,
+      "renown": 7
+    },
+    "Dietrich": {
+      "how": "recruit",
+      "support": 3,
+      "renown": 9
+    },
+    "Theodora": {
+      "how": "recruit",
+      "support": 3,
+      "renown": 5,
+      "task": "3× Iron Sword",
+      "window": "Late Ch 7 (by 5/28) or Ch 8 week 1 (6/1)"
+    },
+    "Leda": {
+      "how": "recruit",
+      "support": 3,
+      "renown": 5
+    }
+  }
+}

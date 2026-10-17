@@ -1,0 +1,1904 @@
+{
+  "name": "Ninae",
+  "slug": "ninae",
+  "epithet": "Black Thread Ninae, Vulkan elite",
+  "faction": "Linaria Dewdrops",
+  "homeRoute": "Cai",
+  "weapons": [
+    "White Magic",
+    "Spear"
+  ],
+  "preferred": [
+    "White Magic",
+    "Spear"
+  ],
+  "avoid": [
+    "Bow"
+  ],
+  "personality": "A mysterious girl sensitive to spirits who is drawn to pitiable people and loves skygazing.",
+  "story": "Serves at the Temple of Credna in the elite unit Vulkan and bears the Crest of Gloucester. Her spirit sensitivity underpins her anti-magic ability. Recruiting her needs one Paradise Fish, best caught at Lake Brontes, Saveilon.",
+  "personalSkill": {
+    "name": "Spirits' Voice",
+    "effect": "Grants Hit/Avo+10 to unit during combat against magic-using foes. Lv 20: extends to adjacent allies; Lv 35: allies within 2 spaces. Crest of Gloucester: Hit+30 when attacking, 10% trigger."
+  },
+  "growths": {
+    "HP": 45,
+    "Str": 45,
+    "Mag": 35,
+    "Spd": 35,
+    "Dex": 45,
+    "Def": 35,
+    "Res": 45,
+    "Lck": 50,
+    "Cha": 40
+  },
+  "supports": [
+    "Cai",
+    "Diego",
+    "Lysander",
+    "Orchel",
+    "Peppe",
+    "Peter",
+    "Simon",
+    "Sirocco"
+  ],
+  "tiers": [
+    {
+      "source": "KeenGamer",
+      "tier": "A"
+    },
+    {
+      "source": "Pocket Tactics",
+      "tier": "B"
+    }
+  ],
+  "tierNotes": "KeenGamer: A tier (anti-magic specialist). Pocket Tactics: B tier. Reddit: late recruits come in weak; recruit and merge copies to make her an all-rounder (disputed).",
+  "recruit": {
+    "how": "recruit",
+    "support": 3,
+    "renown": 6,
+    "extra": "1× Paradise Fish (Lake Brontes, Saveilon)",
+    "why": [
+      "Support 3 and Renown 6 tie with Theodora, Leda. Tiebreaker: Ninae has support conversations with Cai."
+    ],
+    "tip": "Bring 1 Paradise Fish from Lake Brontes in Saveilon."
+  },
+  "requirements": {
+    "Cai": "3S 6R",
+    "Dietrich": "3S 8R",
+    "Theodora": "3S 6R",
+    "Leda": "3S 6R"
+  },
+  "build": {
+    "role": "Front-line Physic healer and anti-mage tank",
+    "path": [
+      "Soldier",
+      "Priest",
+      "Guardian",
+      "Bishop (Part II detour: Barrier, Gauntlet)",
+      "Guardian",
+      "Sentinel (Part III detour: Resolute Stance)",
+      "War Monk"
+    ],
+    "part1Target": "Guardian (Ch 11 or 12)",
+    "part3Target": "War Monk (Sentinel first while Aurora's request is pending)",
+    "notes": "Soldier on joining for Spear, Priest at Lv 20 (White Magic C), Guardian at Lv 35 with Spear B, usually Ch 11 or 12. She joins late Ch 7 (Renown 6) at about Lv 15. Part II Ch 3: Bishop doubles her Physic for Ch 3, adds Barrier and trains Gauntlet for War Monk. Part III: Sentinel for Resolute Stance while Aurora's temple is repaired, then War Monk.",
+    "confidence": "medium"
+  },
+  "guide": {
+    "role": "Front-line Physic healer and anti-mage tank",
+    "summary": "Spirits' Voice gives Hit/Avo +10 against mages and spreads to adjacent allies at Lv 20, and Physic at White Magic B makes her your second Physic carrier. Guardian grows Str 55, Def 45, Res 60 on her.",
+    "playstyle": "Front line beside Noctula or Guzran in Part I and Jasmine in Part II against mage packs; Physic the back line from there.",
+    "focus": [
+      "Res",
+      "Def",
+      "Str"
+    ],
+    "keys": [
+      "Bring 1 Paradise Fish from Lake Brontes to recruit her; catch a second for Nydine's Giant's Ring.",
+      "Train Spear in Soldier and at the Arena, White Magic in Priest: Guardian needs Spear B, Physic needs White Magic B.",
+      "Part I: stand next to Noctula (Res 20%) or Guzran (Res 15%) against mages so Spirits' Guidance covers them. Part II: next to Jasmine.",
+      "She is the second healer now that Ultand casts: Physic from the front, Tialla Physic from the back.",
+      "Priest: Healing Staff only. Guardian: Hexlock Shield (Res +5) only, accessory empty; farm the Linaria for it.",
+      "Master Brace in Guardian.",
+      "Guardian in Ch 11 or 12, once she is Lv 35 with Spear B (she joins late Ch 7 at about Lv 15). Priest until then.",
+      "Part II Ch 3: a Bishop stint doubles Physic for that map, adds Barrier and trains Gauntlet for War Monk."
+    ],
+    "watch": [
+      "Priest has no spear in class-data: keep Spear rising at the Arena.",
+      "Spd 35: fast units double her.",
+      "Weight: Priest: Healing Staff 3, no shield. Guardian: Silver Spear 6 (Da Mina Spear 7) + Hexlock Shield 4 = 10 to 11, extra 4. Adding the Healing Staff makes 7, over the 6 cap for a hybrid tank, and Spd 35 already lets fast foes double her.",
+      "Inventory: Priest 3 core (gauntlets, Healing Staff, Concoction) + Pure Water on mage maps. End of Ch 12: Healing Staff to storage; Silver Spear (or Da Mina), Hexlock Shield, gauntlets, Elixir, Concoction, Pure Water is her Part II 6/6."
+    ],
+    "stages": [
+      {
+        "when": "Join (late Ch 7), Beginner",
+        "from": {
+          "part": 1,
+          "ch": 7,
+          "at": "late",
+          "approx": true
+        },
+        "level": "Lv 15 to 20",
+        "class": "Soldier",
+        "kind": "core",
+        "goal": "Spear up, White Magic C for Priest. Spirits' Voice (innate): Hit/Avo +10 when a mage fights her.",
+        "exit": "Leave at Lv 20 with White Magic C (Priest exam at 75%).",
+        "masteries": [
+          "Defense Basics"
+        ],
+        "training": [
+          {
+            "rank": "White Magic C",
+            "for": "Priest exam",
+            "how": "Arena Mage Training (White Magic, Black Magic, Authority)"
+          },
+          {
+            "rank": "Spear",
+            "for": "Guardian (needs B)",
+            "how": "Arena Heavy Training (Spear, Authority, Axe, Heavy); Soldier trains Spear"
+          }
+        ],
+        "weapons": [
+          {
+            "item": "Iron Spear",
+            "why": "Main damage"
+          },
+          {
+            "item": "Javelin",
+            "why": "1 to 2 range"
+          }
+        ],
+        "equipment": [
+          {
+            "item": "Iron Shield",
+            "why": "Def +3, Wt 4",
+            "slot": "Defense"
+          }
+        ],
+        "arts": [
+          {
+            "name": "Tempest Spear",
+            "why": "Spear D: +4 Mt, +10 Hit"
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Defense Basics",
+            "why": "Soldier mastery: Def +1 (once mastered)"
+          },
+          {
+            "name": "Spirits' Guidance",
+            "why": "Personal Lv 20 ability: Grants Spirits' Voices to adjacent allies (from Lv 20)"
+          },
+          {
+            "name": "Spears Lv. 1",
+            "why": "Spear D+ rank ability: spear Hit +3 (once Spear D+)"
+          }
+        ],
+        "drop": [
+          {
+            "item": "Wooden Spear",
+            "why": "No slot: refine it later if gold is spare"
+          }
+        ],
+        "items": [
+          {
+            "item": "Vulnerary",
+            "why": "20 HP x3: early heal"
+          }
+        ],
+        "to": {
+          "part": 1,
+          "ch": 7
+        }
+      },
+      {
+        "when": "Ch 8 to 11 or 12 (Specialty)",
+        "from": {
+          "part": 1,
+          "ch": 8
+        },
+        "to": {
+          "part": 1,
+          "ch": 11
+        },
+        "level": "Lv 20 to 35",
+        "class": "Priest",
+        "kind": "core",
+        "goal": "Second Physic user (White-Magic Seeker doubles it) and Spear B for the Guardian exam (Ch 11 or 12).",
+        "exit": "Leave at Lv 35 with Spear B (usually Ch 11 or 12); short by Ch 12? Part II Ch 1",
+        "masteries": [
+          "Piety"
+        ],
+        "training": [
+          {
+            "rank": "Spear B",
+            "for": "Guardian exam (Ch 11 or 12)",
+            "how": "Arena Heavy Training (Spear, Authority, Axe, Heavy) or Arena Mounted Training (Spear, Authority, Rider, Flying)"
+          },
+          {
+            "rank": "White Magic B",
+            "for": "Physic",
+            "how": "Arena Mage Training (White Magic, Black Magic, Authority)"
+          }
+        ],
+        "weapons": [
+          {
+            "item": "Wooden Gauntlets",
+            "why": "A tier light counter (Priest has no spear)"
+          }
+        ],
+        "equipment": [
+          {
+            "item": "Healing Staff",
+            "why": "+10 HP on heals, Wt 3: a Priest heals from behind the line, so no shield",
+            "slot": "Accessory"
+          }
+        ],
+        "spells": [
+          {
+            "name": "Physic",
+            "why": "White B (her rank for it): doubled uses in Priest once reached"
+          },
+          {
+            "name": "Heal",
+            "why": "Doubled uses in Priest"
+          },
+          {
+            "name": "Nosferatu",
+            "why": "White C: self-heal"
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Piety",
+            "why": "Priest mastery goal: Lck +3 (once mastered)"
+          },
+          {
+            "name": "Spirits' Guidance+",
+            "why": "Personal Lv 35 ability: Grants Spirits' Voices to allies within 2 spaces (from Lv 35)"
+          },
+          {
+            "name": "Defense Basics",
+            "why": "Soldier mastery: Def +1"
+          }
+        ],
+        "drop": [
+          {
+            "item": "Iron Spear",
+            "why": "Priest has no spears"
+          },
+          {
+            "item": "Wooden Spear",
+            "why": "Priest has no spears; keep it for Guardian"
+          },
+          {
+            "item": "Javelin",
+            "why": "Priest has no spears"
+          },
+          {
+            "item": "Tempest Spear",
+            "why": "Priest has no spears"
+          },
+          {
+            "item": "Iron Shield",
+            "why": "Healer stage: Wt 4 on top of the staff only gets her doubled"
+          }
+        ],
+        "tips": [
+          "Ch 9 heals with Tialla while Ultand is out",
+          "Ch 6 to 8 she and Tialla are the only Physic users; Ultand's Heal is the backup",
+          "Guardian still casts Physic, just not doubled: Tialla's Bishop (Ch 10) carries the doubled heals"
+        ],
+        "items": [
+          {
+            "item": "Concoction",
+            "why": "40 HP x2: she heals from the front",
+            "alts": [
+              "Vulnerary"
+            ]
+          },
+          {
+            "item": "Pure Water",
+            "why": "Res +10, -2 a turn",
+            "situational": "Mage-heavy maps: open slot"
+          }
+        ],
+        "why": [
+          "Spirits' Guidance (Lv 20): allies beside her share Spirits' Voice; 2 tiles at Lv 35, no slot"
+        ]
+      },
+      {
+        "when": "Ch 11 or 12 to Part II Ch 2 (Advanced)",
+        "from": {
+          "part": 1,
+          "ch": 11,
+          "approx": true
+        },
+        "to": {
+          "part": 2,
+          "ch": 2
+        },
+        "level": "Lv 35 to 40",
+        "class": "Guardian",
+        "kind": "core",
+        "goal": "Second Physic user who holds a lane; stand her among Noctula, Ultand and Jasmine against mages.",
+        "exit": "Leave after Part II Ch 2 for the Part II Ch 3 Bishop stint; back in Part II Ch 4",
+        "masteries": [
+          "Brace"
+        ],
+        "training": [
+          {
+            "rank": "Gauntlet B",
+            "for": "War Monk (Part III)",
+            "how": "Arena Warrior Training (Sword, Axe, Gauntlet); fight with gauntlets, inn Auto-Training"
+          },
+          {
+            "rank": "Spear A",
+            "for": "Sentinel fallback",
+            "how": "Arena Heavy Training (Spear, Authority, Axe, Heavy)"
+          }
+        ],
+        "tips": [
+          "Exam in Ch 11 or 12 once Lv 35 and Spear B; missed it? Part II Ch 1, after Army Training",
+          "No free time in Part II: only equipped items come in, so equip them at the end of Ch 12"
+        ],
+        "weapons": [
+          {
+            "item": "Silver Spear",
+            "why": "Mt 20, Wt 6 at Spear B; no known source",
+            "alts": [
+              "Da Mina Spear"
+            ]
+          },
+          {
+            "item": "Wooden Gauntlets",
+            "why": "Carried for the Ch 3 Bishop stint and War Monk (Guardian has no gauntlets)"
+          }
+        ],
+        "equipment": [
+          {
+            "item": "Hexlock Shield",
+            "why": "Def +1, Res +5, Wt 4: her anti-mage job. The accessory stays empty: the Healing Staff would make 7, over the 6 cap, and Guardian's Magic Heal +10 already covers it",
+            "slot": "Defense",
+            "alts": [
+              "Iron Shield"
+            ],
+            "plan": "Grow 10 Linaria beyond the 20 for A Bouquet of Eternal Love. Jasmine keeps the Dione Fort chest copy"
+          }
+        ],
+        "arts": [
+          {
+            "name": "Defending Spear",
+            "why": "Spear C: Shld +3"
+          },
+          {
+            "name": "Holy Spear",
+            "why": "Spear B: +8 Mt, self-heal"
+          }
+        ],
+        "spells": [
+          {
+            "name": "Physic",
+            "why": "White B: ranged heal from the front"
+          },
+          {
+            "name": "Heal",
+            "why": "Top-up"
+          },
+          {
+            "name": "Nosferatu",
+            "why": "White C: self-heal"
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Brace",
+            "why": "Guardian mastery goal: Prt +3 after a kill (once mastered)"
+          },
+          {
+            "name": "Spirits' Guidance+",
+            "why": "Personal Lv 35 ability: Grants Spirits' Voices to allies within 2 spaces"
+          },
+          {
+            "name": "Piety",
+            "why": "Priest mastery: Lck +3"
+          },
+          {
+            "name": "Defense Basics",
+            "why": "Soldier mastery: Def +1"
+          },
+          {
+            "name": "Spears Lv. 2",
+            "why": "Spear C+ rank ability: spear Hit +5"
+          }
+        ],
+        "drop": [
+          {
+            "item": "Iron Shield",
+            "why": "Replaced by the Hexlock Shield (Res +5)"
+          },
+          {
+            "item": "Healing Staff",
+            "why": "Unequip at the end of Ch 12: Hexlock 4 + staff 3 = 7, over the 6 cap; Guardian has Magic Heal +10 anyway. Spare for Fianna if Orchel's Paralogue is missed"
+          },
+          {
+            "item": "Da Mina Spear",
+            "why": "Fallback for the Silver Spear only"
+          },
+          {
+            "item": "Wooden Spear",
+            "why": "No slot"
+          },
+          {
+            "item": "Short Spear",
+            "why": "No slot: Physic covers range"
+          }
+        ],
+        "items": [
+          {
+            "item": "Elixir",
+            "why": "100 HP: carried in from Ch 12",
+            "alts": [
+              "Concoction"
+            ],
+            "plan": "After Ch 6"
+          },
+          {
+            "item": "Concoction",
+            "why": "40 HP x2: Ch 3 asks for concoctions",
+            "alts": [
+              "Vulnerary"
+            ]
+          },
+          {
+            "item": "Pure Water",
+            "why": "Res +10, -2 a turn",
+            "situational": "Mage packs: carried in from Ch 12"
+          }
+        ],
+        "why": [
+          "Spirits' Guidance+ (Lv 35): every ally within 2 tiles gets Hit/Avo +10 vs mages"
+        ]
+      },
+      {
+        "when": "Part II Ch 3",
+        "from": {
+          "part": 2,
+          "ch": 3
+        },
+        "level": "Lv 40 to 41",
+        "class": "Bishop",
+        "kind": "detour",
+        "goal": "Rank, mastery and Ch 3: Bishop doubles her Physic for Ch 3, which asks for several Physic users; it trains Gauntlet +2 toward War Monk's Gauntlet B; and Barrier (Res +3 to adjacent allies) suits her anti-mage front line. Spirits' Guidance+ keeps covering allies within 2 tiles while she heals.",
+        "exit": "Leave once Barrier is mastered and Ch 3 is cleared.",
+        "masteries": [
+          "Barrier"
+        ],
+        "training": [
+          {
+            "rank": "Gauntlet B",
+            "for": "War Monk (Part III)",
+            "how": "Bishop trains Gauntlet +2: fight with the Wooden Gauntlets"
+          }
+        ],
+        "tips": [
+          "Bishop on Ninae: Mag 50, Res 65, Lck 70, Def 25",
+          "Whether two Barrier users stack on one ally is not documented (Ultand also takes it)",
+          "No free time in Part II: only equipped items come in, so equip them at the end of Ch 12"
+        ],
+        "weapons": [
+          {
+            "item": "Wooden Gauntlets",
+            "why": "Bishop uses gauntlets: every fight trains Gauntlet for War Monk"
+          }
+        ],
+        "equipment": [
+          {
+            "item": "Hexlock Shield",
+            "why": "Res +5, Wt 4; accessory slot stays empty (6-weight cap)",
+            "slot": "Defense",
+            "plan": "Keep equipped"
+          }
+        ],
+        "arts": [
+          {
+            "name": "Curtail Magic",
+            "why": "Gauntlet C: Rsl +5"
+          },
+          {
+            "name": "Cautious Blow",
+            "why": "Gauntlet D: Avo +10"
+          }
+        ],
+        "spells": [
+          {
+            "name": "Physic",
+            "why": "White B: doubled uses in Bishop"
+          },
+          {
+            "name": "Heal",
+            "why": "Top-up"
+          },
+          {
+            "name": "Nosferatu",
+            "why": "White C: self-heal"
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Barrier",
+            "why": "Bishop mastery goal: Res +3 to adjacent allies (once mastered)"
+          },
+          {
+            "name": "Spirits' Guidance+",
+            "why": "Personal Lv 35 ability: Grants Spirits' Voices to allies within 2 spaces"
+          },
+          {
+            "name": "Brace",
+            "why": "Guardian mastery: Prt +3 after a kill"
+          },
+          {
+            "name": "Piety",
+            "why": "Priest mastery: Lck +3"
+          },
+          {
+            "name": "Defense Basics",
+            "why": "Soldier mastery: Def +1"
+          }
+        ],
+        "drop": [
+          {
+            "item": "Da Mina Spear",
+            "why": "Bishop has no spears; back in Guardian"
+          },
+          {
+            "item": "Wooden Spear",
+            "why": "Bishop has no spears; back in Guardian"
+          },
+          {
+            "item": "Short Spear",
+            "why": "Bishop has no spears; back in Guardian"
+          },
+          {
+            "item": "Defending Spear",
+            "why": "Spear art; Bishop has no spears"
+          },
+          {
+            "item": "Holy Spear",
+            "why": "Spear art; Bishop has no spears"
+          }
+        ],
+        "items": [
+          {
+            "item": "Elixir",
+            "why": "100 HP: carried in from Ch 12",
+            "alts": [
+              "Concoction"
+            ],
+            "plan": "After Ch 6"
+          },
+          {
+            "item": "Concoction",
+            "why": "40 HP x2: Ch 3 asks for concoctions",
+            "alts": [
+              "Vulnerary"
+            ]
+          },
+          {
+            "item": "Pure Water",
+            "why": "Res +10, -2 a turn",
+            "situational": "Mage packs: carried in from Ch 12"
+          }
+        ]
+      },
+      {
+        "when": "Part II Ch 4 to 6",
+        "from": {
+          "part": 2,
+          "ch": 4
+        },
+        "to": {
+          "part": 2,
+          "ch": 6
+        },
+        "level": "Lv 41 to 42",
+        "class": "Guardian",
+        "kind": "core",
+        "goal": "Front-line Physic healer with two anti-mage auras: Spirits' Guidance+ (2 tiles) and Barrier (adjacent).",
+        "exit": "Stays to the end of Part II.",
+        "tips": [
+          "No free time in Part II: only equipped items come in, so equip them at the end of Ch 12"
+        ],
+        "weapons": [
+          {
+            "item": "Silver Spear",
+            "why": "Mt 20, Wt 6 at Spear B; no known source",
+            "alts": [
+              "Da Mina Spear"
+            ]
+          },
+          {
+            "item": "Wooden Gauntlets",
+            "why": "Carried for the Ch 3 Bishop stint and War Monk (Guardian has no gauntlets)"
+          }
+        ],
+        "equipment": [
+          {
+            "item": "Hexlock Shield",
+            "why": "Res +5, Wt 4; accessory slot stays empty (6-weight cap)",
+            "slot": "Defense",
+            "plan": "Keep equipped"
+          }
+        ],
+        "arts": [
+          {
+            "name": "Defending Spear",
+            "why": "Spear C: Shld +3"
+          },
+          {
+            "name": "Holy Spear",
+            "why": "Spear B: +8 Mt, self-heal"
+          }
+        ],
+        "spells": [
+          {
+            "name": "Physic",
+            "why": "White B: ranged heal from the front"
+          },
+          {
+            "name": "Heal",
+            "why": "Top-up"
+          },
+          {
+            "name": "Nosferatu",
+            "why": "White C: self-heal"
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Spirits' Guidance+",
+            "why": "Personal Lv 35 ability: Grants Spirits' Voices to allies within 2 spaces"
+          },
+          {
+            "name": "Brace",
+            "why": "Guardian mastery: Prt +3 after a kill"
+          },
+          {
+            "name": "Barrier",
+            "why": "Bishop mastery: Res +3 to adjacent allies"
+          },
+          {
+            "name": "Piety",
+            "why": "Priest mastery: Lck +3"
+          },
+          {
+            "name": "Defense Basics",
+            "why": "Soldier mastery: Def +1"
+          }
+        ],
+        "drop": [
+          {
+            "item": "Curtail Magic",
+            "why": "Gauntlet art; Guardian has no gauntlets"
+          },
+          {
+            "item": "Cautious Blow",
+            "why": "Gauntlet art; Guardian has no gauntlets"
+          },
+          {
+            "item": "Da Mina Spear",
+            "why": "Fallback for the Silver Spear only"
+          },
+          {
+            "item": "Wooden Spear",
+            "why": "No slot"
+          },
+          {
+            "item": "Short Spear",
+            "why": "No slot: Physic covers range"
+          }
+        ],
+        "items": [
+          {
+            "item": "Elixir",
+            "why": "100 HP: carried in from Ch 12",
+            "alts": [
+              "Concoction"
+            ],
+            "plan": "After Ch 6"
+          },
+          {
+            "item": "Concoction",
+            "why": "40 HP x2: Ch 3 asks for concoctions",
+            "alts": [
+              "Vulnerary"
+            ]
+          },
+          {
+            "item": "Pure Water",
+            "why": "Res +10, -2 a turn",
+            "situational": "Mage packs: carried in from Ch 12"
+          }
+        ]
+      },
+      {
+        "when": "Part III Section 2 (Sentinel)",
+        "from": {
+          "part": 3,
+          "ch": 2
+        },
+        "to": {
+          "part": 3,
+          "ch": 3
+        },
+        "level": "Lv 45+",
+        "class": "Sentinel",
+        "kind": "detour",
+        "goal": "Master detour while Aurora's temple is repaired: Resolute Stance (Shld +5 at full HP), doubled White Magic and Magic Heal +10. Spear A is her preferred rank. Guidance+ still covers allies within 2 tiles.",
+        "exit": "Leave once Resolute Stance is mastered and Aurora's request unlocks War Monk.",
+        "masteries": [
+          "Resolute Stance"
+        ],
+        "training": [
+          {
+            "rank": "Gauntlet B",
+            "for": "War Monk",
+            "how": "Arena Warrior Training (Sword, Axe, Gauntlet); inn Auto-Training; Bishop in Part II gave a head start"
+          }
+        ],
+        "tips": [
+          "Sentinel on Ninae: HP 60, Str 60, Def 45, Res 60",
+          "Repair Aurora's temple early: War Monk waits on her request"
+        ],
+        "weapons": [
+          {
+            "item": "Silver Spear",
+            "why": "Mt 20, Wt 6 at Spear B; no known source",
+            "alts": [
+              "Da Mina Spear"
+            ]
+          },
+          {
+            "item": "Short Spear",
+            "why": "B tier: 1 to 2 range",
+            "plan": "After Trouble at the Gate, Ch 7"
+          }
+        ],
+        "equipment": [
+          {
+            "item": "Hexlock Shield",
+            "why": "Res +5, Wt 4; accessory slot stays empty (6-weight cap)",
+            "slot": "Defense",
+            "plan": "Keep equipped"
+          }
+        ],
+        "arts": [
+          {
+            "name": "Defending Spear",
+            "why": "Spear C: Shld +3"
+          },
+          {
+            "name": "Holy Spear",
+            "why": "Spear B: +8 Mt, self-heal"
+          }
+        ],
+        "spells": [
+          {
+            "name": "Physic",
+            "why": "White B: ranged heal from the front"
+          },
+          {
+            "name": "Heal",
+            "why": "Top-up"
+          },
+          {
+            "name": "Nosferatu",
+            "why": "White C: self-heal"
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Resolute Stance",
+            "why": "Sentinel mastery goal: Shld +5 at full HP (once mastered)"
+          },
+          {
+            "name": "Spirits' Guidance+",
+            "why": "Personal Lv 35 ability: Grants Spirits' Voices to allies within 2 spaces"
+          },
+          {
+            "name": "Brace",
+            "why": "Guardian mastery: Prt +3 after a kill"
+          },
+          {
+            "name": "Barrier",
+            "why": "Bishop mastery: Res +3 to adjacent allies"
+          },
+          {
+            "name": "Spears Lv. 2",
+            "why": "Spear C+ rank ability: spear Hit +5"
+          }
+        ],
+        "drop": [
+          {
+            "item": "Piety",
+            "why": "Slot goes to Resolute Stance"
+          },
+          {
+            "item": "Da Mina Spear",
+            "why": "Fallback for the Silver Spear only"
+          },
+          {
+            "item": "Wooden Spear",
+            "why": "No slot"
+          }
+        ],
+        "items": [
+          {
+            "item": "Elixir",
+            "why": "100 HP: tank and boss turns",
+            "alts": [
+              "Concoction"
+            ],
+            "plan": "After Ch 6"
+          },
+          {
+            "item": "Pure Water",
+            "why": "Res +10, -2 a turn",
+            "situational": "Mage-heavy maps: open slot"
+          }
+        ]
+      },
+      {
+        "when": "Part III goal",
+        "from": {
+          "part": 3,
+          "ch": 3,
+          "approx": true
+        },
+        "level": "Lv 45+",
+        "class": "War Monk",
+        "kind": "core",
+        "goal": "Doubled Physic plus Strike and Heal: the class video names her for it. Strike and Heal plus Spirits' Guidance+ make her the anti-mage medic.",
+        "exit": "Final class.",
+        "masteries": [
+          "Strike and Heal"
+        ],
+        "weapons": [
+          {
+            "item": "Wooden Gauntlets",
+            "why": "Only gauntlet in her kit; refine it for War Monk"
+          }
+        ],
+        "equipment": [
+          {
+            "item": "Hexlock Shield",
+            "why": "Res +5, Wt 4; accessory slot stays empty (6-weight cap)",
+            "slot": "Defense",
+            "plan": "Keep equipped"
+          }
+        ],
+        "arts": [
+          {
+            "name": "Spirit Fist",
+            "why": "Gauntlet B"
+          },
+          {
+            "name": "Curtail Magic",
+            "why": "Gauntlet C: Rsl +5"
+          }
+        ],
+        "spells": [
+          {
+            "name": "Physic",
+            "why": "White B: ranged heal from the front"
+          },
+          {
+            "name": "Heal",
+            "why": "Top-up"
+          },
+          {
+            "name": "Nosferatu",
+            "why": "White C: self-heal"
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Strike and Heal",
+            "why": "War Monk mastery: assist magic after combat (once mastered)"
+          },
+          {
+            "name": "Spirits' Guidance+",
+            "why": "Personal Lv 35 ability: Grants Spirits' Voices to allies within 2 spaces"
+          },
+          {
+            "name": "Resolute Stance",
+            "why": "Sentinel mastery: Shld +5 at full HP"
+          },
+          {
+            "name": "Barrier",
+            "why": "Bishop mastery: Res +3 to adjacent allies"
+          },
+          {
+            "name": "Brace",
+            "why": "Guardian mastery: Prt +3 after a kill"
+          }
+        ],
+        "drop": [
+          {
+            "item": "Da Mina Spear",
+            "why": "War Monk has no spears"
+          },
+          {
+            "item": "Wooden Spear",
+            "why": "War Monk has no spears"
+          },
+          {
+            "item": "Short Spear",
+            "why": "War Monk has no spears"
+          },
+          {
+            "item": "Defending Spear",
+            "why": "War Monk has no spears"
+          },
+          {
+            "item": "Holy Spear",
+            "why": "War Monk has no spears"
+          },
+          {
+            "item": "Defense Basics",
+            "why": "Slot goes to Fists Lv. 1 for her gauntlet hits"
+          }
+        ],
+        "items": [
+          {
+            "item": "Elixir",
+            "why": "100 HP: tank and boss turns",
+            "alts": [
+              "Concoction"
+            ],
+            "plan": "After Ch 6"
+          },
+          {
+            "item": "Pure Water",
+            "why": "Res +10, -2 a turn",
+            "situational": "Mage-heavy maps: open slot"
+          }
+        ]
+      }
+    ],
+    "alt": "Sentinel (Spear A, preferred) as the final class if Gauntlet B lags; it also doubles White Magic.",
+    "sources": [
+      "class-and-weapon-guide",
+      "growth.py",
+      "class-data",
+      "character-learnsets",
+      "combat-arts-and-abilities",
+      "weapons-and-items",
+      "hard-mode-video-notes",
+      "world-maps-and-farming",
+      "PATHS-BRIEF",
+      "walkthrough-part1-cai",
+      "part2-war",
+      "part3-salvation"
+    ],
+    "routeNotes": [
+      {
+        "system": "Kindness Quests",
+        "note": "Her recruit needs Renown 6 (usually late Ch 7). Kindness Quests are the route's Renown source, so finish each chapter's on time. After she joins, bring her to Kindness Quest fights to catch up levels."
+      },
+      {
+        "system": "Farming",
+        "note": "Plant 30 Linaria, not 20: 20 for A Bouquet of Eternal Love (due 9/1), 10 for her Hexlock Shield. The Noa Fruit source is not documented locally."
+      }
+    ],
+    "decisions": [
+      {
+        "topic": "Priest, then Guardian",
+        "pick": "Priest (Ch 8) until Guardian at Lv 35 with Spear B (Ch 11 or 12)",
+        "why": "White-Magic Seeker doubles her Physic as a Priest. Guardian holds a lane, still casts Physic, and adds Spirits' Guidance+ at Lv 35.",
+        "else": "Spear B late: stay Priest, Guardian in Part II Ch 1"
+      },
+      {
+        "topic": "Take the Bishop stint in Part II Ch 3",
+        "pick": "Bishop for Barrier, back to Guardian once mastered",
+        "why": "Doubled Physic for the Ch 3 map, which wants several Physic users."
+      }
+    ],
+    "gates": [
+      {
+        "route": "Cai",
+        "from": {
+          "part": 1,
+          "ch": 4
+        },
+        "kind": "recruit",
+        "text": "Support 3 by Renown 6 and 1 Paradise Fish (Lake Brontes, Saveilon)",
+        "by": {
+          "part": 1,
+          "ch": 7
+        }
+      },
+      {
+        "route": "Cai",
+        "from": {
+          "part": 1,
+          "ch": 8
+        },
+        "kind": "rank",
+        "text": "Arena every week Ch 8 to 12: Spear B for Guardian (Priest doesn't train it)",
+        "by": {
+          "part": 1,
+          "ch": 12
+        }
+      }
+    ]
+  },
+  "sources": [
+    "https://fortunesweave.co.uk/characters/ninae",
+    "https://www.keengamer.com/articles/guides/fire-emblem-fortunes-weave-tier-list-best-characters-ranked-for-every-route/",
+    "https://www.pockettactics.com/fire-emblem-fortunes-weave/tier-list"
+  ],
+  "recruitOn": {
+    "Cai": {
+      "how": "recruit",
+      "support": 3,
+      "renown": 6,
+      "task": "1× Paradise Fish (Lake Brontes, Saveilon)"
+    },
+    "Dietrich": {
+      "how": "recruit",
+      "support": 3,
+      "renown": 8
+    },
+    "Theodora": {
+      "how": "recruit",
+      "support": 3,
+      "renown": 6,
+      "task": "1× Paradise Fish (Lake Brontes, Saveilon)",
+      "window": "Ch 8 week 1 (6/1)"
+    },
+    "Leda": {
+      "how": "recruit",
+      "support": 3,
+      "renown": 6
+    }
+  },
+  "copies": [
+    {
+      "route": "Theodora",
+      "support": 3,
+      "renown": 6,
+      "cost": "1× Paradise Fish (Lake Brontes, Saveilon)",
+      "chapter": 8,
+      "path": [
+        "Soldier (Ch 8 join, Lv 15)",
+        "Priest (Lv 20, Ch 9 to 12)",
+        "Guardian (Lv 35, Part II Ch 1)",
+        "Sentinel (Part III S2)"
+      ],
+      "role": "Second wall and anti-mage aura",
+      "part1": "Joins Ch 8 week 1 at about Lv 15 (Soldier); Priest at Lv 20 with Physic at White B; alternates the 9th seat with Ultand",
+      "why": "The Fortress's second wall next to Theodora: Spirits' Guidance+ gives allies within 2 Hit/Avo +10 against magic users, Res 45 growth and Physic from the front. She takes the mage-heavy maps of the 9th seat (Ch 8 to 12) and holds Part II Ch 2 and Ch 3 with Theodora.",
+      "guide": {
+        "role": "Second wall and anti-mage aura",
+        "summary": "The Fortress's second wall, next to Theodora. Spirits' Guidance+ gives every ally within 2 Hit/Avo +10 against magic users, so she stands where the casters strike. From White B she also casts Physic on the line from the front.",
+        "playstyle": "Enemy phase: hold the tile beside Theodora with the Hexlock Shield on and the aura over the pocket. Player phase: Physic the wall first, then chip with spear arts. Never chase: Spd 35.",
+        "focus": [
+          "Res",
+          "Def",
+          "HP"
+        ],
+        "keys": [
+          "Recruit her Ch 8 week 1 (6/1): Support 3, Renown 6, 1 [[gather:Paradise Fish]]",
+          "Fish [[place:Lake Brontes]] twice: Zarcone's [[item:Giant's Ring]] spends the other fish",
+          "Book Arena Mage every Ch 8 week: White Magic C by Lv 20 for [[class:Priest]]",
+          "Book Arena Heavy every week Ch 9 to 12: Spear B by Ch 12 (Priest trains none)",
+          "Equip [[ability:Spirits' Guidance]] at Lv 20; end turns next to Theodora on mage maps",
+          "Take [[class:Guardian]] on a Part II Ch 1 License; Ch 11 to 12 only at Lv 35 and Spear B",
+          "Hold a [[item:Da Mina Spear]] +2, Short Spear, Hexlock Shield and an Elixir at the end of Ch 12"
+        ],
+        "watch": [
+          "Weight: Da Mina Spear +2 7 + Hexlock Shield 4 = 11; extra 4 of a Guardian's 6.",
+          "Spd: 35 growth (30 as a Soldier). Fast foes double her: she walls, never chases.",
+          "Def as a Priest: 25 growth. Ch 9 to 12 she heals beside the wall, not in front of it.",
+          "Inventory: Part II 5/6 (Da Mina Spear +2, Short Spear, Hexlock Shield, Elixir, Concoction).",
+          "Part III weight: Bronze Spear +4 7 + Hexlock 4 = 11, Giant's Ring Bld +4; Javelin turns 12. Hexlock off first.",
+          "Paradise Fish: [[place:Lake Brontes]] is the only spot; recruit and Giant's Ring need one each."
+        ],
+        "stages": [
+          {
+            "when": "Ch 8: Soldier, Lv 15 to 20",
+            "from": {
+              "part": 1,
+              "ch": 8
+            },
+            "to": {
+              "lv": 20
+            },
+            "why": [
+              "Recruit Ch 8 week 1 (6/1): Support 3, Renown 6, 1 Paradise Fish",
+              "Joins at about Lv 15 in a Beginner class (which one ?): take Soldier if she isn't one",
+              "Seat: alternates the 9th seat with Ultand; dungeon parties fill the gap"
+            ],
+            "level": "About Lv 15 on join (6/1) to 20",
+            "class": "Soldier",
+            "kind": "core",
+            "goal": "Lv 20 with White Magic C for Priest. Spirits' Voice (innate): Hit/Avo +10 when a mage fights her.",
+            "exit": "Lv 20 with White Magic C: Priest exam (75%+) in Ch 9 week 1.",
+            "masteries": [
+              "Defense Basics"
+            ],
+            "weapons": [
+              {
+                "item": "Iron Spear",
+                "why": "Mt 10, Hit 80, Wt 7 at Spear D: the wall's spear; trains Spear",
+                "plan": "In hand from join; Da Mina Spear once Spear C",
+                "alts": [
+                  "Bronze Spear"
+                ]
+              },
+              {
+                "item": "Javelin",
+                "why": "Range 1-2: counters mages and bows on enemy phase"
+              }
+            ],
+            "equipment": [
+              {
+                "item": "Hexlock Shield",
+                "slot": "Defense",
+                "why": "Def +1, Res +5, Wt 4: her anti-mage job",
+                "plan": "The Dione Fort chest copy; Theodora bartered hers",
+                "alts": [
+                  "Iron Shield"
+                ]
+              }
+            ],
+            "items": [
+              {
+                "item": "Vulnerary",
+                "why": "20 HP x3: she joins about 5 levels under the map",
+                "alts": [
+                  "Concoction"
+                ]
+              }
+            ],
+            "arts": [
+              {
+                "name": "Tempest Spear",
+                "why": "Spear D: Mt +4, Hit +10"
+              }
+            ],
+            "abilities": [
+              {
+                "name": "Armored Move",
+                "why": "Heavy D (hers): Mov +1 on a Mov 4 Soldier"
+              },
+              {
+                "name": "Defense Basics",
+                "why": "Soldier mastery, once mastered: Def +1"
+              },
+              {
+                "name": "Spears Lv. 1",
+                "why": "Spear D+: Hit +3 with spears"
+              },
+              {
+                "name": "Threaten",
+                "why": "Authority D: Crit −5 on adjacent foes"
+              },
+              {
+                "name": "Resistant Armor",
+                "why": "Heavy C (hers): Res +5, from Heavy C"
+              }
+            ],
+            "battalion": {
+              "name": "Rookie Vanguard",
+              "why": "Def +2, Cha +3 on the wall; Authority E?",
+              "where": "[[place:Alecto]] or [[place:Raivo Port]] roll, Ch 8",
+              "alts": [
+                "Bronze-Shield Guard"
+              ],
+              "situational": "Fielded once the deploy count allows (count ?)"
+            },
+            "training": [
+              {
+                "rank": "White Magic C",
+                "for": "Priest exam (Lv 20)",
+                "how": "Arena Mage (White, Black, Authority) every Ch 8 week; Soldier trains none"
+              },
+              {
+                "rank": "Heavy C",
+                "for": "Armored Move (D), Resistant Armor (C)",
+                "how": "Soldier trains Armor +1 a fight; Arena Heavy if short"
+              },
+              {
+                "rank": "Spear D+, Authority D",
+                "for": "Spears Lv. 1, Threaten",
+                "how": "Soldier Spear +1 a fight; both Arena courses train Authority"
+              },
+              {
+                "rank": "Spear D+",
+                "for": "Spears Lv. 1",
+                "how": "Arena Mounted; battles with it count too"
+              }
+            ],
+            "tips": [
+              "First dungeons at her level: Dione Fort (Lv 18) for the Hexlock Shield, then Dragonbone Tangle (Lv 20)",
+              "Meal seat: Theodora + Ninae + Ultand, Goat Roast or Cheese-Coated Crayfish (Perfect)",
+              "Joins at Lv 20 already? Skip to the Priest stage"
+            ]
+          },
+          {
+            "when": "Ch 9 to 12: Priest",
+            "from": {
+              "part": 1,
+              "ch": 9,
+              "approx": true
+            },
+            "to": {
+              "part": 1,
+              "ch": 12
+            },
+            "level": "Lv 20 (Ch 9) to about 30–33? by Ch 12",
+            "class": "Priest",
+            "kind": "core",
+            "goal": "Healer next to the wall: doubled Heal, Physic at White B. Spirits' Guidance (Lv 20) covers adjacent allies.",
+            "exit": "Lv 35 with Spear B: Guardian. Short by Ch 12? Part II Ch 1 License.",
+            "masteries": [
+              "Piety"
+            ],
+            "equipment": [
+              {
+                "item": "Healing Staff",
+                "slot": "Accessory",
+                "why": "+10 HP on magic heals, Wt 3",
+                "plan": "Second copy after Sofia's; barter it in Ch 9",
+                "alts": [
+                  "Magic Staff"
+                ]
+              },
+              {
+                "item": "Hexlock Shield",
+                "slot": "Defense",
+                "why": "Res +5, Wt 4: staff + shield = 7, so swap, not stack",
+                "situational": "Mage-heavy maps (Ch 11 Fire Orb side): replaces the Healing Staff",
+                "plan": "Her Soldier-stage copy",
+                "alts": [
+                  "Talisman Shield",
+                  "Spirit Gem"
+                ]
+              }
+            ],
+            "items": [
+              {
+                "item": "Concoction",
+                "why": "40 HP x2: she stands next to the front",
+                "alts": [
+                  "Vulnerary"
+                ]
+              },
+              {
+                "item": "Pure Water",
+                "why": "Res +10, −2 a turn",
+                "situational": "Mage-heavy maps: open slot"
+              }
+            ],
+            "spells": [
+              {
+                "name": "Physic",
+                "why": "White B: range heal, doubled uses in Priest"
+              },
+              {
+                "name": "Heal",
+                "why": "White D: doubled uses"
+              },
+              {
+                "name": "Nosferatu",
+                "why": "White C: her counter at 1-2, heals half the damage"
+              }
+            ],
+            "abilities": [
+              {
+                "name": "Spirits' Guidance",
+                "why": "Lv 20: adjacent allies get Hit/Avo +10 vs magic"
+              },
+              {
+                "name": "Resistant Armor",
+                "why": "Heavy C: Res +5 (no movement tag)"
+              },
+              {
+                "name": "Avoid Fatality",
+                "why": "Infantry D (hers): Ddg +10"
+              },
+              {
+                "name": "Threaten",
+                "why": "Authority D: Crit −5 on adjacent foes"
+              },
+              {
+                "name": "Defense Basics",
+                "why": "Soldier mastery: Def +1"
+              }
+            ],
+            "battalion": {
+              "name": "Fighting Clergy",
+              "why": "Res +2, Lck +1, Cha +4 on the anti-mage healer at Authority D",
+              "where": "[[place:Raivo Port]] or [[place:Ribeira]] roll, Ch 9",
+              "alts": [
+                "Twalinn Sun Squad"
+              ],
+              "situational": "Fielded once the deploy count allows (count ?)"
+            },
+            "training": [
+              {
+                "rank": "Spear B",
+                "for": "Guardian exam (Lv 35)",
+                "how": "Arena Heavy (Spear, Axe, Heavy, Authority) every week; Priest has no spear"
+              },
+              {
+                "rank": "White Magic B",
+                "for": "Physic",
+                "how": "Priest trains White +2 a fight"
+              },
+              {
+                "rank": "Authority C",
+                "for": "Mons Iron Squad",
+                "how": "Arena Heavy and Mage both train it"
+              }
+            ],
+            "checks": [
+              {
+                "stat": "Res",
+                "at": "Ch 11 prep",
+                "need": "A Ch 11 Fire Orb-side mage hits her for under a third of her HP (forecast)",
+                "why": "She is the left side's anti-mage pocket; a Priest grows Def 25",
+                "fix": [
+                  "Swap the Healing Staff for the [[item:Hexlock Shield]]: Res +5",
+                  "[[item:Pure Water]]: Res +10, −2 a turn",
+                  "End beside Sofia: [[ability:Barrier]] Res +3"
+                ]
+              }
+            ],
+            "tips": [
+              "Seat: Ch 11 left (Fire Orb) side with Sofia and Alexandra; Ultand takes the physical maps",
+              "Store the Iron Spear and Javelin: Priest has no spear; Guardian takes a Da Mina Spear",
+              "Ch 12 end: her 6 items are her Part II kit (spear, Short Spear, Hexlock, Elixir, Concoction)",
+              "Guardian unlocks with [[quest:send-supplies-kothar-gar]]: 10 Kothar Gar by 10/24"
+            ],
+            "drop": [
+              {
+                "item": "Iron Spear",
+                "why": "Priest has no spear: Guardian takes a Da Mina Spear"
+              },
+              {
+                "item": "Javelin",
+                "why": "Priest has no spear"
+              },
+              {
+                "item": "Tempest Spear",
+                "why": "Spear art; Priest has no spear"
+              },
+              {
+                "item": "Armored Move",
+                "why": "Soldier stage only; Spirits' Guidance takes the slot"
+              },
+              {
+                "item": "Spears Lv. 1",
+                "why": "No spear in hand: Avoid Fatality takes the slot"
+              }
+            ]
+          },
+          {
+            "when": "Part II to Part III S1: Guardian",
+            "from": {
+              "part": 2,
+              "ch": 1
+            },
+            "to": {
+              "part": 3,
+              "ch": 1
+            },
+            "why": [
+              "Exam: Spear B, Lv 35, Advanced License (Part II gives 5 a chapter)",
+              "Guardian: Spear +3 a fight toward Sentinel's Spear A; Magic Heal +10 on Physic"
+            ],
+            "level": "Lv 33 floor, Guardian after the Ch 1 drills, to about 42",
+            "class": "Guardian",
+            "kind": "core",
+            "goal": "Second wall: Spirits' Guidance+ (Lv 35) covers allies within 2; Physic +10 from the front line.",
+            "exit": "Lv 45 with Spear A in Section 2: Sentinel on a Master License.",
+            "masteries": [
+              "Brace"
+            ],
+            "weapons": [
+              {
+                "item": "Da Mina Spear +2",
+                "why": "Mt ?, Hit 80, Wt 7, Hit +10 on arts: the wall's spear",
+                "plan": "Buy at Spear C, +2 at Renown 10 (Ch 12; ores ?): Ch 12 kit",
+                "alts": [
+                  "Iron Spear +2"
+                ]
+              },
+              {
+                "item": "Short Spear",
+                "why": "Range 1-2: counters mages and Onager archers",
+                "plan": "Ch 12 kit",
+                "alts": [
+                  "Javelin"
+                ]
+              }
+            ],
+            "equipment": [
+              {
+                "item": "Hexlock Shield",
+                "slot": "Defense",
+                "why": "Def +1, Res +5, Wt 4; accessory stays empty (6 cap)",
+                "plan": "Ch 12 kit",
+                "alts": [
+                  "Talisman Shield",
+                  "Spirit Gem"
+                ]
+              }
+            ],
+            "items": [
+              {
+                "item": "Elixir",
+                "why": "100 HP: wall turns; Part II has no shops",
+                "alts": [
+                  "Concoction"
+                ]
+              },
+              {
+                "item": "Concoction",
+                "why": "40 HP: Part II hands one out each chapter"
+              },
+              {
+                "item": "Pure Water",
+                "why": "Res +10, −2 a turn",
+                "situational": "Ch 2 mages and Ch 5 Dagda: slot 6"
+              }
+            ],
+            "arts": [
+              {
+                "name": "Tempest Spear",
+                "why": "Spear D: Mt +4, Hit +10"
+              },
+              {
+                "name": "Defending Spear",
+                "why": "Spear C: Shld +3 on enemy phase"
+              },
+              {
+                "name": "Holy Spear",
+                "why": "Spear B: Mt +8, heals her after combat"
+              }
+            ],
+            "spells": [
+              {
+                "name": "Physic",
+                "why": "White B: range heal +10 (Guardian Magic Heal)"
+              },
+              {
+                "name": "Heal",
+                "why": "Top-up"
+              },
+              {
+                "name": "Nosferatu",
+                "why": "White C: self-heal"
+              }
+            ],
+            "abilities": [
+              {
+                "name": "Spirits' Guidance+",
+                "why": "Lv 35: allies within 2 get Hit/Avo +10 vs magic"
+              },
+              {
+                "name": "Resistant Armor",
+                "why": "Heavy C: Res +5"
+              },
+              {
+                "name": "Brace",
+                "why": "Guardian mastery, once mastered: Prt +3 after a kill"
+              },
+              {
+                "name": "Spears Lv. 2",
+                "why": "Spear C+: Hit +5 with spears"
+              },
+              {
+                "name": "Avoid Fatality",
+                "why": "Infantry D: Ddg +10"
+              }
+            ],
+            "battalion": {
+              "name": "Mons Iron Squad",
+              "why": "Def +3, Res +2, Cha +5 on the anti-mage wall at Authority C",
+              "where": "[[place:Mons]] roll, Ch 10 to 12 (reach ?)",
+              "alts": [
+                "Veteran Sentinels",
+                "Fighting Clergy until Authority C"
+              ],
+              "situational": "Part II carryover ?"
+            },
+            "training": [
+              {
+                "rank": "Spear A",
+                "for": "Sentinel exam (Part III, Lv 45)",
+                "how": "Battle only: Guardian trains Spear +3 a fight; Part II has no Arena"
+              }
+            ],
+            "checks": [
+              {
+                "stat": "Spd",
+                "at": "Part II Ch 1",
+                "need": "Ch 1 cavalry don't double her with the Da Mina Spear +2 and Hexlock on (forecast)",
+                "why": "A doubled wall loses the tile and the aura pocket with it",
+                "fix": [
+                  "End on Thickets (Ch 1 tip): the terrain bonus covers a miss",
+                  "Swap the Hexlock for a lighter shield on physical maps: Wt −1 to −2",
+                  "[[item:Ginji Juice]]: Bld +4 for the map (source ?)"
+                ]
+              }
+            ],
+            "tips": [
+              "Ch 1: center lane beside Theodora; Physic in range of the center",
+              "Ch 2: mage side with Alexandra; the aura covers allies within 2",
+              "Ch 3: chokes with Theodora; she and Sofia carry the Physic",
+              "Ch 6 Lyrah: hold the line while the bows chip the shields"
+            ],
+            "drop": [
+              {
+                "item": "Healing Staff",
+                "why": "Hexlock 4 + staff 3 = 7, over the 6 cap; Guardian heals +10"
+              },
+              {
+                "item": "Spirits' Guidance",
+                "why": "Spirits' Guidance+ replaces it at Lv 35"
+              },
+              {
+                "item": "Threaten",
+                "why": "Brace takes the slot"
+              },
+              {
+                "item": "Defense Basics",
+                "why": "Spears Lv. 2 takes the slot"
+              },
+              {
+                "item": "Javelin",
+                "why": "Short Spear replaces it at Spear C"
+              }
+            ]
+          },
+          {
+            "when": "Part III Section 2+ (Sentinel)",
+            "from": {
+              "part": 3,
+              "ch": 2
+            },
+            "level": "Lv 45+ (Master License)",
+            "class": "Sentinel",
+            "kind": "core",
+            "goal": "Final wall: doubled White Magic, Resolute Stance (Shld +5 at full HP); Guidance+ still covers 2 tiles.",
+            "exit": "Final class.",
+            "why": [
+              "Exam: Spear A, Lv 45, Master License (no temple request)",
+              "Underworld Boon: no sword here; fight within 2 of Eshmel or under Aurora's Blessing Lv 3",
+              "Merge (S2, 300 Karma Shards) if Cai's run recruited her: Theodora copy as base, higher stats and ranks carry"
+            ],
+            "masteries": [
+              "Resolute Stance"
+            ],
+            "weapons": [
+              {
+                "item": "Bronze Spear +4",
+                "why": "Mt ?, Hit 90, Wt 7, Def +2? (Def starts at +3): the wall's spear",
+                "plan": "New copy, +4 without Soulstone; Soulstone for +3 and +4; Da Mina +2 until then",
+                "alts": [
+                  "Da Mina Spear +2",
+                  "Iron Spear +4"
+                ]
+              },
+              {
+                "item": "Javelin +3",
+                "why": "Mt 15 (10 at +2), Wt 8, range 1-2, Avo +10 at 2+: mage counters",
+                "plan": "Soulstone queue",
+                "alts": [
+                  "Javelin +2",
+                  "Short Spear"
+                ]
+              }
+            ],
+            "equipment": [
+              {
+                "item": "Hexlock Shield",
+                "slot": "Defense",
+                "why": "Def +1, Res +5, Wt 4: dark-mage gates",
+                "plan": "Keep it",
+                "alts": [
+                  "Talisman Shield",
+                  "Spirit Gem"
+                ]
+              },
+              {
+                "item": "Giant's Ring",
+                "slot": "Accessory",
+                "why": "Bld +4, Wt 0: pays for the Hexlock; a wall gives up Avo −20",
+                "plan": "Niraga Mine chest copy (Part III)",
+                "alts": [
+                  "Healing Staff"
+                ]
+              }
+            ],
+            "items": [
+              {
+                "item": "Elixir",
+                "why": "100 HP: wall turns",
+                "alts": [
+                  "Concoction"
+                ]
+              },
+              {
+                "item": "Pure Water",
+                "why": "Res +10, −2 a turn",
+                "situational": "Dark-mage gates: open slot"
+              }
+            ],
+            "arts": [
+              {
+                "name": "Brilliant Strike",
+                "why": "Spear A: Mt +5, Rsl +7 after a kill"
+              },
+              {
+                "name": "Holy Spear",
+                "why": "Spear B: Mt +8, self-heal"
+              },
+              {
+                "name": "Defending Spear",
+                "why": "Spear C: Shld +3"
+              },
+              {
+                "name": "Tempest Spear",
+                "why": "Spear D: Mt +4, Hit +10"
+              }
+            ],
+            "spells": [
+              {
+                "name": "Physic",
+                "why": "White B: doubled again as a Sentinel"
+              },
+              {
+                "name": "Heal",
+                "why": "Top-up"
+              },
+              {
+                "name": "Nosferatu",
+                "why": "White C: self-heal"
+              },
+              {
+                "name": "Ward",
+                "why": "White A?: Res +10 to an ally (single source)"
+              }
+            ],
+            "abilities": [
+              {
+                "name": "Spirits' Guidance+",
+                "why": "Lv 35: allies within 2 get Hit/Avo +10 vs magic"
+              },
+              {
+                "name": "Resolute Stance",
+                "why": "Sentinel mastery, once mastered: Shld +5 at full HP"
+              },
+              {
+                "name": "Resistant Armor",
+                "why": "Heavy C: Res +5"
+              },
+              {
+                "name": "Brace",
+                "why": "Guardian mastery: Prt +3 after a kill"
+              },
+              {
+                "name": "Spears Lv. 4",
+                "why": "Spear A+ (Sentinel Spear +4 a fight): Hit/Avo +7"
+              }
+            ],
+            "battalion": {
+              "name": "Mons Iron Squad",
+              "why": "Def +3, Res +2, Cha +5 on the dark-mage wall",
+              "where": "Held since Part I",
+              "alts": [
+                "Silver-Shield Guard at Authority B"
+              ],
+              "situational": "Part III: from storage (medium confidence)"
+            },
+            "tips": [
+              "Pocket: within 2 of Sofia, Sirocco and Bonaventure; Theodora's Cloth adds Res +3 from S5",
+              "Breza (S2): undead under Aurora Lv 3 or within 2 of Eshmel; Tobias's Evilbreak strips the rest",
+              "Hanno (fog): she anchors the second half with Physic; Ultand diagonal (Ddg +20)",
+              "Balor west: Physic on the gate breakers (Theodora, Bonaventure, Mu, Catania)"
+            ],
+            "drop": [
+              {
+                "item": "Avoid Fatality",
+                "why": "Resolute Stance takes the slot"
+              },
+              {
+                "item": "Spears Lv. 2",
+                "why": "Spears Lv. 4 replaces it at Spear A+"
+              },
+              {
+                "item": "Concoction",
+                "why": "Elixir and Pure Water; Part III shops restock"
+              },
+              {
+                "item": "Da Mina Spear +2",
+                "why": "Bronze Spear +4 (Hit 90, Def +2?) takes over"
+              },
+              {
+                "item": "Short Spear",
+                "why": "Javelin: Wt 8 vs 10, Avo +10 at range 2"
+              }
+            ],
+            "training": [
+              {
+                "rank": "White Magic A",
+                "for": "Ward",
+                "how": "Arena Mage; battles with it count too"
+              }
+            ]
+          }
+        ],
+        "alt": "Spear A late in Part III: stay Guardian with this kit (it holds the same spear, Physic and Brace) until it lands.",
+        "routeNotes": [
+          {
+            "system": "Supports",
+            "note": "Partners here: Lysander, Sirocco and Simon. Meal seat with the Support-3 queue: Theodora + Ninae + Ultand (Goat Roast or Cheese-Coated Crayfish is Perfect)."
+          },
+          {
+            "system": "Battalions & Gambits",
+            "note": "Infantry the whole way, so she carries one every stage: Def and Res squads, upgraded as Authority rises (E Ch 8, D Ch 9, C by Ch 12). Theodora and the casters field theirs first if the deploy count is short."
+          },
+          {
+            "system": "Gathering",
+            "note": "[[place:Lake Brontes]] (Saveilon) is the only Paradise Fish spot: one for her recruit, one for Zarcone's Giant's Ring at the Alecto counter (Ch 6). Yield per visit ?"
+          }
+        ],
+        "decisions": [
+          {
+            "topic": "Recruit her Ch 8 week 1",
+            "pick": "6/1, once Support 3 and Renown 6 land and the fish is in hand",
+            "why": "Ch 8 to 12 dungeons and Arena weeks take her from Lv 15 to Priest and bank White C and Spear B. A Ch 10 join (Lv 25) auto-levels on personal growths and leaves her ranks near where they were.",
+            "else": "Support 3 late: recruit the week it lands"
+          },
+          {
+            "topic": "Take Guardian in Part II Ch 1",
+            "pick": "Priest to the end of Part I; Guardian on a Part II Ch 1 License",
+            "why": "She shares the 9th seat with Ultand, so she ends Part I around Lv 30 to 33, short of 35. Part I's Advanced Licenses go to the core 7 to 8 first; Part II hands out 5 a chapter.",
+            "else": "Lv 35 and Spear B by Ch 11 or 12: take it then"
+          },
+          {
+            "topic": "Skip the Bishop stint",
+            "pick": "Guardian through all of Part II",
+            "why": "Sofia already holds Barrier and doubled Physic. Guardian trains Spear +3 a fight, the only Part II source of Sentinel's Spear A; a Bishop stint trains none and drops the shield wall."
+          },
+          {
+            "topic": "End as a Sentinel",
+            "pick": "Sentinel in Section 2 at Lv 45 with Spear A",
+            "why": "Spear A comes from Guardian battles, needs no temple request, and keeps her on the wall with doubled White Magic. War Monk needs Gauntlet B and Aurora's request (Section 3) and drops the shield.",
+            "else": "Spear A short at Lv 45: stay Guardian"
+          }
+        ],
+        "finalists": {
+          "stats": [
+            "HP",
+            "Def",
+            "Res",
+            "Spd"
+          ],
+          "options": [
+            {
+              "class": "Priest",
+              "use": "Ch 9 to 12",
+              "note": "Doubled Heal and Physic while Spear B builds; Def −10"
+            },
+            {
+              "class": "Guardian",
+              "use": "Part II to Part III S1",
+              "note": "Spear +3 a fight, Magic Heal +10, Brace; Res +15"
+            },
+            {
+              "class": "Sentinel",
+              "use": "Part III S2+",
+              "note": "HP/Str +15, doubled White Magic, Resolute Stance"
+            },
+            {
+              "class": "Bishop",
+              "note": "No spear or shield wall; Sofia holds Barrier already"
+            },
+            {
+              "class": "War Monk",
+              "note": "Gauntlet B and Aurora's request; drops the spear and shield"
+            }
+          ]
+        },
+        "gates": [
+          {
+            "route": "Theodora",
+            "from": {
+              "part": 1,
+              "ch": 4
+            },
+            "by": {
+              "part": 1,
+              "ch": 8
+            },
+            "kind": "recruit",
+            "text": "Support 3 by 6/1 (meals from Ch 4), Renown 6, 1 Paradise Fish: recruit Ch 8 week 1"
+          },
+          {
+            "route": "Theodora",
+            "from": {
+              "part": 1,
+              "ch": 6
+            },
+            "by": {
+              "part": 1,
+              "ch": 8
+            },
+            "kind": "item",
+            "text": "Fish Lake Brontes twice: 1 Paradise Fish for her, 1 for Zarcone's Giant's Ring"
+          },
+          {
+            "route": "Theodora",
+            "from": {
+              "part": 1,
+              "ch": 8
+            },
+            "by": {
+              "part": 1,
+              "ch": 9
+            },
+            "kind": "rank",
+            "text": "White Magic C by Lv 20 (Arena Mage every Ch 8 week): Priest exam in Ch 9 week 1"
+          },
+          {
+            "route": "Theodora",
+            "from": {
+              "part": 1,
+              "ch": 9
+            },
+            "by": {
+              "part": 1,
+              "ch": 12
+            },
+            "kind": "rank",
+            "text": "Spear B by the end of Ch 12 (Arena Heavy weekly): Guardian on a Part II Ch 1 License"
+          },
+          {
+            "route": "Theodora",
+            "from": {
+              "part": 1,
+              "ch": 9
+            },
+            "by": {
+              "part": 1,
+              "ch": 12
+            },
+            "kind": "item",
+            "text": "Send 10 Kothar Gar by 10/24 (Ch 9 Send Supplies): it unlocks Guardian on this route"
+          }
+        ],
+        "sources": [
+          "class-data",
+          "character-learnsets",
+          "equippable-abilities",
+          "combat-arts-and-abilities",
+          "weapons-and-items",
+          "battalions",
+          "dishes",
+          "player-pacing-and-recruit-items",
+          "recruitment-by-path",
+          "part2-war",
+          "part3-salvation"
+        ]
+      }
+    }
+  ]
+}

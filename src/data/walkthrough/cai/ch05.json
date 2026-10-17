@@ -1,0 +1,354 @@
+{
+  "route": "Cai",
+  "ch": 5,
+  "name": "Cai's Battle",
+  "free": {
+    "from": "3/15",
+    "to": "4/10"
+  },
+  "unlocks": [
+    "Beginner exams (Temple Row, first Hightown visit)",
+    "Stable and Luring (Cai only)",
+    "Shrine prayers"
+  ],
+  "routine": {
+    "meals": [
+      {
+        "week": "Week 1",
+        "tables": [
+          [
+            "Cai",
+            "Seteth",
+            "Ninae"
+          ],
+          [
+            "Cai",
+            "Mikaela",
+            "Seteth"
+          ],
+          [
+            "Cai",
+            "Mikaela",
+            "Majide"
+          ]
+        ],
+        "note": "First meal for Majide."
+      },
+      {
+        "week": "Week 2",
+        "tables": [
+          [
+            "Cai",
+            "Seteth",
+            "Ninae"
+          ],
+          [
+            "Cai",
+            "Mikaela",
+            "Seteth"
+          ],
+          [
+            "Cai",
+            "Mikaela",
+            "Ninae"
+          ]
+        ],
+        "note": "Pushes the Support 3 trio."
+      },
+      {
+        "week": "Week 3",
+        "tables": [
+          [
+            "Cai",
+            "Seteth",
+            "Ninae"
+          ],
+          [
+            "Cai",
+            "Mikaela",
+            "Majide"
+          ],
+          [
+            "Cai",
+            "Mikaela",
+            "Ninae"
+          ]
+        ],
+        "note": "Majide toward Support 2."
+      },
+      {
+        "week": "Week 4 (if any)",
+        "tables": [
+          [
+            "Cai",
+            "Seteth",
+            "Ninae"
+          ],
+          [
+            "Cai",
+            "Mikaela",
+            "Seteth"
+          ],
+          [
+            "Cai",
+            "Mikaela",
+            "Ninae"
+          ]
+        ],
+        "note": "Repeat week 2."
+      }
+    ],
+    "gifts": [
+      {
+        "unit": "Mikaela",
+        "gift": "Volcano Ghosh (sold out: Common Coffee, 90G, same stall)",
+        "where": "Gift Vendor, Lowtown Tavern",
+        "cost": "135G"
+      },
+      {
+        "unit": "Seteth",
+        "gift": "Common Coffee",
+        "where": "Gift Vendor, Lowtown Tavern",
+        "cost": "90G"
+      },
+      {
+        "unit": "Majide",
+        "gift": "Young Ghosh",
+        "where": "Gift Vendor, Lowtown Tavern",
+        "cost": "45G"
+      },
+      {
+        "unit": "Ninae",
+        "gift": "None confirmed in Dagsion: meals only for now",
+        "where": "—"
+      },
+      {
+        "unit": "Fianna",
+        "gift": "A pastry the week Map > People shows her, then Volcano Ghosh",
+        "where": "Gift Vendor, Lowtown Tavern",
+        "cost": "27G, then 135G"
+      },
+      {
+        "unit": "Sirocco",
+        "gift": "A pastry the week Map > People shows him, then Volcano Ghosh",
+        "where": "Gift Vendor, Lowtown Tavern",
+        "cost": "27G, then 135G"
+      }
+    ],
+    "weekly": [
+      {
+        "text": "Start shrine prayers this chapter: each god on its bonus day",
+        "detail": [
+          "Aurora Mon · Mars Tue · Smyrnos Wed · Jurah Thu · Kalla Fri · Credna Sat.",
+          "Community pick: Kalla first, then Credna Lv 1 before the Ch 9 fog map."
+        ]
+      }
+    ]
+  },
+  "missables": [
+    {
+      "id": "cai-ch05-missables-more-fabled-insect-pearls",
+      "kind": "item",
+      "quest": "more-fabled-insect-pearls",
+      "text": "Finish [[quest:more-fabled-insect-pearls]] in Ch 5: its 4/20 deadline is Ch 6's first day",
+      "when": "by 4/20",
+      "lose": "8,000G and the Ch 9 pearl follow-up",
+      "recover": "None"
+    },
+    {
+      "id": "cai-ch05-missables-fate-of-the-expedition",
+      "kind": "item",
+      "quest": "fate-of-the-expedition",
+      "text": "Finish [[quest:fate-of-the-expedition]] in Ch 5: its 4/20 deadline is Ch 6's first day",
+      "when": "by 4/20",
+      "lose": "The Lucky Coin reward",
+      "recover": "None"
+    }
+  ],
+  "classes": {
+    "note": {
+      "text": "Train Cai for [[class:Armored Ornius Rider]] first: Specialty opens in Ch 6 (Renown 4, about Lv 20)"
+    }
+  },
+  "gear": {
+    "buy": [
+      {
+        "text": "Buy a [[item:Javelin]] and a [[item:Hand Axe]]"
+      },
+      {
+        "text": "Buy Wooden weapons (300G) as refine projects for the Ch 6 Blacksmith",
+        "detail": [
+          "[[item:Wooden Spear]]: Cai, Seteth, Ninae · [[item:Wooden Sword]]: Guzran, Mikaela.",
+          "[[item:Wooden Axe]]: Majide, Nydine, Jasmine.",
+          "[[item:Wooden Gauntlets]]: Tialla, Noctula, Ultand."
+        ]
+      },
+      {
+        "text": "Buy Cai's [[item:Da Mina Spear]] at the Megaira Armory (Saveilon) instead of bartering"
+      },
+      {
+        "text": "Buy 2× [[item:Bronze Axe]] for Nydine now, so she can join at Renown 6 (late Ch 7)",
+        "detail": [
+          "Sold at the weapon shop?"
+        ],
+        "conf": "?"
+      }
+    ]
+  },
+  "recruits": [],
+  "quests": {
+    "route": [
+      {
+        "quest": "a-peculiar-message",
+        "detail": [
+          "One woman is on the lower street west of the east gate.",
+          "The other is at the fountain behind the wall."
+        ]
+      },
+      {
+        "quest": "hidden-memories"
+      },
+      {
+        "quest": "request-to-capture-orniuses",
+        "note": "Two of Cai's three Wild Ornius catches at [[place:Elissa Pass]] go here"
+      },
+      {
+        "quest": "terrain-tips",
+        "note": "Castor's mentorship: the [[item:Bolt Gem]] waits for Majide's Part II kit (anti-armor)"
+      }
+    ],
+    "sub": [
+      {
+        "quest": "more-fabled-insect-pearls"
+      },
+      {
+        "quest": "fate-of-the-expedition"
+      },
+      {
+        "quest": "find-fellowship-at-the-temples",
+        "note": "Bulletin: Ginji and 10 Renown"
+      },
+      {
+        "quest": "behelda-axes",
+        "offered": "if-offered"
+      },
+      {
+        "quest": "primal-crystal",
+        "offered": "if-offered"
+      },
+      {
+        "quest": "sinister-sacrifices",
+        "offered": "if-offered"
+      },
+      {
+        "quest": "petals-of-encouragement",
+        "offered": "if-offered"
+      }
+    ],
+    "paralogue": []
+  },
+  "explore": [
+    {
+      "group": "Farming and Stable",
+      "text": "Plant [[gather:Linaria]] and Coffee Berries, Zang or Pongo the day the farm opens",
+      "detail": [
+        "You need 20 Linaria by 9/1 and 30 of the others by 11/27.",
+        "Farm not open yet? Plant on the first day of Ch 6."
+      ],
+      "conf": "?"
+    },
+    {
+      "group": "Farming and Stable",
+      "text": "Do the Stables and Luring tutorial near the port"
+    },
+    {
+      "group": "Farming and Stable",
+      "text": "Catch three [[mount:Wild Ornius]] for Cai at [[place:Elissa Pass]] with fish bait (Paired Run)",
+      "detail": [
+        "Two go to Request to Capture Orniuses.",
+        "Hard-save on the tile before each lure; reload if the catch misses Paired Run.",
+        "Ferghanan Horses and Monoceros wait until Sunfall Path and Oleance Plains open: Mounts tab (T)."
+      ]
+    },
+    {
+      "group": "Farming and Stable",
+      "text": "Feed every mount once a day with its favourite taste: no Turn cost, fastest bond"
+    },
+    {
+      "group": "Farming and Stable",
+      "text": "Release spare catches for items: higher bond gives more"
+    },
+    {
+      "group": "Spare Turns · gather for Vandahl barters (Dagsion Port), nearest first",
+      "text": "[[place:Sunlit Pass]] (Amalthea): Ginji ×10 for Peter's [[item:Longbow]]"
+    },
+    {
+      "group": "Spare Turns · gather for Vandahl barters (Dagsion Port), nearest first",
+      "text": "[[place:Gaura Grassland]] (Amalthea): Zamir ×1 for Sirocco's [[item:Magic Staff]]"
+    },
+    {
+      "group": "Spare Turns · gather for Vandahl barters (Dagsion Port), nearest first",
+      "text": "[[place:Daybreak Plains]] (Elektra): Noa Fruit ×1, Thry Fruit ×10",
+      "detail": [
+        "Noa Fruit: Guzran's [[item:Flyssa]]. Thry Fruit: Cai's [[item:Levin Sword]]."
+      ]
+    },
+    {
+      "group": "Spare Turns · gather for Vandahl barters (Dagsion Port), nearest first",
+      "text": "[[place:Cape Damasen]] (Castalia): Miranilla ×5, Yuna Mei ×1",
+      "detail": [
+        "Miranilla: Noctula's [[item:Da Mina Gauntlets]]. Yuna Mei: Cai's Levin Sword."
+      ]
+    },
+    {
+      "group": "Spare Turns · gather for Vandahl barters (Dagsion Port), nearest first",
+      "text": "[[place:Mount Ouranos]] (Saveilon): Cadam ×5 for Peter's Longbow"
+    },
+    {
+      "group": "Spare Turns · gather for Vandahl barters (Dagsion Port), nearest first",
+      "text": "Take Dates ×15 and Shaktoh ×3 from Cai's farm"
+    },
+    {
+      "group": "Spare Turns · gather for Vandahl barters (Dagsion Port), nearest first",
+      "text": "Find Roca ×5 and Soldanella ×3 in shops or crates: no gather spot on this route",
+      "detail": [
+        "Roca: Tialla's Resistant Gauntlets. Soldanella: Noctula's Phantom Ring."
+      ],
+      "conf": "?"
+    },
+    {
+      "group": "Spare Turns · support run",
+      "id": "cai-ch05-explore-rubess-forest",
+      "loot": true,
+      "text": "Run [[place:Rubess Forest]] (Lv 9, Melias) with this week's meal pairs"
+    }
+  ],
+  "battle": {
+    "title": "Qualifier vs. Thundercloud Knights",
+    "objective": "Defeat Benditz",
+    "lose": "Cai, Dietrich or Anatolia falls",
+    "guests": [
+      "Dietrich",
+      "Anatolia"
+    ],
+    "tips": [
+      {
+        "text": "Split into a clockwise team and a counter-clockwise team"
+      },
+      {
+        "text": "Dietrich and Anatolia can both heal: keep them alive"
+      },
+      {
+        "text": "Topple pillars to slow the chariots; use magic on the armor"
+      }
+    ],
+    "loot": [
+      {
+        "text": "[[item:Zanbato]] in the southeast chest: Guzran's, effective against cavalry"
+      },
+      {
+        "text": "[[item:Iron Shield]] in the northwest chest"
+      }
+    ]
+  }
+}

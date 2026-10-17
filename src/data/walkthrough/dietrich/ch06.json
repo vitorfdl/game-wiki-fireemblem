@@ -1,0 +1,254 @@
+{
+  "route": "Dietrich",
+  "ch": 6,
+  "name": "Instinct and Reason",
+  "free": {
+    "from": "5/4",
+    "to": "5/28"
+  },
+  "unlocks": [
+    "Specialty exams (Renown 4)",
+    "Blacksmith (weapon upgrades)",
+    "Vandahl Trading Company",
+    "Search"
+  ],
+  "routine": {
+    "meals": [
+      {
+        "week": "Every Sunday",
+        "tables": [
+          [
+            "Dietrich",
+            "Jester",
+            "Olympia"
+          ],
+          [
+            "Dietrich",
+            "Ursula",
+            "Jester"
+          ],
+          [
+            "Dietrich",
+            "Goliath",
+            "Simon"
+          ]
+        ],
+        "note": "Jester and Olympia toward Support 3 (Renown 6, usually Ch 8). Dishes: Madazins, Coffee-Berry Paste, Goat Roast"
+      }
+    ],
+    "gifts": [
+      {
+        "unit": "Ursula",
+        "gift": "Coffee Pastry (first gift), then Common Coffee or Eastern Love Story",
+        "where": "Lowtown Tavern, or Midtown Arcade",
+        "cost": "27G, then 90G or 300G",
+        "until": "Support 3 (September)"
+      },
+      {
+        "unit": "Jester",
+        "gift": "Strong Seasonings",
+        "where": "Midtown Arcade",
+        "cost": "180G",
+        "until": "Support 3"
+      },
+      {
+        "unit": "Olympia",
+        "gift": "Orgus Coffee",
+        "where": "Lowtown Tavern",
+        "cost": "135G",
+        "until": "Support 3"
+      },
+      {
+        "unit": "Goliath",
+        "gift": "Any pastry first, then Volcano Ghosh",
+        "where": "Lowtown Tavern, then Barsk Post Town (Thaleia)",
+        "cost": "27G, then 135G",
+        "until": "Support 3"
+      },
+      {
+        "unit": "Simon",
+        "gift": "Any pastry first, then Protection Figurine",
+        "where": "Lowtown Tavern, then Midtown Arcade",
+        "cost": "27G, then 200G",
+        "until": "Support 3"
+      }
+    ]
+  },
+  "missables": [
+    {
+      "id": "dietrich-ch06-missables-alexandra-scenes",
+      "kind": "scene",
+      "text": "Watch Alexandra's optional scene in City Streets, then its follow-up in Lowtown",
+      "where": "City Streets, then Lowtown",
+      "lose": "Both scenes",
+      "recover": "None",
+      "task": true
+    }
+  ],
+  "classes": {
+    "note": {
+      "text": "Take each Specialty exam near Lv 20 at 75% or better; anyone short of Lv 20 takes it in Ch 7"
+    },
+    "override": [
+      {
+        "unit": "Io",
+        "text": "Ch 7 is fine if his Sword is behind or he joined late"
+      }
+    ]
+  },
+  "gear": {
+    "assign": [
+      {
+        "item": "Gale Ring",
+        "to": "Dietrich",
+        "why": "Barter Enrietto ×10 at Vandahl, Alecto; else an Archer's Ring"
+      },
+      {
+        "item": "Giant's Ring",
+        "to": "Mikaela",
+        "why": "Paradise Fish ×1?, Vandahl Alecto. Only one? Esmeralda wears Archer's"
+      },
+      {
+        "item": "Hexlock Shield",
+        "to": "Esmeralda",
+        "why": "Dione Fort chest: heavy kit is fine on an armor"
+      }
+    ],
+    "buy": [
+      {
+        "text": "Buy for armored and cavalry foes: [[item:Halberd]], [[item:Flyssa]], [[item:Ji]], [[item:Hammer]]"
+      }
+    ],
+    "note": [
+      {
+        "text": "Upgrade your main weapons at the Blacksmith: usually cheaper than buying new ones"
+      }
+    ]
+  },
+  "recruits": [
+    {
+      "unit": "Io",
+      "action": "Pay 800G at Support 2 and Renown 3 if Renown 3 came after 4/30",
+      "when": "First days of Ch 6"
+    },
+    {
+      "unit": "Kiroc",
+      "action": "Hand over 3 [[item:Pure Water]] once Renown 4 lands",
+      "when": "Ch 6 (in Dagsion from about 5/4; not missable)",
+      "detail": [
+        "Pure Water: 500G each at the Dagsion Item Shop; [[place:Cave Behind the Falls]] has one in a chest.",
+        "Joins at about Lv 15 as a Hunter; if he arrives in another class, take the Hunter exam."
+      ]
+    }
+  ],
+  "prep": [
+    {
+      "text": "Start Ursula's Support now: she needs Support 3 in September (Talimun's Paralogue, Ch 9)",
+      "detail": [
+        "She runs the Vandahl Trading Company, which opens this chapter.",
+        "Seat her at one meal every Sunday."
+      ]
+    },
+    {
+      "text": "Gift Jester, Goliath, Simon and Olympia once Map > People shows them in Dagsion: all need Support 3",
+      "detail": [
+        "They join at Renown 6 and 7 (Ch 8) at about Lv 15, but Support 3 takes weeks."
+      ]
+    }
+  ],
+  "quests": {
+    "route": [
+      {
+        "quest": "dread-warrior-sepente",
+        "note": "Take it now at [[place:Corroios Fort Ruins]]: it pushes you from Renown 4 toward 5"
+      },
+      {
+        "quest": "dread-warrior-aguirre",
+        "note": "If you missed him in Ch 5: Renown 3, [[place:Rubess Forest]]"
+      }
+    ],
+    "sub": [
+      {
+        "quest": "defeat-aguinos-thieves",
+        "note": "Keep the Jyoppa ×5: A Taste from Home (Ch 7) wants it"
+      },
+      {
+        "quest": "a-taste-of-nostalgia",
+        "note": "Sandworm Meat: the desert farm opens in Ch 8, so try animal fights and Luxury Meat Crates now"
+      },
+      {
+        "quest": "soil-survey",
+        "note": "No rush"
+      },
+      {
+        "quest": "energy-nuts",
+        "note": "No rush"
+      }
+    ],
+    "paralogue": []
+  },
+  "explore": [
+    {
+      "group": "Dungeons (up to Lv 20)",
+      "id": "dietrich-ch06-explore-dione-fort",
+      "loot": true,
+      "text": "[[place:Dione Fort]]: Hexlock Shield for Esmeralda, Flying Manual for Catania",
+      "detail": [
+        "Also a Concoction and Dual Fish Knives.",
+        "You come back here for Il-Lara in Ch 8."
+      ]
+    },
+    {
+      "group": "Dungeons (up to Lv 20)",
+      "id": "dietrich-ch06-explore-masked-woods",
+      "loot": true,
+      "text": "[[place:Masked Woods]]: Heavy-Armor Manual (Esmeralda or Goliath), Venin Bow, Veroquine (sword)"
+    },
+    {
+      "group": "Dungeons (up to Lv 20)",
+      "id": "dietrich-ch06-explore-valhalla-mine",
+      "loot": true,
+      "text": "[[place:Valhalla Mine]]: Azaga's Bow for Kiroc, Large Bullion, Antitoxin"
+    },
+    {
+      "group": "Dungeons (up to Lv 20)",
+      "id": "dietrich-ch06-explore-hundred-hole-cave",
+      "loot": true,
+      "text": "[[place:Hundred-Hole Cave]]: Poisonbane Gem, Venin Edge, Bullion"
+    },
+    {
+      "group": "Dungeons (up to Lv 20)",
+      "id": "dietrich-ch06-explore-fort-hayn",
+      "loot": true,
+      "text": "[[place:Fort Hayn]]: Dew of Peace, Axebreak Amulet",
+      "detail": [
+        "You come back here for Camilo in Ch 7."
+      ]
+    }
+  ],
+  "battle": {
+    "title": "Qualifier vs. Silver Knights of Tellus",
+    "objective": "Defeat Alexandra",
+    "lose": "Leda, Dietrich or Theodora falls",
+    "guests": [
+      "Leda",
+      "Theodora"
+    ],
+    "tips": [
+      {
+        "text": "Let the enemy come to you instead of charging"
+      },
+      {
+        "text": "Scripted Bursts drain Theodora's HP partway through: keep her healed"
+      }
+    ]
+  },
+  "exitExtra": [
+    {
+      "text": "Recruit Kiroc, or have 3 Pure Water ready for the day Renown 4 lands"
+    },
+    {
+      "text": "Keep Ursula in a Sunday meal every week"
+    }
+  ]
+}

@@ -1,0 +1,712 @@
+{
+  "name": "Jester",
+  "slug": "jester",
+  "epithet": "The Jester from Hell",
+  "faction": "Bertrand's Army",
+  "homeRoute": "Dietrich",
+  "weapons": [
+    "Sword",
+    "Bow"
+  ],
+  "preferred": [
+    "Bow",
+    "Infantry",
+    "Sword"
+  ],
+  "avoid": [
+    "Axe"
+  ],
+  "personality": "An erratic, unstable gladiator who hides behind clown makeup and feeds on his opponents' fear.",
+  "story": "Jester is a masked gladiator in Bertrand's Army who enjoys terrifying crowds and values the entertainment Bertrand provides. Recruiting him takes Support 3, Renown 6-10 depending on route, and a three-quest chain: Bale Lacerators (Dada Plains), Gorpse-Gaol Dunanzao (Fort Theed), and Underworld Wanderers (Whispering Rock, deadline 27/11).",
+  "personalSkill": {
+    "name": "Blink of an Eye",
+    "effect": "Grants Def +3 until the unit's next phase after using Swap. Lv 20: Flickering Edge (Atk +3 during combat after evading); Lv 35: Flickering Edge+ (Atk +5)."
+  },
+  "growths": {
+    "HP": 40,
+    "Str": 35,
+    "Mag": 15,
+    "Spd": 60,
+    "Dex": 45,
+    "Def": 35,
+    "Res": 25,
+    "Lck": 40,
+    "Cha": 40
+  },
+  "supports": [
+    "Buccar",
+    "Dante",
+    "Goliath",
+    "Halvin",
+    "Leda",
+    "Mikaela",
+    "Peter"
+  ],
+  "tiers": [
+    {
+      "source": "Pocket Tactics",
+      "tier": "B"
+    },
+    {
+      "source": "KeenGamer",
+      "tier": "B"
+    }
+  ],
+  "tierNotes": "Pocket Tactics: B. KeenGamer: B (strong Spd, but costly recruitment and positioning-dependent).",
+  "recruit": {
+    "how": "recruit",
+    "support": 3,
+    "renown": 6,
+    "extra": "3 short quests",
+    "why": [
+      "Support 3 ties with Cai, Theodora, Leda, but Renown 6 here is the earliest."
+    ],
+    "tip": "Three short quests."
+  },
+  "requirements": {
+    "Cai": "3S 10R",
+    "Dietrich": "3S 6R",
+    "Theodora": "3S 9R",
+    "Leda": "3S 10R"
+  },
+  "build": {
+    "role": "Evasive bow and sword skirmisher",
+    "path": [
+      "Hunter",
+      "Rogue",
+      "Ranger"
+    ],
+    "part1Target": "Rogue (Ranger in Part II Ch 1)",
+    "part3Target": "Shadow Seeker",
+    "notes": "Joins at about Lv 15 in a Beginner class (Hunter; Ch 8), then Rogue at Lv 20 (Bow C, Sword C). Recruited in Ch 10+ he joins at about Lv 25 as a Myrmidon with a Levin Sword instead. Ranger in Part II Ch 1 (Lv 35, Bow B, Sword B; beat Oko in Part I). Master In Shadow (Avo +10 after a kill), then Countershot. Flickering Edge rewards dodging. Teach Secrets still copies Dietrich's sword arts. Carry a Mini Bow for range-1 bow counters.",
+    "confidence": "medium"
+  },
+  "guide": {
+    "summary": "Evasive bow and sword skirmisher with 60 Spd growth. Rogue through Part I, Ranger from Part II Ch 1 (Oko unlocks it); dodge to fuel Flickering Edge and chain kills for In Shadow.",
+    "stages": [
+      {
+        "when": "Join (Ch 8, Lv 15) to Lv 20",
+        "from": {
+          "part": 1,
+          "ch": 8
+        },
+        "to": {
+          "lv": 20
+        },
+        "class": "Hunter",
+        "training": [
+          {
+            "rank": "Bow C, Sword C",
+            "for": "Rogue exam",
+            "how": "Arena Infantry Training (covers both)"
+          }
+        ],
+        "tips": [
+          "Cleansing Blade is light (Wt 3) and cancels Underworld Boon",
+          "Rogue Locktouch opens chests without keys in dungeons",
+          "Not on the 8-unit Part I Advanced list: stay Rogue through Ch 12, but still beat Oko (Renown 10) to unlock Ranger",
+          "Kalla Blessing (Avo +50) fits his dodge build",
+          "Timing option: recruited in Ch 10 or later he joins at about Lv 25 as a Myrmidon and brings a Levin Sword, which makes Dietrich's Vandahl Levin Sword barter optional. You lose him for Ch 8 to 9 and Myrmidon doesn't train Bow, so this plan recruits him in Ch 8"
+        ],
+        "weapons": [
+          {
+            "item": "Iron Sword",
+            "why": "Sword EXP toward Rogue until the Cleansing Blade (9/18)"
+          },
+          {
+            "item": "Da Mina Bow",
+            "why": "Bow arts (Warning Shot, Leg Shot); Hit +10 on arts",
+            "alts": [
+              "Iron Bow"
+            ]
+          }
+        ],
+        "equipment": [
+          {
+            "item": "Phantom Ring",
+            "slot": "Accessory",
+            "plan": "Avo +5"
+          }
+        ],
+        "items": [
+          {
+            "item": "Concoction",
+            "why": "40 HP x2; Part II stock",
+            "alts": [
+              "Vulnerary"
+            ]
+          }
+        ],
+        "arts": [
+          {
+            "name": "Haze Slice",
+            "why": "Avo +10; Sword D per community sheet"
+          },
+          {
+            "name": "Hidden Twinblade",
+            "why": "Teach Secrets once Dietrich beats Cabaye (Renown 7); Ddg +20"
+          },
+          {
+            "name": "Warning Shot",
+            "why": "Avo +10 bow art; Bow D per community sheet"
+          },
+          {
+            "name": "Destreza",
+            "why": "Atk +5, Crit +10 vs foes at 50% HP; Sword C per community sheet"
+          },
+          {
+            "name": "Leg Shot",
+            "why": "Avo -20 on the foe; Bow C per community sheet"
+          },
+          {
+            "name": "Hidden Flowform",
+            "why": "Teach Secrets; Avo +20 and a follow-up"
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Hunting Basics",
+            "why": "Hunter mastery, Dex/Spd +1, once mastered"
+          },
+          {
+            "name": "Swords Lv. 1",
+            "why": "Hit +3 with swords (Sword D+)"
+          },
+          {
+            "name": "Bows Lv. 1",
+            "why": "Hit +3 with bows (Bow D+)"
+          }
+        ],
+        "goal": "Joins at about Lv 15 as a Beginner: train Bow and Sword in the Arena (Infantry) toward Rogue.",
+        "drop": [
+          {
+            "item": "Charm Mask",
+            "why": "Wt 5 on a dodger breaks the 3-point budget; the barter copy waits in storage for Gaitz (Part III)"
+          },
+          {
+            "item": "Da Mina Sword",
+            "why": "Cleansing Blade's fallback (in its alts)"
+          },
+          {
+            "item": "Iron Sword",
+            "why": "Cleansing Blade's fallback (in its alts)"
+          },
+          {
+            "item": "Iron Bow",
+            "why": "Da Mina Bow's fallback (in its alts)"
+          }
+        ],
+        "level": "About Lv 15 on join",
+        "exit": "Lv 20, Bow C and Sword C: take the Rogue exam"
+      },
+      {
+        "when": "Lv 20 (Ch 9) to Ch 12",
+        "from": {
+          "part": 1,
+          "ch": 9,
+          "approx": true
+        },
+        "to": {
+          "part": 1,
+          "ch": 12
+        },
+        "class": "Rogue",
+        "training": [
+          {
+            "rank": "Bow B, Sword B",
+            "for": "Ranger: Part II exam (Ch 1; Oko still beaten in Part I for the unlock)",
+            "how": "Arena Infantry Training"
+          }
+        ],
+        "tips": [
+          "Cleansing Blade is light (Wt 3) and cancels Underworld Boon",
+          "Rogue Locktouch opens chests without keys in dungeons",
+          "Not on the 8-unit Part I Advanced list: stay Rogue through Ch 12, but still beat Oko (Renown 10) to unlock Ranger",
+          "Kalla Blessing (Avo +50) fits his dodge build",
+          "Timing option: recruited in Ch 10 or later he joins at about Lv 25 as a Myrmidon and brings a Levin Sword, which makes Dietrich's Vandahl Levin Sword barter optional. You lose him for Ch 8 to 9 and Myrmidon doesn't train Bow, so this plan recruits him in Ch 8"
+        ],
+        "weapons": [
+          {
+            "item": "Cleansing Blade",
+            "why": "Wt 3, the lightest sword here; cancels Underworld Boon",
+            "alts": [
+              "Da Mina Sword",
+              "Iron Sword"
+            ],
+            "plan": "Talimun's Paralogue (Ch 9, 9/18 to 9/19, or 10/1 to 10/10)"
+          },
+          {
+            "item": "Da Mina Bow",
+            "why": "Bow arts (Warning Shot, Leg Shot); Hit +10 on arts",
+            "alts": [
+              "Iron Bow"
+            ]
+          },
+          {
+            "item": "Silver Sword",
+            "why": "Mt 18, Wt 4: Dietrich's, handed over before Mars",
+            "situational": "Ch 12, before Mars: open slot. It is his Part II sword"
+          }
+        ],
+        "equipment": [
+          {
+            "item": "Phantom Ring",
+            "slot": "Accessory",
+            "plan": "Avo +5"
+          }
+        ],
+        "items": [
+          {
+            "item": "Concoction",
+            "why": "40 HP x2; Part II stock",
+            "alts": [
+              "Vulnerary"
+            ]
+          }
+        ],
+        "arts": [
+          {
+            "name": "Haze Slice",
+            "why": "Avo +10; Sword D per community sheet"
+          },
+          {
+            "name": "Hidden Twinblade",
+            "why": "Teach Secrets once Dietrich beats Cabaye (Renown 7); Ddg +20"
+          },
+          {
+            "name": "Warning Shot",
+            "why": "Avo +10 bow art; Bow D per community sheet"
+          },
+          {
+            "name": "Destreza",
+            "why": "Atk +5, Crit +10 vs foes at 50% HP; Sword C per community sheet"
+          },
+          {
+            "name": "Leg Shot",
+            "why": "Avo -20 on the foe; Bow C per community sheet"
+          },
+          {
+            "name": "Hidden Flowform",
+            "why": "Teach Secrets; Avo +20 and a follow-up"
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Hunting Basics",
+            "why": "Hunter mastery, Dex/Spd +1, once mastered"
+          },
+          {
+            "name": "In Shadow",
+            "why": "Rogue mastery, Avo +10 after a kill, once mastered"
+          },
+          {
+            "name": "Swords Lv. 1",
+            "why": "Hit +3 with swords (Sword D+)"
+          },
+          {
+            "name": "Bows Lv. 1",
+            "why": "Hit +3 with bows (Bow D+)"
+          }
+        ],
+        "goal": "Flickering Edge (Lv 20): Atk +3 in any combat where he dodges, so stack Avo (Phantom Ring, Haze Slice, Warning Shot) and stay light; Blink of an Eye adds Def +3 after a Swap?",
+        "drop": [
+          {
+            "item": "Charm Mask",
+            "why": "Wt 5 on a dodger breaks the 3-point budget; the barter copy waits in storage for Gaitz (Part III)"
+          },
+          {
+            "item": "Da Mina Sword",
+            "why": "Cleansing Blade's fallback (in its alts)"
+          },
+          {
+            "item": "Iron Sword",
+            "why": "Cleansing Blade's fallback (in its alts)"
+          },
+          {
+            "item": "Iron Bow",
+            "why": "Da Mina Bow's fallback (in its alts)"
+          }
+        ],
+        "level": "About Lv 20 at the exam",
+        "exit": "Oko beaten, Lv 35, Bow B, Sword B: Ranger exam in Part II Ch 1"
+      },
+      {
+        "when": "Part II Ch 1 (Advanced, free License)",
+        "from": {
+          "part": 2,
+          "ch": 1
+        },
+        "class": "Ranger",
+        "tips": [
+          "Ranger exam in Part II Ch 1: Lv 35, Bow B, Sword B, Oko beaten in Part I",
+          "Equip his best sword before leaving Part I"
+        ],
+        "weapons": [
+          {
+            "item": "Silver Sword",
+            "why": "Mt 18, Wt 4. No known source; Dietrich carries Answerer Arisen into Part II, so a Silver Sword can be Jester's: equip it at the end of Ch 12",
+            "alts": [
+              "Cleansing Blade +1",
+              "Da Mina Sword"
+            ]
+          },
+          {
+            "item": "Cleansing Blade +1",
+            "why": "Part II Ch 2 drop: takes the open slot"
+          },
+          {
+            "item": "Da Mina Bow"
+          }
+        ],
+        "equipment": [
+          {
+            "item": "Phantom Ring",
+            "slot": "Accessory",
+            "plan": "Avo +5"
+          }
+        ],
+        "items": [
+          {
+            "item": "Concoction",
+            "why": "40 HP x2",
+            "plan": "Carried from Ch 12 (no shops in Part II)"
+          }
+        ],
+        "arts": [
+          {
+            "name": "Destreza",
+            "why": "Atk +5, Crit +10 vs foes at 50% HP; Sword C per community sheet"
+          },
+          {
+            "name": "Leg Shot",
+            "why": "Avo -20 on the foe; Bow C per community sheet"
+          },
+          {
+            "name": "Hidden Flowform",
+            "why": "Teach Secrets; Avo +20 and a follow-up"
+          },
+          {
+            "name": "Haze Slice",
+            "why": "Avo +10; Sword D per community sheet"
+          },
+          {
+            "name": "Hidden Twinblade",
+            "why": "Teach Secrets once Dietrich beats Cabaye (Renown 7); Ddg +20"
+          },
+          {
+            "name": "Warning Shot",
+            "why": "Avo +10 bow art; Bow D per community sheet"
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Flickering Edge+",
+            "why": "Personal Lv 35 ability: When unit avoids an attack, grants Atk+5 during combat"
+          },
+          {
+            "name": "Countershot",
+            "why": "Ranger mastery; bow counters adjacent foes at 50%"
+          },
+          {
+            "name": "In Shadow",
+            "why": "Avo +10 after a kill"
+          },
+          {
+            "name": "Hunting Basics",
+            "why": "Hunter mastery, Dex/Spd +1"
+          },
+          {
+            "name": "Swords Lv. 1",
+            "why": "Hit +3 with swords; Swords Lv. 3 at Sword C+"
+          }
+        ],
+        "drop": [
+          {
+            "item": "Cleansing Blade",
+            "why": "Replaced by the Cleansing Blade +1"
+          },
+          {
+            "item": "Da Mina Sword",
+            "why": "Silver Sword's fallback (in its alts)"
+          },
+          {
+            "item": "Mini Bow",
+            "why": "Not in his Ch 12 kit; the sword covers range 1"
+          }
+        ],
+        "goal": "Flickering Edge+ (Lv 35): Atk +5 after a dodge: Phantom Ring, Haze Slice, In Shadow and Kalla's Blessing keep him dodging; Blink of an Eye adds Def +3 after a Swap?",
+        "exit": "Part III: Shadow Seeker"
+      },
+      {
+        "when": "Part III goal",
+        "from": {
+          "part": 3
+        },
+        "class": "Shadow Seeker",
+        "training": [
+          {
+            "rank": "Bow A, Sword A",
+            "for": "Shadow Seeker (Lv 45, Master License)",
+            "how": "Arena Infantry Training"
+          },
+          {
+            "rank": "Sword A+",
+            "for": "Swords Lv. 4",
+            "how": "Arena Infantry Training"
+          }
+        ],
+        "weapons": [
+          {
+            "item": "Iron Sword +4",
+            "why": "Main: Mt 21, Hit 90, Wt 4, Dex up from +3",
+            "plan": "Buy and refine to +4 (no Soulstone); Soulstone for +3 and +4; Da Mina +2 until then",
+            "alts": [
+              "Da Mina Sword +2"
+            ]
+          },
+          {
+            "item": "Cleansing Blade +2",
+            "why": "Boon answer: Mt ~16, Wt 3",
+            "plan": "His +1, refined to +2"
+          },
+          {
+            "item": "Da Mina Bow +2",
+            "why": "Mt ?, Wt 6: fliers; Warning Shot and Leg Shot Hit +10",
+            "plan": "No Soulstone on the bench (D-158)"
+          }
+        ],
+        "equipment": [
+          {
+            "item": "Phantom Ring",
+            "why": "Avo +5, Wt 3: every dodge is Atk +5",
+            "slot": "Accessory",
+            "alts": [
+              "Gale Ring",
+              "Archer's Ring"
+            ]
+          }
+        ],
+        "items": [
+          {
+            "item": "Concoction",
+            "why": "40 HP x2",
+            "alts": [
+              "Vulnerary"
+            ]
+          }
+        ],
+        "arts": [
+          {
+            "name": "Haze Slice",
+            "why": "Sword D: Avo +10"
+          },
+          {
+            "name": "Mist Reaper",
+            "why": "Sword B: Avo +10, Crit +10 on follow-ups"
+          },
+          {
+            "name": "Destreza",
+            "why": "Sword C: Atk +5, Crit +10 vs foes at 50% HP"
+          },
+          {
+            "name": "Hidden Twinblade",
+            "why": "Teach Secrets once Dietrich beats Cabaye: Ddg +20"
+          },
+          {
+            "name": "Warning Shot",
+            "why": "Bow D: Avo +10"
+          },
+          {
+            "name": "Leg Shot",
+            "why": "Bow C: foe Avo −20 for its next combat"
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Flickering Edge+",
+            "why": "Personal Lv 35: Atk +5 in combat after he evades"
+          },
+          {
+            "name": "Swords Lv. 4",
+            "why": "Sword A+: Hit/Avo +7 with swords; Lv. 3 until A+"
+          },
+          {
+            "name": "In Shadow",
+            "why": "Rogue mastery: Avo +10 after a kill"
+          },
+          {
+            "name": "Knightly Senses",
+            "why": "Riding D: Avo +10 vs spears"
+          },
+          {
+            "name": "Read the Winds",
+            "why": "Flying D: Avo +10 vs bows"
+          }
+        ],
+        "goal": "Dodge striker: Flickering Edge+ Atk +5 after each dodge; Iron Sword +4 with Phantom Ring keeps extra Wt at 3.",
+        "drop": [
+          {
+            "item": "Hidden Flowform",
+            "why": "Half damage; Mist Reaper takes the slot"
+          },
+          {
+            "item": "Dropshadow Blade",
+            "why": "Forest maps only (Hanno)"
+          },
+          {
+            "item": "Countershot",
+            "why": "He holds a sword at range 1"
+          },
+          {
+            "item": "Hunting Basics",
+            "why": "Read the Winds: Avo +10 vs bows"
+          },
+          {
+            "item": "Silver Sword",
+            "why": "Iron Sword +4 is within 1 Mt of Silver +2 and needs no Boon"
+          },
+          {
+            "item": "Da Mina Bow",
+            "why": "Refined to +2"
+          }
+        ],
+        "exit": "Final class.",
+        "level": "Lv 45+",
+        "why": [
+          "No Master License planned (bench): Ranger runs the same kit until one is spare",
+          "Iron Sword +4 (Mt 21, Wt 4, gold) over Silver Sword +2 (Mt 22, Boon): within 1 Mt",
+          "Boon answer: Cleansing Blade +2 (Mt ~16, Wt 3)"
+        ],
+        "tips": [
+          "Seat: Drake (E, on foot) for Ludia or Loretta; Mahadu (D) for Simon in the brush",
+          "Mahadu: Positioning (Infantry C, Avo +10 in brush) for Read the Winds",
+          "Blink of an Eye: Swap a hurt ally out and take Def +3 until his next phase",
+          "Hanno: Dropshadow Blade for In Shadow while Hanno sits on forest"
+        ]
+      }
+    ],
+    "arts": [
+      {
+        "name": "Hidden Twinblade",
+        "why": "Ddg +20 (crit avoid, not Avo): crit insurance through the enemy phase"
+      },
+      {
+        "name": "Haze Slice",
+        "why": "Cheap Avo"
+      },
+      {
+        "name": "Destreza",
+        "why": "Finisher"
+      }
+    ],
+    "abilities": [
+      {
+        "name": "Countershot",
+        "why": "Bow counters in melee"
+      },
+      {
+        "name": "In Shadow",
+        "why": "Avo after kills"
+      },
+      {
+        "name": "Hunting Basics",
+        "why": "Dex/Spd +1"
+      }
+    ],
+    "specials": [
+      "Blink of an Eye: Def +3 after Swap; how Swap is learned is not documented",
+      "Avoids Axe",
+      "Teach Secrets copies Dietrich's Hidden sword arts to him"
+    ],
+    "sources": [
+      "class plan v3",
+      "weapons-and-items",
+      "combat-arts-and-abilities",
+      "character-learnsets",
+      "class-data",
+      "Dietrich Ch 4 to 9 walkthrough",
+      "Part I Dietrich walkthrough",
+      "Part II walkthrough"
+    ],
+    "watch": [
+      "Dodger: extra ≤ 3. Part II Silver Sword 4 + Phantom Ring 3 = 7. Part III Iron Sword +4 4 + 3 = 7, Cleansing Blade +2 3 + 3 = 6, Da Mina Bow +2 6 + 3 = 9; no Spd item, so a double that slips goes back to the sword.",
+      "No mask: the Charm Mask (5) breaks the budget. If he stops doubling with the bow, switch to the sword before dropping the ring.",
+      "Part II: Ch 12 kit (Cleansing Blade, Silver Sword, Da Mina Bow, Phantom Ring, Concoction) plus the Cleansing Blade +1 in Ch 2 is 6/6."
+    ],
+    "decisions": [
+      {
+        "topic": "Recruit him in Ch 8, not Ch 10",
+        "pick": "Ch 8 at about Lv 15, Rogue at Lv 20",
+        "why": "A Ch 10+ Jester joins at about Lv 25 as a Myrmidon with a Levin Sword, but you lose him on the Ch 8 to 9 maps and Myrmidon doesn't train Bow for Ranger.",
+        "else": "Ch 10 if you want the Levin Sword more; recruit before the Ch 11 battle or he fights for Bertrand"
+      },
+      {
+        "topic": "Beat Oko for his Ranger",
+        "pick": "Rogue through Part I, Ranger in Part II Ch 1",
+        "why": "Ranger needs the Oko unlock (Renown 10, by 11/27) plus Bow B and Sword B. Rogue holds until then.",
+        "else": "No Oko: he stays Rogue in Part II"
+      },
+      {
+        "topic": "Stack Avo for Flickering Edge",
+        "pick": "Phantom Ring, Haze Slice, Warning Shot, Kalla's Blessing",
+        "why": "Flickering Edge adds Atk +3 in any combat where he dodges, so Avo is the stat. Hidden Twinblade's Ddg +20 is crit avoid only. Extra weight 3 or less: no Charm Mask (Wt 5)."
+      }
+    ],
+    "gates": [
+      {
+        "route": "Dietrich",
+        "from": {
+          "part": 1,
+          "ch": 5
+        },
+        "by": {
+          "part": 1,
+          "ch": 10
+        },
+        "kind": "recruit",
+        "text": "Support 3, Renown 6, 3 short quests; recruit before the Ch 11 battle"
+      },
+      {
+        "route": "Dietrich",
+        "from": {
+          "part": 1,
+          "ch": 8
+        },
+        "kind": "rank",
+        "text": "Arena Infantry Training every week: Bow B and Sword B for Ranger"
+      }
+    ]
+  },
+  "sources": [
+    "https://fortunesweave.co.uk/characters/jester",
+    "https://www.keengamer.com/articles/guides/fire-emblem-fortunes-weave-best-class-for-every-character/",
+    "https://www.keengamer.com/articles/guides/fire-emblem-fortunes-weave-tier-list-best-characters-ranked-for-every-route/",
+    "https://www.pockettactics.com/fire-emblem-fortunes-weave/tier-list"
+  ],
+  "recruitOn": {
+    "Cai": {
+      "how": "recruit",
+      "support": 3,
+      "renown": 10,
+      "task": "3 short quests"
+    },
+    "Dietrich": {
+      "how": "recruit",
+      "support": 3,
+      "renown": 6,
+      "task": "3 short quests"
+    },
+    "Theodora": {
+      "how": "recruit",
+      "support": 3,
+      "renown": 9,
+      "task": "3 short quests"
+    },
+    "Leda": {
+      "how": "recruit",
+      "support": 3,
+      "renown": 10,
+      "task": "3 short quests"
+    }
+  }
+}

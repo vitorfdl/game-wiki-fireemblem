@@ -1,0 +1,29 @@
+{
+  "route": "Theodora",
+  "ch": 2,
+  "name": "Dyan's Uprising",
+  "free": null,
+  "unlocks": [
+    "Fortuna's Blessing (rewind), from Turn 2"
+  ],
+  "routine": null,
+  "missables": [],
+  "classes": {},
+  "gear": {},
+  "recruits": [],
+  "quests": {
+    "route": [],
+    "sub": [],
+    "paralogue": []
+  },
+  "explore": [],
+  "battle": {
+    "title": "Scramble for the Throne",
+    "objective": "Defeat Dyan",
+    "tips": [
+      {
+        "text": "Stand on Avo Spots to take less damage"
+      }
+    ]
+  }
+}

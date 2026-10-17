@@ -1,0 +1,299 @@
+{
+  "route": "Leda",
+  "ch": 4,
+  "name": "The Indelible Past",
+  "free": {
+    "from": "3/21",
+    "to": "4/4"
+  },
+  "unlocks": [
+    "Perform Quests",
+    "Recruiting (tutorial)",
+    "Meals and gifts"
+  ],
+  "routine": {
+    "meals": [
+      {
+        "week": "Every Sunday",
+        "tables": [
+          [
+            "Leda",
+            "Esmeralda",
+            "Dadao"
+          ],
+          [
+            "Leda",
+            "Fianna",
+            "Ludia"
+          ],
+          [
+            "Leda",
+            "Halvin",
+            "Sha Lan"
+          ]
+        ],
+        "note": "Gift each target first: one gift unlocks meals. Dadao needs Support 2 by late Ch 6, Esmeralda 3 by late Ch 7, Fianna 3 by Ch 7. Sha Lan not in Dagsion: seat Ludia."
+      }
+    ],
+    "gifts": [
+      {
+        "unit": "Dadao",
+        "gift": "Mellow Pastries",
+        "alt": "Simple Pastries",
+        "until": "Support 2, recruit Ch 6",
+        "first": true
+      },
+      {
+        "unit": "Esmeralda",
+        "gift": "Mellow Pastries",
+        "alt": "Simple Pastries",
+        "until": "Support 3, recruit Ch 7",
+        "first": true
+      },
+      {
+        "unit": "Fianna",
+        "gift": "Common Coffee",
+        "alt": "Select Coffee",
+        "until": "Support 3, recruit Ch 7",
+        "first": true
+      },
+      {
+        "unit": "Ludia",
+        "gift": "Common Coffee",
+        "alt": "Eastern Love Story",
+        "until": "Support 3, recruit late Ch 8",
+        "first": true
+      },
+      {
+        "unit": "Halvin",
+        "gift": "Simple Pastries",
+        "alt": "Garum",
+        "until": "Support 3, recruit Ch 9 after Baina",
+        "first": true
+      },
+      {
+        "unit": "Sha Lan",
+        "gift": "Garum",
+        "alt": "Common Coffee",
+        "until": "Support 3, recruit Ch 10",
+        "first": true
+      },
+      {
+        "unit": "Noctula",
+        "gift": "Mellow Pastries",
+        "alt": "Training Bracelet",
+        "until": "Support 3, recruit Ch 10 (filler)",
+        "note": "Bond only: nothing they like is buyable yet, so meals carry the Support"
+      },
+      {
+        "unit": "Mikaela",
+        "gift": "Garum",
+        "alt": "Young Ghosh",
+        "until": "Support 3, recruit Ch 10 (filler)",
+        "first": true
+      },
+      {
+        "unit": "Lysander",
+        "gift": "Mellow Pastries",
+        "alt": "Training Bracelet",
+        "until": "Support 3, recruit Ch 10 (filler)",
+        "note": "Bond only: nothing they like is buyable yet, so meals carry the Support"
+      },
+      {
+        "unit": "Nezha",
+        "gift": "Pickled Vegetables",
+        "until": "Support 3, recruit Ch 10 (filler)",
+        "first": true,
+        "alt": "Training Bracelet",
+        "note": "Buy several on the Daimon dance trip"
+      },
+      {
+        "unit": "Jester",
+        "gift": "Garum",
+        "until": "Support 3, recruit Ch 11 (filler)",
+        "first": true,
+        "note": "Never pastries or sweets",
+        "alt": "Home-Recipe Book"
+      },
+      {
+        "unit": "Seteth",
+        "gift": "Common Coffee",
+        "alt": "Select Coffee",
+        "until": "Support 3, recruit Ch 11 (filler)",
+        "first": true
+      }
+    ],
+    "weekly": [
+      {
+        "text": "Lowtown Tavern: 3 pastries (30G) for Dadao, Esmeralda, Halvin; Garum and coffee for the rest",
+        "detail": [
+          "A 30G pastry is enough for a first gift: it only unlocks the bond.",
+          "The Red-Rose Bouquet from the Ch 4 story scenes is a free first gift for anyone.",
+          "Map > People shows who is in Dagsion right now."
+        ]
+      }
+    ]
+  },
+  "missables": [
+    {
+      "id": "leda-ch04-missables-mikaela-scene",
+      "kind": "scene",
+      "text": "Watch the optional Mikaela story scene in the shopping area",
+      "where": "Dagsion shopping area",
+      "lose": "The scene",
+      "recover": "None known",
+      "task": true
+    },
+    {
+      "id": "leda-ch04-missables-talimun-scene",
+      "kind": "scene",
+      "text": "Watch the optional Talimun scene when it shows on the map",
+      "lose": "The scene",
+      "recover": "None known",
+      "task": true,
+      "conf": "?"
+    }
+  ],
+  "classes": {
+    "note": {
+      "text": "No exams yet: Renown is 1 to 2, and Beginner exams (Catania's Ornius Rider too) open in Ch 5"
+    }
+  },
+  "gear": {
+    "buy": [
+      {
+        "text": "Shop on Perform trips: 2 Wooden Bows (Yaaman), 2 Killing Edges (Regia), Wooden Gauntlets (Daimon)",
+        "detail": [
+          "[[item:Wooden Bow]] (300G) ×2: Leda's and Halvin's +5 refines. Also Halvin's [[item:Horsekiller Bow]] (3,000G).",
+          "2 [[item:Killing Edge]] in Regia: Guzran's now, Ludia's for Ch 8. [[item:Wooden Gauntlets]] (300G) in Daimon: Mu.",
+          "All three towns close 5/28. The [[item:Flyssa]] comes later, from Zoste (Ch 6)."
+        ]
+      }
+    ],
+    "note": [
+      {
+        "text": "Keep the bulletin-quest [[item:Wooden Sword]] for Guzran: his Wooden Sword +5 at the Ch 6 Blacksmith"
+      }
+    ]
+  },
+  "recruits": [],
+  "quests": {
+    "route": [
+      {
+        "quest": "dance-for-yaaman",
+        "note": "Do it first"
+      },
+      {
+        "quest": "dance-for-regia"
+      },
+      {
+        "quest": "dance-for-daimon"
+      },
+      {
+        "quest": "dance-at-the-tavern"
+      },
+      {
+        "quest": "simple-drink-recipes"
+      }
+    ],
+    "sub": [
+      {
+        "quest": "stolen-viewership",
+        "note": "Do it first, on 3/21: it expires on the first day of free time"
+      },
+      {
+        "quest": "stolen-knowledge",
+        "offered": "if-offered"
+      },
+      {
+        "quest": "valeris-eight-fangs",
+        "offered": "if-offered"
+      },
+      {
+        "quest": "searching-for-smithing-stones",
+        "offered": "if-offered"
+      },
+      {
+        "quest": "knowing-more-about-him",
+        "offered": "if-offered"
+      },
+      {
+        "quest": "granadas-thieves",
+        "offered": "if-offered"
+      },
+      {
+        "quest": "the-fabled-insect-pearl",
+        "offered": "if-offered",
+        "note": "Take it only if your quest list shows it open: its 3/7 deadline comes before this free time"
+      }
+    ],
+    "paralogue": []
+  },
+  "explore": [
+    {
+      "group": "Dagsion",
+      "text": "Talk to every orange-marker NPC: once you've met someone, you can teleport to them"
+    },
+    {
+      "group": "Dagsion",
+      "text": "Take the bulletin quests (first playthrough only): Vulnerary, Wooden Sword, Sand-Boar Meat, Ginji"
+    },
+    {
+      "group": "Dungeons (aim for Lv 5 to 8)",
+      "id": "leda-ch04-explore-niraga-mine",
+      "loot": true,
+      "text": "[[place:Niraga Mine]] (Lv 5): White-Magic Manual (Fianna's, Ch 7 join), Miracle Gem, 2 Coins"
+    },
+    {
+      "group": "Dungeons (aim for Lv 5 to 8)",
+      "id": "leda-ch04-explore-collapsed-fort",
+      "loot": true,
+      "text": "[[place:Collapsed Fort]] (Lv 6): Black-Magic Manual for Sirocco, Bowbreak Amulet",
+      "detail": [
+        "The Bowbreak Amulet is a spare: its Wt 4 is over a flier's budget."
+      ]
+    },
+    {
+      "group": "Dungeons (aim for Lv 5 to 8)",
+      "text": "[[place:Heretics' Cave]] (Lv 7): Dew of Protection, Vulnerary"
+    },
+    {
+      "group": "Dungeons (aim for Lv 5 to 8)",
+      "id": "leda-ch04-explore-galen-fort-ruins",
+      "loot": true,
+      "text": "[[place:Galen Fort Ruins]] (Lv 8): Hunter's Bow, Wooden Shield, Vulnerary"
+    },
+    {
+      "group": "Dungeons (aim for Lv 5 to 8)",
+      "text": "Bank rare ores for the Ch 6 special refines: mine every crystal, re-enter to reroll",
+      "detail": [
+        "Cullet: [[place:Galen Fort Ruins]]. Windstone: [[place:Collapsed Fort]]. Blue Snoll: [[place:Niraga Mine]].",
+        "Which rare ore each special takes is unknown: bank all three (Zanbato +1 took 2 Cullet)."
+      ],
+      "conf": "?"
+    },
+    {
+      "group": "Spare Turns",
+      "id": "leda-ch04-explore-nowahs-cave",
+      "loot": true,
+      "text": "Support run with this week's meal pairs: [[place:Nowah's Cave]] (Lv 10, Elektra), cursed chest",
+      "detail": [
+        "[[item:Turmoil Mask]] is cursed (Curse 1): hold it to the end of Part I (Drifting Reliquary)."
+      ]
+    },
+    {
+      "group": "Spare Turns",
+      "text": "Turns still left at the end: hand them to Inn Auto-Activities"
+    }
+  ],
+  "battle": {
+    "title": "vs. Lechner",
+    "objective": "Defeat Lechner",
+    "lose": "Leda falls",
+    "tips": [
+      {
+        "text": "After you win, flee to the northeast corner"
+      }
+    ]
+  }
+}

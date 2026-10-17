@@ -1,0 +1,408 @@
+{
+  "route": "Theodora",
+  "ch": 10,
+  "name": "The Queen and the Merchant",
+  "free": {
+    "from": "8/25",
+    "to": "9/16"
+  },
+  "unlocks": [
+    "Paralogues",
+    "Advanced exams (Renown 8)",
+    "Thermae (Renown 8)",
+    "Advanced Licenses in Dagsion"
+  ],
+  "routine": {
+    "meals": [
+      {
+        "week": "Diego short of Support 2",
+        "tables": [
+          [
+            "Theodora",
+            "Diego",
+            "Nuzzuo"
+          ]
+        ],
+        "note": "Replaces the first table each Sunday until he is there: Ch 12 has no time for it."
+      },
+      {
+        "week": "Every Sunday",
+        "tables": [
+          [
+            "Theodora",
+            "Seteth",
+            "Sofia"
+          ],
+          [
+            "Theodora",
+            "Jester",
+            "Alexandra"
+          ],
+          [
+            "Theodora",
+            "Io",
+            "Diego"
+          ]
+        ],
+        "note": "Fillers toward Support 3: Seteth (Renown 6), Jester (9), Io (10, Ch 11). A filler at Support 3 frees the chair for army pairs."
+      }
+    ],
+    "gifts": [
+      {
+        "unit": "Seteth",
+        "gift": "Poems of the Greats",
+        "alt": "Tales of Adventure",
+        "until": "Support 3, recruit Ch 10 (filler)"
+      },
+      {
+        "unit": "Jester",
+        "gift": "Home-Recipe Book",
+        "alt": "Rare Spices",
+        "until": "Support 3, recruit Ch 10 (filler)"
+      },
+      {
+        "unit": "Io",
+        "gift": "Shield Portrait",
+        "alt": "Common Coffee",
+        "until": "Support 3, recruit Ch 11 (filler)"
+      },
+      {
+        "unit": "Diego",
+        "gift": "Tales of Adventure",
+        "alt": "Shield Portrait",
+        "until": "Support 2, recruit Ch 12"
+      }
+    ]
+  },
+  "missables": [
+    {
+      "id": "theodora-ch10-missables-anatolia-ship",
+      "kind": "choice",
+      "text": "Say yes when Anatolia asks for the ship: she and Sha Lan join the Ch 12 finale",
+      "lose": "the Ch 12 cameo by Anatolia and Sha Lan",
+      "recover": "None: the answer can't be changed",
+      "options": [
+        {
+          "pick": "Yes",
+          "gives": "Anatolia and Sha Lan arrive mid-battle in Ch 12"
+        },
+        {
+          "pick": "No",
+          "gives": "Neither joins the Ch 12 battle"
+        }
+      ],
+      "detail": [
+        "She keeps the ship until 9/21.",
+        "Finish any Lir Sea or Enno Isle trips first: whether the loan blocks sea travel until 9/21 is unknown."
+      ],
+      "task": true,
+      "when": "8/25 to 9/16 (ship back 9/21)"
+    },
+    {
+      "id": "theodora-ch10-missables-leda-paralogue",
+      "kind": "timing",
+      "text": "Fight Leda's Paralogue between 9/2 and 9/8: its Silver Shield is Theodora's Guardian shield",
+      "when": "9/2 to 9/8",
+      "where": "Temple Row",
+      "lose": "the Silver Shield, 20,000G and 150 Renown",
+      "recover": "None: gone after 9/8",
+      "task": true
+    },
+    {
+      "id": "theodora-ch10-missables-lilian-scene",
+      "kind": "scene",
+      "text": "Hear Lilian out before the match: it counts toward her support",
+      "lose": "a support scene with Lilian",
+      "recover": "None known",
+      "task": true,
+      "when": "Before the Ch 10 match"
+    },
+    {
+      "id": "theodora-ch10-missables-orchel-scene",
+      "kind": "scene",
+      "text": "Watch Orchel's optional scene at Yu Phas' Temple (through the Entertainment District)",
+      "where": "Yu Phas' Temple",
+      "lose": "the scene; whether Orchel's Paralogue (and so Diego) needs it is unknown",
+      "recover": "None known",
+      "conf": "?",
+      "task": true,
+      "when": "8/25 to 9/16"
+    }
+  ],
+  "classes": {
+    "note": {
+      "text": "Take Advanced exams in the Ledger's priority order as each unit hits Lv 35 with the ranks",
+      "detail": [
+        "Renown 8 usually lands now; Theodora reaches Lv 35 first. Player data: lord about Lv 38 at Part I's end, team 30 to 35.",
+        "Lysander (6) and Sirocco (7), then Loretta or Ultand (8), usually get there in Ch 11 or 12.",
+        "Specialty at Lv 20 on the bench: Simon Brigand, Nuzzuo Rogue."
+      ]
+    },
+    "override": [
+      {
+        "unit": "Theodora",
+        "text": "No quest gate: Guardian carries in from Dietrich's path. Physic once White Magic is B"
+      },
+      {
+        "unit": "Sofia",
+        "text": "Ch 10 or 11. Skip Troubadour for her: it halves her heal casts"
+      },
+      {
+        "unit": "Bonaventure",
+        "text": "Ch 10 or 11, from Shaman. Keep spare Mage weeks for White Magic B (Part II Bishop)"
+      },
+      {
+        "unit": "Tobias",
+        "text": "Ch 10 or 11, then the Hammer +1; a rank short means Brigand until Ch 12"
+      },
+      {
+        "unit": "Simon",
+        "text": "Brigand at Lv 20 (Axe C, Sword C): bench, Part II axe"
+      },
+      {
+        "unit": "Nuzzuo",
+        "text": "Rogue at Lv 20 (Bow C, Sword C); Bow B and Sword B for Ranger by 10/24"
+      }
+    ]
+  },
+  "gear": {
+    "buy": [
+      {
+        "text": "Buy a [[item:Ji]] at [[place:Port of Pandora]] (3,000G) for Theodora: it covers armor and cavalry",
+        "detail": [
+          "No Ridersbane for her: the Ji covers cavalry."
+        ]
+      },
+      {
+        "text": "Rank C: [[item:Da Mina Sword]] and [[item:Da Mina Bow]] (Nuzzuo), [[item:Da Mina Axe]] (Simon)",
+        "detail": [
+          "Refine each to +1 the same week (ores ?); their Iron weapons go to storage."
+        ],
+        "conf": "?"
+      }
+    ],
+    "barter": [
+      {
+        "item": "Archive T",
+        "for": "Bonaventure (Glirmosa: Mount Orgus Trail, Pasithea)",
+        "at": "Dagsion",
+        "note": "grows with Renown?"
+      },
+      {
+        "item": "Short Axe",
+        "for": "Simon (range 2 Hurl)",
+        "at": "Dagsion",
+        "note": "or Raivo Port shop"
+      }
+    ],
+    "assign": [
+      {
+        "item": "Hammer",
+        "to": "Tobias",
+        "why": "Week 1: Zarcone's copy, +1 (rare ore), with his Warrior exam"
+      },
+      {
+        "item": "Giant's Ring",
+        "to": "Simon",
+        "why": "Zarcone's copy, from storage: Bld +4 against the Hammer's Wt 20"
+      },
+      {
+        "item": "Hammer",
+        "to": "Simon",
+        "why": "Nemea Cavern copy for his Part II kit"
+      },
+      {
+        "item": "Levin Sword",
+        "to": "Sirocco",
+        "why": "Jester's copy once he joins (Renown 9): Mag hits at 1-2; Sword C"
+      },
+      {
+        "item": "Silver Shield",
+        "to": "Theodora",
+        "why": "Leda's Paralogue reward; or keep the Hexlock Shield"
+      },
+      {
+        "item": "Mini Bow",
+        "to": "Lilian",
+        "why": "Chest south of Dagsion: a Sniper counters at range 1 with it"
+      },
+      {
+        "item": "Archive T",
+        "to": "Bonaventure",
+        "why": "Read it at once"
+      },
+      {
+        "item": "Archive Γ",
+        "to": "Sirocco",
+        "why": "Read it at once when Vandahl lists it"
+      }
+    ]
+  },
+  "recruits": [
+    {
+      "unit": "Jester",
+      "when": "Late Ch 10 or Ch 11 (Renown 9)",
+      "action": "At Support 3 and Renown 9, finish his 3 short quests: his Levin Sword goes to Sirocco",
+      "detail": [
+        "Filler: bench only. Sirocco swings it with Mag at 1-2 once his Sword is C."
+      ]
+    },
+    {
+      "unit": "Benditz",
+      "action": "Recruit him the day Renown 8 lands, then bench him: a Part III body",
+      "detail": [
+        "Filler. He doesn't play Part II."
+      ]
+    },
+    {
+      "unit": "Seteth",
+      "action": "At Support 3 and Renown 6, finish his short quest: Spear of Assal; supports Sofia, Loretta",
+      "detail": [
+        "Filler: bench only."
+      ]
+    }
+  ],
+  "quests": {
+    "route": [
+      {
+        "quest": "send-supplies-venomstone"
+      },
+      {
+        "quest": "send-supplies-desert-millet"
+      }
+    ],
+    "sub": [
+      {
+        "quest": "its-name-is-da-mina",
+        "note": "Hand in the 2 spare Da Mina weapons bought in Ch 9"
+      },
+      {
+        "quest": "beauty-and-health-at-thermae",
+        "offered": "if-offered",
+        "note": "Take it the day the Thermae opens (Renown 8, usually this chapter)"
+      },
+      {
+        "quest": "assassination-no-questions",
+        "offered": "if-offered"
+      },
+      {
+        "quest": "flamma-smugglers",
+        "offered": "if-offered"
+      },
+      {
+        "quest": "one-last-challenge",
+        "offered": "if-offered"
+      },
+      {
+        "quest": "skeletons-in-the-ruins",
+        "offered": "if-offered"
+      },
+      {
+        "quest": "attack-of-the-huge-birds",
+        "offered": "if-offered"
+      }
+    ],
+    "paralogue": [
+      {
+        "quest": "diversionary-tactics",
+        "note": "Leda gives it at Temple Row; the Silver Shield goes on Theodora at Guardian",
+        "detail": [
+          "Break obstacles, kill everything and watch for poison: [[ability:Unstoppable Force]] deals 3x damage to obstacles.",
+          "Antitoxins: Sofia, Lilian, Tobias and Loretta carry one; Theodora swaps out her Short Spear for one."
+        ]
+      }
+    ]
+  },
+  "explore": [
+    {
+      "group": "Fights",
+      "text": "Paralogues: rotate the sitter (Lilian, Ultand or Ninae) or a bench unit in when it suits the map",
+      "detail": [
+        "Bench: Nydine, Noctula, Simon, Nuzzuo run dungeon parties with a carry. Aim: near Lv 30 by 10/24 ?"
+      ]
+    },
+    {
+      "text": "Skip Solomon Island (Theodora only, Ch 10 or 11): many Turns, no special items",
+      "detail": [
+        "Only worth it for 100%. It can't wait for Ch 12."
+      ]
+    },
+    {
+      "group": "Battalions",
+      "id": "theodora-ch10-explore-recruit-pandora",
+      "task": true,
+      "text": "Recruit Soldiers at [[place:Port of Pandora]] on the Ji trip: Sirocco's Mage Instructors",
+      "detail": [
+        "Take [[battalion:Mage Instructors]] (C) for Sirocco now.",
+        "Renown 9 (late Ch 10 or 11): Rousing Speech here for [[battalion:Divine-Shield Guard]] (A), Theodora's Part III squad.",
+        "Whether A tier shows at Renown 9 is unknown ?: roll again while Turns allow."
+      ]
+    },
+    {
+      "group": "Battalions",
+      "id": "theodora-ch10-explore-recruit-raivo-port",
+      "task": true,
+      "text": "Recruit Soldiers at [[place:Raivo Port]] at Renown 9: Shadow Mages for Sirocco",
+      "detail": [
+        "[[battalion:Shadow Mages]] (B): Sirocco keeps Mage Instructors until Authority B shows (Ch 12?)."
+      ]
+    },
+    {
+      "group": "Battalions",
+      "text": "Swap squads: Theodora to Lions of Megaira at B, Bonaventure to Elevated Priests at C",
+      "detail": [
+        "[[battalion:Lions of Megaira]] on Theodora, [[battalion:Elevated Priests]] on Bonaventure.",
+        "[[battalion:Pure Priests]] goes to the Transport Chief: troop points toward Tactics Manuals.",
+        "Transfer Blackfire Mages and Veteran Sentinels: troop points toward Theodora's Authority A."
+      ]
+    },
+    {
+      "group": "Battalions",
+      "conf": "?",
+      "text": "Recruit Soldiers at [[place:Mons]] if a trip fits: [[battalion:Mons Iron Squad]] for Ninae's Part II",
+      "detail": [
+        "Mons only, tier C (Authority C). No Mons trip is planned: fallback [[battalion:Steel-Shield Guard]] (Megaira)."
+      ]
+    },
+    {
+      "group": "Spare Turns",
+      "id": "theodora-ch10-explore-nemea-cavern",
+      "loot": true,
+      "text": "Run [[place:Nemea Cavern]] (Lv 30, Pasithea): Simon's [[item:Hammer]] for Part II, Elixir, a manual",
+      "detail": [
+        "Tobias keeps the Hammer +1; this copy is Simon's Part II weapon.",
+        "Elixir to Theodora's Part II stock; the Heavy-Armor Manual to Theodora."
+      ]
+    },
+    {
+      "group": "Spare Turns",
+      "text": "Run [[place:Uncharted Isle]] (Lv 30, Lir Sea) with your support pairs",
+      "detail": [
+        "[[item:Anguishing Shield]] is cursed (Curse 1): hold it to the end of Part I (Drifting Reliquary)."
+      ],
+      "id": "theodora-ch10-explore-uncharted-isle",
+      "loot": true
+    },
+    {
+      "group": "Spare Turns",
+      "text": "Spend any Turns still left on Inn Auto-Activities"
+    }
+  ],
+  "battle": {
+    "title": "Main Match vs. Talimun",
+    "objective": "Hold more orbs than the enemy when 12 turns are up",
+    "tips": [
+      {
+        "text": "Stay near the central artillery so the enemy can't use it"
+      }
+    ]
+  },
+  "prep": [
+    {
+      "text": "Fillers need Support 3 from spare meal chairs: skip any that won't make it by 10/24",
+      "detail": [
+        "Seteth first (Sofia, Loretta), then Jester. Io (Renown 10) is in Ch 11."
+      ]
+    }
+  ]
+}

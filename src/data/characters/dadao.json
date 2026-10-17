@@ -1,0 +1,890 @@
+{
+  "name": "Dadao",
+  "slug": "dadao",
+  "epithet": "Anatolia's brash companion",
+  "faction": "Pale Raven's Bridal Party",
+  "homeRoute": "Leda",
+  "weapons": [
+    "Axe"
+  ],
+  "preferred": [
+    "Axe",
+    "Heavy"
+  ],
+  "avoid": [
+    "White Magic",
+    "Black Magic",
+    "Spear"
+  ],
+  "personality": "Brash, flirtatious self-described former problem child who still looks out for the weak.",
+  "story": "Dadao travels with Anatolia as part of the Pale Raven's Bridal Party, constantly flirting with her and other women. He loves machines, good food and fighting. Recruitment requires Support with him plus 2x Kothar Gar, with Renown gates that differ by route (5 on Theodora/Leda, 7 on Cai, 10 on Dietrich).",
+  "personalSkill": {
+    "name": "One Chance",
+    "effect": "If unit and foe cannot make a follow-up, grants Atk+5 during combat. Lv20: Full Strength (1.3x damage, trigger % = Str/2); Lv35: Full Strength+ (1.5x damage)."
+  },
+  "growths": {
+    "HP": 50,
+    "Str": 55,
+    "Mag": 20,
+    "Spd": 30,
+    "Dex": 35,
+    "Def": 45,
+    "Res": 20,
+    "Lck": 25,
+    "Cha": 30
+  },
+  "supports": [
+    "Buccar",
+    "Esmeralda",
+    "Inyoni",
+    "Nezha",
+    "Peter",
+    "Seteth"
+  ],
+  "tiers": [
+    {
+      "source": "KeenGamer",
+      "tier": "A"
+    },
+    {
+      "source": "Pocket Tactics",
+      "tier": "B"
+    }
+  ],
+  "tierNotes": "KeenGamer: A tier (heavy hitter, Str-scaling damage multiplier). Pocket Tactics: B tier. fortunesweave.co.uk rates One Chance 2/5 (narrow trigger).",
+  "recruit": {
+    "how": "recruit",
+    "support": 2,
+    "renown": 5,
+    "extra": "2× Kothar Gar",
+    "why": [
+      "Support 2 and Renown 5 here, the cheapest gate of the four routes; he holds the Hammer slot until Esmeralda joins."
+    ],
+    "tip": "Fish 2 Kothar Gar at Zeet Lake or Kothar Lake."
+  },
+  "requirements": {
+    "Cai": "3S 7R",
+    "Dietrich": "3S 10R",
+    "Theodora": "2S 5R",
+    "Leda": "2S 5R"
+  },
+  "build": {
+    "role": "Part I Hammer breaker, Part II axe bench",
+    "path": [
+      "Gladiator",
+      "Brigand",
+      "Warrior (Part II Ch 2)",
+      "Battlemaster"
+    ],
+    "part1Target": "Brigand (bench from Ch 9)",
+    "part3Target": "Battlemaster",
+    "notes": "Holds the Hammer slot Ch 6 to 8, then hands the Hammer and Giant's Ring to Esmeralda. Bench from Ch 9: the Arena Warrior course trains Sword, Axe and Gauntlet B, and Warrior comes on Part II Ch 2's free License at Lv 35.",
+    "confidence": "medium"
+  },
+  "guide": {
+    "role": "Part I Hammer breaker, Part II axe bench",
+    "summary": "Holds the [[item:Hammer]] slot for Ch 7 and 8, then hands it to Esmeralda and becomes a Part II axe bruiser. On the map, walk him to armor and swing [[art:Spike]] when the forecast is under 80. From Ch 9 his job is the Arena: three B ranks for a Part II [[class:Warrior]].",
+    "playstyle": "Player phase only: swing arts at foes that can't double him, so One Chance (Atk +5) and Full Strength (x1.3) both fire. Crash forbids follow-ups on both sides, which turns One Chance on by itself.",
+    "focus": [
+      "Str",
+      "Dex",
+      "HP"
+    ],
+    "keys": [
+      "Recruit late Ch 6 at Renown 5 (Support 2, 2 Kothar Gar); he joins at about Lv 15",
+      "Take [[class:Brigand]] at Lv 20 (Axe C, Sword C) in Ch 7; Hammer the armored map",
+      "Hand the [[item:Hammer]] and [[item:Giant's Ring]] to Esmeralda in Ch 9 prep",
+      "Book the Arena Warrior course every week from Ch 9: Sword, Axe and Gauntlet B",
+      "Grab a second Hammer from Nemea Cavern (Ch 10) for his Part II six",
+      "Take [[class:Warrior]] on Part II Ch 2's free License at Lv 35"
+    ],
+    "watch": [
+      "Hit: Hammer 60, Iron Axe +3 65 plus its Dex. Always swing an art; a bare Hammer misses a third of the time",
+      "Weight: Hammer 20 against Bld + 4 (Giant's Ring); Part III Silver Axe +2 (or Iron Axe +4) 9-10 against the same. If the forecast shows a foe doubling, One Chance is off.",
+      "Spear is an avoided skill: no armored classes for him",
+      "Inventory: 6/6 from Ch 12 (Hammer, Iron Axe +3, Short Axe, Iron Gauntlets, Ring, Elixir)"
+    ],
+    "stages": [
+      {
+        "when": "Join (late Ch 6) to Lv 20",
+        "from": {
+          "part": 1,
+          "ch": 6,
+          "at": "late",
+          "approx": true
+        },
+        "to": {
+          "part": 1,
+          "ch": 6
+        },
+        "level": "About Lv 15 to 20",
+        "class": "Gladiator",
+        "kind": "core",
+        "goal": "Slot 8 from his first map. Str +10 growth; Axe C and Sword C for Brigand at Lv 20.",
+        "exit": "Lv 20 with Axe C, Sword C at 75%: Brigand in Ch 7.",
+        "masteries": [
+          "Attack Basics"
+        ],
+        "why": [
+          "Joins at about Lv 15 in a Beginner class: a License only if it isn't Gladiator",
+          "One Chance (Atk +5 when nobody follows up) needs a slow axe that isn't doubled"
+        ],
+        "weapons": [
+          {
+            "item": "Iron Axe +3",
+            "why": "Main axe: Mt ? (jump at +3), Dex up, Hit 65, Wt 10",
+            "plan": "Refine to +3 with Smithing Stone (Ch 6)"
+          },
+          {
+            "item": "Hand Axe",
+            "why": "Range 1-2 axe"
+          },
+          {
+            "item": "Hammer",
+            "why": "Effective+ vs armor (Mt 14 x3)",
+            "situational": "Armored Ch 7 before Lv 20: replaces the Hand Axe"
+          }
+        ],
+        "items": [
+          {
+            "item": "Concoction",
+            "why": "Heals 40, 2 uses",
+            "alts": [
+              "Vulnerary"
+            ]
+          }
+        ],
+        "arts": [
+          {
+            "name": "Spike",
+            "why": "Axe D: +4 Mt, Hit +10: his default swing"
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Attack Basics",
+            "why": "Gladiator mastery: Str +1 (once mastered)"
+          },
+          {
+            "name": "Axes Lv. 1",
+            "why": "Axe Hit +3 (rank ?)"
+          },
+          {
+            "name": "Knightly Senses",
+            "why": "Riding D: Avo +10 vs spears; works on foot"
+          },
+          {
+            "name": "Read the Winds",
+            "why": "Flying D: Avo +10 vs bows; works on foot"
+          }
+        ],
+        "openSlots": "1 open for a week or two: Close Quarters needs Infantry D, and the Warrior course comes first",
+        "training": [
+          {
+            "rank": "Axe C, Sword C",
+            "for": "Brigand (Lv 20)",
+            "how": "Arena Warrior course (Sword, Axe, Gauntlet) every week"
+          },
+          {
+            "rank": "Riding D, Flying D",
+            "for": "Knightly Senses, Read the Winds",
+            "how": "One Arena Mounted week after the join ? (starting ranks unknown)"
+          }
+        ],
+        "tips": [
+          "Kothar Gar is fishing only: Zeet Lake (Thaleia) or Kothar Lake (Amalthea)",
+          "Hit stack: Iron Axe +3 65 + Spike 10 + Axes Lv. 1 (3) = 78, plus its Dex (?)"
+        ]
+      },
+      {
+        "when": "Ch 7 to 8: Hammer slot",
+        "from": {
+          "part": 1,
+          "ch": 7
+        },
+        "to": {
+          "part": 1,
+          "ch": 8
+        },
+        "level": "Lv 20 to 25",
+        "class": "Brigand",
+        "kind": "core",
+        "goal": "Hammer on the armored Ch 7 map. Full Strength (Lv 20): x1.3 damage at Str/2 %; Brigand grows Str +15.",
+        "exit": "Ch 9 prep: Hammer and Giant's Ring go to Esmeralda; he moves to the bench.",
+        "why": [
+          "Hit stack: Hammer 60 + Brigand 3 + Spike 10 + Axes Lv. 2 (5) = 78",
+          "Iron Axe +3: 65 + 3 + Spike 10 + Axes Lv. 2 (5) = 83 on arts, plus its Dex (?)",
+          "Ch 8 has no armor: Iron Axe +3 in hand, the Hammer rides along"
+        ],
+        "weapons": [
+          {
+            "item": "Hammer",
+            "why": "Effective+ vs armor: the Ch 7 answer"
+          },
+          {
+            "item": "Iron Axe +3",
+            "why": "Everyday axe: Mt ? (jump at +3), Dex up, Wt 10",
+            "plan": "Refined on join (Ch 6)"
+          },
+          {
+            "item": "Hand Axe",
+            "why": "Range 1-2 axe"
+          }
+        ],
+        "equipment": [
+          {
+            "item": "Giant's Ring",
+            "slot": "Accessory",
+            "why": "Bld +4 at Wt 0 offsets the Hammer; Avo -20 doesn't matter",
+            "alts": [
+              "Conflagrant Gem"
+            ]
+          }
+        ],
+        "items": [
+          {
+            "item": "Concoction",
+            "why": "Heals 40, 2 uses",
+            "alts": [
+              "Vulnerary"
+            ]
+          }
+        ],
+        "arts": [
+          {
+            "name": "Spike",
+            "why": "+4 Mt, Hit +10: the safe swing"
+          },
+          {
+            "name": "Wild Abandon",
+            "why": "Axe C: +8 Mt, Hit -30; only on a forecast of 90+"
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Full Strength",
+            "why": "Personal Lv 20: damage x1.3, trigger Str/2 %"
+          },
+          {
+            "name": "Attack Basics",
+            "why": "Str +1"
+          },
+          {
+            "name": "Axes Lv. 2",
+            "why": "Axe Hit +5 (rank ?)"
+          },
+          {
+            "name": "Axes Lv. 1",
+            "why": "Axe Hit +3 (rank ?)"
+          },
+          {
+            "name": "Knightly Senses",
+            "why": "Avo +10 vs spears: Ch 7's armored foes ?"
+          }
+        ],
+        "training": [
+          {
+            "rank": "Axe B, Sword B, Gauntlet B",
+            "for": "Warrior (Part II Ch 2)",
+            "how": "Arena Warrior course every week"
+          }
+        ],
+        "drop": [
+          {
+            "item": "Read the Winds",
+            "why": "Slot goes to Full Strength (Lv 20)"
+          }
+        ],
+        "checks": [
+          {
+            "stat": "Dex",
+            "at": "Lv 22 (Ch 7)",
+            "need": "Hammer forecast shows Hit 70+ on Ch 7's armored foes",
+            "why": "A Hammer miss leaves a knight standing next to him",
+            "fix": [
+              "[[item:Archer's Ring]] (Hit +5, Wt 3) in the accessory slot",
+              "[[item:Linaria Juice]] on that map (Hit +10, source ?)",
+              "Let Sirocco's magic take the low-Hit knights"
+            ]
+          }
+        ]
+      },
+      {
+        "when": "Ch 9 to 12: bench, Arena",
+        "from": {
+          "part": 1,
+          "ch": 9
+        },
+        "to": {
+          "part": 1,
+          "ch": 12
+        },
+        "level": "Lv 25 (no battle EXP)",
+        "class": "Brigand",
+        "kind": "bench",
+        "goal": "Bench for Part II. Arena Warrior course every week: Sword B, Axe B and Gauntlet B for Warrior.",
+        "exit": "Hold the Part II six at 11/27; Army Training 1 lifts him to Lv 34.",
+        "why": [
+          "Brigand is the class Army Training grows him in: Str +15, HP +15",
+          "No Pugilist trip: the Warrior course trains Gauntlet to B"
+        ],
+        "weapons": [
+          {
+            "item": "Hammer",
+            "why": "Part II armor answer; his own copy"
+          },
+          {
+            "item": "Iron Axe +3",
+            "why": "Everyday axe: Mt ?, Dex up at +3, Wt 10",
+            "plan": "Refined on join (Ch 6)"
+          },
+          {
+            "item": "Short Axe",
+            "why": "Range 1-2 axe, Mt 9",
+            "alts": [
+              "Hand Axe"
+            ]
+          },
+          {
+            "item": "Iron Gauntlets",
+            "why": "Gauntlet use in Part II toward A (Battlemaster)"
+          }
+        ],
+        "equipment": [
+          {
+            "item": "Giant's Ring",
+            "slot": "Accessory",
+            "why": "Bld +4 at Wt 0 offsets the Hammer",
+            "alts": [
+              "Conflagrant Gem"
+            ],
+            "plan": "Esmeralda has the first"
+          }
+        ],
+        "items": [
+          {
+            "item": "Elixir",
+            "why": "Heals 100; no Part II shops",
+            "alts": [
+              "Concoction"
+            ]
+          }
+        ],
+        "arts": [
+          {
+            "name": "Spike",
+            "why": "Hit +10"
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Full Strength",
+            "why": "Damage x1.3 at Str/2 %"
+          },
+          {
+            "name": "Attack Basics",
+            "why": "Str +1"
+          },
+          {
+            "name": "Axes Lv. 2",
+            "why": "Axe Hit +5 (rank ?)"
+          },
+          {
+            "name": "Axes Lv. 1",
+            "why": "Axe Hit +3 (rank ?)"
+          },
+          {
+            "name": "Knightly Senses",
+            "why": "Avo +10 vs spears; kept from Ch 7"
+          }
+        ],
+        "training": [
+          {
+            "rank": "Sword B, Axe B, Gauntlet B",
+            "for": "Warrior (Part II Ch 2)",
+            "how": "Arena Warrior course every week; Brawling EXP Boon"
+          }
+        ],
+        "tips": [
+          "The Salamander from Sealed-Off Past (Ch 11) waits in storage: his six are full",
+          "Only what he holds at 11/27 comes into Part II"
+        ],
+        "drop": [
+          {
+            "item": "Hand Axe",
+            "why": "Replaced by the Short Axe"
+          },
+          {
+            "item": "Concoction",
+            "why": "The Elixir takes its slot for Part II"
+          }
+        ]
+      },
+      {
+        "when": "Part II Ch 1: Brigand",
+        "from": {
+          "part": 2,
+          "ch": 1
+        },
+        "to": {
+          "part": 2,
+          "ch": 1
+        },
+        "level": "Lv 34 to 35",
+        "class": "Brigand",
+        "kind": "core",
+        "goal": "One map at Lv 34 after Army Training 1: bank Regroup, then Warrior at Lv 35.",
+        "exit": "Lv 35 after Army Training 2: Warrior on Ch 2's free Advanced License.",
+        "masteries": [
+          "Regroup"
+        ],
+        "weapons": [
+          {
+            "item": "Hammer",
+            "why": "Effective+ vs armor; the west Warrior drops a Hammer +1",
+            "plan": "Carried from Part I"
+          },
+          {
+            "item": "Iron Axe +3",
+            "why": "Everyday axe: Mt ?, Dex up at +3, Wt 10",
+            "plan": "Carried from Part I"
+          },
+          {
+            "item": "Short Axe",
+            "why": "Range 1-2 axe",
+            "plan": "Carried from Part I"
+          },
+          {
+            "item": "Iron Gauntlets",
+            "why": "Gauntlet use toward A",
+            "plan": "Carried from Part I"
+          }
+        ],
+        "equipment": [
+          {
+            "item": "Giant's Ring",
+            "slot": "Accessory",
+            "why": "Bld +4 at Wt 0",
+            "alts": [
+              "Conflagrant Gem"
+            ],
+            "plan": "Carried from Part I"
+          }
+        ],
+        "items": [
+          {
+            "item": "Elixir",
+            "why": "Heals 100",
+            "plan": "Stocked before 11/27"
+          }
+        ],
+        "arts": [
+          {
+            "name": "Spike",
+            "why": "Hit +10"
+          },
+          {
+            "name": "Crash",
+            "why": "Axe B: +9 Mt, no follow-up either way, so One Chance's Atk +5 fires"
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Full Strength",
+            "why": "Damage x1.3 at Str/2 %; Full Strength+ at Lv 35"
+          },
+          {
+            "name": "Regroup",
+            "why": "Brigand mastery: Avo +20 after a miss (once mastered)"
+          },
+          {
+            "name": "Attack Basics",
+            "why": "Str +1"
+          },
+          {
+            "name": "Axes Lv. 2",
+            "why": "Axe Hit +5 (rank ?)"
+          },
+          {
+            "name": "Axes Lv. 1",
+            "why": "Axe Hit +3 (rank ?)"
+          }
+        ],
+        "checks": [
+          {
+            "stat": "Dex",
+            "at": "Part II Ch 1",
+            "need": "Iron Axe +3 + Spike forecast shows Hit 80+ on Ch 1 infantry",
+            "why": "Hit 65 axes miss; Full Strength only pays when the swing lands",
+            "fix": [
+              "Warrior from Ch 2: Axe Hit +5 and Practiced Art Hit +10 on arts",
+              "[[item:Conflagrant Gem]] (Hit +20 on arts, 30%) for the ring",
+              "Swing Spike (Hit +10) on every attack; skip Wild Abandon"
+            ]
+          }
+        ],
+        "drop": [
+          {
+            "item": "Knightly Senses",
+            "why": "Slot goes to Regroup"
+          }
+        ]
+      },
+      {
+        "when": "Part II Ch 2 to 6: Warrior",
+        "from": {
+          "part": 2,
+          "ch": 2
+        },
+        "to": {
+          "part": 2,
+          "ch": 6
+        },
+        "level": "Lv 35 to 42",
+        "class": "Warrior",
+        "kind": "core",
+        "goal": "Practiced Art (Hit +10 on arts) and Axe Hit +5 fix his Hit. Full Strength+ (Lv 35): x1.5 at Str/2 %.",
+        "exit": "Battlemaster at Lv 45 with Gauntlet A, Axe A, Sword A (Part III).",
+        "masteries": [
+          "Practiced Art"
+        ],
+        "why": [
+          "Hit stack: Iron Axe +3 65 + Warrior 5 + Spike 10 + Practiced Art 10 = 90, plus its Dex",
+          "Hammer + Spike: 60 + 5 + 10 + 10 = 85 on armor"
+        ],
+        "weapons": [
+          {
+            "item": "Hammer",
+            "why": "Effective+ vs armor",
+            "plan": "Carried from Part I"
+          },
+          {
+            "item": "Iron Axe +3",
+            "why": "Everyday axe: Mt ?, Dex up at +3, Wt 10",
+            "plan": "Carried from Part I"
+          },
+          {
+            "item": "Short Axe",
+            "why": "Range 1-2 axe",
+            "plan": "Carried from Part I"
+          },
+          {
+            "item": "Iron Gauntlets",
+            "why": "Gauntlet A for Battlemaster; Brawl Hit +5",
+            "plan": "Carried from Part I"
+          }
+        ],
+        "equipment": [
+          {
+            "item": "Giant's Ring",
+            "slot": "Accessory",
+            "why": "Bld +4 at Wt 0",
+            "alts": [
+              "Conflagrant Gem"
+            ],
+            "plan": "Carried from Part I"
+          }
+        ],
+        "items": [
+          {
+            "item": "Elixir",
+            "why": "Heals 100",
+            "plan": "Stocked before 11/27"
+          }
+        ],
+        "arts": [
+          {
+            "name": "Spike",
+            "why": "Hit +10"
+          },
+          {
+            "name": "Crash",
+            "why": "+9 Mt; no follow-ups, so One Chance fires"
+          },
+          {
+            "name": "Mighty Fist",
+            "why": "Gauntlet D: Hit +10 while he trains Gauntlet"
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Full Strength+",
+            "why": "Personal Lv 35: damage x1.5, trigger Str/2 %"
+          },
+          {
+            "name": "Practiced Art",
+            "why": "Warrior mastery: Hit +10 with arts (once mastered)"
+          },
+          {
+            "name": "Regroup",
+            "why": "Avo +20 after a miss"
+          },
+          {
+            "name": "Axes Lv. 2",
+            "why": "Axe Hit +5 (rank ?)"
+          },
+          {
+            "name": "Attack Basics",
+            "why": "Str +1"
+          }
+        ],
+        "training": [
+          {
+            "rank": "Gauntlet A, Axe A, Sword A",
+            "for": "Battlemaster (Lv 45)",
+            "how": "Battle use (no Part II Arena); Axe and Brawling EXP Boons"
+          }
+        ],
+        "tips": [
+          "Ch 3: Crash on the alley foes; Esmeralda holds the choke in front of him",
+          "Ch 1: the west Warrior drops Hammer +1; Ch 4 sits him if the bows fill the slots",
+          "Ch 6 Lyrah: once ranged allies chip her shields, Crash with Full Strength+ (x1.5) hits the cocoon"
+        ],
+        "drop": [
+          {
+            "item": "Axes Lv. 1",
+            "why": "Slot goes to Practiced Art"
+          }
+        ]
+      },
+      {
+        "when": "Part III goal",
+        "from": {
+          "part": 3
+        },
+        "level": "Lv 45+",
+        "class": "Battlemaster",
+        "kind": "core",
+        "goal": "War Master's Strike x1.5 and Full Strength+ x1.5 on a Silver Axe +2; Hammer +2 for armor and golems.",
+        "exit": "Final class.",
+        "masteries": [
+          "War Master's Strike"
+        ],
+        "why": [
+          "No Master License planned (bench): Warrior runs the same kit (Practiced Art) until one is spare",
+          "Boon answer: Cleansing Blade +2 (Mt ~16, Wt 3); Blaze Blow on undead",
+          "Hit stack: Silver Axe 70 + Axe Hit +7 + Axes Lv. 4 +7 + Practiced Art +10 + Spike +10"
+        ],
+        "weapons": [
+          {
+            "item": "Silver Axe +2",
+            "why": "Main: Mt ~26, Hit 70, Wt 9; ~Mt +3 over Iron +4 is +4.5 after x1.5",
+            "plan": "Boon or Reliquary buy",
+            "alts": [
+              "Iron Axe +4",
+              "Bronze Axe +4"
+            ]
+          },
+          {
+            "item": "Hammer +2",
+            "why": "Effective+ vs armor: three times its Mt; Wt 20",
+            "plan": "Carried from Part I"
+          },
+          {
+            "item": "Short Axe +2",
+            "why": "1-2 range (Hit +10 vs 2+ needs +3)",
+            "plan": "Carried from Part I"
+          },
+          {
+            "item": "Cleansing Blade +2",
+            "why": "Boon answer: Mt ~16, Wt 3; cancels the Underworld Boon",
+            "plan": "No Soulstone on the bench (D-158)"
+          }
+        ],
+        "equipment": [
+          {
+            "item": "Giant's Ring",
+            "slot": "Accessory",
+            "why": "Bld +4 at Wt 0",
+            "alts": [
+              "Conflagrant Gem"
+            ],
+            "plan": "Carried from Part I"
+          }
+        ],
+        "items": [
+          {
+            "item": "Elixir",
+            "why": "Heals 100",
+            "alts": [
+              "Concoction"
+            ]
+          }
+        ],
+        "arts": [
+          {
+            "name": "Spike",
+            "why": "Axe D: Mt +4, Hit +10"
+          },
+          {
+            "name": "Crash",
+            "why": "Axe B: Mt +9, no follow-ups, so One Chance fires"
+          },
+          {
+            "name": "Wild Abandon",
+            "why": "Axe C: Mt +8, Hit −30; the Hit stack covers it"
+          },
+          {
+            "name": "Blaze Blow",
+            "why": "Sword B: Mt +7 on the Cleansing Blade vs undead"
+          }
+        ],
+        "abilities": [
+          {
+            "name": "War Master's Strike",
+            "why": "Battlemaster mastery: damage x1.5 (once mastered)"
+          },
+          {
+            "name": "Full Strength+",
+            "why": "Personal Lv 35: damage x1.5 at Str/2 %"
+          },
+          {
+            "name": "Practiced Art",
+            "why": "Warrior mastery: Hit +10 with arts"
+          },
+          {
+            "name": "Axes Lv. 4",
+            "why": "Axe A+: Hit/Avo +7 with axes; Lv. 3 until A+"
+          },
+          {
+            "name": "Regroup",
+            "why": "Brigand mastery: Avo +20 after a miss"
+          }
+        ],
+        "training": [
+          {
+            "rank": "Gauntlet A, Axe A, Sword A",
+            "for": "Battlemaster (Lv 45, Master License)",
+            "how": "Battle use; Axe and Brawling EXP Boons"
+          },
+          {
+            "rank": "Axe A+",
+            "for": "Axes Lv. 4",
+            "how": "Battlemaster trains Axe +4 a fight"
+          }
+        ],
+        "drop": [
+          {
+            "item": "Iron Axe +3",
+            "why": "Silver Axe +2 (Iron Axe +4 is its alt)"
+          },
+          {
+            "item": "Iron Gauntlets",
+            "why": "Gauntlet A done; the Cleansing Blade takes the slot"
+          },
+          {
+            "item": "Mighty Fist",
+            "why": "No gauntlet in the kit"
+          },
+          {
+            "item": "Axes Lv. 2",
+            "why": "Axes Lv. 4 replaces it"
+          }
+        ],
+        "tips": [
+          "Seat: Baozi (B) for Troy: Hammer +2 on golems and armor; Mars Lv 1 offsets Pride",
+          "Mahadu (D) for Simon; Drake (E, on foot) for Mikaela",
+          "One Chance: Crash and the Hammer stop follow-ups both ways, so Atk +5 fires",
+          "Balor: spare center striker if Tobias or Guzran falls"
+        ]
+      }
+    ],
+    "alt": "If Esmeralda's Support 3 slips past Ch 8, he keeps the Hammer and the slot through Ch 10, and she joins the bench instead.",
+    "routeNotes": [
+      {
+        "system": "Supports",
+        "note": "Buccar, Esmeralda and Inyoni in this army; Nezha and Seteth if recruited. Before he joins: Leda + Fianna + Dadao (Support 2). Ch 11 and 12: Leda + Dadao + Inyoni."
+      },
+      {
+        "system": "Arena",
+        "note": "Bench from Ch 9: the Warrior course (Sword, Axe, Gauntlet) every week covers all three Warrior ranks."
+      }
+    ],
+    "sources": [
+      "equippable-abilities",
+      "weapons-and-items",
+      "combat-arts-and-abilities",
+      "character-learnsets",
+      "class-data",
+      "redesign/11-roster-pass",
+      "walkthrough-part1-leda",
+      "part2-war",
+      "notable-deeds-and-boons"
+    ],
+    "decisions": [
+      {
+        "topic": "Hand the Hammer to Esmeralda",
+        "pick": "Ch 9 prep: Hammer and Giant's Ring move to her",
+        "why": "Brawn makes the Hammer Wt 16 on her, she also throws spears, and Dreadnought then Castle Knight give her a Part III ceiling. He avoids Spear, so he can't go armored.",
+        "else": "He keeps the slot through Ch 10 if her recruit slips"
+      },
+      {
+        "topic": "Skip the Pugilist side trip",
+        "pick": "Gauntlet B from the Arena Warrior course",
+        "why": "The Warrior course trains Sword, Axe and Gauntlet to B together. On the bench he can't master Attack, Get Back in Part I, so the trip only cost a License."
+      },
+      {
+        "topic": "Go Warrior, not Dreadnought",
+        "pick": "Warrior in Part II Ch 2, Battlemaster in Part III",
+        "why": "Dreadnought needs Spear B and Castle Knight Spear A, an avoided skill. Warrior's Axe Hit +5 and Practiced Art fix his Dex 35."
+      }
+    ],
+    "gates": [
+      {
+        "route": "Leda",
+        "from": {
+          "part": 1,
+          "ch": 4
+        },
+        "by": {
+          "part": 1,
+          "ch": 6
+        },
+        "kind": "item",
+        "text": "Dadao costs 2 Kothar Gar (fishing only): Zeet Lake or Kothar Lake"
+      },
+      {
+        "route": "Leda",
+        "from": {
+          "part": 1,
+          "ch": 9
+        },
+        "by": {
+          "part": 1,
+          "ch": 12
+        },
+        "kind": "rank",
+        "text": "Dadao: Arena Warrior course every week, Sword, Axe and Gauntlet B by 11/27"
+      }
+    ]
+  },
+  "sources": [
+    "https://fortunesweave.co.uk/characters/dadao",
+    "https://www.keengamer.com/articles/guides/fire-emblem-fortunes-weave-tier-list-best-characters-ranked-for-every-route/",
+    "https://www.keengamer.com/articles/guides/fire-emblem-fortunes-weave-best-class-for-every-character/",
+    "https://www.pockettactics.com/fire-emblem-fortunes-weave/tier-list"
+  ],
+  "recruitOn": {
+    "Cai": {
+      "how": "recruit",
+      "support": 3,
+      "renown": 7
+    },
+    "Dietrich": {
+      "how": "recruit",
+      "support": 3,
+      "renown": 10
+    },
+    "Theodora": {
+      "how": "recruit",
+      "support": 2,
+      "renown": 5
+    },
+    "Leda": {
+      "how": "recruit",
+      "support": 2,
+      "renown": 5,
+      "task": "2× Kothar Gar"
+    }
+  }
+}

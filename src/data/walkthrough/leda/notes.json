@@ -1,0 +1,283 @@
+{
+  "openQuestions": [
+    {
+      "text": "Buccar's join point: Ch 1 in one timing source; the path guide calls it unclear and has him defect on Turn 1 of the Ch 9 battle. If he's missing before Ch 9, Jasmine stands in from Ch 6",
+      "ch": 1,
+      "units": [
+        "Buccar",
+        "Jasmine"
+      ],
+      "sources": [
+        "timing source",
+        "RPG Site Leda path guide"
+      ]
+    },
+    {
+      "text": "Buccar's Beginner class: the path guide suggests Gladiator or Ornius Rider; the plan uses Soldier for the armored line",
+      "ch": 5,
+      "units": [
+        "Buccar"
+      ],
+      "sources": [
+        "RPG Site Leda path guide"
+      ]
+    },
+    {
+      "text": "Elegant Drink Recipes: only the review source (from Game8) describes it (Ch 10, Renown 10, Wonder Leaves from Ch 11); the path guide doesn't list it. Placed in Ch 11",
+      "ch": 11,
+      "units": [
+        "Leda"
+      ],
+      "sources": [
+        "Game8 via review source"
+      ]
+    },
+    {
+      "text": "Does Simple Drink Recipes lead into Elegant Drink Recipes? Unconfirmed",
+      "ch": 4,
+      "units": [
+        "Leda"
+      ]
+    },
+    {
+      "text": "Great Dancer's Successor deadline: 10/15 in the subquest guide, \"may be 10/15 (unverified)\" in the path guide",
+      "ch": 9,
+      "units": [
+        "Leda"
+      ],
+      "sources": [
+        "RPG Site subquest guide",
+        "RPG Site Leda path guide"
+      ]
+    },
+    {
+      "text": "Dance for Raivo Port and Dance for Zoste end 9/1 per one read of the source (unverified)",
+      "ch": 6,
+      "sources": [
+        "RPG Site Leda path guide"
+      ]
+    },
+    {
+      "text": "The 10/15 Perform batch: one read of the source counted six quests, not three (Mons, Alecto, Barsh Post Town)",
+      "ch": 7,
+      "sources": [
+        "RPG Site Leda path guide"
+      ]
+    },
+    {
+      "text": "Pepper and Bitter Leaves at Traveler's Garden, past Port of Pandora, and the Drink Recipe chain order: single source (fortunesweave.online, community)",
+      "ch": 9,
+      "units": [
+        "Leda"
+      ],
+      "sources": [
+        "fortunesweave.online"
+      ]
+    },
+    {
+      "text": "Dietrich's paralogue pickup window: 10/22 per the paralogue guide, 10/29 per the walkthrough. Pick it up by 10/22",
+      "ch": 11,
+      "sources": [
+        "RPG Site paralogue guide",
+        "RPG Site Leda path guide"
+      ]
+    },
+    {
+      "text": "Subquest deadlines before their chapter opens on Leda's calendar: The Fabled Insect Pearl 3/7, Can't Go Home 10/15, Can't Stay Home and Gisco's Treasure 10/24. Subquests are semi-random",
+      "ch": 4,
+      "sources": [
+        "RPG Site subquest guide"
+      ]
+    },
+    {
+      "text": "Caladrius: Game8 says only Cai's path unlocks it; Game8, GameRant and TheGamer say unlocks carry over. No Leda unit uses it either way",
+      "units": [
+        "Sirocco"
+      ],
+      "sources": [
+        "Game8",
+        "GameRant",
+        "TheGamer"
+      ]
+    },
+    {
+      "text": "Regroup: the video notes tie it to Pugilist; Game8's class data gives it to Brigand. The plan follows the class data. Its trigger (your miss or the foe's) is unverified",
+      "ch": 7,
+      "units": [
+        "Mu"
+      ],
+      "sources": [
+        "Hard-mode video",
+        "Game8 class data"
+      ]
+    },
+    {
+      "text": "Io's horse: Rocinan is \"Io's mount\" in the growth tables, but no source says when he has it on Leda's path. He is a filler here; it only matters if he fills a Part II slot",
+      "units": [
+        "Io"
+      ],
+      "sources": [
+        "class growth tables",
+        "class video"
+      ]
+    },
+    {
+      "text": "Buccar's Armored Move +2: only the class video mentions it, and its Mov 7 doesn't add up from Armored Knight's Mov 4. Check his skill list",
+      "units": [
+        "Buccar"
+      ],
+      "sources": [
+        "class video"
+      ]
+    },
+    {
+      "text": "Catania's White Magic isn't a preferred skill, so C comes slowly; her learnset has Physic at B and Warp at A (GameFAQs: the only unit with both)",
+      "ch": 8,
+      "units": [
+        "Catania"
+      ],
+      "sources": [
+        "GameFAQs"
+      ]
+    },
+    {
+      "text": "Mini Bow chest: the Hard-mode video puts one in a chest in one of Leda's first quests; the weapon video says Ch 3, but the path guide lists no Ch 3 chests. Open every chest early",
+      "ch": 3,
+      "units": [
+        "Leda",
+        "Inyoni"
+      ],
+      "sources": [
+        "Hard-mode video",
+        "weapon video",
+        "RPG Site Leda path guide"
+      ]
+    },
+    {
+      "text": "Not documented: Fianna's White Magic list (Physic?), what class manuals and the Tactics Manuals (Nowah's Cave Lv 10, Corroios Fort Ruins Lv 13) add, each Ch 6 to 9 recruit's class on joining, the Ch 9 join level (Lv 15 or 25), when the Kothar Gar lakes and the desert open",
+      "units": [
+        "Fianna",
+        "Ludia",
+        "Halvin",
+        "Jasmine",
+        "Dadao"
+      ]
+    },
+    {
+      "text": "Mastery speed: no source gives the Class EXP a mastery needs (one GameFAQs player: much quicker than Three Houses, a comparison). Every side trip ends on a condition",
+      "sources": [
+        "GameFAQs"
+      ]
+    },
+    {
+      "text": "Part II carry rule: the game says \"equipped\"; the plan reads it as the 6 held items. Do stored Licenses reach Part II?",
+      "ch": 12
+    },
+    {
+      "text": "Deployment slots (about 6, 8, then 9) and Part II's 15-unit cap are player reports (one source each)"
+    },
+    {
+      "text": "Perform Quests: no source describes a stat check, minigame or second unit",
+      "units": [
+        "Leda"
+      ],
+      "sources": [
+        "RPG Site",
+        "KeenGamer",
+        "fortunesweave.online"
+      ]
+    },
+    {
+      "text": "Dance or Song each turn, never both, and the Blaze Gauge rules: one source each (AllThings.How, community)",
+      "units": [
+        "Leda"
+      ],
+      "sources": [
+        "AllThings.How"
+      ]
+    },
+    {
+      "text": "Does spell weight (Banshee 23, Luna 20, Death 13) count toward AS? Unconfirmed",
+      "units": [
+        "Sirocco",
+        "Olympia"
+      ]
+    },
+    {
+      "text": "Archive Γ in Vandahl Dagsion from about Ch 10: cost unknown. Archive T needs Pongo, with no Pongo source on this route",
+      "ch": 10,
+      "units": [
+        "Olympia",
+        "Sirocco"
+      ]
+    },
+    {
+      "text": "Supports: no source records which units have support conversations with her, combat bonuses from Support, or whether Theater shows and campfire meals raise Support",
+      "units": [
+        "Leda"
+      ]
+    },
+    {
+      "text": "Ch 7 battle: the source has Maria summoning units, which may belong to the Ch 9 map",
+      "ch": 7
+    },
+    {
+      "text": "Shadowy Cave may stay locked on Leda's path until Dietrich's paralogue (Ch 11)",
+      "ch": 6
+    },
+    {
+      "text": "Buccar's starting class: one site lists him as a Lv 1 Commoner; no other source names it",
+      "ch": 1,
+      "units": [
+        "Buccar"
+      ]
+    },
+    {
+      "text": "Olympia's starting class: Diviner per one Fextralife snippet (unverified)",
+      "ch": 3,
+      "units": [
+        "Olympia"
+      ],
+      "sources": [
+        "Fextralife"
+      ]
+    },
+    {
+      "text": "Catania's recruit: RPG Site lists her as automatic on Leda's route; one timing source notes Renown 2 for the tutorial",
+      "ch": 4,
+      "units": [
+        "Catania"
+      ],
+      "sources": [
+        "RPG Site recruitment guide",
+        "timing source"
+      ]
+    },
+    {
+      "text": "Yukito for the Vandahl Healing Staffs (Catania Ch 7, Fianna Ch 11) has no gather spot on this route: shops or crates?",
+      "ch": 7,
+      "units": [
+        "Catania",
+        "Fianna"
+      ]
+    },
+    {
+      "text": "Arena seats: the roster plan has five courses, each once a week with two seats; older notes say one session a week. The plan follows five courses",
+      "ch": 5,
+      "sources": [
+        "redesign/11-roster-pass.md N1",
+        "RPG Site Leda path guide"
+      ]
+    },
+    {
+      "text": "Dragonbone Tangle (Nysiades, Lv 20) is in the Ch 7 dungeon list, but the desert may only open on the Ch 9 Baina trip. Sha Lan's Hexlock comes from it either way",
+      "ch": 7,
+      "units": [
+        "Sha Lan"
+      ],
+      "sources": [
+        "RPG Site Leda path guide"
+      ]
+    }
+  ]
+}

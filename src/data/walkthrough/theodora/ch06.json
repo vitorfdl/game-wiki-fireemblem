@@ -1,0 +1,345 @@
+{
+  "route": "Theodora",
+  "ch": 6,
+  "name": "The Treasure Hunter",
+  "free": {
+    "from": "3/22",
+    "to": "4/20"
+  },
+  "unlocks": [
+    "Specialty exams (Renown 4)",
+    "Blacksmith",
+    "Vandahl Trading Company barters",
+    "Recruit Soldiers (battalions)",
+    "Water routes: Lir Sea"
+  ],
+  "routine": {
+    "meals": [
+      {
+        "week": "Every Sunday (4 to 5 this chapter)",
+        "tables": [
+          [
+            "Theodora",
+            "Loretta",
+            "Ultand"
+          ],
+          [
+            "Theodora",
+            "Ninae",
+            "Simon"
+          ],
+          [
+            "Theodora",
+            "Nydine",
+            "Lilian"
+          ]
+        ],
+        "note": "Loretta and Nydine need Support 3 by 5/28, Ultand and Ninae by 6/1, Simon by 7/1: keep all five seated."
+      }
+    ],
+    "gifts": [
+      {
+        "unit": "Loretta",
+        "gift": "Mellow Pastries",
+        "alt": "Simple Pastries",
+        "until": "Support 3, recruit Ch 7"
+      },
+      {
+        "unit": "Nydine",
+        "gift": "Tales of Adventure",
+        "alt": "Kitten Figurine",
+        "until": "Support 3, recruit Ch 7",
+        "note": "Buy several on the Alecto trip"
+      },
+      {
+        "unit": "Ultand",
+        "gift": "Tales of Adventure",
+        "alt": "Garum",
+        "until": "Support 3, recruit Ch 8",
+        "note": "Buy several on the Alecto trip"
+      },
+      {
+        "unit": "Ninae",
+        "gift": "Tales of Adventure",
+        "until": "Support 3, recruit Ch 8",
+        "note": "Buy several on the Alecto trip"
+      },
+      {
+        "unit": "Simon",
+        "gift": "",
+        "alt": "Training Bracelet",
+        "until": "Support 3, recruit Ch 9",
+        "note": "Nothing they like is buyable yet: meals carry them"
+      },
+      {
+        "unit": "Seteth",
+        "gift": "Tales of Adventure",
+        "alt": "Common Coffee",
+        "until": "Support 3, recruit Ch 10 (filler)",
+        "note": "Buy several on the Alecto trip"
+      },
+      {
+        "unit": "Jester",
+        "gift": "Home-Recipe Book",
+        "alt": "Rare Spices",
+        "until": "Support 3, recruit Ch 10 (filler)"
+      },
+      {
+        "unit": "Io",
+        "gift": "Common Coffee",
+        "alt": "Kitten Figurine",
+        "until": "Support 3, recruit Ch 11 (filler)"
+      },
+      {
+        "unit": "Diego",
+        "gift": "Tales of Adventure",
+        "alt": "The Works of Dante",
+        "until": "Support 2, recruit Ch 12",
+        "note": "Buy several on the Alecto trip"
+      }
+    ]
+  },
+  "missables": [
+    {
+      "id": "theodora-ch06-missables-bertrand-exhibition",
+      "kind": "scene",
+      "text": "Fight Bertrand's exhibition match on 4/6 at 18:00: damage him enough, no need to win",
+      "detail": [
+        "Bring a healer."
+      ],
+      "when": "4/6, 18:00",
+      "lose": "The exhibition match (fixed date and hour)",
+      "recover": "Chapter replay",
+      "task": true
+    }
+  ],
+  "classes": {
+    "note": {
+      "text": "Zarcone joins about Lv 15: his [[class:Brigand]] exam (Axe C, Sword C) waits for Lv 20, usually Ch 7"
+    }
+  },
+  "gear": {
+    "assign": [
+      {
+        "item": "Hexlock Shield",
+        "to": "Theodora",
+        "why": "Res +5 for mage maps"
+      },
+      {
+        "item": "Archer's Ring",
+        "to": "Tobias",
+        "why": "Hit +5, Wt 3: Da Mina Gauntlets 4 + ring 3 stays light"
+      },
+      {
+        "item": "Gale Ring",
+        "to": "Lysander",
+        "why": "Spd +3, Wt 2: stacks with Accelerate's kill Spd"
+      },
+      {
+        "item": "Magic Staff",
+        "to": "Bonaventure",
+        "why": "Mag +3, Wt 3: the Corroios Fort Ruins copy, or the Zamir barter"
+      },
+      {
+        "item": "Hammer",
+        "to": "Zarcone",
+        "why": "Ch 6 to 7 armor breaker, plain; Tobias takes it in Ch 10 (+1)"
+      },
+      {
+        "item": "Giant's Ring",
+        "to": "Zarcone",
+        "why": "Bld +4 trims the Hammer's Wt 20; passes to Tobias in Ch 10"
+      }
+    ],
+    "barter": [
+      {
+        "item": "Hexlock Shield",
+        "for": "Theodora",
+        "at": "Dagsion",
+        "note": "the Dione Fort and Dragonbone Tangle copies go to Ninae and Ultand"
+      },
+      {
+        "item": "Archer's Ring",
+        "for": "Tobias",
+        "at": "Dagsion"
+      },
+      {
+        "item": "Gale Ring",
+        "for": "Lysander",
+        "at": "Alecto"
+      },
+      {
+        "item": "Magic Staff",
+        "for": "Bonaventure, only if Corroios Fort Ruins didn't give one",
+        "at": "Dagsion"
+      },
+      {
+        "item": "Hammer",
+        "for": "Zarcone",
+        "at": "Dagsion",
+        "note": "or the Nemea Cavern chest"
+      },
+      {
+        "item": "Giant's Ring",
+        "for": "Zarcone",
+        "at": "Alecto",
+        "note": "the first Paradise Fish; the second is Ninae's"
+      },
+      {
+        "item": "Cleansing Blade",
+        "for": "Theodora for the Bahr Vahn map, then storage for Tobias (Part III)",
+        "at": "Dagsion"
+      },
+      {
+        "item": "Concoction",
+        "for": "Every unit that fights in melee",
+        "at": "Dagsion"
+      }
+    ],
+    "note": [
+      {
+        "text": "Blacksmith opens (Renown 4): repairs only. Refining starts at Renown 7 (late Ch 8)",
+        "detail": [
+          "+1 in Ch 9, +2 (Renown 10) in Ch 12: the Ledger's refine plan. Bank Smithing Stones now.",
+          "Mahadu's Spear, Hammer, Longbow and Levin Sword take rare ore; which ore each takes is unknown."
+        ],
+        "conf": "?"
+      }
+    ],
+    "buy": [
+      {
+        "text": "Tobias [[item:Da Mina Gauntlets]], Lilian [[item:Da Mina Bow]], Lysander [[item:Da Mina Spear]]",
+        "detail": [
+          "Their Rank C mains at +0 until Ch 9. Vandahl barter or an armory (4,000G ?).",
+          "Dagsion Armorer: an [[item:Iron Axe]] (1,500G) for Zarcone. Lysander keeps his Ch 4 axe."
+        ]
+      }
+    ]
+  },
+  "recruits": [
+    {
+      "unit": "Zarcone",
+      "action": "Talk his fee down to 10G, recruit him and deploy him: he holds the Hammer for Ch 6 and 7",
+      "when": "Renown 4 usually lands in Ch 6",
+      "detail": [
+        "From Ch 8 Alexandra and Loretta take the seats; he goes to storage and the Hammer waits for Tobias (Ch 10).",
+        "Never give him coffee."
+      ]
+    }
+  ],
+  "prep": [
+    {
+      "text": "Farm 1 Sandworm Meat at [[place:Aditi's Cave]] (Lv 28) for A Taste of Nostalgia (due 6/15)",
+      "detail": [
+        "About 7 Sandworms there; bring your strongest units.",
+        "Part I chests: Archive L (nobody reads it on this route), a Large Bullion, a Spirit Board."
+      ]
+    },
+    {
+      "text": "Benditz (filler) appears in Dagsion about 4/11: recruit at Renown 8"
+    }
+  ],
+  "quests": {
+    "route": [
+      {
+        "quest": "send-supplies-black-sand-steel"
+      },
+      {
+        "quest": "send-supplies-melara"
+      }
+    ],
+    "sub": [
+      {
+        "quest": "a-taste-of-nostalgia",
+        "note": "Sandworm Meat from Aditi's Cave (Recruits › prep)"
+      },
+      {
+        "quest": "defeat-aguinos-thieves",
+        "note": "Keep a few of its Jyoppa: 2 for Tobias's Archer's Ring, some for A Taste from Home (Ch 7)"
+      },
+      {
+        "quest": "ever-employed-a-blacksmith"
+      },
+      {
+        "quest": "soil-survey",
+        "offered": "if-offered"
+      },
+      {
+        "quest": "energy-nuts",
+        "offered": "if-offered"
+      }
+    ],
+    "paralogue": []
+  },
+  "explore": [
+    {
+      "text": "[[place:Uncharted Isle]] (Lir Sea, Lv 30, open to Theodora any time in Part I)",
+      "detail": [
+        "The plan runs it in Ch 10 at Lv 30."
+      ]
+    },
+    {
+      "group": "Battalions",
+      "id": "theodora-ch06-explore-recruit-regia",
+      "task": true,
+      "text": "Recruit Soldiers at [[place:Regia]] (tutorial): 2 mage, 1 priest and 2 fighter squads",
+      "detail": [
+        "Sirocco: [[battalion:Mage Pupils]], [[battalion:Blackfire Mages]]. Bonaventure: [[battalion:Pure Priests]].",
+        "Fighter: [[battalion:Regia Breeze Co.]] (Regia only, Simon Ch 9), [[battalion:Rookie Soldiers]] (Tobias).",
+        "Each roll is one random squad from the pool after a few turns: roll again until these land."
+      ]
+    },
+    {
+      "group": "Battalions",
+      "id": "theodora-ch06-explore-recruit-alecto",
+      "task": true,
+      "text": "Recruit Soldiers at [[place:Alecto]]: Theodora's wall squad and Zarcone's Hunter-Drifters",
+      "detail": [
+        "Wall: [[battalion:Armored Sentinels]] now, [[battalion:Veteran Sentinels]] for Authority C.",
+        "Zarcone: [[battalion:Hunter-Drifters]] (Loretta's from Ch 8).",
+        "Hold [[battalion:Bronze-Shield Guard]] (Ultand) and [[battalion:Rookie Vanguard]] (Ninae) for 6/1."
+      ]
+    },
+    {
+      "group": "Battalions",
+      "text": "Assign battalions: Theodora, Bonaventure, Sofia, Tobias, Lilian, Zarcone",
+      "detail": [
+        "Theodora [[battalion:Armored Sentinels]], Bonaventure [[battalion:Pure Priests]], Sofia [[battalion:Priest Trainees]].",
+        "Tobias [[battalion:Rookie Soldiers]], Lilian [[battalion:Novice Hunters]], Zarcone [[battalion:Hunter-Drifters]].",
+        "Carrier order: Theodora, Ultand, Ninae, Sirocco, Sofia, Bonaventure, Tobias, Loretta, Lilian, Simon."
+      ]
+    },
+    {
+      "group": "Battalions",
+      "text": "Send a spare mage squad to ore Search Points: rare ore for the special refines",
+      "conf": "?",
+      "detail": [
+        "Mage squads gather more ore; Mahadu's Spear, Hammer, Longbow and Levin Sword refines wait on it.",
+        "Clergy squads gather more at resource nodes: Send Supplies mats."
+      ]
+    },
+    {
+      "group": "Spare Turns",
+      "text": "Support run with this week's meal pairs: [[place:Fort Hayn]] (Lv 18, Braxithea)"
+    }
+  ],
+  "battle": {
+    "title": "Bahr Vahn Showdown",
+    "objective": "Defeat Bahr Vahn",
+    "lose": "Theodora falls",
+    "tips": [
+      {
+        "text": "Go clockwise (west): it's easier than east. Line up left of the central spike pit first"
+      },
+      {
+        "text": "Swap Theodora's Halberd for the [[item:Cleansing Blade]]: bonus damage on this map"
+      },
+      {
+        "text": "Stay off the trap floors"
+      },
+      {
+        "text": "Hitting Bahr Vahn spawns more enemies: be in position before the first hit"
+      }
+    ]
+  }
+}

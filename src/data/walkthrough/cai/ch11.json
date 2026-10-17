@@ -1,0 +1,192 @@
+{
+  "route": "Cai",
+  "ch": 11,
+  "name": "Dagda's Cauldron",
+  "free": {
+    "from": "10/16",
+    "to": "10/23"
+  },
+  "routine": {
+    "meals": [
+      {
+        "week": "Every Sunday",
+        "tables": [
+          [
+            "Cai",
+            "Tialla",
+            "Ultand"
+          ],
+          [
+            "Cai",
+            "Peter",
+            "Ninae"
+          ]
+        ],
+        "note": "No recruit targets left. Third meal: any army trio from the rotation."
+      }
+    ]
+  },
+  "missables": [
+    {
+      "id": "cai-ch11-missables-orchel-paralogue",
+      "quest": "orchels-regret",
+      "kind": "item",
+      "text": "Clear Orchel's Paralogue 10/18 to 10/20 only: lead Theodora to Aurora through the sewers first",
+      "when": "10/18 to 10/20",
+      "where": "Lower Temple Row (Orchel)",
+      "lose": "Fianna's Healing Staff, 20,000G and 150 Renown",
+      "recover": "None",
+      "detail": [
+        "Deadline 10/21."
+      ],
+      "task": true
+    },
+    {
+      "id": "cai-ch11-missables-fish-are-gross",
+      "quest": "fish-are-gross",
+      "kind": "timing",
+      "text": "Take a Grady Goby to Fina Reef for Fish Are Gross (from Ch 7) before the free time ends",
+      "when": "10/23",
+      "lose": "3,000G and 180 Renown",
+      "recover": "None",
+      "task": true
+    }
+  ],
+  "classes": {
+    "note": {
+      "text": "Take any Ch 10 Advanced exam that slipped first: most likely Ultand, who missed Ch 9",
+      "detail": [
+        "Seteth's Dragoon and Ninae's Guardian need Lv 35 with their ranks; otherwise Ch 12."
+      ]
+    }
+  },
+  "gear": {
+    "assign": [
+      {
+        "item": "Healing Staff",
+        "to": "Fianna",
+        "why": "Orchel's Paralogue reward, for her Part II kit"
+      }
+    ],
+    "note": [
+      {
+        "text": "Ninae: move the [[item:Healing Staff]] to storage once she is a Guardian (6-weight cap)",
+        "detail": [
+          "Tialla's doubled Physic carries the heals."
+        ]
+      }
+    ]
+  },
+  "recruits": [
+    {
+      "unit": "Io",
+      "action": "Pay 4,000G: he brings a Levin Sword",
+      "when": "Renown 10",
+      "detail": [
+        "Filler, bench only."
+      ]
+    },
+    {
+      "unit": "Jester",
+      "action": "Finish his 3 short quests: he brings a Levin Sword",
+      "when": "Renown 10",
+      "detail": [
+        "Filler, bench only."
+      ]
+    },
+    {
+      "unit": "Dante",
+      "action": "Pay 8,000G: he supports Nydine, Seteth and Sirocco",
+      "when": "Renown 10",
+      "detail": [
+        "Filler, bench only."
+      ]
+    }
+  ],
+  "prep": [
+    {
+      "text": "Sirocco, Peppe or Mu still waiting? Their rows are in Ch 10: Renown 9 often lands here"
+    }
+  ],
+  "quests": {
+    "route": [
+      {
+        "quest": "the-white-maned-demons-request",
+        "note": "Bertrand, Renown 10: don't skip it, Fianna's Advanced class is Troubadour",
+        "detail": [
+          "It can show up in Ch 9 but needs Renown 10 (usually Ch 11).",
+          "Fianna at Lv 35 by Ch 12 takes Troubadour there, as the 8th Advanced unit.",
+          "Not Renown 10 by 11/27? Fianna stays Priest in Part II and Tialla skips her Troubadour stint."
+        ]
+      },
+      {
+        "quest": "flying-steed",
+        "note": "Bring the Wild Pegasus to Dagsion (Mercenary, Lowtown or Port)"
+      }
+    ],
+    "sub": [
+      {
+        "quest": "secret-sparkle",
+        "offered": "if-offered"
+      },
+      {
+        "quest": "defeat-the-rampaging-golems",
+        "offered": "if-offered"
+      },
+      {
+        "quest": "a-lost-object",
+        "offered": "if-offered",
+        "note": "Letter chain only"
+      }
+    ],
+    "paralogue": [
+      {
+        "quest": "orchels-regret",
+        "note": "Biggest map: split into two teams and hit both switches on the same turn",
+        "detail": [
+          "The Onager then hits the boss and his guards. Pegasus reinforcements come from the east.",
+          "Peter: pack the Horsekiller Bow for the Pegasus wave.",
+          "The two chests hold only Pure Water: Ninae's and Noctula's Part II stock."
+        ]
+      }
+    ]
+  },
+  "explore": [
+    {
+      "group": "Gather for Vandahl",
+      "text": "Gather for the next Vandahl barters (Dagsion Port), nearest stop first",
+      "detail": [
+        "Zamir ×1 at [[place:Gaura Grassland]] (Majide's Hammer); Noa Fruit ×1 at [[place:Sunwatch Pass]] (Ninae's Hexlock).",
+        "Enrietto ×1 at [[place:Sunlit Garden]] (Peppe's Horsekiller Bow); Paradise Fish ×1 at Lake Brontes (Giant's Ring).",
+        "Oda Monja ×2 at [[place:Moonwatch Pass]]: Da Mina Axe for Majide and Nydine (Part III)."
+      ]
+    },
+    {
+      "group": "Gather for Vandahl",
+      "text": "From Cai's farm: Linaria ×10, Melara ×10, Zang ×20",
+      "detail": [
+        "Roca ×2 for Majide's Hammer has no gather spot on this route: shops or crates?"
+      ]
+    },
+    {
+      "group": "Skip",
+      "text": "Skip Can't Go Home if it shows up: it's due 10/15, before this free time starts"
+    }
+  ],
+  "battle": {
+    "title": "Beneath the Colosseum",
+    "objective": "Defeat all enemies",
+    "lose": "Cai falls",
+    "tips": [
+      {
+        "text": "Your team goes up the east side, the guests up the west"
+      },
+      {
+        "text": "Fight from the patterned squares, and lure enemies off the SE square (Avo +40)"
+      },
+      {
+        "text": "The northern group won't leave its square: go to it"
+      }
+    ]
+  }
+}

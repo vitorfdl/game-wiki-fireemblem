@@ -1,0 +1,749 @@
+{
+  "name": "Halvin",
+  "slug": "halvin",
+  "epithet": "Circus performer turned archer",
+  "faction": "Pale Raven's Bridal Party",
+  "homeRoute": "Leda",
+  "weapons": [
+    "Bow"
+  ],
+  "preferred": [
+    "Bow",
+    "Rider"
+  ],
+  "avoid": [
+    "Axe"
+  ],
+  "personality": "Gentle ex-circus performer who dislikes fighting and gets nervous or homesick easily.",
+  "story": "Halvin grew up on an ordinary farm before joining a travelling circus troupe, and ended up in Anatolia's group by chance. They enjoy street performance, magic tricks, shopping and housekeeping. Recruitment needs Dates (a desert item) on Cai's route, with Renown gates of 5 (Cai), 7 (Theodora/Leda) or 9 (Dietrich).",
+  "personalSkill": {
+    "name": "Adaptability",
+    "effect": "After combat, grants Hit+2 until end of map (max +30). Lv20: Halt Advance (foes who attacked first get Spd-2 through next combat); Lv35: Spd-3."
+  },
+  "growths": {
+    "HP": 35,
+    "Str": 35,
+    "Mag": 30,
+    "Spd": 45,
+    "Dex": 60,
+    "Def": 30,
+    "Res": 25,
+    "Lck": 40,
+    "Cha": 35
+  },
+  "supports": [
+    "Dietrich",
+    "Jester",
+    "Nezha",
+    "Sha Lan",
+    "Zarcone"
+  ],
+  "tiers": [
+    {
+      "source": "KeenGamer",
+      "tier": "A"
+    },
+    {
+      "source": "Pocket Tactics",
+      "tier": "B"
+    }
+  ],
+  "tierNotes": "KeenGamer: A tier (Dex-heavy archer, recruitment needs Dates). Pocket Tactics: B tier.",
+  "recruit": {
+    "how": "recruit",
+    "support": 3,
+    "renown": 7,
+    "extra": "10× Dates",
+    "why": [
+      "Bench recruit on Leda's route: join him in Ch 9 as soon as the Baina trip pays the 10 Dates.",
+      "Inyoni holds the Part I archer slot; he levels in dungeon parties and takes Charioteer in Part I."
+    ],
+    "tip": "Buy the 10 Dates at Baina Oasis (30G each) on the Ch 9 trip. Cai can't reach the desert."
+  },
+  "requirements": {
+    "Cai": "3S 9R",
+    "Dietrich": "3S 9R",
+    "Theodora": "3S 7R",
+    "Leda": "3S 7R"
+  },
+  "build": {
+    "role": "Part II chariot archer",
+    "path": [
+      "Hunter (Ch 9 join, bench)",
+      "Charioteer (Lv 20, Ch 9 or 10)",
+      "Charioteer Lv 35 step (Part II)",
+      "Charioteer Lv 45 step (Part III)"
+    ],
+    "part1Target": "Charioteer (bench, Ch 9 join)",
+    "part3Target": "Charioteer (Lv 45 step)",
+    "notes": "Bench in Part I. He joins in Ch 9 after the Baina trip at about Lv 15, reads the Rubess Forest Riding Manual, and takes Charioteer at Lv 20 with Rider D and Bow C. Charger is mastered in Part I dungeon fights; the class steps up at Lv 35 and 45.",
+    "confidence": "medium"
+  },
+  "guide": {
+    "role": "Part II chariot archer and debuffer",
+    "summary": "A Part II chariot archer. He joins in Ch 9, levels in dungeon parties behind Inyoni through Part I, then charges lines and shoots from range 2 from Part II Ch 1. [[art:Leg Shot]] and [[ability:Halt Advance+]] soften a target for the next ally, and Adaptability stacks Hit +2 per combat, so he takes the Ch 5 Deadeye shot on Dagda.",
+    "playstyle": "Player phase: Leg Shot the foe your striker hits next, or Charge a softened line. He can't dodge: end turns behind the tanks, next to Sha Lan.",
+    "focus": [
+      "Dex",
+      "Spd",
+      "Str"
+    ],
+    "keys": [
+      "Buy 10 Dates at Baina Oasis on the Ch 9 trip; recruit him on return (Support 3, Renown 7)",
+      "Read the Rubess Forest Riding Manual on join day: Charioteer needs Rider D",
+      "Hunter to Lv 20, then [[class:Charioteer]] in Ch 9 or 10 (Rider D, Bow C)",
+      "EXP: a dungeon seat every week; aim at Lv 30? by Ch 12",
+      "Hold Wooden Bow +5, Longbow, Horsekiller Bow, Archer's Ring, Concoction at 11/27",
+      "Master Charger in Part I, then never leave Charioteer"
+    ],
+    "watch": [
+      "Chariot Armor: Avo is 0, so Warning Shot, Tempest Bow and Avo gear do nothing",
+      "Weight: Part II Wooden Bow +5 4 + Archer's Ring 3 = 7; Longbow 13 + 3 = 16 on Deadeye turns only. Part III Da Mina Bow +2 6 + Silver Shield 4 = 10 against Bld + 4 (Giant's Ring); shield off first if a double slips.",
+      "Spd: Charioteer grows Spd −5 to Lv 34 and 0 after; Hunter's Spd +10 to Lv 20 banks some",
+      "Res: 25% growth and Charioteer adds 0. Keep him out of mage range or next to Fianna once Barrier is up"
+    ],
+    "stages": [
+      {
+        "when": "Ch 9 join to Lv 20 · Hunter",
+        "from": {
+          "part": 1,
+          "ch": 9
+        },
+        "to": {
+          "lv": 20
+        },
+        "level": "About Lv 15 on join (Ch 9) to 20",
+        "class": "Hunter",
+        "kind": "bench",
+        "goal": "Lv 20 with Rider D and Bow C. EXP: Ch 9 caves (Lv 22 to 32) in a dungeon party every week.",
+        "exit": "Lv 20 with Rider D and Bow C: Charioteer on a Specialty License (Ch 9 or 10).",
+        "masteries": [
+          "Hunting Basics"
+        ],
+        "why": [
+          "Hunter: Spd +10, Dex +10 row; Charioteer grows Spd −5, so bank Spd now",
+          "Adaptability: Hit +2 per combat for the map, so long dungeon fights suit him"
+        ],
+        "weapons": [
+          {
+            "item": "Wooden Bow +5",
+            "why": "Main bow: Mt ? (jump at +5), Hit 75, Wt 4; Effective+ vs fliers",
+            "plan": "Refine to +5 with Smithing Stone"
+          },
+          {
+            "item": "Horsekiller Bow",
+            "why": "Effective vs cavalry and fliers, Wt 8"
+          }
+        ],
+        "items": [
+          {
+            "item": "Concoction",
+            "why": "Heals 40: he joins about 10 levels under the core",
+            "alts": [
+              "Vulnerary"
+            ]
+          }
+        ],
+        "arts": [
+          {
+            "name": "Warning Shot",
+            "why": "Bow D: Mt +3, Avo +10 (on foot only)"
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Bows Lv. 1",
+            "why": "Bow D+: Hit +3"
+          },
+          {
+            "name": "Steady Shot",
+            "why": "Infantry D: bow Hit +5 (Infantry)"
+          },
+          {
+            "name": "Hunting Basics",
+            "why": "Hunter mastery: Dex/Spd +1 (once mastered)"
+          },
+          {
+            "name": "Knightly Senses",
+            "why": "Rider D (his Charioteer rank): Avo +10 vs spears"
+          },
+          {
+            "name": "Read the Winds",
+            "why": "Flier D: Avo +10 vs bows"
+          }
+        ],
+        "training": [
+          {
+            "rank": "Rider D, Flier D",
+            "for": "Charioteer (Lv 20); Knightly Senses, Read the Winds",
+            "how": "Rubess Forest Riding Manual on join day, then Arena Mounted (trains Flier too)"
+          },
+          {
+            "rank": "Bow C, Infantry D",
+            "for": "Charioteer (Lv 20); Steady Shot",
+            "how": "Hunter trains Bow and Infantry; Arena Infantry when a seat opens"
+          }
+        ],
+        "tips": [
+          "If he joins at Lv 25 in a Specialty class, skip to the next stage",
+          "Joins in another Beginner class? Hunter needs Bow D and Sword D",
+          "EXP: Cave Behind the Falls (Lv 22) and Aditi's Cave (Lv 28) parties"
+        ]
+      },
+      {
+        "when": "Ch 9 to 12 · Charioteer",
+        "from": {
+          "part": 1,
+          "ch": 9,
+          "at": "late",
+          "approx": true
+        },
+        "to": {
+          "part": 1,
+          "ch": 12
+        },
+        "level": "Lv 20 (Ch 9 or 10) to about 30? by Ch 12",
+        "class": "Charioteer",
+        "kind": "bench",
+        "mount": "No bonded mount (Stables are Cai's): base Charioteer rates",
+        "goal": "Master Charger in dungeon fights. Halt Advance (Lv 20): Spd −2 on a foe he attacked first.",
+        "exit": "Hold the Part II kit at 11/27; the Lv 35 step comes in Part II.",
+        "masteries": [
+          "Charger"
+        ],
+        "weapons": [
+          {
+            "item": "Wooden Bow +5",
+            "why": "Main bow: Mt ?, Hit 75, Wt 4 (Da Mina Bow is 6): AS +2",
+            "plan": "Refined on join"
+          },
+          {
+            "item": "Longbow",
+            "why": "Deadeye (range 3-5) for the Part II Ch 5 Dagda trick"
+          },
+          {
+            "item": "Horsekiller Bow",
+            "why": "Effective vs cavalry and fliers, Wt 8"
+          }
+        ],
+        "equipment": [
+          {
+            "item": "Archer's Ring",
+            "why": "Hit +5, Wt 3; barter it in Ch 11",
+            "slot": "Accessory",
+            "plan": "Leda's Coris Mine copy is Inyoni's"
+          }
+        ],
+        "items": [
+          {
+            "item": "Concoction",
+            "why": "Heals 40: part of his 11/27 stock",
+            "alts": [
+              "Vulnerary"
+            ]
+          }
+        ],
+        "arts": [
+          {
+            "name": "Leg Shot",
+            "why": "Bow C: foe Avo −20 for its next combat; no follow-up"
+          },
+          {
+            "name": "Deadeye",
+            "why": "Longbow (from Ch 11), Bow C: range 3-5, Hit −30"
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Halt Advance",
+            "why": "Personal Lv 20: Spd −2 on a foe he attacked first"
+          },
+          {
+            "name": "Charger",
+            "why": "Charioteer mastery: Prt +10 after Charge (once mastered)"
+          },
+          {
+            "name": "Bows Lv. 2",
+            "why": "Bow C+: Hit +5"
+          },
+          {
+            "name": "Bows Lv. 1",
+            "why": "Bow D+: Hit +3"
+          },
+          {
+            "name": "Read the Winds",
+            "why": "Flier D: Avo +10 vs bows"
+          }
+        ],
+        "tips": [
+          "EXP: a dungeon seat every week; Charge feeds Adaptability several stacks a turn",
+          "Chariot Armor sets Avo to 0: keep him behind the party's tank in dungeons",
+          "Part II brings only what he holds at 11/27: three bows, the ring, a Concoction"
+        ],
+        "drop": [
+          {
+            "item": "Warning Shot",
+            "why": "Chariot Armor: Avo 0, so its Avo +10 does nothing"
+          },
+          {
+            "item": "Steady Shot",
+            "why": "(Infantry): nothing on a chariot"
+          },
+          {
+            "item": "Hunting Basics",
+            "why": "Slot goes to Halt Advance"
+          },
+          {
+            "item": "Knightly Senses",
+            "why": "Slot goes to Charger"
+          }
+        ],
+        "training": [
+          {
+            "rank": "Bow B",
+            "for": "Bows Lv. 3 (Part III)",
+            "how": "Arena Infantry when a seat opens; Charioteer trains Bow +2"
+          }
+        ]
+      },
+      {
+        "when": "Part II Ch 1 · Charioteer",
+        "from": {
+          "part": 2,
+          "ch": 1
+        },
+        "to": {
+          "part": 2,
+          "ch": 1
+        },
+        "level": "Lv 34 (Army Training 1)",
+        "class": "Charioteer",
+        "kind": "core",
+        "mount": "No bonded mount (Stables are Cai's): base Charioteer rates",
+        "goal": "Charge only into lines the core has softened; Leg Shot (Avo −20) the foe your striker hits next.",
+        "exit": "Army Training 2 lifts him to Lv 35: the first Charioteer step (Dex 80, Def 50)",
+        "masteries": [],
+        "weapons": [
+          {
+            "item": "Wooden Bow +5",
+            "why": "Main bow: Mt ?, Hit 75, Wt 4",
+            "plan": "Carried from Part I"
+          },
+          {
+            "item": "Longbow",
+            "why": "Deadeye (range 3-5) for the Part II Ch 5 Dagda trick"
+          },
+          {
+            "item": "Horsekiller Bow",
+            "why": "effective vs cavalry and fliers, Wt 8"
+          }
+        ],
+        "equipment": [
+          {
+            "item": "Archer's Ring",
+            "why": "Hit +5, Wt 3",
+            "slot": "Accessory",
+            "plan": "Leda's Coris Mine copy is Inyoni's"
+          }
+        ],
+        "items": [
+          {
+            "item": "Concoction",
+            "why": "Heals 40; stocked before 11/27",
+            "alts": [
+              "Vulnerary"
+            ]
+          }
+        ],
+        "arts": [
+          {
+            "name": "Leg Shot",
+            "why": "Foe Avo −20 for its next combat; no follow-up"
+          },
+          {
+            "name": "Deadeye",
+            "why": "Longbow, Bow C: range 3-5, Hit −30, no follow-up"
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Halt Advance",
+            "why": "Personal Lv 20: Spd −2 on a foe he attacked first"
+          },
+          {
+            "name": "Charger",
+            "why": "Charioteer mastery: Prt +10 after Charge"
+          },
+          {
+            "name": "Bows Lv. 2",
+            "why": "Bow C+ ?: Hit +5"
+          },
+          {
+            "name": "Bows Lv. 1",
+            "why": "Bow D+: Hit +3"
+          },
+          {
+            "name": "Read the Winds",
+            "why": "Avo +10 vs bows: Ch 2's Rangers shoot back"
+          }
+        ],
+        "checks": [
+          {
+            "stat": "Spd",
+            "at": "Part II Ch 1 (Lv 34)",
+            "need": "Doubles the Ch 1 foot soldiers with the Wooden Bow +5 (Wt 4) in the forecast",
+            "why": "Charioteer adds no Spd; without doubles he only chips",
+            "fix": [
+              "End turns next to Sha Lan: Watchfulness Spd +2, +4 from her Lv 35",
+              "A second [[item:Gale Ring]] (Spd +3, Wt 2) held at 11/27, for the ring",
+              "[[item:Date Juice]] (AS +3, map) on the map that matters ?"
+            ]
+          }
+        ],
+        "tips": [
+          "Charger came in Part I: Charge where the core already hit",
+          "Already a Charioteer from Part I: no License needed"
+        ]
+      },
+      {
+        "when": "Part II Ch 2–6 · Lv 35 step",
+        "from": {
+          "part": 2,
+          "ch": 2
+        },
+        "to": {
+          "part": 2,
+          "ch": 6
+        },
+        "level": "Lv 35 to 42",
+        "class": "Charioteer",
+        "kind": "core",
+        "mount": "No bonded mount (Stables are Cai's): base Charioteer rates",
+        "goal": "Lv 35 step (Dex 80, Def 50). Leg Shot plus Halt Advance+ (Spd −3) set up kills; Ch 5: Deadeye on Dagda.",
+        "exit": "Stay Charioteer: the Lv 45 step comes in Part III",
+        "masteries": [],
+        "weapons": [
+          {
+            "item": "Wooden Bow +5",
+            "why": "Main bow: Mt ?, Hit 75, Wt 4",
+            "plan": "Carried from Part I"
+          },
+          {
+            "item": "Longbow",
+            "why": "Deadeye (range 3-5) for the Part II Ch 5 Dagda trick"
+          },
+          {
+            "item": "Horsekiller Bow",
+            "why": "effective vs cavalry and fliers, Wt 8"
+          }
+        ],
+        "equipment": [
+          {
+            "item": "Archer's Ring",
+            "why": "Hit +5, Wt 3",
+            "slot": "Accessory",
+            "plan": "Leda's Coris Mine copy is Inyoni's"
+          }
+        ],
+        "items": [
+          {
+            "item": "Concoction",
+            "why": "Heals 40; stocked before 11/27",
+            "alts": [
+              "Vulnerary"
+            ]
+          }
+        ],
+        "arts": [
+          {
+            "name": "Leg Shot",
+            "why": "Foe Avo −20 for its next combat; no follow-up"
+          },
+          {
+            "name": "Deadeye",
+            "why": "Longbow: range 3-5, Hit −30; Ch 5 shot that breaks Dagda's shield"
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Halt Advance+",
+            "why": "Personal Lv 35: Spd −3 on a foe he attacked first"
+          },
+          {
+            "name": "Charger",
+            "why": "Charioteer mastery: Prt +10 after Charge"
+          },
+          {
+            "name": "Bows Lv. 2",
+            "why": "Bow C+ ?: Hit +5"
+          },
+          {
+            "name": "Bows Lv. 1",
+            "why": "Bow D+: Hit +3"
+          },
+          {
+            "name": "Read the Winds",
+            "why": "Avo +10 vs bows: Ch 4's bow fights"
+          }
+        ],
+        "tips": [
+          "Ch 2: catch the west Ranger (moves from Turn 8) for the Horsekiller Bow +1",
+          "Ch 4 wants 3 to 4 bows: Halvin, Inyoni and Leda",
+          "Ch 5: shoot Deadeye after a few combats, once Adaptability's stacks cover its Hit −30"
+        ],
+        "drop": [
+          {
+            "item": "Bows Lv. 3",
+            "why": "Needs Bow B+: Part III"
+          }
+        ]
+      },
+      {
+        "when": "Part III · Lv 45 step",
+        "from": {
+          "part": 3
+        },
+        "level": "Lv 45+",
+        "class": "Charioteer",
+        "kind": "core",
+        "mount": "Black Horse (Daimos Plateau, Part III; Cai's Stables ?)",
+        "goal": "Lv 45 step: Leg Shot (Avo −20) and Halt Advance+ (Spd −3) set up kills; Baozi bow sub for Nuzzuo.",
+        "exit": "Final class.",
+        "masteries": [],
+        "weapons": [
+          {
+            "item": "Da Mina Bow +2",
+            "why": "Main: Mt ?, Wt 6; arts Hit +10 lands Leg Shot",
+            "plan": "No Soulstone on the bench (D-158)"
+          },
+          {
+            "item": "Longbow +2",
+            "why": "Deadeye 3-5: Adaptability stacks cover its Hit −30",
+            "situational": "Shielded bosses or long-range turns: open slot"
+          },
+          {
+            "item": "Horsekiller Bow +2",
+            "why": "Effective vs cavalry (Hit +10 vs cavalry needs +3)",
+            "situational": "Cavalry maps: open slot"
+          }
+        ],
+        "equipment": [
+          {
+            "item": "Silver Shield",
+            "why": "Def +5, Wt 4: Chariot Armor can't dodge, so Def is his defense",
+            "slot": "Defense",
+            "alts": [
+              "Hexlock Shield",
+              "Iron Shield"
+            ]
+          },
+          {
+            "item": "Giant's Ring",
+            "why": "Bld +4, Wt 0 offsets the shield; Avo −20 costs a chariot nothing",
+            "slot": "Accessory",
+            "alts": [
+              "Archer's Ring"
+            ],
+            "plan": "Third copy: Dadao and Peter wear two"
+          }
+        ],
+        "items": [
+          {
+            "item": "Elixir",
+            "why": "Heals 100",
+            "alts": [
+              "Concoction"
+            ]
+          }
+        ],
+        "arts": [
+          {
+            "name": "Leg Shot",
+            "why": "Foe Avo −20 for its next combat"
+          },
+          {
+            "name": "Deadeye",
+            "why": "Longbow: range 3-5, Hit −30"
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Halt Advance+",
+            "why": "Personal Lv 35: Spd −3 on a foe he attacked first"
+          },
+          {
+            "name": "Charger",
+            "why": "Charioteer mastery: Prt +10 after Charge"
+          },
+          {
+            "name": "Bows Lv. 4",
+            "why": "Bow A+: Hit/Avo +7 with bows; Lv. 3 until A+"
+          },
+          {
+            "name": "Hunting Basics",
+            "why": "Hunter mastery: Dex/Spd +1"
+          },
+          {
+            "name": "Vanguard",
+            "why": "Riding C+ ?: Shld +2 when he attacks first (Cavalry)"
+          }
+        ],
+        "drop": [
+          {
+            "item": "Archer's Ring",
+            "why": "The Giant's Ring's Bld +4 is worth more AS than Hit +5"
+          },
+          {
+            "item": "Read the Winds",
+            "why": "Avo does nothing in Chariot Armor"
+          },
+          {
+            "item": "Bows Lv. 1",
+            "why": "One ladder: Bows Lv. 4 replaces it"
+          },
+          {
+            "item": "Bows Lv. 2",
+            "why": "One ladder: Bows Lv. 4 replaces it"
+          },
+          {
+            "item": "Longbow",
+            "why": "Refined to +2"
+          },
+          {
+            "item": "Horsekiller Bow",
+            "why": "Refined to +2"
+          }
+        ],
+        "tips": [
+          "Seat: Baozi (B) for Nuzzuo on the fliers; Lyrah or Balor east (B) for Lilian",
+          "Leg Shot first: Lilian or Troy then hits a foe at Avo −20 and Spd −3",
+          "Charge into a pack, then Charger Prt +10 plus Chariot Armor Shld +5",
+          "Sit out Hanno, Cohen & Maria and Drake: cavalry struggles or is barred"
+        ],
+        "why": [
+          "Specialty class: no License needed",
+          "Adaptability Hit +2 per combat (max +30) outlasts Pride's Hit cut on long maps",
+          "Boon answer: no sword; shoot Boon foes in Leda's ring or within 2 of Eshmel"
+        ],
+        "training": [
+          {
+            "rank": "Bow A+",
+            "for": "Bows Lv. 4",
+            "how": "Battles; Arena Infantry Training if short"
+          },
+          {
+            "rank": "Riding C+",
+            "for": "Vanguard",
+            "how": "Charioteer Riding +1 a fight; Arena Mounted"
+          }
+        ]
+      }
+    ],
+    "alt": "Bow Knight (Kalla's request) in Part III gives Mov 7 and a sword for the Cleansing Blade, but grows far less than the Lv 45 Charioteer step.",
+    "sources": [
+      "class-and-weapon-guide",
+      "growth.py",
+      "mounts.json",
+      "character-learnsets",
+      "class-data",
+      "weapons-and-items",
+      "class-tier-research",
+      "part2-war"
+    ],
+    "routeNotes": [
+      {
+        "system": "Supports",
+        "note": "Partner here: Sha Lan, plus Nezha and Jester if you recruit them. Until Ch 9: Leda + Ludia + Halvin for Support 3. Ch 11 and 12 Sundays: Leda + Sha Lan + Halvin; her Watchfulness tile is his best tile."
+      },
+      {
+        "system": "Perform Quests",
+        "note": "Buy the 10 Dates at Baina Oasis on the Ch 9 Great Dancer's Successor trip, and his Wooden Bow in Orens on the Ch 9 Perform run (refine to +5)."
+      }
+    ],
+    "gates": [
+      {
+        "route": "Leda",
+        "from": {
+          "part": 1,
+          "ch": 9
+        },
+        "by": {
+          "part": 1,
+          "ch": 9
+        },
+        "kind": "item",
+        "text": "Halvin costs 10 Dates: buy them at Baina Oasis (30G each) on the Ch 9 trip"
+      },
+      {
+        "route": "Leda",
+        "from": {
+          "part": 1,
+          "ch": 9
+        },
+        "by": {
+          "part": 1,
+          "ch": 9
+        },
+        "kind": "recruit",
+        "text": "Recruit Halvin in Ch 9 after the Baina trip: Support 3, Renown 7, 10 Dates"
+      },
+      {
+        "route": "Leda",
+        "from": {
+          "part": 1,
+          "ch": 9
+        },
+        "by": {
+          "part": 1,
+          "ch": 10
+        },
+        "kind": "rank",
+        "text": "Riding Manual + Arena Mounted: Halvin needs Rider D and Bow C by Lv 20 (Charioteer)"
+      }
+    ],
+    "decisions": [
+      {
+        "topic": "Recruit him in Ch 9",
+        "pick": "Ch 9, on return from Baina",
+        "why": "Every level from Lv 15 grows Hunter and Charioteer rows, and Charger is mastered before Part II. Unrecruited units auto-level on personal growths only, and Part II's catch-up rolls the same way."
+      },
+      {
+        "topic": "Stay Charioteer, skip Sniper",
+        "pick": "Charioteer from Part II Ch 1 to the end",
+        "why": "Charioteer's Path steps growth up at Lv 35 and 45 (Dex 75, 80, 85; Def 40, 50, 60), and Charge feeds Adaptability several stacks a turn. Sniper's Marksmanship (Hit +15) only overlaps Adaptability.",
+        "else": "Bow Knight (Kalla's request, Part III) for a sword and Mov 7"
+      }
+    ]
+  },
+  "sources": [
+    "https://fortunesweave.co.uk/characters/halvin",
+    "https://www.keengamer.com/articles/guides/fire-emblem-fortunes-weave-tier-list-best-characters-ranked-for-every-route/",
+    "https://www.keengamer.com/articles/guides/fire-emblem-fortunes-weave-best-class-for-every-character/",
+    "https://www.pockettactics.com/fire-emblem-fortunes-weave/tier-list"
+  ],
+  "recruitOn": {
+    "Cai": {
+      "how": "recruit",
+      "support": 3,
+      "renown": 9
+    },
+    "Dietrich": {
+      "how": "recruit",
+      "support": 3,
+      "renown": 9,
+      "task": "10× Dates"
+    },
+    "Theodora": {
+      "how": "recruit",
+      "support": 3,
+      "renown": 7
+    },
+    "Leda": {
+      "how": "recruit",
+      "support": 3,
+      "renown": 7,
+      "item": "10× Dates",
+      "window": "Ch 9, after the Baina trip"
+    }
+  }
+}

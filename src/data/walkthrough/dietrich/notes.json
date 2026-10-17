@@ -1,0 +1,195 @@
+{
+  "openQuestions": [
+    {
+      "text": "Jester's and Olympia's three recruit quests aren't described (RPG Site lists \"3x Quest\"); Game8 mentions Scarlet Drops for Olympia.",
+      "ch": 7,
+      "units": [
+        "Jester",
+        "Olympia"
+      ],
+      "sources": [
+        "RPG Site",
+        "Game8"
+      ]
+    },
+    {
+      "text": "Earliest Giant's Meat: the desert opens in Ch 8 and the Giant skirmishes run about Lv 35, so Goliath may join later than Renown 6 suggests.",
+      "ch": 8,
+      "units": [
+        "Goliath"
+      ]
+    },
+    {
+      "text": "Sources don't say where Jester, Goliath, Simon, Olympia and Gaitz stand in Dagsion before they join: use Map > People, which lists and teleports.",
+      "ch": 5,
+      "units": [
+        "Jester",
+        "Goliath",
+        "Simon",
+        "Olympia",
+        "Gaitz"
+      ]
+    },
+    {
+      "text": "No source names the shop that sells the Mature Blush (Catching Sweetie's Eye, due 6/15): check the Item Shop, Marketplace and Vandahl. Garum sources aren't named either.",
+      "ch": 7,
+      "units": [
+        "Esmeralda"
+      ]
+    },
+    {
+      "text": "The Renown pace comes from one Dietrich clear (Renown 10 at the start of Ch 12, 12 at the end); your pace can differ by a level either way.",
+      "sources": [
+        "Player report"
+      ]
+    },
+    {
+      "text": "Lv 20 and Lv 35 timing per unit isn't documented. Player data (Dietrich about Lv 38 at the end of Part I, most of the team Lv 30 to 35, 7 to 8 Advanced) puts the exams in Ch 10 to 12.",
+      "ch": 10,
+      "sources": [
+        "Player report"
+      ]
+    },
+    {
+      "text": "Subquests are semi-random: some listed may not show up, others may appear instead. My Late Sister's Accessory is reported on Dietrich's Ch 9 by one community source.",
+      "ch": 9,
+      "sources": [
+        "RPG Site",
+        "RaiderKing"
+      ]
+    },
+    {
+      "text": "For the Empire's Safety didn't appear in Ch 8 in at least one Dietrich game, and Game8 doesn't list it for every path; Captain Daniel stands in Hightown (Game8) or Temple Row. If it never shows, the Ch 9 Paralogues cover the Renown and no Sealed Letter follow-up appears in Ch 10.",
+      "ch": 8,
+      "sources": [
+        "Game8",
+        "Player report"
+      ]
+    },
+    {
+      "text": "Uncharted Isle: the guides call Ch 8 Dietrich's only Part I chance, but in one game the route never opened during the Sea Tyrant hunt.",
+      "ch": 8,
+      "sources": [
+        "RPG Site",
+        "Player report"
+      ]
+    },
+    {
+      "text": "Olympia's join class: one source says Priest?. A Priest can still go straight to Ovate once Black Magic reaches B.",
+      "ch": 8,
+      "units": [
+        "Olympia"
+      ]
+    },
+    {
+      "text": "Anna's Paralogue is listed 9/29 to 10/5, but Ch 10 free time ends 10/4: do it by 10/4.",
+      "ch": 10,
+      "sources": [
+        "RPG Site"
+      ]
+    },
+    {
+      "text": "Talimun's first window is 9/17 to 9/19 here and 9/17 to 9/22 on Cai's path; the 10/1 to 10/10 window and the 10/12 deadline match.",
+      "ch": 9,
+      "units": [
+        "Ursula"
+      ],
+      "sources": [
+        "RPG Site",
+        "Siliconera"
+      ]
+    },
+    {
+      "text": "Oko's chapter: RPG Site lists him in Ch 10, Game8 in Ch 12 at Renown 10. Dread Warriors appear by Renown, so watch for him at Renown 10.",
+      "ch": 11,
+      "units": [
+        "Jester"
+      ],
+      "sources": [
+        "RPG Site",
+        "Game8"
+      ]
+    },
+    {
+      "text": "Can't Stay Home and The Hunter for Gisco's Treasure are listed under Ch 12 with 10/24 deadlines, which fall in your Ch 11.",
+      "ch": 11
+    },
+    {
+      "text": "Blacksmith unlock cost: AllThings.How says 20 shards per boost (200 total), RPG Site estimates about 400. Smyrnos Blessing Lv 1 as a condition is GameRant only.",
+      "ch": 11,
+      "sources": [
+        "AllThings.How",
+        "RPG Site",
+        "GameRant"
+      ]
+    },
+    {
+      "text": "Thermae Turn cost isn't documented; Game8 frames it as an alternative to resting, so it probably costs none. Bath prices and pools are Game8 only.",
+      "ch": 10,
+      "sources": [
+        "Game8"
+      ]
+    },
+    {
+      "text": "Giant's Ring: no source lists it in Anna's shop; a Vandahl barter in Alecto (Paradise Fish x1?) is reported but unverified.",
+      "ch": 6,
+      "units": [
+        "Mikaela",
+        "Esmeralda"
+      ]
+    },
+    {
+      "text": "Answerer Arisen from Fabio's Ch 12 scene is Game8 only.",
+      "ch": 12,
+      "units": [
+        "Dietrich",
+        "Fabio"
+      ],
+      "sources": [
+        "Game8"
+      ]
+    },
+    {
+      "text": "Game8 says unrecruited Jester, Dante and Goliath fight for Bertrand in Ch 11; whether they can still be recruited afterwards isn't stated.",
+      "ch": 11,
+      "units": [
+        "Jester",
+        "Dante",
+        "Goliath"
+      ],
+      "sources": [
+        "Game8"
+      ]
+    },
+    {
+      "text": "The Ch 4 qualifier lists Cai as a loss condition and Tialla as an ally; the ally list may be slightly off.",
+      "ch": 4,
+      "sources": [
+        "RPG Site"
+      ]
+    },
+    {
+      "text": "Silver weapons have no known source on this route.",
+      "ch": 10,
+      "units": [
+        "Dietrich",
+        "Jester"
+      ]
+    },
+    {
+      "text": "Part II deploys up to 15 according to one source; the Part II carry rule says \"equipped\", read here as each unit's own 6 items.",
+      "ch": 12
+    },
+    {
+      "text": "Part II sets Magic Echo Shards to 100 each chapter (one video source).",
+      "ch": 12
+    },
+    {
+      "text": "Halvin's support partners: the route plan lists Dietrich, Fabio and Jester; halvin.json lists Dietrich and Zarcone. No source settles it.",
+      "units": [
+        "Halvin"
+      ],
+      "ch": 10
+    }
+  ]
+}

@@ -1,0 +1,193 @@
+{
+  "route": "Dietrich",
+  "ch": 11,
+  "name": "Twisted Love",
+  "free": {
+    "from": "10/5",
+    "to": "11/3"
+  },
+  "unlocks": [
+    "Three more Thermae baths (Renown 9)"
+  ],
+  "routine": {
+    "same": 10,
+    "weekly": [
+      {
+        "text": "Upgrade 10 different Combat Arts at [[place:Smyrnos's Temple]] (about 400 shards) for Blacksmith",
+        "detail": [
+          "Nobody here uses the class; it carries to later paths.",
+          "Spend every shard left before Part II: it sets them to 100 each chapter."
+        ]
+      },
+      {
+        "text": "Sunday before the Bertrand battle: Unicorns' Bath on Catania"
+      }
+    ]
+  },
+  "missables": [
+    {
+      "id": "dietrich-ch11-missables-anatolia-paralogue",
+      "quest": "queen-of-the-erased",
+      "kind": "item",
+      "text": "Accept Anatolia's Paralogue by 10/14 and clear it by 10/17: its Electron Agitator is Fabio's",
+      "when": "Accept 10/5 to 10/14, battle by 10/17",
+      "where": "City Streets (Anatolia)",
+      "lose": "the [[item:Electron Agitator]], 20,000G, 150 Renown and Sha Lan's recruit",
+      "recover": "None",
+      "task": true
+    }
+  ],
+  "classes": {
+    "note": {
+      "text": "Exam Mikaela, Kiroc and Olympia as each hits Lv 35 and the ranks; Goliath usually follows in Ch 12",
+      "detail": [
+        "Catch up anyone of Yang Jie, Fabio, Dietrich or Esmeralda who missed Lv 35 in Ch 10.",
+        "Dante, Simon and Jester wait for Part II Ch 1 to 2. Simon keeps fighting with gauntlets."
+      ]
+    }
+  },
+  "gear": {},
+  "recruits": [
+    {
+      "unit": "Sha Lan",
+      "action": "Right after Anatolia's Paralogue, answer Saramis, then Da Mina, then Grounded Ship",
+      "when": "Once Renown 10 lands, after Queen of the Erased",
+      "detail": [
+        "Filler, bench only: she brings a [[item:Salamander]]."
+      ]
+    }
+  ],
+  "prep": [
+    {
+      "text": "Dante first thing if you missed Renown 8 in Ch 10: the Bertrand battle ends this chapter"
+    },
+    {
+      "text": "No new core recruits until Gaitz in Ch 12: keep his gifts and meals going"
+    }
+  ],
+  "quests": {
+    "route": [
+      {
+        "quest": "dread-warrior-berenguela",
+        "note": "Renown 9, [[place:Nemea Cavern]]: its Heavy-Armor Manual goes to Esmeralda if Heavy is short of D",
+        "detail": [
+          "Otherwise the manual goes to Goliath."
+        ]
+      },
+      {
+        "quest": "dread-warrior-oko",
+        "note": "The day Renown 10 lands, [[place:Iapetus Cavern]]: unlocks Ranger, Jester's Part II class",
+        "detail": [
+          "Read Archive θ on Fabio at once: Banshee Θ, Immobilize at 1-3.",
+          "Jester takes Ranger in Part II Ch 1 (Lv 35, Bow B, Sword B): the unlock is what you need now.",
+          "No Renown 10 this chapter? Oko moves to early Ch 12 (ends 11/27)."
+        ]
+      }
+    ],
+    "sub": [
+      {
+        "quest": "cant-go-home",
+        "note": "Part of the 10/15 batch to finish before the Paralogues: Winged-Lion Key from Benetnasch",
+        "detail": [
+          "Leads to Can't Stay Home (10/24)."
+        ]
+      },
+      {
+        "quest": "cant-stay-home",
+        "offered": "if-offered",
+        "note": "Listed for Ch 12, but due in this chapter: check the quest board"
+      },
+      {
+        "quest": "the-hunter-for-giscos-treasure",
+        "offered": "if-offered",
+        "note": "Listed for Ch 12, but due in this chapter: check the quest board"
+      },
+      {
+        "quest": "secret-sparkle",
+        "note": "Aegina Crystal from [[place:Pyroxene Cave]], for the Citizen in City Streets"
+      },
+      {
+        "quest": "defeat-the-rampaging-golems",
+        "note": "Kurdelind Ruins, for the Soldier at Credna's Temple"
+      },
+      {
+        "quest": "a-lost-object",
+        "skip": true,
+        "note": "End of the A Letter of Some Gravity chain, which this plan skips"
+      }
+    ],
+    "paralogue": [
+      {
+        "quest": "queen-of-the-erased",
+        "group": "1 · accept 10/5 to 10/14",
+        "note": "Anatolia's, in City Streets: save every villager for a Spellshard and a Dew of Peace",
+        "detail": [
+          "Cure the villagers' confusion first, then walk them east, then north, to the exit.",
+          "Leave the Pentkehydra; hit the oddly animated worms to stun it. Equip Kalla's Blessing (Avoid +50).",
+          "Screens: Dietrich, Esmeralda, Goliath. Heals: Yang Jie, Dante. Catania reaches far villagers."
+        ]
+      },
+      {
+        "quest": "the-great-escape",
+        "group": "2 · 10/16 to 10/22",
+        "note": "Cai's, from Cai in City Streets; the fight is on 10/22 in Dagsion",
+        "detail": [
+          "Stop enemies reaching the exit and kill Centurio fast.",
+          "Deploy fast hitters: Dietrich, Jester, Catania, Io, Kiroc, plus a healer."
+        ]
+      },
+      {
+        "quest": "orchels-regret",
+        "group": "3 · 10/18 to 10/25",
+        "note": "Orchel's, from Orchel at Lower Temple Row; fight by 10/27. Healing Staff is Dante's",
+        "detail": [
+          "The biggest map: two teams hit both switches on the same turn, so the Onager hurts the boss.",
+          "Pegasus Knight reinforcements come from the east: bring Kiroc and Jester.",
+          "The two chests only hold Pure Water."
+        ]
+      }
+    ]
+  },
+  "explore": [
+    {
+      "group": "Dungeons",
+      "id": "dietrich-ch11-explore-nemea-cavern",
+      "loot": true,
+      "text": "[[place:Nemea Cavern]] (Berenguela): Heavy-Armor Manual, [[item:Elixir]], Hammer, Sturdy Rucksack"
+    },
+    {
+      "group": "Dungeons",
+      "id": "dietrich-ch11-explore-iapetus-cavern",
+      "loot": true,
+      "text": "[[place:Iapetus Cavern]] (Oko): Archive θ for Fabio, Black-Magic Manual for Olympia"
+    }
+  ],
+  "battle": {
+    "title": "Main Match vs. Bertrand",
+    "objective": "Defeat Bertrand",
+    "lose": "Dietrich falls",
+    "tips": [
+      {
+        "text": "Trap squares cover most of the map (about 8 HP a step) until you engage Bertrand",
+        "detail": [
+          "Send Catania (flying) or Dietrich up to him to switch them off; keep the rest on safe tiles in the south.",
+          "Check the artillery range with ZL before moving."
+        ]
+      },
+      {
+        "text": "Storm Awakening raises Bertrand's Avo for a turn: hit his allies, then let Dietrich duel him"
+      },
+      {
+        "text": "Physic healers matter here: Yang Jie and Olympia",
+        "detail": [
+          "Enemies are mostly physical, so armored units hold well."
+        ]
+      }
+    ]
+  },
+  "exitExtra": [
+    {
+      "text": "Reach Renown 10 and beat Oko, or plan both for the first days of Ch 12"
+    }
+  ]
+}

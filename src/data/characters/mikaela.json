@@ -1,0 +1,1347 @@
+{
+  "name": "Mikaela",
+  "slug": "mikaela",
+  "epithet": "Iron-blooded Mikaela",
+  "faction": "House Lamine",
+  "homeRoute": "Dietrich",
+  "weapons": [
+    "Axe",
+    "Bow",
+    "Sword"
+  ],
+  "preferred": [
+    "Axe",
+    "Bow",
+    "Infantry"
+  ],
+  "personality": "Caring veteran mother who likes cooking, coffee and looking after others.",
+  "story": "Mikaela Augusto is a former mercenary who moved to Dagsion to pay for her daughter Mu's education; her ex-husband is Olunga. She joins automatically on Dietrich's route and costs Renown, Support 3 and 3000G on the other routes.",
+  "personalSkill": {
+    "name": "Veteran's Mettle",
+    "effect": "Hit+10 in combat against an adjacent foe. Lv20: Redblade's Will (Atk+3 vs adjacent); Lv35: Redblade's Will+ (adds 30% chance of Atk+3 when attacking adjacent)."
+  },
+  "growths": {
+    "HP": 50,
+    "Str": 45,
+    "Mag": 30,
+    "Spd": 40,
+    "Dex": 35,
+    "Def": 40,
+    "Res": 25,
+    "Lck": 30,
+    "Cha": 40
+  },
+  "supports": [
+    "Dietrich",
+    "Esmeralda",
+    "Fabio",
+    "Guzran",
+    "Jester",
+    "Loretta",
+    "Mu",
+    "Simon",
+    "Sofia"
+  ],
+  "tiers": [
+    {
+      "source": "Pocket Tactics",
+      "tier": "B"
+    },
+    {
+      "source": "KeenGamer",
+      "tier": "B"
+    }
+  ],
+  "tierNotes": "Pocket Tactics B; KeenGamer B (reliable frontliner).",
+  "recruit": {
+    "how": "auto",
+    "why": [
+      "Joins Dietrich's army automatically, so there's no Support or Renown to chase."
+    ]
+  },
+  "requirements": {
+    "Cai": "3S 5R",
+    "Dietrich": "Auto",
+    "Theodora": "3S 8R",
+    "Leda": "3S 6R"
+  },
+  "build": {
+    "role": "Melee axe bruiser",
+    "path": [
+      "Gladiator",
+      "Brigand",
+      "Warrior"
+    ],
+    "part1Target": "Warrior (Ch 10 to 12, at Lv 35)",
+    "part3Target": "Battlemaster",
+    "notes": "Gladiator in Ch 5 once Gauntlet reaches D (Hunter is the fallback). Brigand in Ch 6 (Axe C, Sword C). Warrior at Lv 35 in Ch 10 to 12 (Gauntlet B, Axe B, Sword B): 5th on Dietrich's Part I Advanced list. Arena-train Gauntlet from Ch 5; it is the slow rank. Master Regroup, then Practiced Art (Hit +10 on Combat Arts). Fight adjacent for Veteran's Mettle.",
+    "confidence": "medium"
+  },
+  "guide": {
+    "summary": "Melee axe bruiser who wants adjacent fights for Veteran's Mettle. Gladiator to Brigand to Warrior; the slow rank is Gauntlet, so start using gauntlets early and master Practiced Art for Hit +10 on arts.",
+    "stages": [
+      {
+        "when": "Ch 4 · no class yet",
+        "from": {
+          "part": 1,
+          "ch": 4
+        },
+        "to": {
+          "part": 1,
+          "ch": 4
+        },
+        "class": "",
+        "training": [],
+        "tips": [
+          "Arena Warrior Training trains Gauntlet; fighting with gauntlets helps too",
+          "Hand Axe lets her counter at range 2 on enemy phase"
+        ],
+        "weapons": [
+          {
+            "item": "Iron Axe"
+          },
+          {
+            "item": "Wooden Gauntlets"
+          }
+        ],
+        "items": [
+          {
+            "item": "Vulnerary",
+            "why": "20 HP x3"
+          }
+        ],
+        "arts": [
+          {
+            "name": "Spike",
+            "why": "Hit +10; Axe D per community sheet"
+          },
+          {
+            "name": "Mighty Fist",
+            "why": "Hit +10; Gauntlet D per community sheet"
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Axes Lv. 1",
+            "why": "Hit +3 with axes, once the Axe rank unlocks it"
+          },
+          {
+            "name": "Fists Lv. 1",
+            "why": "Hit +3 with gauntlets (Gauntlet D+)"
+          }
+        ],
+        "goal": "Joins in Ch 4: Iron Axe up front, Wooden Gauntlets for cheap Gauntlet EXP.",
+        "exit": "Ch 5: Gladiator on a Beginner License (Hunter if Gauntlet D lags)"
+      },
+      {
+        "when": "Ch 5 (Beginner)",
+        "from": {
+          "part": 1,
+          "ch": 5
+        },
+        "to": {
+          "part": 1,
+          "ch": 5
+        },
+        "class": "Gladiator",
+        "training": [
+          {
+            "rank": "Gauntlet D, Axe D, Sword D",
+            "for": "Gladiator exam (Hunter is the fallback: Bow D, Sword D)",
+            "how": "Arena Warrior Training (Sword, Axe, Gauntlet in one session) from Ch 5; gauntlets in battle help"
+          }
+        ],
+        "tips": [
+          "Arena Warrior Training trains Gauntlet; fighting with gauntlets helps too",
+          "Hand Axe lets her counter at range 2 on enemy phase"
+        ],
+        "weapons": [
+          {
+            "item": "Iron Axe"
+          },
+          {
+            "item": "Hand Axe"
+          },
+          {
+            "item": "Wooden Gauntlets"
+          }
+        ],
+        "items": [
+          {
+            "item": "Vulnerary",
+            "why": "20 HP x3"
+          }
+        ],
+        "arts": [
+          {
+            "name": "Spike",
+            "why": "Hit +10; Axe D per community sheet"
+          },
+          {
+            "name": "Mighty Fist",
+            "why": "Hit +10; Gauntlet D per community sheet"
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Attack Basics",
+            "why": "Gladiator mastery, Str +1, once mastered"
+          },
+          {
+            "name": "Axes Lv. 1",
+            "why": "Hit +3 with axes, once the Axe rank unlocks it"
+          },
+          {
+            "name": "Fists Lv. 1",
+            "why": "Hit +3 with gauntlets (Gauntlet D+)"
+          }
+        ],
+        "goal": "Veteran's Mettle (Hit +10 vs adjacent foes) is always on: fight at range 1.",
+        "exit": "Renown 4, Lv 20, Axe C, Sword C (Ch 6): Brigand exam"
+      },
+      {
+        "when": "Ch 6 to Lv 35 (Specialty)",
+        "from": {
+          "part": 1,
+          "ch": 6
+        },
+        "to": {
+          "lv": 35
+        },
+        "class": "Brigand",
+        "training": [
+          {
+            "rank": "Gauntlet B, Axe B, Sword B",
+            "for": "Warrior exam (Renown 8, Lv 35; usually Ch 11)",
+            "how": "Arena Warrior Training (Sword, Axe, Gauntlet); gauntlets in battle"
+          }
+        ],
+        "tips": [
+          "Short Axe replaces the Hand Axe in Ch 9: Raivo Port, Benetnasch, Mahon; Vandahl (Roca x10 + Pyrethrum x1)",
+          "5th on the Part I Advanced list: Warrior at Lv 35 (usually Ch 11). Gauntlet B is the slow rank, so keep fighting with gauntlets",
+          "Da Mina weapons add Hit +10 on arts; keep 2 spares for Its Name Is Da Mina (due 10/24)"
+        ],
+        "weapons": [
+          {
+            "item": "Da Mina Axe",
+            "why": "Mt 23, Wt 9: lighter than any iron-tier axe",
+            "alts": [
+              "Da Mina Axe",
+              "Iron Axe"
+            ]
+          },
+          {
+            "item": "Iron Gauntlets",
+            "why": "Crush Armor, Hidden Evilbreak; Gauntlet B for Warrior"
+          },
+          {
+            "item": "Hammer",
+            "why": "Effective+ vs armor; Wt 20",
+            "situational": "Armor-heavy maps: open slot"
+          },
+          {
+            "item": "Short Axe",
+            "why": "1-2 counter vs archers and mages",
+            "alts": [
+              "Hand Axe"
+            ]
+          }
+        ],
+        "equipment": [
+          {
+            "item": "Giant's Ring",
+            "why": "Bld +4 for Wt 0: an axe costs about 4 less AS, so she stops getting doubled. Veteran's Mettle already covers Hit, so a Hit gem would only duplicate it",
+            "alts": [
+              "Victory Gem"
+            ],
+            "slot": "Accessory"
+          }
+        ],
+        "items": [
+          {
+            "item": "Concoction",
+            "why": "40 HP x2",
+            "alts": [
+              "Vulnerary"
+            ]
+          },
+          {
+            "item": "Elixir",
+            "why": "Part II stock",
+            "alts": [
+              "Concoction"
+            ],
+            "situational": "Ch 12 Mars on, Part II stock: open slot (Hammer to storage)"
+          }
+        ],
+        "arts": [
+          {
+            "name": "Enrage",
+            "why": "Str +1 per combat, max +5; Axe C (Fire Emblem Wiki)"
+          },
+          {
+            "name": "Crush Armor",
+            "why": "Armor-effective; Gauntlet C per community sheet"
+          },
+          {
+            "name": "Hidden Soulrend",
+            "why": "Borges (Renown 2), then Teach Secrets from Ch 7. Axe self-heal, Hit -20"
+          },
+          {
+            "name": "Spike",
+            "why": "Hit +10; Axe D per community sheet"
+          },
+          {
+            "name": "Crash",
+            "why": "Mt +9, 5% Confusion; Axe B per community sheet"
+          },
+          {
+            "name": "Hidden Evilbreak",
+            "why": "Berenguela (Nemea Cavern, Renown 9), then Teach Secrets; strips Underworld Boon"
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Regroup",
+            "why": "Brigand mastery; Avo +20 after a miss, once mastered"
+          },
+          {
+            "name": "Redblade's Will+",
+            "why": "Personal Lv 35 ability: Grants Atk+3 during combat against an adjacent foe. Also grants..."
+          },
+          {
+            "name": "Attack Basics",
+            "why": "Str +1"
+          },
+          {
+            "name": "Axes Lv. 1",
+            "why": "Hit +3 with axes"
+          },
+          {
+            "name": "Fists Lv. 1",
+            "why": "Hit +3 with gauntlets"
+          }
+        ],
+        "drop": [
+          {
+            "item": "Wooden Gauntlets",
+            "why": "Replaced by the Iron Gauntlets"
+          },
+          {
+            "item": "Conflagrant Gem",
+            "why": "Hit +20 on arts duplicates Veteran's Mettle and Practiced Art, for Wt 5"
+          },
+          {
+            "item": "Hand Axe",
+            "why": "Replaced by the Short Axe in Ch 9"
+          },
+          {
+            "item": "Mighty Fist",
+            "why": "Slot goes to Hidden Evilbreak (Ch 11)"
+          },
+          {
+            "item": "Da Mina Axe",
+            "why": "Silver Axe's fallback (in its alts); keep 2 Da Mina weapons in storage for Its Name Is Da Mina"
+          },
+          {
+            "item": "Iron Axe",
+            "why": "Second fallback (in the Silver Axe's alts)"
+          },
+          {
+            "item": "Jamadhars",
+            "why": "Iron Gauntlets already carry the gauntlet arts and Gauntlet B"
+          }
+        ],
+        "goal": "Redblade's Will (Lv 20): Hit +10 and Atk +3 vs adjacent foes on both phases: fight and counter at range 1 (thrown axes lose it), and spend the accessory on weight, not Hit.",
+        "exit": "Lv 35 with Gauntlet B, Axe B, Sword B (Ch 11): Warrior exam"
+      },
+      {
+        "when": "Ch 11 to 12 (Advanced, at Lv 35)",
+        "from": {
+          "part": 1,
+          "ch": 11
+        },
+        "to": {
+          "part": 3,
+          "ch": 4
+        },
+        "class": "Warrior",
+        "tips": [
+          "Warrior exam at Lv 35 with Gauntlet B, Axe B, Sword B (Renown 8; usually Ch 11)",
+          "Equip a Da Mina Axe before leaving Part I",
+          "If she misses Lv 35 in Part I, Part II Ch 1's free Advanced Licenses cover it"
+        ],
+        "weapons": [
+          {
+            "item": "Da Mina Axe",
+            "why": "Mt 23, Wt 9: lighter than any iron-tier axe",
+            "alts": [
+              "Da Mina Axe"
+            ]
+          },
+          {
+            "item": "Iron Gauntlets",
+            "why": "Crush Armor, Hidden Evilbreak",
+            "plan": "Carried from Ch 12 (no shops in Part II)"
+          },
+          {
+            "item": "Short Axe"
+          }
+        ],
+        "equipment": [
+          {
+            "item": "Giant's Ring",
+            "why": "Bld +4 for Wt 0: an axe costs about 4 less AS, so she stops getting doubled. Veteran's Mettle already covers Hit, so a Hit gem would only duplicate it",
+            "alts": [
+              "Victory Gem"
+            ],
+            "slot": "Accessory"
+          }
+        ],
+        "items": [
+          {
+            "item": "Concoction",
+            "why": "40 HP x2",
+            "plan": "Carried from Ch 12 (no shops in Part II)"
+          },
+          {
+            "item": "Elixir",
+            "why": "100 HP",
+            "plan": "Carried from Ch 12 (no shops in Part II)"
+          }
+        ],
+        "arts": [
+          {
+            "name": "Crash",
+            "why": "Mt +9, 5% Confusion; Axe B per community sheet"
+          },
+          {
+            "name": "Hidden Evilbreak",
+            "why": "Berenguela (Nemea Cavern, Renown 9), then Teach Secrets; strips Underworld Boon"
+          },
+          {
+            "name": "Enrage",
+            "why": "Early-map Str stacking"
+          },
+          {
+            "name": "Crush Armor",
+            "why": "Armor-effective; Gauntlet C per community sheet"
+          },
+          {
+            "name": "Hidden Soulrend",
+            "why": "Borges (Renown 2), then Teach Secrets from Ch 7. Axe self-heal, Hit -20"
+          },
+          {
+            "name": "Spike",
+            "why": "Hit +10; Axe D per community sheet"
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Redblade's Will+",
+            "why": "Personal Lv 35 ability: Grants Atk+3 during combat against an adjacent foe. Also grants..."
+          },
+          {
+            "name": "Practiced Art",
+            "why": "Warrior mastery, Hit +10 on arts"
+          },
+          {
+            "name": "Regroup",
+            "why": "Avo +20 after a miss"
+          },
+          {
+            "name": "Attack Basics",
+            "why": "Str +1"
+          },
+          {
+            "name": "Axes Lv. 1",
+            "why": "Hit +3 with axes"
+          }
+        ],
+        "goal": "Redblade's Will+ (Lv 35): Hit +10, Atk +3 vs adjacent foes, plus Atk +3 (30%) when she attacks one: lead with melee arts and hold range 1 on enemy phase.",
+        "drop": [
+          {
+            "item": "Da Mina Axe",
+            "why": "Silver Axe's fallback (in its alts)"
+          },
+          {
+            "item": "Jamadhars",
+            "why": "Not in her Ch 12 kit: the Iron Gauntlets carry the gauntlet arts"
+          },
+          {
+            "item": "Hammer",
+            "why": "Left in storage at Ch 12 for the Elixir; Goliath takes the Hammer +1"
+          }
+        ],
+        "exit": "Stay Warrior into Part II; Battlemaster in Part III"
+      },
+      {
+        "when": "Part III Section 5+ (Battlemaster)",
+        "from": {
+          "part": 3,
+          "ch": 5
+        },
+        "class": "Battlemaster",
+        "training": [
+          {
+            "rank": "Gauntlet A, Axe A, Sword A",
+            "for": "Battlemaster (Lv 45, Master License)",
+            "how": "Arena Warrior Training; gauntlets in battle"
+          }
+        ],
+        "weapons": [
+          {
+            "item": "Silver Axe +2",
+            "why": "Main: Mt 27?, Hit 70, Wt 9; Mt 4 over Iron Axe +4 (x1.5 = 6)",
+            "plan": "Boon or Reliquary buy",
+            "alts": [
+              "Iron Axe +4",
+              "Da Mina Axe +2"
+            ]
+          },
+          {
+            "item": "Da Mina Gauntlets +2",
+            "why": "Crush Armor, Evilbreak, Mighty Fist: Hit +10 on arts, Brawl Hit +7",
+            "alts": [
+              "Iron Gauntlets +4"
+            ]
+          },
+          {
+            "item": "Qiankun Circles +2",
+            "why": "1-2 range: counters Drake's mages; Wt 4",
+            "alts": [
+              "Short Axe"
+            ]
+          },
+          {
+            "item": "Cleansing Blade +2",
+            "why": "Sword A: Mt 16, Wt 3; strips the Underworld Boon",
+            "situational": "Boon foes outside Leda's ring: uses the open slot"
+          }
+        ],
+        "equipment": [
+          {
+            "item": "Giant's Ring",
+            "why": "Bld +4, Wt 0: the Silver Axe costs 4 less AS; Avo -20 is fine",
+            "alts": [
+              "Gale Ring",
+              "Victory Gem"
+            ],
+            "slot": "Accessory"
+          }
+        ],
+        "items": [
+          {
+            "item": "Elixir",
+            "why": "100 HP for a range-1 bruiser",
+            "alts": [
+              "Concoction"
+            ]
+          }
+        ],
+        "arts": [
+          {
+            "name": "Crash",
+            "why": "Axe B: Mt +9, no follow-up: the Drake hit"
+          },
+          {
+            "name": "Spike",
+            "why": "Axe D: Mt +4, Hit +10"
+          },
+          {
+            "name": "Hidden Soulrend",
+            "why": "Axe: heals half the damage dealt (x1.5 helps); Hit -20"
+          },
+          {
+            "name": "Enrage",
+            "why": "Axe C: Str +1 per combat, max +5"
+          },
+          {
+            "name": "Crush Armor",
+            "why": "Gauntlet C: effective vs armor on the Da Mina Gauntlets +2"
+          },
+          {
+            "name": "Hidden Evilbreak",
+            "why": "Gauntlet: strips the Boon on hit, if taught on Dietrich's Part I"
+          },
+          {
+            "name": "Mighty Fist",
+            "why": "Gauntlet D: Mt +4, Hit +10"
+          }
+        ],
+        "abilities": [
+          {
+            "name": "War Master's Strike",
+            "why": "Battlemaster mastery, once mastered: damage x1.5"
+          },
+          {
+            "name": "Redblade's Will+",
+            "why": "Lv 35: Atk +3 vs adjacent, +3 more at 30% when she attacks"
+          },
+          {
+            "name": "Practiced Art",
+            "why": "Warrior mastery: Hit +10 on arts"
+          },
+          {
+            "name": "Axes Lv. 4",
+            "why": "Axe A+: Hit/Avo +7 with axes; Lv. 3 until then"
+          },
+          {
+            "name": "Attack Basics",
+            "why": "Gladiator mastery: Str +1 (x1.5)"
+          }
+        ],
+        "goal": "War Master's Strike x1.5 on Silver Axe +2 (Mt 27?); Redblade's Will+ Atk +3 to +6, Hit +10 at range 1.",
+        "drop": [
+          {
+            "item": "Da Mina Axe",
+            "why": "Silver Axe +2 takes over (Da Mina Axe +2 is its alt)"
+          },
+          {
+            "item": "Jamadhars",
+            "why": "Da Mina Gauntlets +2: Hit +10 on her gauntlet arts"
+          },
+          {
+            "item": "Short Axe",
+            "why": "Qiankun Circles +2: Hit 70 at range, Wt 4 vs 12"
+          },
+          {
+            "item": "Hammer",
+            "why": "Crush Armor on Da Mina Gauntlets +2 hits armor at Hit 90+"
+          },
+          {
+            "item": "Regroup",
+            "why": "Axes Lv. 4: Hit/Avo +7 with the axe"
+          }
+        ],
+        "exit": "Final class.",
+        "level": "Lv 45+ (Master License)",
+        "kind": "core",
+        "why": [
+          "Exam: Lv 45, Gauntlet A, Axe A, Sword A, Master License (S5)",
+          "Drake (S5): x1.5 hits on Drake once Talimun's Slowing Curse lands; kill nothing on the way",
+          "Underworld Boon: Cleansing Blade +2 (Sword A); Hidden Evilbreak if taught in Part I"
+        ],
+        "tips": [
+          "Drake: wait for Talimun's Slowing Curse, then Crash Drake from an adjacent tile",
+          "Hit stack: Silver Axe 70, Axe Hit +7, Veteran's Mettle +10, Practiced Art +10, Axes Lv. 4 +7",
+          "Armor: Crush Armor on Da Mina Gauntlets +2 (2x Mt, Hit 90 +10 on arts) beats the Hammer",
+          "No Silver Axe? Iron Axe +4 (Mt 23?): same Wt, 4 less Mt"
+        ],
+        "checks": [
+          {
+            "stat": "Dex",
+            "at": "S5",
+            "need": "Silver Axe forecast Hit 85+ vs Drake from an adjacent tile",
+            "why": "Axe Hit 70: a miss wastes the x1.5 turn",
+            "fix": [
+              "Spike or Crash with Practiced Art (Hit +10)",
+              "Da Mina Gauntlets +2 and Mighty Fist (Hit 90, +10 on arts, Brawl Hit +7)",
+              "Conflagrant Gem (Hit +20 on arts, 30%) for the Giant's Ring"
+            ]
+          }
+        ]
+      }
+    ],
+    "arts": [
+      {
+        "name": "Enrage",
+        "why": "Str stacking"
+      },
+      {
+        "name": "Crush Armor",
+        "why": "Anti-armor"
+      },
+      {
+        "name": "Hidden Soulrend",
+        "why": "Sustain"
+      },
+      {
+        "name": "Crash",
+        "why": "Big axe hit"
+      }
+    ],
+    "abilities": [
+      {
+        "name": "Practiced Art",
+        "why": "Arts accuracy"
+      },
+      {
+        "name": "Regroup",
+        "why": "Avo after misses"
+      },
+      {
+        "name": "Attack Basics",
+        "why": "Str +1"
+      }
+    ],
+    "specials": [
+      "Veteran's Mettle and Redblade's Will only work vs adjacent foes: fight in melee",
+      "Gauntlet B is the real Warrior bottleneck: book Arena Warrior Training (it trains Gauntlet)",
+      "Preferred: Axe, Bow, Infantry"
+    ],
+    "sources": [
+      "class plan v3",
+      "weapons-and-items",
+      "combat-arts-and-abilities",
+      "character-learnsets",
+      "class-data",
+      "hard-mode video notes",
+      "Dietrich Ch 4 to 9 walkthrough",
+      "Part III walkthrough"
+    ],
+    "watch": [
+      "Weight (Part III): Silver Axe +2 9 + Giant's Ring 0 (Bld +4) = 9. The ring stays; Qiankun Circles (4) swap out first. Da Mina Gauntlets +2 is Wt 4.",
+      "Fallback Victory Gem (3): Silver Axe + gem = 12. Credna's Mallet is Tobias's (S4).",
+      "Ch 12: put the Hammer in storage and pack an Elixir; that 6th slot is her Part II stock."
+    ],
+    "decisions": [
+      {
+        "topic": "Go Brigand, then Warrior",
+        "pick": "Gladiator (Ch 5), Brigand (Ch 6), Warrior at Lv 35",
+        "why": "Practiced Art (Hit +10 on arts) fixes shaky axe accuracy. Brigand masters Regroup and trains Axe and Sword; she fights with gauntlets (and Inn auto-training) for Gauntlet B.",
+        "else": "Hunter in Ch 5 if Gauntlet D isn't there; stay Brigand until Gauntlet B lands"
+      },
+      {
+        "topic": "Wear the Giant's Ring, not the Conflagrant Gem",
+        "pick": "Giant's Ring (Bld +4, Wt 0)",
+        "why": "Redblade's Will (Lv 20) already gives Hit +10 and Atk +3 at range 1, so she needs weight relief. The Gem's Hit repeats Veteran's Mettle, and Iron Axe 10 + Gem 5 = 15 gets her doubled.",
+        "else": "Victory Gem"
+      }
+    ],
+    "gates": [
+      {
+        "route": "Dietrich",
+        "from": {
+          "part": 1,
+          "ch": 6
+        },
+        "by": {
+          "part": 1,
+          "ch": 11
+        },
+        "kind": "rank",
+        "text": "Gauntlet B by Lv 35 for Warrior: Arena Warrior course plus battle use"
+      }
+    ],
+    "role": "Battlemaster striker: x1.5 axe hits on adjacent foes"
+  },
+  "copies": [
+    {
+      "route": "Cai",
+      "support": 3,
+      "renown": 5,
+      "cost": "3,000G",
+      "chapter": 6,
+      "path": [
+        "Hunter (bench in Part I)",
+        "Archer (Part II Ch 1 to 2)",
+        "Forest Knight (Part II Ch 3)",
+        "Bow Adept (Part III detour: Sky Hunter)",
+        "Bow Knight"
+      ],
+      "role": "Mounted bow and sword skirmisher",
+      "part1": "Bench (Hunter): recruit for Part II",
+      "why": "Benched in Part I: Peter covers bows. Bow B and Rider D come from the Arena; after Army Training she is Archer in Part II Ch 1 to 2 (Crescendo) and Forest Knight from Ch 3, the third bow Part II Ch 4 asks for. Forest Knight keeps a sword for Veteran's Mettle.",
+      "guide": {
+        "role": "Mounted bow and sword skirmisher",
+        "summary": "Benched in Part I (Peter covers bows). Forest Knight puts bow and sword on a horse with Mov 7. Veteran's Mettle (Hit +10 vs adjacent) covers her low Dex in melee, and Crescendo covers it at range. Army Training in Hunter is now her Dex fix.",
+        "playstyle": "Shoot fliers and soft targets, then finish adjacent foes with a sword where Redblade's Will adds Atk +3. Pair her with Peter for bow coverage.",
+        "focus": [
+          "Str",
+          "Spd",
+          "Dex"
+        ],
+        "keys": [
+          "Bench in Part I: Arena Infantry Training for Bow B, Mounted Training (or a Riding Manual) for Rider D.",
+          "Equip the Da Mina Bow, Tempest Bow, Hunter's Bow, Wooden Sword and Archer's Ring at the end of Ch 12.",
+          "Keep a Ferghanan Horse or Wild Horse in the Stable.",
+          "Part II Ch 1 to 2: Archer for Crescendo; Forest Knight from Ch 3.",
+          "Keep a sword for adjacent fights: Veteran's Mettle and Redblade's Will."
+        ],
+        "watch": [
+          "Dex 35% personal: check Hit on bow shots.",
+          "Sword is not a preferred rank.",
+          "Archer that doubles: extra ≤ 3. Silver Bow 5 + Archer's Ring 3 = 8 (Bird-Plume Amulet in Part III: same 3), Da Mina Bow 6 + ring = 9. Hunter's Eye only pays on follow-ups."
+        ],
+        "stages": [
+          {
+            "when": "Join (late Ch 6 or Ch 7) to Ch 12",
+            "from": {
+              "part": 1,
+              "ch": 6,
+              "at": "late",
+              "approx": true
+            },
+            "to": {
+              "part": 1,
+              "ch": 12
+            },
+            "level": "About Lv 15 on join",
+            "class": "Hunter",
+            "kind": "bench",
+            "goal": "Bench: recruit for Part II, train Bow B and Rider D in the Arena.",
+            "exit": "Bench through Part I: keep Hunter for Part II Ch 1 Army Training (Lv 15 to 34)",
+            "masteries": [],
+            "training": [
+              {
+                "rank": "Bow B",
+                "for": "Archer (C) in Part II Ch 1, Forest Knight (B) in Ch 3",
+                "how": "Arena Infantry Training (Sword, Bow, Infantry)"
+              },
+              {
+                "rank": "Rider D",
+                "for": "Forest Knight exam",
+                "how": "Arena Mounted Training (Spear, Authority, Rider, Flying); Riding Manual (Rubess Forest, Melias, after Peter)"
+              }
+            ],
+            "tips": [
+              "She joins at about Lv 15 in a Beginner class. If it isn't Hunter, take the Hunter exam on recruit at 75% (Bow D, Sword D).",
+              "Army Training in Hunter: Spd 50, Dex 45 on Mikaela, the best Dex a Beginner class gives her.",
+              "Recruit cost: Support 3, Renown 5, 3,000G.",
+              "Keep a Ferghanan Horse (Sunfall Path) or Wild Horse in the Stable for Forest Knight: Part II has no free time to catch one.",
+              "Part II has no free time, so these ranks must be done in Part I: they are the exams this unit takes in Part II Ch 1 and Ch 2"
+            ],
+            "weapons": [
+              {
+                "item": "Da Mina Bow",
+                "why": "Her Part II bow: Hit +10 on arts"
+              },
+              {
+                "item": "Wooden Sword",
+                "why": "Arena Sword practice; storage before Ch 12 ends"
+              }
+            ],
+            "equipment": [
+              {
+                "item": "Archer's Ring",
+                "why": "Carry into Part II: Hit +5",
+                "slot": "Accessory"
+              }
+            ],
+            "items": [
+              {
+                "item": "Concoction",
+                "why": "Part II stock: buy before Ch 12 ends",
+                "alts": [
+                  "Vulnerary"
+                ]
+              }
+            ],
+            "arts": [
+              {
+                "name": "Encloser",
+                "why": "Bow C: Mov -3 on hit"
+              },
+              {
+                "name": "Warning Shot",
+                "why": "Bow D: Avo +10"
+              }
+            ],
+            "abilities": [],
+            "drop": [
+              {
+                "item": "Tempest Bow",
+                "why": "Storage until Part III: one bow is enough on the bench"
+              },
+              {
+                "item": "Hunter's Bow",
+                "why": "Storage until Part III: one bow is enough on the bench"
+              }
+            ],
+            "why": [
+              "Veteran's Mettle (Hit +10) only fires at range 1: her bows lean on the Archer's Ring"
+            ]
+          },
+          {
+            "when": "Part II Ch 1 to 2",
+            "from": {
+              "part": 2,
+              "ch": 1
+            },
+            "to": {
+              "part": 2,
+              "ch": 2
+            },
+            "level": "Lv 34 to 35",
+            "class": "Archer",
+            "kind": "core",
+            "goal": "Archer on a free Specialty License after Army Training; master Crescendo (Hit +3 per kill). Bow-only, so Redblade's Will+ (range 1) sits idle and Hit comes from Crescendo and the ring.",
+            "exit": "Leave for Forest Knight in Ch 3 (Rider D, Bow B at 75%) once Crescendo is mastered. If it is not, go anyway.",
+            "masteries": [
+              "Crescendo"
+            ],
+            "training": [
+              {
+                "rank": "Bow B, Rider D",
+                "for": "Forest Knight exam",
+                "how": "Done on the bench in Part I; Archer trains Bow +2"
+              }
+            ],
+            "weapons": [
+              {
+                "item": "Silver Bow",
+                "why": "Mt 18, Wt 5 once Bow B",
+                "alts": [
+                  "Da Mina Bow"
+                ],
+                "plan": "Equip before Part I ends"
+              },
+              {
+                "item": "Da Mina Bow",
+                "why": "Hit +10 on arts",
+                "plan": "Carried in hand from Part I"
+              }
+            ],
+            "arts": [
+              {
+                "name": "Encloser",
+                "why": "Bow C: Mov -3 on hit"
+              },
+              {
+                "name": "Warning Shot",
+                "why": "Bow D: Avo +10"
+              }
+            ],
+            "abilities": [
+              {
+                "name": "Crescendo",
+                "why": "Archer mastery goal: Hit +3 per kill, once mastered"
+              },
+              {
+                "name": "Bows Lv. 1",
+                "why": "Hit +3 with bows (Bow D+)"
+              }
+            ],
+            "drop": [
+              {
+                "item": "Wooden Sword",
+                "why": "Archer is bow-only; Forest Knight takes a Part II Iron Sword +3?"
+              }
+            ],
+            "tips": [
+              "No free time in Part II: only what she holds at the end of Ch 12 comes in, so equip and pack it then"
+            ],
+            "equipment": [
+              {
+                "item": "Archer's Ring",
+                "why": "Hit +5, Wt 3. The Bird-Plume Amulet stays on Guzran until Part III.",
+                "alts": [],
+                "slot": "Accessory"
+              }
+            ],
+            "items": [
+              {
+                "item": "Concoction",
+                "why": "40 HP x2",
+                "plan": "Carried from Ch 12 (no shops in Part II)"
+              }
+            ]
+          },
+          {
+            "when": "Part II Ch 3 to 6",
+            "from": {
+              "part": 2,
+              "ch": 3
+            },
+            "to": {
+              "part": 2,
+              "ch": 6
+            },
+            "level": "Lv 37 to 42",
+            "class": "Forest Knight",
+            "kind": "core",
+            "mount": "Ferghanan Horse or Wild Horse from the Stable",
+            "goal": "Mounted bow and sword on a free Advanced License, one of the 3 to 4 bows Ch 4 asks for; master Hunter's Eye. Swap to the sword against adjacent foes for Redblade's Will+.",
+            "exit": "Stays to the end of Part II.",
+            "tips": [
+              "Forest Knight on Mikaela: Ferghanan Horse Str 55, Def 55; Wild Horse Str 50, Spd 55",
+              "No free time in Part II: only what she holds at the end of Ch 12 comes in, so equip and pack it then"
+            ],
+            "weapons": [
+              {
+                "item": "Silver Bow",
+                "why": "Mt 18, Wt 5 once Bow B",
+                "alts": [
+                  "Da Mina Bow"
+                ]
+              },
+              {
+                "item": "Da Mina Bow",
+                "why": "A tier: Hit +10 on arts",
+                "plan": "Carried in hand from Part I"
+              },
+              {
+                "item": "Iron Sword +3",
+                "why": "Range-1 sword for Redblade's Will+ (Hit +10, Atk +3, +3 more at 30%) against adjacent attackers",
+                "plan": "Part II Iron +3 weapon handout?"
+              }
+            ],
+            "equipment": [
+              {
+                "item": "Archer's Ring",
+                "why": "Hit +5, Wt 3. The Bird-Plume Amulet stays on Guzran until Part III.",
+                "alts": [],
+                "slot": "Accessory"
+              }
+            ],
+            "items": [
+              {
+                "item": "Concoction",
+                "why": "40 HP x2",
+                "plan": "Carried from Ch 12 (no shops in Part II)"
+              }
+            ],
+            "arts": [
+              {
+                "name": "Tiger Slash",
+                "why": "Sword C: effective vs cavalry"
+              },
+              {
+                "name": "Mighty Shot",
+                "why": "Bow B; effect not documented"
+              },
+              {
+                "name": "Encloser",
+                "why": "Bow C: Mov -3 on hit"
+              },
+              {
+                "name": "Warning Shot",
+                "why": "Bow D: Avo +10"
+              }
+            ],
+            "abilities": [
+              {
+                "name": "Hunter's Eye",
+                "why": "Forest Knight mastery goal: Atk +3 on bow follow-ups, once mastered"
+              },
+              {
+                "name": "Crescendo",
+                "why": "Archer mastery: Hit +3 per kill"
+              },
+              {
+                "name": "Bows Lv. 1",
+                "why": "Hit +3 with bows; Bows Lv. 2 at Bow C+"
+              }
+            ],
+            "masteries": [
+              "Hunter's Eye"
+            ],
+            "drop": [
+              {
+                "item": "Tempest Bow",
+                "why": "Stays in storage through Part II; back in Part III"
+              }
+            ]
+          },
+          {
+            "when": "Part III, Section 2 to 3",
+            "from": {
+              "part": 3,
+              "ch": 2
+            },
+            "to": {
+              "part": 3,
+              "ch": 3
+            },
+            "level": "Lv 45+",
+            "class": "Bow Adept",
+            "kind": "detour",
+            "mount": "None (the horse waits)",
+            "goal": "Master detour while Kalla's temple is repaired: Sky Hunter (Hit +50 vs fliers) for the Section 2 Breza map, which is mostly fliers, and Dex grows 55. Bow-only class: Redblade's Will+ waits for Bow Knight's sword.",
+            "exit": "Leave once Sky Hunter is mastered and Kalla's request unlocks Bow Knight.",
+            "masteries": [
+              "Sky Hunter"
+            ],
+            "tips": [
+              "Bow Adept on Mikaela: HP 65, Spd 55, Dex 55",
+              "Repair Kalla's temple early: Bow Knight waits on her request"
+            ],
+            "weapons": [
+              {
+                "item": "Silver Bow",
+                "why": "Mt 18, Wt 5 once Bow B",
+                "alts": [
+                  "Da Mina Bow",
+                  "Tempest Bow"
+                ]
+              },
+              {
+                "item": "Da Mina Bow",
+                "why": "Hit +10 on arts"
+              },
+              {
+                "item": "Hunter's Bow",
+                "why": "Fliers and beasts",
+                "situational": "Beast maps: open slot"
+              }
+            ],
+            "equipment": [
+              {
+                "item": "Archer's Ring",
+                "why": "Hit +5, Wt 3. The route's one Bird-Plume Amulet +2 stays on Guzran.",
+                "alts": [],
+                "slot": "Accessory"
+              }
+            ],
+            "items": [
+              {
+                "item": "Concoction",
+                "why": "40 HP x2",
+                "alts": [
+                  "Vulnerary"
+                ]
+              }
+            ],
+            "arts": [
+              {
+                "name": "Leaden Draw",
+                "why": "Bow A: +12 Mt, +10 Hit"
+              },
+              {
+                "name": "Mighty Shot",
+                "why": "Bow B; effect not documented"
+              },
+              {
+                "name": "Encloser",
+                "why": "Bow C: Mov -3 on hit"
+              },
+              {
+                "name": "Warning Shot",
+                "why": "Bow D: Avo +10"
+              }
+            ],
+            "abilities": [
+              {
+                "name": "Sky Hunter",
+                "why": "Bow Adept mastery goal: Hit +50 vs fliers, once mastered"
+              },
+              {
+                "name": "Hunter's Eye",
+                "why": "Forest Knight mastery: Atk +3 on bow follow-ups"
+              },
+              {
+                "name": "Crescendo",
+                "why": "Archer mastery: Hit +3 per kill"
+              },
+              {
+                "name": "Bows Lv. 2",
+                "why": "Hit +5 with bows (Bow C+)"
+              }
+            ],
+            "drop": [
+              {
+                "item": "Wooden Sword",
+                "why": "Bow Adept is bow-only"
+              },
+              {
+                "item": "Tiger Slash",
+                "why": "Sword art; Bow Adept is bow-only"
+              },
+              {
+                "item": "Tempest Bow",
+                "why": "Silver Bow's fallback (in its alts)"
+              }
+            ]
+          },
+          {
+            "when": "Part III goal",
+            "from": {
+              "part": 3,
+              "ch": 3,
+              "approx": true
+            },
+            "level": "Lv 45+",
+            "class": "Bow Knight",
+            "kind": "core",
+            "mount": "Ferghanan Horse or Black Horse",
+            "goal": "Str 60 and Hunter's Cross; the sword at range 1 turns on Redblade's Will+ (Hit +10, Atk +3 to +6).",
+            "exit": "Final class.",
+            "masteries": [
+              "Hunter's Cross"
+            ],
+            "tips": [
+              "Swap Sky Hunter back in for flier maps"
+            ],
+            "weapons": [
+              {
+                "item": "Silver Bow",
+                "why": "Mt 18, Wt 5 once Bow B",
+                "alts": [
+                  "Da Mina Bow",
+                  "Tempest Bow"
+                ]
+              },
+              {
+                "item": "Da Mina Bow",
+                "why": "A tier: Hit +10 on arts"
+              },
+              {
+                "item": "Wooden Sword",
+                "why": "Refined melee",
+                "plan": "Keep; refine"
+              },
+              {
+                "item": "Hunter's Bow",
+                "why": "Fliers and beasts",
+                "situational": "Beast maps: open slot"
+              }
+            ],
+            "equipment": [
+              {
+                "item": "Archer's Ring",
+                "why": "Hit +5, Wt 3. The route's one Bird-Plume Amulet +2 stays on Guzran.",
+                "alts": [],
+                "slot": "Accessory"
+              }
+            ],
+            "items": [
+              {
+                "item": "Concoction",
+                "why": "40 HP x2",
+                "alts": [
+                  "Vulnerary"
+                ]
+              }
+            ],
+            "arts": [
+              {
+                "name": "Leaden Draw",
+                "why": "Bow A: +12 Mt, +10 Hit"
+              },
+              {
+                "name": "Tiger Slash",
+                "why": "Sword C: effective vs cavalry"
+              },
+              {
+                "name": "Mighty Shot",
+                "why": "Bow B; effect not documented"
+              },
+              {
+                "name": "Encloser",
+                "why": "Bow C: Mov -3 on hit"
+              },
+              {
+                "name": "Warning Shot",
+                "why": "Bow D: Avo +10"
+              }
+            ],
+            "abilities": [
+              {
+                "name": "Hunter's Cross",
+                "why": "Bow Knight mastery: high Hit/Crit (Game8 only), once mastered"
+              },
+              {
+                "name": "Hunter's Eye",
+                "why": "Forest Knight mastery: Atk +3 on bow follow-ups"
+              },
+              {
+                "name": "Crescendo",
+                "why": "Archer mastery: Hit +3 per kill"
+              },
+              {
+                "name": "Sky Hunter",
+                "why": "Hit +50 vs fliers"
+              },
+              {
+                "name": "Bows Lv. 2",
+                "why": "Hit +5 with bows"
+              }
+            ],
+            "drop": [
+              {
+                "item": "Tempest Bow",
+                "why": "Silver Bow's fallback (in its alts)"
+              }
+            ]
+          }
+        ],
+        "alt": "The Charioteer stint (Dex 60) and the Part II Sniper stint (Marksmanship) were dropped: both used the Part I waiting window she no longer has. If her Hit still lags in Part III, add Sniper before Bow Adept.",
+        "sources": [
+          "class-and-weapon-guide",
+          "growth.py",
+          "class-data",
+          "character-learnsets",
+          "weapons-and-items",
+          "mounts.json",
+          "plan.json",
+          "PATHS-BRIEF",
+          "walkthrough-part1-cai",
+          "part2-war",
+          "part3-salvation"
+        ],
+        "routeNotes": [
+          {
+            "system": "Stable & Luring",
+            "note": "Catch her Ferghanan Horse or Wild Horse in Part I and feed it weekly while she is benched: Forest Knight from Part II Ch 3 gets the bond's Paired abilities from the start."
+          },
+          {
+            "system": "Kindness Quests",
+            "note": "Her recruit needs Renown 5 plus 3,000G; Kindness Quest gold (1,500 to 2,500G each in Ch 4 to 6) covers the fee."
+          }
+        ],
+        "decisions": [
+          {
+            "topic": "Bench her, Forest Knight in Part II Ch 3",
+            "pick": "Hunter on recruit, Archer (Ch 1), Forest Knight (Ch 3)",
+            "why": "A second bow behind Peter fills no missing role; Part II Ch 4 asks for 3 to 4 bows. Her Ferghanan bonds in the Stable meanwhile."
+          }
+        ],
+        "gates": [
+          {
+            "route": "Cai",
+            "from": {
+              "part": 1,
+              "ch": 4
+            },
+            "kind": "recruit",
+            "text": "Support 3 by Renown 5, then 3,000G: she needs the most Support early",
+            "by": {
+              "part": 1,
+              "ch": 7
+            }
+          },
+          {
+            "route": "Cai",
+            "from": {
+              "part": 1,
+              "ch": 7
+            },
+            "kind": "rank",
+            "text": "Bow B and Rider D by 11/27 for Archer and Forest Knight",
+            "by": {
+              "part": 1,
+              "ch": 12
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "sources": [
+    "https://fortunesweave.co.uk/characters/mikaela",
+    "https://www.pockettactics.com/fire-emblem-fortunes-weave/tier-list",
+    "https://www.keengamer.com/articles/guides/fire-emblem-fortunes-weave-tier-list-best-characters-ranked-for-every-route/"
+  ],
+  "recruitOn": {
+    "Cai": {
+      "how": "recruit",
+      "support": 3,
+      "renown": 5,
+      "task": "3,000G"
+    },
+    "Dietrich": {
+      "how": "auto"
+    },
+    "Theodora": {
+      "how": "recruit",
+      "support": 3,
+      "renown": 8
+    },
+    "Leda": {
+      "how": "recruit",
+      "support": 3,
+      "renown": 6
+    }
+  }
+}

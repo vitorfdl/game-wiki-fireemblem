@@ -1,0 +1,1359 @@
+{
+  "name": "Jasmine",
+  "slug": "jasmine",
+  "epithet": "Leader of the Rain of Palma",
+  "faction": "Neutral",
+  "homeRoute": "Cai",
+  "weapons": [
+    "Axe",
+    "Spear"
+  ],
+  "preferred": [
+    "Axe",
+    "Heavy",
+    "Spear"
+  ],
+  "avoid": [
+    "Flier",
+    "Sword"
+  ],
+  "personality": "Seasoned, pragmatic mercenary captain driven by memories and money.",
+  "story": "Jasmine, 38, is a Brigid mercenary who served an Aragonian noble house until it collapsed. She now leads the mercenary company the Rain of Palma, motivated by her late spouse, her comrades and pay. She is available in Dagsion from around 5/8 and costs only 500G on Leda's route.",
+  "personalSkill": {
+    "name": "Expert Counter",
+    "effect": "If foe attacks first, Hit+20 during combat. Upgrades to Raging Counter (Atk+3) and Raging Counter+ (Atk+3, Crit+10)."
+  },
+  "growths": {
+    "HP": 50,
+    "Str": 40,
+    "Mag": 20,
+    "Spd": 30,
+    "Dex": 45,
+    "Def": 45,
+    "Res": 25,
+    "Lck": 40,
+    "Cha": 45
+  },
+  "supports": [
+    "Buccar",
+    "Olympia",
+    "Ursula"
+  ],
+  "tiers": [
+    {
+      "source": "Pocket Tactics",
+      "tier": "A"
+    },
+    {
+      "source": "KeenGamer",
+      "tier": "B"
+    }
+  ],
+  "tierNotes": "Pocket Tactics: A tier. KeenGamer: B tier (counter fighter, cheap on Leda's route).",
+  "recruit": {
+    "how": "recruit",
+    "renown": 8,
+    "extra": "Appears in Dagsion ~5/8",
+    "why": [
+      "Lowest Support requirement of any route: 1 here vs Dietrich 3, Theodora 3, Leda 2."
+    ],
+    "tip": "2,000G here; Leda's 500G was cheaper but her roster was full."
+  },
+  "requirements": {
+    "Cai": "1S 8R (2,000G)",
+    "Dietrich": "3S 9R (5,000G)",
+    "Theodora": "3S 8R (5,000G)",
+    "Leda": "2S 4R (500G)"
+  },
+  "build": {
+    "role": "Armored counter tank",
+    "path": [
+      "Armored Knight? (joins at Lv 25 in Ch 10; bench in Part I)",
+      "Dreadnought (Part II Ch 2)",
+      "Castle Knight"
+    ],
+    "part1Target": "Bench (joins in a Specialty class, Armored Knight?): recruit for Part II",
+    "part3Target": "Castle Knight",
+    "notes": "Joins in Ch 10 at about Lv 25, already in a Specialty class; benched in Part I. Arena Heavy Training for Heavy D, Axe B, Spear B. Part II: Army Training to Lv 34 in Armored Knight (Great Counter), Dreadnought in Ch 2 (Focused Counter), Ch 3 at the latest. Castle Knight in Part III.",
+    "confidence": "medium"
+  },
+  "guide": {
+    "role": "Armored counter tank",
+    "summary": "Benched in Part I: she joins in Ch 10 at about Lv 25, already in a Specialty class, with no deployment slot left to reach Lv 35 before Part II. Expert Counter (Hit +20 when attacked first) plus Great Counter and Focused Counter make her an enemy-phase wall from Part II Ch 2, and Dreadnought grows Def 75, HP 65 on her.",
+    "playstyle": "Plant her on chokepoints where only physical units reach her. Mov 4 and Res 15%: Ninae or Ultand stand beside her against mages.",
+    "focus": [
+      "Def",
+      "HP",
+      "Str"
+    ],
+    "keys": [
+      "Bench in Part I: Arena Heavy Training covers Heavy D, Axe B, Spear B and Authority C.",
+      "Give her both Heavy-Armor Manuals.",
+      "Equip Ji, the Ch 10 Hammer, Shielding Axe, Da Mina Spear and the Hexlock Shield at the end of Ch 12.",
+      "Joins as a Specialty unit (Armored Knight?): master Great Counter on the bench; Dreadnought in Part II Ch 2 (Ch 3 at the latest)."
+    ],
+    "watch": [
+      "Mov 4: she lags behind the mounted army.",
+      "Res growth 15% in Dreadnought: mages and Caladrius foes delete her.",
+      "Heavy kit is fine: she counters on enemy phase and won't double anyway. Silver Spear 6 (Ji 7) + Hexlock Shield 4 + Victory Gem 3 + Charm Mask 5 = 18 to 19 is the everyday load (Part III: Silver Shield 4 + Cloth of Aurora 5 = 20 to 21); Hammer 20 swaps in for armor only.",
+      "Inventory: 6/6 armor kit (Silver Spear, Shielding Axe, Hexlock Shield, Victory Gem, Charm Mask, Elixir): no open slot, so the Hammer and Ji wait in storage."
+    ],
+    "stages": [
+      {
+        "when": "Join (Ch 10) to Part II Ch 1",
+        "from": {
+          "part": 1,
+          "ch": 10
+        },
+        "to": {
+          "part": 2,
+          "ch": 1
+        },
+        "level": "About Lv 25 (join) to 34 (Army Training)",
+        "class": "Armored Knight",
+        "kind": "bench",
+        "goal": "Bench: joins at about Lv 25 in a Specialty class; train ranks in the Arena, master Great Counter.",
+        "exit": "Dreadnought in Part II Ch 2 (Heavy D, Axe B, Spear B), Part II Ch 3 at the latest",
+        "masteries": [
+          "Great Counter"
+        ],
+        "training": [
+          {
+            "rank": "Heavy D, Axe B, Spear B",
+            "for": "Dreadnought, Part II Ch 2",
+            "how": "Arena Heavy Training (Spear, Authority, Axe, Heavy) covers all three; Heavy-Armor Manuals (Masked Woods, Melias; Nemea Cavern, Pasithea)"
+          },
+          {
+            "rank": "Authority C",
+            "for": "Counter Order (Expert Counter for allies within 2)",
+            "how": "Arena Heavy Training lists Authority too"
+          }
+        ],
+        "weapons": [
+          {
+            "item": "Silver Spear",
+            "why": "Mt 20, Wt 6 at Spear B: strongest counter; Ji for armor; no known source",
+            "alts": [
+              "Ji"
+            ]
+          },
+          {
+            "item": "Shielding Axe",
+            "why": "Prt +3 when attacked first; carries her axe arts (Spike, Discerning Blow, Guard Spike)"
+          }
+        ],
+        "equipment": [
+          {
+            "item": "Hexlock Shield",
+            "why": "Res +5: her low-Res cover",
+            "slot": "Defense",
+            "alts": [
+              "Iron Shield"
+            ],
+            "plan": "Keep equipped"
+          },
+          {
+            "item": "Victory Gem",
+            "why": "Heals a little after each kill, Wt 3: sustain for counter kills",
+            "slot": "Accessory",
+            "alts": [
+              "Miracle Gem"
+            ]
+          },
+          {
+            "item": "Charm Mask",
+            "why": "(Charm / 2)% chance of foe Hit -20, Wt 5: armor can carry it and her Charm grows 45. The only Part I copy is hers (Seteth no longer wears it)",
+            "slot": "Head",
+            "plan": "From Seteth; First copy"
+          }
+        ],
+        "arts": [
+          {
+            "name": "Armored Blow",
+            "why": "Spear C: Prt +3 after a kill"
+          },
+          {
+            "name": "Discerning Blow",
+            "why": "Axe C: Hit +50, half damage"
+          },
+          {
+            "name": "Tempest Spear",
+            "why": "Spear D: Hit fix"
+          },
+          {
+            "name": "Spike",
+            "why": "Axe D: Hit fix"
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Great Counter",
+            "why": "Armored Knight mastery goal: Atk +3 when attacked first (once mastered)"
+          },
+          {
+            "name": "Raging Counter",
+            "why": "Personal Lv 20 ability: If foe attacks first, grants Atk+3 to unit during combat"
+          },
+          {
+            "name": "Spears Lv. 2",
+            "why": "Spear C+ rank ability: Ji Hit +5"
+          }
+        ],
+        "tips": [
+          "Joins at about Lv 25 already in a Specialty class (which one is ?). Not Armored Knight? Take its exam (Heavy E+, Axe C, Spear C) on a Specialty License.",
+          "Recruit cost: Renown 8, 2,000G. She appears in Dagsion around 5/8.",
+          "One Arena course (Heavy Training) covers every rank she needs. Part II has no free time, so finish them in Part I.",
+          "No free time in Part II: only equipped items come in, so equip them at the end of Ch 12"
+        ],
+        "drop": [
+          {
+            "item": "Ji",
+            "why": "Fallback for the Silver Spear only"
+          },
+          {
+            "item": "Hammer",
+            "why": "Majide carries the armor answer into Part II; hers waits for Part III"
+          },
+          {
+            "item": "Da Mina Spear",
+            "why": "No slot"
+          },
+          {
+            "item": "Wooden Axe",
+            "why": "No slot"
+          }
+        ],
+        "items": [
+          {
+            "item": "Elixir",
+            "why": "100 HP: carried in from Ch 12",
+            "alts": [
+              "Concoction"
+            ],
+            "plan": "After Ch 6"
+          }
+        ],
+        "why": [
+          "Expert Counter, Raging Counter (Lv 20) and Great Counter stack: +20 Hit, +6 Atk on every enemy-phase counter"
+        ]
+      },
+      {
+        "when": "Part II Ch 2 to 6",
+        "from": {
+          "part": 2,
+          "ch": 2
+        },
+        "to": {
+          "part": 2,
+          "ch": 6
+        },
+        "level": "Lv 35 to 42",
+        "class": "Dreadnought",
+        "kind": "core",
+        "goal": "Chokepoint tank for Ch 2 and 3 on a free Advanced License; master Focused Counter. Raging Counter+ (Lv 35): Atk +3, Crit +10 when the foe attacks first, on top of Expert Counter's Hit +20, Great Counter and Focused Counter (Hit +10).",
+        "exit": "Stays to the end of Part II.",
+        "tips": [
+          "Ninae or Ultand stands beside her against mages",
+          "No free time in Part II: only equipped items come in, so equip them at the end of Ch 12"
+        ],
+        "weapons": [
+          {
+            "item": "Silver Spear",
+            "why": "Mt 20, Wt 6 at Spear B: strongest counter; Ji for armor; no known source",
+            "alts": [
+              "Ji"
+            ]
+          },
+          {
+            "item": "Shielding Axe",
+            "why": "Prt +3 when attacked first; carries her axe arts (Spike, Discerning Blow, Guard Spike)",
+            "plan": "Keep"
+          }
+        ],
+        "equipment": [
+          {
+            "item": "Hexlock Shield",
+            "why": "Res +5: her low-Res cover",
+            "slot": "Defense",
+            "alts": [
+              "Iron Shield"
+            ],
+            "plan": "Equip before Part II"
+          },
+          {
+            "item": "Victory Gem",
+            "why": "Heals a little after each kill, Wt 3: sustain for counter kills",
+            "slot": "Accessory",
+            "alts": [
+              "Miracle Gem"
+            ]
+          },
+          {
+            "item": "Charm Mask",
+            "why": "(Charm / 2)% chance of foe Hit -20, Wt 5: armor can carry it and her Charm grows 45. The only Part I copy is hers (Seteth no longer wears it)",
+            "slot": "Head",
+            "plan": "From Seteth; First copy"
+          }
+        ],
+        "arts": [
+          {
+            "name": "Protective Storm",
+            "why": "Spear B: Prt +7"
+          },
+          {
+            "name": "Guard Spike",
+            "why": "Axe B: Prt +10"
+          },
+          {
+            "name": "Armored Blow",
+            "why": "Spear C: Prt +3 after a kill"
+          },
+          {
+            "name": "Discerning Blow",
+            "why": "Axe C: Hit +50, half damage"
+          },
+          {
+            "name": "Tempest Spear",
+            "why": "Spear D: Hit fix"
+          },
+          {
+            "name": "Spike",
+            "why": "Axe D: Hit fix"
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Focused Counter",
+            "why": "Dreadnought mastery goal: Hit +10 when attacked first (once mastered)"
+          },
+          {
+            "name": "Raging Counter+",
+            "why": "Personal Lv 35 ability: If foe attacks first, grants Atk+3, Crit+10 to unit during combat"
+          },
+          {
+            "name": "Great Counter",
+            "why": "Armored Knight mastery: Atk +3 when attacked first"
+          },
+          {
+            "name": "Spears Lv. 2",
+            "why": "Spear C+ rank ability: Ji Hit +5"
+          }
+        ],
+        "masteries": [
+          "Focused Counter"
+        ],
+        "training": [
+          {
+            "rank": "Axe A, Spear A",
+            "for": "Castle Knight (Part III)",
+            "how": "Fight in Dreadnought (Spear +2, Axe +2, Heavy +3)"
+          }
+        ],
+        "drop": [
+          {
+            "item": "Ji",
+            "why": "Fallback for the Silver Spear only"
+          },
+          {
+            "item": "Hammer",
+            "why": "Majide carries the armor answer into Part II; hers waits for Part III"
+          },
+          {
+            "item": "Da Mina Spear",
+            "why": "No slot"
+          },
+          {
+            "item": "Wooden Axe",
+            "why": "No slot"
+          }
+        ],
+        "items": [
+          {
+            "item": "Elixir",
+            "why": "100 HP: carried in from Ch 12",
+            "alts": [
+              "Concoction"
+            ],
+            "plan": "After Ch 6"
+          }
+        ]
+      },
+      {
+        "when": "Part III goal",
+        "from": {
+          "part": 3
+        },
+        "level": "Lv 45+",
+        "class": "Castle Knight",
+        "kind": "core",
+        "goal": "HP 75, Def 75, Intercept. Every counter skill (Raging Counter+, Great Counter, Focused Counter) fires on enemy phase.",
+        "exit": "Final class.",
+        "masteries": [
+          "Intercept"
+        ],
+        "weapons": [
+          {
+            "item": "Silver Spear",
+            "why": "Mt 20, Wt 6 at Spear B: strongest counter; Ji for armor; no known source",
+            "alts": [
+              "Ji"
+            ]
+          },
+          {
+            "item": "Shielding Axe",
+            "why": "Enemy phase",
+            "plan": "Keep"
+          },
+          {
+            "item": "Hammer",
+            "why": "Armor",
+            "situational": "Armor-heavy maps: swap for the Shielding Axe",
+            "plan": "From Majide once he has two"
+          }
+        ],
+        "equipment": [
+          {
+            "item": "Victory Gem",
+            "why": "Victory Gem: Theodora holds the Cloth of Aurora",
+            "slot": "Accessory"
+          },
+          {
+            "item": "Silver Shield",
+            "why": "Def +5, Wt 4: the Cloth covers Res now",
+            "slot": "Defense",
+            "alts": [
+              "Hexlock Shield"
+            ]
+          },
+          {
+            "item": "Charm Mask",
+            "why": "(Charm / 2)% chance of foe Hit -20, Wt 5: armor can carry it and her Charm grows 45. The only Part I copy is hers (Seteth no longer wears it)",
+            "slot": "Head",
+            "plan": "From Seteth; First copy"
+          }
+        ],
+        "arts": [
+          {
+            "name": "Reflecting Dance",
+            "why": "Axe A: steals the foe's follow-up"
+          },
+          {
+            "name": "Protective Storm",
+            "why": "Spear B: Prt +7"
+          },
+          {
+            "name": "Guard Spike",
+            "why": "Axe B: Prt +10"
+          },
+          {
+            "name": "Armored Blow",
+            "why": "Spear C: Prt +3 after a kill"
+          },
+          {
+            "name": "Discerning Blow",
+            "why": "Axe C: Hit +50, half damage"
+          },
+          {
+            "name": "Tempest Spear",
+            "why": "Spear D: Hit fix"
+          },
+          {
+            "name": "Spike",
+            "why": "Axe D: Hit fix"
+          }
+        ],
+        "abilities": [
+          {
+            "name": "Intercept",
+            "why": "Castle Knight mastery: damage taken -5 (once mastered)"
+          },
+          {
+            "name": "Raging Counter+",
+            "why": "Personal Lv 35 ability: If foe attacks first, grants Atk+3, Crit+10 to unit during combat"
+          },
+          {
+            "name": "Great Counter",
+            "why": "Armored Knight mastery: Atk +3 when attacked first"
+          },
+          {
+            "name": "Focused Counter",
+            "why": "Dreadnought mastery: Hit +10 when attacked first"
+          },
+          {
+            "name": "Spears Lv. 2",
+            "why": "Spear C+ rank ability: Ji Hit +5"
+          }
+        ],
+        "drop": [
+          {
+            "item": "Ji",
+            "why": "Fallback for the Silver Spear only"
+          },
+          {
+            "item": "Da Mina Spear",
+            "why": "No slot"
+          },
+          {
+            "item": "Wooden Axe",
+            "why": "No slot"
+          }
+        ],
+        "items": [
+          {
+            "item": "Elixir",
+            "why": "100 HP: tank and boss turns",
+            "alts": [
+              "Concoction"
+            ],
+            "plan": "After Ch 6"
+          }
+        ]
+      }
+    ],
+    "alt": "A Guardian stint (Brace, Res 40) was dropped: she reaches Dreadnought only in Ch 2 or 3, and Focused Counter needs the rest of Part II. Try Guardian in Part III before Castle Knight if her Res hurts.",
+    "sources": [
+      "class-and-weapon-guide",
+      "growth.py",
+      "class-data",
+      "character-learnsets",
+      "combat-arts-and-abilities",
+      "weapons-and-items",
+      "hard-mode-video-notes",
+      "PATHS-BRIEF",
+      "walkthrough-part1-cai",
+      "part2-war",
+      "part3-salvation"
+    ],
+    "decisions": [
+      {
+        "topic": "Bench her, Dreadnought in Part II Ch 2",
+        "pick": "Join class (Armored Knight?), Dreadnought on a free License",
+        "why": "Joins in Ch 10 after the slots are full, rated D. Dreadnought holds Part II's chokepoints; its Res is low, so Ninae or Ultand stands beside her against mages.",
+        "else": "Ranks lag: Dreadnought in Ch 3"
+      }
+    ],
+    "gates": [
+      {
+        "route": "Cai",
+        "from": {
+          "part": 1,
+          "ch": 6
+        },
+        "kind": "recruit",
+        "text": "Renown 8 and 2,000G; she appears in Dagsion about 5/8",
+        "by": {
+          "part": 1,
+          "ch": 10
+        }
+      },
+      {
+        "route": "Cai",
+        "from": {
+          "part": 1,
+          "ch": 10
+        },
+        "kind": "rank",
+        "text": "Heavy D, Axe B, Spear B by 11/27 for Dreadnought",
+        "by": {
+          "part": 1,
+          "ch": 12
+        }
+      }
+    ]
+  },
+  "copies": [
+    {
+      "route": "Leda",
+      "support": 2,
+      "renown": 4,
+      "cost": "500G",
+      "chapter": 6,
+      "path": [
+        "Soldier (joins Ch 6 at about Lv 15; bench in Part I)",
+        "Armored Knight (Lv 20, Ch 7)",
+        "Dreadnought (Part II Ch 2)",
+        "Castle Knight (merged with the Cai copy)"
+      ],
+      "role": "Enemy-phase counter wall (Part II)",
+      "part1": "Bench: joins in Ch 6 at about Lv 15 (Beginner), Armored Knight at Lv 20 in Ch 7; levels in dungeons",
+      "why": "Recruit in Ch 6: every level from Lv 15 grows Soldier and Armored Knight rows instead of personal growths only. Buccar holds the Part I armor slot, so she levels in dungeons and masters Great Counter before Part II.",
+      "guide": {
+        "role": "Enemy-phase counter wall (Part II)",
+        "summary": "Part II's second wall, next to Buccar. Park her in the other choke and let the enemy attack: Expert Counter (Hit +20 when attacked first) and Raging Counter (Atk +3) fire on every [[item:Bronze Axe +4]] counter. She joins in Ch 6 and levels in dungeon parties while Buccar holds the Part I armor slot.",
+        "playstyle": "Enemy phase only: end turns where foes must attack her, with the Short Spear for mages in range 2. On player phase, [[art:Armored Blow]] a weak foe for Prt +3 into the next phase.",
+        "focus": [
+          "Def",
+          "HP",
+          "Str"
+        ],
+        "keys": [
+          "Gift her on 5/9, seat Leda + Jasmine + Buccar: recruit at Support 2 (500G) in Ch 6",
+          "Soldier to Lv 20, then [[class:Armored Knight]] in Ch 7 (Heavy E+, Axe C, Spear C)",
+          "EXP: a dungeon seat every week, slot 7 to 9 on easy maps; aim at Lv 30? by Ch 12",
+          "Arena Heavy every week: Heavy D, Axe B, Spear B by 11/27",
+          "Take [[class:Dreadnought]] on Part II Ch 2's free License at Lv 35",
+          "Counter with the [[item:Bronze Axe +4]]; swing the [[item:Ji]] on player phase"
+        ],
+        "watch": [
+          "Weight: armored, no AS cap. Part II Bronze Axe +4 9 + Silver Shield 4 + Victory Gem 3 = 16; Part III the same 16.",
+          "Res: 15 to 20% as armor. Counter mages with the Short Spear before they reach her",
+          "Join class: Beginner ? on join. If it isn't Soldier, buy a Soldier License that day",
+          "Inventory: 6/6 into Part II (Bronze Axe +4, Ji, Short Spear, shield, gem, Elixir); 6/6 in Part III (Bronze Axe +4, Pilum +2, Ji +2, shield, gem, Elixir)."
+        ],
+        "stages": [
+          {
+            "when": "Ch 6 join to Lv 20 · Soldier",
+            "from": {
+              "part": 1,
+              "ch": 6
+            },
+            "to": {
+              "lv": 20
+            },
+            "level": "About Lv 15 on join (Ch 6) to 20",
+            "class": "Soldier",
+            "kind": "bench",
+            "mount": "No mount (armored)",
+            "goal": "Lv 20 with Heavy E+, Axe C and Spear C. EXP: a dungeon party every week, countering on enemy phase.",
+            "exit": "Lv 20 with Heavy E+, Axe C, Spear C: Armored Knight on a Specialty License (Ch 7).",
+            "masteries": [
+              "Defense Basics"
+            ],
+            "why": [
+              "Soldier: HP +10, Def +10, Str +5 row, and it trains Spear, Axe and Armor",
+              "Hit stack (axe, enemy phase): Bronze Axe +4 70 + Expert Counter +20 + Axes Lv. 1 +3 = 93"
+            ],
+            "weapons": [
+              {
+                "item": "Bronze Axe +4",
+                "why": "Mt ? (jump at +3), Hit 70, Wt 9, Def +1 from +3",
+                "plan": "Refine to +4 with Smithing Stone"
+              },
+              {
+                "item": "Iron Spear",
+                "why": "Mt 10, Hit 80: Spear EXP; effective vs cavalry"
+              }
+            ],
+            "equipment": [
+              {
+                "item": "Iron Shield",
+                "why": "Def +3 at Wt 4 until the Silver Shield",
+                "slot": "Defense"
+              }
+            ],
+            "items": [
+              {
+                "item": "Concoction",
+                "why": "Heals 40: she joins about 5 levels under the core",
+                "alts": [
+                  "Vulnerary"
+                ]
+              }
+            ],
+            "arts": [
+              {
+                "name": "Spike",
+                "why": "Axe D: Mt +4, Hit +10"
+              },
+              {
+                "name": "Tempest Spear",
+                "why": "Spear D: Mt +4, Hit +10"
+              }
+            ],
+            "abilities": [
+              {
+                "name": "Axes Lv. 1",
+                "why": "Axe D+: axe Hit +3"
+              },
+              {
+                "name": "Spears Lv. 1",
+                "why": "Spear D+: spear Hit +3"
+              },
+              {
+                "name": "Armored Combat",
+                "why": "Heavy D (her own grade): Dex +5 in armor; axe Hit"
+              },
+              {
+                "name": "Defense Formation",
+                "why": "Authority D (Heavy course): adjacent allies Shld +1"
+              },
+              {
+                "name": "Defense Basics",
+                "why": "Soldier mastery: Def +1 (once mastered)"
+              }
+            ],
+            "training": [
+              {
+                "rank": "Heavy D, Axe C, Spear C, Authority D",
+                "for": "Armored Knight (Lv 20); Armored Combat, Defense Formation",
+                "how": "Arena Heavy (Spear, Axe, Heavy, Authority) every week from her join; Soldier trains Spear, Axe, Armor"
+              }
+            ],
+            "tips": [
+              "Support 2 by her join: gift her on 5/9, then seat Leda + Jasmine + Buccar on Sunday",
+              "EXP: Masked Woods (Lv 15) and Dione Fort (Lv 18) parties; link attacks with Buccar",
+              "Arena Heavy: Buccar's second seat in Ch 6",
+              "Joins in another Beginner class? A Soldier License that day (Axe D, Spear D)"
+            ]
+          },
+          {
+            "when": "Ch 7 to 12 · Armored Knight",
+            "from": {
+              "part": 1,
+              "ch": 7
+            },
+            "to": {
+              "part": 1,
+              "ch": 12
+            },
+            "level": "Lv 20 (Ch 7) to about 30? by Ch 12",
+            "class": "Armored Knight",
+            "kind": "bench",
+            "mount": "No mount (armored)",
+            "goal": "Master Great Counter in dungeon fights. Raging Counter (Lv 20): Atk +3 when the foe attacks first.",
+            "exit": "Heavy D, Axe B, Spear B by 11/27: Dreadnought at Lv 35 (Part II Ch 2).",
+            "masteries": [
+              "Great Counter"
+            ],
+            "why": [
+              "Hit stack (axe, enemy phase): Bronze Axe +4 70 + Expert Counter +20 + Axes Lv. 2 +5 = 95",
+              "Only the 6 items she holds at 11/27 go into Part II: set this kit before then"
+            ],
+            "weapons": [
+              {
+                "item": "Bronze Axe +4",
+                "why": "Enemy-phase counters: Hit 70, Wt 9, Def +1 from +3",
+                "plan": "Refined on join (Ch 6)"
+              },
+              {
+                "item": "Ji",
+                "why": "Spear B: 2x vs armor and cavalry, Hit 80; from Spear B"
+              },
+              {
+                "item": "Short Spear",
+                "why": "Range 1-2: counters mages and archers"
+              }
+            ],
+            "equipment": [
+              {
+                "item": "Silver Shield",
+                "why": "Def +5 at Wt 4",
+                "slot": "Defense",
+                "alts": [
+                  "Da Mina Shield",
+                  "Iron Shield"
+                ]
+              },
+              {
+                "item": "Victory Gem",
+                "why": "Heals after each kill; a counter wall kills on enemy phase",
+                "slot": "Accessory",
+                "alts": [
+                  "Hunter's Ring"
+                ]
+              }
+            ],
+            "items": [
+              {
+                "item": "Elixir",
+                "why": "Heals 100: Part II stock (no Part II shops)",
+                "alts": [
+                  "Concoction"
+                ]
+              }
+            ],
+            "arts": [
+              {
+                "name": "Discerning Blow",
+                "why": "Axe C: Hit +50 at half damage"
+              },
+              {
+                "name": "Armored Blow",
+                "why": "Spear C: Prt +3 after a kill"
+              },
+              {
+                "name": "Spike",
+                "why": "Axe D: Mt +4, Hit +10"
+              },
+              {
+                "name": "Tempest Spear",
+                "why": "Spear D: Mt +4, Hit +10"
+              }
+            ],
+            "abilities": [
+              {
+                "name": "Raging Counter",
+                "why": "Personal Lv 20: Atk +3 when the foe attacks first"
+              },
+              {
+                "name": "Great Counter",
+                "why": "Armored Knight mastery: Atk +3 when attacked first (once mastered)"
+              },
+              {
+                "name": "Armored Combat",
+                "why": "Heavy D: Dex +5 in armor; feeds axe Hit"
+              },
+              {
+                "name": "Axes Lv. 2",
+                "why": "Axe C+: axe Hit +5"
+              },
+              {
+                "name": "Spears Lv. 2",
+                "why": "Spear C+: spear Hit +5"
+              }
+            ],
+            "training": [
+              {
+                "rank": "Heavy D, Axe B, Spear B",
+                "for": "Dreadnought (Part II Ch 2)",
+                "how": "Arena Heavy weekly (shared with Buccar and Esmeralda); Heavy-Armor Manual from Nemea Cavern (Ch 9)"
+              }
+            ],
+            "tips": [
+              "EXP: a dungeon seat every week; Ch 9 caves (Aditi's Lv 28, Nemea Lv 30) pay the most",
+              "Slot 7 to 9 on easy maps: end turns where foes must attack her",
+              "Ch 10: Blue Ginji x3 for the Victory Gem"
+            ],
+            "drop": [
+              {
+                "item": "Iron Spear",
+                "why": "The Ji and Short Spear replace it"
+              },
+              {
+                "item": "Defense Formation",
+                "why": "Slot goes to Raging Counter"
+              },
+              {
+                "item": "Defense Basics",
+                "why": "Slot goes to Great Counter"
+              },
+              {
+                "item": "Axes Lv. 1",
+                "why": "Axes Lv. 2 replaces it at Axe C+"
+              }
+            ]
+          },
+          {
+            "when": "Part II Ch 1",
+            "from": {
+              "part": 2,
+              "ch": 1
+            },
+            "to": {
+              "part": 2,
+              "ch": 1
+            },
+            "level": "Lv 34 (Army Training)",
+            "class": "Armored Knight",
+            "kind": "core",
+            "mount": "No mount (armored)",
+            "goal": "One map next to Buccar at Lv 34. Great Counter came in Part I: Atk +3 when attacked first.",
+            "exit": "Dreadnought on Ch 2's free License at Lv 35 with Heavy D, Axe B, Spear B.",
+            "masteries": [],
+            "why": [
+              "Hit stack (axe, enemy phase): Bronze Axe +4 70 + Expert Counter +20 + Axes Lv. 2 +5 = 95"
+            ],
+            "weapons": [
+              {
+                "item": "Bronze Axe +4",
+                "why": "Enemy-phase counters: Hit 70, Wt 9, Def +1 from +3",
+                "plan": "Carried from Part I"
+              },
+              {
+                "item": "Ji",
+                "why": "Spear B: 2x vs armor and cavalry, Hit 80; player phase"
+              },
+              {
+                "item": "Short Spear",
+                "why": "Range 1-2: counters mages and archers"
+              }
+            ],
+            "equipment": [
+              {
+                "item": "Silver Shield",
+                "why": "Def +5 at Wt 4",
+                "slot": "Defense",
+                "alts": [
+                  "Da Mina Shield",
+                  "Iron Shield"
+                ]
+              },
+              {
+                "item": "Victory Gem",
+                "why": "Heals after each kill; a counter wall kills on enemy phase",
+                "slot": "Accessory",
+                "alts": [
+                  "Hunter's Ring"
+                ]
+              }
+            ],
+            "items": [
+              {
+                "item": "Elixir",
+                "why": "Heals 100: Part II stock (no Part II shops)",
+                "alts": [
+                  "Concoction"
+                ]
+              }
+            ],
+            "arts": [
+              {
+                "name": "Discerning Blow",
+                "why": "Axe C: Hit +50 at half damage"
+              },
+              {
+                "name": "Armored Blow",
+                "why": "Spear C: Prt +3 after a kill"
+              },
+              {
+                "name": "Windweave",
+                "why": "Ji art: 10% chance the foe can't counter"
+              },
+              {
+                "name": "Spike",
+                "why": "Axe D: Mt +4, Hit +10"
+              }
+            ],
+            "abilities": [
+              {
+                "name": "Great Counter",
+                "why": "Armored Knight mastery: Atk +3 when attacked first"
+              },
+              {
+                "name": "Raging Counter",
+                "why": "Personal Lv 20: Atk +3 when the foe attacks first"
+              },
+              {
+                "name": "Armored Combat",
+                "why": "Dex +5 in armor: Hit on every counter"
+              },
+              {
+                "name": "Axes Lv. 2",
+                "why": "Axe rank ?: axe Hit +5"
+              },
+              {
+                "name": "Spears Lv. 2",
+                "why": "Spear C+: spear Hit +5"
+              }
+            ],
+            "checks": [
+              {
+                "stat": "Dex",
+                "at": "Part II Ch 1 (Lv 34)",
+                "need": "Bronze Axe +4 counters show Hit 80 or more in the forecast",
+                "why": "Under 80 she trades hits without killing, and the second choke leaks",
+                "fix": [
+                  "Counter with the [[item:Ji]] (Hit 80) on that map",
+                  "Swap the Victory Gem for an [[item:Archer's Ring]] (Hit +5) before 11/27",
+                  "Equip the highest Axes Lv. her skill list shows (Hit +3 to +7)"
+                ]
+              }
+            ],
+            "tips": [
+              "Hold the second choke beside Buccar",
+              "Army Training lifts anyone below Lv 34 on personal growths only: her Part I levels count"
+            ]
+          },
+          {
+            "when": "Part II Ch 2 to 6",
+            "from": {
+              "part": 2,
+              "ch": 2
+            },
+            "to": {
+              "part": 2,
+              "ch": 6
+            },
+            "level": "Lv 35 to 42",
+            "class": "Dreadnought",
+            "kind": "core",
+            "mount": "No mount (armored)",
+            "goal": "Def +30 row; master [[ability:Focused Counter]]. Raging Counter+ (Lv 35) adds Crit +10 to every counter.",
+            "exit": "[[class:Castle Knight]] at Lv 45 in Part III (Heavy C, Axe A, Spear A).",
+            "masteries": [
+              "Focused Counter"
+            ],
+            "why": [
+              "Hit stack: Bronze Axe +4 70 + Expert Counter +20 + Focused Counter +10 + Axes Lv. N (?)",
+              "Ranks short of B on 11/27: stay Armored Knight; battles carry them to B"
+            ],
+            "weapons": [
+              {
+                "item": "Bronze Axe +4",
+                "why": "Enemy-phase counters: Hit 70, Wt 9, Def +1 from +3",
+                "plan": "Carried from Part I"
+              },
+              {
+                "item": "Ji",
+                "why": "Spear B: 2x vs armor and cavalry, Hit 80; player phase"
+              },
+              {
+                "item": "Short Spear",
+                "why": "Range 1-2: counters mages and archers"
+              }
+            ],
+            "equipment": [
+              {
+                "item": "Silver Shield",
+                "why": "Def +5 at Wt 4",
+                "slot": "Defense",
+                "alts": [
+                  "Da Mina Shield",
+                  "Iron Shield"
+                ]
+              },
+              {
+                "item": "Victory Gem",
+                "why": "Heals after each kill; a counter wall kills on enemy phase",
+                "slot": "Accessory",
+                "alts": [
+                  "Hunter's Ring"
+                ]
+              }
+            ],
+            "items": [
+              {
+                "item": "Elixir",
+                "why": "Heals 100: Part II stock (no Part II shops)",
+                "alts": [
+                  "Concoction"
+                ]
+              }
+            ],
+            "arts": [
+              {
+                "name": "Guard Spike",
+                "why": "Axe B: Mt +7, Prt +10"
+              },
+              {
+                "name": "Protective Storm",
+                "why": "Spear B: Mt +5, Prt +7"
+              },
+              {
+                "name": "Discerning Blow",
+                "why": "Axe C: Hit +50 at half damage"
+              },
+              {
+                "name": "Armored Blow",
+                "why": "Spear C: Prt +3 after a kill"
+              },
+              {
+                "name": "Windweave",
+                "why": "Ji art: 10% chance the foe can't counter"
+              }
+            ],
+            "abilities": [
+              {
+                "name": "Focused Counter",
+                "why": "Dreadnought mastery: Hit +10 when attacked first (once mastered)"
+              },
+              {
+                "name": "Raging Counter+",
+                "why": "Personal Lv 35: Atk +3, Crit +10 when the foe attacks first"
+              },
+              {
+                "name": "Great Counter",
+                "why": "Atk +3 when attacked first"
+              },
+              {
+                "name": "Axes Lv. 2",
+                "why": "Axe rank ?: axe Hit +5; take Lv. 3 when it shows"
+              },
+              {
+                "name": "Armored Combat",
+                "why": "Dex +5 in armor: Hit and Crit on counters"
+              }
+            ],
+            "training": [
+              {
+                "rank": "Heavy C, Axe A, Spear A",
+                "for": "Castle Knight (Part III)",
+                "how": "Battle use only: Arena seats bench first"
+              }
+            ],
+            "tips": [
+              "Ch 3: hold an alley choke; Buccar takes the other",
+              "Ch 5: block a choke near the Onager",
+              "Ch 6 Lyrah: hold a tile and let the swarm come; every counter skill fires"
+            ],
+            "drop": [
+              {
+                "item": "Spears Lv. 2",
+                "why": "Armored Combat helps the axe and spear alike"
+              }
+            ]
+          },
+          {
+            "when": "Part III",
+            "from": {
+              "part": 3
+            },
+            "level": "Lv 45+",
+            "class": "Castle Knight",
+            "kind": "core",
+            "mount": "No mount (armored)",
+            "goal": "Counter wall: Expert Counter Hit +20, Raging Counter+ Atk +3 Crit +10; Bronze Axe +4 Hit 70 on counters.",
+            "exit": "Final class.",
+            "masteries": [
+              "Intercept"
+            ],
+            "why": [
+              "No merge or Master License planned (bench): Dreadnought runs the same kit until one is spare",
+              "Boon answer: no sword. Fight undead in Leda's ring, an Aurora Lv 3 turn or within 2 of Eshmel",
+              "Hit stack: Bronze Axe 70 + Expert Counter 20 + Focused Counter 10 + Axes Lv. 4 7 = 107"
+            ],
+            "weapons": [
+              {
+                "item": "Bronze Axe +4",
+                "why": "Main: her Part I axe; Mt ? (jump at +3), Hit 70, Wt 9, Def up",
+                "plan": "Carried from Part I at +4; Soulstone for +3 and +4; Da Mina +2 until then",
+                "alts": [
+                  "Da Mina Axe +2"
+                ]
+              },
+              {
+                "item": "Pilum +2",
+                "why": "1-2 range: base Mt 11 vs Short Spear 5 (Prt +3 needs +3)",
+                "plan": "Boon or Reliquary buy",
+                "alts": [
+                  "Short Spear +2",
+                  "Javelin +2"
+                ]
+              },
+              {
+                "item": "Ji +2",
+                "why": "Effective vs armor and cavalry; Windweave (Hit +10 needs +3)"
+              }
+            ],
+            "equipment": [
+              {
+                "item": "Silver Shield",
+                "why": "Def +5 at Wt 4",
+                "slot": "Defense",
+                "alts": [
+                  "Da Mina Shield",
+                  "Hexlock Shield"
+                ]
+              },
+              {
+                "item": "Victory Gem",
+                "why": "Heals after each kill; a counter wall kills on enemy phase",
+                "slot": "Accessory",
+                "alts": [
+                  "Spearbreak Amulet",
+                  "Hunter's Ring"
+                ]
+              }
+            ],
+            "items": [
+              {
+                "item": "Elixir",
+                "why": "Heals 100",
+                "alts": [
+                  "Concoction"
+                ]
+              }
+            ],
+            "arts": [
+              {
+                "name": "Guard Spike",
+                "why": "Axe B: Mt +7, Prt +10"
+              },
+              {
+                "name": "Protective Storm",
+                "why": "Spear B: Mt +5, Prt +7"
+              },
+              {
+                "name": "Armored Blow",
+                "why": "Spear C: Prt +3 after a kill"
+              },
+              {
+                "name": "Discerning Blow",
+                "why": "Axe C: Hit +50 at half damage"
+              },
+              {
+                "name": "Windweave",
+                "why": "Ji art: 10% chance the foe can't counter"
+              }
+            ],
+            "abilities": [
+              {
+                "name": "Intercept",
+                "why": "Castle Knight mastery: 5 less damage from every hit (once mastered)"
+              },
+              {
+                "name": "Raging Counter+",
+                "why": "Personal Lv 35: Atk +3, Crit +10 when attacked first"
+              },
+              {
+                "name": "Focused Counter",
+                "why": "Dreadnought mastery: Hit +10 when attacked first"
+              },
+              {
+                "name": "Great Counter",
+                "why": "Armored Knight mastery: Atk +3 when attacked first"
+              },
+              {
+                "name": "Axes Lv. 4",
+                "why": "Axe A+: axe Hit/Avo +7; Lv. 3 until A+"
+              }
+            ],
+            "drop": [
+              {
+                "item": "Armored Combat",
+                "why": "Slot goes to Intercept"
+              },
+              {
+                "item": "Axes Lv. 2",
+                "why": "Axes Lv. 4 replaces it"
+              },
+              {
+                "item": "Short Spear",
+                "why": "Pilum +2, or Short Spear +2 as its alt"
+              }
+            ],
+            "training": [
+              {
+                "rank": "Heavy C, Axe A, Spear A",
+                "for": "Castle Knight (Lv 45, Master License)",
+                "how": "Battle use; Heavy-Armor Treatise (Cohen & Maria fleeing drop)"
+              },
+              {
+                "rank": "Axe A+",
+                "for": "Axes Lv. 4",
+                "how": "Arena Heavy Training"
+              }
+            ],
+            "tips": [
+              "Seat: Mahadu (D) for Esmeralda: Raging Counter+ Crit +10 doubles in Wrath; Ji vs cavalry",
+              "Drake (E, on foot) for Buccar or Centurio; Balor west (A) wall for Catania",
+              "Counter Order (Authority B ?): allies within 2 get her Hit +20 when attacked first",
+              "Cohen & Maria: Cha 45 growth wins Lust; Charm Mask (Cha/2 % foe Hit −20) if one is spare"
+            ]
+          }
+        ],
+        "alt": "[[class:Guardian]] as her main class (Res 40 row) if Part II needs a third Res tank; then the axe kit goes. If Buccar is missing before Ch 9, she takes slot 3 from her Ch 6 join.",
+        "sources": [
+          "class-and-weapon-guide",
+          "class-data",
+          "character-learnsets",
+          "equippable-abilities",
+          "weapons-and-items",
+          "combat-arts-and-abilities",
+          "player-pacing-and-recruit-items",
+          "walkthrough-part1-leda",
+          "part2-war",
+          "part3-salvation",
+          "redesign/11-roster-pass"
+        ],
+        "decisions": [
+          {
+            "topic": "Recruit her in Ch 6",
+            "pick": "Ch 6, the week Support 2 lands (500G)",
+            "why": "Every level from Lv 15 grows Soldier and Armored Knight rows, and Great Counter is mastered before Part II. Unrecruited units auto-level on personal growths only, and Part II's catch-up rolls the same way."
+          },
+          {
+            "topic": "Skip the Guardian stint",
+            "pick": "Armored Knight, then Dreadnought, nothing in between",
+            "why": "Brace wouldn't make her five slots (Raging Counter+, three counter masteries, Axes Lv. N), so a Guardian map would only cost her Strike-Last Def. Catania and Sha Lan cover Res.",
+            "else": "Guardian as her main class if Part II needs a third Res tank"
+          },
+          {
+            "topic": "Counter with Bronze Axe +4",
+            "pick": "Bronze Axe +4 on enemy phase, Ji on player phase",
+            "why": "Common ore only. Hit 70 under Expert Counter's +20, Mt jump and Def +1 at +3; Part III +5 is Mt 25, Def +3. The Ji (Hit 80, 2x vs armor and cavalry) is her player-phase weapon.",
+            "else": "Shielding Axe (Prt +3 when attacked first, Hit 65): rare ores to refine"
+          }
+        ],
+        "gates": [
+          {
+            "route": "Leda",
+            "from": {
+              "part": 1,
+              "ch": 6
+            },
+            "by": {
+              "part": 1,
+              "ch": 6
+            },
+            "kind": "recruit",
+            "text": "Support 2 with Leda in Ch 6: gift Jasmine on 5/9, then seat her at Leda's meals"
+          },
+          {
+            "route": "Leda",
+            "from": {
+              "part": 1,
+              "ch": 6
+            },
+            "by": {
+              "part": 1,
+              "ch": 7
+            },
+            "kind": "rank",
+            "text": "Arena Heavy every week: Heavy E+, Axe C, Spear C by Lv 20 for Armored Knight"
+          },
+          {
+            "route": "Leda",
+            "from": {
+              "part": 1,
+              "ch": 7
+            },
+            "by": {
+              "part": 1,
+              "ch": 12
+            },
+            "kind": "rank",
+            "text": "Arena Heavy every week: Heavy D, Axe B, Spear B by 11/27 for Dreadnought"
+          }
+        ],
+        "routeNotes": [
+          {
+            "system": "Supports",
+            "note": "Partners here: Buccar and Olympia. Meal seat: Leda + Jasmine + Buccar until Support 2 (her recruit), then Jasmine + Buccar + Olympia."
+          },
+          {
+            "system": "City exploration",
+            "note": "Arena Heavy from her Ch 6 join: Buccar's second seat in Ch 6, then shared with Buccar and Esmeralda. Dungeon parties are her EXP."
+          },
+          {
+            "system": "Army Training (Part II)",
+            "note": "Lifts anyone below Lv 34, 35, 37 and 39 before Part II Ch 1 to 4 on personal growths only, so her real Part I levels are worth more."
+          }
+        ]
+      }
+    }
+  ],
+  "sources": [
+    "https://fortunesweave.co.uk/characters/jasmine",
+    "https://www.keengamer.com/articles/guides/fire-emblem-fortunes-weave-tier-list-best-characters-ranked-for-every-route/",
+    "https://www.keengamer.com/articles/guides/fire-emblem-fortunes-weave-best-class-for-every-character/",
+    "https://www.pockettactics.com/fire-emblem-fortunes-weave/tier-list"
+  ],
+  "recruitOn": {
+    "Cai": {
+      "how": "recruit",
+      "renown": 8,
+      "gold": 2000,
+      "task": "Appears in Dagsion ~5/8"
+    },
+    "Dietrich": {
+      "how": "recruit",
+      "support": 3,
+      "renown": 9,
+      "gold": 5000
+    },
+    "Theodora": {
+      "how": "recruit",
+      "support": 3,
+      "renown": 8,
+      "gold": 5000
+    },
+    "Leda": {
+      "how": "recruit",
+      "support": 2,
+      "renown": 4,
+      "gold": 500,
+      "window": "Ch 6 (from 5/9)"
+    }
+  }
+}
